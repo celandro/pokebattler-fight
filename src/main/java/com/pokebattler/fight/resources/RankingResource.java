@@ -1,0 +1,68 @@
+package com.pokebattler.fight.resources;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Response;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+import com.leandronunes85.etag.ETag;
+import com.pokebattler.fight.calculator.AttackSimulator;
+import com.pokebattler.fight.calculator.Formulas;
+import com.pokebattler.fight.calculator.RankingSimulator;
+import com.pokebattler.fight.data.PokemonDataCreator;
+import com.pokebattler.fight.data.proto.FightOuterClass.*;
+import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
+import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
+import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
+import com.pokebattler.fight.jaxrs.CacheControl;
+
+@Component
+@Path("/rankings")
+public class RankingResource {
+
+    @Resource
+    RankingSimulator simulator;
+    @Resource
+    Formulas formulas;
+    @Resource
+    PokemonDataCreator creator;
+
+    public static final String MAX_LEVEL = "40";
+    public static final int MAX_INDIVIDUAL_STAT = 15;
+    public Logger log = LoggerFactory.getLogger(getClass());
+
+
+    
+    @GET
+    @Path("/levels/{level}/strategies/{attackStrategy}/{defenseStrategy}")
+    @Produces("application/json")
+    @ETag 
+    public Response rank(@PathParam("level") String level, @PathParam("attackStrategy") AttackStrategyType attackStrategy , @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
+        log.debug("Calculating rankings for level {}, attackStrategy {}, defenseStrategy {}", 
+                level, attackStrategy, defenseStrategy);
+        // set caching based on wether the result is random
+        // TODO: refactor this to strategy pattern or change to a parameter?
+        // maybe a query parameter to seed the rng?
+        javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+        cacheControl.setMaxAge(isRandom(attackStrategy,defenseStrategy)?0:86000);
+        return Response.ok(simulator.rank(level, attackStrategy, defenseStrategy)).cacheControl(cacheControl ).build();
+
+    }
+    
+    private boolean isRandom(AttackStrategyType attackStrategy , AttackStrategyType defenseStrategy) {
+        return defenseStrategy == AttackStrategyType.DEFENSE_RANDOM;
+        
+    }
+    
+    
+}

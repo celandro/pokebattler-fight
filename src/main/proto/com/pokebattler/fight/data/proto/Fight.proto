@@ -1,0 +1,96 @@
+syntax = "proto3";
+package com.pokebattler.fight.data.proto;
+import "com/pokebattler/fight/data/proto/PokemonData.proto";
+import "com/pokebattler/fight/data/proto/PokemonMove.proto";
+import "com/pokebattler/fight/data/proto/PokemonId.proto";
+
+enum AttackStrategyType {
+	NONE = 0;
+	QUICK_ATTACK_ONLY = 1;
+	DEFENSE = 2;
+	CINEMATIC_ATTACK_WHEN_POSSIBLE = 3;
+	DEFENSE_RANDOM = 4;
+	DEFENSE_LUCKY = 5;
+	DODGE_SPECIALS = 6;
+}
+
+message Fight {
+	PokemonData attacker1 = 1;
+	PokemonData defender = 2;
+	AttackStrategyType strategy = 3;
+	AttackStrategyType defenseStrategy = 4;
+}
+
+message FightResult {
+	bool win = 1;
+	int32 total_combat_time = 2;
+	repeated CombatantResult combatants = 3;
+	repeated CombatResult combat_result=4;
+	Fight fight_parameters = 5;
+}
+message RankingResult {
+	repeated AttackerResult attackers = 1;
+	AttackStrategyType attackStrategy = 2;
+	AttackStrategyType defenseStrategy = 3;
+}
+message AttackerResult {
+	PokemonId pokemon_id = 1;
+	repeated AttackerSubResult byMove = 2;
+}
+
+message AttackerSubResult {
+	PokemonMove move_1 = 1;
+	PokemonMove move_2 = 2;
+	repeated DefenderResult defenders = 3;
+	AttackerSubResultTotal total = 4;
+}
+message AttackerSubResultTotal {
+	int32 combat_time = 1;
+	int32 damage = 2;
+	float dps = 3;
+}
+
+message DefenderResult {
+	PokemonId pokemon_id = 1;
+	repeated DefenderSubResult byMove = 2;
+}
+message DefenderSubResult {
+	PokemonMove move_1 = 1;
+	PokemonMove move_2 = 2;
+	FightResult result = 3;
+}
+
+
+
+message CombatantResult {
+	AttackStrategyType strategy = 1;
+	int32 damage_dealt = 2;
+	int32 combat_time=3;
+	float dps = 4;
+	int32 start_hp = 5;
+	int32 end_hp = 6;
+	Combatant combatant = 7;
+	int64 id = 8;
+	int32 energy = 9;
+	PokemonId pokemon= 10;
+}
+enum Combatant {
+	UNKNOWN=0;
+	ATTACKER1=1;
+	ATTACKER2=2;
+	ATTACKER3=3;
+	DEFENDER=4;
+}
+message CombatResult {
+	int64 attacker_id = 1;
+	Combatant attacker = 2;
+	Combatant defender = 4;
+	int32 combat_time = 5;
+	int32 damage = 6;
+	double dodge_percent=7;
+	PokemonMove attack_move = 8;
+	bool critical_hit = 9;
+	int32 damage_time = 10;
+	int32 current_time = 11;
+
+}

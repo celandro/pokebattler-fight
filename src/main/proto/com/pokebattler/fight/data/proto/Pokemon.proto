@@ -1,0 +1,38 @@
+syntax = "proto3";
+package com.pokebattler.fight.data.proto;
+
+import "com/pokebattler/fight/data/proto/PokemonId.proto";
+import "com/pokebattler/fight/data/proto/PokemonRarity.proto";
+import "com/pokebattler/fight/data/proto/PokemonType.proto";
+import "com/pokebattler/fight/data/proto/PokemonMove.proto";
+import "com/pokebattler/fight/data/proto/PokemonFamilyId.proto";
+import "com/pokebattler/fight/data/proto/StatsAttributes.proto";
+
+message Pokemons {
+	repeated Pokemon pokemon = 1;
+}
+
+
+message Pokemon {
+	PokemonId pokemon_id = 1;
+//	float model_scale = 3;
+	PokemonType type = 4;
+	PokemonType type_2 = 5;
+//	CameraAttributes camera = 6;
+//	EncounterAttributes encounter = 7;
+	StatsAttributes stats = 8;
+	repeated PokemonMove quick_moves = 9;
+	repeated PokemonMove cinematic_moves = 10;
+//	repeated float animation_time = 11;
+	PokemonId evolution_ids = 12;
+	int32 evolution_pips = 13;
+	PokemonRarity rarity = 14;
+	float pokedex_height_m = 15;
+	float pokedex_weight_kg = 16;
+	PokemonId parent_pokemon_id = 17;
+	float height_std_dev = 18;
+	float weight_std_dev = 19;
+	float km_distance_to_hatch = 20;
+	PokemonFamilyId family_id = 21;
+	int32 candy_to_evolve = 22;
+}

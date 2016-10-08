@@ -1,0 +1,58 @@
+syntax = "proto3";
+package com.pokebattler.fight.data.proto;
+
+import "com/pokebattler/fight/data/proto/PokemonId.proto";
+import "com/pokebattler/fight/data/proto/PokemonMove.proto";
+//import "ItemId.proto";
+
+message PokemonDatas {
+	repeated PokemonData pokemon = 1;
+}
+
+message MiniPokemonDatas {
+	PokemonId pokemonId = 1;
+	int32 cp = 2;
+	repeated MiniPokemonData possible= 3;
+}
+
+message MiniPokemonData {
+	int32 attack = 1;
+	int32 defense = 2;
+	int32 stamina = 3;
+	string level = 4;
+}
+
+message PokemonData {
+	fixed64 id = 1;
+	PokemonId pokemon_id = 2;
+	int32 cp = 3;
+	int32 stamina = 4;
+	int32 stamina_max = 5;
+	PokemonMove move_1 = 6;
+	PokemonMove move_2 = 7;
+	string deployed_fort_id = 8;
+	string owner_name = 9;
+	bool is_egg = 10;
+	double egg_km_walked_target = 11;
+	double egg_km_walked_start = 12;
+	int32 origin = 14;
+	float height_m = 15;
+	float weight_kg = 16;
+	int32 individual_attack = 17;
+	int32 individual_defense = 18;
+	int32 individual_stamina = 19;
+	double cp_multiplier = 20;
+//	ItemId pokeball = 21;
+	uint64 captured_cell_id = 22;
+	int32 battles_attacked = 23;
+	int32 battles_defended = 24;
+	string egg_incubator_id = 25;
+	uint64 creation_time_ms = 26;
+	int32 num_upgrades = 27;
+	float additional_cp_multiplier = 28;
+	int32 favorite = 29;
+	string nickname = 30;
+	int32 from_fort = 31;
+
+	string level = 100;
+}

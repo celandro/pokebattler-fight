@@ -1,0 +1,9 @@
+syntax = "proto3";
+package com.pokebattler.fight.data.proto;
+
+message CpM {
+	int32 level = 1;
+	bool half_level =2;
+	double cpm = 3;
+	int32 candies = 4;
+}
