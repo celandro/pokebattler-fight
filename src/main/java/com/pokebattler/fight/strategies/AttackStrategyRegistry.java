@@ -1,30 +1,29 @@
 package com.pokebattler.fight.strategies;
 
-import static com.pokebattler.fight.strategies.NoAttack.NoAttackBuilder;
-import static com.pokebattler.fight.strategies.QuickAttackOnly.QuickAttackOnlyBuilder;
-
 import java.util.EnumMap;
 import java.util.Map;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
-import com.pokebattler.fight.calculator.CinematicAttackWhenPossible;
-import com.pokebattler.fight.calculator.DefenderRandomAttack;
-import com.pokebattler.fight.calculator.CinematicAttackWhenPossible.CinematicAttackWhenPossibleBuilder;
-import com.pokebattler.fight.calculator.DefenderRandomAttack.DefenderLuckyAttackBuilder;
-import com.pokebattler.fight.calculator.DefenderRandomAttack.DefenderRandomAttackBuilder;
-import com.pokebattler.fight.data.proto.FightOuterClass.*;
+import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
+import com.pokebattler.fight.strategies.CinematicAttackWhenPossible.CinematicAttackWhenPossibleBuilder;
 import com.pokebattler.fight.strategies.DefenderAttack.DefenderAttackBuilder;
+import com.pokebattler.fight.strategies.DefenderRandomAttack.DefenderLuckyAttackBuilder;
+import com.pokebattler.fight.strategies.DefenderRandomAttack.DefenderRandomAttackBuilder;
+import com.pokebattler.fight.strategies.DodgeAll.DodgeAllBuilder;
+import com.pokebattler.fight.strategies.DodgeAll2.DodgeAll2Builder;
 import com.pokebattler.fight.strategies.DodgeSpecials.DodgeSpecialsBuilder;
+import com.pokebattler.fight.strategies.DodgeSpecials2.DodgeSpecials2Builder;
+import com.pokebattler.fight.strategies.NoAttack.NoAttackBuilder;
+import com.pokebattler.fight.strategies.QuickAttackOnly.QuickAttackOnlyBuilder;
 
 @Repository
 public class AttackStrategyRegistry {
-    private Map<AttackStrategyType,AttackStrategy.AttackStrategyBuilder<?>> strategies;
+    private Map<AttackStrategyType, AttackStrategy.AttackStrategyBuilder<?>> strategies;
     @Resource
     QuickAttackOnlyBuilder strategy1;
     @Resource
@@ -39,6 +38,12 @@ public class AttackStrategyRegistry {
     DefenderLuckyAttackBuilder strategy6;
     @Resource
     DodgeSpecialsBuilder strategy7;
+    @Resource
+    DodgeSpecials2Builder strategy8;
+    @Resource
+    DodgeAllBuilder strategy9;
+    @Resource
+    DodgeAll2Builder strategy10;
 
     @PostConstruct
     public void init() {
@@ -50,16 +55,20 @@ public class AttackStrategyRegistry {
         register(strategy5);
         register(strategy6);
         register(strategy7);
+        register(strategy8);
+        register(strategy9);
+        register(strategy10);
     }
-    
+
     public boolean register(AttackStrategy.AttackStrategyBuilder<?> strategyBuilder) {
-        return strategies.put(strategyBuilder.getType(),strategyBuilder) != null;
+        return strategies.put(strategyBuilder.getType(), strategyBuilder) != null;
     }
+
     public AttackStrategy create(AttackStrategyType name, PokemonData pokemon, int extraDelay) {
-        if (!strategies.containsKey(name)) throw new IllegalArgumentException("Unimplemented attack strategy " + name);
+        if (!strategies.containsKey(name)) {
+            throw new IllegalArgumentException("Unimplemented attack strategy " + name);
+        }
         return strategies.get(name).build(pokemon, extraDelay);
     }
-    
-    
 
 }

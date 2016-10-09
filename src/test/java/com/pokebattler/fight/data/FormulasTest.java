@@ -1,15 +1,11 @@
 package com.pokebattler.fight.data;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.pokebattler.fight.calculator.Formulas;
-import com.pokebattler.fight.data.CpMRepository;
-import com.pokebattler.fight.data.PokemonRepository;
-import com.pokebattler.fight.data.ResistRepository;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 

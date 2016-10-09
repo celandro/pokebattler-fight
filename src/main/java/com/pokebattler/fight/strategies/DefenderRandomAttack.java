@@ -1,30 +1,28 @@
-package com.pokebattler.fight.calculator;
+package com.pokebattler.fight.strategies;
 
-import java.util.Arrays;
 import java.util.Random;
 
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Repository;
 
+import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.data.MoveRepository;
-import com.pokebattler.fight.data.proto.FightOuterClass.*;
+import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
-import com.pokebattler.fight.strategies.AttackStrategy;
-import com.pokebattler.fight.strategies.AttackStrategy.PokemonAttack;
 
 public class DefenderRandomAttack implements AttackStrategy {
-    int extraDelay;
-    PokemonData pokemon;
-    Move move1;
-    Move move2;
-    Random r = new Random();
+    private final int extraDelay;
+    private final PokemonData pokemon;
+    private final Move move1;
+    private final Move move2;
+    private final Random r = new Random();
     public static int SECOND_ATTACK_DELAY = 1000;
-    int randomDelay;
-    AttackStrategyType type;
-    double specialRandom;
+    public static int FIRST_ATTACK_TIME = 1600;
+    private final int randomDelay;
+    private final AttackStrategyType type;
+    private final double specialRandom;
 
     @Override
     public AttackStrategyType getType() {
@@ -49,11 +47,12 @@ public class DefenderRandomAttack implements AttackStrategy {
         } else {
             switch (attackerState.getNumAttacks()) {
             case 0:
-                return new PokemonAttack(pokemon.getMove1(), SECOND_ATTACK_DELAY/2);
+                return new PokemonAttack(pokemon.getMove1(), FIRST_ATTACK_TIME);
             case 1:
                 return new PokemonAttack(pokemon.getMove1(), SECOND_ATTACK_DELAY - move1.getDurationMs());
             case 2:
-                return new PokemonAttack(pokemon.getMove1(), extraDelay + r.nextInt(randomDelay) - SECOND_ATTACK_DELAY);
+                return new PokemonAttack(pokemon.getMove1(),
+                        extraDelay + r.nextInt(randomDelay) - move1.getDurationMs());
             default:
                 return new PokemonAttack(pokemon.getMove1(), extraDelay + r.nextInt(randomDelay));
             }
@@ -72,12 +71,14 @@ public class DefenderRandomAttack implements AttackStrategy {
         @Override
         public DefenderRandomAttack build(PokemonData pokemon, int extraDelay) {
             return new DefenderRandomAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
-                    extraDelay - ((int) RAND_MS_DELAY / 2), RAND_MS_DELAY, AttackStrategyType.DEFENSE_RANDOM, RAND_CHANCE_SPECIAL);
+                    extraDelay - (RAND_MS_DELAY / 2), RAND_MS_DELAY, AttackStrategyType.DEFENSE_RANDOM,
+                    RAND_CHANCE_SPECIAL);
         }
     }
 
     @Component
-    public static class DefenderLuckyAttackBuilder implements AttackStrategy.AttackStrategyBuilder<DefenderRandomAttack> {
+    public static class DefenderLuckyAttackBuilder
+            implements AttackStrategy.AttackStrategyBuilder<DefenderRandomAttack> {
         public static int RAND_MS_DELAY = 1;
         public static double RAND_CHANCE_SPECIAL = 1.0;
         public static int RAND_LUCKY_DELAY = 50;
@@ -87,7 +88,8 @@ public class DefenderRandomAttack implements AttackStrategy {
         @Override
         public DefenderRandomAttack build(PokemonData pokemon, int extraDelay) {
             return new DefenderRandomAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
-                    extraDelay - RAND_LUCKY_DELAY, RAND_MS_DELAY, AttackStrategyType.DEFENSE_LUCKY, RAND_CHANCE_SPECIAL);
+                    extraDelay - RAND_LUCKY_DELAY, RAND_MS_DELAY, AttackStrategyType.DEFENSE_LUCKY,
+                    RAND_CHANCE_SPECIAL);
         }
     }
 

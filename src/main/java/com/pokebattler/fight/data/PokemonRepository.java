@@ -18,9 +18,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.protobuf.util.JsonFormat;
 import com.pokebattler.fight.data.proto.PokemonFamilyIdOuterClass.PokemonFamilyId;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
+import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemons;
-import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
 import com.pokebattler.fight.data.proto.PokemonTypeOuterClass.PokemonType;
 import com.pokebattler.fight.data.proto.StatsAttributesOuterClass.StatsAttributes;
 import com.pokebattler.fight.data.raw.RawData;
@@ -34,14 +34,14 @@ public class PokemonRepository {
     JsonFormat.Printer printer;
 
     public PokemonRepository() throws Exception {
-        InputStream is = this.getClass().getResourceAsStream("pokemongo.json");
+        final InputStream is = this.getClass().getResourceAsStream("pokemongo.json");
         if (is == null) {
             throw new IllegalArgumentException("Can not find pokemongo.json");
         }
         mapper = new ObjectMapper();
         mapper.configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, true);
         printer = JsonFormat.printer().includingDefaultValueFields();
-        RawData rawData = mapper.readValue(is, RawData.class);
+        final RawData rawData = mapper.readValue(is, RawData.class);
         all = createPokemons(rawData);
         pokemonMap = all.getPokemonList().stream().collect(Collectors.toMap(p -> p.getPokemonId(), p -> p));
         log.info("Loaded {} pokemons", all.getPokemonCount());
@@ -49,25 +49,26 @@ public class PokemonRepository {
 
     public Pokemons createPokemons(RawData rawData) {
         final Pokemons.Builder allBuilder = Pokemons.newBuilder();
-        List<Pokemon> pokes = rawData.items.stream().filter(item -> (item != null && item.getPokemon() != null))
+        final List<Pokemon> pokes = rawData.items.stream().filter(item -> (item != null && item.getPokemon() != null))
                 .map(item -> item.getPokemon()).map(pokemon -> {
                     try {
-                        PokemonId id = PokemonId.forNumber(Integer.parseInt(pokemon.getUniqueId().substring(1, 5)));
+                        final PokemonId id = PokemonId
+                                .forNumber(Integer.parseInt(pokemon.getUniqueId().substring(1, 5)));
                         PokemonFamilyId familyId = null;
                         if (pokemon.getFamilyId() != null) {
                             try {
                                 familyId = PokemonFamilyId.forNumber(Integer.parseInt(pokemon.getFamilyId()));
-                            } catch (NumberFormatException e) {
+                            } catch (final NumberFormatException e) {
                                 // this one is strangely formatted in the file
                                 // with 2 formats..
                                 familyId = PokemonFamilyId
                                         .forNumber(Integer.parseInt(pokemon.getFamilyId().substring(1, 5)));
                             }
                         }
-                        PokemonId parentId = pokemon.getParentId() == null ? null
+                        final PokemonId parentId = pokemon.getParentId() == null ? null
                                 : PokemonId.forNumber(Integer.parseInt(pokemon.getParentId().substring(1, 5)));
 
-                        Pokemon.Builder b = Pokemon.newBuilder().setPokemonId(id)
+                        final Pokemon.Builder b = Pokemon.newBuilder().setPokemonId(id)
                                 .setType(PokemonType.valueOf(pokemon.getType1()))
                                 .setStats(StatsAttributes.newBuilder().setBaseAttack(pokemon.getStats().getBaseAttack())
                                         .setBaseDefense(pokemon.getStats().getBaseDefense())
@@ -91,11 +92,11 @@ public class PokemonRepository {
                                 .map(num -> PokemonMove.forNumber(num)).forEach(move -> b.addCinematicMoves(move));
 
                         return b.build();
-                    } catch (RuntimeException e) {
+                    } catch (final RuntimeException e) {
                         try {
                             log.info("Could not handle {}",
                                     mapper.writerWithDefaultPrettyPrinter().writeValueAsString(pokemon));
-                        } catch (JsonProcessingException e1) {
+                        } catch (final JsonProcessingException e1) {
                             // TODO Auto-generated catch block
                             e1.printStackTrace();
                         }
@@ -125,9 +126,9 @@ public class PokemonRepository {
 
     public Pokemon getByName(String name) {
         try {
-            PokemonId id = PokemonId.valueOf(name.toUpperCase());
+            final PokemonId id = PokemonId.valueOf(name.toUpperCase());
             return getById(id);
-        } catch (IllegalArgumentException e) {
+        } catch (final IllegalArgumentException e) {
             log.warn("Could not find {}", name);
             return null;
         }
@@ -135,9 +136,9 @@ public class PokemonRepository {
 
     public Pokemon getByNumber(int number) {
         try {
-            PokemonId id = PokemonId.forNumber(number);
+            final PokemonId id = PokemonId.forNumber(number);
             return getById(id);
-        } catch (IllegalArgumentException e) {
+        } catch (final IllegalArgumentException e) {
             log.warn("Could not find {}", number);
             return null;
         }

@@ -10,7 +10,6 @@ import javax.ws.rs.container.ContainerResponseFilter;
 import javax.ws.rs.container.PreMatching;
 import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
-import javax.ws.rs.core.Response.ResponseBuilder;
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
 
@@ -31,19 +30,26 @@ public class CORSResponseFilter implements ContainerResponseFilter, ExceptionMap
     public void filter(ContainerRequestContext requestContext, ContainerResponseContext responseContext)
             throws IOException {
 
-        MultivaluedMap<String, Object> headers = responseContext.getHeaders();
-//        if (requestContext.getHeaderString("Host").endsWith("pokebattler.com")) {
-//
-//            if (requestContext.getHeaderString("Origin") == null) {
-//                headers.putSingle("Access-Control-Allow-Origin", (requestContext.getSecurityContext().isSecure()?"https":"http") + "://www.pokebattler.com");
-//            } else if (requestContext.getHeaderString("Origin").endsWith("pokebattler.com")) {
-//                headers.putSingle("Access-Control-Allow-Origin", requestContext.getHeaderString("Origin"));
-//                headers.putSingle("Access-Control-Allow-Origin", "*");
-//            }
-//        } else {
-            headers.putSingle("Access-Control-Allow-Origin", "*");
-//        }
-            
+        final MultivaluedMap<String, Object> headers = responseContext.getHeaders();
+        // if
+        // (requestContext.getHeaderString("Host").endsWith("pokebattler.com"))
+        // {
+        //
+        // if (requestContext.getHeaderString("Origin") == null) {
+        // headers.putSingle("Access-Control-Allow-Origin",
+        // (requestContext.getSecurityContext().isSecure()?"https":"http") +
+        // "://www.pokebattler.com");
+        // } else if
+        // (requestContext.getHeaderString("Origin").endsWith("pokebattler.com"))
+        // {
+        // headers.putSingle("Access-Control-Allow-Origin",
+        // requestContext.getHeaderString("Origin"));
+        // headers.putSingle("Access-Control-Allow-Origin", "*");
+        // }
+        // } else {
+        headers.putSingle("Access-Control-Allow-Origin", "*");
+        // }
+
         // headers.add("Access-Control-Allow-Origin",
         // "http://podcastpedia.org"); //allows CORS requests only coming from
         // podcastpedia.org
@@ -57,7 +63,7 @@ public class CORSResponseFilter implements ContainerResponseFilter, ExceptionMap
         if (ex instanceof javax.ws.rs.NotFoundException) {
             log.trace("404");
         } else {
-            log.error("Unexpected error",ex);
+            log.error("Unexpected error", ex);
         }
         return Response.serverError().header("Access-Control-Allow-Origin", "*")
                 .header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT")

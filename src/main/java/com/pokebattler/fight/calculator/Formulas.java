@@ -12,7 +12,7 @@ import com.pokebattler.fight.data.CpMRepository;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.ResistRepository;
 import com.pokebattler.fight.data.proto.Cpm.CpM;
-import com.pokebattler.fight.data.proto.FightOuterClass.*;
+import com.pokebattler.fight.data.proto.FightOuterClass.CombatResult;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 
@@ -61,15 +61,15 @@ public class Formulas {
 
     public int calculateCp(String level, int baseAttack, int indAttack, int baseDefense, int indDefense, int baseStam,
             int indStam) {
-        CpM cpM = cpmRepository.getCpM(level);
+        final CpM cpM = cpmRepository.getCpM(level);
         if (cpM == null) {
             throw new IllegalArgumentException("Could not find cpm for level " + level);
         }
-        double m = cpM.getCpm();
-        double attack = (baseAttack + indAttack) * m;
-        double defense = (baseDefense + indDefense) * m;
-        double stamina = (baseStam + indStam) * m;
-        return Math.max(10, (int) (0.1 * Math.sqrt( attack * attack * defense * stamina)));
+        final double m = cpM.getCpm();
+        final double attack = (baseAttack + indAttack) * m;
+        final double defense = (baseDefense + indDefense) * m;
+        final double stamina = (baseStam + indStam) * m;
+        return Math.max(10, (int) (0.1 * Math.sqrt(attack * attack * defense * stamina)));
     }
 
     public double calculateModifier(Move move, Pokemon attacker, Pokemon defender, boolean isDodge) {
@@ -78,32 +78,33 @@ public class Formulas {
             modifier *= 1.25; // stab
         }
 
-        modifier *= resistRepository.getResist(move.getType(), defender.getType()) *
-                resistRepository.getResist(move.getType(), defender.getType2());
+        modifier *= resistRepository.getResist(move.getType(), defender.getType())
+                * resistRepository.getResist(move.getType(), defender.getType2());
         if (isDodge) {
-            modifier *=DODGE_MODIFIER;
+            modifier *= DODGE_MODIFIER;
         }
-        
+
         return modifier;
 
     }
 
     public CombatResult.Builder attackerCombat(double attack, double defense, Move move, Pokemon attacker,
             Pokemon defender, int timeToNextAttack) {
-        int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), false, false);
-        CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(move.getDurationMs()).setDamage(damage)
-                .setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId()).setDodgePercent(0.0)
-                .setCriticalHit(false);
+        final int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), false,
+                false);
+        final CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(move.getDurationMs())
+                .setDamage(damage).setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId())
+                .setDodgePercent(0.0).setCriticalHit(false);
         return builder;
     }
 
     public CombatResult.Builder defenderCombat(double attack, double defense, Move move, Pokemon attacker,
             Pokemon defender, int timeToNextAttack, boolean isDodge) {
-        int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), true, isDodge);
-        CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(move.getDurationMs()).setDamage(damage)
-                .setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId())
-                .setDodgePercent(isDodge?DODGE_MODIFIER:0.0)
-                .setCriticalHit(false);
+        final int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), true,
+                isDodge);
+        final CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(move.getDurationMs())
+                .setDamage(damage).setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId())
+                .setDodgePercent(isDodge ? DODGE_MODIFIER : 0.0).setCriticalHit(false);
         return builder;
     }
 
@@ -112,24 +113,23 @@ public class Formulas {
         if (move == MoveRepository.DODGE_MOVE) {
             return 0;
         }
-        double modifier = calculateModifier(move, attacker, defender, isDodge);
+        final double modifier = calculateModifier(move, attacker, defender, isDodge);
 
         // critical hits are not implemented
-        double critMultiplier = 1.0;
+        final double critMultiplier = 1.0;
         // misses are not implemented
-        double missMultiplier = 1.0;
-        
+        final double missMultiplier = 1.0;
+
         // int damage = Math.max(1, (int) ((45.0 / 100.0 * attack / defense *
         // move.getPower() + 0.8)
         // * (wasCrit?1.5:1.0) * move.getAccuracyChance() * modifier));
         // rounds up if possible
-        return  (int) (0.5 * attack / defense * move.getPower() 
-                * critMultiplier * missMultiplier  * modifier) + 1;
+        return (int) (0.5 * attack / defense * move.getPower() * critMultiplier * missMultiplier * modifier) + 1;
     }
 
     public int defensePrestigeGain(double attack, double... defenses) {
         int prestigeGain = 0;
-        for (double defense : defenses) {
+        for (final double defense : defenses) {
             if (attack < defense) {
                 prestigeGain += (int) (500.0 * defense / attack);
             } else {

@@ -27,56 +27,59 @@ public class MoveRepository {
     ObjectMapper mapper;
     final Moves all;
     final Map<PokemonMove, Move> moveMap;
-    public final static Move DODGE_MOVE = Move.newBuilder().setMoveId(PokemonMove.DODGE)
-            .setAccuracyChance(0).setDurationMs(500).build();
+    public final static Move DODGE_MOVE = Move.newBuilder().setMoveId(PokemonMove.DODGE).setAccuracyChance(0)
+            .setDurationMs(500).build();
 
     public MoveRepository() throws Exception {
-        InputStream is = this.getClass().getResourceAsStream("pokemongo.json");
+        final InputStream is = this.getClass().getResourceAsStream("pokemongo.json");
         if (is == null) {
             throw new IllegalArgumentException("Can not find pokemongo.json");
         }
         mapper = new ObjectMapper();
         mapper.configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, true);
         mapper.setSerializationInclusion(Include.NON_NULL);
-        RawData rawData = mapper.readValue(is, RawData.class);
+        final RawData rawData = mapper.readValue(is, RawData.class);
         all = createMoves(rawData);
         moveMap = all.getMoveList().stream().collect(Collectors.toMap(p -> p.getMoveId(), p -> p));
         log.info("Loaded {} moves", all.getMoveCount());
     }
 
     public Moves createMoves(RawData rawData) {
-        Moves.Builder allBuilder = Moves.newBuilder();
-        JsonFormat.Parser parser = JsonFormat.parser();
-        List<Move> moves = rawData.items.stream().filter(item -> (item != null && item.getMove() != null))
+        final Moves.Builder allBuilder = Moves.newBuilder();
+        final JsonFormat.Parser parser = JsonFormat.parser();
+        final List<Move> moves = rawData.items.stream().filter(item -> (item != null && item.getMove() != null))
                 .map(item -> item.getMove()).map(move -> {
-                    Move.Builder builder = Move.newBuilder();
+                    final Move.Builder builder = Move.newBuilder();
                     String moveString = null;
                     try {
                         int num = 0;
                         try {
                             num = Integer.parseInt(move.getUniqueId());
-                        } catch(NumberFormatException e) {
+                        } catch (final NumberFormatException e) {
                             num = Integer.parseInt(move.getUniqueId().substring(1, 5));
                         }
-                        PokemonMove id = PokemonMove.forNumber(num);
+                        final PokemonMove id = PokemonMove.forNumber(num);
                         // null out the field they don't know about
                         move.setUniqueId(null);
                         move.setMoveId(id.name());
                         moveString = mapper.writeValueAsString(move);
                         parser.merge(moveString, builder);
-                    } catch (Exception e) {
-                        throw new IllegalArgumentException("Could not parse "+ move.getUniqueId() + ":" +moveString, e);
+                    } catch (final Exception e) {
+                        throw new IllegalArgumentException("Could not parse " + move.getUniqueId() + ":" + moveString,
+                                e);
                     }
                     return builder.build();
                 }).collect(Collectors.toList());
         allBuilder.addAllMove(moves);
         allBuilder.addMove(DODGE_MOVE);
         return allBuilder.build();
-        
+
     }
+
     public Moves getAll() {
         return all;
     }
+
     public Map<String, String> getIdToNameMap() {
         // return sorted
         return EnumSet.allOf(PokemonMove.class).stream().filter(key -> moveMap.containsKey(key))
@@ -89,30 +92,28 @@ public class MoveRepository {
                 e -> Integer.valueOf(e.getNumber()), Integer::sum, () -> new TreeMap<>()));
     }
 
-
     public Move getByName(String name) {
         try {
-            PokemonMove id = PokemonMove.valueOf(name.toUpperCase());
+            final PokemonMove id = PokemonMove.valueOf(name.toUpperCase());
             return getById(id);
-        } catch (IllegalArgumentException e) {
-            log.warn("Could not find {}",name);
+        } catch (final IllegalArgumentException e) {
+            log.warn("Could not find {}", name);
             return null;
         }
     }
-
 
     public Move getByNumber(int number) {
         try {
-            PokemonMove id = PokemonMove.forNumber(number);
+            final PokemonMove id = PokemonMove.forNumber(number);
             return getById(id);
-        } catch (IllegalArgumentException e) {
-            log.warn("Could not find {}",number);
+        } catch (final IllegalArgumentException e) {
+            log.warn("Could not find {}", number);
             return null;
         }
     }
+
     public Move getById(PokemonMove id) {
         return moveMap.get(id);
     }
-
 
 }

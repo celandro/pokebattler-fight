@@ -12,7 +12,7 @@ import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 
-public class DodgeSpecials implements AttackStrategy {
+public class DodgeAll implements AttackStrategy {
     PokemonData pokemon;
     int extraDelay;
     Move move1;
@@ -21,10 +21,10 @@ public class DodgeSpecials implements AttackStrategy {
 
     @Override
     public AttackStrategyType getType() {
-        return AttackStrategyType.DODGE_SPECIALS;
+        return AttackStrategyType.DODGE_ALL;
     }
 
-    public DodgeSpecials(PokemonData pokemon, Move move1, Move move2, int extraDelay) {
+    public DodgeAll(PokemonData pokemon, Move move1, Move move2, int extraDelay) {
         this.pokemon = pokemon;
         this.extraDelay = extraDelay;
         this.move1 = move1;
@@ -34,8 +34,7 @@ public class DodgeSpecials implements AttackStrategy {
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
         // dodge special if we can
-        if (defenderState.getNextMove() != null && !defenderState.getNextMove().getMoveId().name().endsWith("FAST")
-                && defenderState.getTimeToNextDamage() > 0) {
+        if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0) {
             if (defenderState.getTimeToNextDamage() < DODGE_MOVE.getDurationMs() + extraDelay) {
                 return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
             } else if (defenderState.getTimeToNextDamage() > move2.getDurationMs() + extraDelay + CAST_TIME
@@ -64,13 +63,13 @@ public class DodgeSpecials implements AttackStrategy {
     }
 
     @Component
-    public static class DodgeSpecialsBuilder implements AttackStrategy.AttackStrategyBuilder<DodgeSpecials> {
+    public static class DodgeAllBuilder implements AttackStrategy.AttackStrategyBuilder<DodgeAll> {
         @Resource
         private MoveRepository move;
 
         @Override
-        public DodgeSpecials build(PokemonData pokemon, int extraDelay) {
-            return new DodgeSpecials(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
+        public DodgeAll build(PokemonData pokemon, int extraDelay) {
+            return new DodgeAll(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
                     extraDelay);
         }
     }

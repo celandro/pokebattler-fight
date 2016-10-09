@@ -1,6 +1,7 @@
 package com.pokebattler.fight.data.raw;
 
 import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 public class RawData {
@@ -45,6 +46,7 @@ public class RawData {
         }
 
     }
+
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Move {
         private String uniqueId;
@@ -62,101 +64,129 @@ public class RawData {
         private int damageWindowStartMs;
         private int damageWindowEndMs;
         private int energyDelta;
+
         public float getCriticalChance() {
             return criticalChance;
         }
-       
+
         public String getUniqueId() {
             return uniqueId;
         }
+
         public void setUniqueId(String uniqueId) {
             this.uniqueId = uniqueId;
         }
-        
+
         public String getMoveId() {
             return moveId;
         }
+
         public void setMoveId(String moveId) {
             this.moveId = moveId;
         }
+
         public int getAnimationId() {
             return animationId;
         }
+
         public void setAnimationId(int animationId) {
             this.animationId = animationId;
         }
+
         public String getType() {
             return type;
         }
+
         public void setType(String type) {
             this.type = type;
         }
+
         public int getPower() {
             return power;
         }
+
         public void setPower(int power) {
             this.power = power;
         }
+
         public float getAccuracyChance() {
             return accuracyChance;
         }
+
         public void setCriticalChance(float criticalChance) {
             this.criticalChance = criticalChance;
         }
+
         public void setAccuracyChance(float accuracyChance) {
             this.accuracyChance = accuracyChance;
         }
+
         public float getStaminaLossScalar() {
             return staminaLossScalar;
         }
+
         public void setStaminaLossScalar(float staminaLossScalar) {
             this.staminaLossScalar = staminaLossScalar;
         }
+
         public int getTrainerLevelMin() {
             return trainerLevelMin;
         }
+
         public void setTrainerLevelMin(int trainerLevelMin) {
             this.trainerLevelMin = trainerLevelMin;
         }
+
         public int getTrainerLevelMax() {
             return trainerLevelMax;
         }
+
         public void setTrainerLevelMax(int trainerLevelMax) {
             this.trainerLevelMax = trainerLevelMax;
         }
+
         public String getVfxName() {
             return vfxName;
         }
+
         public void setVfxName(String vfxName) {
             this.vfxName = vfxName;
         }
+
         public int getDurationMs() {
             return durationMs;
         }
+
         public void setDurationMs(int durationMs) {
             this.durationMs = durationMs;
         }
+
         public int getDamageWindowStartMs() {
             return damageWindowStartMs;
         }
+
         public void setDamageWindowStartMs(int damageWindowStartMs) {
             this.damageWindowStartMs = damageWindowStartMs;
         }
+
         public int getDamageWindowEndMs() {
             return damageWindowEndMs;
         }
+
         public void setDamageWindowEndMs(int damageWindowEndsMs) {
             this.damageWindowEndMs = damageWindowEndsMs;
         }
+
         public int getEnergyDelta() {
             return energyDelta;
         }
+
         public void setEnergyDelta(int energyDelta) {
             this.energyDelta = energyDelta;
         }
-        
+
     }
-    
+
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Pokemon {
         public String uniqueId;
@@ -172,7 +202,6 @@ public class RawData {
         public float weightStdDev;
         public String familyId;
         public int candyToEvolve;
-        
 
         public String getUniqueId() {
             return uniqueId;

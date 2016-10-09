@@ -21,41 +21,46 @@ import com.pokebattler.fight.jaxrs.CacheControl;
 @Component
 @Path("/resists")
 public class ResistResource {
-        @Resource
-        ResistRepository repository;
-        Logger log = LoggerFactory.getLogger(getClass());
-        public ResistResource() {
-            log.info("Registered");
-        }
-        @GET
-        @Produces("application/json")
-        @ETag @CacheControl("max-age=86000")
-        public Map<PokemonType,Map<PokemonType,Float>> getAll() throws Exception{
-            return repository.getAll();
-        }
-        
-        @GET
-        @Path("attackers/{attackerType}")
-        @Produces("application/json")
-        @ETag @CacheControl("max-age=86000")
-        public Map<String,Object> getByAttackerType(@PathParam("attackerType") PokemonType  attackerType) throws Exception {
-            Map<String,Object> map = new HashMap<>();
-            map.put("attackerType", attackerType);
-            map.put("resists",repository.getResists(attackerType));
-            return map;
-        }
+    @Resource
+    ResistRepository repository;
+    Logger log = LoggerFactory.getLogger(getClass());
 
-        @GET
-        @Path("attackers/{attackerType}/defenders/{defenderType}")
-        @Produces("application/json")
-        @ETag @CacheControl("max-age=86000")
-        public Map<String, Object> getByAttackerAndDefenderTypes(@PathParam("attackerType") PokemonType  attackerType,
-                @PathParam("defenderType") PokemonType  defenderType) throws Exception {
-            Map<String,Object> map = new HashMap<>();
-            map.put("attackerType", attackerType);
-            map.put("defenderType", defenderType);
-            map.put("resist", repository.getResist(attackerType,defenderType));
-            return map;
-        }
+    public ResistResource() {
+        log.info("Registered");
+    }
+
+    @GET
+    @Produces("application/json")
+    @ETag
+    @CacheControl("max-age=86000")
+    public Map<PokemonType, Map<PokemonType, Float>> getAll() throws Exception {
+        return repository.getAll();
+    }
+
+    @GET
+    @Path("attackers/{attackerType}")
+    @Produces("application/json")
+    @ETag
+    @CacheControl("max-age=86000")
+    public Map<String, Object> getByAttackerType(@PathParam("attackerType") PokemonType attackerType) throws Exception {
+        final Map<String, Object> map = new HashMap<>();
+        map.put("attackerType", attackerType);
+        map.put("resists", repository.getResists(attackerType));
+        return map;
+    }
+
+    @GET
+    @Path("attackers/{attackerType}/defenders/{defenderType}")
+    @Produces("application/json")
+    @ETag
+    @CacheControl("max-age=86000")
+    public Map<String, Object> getByAttackerAndDefenderTypes(@PathParam("attackerType") PokemonType attackerType,
+            @PathParam("defenderType") PokemonType defenderType) throws Exception {
+        final Map<String, Object> map = new HashMap<>();
+        map.put("attackerType", attackerType);
+        map.put("defenderType", defenderType);
+        map.put("resist", repository.getResist(attackerType, defenderType));
+        return map;
+    }
 
 }

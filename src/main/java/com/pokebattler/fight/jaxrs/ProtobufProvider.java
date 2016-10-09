@@ -51,12 +51,11 @@ public class ProtobufProvider implements MessageBodyReader<Message>, MessageBody
     public void writeTo(Message myBean, Class<?> type, Type genericType, Annotation[] annotations, MediaType mediaType,
             MultivaluedMap<String, Object> httpHeaders, OutputStream entityStream)
             throws IOException, WebApplicationException {
-        try {
-            OutputStreamWriter writer = new OutputStreamWriter(entityStream);
-            printer.appendTo(myBean,writer);
-        } catch (Exception e) {
+        try (OutputStreamWriter writer = new OutputStreamWriter(entityStream)) {
+            printer.appendTo(myBean, writer);
+        } catch (final Exception e) {
             log.error("Could not write?", e);
-            throw new ProcessingException(e);
+            throw new ProcessingException("Erorr serializing proto");
         }
     }
 
@@ -69,16 +68,16 @@ public class ProtobufProvider implements MessageBodyReader<Message>, MessageBody
     public Message readFrom(Class<Message> type, Type genericType, Annotation[] annotations, MediaType mediaType,
             MultivaluedMap<String, String> httpHeaders, InputStream entityStream)
             throws IOException, WebApplicationException {
-        try {
-            Method m = type.getMethod("newBuilder");
-            Message.Builder builder = (Message.Builder) m.invoke(null);
-            parser.merge(new InputStreamReader(entityStream), builder);
+        try (InputStreamReader reader = new InputStreamReader(entityStream)){
+            final Method m = type.getMethod("newBuilder");
+            final Message.Builder builder = (Message.Builder) m.invoke(null);
+            parser.merge(reader, builder);
 
             return builder.build();
-        } catch (Exception e) {
+        } catch (final Exception e) {
             log.error("Could not read?", e);
             // TODO Auto-generated catch block
-            throw new ProcessingException("Error serializing proto", e);
+            throw new ProcessingException("Error deserializing proto");
         }
 
     }

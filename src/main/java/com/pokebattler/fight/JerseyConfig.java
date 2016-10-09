@@ -12,17 +12,18 @@ import com.pokebattler.fight.jaxrs.ProtobufProvider;
 
 @Component
 public class JerseyConfig extends ResourceConfig {
-    Logger log = LoggerFactory.getLogger(getClass());
+    private Logger log = LoggerFactory.getLogger(getClass());
+
     public JerseyConfig() {
         log.info("Registering classes");
         packages("com.pokebattler.fight.data");
         packages("com.pokebattler.fight.resources");
-        register(new ProtobufProvider());
+        register(ProtobufProvider.class);
         // need to be in order
         register(ETagResponseFilter.class);
         register(CORSResponseFilter.class);
         register(CacheControlResponseFilter.class);
-               
+
     }
 
 }

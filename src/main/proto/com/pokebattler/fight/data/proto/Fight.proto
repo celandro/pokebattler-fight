@@ -12,6 +12,9 @@ enum AttackStrategyType {
 	DEFENSE_RANDOM = 4;
 	DEFENSE_LUCKY = 5;
 	DODGE_SPECIALS = 6;
+	DODGE_ALL = 7;
+	DODGE_SPECIALS2 = 8;
+	DODGE_ALL2 = 9;
 }
 
 message Fight {
@@ -28,39 +31,6 @@ message FightResult {
 	repeated CombatResult combat_result=4;
 	Fight fight_parameters = 5;
 }
-message RankingResult {
-	repeated AttackerResult attackers = 1;
-	AttackStrategyType attackStrategy = 2;
-	AttackStrategyType defenseStrategy = 3;
-}
-message AttackerResult {
-	PokemonId pokemon_id = 1;
-	repeated AttackerSubResult byMove = 2;
-}
-
-message AttackerSubResult {
-	PokemonMove move_1 = 1;
-	PokemonMove move_2 = 2;
-	repeated DefenderResult defenders = 3;
-	AttackerSubResultTotal total = 4;
-}
-message AttackerSubResultTotal {
-	int32 combat_time = 1;
-	int32 damage = 2;
-	float dps = 3;
-}
-
-message DefenderResult {
-	PokemonId pokemon_id = 1;
-	repeated DefenderSubResult byMove = 2;
-}
-message DefenderSubResult {
-	PokemonMove move_1 = 1;
-	PokemonMove move_2 = 2;
-	FightResult result = 3;
-}
-
-
 
 message CombatantResult {
 	AttackStrategyType strategy = 1;

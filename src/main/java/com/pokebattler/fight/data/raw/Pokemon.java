@@ -1,6 +1,5 @@
 package com.pokebattler.fight.data.raw;
 
-
 public class Pokemon {
     public String uniqueId;
     public String type1;

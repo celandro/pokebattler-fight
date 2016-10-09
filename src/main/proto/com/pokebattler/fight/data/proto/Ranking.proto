@@ -1,0 +1,40 @@
+syntax = "proto3";
+package com.pokebattler.fight.data.proto;
+import "com/pokebattler/fight/data/proto/PokemonData.proto";
+import "com/pokebattler/fight/data/proto/PokemonMove.proto";
+import "com/pokebattler/fight/data/proto/PokemonId.proto";
+import "com/pokebattler/fight/data/proto/Fight.proto";
+
+message RankingResult {
+	repeated AttackerResult attackers = 1;
+	AttackStrategyType attackStrategy = 2;
+	AttackStrategyType defenseStrategy = 3;
+}
+message AttackerResult {
+	PokemonId pokemon_id = 1;
+	repeated AttackerSubResult byMove = 2;
+}
+
+message AttackerSubResult {
+	PokemonMove move_1 = 1;
+	PokemonMove move_2 = 2;
+	repeated DefenderResult defenders = 3;
+	SubResultTotal total = 4;
+}
+message SubResultTotal {
+	int32 combat_time = 1;
+	int32 damage_taken = 2;
+	int32 damage_dealt = 3;
+	int32 num_wins = 4;
+}
+
+message DefenderResult {
+	PokemonId pokemon_id = 1;
+	repeated DefenderSubResult byMove = 2;
+	SubResultTotal total = 4;
+}
+message DefenderSubResult {
+	PokemonMove move_1 = 1;
+	PokemonMove move_2 = 2;
+	FightResult result = 3;
+}
