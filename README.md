@@ -9,6 +9,7 @@ This is a standard jax-rs setup, see
 1.  src/main/java -> com.pokebattler.fight, Right click on JerseyApplication, run/debug as Java Application
 
 
+## Deploy the application to google cloud
 
 1. `mvn clean package gcloud:stage`
 1. `cd target\appengine-staging`
@@ -16,6 +17,6 @@ This is a standard jax-rs setup, see
 1. Visit `http://YOUR_PROJECT.appspot.com`.
 
 
-Java is a registered trademark of Oracle Corporation and/or its affiliates.
 
-"# pokebattler-fight" 
+
+
