@@ -21,7 +21,7 @@ import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
  */
 @Component
 public class Formulas {
-    private static final double DODGE_MODIFIER = 0.25;
+    private static final int DODGE_MODIFIER = 4;
     @Resource
     CpMRepository cpmRepository;
     @Resource
@@ -30,7 +30,8 @@ public class Formulas {
     public static final int MAX_LEVEL = 40;
     public static final int MIN_INDIVDIUAL_STAT = 0;
     public static final int MAX_INDIVDIUAL_STAT = 15;
-    public static final int MAX_COMBAT_TIME_MS = 99000;
+    public static final int MAX_COMBAT_TIME_MS = 100000;
+    public static final int START_COMBAT_TIME = 700;
     Random r = new Random();
     Logger log = LoggerFactory.getLogger(getClass());
 
@@ -72,7 +73,7 @@ public class Formulas {
         return Math.max(10, (int) (0.1 * Math.sqrt(attack * attack * defense * stamina)));
     }
 
-    public double calculateModifier(Move move, Pokemon attacker, Pokemon defender, boolean isDodge) {
+    public double calculateModifier(Move move, Pokemon attacker, Pokemon defender) {
         double modifier = 1.0;
         if (move.getType() == attacker.getType() || move.getType() == attacker.getType2()) {
             modifier *= 1.25; // stab
@@ -80,9 +81,6 @@ public class Formulas {
 
         modifier *= resistRepository.getResist(move.getType(), defender.getType())
                 * resistRepository.getResist(move.getType(), defender.getType2());
-        if (isDodge) {
-            modifier *= DODGE_MODIFIER;
-        }
 
         return modifier;
 
@@ -90,8 +88,7 @@ public class Formulas {
 
     public CombatResult.Builder attackerCombat(double attack, double defense, Move move, Pokemon attacker,
             Pokemon defender, int timeToNextAttack) {
-        final int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), false,
-                false);
+        final int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), false);
         final CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(move.getDurationMs())
                 .setDamage(damage).setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId())
                 .setDodgePercent(0.0).setCriticalHit(false);
@@ -100,20 +97,26 @@ public class Formulas {
 
     public CombatResult.Builder defenderCombat(double attack, double defense, Move move, Pokemon attacker,
             Pokemon defender, int timeToNextAttack, boolean isDodge) {
-        final int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), true,
-                isDodge);
+        final int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), true);
+        final int dodgeDamage;
+        if (isDodge) {
+            // divide by 4 round down but with min of 1
+            dodgeDamage = Math.max(1, damage/DODGE_MODIFIER);
+        } else {
+            dodgeDamage = damage;
+        }
         final CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(move.getDurationMs())
-                .setDamage(damage).setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId())
-                .setDodgePercent(isDodge ? DODGE_MODIFIER : 0.0).setCriticalHit(false);
+                .setDamage(dodgeDamage).setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId())
+                .setDodgePercent((float)damage/dodgeDamage).setCriticalHit(false);
         return builder;
     }
 
     private int damageOfMove(double attack, double defense, Move move, Pokemon attacker, Pokemon defender,
-            float critPercent, boolean isDefender, boolean isDodge) {
+            float critPercent, boolean isDefender) {
         if (move == MoveRepository.DODGE_MOVE) {
             return 0;
         }
-        final double modifier = calculateModifier(move, attacker, defender, isDodge);
+        final double modifier = calculateModifier(move, attacker, defender);
 
         // critical hits are not implemented
         final double critMultiplier = 1.0;
@@ -124,7 +127,8 @@ public class Formulas {
         // move.getPower() + 0.8)
         // * (wasCrit?1.5:1.0) * move.getAccuracyChance() * modifier));
         // rounds up if possible
-        return (int) (0.5 * attack / defense * move.getPower() * critMultiplier * missMultiplier * modifier) + 1;
+        int damage = (int) (0.5 * attack / defense * move.getPower() * critMultiplier * missMultiplier * modifier) + 1;
+        return damage;
     }
 
     public int defensePrestigeGain(double attack, double... defenses) {

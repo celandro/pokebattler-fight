@@ -5,6 +5,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
+import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -17,7 +18,7 @@ public class DefenderAttack implements AttackStrategy {
     private Move move2;
     private int nextSpecialMove = -1;
     public static int SECOND_ATTACK_DELAY = 1000;
-    public static int FIRST_ATTACK_TIME = 1600;
+    public static int FIRST_ATTACK_TIME = 1600 - Formulas.START_COMBAT_TIME;
 
     @Override
     public AttackStrategyType getType() {

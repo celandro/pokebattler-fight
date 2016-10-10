@@ -7,6 +7,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
+import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -19,7 +20,7 @@ public class DefenderRandomAttack implements AttackStrategy {
     private final Move move2;
     private final Random r = new Random();
     public static int SECOND_ATTACK_DELAY = 1000;
-    public static int FIRST_ATTACK_TIME = 1600;
+    public static int FIRST_ATTACK_TIME = 1600 - Formulas.START_COMBAT_TIME;
     private final int randomDelay;
     private final AttackStrategyType type;
     private final double specialRandom;

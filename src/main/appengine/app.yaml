@@ -16,6 +16,7 @@
 runtime: java
 vm: true
 service: fight
+threadsafe: true
 
 runtime_config:  # Optional
   jdk: openjdk8

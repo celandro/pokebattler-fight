@@ -88,7 +88,9 @@ public class AttackSimulator {
         final FightResult.Builder fightResult = FightResult.newBuilder();
         final CombatantState attackerState = new CombatantState(a, attacker, f, false);
         final CombatantState defenderState = new CombatantState(d, defender, f, true);
-        int currentTime = 0;
+        
+        nextAttack(defenderStrategy, defenderState, attackerState);
+        int currentTime = Formulas.START_COMBAT_TIME;
 
         while (attackerState.isAlive() && defenderState.isAlive() && currentTime < Formulas.MAX_COMBAT_TIME_MS) {
             // do defender first since defender strategy determines attacker

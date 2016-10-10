@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <protobuf.version>3.1.0</protobuf.version>
-        <spring.boot.version>1.4.1.RELEASE</spring.boot.version>
+        <spring.boot.version>1.3.8.RELEASE</spring.boot.version>
         <gcloud.java.version>0.2.8</gcloud.java.version>
     </properties>
 

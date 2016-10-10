@@ -18,6 +18,7 @@ public class DodgeSpecials implements AttackStrategy {
     Move move1;
     Move move2;
     public static final int CAST_TIME = 500;
+    public static final int DODGE_WINDOW = 700;
 
     @Override
     public AttackStrategyType getType() {
@@ -35,20 +36,20 @@ public class DodgeSpecials implements AttackStrategy {
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
         // dodge special if we can
         if (defenderState.getNextMove() != null && !defenderState.getNextMove().getMoveId().name().endsWith("FAST")
-                && defenderState.getTimeToNextDamage() > 0) {
-            if (defenderState.getTimeToNextDamage() < DODGE_MOVE.getDurationMs() + extraDelay) {
+                && defenderState.getTimeToNextDamage() > 0 && !defenderState.isDodged()) {
+            if (defenderState.getTimeToNextDamage() < DODGE_WINDOW + extraDelay) {
                 return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
             } else if (defenderState.getTimeToNextDamage() > move2.getDurationMs() + extraDelay + CAST_TIME
                     && attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
                 // we can sneak in a special attack
-                return new PokemonAttack(pokemon.getMove2(), extraDelay + CAST_TIME);
+                return new PokemonAttack(pokemon.getMove2(), extraDelay);
             } else if (defenderState.getTimeToNextDamage() > move1.getDurationMs() + extraDelay) {
                 // we can sneak in a normal attack
                 return new PokemonAttack(pokemon.getMove1(), extraDelay);
             } else {
                 // dodge perfect
                 return new PokemonAttack(DODGE_MOVE.getMoveId(),
-                        Math.max(0, defenderState.getTimeToNextDamage() - CAST_TIME));
+                        Math.max(0, defenderState.getTimeToNextDamage() - DODGE_WINDOW));
             }
         }
         if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {

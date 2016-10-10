@@ -18,6 +18,7 @@ public class DodgeAll implements AttackStrategy {
     Move move1;
     Move move2;
     public static final int CAST_TIME = 500;
+    public static final int DODGE_WINDOW = 700;
 
     @Override
     public AttackStrategyType getType() {
@@ -34,8 +35,9 @@ public class DodgeAll implements AttackStrategy {
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
         // dodge special if we can
-        if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0) {
-            if (defenderState.getTimeToNextDamage() < DODGE_MOVE.getDurationMs() + extraDelay) {
+        if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0
+                && !defenderState.isDodged()) {
+            if (defenderState.getTimeToNextDamage() < DODGE_WINDOW + extraDelay) {
                 return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
             } else if (defenderState.getTimeToNextDamage() > move2.getDurationMs() + extraDelay + CAST_TIME
                     && attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
@@ -47,7 +49,7 @@ public class DodgeAll implements AttackStrategy {
             } else {
                 // dodge perfect
                 return new PokemonAttack(DODGE_MOVE.getMoveId(),
-                        Math.max(0, defenderState.getTimeToNextDamage() - CAST_TIME));
+                        Math.max(0, defenderState.getTimeToNextDamage() - DODGE_WINDOW));
             }
         }
         if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {

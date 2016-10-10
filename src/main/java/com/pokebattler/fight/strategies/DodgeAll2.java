@@ -19,6 +19,7 @@ public class DodgeAll2 implements AttackStrategy {
     private final Move move2;
     private boolean dodgedSpecial = false;
     public static final int CAST_TIME = 500;
+    public static final int DODGE_WINDOW = 700;
 
     @Override
     public AttackStrategyType getType() {
@@ -35,7 +36,8 @@ public class DodgeAll2 implements AttackStrategy {
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
         // dodge special if we can
-        if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0) {
+        if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0
+                && !defenderState.isDodged()) {
             if (defenderState.getTimeToNextDamage() < DODGE_MOVE.getDurationMs() + extraDelay) {
                 return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
             } else if (defenderState.getTimeToNextDamage() > move1.getDurationMs() + extraDelay) {
