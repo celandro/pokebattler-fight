@@ -41,13 +41,13 @@ public class RankingSimulator {
 
     Logger log = LoggerFactory.getLogger(getClass());
 
-    public RankingResult rank(String level, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
+    public RankingResult rank(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
         final RankingResult.Builder retval = RankingResult.newBuilder().setAttackStrategy(attackStrategy)
                 .setDefenseStrategy(defenseStrategy);
         final ArrayList<AttackerResult.Builder> results = new ArrayList<>();
         pokemonRepository.getAll().getPokemonList().stream().forEach((attacker) -> {
-            results.add(rankAttacker(attacker, level, attackStrategy, defenseStrategy));
-            log.debug("{} Ranked for {} {} {}",attacker.getPokemonId(), level, attackStrategy.name(), defenseStrategy.name());
+            results.add(rankAttacker(attacker, attackerLevel, defenderLevel, attackStrategy, defenseStrategy));
+            log.debug("{} Ranked for {} {} {} {}",attacker.getPokemonId(), attackerLevel, defenderLevel, attackStrategy.name(), defenseStrategy.name());
         });
         //TODO reuse comparators
         results.stream()
@@ -58,15 +58,15 @@ public class RankingSimulator {
         return retval.build();
     }
 
-    public AttackerResult.Builder rankAttacker(Pokemon attacker, String level, AttackStrategyType attackStrategy,
+    public AttackerResult.Builder rankAttacker(Pokemon attacker, String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy,
             AttackStrategyType defenseStrategy) {
         final ArrayList<AttackerSubResult.Builder> results = new ArrayList<>();
         final AttackerResult.Builder retval = AttackerResult.newBuilder().setPokemonId(attacker.getPokemonId());
         attacker.getQuickMovesList().forEach((quick) -> {
             attacker.getCinematicMovesList().forEach((cin) -> {
-                final PokemonData attackerData = creator.createMaxStatPokemon(attacker.getPokemonId(), level, quick,
+                final PokemonData attackerData = creator.createMaxStatPokemon(attacker.getPokemonId(), attackerLevel, quick,
                         cin);
-                results.add(rankAttackerByMoves(attackerData, attackStrategy, defenseStrategy));
+                results.add(rankAttackerByMoves(attackerData, defenderLevel, attackStrategy, defenseStrategy));
             });
         });
         results.stream()
@@ -83,13 +83,13 @@ public class RankingSimulator {
         return retval;
     }
 
-    public AttackerSubResult.Builder rankAttackerByMoves(PokemonData attackerData, AttackStrategyType attackStrategy,
+    public AttackerSubResult.Builder rankAttackerByMoves(PokemonData attackerData, String defenderLevel, AttackStrategyType attackStrategy,
             AttackStrategyType defenseStrategy) {
         final AttackerSubResult.Builder retval = AttackerSubResult.newBuilder().setMove1(attackerData.getMove1())
                 .setMove2(attackerData.getMove2());
         final ArrayList<DefenderResult.Builder> results = new ArrayList<>();
         pokemonRepository.getAll().getPokemonList().stream().forEach((defender) -> {
-            final DefenderResult.Builder rankDefender = rankDefender(defender, attackerData, attackStrategy,
+            final DefenderResult.Builder rankDefender = rankDefender(defender, attackerData, defenderLevel, attackStrategy,
                     defenseStrategy);
             // only retain the subtotals
             final DefenderSubResult bestDefense = rankDefender.getByMoveList()
@@ -115,14 +115,14 @@ public class RankingSimulator {
         return retval;
     }
 
-    public DefenderResult.Builder rankDefender(Pokemon defender, PokemonData attackerData,
+    public DefenderResult.Builder rankDefender(Pokemon defender, PokemonData attackerData, String defenderLevel,
             AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
         final DefenderResult.Builder retval = DefenderResult.newBuilder().setPokemonId(defender.getPokemonId());
         final ArrayList<DefenderSubResult.Builder> results = new ArrayList<>();
         defender.getQuickMovesList().forEach((quick) -> {
             defender.getCinematicMovesList().forEach((cin) -> {
                 final PokemonData defenderData = creator.createMaxStatPokemon(defender.getPokemonId(),
-                        attackerData.getLevel(), quick, cin);
+                        defenderLevel, quick, cin);
                 results.add(rankDefenderByMoves(attackerData, defenderData, attackStrategy, defenseStrategy));
             });
         });

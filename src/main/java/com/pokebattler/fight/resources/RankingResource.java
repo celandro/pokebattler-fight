@@ -33,20 +33,21 @@ public class RankingResource {
     public Logger log = LoggerFactory.getLogger(getClass());
 
     @GET
-    @Path("/levels/{level}/strategies/{attackStrategy}/{defenseStrategy}")
+    @Path("attackers/levels/{attackerLevel}/defenders/levels/{defenderLevel}/strategies/{attackStrategy}/{defenseStrategy}")
     @Produces("application/json")
     @ETag
-    public Response rank(@PathParam("level") String level,
+    public Response rankAttacker(@PathParam("attackerLevel") String attackerLevel,
+            @PathParam("defenderLevel") String defenderLevel,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
             @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
-        log.debug("Calculating rankings for level {}, attackStrategy {}, defenseStrategy {}", level, attackStrategy,
+        log.debug("Calculating rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}", attackerLevel, defenderLevel, attackStrategy,
                 defenseStrategy);
         // set caching based on wether the result is random
         // TODO: refactor this to strategy pattern or change to a parameter?
         // maybe a query parameter to seed the rng?
         final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
         cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
-        return Response.ok(simulator.rank(level, attackStrategy, defenseStrategy)).cacheControl(cacheControl).build();
+        return Response.ok(simulator.rank(attackerLevel, defenderLevel, attackStrategy, defenseStrategy)).cacheControl(cacheControl).build();
 
     }
 

@@ -1,6 +1,6 @@
 # Spring Boot based Pokebattler.com Fight back end server
 
-This is a standard jax-rs setup, see 
+This is a standard jax-rs setup, see com.pokebattler.fight.resources for all supported urls.
 
 ## Run the application locally in Eclipse
 
