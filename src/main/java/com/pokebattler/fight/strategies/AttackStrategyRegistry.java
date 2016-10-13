@@ -19,6 +19,8 @@ import com.pokebattler.fight.strategies.DodgeAll2.DodgeAll2Builder;
 import com.pokebattler.fight.strategies.DodgeSpecials.DodgeSpecialsBuilder;
 import com.pokebattler.fight.strategies.DodgeSpecials2.DodgeSpecials2Builder;
 import com.pokebattler.fight.strategies.NoAttack.NoAttackBuilder;
+import com.pokebattler.fight.strategies.QuickAttackDodgeAll.QuickAttackDodgeAllBuilder;
+import com.pokebattler.fight.strategies.QuickAttackDodgeSpecials.QuickAttackDodgeSpecialsBuilder;
 import com.pokebattler.fight.strategies.QuickAttackOnly.QuickAttackOnlyBuilder;
 
 @Repository
@@ -44,6 +46,10 @@ public class AttackStrategyRegistry {
     DodgeAllBuilder strategy9;
     @Resource
     DodgeAll2Builder strategy10;
+    @Resource
+    QuickAttackDodgeAllBuilder strategy11;
+    @Resource
+    QuickAttackDodgeSpecialsBuilder strategy12;
 
     @PostConstruct
     public void init() {
@@ -58,6 +64,8 @@ public class AttackStrategyRegistry {
         register(strategy8);
         register(strategy9);
         register(strategy10);
+        register(strategy11);
+        register(strategy12);
     }
 
     public boolean register(AttackStrategy.AttackStrategyBuilder<?> strategyBuilder) {

@@ -33,7 +33,7 @@ public class CombatantState {
     boolean dodged = false;
 
     public boolean isNextMoveSpecial() {
-        return getNextMove().getMoveId().name().endsWith("FAST");
+        return !getNextMove().getMoveId().name().endsWith("FAST");
     }
 
     public boolean isDodged() {

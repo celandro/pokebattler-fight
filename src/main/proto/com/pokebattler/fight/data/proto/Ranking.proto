@@ -26,6 +26,7 @@ message SubResultTotal {
 	int32 damage_taken = 2;
 	int32 damage_dealt = 3;
 	int32 num_wins = 4;
+	int32 num_losses = 5;
 }
 
 message DefenderResult {

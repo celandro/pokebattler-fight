@@ -1,6 +1,7 @@
 package com.pokebattler.fight.data;
 
 import java.io.InputStream;
+import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Repository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.deser.std.EnumSetDeserializer;
 import com.google.protobuf.util.JsonFormat;
 import com.pokebattler.fight.data.proto.PokemonFamilyIdOuterClass.PokemonFamilyId;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
@@ -24,6 +26,7 @@ import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemons;
 import com.pokebattler.fight.data.proto.PokemonTypeOuterClass.PokemonType;
 import com.pokebattler.fight.data.proto.StatsAttributesOuterClass.StatsAttributes;
 import com.pokebattler.fight.data.raw.RawData;
+import static com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId.*;
 
 @Repository
 public class PokemonRepository {
@@ -32,6 +35,14 @@ public class PokemonRepository {
     final Map<PokemonId, Pokemon> pokemonMap;
     ObjectMapper mapper;
     JsonFormat.Printer printer;
+    EnumSet<PokemonId> endGamePokemons = EnumSet.copyOf(Arrays.asList(VENUSAUR, CHARIZARD, BLASTOISE, BUTTERFREE,
+            BEEDRILL, PIDGEOT, RATICATE, FEAROW, ARBOK, RAICHU, SANDSLASH, NIDOQUEEN, NIDOKING, CLEFABLE, NINETALES,
+            WIGGLYTUFF, GOLBAT, VILEPLUME, PARASECT, VENOMOTH, DUGTRIO, PERSIAN, GOLDUCK, PRIMEAPE, ARCANINE, POLIWRATH,
+            ALAKAZAM, MACHAMP, VICTREEBEL, TENTACRUEL, GOLEM, RAPIDASH, SLOWBRO, MAGNETON, FARFETCHD, DODRIO, DEWGONG,
+            MUK, CLOYSTER, GENGAR, ONIX, HYPNO, KINGLER, ELECTRODE, EXEGGUTOR, MAROWAK, HITMONLEE, HITMONCHAN,
+            LICKITUNG, WEEZING, RHYDON, CHANSEY, TANGELA, KANGASKHAN, SEADRA, SEAKING, STARMIE, MR_MIME, SCYTHER, JYNX,
+            ELECTABUZZ, MAGMAR, PINSIR, TAUROS, GYARADOS, LAPRAS, VAPOREON, JOLTEON, FLAREON, PORYGON, OMASTAR,
+            KABUTOPS, AERODACTYL, SNORLAX, DRAGONITE));
 
     public PokemonRepository() throws Exception {
         final InputStream is = this.getClass().getResourceAsStream("pokemongo.json");
@@ -122,6 +133,13 @@ public class PokemonRepository {
 
     public Pokemons getAll() {
         return all;
+    }
+
+    public Pokemons getAllEndGame() {
+        Pokemons.Builder builder = all.toBuilder().clearPokemon();
+        all.getPokemonList().stream().filter(pokemon -> endGamePokemons.contains(pokemon.getPokemonId()))
+        .forEach(pokemon -> builder.addPokemon(pokemon));
+        return builder.build();
     }
 
     public Pokemon getByName(String name) {

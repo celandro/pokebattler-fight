@@ -15,6 +15,8 @@ enum AttackStrategyType {
 	DODGE_ALL = 7;
 	DODGE_SPECIALS2 = 8;
 	DODGE_ALL2 = 9;
+	DODGE_SPECIALS3 = 10;
+	DODGE_ALL3 = 11;
 }
 
 message Fight {

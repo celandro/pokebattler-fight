@@ -39,6 +39,7 @@ public class DodgeSpecials2 implements AttackStrategy {
         if (defenderState.getNextMove() != null && !defenderState.isNextMoveSpecial()
                 && defenderState.getTimeToNextDamage() > 0 && !defenderState.isDodged()) {
             if (defenderState.getTimeToNextDamage() < DODGE_WINDOW + extraDelay) {
+                dodgedSpecial = true;
                 return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
             } else if (defenderState.getTimeToNextDamage() > move1.getDurationMs() + extraDelay) {
                 // we can sneak in a normal attack

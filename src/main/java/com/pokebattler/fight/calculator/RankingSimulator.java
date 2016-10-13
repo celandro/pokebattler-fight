@@ -45,7 +45,7 @@ public class RankingSimulator {
         final RankingResult.Builder retval = RankingResult.newBuilder().setAttackStrategy(attackStrategy)
                 .setDefenseStrategy(defenseStrategy);
         final ArrayList<AttackerResult.Builder> results = new ArrayList<>();
-        pokemonRepository.getAll().getPokemonList().stream().forEach((attacker) -> {
+        pokemonRepository.getAllEndGame().getPokemonList().stream().forEach((attacker) -> {
             results.add(rankAttacker(attacker, attackerLevel, defenderLevel, attackStrategy, defenseStrategy));
             log.debug("{} Ranked for {} {} {} {}",attacker.getPokemonId(), attackerLevel, defenderLevel, attackStrategy.name(), defenseStrategy.name());
         });
@@ -88,7 +88,7 @@ public class RankingSimulator {
         final AttackerSubResult.Builder retval = AttackerSubResult.newBuilder().setMove1(attackerData.getMove1())
                 .setMove2(attackerData.getMove2());
         final ArrayList<DefenderResult.Builder> results = new ArrayList<>();
-        pokemonRepository.getAll().getPokemonList().stream().forEach((defender) -> {
+        pokemonRepository.getAllEndGame().getPokemonList().stream().forEach((defender) -> {
             final DefenderResult.Builder rankDefender = rankDefender(defender, attackerData, defenderLevel, attackStrategy,
                     defenseStrategy);
             // only retain the subtotals
@@ -108,6 +108,7 @@ public class RankingSimulator {
                     subTotal.setCombatTime(subTotal.getCombatTime() + result.getTotalOrBuilder().getCombatTime());
                     subTotal.setDamageDealt(subTotal.getDamageDealt() + result.getTotalOrBuilder().getDamageDealt());
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getTotalOrBuilder().getDamageTaken());
+                    subTotal.setNumLosses(subTotal.getNumLosses() + result.getTotalOrBuilder().getNumLosses());
                     retval.addDefenders(result);
                     
                 });
@@ -135,9 +136,9 @@ public class RankingSimulator {
                     ((DefenderSubResultOrBuilder) result).getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt())
                 ))
                 .forEach((result) -> {
-                    if (result.getResultOrBuilder().getWin()) {
-                        subTotal.setNumWins(subTotal.getNumWins() + 1);
-                    }
+                    boolean win =result.getResultOrBuilder().getWin();
+                    subTotal.setNumWins(subTotal.getNumWins() + (win?1:0));
+                    subTotal.setNumLosses(subTotal.getNumLosses() + (win?0:1));
                     subTotal.setCombatTime(subTotal.getCombatTime() + result.getResultOrBuilder().getTotalCombatTime());
                     subTotal.setDamageDealt(subTotal.getDamageDealt() + result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt());
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt());
