@@ -38,6 +38,14 @@ public class PokemonRepositoryTest {
         assertEquals(PokemonMove.LOW_SWEEP,b.getCinematicMoves(2));
         assertEquals(PokemonMove.STONE_EDGE,b.getCinematicMoves(3));
     
+        
+        // starmie
+        b = Pokemon.newBuilder();
+        p.addCinematicMoves("kA\\036\\154", b);        
+        assertEquals(PokemonMove.HYDRO_PUMP,b.getCinematicMoves(0));
+        assertEquals(PokemonMove.POWER_GEM,b.getCinematicMoves(1));
+        assertEquals(PokemonMove.PSYBEAM,b.getCinematicMoves(2));
+        assertEquals(PokemonMove.PSYCHIC,b.getCinematicMoves(3));
     }
 
     @Test
