@@ -111,7 +111,7 @@ public class Formulas {
         return builder;
     }
 
-    private int damageOfMove(double attack, double defense, Move move, Pokemon attacker, Pokemon defender,
+    int damageOfMove(double attack, double defense, Move move, Pokemon attacker, Pokemon defender,
             float critPercent, boolean isDefender) {
         if (move == MoveRepository.DODGE_MOVE) {
             return 0;

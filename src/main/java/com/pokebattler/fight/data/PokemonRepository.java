@@ -97,10 +97,8 @@ public class PokemonRepository {
                         if (familyId != null) {
                             b.setFamilyId(familyId);
                         }
-                        OctalParser.parseRepeatedInt32(pokemon.getQuickMoves()).stream()
-                                .map(num -> PokemonMove.forNumber(num)).forEach(move -> b.addQuickMoves(move));
-                        OctalParser.parseRepeatedInt32(pokemon.getCinematicMoves()).stream()
-                                .map(num -> PokemonMove.forNumber(num)).forEach(move -> b.addCinematicMoves(move));
+                        addQuickMoves(pokemon.getQuickMoves(), b);
+                        addCinematicMoves(pokemon.getCinematicMoves(), b);
 
                         return b.build();
                     } catch (final RuntimeException e) {
@@ -117,6 +115,16 @@ public class PokemonRepository {
                 }).collect(Collectors.toList());
         allBuilder.addAllPokemon(pokes);
         return allBuilder.build();
+    }
+
+    void addCinematicMoves(String cinMoves, final Pokemon.Builder b) {
+        OctalParser.parseRepeatedInt32(cinMoves).stream()
+                .map(num -> PokemonMove.forNumber(num)).forEach(move -> b.addCinematicMoves(move));
+    }
+
+    void addQuickMoves(String quickMoves, final Pokemon.Builder b) {
+        OctalParser.parseRepeatedInt32(quickMoves).stream()
+                .map(num -> PokemonMove.forNumber(num)).forEach(move -> b.addQuickMoves(move));
     }
 
     public Map<String, String> getIdToNameMap() {

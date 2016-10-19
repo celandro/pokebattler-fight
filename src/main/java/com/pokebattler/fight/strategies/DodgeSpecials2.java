@@ -36,7 +36,7 @@ public class DodgeSpecials2 implements AttackStrategy {
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
         // dodge special if we can
-        if (defenderState.getNextMove() != null && !defenderState.isNextMoveSpecial()
+        if (defenderState.getNextMove() != null && defenderState.isNextMoveSpecial()
                 && defenderState.getTimeToNextDamage() > 0 && !defenderState.isDodged()) {
             if (defenderState.getTimeToNextDamage() < DODGE_WINDOW + extraDelay) {
                 dodgedSpecial = true;

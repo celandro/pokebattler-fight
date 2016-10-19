@@ -1,4 +1,4 @@
-package com.pokebattler.fight.data;
+package com.pokebattler.fight.calculator;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,8 +6,14 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.pokebattler.fight.calculator.Formulas;
+import com.pokebattler.fight.data.CpMRepository;
+import com.pokebattler.fight.data.PokemonRepository;
+import com.pokebattler.fight.data.ResistRepository;
+import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
+import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
+import com.pokebattler.fight.data.proto.PokemonTypeOuterClass.PokemonType;
 
 public class FormulasTest {
     static Formulas formulas;
@@ -36,6 +42,24 @@ public class FormulasTest {
                 , 13, p.getStats().getBaseStamina(), 14));
         assertEquals(1850, formulas.calculateCp("22", p.getStats().getBaseAttack(), 9, p.getStats().getBaseDefense()
                 , 9, p.getStats().getBaseStamina(), 9));
+    }
+    @Test
+    public void testAttack() {
+        assertEquals(139.52287423610696,formulas.getCurrentAttack(186, 15, 0.6941436529159550), 1E-9);
+    }
+    @Test
+    public void testDefense() {
+        assertEquals(119.54499283593915,formulas.getCurrentDefense(180, 13, 0.6194041079582340), 1E-9);
+    }
+    
+   
+    @Test
+    public void testDamageOfMove() {
+        Move move = Move.newBuilder().setMoveId(PokemonMove.WATER_PULSE).setPower(45).build();
+        Pokemon attacker = Pokemon.newBuilder().setType(PokemonType.POKEMON_TYPE_WATER).build();
+        Pokemon defender = Pokemon.newBuilder().setType(PokemonType.POKEMON_TYPE_NORMAL).build();
+        assertEquals(33,formulas.damageOfMove(139.522944, 119.545, move, attacker , defender, 1.0f, true));
+        assertEquals(33,formulas.damageOfMove(139.52287423610696, 119.54499283593915, move, attacker , defender, 1.0f, true));
     }
 
 }

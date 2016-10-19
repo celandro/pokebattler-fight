@@ -31,6 +31,7 @@ public class CombatantState {
     PokemonAttack nextAttack;
     Move nextMove;
     boolean dodged = false;
+    boolean damageAlreadyOccurred = false;
 
     public boolean isNextMoveSpecial() {
         return !getNextMove().getMoveId().name().endsWith("FAST");
@@ -124,11 +125,16 @@ public class CombatantState {
     }
 
     public int getTimeToNextDamage() {
-        return nextAttack.getDelay() + nextMove.getDamageWindowStartMs() - getTimeSinceLastMove();
+        if (damageAlreadyOccurred) {
+            return -1;
+        } else {
+            return nextAttack.getDelay() + nextMove.getDamageWindowStartMs() - getTimeSinceLastMove();
+        }
     }
 
-    void applyDefense(CombatResult r, int time) {
-        currentEnergy = Math.max(0, Math.min(defender ? 200 : 100, currentEnergy + f.energyGain(r.getDamage())));
+    int applyDefense(CombatResult r, int time) {
+        int energyGain = f.energyGain(r.getDamage());
+        currentEnergy = Math.max(0, Math.min(defender ? 200 : 100, currentEnergy + energyGain));
         currentHp -= r.getDamage();
         timeSinceLastMove += time;
         combatTime += r.getCombatTime();
@@ -136,21 +142,34 @@ public class CombatantState {
                 && getTimeToNextDamage() < MoveRepository.DODGE_MOVE.getDurationMs()) {
             dodged = true;
         }
+        return energyGain;
     }
 
     void applyAttack(CombatResult r, int time) {
         numAttacks++;
 
-        // some moves apply damage before the end of the combat time
-        timeSinceLastMove = 0; // -1 * delay;
-        currentEnergy = Math.max(0, Math.min(defender ? 200 : 100, currentEnergy + nextMove.getEnergyDelta()));
+        timeSinceLastMove += time;
+        damageAlreadyOccurred = true;
         combatTime += time;
         damageDealt += r.getDamage();
 
+    }
+    int resetAttack(int time) {
+        // energy gets subtracted at the very end, no energy gain
+        int energyGain = nextMove.getEnergyDelta();
+        currentEnergy = Math.max(0, Math.min(defender ? 200 : 100, currentEnergy + energyGain));
         // reset things that happen inbetween attacks
+        combatTime += time;
+        timeSinceLastMove = 0; // -1 * delay;
         nextAttack = null;
         nextMove = null;
         dodged = false;
+        damageAlreadyOccurred = false;
+        return energyGain;
+    }
+    void moveTime(int time) {
+        combatTime += time;
+        timeSinceLastMove += time;
     }
 
     public CombatantResult toResult(Combatant combatant, AttackStrategyType strategy, int actualCombatTime) {

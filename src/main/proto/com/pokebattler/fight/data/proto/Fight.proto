@@ -24,6 +24,7 @@ message Fight {
 	PokemonData defender = 2;
 	AttackStrategyType strategy = 3;
 	AttackStrategyType defenseStrategy = 4;
+	repeated PokemonId pokemon = 5;
 }
 
 message FightResult {
