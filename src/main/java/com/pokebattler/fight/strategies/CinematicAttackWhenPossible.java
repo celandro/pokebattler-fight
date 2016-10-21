@@ -50,9 +50,9 @@ public class CinematicAttackWhenPossible implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public CinematicAttackWhenPossible build(PokemonData pokemon, int extraDelay) {
+        public CinematicAttackWhenPossible build(PokemonData pokemon) {
             return new CinematicAttackWhenPossible(pokemon, move.getById(pokemon.getMove1()),
-                    move.getById(pokemon.getMove2()), extraDelay);
+                    move.getById(pokemon.getMove2()), 0);
         }
     }
 

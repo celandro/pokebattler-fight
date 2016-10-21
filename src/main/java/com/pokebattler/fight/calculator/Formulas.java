@@ -32,6 +32,7 @@ public class Formulas {
     public static final int MAX_INDIVDIUAL_STAT = 15;
     public static final int MAX_COMBAT_TIME_MS = 100000;
     public static final int START_COMBAT_TIME = 700;
+    public static final int DODGE_WINDOW = 700;
     Random r = new Random();
     Logger log = LoggerFactory.getLogger(getClass());
 

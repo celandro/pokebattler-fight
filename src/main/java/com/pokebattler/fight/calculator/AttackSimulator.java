@@ -39,7 +39,6 @@ public class AttackSimulator {
     @Resource
     private PokemonDataCreator creator;
 
-    public static int DEFENDER_DELAY = 2000;
     // todo make this configurable
     public static int attackerReactionTime = 0;
     public Logger log = LoggerFactory.getLogger(getClass());
@@ -76,18 +75,20 @@ public class AttackSimulator {
         final Move nextMove = moveRepository.getById(nextAttack.getMove());
         attackerState.setNextAttack(nextAttack, nextMove);
     }
+    boolean isDefender(AttackStrategy strategy) {
+        return strategy.getType().name().startsWith("DEFENSE");
+    }
 
     public FightResult.Builder fight(Fight fight) {
         final PokemonData attacker = fight.getAttacker1();
         final PokemonData defender = fight.getDefender();
-        final AttackStrategy attackerStrategy = attackStrategies.create(fight.getStrategy(), attacker, 0);
-        final AttackStrategy defenderStrategy = attackStrategies.create(fight.getDefenseStrategy(), defender,
-                DEFENDER_DELAY);
+        final AttackStrategy attackerStrategy = attackStrategies.create(fight.getStrategy(), attacker);
+        final AttackStrategy defenderStrategy = attackStrategies.create(fight.getDefenseStrategy(), defender);
         final Pokemon a = pokemonRepository.getById(attacker.getPokemonId());
         final Pokemon d = pokemonRepository.getById(defender.getPokemonId());
         final FightResult.Builder fightResult = FightResult.newBuilder();
-        final CombatantState attackerState = new CombatantState(a, attacker, f, false);
-        final CombatantState defenderState = new CombatantState(d, defender, f, true);
+        final CombatantState attackerState = new CombatantState(a, attacker, f, isDefender(attackerStrategy));
+        final CombatantState defenderState = new CombatantState(d, defender, f, isDefender(attackerStrategy));
         
         nextAttack(defenderStrategy, defenderState, attackerState);
         int currentTime = Formulas.START_COMBAT_TIME;

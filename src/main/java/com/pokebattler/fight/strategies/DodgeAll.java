@@ -7,6 +7,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
+import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -18,7 +19,6 @@ public class DodgeAll implements AttackStrategy {
     Move move1;
     Move move2;
     public static final int CAST_TIME = 500;
-    public static final int DODGE_WINDOW = 700;
 
     @Override
     public AttackStrategyType getType() {
@@ -37,7 +37,7 @@ public class DodgeAll implements AttackStrategy {
         // dodge special if we can
         if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0
                 && !defenderState.isDodged()) {
-            if (defenderState.getTimeToNextDamage() < DODGE_WINDOW + extraDelay) {
+            if (defenderState.getTimeToNextDamage() <= Formulas.DODGE_WINDOW + extraDelay) {
                 return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
             } else if (defenderState.getTimeToNextDamage() > move2.getDurationMs() + extraDelay + CAST_TIME
                     && attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
@@ -49,7 +49,7 @@ public class DodgeAll implements AttackStrategy {
             } else {
                 // dodge perfect
                 return new PokemonAttack(DODGE_MOVE.getMoveId(),
-                        Math.max(0, defenderState.getTimeToNextDamage() - DODGE_WINDOW));
+                        Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
             }
         }
         if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
@@ -70,9 +70,9 @@ public class DodgeAll implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public DodgeAll build(PokemonData pokemon, int extraDelay) {
+        public DodgeAll build(PokemonData pokemon) {
             return new DodgeAll(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
-                    extraDelay);
+                    0);
         }
     }
 

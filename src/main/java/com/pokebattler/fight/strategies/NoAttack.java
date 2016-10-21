@@ -34,7 +34,7 @@ public class NoAttack implements AttackStrategy {
     @Component
     public static class NoAttackBuilder implements AttackStrategy.AttackStrategyBuilder<NoAttack> {
         @Override
-        public NoAttack build(PokemonData pokemon, int extraDelay) {
+        public NoAttack build(PokemonData pokemon) {
             return new NoAttack(pokemon, DODGE_COOLDOWN);
         }
     }

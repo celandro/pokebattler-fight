@@ -60,9 +60,9 @@ public class QuickAttackDodgeAll implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public QuickAttackDodgeAll build(PokemonData pokemon, int extraDelay) {
+        public QuickAttackDodgeAll build(PokemonData pokemon) {
             return new QuickAttackDodgeAll(pokemon, move.getById(pokemon.getMove1()), 
-                    extraDelay);
+                    0);
         }
     }
 

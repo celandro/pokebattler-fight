@@ -139,7 +139,7 @@ public class CombatantState {
         timeSinceLastMove += time;
         combatTime += r.getCombatTime();
         if (r.getAttackMove() == PokemonMove.DODGE
-                && getTimeToNextDamage() < MoveRepository.DODGE_MOVE.getDurationMs()) {
+                && getTimeToNextDamage() <= Formulas.DODGE_WINDOW && getTimeToNextDamage() >= 0 ) {
             dodged = true;
         }
         return energyGain;

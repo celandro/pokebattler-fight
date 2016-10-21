@@ -72,11 +72,11 @@ public class AttackStrategyRegistry {
         return strategies.put(strategyBuilder.getType(), strategyBuilder) != null;
     }
 
-    public AttackStrategy create(AttackStrategyType name, PokemonData pokemon, int extraDelay) {
+    public AttackStrategy create(AttackStrategyType name, PokemonData pokemon) {
         if (!strategies.containsKey(name)) {
             throw new IllegalArgumentException("Unimplemented attack strategy " + name);
         }
-        return strategies.get(name).build(pokemon, extraDelay);
+        return strategies.get(name).build(pokemon);
     }
 
 }

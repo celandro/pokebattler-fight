@@ -7,6 +7,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
+import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -19,7 +20,6 @@ public class DodgeSpecials2 implements AttackStrategy {
     private final Move move2;
     private boolean dodgedSpecial;
     public static final int CAST_TIME = 500;
-    public static final int DODGE_WINDOW = 700;
 
     @Override
     public AttackStrategyType getType() {
@@ -38,7 +38,7 @@ public class DodgeSpecials2 implements AttackStrategy {
         // dodge special if we can
         if (defenderState.getNextMove() != null && defenderState.isNextMoveSpecial()
                 && defenderState.getTimeToNextDamage() > 0 && !defenderState.isDodged()) {
-            if (defenderState.getTimeToNextDamage() < DODGE_WINDOW + extraDelay) {
+            if (defenderState.getTimeToNextDamage() <= Formulas.DODGE_WINDOW + extraDelay) {
                 dodgedSpecial = true;
                 return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
             } else if (defenderState.getTimeToNextDamage() > move1.getDurationMs() + extraDelay) {
@@ -48,7 +48,7 @@ public class DodgeSpecials2 implements AttackStrategy {
                 // dodge perfect
                 dodgedSpecial = true;
                 return new PokemonAttack(DODGE_MOVE.getMoveId(),
-                        Math.max(0, defenderState.getTimeToNextDamage() - DODGE_WINDOW));
+                        Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
             }
         }
         if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta() && dodgedSpecial) {
@@ -70,9 +70,9 @@ public class DodgeSpecials2 implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public DodgeSpecials2 build(PokemonData pokemon, int extraDelay) {
+        public DodgeSpecials2 build(PokemonData pokemon) {
             return new DodgeSpecials2(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
-                    extraDelay);
+                    0);
         }
     }
 

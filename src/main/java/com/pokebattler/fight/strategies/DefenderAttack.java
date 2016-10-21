@@ -60,11 +60,12 @@ public class DefenderAttack implements AttackStrategy {
     public static class DefenderAttackBuilder implements AttackStrategy.AttackStrategyBuilder<DefenderAttack> {
         @Resource
         private MoveRepository move;
+        public static int DEFENDER_DELAY = 2000;
 
         @Override
-        public DefenderAttack build(PokemonData pokemon, int extraDelay) {
+        public DefenderAttack build(PokemonData pokemon) {
             return new DefenderAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
-                    extraDelay);
+                    DEFENDER_DELAY);
         }
     }
 

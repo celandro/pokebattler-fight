@@ -41,7 +41,8 @@ public class PokemonRepositoryTest {
         
         // starmie
         b = Pokemon.newBuilder();
-        p.addCinematicMoves("kA\\036\\154", b);        
+        p.addCinematicMoves("kA\\036\\154"
+                + "", b);        
         assertEquals(PokemonMove.HYDRO_PUMP,b.getCinematicMoves(0));
         assertEquals(PokemonMove.POWER_GEM,b.getCinematicMoves(1));
         assertEquals(PokemonMove.PSYBEAM,b.getCinematicMoves(2));

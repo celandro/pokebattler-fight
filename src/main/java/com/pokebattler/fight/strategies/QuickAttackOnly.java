@@ -32,8 +32,8 @@ public class QuickAttackOnly implements AttackStrategy {
     @Component
     public static class QuickAttackOnlyBuilder implements AttackStrategy.AttackStrategyBuilder<QuickAttackOnly> {
         @Override
-        public QuickAttackOnly build(PokemonData pokemon, int extraDelay) {
-            return new QuickAttackOnly(pokemon, extraDelay);
+        public QuickAttackOnly build(PokemonData pokemon) {
+            return new QuickAttackOnly(pokemon, 0);
         }
     }
 

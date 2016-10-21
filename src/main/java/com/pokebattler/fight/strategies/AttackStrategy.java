@@ -36,9 +36,9 @@ public interface AttackStrategy {
         public default AttackStrategyType getType() {
             final PokemonData fake = PokemonData.newBuilder().setMove1(PokemonMove.LICK).setMove2(PokemonMove.BODY_SLAM)
                     .setPokemonId(PokemonId.SNORLAX).build();
-            return build(fake, 0).getType();
+            return build(fake).getType();
         }
 
-        S build(PokemonData pokemon, int extraDelay);
+        S build(PokemonData pokemon);
     }
 }

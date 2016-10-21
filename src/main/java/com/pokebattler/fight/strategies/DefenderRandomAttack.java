@@ -66,13 +66,14 @@ public class DefenderRandomAttack implements AttackStrategy {
             implements AttackStrategy.AttackStrategyBuilder<DefenderRandomAttack> {
         public static int RAND_MS_DELAY = 1000;
         public static double RAND_CHANCE_SPECIAL = 0.5;
+        public static int DEFENDER_DELAY = 2000;
         @Resource
         private MoveRepository move;
 
         @Override
-        public DefenderRandomAttack build(PokemonData pokemon, int extraDelay) {
+        public DefenderRandomAttack build(PokemonData pokemon) {
             return new DefenderRandomAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
-                    extraDelay - (RAND_MS_DELAY / 2), RAND_MS_DELAY, AttackStrategyType.DEFENSE_RANDOM,
+                    DEFENDER_DELAY - (RAND_MS_DELAY / 2), RAND_MS_DELAY, AttackStrategyType.DEFENSE_RANDOM,
                     RAND_CHANCE_SPECIAL);
         }
     }
@@ -83,13 +84,14 @@ public class DefenderRandomAttack implements AttackStrategy {
         public static int RAND_MS_DELAY = 1;
         public static double RAND_CHANCE_SPECIAL = 1.0;
         public static int RAND_LUCKY_DELAY = 50;
+        public static int DEFENDER_DELAY = 2000;
         @Resource
         private MoveRepository move;
 
         @Override
-        public DefenderRandomAttack build(PokemonData pokemon, int extraDelay) {
+        public DefenderRandomAttack build(PokemonData pokemon) {
             return new DefenderRandomAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
-                    extraDelay - RAND_LUCKY_DELAY, RAND_MS_DELAY, AttackStrategyType.DEFENSE_LUCKY,
+                    DEFENDER_DELAY - RAND_LUCKY_DELAY, RAND_MS_DELAY, AttackStrategyType.DEFENSE_LUCKY,
                     RAND_CHANCE_SPECIAL);
         }
     }

@@ -44,6 +44,16 @@ public class PokemonRepository {
             ELECTABUZZ, MAGMAR, PINSIR, TAUROS, GYARADOS, LAPRAS, VAPOREON, JOLTEON, FLAREON, PORYGON, OMASTAR,
             KABUTOPS, AERODACTYL, SNORLAX, DRAGONITE));
 
+    EnumSet<PokemonId> endGameDefenderPokemons = EnumSet.copyOf(Arrays.asList(VENUSAUR, CHARIZARD, BLASTOISE, BUTTERFREE,
+            BEEDRILL, PIDGEOT, RATICATE, FEAROW, ARBOK, RAICHU, SANDSLASH, NIDOQUEEN, NIDOKING, CLEFABLE, NINETALES,
+            WIGGLYTUFF, GOLBAT, VILEPLUME, PARASECT, VENOMOTH, DUGTRIO, PERSIAN, GOLDUCK, PRIMEAPE, ARCANINE, POLIWRATH,
+            ALAKAZAM, MACHAMP, VICTREEBEL, TENTACRUEL, GOLEM, RAPIDASH, SLOWBRO, MAGNETON, FARFETCHD, DODRIO, DEWGONG,
+            MUK, CLOYSTER, GENGAR, ONIX, HYPNO, KINGLER, ELECTRODE, EXEGGUTOR, MAROWAK, HITMONLEE, HITMONCHAN,
+            LICKITUNG, WEEZING, RHYDON, CHANSEY, TANGELA, KANGASKHAN, SEADRA, SEAKING, STARMIE, MR_MIME, SCYTHER, JYNX,
+            ELECTABUZZ, MAGMAR, PINSIR, TAUROS, GYARADOS, LAPRAS, VAPOREON, JOLTEON, FLAREON, PORYGON, OMASTAR,
+            KABUTOPS, AERODACTYL, SNORLAX, DRAGONITE));
+    
+    
     public PokemonRepository() throws Exception {
         final InputStream is = this.getClass().getResourceAsStream("pokemongo.json");
         if (is == null) {
@@ -146,6 +156,12 @@ public class PokemonRepository {
     public Pokemons getAllEndGame() {
         Pokemons.Builder builder = all.toBuilder().clearPokemon();
         all.getPokemonList().stream().filter(pokemon -> endGamePokemons.contains(pokemon.getPokemonId()))
+        .forEach(pokemon -> builder.addPokemon(pokemon));
+        return builder.build();
+    }
+    public Pokemons getAllEndGameDefender() {
+        Pokemons.Builder builder = all.toBuilder().clearPokemon();
+        all.getPokemonList().stream().filter(pokemon -> endGameDefenderPokemons.contains(pokemon.getPokemonId()))
         .forEach(pokemon -> builder.addPokemon(pokemon));
         return builder.build();
     }
