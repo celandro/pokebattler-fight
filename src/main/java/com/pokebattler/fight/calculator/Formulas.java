@@ -87,16 +87,8 @@ public class Formulas {
 
     }
 
-    public CombatResult.Builder attackerCombat(double attack, double defense, Move move, Pokemon attacker,
-            Pokemon defender, int timeToNextAttack) {
-        final int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), false);
-        final CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(move.getDurationMs())
-                .setDamage(damage).setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId())
-                .setDodgePercent(0.0).setCriticalHit(false);
-        return builder;
-    }
 
-    public CombatResult.Builder defenderCombat(double attack, double defense, Move move, Pokemon attacker,
+    public CombatResult.Builder getCombatResult(double attack, double defense, Move move, Pokemon attacker,
             Pokemon defender, int timeToNextAttack, boolean isDodge) {
         final int damage = damageOfMove(attack, defense, move, attacker, defender, move.getCriticalChance(), true);
         final int dodgeDamage;

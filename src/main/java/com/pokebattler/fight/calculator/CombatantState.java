@@ -126,7 +126,7 @@ public class CombatantState {
 
     public int getTimeToNextDamage() {
         if (damageAlreadyOccurred) {
-            return -1;
+            return Integer.MAX_VALUE;
         } else {
             return nextAttack.getDelay() + nextMove.getDamageWindowStartMs() - getTimeSinceLastMove();
         }

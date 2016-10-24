@@ -88,7 +88,7 @@ public class AttackSimulator {
         final Pokemon d = pokemonRepository.getById(defender.getPokemonId());
         final FightResult.Builder fightResult = FightResult.newBuilder();
         final CombatantState attackerState = new CombatantState(a, attacker, f, isDefender(attackerStrategy));
-        final CombatantState defenderState = new CombatantState(d, defender, f, isDefender(attackerStrategy));
+        final CombatantState defenderState = new CombatantState(d, defender, f, isDefender(defenderStrategy));
         
         nextAttack(defenderStrategy, defenderState, attackerState);
         int currentTime = Formulas.START_COMBAT_TIME;
@@ -111,10 +111,10 @@ public class AttackSimulator {
             final int timeToNextDefenseDamage = defenderState.getTimeToNextDamage();
             
             // tie goes to defender
-            if (timeToNextAttackDamage >= 0 && timeToNextAttackDamage < timeToNextAttack &&
-                    timeToNextAttackDamage < timeToNextDefense && timeToNextAttackDamage < timeToNextDefenseDamage ) {
-                final CombatResult.Builder combatBuilder = f.attackerCombat(attackerState.getAttack(),
-                        defenderState.getDefense(), attackerState.getNextMove(), a, d, timeToNextAttackDamage);
+            if (timeToNextAttackDamage >= 0 && timeToNextAttackDamage <= timeToNextAttack &&
+                    timeToNextAttackDamage <= timeToNextDefense && timeToNextAttackDamage <= timeToNextDefenseDamage ) {
+                final CombatResult.Builder combatBuilder = f.getCombatResult(attackerState.getAttack(),
+                        defenderState.getDefense(), attackerState.getNextMove(), a, d, timeToNextAttackDamage, attackerState.isDodged());
                 currentTime += timeToNextAttackDamage;
                 final CombatResult result = combatBuilder.setCurrentTime(currentTime).setAttackerId(attacker.getId())
                         .setAttacker(Combatant.ATTACKER1).setDefender(Combatant.DEFENDER).setCurrentTime(currentTime)
@@ -126,11 +126,10 @@ public class AttackSimulator {
                         result.getDamage(), energyGain);
                 fightResult.addCombatResult(result);
 
-            } else if (timeToNextDefenseDamage >= 0 && timeToNextDefenseDamage < timeToNextAttack &&
-                    timeToNextDefenseDamage < timeToNextDefense  ) {
-                final CombatResult.Builder combatBuilder = f.defenderCombat(defenderState.getAttack(),
-                        attackerState.getDefense(), defenderState.getNextMove(), d, a, timeToNextDefenseDamage,
-                        attackerState.getNextMove() == MoveRepository.DODGE_MOVE || defenderState.isDodged());
+            } else if (timeToNextDefenseDamage >= 0 && timeToNextDefenseDamage <= timeToNextAttack &&
+                    timeToNextDefenseDamage <= timeToNextDefense  ) {
+                final CombatResult.Builder combatBuilder = f.getCombatResult(defenderState.getAttack(),
+                        attackerState.getDefense(), defenderState.getNextMove(), d, a, timeToNextDefenseDamage, defenderState.isDodged());
                 currentTime += timeToNextDefenseDamage;
                 
                 final CombatResult result = combatBuilder.setCurrentTime(currentTime).setAttackerId(defender.getId())
@@ -141,7 +140,7 @@ public class AttackSimulator {
                         result.getDamage(), energyGain);
                 // log.debug("Defender State {}",defenderState);
                 fightResult.addCombatResult(result);
-            } else if (timeToNextAttack < timeToNextDefense) {
+            } else if (timeToNextAttack <= timeToNextDefense) {
                 currentTime += timeToNextAttack;
                 int energyGain = attackerState.resetAttack(timeToNextAttack);
                 log.debug("{}: {} finished his attack and gained {} energy", currentTime - Formulas.START_COMBAT_TIME, attackerState.getPokemon(), 

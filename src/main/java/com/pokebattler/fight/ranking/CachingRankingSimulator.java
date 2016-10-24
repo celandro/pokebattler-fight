@@ -1,4 +1,4 @@
-package com.pokebattler.fight.calculator;
+package com.pokebattler.fight.ranking;
 
 import javax.annotation.Resource;
 
@@ -14,28 +14,38 @@ import com.pokebattler.fight.data.proto.Ranking.RankingResult;
 public class CachingRankingSimulator {
     @Resource 
     RankingSimulator rankingSimulator;
+    @Resource
+    AttackerRankingsSort attackerRankingsSort;
+    @Resource
+    DefenderRankingsSort defenderRankingsSort;
     
     LoadingCache<RankingCacheKey, RankingResult> rankCache = CacheBuilder.newBuilder()
             .maximumSize(100)
             .build(new CacheLoader <RankingCacheKey, RankingResult>() {
                   public RankingResult load(RankingCacheKey key) {
-                    return rankingSimulator.rank(key.getAttackerLevel(), key.getDefenderLevel(),key.getAttackStrategy(), key.getDefenseStrategy());
+                    return rankingSimulator.rank(key.getAttackerLevel(), key.getDefenderLevel(),key.getAttackStrategy(), key.getDefenseStrategy(), key.getSort());
                   }
                 });    
-    public RankingResult rank(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
-        return rankCache.getUnchecked(new RankingCacheKey(attackerLevel,defenderLevel, attackStrategy,defenseStrategy));
+    public RankingResult rankAttacker(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
+        return rankCache.getUnchecked(new RankingCacheKey(attackerLevel,defenderLevel, attackStrategy,defenseStrategy, attackerRankingsSort));
+    }    
+    public RankingResult rankDefender(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
+        // for defense, swap the strategies and use a different sort
+        return rankCache.getUnchecked(new RankingCacheKey(defenderLevel,attackerLevel, defenseStrategy,attackStrategy, defenderRankingsSort));
     }    
     static class RankingCacheKey {
         final private String attackerLevel;
         final private String defenderLevel;
         final private AttackStrategyType attackStrategy;
         final private AttackStrategyType defenseStrategy;
-        public RankingCacheKey(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
+        final private RankingsSort sort;
+        public RankingCacheKey(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, RankingsSort sort) {
             super();
             this.attackerLevel = attackerLevel;
             this.defenderLevel = defenderLevel;
             this.attackStrategy = attackStrategy;
             this.defenseStrategy = defenseStrategy;
+            this.sort = sort;
         }
         public String getAttackerLevel() {
             return attackerLevel;
@@ -49,6 +59,9 @@ public class CachingRankingSimulator {
         public AttackStrategyType getDefenseStrategy() {
             return defenseStrategy;
         }
+        public RankingsSort getSort() {
+            return sort;
+        }
         @Override
         public int hashCode() {
             final int prime = 31;
@@ -57,6 +70,7 @@ public class CachingRankingSimulator {
             result = prime * result + ((attackerLevel == null) ? 0 : attackerLevel.hashCode());
             result = prime * result + ((defenderLevel == null) ? 0 : defenderLevel.hashCode());
             result = prime * result + ((defenseStrategy == null) ? 0 : defenseStrategy.hashCode());
+            result = prime * result + ((sort == null) ? 0 : sort.hashCode());
             return result;
         }
         @Override
@@ -82,9 +96,13 @@ public class CachingRankingSimulator {
                 return false;
             if (defenseStrategy != other.defenseStrategy)
                 return false;
+            if (sort == null) {
+                if (other.sort != null)
+                    return false;
+            } else if (!sort.equals(other.sort))
+                return false;
             return true;
         }
-        
         
     }
 
