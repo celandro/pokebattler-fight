@@ -42,6 +42,8 @@ public class FormulasTest {
                 , 13, p.getStats().getBaseStamina(), 14));
         assertEquals(1850, formulas.calculateCp("22", p.getStats().getBaseAttack(), 9, p.getStats().getBaseDefense()
                 , 9, p.getStats().getBaseStamina(), 9));
+        assertEquals(3112, formulas.calculateCp("40", p.getStats().getBaseAttack(), 15, p.getStats().getBaseDefense()
+                , 15, p.getStats().getBaseStamina(), 15));
     }
     @Test
     public void testAttack() {

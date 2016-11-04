@@ -20,6 +20,7 @@ import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.PokemonDataCreator;
 import com.pokebattler.fight.data.PokemonRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
+import com.pokebattler.fight.data.proto.FightOuterClass.CombatantResultOrBuilder;
 import com.pokebattler.fight.data.proto.FightOuterClass.Fight;
 import com.pokebattler.fight.data.proto.FightOuterClass.FightResult;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
@@ -45,6 +46,8 @@ public class RankingSimulator {
     PokemonDataCreator creator;
 
     Logger log = LoggerFactory.getLogger(getClass());
+    public static final double MAX_POWER = 10.0;
+    public static final double MIN_POWER = 1/MAX_POWER;
 
     public RankingResult rank(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, RankingsSort sort) {
         final RankingResult.Builder retval = RankingResult.newBuilder().setAttackStrategy(attackStrategy)
@@ -70,6 +73,8 @@ public class RankingSimulator {
             attacker.getCinematicMovesList().forEach((cin) -> {
                 final PokemonData attackerData = creator.createMaxStatPokemon(attacker.getPokemonId(), attackerLevel, quick,
                         cin);
+                // yes we set this a few times its ok
+                retval.setCp(attackerData.getCp());
                 results.add(rankAttackerByMoves(attackerData, defenderLevel, attackStrategy, defenseStrategy, sort));
             });
         });
@@ -97,8 +102,6 @@ public class RankingSimulator {
             final DefenderResult.Builder rankDefender = subRankDefender(defender, attackerData, defenderLevel, attackStrategy,
                     defenseStrategy);
             // only retain the subtotals
-            final DefenderSubResult bestDefense = rankDefender.getByMoveList()
-                    .get(rankDefender.getByMoveList().size() - 1);
             rankDefender.clearByMove();
             results.add(rankDefender);
         });
@@ -112,6 +115,7 @@ public class RankingSimulator {
                     subTotal.setDamageDealt(subTotal.getDamageDealt() + result.getTotalOrBuilder().getDamageDealt());
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getTotalOrBuilder().getDamageTaken());
                     subTotal.setNumLosses(subTotal.getNumLosses() + result.getTotalOrBuilder().getNumLosses());
+                    subTotal.setPower(subTotal.getPower() + result.getTotalOrBuilder().getPower());
                     retval.addDefenders(result);
                     
                 });
@@ -126,6 +130,8 @@ public class RankingSimulator {
             defender.getCinematicMovesList().forEach((cin) -> {
                 final PokemonData defenderData = creator.createMaxStatPokemon(defender.getPokemonId(),
                         defenderLevel, quick, cin);
+                // yes we set this a few times its ok
+                retval.setCp(defenderData.getCp());
                 results.add(subRankDefenderByMoves(attackerData, defenderData, attackStrategy, defenseStrategy));
             });
         });
@@ -144,11 +150,22 @@ public class RankingSimulator {
                     subTotal.setCombatTime(subTotal.getCombatTime() + result.getResultOrBuilder().getTotalCombatTime());
                     subTotal.setDamageDealt(subTotal.getDamageDealt() + result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt());
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt());
+                    subTotal.setPower(subTotal.getPower() + getPower(result));
                     retval.addByMove(result);   
                 });
         retval.setTotal(subTotal);
         return retval;
     }
+
+    double getPower(DefenderSubResultOrBuilder result) {
+        CombatantResultOrBuilder attacker = result.getResultOrBuilder().getCombatantsOrBuilder(0);
+        CombatantResultOrBuilder defender = result.getResultOrBuilder().getCombatantsOrBuilder(1);
+        double attackerPower =  Math.max(MIN_POWER, Math.min(MAX_POWER, (attacker.getStartHp() - attacker.getEndHp()) / (double) attacker.getStartHp()));
+        double defenderPower =  Math.max(MIN_POWER, Math.min(MAX_POWER, (defender.getStartHp() - defender.getEndHp()) / (double) defender.getStartHp()));
+        // if we return a log, we can add and the numbers stay much smaller!
+        return Math.log10(defenderPower/attackerPower);
+    }
+
 
     public DefenderSubResult.Builder subRankDefenderByMoves(PokemonData attackerData, PokemonData defenderData,
             AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
@@ -156,9 +173,9 @@ public class RankingSimulator {
                 .setDefenseStrategy(defenseStrategy).build();      
         final FightResult.Builder result = simulator.fight(fight);
         result.clearCombatResult().clearFightParameters();
-        result.getCombatantsBuilder(0).clearStrategy().clearCombatTime().clearPokemon().clearStartHp().clearEndHp()
+        result.getCombatantsBuilder(0).clearStrategy().clearCombatTime().clearPokemon()
                 .clearEnergy().clearCombatant().clearDps();
-        result.getCombatantsBuilder(1).clearStrategy().clearCombatTime().clearPokemon().clearStartHp().clearEndHp()
+        result.getCombatantsBuilder(1).clearStrategy().clearCombatTime().clearPokemon()
                 .clearEnergy().clearCombatant().clearDps();
         return DefenderSubResult.newBuilder().setMove1(defenderData.getMove1()).setMove2(defenderData.getMove2())
                 .setResult(result);

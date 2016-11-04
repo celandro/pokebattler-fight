@@ -5,6 +5,12 @@ import "com/pokebattler/fight/data/proto/PokemonMove.proto";
 import "com/pokebattler/fight/data/proto/PokemonId.proto";
 import "com/pokebattler/fight/data/proto/Fight.proto";
 
+enum SortType {
+	POWER=0;
+	WIN = 1;
+	TIME = 2;
+	DPS = 3;
+}
 message RankingResult {
 	repeated AttackerResult attackers = 1;
 	AttackStrategyType attackStrategy = 2;
@@ -13,6 +19,7 @@ message RankingResult {
 message AttackerResult {
 	PokemonId pokemon_id = 1;
 	repeated AttackerSubResult byMove = 2;
+	int32 cp = 3;
 }
 
 message AttackerSubResult {
@@ -27,11 +34,13 @@ message SubResultTotal {
 	int32 damage_dealt = 3;
 	int32 num_wins = 4;
 	int32 num_losses = 5;
+	double power = 6;
 }
 
 message DefenderResult {
 	PokemonId pokemon_id = 1;
 	repeated DefenderSubResult byMove = 2;
+	int32 cp = 3;
 	SubResultTotal total = 4;
 }
 message DefenderSubResult {

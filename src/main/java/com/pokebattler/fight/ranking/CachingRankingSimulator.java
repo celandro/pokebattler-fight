@@ -9,15 +9,14 @@ import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.Ranking.RankingResult;
+import com.pokebattler.fight.data.proto.Ranking.SortType;
 
 @Service
 public class CachingRankingSimulator {
     @Resource 
     RankingSimulator rankingSimulator;
     @Resource
-    AttackerRankingsSort attackerRankingsSort;
-    @Resource
-    DefenderRankingsSort defenderRankingsSort;
+    SortRegistry sortRegistry;
     
     LoadingCache<RankingCacheKey, RankingResult> rankCache = CacheBuilder.newBuilder()
             .maximumSize(100)
@@ -26,12 +25,12 @@ public class CachingRankingSimulator {
                     return rankingSimulator.rank(key.getAttackerLevel(), key.getDefenderLevel(),key.getAttackStrategy(), key.getDefenseStrategy(), key.getSort());
                   }
                 });    
-    public RankingResult rankAttacker(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
-        return rankCache.getUnchecked(new RankingCacheKey(attackerLevel,defenderLevel, attackStrategy,defenseStrategy, attackerRankingsSort));
+    public RankingResult rankAttacker(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, SortType sortType) {
+        return rankCache.getUnchecked(new RankingCacheKey(attackerLevel,defenderLevel, attackStrategy,defenseStrategy, sortRegistry.getAttackerSort(sortType)));
     }    
-    public RankingResult rankDefender(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
+    public RankingResult rankDefender(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, SortType sortType) {
         // for defense, swap the strategies and use a different sort
-        return rankCache.getUnchecked(new RankingCacheKey(defenderLevel,attackerLevel, defenseStrategy,attackStrategy, defenderRankingsSort));
+        return rankCache.getUnchecked(new RankingCacheKey(defenderLevel,attackerLevel, defenseStrategy,attackStrategy, sortRegistry.getDefenderSort(sortType)));
     }    
     static class RankingCacheKey {
         final private String attackerLevel;

@@ -7,7 +7,6 @@ import java.io.IOException;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.google.protobuf.CodedInputStream;
 import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemons;
