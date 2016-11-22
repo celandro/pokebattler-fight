@@ -1,10 +1,12 @@
-package com.pokebattler.fight.ranking;
+package com.pokebattler.fight.ranking.sort;
 
 import java.util.Comparator;
 
 import com.pokebattler.fight.data.proto.Ranking.AttackerResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.AttackerSubResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.DefenderResultOrBuilder;
+import com.pokebattler.fight.data.proto.Ranking.DefenderSubResult.Builder;
+import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
 
@@ -23,5 +25,7 @@ public interface RankingsSort {
     
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator();
     public SortType getType();
+    public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator();
+
     
 }

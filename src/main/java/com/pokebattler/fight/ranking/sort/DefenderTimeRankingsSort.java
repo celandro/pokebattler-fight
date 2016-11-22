@@ -1,18 +1,25 @@
-package com.pokebattler.fight.ranking;
+package com.pokebattler.fight.ranking.sort;
 
 import java.util.Comparator;
 
 import org.springframework.stereotype.Component;
 
+import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
 
 @Component
 public class DefenderTimeRankingsSort implements RankingsSort{
+    @Override
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
         // biggest combat time first then biggest power
         return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -total.getCombatTime())
                .thenComparing(Comparator.<SubResultTotalOrBuilder>comparingDouble(total -> -total.getPower())); 
+    }
+    @Override
+    public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
+        return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -result.getResultOrBuilder().getTotalCombatTime())
+                .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingDouble(result -> -result.getResultOrBuilder().getPower()));
     }
     
     @Override

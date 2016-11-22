@@ -44,7 +44,6 @@ public class FightResource {
     public Logger log = LoggerFactory.getLogger(getClass());
 
     @POST
-    @Path("/")
     @Produces("application/json")
     public FightResult fight(Fight fight) {
         log.debug("Calculating dps for fight {}", fight);

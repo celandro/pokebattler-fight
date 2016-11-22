@@ -17,6 +17,7 @@ import com.leandronunes85.etag.ETag;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.PokemonDataCreator;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
+import com.pokebattler.fight.data.proto.Ranking.FilterType;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.ranking.CachingRankingSimulator;
 
@@ -43,7 +44,9 @@ public class RankingResource {
             @PathParam("defenderLevel") String defenderLevel,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
             @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-            @DefaultValue("POWER") @QueryParam("sort") SortType sortType) {
+            @DefaultValue("POWER") @QueryParam("sort") SortType sortType,
+            @DefaultValue("NO_FILTER") @QueryParam("filterType") FilterType filterType,
+            @QueryParam("filterValue") String filterValue) {
         log.info("Calculating attacker rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}", attackerLevel, defenderLevel, attackStrategy,
                 defenseStrategy, sortType);
         // set caching based on wether the result is random
@@ -51,7 +54,7 @@ public class RankingResource {
         // maybe a query parameter to seed the rng?
         final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
         cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
-        return Response.ok(simulator.rankAttacker(attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType)).cacheControl(cacheControl).build();
+        return Response.ok(simulator.rankAttacker(attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType, filterType, filterValue)).cacheControl(cacheControl).build();
 
     }
     @GET
@@ -62,7 +65,9 @@ public class RankingResource {
             @PathParam("defenderLevel") String defenderLevel,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
             @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-            @DefaultValue("POWER") @QueryParam("sort") SortType sortType) {
+            @DefaultValue("POWER") @QueryParam("sort") SortType sortType,
+            @DefaultValue("COUNTERS") @QueryParam("filterType") FilterType filterType,
+            @DefaultValue("5") @QueryParam("filterValue") String filterValue) {
         log.info("Calculating defender rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}", attackerLevel, defenderLevel, attackStrategy,
                 defenseStrategy, sortType);
         // set caching based on wether the result is random
@@ -70,9 +75,10 @@ public class RankingResource {
         // maybe a query parameter to seed the rng?
         final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
         cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
-        return Response.ok(simulator.rankDefender(attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType)).cacheControl(cacheControl).build();
+        return Response.ok(simulator.rankDefender(attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType,filterType, filterValue)).cacheControl(cacheControl).build();
 
     }
+    
 
     private boolean isRandom(AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
         return defenseStrategy == AttackStrategyType.DEFENSE_RANDOM;

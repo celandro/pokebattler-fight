@@ -1,4 +1,4 @@
-package com.pokebattler.fight.ranking;
+package com.pokebattler.fight.ranking.sort;
 
 import java.util.EnumMap;
 import java.util.Map;

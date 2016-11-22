@@ -13,6 +13,7 @@ import com.pokebattler.fight.data.PokemonRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.FightOuterClass.CombatResult;
 import com.pokebattler.fight.data.proto.FightOuterClass.Combatant;
+import com.pokebattler.fight.data.proto.FightOuterClass.CombatantResultOrBuilder;
 import com.pokebattler.fight.data.proto.FightOuterClass.Fight;
 import com.pokebattler.fight.data.proto.FightOuterClass.FightResult;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -20,6 +21,7 @@ import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
 import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
+import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
 import com.pokebattler.fight.strategies.AttackStrategy;
 import com.pokebattler.fight.strategies.AttackStrategy.PokemonAttack;
 import com.pokebattler.fight.strategies.AttackStrategyRegistry;
@@ -43,6 +45,9 @@ public class AttackSimulator {
     public static int attackerReactionTime = 0;
     public Logger log = LoggerFactory.getLogger(getClass());
 
+    public static final double MAX_POWER = 10.0;
+    
+    
     public FightResult calculateMaxAttackDPS(PokemonId attackerId, PokemonId defenderId, PokemonMove move1,
             PokemonMove move2, AttackStrategyType strategy) {
         final String level = Integer.toString(Formulas.MAX_LEVEL);
@@ -155,10 +160,19 @@ public class AttackSimulator {
             }
                 
         }
-        return fightResult.setWin(!defenderState.isAlive()).setTotalCombatTime(currentTime)
+        fightResult.setWin(!defenderState.isAlive()).setTotalCombatTime(currentTime)
                 .addCombatants(attackerState.toResult(Combatant.ATTACKER1, attackerStrategy.getType(), currentTime))
                 .addCombatants(defenderState.toResult(Combatant.DEFENDER, defenderStrategy.getType(), currentTime))
                 .setFightParameters(fight);
+        return fightResult.setPower(getPower(fightResult));
+    }
+    double getPower(FightResult.Builder result) {
+        CombatantResultOrBuilder attacker = result.getCombatantsOrBuilder(0);
+        CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(1);
+        double attackerPower =  Math.min(MAX_POWER, (attacker.getStartHp() - attacker.getEndHp()) / (double) attacker.getStartHp());
+        double defenderPower =  Math.min(MAX_POWER, (defender.getStartHp() - defender.getEndHp()) / (double) defender.getStartHp());
+        // if we return a log, we can add and the numbers stay much smaller!
+        return Math.log10(defenderPower/attackerPower);
     }
 
 }

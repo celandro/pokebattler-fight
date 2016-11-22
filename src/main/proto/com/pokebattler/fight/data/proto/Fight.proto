@@ -33,6 +33,7 @@ message FightResult {
 	repeated CombatantResult combatants = 3;
 	repeated CombatResult combat_result=4;
 	Fight fight_parameters = 5;
+	double power = 6;
 }
 
 message CombatantResult {

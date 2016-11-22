@@ -1,9 +1,10 @@
-package com.pokebattler.fight.ranking;
+package com.pokebattler.fight.ranking.sort;
 
 import java.util.Comparator;
 
 import org.springframework.stereotype.Component;
 
+import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
 
@@ -12,6 +13,10 @@ public class DPSRankingsSort implements RankingsSort{
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
         // biggest power then biggest wins then biggest damage dealt
         return Comparator.<SubResultTotalOrBuilder>comparingDouble(total -> -total.getDamageDealt()/ (double)total.getCombatTime());
+    }
+    @Override
+    public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
+        return Comparator.<DefenderSubResultOrBuilder>comparingDouble(result -> -result.getResultOrBuilder().getCombatantsOrBuilder(0).getDps());
     }
     
     @Override

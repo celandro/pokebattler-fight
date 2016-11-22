@@ -11,6 +11,14 @@ enum SortType {
 	TIME = 2;
 	DPS = 3;
 }
+
+enum FilterType {
+	NO_FILTER=0;
+	COUNTERS = 1;
+	TOP = 2;
+	TYPE = 3;
+	POKEMON = 4;
+}
 message RankingResult {
 	repeated AttackerResult attackers = 1;
 	AttackStrategyType attackStrategy = 2;
