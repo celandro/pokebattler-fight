@@ -4,6 +4,7 @@ import java.util.Comparator;
 
 import org.springframework.stereotype.Component;
 
+import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
@@ -13,12 +14,13 @@ public class DefenderTimeRankingsSort implements RankingsSort{
     @Override
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
         // biggest combat time first then biggest power
-        return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -total.getCombatTime())
+        return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -(total.getCombatTime()+ total.getNumWins() * Formulas.MAX_COMBAT_TIME_MS))
                .thenComparing(Comparator.<SubResultTotalOrBuilder>comparingDouble(total -> -total.getPower())); 
     }
     @Override
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
-        return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -result.getResultOrBuilder().getTotalCombatTime())
+        // a win counts as a big delay
+        return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -(result.getResultOrBuilder().getTotalCombatTime() + (result.getResultOrBuilder().getWin()?Formulas.MAX_COMBAT_TIME_MS:0)))
                 .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingDouble(result -> -result.getResultOrBuilder().getPower()));
     }
     

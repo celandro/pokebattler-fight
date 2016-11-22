@@ -34,7 +34,7 @@ public class CountersFilter implements RankingsFilter {
 
     @Override
     public int getNumForTotal() {
-        return Integer.MAX_VALUE;
+        return numForTotal;
     }
 
 }

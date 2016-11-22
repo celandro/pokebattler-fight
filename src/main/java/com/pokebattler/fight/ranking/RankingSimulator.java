@@ -99,9 +99,9 @@ public class RankingSimulator {
         pokemonRepository.getAllEndGameDefender().getPokemonList().stream().forEach((defender) -> {
             final DefenderResult.Builder rankDefender = subRankDefender(defender, attackerData, params);
             // only retain the subtotals
-//            DefenderSubResult bestMove = rankDefender.getByMove(0);
-//            rankDefender.clearByMove();
-//            rankDefender.addByMove(bestMove);
+            DefenderSubResult bestMove = rankDefender.getByMove(0);
+            rankDefender.clearByMove();
+            rankDefender.addByMove(bestMove);
             results.add(rankDefender);
         });
         // sort by winner first then damagetaken then damage dealt for tie breaker (unlikely)
@@ -119,6 +119,8 @@ public class RankingSimulator {
                     subTotal.setPower(subTotal.getPower() + subResultTotalBuilder.getPower());
                     // normalize power
                     subResultTotalBuilder.setPower(Math.pow(10, subResultTotalBuilder.getPower()/( subResultTotalBuilder.getNumWins() +  subResultTotalBuilder.getNumLosses())));
+                    // shrink json
+                    result.clearTotal();
                     retval.addDefenders(result);
                     
                 })                ;
@@ -153,6 +155,8 @@ public class RankingSimulator {
                     subTotal.setDamageDealt(subTotal.getDamageDealt() + result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt());
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt());
                     subTotal.setPower(subTotal.getPower() + result.getResultOrBuilder().getPower());
+                    // reduce the json size a ton
+                    result.clearResult();
                     retval.addByMove(result);   
                 });
         retval.setTotal(subTotal);
