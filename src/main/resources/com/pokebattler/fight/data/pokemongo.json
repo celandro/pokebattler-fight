@@ -624,8 +624,8 @@
         },
         "Stats": {
           "BaseStamina": 90,
-          "BaseAttack": 126,
-          "BaseDefense": 126
+          "BaseAttack": 118,
+          "BaseDefense": 118
         },
         "QuickMoves": "\\326\\001\\335\\001",
         "CinematicMoves": "Z;v",
@@ -665,8 +665,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 156,
-          "BaseDefense": 158
+          "BaseAttack": 151,
+          "BaseDefense": 151
         },
         "QuickMoves": "\\327\\001\\326\\001",
         "CinematicMoves": "Ztv",
@@ -708,7 +708,7 @@
         "Stats": {
           "BaseStamina": 160,
           "BaseAttack": 198,
-          "BaseDefense": 200
+          "BaseDefense": 198
         },
         "QuickMoves": "\\327\\001\\326\\001",
         "CinematicMoves": "Z/t",
@@ -746,8 +746,8 @@
         },
         "Stats": {
           "BaseStamina": 78,
-          "BaseAttack": 128,
-          "BaseDefense": 108
+          "BaseAttack": 116,
+          "BaseDefense": 96
         },
         "QuickMoves": "\\321\\001\\334\\001",
         "CinematicMoves": "ef\\030",
@@ -786,8 +786,8 @@
         },
         "Stats": {
           "BaseStamina": 116,
-          "BaseAttack": 160,
-          "BaseDefense": 140
+          "BaseAttack": 158,
+          "BaseDefense": 129
         },
         "QuickMoves": "\\321\\001\\334\\001",
         "CinematicMoves": "sf\\030",
@@ -829,8 +829,8 @@
         },
         "Stats": {
           "BaseStamina": 156,
-          "BaseAttack": 212,
-          "BaseDefense": 182
+          "BaseAttack": 223,
+          "BaseDefense": 176
         },
         "QuickMoves": "\\321\\001\\322\\001",
         "CinematicMoves": "gS\\030",
@@ -868,8 +868,8 @@
         },
         "Stats": {
           "BaseStamina": 88,
-          "BaseAttack": 112,
-          "BaseDefense": 142
+          "BaseAttack": 94,
+          "BaseDefense": 122
         },
         "QuickMoves": "\\355\\001\\335\\001",
         "CinematicMoves": "9:i",
@@ -908,8 +908,8 @@
         },
         "Stats": {
           "BaseStamina": 118,
-          "BaseAttack": 144,
-          "BaseDefense": 176
+          "BaseAttack": 126,
+          "BaseDefense": 155
         },
         "QuickMoves": "\\346\\001\\312\\001",
         "CinematicMoves": "9\\'k",
@@ -949,8 +949,8 @@
         },
         "Stats": {
           "BaseStamina": 158,
-          "BaseAttack": 186,
-          "BaseDefense": 222
+          "BaseAttack": 171,
+          "BaseDefense": 210
         },
         "QuickMoves": "\\346\\001\\312\\001",
         "CinematicMoves": "$\\'k",
@@ -986,8 +986,8 @@
         },
         "Stats": {
           "BaseStamina": 90,
-          "BaseAttack": 62,
-          "BaseDefense": 66
+          "BaseAttack": 55,
+          "BaseDefense": 62
         },
         "QuickMoves": "\\311\\001\\335\\001",
         "CinematicMoves": "\\205\\001",
@@ -1026,8 +1026,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 56,
-          "BaseDefense": 86
+          "BaseAttack": 45,
+          "BaseDefense": 64
         },
         "QuickMoves": "\\311\\001\\335\\001",
         "CinematicMoves": "\\205\\001",
@@ -1069,8 +1069,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 144,
-          "BaseDefense": 144
+          "BaseAttack": 167,
+          "BaseDefense": 151
         },
         "QuickMoves": "\\311\\001\\353\\001",
         "CinematicMoves": "1lc",
@@ -1127,8 +1127,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 68,
-          "BaseDefense": 64
+          "BaseAttack": 63,
+          "BaseDefense": 55
         },
         "QuickMoves": "\\311\\001\\354\\001",
         "CinematicMoves": "\\205\\001",
@@ -1185,8 +1185,8 @@
         },
         "Stats": {
           "BaseStamina": 90,
-          "BaseAttack": 62,
-          "BaseDefense": 82
+          "BaseAttack": 46,
+          "BaseDefense": 86
         },
         "QuickMoves": "\\311\\001\\354\\001",
         "CinematicMoves": "\\205\\001",
@@ -1228,8 +1228,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 144,
-          "BaseDefense": 130
+          "BaseAttack": 169,
+          "BaseDefense": 150
         },
         "QuickMoves": "\\311\\001\\340\\001",
         "CinematicMoves": "Z-d",
@@ -1286,8 +1286,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 94,
-          "BaseDefense": 90
+          "BaseAttack": 85,
+          "BaseDefense": 76
         },
         "QuickMoves": "\\333\\001\\335\\001",
         "CinematicMoves": "P-y",
@@ -1328,8 +1328,8 @@
         },
         "Stats": {
           "BaseStamina": 126,
-          "BaseAttack": 126,
-          "BaseDefense": 122
+          "BaseAttack": 117,
+          "BaseDefense": 108
         },
         "QuickMoves": "\\322\\001\\357\\001",
         "CinematicMoves": "P-y",
@@ -1389,8 +1389,8 @@
         },
         "Stats": {
           "BaseStamina": 166,
-          "BaseAttack": 170,
-          "BaseDefense": 166
+          "BaseAttack": 166,
+          "BaseDefense": 157
         },
         "QuickMoves": "\\322\\001\\357\\001",
         "CinematicMoves": "z-y",
@@ -1428,8 +1428,8 @@
         },
         "Stats": {
           "BaseStamina": 60,
-          "BaseAttack": 92,
-          "BaseDefense": 86
+          "BaseAttack": 103,
+          "BaseDefense": 70
         },
         "QuickMoves": "\\335\\001\\333\\001",
         "CinematicMoves": "\\032\\201\\001\\203\\001",
@@ -1486,8 +1486,8 @@
         },
         "Stats": {
           "BaseStamina": 110,
-          "BaseAttack": 146,
-          "BaseDefense": 150
+          "BaseAttack": 161,
+          "BaseDefense": 144
         },
         "QuickMoves": "\\312\\001\\333\\001",
         "CinematicMoves": "\\032\\201\\001\\016",
@@ -1544,8 +1544,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 102,
-          "BaseDefense": 78
+          "BaseAttack": 112,
+          "BaseDefense": 61
         },
         "QuickMoves": "\\323\\001\\333\\001",
         "CinematicMoves": "-&P",
@@ -1604,8 +1604,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 168,
-          "BaseDefense": 146
+          "BaseAttack": 182,
+          "BaseDefense": 135
         },
         "QuickMoves": "\\323\\001\\357\\001",
         "CinematicMoves": "-.P",
@@ -1643,8 +1643,8 @@
         },
         "Stats": {
           "BaseStamina": 70,
-          "BaseAttack": 112,
-          "BaseDefense": 112
+          "BaseAttack": 110,
+          "BaseDefense": 102
         },
         "QuickMoves": "\\354\\001\\341\\001",
         "CinematicMoves": "\\rZ\\\\",
@@ -1701,8 +1701,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 166,
-          "BaseDefense": 166
+          "BaseAttack": 167,
+          "BaseDefense": 158
         },
         "QuickMoves": "\\312\\001\\341\\001",
         "CinematicMoves": "\\020[\\\\",
@@ -1739,8 +1739,8 @@
         },
         "Stats": {
           "BaseStamina": 70,
-          "BaseAttack": 124,
-          "BaseDefense": 108
+          "BaseAttack": 112,
+          "BaseDefense": 101
         },
         "QuickMoves": "\\315\\001\\333\\001",
         "CinematicMoves": "#ON",
@@ -1797,8 +1797,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 200,
-          "BaseDefense": 154
+          "BaseAttack": 193,
+          "BaseDefense": 165
         },
         "QuickMoves": "\\315\\001\\316\\001",
         "CinematicMoves": "{MN",
@@ -1836,8 +1836,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 90,
-          "BaseDefense": 114
+          "BaseAttack": 126,
+          "BaseDefense": 145
         },
         "QuickMoves": "\\334\\001\\330\\001",
         "CinematicMoves": "\\032@?",
@@ -1894,8 +1894,8 @@
         },
         "Stats": {
           "BaseStamina": 150,
-          "BaseAttack": 150,
-          "BaseDefense": 172
+          "BaseAttack": 182,
+          "BaseDefense": 202
         },
         "QuickMoves": "\\344\\001\\330\\001",
         "CinematicMoves": "\\037?_",
@@ -1933,8 +1933,8 @@
         },
         "Stats": {
           "BaseStamina": 110,
-          "BaseAttack": 100,
-          "BaseDefense": 104
+          "BaseAttack": 86,
+          "BaseDefense": 94
         },
         "QuickMoves": "\\312\\001\\354\\001",
         "CinematicMoves": "2\\203\\001Z",
@@ -1991,8 +1991,8 @@
         },
         "Stats": {
           "BaseStamina": 140,
-          "BaseAttack": 132,
-          "BaseDefense": 136
+          "BaseAttack": 117,
+          "BaseDefense": 126
         },
         "QuickMoves": "\\312\\001\\354\\001",
         "CinematicMoves": "2\\032Z",
@@ -2051,8 +2051,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 184,
-          "BaseDefense": 190
+          "BaseAttack": 180,
+          "BaseDefense": 174
         },
         "QuickMoves": "\\340\\001\\312\\001",
         "CinematicMoves": "\\037[ ",
@@ -2108,8 +2108,8 @@
         },
         "Stats": {
           "BaseStamina": 92,
-          "BaseAttack": 110,
-          "BaseDefense": 94
+          "BaseAttack": 105,
+          "BaseDefense": 76
         },
         "QuickMoves": "\\323\\001\\354\\001",
         "CinematicMoves": "~\\203\\001Z",
@@ -2166,8 +2166,8 @@
         },
         "Stats": {
           "BaseStamina": 122,
-          "BaseAttack": 142,
-          "BaseDefense": 128
+          "BaseAttack": 137,
+          "BaseDefense": 112
         },
         "QuickMoves": "\\340\\001\\354\\001",
         "CinematicMoves": "~\\032Z",
@@ -2227,7 +2227,7 @@
         "Stats": {
           "BaseStamina": 162,
           "BaseAttack": 204,
-          "BaseDefense": 170
+          "BaseDefense": 157
         },
         "QuickMoves": "\\340\\001\\310\\001",
         "CinematicMoves": "\\037[\\026",
@@ -2282,8 +2282,8 @@
         },
         "Stats": {
           "BaseStamina": 140,
-          "BaseAttack": 116,
-          "BaseDefense": 124
+          "BaseAttack": 107,
+          "BaseDefense": 116
         },
         "QuickMoves": "\\336\\001\\352\\001",
         "CinematicMoves": "T\\203\\001W",
@@ -2341,7 +2341,7 @@
         "Stats": {
           "BaseStamina": 190,
           "BaseAttack": 178,
-          "BaseDefense": 178
+          "BaseDefense": 171
         },
         "QuickMoves": "\\336\\001\\352\\001",
         "CinematicMoves": "VlW",
@@ -2379,8 +2379,8 @@
         },
         "Stats": {
           "BaseStamina": 76,
-          "BaseAttack": 106,
-          "BaseDefense": 118
+          "BaseAttack": 96,
+          "BaseDefense": 122
         },
         "QuickMoves": "\\333\\001\\321\\001",
         "CinematicMoves": "\\203\\001\\030e",
@@ -2437,8 +2437,8 @@
         },
         "Stats": {
           "BaseStamina": 146,
-          "BaseAttack": 176,
-          "BaseDefense": 194
+          "BaseAttack": 169,
+          "BaseDefense": 204
         },
         "QuickMoves": "\\356\\001\\321\\001",
         "CinematicMoves": "*\\030g",
@@ -2494,8 +2494,8 @@
         },
         "Stats": {
           "BaseStamina": 230,
-          "BaseAttack": 98,
-          "BaseDefense": 54
+          "BaseAttack": 80,
+          "BaseDefense": 44
         },
         "QuickMoves": "\\336\\001\\356\\001",
         "CinematicMoves": "VT\\203\\001X",
@@ -2553,8 +2553,8 @@
         },
         "Stats": {
           "BaseStamina": 280,
-          "BaseAttack": 168,
-          "BaseDefense": 108
+          "BaseAttack": 156,
+          "BaseDefense": 93
         },
         "QuickMoves": "\\336\\001\\356\\001",
         "CinematicMoves": "V\\016X",
@@ -2594,8 +2594,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 88,
-          "BaseDefense": 90
+          "BaseAttack": 83,
+          "BaseDefense": 76
         },
         "QuickMoves": "\\333\\001\\312\\001",
         "CinematicMoves": "2yZ",
@@ -2654,8 +2654,8 @@
         },
         "Stats": {
           "BaseStamina": 150,
-          "BaseAttack": 164,
-          "BaseDefense": 164
+          "BaseAttack": 161,
+          "BaseDefense": 153
         },
         "QuickMoves": "\\322\\001\\312\\001",
         "CinematicMoves": "2yE",
@@ -2694,8 +2694,8 @@
         },
         "Stats": {
           "BaseStamina": 90,
-          "BaseAttack": 134,
-          "BaseDefense": 130
+          "BaseAttack": 131,
+          "BaseDefense": 116
         },
         "QuickMoves": "\\327\\001\\341\\001",
         "CinematicMoves": ";ZW",
@@ -2735,8 +2735,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 162,
-          "BaseDefense": 158
+          "BaseAttack": 153,
+          "BaseDefense": 139
         },
         "QuickMoves": "\\327\\001\\341\\001",
         "CinematicMoves": "/ZW",
@@ -2796,7 +2796,7 @@
         "Stats": {
           "BaseStamina": 150,
           "BaseAttack": 202,
-          "BaseDefense": 190
+          "BaseDefense": 170
         },
         "QuickMoves": "\\327\\001\\341\\001",
         "CinematicMoves": "/tW",
@@ -2853,8 +2853,8 @@
         },
         "Stats": {
           "BaseStamina": 70,
-          "BaseAttack": 122,
-          "BaseDefense": 120
+          "BaseAttack": 121,
+          "BaseDefense": 99
         },
         "QuickMoves": "\\334\\001\\311\\001",
         "CinematicMoves": "Yd;",
@@ -2912,8 +2912,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 162,
-          "BaseDefense": 170
+          "BaseAttack": 165,
+          "BaseDefense": 146
         },
         "QuickMoves": "\\311\\001\\310\\001",
         "CinematicMoves": "Ydt",
@@ -2971,8 +2971,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 108,
-          "BaseDefense": 118
+          "BaseAttack": 100,
+          "BaseDefense": 102
         },
         "QuickMoves": "\\311\\001\\353\\001",
         "CinematicMoves": "2\\036c",
@@ -3031,8 +3031,8 @@
         },
         "Stats": {
           "BaseStamina": 140,
-          "BaseAttack": 172,
-          "BaseDefense": 154
+          "BaseAttack": 179,
+          "BaseDefense": 150
         },
         "QuickMoves": "\\311\\001\\353\\001",
         "CinematicMoves": "2l1",
@@ -3086,8 +3086,8 @@
         },
         "Stats": {
           "BaseStamina": 20,
-          "BaseAttack": 108,
-          "BaseDefense": 86
+          "BaseAttack": 109,
+          "BaseDefense": 88
         },
         "QuickMoves": "\\330\\001\\334\\001\\351\\001",
         "CinematicMoves": "\\032`?",
@@ -3142,8 +3142,8 @@
         },
         "Stats": {
           "BaseStamina": 70,
-          "BaseAttack": 148,
-          "BaseDefense": 140
+          "BaseAttack": 167,
+          "BaseDefense": 147
         },
         "QuickMoves": "\\313\\001\\330\\001\\351\\001",
         "CinematicMoves": "\\037` ",
@@ -3181,8 +3181,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 104,
-          "BaseDefense": 94
+          "BaseAttack": 92,
+          "BaseDefense": 81
         },
         "QuickMoves": "\\334\\001\\312\\001",
         "CinematicMoves": "3\\020\\203\\001",
@@ -3239,8 +3239,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 156,
-          "BaseDefense": 146
+          "BaseAttack": 150,
+          "BaseDefense": 139
         },
         "QuickMoves": "\\334\\001\\356\\001",
         "CinematicMoves": "3AX",
@@ -3296,8 +3296,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 132,
-          "BaseDefense": 112
+          "BaseAttack": 122,
+          "BaseDefense": 96
         },
         "QuickMoves": "\\346\\001\\352\\001",
         "CinematicMoves": "\\036:\\034",
@@ -3336,8 +3336,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 194,
-          "BaseDefense": 176
+          "BaseAttack": 191,
+          "BaseDefense": 163
         },
         "QuickMoves": "\\346\\001\\353\\001",
         "CinematicMoves": "lk\\'",
@@ -3394,8 +3394,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 122,
-          "BaseDefense": 96
+          "BaseAttack": 148,
+          "BaseDefense": 87
         },
         "QuickMoves": "\\320\\001\\334\\001",
         "CinematicMoves": "\\0348{",
@@ -3452,8 +3452,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 178,
-          "BaseDefense": 150
+          "BaseAttack": 207,
+          "BaseDefense": 144
         },
         "QuickMoves": "\\317\\001\\320\\001",
         "CinematicMoves": "\\03483",
@@ -3509,8 +3509,8 @@
         },
         "Stats": {
           "BaseStamina": 110,
-          "BaseAttack": 156,
-          "BaseDefense": 110
+          "BaseAttack": 136,
+          "BaseDefense": 96
         },
         "QuickMoves": "\\321\\001\\312\\001",
         "CinematicMoves": "\\025\\203\\001\\030",
@@ -3567,8 +3567,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 230,
-          "BaseDefense": 180
+          "BaseAttack": 227,
+          "BaseDefense": 166
         },
         "QuickMoves": "\\360\\001\\312\\001",
         "CinematicMoves": "g\\030_",
@@ -3624,8 +3624,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 108,
-          "BaseDefense": 98
+          "BaseAttack": 101,
+          "BaseDefense": 82
         },
         "QuickMoves": "\\355\\001\\330\\001",
         "CinematicMoves": "5`\\203\\001",
@@ -3664,8 +3664,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 132,
-          "BaseDefense": 132
+          "BaseAttack": 130,
+          "BaseDefense": 130
         },
         "QuickMoves": "\\355\\001\\330\\001",
         "CinematicMoves": "j`5",
@@ -3724,8 +3724,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 180,
-          "BaseDefense": 202
+          "BaseAttack": 182,
+          "BaseDefense": 187
         },
         "QuickMoves": "\\355\\001\\330\\001",
         "CinematicMoves": "k6!",
@@ -3782,8 +3782,8 @@
         },
         "Stats": {
           "BaseStamina": 50,
-          "BaseAttack": 110,
-          "BaseDefense": 76
+          "BaseAttack": 195,
+          "BaseDefense": 103
         },
         "QuickMoves": "\\352\\001",
         "CinematicMoves": "<cF",
@@ -3840,8 +3840,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 150,
-          "BaseDefense": 112
+          "BaseAttack": 232,
+          "BaseDefense": 138
         },
         "QuickMoves": "\\342\\001\\353\\001",
         "CinematicMoves": "\\036VF",
@@ -3899,8 +3899,8 @@
         },
         "Stats": {
           "BaseStamina": 110,
-          "BaseAttack": 186,
-          "BaseDefense": 152
+          "BaseAttack": 271,
+          "BaseDefense": 194
         },
         "QuickMoves": "\\342\\001\\353\\001",
         "CinematicMoves": "lVF",
@@ -3956,8 +3956,8 @@
         },
         "Stats": {
           "BaseStamina": 140,
-          "BaseAttack": 118,
-          "BaseDefense": 96
+          "BaseAttack": 137,
+          "BaseDefense": 88
         },
         "QuickMoves": "\\317\\001\\320\\001",
         "CinematicMoves": "8{\\034",
@@ -4014,8 +4014,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 154,
-          "BaseDefense": 144
+          "BaseAttack": 177,
+          "BaseDefense": 130
         },
         "QuickMoves": "\\317\\001\\320\\001",
         "CinematicMoves": "6{\\034",
@@ -4055,8 +4055,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 198,
-          "BaseDefense": 180
+          "BaseAttack": 234,
+          "BaseDefense": 162
         },
         "QuickMoves": "\\345\\001\\320\\001",
         "CinematicMoves": " 6\\034",
@@ -4113,8 +4113,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 158,
-          "BaseDefense": 78
+          "BaseAttack": 139,
+          "BaseDefense": 64
         },
         "QuickMoves": "\\326\\001\\341\\001",
         "CinematicMoves": "vZ\\r",
@@ -4173,8 +4173,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 190,
-          "BaseDefense": 110
+          "BaseAttack": 172,
+          "BaseDefense": 95
         },
         "QuickMoves": "\\327\\001\\341\\001",
         "CinematicMoves": "vZ;",
@@ -4216,8 +4216,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 222,
-          "BaseDefense": 152
+          "BaseAttack": 207,
+          "BaseDefense": 138
         },
         "QuickMoves": "\\327\\001\\341\\001",
         "CinematicMoves": "uZt",
@@ -4275,8 +4275,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 106,
-          "BaseDefense": 136
+          "BaseAttack": 97,
+          "BaseDefense": 182
         },
         "QuickMoves": "\\355\\001\\354\\001",
         "CinematicMoves": "5i\\r",
@@ -4317,8 +4317,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 170,
-          "BaseDefense": 196
+          "BaseAttack": 166,
+          "BaseDefense": 237
         },
         "QuickMoves": "\\341\\001\\340\\001",
         "CinematicMoves": "k[(",
@@ -4376,8 +4376,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 106,
-          "BaseDefense": 118
+          "BaseAttack": 132,
+          "BaseDefense": 163
         },
         "QuickMoves": "\\343\\001\\335\\001",
         "CinematicMoves": "@?\\032",
@@ -4436,8 +4436,8 @@
         },
         "Stats": {
           "BaseStamina": 110,
-          "BaseAttack": 142,
-          "BaseDefense": 156
+          "BaseAttack": 164,
+          "BaseDefense": 196
         },
         "QuickMoves": "\\343\\001\\330\\001\\351\\001",
         "CinematicMoves": "\\032 @",
@@ -4478,8 +4478,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 176,
-          "BaseDefense": 198
+          "BaseAttack": 211,
+          "BaseDefense": 229
         },
         "QuickMoves": "\\343\\001\\330\\001\\351\\001",
         "CinematicMoves": " >\\037",
@@ -4535,8 +4535,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 168,
-          "BaseDefense": 138
+          "BaseAttack": 170,
+          "BaseDefense": 132
         },
         "QuickMoves": "\\335\\001\\321\\001",
         "CinematicMoves": "e\\025g",
@@ -4593,8 +4593,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 200,
-          "BaseDefense": 170
+          "BaseAttack": 207,
+          "BaseDefense": 167
         },
         "QuickMoves": "\\317\\001\\321\\001",
         "CinematicMoves": "g.*",
@@ -4651,8 +4651,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 110,
-          "BaseDefense": 110
+          "BaseAttack": 109,
+          "BaseDefense": 109
         },
         "QuickMoves": "\\346\\001\\353\\001",
         "CinematicMoves": "i<l",
@@ -4710,8 +4710,8 @@
         },
         "Stats": {
           "BaseStamina": 190,
-          "BaseAttack": 184,
-          "BaseDefense": 198
+          "BaseAttack": 177,
+          "BaseDefense": 194
         },
         "QuickMoves": "\\346\\001\\353\\001",
         "CinematicMoves": "il\\'",
@@ -4751,8 +4751,8 @@
         },
         "Stats": {
           "BaseStamina": 50,
-          "BaseAttack": 128,
-          "BaseDefense": 138
+          "BaseAttack": 165,
+          "BaseDefense": 128
         },
         "QuickMoves": "\\316\\001\\315\\001",
         "CinematicMoves": "#HO",
@@ -4810,8 +4810,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 186,
-          "BaseDefense": 180
+          "BaseAttack": 223,
+          "BaseDefense": 182
         },
         "QuickMoves": "\\316\\001\\315\\001",
         "CinematicMoves": "#H$",
@@ -4868,8 +4868,8 @@
         },
         "Stats": {
           "BaseStamina": 104,
-          "BaseAttack": 138,
-          "BaseDefense": 132
+          "BaseAttack": 124,
+          "BaseDefense": 118
         },
         "QuickMoves": "\\337\\001\\310\\001",
         "CinematicMoves": "-yu",
@@ -4925,8 +4925,8 @@
         },
         "Stats": {
           "BaseStamina": 70,
-          "BaseAttack": 126,
-          "BaseDefense": 96
+          "BaseAttack": 158,
+          "BaseDefense": 88
         },
         "QuickMoves": "\\323\\001\\333\\001",
         "CinematicMoves": "&-}",
@@ -4985,8 +4985,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 182,
-          "BaseDefense": 150
+          "BaseAttack": 218,
+          "BaseDefense": 145
         },
         "QuickMoves": "\\356\\001\\357\\001",
         "CinematicMoves": "&-y",
@@ -5042,8 +5042,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 104,
-          "BaseDefense": 138
+          "BaseAttack": 85,
+          "BaseDefense": 128
         },
         "QuickMoves": "\\331\\001\\346\\001\\324\\001",
         "CinematicMoves": "9o:",
@@ -5102,8 +5102,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 156,
-          "BaseDefense": 192
+          "BaseAttack": 139,
+          "BaseDefense": 184
         },
         "QuickMoves": "\\332\\001\\331\\001",
         "CinematicMoves": "o9(",
@@ -5159,8 +5159,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 124,
-          "BaseDefense": 110
+          "BaseAttack": 135,
+          "BaseDefense": 90
         },
         "QuickMoves": "\\341\\001\\351\\001\\340\\001",
         "CinematicMoves": "\\022`Z",
@@ -5217,8 +5217,8 @@
         },
         "Stats": {
           "BaseStamina": 210,
-          "BaseAttack": 180,
-          "BaseDefense": 188
+          "BaseAttack": 190,
+          "BaseDefense": 184
         },
         "QuickMoves": "\\341\\001\\340\\001\\324\\001",
         "CinematicMoves": "\\020\\\\[",
@@ -5274,8 +5274,8 @@
         },
         "Stats": {
           "BaseStamina": 60,
-          "BaseAttack": 120,
-          "BaseDefense": 112
+          "BaseAttack": 116,
+          "BaseDefense": 168
         },
         "QuickMoves": "\\331\\001\\335\\001",
         "CinematicMoves": "5io",
@@ -5334,8 +5334,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 196,
-          "BaseDefense": 196
+          "BaseAttack": 186,
+          "BaseDefense": 323
         },
         "QuickMoves": "\\332\\001\\331\\001",
         "CinematicMoves": "ok(",
@@ -5393,8 +5393,8 @@
         },
         "Stats": {
           "BaseStamina": 60,
-          "BaseAttack": 136,
-          "BaseDefense": 82
+          "BaseAttack": 186,
+          "BaseDefense": 70
         },
         "QuickMoves": "\\324\\001\\313\\001",
         "CinematicMoves": "E\\020Z",
@@ -5435,8 +5435,8 @@
         },
         "Stats": {
           "BaseStamina": 90,
-          "BaseAttack": 172,
-          "BaseDefense": 118
+          "BaseAttack": 223,
+          "BaseDefense": 112
         },
         "QuickMoves": "\\325\\001\\324\\001",
         "CinematicMoves": "F\\020Z",
@@ -5495,7 +5495,7 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 204,
+          "BaseAttack": 261,
           "BaseDefense": 156
         },
         "QuickMoves": "\\313\\001\\325\\001",
@@ -5553,8 +5553,8 @@
         },
         "Stats": {
           "BaseStamina": 70,
-          "BaseAttack": 90,
-          "BaseDefense": 186
+          "BaseAttack": 85,
+          "BaseDefense": 288
         },
         "QuickMoves": "\\343\\001\\335\\001",
         "CinematicMoves": "@ J",
@@ -5609,8 +5609,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 104,
-          "BaseDefense": 140
+          "BaseAttack": 89,
+          "BaseDefense": 158
         },
         "QuickMoves": "\\336\\001\\353\\001",
         "CinematicMoves": "\\036<l",
@@ -5649,8 +5649,8 @@
         },
         "Stats": {
           "BaseStamina": 170,
-          "BaseAttack": 162,
-          "BaseDefense": 196
+          "BaseAttack": 144,
+          "BaseDefense": 215
         },
         "QuickMoves": "\\352\\001\\353\\001",
         "CinematicMoves": "<lF",
@@ -5688,8 +5688,8 @@
         },
         "Stats": {
           "BaseStamina": 60,
-          "BaseAttack": 116,
-          "BaseDefense": 110
+          "BaseAttack": 181,
+          "BaseDefense": 156
         },
         "QuickMoves": "\\355\\001\\330\\001",
         "CinematicMoves": "\\0245i",
@@ -5746,8 +5746,8 @@
         },
         "Stats": {
           "BaseStamina": 110,
-          "BaseAttack": 178,
-          "BaseDefense": 168
+          "BaseAttack": 240,
+          "BaseDefense": 214
         },
         "QuickMoves": "\\344\\001\\330\\001",
         "CinematicMoves": "\\024di",
@@ -5803,8 +5803,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 102,
-          "BaseDefense": 124
+          "BaseAttack": 109,
+          "BaseDefense": 114
         },
         "QuickMoves": "\\316\\001\\335\\001",
         "CinematicMoves": "#Oc",
@@ -5861,8 +5861,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 150,
-          "BaseDefense": 174
+          "BaseAttack": 173,
+          "BaseDefense": 179
         },
         "QuickMoves": "\\316\\001\\335\\001",
         "CinematicMoves": "#O\\016",
@@ -5919,8 +5919,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 110,
-          "BaseDefense": 132
+          "BaseAttack": 107,
+          "BaseDefense": 140
         },
         "QuickMoves": "\\353\\001",
         "CinematicMoves": ";l>",
@@ -5978,8 +5978,8 @@
         },
         "Stats": {
           "BaseStamina": 190,
-          "BaseAttack": 232,
-          "BaseDefense": 164
+          "BaseAttack": 233,
+          "BaseDefense": 158
         },
         "QuickMoves": "\\353\\001\\352\\001",
         "CinematicMoves": ";lt",
@@ -6035,8 +6035,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 102,
-          "BaseDefense": 150
+          "BaseAttack": 90,
+          "BaseDefense": 165
         },
         "QuickMoves": "\\351\\001\\361\\001",
         "CinematicMoves": "^\\032_",
@@ -6093,8 +6093,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 140,
-          "BaseDefense": 202
+          "BaseAttack": 144,
+          "BaseDefense": 200
         },
         "QuickMoves": "\\351\\001\\361\\001",
         "CinematicMoves": "^\\032\\037",
@@ -6150,8 +6150,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 148,
-          "BaseDefense": 172
+          "BaseAttack": 224,
+          "BaseDefense": 211
         },
         "QuickMoves": "\\317\\001\\361\\001",
         "CinematicMoves": "{\\1778 ",
@@ -6206,8 +6206,8 @@
         },
         "Stats": {
           "BaseStamina": 100,
-          "BaseAttack": 138,
-          "BaseDefense": 204
+          "BaseAttack": 193,
+          "BaseDefense": 212
         },
         "QuickMoves": "\\345\\001\\361\\001",
         "CinematicMoves": "s!M{",
@@ -6262,8 +6262,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 126,
-          "BaseDefense": 160
+          "BaseAttack": 108,
+          "BaseDefense": 137
         },
         "QuickMoves": "\\324\\001\\352\\001",
         "CinematicMoves": "\\016\\177v",
@@ -6319,8 +6319,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 136,
-          "BaseDefense": 142
+          "BaseAttack": 119,
+          "BaseDefense": 164
         },
         "QuickMoves": "\\341\\001\\335\\001",
         "CinematicMoves": "\\022Z\\020",
@@ -6360,8 +6360,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 190,
-          "BaseDefense": 198
+          "BaseAttack": 174,
+          "BaseDefense": 221
         },
         "QuickMoves": "\\341\\001\\335\\001",
         "CinematicMoves": "ZF\\020",
@@ -6418,8 +6418,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 110,
-          "BaseDefense": 116
+          "BaseAttack": 140,
+          "BaseDefense": 157
         },
         "QuickMoves": "\\351\\001\\361\\001",
         "CinematicMoves": "_~\\177",
@@ -6459,8 +6459,8 @@
         },
         "Stats": {
           "BaseStamina": 210,
-          "BaseAttack": 166,
-          "BaseDefense": 160
+          "BaseAttack": 222,
+          "BaseDefense": 206
         },
         "QuickMoves": "\\351\\001\\361\\001",
         "CinematicMoves": "\\026\\037 ",
@@ -6498,8 +6498,8 @@
         },
         "Stats": {
           "BaseStamina": 500,
-          "BaseAttack": 40,
-          "BaseDefense": 60
+          "BaseAttack": 60,
+          "BaseDefense": 176
         },
         "QuickMoves": "\\336\\001\\352\\001",
         "CinematicMoves": "\\016l\\036V",
@@ -6555,8 +6555,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 164,
-          "BaseDefense": 152
+          "BaseAttack": 183,
+          "BaseDefense": 205
         },
         "QuickMoves": "\\326\\001",
         "CinematicMoves": "vZt",
@@ -6611,8 +6611,8 @@
         },
         "Stats": {
           "BaseStamina": 210,
-          "BaseAttack": 142,
-          "BaseDefense": 178
+          "BaseAttack": 181,
+          "BaseDefense": 165
         },
         "QuickMoves": "\\351\\001\\317\\001",
         "CinematicMoves": "{\\037\\177",
@@ -6668,8 +6668,8 @@
         },
         "Stats": {
           "BaseStamina": 60,
-          "BaseAttack": 122,
-          "BaseDefense": 100
+          "BaseAttack": 129,
+          "BaseDefense": 125
         },
         "QuickMoves": "\\346\\001\\355\\001",
         "CinematicMoves": "5R$",
@@ -6727,8 +6727,8 @@
         },
         "Stats": {
           "BaseStamina": 110,
-          "BaseAttack": 176,
-          "BaseDefense": 150
+          "BaseAttack": 187,
+          "BaseDefense": 182
         },
         "QuickMoves": "\\346\\001\\314\\001",
         "CinematicMoves": "(Rk",
@@ -6784,8 +6784,8 @@
         },
         "Stats": {
           "BaseStamina": 90,
-          "BaseAttack": 112,
-          "BaseDefense": 126
+          "BaseAttack": 123,
+          "BaseDefense": 115
         },
         "QuickMoves": "\\323\\001\\330\\001",
         "CinematicMoves": "i~:",
@@ -6825,8 +6825,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 172,
-          "BaseDefense": 160
+          "BaseAttack": 175,
+          "BaseDefense": 154
         },
         "QuickMoves": "\\323\\001\\340\\001",
         "CinematicMoves": "o.\\026",
@@ -6864,8 +6864,8 @@
         },
         "Stats": {
           "BaseStamina": 60,
-          "BaseAttack": 130,
-          "BaseDefense": 128
+          "BaseAttack": 137,
+          "BaseDefense": 112
         },
         "QuickMoves": "\\333\\001\\346\\001\\335\\001",
         "CinematicMoves": "}5A",
@@ -6923,8 +6923,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 194,
-          "BaseDefense": 192
+          "BaseAttack": 210,
+          "BaseDefense": 184
         },
         "QuickMoves": "\\333\\001\\346\\001\\335\\001",
         "CinematicMoves": "kA\\036\\154",
@@ -6981,8 +6981,8 @@
         },
         "Stats": {
           "BaseStamina": 80,
-          "BaseAttack": 154,
-          "BaseDefense": 196
+          "BaseAttack": 192,
+          "BaseDefense": 233
         },
         "QuickMoves": "\\353\\001\\352\\001",
         "CinematicMoves": "\\036lF",
@@ -7039,8 +7039,8 @@
         },
         "Stats": {
           "BaseStamina": 140,
-          "BaseAttack": 176,
-          "BaseDefense": 180
+          "BaseAttack": 218,
+          "BaseDefense": 170
         },
         "QuickMoves": "\\310\\001\\357\\001",
         "CinematicMoves": "3d1",
@@ -7078,8 +7078,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 172,
-          "BaseDefense": 134
+          "BaseAttack": 223,
+          "BaseDefense": 182
         },
         "QuickMoves": "\\332\\001\\336\\001",
         "CinematicMoves": "U!<",
@@ -7135,7 +7135,7 @@
         "Stats": {
           "BaseStamina": 130,
           "BaseAttack": 198,
-          "BaseDefense": 160
+          "BaseDefense": 173
         },
         "QuickMoves": "\\315\\001\\317\\001",
         "CinematicMoves": "MON",
@@ -7190,8 +7190,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 214,
-          "BaseDefense": 158
+          "BaseAttack": 206,
+          "BaseDefense": 169
         },
         "QuickMoves": "\\321\\001\\320\\001",
         "CinematicMoves": "gs\\030",
@@ -7246,8 +7246,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 184,
-          "BaseDefense": 186
+          "BaseAttack": 238,
+          "BaseDefense": 197
         },
         "QuickMoves": "\\361\\001\\310\\001",
         "CinematicMoves": "\\024d6",
@@ -7284,8 +7284,8 @@
         },
         "Stats": {
           "BaseStamina": 150,
-          "BaseAttack": 148,
-          "BaseDefense": 184
+          "BaseAttack": 198,
+          "BaseDefense": 197
         },
         "QuickMoves": "\\335\\001\\352\\001",
         "CinematicMoves": "~J\\037",
@@ -7340,8 +7340,8 @@
         },
         "Stats": {
           "BaseStamina": 40,
-          "BaseAttack": 42,
-          "BaseDefense": 84
+          "BaseAttack": 29,
+          "BaseDefense": 102
         },
         "QuickMoves": "\\347\\001",
         "CinematicMoves": "\\205\\001",
@@ -7382,8 +7382,8 @@
         },
         "Stats": {
           "BaseStamina": 190,
-          "BaseAttack": 192,
-          "BaseDefense": 196
+          "BaseAttack": 237,
+          "BaseDefense": 197
         },
         "QuickMoves": "\\314\\001\\312\\001",
         "CinematicMoves": "kPR",
@@ -7495,8 +7495,8 @@
         },
         "Stats": {
           "BaseStamina": 96,
-          "BaseAttack": 110,
-          "BaseDefense": 110
+          "BaseAttack": 91,
+          "BaseDefense": 91
         },
         "QuickMoves": "\\336\\001",
         "CinematicMoves": "\\205\\001",
@@ -7550,8 +7550,8 @@
         },
         "Stats": {
           "BaseStamina": 110,
-          "BaseAttack": 114,
-          "BaseDefense": 128
+          "BaseAttack": 104,
+          "BaseDefense": 121
         },
         "QuickMoves": "\\333\\001\\335\\001",
         "CinematicMoves": "\\032}\\203\\001",
@@ -7608,8 +7608,8 @@
         },
         "Stats": {
           "BaseStamina": 260,
-          "BaseAttack": 186,
-          "BaseDefense": 168
+          "BaseAttack": 205,
+          "BaseDefense": 177
         },
         "QuickMoves": "\\346\\001",
         "CinematicMoves": "ik:",
@@ -7665,8 +7665,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 192,
-          "BaseDefense": 174
+          "BaseAttack": 232,
+          "BaseDefense": 201
         },
         "QuickMoves": "\\315\\001",
         "CinematicMoves": "#ON",
@@ -7722,8 +7722,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 238,
-          "BaseDefense": 178
+          "BaseAttack": 246,
+          "BaseDefense": 204
         },
         "QuickMoves": "\\321\\001",
         "CinematicMoves": "g\\030*",
@@ -7780,8 +7780,8 @@
         },
         "Stats": {
           "BaseStamina": 130,
-          "BaseAttack": 156,
-          "BaseDefense": 158
+          "BaseAttack": 153,
+          "BaseDefense": 139
         },
         "QuickMoves": "\\333\\001\\335\\001\\352\\001",
         "CinematicMoves": "\\036c#",
@@ -7819,8 +7819,8 @@
         },
         "Stats": {
           "BaseStamina": 70,
-          "BaseAttack": 132,
-          "BaseDefense": 160
+          "BaseAttack": 155,
+          "BaseDefense": 174
         },
         "QuickMoves": "\\346\\001\\330\\001",
         "CinematicMoves": ">h?",
@@ -7860,8 +7860,8 @@
         },
         "Stats": {
           "BaseStamina": 140,
-          "BaseAttack": 180,
-          "BaseDefense": 202
+          "BaseAttack": 207,
+          "BaseDefense": 227
         },
         "QuickMoves": "\\343\\001\\346\\001\\330\\001",
         "CinematicMoves": ">k@",
@@ -7901,7 +7901,7 @@
         "Stats": {
           "BaseStamina": 60,
           "BaseAttack": 148,
-          "BaseDefense": 142
+          "BaseDefense": 162
         },
         "QuickMoves": "\\334\\001\\330\\001",
         "CinematicMoves": ">9?",
@@ -7941,8 +7941,8 @@
         },
         "Stats": {
           "BaseStamina": 120,
-          "BaseAttack": 190,
-          "BaseDefense": 190
+          "BaseAttack": 220,
+          "BaseDefense": 203
         },
         "QuickMoves": "\\330\\001\\310\\001",
         "CinematicMoves": ">i ",
@@ -7982,8 +7982,8 @@
         },
         "Stats": {
           "BaseStamina": 160,
-          "BaseAttack": 182,
-          "BaseDefense": 162
+          "BaseAttack": 221,
+          "BaseDefense": 164
         },
         "QuickMoves": "\\357\\001\\312\\001",
         "CinematicMoves": ">J\\016",
@@ -8020,8 +8020,8 @@
         },
         "Stats": {
           "BaseStamina": 320,
-          "BaseAttack": 180,
-          "BaseDefense": 180
+          "BaseAttack": 190,
+          "BaseDefense": 190
         },
         "QuickMoves": "\\352\\001\\324\\001",
         "CinematicMoves": "\\203\\001\\016\\037",
@@ -8059,8 +8059,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 198,
-          "BaseDefense": 242
+          "BaseAttack": 192,
+          "BaseDefense": 249
         },
         "QuickMoves": "\\332\\001",
         "CinematicMoves": "\\'o(",
@@ -8099,8 +8099,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 232,
-          "BaseDefense": 194
+          "BaseAttack": 253,
+          "BaseDefense": 188
         },
         "QuickMoves": "\\315\\001",
         "CinematicMoves": "#ON",
@@ -8139,8 +8139,8 @@
         },
         "Stats": {
           "BaseStamina": 180,
-          "BaseAttack": 242,
-          "BaseDefense": 194
+          "BaseAttack": 251,
+          "BaseDefense": 184
         },
         "QuickMoves": "\\321\\001",
         "CinematicMoves": "g*\\030",
@@ -8178,8 +8178,8 @@
         },
         "Stats": {
           "BaseStamina": 82,
-          "BaseAttack": 128,
-          "BaseDefense": 110
+          "BaseAttack": 119,
+          "BaseDefense": 94
         },
         "QuickMoves": "\\314\\001",
         "CinematicMoves": "\rP:",
@@ -8218,8 +8218,8 @@
         },
         "Stats": {
           "BaseStamina": 122,
-          "BaseAttack": 170,
-          "BaseDefense": 152
+          "BaseAttack": 163,
+          "BaseDefense": 138
         },
         "QuickMoves": "\\314\\001",
         "CinematicMoves": "\r:R",
@@ -8261,8 +8261,8 @@
         },
         "Stats": {
           "BaseStamina": 182,
-          "BaseAttack": 250,
-          "BaseDefense": 212
+          "BaseAttack": 263,
+          "BaseDefense": 201
         },
         "QuickMoves": "\\314\\001\\357\\001",
         "CinematicMoves": "R\\016S",
@@ -8299,8 +8299,8 @@
         },
         "Stats": {
           "BaseStamina": 212,
-          "BaseAttack": 284,
-          "BaseDefense": 202
+          "BaseAttack": 330,
+          "BaseDefense": 200
         },
         "QuickMoves": "\\342\\001\\353\\001",
         "CinematicMoves": "lF\\016",
@@ -8338,8 +8338,8 @@
         },
         "Stats": {
           "BaseStamina": 200,
-          "BaseAttack": 220,
-          "BaseDefense": 220
+          "BaseAttack": 210,
+          "BaseDefense": 210
         },
         "QuickMoves": "\\336\\001",
         "CinematicMoves": "(z\\037lRNWgt\\016",
