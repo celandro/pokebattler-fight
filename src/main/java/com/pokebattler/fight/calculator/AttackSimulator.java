@@ -172,7 +172,7 @@ public class AttackSimulator {
         double attackerPower =  Math.min(MAX_POWER, (attacker.getStartHp() - attacker.getEndHp()) / (double) attacker.getStartHp());
         double defenderPower =  Math.min(MAX_POWER, (defender.getStartHp() - defender.getEndHp()) / (double) defender.getStartHp());
         // if we return a log, we can add and the numbers stay much smaller!
-        return Math.log10(defenderPower/attackerPower);
+        return  Math.max(-MAX_POWER, Math.min(MAX_POWER,Math.log10(defenderPower/attackerPower)));
     }
 
 }
