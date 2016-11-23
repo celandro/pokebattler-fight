@@ -117,7 +117,7 @@ public class PokemonDataCreator {
                 }
             }
             cpLookupMap.put(p.getPokemonId(), pokemonMap);
-            log.info("Finished {} {}, highest cp {}", p.getPokemonId().getNumber(), p.getPokemonId(),
+            log.debug("Finished {} {}, highest cp {}", p.getPokemonId().getNumber(), p.getPokemonId(),
                     pokemonMap.lastKey());
         }
         log.info("Finished Loading CP lookup map for {} pokemons", cpLookupMap.size());

@@ -81,7 +81,7 @@ public class RankingSimulator {
         .sorted(params.getSort().getAttackerSubResultComparator())
         .forEach(result -> {
             // defender list is too big
-//            result.clearDefenders();
+            result.clearDefenders();
             retval.addByMove(result);
         });;
                 
