@@ -1,11 +1,15 @@
 package com.pokebattler.fight.strategies;
 
+import static com.pokebattler.fight.data.MoveRepository.DODGE_MOVE;
+
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
+import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
+import com.pokebattler.fight.strategies.AttackStrategy.PokemonAttack;
 
 public class NoAttack implements AttackStrategy {
     PokemonData pokemon;
@@ -23,7 +27,12 @@ public class NoAttack implements AttackStrategy {
 
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
-        // pick any
+        if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0
+                && !defenderState.isDodged()) {
+                // dodge perfect
+            return new PokemonAttack(DODGE_MOVE.getMoveId(),
+                    Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
+        }        
         return new PokemonAttack(PokemonMove.DODGE, extraDelay);
     }
 

@@ -46,6 +46,7 @@ public class AttackSimulator {
     public Logger log = LoggerFactory.getLogger(getClass());
 
     public static final double MAX_POWER = 10.0;
+    public static final double MIN_POWER = -10.0;
     
     
     public FightResult calculateMaxAttackDPS(PokemonId attackerId, PokemonId defenderId, PokemonMove move1,
@@ -115,8 +116,15 @@ public class AttackSimulator {
             final int timeToNextAttackDamage = attackerState.getTimeToNextDamage();
             final int timeToNextDefenseDamage = defenderState.getTimeToNextDamage();
             
-            // tie goes to defender
-            if (timeToNextAttackDamage >= 0 && timeToNextAttackDamage <= timeToNextAttack &&
+            // make sure we arent over the max time
+            if ((currentTime + timeToNextAttack > Formulas.MAX_COMBAT_TIME_MS ||
+                currentTime + timeToNextAttackDamage > Formulas.MAX_COMBAT_TIME_MS) &&
+                (currentTime + timeToNextDefense > Formulas.MAX_COMBAT_TIME_MS &&                    
+                currentTime + timeToNextDefenseDamage > Formulas.MAX_COMBAT_TIME_MS)) {
+                currentTime = Formulas.MAX_COMBAT_TIME_MS;
+            }
+            // tie goes to attacker
+            else if (timeToNextAttackDamage >= 0 && timeToNextAttackDamage <= timeToNextAttack &&
                     timeToNextAttackDamage <= timeToNextDefense && timeToNextAttackDamage <= timeToNextDefenseDamage ) {
                 final CombatResult.Builder combatBuilder = f.getCombatResult(attackerState.getAttack(),
                         defenderState.getDefense(), attackerState.getNextMove(), a, d, timeToNextAttackDamage, attackerState.isDodged());
@@ -172,7 +180,15 @@ public class AttackSimulator {
         double attackerPower =  Math.min(MAX_POWER, (attacker.getStartHp() - attacker.getEndHp()) / (double) attacker.getStartHp());
         double defenderPower =  Math.min(MAX_POWER, (defender.getStartHp() - defender.getEndHp()) / (double) defender.getStartHp());
         // if we return a log, we can add and the numbers stay much smaller!
-        return  Math.max(-MAX_POWER, Math.min(MAX_POWER,Math.log10(defenderPower/attackerPower)));
+        if (attackerPower == 0.0) {
+            // attacker takes no damage
+            return MAX_POWER;
+        } else if (defenderPower == 0.0) {
+            // defender takes no damage
+            return MIN_POWER;
+        } else {
+            return  Math.max(MIN_POWER, Math.min(MAX_POWER,Math.log10(defenderPower/attackerPower)));
+        }
     }
 
 }

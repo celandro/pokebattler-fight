@@ -11,7 +11,7 @@ public interface AttackStrategy {
 
     public AttackStrategyType getType();
 
-    public static int DODGE_COOLDOWN = 1500;
+    public static int DODGE_COOLDOWN = 500;
 
     public static class PokemonAttack {
         private final PokemonMove move;
