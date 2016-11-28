@@ -172,7 +172,9 @@ public class AttackSimulator {
                 .addCombatants(attackerState.toResult(Combatant.ATTACKER1, attackerStrategy.getType(), currentTime))
                 .addCombatants(defenderState.toResult(Combatant.DEFENDER, defenderStrategy.getType(), currentTime))
                 .setFightParameters(fight);
-        return fightResult.setPower(getPower(fightResult));
+        fightResult.setPowerLog(getPower(fightResult));
+        fightResult.setPower(Math.pow(10, fightResult.getPowerLog()));
+        return fightResult;
     }
     double getPower(FightResult.Builder result) {
         CombatantResultOrBuilder attacker = result.getCombatantsOrBuilder(0);

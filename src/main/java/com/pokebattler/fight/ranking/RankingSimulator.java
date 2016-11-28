@@ -81,7 +81,9 @@ public class RankingSimulator {
         .sorted(params.getSort().getAttackerSubResultComparator())
         .forEach(result -> {
             // defender list is too big
-            result.clearDefenders();
+            DefenderResult.Builder bestDefender = result.getDefendersBuilder(result.getDefendersCount()-1);
+//            result.clearDefenders();
+            result.addDefenders(bestDefender);
             retval.addByMove(result);
         });;
                 
@@ -99,7 +101,7 @@ public class RankingSimulator {
         pokemonRepository.getAllEndGameDefender().getPokemonList().stream().forEach((defender) -> {
             final DefenderResult.Builder rankDefender = subRankDefender(defender, attackerData, params);
             // only retain the subtotals
-            DefenderSubResult bestMove = rankDefender.getByMove(0);
+            DefenderSubResult.Builder bestMove = rankDefender.getByMoveBuilder(0);
             rankDefender.clearByMove();
             rankDefender.addByMove(bestMove);
             results.add(rankDefender);
@@ -120,7 +122,7 @@ public class RankingSimulator {
                     // normalize power
                     subResultTotalBuilder.setPower(Math.pow(10, subResultTotalBuilder.getPower()/( subResultTotalBuilder.getNumWins() +  subResultTotalBuilder.getNumLosses())));
                     // shrink json
-                    result.clearTotal();
+//                    result.clearTotal();
                     retval.addDefenders(result);
                     
                 })                ;
@@ -154,7 +156,7 @@ public class RankingSimulator {
                     subTotal.setCombatTime(subTotal.getCombatTime() + result.getResultOrBuilder().getTotalCombatTime());
                     subTotal.setDamageDealt(subTotal.getDamageDealt() + result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt());
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt());
-                    subTotal.setPower(subTotal.getPower() + result.getResultOrBuilder().getPower());
+                    subTotal.setPower(subTotal.getPower() + result.getResultOrBuilder().getPowerLog());
                     // reduce the json size a ton
                     result.clearResult();
                     retval.addByMove(result);   

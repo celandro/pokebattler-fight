@@ -47,7 +47,7 @@ public class RankingResource {
             @DefaultValue("POWER") @QueryParam("sort") SortType sortType,
             @DefaultValue("NO_FILTER") @QueryParam("filterType") FilterType filterType,
             @QueryParam("filterValue") String filterValue) {
-        log.info("Calculating attacker rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}", attackerLevel, defenderLevel, attackStrategy,
+        log.debug("Calculating attacker rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}", attackerLevel, defenderLevel, attackStrategy,
                 defenseStrategy, sortType);
         // set caching based on wether the result is random
         // TODO: refactor this to strategy pattern or change to a parameter?
@@ -68,7 +68,7 @@ public class RankingResource {
             @DefaultValue("POWER") @QueryParam("sort") SortType sortType,
             @DefaultValue("COUNTERS") @QueryParam("filterType") FilterType filterType,
             @DefaultValue("5") @QueryParam("filterValue") String filterValue) {
-        log.info("Calculating defender rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}", attackerLevel, defenderLevel, attackStrategy,
+        log.debug("Calculating defender rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}", attackerLevel, defenderLevel, attackStrategy,
                 defenseStrategy, sortType);
         // set caching based on wether the result is random
         // TODO: refactor this to strategy pattern or change to a parameter?

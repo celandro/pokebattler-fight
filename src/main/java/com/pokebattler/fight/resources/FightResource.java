@@ -52,39 +52,6 @@ public class FightResource {
 
     }
 
-    @GET
-    @Path("attackers/{attackerId}/quickMoves/{move1}/cinMoves/{move2}/defenders/{defenderId}/strategies/{strategy}")
-    @Produces("application/json")
-    @ETag
-    @CacheControl("max-age=86000")
-    public FightResult attackDps(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
-            @PathParam("move2") PokemonMove move2, @PathParam("defenderId") PokemonId defenderId,
-            @PathParam("strategy") AttackStrategyType strategy) {
-        log.debug("Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}", attackerId,
-                defenderId, move1, move2, strategy);
-
-        return simulator.calculateMaxAttackDPS(attackerId, defenderId, move1, move2, strategy);
-
-    }
-
-    @GET
-    @Path("attackers/{attackerId}/quickMoves/{move1}/cinMoves/{move2}/levels/{attackerLevel}/defenders/{defenderId}"
-            + "/levels/{defenderLevel}/strategies/{strategy}")
-    @Produces("application/json")
-    @ETag
-    @CacheControl("max-age=86000")
-    public FightResult attackDps2(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
-            @PathParam("move2") PokemonMove move2, @PathParam("attackerLevel") String attackerLevel,
-            @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
-            @PathParam("strategy") AttackStrategyType strategy) {
-        log.debug(
-                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, attackerLevel {}, defenderLevel {}",
-                attackerId, defenderId, move1, move2, strategy, attackerLevel, defenderLevel);
-
-        return simulator.calculateMaxAttackDPS(attackerId, defenderId, move1, move2, strategy, attackerLevel,
-                defenderLevel);
-
-    }
 
     /*
      * Example url:
@@ -98,7 +65,7 @@ public class FightResource {
     @Produces("application/json")
     @ETag
     @CacheControl("max-age=86000")
-    public FightResult attackDps2(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
+    public FightResult fightByLevel(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
             @PathParam("move2") PokemonMove move2, @PathParam("attackerLevel") String attackerLevel,
             @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
             @PathParam("strategy") AttackStrategyType strategy, @PathParam("dmove1") PokemonMove dmove1,
@@ -115,28 +82,125 @@ public class FightResource {
     /*
      * Example url:
      * http://localhost:8080/fights/attackers/SNORLAX/quickMoves/LICK_FAST/
-     * cinMoves/BODY_SLAM/cp/1850/defenders/VAPOREON/quickMoves/WATER_GUN_FAST/
-     * cinMoves/AQUA_TAIL/cp/1847/strategies/QUICK_ATTACK_ONLY
+     * cinMoves/BODY_SLAM/levels/20/defenders/VAPOREON/quickMoves/WATER_GUN_FAST
+     * /cinMoves/AQUA_TAIL/levels/20/strategies/QUICK_ATTACK_ONLY/DEFENSE
+     */
+    @GET
+    @Path("attackers/{attackerId}/quickMoves/{move1}/cinMoves/{move2}/levels/{attackerLevel}/defenders/{defenderId}"
+            + "/quickMoves/{dmove1}/cinMoves/{dmove2}/levels/{defenderLevel}/strategies/{attackStrategy}/{defenseStrategy}")
+    @Produces("application/json")
+    @ETag
+    public Response fightByLevel2(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
+            @PathParam("move2") PokemonMove move2, @PathParam("attackerLevel") String attackerLevel,
+            @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
+            @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
+            @PathParam("attackStrategy") AttackStrategyType attackStrategy, 
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
+        log.debug(
+                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, defenseStrategy {}, attackerLevel {}, defenderLevel {}",
+                attackerId, defenderId, move1, move2, attackStrategy, attackerLevel, defenseStrategy, defenderLevel);
+        final PokemonData attacker = creator.createMaxStatPokemon(attackerId, attackerLevel, move1, move2);
+        final PokemonData defender = creator.createMaxStatPokemon(defenderId, defenderLevel, dmove1, dmove2);
+
+        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        return Response.ok(fightResult).cacheControl(cacheControl).build();
+    }
+
+    /*
+     * Example url:
+     * http://localhost:8080/fights/attackers/SNORLAX/quickMoves/LICK_FAST/cinMoves/BODY_SLAM/levels/20/ivs/ABC/defenders/VAPOREON/quickMoves/WATER_GUN_FAST/cinMoves/AQUA_TAIL/levels/20/ivs/89F/strategies/QUICK_ATTACK_ONLY/DEFENSE
+     */
+    @GET
+    @Path("attackers/{attackerId}/quickMoves/{move1}/cinMoves/{move2}/levels/{attackerLevel}/ivs/{attackerIV}/defenders/{defenderId}"
+            + "/quickMoves/{dmove1}/cinMoves/{dmove2}/levels/{defenderLevel}/ivs/{defenderIV}/strategies/{attackStrategy}/{defenseStrategy}")
+    @Produces("application/json")
+    @ETag
+    public Response fightByLevelIV(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
+            @PathParam("move2") PokemonMove move2, @PathParam("attackerLevel") String attackerLevel, 
+            @PathParam("attackerIV") IVWrapper attackerIV, @PathParam("defenderIV") IVWrapper defenderIV,  
+            @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
+            @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
+            @PathParam("attackStrategy") AttackStrategyType attackStrategy, 
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
+        log.debug(
+                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, defenseStrategy {}, attackerLevel {}, defenderLevel {}",
+                attackerId, defenderId, move1, move2, attackStrategy, attackerLevel, defenseStrategy, defenderLevel);
+        final PokemonData attacker = creator.createPokemon(attackerId, attackerLevel, attackerIV.getAttack(), attackerIV.getDefense(),
+                attackerIV.getStamina(), move1, move2);
+        final PokemonData defender = creator.createPokemon(defenderId, defenderLevel, defenderIV.getAttack(), defenderIV.getDefense(),
+                defenderIV.getStamina(), dmove1, dmove2);
+
+        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        return Response.ok(fightResult).cacheControl(cacheControl).build();
+    }    
+
+    
+    /*
+     * Example url:
+     * http://localhost:8080/fights/attackers/SNORLAX/quickMoves/LICK_FAST/cinMoves/BODY_SLAM/levels/20/ivs/ABC/defenders/VAPOREON/quickMoves/WATER_GUN_FAST/cinMoves/AQUA_TAIL/cp/2089/strategies/QUICK_ATTACK_ONLY/DEFENSE
+     */
+    @GET
+    @Path("attackers/{attackerId}/quickMoves/{move1}/cinMoves/{move2}/levels/{attackerLevel}/ivs/{attackerIV}/defenders/{defenderId}"
+            + "/quickMoves/{dmove1}/cinMoves/{dmove2}/cp/{defenderCp}/strategies/{attackStrategy}/{defenseStrategy}")
+    @Produces("application/json")
+    @ETag
+    public Response fightByLevelIV2(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
+            @PathParam("move2") PokemonMove move2, @PathParam("attackerLevel") String attackerLevel, 
+            @PathParam("attackerIV") IVWrapper attackerIV, @PathParam("defenderId") PokemonId defenderId, @PathParam("defenderCp") int defenderCp,
+            @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
+            @PathParam("attackStrategy") AttackStrategyType attackStrategy, 
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
+        log.debug(
+                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, defenseStrategy {}, attackerLevel {}, defenderCp {}",
+                attackerId, defenderId, move1, move2, attackStrategy, attackerLevel, defenseStrategy, defenderCp);
+        final PokemonData attacker = creator.createPokemon(attackerId, attackerLevel, attackerIV.getAttack(), attackerIV.getDefense(),
+                attackerIV.getStamina(), move1, move2);
+        final PokemonData defender = creator.createPokemon(defenderId, defenderCp, dmove1, dmove2);
+
+        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        return Response.ok(fightResult).cacheControl(cacheControl).build();
+    }    
+    
+    /*
+     * Example url:
+     * http://localhost:8080/fights/attackers/SNORLAX/quickMoves/LICK_FAST/cinMoves/BODY_SLAM/cp/1234/defenders/VAPOREON/quickMoves/WATER_GUN_FAST/cinMoves/AQUA_TAIL/levels/20/ivs/89F/strategies/QUICK_ATTACK_ONLY/DEFENSE
      */
     @GET
     @Path("attackers/{attackerId}/quickMoves/{move1}/cinMoves/{move2}/cp/{attackerCp}/defenders/{defenderId}"
-            + "/quickMoves/{dmove1}/cinMoves/{dmove2}/cp/{defenderCp}/strategies/{strategy}")
+            + "/quickMoves/{dmove1}/cinMoves/{dmove2}/levels/{defenderLevel}/ivs/{defenderIV}/strategies/{attackStrategy}/{defenseStrategy}")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
-    public FightResult attackDps2(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
-            @PathParam("move2") PokemonMove move2, @PathParam("attackerCp") int attackerCp,
-            @PathParam("defenderCp") int defenderCp, @PathParam("defenderId") PokemonId defenderId,
-            @PathParam("strategy") AttackStrategyType strategy, @PathParam("dmove1") PokemonMove dmove1,
-            @PathParam("dmove2") PokemonMove dmove2) {
+    public Response fightByLevelIV3(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
+            @PathParam("move2") PokemonMove move2, @PathParam("defenderIV") IVWrapper defenderIV,  @PathParam("attackerCp") int attackerCp,
+            @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
+            @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
+            @PathParam("attackStrategy") AttackStrategyType attackStrategy, 
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
         log.debug(
-                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, attackerLevel {}, defenderLevel {}",
-                attackerId, defenderId, move1, move2, strategy, attackerCp, defenderCp);
+                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, defenseStrategy {}, attackerCp {}, defenderLevel {}",
+                attackerId, defenderId, move1, move2, attackStrategy, attackerCp, defenseStrategy, defenderLevel);
         final PokemonData attacker = creator.createPokemon(attackerId, attackerCp, move1, move2);
-        final PokemonData defender = creator.createPokemon(defenderId, defenderCp, dmove1, dmove2);
-        return simulator.calculateAttackDPS(attacker, defender, strategy);
+        final PokemonData defender = creator.createPokemon(defenderId, defenderLevel, defenderIV.getAttack(), defenderIV.getDefense(),
+                defenderIV.getStamina(), dmove1, dmove2);
 
-    }
+        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        return Response.ok(fightResult).cacheControl(cacheControl).build();
+    }    
+    
+    /*
+     * Example url:
+     * http://localhost:8080/fights/attackers/SNORLAX/quickMoves/LICK_FAST/
+     * cinMoves/BODY_SLAM/cp/1850/defenders/VAPOREON/quickMoves/WATER_GUN_FAST/
+     * cinMoves/AQUA_TAIL/cp/1847/strategies/QUICK_ATTACK_ONLY/DEFENSE
+     */
 
     @GET
     @Path("attackers/{attackerId}/quickMoves/{move1}/cinMoves/{move2}/cp/{attackerCp}/defenders/{defenderId}"
@@ -150,7 +214,7 @@ public class FightResource {
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
             @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
         log.debug(
-                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, attackerLevel {}, defenderLevel {}, defenseStrategy {}",
+                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, attackerCp {}, defenderCp {}, defenseStrategy {}",
                 attackerId, defenderId, move1, move2, attackStrategy, attackerCp, defenderCp, defenseStrategy);
         final PokemonData attacker = creator.createPokemon(attackerId, attackerCp, move1, move2);
         final PokemonData defender = creator.createPokemon(defenderId, defenderCp, dmove1, dmove2);
@@ -163,7 +227,35 @@ public class FightResource {
         return Response.ok(fightResult).cacheControl(cacheControl).build();
 
     }
+    public static class IVWrapper {
+        private final int attack;
+        private final int defense;
+        private final int stamina;
+        
+        public IVWrapper(String iv) {
+            attack = Integer.decode("0x" + iv.charAt(0));
+            defense= Integer.decode("0x" + iv.charAt(1));
+            stamina = Integer.decode("0x" + iv.charAt(2));
+        }
 
+        public int getAttack() {
+            return attack;
+        }
+
+        public int getDefense() {
+            return defense;
+        }
+
+        public int getStamina() {
+            return stamina;
+        }
+
+        @Override
+        public String toString() {
+            return "IVWrapper [attack=" + attack + ", defense=" + defense + ", stamina=" + stamina + "]";
+        }
+        
+    }
     private boolean isRandom(AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
         return defenseStrategy == AttackStrategyType.DEFENSE_RANDOM;
 
