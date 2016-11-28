@@ -7498,7 +7498,7 @@
           "BaseAttack": 91,
           "BaseDefense": 91
         },
-        "QuickMoves": "\\336\\001",
+        "QuickMoves": "\\362\\001",
         "CinematicMoves": "\\205\\001",
         "AnimTime": "\\000\\000\\000\\000\\332\\254*?mV\\325?mV\\325?\\000\\000\\000\\000\\000\\000\\000@\\000\\000\\000@\\000\\000\\000\\000",
         "EvolutionPips": 1,
@@ -9066,7 +9066,26 @@
         "DamageWindowEndMs": 1410,
         "EnergyDelta": 7
       }
-    }, {
+    }
+	, {
+      "TemplateId": "V0242_TRANSFORM_FAST",
+      "Move": {
+        "UniqueId": 242,
+        "AnimationId": 4,
+        "Type": "POKEMON_TYPE_NORMAL",
+        "Power": 0,
+        "AccuracyChance": 1,
+        "StaminaLossScalar": 0.01,
+        "TrainerLevelMin": 1,
+        "TrainerLevelMax": 100,
+        "VfxName": "transform_fast",
+        "DurationMs": 1730,
+        "DamageWindowStartMs": 300,
+        "DamageWindowEndMs": 700,
+        "EnergyDelta": 0
+      }
+    }
+    , {
       "TemplateId": "android.test.canceled",
       "IapItemDisplay": {
         "Sku": "android.test.canceled",

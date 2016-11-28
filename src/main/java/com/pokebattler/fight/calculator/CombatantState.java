@@ -15,12 +15,12 @@ import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.strategies.AttackStrategy.PokemonAttack;
 
 public class CombatantState {
-    private final double attack;
-    private final double defense;
+    private double attack;
+    private double defense;
     private final int startHp;
     private final long id;
     private final Formulas f;
-    private final PokemonId pokemon;
+    private PokemonId pokemon;
     private final boolean defender;
     private int timeSinceLastMove;
     private int currentHp;
@@ -28,10 +28,10 @@ public class CombatantState {
     private int combatTime;
     private int damageDealt;
     private int numAttacks;
-    PokemonAttack nextAttack;
-    Move nextMove;
-    boolean dodged = false;
-    boolean damageAlreadyOccurred = false;
+    private PokemonAttack nextAttack;
+    private Move nextMove;
+    private boolean dodged = false;
+    private boolean damageAlreadyOccurred = false;
 
     public boolean isNextMoveSpecial() {
         return !getNextMove().getMoveId().name().endsWith("FAST");
@@ -128,7 +128,8 @@ public class CombatantState {
         if (damageAlreadyOccurred) {
             return Integer.MAX_VALUE;
         } else {
-            return nextAttack.getDelay() + nextMove.getDamageWindowStartMs() - getTimeSinceLastMove();
+            // some moves on defense this will return negative on move 2 which causes bad things
+            return Math.max(0, nextAttack.getDelay() + nextMove.getDamageWindowStartMs() - getTimeSinceLastMove());
         }
     }
 
@@ -188,4 +189,6 @@ public class CombatantState {
     public String toString() {
         return ToStringBuilder.reflectionToString(this);
     }
+
+
 }
