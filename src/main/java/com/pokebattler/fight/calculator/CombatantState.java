@@ -20,6 +20,7 @@ public class CombatantState {
     private final int startHp;
     private final long id;
     private final Formulas f;
+    private final int cp;
     private PokemonId pokemon;
     private final boolean defender;
     private int timeSinceLastMove;
@@ -101,6 +102,7 @@ public class CombatantState {
         this.id = ind.getId();
         this.pokemon = p.getPokemonId();
         this.f = f;
+        this.cp = ind.getCp();
         this.attack = f.getCurrentAttack(p.getStats().getBaseAttack(), ind.getIndividualAttack(),
                 ind.getCpMultiplier());
         this.defense = f.getCurrentDefense(p.getStats().getBaseDefense(), ind.getIndividualDefense(),
@@ -174,7 +176,7 @@ public class CombatantState {
     }
 
     public CombatantResult toResult(Combatant combatant, AttackStrategyType strategy, int actualCombatTime) {
-        return CombatantResult.newBuilder().setStrategy(strategy).setDamageDealt(getDamageDealt())
+        return CombatantResult.newBuilder().setStrategy(strategy).setDamageDealt(getDamageDealt()).setCp(cp)
                 .setCombatTime(actualCombatTime).setDps(1000.0f * (getDamageDealt()) / actualCombatTime)
                 .setEnergy(getCurrentEnergy()).setStartHp(getStartHp()).setEndHp(getCurrentHp()).setPokemon(pokemon)
                 .setCombatant(combatant).setId(getId()).build();

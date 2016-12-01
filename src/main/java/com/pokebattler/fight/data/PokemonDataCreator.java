@@ -32,6 +32,15 @@ public class PokemonDataCreator {
 
     Map<PokemonId, TreeMap<Integer, MiniPokemonData>> cpLookupMap;
 
+    public PokemonDataCreator() {
+        
+    }
+    public PokemonDataCreator( CpMRepository cpmRepository, PokemonRepository pokemonRepository, Formulas f) {
+        this.cpmRepository = cpmRepository;
+        this.pokemonRepository = pokemonRepository;
+        this.f = f;
+    }
+    
     // High memory version, needs about 1.5g heap and has some serialization
     // cost but not too much
     // perhaps write these out to files and can serve them statically?
@@ -131,12 +140,12 @@ public class PokemonDataCreator {
     public PokemonData createPokemon(PokemonId id, String level, int individualAttack, int individualDefense,
             int individualStamina, PokemonMove move1, PokemonMove move2) {
         final double cpm = cpmRepository.getCpM(level).getCpm();
-        final StatsAttributes s = pokemonRepository.getById(id).getStats();
-        final int cp = f.calculateCp(level, s.getBaseAttack(), individualAttack, s.getBaseDefense(), individualDefense,
-                s.getBaseStamina(), individualStamina);
-        return PokemonData.newBuilder().setLevel(level).setCp(cp).setPokemonId(id).setIndividualAttack(individualAttack)
+        final Pokemon p = pokemonRepository.getById(id);
+        PokemonData.Builder retval =PokemonData.newBuilder().setLevel(level).setPokemonId(id).setIndividualAttack(individualAttack)
                 .setIndividualDefense(individualDefense).setIndividualStamina(individualStamina).setCpMultiplier(cpm)
-                .setMove1(move1).setMove2(move2).build();
+                .setMove1(move1).setMove2(move2);
+        retval.setCp(f.calculateCp(retval,p));
+        return retval.build();
     }
 
     public PokemonData createPokemon(PokemonId id, int cp, PokemonMove move1, PokemonMove move2) {
@@ -159,6 +168,12 @@ public class PokemonDataCreator {
         return PokemonData.newBuilder().setLevel(mpd.getLevel()).setCp(cpEntry.getKey()).setPokemonId(id)
                 .setIndividualAttack(mpd.getAttack()).setIndividualDefense(mpd.getDefense())
                 .setIndividualStamina(mpd.getStamina()).setCpMultiplier(cpm).setMove1(move1).setMove2(move2).build();
+    }
+
+    public PokemonData transform(PokemonData attacker, PokemonData defender) {
+        Pokemon p = pokemonRepository.getById(defender.getPokemonId());
+        return attacker.toBuilder().setMove1(defender.getMove1()).setMove2(defender.getMove2())
+                .setCp( f.calculateCp(attacker,p)).build();
     }
 
 }

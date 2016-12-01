@@ -42,7 +42,7 @@ public class PokemonRepository {
             MUK, CLOYSTER, GENGAR, ONIX, HYPNO, KINGLER, ELECTRODE, EXEGGUTOR, MAROWAK, HITMONLEE, HITMONCHAN,
             LICKITUNG, WEEZING, RHYDON, CHANSEY, TANGELA, KANGASKHAN, SEADRA, SEAKING, STARMIE, MR_MIME, SCYTHER, JYNX,
             ELECTABUZZ, MAGMAR, PINSIR, TAUROS, GYARADOS, LAPRAS, VAPOREON, JOLTEON, FLAREON, PORYGON, OMASTAR,
-            KABUTOPS, AERODACTYL, SNORLAX, DRAGONITE));
+            KABUTOPS, AERODACTYL, SNORLAX, DRAGONITE, DITTO));
 
     EnumSet<PokemonId> endGameDefenderPokemons = EnumSet.copyOf(Arrays.asList(VENUSAUR, CHARIZARD, BLASTOISE, BUTTERFREE,
             BEEDRILL, PIDGEOT, RATICATE, FEAROW, ARBOK, RAICHU, SANDSLASH, NIDOQUEEN, NIDOKING, CLEFABLE, NINETALES,
@@ -51,7 +51,7 @@ public class PokemonRepository {
             MUK, CLOYSTER, GENGAR, ONIX, HYPNO, KINGLER, ELECTRODE, EXEGGUTOR, MAROWAK, HITMONLEE, HITMONCHAN,
             LICKITUNG, WEEZING, RHYDON, CHANSEY, TANGELA, KANGASKHAN, SEADRA, SEAKING, STARMIE, MR_MIME, SCYTHER, JYNX,
             ELECTABUZZ, MAGMAR, PINSIR, TAUROS, GYARADOS, LAPRAS, VAPOREON, JOLTEON, FLAREON, PORYGON, OMASTAR,
-            KABUTOPS, AERODACTYL, SNORLAX, DRAGONITE));
+            KABUTOPS, AERODACTYL, SNORLAX, DRAGONITE, DITTO));
     
     
     public PokemonRepository() throws Exception {
@@ -188,6 +188,17 @@ public class PokemonRepository {
 
     public Pokemon getById(PokemonId id) {
         return pokemonMap.get(id);
+    }
+
+    public Pokemon transform(Pokemon a, Pokemon d) {
+        //TODO: HACK HP is calculated pre transform but CP uses defender base stamina
+        Pokemon.Builder clone = a.toBuilder();
+        clone.setType(d.getType()).setType2(d.getType2())
+            .getStatsBuilder()
+                .setBaseAttack(d.getStats().getBaseAttack())
+                .setBaseDefense(d.getStats().getBaseDefense());
+        
+        return clone.build();    
     }
 
 }

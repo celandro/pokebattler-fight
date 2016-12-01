@@ -14,6 +14,8 @@ import com.pokebattler.fight.data.ResistRepository;
 import com.pokebattler.fight.data.proto.Cpm.CpM;
 import com.pokebattler.fight.data.proto.FightOuterClass.CombatResult;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
+import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData.Builder;
+import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonDataOrBuilder;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 
 /*
@@ -46,7 +48,10 @@ public class Formulas {
     }
 
     public int getCurrentHP(int baseStam, int indStam, double cpm) {
-        return (int) ((baseStam + indStam) * cpm);
+        return getCurrentHP(baseStam + indStam, cpm);
+    }
+    public int getCurrentHP(int stam, double cpm) {
+        return (int) (stam * cpm);
     }
 
     public double getCurrentAttack(int baseAttack, int indAttack, double cpm) {
@@ -59,6 +64,9 @@ public class Formulas {
 
     public int getDefenderHp(int baseStam, int indStam, double cpm) {
         return 2 * getCurrentHP(baseStam, indStam, cpm);
+    }
+    public int getDefenderHp(int stam, double cpm) {
+        return 2 * getCurrentHP(stam, cpm);
     }
 
     public int calculateCp(String level, int baseAttack, int indAttack, int baseDefense, int indDefense, int baseStam,
@@ -128,17 +136,20 @@ public class Formulas {
         int prestigeGain = 0;
         for (final double defense : defenses) {
             if (attack < defense) {
-                prestigeGain += (int) (500.0 * defense / attack);
+                prestigeGain += Math.min(500, (int) (250.0 * defense / attack));
             } else {
-                // unknown a guess
-                prestigeGain += (int) (500.0 * defense / attack) / 3;
-
+                prestigeGain += (int) (155.0 * defense / attack - 27) ;
             }
         }
-        return Math.min(1000, prestigeGain);
+        return prestigeGain;
     }
 
     public int energyGain(int damage) {
         return (damage + 1) / 2;
+    }
+
+    public int calculateCp(PokemonDataOrBuilder data, Pokemon p) {
+        return calculateCp(data.getLevel(), p.getStats().getBaseAttack(), data.getIndividualAttack(), p.getStats().getBaseDefense(), 
+                data.getIndividualDefense(), p.getStats().getBaseStamina(), data.getIndividualStamina());
     }
 }

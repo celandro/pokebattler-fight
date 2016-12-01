@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.CpMRepository;
+import com.pokebattler.fight.data.PokemonDataCreator;
 import com.pokebattler.fight.data.PokemonRepository;
 import com.pokebattler.fight.data.ResistRepository;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -19,11 +20,13 @@ public class FormulasTest {
     static Formulas formulas;
     static PokemonRepository pokemonRepo;
     static CpMRepository cpmRepository;
+    static PokemonDataCreator creator;
     @BeforeClass
     public static void setUp() throws Exception {
         cpmRepository = new CpMRepository();
         formulas = new Formulas(cpmRepository, new ResistRepository());
         pokemonRepo = new PokemonRepository();
+        
     }
 
     @Test
@@ -45,6 +48,7 @@ public class FormulasTest {
         assertEquals(3355, formulas.calculateCp("40", p.getStats().getBaseAttack(), 15, p.getStats().getBaseDefense()
                 , 15, p.getStats().getBaseStamina(), 15));
     }
+
     @Test
     public void testAttack() {
         assertEquals(139.52287423610696,formulas.getCurrentAttack(186, 15, 0.6941436529159550), 1E-9);
@@ -63,5 +67,6 @@ public class FormulasTest {
         assertEquals(33,formulas.damageOfMove(139.522944, 119.545, move, attacker , defender, 1.0f, true));
         assertEquals(33,formulas.damageOfMove(139.52287423610696, 119.54499283593915, move, attacker , defender, 1.0f, true));
     }
+    
 
 }

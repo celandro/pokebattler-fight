@@ -35,6 +35,7 @@ message FightResult {
 	Fight fight_parameters = 5;
 	double power = 6;
 	double powerLog = 7;
+	int32 prestige = 8;
 }
 
 message CombatantResult {
@@ -48,6 +49,7 @@ message CombatantResult {
 	int64 id = 8;
 	int32 energy = 9;
 	PokemonId pokemon= 10;
+	int32 cp = 11;
 }
 enum Combatant {
 	UNKNOWN=0;

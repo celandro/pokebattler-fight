@@ -90,26 +90,14 @@ public class AttackSimulator {
         PokemonData defender = fight.getDefender();
         Pokemon a = pokemonRepository.getById(attacker.getPokemonId());
         Pokemon d = pokemonRepository.getById(defender.getPokemonId());
+        // handle ditto
         if (attacker.getMove1() == PokemonMove.TRANSFORM_FAST) {
-           attacker = attacker.toBuilder().setMove1(defender.getMove1())
-                .setMove2(defender.getMove2()).build();
-           Pokemon.Builder clone = a.toBuilder();
-           clone.setType(d.getType()).setType2(d.getType2())
-               .getStatsBuilder()
-                   .setBaseAttack(d.getStats().getBaseAttack())
-                   .setBaseDefense(d.getStats().getBaseDefense());
-               
-           a = clone.build();
+            a = pokemonRepository.transform(a,d);
+            attacker = creator.transform(attacker, defender);
         }
         if (defender.getMove1() == PokemonMove.TRANSFORM_FAST) {
-           defender = defender.toBuilder().setMove1(attacker.getMove1())
-                .setMove2(attacker.getMove2()).build();
-           Pokemon.Builder clone = d.toBuilder();
-           clone.setType(a.getType()).setType2(a.getType2())
-               .getStatsBuilder()
-                   .setBaseAttack(a.getStats().getBaseAttack())
-                   .setBaseDefense(a.getStats().getBaseDefense());
-           d = clone.build();
+            d = pokemonRepository.transform(d,a);
+            defender = creator.transform(defender, attacker);
         }
         
         final AttackStrategy attackerStrategy = attackStrategies.create(fight.getStrategy(), attacker);
@@ -193,7 +181,8 @@ public class AttackSimulator {
             }
                 
         }
-        fightResult.setWin(!defenderState.isAlive()).setTotalCombatTime(currentTime)
+        int prestige = (defenderState.isAlive())?0:f.defensePrestigeGain(attacker.getCp(), defender.getCp());
+        fightResult.setWin(!defenderState.isAlive()).setTotalCombatTime(currentTime).setPrestige(prestige)
                 .addCombatants(attackerState.toResult(Combatant.ATTACKER1, attackerStrategy.getType(), currentTime))
                 .addCombatants(defenderState.toResult(Combatant.DEFENDER, defenderStrategy.getType(), currentTime))
                 .setFightParameters(fight);
