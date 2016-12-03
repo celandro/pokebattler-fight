@@ -136,9 +136,9 @@ public class Formulas {
         int prestigeGain = 0;
         for (final double defense : defenses) {
             if (attack < defense) {
-                prestigeGain += Math.min(500, (int) (250.0 * defense / attack));
+                prestigeGain += Math.min(1000, (int) (500.0 * defense / attack));
             } else {
-                prestigeGain += (int) (155.0 * defense / attack - 27) ;
+                prestigeGain += Math.max(100, (int) (310.0 * defense / attack - 55)) ;
             }
         }
         return prestigeGain;
