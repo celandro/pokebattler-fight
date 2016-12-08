@@ -52,20 +52,13 @@ public class MoveRepository {
                     final Move.Builder builder = Move.newBuilder();
                     String moveString = null;
                     try {
-                        int num = 0;
-                        try {
-                            num = Integer.parseInt(move.getUniqueId());
-                        } catch (final NumberFormatException e) {
-                            num = Integer.parseInt(move.getUniqueId().substring(1, 5));
-                        }
-                        final PokemonMove id = PokemonMove.forNumber(num);
-                        // null out the field they don't know about
-                        move.setUniqueId(null);
-                        move.setMoveId(id.name());
+                        // different names
+                        builder.setMoveId(move.getMovementId());
+                        move.setMovementId(null);
                         moveString = mapper.writeValueAsString(move);
                         parser.merge(moveString, builder);
                     } catch (final Exception e) {
-                        throw new IllegalArgumentException("Could not parse " + move.getUniqueId() + ":" + moveString,
+                        throw new IllegalArgumentException("Could not parse " + move.getMovementId() + ":" + moveString,
                                 e);
                     }
                     return builder.build();

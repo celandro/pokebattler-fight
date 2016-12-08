@@ -10,7 +10,7 @@ message Moves {
 }
 
 message Move {
-	PokemonMovementType movement_id = 1;
+	PokemonMove move_id = 1;
 	int32 animation_id = 2;
 	PokemonType type = 3;
 	float power = 4;
@@ -25,5 +25,4 @@ message Move {
 	int32 damage_window_start_ms = 13;
 	int32 damage_window_end_ms = 14;
 	int32 energy_delta = 15;
-	PokemonMove move_id = 101;
 }

@@ -73,24 +73,12 @@ public class PokemonRepository {
         final List<Pokemon> pokes = rawData.items.stream().filter(item -> (item != null && item.getPokemon() != null))
                 .map(item -> item.getPokemon()).map(pokemon -> {
                     try {
-                        final PokemonId id = PokemonId
-                                .forNumber(Integer.parseInt(pokemon.getUniqueId().substring(1, 5)));
-                        PokemonFamilyId familyId = null;
-                        if (pokemon.getFamilyId() != null) {
-                            try {
-                                familyId = PokemonFamilyId.forNumber(Integer.parseInt(pokemon.getFamilyId()));
-                            } catch (final NumberFormatException e) {
-                                // this one is strangely formatted in the file
-                                // with 2 formats..
-                                familyId = PokemonFamilyId
-                                        .forNumber(Integer.parseInt(pokemon.getFamilyId().substring(1, 5)));
-                            }
-                        }
-                        final PokemonId parentId = pokemon.getParentId() == null ? null
-                                : PokemonId.forNumber(Integer.parseInt(pokemon.getParentId().substring(1, 5)));
+                        final PokemonId id = pokemon.getPokemonId();
+                        PokemonFamilyId familyId = pokemon.getFamilyId();
+                        final PokemonId parentId = pokemon.getParentId();
 
                         final Pokemon.Builder b = Pokemon.newBuilder().setPokemonId(id)
-                                .setType(PokemonType.valueOf(pokemon.getType1()))
+                                .setType(pokemon.getType())
                                 .setStats(StatsAttributes.newBuilder().setBaseAttack(pokemon.getStats().getBaseAttack())
                                         .setBaseDefense(pokemon.getStats().getBaseDefense())
                                         .setBaseStamina(pokemon.getStats().getBaseStamina()).build())
@@ -99,7 +87,7 @@ public class PokemonRepository {
                                 .setHeightStdDev(pokemon.getHeightStdDev()).setWeightStdDev(pokemon.getWeightStdDev())
                                 .setCandyToEvolve(pokemon.getCandyToEvolve());
                         if (pokemon.getType2() != null) {
-                            b.setType2(PokemonType.valueOf(pokemon.getType2()));
+                            b.setType2(pokemon.getType2());
                         }
                         if (parentId != null) {
                             b.setParentPokemonId(parentId);
@@ -107,8 +95,11 @@ public class PokemonRepository {
                         if (familyId != null) {
                             b.setFamilyId(familyId);
                         }
-                        addQuickMoves(pokemon.getQuickMoves(), b);
-                        addCinematicMoves(pokemon.getCinematicMoves(), b);
+                        b.addAllQuickMoves(pokemon.getQuickMoves());
+                        b.addAllCinematicMoves(pokemon.getCinematicMoves());
+
+//                        addQuickMoves(pokemon.getQuickMoves(), b);
+//                        addCinematicMoves(pokemon.getCinematicMoves(), b);
 
                         return b.build();
                     } catch (final RuntimeException e) {

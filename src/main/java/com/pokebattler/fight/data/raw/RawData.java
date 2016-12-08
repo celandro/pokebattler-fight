@@ -3,8 +3,15 @@ package com.pokebattler.fight.data.raw;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.pokebattler.fight.data.proto.PokemonFamilyIdOuterClass.PokemonFamilyId;
+import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
+import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
+import com.pokebattler.fight.data.proto.PokemonTypeOuterClass.PokemonType;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class RawData {
+    @JsonProperty("itemTemplates")
     public List<Item> items;
 
     public List<Item> getItems() {
@@ -18,7 +25,9 @@ public class RawData {
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Item {
         public String templateId;
+        @JsonProperty("pokemonSettings")
         public Pokemon pokemon;
+        @JsonProperty("moveSettings")
         public Move move;
 
         public Move getMove() {
@@ -49,10 +58,9 @@ public class RawData {
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Move {
-        private String uniqueId;
-        private String moveId;
+        private PokemonMove movementId;
         private int animationId;
-        private String type;
+        private PokemonType type;
         private int power;
         private float criticalChance;
         private float accuracyChance;
@@ -69,21 +77,6 @@ public class RawData {
             return criticalChance;
         }
 
-        public String getUniqueId() {
-            return uniqueId;
-        }
-
-        public void setUniqueId(String uniqueId) {
-            this.uniqueId = uniqueId;
-        }
-
-        public String getMoveId() {
-            return moveId;
-        }
-
-        public void setMoveId(String moveId) {
-            this.moveId = moveId;
-        }
 
         public int getAnimationId() {
             return animationId;
@@ -93,13 +86,26 @@ public class RawData {
             this.animationId = animationId;
         }
 
-        public String getType() {
+
+        public PokemonMove getMovementId() {
+            return movementId;
+        }
+
+
+        public void setMovementId(PokemonMove movementId) {
+            this.movementId = movementId;
+        }
+
+
+        public PokemonType getType() {
             return type;
         }
 
-        public void setType(String type) {
+
+        public void setType(PokemonType type) {
             this.type = type;
         }
+
 
         public int getPower() {
             return power;
@@ -189,43 +195,36 @@ public class RawData {
 
     @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Pokemon {
-        public String uniqueId;
-        public String type1;
-        public String type2;
+        public PokemonId pokemonId;
+        public PokemonType type;
+        public PokemonType type2;
         public Stats stats;
-        public String quickMoves;
-        public String cinematicMoves;
+        public List<PokemonMove> quickMoves;
+        public List<PokemonMove> cinematicMoves;
         public float pokedexHeightM;
         public float pokedexWeightKg;
-        public String parentId;
+        public PokemonId parentId;
         public float heightStdDev;
         public float weightStdDev;
-        public String familyId;
+        public PokemonFamilyId familyId;
         public int candyToEvolve;
 
-        public String getUniqueId() {
-            return uniqueId;
+        public PokemonId getPokemonId() {
+            return pokemonId;
         }
 
-        public void setUniqueId(String uniqueId) {
-            this.uniqueId = uniqueId;
+        public void setPokemonId(PokemonId pokemonId) {
+            this.pokemonId = pokemonId;
         }
 
-        public String getType1() {
-            return type1;
+        public PokemonType getType() {
+            return type;
         }
 
-        public void setType1(String type1) {
-            this.type1 = type1;
+        public void setType(PokemonType type) {
+            this.type = type;
         }
 
-        public String getType2() {
-            return type2;
-        }
-
-        public void setType2(String type2) {
-            this.type2 = type2;
-        }
 
         public Stats getStats() {
             return stats;
@@ -235,21 +234,6 @@ public class RawData {
             this.stats = stats;
         }
 
-        public String getQuickMoves() {
-            return quickMoves;
-        }
-
-        public void setQuickMoves(String quickMoves) {
-            this.quickMoves = quickMoves;
-        }
-
-        public String getCinematicMoves() {
-            return cinematicMoves;
-        }
-
-        public void setCinematicMoves(String cinematicMoves) {
-            this.cinematicMoves = cinematicMoves;
-        }
 
         public float getPokedexHeightM() {
             return pokedexHeightM;
@@ -267,13 +251,6 @@ public class RawData {
             this.pokedexWeightKg = pokedexWeightKg;
         }
 
-        public String getParentId() {
-            return parentId;
-        }
-
-        public void setParentId(String parentId) {
-            this.parentId = parentId;
-        }
 
         public float getHeightStdDev() {
             return heightStdDev;
@@ -291,13 +268,6 @@ public class RawData {
             this.weightStdDev = weightStdDev;
         }
 
-        public String getFamilyId() {
-            return familyId;
-        }
-
-        public void setFamilyId(String familyId) {
-            this.familyId = familyId;
-        }
 
         public int getCandyToEvolve() {
             return candyToEvolve;
@@ -305,6 +275,46 @@ public class RawData {
 
         public void setCandyToEvolve(int candyToEvolve) {
             this.candyToEvolve = candyToEvolve;
+        }
+
+        public List<PokemonMove> getQuickMoves() {
+            return quickMoves;
+        }
+
+        public void setQuickMoves(List<PokemonMove> quickMoves) {
+            this.quickMoves = quickMoves;
+        }
+
+        public List<PokemonMove> getCinematicMoves() {
+            return cinematicMoves;
+        }
+
+        public void setCinematicMoves(List<PokemonMove> cinematicMoves) {
+            this.cinematicMoves = cinematicMoves;
+        }
+
+        public PokemonType getType2() {
+            return type2;
+        }
+
+        public void setType2(PokemonType type2) {
+            this.type2 = type2;
+        }
+
+        public PokemonId getParentId() {
+            return parentId;
+        }
+
+        public void setParentId(PokemonId parentId) {
+            this.parentId = parentId;
+        }
+
+        public PokemonFamilyId getFamilyId() {
+            return familyId;
+        }
+
+        public void setFamilyId(PokemonFamilyId familyId) {
+            this.familyId = familyId;
         }
 
     }
