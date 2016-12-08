@@ -96,7 +96,9 @@
                         </goals>
                         <configuration>
                             <protocArtifact>com.google.protobuf:protoc:${protobuf.version}:exe:${os.detected.classifier}</protocArtifact>
+                            <excludes><exclude>POGOProtos/base/*</exclude></excludes>
                         </configuration>
+                        
                     </execution>
                 </executions>
             </plugin>

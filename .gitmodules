@@ -1,0 +1,3 @@
+[submodule "POGOProtos"]
+	path = POGOProtos
+	url = https://github.com/AeonLucid/POGOProtos
