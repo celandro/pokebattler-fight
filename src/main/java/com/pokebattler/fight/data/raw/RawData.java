@@ -60,7 +60,7 @@ public class RawData {
     public static class Move {
         private PokemonMove movementId;
         private int animationId;
-        private PokemonType type;
+        private PokemonType pokemonType;
         private int power;
         private float criticalChance;
         private float accuracyChance;
@@ -97,13 +97,13 @@ public class RawData {
         }
 
 
-        public PokemonType getType() {
-            return type;
+        public PokemonType getPokemonType() {
+            return pokemonType;
         }
 
 
-        public void setType(PokemonType type) {
-            this.type = type;
+        public void setPokemonType(PokemonType pokemonType) {
+            this.pokemonType = pokemonType;
         }
 
 

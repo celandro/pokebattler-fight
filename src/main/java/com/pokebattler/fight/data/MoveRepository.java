@@ -55,6 +55,8 @@ public class MoveRepository {
                         // different names
                         builder.setMoveId(move.getMovementId());
                         move.setMovementId(null);
+                        builder.setType(move.getPokemonType());
+                        move.setPokemonType(null);
                         moveString = mapper.writeValueAsString(move);
                         parser.merge(moveString, builder);
                     } catch (final Exception e) {
