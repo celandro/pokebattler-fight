@@ -61,11 +61,22 @@ public class FormulasTest {
    
     @Test
     public void testDamageOfMove() {
-        Move move = Move.newBuilder().setMoveId(PokemonMove.WATER_PULSE).setPower(45).build();
+        Move move = Move.newBuilder().setMoveId(PokemonMove.WATER_PULSE).setType(PokemonType.POKEMON_TYPE_WATER).setPower(45).build();
         Pokemon attacker = Pokemon.newBuilder().setType(PokemonType.POKEMON_TYPE_WATER).build();
         Pokemon defender = Pokemon.newBuilder().setType(PokemonType.POKEMON_TYPE_NORMAL).build();
         assertEquals(33,formulas.damageOfMove(139.522944, 119.545, move, attacker , defender, 1.0f, true));
         assertEquals(33,formulas.damageOfMove(139.52287423610696, 119.54499283593915, move, attacker , defender, 1.0f, true));
+        
+        // Cloyster vs. Dragonite
+        move = Move.newBuilder().setMoveId(PokemonMove.DRAGON_PULSE).setType(PokemonType.POKEMON_TYPE_DRAGON).setPower(65).build();
+        attacker = Pokemon.newBuilder().setType(PokemonType.POKEMON_TYPE_DRAGON).setType2(PokemonType.POKEMON_TYPE_FLYING).build();
+        defender = Pokemon.newBuilder().setType(PokemonType.POKEMON_TYPE_ICE).setType2(PokemonType.POKEMON_TYPE_WATER).build();
+        double attack = formulas.getCurrentAttack(263, 15, 0.731700003147125);
+        double defense = formulas.getCurrentDefense(323, 15, 0.731700003147125);
+        assertEquals(1.25 * 1.0 * 1.0, formulas.calculateModifier(move, attacker, defender), 1E-9);
+        assertEquals(34,formulas.damageOfMove(attack, defense, move, attacker , defender, 1.0f, true));
+        
+        
     }
     
 
