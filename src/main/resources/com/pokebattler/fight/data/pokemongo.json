@@ -13582,7 +13582,7 @@
         "baseAttack": 210,
         "baseDefense": 184
       },
-      "quickMoves": [281, "WATER_GUN_FAST", "QUICK_ATTACK_FAST"],
+      "quickMoves": ["HIDDEN_POWER_FAST", "WATER_GUN_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "POWER_GEM", "PSYCHIC", "PSYBEAM"],
       "animationTime": [1.7333, 0.6667, 1.8667, 2.1, 0.0, 2.6667, 1.9, 2.1],
       "evolutionPips": 1,
@@ -14624,7 +14624,7 @@
         "baseAttack": 153,
         "baseDefense": 139
       },
-      "quickMoves": ["CHARGE_BEAM_FAST", 281, "QUICK_ATTACK_FAST"],
+      "quickMoves": ["CHARGE_BEAM_FAST", "HIDDEN_POWER_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["SOLAR_BEAM", "HYPER_BEAM", "ZAP_CANNON"],
       "animationTime": [1.8333, 0.6667, 0.0, 0.6667, 0.0, 2.6667, 1.6, 0.0],
       "evolutionPips": 1,
@@ -16620,7 +16620,7 @@
         "baseAttack": 67,
         "baseDefense": 116
       },
-      "quickMoves": [281, "PECK_FAST"],
+      "quickMoves": ["HIDDEN_POWER_FAST", "PECK_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "PSYSHOCK", "DAZZLING_GLEAM"],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["TOGETIC"],
@@ -16677,7 +16677,7 @@
         "baseAttack": 139,
         "baseDefense": 191
       },
-      "quickMoves": ["EXTRASENSORY_FAST", 281],
+      "quickMoves": ["EXTRASENSORY_FAST", "HIDDEN_POWER_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "DAZZLING_GLEAM", "AERIAL_ACE"],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -18001,7 +18001,7 @@
         "baseAttack": 136,
         "baseDefense": 91
       },
-      "quickMoves": [281],
+      "quickMoves": ["HIDDEN_POWER_FAST"],
       "cinematicMoves": ["STRUGGLE"],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -20168,7 +20168,7 @@
         "baseAttack": 198,
         "baseDefense": 183
       },
-      "quickMoves": [281, "CHARGE_BEAM_FAST"],
+      "quickMoves": ["HIDDEN_POWER_FAST", "CHARGE_BEAM_FAST"],
       "cinematicMoves": ["SOLAR_BEAM", "HYPER_BEAM", "ZAP_CANNON"],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -21921,7 +21921,7 @@
   }, {
     "templateId": "V0281_MOVE_HIDDEN_POWER_FAST",
     "moveSettings": {
-      "movementId": 281,
+      "movementId": "HIDDEN_POWER_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_NORMAL",
       "power": 10.0,

@@ -221,5 +221,6 @@ enum PokemonMove {
     SNARL_FAST = 278;
     CRUNCH = 279;
     FOUL_PLAY = 280;
+    HIDDEN_POWER_FAST = 281;
     DODGE= -1;
 }
