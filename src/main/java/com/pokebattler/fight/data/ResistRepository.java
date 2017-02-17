@@ -39,10 +39,10 @@ public class ResistRepository {
                         }
                         defenseMap.put(defender, rowScanner.nextFloat());
                     }
-                    tempMap.put(attacker, Collections.unmodifiableMap(defenseMap));
+                    tempMap.put(attacker, defenseMap);
                 }
             }
-            resistMap = Collections.unmodifiableMap(tempMap);
+            resistMap = tempMap;
         } catch (final Exception e) {
             log.error("Could not initialize resists", e);
             throw new IllegalArgumentException("resists.csv is not valid");

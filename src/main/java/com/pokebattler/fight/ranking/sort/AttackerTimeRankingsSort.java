@@ -16,12 +16,12 @@ public class AttackerTimeRankingsSort implements RankingsSort{
         // smallest combat time followed by biggest power
         // losses take max time so they arent considered good
         return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> total.getCombatTime() + total.getNumLosses() * Formulas.MAX_COMBAT_TIME_MS)
-               .thenComparing(Comparator.<SubResultTotalOrBuilder>comparingDouble(total -> -total.getPower())); 
+               .thenComparing(Comparator.comparingDouble(total -> -total.getPower())); 
     }
     @Override
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
         return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> result.getResultOrBuilder().getTotalCombatTime() + (result.getResultOrBuilder().getWin()?0:Formulas.MAX_COMBAT_TIME_MS))
-                .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingDouble(result -> -result.getResultOrBuilder().getPower())); 
+                .thenComparing(Comparator.comparingDouble(result -> -result.getResultOrBuilder().getPower())); 
     }
     
     @Override
@@ -31,7 +31,6 @@ public class AttackerTimeRankingsSort implements RankingsSort{
     
     @Override
     public int hashCode() {
-        // TODO Auto-generated method stub
         return getClass().hashCode();
     }
 

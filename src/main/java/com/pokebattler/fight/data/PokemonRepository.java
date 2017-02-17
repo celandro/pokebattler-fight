@@ -40,7 +40,7 @@ public class PokemonRepository {
             WIGGLYTUFF, VILEPLUME, PARASECT, VENOMOTH, DUGTRIO, PERSIAN, GOLDUCK, PRIMEAPE, ARCANINE, POLIWRATH,
             ALAKAZAM, MACHAMP, VICTREEBEL, TENTACRUEL, GOLEM, RAPIDASH, SLOWBRO, MAGNETON, FARFETCHD, DODRIO, DEWGONG,
             MUK, CLOYSTER, GENGAR, HYPNO, KINGLER, ELECTRODE, EXEGGUTOR, MAROWAK, HITMONLEE, HITMONCHAN,
-            LICKITUNG, WEEZING, RHYDON, CHANSEY, TANGELA, KANGASKHAN, SEAKING, STARMIE, MR_MIME, JYNX,
+            LICKITUNG, WEEZING, RHYDON, BLISSEY, TANGELA, KANGASKHAN, SEAKING, STARMIE, MR_MIME, JYNX,
             ELECTABUZZ, MAGMAR, PINSIR, TAUROS, GYARADOS, LAPRAS, VAPOREON, JOLTEON, FLAREON, OMASTAR,
             KABUTOPS, AERODACTYL, SNORLAX, DRAGONITE, DITTO, MEGANIUM, TYPHLOSION, FERALIGATR, FURRET, NOCTOWL, 
             LEDIAN, ARIADOS, CROBAT, LANTURN, XATU, AMPHAROS, BELLOSSOM, AZUMARILL, SUDOWOODO, POLITOED, JUMPLUFF,
@@ -54,7 +54,10 @@ public class PokemonRepository {
     
     
     public PokemonRepository() throws Exception {
-        final InputStream is = this.getClass().getResourceAsStream("pokemongo.json");
+    	this("pokemongo.json");
+    }
+    public PokemonRepository(String file) throws Exception {
+        final InputStream is = this.getClass().getResourceAsStream(file);
         if (is == null) {
             throw new IllegalArgumentException("Can not find pokemongo.json");
         }

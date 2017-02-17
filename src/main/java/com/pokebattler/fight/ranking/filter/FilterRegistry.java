@@ -17,6 +17,9 @@ public class FilterRegistry {
     NoFilter noFilter;
     @Resource
     CountersFilter countersFilter;
+    @Resource
+    PokemonFilter pokemonFilter;
+    
     
     private final static Map<FilterType,RankingsFilter> filters = new EnumMap<>(FilterType.class);
     
@@ -24,6 +27,7 @@ public class FilterRegistry {
     public void init() {
         registerFilter(noFilter);
         registerFilter(countersFilter);
+        registerFilter(pokemonFilter);
     }    
     public boolean registerFilter(RankingsFilter filter) {
         return filters.put(filter.getType(), filter) != null;

@@ -27,5 +27,5 @@ public interface RankingsSort {
     public SortType getType();
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator();
 
-    
+
 }

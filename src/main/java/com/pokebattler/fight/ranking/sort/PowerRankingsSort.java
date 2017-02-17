@@ -18,6 +18,7 @@ public class PowerRankingsSort implements RankingsSort{
     }
     @Override
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
+    	// for the defender section, try and find the worst case not the best case!
         return Comparator.<DefenderSubResultOrBuilder>comparingDouble(result -> -result.getResultOrBuilder().getPower())
                 .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -(result.getResultOrBuilder().getWin()?1:0)))
                 .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt())); 

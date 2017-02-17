@@ -15,13 +15,13 @@ public class DefenderTimeRankingsSort implements RankingsSort{
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
         // biggest combat time first then biggest power
         return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -(total.getCombatTime()+ total.getNumWins() * Formulas.MAX_COMBAT_TIME_MS))
-               .thenComparing(Comparator.<SubResultTotalOrBuilder>comparingDouble(total -> -total.getPower())); 
+               .thenComparing(Comparator.comparingDouble(total -> -total.getPower())); 
     }
     @Override
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
         // a win counts as a big delay
         return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -(result.getResultOrBuilder().getTotalCombatTime() + (result.getResultOrBuilder().getWin()?Formulas.MAX_COMBAT_TIME_MS:0)))
-                .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingDouble(result -> -result.getResultOrBuilder().getPower()));
+                .thenComparing(Comparator.comparingDouble(result -> -result.getResultOrBuilder().getPower()));
     }
     
     @Override

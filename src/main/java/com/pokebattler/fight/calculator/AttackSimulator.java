@@ -73,7 +73,7 @@ public class AttackSimulator {
     public FightResult calculateAttackDPS(PokemonData attacker, PokemonData defender,
             AttackStrategyType attackerStrategy, AttackStrategyType defenseStrategy) {
         return fight(Fight.newBuilder().setAttacker1(attacker).setDefender(defender).setStrategy(attackerStrategy)
-                .setDefenseStrategy(defenseStrategy).build()).build();
+                .setDefenseStrategy(defenseStrategy).build(), true).build();
     }
 
     private void nextAttack(AttackStrategy strategy, CombatantState attackerState, CombatantState defenderState) {
@@ -85,7 +85,7 @@ public class AttackSimulator {
         return strategy.getType().name().startsWith("DEFENSE");
     }
 
-    public FightResult.Builder fight(Fight fight) {
+    public FightResult.Builder fight(Fight fight, boolean includeDetails) {
         PokemonData attacker = fight.getAttacker1();
         PokemonData defender = fight.getDefender();
         Pokemon a = pokemonRepository.getById(attacker.getPokemonId());
@@ -106,7 +106,6 @@ public class AttackSimulator {
         
         final CombatantState attackerState = new CombatantState(a, attacker, f, isDefender(attackerStrategy));
         final CombatantState defenderState = new CombatantState(d, defender, f, isDefender(defenderStrategy));
-        
         
         
         nextAttack(defenderStrategy, defenderState, attackerState);
@@ -140,7 +139,7 @@ public class AttackSimulator {
             else if (timeToNextAttackDamage >= 0 && timeToNextAttackDamage <= timeToNextAttack &&
                     timeToNextAttackDamage <= timeToNextDefense && timeToNextAttackDamage <= timeToNextDefenseDamage ) {
                 final CombatResult.Builder combatBuilder = f.getCombatResult(attackerState.getAttack(),
-                        defenderState.getDefense(), attackerState.getNextMove(), a, d, timeToNextAttackDamage, attackerState.isDodged());
+                        defenderState.getDefense(), attackerState.getNextMove(), a, d,  attackerState.isDodged());
                 currentTime += timeToNextAttackDamage;
                 final CombatResult result = combatBuilder.setCurrentTime(currentTime).setAttackerId(attacker.getId())
                         .setAttacker(Combatant.ATTACKER1).setDefender(Combatant.DEFENDER).setCurrentTime(currentTime)
@@ -150,12 +149,14 @@ public class AttackSimulator {
                 int energyGain = defenderState.applyDefense(result, timeToNextAttackDamage);
                 log.debug("A{}: {} took {} damage and gained {} energy", currentTime - Formulas.START_COMBAT_TIME, defenderState.getPokemon(), 
                         result.getDamage(), energyGain);
-                fightResult.addCombatResult(result);
+                if (includeDetails) {
+                	fightResult.addCombatResult(result);
+                }
 
             } else if (timeToNextDefenseDamage >= 0 && timeToNextDefenseDamage <= timeToNextAttack &&
                     timeToNextDefenseDamage <= timeToNextDefense  ) {
                 final CombatResult.Builder combatBuilder = f.getCombatResult(defenderState.getAttack(),
-                        attackerState.getDefense(), defenderState.getNextMove(), d, a, timeToNextDefenseDamage, defenderState.isDodged());
+                        attackerState.getDefense(), defenderState.getNextMove(), d, a, defenderState.isDodged());
                 currentTime += timeToNextDefenseDamage;
                 
                 final CombatResult result = combatBuilder.setCurrentTime(currentTime).setAttackerId(defender.getId())
@@ -165,7 +166,9 @@ public class AttackSimulator {
                 log.debug("D{}: {} took {} damage and gained {} energy", currentTime - Formulas.START_COMBAT_TIME, attackerState.getPokemon(), 
                         result.getDamage(), energyGain);
                 // log.debug("Defender State {}",defenderState);
-                fightResult.addCombatResult(result);
+                if (includeDetails) {
+                	fightResult.addCombatResult(result);
+                }
             } else if (timeToNextAttack <= timeToNextDefense) {
                 currentTime += timeToNextAttack;
                 int energyGain = attackerState.resetAttack(timeToNextAttack);

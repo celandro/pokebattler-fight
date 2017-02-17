@@ -48,7 +48,7 @@ public class FightResource {
     public FightResult fight(Fight fight) {
         log.debug("Calculating dps for fight {}", fight);
 
-        return simulator.fight(fight).build();
+        return simulator.fight(fight, true).build();
 
     }
 

@@ -9,7 +9,8 @@ import com.pokebattler.fight.data.proto.Ranking.FilterType;
 @Component
 public class CountersFilter implements RankingsFilter {
     private final Logger log = LoggerFactory.getLogger(getClass());
-    final int numForTotal;
+    private final FilterType filterType = FilterType.COUNTERS;
+    private final int numForTotal;
     public CountersFilter() {
         this(1);
     }
@@ -19,7 +20,7 @@ public class CountersFilter implements RankingsFilter {
 
     @Override
     public FilterType getType() {
-        return FilterType.COUNTERS;
+        return filterType;
     }
 
     @Override
@@ -33,8 +34,33 @@ public class CountersFilter implements RankingsFilter {
     }
 
     @Override
-    public int getNumForTotal() {
+    public int getNumWorstToKeep() {
         return numForTotal;
     }
+    
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((filterType == null) ? 0 : filterType.hashCode());
+		result = prime * result + numForTotal;
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		CountersFilter other = (CountersFilter) obj;
+		if (filterType != other.filterType)
+			return false;
+		if (numForTotal != other.numForTotal)
+			return false;
+		return true;
+	}
 
+    
 }

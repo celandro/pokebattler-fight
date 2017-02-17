@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.EnumSet;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import javax.annotation.Resource;
 
@@ -27,6 +29,7 @@ import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.Ranking.AttackerResult;
+import com.pokebattler.fight.data.proto.Ranking.AttackerResult.Builder;
 import com.pokebattler.fight.data.proto.Ranking.AttackerSubResult;
 import com.pokebattler.fight.data.proto.Ranking.DefenderResult;
 import com.pokebattler.fight.data.proto.Ranking.DefenderSubResult;
@@ -51,12 +54,13 @@ public class RankingSimulator {
     public RankingResult rank(RankingParams params) {
         final RankingResult.Builder retval = RankingResult.newBuilder().setAttackStrategy(params.getAttackStrategy())
                 .setDefenseStrategy(params.getDefenseStrategy());
-        final ArrayList<AttackerResult.Builder> results = new ArrayList<>();
-        pokemonRepository.getAllEndGame().getPokemonList().stream().forEach((attacker) -> {
-            results.add(rankAttacker(attacker, params));
+        final List<AttackerResult.Builder> results = params.getFilter().getAttackers(pokemonRepository).parallelStream().map((attacker) -> {
+            Builder result = rankAttacker(attacker, params);
             log.debug("{} Ranked for {} {} {} {}",attacker.getPokemonId(), params.getAttackerLevel(), params.getDefenderLevel(), 
                     params.getAttackStrategy().name(), params.getDefenseStrategy().name());
-        });
+            return result;
+        }).collect(Collectors.toList());
+        
         //TODO reuse comparators
         results.stream()
         .sorted(params.getSort().getAttackerResultComparator())
@@ -80,13 +84,12 @@ public class RankingSimulator {
         results.stream()
         .sorted(params.getSort().getAttackerSubResultComparator())
         .forEach(result -> {
-            // defender list is too big
-//            DefenderResult.Builder bestDefender = result.getDefendersBuilder(result.getDefendersCount()-1);
-            result.clearDefenders();
-//            result.addDefenders(bestDefender);
+            // defender list is too big sometimes
+        	if (params.getFilter().compressResults()) {
+        		result.clearDefenders();
+        	}
             retval.addByMove(result);
         });;
-                
         
         return retval;
     }
@@ -97,21 +100,28 @@ public class RankingSimulator {
         final ArrayList<DefenderResult.Builder> results = new ArrayList<>();
         
         
-//        pokemonRepository.getAllEndGame().getPokemonList().stream().forEach((defender) -> {
-        pokemonRepository.getAllEndGameDefender().getPokemonList().stream().forEach((defender) -> {
+        params.getFilter().getDefenders(pokemonRepository).stream().forEach((defender) -> {
             final DefenderResult.Builder rankDefender = subRankDefender(defender, attackerData, params);
             // only retain the subtotals
-            DefenderSubResult.Builder bestMove = rankDefender.getByMoveBuilder(0);
-            rankDefender.clearByMove();
-            rankDefender.addByMove(bestMove);
+        	if (params.getFilter().compressResults()) {
+	            DefenderSubResult.Builder bestMove = rankDefender.getByMoveBuilder(0);
+	            rankDefender.clearByMove();
+	            rankDefender.addByMove(bestMove);
+        	}
             results.add(rankDefender);
         });
         // sort by winner first then damagetaken then damage dealt for tie breaker (unlikely)
         SubResultTotal.Builder subTotal = SubResultTotal.newBuilder();
         results.stream()
-            .sorted(params.getSort().getDefenderResultComparator())
-            .skip(Math.max(0, results.size() - params.getNumForTotal()))
-                .forEach((result) -> {
+//                .map(result -> {
+//                    SubResultTotal.Builder subResultTotalBuilder = result.getTotalBuilder();
+//                    subResultTotalBuilder.setPower(Math.pow(10, subResultTotalBuilder.getPower()/( subResultTotalBuilder.getNumWins() +  subResultTotalBuilder.getNumLosses())));
+//                    return result;
+//                    
+//                })// sort after you set the power
+                .sorted(params.getSort().getDefenderResultComparator())
+                .skip(Math.max(0, results.size() - params.getFilter().getNumWorstToKeep()))
+                .forEach(result->  {
                     SubResultTotal.Builder subResultTotalBuilder = result.getTotalBuilder();
                     subTotal.setNumWins(subTotal.getNumWins() + subResultTotalBuilder.getNumWins());
                     subTotal.setCombatTime(subTotal.getCombatTime() + subResultTotalBuilder.getCombatTime());
@@ -119,13 +129,9 @@ public class RankingSimulator {
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + subResultTotalBuilder.getDamageTaken());
                     subTotal.setNumLosses(subTotal.getNumLosses() + subResultTotalBuilder.getNumLosses());
                     subTotal.setPower(subTotal.getPower() + subResultTotalBuilder.getPower());
-                    // normalize power
-                    subResultTotalBuilder.setPower(Math.pow(10, subResultTotalBuilder.getPower()/( subResultTotalBuilder.getNumWins() +  subResultTotalBuilder.getNumLosses())));
-                    // shrink json
-//                    result.clearTotal();
-                    retval.addDefenders(result);
-                    
-                })                ;
+                	retval.addDefenders(result);
+                });
+        
         // normalize power
         subTotal.setPower( Math.pow(10, subTotal.getPower()/(subTotal.getNumWins() + subTotal.getNumLosses())));
         retval.setTotal(subTotal );
@@ -134,6 +140,7 @@ public class RankingSimulator {
     public DefenderResult.Builder subRankDefender(Pokemon defender, PokemonData attackerData, RankingParams params) {
         final DefenderResult.Builder retval = DefenderResult.newBuilder().setPokemonId(defender.getPokemonId());
         final ArrayList<DefenderSubResult.Builder> results = new ArrayList<>();
+        
         defender.getQuickMovesList().forEach((quick) -> {
             defender.getCinematicMovesList().forEach((cin) -> {
                 final PokemonData defenderData = creator.createMaxStatPokemon(defender.getPokemonId(),
@@ -148,7 +155,7 @@ public class RankingSimulator {
         results.stream()
                 .sorted(params.getSort().getDefenderSubResultComparator())
                 // skip all but 1 if we are skipping any
-                .skip((params.getNumForTotal() == Integer.MAX_VALUE)? 0: Math.max(0, results.size() - 1))
+                .skip((params.getFilter().getNumWorstToKeep() == Integer.MAX_VALUE)? 0: Math.max(0, results.size() - 1))
                 .forEach((result) -> {
                     boolean win =result.getResultOrBuilder().getWin();
                     subTotal.setNumWins(subTotal.getNumWins() + (win?1:0));
@@ -157,8 +164,16 @@ public class RankingSimulator {
                     subTotal.setDamageDealt(subTotal.getDamageDealt() + result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt());
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt());
                     subTotal.setPower(subTotal.getPower() + result.getResultOrBuilder().getPowerLog());
-                    // reduce the json size a ton
-                    result.clearResult();
+                	if (params.getFilter().compressResults()) {
+                        // reduce the json size a ton
+	                    result.clearResult();
+                	} else {
+                		// reduce the json size a bit
+                		result.getResultBuilder().clearPowerLog();
+                		result.getResultBuilder().getCombatantsBuilder(0).clearCp().clearDps().clearEndHp().clearStartHp();
+                		result.getResultBuilder().getCombatantsBuilder(1).clearCp().clearDps().clearEndHp().clearStartHp();
+                		
+                	}
                     retval.addByMove(result);   
                 });
         retval.setTotal(subTotal);
@@ -171,7 +186,7 @@ public class RankingSimulator {
             AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
         Fight fight = Fight.newBuilder().setAttacker1(attackerData).setDefender(defenderData).setStrategy(attackStrategy)
                 .setDefenseStrategy(defenseStrategy).build();      
-        final FightResult.Builder result = simulator.fight(fight);
+        final FightResult.Builder result = simulator.fight(fight, false);
         result.clearCombatResult().clearFightParameters();
         result.getCombatantsBuilder(0).clearStrategy().clearCombatTime().clearPokemon()
                 .clearEnergy().clearCombatant();

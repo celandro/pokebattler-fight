@@ -1,6 +1,9 @@
 package com.pokebattler.fight;
 
+import org.glassfish.jersey.message.GZipEncoder;
+import org.glassfish.jersey.message.filtering.EntityFilteringFeature;
 import org.glassfish.jersey.server.ResourceConfig;
+import org.glassfish.jersey.server.filter.EncodingFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -24,6 +27,8 @@ public class JerseyConfig extends ResourceConfig {
         register(CORSResponseFilter.class);
         register(CacheControlResponseFilter.class);
 
+        register(EntityFilteringFeature.class);
+		EncodingFilter.enableFor(this, GZipEncoder.class);
     }
 
 }

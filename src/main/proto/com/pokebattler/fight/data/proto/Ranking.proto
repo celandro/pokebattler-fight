@@ -10,6 +10,7 @@ enum SortType {
 	WIN = 1;
 	TIME = 2;
 	DPS = 3;
+	POTIONS = 4;
 }
 
 enum FilterType {

@@ -35,12 +35,12 @@ public class CachingRankingSimulator {
     public RankingResult rankAttacker(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, SortType sortType,
             FilterType filterType, String filterValue) {
         RankingsFilter filter = filterRegistry.getFilter(filterType, filterValue);
-        return rankCache.getUnchecked(new RankingParams(attackerLevel,defenderLevel, attackStrategy,defenseStrategy, sortRegistry.getAttackerSort(sortType), filter.getNumForTotal()));
+        return rankCache.getUnchecked(new RankingParams(attackerLevel,defenderLevel, attackStrategy,defenseStrategy, sortRegistry.getAttackerSort(sortType), filter));
     }    
     public RankingResult rankDefender(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, SortType sortType,
             FilterType filterType, String filterValue) {
         RankingsFilter filter = filterRegistry.getFilter(filterType, filterValue);
-        return rankCache.getUnchecked(new RankingParams(defenderLevel,attackerLevel, defenseStrategy,attackStrategy, sortRegistry.getDefenderSort(sortType), filter.getNumForTotal()));
+        return rankCache.getUnchecked(new RankingParams(defenderLevel,attackerLevel, defenseStrategy,attackStrategy, sortRegistry.getDefenderSort(sortType), filter));
     }
 
 }

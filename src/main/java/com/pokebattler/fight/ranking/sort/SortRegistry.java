@@ -24,7 +24,10 @@ public class SortRegistry {
     DefenderTimeRankingsSort defenderTime;
     @Resource
     DPSRankingsSort dps;
-    
+    @Resource
+    AttackerPotionsSort attackerPotions;
+    @Resource
+    DefenderPotionsSort defenderPotions;
     
     private final static Map<SortType,RankingsSort> attackerSorts = new EnumMap<>(SortType.class);
     private final static Map<SortType,RankingsSort> defenderSorts = new EnumMap<>(SortType.class);
@@ -39,6 +42,8 @@ public class SortRegistry {
         registerDefenderSort(defenderTime);
         registerAttackerSort(dps);
         registerDefenderSort(dps);
+        registerAttackerSort(attackerPotions);
+        registerDefenderSort(defenderPotions);
     }    
     public boolean registerAttackerSort(RankingsSort sort) {
         return attackerSorts.put(sort.getType(), sort) != null;

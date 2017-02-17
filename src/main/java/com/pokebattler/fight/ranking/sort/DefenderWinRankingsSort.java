@@ -13,14 +13,14 @@ public class DefenderWinRankingsSort implements RankingsSort{
     @Override
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
         return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -total.getNumWins())
-                .thenComparing(Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -total.getDamageDealt()))
-                .thenComparing(Comparator.<SubResultTotalOrBuilder>comparingInt(total -> total.getDamageTaken()));
+                .thenComparing(Comparator.comparingInt(total -> -total.getDamageDealt()))
+                .thenComparing(Comparator.comparingInt(total -> total.getDamageTaken()));
     }
     @Override
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
         return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -(result.getResultOrBuilder().getWin()?1:0))
-                .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt())) 
-                .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt()));
+                .thenComparing(Comparator.comparingInt(result -> -result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt())) 
+                .thenComparing(Comparator.comparingInt(result -> result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt()));
     }
     
     @Override
