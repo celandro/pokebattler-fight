@@ -12,6 +12,8 @@ public interface AttackStrategy {
     public AttackStrategyType getType();
 
     public static int DODGE_COOLDOWN = 500;
+    // you can charge during your attack animation
+    public static final int CAST_TIME = 0;
 
     public static class PokemonAttack {
         private final PokemonMove move;

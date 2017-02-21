@@ -72,14 +72,12 @@ public class RankingSimulator {
     public AttackerResult.Builder rankAttacker(Pokemon attacker, RankingParams params) {
         final ArrayList<AttackerSubResult.Builder> results = new ArrayList<>();
         final AttackerResult.Builder retval = AttackerResult.newBuilder().setPokemonId(attacker.getPokemonId());
-        attacker.getQuickMovesList().forEach((quick) -> {
-            attacker.getCinematicMovesList().forEach((cin) -> {
-                final PokemonData attackerData = creator.createMaxStatPokemon(attacker.getPokemonId(), params.getAttackerLevel(), quick,
-                        cin);
-                // yes we set this a few times its ok
-                retval.setCp(attackerData.getCp());
-                results.add(rankAttackerByMoves(attackerData, params));
-            });
+        attacker.getMovesetsList().forEach((moveset) -> {
+            final PokemonData attackerData = creator.createMaxStatPokemon(attacker.getPokemonId(), params.getAttackerLevel(), 
+            		moveset.getQuickMove(), moveset.getCinematicMove());
+            // yes we set this a few times its ok
+            retval.setCp(attackerData.getCp());
+            results.add(rankAttackerByMoves(attackerData, params));
         });
         results.stream()
         .sorted(params.getSort().getAttackerSubResultComparator())
@@ -113,14 +111,8 @@ public class RankingSimulator {
         // sort by winner first then damagetaken then damage dealt for tie breaker (unlikely)
         SubResultTotal.Builder subTotal = SubResultTotal.newBuilder();
         results.stream()
-//                .map(result -> {
-//                    SubResultTotal.Builder subResultTotalBuilder = result.getTotalBuilder();
-//                    subResultTotalBuilder.setPower(Math.pow(10, subResultTotalBuilder.getPower()/( subResultTotalBuilder.getNumWins() +  subResultTotalBuilder.getNumLosses())));
-//                    return result;
-//                    
-//                })// sort after you set the power
                 .sorted(params.getSort().getDefenderResultComparator())
-                .skip(Math.max(0, results.size() - params.getFilter().getNumWorstToKeep()))
+                .skip(Math.max(0, results.size() - params.getFilter().getNumWorstDefenderToKeep()))
                 .forEach(result->  {
                     SubResultTotal.Builder subResultTotalBuilder = result.getTotalBuilder();
                     subTotal.setNumWins(subTotal.getNumWins() + subResultTotalBuilder.getNumWins());
@@ -129,6 +121,7 @@ public class RankingSimulator {
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + subResultTotalBuilder.getDamageTaken());
                     subTotal.setNumLosses(subTotal.getNumLosses() + subResultTotalBuilder.getNumLosses());
                     subTotal.setPower(subTotal.getPower() + subResultTotalBuilder.getPower());
+                    subTotal.setEffectiveCombatTime(subTotal.getEffectiveCombatTime() + subResultTotalBuilder.getEffectiveCombatTime());
                 	retval.addDefenders(result);
                 });
         
@@ -141,21 +134,19 @@ public class RankingSimulator {
         final DefenderResult.Builder retval = DefenderResult.newBuilder().setPokemonId(defender.getPokemonId());
         final ArrayList<DefenderSubResult.Builder> results = new ArrayList<>();
         
-        defender.getQuickMovesList().forEach((quick) -> {
-            defender.getCinematicMovesList().forEach((cin) -> {
-                final PokemonData defenderData = creator.createMaxStatPokemon(defender.getPokemonId(),
-                        params.getDefenderLevel(), quick, cin);
+        defender.getMovesetsList().forEach((moveset) -> {
+            final PokemonData defenderData = creator.createMaxStatPokemon(defender.getPokemonId(), params.getAttackerLevel(), 
+            		moveset.getQuickMove(), moveset.getCinematicMove());
                 // yes we set this a few times its ok
-                retval.setCp(defenderData.getCp());
-                results.add(subRankDefenderByMoves(attackerData, defenderData, params.getAttackStrategy(), params.getDefenseStrategy()));
-            });
+            retval.setCp(defenderData.getCp());
+            results.add(subRankDefenderByMoves(attackerData, defenderData, params.getAttackStrategy(), params.getDefenseStrategy()));
         });
         
         SubResultTotal.Builder subTotal = SubResultTotal.newBuilder();
         results.stream()
                 .sorted(params.getSort().getDefenderSubResultComparator())
                 // skip all but 1 if we are skipping any
-                .skip((params.getFilter().getNumWorstToKeep() == Integer.MAX_VALUE)? 0: Math.max(0, results.size() - 1))
+                .skip((params.getFilter().getNumWorstSubDefenderToKeep() == Integer.MAX_VALUE)? 0: Math.max(0, results.size() - 1))
                 .forEach((result) -> {
                     boolean win =result.getResultOrBuilder().getWin();
                     subTotal.setNumWins(subTotal.getNumWins() + (win?1:0));
@@ -164,6 +155,7 @@ public class RankingSimulator {
                     subTotal.setDamageDealt(subTotal.getDamageDealt() + result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt());
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt());
                     subTotal.setPower(subTotal.getPower() + result.getResultOrBuilder().getPowerLog());
+                    subTotal.setEffectiveCombatTime(subTotal.getEffectiveCombatTime() + result.getResultOrBuilder().getEffectiveCombatTime());
                 	if (params.getFilter().compressResults()) {
                         // reduce the json size a ton
 	                    result.clearResult();

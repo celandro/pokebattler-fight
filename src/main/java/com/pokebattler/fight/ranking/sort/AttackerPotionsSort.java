@@ -13,7 +13,8 @@ public class AttackerPotionsSort implements RankingsSort {
 	public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
 		// we will count a death as 100 damage
 		return Comparator
-				.<SubResultTotalOrBuilder>comparingInt(total -> total.getDamageTaken() + total.getNumLosses() * 100)
+				.<SubResultTotalOrBuilder>comparingInt(total -> (total.getDamageTaken() + total.getNumLosses() * 100) 
+						/ (total.getNumWins() + total.getNumLosses()))
 				.thenComparing(Comparator.comparingDouble(total -> -total.getPower()));
 
 	}

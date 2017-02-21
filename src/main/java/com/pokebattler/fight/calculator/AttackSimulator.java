@@ -45,6 +45,7 @@ public class AttackSimulator {
     public static int attackerReactionTime = 0;
     public Logger log = LoggerFactory.getLogger(getClass());
 
+    public static final double MAX_RATIO = 100.0;
     public static final double MAX_POWER = 10.0;
     public static final double MIN_POWER = -10.0;
     
@@ -82,7 +83,10 @@ public class AttackSimulator {
         attackerState.setNextAttack(nextAttack, nextMove);
     }
     boolean isDefender(AttackStrategy strategy) {
-        return strategy.getType().name().startsWith("DEFENSE");
+        return isDefender(strategy.getType());
+    }
+    boolean isDefender(AttackStrategyType strategyType) {
+        return strategyType.name().startsWith("DEFENSE");
     }
 
     public FightResult.Builder fight(Fight fight, boolean includeDetails) {
@@ -185,28 +189,57 @@ public class AttackSimulator {
                 
         }
         int prestige = (defenderState.isAlive())?0:f.defensePrestigeGain(attacker.getCp(), defender.getCp());
-        fightResult.setWin(!defenderState.isAlive()).setTotalCombatTime(currentTime).setPrestige(prestige)
+        fightResult.setWin(!defenderState.isAlive() ^ !isDefender(defenderStrategy) ).setTotalCombatTime(currentTime).setPrestige(prestige)
                 .addCombatants(attackerState.toResult(Combatant.ATTACKER1, attackerStrategy.getType(), currentTime))
                 .addCombatants(defenderState.toResult(Combatant.DEFENDER, defenderStrategy.getType(), currentTime))
                 .setFightParameters(fight);
+        fightResult.setEffectiveCombatTime(getEffectiveCombatTime(fightResult));
         fightResult.setPowerLog(getPower(fightResult));
         fightResult.setPower(Math.pow(10, fightResult.getPowerLog()));
         return fightResult;
     }
+    int getEffectiveCombatTime(FightResult.Builder result) {
+    	double multiplier = 1.0;
+        	if (result.getWin()) {
+        		if (isDefender(result.getFightParameters().getStrategy())) {
+//	                CombatantResultOrBuilder attacker = result.getCombatantsOrBuilder(0);
+//	                multiplier = Math.min(MAX_RATIO, attacker.getStartHp()/ (double)(attacker.getStartHp() - attacker.getEndHp()) );
+        		}
+        	} else {
+        		if (isDefender(result.getFightParameters().getDefenseStrategy())) {
+	                CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(1);
+	                multiplier = Math.min(MAX_RATIO, defender.getStartHp()/ (double)(defender.getStartHp() - defender.getEndHp()) );
+        		}  else {
+	                CombatantResultOrBuilder attacker = result.getCombatantsOrBuilder(0);
+	                multiplier = Math.min(MAX_RATIO, attacker.getStartHp()/ (double)(attacker.getStartHp() - attacker.getEndHp()) );
+        			
+        		}
+        	}
+        	
+    	return (int) Math.round(result.getTotalCombatTime() * multiplier + 10000 *( multiplier-1.0));
+    	
+    }
     double getPower(FightResult.Builder result) {
         CombatantResultOrBuilder attacker = result.getCombatantsOrBuilder(0);
         CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(1);
-        double attackerPower =  Math.min(MAX_POWER, (attacker.getStartHp() - attacker.getEndHp()) / (double) attacker.getStartHp());
-        double defenderPower =  Math.min(MAX_POWER, (defender.getStartHp() - defender.getEndHp()) / (double) defender.getStartHp());
-        // if we return a log, we can add and the numbers stay much smaller!
-        if (attackerPower == 0.0) {
+        // cap at 1.0 and handle timeouts
+        double attackerHpRatio = Math.min(MAX_RATIO, (attacker.getStartHp() - attacker.getEndHp())/ (double) attacker.getStartHp());
+        double defenderHpRatio =  Math.min(MAX_RATIO, (defender.getStartHp() - defender.getEndHp()) / (double) defender.getStartHp());
+        if (result.getTotalCombatTime() >= Formulas.MAX_COMBAT_TIME_MS) {
+        	if (isDefender(result.getFightParameters().getDefenseStrategy())) {
+        		attackerHpRatio = 1.0;
+        	} else {
+        		defenderHpRatio = 1.0;
+        	}
+        }
+        if (attackerHpRatio == 0.0) {
             // attacker takes no damage
             return MAX_POWER;
-        } else if (defenderPower == 0.0) {
+        } else if (defenderHpRatio == 0.0) {
             // defender takes no damage
             return MIN_POWER;
         } else {
-            return  Math.max(MIN_POWER, Math.min(MAX_POWER,Math.log10(defenderPower/attackerPower)));
+            return  Math.max(MIN_POWER, Math.min(MAX_POWER,Math.log10(defenderHpRatio/attackerHpRatio)));
         }
     }
 

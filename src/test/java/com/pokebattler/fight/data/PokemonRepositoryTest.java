@@ -14,14 +14,14 @@ import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemons;
 import com.pokebattler.fight.data.raw.RawData;
 
 public class PokemonRepositoryTest {
-	PokemonRepository p;
+	IndividualPokemonRepository p;
 
 	@Before
 	public void setUp() throws Exception {
-		p = new PokemonRepository() {
+		p = new IndividualPokemonRepository() {
 
 			@Override
-			public Pokemons createPokemons(RawData rawData) {
+			public Pokemons createPokemons(RawData rawData, String legacy) {
 				return Pokemons.newBuilder().build();
 			}
 
@@ -60,7 +60,7 @@ public class PokemonRepositoryTest {
 	@Test
 	public void testGetAll() throws Exception {
 		// Make sure to update the client if these change
-		p = new PokemonRepository();
+		p = new IndividualPokemonRepository();
 		CpMRepository cpmRepository = new CpMRepository();
 		Formulas f = new Formulas();
 		f.setCpmRepository(cpmRepository);
@@ -76,25 +76,6 @@ public class PokemonRepositoryTest {
 								pokemon.getStats().getBaseDefense(), 15, pokemon.getStats().getBaseStamina(), 15))
 						.max().getAsInt());
 	}
-	@Test
-	public void testChanges() throws Exception {
-		p = new PokemonRepository();
-		PokemonRepository p2 = new PokemonRepository("pokemongo_old.json");
-		p2.getAll().getPokemonList().stream().forEach(oldPokemon -> {
-			Pokemon newPokemon = p.getById(oldPokemon.getPokemonId());
-			oldPokemon.getCinematicMovesList().stream().forEach(oldMove -> {
-				if (!newPokemon.getCinematicMovesList().contains(oldMove)) {
-					System.out.println("case " + oldPokemon.getPokemonId() + ": pokemon.addCinematicMoves(PokemonMove."+ oldMove +");");;
-				}
-			});
-			oldPokemon.getQuickMovesList().stream().forEach(oldMove -> {
-				if (!newPokemon.getQuickMovesList().contains(oldMove)) {
-					System.out.println("case " + oldPokemon.getPokemonId() + ": pokemon.addQuickMoves(PokemonMove."+ oldMove +");");;
-				}
-			});
-			
-		});
-		
-	}
+
 
 }

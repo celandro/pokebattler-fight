@@ -15,7 +15,6 @@ public class CinematicAttackWhenPossible implements AttackStrategy {
     private int extraDelay;
     private Move move1;
     private Move move2;
-    public static final int CAST_TIME = 500;
 
     @Override
     public AttackStrategyType getType() {

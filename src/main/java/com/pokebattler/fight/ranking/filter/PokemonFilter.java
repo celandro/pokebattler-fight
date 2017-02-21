@@ -47,6 +47,15 @@ public class PokemonFilter implements RankingsFilter {
     public boolean compressResults() {
     	return false;
     }
+    @Override
+    public int getNumWorstDefenderToKeep() {
+        return 20;
+    }
+
+	@Override
+    public int getNumWorstSubDefenderToKeep() {
+        return 1;
+    }
 
     
     

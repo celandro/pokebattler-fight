@@ -9,6 +9,7 @@ import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.CpMRepository;
 import com.pokebattler.fight.data.PokemonDataCreator;
 import com.pokebattler.fight.data.PokemonRepository;
+import com.pokebattler.fight.data.IndividualPokemonRepository;
 import com.pokebattler.fight.data.ResistRepository;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
@@ -25,7 +26,7 @@ public class FormulasTest {
     public static void setUp() throws Exception {
         cpmRepository = new CpMRepository();
         formulas = new Formulas(cpmRepository, new ResistRepository());
-        pokemonRepo = new PokemonRepository();
+        pokemonRepo = new IndividualPokemonRepository();
         
     }
 

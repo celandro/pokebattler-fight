@@ -18,7 +18,6 @@ public class DodgeAll implements AttackStrategy {
     int extraDelay;
     Move move1;
     Move move2;
-    public static final int CAST_TIME = 500;
 
     @Override
     public AttackStrategyType getType() {

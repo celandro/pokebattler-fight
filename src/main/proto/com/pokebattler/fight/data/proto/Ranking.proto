@@ -44,6 +44,7 @@ message SubResultTotal {
 	int32 num_wins = 4;
 	int32 num_losses = 5;
 	double power = 6;
+	int32 effective_combat_time = 7;
 }
 
 message DefenderResult {

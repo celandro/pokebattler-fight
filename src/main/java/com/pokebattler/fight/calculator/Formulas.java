@@ -52,7 +52,7 @@ public class Formulas {
         return getCurrentHP(baseStam + indStam, cpm);
     }
     public int getCurrentHP(int stam, double cpm) {
-        return (int) (stam * cpm);
+        return Math.max(10, (int) (stam * cpm));
     }
 
     public double getCurrentAttack(int baseAttack, int indAttack, double cpm) {

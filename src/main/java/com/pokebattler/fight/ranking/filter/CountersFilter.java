@@ -34,7 +34,11 @@ public class CountersFilter implements RankingsFilter {
     }
 
     @Override
-    public int getNumWorstToKeep() {
+    public int getNumWorstDefenderToKeep() {
+        return numForTotal;
+    }
+    @Override
+    public int getNumWorstSubDefenderToKeep() {
         return numForTotal;
     }
     

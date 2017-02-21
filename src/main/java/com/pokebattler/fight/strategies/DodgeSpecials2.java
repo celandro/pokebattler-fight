@@ -19,7 +19,6 @@ public class DodgeSpecials2 implements AttackStrategy {
     private final Move move1;
     private final Move move2;
     private boolean dodgedSpecial;
-    public static final int CAST_TIME = 500;
 
     @Override
     public AttackStrategyType getType() {

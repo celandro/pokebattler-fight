@@ -12,7 +12,10 @@ public interface RankingsFilter {
 
     RankingsFilter forValue(String filterValue);
 
-    default int getNumWorstToKeep() {
+    default int getNumWorstSubDefenderToKeep() {
+        return Integer.MAX_VALUE;
+    }
+    default int getNumWorstDefenderToKeep() {
         return Integer.MAX_VALUE;
     }
     

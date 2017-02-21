@@ -12,7 +12,8 @@ import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
 @Component
 public class DefenderPotionsSort implements RankingsSort {
 	public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
-		return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -total.getDamageDealt())
+		return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -total.getDamageDealt() 
+				/ (total.getNumWins() + total.getNumLosses()))
 				.thenComparing(Comparator.comparingDouble(total -> -total.getPower()));
 
 	}

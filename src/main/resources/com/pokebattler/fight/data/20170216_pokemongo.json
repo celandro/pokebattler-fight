@@ -8792,8 +8792,8 @@
         "baseAttack": 92,
         "baseDefense": 122
       },
-      "quickMoves": ["RAZOR_LEAF_FAST", "TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "quickMoves": [],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["BAYLEEF"],
       "evolutionPips": 1,
@@ -8834,8 +8834,8 @@
         "baseAttack": 122,
         "baseDefense": 155
       },
-      "quickMoves": ["RAZOR_LEAF_FAST", "TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "quickMoves": [],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["MEGANIUM"],
       "evolutionPips": 1,
@@ -8878,7 +8878,7 @@
         "baseDefense": 202
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "VINE_WHIP_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.8,
@@ -8919,7 +8919,7 @@
         "baseDefense": 96
       },
       "quickMoves": ["EMBER_FAST", "TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["QUILAVA"],
       "evolutionPips": 1,
@@ -8961,7 +8961,7 @@
         "baseDefense": 129
       },
       "quickMoves": ["EMBER_FAST", "TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["TYPHLOSION"],
       "evolutionPips": 1,
@@ -9004,7 +9004,7 @@
         "baseDefense": 176
       },
       "quickMoves": ["EMBER_FAST", "SHADOW_CLAW_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.7,
@@ -9046,7 +9046,7 @@
         "baseDefense": 116
       },
       "quickMoves": ["WATER_GUN_FAST", "SCRATCH_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["CROCONAW"],
       "evolutionPips": 1,
@@ -9088,7 +9088,7 @@
         "baseDefense": 151
       },
       "quickMoves": ["WATER_GUN_FAST", "SCRATCH_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["FERALIGATR"],
       "evolutionPips": 1,
@@ -9131,7 +9131,7 @@
         "baseDefense": 197
       },
       "quickMoves": ["WATER_GUN_FAST", "BITE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 2.31,
@@ -9173,7 +9173,7 @@
         "baseDefense": 77
       },
       "quickMoves": ["SCRATCH_FAST", "QUICK_ATTACK_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["FURRET"],
       "evolutionPips": 1,
@@ -9215,7 +9215,7 @@
         "baseDefense": 130
       },
       "quickMoves": ["QUICK_ATTACK_FAST", "SUCKER_PUNCH_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.8,
@@ -9258,7 +9258,7 @@
         "baseDefense": 101
       },
       "quickMoves": ["TACKLE_FAST", "PECK_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["NOCTOWL"],
       "evolutionPips": 1,
@@ -9301,7 +9301,7 @@
         "baseDefense": 179
       },
       "quickMoves": ["TACKLE_FAST", "PECK_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.6,
@@ -9344,7 +9344,7 @@
         "baseDefense": 142
       },
       "quickMoves": ["TACKLE_FAST", "BUG_BITE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["LEDIAN"],
       "evolutionPips": 1,
@@ -9387,7 +9387,7 @@
         "baseDefense": 209
       },
       "quickMoves": ["TACKLE_FAST", "BUG_BITE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.4,
@@ -9430,7 +9430,7 @@
         "baseDefense": 73
       },
       "quickMoves": ["POISON_STING_FAST", "BUG_BITE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["ARIADOS"],
       "evolutionPips": 1,
@@ -9473,7 +9473,7 @@
         "baseDefense": 128
       },
       "quickMoves": ["POISON_STING_FAST", "BUG_BITE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.09,
@@ -9516,7 +9516,7 @@
         "baseDefense": 178
       },
       "quickMoves": ["WING_ATTACK_FAST", "BITE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.8,
@@ -9559,7 +9559,7 @@
         "baseDefense": 106
       },
       "quickMoves": ["BUBBLE_FAST", "SPARK_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["LANTURN"],
       "evolutionPips": 1,
@@ -9602,7 +9602,7 @@
         "baseDefense": 146
       },
       "quickMoves": ["WATER_GUN_FAST", "SPARK_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.19,
@@ -9862,7 +9862,7 @@
         "baseDefense": 89
       },
       "quickMoves": ["PECK_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["XATU"],
       "evolutionPips": 1,
@@ -9905,7 +9905,7 @@
         "baseDefense": 146
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.5,
@@ -9947,7 +9947,7 @@
         "baseDefense": 82
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["FLAAFFY"],
       "evolutionPips": 1,
@@ -9989,7 +9989,7 @@
         "baseDefense": 112
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["AMPHAROS"],
       "evolutionPips": 1,
@@ -10032,7 +10032,7 @@
         "baseDefense": 172
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.4,
@@ -10074,7 +10074,7 @@
         "baseDefense": 189
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.41,
@@ -10117,7 +10117,7 @@
         "baseDefense": 93
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["AZUMARILL"],
       "evolutionPips": 1,
@@ -10160,7 +10160,7 @@
         "baseDefense": 152
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.79,
@@ -10202,7 +10202,7 @@
         "baseDefense": 198
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.19,
@@ -10243,7 +10243,7 @@
         "baseDefense": 192
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 10.9,
@@ -10286,7 +10286,7 @@
         "baseDefense": 101
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["SKIPLOOM"],
       "evolutionPips": 1,
@@ -10330,7 +10330,7 @@
         "baseDefense": 127
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["JUMPLUFF"],
       "evolutionPips": 1,
@@ -10374,7 +10374,7 @@
         "baseDefense": 197
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.79,
@@ -10415,7 +10415,7 @@
         "baseDefense": 112
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.79,
@@ -10456,7 +10456,7 @@
         "baseDefense": 55
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["SUNFLORA"],
       "evolutionPips": 1,
@@ -10499,7 +10499,7 @@
         "baseDefense": 148
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.79,
@@ -10541,7 +10541,7 @@
         "baseDefense": 94
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.19,
@@ -10583,7 +10583,7 @@
         "baseDefense": 75
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["QUAGSIRE"],
       "evolutionPips": 1,
@@ -10627,7 +10627,7 @@
         "baseDefense": 152
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.4,
@@ -10668,7 +10668,7 @@
         "baseDefense": 194
       },
       "quickMoves": ["CONFUSION_FAST", "ZEN_HEADBUTT_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.89,
@@ -10710,7 +10710,7 @@
         "baseDefense": 250
       },
       "quickMoves": ["FEINT_ATTACK_FAST", "BITE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.99,
@@ -10753,7 +10753,7 @@
         "baseDefense": 87
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.51,
@@ -10795,7 +10795,7 @@
         "baseDefense": 194
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 2.01,
@@ -10854,7 +10854,7 @@
         "baseDefense": 167
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.71,
@@ -10912,7 +10912,7 @@
         "baseDefense": 91
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.51,
@@ -10970,7 +10970,7 @@
         "baseDefense": 106
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.3,
@@ -11029,7 +11029,7 @@
         "baseDefense": 133
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.5,
@@ -11087,7 +11087,7 @@
         "baseDefense": 146
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["FORRETRESS"],
       "evolutionPips": 1,
@@ -11147,7 +11147,7 @@
         "baseDefense": 242
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.19,
@@ -11206,7 +11206,7 @@
         "baseDefense": 131
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.5,
@@ -11265,7 +11265,7 @@
         "baseDefense": 204
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.09,
@@ -11324,7 +11324,7 @@
         "baseDefense": 333
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 9.19,
@@ -11383,7 +11383,7 @@
         "baseDefense": 89
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["GRANBULL"],
       "evolutionPips": 1,
@@ -11442,7 +11442,7 @@
         "baseDefense": 137
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.4,
@@ -11502,7 +11502,7 @@
         "baseDefense": 148
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.51,
@@ -11561,7 +11561,7 @@
         "baseDefense": 191
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 2.01,
@@ -11621,7 +11621,7 @@
         "baseDefense": 396
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.61,
@@ -11680,7 +11680,7 @@
         "baseDefense": 189
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.5,
@@ -11739,7 +11739,7 @@
         "baseDefense": 157
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.89,
@@ -11797,7 +11797,7 @@
         "baseDefense": 93
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["URSARING"],
       "evolutionPips": 1,
@@ -11856,7 +11856,7 @@
         "baseDefense": 144
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.8,
@@ -11915,7 +11915,7 @@
         "baseDefense": 71
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["MAGCARGO"],
       "evolutionPips": 1,
@@ -11975,7 +11975,7 @@
         "baseDefense": 209
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.79,
@@ -12035,7 +12035,7 @@
         "baseDefense": 74
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["PILOSWINE"],
       "evolutionPips": 1,
@@ -12095,7 +12095,7 @@
         "baseDefense": 147
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.09,
@@ -12155,7 +12155,7 @@
         "baseDefense": 156
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.61,
@@ -12213,7 +12213,7 @@
         "baseDefense": 69
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["OCTILLERY"],
       "evolutionPips": 1,
@@ -12272,7 +12272,7 @@
         "baseDefense": 141
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.89,
@@ -12332,7 +12332,7 @@
         "baseDefense": 90
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.89,
@@ -12391,7 +12391,7 @@
         "baseDefense": 260
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 2.11,
@@ -12450,7 +12450,7 @@
         "baseDefense": 260
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.7,
@@ -12509,7 +12509,7 @@
         "baseDefense": 93
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["HOUNDOOM"],
       "evolutionPips": 1,
@@ -12569,7 +12569,7 @@
         "baseDefense": 159
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.4,
@@ -12629,7 +12629,7 @@
         "baseDefense": 194
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.8,
@@ -12686,7 +12686,7 @@
         "baseDefense": 107
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["DONPHAN"],
       "evolutionPips": 1,
@@ -12745,7 +12745,7 @@
         "baseDefense": 214
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.09,
@@ -12804,7 +12804,7 @@
         "baseDefense": 183
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.61,
@@ -12863,7 +12863,7 @@
         "baseDefense": 132
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.4,
@@ -12921,7 +12921,7 @@
         "baseDefense": 88
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.19,
@@ -13037,7 +13037,7 @@
         "baseDefense": 214
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.4,
@@ -13277,7 +13277,7 @@
         "baseDefense": 211
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.19,
@@ -13333,7 +13333,7 @@
         "baseDefense": 229
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 1.5,
@@ -13375,7 +13375,7 @@
         "baseDefense": 210
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "rarity": "POKEMON_RARITY_LEGENDARY",
@@ -13417,7 +13417,7 @@
         "baseDefense": 176
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "rarity": "POKEMON_RARITY_LEGENDARY",
@@ -13459,7 +13459,7 @@
         "baseDefense": 235
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "rarity": "POKEMON_RARITY_LEGENDARY",
@@ -13502,7 +13502,7 @@
         "baseDefense": 93
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["PUPITAR"],
       "evolutionPips": 1,
@@ -13545,7 +13545,7 @@
         "baseDefense": 133
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["TYRANITAR"],
       "evolutionPips": 1,
@@ -13589,7 +13589,7 @@
         "baseDefense": 212
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 2.01,
@@ -13632,7 +13632,7 @@
         "baseDefense": 323
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "rarity": "POKEMON_RARITY_LEGENDARY",
@@ -13675,7 +13675,7 @@
         "baseDefense": 301
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "rarity": "POKEMON_RARITY_LEGENDARY",
@@ -13718,7 +13718,7 @@
         "baseDefense": 210
       },
       "quickMoves": ["TACKLE_FAST"],
-      "cinematicMoves": ["STRUGGLE"],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "rarity": "POKEMON_RARITY_MYTHIC",

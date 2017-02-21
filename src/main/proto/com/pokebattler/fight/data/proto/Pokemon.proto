@@ -35,4 +35,12 @@ message Pokemon {
 	float km_distance_to_hatch = 20;
 	PokemonFamilyId family_id = 21;
 	int32 candy_to_evolve = 22;
+
+	repeated PokemonMoveset movesets = 100;
+}
+
+message PokemonMoveset {
+	PokemonMove quick_move = 1;
+	PokemonMove cinematic_move = 2;
+	string legacy_date = 3;
 }

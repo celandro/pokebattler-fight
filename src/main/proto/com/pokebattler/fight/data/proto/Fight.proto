@@ -36,6 +36,7 @@ message FightResult {
 	double power = 6;
 	double powerLog = 7;
 	int32 prestige = 8;
+	int32 effective_combat_time = 9;
 }
 
 message CombatantResult {

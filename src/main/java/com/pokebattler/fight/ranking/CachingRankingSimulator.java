@@ -25,6 +25,7 @@ public class CachingRankingSimulator {
     @Resource
     FilterRegistry filterRegistry;
     
+    // big options cache
     LoadingCache<RankingParams, RankingResult> rankCache = CacheBuilder.newBuilder()
             .maximumSize(100)
             .build(new CacheLoader <RankingParams, RankingResult>() {
@@ -32,15 +33,28 @@ public class CachingRankingSimulator {
                     return rankingSimulator.rank(key);
                   }
                 });    
+    // small objects cache
+    LoadingCache<RankingParams, RankingResult> filteredRankCache = CacheBuilder.newBuilder()
+            .maximumSize(1000)
+            .build(new CacheLoader <RankingParams, RankingResult>() {
+                  public RankingResult load(RankingParams key) {
+                    return rankingSimulator.rank(key);
+                  }
+                });    
+    
     public RankingResult rankAttacker(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, SortType sortType,
             FilterType filterType, String filterValue) {
         RankingsFilter filter = filterRegistry.getFilter(filterType, filterValue);
-        return rankCache.getUnchecked(new RankingParams(attackerLevel,defenderLevel, attackStrategy,defenseStrategy, sortRegistry.getAttackerSort(sortType), filter));
-    }    
+        return  getCache(filterType).getUnchecked(new RankingParams(attackerLevel,defenderLevel, attackStrategy,defenseStrategy, sortRegistry.getAttackerSort(sortType), filter));
+    }
+	private LoadingCache<RankingParams, RankingResult> getCache(FilterType filterType) {
+		LoadingCache<RankingParams, RankingResult> cache = filterType == FilterType.NO_FILTER? rankCache: filteredRankCache;
+		return cache;
+	}    
     public RankingResult rankDefender(String attackerLevel, String defenderLevel, AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, SortType sortType,
             FilterType filterType, String filterValue) {
         RankingsFilter filter = filterRegistry.getFilter(filterType, filterValue);
-        return rankCache.getUnchecked(new RankingParams(defenderLevel,attackerLevel, defenseStrategy,attackStrategy, sortRegistry.getDefenderSort(sortType), filter));
+        return  getCache(filterType).getUnchecked(new RankingParams(defenderLevel,attackerLevel, defenseStrategy,attackStrategy, sortRegistry.getDefenderSort(sortType), filter));
     }
 
 }

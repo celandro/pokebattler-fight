@@ -8,7 +8,7 @@ import org.junit.Test;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.CpMRepository;
 import com.pokebattler.fight.data.PokemonDataCreator;
-import com.pokebattler.fight.data.PokemonRepository;
+import com.pokebattler.fight.data.IndividualPokemonRepository;
 import com.pokebattler.fight.data.ResistRepository;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
@@ -26,7 +26,7 @@ public class PokemonDataCreatorTest {
     public static void setUp() throws Exception {
         cpmRepository = new CpMRepository();
         formulas = new Formulas(cpmRepository, new ResistRepository());
-        pokemonRepo = new PokemonRepository();
+        pokemonRepo = new IndividualPokemonRepository();
         creator = new PokemonDataCreator(cpmRepository, pokemonRepo, formulas);
         
     }

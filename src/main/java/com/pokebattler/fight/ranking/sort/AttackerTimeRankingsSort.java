@@ -15,12 +15,12 @@ public class AttackerTimeRankingsSort implements RankingsSort{
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
         // smallest combat time followed by biggest power
         // losses take max time so they arent considered good
-        return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> total.getCombatTime() + total.getNumLosses() * Formulas.MAX_COMBAT_TIME_MS)
+        return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> total.getEffectiveCombatTime())
                .thenComparing(Comparator.comparingDouble(total -> -total.getPower())); 
     }
     @Override
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
-        return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> result.getResultOrBuilder().getTotalCombatTime() + (result.getResultOrBuilder().getWin()?0:Formulas.MAX_COMBAT_TIME_MS))
+        return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> result.getResultOrBuilder().getEffectiveCombatTime())
                 .thenComparing(Comparator.comparingDouble(result -> -result.getResultOrBuilder().getPower())); 
     }
     
