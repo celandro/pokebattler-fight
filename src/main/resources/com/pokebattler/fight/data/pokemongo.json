@@ -1360,7 +1360,8 @@
       "sortOrder": 57,
       "unlockType": "IAP_CLOTHING",
       "iapSku": "pgorelease.avatar.f_shirt_sweater_30_0",
-      "iconName": "f_shirt_sweater_30_bundle_icon"
+      "iconName": "f_shirt_sweater_30_bundle_icon",
+      "unlockPlayerLevel": 30
     }
   }, {
     "templateId": "AVATAR_f_shirt_sweater_30_1",
@@ -1374,7 +1375,8 @@
       "sortOrder": 58,
       "unlockType": "IAP_CLOTHING",
       "iapSku": "pgorelease.avatar.f_shirt_sweater_30_1",
-      "iconName": "f_shirt_sweater_30_bundle_icon"
+      "iconName": "f_shirt_sweater_30_bundle_icon",
+      "unlockPlayerLevel": 30
     }
   }, {
     "templateId": "AVATAR_f_shirt_sweater_30_2",
@@ -1388,7 +1390,8 @@
       "sortOrder": 59,
       "unlockType": "IAP_CLOTHING",
       "iapSku": "pgorelease.avatar.f_shirt_sweater_30_2",
-      "iconName": "f_shirt_sweater_30_bundle_icon"
+      "iconName": "f_shirt_sweater_30_bundle_icon",
+      "unlockPlayerLevel": 30
     }
   }, {
     "templateId": "AVATAR_f_shirt_sweater_instinct",
@@ -2930,7 +2933,8 @@
       "sortOrder": 1182,
       "unlockType": "IAP_CLOTHING",
       "iapSku": "pgorelease.avatar.m_shirt_turtleneck_30_0",
-      "iconName": "m_shirt_turtleneck_30_bundle_icon"
+      "iconName": "m_shirt_turtleneck_30_bundle_icon",
+      "unlockPlayerLevel": 30
     }
   }, {
     "templateId": "AVATAR_m_shirt_turtleneck_30_1",
@@ -2943,7 +2947,8 @@
       "sortOrder": 1183,
       "unlockType": "IAP_CLOTHING",
       "iapSku": "pgorelease.avatar.m_shirt_turtleneck_30_1",
-      "iconName": "m_shirt_turtleneck_30_bundle_icon"
+      "iconName": "m_shirt_turtleneck_30_bundle_icon",
+      "unlockPlayerLevel": 30
     }
   }, {
     "templateId": "AVATAR_m_shirt_turtleneck_30_2",
@@ -2956,7 +2961,8 @@
       "sortOrder": 1181,
       "unlockType": "IAP_CLOTHING",
       "iapSku": "pgorelease.avatar.m_shirt_turtleneck_30_2",
-      "iconName": "m_shirt_turtleneck_30_bundle_icon"
+      "iconName": "m_shirt_turtleneck_30_bundle_icon",
+      "unlockPlayerLevel": 30
     }
   }, {
     "templateId": "AVATAR_m_shirt_turtleneck_30_3",
@@ -2969,7 +2975,8 @@
       "sortOrder": 1184,
       "unlockType": "IAP_CLOTHING",
       "iapSku": "pgorelease.avatar.m_shirt_turtleneck_30_3",
-      "iconName": "m_shirt_turtleneck_30_bundle_icon"
+      "iconName": "m_shirt_turtleneck_30_bundle_icon",
+      "unlockPlayerLevel": 30
     }
   }, {
     "templateId": "AVATAR_m_shoes_default_0",
@@ -3186,7 +3193,7 @@
   }, {
     "templateId": "BADGE_POKEDEX_ENTRIES_GEN2",
     "badgeSettings": {
-      "badgeType": 39,
+      "badgeType": "BADGE_POKEDEX_ENTRIES_GEN2",
       "badgeRank": 4,
       "targets": [5, 30, 70]
     }
@@ -4453,10 +4460,10 @@
         "form": "UNOWN_Z",
         "assetBundleValue": 36
       }, {
-        "form": "UNOWN_QUESTION_MARK",
+        "form": "UNOWN_EXCLAMATION_POINT",
         "assetBundleValue": 37
       }, {
-        "form": "UNOWN_EXCLAMATION_POINT",
+        "form": "UNOWN_QUESTION_MARK",
         "assetBundleValue": 38
       }]
     }
@@ -5190,507 +5197,2226 @@
       }
     }
   }, {
-    "templateId": "SPAWN_V0001_POKEMON_BULBASAUR"
-  }, {
-    "templateId": "SPAWN_V0002_POKEMON_IVYSAUR"
-  }, {
-    "templateId": "SPAWN_V0003_POKEMON_VENUSAUR"
-  }, {
-    "templateId": "SPAWN_V0004_POKEMON_CHARMANDER"
-  }, {
-    "templateId": "SPAWN_V0005_POKEMON_CHARMELEON"
-  }, {
-    "templateId": "SPAWN_V0006_POKEMON_CHARIZARD"
-  }, {
-    "templateId": "SPAWN_V0007_POKEMON_SQUIRTLE"
-  }, {
-    "templateId": "SPAWN_V0008_POKEMON_WARTORTLE"
-  }, {
-    "templateId": "SPAWN_V0009_POKEMON_BLASTOISE"
-  }, {
-    "templateId": "SPAWN_V0010_POKEMON_CATERPIE"
-  }, {
-    "templateId": "SPAWN_V0011_POKEMON_METAPOD"
-  }, {
-    "templateId": "SPAWN_V0012_POKEMON_BUTTERFREE"
-  }, {
-    "templateId": "SPAWN_V0013_POKEMON_WEEDLE"
-  }, {
-    "templateId": "SPAWN_V0014_POKEMON_KAKUNA"
-  }, {
-    "templateId": "SPAWN_V0015_POKEMON_BEEDRILL"
-  }, {
-    "templateId": "SPAWN_V0016_POKEMON_PIDGEY"
-  }, {
-    "templateId": "SPAWN_V0017_POKEMON_PIDGEOTTO"
-  }, {
-    "templateId": "SPAWN_V0018_POKEMON_PIDGEOT"
-  }, {
-    "templateId": "SPAWN_V0019_POKEMON_RATTATA"
-  }, {
-    "templateId": "SPAWN_V0020_POKEMON_RATICATE"
-  }, {
-    "templateId": "SPAWN_V0021_POKEMON_SPEAROW"
-  }, {
-    "templateId": "SPAWN_V0022_POKEMON_FEAROW"
-  }, {
-    "templateId": "SPAWN_V0023_POKEMON_EKANS"
-  }, {
-    "templateId": "SPAWN_V0024_POKEMON_ARBOK"
-  }, {
-    "templateId": "SPAWN_V0025_POKEMON_PIKACHU"
-  }, {
-    "templateId": "SPAWN_V0026_POKEMON_RAICHU"
-  }, {
-    "templateId": "SPAWN_V0027_POKEMON_SANDSHREW"
-  }, {
-    "templateId": "SPAWN_V0028_POKEMON_SANDSLASH"
-  }, {
-    "templateId": "SPAWN_V0029_POKEMON_NIDORAN"
-  }, {
-    "templateId": "SPAWN_V0030_POKEMON_NIDORINA"
-  }, {
-    "templateId": "SPAWN_V0031_POKEMON_NIDOQUEEN"
-  }, {
-    "templateId": "SPAWN_V0032_POKEMON_NIDORAN"
-  }, {
-    "templateId": "SPAWN_V0033_POKEMON_NIDORINO"
-  }, {
-    "templateId": "SPAWN_V0034_POKEMON_NIDOKING"
-  }, {
-    "templateId": "SPAWN_V0035_POKEMON_CLEFAIRY"
-  }, {
-    "templateId": "SPAWN_V0036_POKEMON_CLEFABLE"
-  }, {
-    "templateId": "SPAWN_V0037_POKEMON_VULPIX"
-  }, {
-    "templateId": "SPAWN_V0038_POKEMON_NINETALES"
-  }, {
-    "templateId": "SPAWN_V0039_POKEMON_JIGGLYPUFF"
-  }, {
-    "templateId": "SPAWN_V0040_POKEMON_WIGGLYTUFF"
-  }, {
-    "templateId": "SPAWN_V0041_POKEMON_ZUBAT"
-  }, {
-    "templateId": "SPAWN_V0042_POKEMON_GOLBAT"
-  }, {
-    "templateId": "SPAWN_V0043_POKEMON_ODDISH"
-  }, {
-    "templateId": "SPAWN_V0044_POKEMON_GLOOM"
-  }, {
-    "templateId": "SPAWN_V0045_POKEMON_VILEPLUME"
-  }, {
-    "templateId": "SPAWN_V0046_POKEMON_PARAS"
-  }, {
-    "templateId": "SPAWN_V0047_POKEMON_PARASECT"
-  }, {
-    "templateId": "SPAWN_V0048_POKEMON_VENONAT"
-  }, {
-    "templateId": "SPAWN_V0049_POKEMON_VENOMOTH"
-  }, {
-    "templateId": "SPAWN_V0050_POKEMON_DIGLETT"
-  }, {
-    "templateId": "SPAWN_V0051_POKEMON_DUGTRIO"
-  }, {
-    "templateId": "SPAWN_V0052_POKEMON_MEOWTH"
-  }, {
-    "templateId": "SPAWN_V0053_POKEMON_PERSIAN"
-  }, {
-    "templateId": "SPAWN_V0054_POKEMON_PSYDUCK"
-  }, {
-    "templateId": "SPAWN_V0055_POKEMON_GOLDUCK"
-  }, {
-    "templateId": "SPAWN_V0056_POKEMON_MANKEY"
-  }, {
-    "templateId": "SPAWN_V0057_POKEMON_PRIMEAPE"
-  }, {
-    "templateId": "SPAWN_V0058_POKEMON_GROWLITHE"
-  }, {
-    "templateId": "SPAWN_V0059_POKEMON_ARCANINE"
-  }, {
-    "templateId": "SPAWN_V0060_POKEMON_POLIWAG"
-  }, {
-    "templateId": "SPAWN_V0061_POKEMON_POLIWHIRL"
-  }, {
-    "templateId": "SPAWN_V0062_POKEMON_POLIWRATH"
-  }, {
-    "templateId": "SPAWN_V0063_POKEMON_ABRA"
-  }, {
-    "templateId": "SPAWN_V0064_POKEMON_KADABRA"
-  }, {
-    "templateId": "SPAWN_V0065_POKEMON_ALAKAZAM"
-  }, {
-    "templateId": "SPAWN_V0066_POKEMON_MACHOP"
-  }, {
-    "templateId": "SPAWN_V0067_POKEMON_MACHOKE"
-  }, {
-    "templateId": "SPAWN_V0068_POKEMON_MACHAMP"
-  }, {
-    "templateId": "SPAWN_V0069_POKEMON_BELLSPROUT"
-  }, {
-    "templateId": "SPAWN_V0070_POKEMON_WEEPINBELL"
-  }, {
-    "templateId": "SPAWN_V0071_POKEMON_VICTREEBEL"
-  }, {
-    "templateId": "SPAWN_V0072_POKEMON_TENTACOOL"
-  }, {
-    "templateId": "SPAWN_V0073_POKEMON_TENTACRUEL"
-  }, {
-    "templateId": "SPAWN_V0074_POKEMON_GEODUDE"
-  }, {
-    "templateId": "SPAWN_V0075_POKEMON_GRAVELER"
-  }, {
-    "templateId": "SPAWN_V0076_POKEMON_GOLEM"
-  }, {
-    "templateId": "SPAWN_V0077_POKEMON_PONYTA"
-  }, {
-    "templateId": "SPAWN_V0078_POKEMON_RAPIDASH"
-  }, {
-    "templateId": "SPAWN_V0079_POKEMON_SLOWPOKE"
-  }, {
-    "templateId": "SPAWN_V0080_POKEMON_SLOWBRO"
-  }, {
-    "templateId": "SPAWN_V0081_POKEMON_MAGNEMITE"
-  }, {
-    "templateId": "SPAWN_V0082_POKEMON_MAGNETON"
-  }, {
-    "templateId": "SPAWN_V0083_POKEMON_FARFETCHD"
-  }, {
-    "templateId": "SPAWN_V0084_POKEMON_DODUO"
-  }, {
-    "templateId": "SPAWN_V0085_POKEMON_DODRIO"
-  }, {
-    "templateId": "SPAWN_V0086_POKEMON_SEEL"
-  }, {
-    "templateId": "SPAWN_V0087_POKEMON_DEWGONG"
-  }, {
-    "templateId": "SPAWN_V0088_POKEMON_GRIMER"
-  }, {
-    "templateId": "SPAWN_V0089_POKEMON_MUK"
-  }, {
-    "templateId": "SPAWN_V0090_POKEMON_SHELLDER"
-  }, {
-    "templateId": "SPAWN_V0091_POKEMON_CLOYSTER"
-  }, {
-    "templateId": "SPAWN_V0092_POKEMON_GASTLY"
-  }, {
-    "templateId": "SPAWN_V0093_POKEMON_HAUNTER"
-  }, {
-    "templateId": "SPAWN_V0094_POKEMON_GENGAR"
-  }, {
-    "templateId": "SPAWN_V0095_POKEMON_ONIX"
-  }, {
-    "templateId": "SPAWN_V0096_POKEMON_DROWZEE"
-  }, {
-    "templateId": "SPAWN_V0097_POKEMON_HYPNO"
-  }, {
-    "templateId": "SPAWN_V0098_POKEMON_KRABBY"
-  }, {
-    "templateId": "SPAWN_V0099_POKEMON_KINGLER"
-  }, {
-    "templateId": "SPAWN_V0100_POKEMON_VOLTORB"
-  }, {
-    "templateId": "SPAWN_V0101_POKEMON_ELECTRODE"
-  }, {
-    "templateId": "SPAWN_V0102_POKEMON_EXEGGCUTE"
-  }, {
-    "templateId": "SPAWN_V0103_POKEMON_EXEGGUTOR"
-  }, {
-    "templateId": "SPAWN_V0104_POKEMON_CUBONE"
-  }, {
-    "templateId": "SPAWN_V0105_POKEMON_MAROWAK"
-  }, {
-    "templateId": "SPAWN_V0106_POKEMON_HITMONLEE"
-  }, {
-    "templateId": "SPAWN_V0107_POKEMON_HITMONCHAN"
-  }, {
-    "templateId": "SPAWN_V0108_POKEMON_LICKITUNG"
-  }, {
-    "templateId": "SPAWN_V0109_POKEMON_KOFFING"
-  }, {
-    "templateId": "SPAWN_V0110_POKEMON_WEEZING"
-  }, {
-    "templateId": "SPAWN_V0111_POKEMON_RHYHORN"
-  }, {
-    "templateId": "SPAWN_V0112_POKEMON_RHYDON"
-  }, {
-    "templateId": "SPAWN_V0113_POKEMON_CHANSEY"
-  }, {
-    "templateId": "SPAWN_V0114_POKEMON_TANGELA"
-  }, {
-    "templateId": "SPAWN_V0115_POKEMON_KANGASKHAN"
-  }, {
-    "templateId": "SPAWN_V0116_POKEMON_HORSEA"
-  }, {
-    "templateId": "SPAWN_V0117_POKEMON_SEADRA"
-  }, {
-    "templateId": "SPAWN_V0118_POKEMON_GOLDEEN"
-  }, {
-    "templateId": "SPAWN_V0119_POKEMON_SEAKING"
-  }, {
-    "templateId": "SPAWN_V0120_POKEMON_STARYU"
-  }, {
-    "templateId": "SPAWN_V0121_POKEMON_STARMIE"
-  }, {
-    "templateId": "SPAWN_V0122_POKEMON_MR_MIME"
-  }, {
-    "templateId": "SPAWN_V0123_POKEMON_SCYTHER"
-  }, {
-    "templateId": "SPAWN_V0124_POKEMON_JYNX"
-  }, {
-    "templateId": "SPAWN_V0125_POKEMON_ELECTABUZZ"
-  }, {
-    "templateId": "SPAWN_V0126_POKEMON_MAGMAR"
-  }, {
-    "templateId": "SPAWN_V0127_POKEMON_PINSIR"
-  }, {
-    "templateId": "SPAWN_V0128_POKEMON_TAUROS"
-  }, {
-    "templateId": "SPAWN_V0129_POKEMON_MAGIKARP"
-  }, {
-    "templateId": "SPAWN_V0130_POKEMON_GYARADOS"
-  }, {
-    "templateId": "SPAWN_V0131_POKEMON_LAPRAS"
-  }, {
-    "templateId": "SPAWN_V0132_POKEMON_DITTO"
-  }, {
-    "templateId": "SPAWN_V0133_POKEMON_EEVEE"
-  }, {
-    "templateId": "SPAWN_V0134_POKEMON_VAPOREON"
-  }, {
-    "templateId": "SPAWN_V0135_POKEMON_JOLTEON"
-  }, {
-    "templateId": "SPAWN_V0136_POKEMON_FLAREON"
-  }, {
-    "templateId": "SPAWN_V0137_POKEMON_PORYGON"
-  }, {
-    "templateId": "SPAWN_V0138_POKEMON_OMANYTE"
-  }, {
-    "templateId": "SPAWN_V0139_POKEMON_OMASTAR"
-  }, {
-    "templateId": "SPAWN_V0140_POKEMON_KABUTO"
-  }, {
-    "templateId": "SPAWN_V0141_POKEMON_KABUTOPS"
-  }, {
-    "templateId": "SPAWN_V0142_POKEMON_AERODACTYL"
-  }, {
-    "templateId": "SPAWN_V0143_POKEMON_SNORLAX"
-  }, {
-    "templateId": "SPAWN_V0144_POKEMON_ARTICUNO"
-  }, {
-    "templateId": "SPAWN_V0145_POKEMON_ZAPDOS"
-  }, {
-    "templateId": "SPAWN_V0146_POKEMON_MOLTRES"
-  }, {
-    "templateId": "SPAWN_V0147_POKEMON_DRATINI"
-  }, {
-    "templateId": "SPAWN_V0148_POKEMON_DRAGONAIR"
-  }, {
-    "templateId": "SPAWN_V0149_POKEMON_DRAGONITE"
-  }, {
-    "templateId": "SPAWN_V0150_POKEMON_MEWTWO"
-  }, {
-    "templateId": "SPAWN_V0151_POKEMON_MEW"
-  }, {
-    "templateId": "SPAWN_V0152_POKEMON_CHIKORITA"
-  }, {
-    "templateId": "SPAWN_V0153_POKEMON_BAYLEEF"
-  }, {
-    "templateId": "SPAWN_V0154_POKEMON_MEGANIUM"
-  }, {
-    "templateId": "SPAWN_V0155_POKEMON_CYNDAQUIL"
-  }, {
-    "templateId": "SPAWN_V0156_POKEMON_QUILAVA"
-  }, {
-    "templateId": "SPAWN_V0157_POKEMON_TYPHLOSION"
-  }, {
-    "templateId": "SPAWN_V0158_POKEMON_TOTODILE"
-  }, {
-    "templateId": "SPAWN_V0159_POKEMON_CROCONAW"
-  }, {
-    "templateId": "SPAWN_V0160_POKEMON_FERALIGATR"
-  }, {
-    "templateId": "SPAWN_V0161_POKEMON_SENTRET"
-  }, {
-    "templateId": "SPAWN_V0162_POKEMON_FURRET"
-  }, {
-    "templateId": "SPAWN_V0163_POKEMON_HOOTHOOT"
-  }, {
-    "templateId": "SPAWN_V0164_POKEMON_NOCTOWL"
-  }, {
-    "templateId": "SPAWN_V0165_POKEMON_LEDYBA"
-  }, {
-    "templateId": "SPAWN_V0166_POKEMON_LEDIAN"
-  }, {
-    "templateId": "SPAWN_V0167_POKEMON_SPINARAK"
-  }, {
-    "templateId": "SPAWN_V0168_POKEMON_ARIADOS"
-  }, {
-    "templateId": "SPAWN_V0169_POKEMON_CROBAT"
-  }, {
-    "templateId": "SPAWN_V0170_POKEMON_CHINCHOU"
-  }, {
-    "templateId": "SPAWN_V0171_POKEMON_LANTURN"
-  }, {
-    "templateId": "SPAWN_V0172_POKEMON_PICHU"
-  }, {
-    "templateId": "SPAWN_V0173_POKEMON_CLEFFA"
-  }, {
-    "templateId": "SPAWN_V0174_POKEMON_IGGLYBUFF"
-  }, {
-    "templateId": "SPAWN_V0175_POKEMON_TOGEPI"
-  }, {
-    "templateId": "SPAWN_V0176_POKEMON_TOGETIC"
-  }, {
-    "templateId": "SPAWN_V0177_POKEMON_NATU"
-  }, {
-    "templateId": "SPAWN_V0178_POKEMON_XATU"
-  }, {
-    "templateId": "SPAWN_V0179_POKEMON_MAREEP"
-  }, {
-    "templateId": "SPAWN_V0180_POKEMON_FLAAFFY"
-  }, {
-    "templateId": "SPAWN_V0181_POKEMON_AMPHAROS"
-  }, {
-    "templateId": "SPAWN_V0182_POKEMON_BELLOSSOM"
-  }, {
-    "templateId": "SPAWN_V0183_POKEMON_MARILL"
-  }, {
-    "templateId": "SPAWN_V0184_POKEMON_AZUMARILL"
-  }, {
-    "templateId": "SPAWN_V0185_POKEMON_SUDOWOODO"
-  }, {
-    "templateId": "SPAWN_V0186_POKEMON_POLITOED"
-  }, {
-    "templateId": "SPAWN_V0187_POKEMON_HOPPIP"
-  }, {
-    "templateId": "SPAWN_V0188_POKEMON_SKIPLOOM"
-  }, {
-    "templateId": "SPAWN_V0189_POKEMON_JUMPLUFF"
-  }, {
-    "templateId": "SPAWN_V0190_POKEMON_AIPOM"
-  }, {
-    "templateId": "SPAWN_V0191_POKEMON_SUNKERN"
-  }, {
-    "templateId": "SPAWN_V0192_POKEMON_SUNFLORA"
-  }, {
-    "templateId": "SPAWN_V0193_POKEMON_YANMA"
-  }, {
-    "templateId": "SPAWN_V0194_POKEMON_WOOPER"
-  }, {
-    "templateId": "SPAWN_V0195_POKEMON_QUAGSIRE"
-  }, {
-    "templateId": "SPAWN_V0196_POKEMON_ESPEON"
-  }, {
-    "templateId": "SPAWN_V0197_POKEMON_UMBREON"
-  }, {
-    "templateId": "SPAWN_V0198_POKEMON_MURKROW"
-  }, {
-    "templateId": "SPAWN_V0199_POKEMON_SLOWKING"
-  }, {
-    "templateId": "SPAWN_V0200_POKEMON_MISDREAVUS"
-  }, {
-    "templateId": "SPAWN_V0201_POKEMON_UNOWN"
-  }, {
-    "templateId": "SPAWN_V0202_POKEMON_WOBBUFFET"
-  }, {
-    "templateId": "SPAWN_V0203_POKEMON_GIRAFARIG"
-  }, {
-    "templateId": "SPAWN_V0204_POKEMON_PINECO"
-  }, {
-    "templateId": "SPAWN_V0205_POKEMON_FORRETRESS"
-  }, {
-    "templateId": "SPAWN_V0206_POKEMON_DUNSPARCE"
-  }, {
-    "templateId": "SPAWN_V0207_POKEMON_GLIGAR"
-  }, {
-    "templateId": "SPAWN_V0208_POKEMON_STEELIX"
-  }, {
-    "templateId": "SPAWN_V0209_POKEMON_SNUBBULL"
-  }, {
-    "templateId": "SPAWN_V0210_POKEMON_GRANBULL"
-  }, {
-    "templateId": "SPAWN_V0211_POKEMON_QWILFISH"
-  }, {
-    "templateId": "SPAWN_V0212_POKEMON_SCIZOR"
-  }, {
-    "templateId": "SPAWN_V0213_POKEMON_SHUCKLE"
-  }, {
-    "templateId": "SPAWN_V0214_POKEMON_HERACROSS"
-  }, {
-    "templateId": "SPAWN_V0215_POKEMON_SNEASEL"
-  }, {
-    "templateId": "SPAWN_V0216_POKEMON_TEDDIURSA"
-  }, {
-    "templateId": "SPAWN_V0217_POKEMON_URSARING"
-  }, {
-    "templateId": "SPAWN_V0218_POKEMON_SLUGMA"
-  }, {
-    "templateId": "SPAWN_V0219_POKEMON_MAGCARGO"
-  }, {
-    "templateId": "SPAWN_V0220_POKEMON_SWINUB"
-  }, {
-    "templateId": "SPAWN_V0221_POKEMON_PILOSWINE"
-  }, {
-    "templateId": "SPAWN_V0222_POKEMON_CORSOLA"
-  }, {
-    "templateId": "SPAWN_V0223_POKEMON_REMORAID"
-  }, {
-    "templateId": "SPAWN_V0224_POKEMON_OCTILLERY"
-  }, {
-    "templateId": "SPAWN_V0225_POKEMON_DELIBIRD"
-  }, {
-    "templateId": "SPAWN_V0226_POKEMON_MANTINE"
-  }, {
-    "templateId": "SPAWN_V0227_POKEMON_SKARMORY"
-  }, {
-    "templateId": "SPAWN_V0228_POKEMON_HOUNDOUR"
-  }, {
-    "templateId": "SPAWN_V0229_POKEMON_HOUNDOOM"
-  }, {
-    "templateId": "SPAWN_V0230_POKEMON_KINGDRA"
-  }, {
-    "templateId": "SPAWN_V0231_POKEMON_PHANPY"
-  }, {
-    "templateId": "SPAWN_V0232_POKEMON_DONPHAN"
-  }, {
-    "templateId": "SPAWN_V0233_POKEMON_PORYGON2"
-  }, {
-    "templateId": "SPAWN_V0234_POKEMON_STANTLER"
-  }, {
-    "templateId": "SPAWN_V0235_POKEMON_SMEARGLE"
-  }, {
-    "templateId": "SPAWN_V0236_POKEMON_TYROGUE"
-  }, {
-    "templateId": "SPAWN_V0237_POKEMON_HITMONTOP"
-  }, {
-    "templateId": "SPAWN_V0238_POKEMON_SMOOCHUM"
-  }, {
-    "templateId": "SPAWN_V0239_POKEMON_ELEKID"
-  }, {
-    "templateId": "SPAWN_V0240_POKEMON_MAGBY"
-  }, {
-    "templateId": "SPAWN_V0241_POKEMON_MILTANK"
-  }, {
-    "templateId": "SPAWN_V0242_POKEMON_BLISSEY"
-  }, {
-    "templateId": "SPAWN_V0243_POKEMON_RAIKOU"
-  }, {
-    "templateId": "SPAWN_V0244_POKEMON_ENTEI"
-  }, {
-    "templateId": "SPAWN_V0245_POKEMON_SUICUNE"
-  }, {
-    "templateId": "SPAWN_V0246_POKEMON_LARVITAR"
-  }, {
-    "templateId": "SPAWN_V0247_POKEMON_PUPITAR"
-  }, {
-    "templateId": "SPAWN_V0248_POKEMON_TYRANITAR"
-  }, {
-    "templateId": "SPAWN_V0249_POKEMON_LUGIA"
-  }, {
-    "templateId": "SPAWN_V0250_POKEMON_HO_OH"
-  }, {
-    "templateId": "SPAWN_V0251_POKEMON_CELEBI"
+    "templateId": "SPAWN_V0001_POKEMON_BULBASAUR",
+    "genderSettings": {
+      "pokemon": "BULBASAUR",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0002_POKEMON_IVYSAUR",
+    "genderSettings": {
+      "pokemon": "IVYSAUR",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0003_POKEMON_VENUSAUR",
+    "genderSettings": {
+      "pokemon": "VENUSAUR",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0004_POKEMON_CHARMANDER",
+    "genderSettings": {
+      "pokemon": "CHARMANDER",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0005_POKEMON_CHARMELEON",
+    "genderSettings": {
+      "pokemon": "CHARMELEON",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0006_POKEMON_CHARIZARD",
+    "genderSettings": {
+      "pokemon": "CHARIZARD",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0007_POKEMON_SQUIRTLE",
+    "genderSettings": {
+      "pokemon": "SQUIRTLE",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0008_POKEMON_WARTORTLE",
+    "genderSettings": {
+      "pokemon": "WARTORTLE",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0009_POKEMON_BLASTOISE",
+    "genderSettings": {
+      "pokemon": "BLASTOISE",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0010_POKEMON_CATERPIE",
+    "genderSettings": {
+      "pokemon": "CATERPIE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0011_POKEMON_METAPOD",
+    "genderSettings": {
+      "pokemon": "METAPOD",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0012_POKEMON_BUTTERFREE",
+    "genderSettings": {
+      "pokemon": "BUTTERFREE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0013_POKEMON_WEEDLE",
+    "genderSettings": {
+      "pokemon": "WEEDLE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0014_POKEMON_KAKUNA",
+    "genderSettings": {
+      "pokemon": "KAKUNA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0015_POKEMON_BEEDRILL",
+    "genderSettings": {
+      "pokemon": "BEEDRILL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0016_POKEMON_PIDGEY",
+    "genderSettings": {
+      "pokemon": "PIDGEY",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0017_POKEMON_PIDGEOTTO",
+    "genderSettings": {
+      "pokemon": "PIDGEOTTO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0018_POKEMON_PIDGEOT",
+    "genderSettings": {
+      "pokemon": "PIDGEOT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0019_POKEMON_RATTATA",
+    "genderSettings": {
+      "pokemon": "RATTATA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0020_POKEMON_RATICATE",
+    "genderSettings": {
+      "pokemon": "RATICATE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0021_POKEMON_SPEAROW",
+    "genderSettings": {
+      "pokemon": "SPEAROW",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0022_POKEMON_FEAROW",
+    "genderSettings": {
+      "pokemon": "FEAROW",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0023_POKEMON_EKANS",
+    "genderSettings": {
+      "pokemon": "EKANS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0024_POKEMON_ARBOK",
+    "genderSettings": {
+      "pokemon": "ARBOK",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0025_POKEMON_PIKACHU",
+    "genderSettings": {
+      "pokemon": "PIKACHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0026_POKEMON_RAICHU",
+    "genderSettings": {
+      "pokemon": "RAICHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0027_POKEMON_SANDSHREW",
+    "genderSettings": {
+      "pokemon": "SANDSHREW",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0028_POKEMON_SANDSLASH",
+    "genderSettings": {
+      "pokemon": "SANDSLASH",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0029_POKEMON_NIDORAN",
+    "genderSettings": {
+      "pokemon": "NIDORAN_FEMALE",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0030_POKEMON_NIDORINA",
+    "genderSettings": {
+      "pokemon": "NIDORINA",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0031_POKEMON_NIDOQUEEN",
+    "genderSettings": {
+      "pokemon": "NIDOQUEEN",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0032_POKEMON_NIDORAN",
+    "genderSettings": {
+      "pokemon": "NIDORAN_MALE",
+      "gender": {
+        "malePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0033_POKEMON_NIDORINO",
+    "genderSettings": {
+      "pokemon": "NIDORINO",
+      "gender": {
+        "malePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0034_POKEMON_NIDOKING",
+    "genderSettings": {
+      "pokemon": "NIDOKING",
+      "gender": {
+        "malePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0035_POKEMON_CLEFAIRY",
+    "genderSettings": {
+      "pokemon": "CLEFAIRY",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0036_POKEMON_CLEFABLE",
+    "genderSettings": {
+      "pokemon": "CLEFABLE",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0037_POKEMON_VULPIX",
+    "genderSettings": {
+      "pokemon": "VULPIX",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0038_POKEMON_NINETALES",
+    "genderSettings": {
+      "pokemon": "NINETALES",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0039_POKEMON_JIGGLYPUFF",
+    "genderSettings": {
+      "pokemon": "JIGGLYPUFF",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0040_POKEMON_WIGGLYTUFF",
+    "genderSettings": {
+      "pokemon": "WIGGLYTUFF",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0041_POKEMON_ZUBAT",
+    "genderSettings": {
+      "pokemon": "ZUBAT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0042_POKEMON_GOLBAT",
+    "genderSettings": {
+      "pokemon": "GOLBAT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0043_POKEMON_ODDISH",
+    "genderSettings": {
+      "pokemon": "ODDISH",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0044_POKEMON_GLOOM",
+    "genderSettings": {
+      "pokemon": "GLOOM",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0045_POKEMON_VILEPLUME",
+    "genderSettings": {
+      "pokemon": "VILEPLUME",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0046_POKEMON_PARAS",
+    "genderSettings": {
+      "pokemon": "PARAS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0047_POKEMON_PARASECT",
+    "genderSettings": {
+      "pokemon": "PARASECT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0048_POKEMON_VENONAT",
+    "genderSettings": {
+      "pokemon": "VENONAT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0049_POKEMON_VENOMOTH",
+    "genderSettings": {
+      "pokemon": "VENOMOTH",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0050_POKEMON_DIGLETT",
+    "genderSettings": {
+      "pokemon": "DIGLETT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0051_POKEMON_DUGTRIO",
+    "genderSettings": {
+      "pokemon": "DUGTRIO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0052_POKEMON_MEOWTH",
+    "genderSettings": {
+      "pokemon": "MEOWTH",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0053_POKEMON_PERSIAN",
+    "genderSettings": {
+      "pokemon": "PERSIAN",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0054_POKEMON_PSYDUCK",
+    "genderSettings": {
+      "pokemon": "PSYDUCK",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0055_POKEMON_GOLDUCK",
+    "genderSettings": {
+      "pokemon": "GOLDUCK",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0056_POKEMON_MANKEY",
+    "genderSettings": {
+      "pokemon": "MANKEY",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0057_POKEMON_PRIMEAPE",
+    "genderSettings": {
+      "pokemon": "PRIMEAPE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0058_POKEMON_GROWLITHE",
+    "genderSettings": {
+      "pokemon": "GROWLITHE",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0059_POKEMON_ARCANINE",
+    "genderSettings": {
+      "pokemon": "ARCANINE",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0060_POKEMON_POLIWAG",
+    "genderSettings": {
+      "pokemon": "POLIWAG",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0061_POKEMON_POLIWHIRL",
+    "genderSettings": {
+      "pokemon": "POLIWHIRL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0062_POKEMON_POLIWRATH",
+    "genderSettings": {
+      "pokemon": "POLIWRATH",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0063_POKEMON_ABRA",
+    "genderSettings": {
+      "pokemon": "ABRA",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0064_POKEMON_KADABRA",
+    "genderSettings": {
+      "pokemon": "KADABRA",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0065_POKEMON_ALAKAZAM",
+    "genderSettings": {
+      "pokemon": "ALAKAZAM",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0066_POKEMON_MACHOP",
+    "genderSettings": {
+      "pokemon": "MACHOP",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0067_POKEMON_MACHOKE",
+    "genderSettings": {
+      "pokemon": "MACHOKE",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0068_POKEMON_MACHAMP",
+    "genderSettings": {
+      "pokemon": "MACHAMP",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0069_POKEMON_BELLSPROUT",
+    "genderSettings": {
+      "pokemon": "BELLSPROUT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0070_POKEMON_WEEPINBELL",
+    "genderSettings": {
+      "pokemon": "WEEPINBELL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0071_POKEMON_VICTREEBEL",
+    "genderSettings": {
+      "pokemon": "VICTREEBEL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0072_POKEMON_TENTACOOL",
+    "genderSettings": {
+      "pokemon": "TENTACOOL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0073_POKEMON_TENTACRUEL",
+    "genderSettings": {
+      "pokemon": "TENTACRUEL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0074_POKEMON_GEODUDE",
+    "genderSettings": {
+      "pokemon": "GEODUDE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0075_POKEMON_GRAVELER",
+    "genderSettings": {
+      "pokemon": "GRAVELER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0076_POKEMON_GOLEM",
+    "genderSettings": {
+      "pokemon": "GOLEM",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0077_POKEMON_PONYTA",
+    "genderSettings": {
+      "pokemon": "PONYTA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0078_POKEMON_RAPIDASH",
+    "genderSettings": {
+      "pokemon": "RAPIDASH",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0079_POKEMON_SLOWPOKE",
+    "genderSettings": {
+      "pokemon": "SLOWPOKE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0080_POKEMON_SLOWBRO",
+    "genderSettings": {
+      "pokemon": "SLOWBRO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0081_POKEMON_MAGNEMITE",
+    "genderSettings": {
+      "pokemon": "MAGNEMITE",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0082_POKEMON_MAGNETON",
+    "genderSettings": {
+      "pokemon": "MAGNETON",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0083_POKEMON_FARFETCHD",
+    "genderSettings": {
+      "pokemon": "FARFETCHD",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0084_POKEMON_DODUO",
+    "genderSettings": {
+      "pokemon": "DODUO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0085_POKEMON_DODRIO",
+    "genderSettings": {
+      "pokemon": "DODRIO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0086_POKEMON_SEEL",
+    "genderSettings": {
+      "pokemon": "SEEL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0087_POKEMON_DEWGONG",
+    "genderSettings": {
+      "pokemon": "DEWGONG",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0088_POKEMON_GRIMER",
+    "genderSettings": {
+      "pokemon": "GRIMER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0089_POKEMON_MUK",
+    "genderSettings": {
+      "pokemon": "MUK",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0090_POKEMON_SHELLDER",
+    "genderSettings": {
+      "pokemon": "SHELLDER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0091_POKEMON_CLOYSTER",
+    "genderSettings": {
+      "pokemon": "CLOYSTER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0092_POKEMON_GASTLY",
+    "genderSettings": {
+      "pokemon": "GASTLY",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0093_POKEMON_HAUNTER",
+    "genderSettings": {
+      "pokemon": "HAUNTER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0094_POKEMON_GENGAR",
+    "genderSettings": {
+      "pokemon": "GENGAR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0095_POKEMON_ONIX",
+    "genderSettings": {
+      "pokemon": "ONIX",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0096_POKEMON_DROWZEE",
+    "genderSettings": {
+      "pokemon": "DROWZEE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0097_POKEMON_HYPNO",
+    "genderSettings": {
+      "pokemon": "HYPNO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0098_POKEMON_KRABBY",
+    "genderSettings": {
+      "pokemon": "KRABBY",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0099_POKEMON_KINGLER",
+    "genderSettings": {
+      "pokemon": "KINGLER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0100_POKEMON_VOLTORB",
+    "genderSettings": {
+      "pokemon": "VOLTORB",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0101_POKEMON_ELECTRODE",
+    "genderSettings": {
+      "pokemon": "ELECTRODE",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0102_POKEMON_EXEGGCUTE",
+    "genderSettings": {
+      "pokemon": "EXEGGCUTE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0103_POKEMON_EXEGGUTOR",
+    "genderSettings": {
+      "pokemon": "EXEGGUTOR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0104_POKEMON_CUBONE",
+    "genderSettings": {
+      "pokemon": "CUBONE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0105_POKEMON_MAROWAK",
+    "genderSettings": {
+      "pokemon": "MAROWAK",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0106_POKEMON_HITMONLEE",
+    "genderSettings": {
+      "pokemon": "HITMONLEE",
+      "gender": {
+        "malePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0107_POKEMON_HITMONCHAN",
+    "genderSettings": {
+      "pokemon": "HITMONCHAN",
+      "gender": {
+        "malePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0108_POKEMON_LICKITUNG",
+    "genderSettings": {
+      "pokemon": "LICKITUNG",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0109_POKEMON_KOFFING",
+    "genderSettings": {
+      "pokemon": "KOFFING",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0110_POKEMON_WEEZING",
+    "genderSettings": {
+      "pokemon": "WEEZING",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0111_POKEMON_RHYHORN",
+    "genderSettings": {
+      "pokemon": "RHYHORN",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0112_POKEMON_RHYDON",
+    "genderSettings": {
+      "pokemon": "RHYDON",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0113_POKEMON_CHANSEY",
+    "genderSettings": {
+      "pokemon": "CHANSEY",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0114_POKEMON_TANGELA",
+    "genderSettings": {
+      "pokemon": "TANGELA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0115_POKEMON_KANGASKHAN",
+    "genderSettings": {
+      "pokemon": "KANGASKHAN",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0116_POKEMON_HORSEA",
+    "genderSettings": {
+      "pokemon": "HORSEA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0117_POKEMON_SEADRA",
+    "genderSettings": {
+      "pokemon": "SEADRA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0118_POKEMON_GOLDEEN",
+    "genderSettings": {
+      "pokemon": "GOLDEEN",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0119_POKEMON_SEAKING",
+    "genderSettings": {
+      "pokemon": "SEAKING",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0120_POKEMON_STARYU",
+    "genderSettings": {
+      "pokemon": "STARYU",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0121_POKEMON_STARMIE",
+    "genderSettings": {
+      "pokemon": "STARMIE",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0122_POKEMON_MR_MIME",
+    "genderSettings": {
+      "pokemon": "MR_MIME",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0123_POKEMON_SCYTHER",
+    "genderSettings": {
+      "pokemon": "SCYTHER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0124_POKEMON_JYNX",
+    "genderSettings": {
+      "pokemon": "JYNX",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0125_POKEMON_ELECTABUZZ",
+    "genderSettings": {
+      "pokemon": "ELECTABUZZ",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0126_POKEMON_MAGMAR",
+    "genderSettings": {
+      "pokemon": "MAGMAR",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0127_POKEMON_PINSIR",
+    "genderSettings": {
+      "pokemon": "PINSIR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0128_POKEMON_TAUROS",
+    "genderSettings": {
+      "pokemon": "TAUROS",
+      "gender": {
+        "malePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0129_POKEMON_MAGIKARP",
+    "genderSettings": {
+      "pokemon": "MAGIKARP",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0130_POKEMON_GYARADOS",
+    "genderSettings": {
+      "pokemon": "GYARADOS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0131_POKEMON_LAPRAS",
+    "genderSettings": {
+      "pokemon": "LAPRAS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0132_POKEMON_DITTO",
+    "genderSettings": {
+      "pokemon": "DITTO",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0133_POKEMON_EEVEE",
+    "genderSettings": {
+      "pokemon": "EEVEE",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0134_POKEMON_VAPOREON",
+    "genderSettings": {
+      "pokemon": "VAPOREON",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0135_POKEMON_JOLTEON",
+    "genderSettings": {
+      "pokemon": "JOLTEON",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0136_POKEMON_FLAREON",
+    "genderSettings": {
+      "pokemon": "FLAREON",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0137_POKEMON_PORYGON",
+    "genderSettings": {
+      "pokemon": "PORYGON",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0138_POKEMON_OMANYTE",
+    "genderSettings": {
+      "pokemon": "OMANYTE",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0139_POKEMON_OMASTAR",
+    "genderSettings": {
+      "pokemon": "OMASTAR",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0140_POKEMON_KABUTO",
+    "genderSettings": {
+      "pokemon": "KABUTO",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0141_POKEMON_KABUTOPS",
+    "genderSettings": {
+      "pokemon": "KABUTOPS",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0142_POKEMON_AERODACTYL",
+    "genderSettings": {
+      "pokemon": "AERODACTYL",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0143_POKEMON_SNORLAX",
+    "genderSettings": {
+      "pokemon": "SNORLAX",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0144_POKEMON_ARTICUNO",
+    "genderSettings": {
+      "pokemon": "ARTICUNO",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0145_POKEMON_ZAPDOS",
+    "genderSettings": {
+      "pokemon": "ZAPDOS",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0146_POKEMON_MOLTRES",
+    "genderSettings": {
+      "pokemon": "MOLTRES",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0147_POKEMON_DRATINI",
+    "genderSettings": {
+      "pokemon": "DRATINI",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0148_POKEMON_DRAGONAIR",
+    "genderSettings": {
+      "pokemon": "DRAGONAIR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0149_POKEMON_DRAGONITE",
+    "genderSettings": {
+      "pokemon": "DRAGONITE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0150_POKEMON_MEWTWO",
+    "genderSettings": {
+      "pokemon": "MEWTWO",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0151_POKEMON_MEW",
+    "genderSettings": {
+      "pokemon": "MEW",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0152_POKEMON_CHIKORITA",
+    "genderSettings": {
+      "pokemon": "CHIKORITA",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0153_POKEMON_BAYLEEF",
+    "genderSettings": {
+      "pokemon": "BAYLEEF",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0154_POKEMON_MEGANIUM",
+    "genderSettings": {
+      "pokemon": "MEGANIUM",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0155_POKEMON_CYNDAQUIL",
+    "genderSettings": {
+      "pokemon": "CYNDAQUIL",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0156_POKEMON_QUILAVA",
+    "genderSettings": {
+      "pokemon": "QUILAVA",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0157_POKEMON_TYPHLOSION",
+    "genderSettings": {
+      "pokemon": "TYPHLOSION",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0158_POKEMON_TOTODILE",
+    "genderSettings": {
+      "pokemon": "TOTODILE",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0159_POKEMON_CROCONAW",
+    "genderSettings": {
+      "pokemon": "CROCONAW",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0160_POKEMON_FERALIGATR",
+    "genderSettings": {
+      "pokemon": "FERALIGATR",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0161_POKEMON_SENTRET",
+    "genderSettings": {
+      "pokemon": "SENTRET",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0162_POKEMON_FURRET",
+    "genderSettings": {
+      "pokemon": "FURRET",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0163_POKEMON_HOOTHOOT",
+    "genderSettings": {
+      "pokemon": "HOOTHOOT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0164_POKEMON_NOCTOWL",
+    "genderSettings": {
+      "pokemon": "NOCTOWL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0165_POKEMON_LEDYBA",
+    "genderSettings": {
+      "pokemon": "LEDYBA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0166_POKEMON_LEDIAN",
+    "genderSettings": {
+      "pokemon": "LEDIAN",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0167_POKEMON_SPINARAK",
+    "genderSettings": {
+      "pokemon": "SPINARAK",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0168_POKEMON_ARIADOS",
+    "genderSettings": {
+      "pokemon": "ARIADOS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0169_POKEMON_CROBAT",
+    "genderSettings": {
+      "pokemon": "CROBAT",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0170_POKEMON_CHINCHOU",
+    "genderSettings": {
+      "pokemon": "CHINCHOU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0171_POKEMON_LANTURN",
+    "genderSettings": {
+      "pokemon": "LANTURN",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0172_POKEMON_PICHU",
+    "genderSettings": {
+      "pokemon": "PICHU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0173_POKEMON_CLEFFA",
+    "genderSettings": {
+      "pokemon": "CLEFFA",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0174_POKEMON_IGGLYBUFF",
+    "genderSettings": {
+      "pokemon": "IGGLYBUFF",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0175_POKEMON_TOGEPI",
+    "genderSettings": {
+      "pokemon": "TOGEPI",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0176_POKEMON_TOGETIC",
+    "genderSettings": {
+      "pokemon": "TOGETIC",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0177_POKEMON_NATU",
+    "genderSettings": {
+      "pokemon": "NATU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0178_POKEMON_XATU",
+    "genderSettings": {
+      "pokemon": "XATU",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0179_POKEMON_MAREEP",
+    "genderSettings": {
+      "pokemon": "MAREEP",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0180_POKEMON_FLAAFFY",
+    "genderSettings": {
+      "pokemon": "FLAAFFY",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0181_POKEMON_AMPHAROS",
+    "genderSettings": {
+      "pokemon": "AMPHAROS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0182_POKEMON_BELLOSSOM",
+    "genderSettings": {
+      "pokemon": "BELLOSSOM",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0183_POKEMON_MARILL",
+    "genderSettings": {
+      "pokemon": "MARILL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0184_POKEMON_AZUMARILL",
+    "genderSettings": {
+      "pokemon": "AZUMARILL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0185_POKEMON_SUDOWOODO",
+    "genderSettings": {
+      "pokemon": "SUDOWOODO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0186_POKEMON_POLITOED",
+    "genderSettings": {
+      "pokemon": "POLITOED",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0187_POKEMON_HOPPIP",
+    "genderSettings": {
+      "pokemon": "HOPPIP",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0188_POKEMON_SKIPLOOM",
+    "genderSettings": {
+      "pokemon": "SKIPLOOM",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0189_POKEMON_JUMPLUFF",
+    "genderSettings": {
+      "pokemon": "JUMPLUFF",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0190_POKEMON_AIPOM",
+    "genderSettings": {
+      "pokemon": "AIPOM",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0191_POKEMON_SUNKERN",
+    "genderSettings": {
+      "pokemon": "SUNKERN",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0192_POKEMON_SUNFLORA",
+    "genderSettings": {
+      "pokemon": "SUNFLORA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0193_POKEMON_YANMA",
+    "genderSettings": {
+      "pokemon": "YANMA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0194_POKEMON_WOOPER",
+    "genderSettings": {
+      "pokemon": "WOOPER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0195_POKEMON_QUAGSIRE",
+    "genderSettings": {
+      "pokemon": "QUAGSIRE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0196_POKEMON_ESPEON",
+    "genderSettings": {
+      "pokemon": "ESPEON",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0197_POKEMON_UMBREON",
+    "genderSettings": {
+      "pokemon": "UMBREON",
+      "gender": {
+        "malePercent": 0.875,
+        "femalePercent": 0.125
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0198_POKEMON_MURKROW",
+    "genderSettings": {
+      "pokemon": "MURKROW",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0199_POKEMON_SLOWKING",
+    "genderSettings": {
+      "pokemon": "SLOWKING",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0200_POKEMON_MISDREAVUS",
+    "genderSettings": {
+      "pokemon": "MISDREAVUS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0201_POKEMON_UNOWN",
+    "genderSettings": {
+      "pokemon": "UNOWN",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0202_POKEMON_WOBBUFFET",
+    "genderSettings": {
+      "pokemon": "WOBBUFFET",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0203_POKEMON_GIRAFARIG",
+    "genderSettings": {
+      "pokemon": "GIRAFARIG",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0204_POKEMON_PINECO",
+    "genderSettings": {
+      "pokemon": "PINECO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0205_POKEMON_FORRETRESS",
+    "genderSettings": {
+      "pokemon": "FORRETRESS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0206_POKEMON_DUNSPARCE",
+    "genderSettings": {
+      "pokemon": "DUNSPARCE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0207_POKEMON_GLIGAR",
+    "genderSettings": {
+      "pokemon": "GLIGAR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0208_POKEMON_STEELIX",
+    "genderSettings": {
+      "pokemon": "STEELIX",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0209_POKEMON_SNUBBULL",
+    "genderSettings": {
+      "pokemon": "SNUBBULL",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0210_POKEMON_GRANBULL",
+    "genderSettings": {
+      "pokemon": "GRANBULL",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0211_POKEMON_QWILFISH",
+    "genderSettings": {
+      "pokemon": "QWILFISH",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0212_POKEMON_SCIZOR",
+    "genderSettings": {
+      "pokemon": "SCIZOR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0213_POKEMON_SHUCKLE",
+    "genderSettings": {
+      "pokemon": "SHUCKLE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0214_POKEMON_HERACROSS",
+    "genderSettings": {
+      "pokemon": "HERACROSS",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0215_POKEMON_SNEASEL",
+    "genderSettings": {
+      "pokemon": "SNEASEL",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0216_POKEMON_TEDDIURSA",
+    "genderSettings": {
+      "pokemon": "TEDDIURSA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0217_POKEMON_URSARING",
+    "genderSettings": {
+      "pokemon": "URSARING",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0218_POKEMON_SLUGMA",
+    "genderSettings": {
+      "pokemon": "SLUGMA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0219_POKEMON_MAGCARGO",
+    "genderSettings": {
+      "pokemon": "MAGCARGO",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0220_POKEMON_SWINUB",
+    "genderSettings": {
+      "pokemon": "SWINUB",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0221_POKEMON_PILOSWINE",
+    "genderSettings": {
+      "pokemon": "PILOSWINE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0222_POKEMON_CORSOLA",
+    "genderSettings": {
+      "pokemon": "CORSOLA",
+      "gender": {
+        "malePercent": 0.25,
+        "femalePercent": 0.75
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0223_POKEMON_REMORAID",
+    "genderSettings": {
+      "pokemon": "REMORAID",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0224_POKEMON_OCTILLERY",
+    "genderSettings": {
+      "pokemon": "OCTILLERY",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0225_POKEMON_DELIBIRD",
+    "genderSettings": {
+      "pokemon": "DELIBIRD",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0226_POKEMON_MANTINE",
+    "genderSettings": {
+      "pokemon": "MANTINE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0227_POKEMON_SKARMORY",
+    "genderSettings": {
+      "pokemon": "SKARMORY",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0228_POKEMON_HOUNDOUR",
+    "genderSettings": {
+      "pokemon": "HOUNDOUR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0229_POKEMON_HOUNDOOM",
+    "genderSettings": {
+      "pokemon": "HOUNDOOM",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0230_POKEMON_KINGDRA",
+    "genderSettings": {
+      "pokemon": "KINGDRA",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0231_POKEMON_PHANPY",
+    "genderSettings": {
+      "pokemon": "PHANPY",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0232_POKEMON_DONPHAN",
+    "genderSettings": {
+      "pokemon": "DONPHAN",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0233_POKEMON_PORYGON2",
+    "genderSettings": {
+      "pokemon": "PORYGON2",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0234_POKEMON_STANTLER",
+    "genderSettings": {
+      "pokemon": "STANTLER",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0235_POKEMON_SMEARGLE",
+    "genderSettings": {
+      "pokemon": "SMEARGLE",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0236_POKEMON_TYROGUE",
+    "genderSettings": {
+      "pokemon": "TYROGUE",
+      "gender": {
+        "malePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0237_POKEMON_HITMONTOP",
+    "genderSettings": {
+      "pokemon": "HITMONTOP",
+      "gender": {
+        "malePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0238_POKEMON_SMOOCHUM",
+    "genderSettings": {
+      "pokemon": "SMOOCHUM",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0239_POKEMON_ELEKID",
+    "genderSettings": {
+      "pokemon": "ELEKID",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0240_POKEMON_MAGBY",
+    "genderSettings": {
+      "pokemon": "MAGBY",
+      "gender": {
+        "malePercent": 0.75,
+        "femalePercent": 0.25
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0241_POKEMON_MILTANK",
+    "genderSettings": {
+      "pokemon": "MILTANK",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0242_POKEMON_BLISSEY",
+    "genderSettings": {
+      "pokemon": "BLISSEY",
+      "gender": {
+        "femalePercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0243_POKEMON_RAIKOU",
+    "genderSettings": {
+      "pokemon": "RAIKOU",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0244_POKEMON_ENTEI",
+    "genderSettings": {
+      "pokemon": "ENTEI",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0245_POKEMON_SUICUNE",
+    "genderSettings": {
+      "pokemon": "SUICUNE",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0246_POKEMON_LARVITAR",
+    "genderSettings": {
+      "pokemon": "LARVITAR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0247_POKEMON_PUPITAR",
+    "genderSettings": {
+      "pokemon": "PUPITAR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0248_POKEMON_TYRANITAR",
+    "genderSettings": {
+      "pokemon": "TYRANITAR",
+      "gender": {
+        "malePercent": 0.5,
+        "femalePercent": 0.5
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0249_POKEMON_LUGIA",
+    "genderSettings": {
+      "pokemon": "LUGIA",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0250_POKEMON_HO_OH",
+    "genderSettings": {
+      "pokemon": "HO_OH",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
+  }, {
+    "templateId": "SPAWN_V0251_POKEMON_CELEBI",
+    "genderSettings": {
+      "pokemon": "CELEBI",
+      "gender": {
+        "genderlessPercent": 1.0
+      }
+    }
   }, {
     "templateId": "V0001_POKEMON_BULBASAUR",
     "pokemonSettings": {
@@ -5714,12 +7440,12 @@
         "movementTimerS": 10.0,
         "jumpTimeS": 1.15,
         "attackTimerS": 29.0,
-        "attackProbability": 0.35,
-        "dodgeProbability": 0.05,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -5770,12 +7496,12 @@
         "attackTimerS": 8.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.3,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.984375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -5828,12 +7554,12 @@
         "attackTimerS": 4.0,
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
-        "attackProbability": 0.3,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.6925,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -5877,12 +7603,12 @@
         "movementTimerS": 29.0,
         "jumpTimeS": 1.25,
         "attackTimerS": 10.0,
-        "attackProbability": 0.3,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.8125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -5932,12 +7658,12 @@
         "attackTimerS": 8.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.3,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.24875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -5991,10 +7717,11 @@
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
         "attackProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 0.7,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6038,11 +7765,12 @@
         "movementTimerS": 10.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 29.0,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.86875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6092,12 +7820,12 @@
         "attackTimerS": 8.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.2,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6149,11 +7877,11 @@
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
         "attackProbability": 0.2,
-        "dodgeProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.846875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6195,12 +7923,12 @@
         "movementType": "MOVEMENT_JUMP",
         "movementTimerS": 10.0,
         "attackTimerS": 29.0,
-        "attackProbability": 0.2,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.295,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6250,12 +7978,11 @@
         "attackTimerS": 3600.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.2,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.6325,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6308,12 +8035,12 @@
         "attackTimerS": 17.0,
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
-        "attackProbability": 0.2,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.995,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6376,12 +8103,12 @@
         "movementTimerS": 10.0,
         "jumpTimeS": 1.25,
         "attackTimerS": 29.0,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 1.5675,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6450,11 +8177,10 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.2,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.8125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6507,12 +8233,12 @@
         "attackTimerS": 17.0,
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
-        "attackProbability": 0.2,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.4,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 0.6,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.465,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6575,12 +8301,12 @@
         "movementTimerS": 10.0,
         "jumpTimeS": 1.4,
         "attackTimerS": 29.0,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 1.89,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6633,12 +8359,12 @@
         "attackTimerS": 29.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6715,7 +8441,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.4,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6760,11 +8486,11 @@
         "jumpTimeS": 0.9,
         "attackTimerS": 29.0,
         "attackProbability": 0.2,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.3,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 1.89,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6837,7 +8563,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.94875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6899,12 +8625,12 @@
         "movementTimerS": 10.0,
         "jumpTimeS": 1.25,
         "attackTimerS": 29.0,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.22,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -6975,12 +8701,12 @@
         "attackTimerS": 23.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.9375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7025,11 +8751,11 @@
         "jumpTimeS": 1.25,
         "attackTimerS": 10.0,
         "attackProbability": 0.2,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.24375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7097,12 +8823,12 @@
         "attackTimerS": 8.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.07375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7146,12 +8872,12 @@
         "movementTimerS": 10.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 29.0,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7221,12 +8947,12 @@
         "attackTimerS": 17.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7269,12 +8995,12 @@
         "movementTimerS": 8.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 23.0,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7342,12 +9068,12 @@
         "attackTimerS": 4.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7390,12 +9116,12 @@
         "movementTimerS": 29.0,
         "jumpTimeS": 1.25,
         "attackTimerS": 10.0,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7463,12 +9189,12 @@
         "attackTimerS": 8.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.2,
+        "attackProbability": 0.1,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.290625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7538,12 +9264,12 @@
         "attackTimerS": 5.0,
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
-        "attackProbability": 0.2,
-        "dodgeProbability": 0.2,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.43625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7605,12 +9331,12 @@
         "movementTimerS": 29.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 10.0,
-        "attackProbability": 0.2,
-        "dodgeProbability": 0.2,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.54375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7678,12 +9404,12 @@
         "attackTimerS": 8.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.15,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.7125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7754,10 +9480,11 @@
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
         "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.89375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7820,10 +9547,11 @@
         "jumpTimeS": 1.25,
         "attackTimerS": 23.0,
         "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7893,10 +9621,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.4234376,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -7941,10 +9670,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 29.0,
         "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8013,10 +9743,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.7,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8080,11 +9811,11 @@
         "jumpTimeS": 3.0,
         "attackTimerS": 29.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.05,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.84,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8155,11 +9886,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5890627,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8206,11 +9937,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 29.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.1,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 0.7,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.8150005,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8286,7 +10017,7 @@
         "dodgeDurationS": 0.7,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8340,7 +10071,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.0375004,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8396,7 +10127,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.7125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8475,7 +10206,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 6.21,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8543,7 +10274,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.88,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8617,7 +10348,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.734375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8685,7 +10416,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.393125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8760,7 +10491,7 @@
         "dodgeDurationS": 0.7,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.32,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8821,11 +10552,10 @@
         "movementTimerS": 29.0,
         "attackTimerS": 10.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8892,11 +10622,10 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -8945,7 +10674,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9018,7 +10747,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.9975,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9084,7 +10813,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9139,7 +10868,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9201,12 +10930,12 @@
         "movementTimerS": 29.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 10.0,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.628125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9274,12 +11003,12 @@
         "attackTimerS": 6.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
+        "attackProbability": 0.3,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.3125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9346,7 +11075,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9419,7 +11148,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.55,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9486,7 +11215,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9541,7 +11270,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.5125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9621,7 +11350,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 6.1275,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9684,12 +11413,12 @@
         "movementTimerS": 29.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 10.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.05,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 2.4,
         "dodgeDistance": 0.6,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9762,7 +11491,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.00625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9837,7 +11566,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.78125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9904,7 +11633,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.3000004,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -9977,7 +11706,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.7775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10034,7 +11763,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.7,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10102,7 +11831,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.38625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10177,7 +11906,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10236,7 +11965,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.355,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10305,7 +12034,7 @@
         "dodgeDurationS": 0.6,
         "dodgeDistance": 0.6,
         "cameraDistance": 3.445312,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10362,7 +12091,7 @@
         "dodgeDurationS": 0.6,
         "dodgeDistance": 0.6,
         "cameraDistance": 4.92,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10426,12 +12155,12 @@
         "movementTimerS": 8.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 23.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 0.5,
         "cameraDistance": 2.93625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10506,7 +12235,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.2275,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10564,7 +12293,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.725,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10627,11 +12356,11 @@
         "jumpTimeS": 0.95,
         "attackTimerS": 23.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.7,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10700,11 +12429,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.2,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10767,12 +12496,12 @@
         "movementTimerS": 8.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 23.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.05,
+        "dodgeProbability": 0.05,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10845,12 +12574,12 @@
         "attackTimerS": 8.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.05,
+        "dodgeProbability": 0.05,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.78125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10897,11 +12626,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 23.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.3,
         "dodgeDurationS": 0.4,
         "dodgeDistance": 0.8,
         "cameraDistance": 3.42,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -10977,7 +12706,7 @@
         "dodgeDurationS": 0.4,
         "dodgeDistance": 0.8,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11045,7 +12774,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.39,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11111,7 +12840,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.62,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11186,7 +12915,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.82625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11253,7 +12982,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11328,7 +13057,7 @@
         "dodgeDurationS": 0.7,
         "dodgeDistance": 0.6,
         "cameraDistance": 3.9375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11394,7 +13123,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.410001,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11468,7 +13197,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 6.45,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11535,7 +13264,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.898,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11610,7 +13339,7 @@
         "dodgeDurationS": 0.8,
         "dodgeDistance": 0.8,
         "cameraDistance": 4.725,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11675,11 +13404,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 10.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 2.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11737,7 +13466,7 @@
         "dodgeDurationS": 2.0,
         "dodgeDistance": 0.8,
         "cameraDistance": 5.625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11813,7 +13542,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 6.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11876,11 +13605,10 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 6.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -11951,7 +13679,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.9375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12007,7 +13735,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.98,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12051,12 +13779,12 @@
         "movementTimerS": 23.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 8.0,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.915,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12124,12 +13852,12 @@
         "attackTimerS": 3.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 6.2,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12192,11 +13920,11 @@
         "jumpTimeS": 1.2,
         "attackTimerS": 29.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12265,11 +13993,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12337,7 +14065,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.8625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12411,7 +14139,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12478,7 +14206,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12551,7 +14279,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.2,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12612,12 +14340,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 0.8,
         "attackTimerS": 4.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.66875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12678,12 +14406,12 @@
         "movementTimerS": 14.0,
         "jumpTimeS": 1.1,
         "attackTimerS": 5.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12749,7 +14477,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12815,7 +14543,7 @@
         "dodgeDurationS": 2.0,
         "dodgeDistance": 0.6,
         "cameraDistance": 3.6,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12872,7 +14600,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.65,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12935,12 +14663,12 @@
         "movementTimerS": 14.0,
         "jumpTimeS": 1.25,
         "attackTimerS": 5.0,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 0.8,
         "dodgeDistance": 0.8,
         "cameraDistance": 5.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -12992,12 +14720,12 @@
         "attackTimerS": 3.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.925,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13046,7 +14774,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13117,7 +14845,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13182,7 +14910,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 6.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13249,7 +14977,7 @@
         "dodgeDurationS": 0.6,
         "dodgeDistance": 0.5,
         "cameraDistance": 2.775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13323,7 +15051,7 @@
         "dodgeDurationS": 0.6,
         "dodgeDistance": 0.6,
         "cameraDistance": 4.3125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13395,7 +15123,7 @@
         "dodgeDurationS": 0.6,
         "dodgeDistance": 0.5,
         "cameraDistance": 2.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13451,7 +15179,7 @@
         "dodgeDurationS": 0.8,
         "dodgeDistance": 0.8,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13496,11 +15224,11 @@
         "jumpTimeS": 1.35,
         "attackTimerS": 29.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.3000004,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13570,11 +15298,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.00125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13642,7 +15370,7 @@
         "dodgeDurationS": 0.6,
         "dodgeDistance": 0.5,
         "cameraDistance": 4.33875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13704,12 +15432,12 @@
         "movementTimerS": 14.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 5.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 0.7,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.7,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13763,7 +15491,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.89375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13830,7 +15558,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.22625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13896,7 +15624,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.95,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -13963,7 +15691,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.24125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14011,7 +15739,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.4859376,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14071,11 +15799,12 @@
         "movementTimerS": 3600.0,
         "jumpTimeS": 0.8,
         "attackTimerS": 3600.0,
-        "attackProbability": 0.15,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.21,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14125,12 +15854,12 @@
         "movementTimerS": 8.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 3.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.4,
+        "dodgeProbability": 0.05,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14193,12 +15922,12 @@
         "movementTimerS": 3.0,
         "jumpTimeS": 1.2,
         "attackTimerS": 8.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.15,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 6.5625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14263,7 +15992,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.01875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14297,8 +16026,7 @@
       "vfxName": "struggle",
       "durationMs": 2200,
       "damageWindowStartMs": 1200,
-      "damageWindowEndMs": 2000,
-      "energyDelta": -33
+      "damageWindowEndMs": 2000
     }
   }, {
     "templateId": "V0133_POKEMON_EEVEE",
@@ -14327,7 +16055,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.15,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14413,7 +16141,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.5437496,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14477,11 +16205,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.3000004,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14549,7 +16277,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.93625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14616,7 +16344,7 @@
         "dodgeDurationS": 0.7,
         "dodgeDistance": 0.7,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14670,7 +16398,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14726,7 +16454,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14776,7 +16504,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.53125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14832,7 +16560,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.265625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14883,7 +16611,7 @@
         "dodgeDurationS": 0.6,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14927,11 +16655,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 8.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.05,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.55,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -14980,7 +16708,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.7125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15030,7 +16758,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.88125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15080,7 +16808,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.23125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15129,7 +16857,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.121875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15184,7 +16912,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15243,7 +16971,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15291,7 +17019,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.55,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15340,7 +17068,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.908125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15388,7 +17116,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.8875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15443,7 +17171,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.1925,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15494,12 +17222,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.790625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15548,7 +17276,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.6,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15603,7 +17331,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15654,12 +17382,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15708,7 +17436,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.971125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15763,7 +17491,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.819375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15814,12 +17542,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.07375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15864,11 +17592,11 @@
         "jumpTimeS": 1.4,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.267,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15919,11 +17647,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.454875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -15972,7 +17700,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16029,7 +17757,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16080,7 +17808,7 @@
         "dodgeDurationS": 0.5,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16138,7 +17866,7 @@
         "dodgeDurationS": 0.5,
         "dodgeDistance": 0.8,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16188,7 +17916,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16244,7 +17972,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16292,11 +18020,11 @@
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16347,7 +18075,7 @@
         "dodgeDurationS": 0.5,
         "dodgeDistance": 0.5,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16404,7 +18132,7 @@
         "dodgeDurationS": 0.5,
         "dodgeDistance": 0.5,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16452,7 +18180,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16505,7 +18233,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16560,7 +18288,7 @@
         "dodgeDurationS": 0.5,
         "dodgeDistance": 0.5,
         "cameraDistance": 3.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16612,7 +18340,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16654,6 +18382,7 @@
         "shoulderModeScale": 0.5
       },
       "encounter": {
+        "baseCaptureRate": 0.05,
         "baseFleeRate": 0.05,
         "collisionRadiusM": 0.2,
         "collisionHeightM": 0.3,
@@ -16669,7 +18398,7 @@
         "dodgeDurationS": 0.8,
         "dodgeDistance": 0.8,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16718,7 +18447,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.15,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16776,7 +18505,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16825,7 +18554,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16880,7 +18609,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.2,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16936,7 +18665,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.44,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -16987,7 +18716,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17036,7 +18765,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.15,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17092,7 +18821,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.6,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17134,12 +18863,11 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.05,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.05,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17188,7 +18916,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17238,7 +18966,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17296,7 +19024,7 @@
         "dodgeDurationS": 0.7,
         "dodgeDistance": 0.7,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17355,7 +19083,7 @@
         "dodgeDurationS": 0.8,
         "dodgeDistance": 0.8,
         "cameraDistance": 3.5625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17400,11 +19128,11 @@
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.42,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17451,7 +19179,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.4,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17508,7 +19236,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17554,11 +19282,11 @@
         "jumpTimeS": 2.0,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17601,12 +19329,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.05,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17657,12 +19385,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.05,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17712,7 +19440,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.5625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17761,7 +19489,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17810,7 +19538,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.775,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17855,12 +19583,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.05,
+        "dodgeProbability": 0.05,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.2,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17927,7 +19655,7 @@
         "dodgeDurationS": 2.0,
         "dodgeDistance": 0.6,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -17993,7 +19721,7 @@
         "dodgeDurationS": 2.0,
         "dodgeDistance": 0.6,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18052,12 +19780,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.05,
+        "dodgeProbability": 0.05,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.3125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18123,7 +19851,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18188,7 +19916,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18262,7 +19990,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 0.9,
         "cameraDistance": 4.7,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18328,7 +20056,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18394,7 +20122,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 0.75,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18456,11 +20184,10 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 6.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18521,12 +20248,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 20.0,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18558,16 +20285,16 @@
       "movementId": "WING_ATTACK_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_FLYING",
-      "power": 10.0,
+      "power": 8.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "wing_attack_fast",
-      "durationMs": 1250,
+      "durationMs": 800,
       "damageWindowStartMs": 550,
       "damageWindowEndMs": 750,
-      "energyDelta": 10
+      "energyDelta": 9
     }
   }, {
     "templateId": "V0210_POKEMON_GRANBULL",
@@ -18593,12 +20320,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18632,7 +20359,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "peck_fast",
-      "durationMs": 1500,
+      "durationMs": 1000,
       "damageWindowStartMs": 450,
       "damageWindowEndMs": 900,
       "energyDelta": 10
@@ -18666,7 +20393,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 0.8,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18733,7 +20460,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18800,7 +20527,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18860,12 +20587,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 20.0,
-        "attackProbability": 0.1,
+        "attackProbability": 0.2,
         "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18926,12 +20653,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.2,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.42,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -18995,7 +20722,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19067,7 +20794,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.15,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19129,11 +20856,11 @@
         "jumpTimeS": 1.3,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19202,11 +20929,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.15,
+        "dodgeProbability": 0.1,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19272,7 +20999,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.125,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19345,7 +21072,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.91875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19411,7 +21138,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.9925,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19476,7 +21203,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 0.55,
         "cameraDistance": 2.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19548,7 +21275,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19614,7 +21341,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.74625,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19680,7 +21407,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 0.8,
         "cameraDistance": 4.6,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19747,7 +21474,7 @@
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19808,12 +21535,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.0,
         "attackTimerS": 20.0,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19845,7 +21572,7 @@
       "movementId": "BULLET_PUNCH_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_STEEL",
-      "power": 8.0,
+      "power": 9.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
@@ -19881,12 +21608,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "attackProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -19922,7 +21649,7 @@
       "durationMs": 500,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
-      "energyDelta": 6
+      "energyDelta": 5
     }
   }, {
     "templateId": "V0230_POKEMON_KINGDRA",
@@ -19951,11 +21678,11 @@
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20015,11 +21742,11 @@
         "jumpTimeS": 0.9,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20051,13 +21778,13 @@
       "movementId": "WATER_GUN_FAST_BLASTOISE",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_WATER",
-      "power": 5.0,
+      "power": 10.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "water_gun_fast_blastoise",
-      "durationMs": 500,
+      "durationMs": 1000,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
       "energyDelta": 6
@@ -20087,11 +21814,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.4,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20156,11 +21883,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 0.7,
         "cameraDistance": 3.75,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20221,11 +21948,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.65,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20286,11 +22013,11 @@
         "jumpTimeS": 0.9,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.05,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20350,11 +22077,11 @@
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.9,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20426,11 +22153,11 @@
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20491,11 +22218,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20561,11 +22288,11 @@
         "jumpTimeS": 1.1,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.375,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20631,11 +22358,11 @@
         "jumpTimeS": 1.1,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.22875,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20702,11 +22429,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.05,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20767,11 +22494,11 @@
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20832,11 +22559,11 @@
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.2,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20897,11 +22624,11 @@
         "jumpTimeS": 1.0,
         "attackTimerS": 20.0,
         "attackProbability": 0.1,
-        "dodgeProbability": 0.3,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -20962,12 +22689,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.9,
         "attackTimerS": 20.0,
-        "attackProbability": 0.05,
-        "dodgeProbability": 0.05,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.25,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -21030,12 +22757,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 0.9,
         "attackTimerS": 20.0,
-        "attackProbability": 0.05,
-        "dodgeProbability": 0.05,
+        "attackProbability": 0.3,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 2.9,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -21104,12 +22831,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 2,
         "bonusStardustCaptureReward": 200,
-        "attackProbability": 0.05,
-        "dodgeProbability": 0.05,
+        "attackProbability": 0.3,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.7,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -21179,12 +22906,12 @@
         "attackTimerS": 20.0,
         "bonusCandyCaptureReward": 7,
         "bonusStardustCaptureReward": 400,
-        "attackProbability": 0.05,
-        "dodgeProbability": 0.05,
+        "attackProbability": 0.3,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.3,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -21246,12 +22973,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.2,
         "attackTimerS": 20.0,
-        "attackProbability": 0.05,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 5.0,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -21313,12 +23040,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.1,
         "attackTimerS": 20.0,
-        "attackProbability": 0.05,
-        "dodgeProbability": 0.1,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 4.5,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -21381,12 +23108,12 @@
         "movementTimerS": 11.0,
         "jumpTimeS": 1.1,
         "attackTimerS": 20.0,
-        "attackProbability": 0.05,
-        "dodgeProbability": 0.2,
+        "attackProbability": 0.1,
+        "dodgeProbability": 0.15,
         "dodgeDurationS": 1.0,
         "dodgeDistance": 1.0,
         "cameraDistance": 3.12,
-        "minPokemonActionFrequencyS": 0.5,
+        "minPokemonActionFrequencyS": 0.2,
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
@@ -21718,7 +23445,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "fire_spin_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
       "energyDelta": 10
@@ -21806,7 +23533,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "extrasensory_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
       "energyDelta": 12
@@ -29170,5 +30897,5 @@
       "sequence": ["anim attacker atk-move", "vfx zen_headbutt_fast", "wait 0.40", "sfx attacker 442-0_iron_head", "wait 0.25", "sys ui-sync", "sys complete"]
     }
   }],
-  "timestampMs": "1487286159746"
+  "timestampMs": "1487708176346"
 }
