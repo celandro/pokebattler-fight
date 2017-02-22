@@ -17894,7 +17894,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "fury_cutter_fast",
-      "durationMs": 900,
+      "durationMs": 400,
       "damageWindowStartMs": 100,
       "damageWindowEndMs": 400,
       "energyDelta": 6
@@ -17960,7 +17960,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "bug_bite_fast",
-      "durationMs": 950,
+      "durationMs": 500,
       "damageWindowStartMs": 250,
       "damageWindowEndMs": 450,
       "energyDelta": 6
@@ -18019,16 +18019,16 @@
       "movementId": "BITE_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_DARK",
-      "power": 10.0,
+      "power": 6.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "bite_fast",
-      "durationMs": 1000,
+      "durationMs": 500,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
-      "energyDelta": 6
+      "energyDelta": 4
     }
   }, {
     "templateId": "V0202_POKEMON_WOBBUFFET",
@@ -18084,16 +18084,16 @@
       "movementId": "SUCKER_PUNCH_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_DARK",
-      "power": 8.0,
+      "power": 7.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "sucker_punch_fast",
-      "durationMs": 1200,
+      "durationMs": 700,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 700,
-      "energyDelta": 9
+      "energyDelta": 8
     }
   }, {
     "templateId": "V0203_POKEMON_GIRAFARIG",
@@ -18150,16 +18150,16 @@
       "movementId": "DRAGON_BREATH_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_DRAGON",
-      "power": 12.0,
+      "power": 6.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "dragon_breath_fast",
-      "durationMs": 1000,
+      "durationMs": 500,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
-      "energyDelta": 5
+      "energyDelta": 4
     }
   }, {
     "templateId": "V0204_POKEMON_PINECO",
@@ -18220,16 +18220,16 @@
       "movementId": "THUNDER_SHOCK_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_ELECTRIC",
-      "power": 6.0,
+      "power": 5.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "thunder_shock_fast",
-      "durationMs": 1100,
+      "durationMs": 600,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 600,
-      "energyDelta": 9
+      "energyDelta": 8
     }
   }, {
     "templateId": "V0205_POKEMON_FORRETRESS",
@@ -18290,16 +18290,16 @@
       "movementId": "SPARK_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_ELECTRIC",
-      "power": 8.0,
+      "power": 6.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "spark_fast",
-      "durationMs": 1200,
+      "durationMs": 700,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 700,
-      "energyDelta": 8
+      "energyDelta": 9
     }
   }, {
     "templateId": "V0206_POKEMON_DUNSPARCE",
@@ -18360,10 +18360,10 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "low_kick_fast",
-      "durationMs": 1100,
+      "durationMs": 600,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 600,
-      "energyDelta": 8
+      "energyDelta": 6
     }
   }, {
     "templateId": "V0207_POKEMON_GLIGAR",
@@ -18426,7 +18426,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "karate_chop_fast",
-      "durationMs": 1300,
+      "durationMs": 800,
       "damageWindowStartMs": 600,
       "damageWindowEndMs": 800,
       "energyDelta": 10
@@ -18494,7 +18494,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "ember_fast",
-      "durationMs": 1500,
+      "durationMs": 1000,
       "damageWindowStartMs": 600,
       "damageWindowEndMs": 800,
       "energyDelta": 10
@@ -18698,7 +18698,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "lick_fast",
-      "durationMs": 1000,
+      "durationMs": 500,
       "damageWindowStartMs": 200,
       "damageWindowEndMs": 500,
       "energyDelta": 6
@@ -18761,13 +18761,13 @@
       "movementId": "SHADOW_CLAW_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_GHOST",
-      "power": 12.0,
+      "power": 9.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "shadow_claw_fast",
-      "durationMs": 1200,
+      "durationMs": 700,
       "damageWindowStartMs": 250,
       "damageWindowEndMs": 500,
       "energyDelta": 6
@@ -18826,16 +18826,16 @@
       "movementId": "VINE_WHIP_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_GRASS",
-      "power": 8.0,
+      "power": 7.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "vine_whip_fast",
-      "durationMs": 1100,
+      "durationMs": 600,
       "damageWindowStartMs": 350,
       "damageWindowEndMs": 600,
-      "energyDelta": 7
+      "energyDelta": 6
     }
   }, {
     "templateId": "V0214_POKEMON_HERACROSS",
@@ -18892,16 +18892,16 @@
       "movementId": "RAZOR_LEAF_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_GRASS",
-      "power": 15.0,
+      "power": 13.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "razor_leaf_fast",
-      "durationMs": 1500,
+      "durationMs": 1000,
       "damageWindowStartMs": 600,
       "damageWindowEndMs": 850,
-      "energyDelta": 8
+      "energyDelta": 7
     }
   }, {
     "templateId": "V0215_POKEMON_SNEASEL",
@@ -18957,13 +18957,13 @@
       "movementId": "MUD_SHOT_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_GROUND",
-      "power": 9.0,
+      "power": 5.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "mud_shot_fast",
-      "durationMs": 1050,
+      "durationMs": 600,
       "damageWindowStartMs": 350,
       "damageWindowEndMs": 550,
       "energyDelta": 7
@@ -19033,7 +19033,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "ice_shard_fast",
-      "durationMs": 1700,
+      "durationMs": 1200,
       "damageWindowStartMs": 600,
       "damageWindowEndMs": 900,
       "energyDelta": 12
@@ -19101,10 +19101,10 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "frost_breath_fast",
-      "durationMs": 1400,
+      "durationMs": 900,
       "damageWindowStartMs": 450,
       "damageWindowEndMs": 750,
-      "energyDelta": 7
+      "energyDelta": 8
     }
   }, {
     "templateId": "V0218_POKEMON_SLUGMA",
@@ -19165,16 +19165,16 @@
       "movementId": "QUICK_ATTACK_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_NORMAL",
-      "power": 10.0,
+      "power": 8.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "quick_attack_fast",
-      "durationMs": 1250,
+      "durationMs": 800,
       "damageWindowStartMs": 250,
       "damageWindowEndMs": 550,
-      "energyDelta": 8
+      "energyDelta": 10
     }
   }, {
     "templateId": "V0219_POKEMON_MAGCARGO",
@@ -19233,16 +19233,16 @@
       "movementId": "SCRATCH_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_NORMAL",
-      "power": 12.0,
+      "power": 6.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "scratch_fast",
-      "durationMs": 1000,
+      "durationMs": 500,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
-      "energyDelta": 7
+      "energyDelta": 4
     }
   }, {
     "templateId": "V0220_POKEMON_SWINUB",
@@ -19304,13 +19304,13 @@
       "movementId": "TACKLE_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_NORMAL",
-      "power": 10.0,
+      "power": 5.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "tackle_fast",
-      "durationMs": 1000,
+      "durationMs": 500,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
       "energyDelta": 5
@@ -19373,16 +19373,16 @@
       "movementId": "POUND_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_NORMAL",
-      "power": 8.0,
+      "power": 7.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "pound_fast",
-      "durationMs": 1040,
+      "durationMs": 600,
       "damageWindowStartMs": 340,
       "damageWindowEndMs": 540,
-      "energyDelta": 7
+      "energyDelta": 6
     }
   }, {
     "templateId": "V0222_POKEMON_CORSOLA",
@@ -19437,13 +19437,13 @@
       "movementId": "CUT_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_NORMAL",
-      "power": 10.0,
+      "power": 5.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "cut_fast",
-      "durationMs": 1000,
+      "durationMs": 500,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
       "energyDelta": 5
@@ -19508,16 +19508,16 @@
       "movementId": "POISON_JAB_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_POISON",
-      "power": 12.0,
+      "power": 10.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "poison_jab_fast",
-      "durationMs": 1300,
+      "durationMs": 800,
       "damageWindowStartMs": 200,
       "damageWindowEndMs": 800,
-      "energyDelta": 8
+      "energyDelta": 7
     }
   }, {
     "templateId": "V0224_POKEMON_OCTILLERY",
@@ -19575,16 +19575,16 @@
       "movementId": "ACID_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_POISON",
-      "power": 10.0,
+      "power": 9.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "acid_fast",
-      "durationMs": 1300,
+      "durationMs": 800,
       "damageWindowStartMs": 400,
       "damageWindowEndMs": 600,
-      "energyDelta": 9
+      "energyDelta": 8
     }
   }, {
     "templateId": "V0225_POKEMON_DELIBIRD",
@@ -19640,13 +19640,13 @@
       "movementId": "PSYCHO_CUT_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_PSYCHIC",
-      "power": 8.0,
+      "power": 5.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "psycho_cut_fast",
-      "durationMs": 1070,
+      "durationMs": 600,
       "damageWindowStartMs": 370,
       "damageWindowEndMs": 570,
       "energyDelta": 8
@@ -19713,10 +19713,10 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "rock_throw_fast",
-      "durationMs": 1400,
+      "durationMs": 900,
       "damageWindowStartMs": 500,
       "damageWindowEndMs": 800,
-      "energyDelta": 10
+      "energyDelta": 7
     }
   }, {
     "templateId": "V0227_POKEMON_SKARMORY",
@@ -19780,7 +19780,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "metal_claw_fast",
-      "durationMs": 1130,
+      "durationMs": 700,
       "damageWindowStartMs": 430,
       "damageWindowEndMs": 630,
       "energyDelta": 7
@@ -19845,13 +19845,13 @@
       "movementId": "BULLET_PUNCH_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_STEEL",
-      "power": 12.0,
+      "power": 8.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "bullet_punch_fast",
-      "durationMs": 1400,
+      "durationMs": 900,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 900,
       "energyDelta": 10
@@ -19913,13 +19913,13 @@
       "movementId": "WATER_GUN_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_WATER",
-      "power": 10.0,
+      "power": 5.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "water_gun_fast",
-      "durationMs": 1000,
+      "durationMs": 500,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
       "energyDelta": 6
@@ -20051,13 +20051,13 @@
       "movementId": "WATER_GUN_FAST_BLASTOISE",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_WATER",
-      "power": 10.0,
+      "power": 5.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "water_gun_fast_blastoise",
-      "durationMs": 1000,
+      "durationMs": 500,
       "damageWindowStartMs": 300,
       "damageWindowEndMs": 500,
       "energyDelta": 6
@@ -20125,7 +20125,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "mud_slap_fast",
-      "durationMs": 1850,
+      "durationMs": 1400,
       "damageWindowStartMs": 1150,
       "damageWindowEndMs": 1350,
       "energyDelta": 12
@@ -20193,7 +20193,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "zen_headbutt_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
       "energyDelta": 10
@@ -20258,10 +20258,10 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "confusion_fast",
-      "durationMs": 2100,
+      "durationMs": 1600,
       "damageWindowStartMs": 600,
       "damageWindowEndMs": 1600,
-      "energyDelta": 10
+      "energyDelta": 15
     }
   }, {
     "templateId": "V0235_POKEMON_SMEARGLE",
@@ -20317,16 +20317,16 @@
       "movementId": "POISON_STING_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_POISON",
-      "power": 6.0,
+      "power": 5.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "poison_sting_fast",
-      "durationMs": 1075,
+      "durationMs": 600,
       "damageWindowStartMs": 375,
       "damageWindowEndMs": 575,
-      "energyDelta": 8
+      "energyDelta": 7
     }
   }, {
     "templateId": "V0236_POKEMON_TYROGUE",
@@ -20392,16 +20392,16 @@
       "movementId": "BUBBLE_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_WATER",
-      "power": 15.0,
+      "power": 12.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "bubble_fast",
-      "durationMs": 1700,
+      "durationMs": 1200,
       "damageWindowStartMs": 750,
       "damageWindowEndMs": 1000,
-      "energyDelta": 12
+      "energyDelta": 14
     }
   }, {
     "templateId": "V0237_POKEMON_HITMONTOP",
@@ -20457,16 +20457,16 @@
       "movementId": "FEINT_ATTACK_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_DARK",
-      "power": 12.0,
+      "power": 10.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "feint_attack_fast",
-      "durationMs": 1400,
+      "durationMs": 900,
       "damageWindowStartMs": 750,
       "damageWindowEndMs": 900,
-      "energyDelta": 10
+      "energyDelta": 9
     }
   }, {
     "templateId": "V0238_POKEMON_SMOOCHUM",
@@ -20528,16 +20528,16 @@
       "movementId": "STEEL_WING_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_STEEL",
-      "power": 12.0,
+      "power": 11.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "steel_wing_fast",
-      "durationMs": 1300,
+      "durationMs": 800,
       "damageWindowStartMs": 500,
       "damageWindowEndMs": 800,
-      "energyDelta": 8
+      "energyDelta": 6
     }
   }, {
     "templateId": "V0239_POKEMON_ELEKID",
@@ -20598,16 +20598,16 @@
       "movementId": "FIRE_FANG_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_FIRE",
-      "power": 12.0,
+      "power": 11.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "fire_fang_fast",
-      "durationMs": 1340,
+      "durationMs": 900,
       "damageWindowStartMs": 640,
       "damageWindowEndMs": 840,
-      "energyDelta": 10
+      "energyDelta": 8
     }
   }, {
     "templateId": "V0240_POKEMON_MAGBY",
@@ -20674,7 +20674,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "rock_smash_fast",
-      "durationMs": 1700,
+      "durationMs": 1300,
       "damageWindowStartMs": 550,
       "damageWindowEndMs": 800,
       "energyDelta": 10
@@ -20799,7 +20799,7 @@
       "movementId": "COUNTER_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_FIGHTING",
-      "power": 10.0,
+      "power": 12.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
@@ -21218,7 +21218,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "charge_beam_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
       "energyDelta": 15
@@ -21279,7 +21279,7 @@
       "movementId": "VOLT_SWITCH_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_ELECTRIC",
-      "power": 12.0,
+      "power": 20.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
@@ -21288,7 +21288,7 @@
       "durationMs": 2300,
       "damageWindowStartMs": 1800,
       "damageWindowEndMs": 2100,
-      "energyDelta": 20
+      "energyDelta": 25
     }
   }, {
     "templateId": "V0250_POKEMON_HO_OH",
@@ -21437,10 +21437,10 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "dragon_tail_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
-      "energyDelta": 6
+      "energyDelta": 9
     }
   }, {
     "templateId": "V0254_MOVE_AVALANCHE",
@@ -21466,7 +21466,7 @@
       "movementId": "AIR_SLASH_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_FLYING",
-      "power": 12.0,
+      "power": 14.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
@@ -21561,7 +21561,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "infestation_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
       "energyDelta": 14
@@ -21572,7 +21572,7 @@
       "movementId": "STRUGGLE_BUG_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_BUG",
-      "power": 6.0,
+      "power": 15.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
@@ -21581,7 +21581,7 @@
       "durationMs": 1500,
       "damageWindowStartMs": 1200,
       "damageWindowEndMs": 1500,
-      "energyDelta": 12
+      "energyDelta": 15
     }
   }, {
     "templateId": "V0262_MOVE_SILVER_WIND",
@@ -21613,10 +21613,10 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "astonish_fast",
-      "durationMs": 1050,
+      "durationMs": 1100,
       "damageWindowStartMs": 700,
       "damageWindowEndMs": 1050,
-      "energyDelta": 12
+      "energyDelta": 14
     }
   }, {
     "templateId": "V0264_MOVE_HEX_FAST",
@@ -21665,10 +21665,10 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "iron_tail_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
-      "energyDelta": 6
+      "energyDelta": 7
     }
   }, {
     "templateId": "V0267_MOVE_GYRO_BALL",
@@ -21712,7 +21712,7 @@
       "movementId": "FIRE_SPIN_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_FIRE",
-      "power": 15.0,
+      "power": 14.0,
       "accuracyChance": 1.0,
       "staminaLossScalar": 0.01,
       "trainerLevelMin": 1,
@@ -21753,10 +21753,10 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "bullet_seed_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
-      "energyDelta": 12
+      "energyDelta": 14
     }
   }, {
     "templateId": "V0272_MOVE_GRASS_KNOT",
@@ -21877,7 +21877,7 @@
       "trainerLevelMin": 1,
       "trainerLevelMax": 100,
       "vfxName": "snarl_fast",
-      "durationMs": 1550,
+      "durationMs": 1100,
       "damageWindowStartMs": 850,
       "damageWindowEndMs": 1050,
       "energyDelta": 12
@@ -21924,7 +21924,7 @@
       "movementId": "HIDDEN_POWER_FAST",
       "animationId": 4,
       "pokemonType": "POKEMON_TYPE_NORMAL",
-      "power": 10.0,
+      "power": 15.0,
       "accuracyChance": 1.0,
       "criticalChance": 0.05,
       "staminaLossScalar": 0.01,
