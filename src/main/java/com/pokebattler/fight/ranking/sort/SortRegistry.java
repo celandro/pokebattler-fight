@@ -13,9 +13,7 @@ import com.pokebattler.fight.data.proto.Ranking.SortType;
 @Repository
 public class SortRegistry {
     @Resource
-    AttackerWinRankingsSort attackerWin;
-    @Resource
-    DefenderWinRankingsSort defenderWin;
+    WinRankingsSort win;
     @Resource
     PowerRankingsSort power;
     @Resource
@@ -36,8 +34,8 @@ public class SortRegistry {
     public void init() {
         registerAttackerSort(power);
         registerDefenderSort(power);
-        registerAttackerSort(attackerWin);
-        registerDefenderSort(defenderWin);
+        registerAttackerSort(win);
+        registerDefenderSort(win);
         registerAttackerSort(attackerTime);
         registerDefenderSort(defenderTime);
         registerAttackerSort(dps);

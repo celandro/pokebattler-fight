@@ -10,19 +10,17 @@ import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
 
 @Component
-public class AttackerWinRankingsSort implements RankingsSort{
+public class WinRankingsSort implements RankingsSort{
     @Override
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
         // biggest number wins then smallest damage taken then biggest damage dealt
         return Comparator.<SubResultTotalOrBuilder>comparingInt(total -> -total.getNumWins())
-                .thenComparing(Comparator.comparingInt(total -> total.getDamageTaken()))
-                .thenComparing(Comparator.comparingInt(total -> -total.getDamageDealt()));
+                .thenComparing(Comparator.comparingDouble(total -> -total.getPower()));
     }
     @Override
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
         return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -(result.getResultOrBuilder().getWin()?1:0))
-                .thenComparing(Comparator.comparingInt(result -> result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt()))
-                .thenComparing(Comparator.comparingInt(result -> -result.getResultOrBuilder().getCombatantsOrBuilder(0).getDamageDealt())); 
+                .thenComparing(Comparator.comparingDouble(result -> result.getResultOrBuilder().getPower()));
     }
     
     @Override

@@ -1,9 +1,13 @@
 package com.pokebattler.fight.ranking.filter;
 
+import java.util.Collection;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
+import com.pokebattler.fight.data.PokemonRepository;
+import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
 
 @Component
@@ -65,6 +69,14 @@ public class CountersFilter implements RankingsFilter {
 			return false;
 		return true;
 	}
+	@Override
+	public boolean compressResults() {
+		return false;
+	}
+	@Override
+    public Collection<Pokemon> getDefenders(PokemonRepository repository) {
+    	return repository.getAllEndGame().getPokemonList();
+    }
 
     
 }

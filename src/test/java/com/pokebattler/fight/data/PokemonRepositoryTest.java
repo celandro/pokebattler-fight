@@ -3,6 +3,9 @@ package com.pokebattler.fight.data;
 import static org.junit.Assert.*;
 
 import java.io.IOException;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -12,6 +15,7 @@ import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemons;
 import com.pokebattler.fight.data.raw.RawData;
+import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 
 public class PokemonRepositoryTest {
 	IndividualPokemonRepository p;
@@ -77,5 +81,25 @@ public class PokemonRepositoryTest {
 						.max().getAsInt());
 	}
 
+	@Test
+	public void testGetDefenders() throws Exception {
+		p = new IndividualPokemonRepository();
+		final CpMRepository cpmRepository = new CpMRepository();
+		final Formulas f = new Formulas();
+		final PokemonData data = PokemonData.newBuilder().setIndividualAttack(15).setIndividualDefense(15)
+				.setIndividualStamina(15).setLevel("40").build();
+		f.setCpmRepository(cpmRepository);
+		//top 30 end game
+		List<Pokemon> sorted = p.getAll().getPokemonList().stream()
+				.filter(pokemon -> PokemonRepository.END_GAME_POKEMONS.contains(pokemon.getPokemonId()))
+				.sorted(Comparator.<Pokemon>comparingInt(pokemon -> -f.calculateCp(data, pokemon)))
+				.collect(Collectors.toList());
+		for (int i = 0; i < 30; i++) {
+			assertTrue("Should have contained " + sorted.get(i).getPokemonId(), 
+					PokemonRepository.END_GAME_DEFENDER_POKEMONS.contains(sorted.get(i).getPokemonId()));
+		}
+		assertEquals(127, PokemonRepository.END_GAME_POKEMONS.size());
+
+	}
 
 }
