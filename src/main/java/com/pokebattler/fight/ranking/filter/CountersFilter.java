@@ -70,10 +70,6 @@ public class CountersFilter implements RankingsFilter {
 		return true;
 	}
 	@Override
-	public boolean compressResults() {
-		return false;
-	}
-	@Override
     public Collection<Pokemon> getDefenders(PokemonRepository repository) {
     	return repository.getAllEndGame().getPokemonList();
     }
