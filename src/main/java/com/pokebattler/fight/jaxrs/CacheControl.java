@@ -12,4 +12,6 @@ import javax.ws.rs.NameBinding;
 @Retention(value = RetentionPolicy.RUNTIME)
 public @interface CacheControl {
     String value() default "public, must-revalidate";
+    public final static String CACHE_ONE_HOUR = "public, max-age=3600";
+
 }

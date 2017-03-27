@@ -35,7 +35,7 @@ public class PokemonResource {
     @GET
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Pokemons getAll() throws Exception {
         return repository.getAll();
     }
@@ -44,7 +44,7 @@ public class PokemonResource {
     @Path("ids")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Map<String, Map<String, String>> getIds(@PathParam("pokemonId") int pokemonId) throws Exception {
         final Map<String, Map<String, String>> idMap = new TreeMap<>();
         idMap.put("ids", repository.getIdToNameMap());
@@ -55,7 +55,7 @@ public class PokemonResource {
     @Path("ids/{pokemonId}")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Pokemon getById(@PathParam("pokemonId") int pokemonId) throws Exception {
         return repository.getByNumber(pokemonId);
     }
@@ -64,7 +64,7 @@ public class PokemonResource {
     @Path("names")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Map<String, Map<String, Integer>> getNames(@PathParam("pokemonId") int pokemonId) throws Exception {
         final Map<String, Map<String, Integer>> nameMap = new TreeMap<>();
         nameMap.put("name", repository.getNameToIdMap());
@@ -75,7 +75,7 @@ public class PokemonResource {
     @Path("names/{pokemonName}")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Pokemon getByName(@PathParam("pokemonName") String pokemonName) throws Exception {
         return repository.getByName(pokemonName);
     }

@@ -53,31 +53,7 @@ public class FightResource {
     }
 
 
-    /*
-     * Example url:
-     * http://localhost:8080/fights/attackers/SNORLAX/quickMoves/LICK_FAST/
-     * cinMoves/BODY_SLAM/levels/20/defenders/VAPOREON/quickMoves/WATER_GUN_FAST
-     * /cinMoves/AQUA_TAIL/levels/20/strategies/QUICK_ATTACK_ONLY
-     */
-    @GET
-    @Path("attackers/{attackerId}/quickMoves/{move1}/cinMoves/{move2}/levels/{attackerLevel}/defenders/{defenderId}"
-            + "/quickMoves/{dmove1}/cinMoves/{dmove2}/levels/{defenderLevel}/strategies/{strategy}")
-    @Produces("application/json")
-    @ETag
-    @CacheControl("max-age=86000")
-    public FightResult fightByLevel(@PathParam("attackerId") PokemonId attackerId, @PathParam("move1") PokemonMove move1,
-            @PathParam("move2") PokemonMove move2, @PathParam("attackerLevel") String attackerLevel,
-            @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
-            @PathParam("strategy") AttackStrategyType strategy, @PathParam("dmove1") PokemonMove dmove1,
-            @PathParam("dmove2") PokemonMove dmove2) {
-        log.debug(
-                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, attackerLevel {}, defenderLevel {}",
-                attackerId, defenderId, move1, move2, strategy, attackerLevel, defenderLevel);
-        final PokemonData attacker = creator.createMaxStatPokemon(attackerId, attackerLevel, move1, move2);
-        final PokemonData defender = creator.createMaxStatPokemon(defenderId, defenderLevel, dmove1, dmove2);
-        return simulator.calculateAttackDPS(attacker, defender, strategy);
 
-    }
 
     /*
      * Example url:
@@ -102,11 +78,22 @@ public class FightResource {
         final PokemonData attacker = creator.createMaxStatPokemon(attackerId, attackerLevel, move1, move2);
         final PokemonData defender = creator.createMaxStatPokemon(defenderId, defenderLevel, dmove1, dmove2);
 
-        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
         final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
     }
+
+
+
+
+	private javax.ws.rs.core.CacheControl createCacheControl(AttackStrategyType attackStrategy,
+			AttackStrategyType defenseStrategy) {
+		final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 3600);
+        cacheControl.setPrivate(false);
+        cacheControl.setNoTransform(false);
+		return cacheControl;
+	}
 
     /*
      * Example url:
@@ -132,8 +119,7 @@ public class FightResource {
         final PokemonData defender = creator.createPokemon(defenderId, defenderLevel, defenderIV.getAttack(), defenderIV.getDefense(),
                 defenderIV.getStamina(), dmove1, dmove2);
 
-        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
         final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
     }    
@@ -161,8 +147,7 @@ public class FightResource {
                 attackerIV.getStamina(), move1, move2);
         final PokemonData defender = creator.createPokemon(defenderId, defenderCp, dmove1, dmove2);
 
-        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
         final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
     }    
@@ -189,8 +174,7 @@ public class FightResource {
         final PokemonData defender = creator.createPokemon(defenderId, defenderLevel, defenderIV.getAttack(), defenderIV.getDefense(),
                 defenderIV.getStamina(), dmove1, dmove2);
 
-        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
         final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
     }    
@@ -221,8 +205,7 @@ public class FightResource {
         // set caching based on wether the result is random
         // TODO: refactor this to strategy pattern or change to a parameter?
         // maybe a query parameter to seed the rng?
-        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
+        final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
         final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
 

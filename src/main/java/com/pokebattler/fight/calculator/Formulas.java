@@ -140,16 +140,29 @@ public class Formulas {
         return damage;
     }
 
-    public int defensePrestigeGain(double attack, double... defenses) {
+    public int defensePrestigeGain(double attackCP, double... defenseCPs) {
         int prestigeGain = 0;
-        for (final double defense : defenses) {
-            if (attack < defense) {
-                prestigeGain += Math.min(1000, (int) (500.0 * defense / attack));
+        for (final double defenseCP : defenseCPs) {
+            if (attackCP <= defenseCP) {
+                prestigeGain += Math.min(1000, (int) (500.0 * defenseCP / attackCP));
             } else {
-                prestigeGain += Math.max(100, (int) (310.0 * defense / attack - 55)) ;
+                prestigeGain += Math.max(100, (int) (310.0 * defenseCP / attackCP - 55)) ;
             }
         }
         return prestigeGain;
+    }
+    public int getCPForPrestigeTarget(double defenseCP, int prestige) {
+    	// this range does not exist
+    	if ( (prestige >= 255 && prestige <= 499) || prestige > 1000 || prestige < 100) {
+    		throw new IllegalArgumentException (prestige + " is not a valid possible prestige amount");
+    	} 
+    	
+    	if (prestige >= 500) {
+    		return (int) (defenseCP * 500.0 / prestige);
+    	} 
+    	else {
+    		return (int) (310.0 * defenseCP/ (prestige + 55));
+    	}
     }
 
     public int energyGain(int damage) {

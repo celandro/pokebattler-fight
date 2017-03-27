@@ -1,6 +1,7 @@
 package com.pokebattler.fight.calculator;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -79,5 +80,22 @@ public class FormulasTest {
         
     }
     
+    @Test
+    public void testPrestige() {
+    	for (int i=100; i<= 1000; i++) {
+    		try {
+	    		int cp = formulas.getCPForPrestigeTarget(3000, i);
+	    		assertEquals( "Was not the same for prestige " + i + " cp " + cp , i, formulas.defensePrestigeGain(cp, 3000));
+    		} catch (IllegalArgumentException e) {
+    			if (i < 100 || i> 1000 || (i >=255 & i<=499)) {
+    				//expected
+    			} else {
+    				fail(e.getMessage());
+    			}
+    		}
+    	}
+    		
+    	
+    }
 
 }

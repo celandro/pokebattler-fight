@@ -34,7 +34,7 @@ public class MoveResource {
     @GET
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Moves getAll() throws Exception {
         return repository.getAll();
     }
@@ -43,7 +43,7 @@ public class MoveResource {
     @Path("ids")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Map<String, Map<String, String>> getIds(@PathParam("pokemonId") int pokemonId) throws Exception {
         final Map<String, Map<String, String>> idMap = new TreeMap<>();
         idMap.put("ids", repository.getIdToNameMap());
@@ -54,7 +54,7 @@ public class MoveResource {
     @Path("ids/{moveId}")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Move getById(@PathParam("moveId") int moveId) throws Exception {
         return repository.getByNumber(moveId);
     }
@@ -63,7 +63,7 @@ public class MoveResource {
     @Path("names")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Map<String, Map<String, Integer>> getNames(@PathParam("pokemonId") int pokemonId) throws Exception {
         final Map<String, Map<String, Integer>> nameMap = new TreeMap<>();
         nameMap.put("name", repository.getNameToIdMap());
@@ -74,7 +74,7 @@ public class MoveResource {
     @Path("names/{moveName}")
     @Produces("application/json")
     @ETag
-    @CacheControl("max-age=86000")
+    @CacheControl(CacheControl.CACHE_ONE_HOUR)
     public Move getByName(@PathParam("moveName") String moveName) throws Exception {
         return repository.getByName(moveName);
     }

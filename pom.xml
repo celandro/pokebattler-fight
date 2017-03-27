@@ -3,7 +3,7 @@
 
     <groupId>com.pokebattler</groupId>
     <artifactId>fight</artifactId>
-    <version>1.6.0-SNAPSHOT</version>
+    <version>1.8.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>PokeBattler Fight</name>
@@ -82,6 +82,11 @@
             <artifactId>etag-response-filter</artifactId>
             <version>1.0</version>
         </dependency>
+		<dependency>
+		    <groupId>org.mitre.dsmiley.httpproxy</groupId>
+		    <artifactId>smiley-http-proxy-servlet</artifactId>
+		    <version>1.9</version>
+		</dependency>        
     </dependencies>
     <profiles>
       <profile>

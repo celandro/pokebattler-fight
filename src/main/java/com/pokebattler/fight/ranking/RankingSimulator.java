@@ -46,8 +46,6 @@ public class RankingSimulator {
     PokemonRepository pokemonRepository;
     @Resource
     MoveRepository moveRepository;
-    @Resource
-    PokemonDataCreator creator;
 
     Logger log = LoggerFactory.getLogger(getClass());
 
@@ -56,8 +54,6 @@ public class RankingSimulator {
                 .setDefenseStrategy(params.getDefenseStrategy());
         final List<AttackerResult.Builder> results = params.getFilter().getAttackers(pokemonRepository).parallelStream().map((attacker) -> {
             Builder result = rankAttacker(attacker, params);
-            log.debug("{} Ranked for {} {} {} {}",attacker.getPokemonId(), params.getAttackerLevel(), params.getDefenderLevel(), 
-                    params.getAttackStrategy().name(), params.getDefenseStrategy().name());
             return result;
         }).collect(Collectors.toList());
         
@@ -73,7 +69,7 @@ public class RankingSimulator {
         final ArrayList<AttackerSubResult.Builder> results = new ArrayList<>();
         final AttackerResult.Builder retval = AttackerResult.newBuilder().setPokemonId(attacker.getPokemonId());
         attacker.getMovesetsList().forEach((moveset) -> {
-            final PokemonData attackerData = creator.createMaxStatPokemon(attacker.getPokemonId(), params.getAttackerLevel(), 
+            final PokemonData attackerData = params.getAttackerCreator().createPokemon(attacker.getPokemonId(), 
             		moveset.getQuickMove(), moveset.getCinematicMove());
             // yes we set this a few times its ok
             retval.setCp(attackerData.getCp());
@@ -135,7 +131,7 @@ public class RankingSimulator {
         final ArrayList<DefenderSubResult.Builder> results = new ArrayList<>();
         
         defender.getMovesetsList().forEach((moveset) -> {
-            final PokemonData defenderData = creator.createMaxStatPokemon(defender.getPokemonId(), params.getAttackerLevel(), 
+            final PokemonData defenderData = params.getDefenderCreator().createPokemon(defender.getPokemonId(),
             		moveset.getQuickMove(), moveset.getCinematicMove());
                 // yes we set this a few times its ok
             retval.setCp(defenderData.getCp());

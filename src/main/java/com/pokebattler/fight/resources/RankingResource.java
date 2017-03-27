@@ -20,69 +20,81 @@ import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.ranking.CachingRankingSimulator;
+import com.pokebattler.fight.ranking.ExactStatPokemonCreator;
 
 @Component
 @Path("/rankings")
 public class RankingResource {
 
-    @Resource
-    CachingRankingSimulator simulator;
-    @Resource
-    Formulas formulas;
-    @Resource
-    PokemonDataCreator creator;
+	@Resource
+	CachingRankingSimulator simulator;
+	@Resource
+	Formulas formulas;
+	@Resource
+	PokemonDataCreator creator;
 
-    public static final String MAX_LEVEL = "40";
-    public static final int MAX_INDIVIDUAL_STAT = 15;
-    public Logger log = LoggerFactory.getLogger(getClass());
+	public static final String MAX_LEVEL = "40";
+	public static final int MAX_INDIVIDUAL_STAT = 15;
+	public Logger log = LoggerFactory.getLogger(getClass());
+	public static final int ONE_HOUR = 3600;
 
-    @GET
-    @Path("attackers/levels/{attackerLevel}/defenders/levels/{defenderLevel}/strategies/{attackStrategy}/{defenseStrategy}")
-    @Produces("application/json")
-    @ETag
-    public Response rankAttacker(@PathParam("attackerLevel") String attackerLevel,
-            @PathParam("defenderLevel") String defenderLevel,
-            @PathParam("attackStrategy") AttackStrategyType attackStrategy,
-            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-            @DefaultValue("POWER") @QueryParam("sort") SortType sortType,
-            @DefaultValue("NO_FILTER") @QueryParam("filterType") FilterType filterType,
-            @QueryParam("filterValue") String filterValue) {
-        log.debug("Calculating attacker rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}", attackerLevel, defenderLevel, attackStrategy,
-                defenseStrategy, sortType);
-        // set caching based on wether the result is random
-        // TODO: refactor this to strategy pattern or change to a parameter?
-        // maybe a query parameter to seed the rng?
-        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
-        return Response.ok(simulator.rankAttacker(attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType, filterType, filterValue)).cacheControl(cacheControl).build();
+	@GET
+	@Path("attackers/levels/{attackerLevel}/defenders/levels/{defenderLevel}/strategies/{attackStrategy}/{defenseStrategy}")
+	@Produces("application/json")
+	@ETag
+	public Response rankAttacker(@PathParam("attackerLevel") String attackerLevel,
+			@PathParam("defenderLevel") String defenderLevel,
+			@PathParam("attackStrategy") AttackStrategyType attackStrategy,
+			@PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
+			@DefaultValue("POWER") @QueryParam("sort") SortType sortType,
+			@DefaultValue("NO_FILTER") @QueryParam("filterType") FilterType filterType,
+			@QueryParam("filterValue") String filterValue) {
+		log.debug(
+				"Calculating attacker rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}",
+				attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType);
+		// set caching based on wether the result is random
+		// TODO: refactor this to strategy pattern or change to a parameter?
+		// maybe a query parameter to seed the rng?
+		final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+		cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : ONE_HOUR);
+		cacheControl.setPrivate(false);
+		cacheControl.setNoTransform(false);
+		return Response.ok(simulator.rankAttacker(attackStrategy, defenseStrategy, sortType, filterType, filterValue,
+				new ExactStatPokemonCreator(creator, attackerLevel), new ExactStatPokemonCreator(creator, defenderLevel)))
+				.cacheControl(cacheControl).build();
 
-    }
-    @GET
-    @Path("defenders/levels/{defenderLevel}/attackers/levels/{attackerLevel}/strategies/{defenseStrategy}/{attackStrategy}")
-    @Produces("application/json")
-    @ETag
-    public Response rankDefender(@PathParam("attackerLevel") String attackerLevel,
-            @PathParam("defenderLevel") String defenderLevel,
-            @PathParam("attackStrategy") AttackStrategyType attackStrategy,
-            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-            @DefaultValue("POWER") @QueryParam("sort") SortType sortType,
-            @DefaultValue("COUNTERS") @QueryParam("filterType") FilterType filterType,
-            @DefaultValue("5") @QueryParam("filterValue") String filterValue) {
-        log.debug("Calculating defender rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}", attackerLevel, defenderLevel, attackStrategy,
-                defenseStrategy, sortType);
-        // set caching based on wether the result is random
-        // TODO: refactor this to strategy pattern or change to a parameter?
-        // maybe a query parameter to seed the rng?
-        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : 86000);
-        return Response.ok(simulator.rankDefender(attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType,filterType, filterValue)).cacheControl(cacheControl).build();
+	}
 
-    }
-    
+	@GET
+	@Path("defenders/levels/{defenderLevel}/attackers/levels/{attackerLevel}/strategies/{defenseStrategy}/{attackStrategy}")
+	@Produces("application/json")
+	@ETag
+	public Response rankDefender(@PathParam("attackerLevel") String attackerLevel,
+			@PathParam("defenderLevel") String defenderLevel,
+			@PathParam("attackStrategy") AttackStrategyType attackStrategy,
+			@PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
+			@DefaultValue("POWER") @QueryParam("sort") SortType sortType,
+			@DefaultValue("COUNTERS") @QueryParam("filterType") FilterType filterType,
+			@DefaultValue("5") @QueryParam("filterValue") String filterValue) {
+		log.debug(
+				"Calculating defender rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}",
+				attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType);
+		// set caching based on wether the result is random
+		// TODO: refactor this to strategy pattern or change to a parameter?
+		// maybe a query parameter to seed the rng?
+		final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+		cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : ONE_HOUR);
+		cacheControl.setPrivate(false);
+		cacheControl.setNoTransform(false);
+		return Response.ok(simulator.rankDefender(attackStrategy, defenseStrategy, sortType, filterType, filterValue,
+				new ExactStatPokemonCreator(creator, attackerLevel), new ExactStatPokemonCreator(creator, defenderLevel)))
+				.cacheControl(cacheControl).build();
 
-    private boolean isRandom(AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
-        return defenseStrategy == AttackStrategyType.DEFENSE_RANDOM;
+	}
 
-    }
+	private boolean isRandom(AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
+		return defenseStrategy == AttackStrategyType.DEFENSE_RANDOM;
+
+	}
 
 }

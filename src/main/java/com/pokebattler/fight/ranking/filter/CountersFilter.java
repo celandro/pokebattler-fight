@@ -46,6 +46,7 @@ public class CountersFilter implements RankingsFilter {
         return numForTotal;
     }
     
+    
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -69,10 +70,15 @@ public class CountersFilter implements RankingsFilter {
 			return false;
 		return true;
 	}
+
 	@Override
     public Collection<Pokemon> getDefenders(PokemonRepository repository) {
     	return repository.getAllEndGame().getPokemonList();
     }
+	@Override
+	public boolean compressResults() {
+		return false;
+	}
 
     
 }

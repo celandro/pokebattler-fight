@@ -189,35 +189,35 @@ public class AttackSimulator {
                 
         }
         int prestige = (defenderState.isAlive())?0:f.defensePrestigeGain(attacker.getCp(), defender.getCp());
-        fightResult.setWin(!defenderState.isAlive() ^ !isDefender(defenderStrategy) ).setTotalCombatTime(currentTime).setPrestige(prestige)
+        fightResult.setWin(!defenderState.isAlive()  ).setTotalCombatTime(currentTime).setPrestige(prestige)
                 .addCombatants(attackerState.toResult(Combatant.ATTACKER1, attackerStrategy.getType(), currentTime))
                 .addCombatants(defenderState.toResult(Combatant.DEFENDER, defenderStrategy.getType(), currentTime))
                 .setFightParameters(fight);
-        fightResult.setEffectiveCombatTime(getEffectiveCombatTime(fightResult));
         fightResult.setPowerLog(getPower(fightResult));
         fightResult.setPower(Math.pow(10, fightResult.getPowerLog()));
+        fightResult.setEffectiveCombatTime(getEffectiveCombatTime(fightResult));
         return fightResult;
     }
     int getEffectiveCombatTime(FightResult.Builder result) {
     	double multiplier = 1.0;
-        	if (result.getWin()) {
-        		if (isDefender(result.getFightParameters().getStrategy())) {
-//	                CombatantResultOrBuilder attacker = result.getCombatantsOrBuilder(0);
-//	                multiplier = Math.min(MAX_RATIO, attacker.getStartHp()/ (double)(attacker.getStartHp() - attacker.getEndHp()) );
-        		}
-        	} else {
-        		if (isDefender(result.getFightParameters().getDefenseStrategy())) {
-	                CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(1);
-	                multiplier = Math.min(MAX_RATIO, defender.getStartHp()/ (double)(defender.getStartHp() - defender.getEndHp()) );
-        		}  else {
-	                CombatantResultOrBuilder attacker = result.getCombatantsOrBuilder(0);
-	                multiplier = Math.min(MAX_RATIO, attacker.getStartHp()/ (double)(attacker.getStartHp() - attacker.getEndHp()) );
-        			
-        		}
-        	}
-        	
-    	return (int) Math.round(result.getTotalCombatTime() * multiplier + 10000 *( multiplier-1.0));
-    	
+		if (isDefender(result.getFightParameters().getStrategy())) {
+    		if (result.getWin()) {
+				// the defender won, penalize the attacker (defender variable
+                CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(0);
+                multiplier = Math.min(MAX_RATIO, defender.getStartHp()/ (double)(defender.getStartHp() - defender.getEndHp()) );
+    		}  else {
+    			// the defender lost, do not penalize
+    		}
+    	} else {
+			if (result.getWin()) {
+				// attacker won, no penalty
+    		} else {
+                CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(1);
+                multiplier = Math.min(MAX_RATIO, defender.getStartHp()/ (double)(defender.getStartHp() - defender.getEndHp()) );
+    		}
+    	}
+    	return (int) Math.round(result.getTotalCombatTime() * multiplier + 10000 *((int)( multiplier-1.0)));
+
     }
     double getPower(FightResult.Builder result) {
         CombatantResultOrBuilder attacker = result.getCombatantsOrBuilder(0);

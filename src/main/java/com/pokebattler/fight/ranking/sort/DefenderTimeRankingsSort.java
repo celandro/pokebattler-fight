@@ -22,7 +22,7 @@ public class DefenderTimeRankingsSort implements RankingsSort{
     public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
         // a win counts as a big delay
     	// wins first
-    	return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> result.getResultOrBuilder().getEffectiveCombatTime())
+    	return Comparator.<DefenderSubResultOrBuilder>comparingInt(result -> -result.getResultOrBuilder().getEffectiveCombatTime())
                 .thenComparing(Comparator.comparingDouble(result -> -result.getResultOrBuilder().getPower()));
     }
     
