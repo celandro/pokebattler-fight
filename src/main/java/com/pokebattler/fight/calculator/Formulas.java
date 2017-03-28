@@ -158,7 +158,7 @@ public class Formulas {
     	} 
     	
     	if (prestige >= 500) {
-    		return (int) (defenseCP * 500.0 / prestige);
+    		return Math.max(10, (int) (defenseCP * 500.0 / prestige));
     	} 
     	else {
     		return (int) (310.0 * defenseCP/ (prestige + 55));

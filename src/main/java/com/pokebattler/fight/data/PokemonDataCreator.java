@@ -147,13 +147,12 @@ public class PokemonDataCreator {
         retval.setCp(f.calculateCp(retval,p));
         return retval.build();
     }
+    public MiniPokemonData findPokemonStats(PokemonId id, int cp) {
+    	return findPokemonStatsEntry(id, cp).getValue();
+    }
 
     public PokemonData createPokemon(PokemonId id, int cp, PokemonMove move1, PokemonMove move2) {
-        final TreeMap<Integer, MiniPokemonData> pokemonMap = cpLookupMap.get(id);
-        if (cp < pokemonMap.firstKey()) {
-            cp = pokemonMap.firstKey();
-        }
-        final Entry<Integer, MiniPokemonData> cpEntry = pokemonMap.floorEntry(cp);
+        final Entry<Integer, MiniPokemonData> cpEntry = findPokemonStatsEntry(id, cp);
         final MiniPokemonData mpd = cpEntry.getValue();
         // need more memory!
         // Collection<MiniPokemonData> possiblePokemon =
@@ -169,6 +168,14 @@ public class PokemonDataCreator {
                 .setIndividualAttack(mpd.getAttack()).setIndividualDefense(mpd.getDefense())
                 .setIndividualStamina(mpd.getStamina()).setCpMultiplier(cpm).setMove1(move1).setMove2(move2).build();
     }
+	private Entry<Integer, MiniPokemonData> findPokemonStatsEntry(PokemonId id, int cp) {
+		final TreeMap<Integer, MiniPokemonData> pokemonMap = cpLookupMap.get(id);
+        if (cp < pokemonMap.firstKey()) {
+            cp = pokemonMap.firstKey();
+        }
+        final Entry<Integer, MiniPokemonData> cpEntry = pokemonMap.floorEntry(cp);
+		return cpEntry;
+	}
 
     public PokemonData transform(PokemonData attacker, PokemonData defender) {
         Pokemon p = pokemonRepository.getById(defender.getPokemonId());

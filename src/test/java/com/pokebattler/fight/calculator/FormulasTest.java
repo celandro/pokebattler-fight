@@ -93,6 +93,7 @@ public class FormulasTest {
     				fail(e.getMessage());
     			}
     		}
+    		assertEquals(10, formulas.getCPForPrestigeTarget(15, 1000));
     	}
     		
     	
