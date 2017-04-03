@@ -9,7 +9,6 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Repository;
 
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
-import com.pokebattler.fight.data.proto.Ranking.SortType;
 
 @Repository
 public class FilterRegistry {
@@ -19,6 +18,8 @@ public class FilterRegistry {
     CountersFilter countersFilter;
     @Resource
     PokemonFilter pokemonFilter;
+    @Resource
+    PrestigeFilter prestigeFilter;
     
     
     private final static Map<FilterType,RankingsFilter> filters = new EnumMap<>(FilterType.class);
@@ -28,6 +29,7 @@ public class FilterRegistry {
         registerFilter(noFilter);
         registerFilter(countersFilter);
         registerFilter(pokemonFilter);
+        registerFilter(prestigeFilter);
     }    
     public boolean registerFilter(RankingsFilter filter) {
         return filters.put(filter.getType(), filter) != null;

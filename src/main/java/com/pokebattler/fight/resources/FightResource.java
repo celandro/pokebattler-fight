@@ -216,10 +216,15 @@ public class FightResource {
         private final int stamina;
         
         public IVWrapper(String iv) {
-            attack = Integer.decode("0x" + iv.charAt(0));
-            defense= Integer.decode("0x" + iv.charAt(1));
-            stamina = Integer.decode("0x" + iv.charAt(2));
+            this(Integer.decode("0x" + iv.charAt(0)), Integer.decode("0x" + iv.charAt(1)), 
+            		Integer.decode("0x" + iv.charAt(2)));
         }
+        public IVWrapper(int attack, int defense, int stamina) {
+        	this.attack = attack;
+        	this.defense = defense;
+        	this.stamina = stamina;
+        }
+
 
         public int getAttack() {
             return attack;

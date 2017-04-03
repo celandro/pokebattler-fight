@@ -11,6 +11,7 @@ enum SortType {
 	TIME = 2;
 	DPS = 3;
 	POTIONS = 4;
+	OVERALL = 5;
 }
 
 enum FilterType {
@@ -19,6 +20,7 @@ enum FilterType {
 	TOP = 2;
 	TYPE = 3;
 	POKEMON = 4;
+	PRESTIGE = 5;
 }
 message RankingResult {
 	repeated AttackerResult attackers = 1;
@@ -45,6 +47,7 @@ message SubResultTotal {
 	int32 num_losses = 5;
 	double power = 6;
 	int32 effective_combat_time = 7;
+	double potions = 8;
 }
 
 message DefenderResult {

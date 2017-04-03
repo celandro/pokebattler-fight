@@ -8,14 +8,31 @@ import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
 public class CPPokemonCreator implements PokemonCreator {
 	private final int cp;
 	private final PokemonDataCreator creator;
+	private final boolean capLevel;
 	public CPPokemonCreator(PokemonDataCreator creator, int cp) {
+		this(creator, cp, true);
+	}
+	public CPPokemonCreator(PokemonDataCreator creator, int cp, boolean capLevel) {
 		this.cp = cp;
 		this.creator = creator;
+		this.capLevel = capLevel;
 	}
 
 	@Override
 	public PokemonData createPokemon(PokemonId pokemon, PokemonMove quickMove, PokemonMove cinematicMove) {
-		return creator.createPokemon(pokemon, cp, quickMove, cinematicMove);
+		PokemonData data = creator.createPokemon(pokemon, cp, quickMove, cinematicMove);
+		if (capLevel) {
+			if (data.getCp() > cp) {
+				// can not be found
+				data = null;
+			} else 
+			// turn 30-40 into 30. Noone powers up a prestiger
+			if (Double.parseDouble(data.getLevel()) > 30.0) {
+				data = creator.createMaxStatPokemon(pokemon, "30", quickMove, cinematicMove);
+			}
+		}
+		return data;
+		
 	}
 
 	@Override

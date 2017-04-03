@@ -14,7 +14,7 @@
 # limitations under the License.
 # [END_EXCLUDE]
 runtime: java
-env: flex
+vm: true
 service: fight
 threadsafe: true
 
@@ -35,12 +35,12 @@ handlers:
 
 resources:
   cpu: 2
-  memory_gb: 1
+  memory_gb: 1.2
   
 automatic_scaling:
   min_num_instances: 1
   max_num_instances: 20
   cool_down_period_sec: 120 # default value
   cpu_utilization:
-    target_utilization: 0.5
+    target_utilization: 0.75
       

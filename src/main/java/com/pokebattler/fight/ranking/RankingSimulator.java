@@ -71,9 +71,11 @@ public class RankingSimulator {
         attacker.getMovesetsList().forEach((moveset) -> {
             final PokemonData attackerData = params.getAttackerCreator().createPokemon(attacker.getPokemonId(), 
             		moveset.getQuickMove(), moveset.getCinematicMove());
-            // yes we set this a few times its ok
-            retval.setCp(attackerData.getCp());
-            results.add(rankAttackerByMoves(attackerData, params));
+            if (attackerData != null) {
+	            // yes we set this a few times its ok
+	            retval.setCp(attackerData.getCp());
+	            results.add(rankAttackerByMoves(attackerData, params));
+            }
         });
         results.stream()
         .sorted(params.getSort().getAttackerSubResultComparator())
@@ -96,13 +98,15 @@ public class RankingSimulator {
         
         params.getFilter().getDefenders(pokemonRepository).stream().forEach((defender) -> {
             final DefenderResult.Builder rankDefender = subRankDefender(defender, attackerData, params);
-            // only retain the subtotals
-        	if (params.getFilter().compressResults()) {
-	            DefenderSubResult.Builder bestMove = rankDefender.getByMoveBuilder(0);
-	            rankDefender.clearByMove();
-	            rankDefender.addByMove(bestMove);
-        	}
-            results.add(rankDefender);
+            if (rankDefender.getTotal().getCombatTime() > 0) {
+	            // only retain the subtotals
+	        	if (params.getFilter().compressResults()) {
+		            DefenderSubResult.Builder bestMove = rankDefender.getByMoveBuilder(0);
+		            rankDefender.clearByMove();
+		            rankDefender.addByMove(bestMove);
+	        	}
+	            results.add(rankDefender);
+            }
         });
         // sort by winner first then damagetaken then damage dealt for tie breaker (unlikely)
         SubResultTotal.Builder subTotal = SubResultTotal.newBuilder();
@@ -118,6 +122,7 @@ public class RankingSimulator {
                     subTotal.setNumLosses(subTotal.getNumLosses() + subResultTotalBuilder.getNumLosses());
                     subTotal.setPower(subTotal.getPower() + subResultTotalBuilder.getPower());
                     subTotal.setEffectiveCombatTime(subTotal.getEffectiveCombatTime() + subResultTotalBuilder.getEffectiveCombatTime());
+                    subTotal.setPotions(subTotal.getPotions() + subResultTotalBuilder.getPotions());
                 	retval.addDefenders(result);
                 });
         
@@ -133,9 +138,11 @@ public class RankingSimulator {
         defender.getMovesetsList().forEach((moveset) -> {
             final PokemonData defenderData = params.getDefenderCreator().createPokemon(defender.getPokemonId(),
             		moveset.getQuickMove(), moveset.getCinematicMove());
-                // yes we set this a few times its ok
-            retval.setCp(defenderData.getCp());
-            results.add(subRankDefenderByMoves(attackerData, defenderData, params.getAttackStrategy(), params.getDefenseStrategy()));
+            if (defenderData != null) {
+	                // yes we set this a few times its ok
+	            retval.setCp(defenderData.getCp());
+	            results.add(subRankDefenderByMoves(attackerData, defenderData, params.getAttackStrategy(), params.getDefenseStrategy()));
+            }
         });
         
         SubResultTotal.Builder subTotal = SubResultTotal.newBuilder();
@@ -152,6 +159,7 @@ public class RankingSimulator {
                     subTotal.setDamageTaken(subTotal.getDamageTaken() + result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt());
                     subTotal.setPower(subTotal.getPower() + result.getResultOrBuilder().getPowerLog());
                     subTotal.setEffectiveCombatTime(subTotal.getEffectiveCombatTime() + result.getResultOrBuilder().getEffectiveCombatTime());
+                    subTotal.setPotions(subTotal.getPotions() + result.getResultOrBuilder().getPotions());
                 	if (params.getFilter().compressResults()) {
                         // reduce the json size a ton
 	                    result.clearResult();

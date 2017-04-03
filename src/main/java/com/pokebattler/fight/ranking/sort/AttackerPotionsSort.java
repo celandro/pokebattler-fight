@@ -13,21 +13,18 @@ public class AttackerPotionsSort implements RankingsSort {
 	public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
 		// we will count a death as 100 damage
 		return Comparator
-				.<SubResultTotalOrBuilder>comparingInt(total -> (total.getDamageTaken() + total.getNumLosses() * 100) 
-						/ (total.getNumWins() + total.getNumLosses()))
+				.<SubResultTotalOrBuilder>comparingDouble(total -> total.getPotions())
 				.thenComparing(Comparator.comparingDouble(total -> -total.getPower()));
 
 	}
 
 	@Override
 	public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
-		// death counts as 100 damage
 		return Comparator
-				.<DefenderSubResultOrBuilder>comparingInt(
-						result -> result.getResultOrBuilder().getCombatantsOrBuilder(1).getDamageDealt()
-								+ (result.getResultOrBuilder().getWin() ? 0 : 100))
+				.<DefenderSubResultOrBuilder>comparingDouble( result -> result.getResultOrBuilder().getPotions())
 				.thenComparing(Comparator.comparingDouble(result -> -result.getResultOrBuilder().getPower()));
 	}
+//    let deaths = (1/details.byMove[0].result.power);
 
 	@Override
 	public SortType getType() {

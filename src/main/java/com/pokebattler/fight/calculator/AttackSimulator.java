@@ -188,35 +188,73 @@ public class AttackSimulator {
             }
                 
         }
-        int prestige = (defenderState.isAlive())?0:f.defensePrestigeGain(attacker.getCp(), defender.getCp());
-        fightResult.setWin(!defenderState.isAlive()  ).setTotalCombatTime(currentTime).setPrestige(prestige)
+        fightResult.setTotalCombatTime(currentTime)
                 .addCombatants(attackerState.toResult(Combatant.ATTACKER1, attackerStrategy.getType(), currentTime))
                 .addCombatants(defenderState.toResult(Combatant.DEFENDER, defenderStrategy.getType(), currentTime))
                 .setFightParameters(fight);
+        fightResult.setWin(getWin(fightResult));
+        fightResult.setPrestige(getPrestigeGain(fightResult));
         fightResult.setPowerLog(getPower(fightResult));
         fightResult.setPower(Math.pow(10, fightResult.getPowerLog()));
         fightResult.setEffectiveCombatTime(getEffectiveCombatTime(fightResult));
+        fightResult.setPotions(getPotions(fightResult));
         return fightResult;
     }
+    
+    boolean getWin(FightResult.Builder result) {
+    	if (isDefender(result.getFightParameters().getDefenseStrategy())) {
+    		return result.getCombatants(1).getEndHp() <= 0;
+    	} else {
+    		return result.getCombatants(0).getEndHp() > 0;
+    	}
+    	
+    }
+    double getPotions (FightResult.Builder result) {
+    	int deaths ;
+    	int damageDealt;
+    	if (isDefender(result.getFightParameters().getDefenseStrategy())) {
+    		deaths = (int) (1.0/result.getPower());
+    		damageDealt = result.getCombatants(1).getDamageDealt();
+    	} else {
+    		deaths = (int) result.getPower();
+    		damageDealt = result.getCombatants(0).getDamageDealt();
+    	}
+    	// add in extra potions for deaths. 
+        return damageDealt/20.0 +  deaths * 5 + deaths * (damageDealt/2)/20.0;
+    }
+    int getPrestigeGain(FightResult.Builder result) {
+    	if (isDefender(result.getFightParameters().getDefenseStrategy())) {
+    		if (result.getWin()) {
+    			return f.defensePrestigeGain(result.getCombatantsOrBuilder(0).getCp(), result.getCombatantsOrBuilder(1).getCp());
+    		}
+    	} else {
+    		if (!result.getWin()) {
+    			return f.defensePrestigeGain(result.getCombatantsOrBuilder(1).getCp(), result.getCombatantsOrBuilder(0).getCp());
+    		}
+    	}
+    	return 0;
+    }
     int getEffectiveCombatTime(FightResult.Builder result) {
-    	double multiplier = 1.0;
-		if (isDefender(result.getFightParameters().getStrategy())) {
+    	final double multiplier;
+		if (isDefender(result.getFightParameters().getDefenseStrategy())) {
+			if (result.getWin()) {
+				// attacker won, no penalty
+				return result.getTotalCombatTime();
+    		} else {
+                CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(1);
+                multiplier = defender.getStartHp()/((double)(defender.getStartHp() - defender.getEndHp()));
+    		}
+    	} else {
     		if (result.getWin()) {
 				// the defender won, penalize the attacker (defender variable
                 CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(0);
-                multiplier = Math.min(MAX_RATIO, defender.getStartHp()/ (double)(defender.getStartHp() - defender.getEndHp()) );
+                multiplier = defender.getStartHp()/((double)(defender.getStartHp() - defender.getEndHp()));
     		}  else {
     			// the defender lost, do not penalize
-    		}
-    	} else {
-			if (result.getWin()) {
-				// attacker won, no penalty
-    		} else {
-                CombatantResultOrBuilder defender = result.getCombatantsOrBuilder(1);
-                multiplier = Math.min(MAX_RATIO, defender.getStartHp()/ (double)(defender.getStartHp() - defender.getEndHp()) );
+				return result.getTotalCombatTime();
     		}
     	}
-    	return (int) Math.round(result.getTotalCombatTime() * multiplier + 10000 *((int)( multiplier-1.0)));
+    	return (int) Math.round(result.getTotalCombatTime() * multiplier) + Formulas.LOSS_TIME_MS *((int)( multiplier));
 
     }
     double getPower(FightResult.Builder result) {

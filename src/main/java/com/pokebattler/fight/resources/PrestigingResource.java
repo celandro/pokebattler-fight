@@ -46,7 +46,7 @@ public class PrestigingResource {
 
     @GET
     @Path("defenders/{defenderId}/levels/{defenderLevel}/ivs/{defenderIV}"
-    		+ "/prestige/{prestigeTarget}/strategies/{defenseStrategy}/{attackStrategy}")
+    		+ "/prestige/{prestigeTarget}/strategies/{attackStrategy}/{defenseStrategy}")
     @Produces("application/json")
     @ETag
     public Response prestigeByLevel( @PathParam("defenderId") PokemonId defenderId,
@@ -66,18 +66,19 @@ public class PrestigingResource {
         cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : ONE_HOUR);
         cacheControl.setPrivate(false);
         cacheControl.setNoTransform(false);
-        ExactStatPokemonCreator defenderCreator = new ExactStatPokemonCreator(creator, defenderLevel, defenderIV.getAttack()
+        ExactStatPokemonCreator attackerCreator = new ExactStatPokemonCreator(creator, defenderLevel, defenderIV.getAttack()
         		, defenderIV.getDefense(), defenderIV.getStamina());
-        PokemonData fakeDefender = defenderCreator.createPokemon(defenderId, PokemonMove.SPLASH_FAST, PokemonMove.STRUGGLE);
+        PokemonData fakeDefender = attackerCreator.createPokemon(defenderId, PokemonMove.SPLASH_FAST, PokemonMove.STRUGGLE);
         int attackerCp = formulas.getCPForPrestigeTarget(fakeDefender.getCp(), prestigeTarget);
-        CPPokemonCreator attackerCreator = new CPPokemonCreator(creator, attackerCp);
-        return Response.ok(simulator.rankAttacker(attackStrategy, defenseStrategy, sortType, 
-        		FilterType.POKEMON, defenderId.name(), defenderCreator, attackerCreator)).cacheControl(cacheControl).build();
+        CPPokemonCreator defenderCreator = new CPPokemonCreator(creator, attackerCp);
+        return Response.ok(simulator.rankDefender(attackStrategy, defenseStrategy, sortType, 
+        		FilterType.PRESTIGE, defenderId.name(), defenderCreator, attackerCreator)).cacheControl(cacheControl).build();
+        
 
     }
     @GET
     @Path("defenders/{defenderId}/cp/{defenderCP}"
-    		+ "/prestige/{prestigeTarget}/strategies/{defenseStrategy}/{attackStrategy}")
+    		+ "/prestige/{prestigeTarget}/strategies/{attackStrategy}/{defenseStrategy}")
     @Produces("application/json")
     @ETag
     public Response prestigeByCp( @PathParam("defenderId") PokemonId defenderId,
@@ -89,21 +90,24 @@ public class PrestigingResource {
         log.debug("Calculating prestige rankings for defenderId {} defenderCP {}"
         		+ "attackStrategy {}, defenseStrategy {}, sortType {}", defenderId, defenderCP, attackStrategy,
                 defenseStrategy, sortType);
-        // set caching based on wether the result is random
-        // TODO: refactor this to strategy pattern or change to a parameter?
-        // maybe a query parameter to seed the rng?
-        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : ONE_HOUR);
-        cacheControl.setPrivate(false);
-        cacheControl.setNoTransform(false);
         MiniPokemonData data = creator.findPokemonStats(defenderId,  defenderCP);
-        ExactStatPokemonCreator defenderCreator = new ExactStatPokemonCreator(creator, data.getLevel(), data.getAttack(),
-        		data.getDefense(), data.getStamina());
-        PokemonData fakeDefender = defenderCreator.createPokemon(defenderId, PokemonMove.SPLASH_FAST, PokemonMove.STRUGGLE);
-        int attackerCp = formulas.getCPForPrestigeTarget(fakeDefender.getCp(), prestigeTarget);
-        CPPokemonCreator attackerCreator = new CPPokemonCreator(creator, attackerCp);
-        return Response.ok(simulator.rankAttacker(attackStrategy, defenseStrategy, sortType, 
-        		FilterType.POKEMON, defenderId.name(), defenderCreator, attackerCreator)).cacheControl(cacheControl).build();
+        IVWrapper defenderIV = new IVWrapper(data.getAttack(), data.getDefense(), data.getStamina());
+        return prestigeByLevel(defenderId, data.getLevel(), defenderIV, prestigeTarget, attackStrategy, defenseStrategy, sortType);
+        
+//        // set caching based on wether the result is random
+//        // TODO: refactor this to strategy pattern or change to a parameter?
+//        // maybe a query parameter to seed the rng?
+//        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
+//        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : ONE_HOUR);
+//        cacheControl.setPrivate(false);
+//        cacheControl.setNoTransform(false);
+//        ExactStatPokemonCreator attackerCreator = new ExactStatPokemonCreator(creator, data.getLevel(), data.getAttack(),
+//        		data.getDefense(), data.getStamina());
+//        PokemonData fakeDefender = attackerCreator.createPokemon(defenderId, PokemonMove.SPLASH_FAST, PokemonMove.STRUGGLE);
+//        int attackerCp = formulas.getCPForPrestigeTarget(fakeDefender.getCp(), prestigeTarget);
+//        CPPokemonCreator defenderCreator = new CPPokemonCreator(creator, attackerCp);
+//        return Response.ok(simulator.rankDefender(attackStrategy, defenseStrategy, sortType, 
+//        		FilterType.PRESTIGE, defenderId.name(), defenderCreator, attackerCreator)).cacheControl(cacheControl).build();
 
     }
     
