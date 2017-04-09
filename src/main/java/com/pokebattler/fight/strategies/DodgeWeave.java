@@ -65,6 +65,10 @@ public class DodgeWeave {
       this.expectedMinDefDelay = expectedMinDefDelay;
       dodgedSpecial = false;
   }
+  
+  public boolean isRandomStrategy(){
+      return expectedMinDefDelay <= 0;
+  }
 
   @Override
   public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
@@ -91,41 +95,48 @@ public class DodgeWeave {
               timeElapsed += move1.getDurationMs() + extraDelay;
               return new PokemonAttack(pokemon.getMove1(), extraDelay);
           } else {
-            // We here have to define how much time the attacker will wait to dodge.
-            // If we're waiting for a quick attack but we get a long windup charge instead we can maybe squeeze 
-            //   some quick attacks after realizing we're getting a charge move but before taking damage.
-
-            if(defenderState.isNextMoveSpecial()){
-              int moveStartTime = defenderState.getTimeToNextDamage() - defenderState.getNextMove().getDamageWindowStartMs();
-              int realizationTime = moveStartTime + CHARGE_REALIZATION_DELAY;
-              if(realizationTime < 0){
-                realizationTime = 0;
-              }
-              if(defenderState.getTimeToNextDamage() > realizationTime + move1.getDurationMs() + extraDelay){
-                // we can sneak in a normal attack after realization
+              if(isRandomStrategy() && r.nextDouble() < BASE_DODGE_MISS_RATE){ // missed a dodge it shouldn't have missed
+                // don't dodge just fire another quick attack.
                 dodgedSpecial = false;
-                timeElapsed += move1.getDurationMs() + realizationTime + extraDelay;
-                return new PokemonAttack(pokemon.getMove1(), realizationTime + extraDelay);
-              }
-            }
-          
-            if(expectedMinDefDelay != MIN_DEFENDER_DELAY_RANDOM || r.nextDouble() > BASE_DODGE_MISS_RATE){
-              // wait and dodge perfect
-              int dodgeWait = defenderState.getTimeToNextDamage()==Integer.MAX_VALUE?earliestNextDamageTime:defenderState.getTimeToNextDamage();
-              if(dodgeWait > 1000000 || dodgeWait < 0){
-                dodgeWait = 0;
-              }
+                timeElapsed += move1.getDurationMs() + extraDelay;
+                return new PokemonAttack(move1, extraDelay);
+              }else{
+                  // We here have to define how much time the attacker will wait to dodge.
+                  // If we're waiting for a quick attack but we get a long windup charge instead we can maybe squeeze 
+                  //   some quick attacks after realizing we're getting a charge move but before taking damage.
 
-              dodgedSpecial = defenderState.isNextMoveSpecial();
-              timeElapsed += DODGE_MOVE.getDurationMs() + Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME);
-              return new PokemonAttack(DODGE_MOVE,
-                    Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
-            }else{
-              //missed dodge
-              dodgedSpecial = false;
-              timeElapsed += move1.getDurationMs() + extraDelay;
-              return new PokemonAttack(pokemon.getMove1(), extraDelay);
-            }
+                  if(defenderState.isNextMoveSpecial()){
+                    int moveStartTime = defenderState.getTimeToNextDamage() - defenderState.getNextMove().getDamageWindowStartMs();
+                    int realizationTime = moveStartTime + CHARGE_REALIZATION_DELAY;
+                    if(realizationTime < 0){
+                      realizationTime = 0;
+                    }
+                    if(defenderState.getTimeToNextDamage() > realizationTime + move1.getDurationMs() + extraDelay){
+                      // we can sneak in a normal attack after realization
+                      dodgedSpecial = false;
+                      timeElapsed += move1.getDurationMs() + realizationTime + extraDelay;
+                      return new PokemonAttack(pokemon.getMove1(), realizationTime + extraDelay);
+                    }
+                  }
+          
+                  if(!isRandomStrategy() || r.nextDouble() > BASE_DODGE_MISS_RATE){
+                    // wait and dodge perfect
+                    int dodgeWait = defenderState.getTimeToNextDamage()==Integer.MAX_VALUE?earliestNextDamageTime:defenderState.getTimeToNextDamage();
+                    if(dodgeWait > 1000000 || dodgeWait < 0){
+                      dodgeWait = 0;
+                    }
+
+                    dodgedSpecial = defenderState.isNextMoveSpecial();
+                    timeElapsed += DODGE_MOVE.getDurationMs() + Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME);
+                    return new PokemonAttack(DODGE_MOVE,
+                          Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
+                  }else{
+                    //missed dodge
+                    dodgedSpecial = false;
+                    timeElapsed += move1.getDurationMs() + extraDelay;
+                    return new PokemonAttack(pokemon.getMove1(), extraDelay);
+                  }
+              }
           }
       }
       if(defenderState.getNumAttacks()<3){ //early battle
@@ -143,9 +154,9 @@ public class DodgeWeave {
       }else{
         if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta() &&
             (earliestNextDamageTime > move2.getDurationMs() + extraDelay + CAST_TIME
-                ||
-             dodgedSpecial
-              )) { // two conditions for firing specials, either we know it fits or we've just dodged a special.
+            ||
+            dodgedSpecial
+            )) { // two conditions for firing specials, either we know it fits or we've just dodged a special.
             dodgedSpecial = false;
             timeElapsed += move2.getDurationMs() + extraDelay + CAST_TIME;
             return new PokemonAttack(pokemon.getMove2(), extraDelay + CAST_TIME);
@@ -155,7 +166,6 @@ public class DodgeWeave {
           return new PokemonAttack(pokemon.getMove1(), extraDelay);
         }
       }
-
   }
 
   public int getDelay() {
@@ -201,8 +211,7 @@ public class DodgeWeave {
       
       int expectedDelayToUse = expectedMinDefDelay;
       
-      if(expectedDelayToUse == MIN_DEFENDER_DELAY_RANDOM ||
-          expectedDelayToUse == MIN_DEFENDER_DELAY_RANDOM_SPECIALS_ONLY){
+      if(isRandomStrategy()){
         if(lastDefenderAttack != defenderState.getNextAttack()){
           lastDefenderAttack = defenderState.getNextAttack();
           currentDelayToUse = REAL_MIN_DEFENDER_DELAY + (int)(r.nextDouble() * (1000 - (quickWindowStart/2))) + Math.max(0, quickWindowStart - chargeWindowStart); //randomly select expected delay
