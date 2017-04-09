@@ -79,7 +79,9 @@ public class DodgeWeave {
       if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0
               && !defenderState.isDodged()) {
           /** Removing ninja dodges since humans rarely have the reflex to do this.
-          if (defenderState.getTimeToNextDamage() <= Formulas.DODGE_WINDOW + extraDelay) {
+          if (defenderState.getTimeToNextDamage() <= Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME + extraDelay) {
+              dodgedSpecial = defenderState.isNextMoveSpecial();
+              timeElapsed += DODGE_MOVE.getDurationMs() + extraDelay;
               return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
           } else
           */
