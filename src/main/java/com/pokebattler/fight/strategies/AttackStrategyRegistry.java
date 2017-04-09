@@ -22,6 +22,12 @@ import com.pokebattler.fight.strategies.NoAttack.NoAttackBuilder;
 import com.pokebattler.fight.strategies.QuickAttackDodgeAll.QuickAttackDodgeAllBuilder;
 import com.pokebattler.fight.strategies.QuickAttackDodgeSpecials.QuickAttackDodgeSpecialsBuilder;
 import com.pokebattler.fight.strategies.QuickAttackOnly.QuickAttackOnlyBuilder;
+import com.pokebattler.fight.strategies.DodgeWeave.DodgeWeaveCautiousBuilder;
+import com.pokebattler.fight.strategies.DodgeWeave.DodgeWeaveReasonableBuilder;
+import com.pokebattler.fight.strategies.DodgeWeave.DodgeWeaveRiskyBuilder;
+import com.pokebattler.fight.strategies.DodgeWeave.DodgeWeaveSpecialsBuilder;
+import com.pokebattler.fight.strategies.DodgeWeave.DodgeWeaveHumanBuilder;
+import com.pokebattler.fight.strategies.DodgeWeave.DodgeWeaveSpecialsHumanBuilder;
 
 @Repository
 public class AttackStrategyRegistry {
@@ -50,6 +56,14 @@ public class AttackStrategyRegistry {
     QuickAttackDodgeAllBuilder strategy11;
     @Resource
     QuickAttackDodgeSpecialsBuilder strategy12;
+    @Resource
+    DodgeWeaveCautiousBuilder strategy13;
+    @Resource
+    DodgeWeaveSpecialsBuilder strategy14;
+    @Resource
+    DodgeWeaveHumanBuilder strategy15;
+    @Resource
+    DodgeWeaveSpecialsHumanBuilder strategy16;
 
     @PostConstruct
     public void init() {
@@ -66,6 +80,10 @@ public class AttackStrategyRegistry {
         register(strategy10);
         register(strategy11);
         register(strategy12);
+        register(strategy13);
+        register(strategy14);
+        register(strategy15);
+        register(strategy16);
     }
 
     public boolean register(AttackStrategy.AttackStrategyBuilder<?> strategyBuilder) {
