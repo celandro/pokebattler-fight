@@ -157,10 +157,7 @@ public class CombatantState {
         damageDealt += r.getDamage();
 
     }
-    int resetAttack(int time) {
-        // energy gets subtracted at the very end, no energy gain
-        int energyGain = nextMove.getEnergyDelta();
-        currentEnergy = Math.max(0, Math.min(defender ? 200 : 100, currentEnergy + energyGain));
+    void resetAttack(int time) {
         // reset things that happen inbetween attacks
         combatTime += time;
         timeSinceLastMove = 0; // -1 * delay;
@@ -168,7 +165,6 @@ public class CombatantState {
         nextMove = null;
         dodged = false;
         damageAlreadyOccurred = false;
-        return energyGain;
     }
     void moveTime(int time) {
         combatTime += time;
@@ -182,9 +178,12 @@ public class CombatantState {
                 .setCombatant(combatant).setId(getId()).build();
     }
 
-    public void setNextAttack(PokemonAttack nextAttack, Move nextMove) {
+    public int setNextAttack(PokemonAttack nextAttack, Move nextMove) {
         this.nextAttack = nextAttack;
         this.nextMove = nextMove;
+        int energyGain = nextMove.getEnergyDelta();
+        currentEnergy = Math.max(0, Math.min(defender ? 200 : 100, currentEnergy + energyGain));
+        return energyGain;
     }
 
     @Override

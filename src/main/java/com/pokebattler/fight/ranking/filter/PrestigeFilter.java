@@ -59,7 +59,7 @@ public class PrestigeFilter implements RankingsFilter {
     }
     @Override
     public int getNumWorstDefenderToKeep() {
-        return 30;
+        return 20;
     }
 
 	@Override

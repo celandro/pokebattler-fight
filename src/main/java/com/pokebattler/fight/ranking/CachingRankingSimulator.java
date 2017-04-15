@@ -35,7 +35,7 @@ public class CachingRankingSimulator {
 				}
 			});
 	// small objects cache
-	LoadingCache<RankingParams, RankingResult> filteredRankCache = CacheBuilder.newBuilder().maximumSize(2000)
+	LoadingCache<RankingParams, RankingResult> filteredRankCache = CacheBuilder.newBuilder().maximumSize(1000)
 			.build(new CacheLoader<RankingParams, RankingResult>() {
 				public RankingResult load(RankingParams key) {
 					return rankingSimulator.rank(key);

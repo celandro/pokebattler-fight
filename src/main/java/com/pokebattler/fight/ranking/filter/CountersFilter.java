@@ -73,7 +73,7 @@ public class CountersFilter implements RankingsFilter {
 
 	@Override
     public Collection<Pokemon> getDefenders(PokemonRepository repository) {
-    	return repository.getAllEndGame().getPokemonList();
+    	return repository.getAllEndGameAttacker().getPokemonList();
     }
 	@Override
 	public boolean compressResults() {

@@ -49,7 +49,7 @@ public class PokemonFilter implements RankingsFilter {
     }
     @Override
     public int getNumWorstDefenderToKeep() {
-        return 20;
+        return RankingsFilter.TRIM_TO;
     }
 
 	@Override

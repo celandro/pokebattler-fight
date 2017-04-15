@@ -38,6 +38,7 @@ message FightResult {
 	int32 prestige = 8;
 	int32 effective_combat_time = 9;
 	double potions = 10;
+	double overallRating = 11;
 }
 
 message CombatantResult {

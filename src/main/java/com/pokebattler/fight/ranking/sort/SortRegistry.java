@@ -17,6 +17,8 @@ public class SortRegistry {
     @Resource
     PowerRankingsSort power;
     @Resource
+    OverallRankingsSort overall;
+    @Resource
     AttackerTimeRankingsSort attackerTime;
     @Resource
     DefenderTimeRankingsSort defenderTime;
@@ -34,6 +36,8 @@ public class SortRegistry {
     public void init() {
         registerAttackerSort(power);
         registerDefenderSort(power);
+        registerAttackerSort(overall);
+        registerDefenderSort(overall);
         registerAttackerSort(win);
         registerDefenderSort(win);
         registerAttackerSort(attackerTime);

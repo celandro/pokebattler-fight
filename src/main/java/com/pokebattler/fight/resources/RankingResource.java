@@ -46,7 +46,7 @@ public class RankingResource {
 			@PathParam("defenderLevel") String defenderLevel,
 			@PathParam("attackStrategy") AttackStrategyType attackStrategy,
 			@PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-			@DefaultValue("POWER") @QueryParam("sort") SortType sortType,
+			@DefaultValue("OVERALL") @QueryParam("sort") SortType sortType,
 			@DefaultValue("NO_FILTER") @QueryParam("filterType") FilterType filterType,
 			@QueryParam("filterValue") String filterValue) {
 		log.debug(
@@ -73,7 +73,7 @@ public class RankingResource {
 			@PathParam("defenderLevel") String defenderLevel,
 			@PathParam("attackStrategy") AttackStrategyType attackStrategy,
 			@PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-			@DefaultValue("POWER") @QueryParam("sort") SortType sortType,
+			@DefaultValue("OVERALL") @QueryParam("sort") SortType sortType,
 			@DefaultValue("COUNTERS") @QueryParam("filterType") FilterType filterType,
 			@DefaultValue("5") @QueryParam("filterValue") String filterValue) {
 		log.debug(

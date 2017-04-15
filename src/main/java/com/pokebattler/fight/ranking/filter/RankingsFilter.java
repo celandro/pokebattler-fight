@@ -18,6 +18,9 @@ public interface RankingsFilter {
     default int getNumWorstDefenderToKeep() {
         return Integer.MAX_VALUE;
     }
+    default int getNumBestAttackerToKeep() {
+        return RankingsFilter.TRIM_TO;
+    }
     
     default Collection<Pokemon> getAttackers(PokemonRepository repository) {
     	return repository.getAllEndGame().getPokemonList();
@@ -28,5 +31,6 @@ public interface RankingsFilter {
     default boolean compressResults() {
     	return true;
     }
+    public static final int TRIM_TO = 24;
 
 }

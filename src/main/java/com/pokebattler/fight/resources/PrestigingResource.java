@@ -55,7 +55,7 @@ public class PrestigingResource {
             @PathParam("prestigeTarget") int prestigeTarget,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
             @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-            @DefaultValue("POWER") @QueryParam("sort") SortType sortType) {
+            @DefaultValue("OVERALL") @QueryParam("sort") SortType sortType) {
         log.debug("Calculating prestige rankings for defenderId {} defenderLevel {}, defenderIV()"
         		+ "attackStrategy {}, defenseStrategy {}, sortType {}", defenderId, defenderLevel, defenderIV, attackStrategy,
                 defenseStrategy, sortType);
@@ -86,7 +86,7 @@ public class PrestigingResource {
             @PathParam("prestigeTarget") int prestigeTarget,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
             @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-            @DefaultValue("POWER") @QueryParam("sort") SortType sortType) {
+            @DefaultValue("OVERALL") @QueryParam("sort") SortType sortType) {
         log.debug("Calculating prestige rankings for defenderId {} defenderCP {}"
         		+ "attackStrategy {}, defenseStrategy {}, sortType {}", defenderId, defenderCP, attackStrategy,
                 defenseStrategy, sortType);
@@ -94,20 +94,6 @@ public class PrestigingResource {
         IVWrapper defenderIV = new IVWrapper(data.getAttack(), data.getDefense(), data.getStamina());
         return prestigeByLevel(defenderId, data.getLevel(), defenderIV, prestigeTarget, attackStrategy, defenseStrategy, sortType);
         
-//        // set caching based on wether the result is random
-//        // TODO: refactor this to strategy pattern or change to a parameter?
-//        // maybe a query parameter to seed the rng?
-//        final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-//        cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : ONE_HOUR);
-//        cacheControl.setPrivate(false);
-//        cacheControl.setNoTransform(false);
-//        ExactStatPokemonCreator attackerCreator = new ExactStatPokemonCreator(creator, data.getLevel(), data.getAttack(),
-//        		data.getDefense(), data.getStamina());
-//        PokemonData fakeDefender = attackerCreator.createPokemon(defenderId, PokemonMove.SPLASH_FAST, PokemonMove.STRUGGLE);
-//        int attackerCp = formulas.getCPForPrestigeTarget(fakeDefender.getCp(), prestigeTarget);
-//        CPPokemonCreator defenderCreator = new CPPokemonCreator(creator, attackerCp);
-//        return Response.ok(simulator.rankDefender(attackStrategy, defenseStrategy, sortType, 
-//        		FilterType.PRESTIGE, defenderId.name(), defenderCreator, attackerCreator)).cacheControl(cacheControl).build();
 
     }
     

@@ -48,6 +48,7 @@ message SubResultTotal {
 	double power = 6;
 	int32 effective_combat_time = 7;
 	double potions = 8;
+	double overallRating = 9;
 }
 
 message DefenderResult {

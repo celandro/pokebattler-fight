@@ -35,12 +35,12 @@ public class AttackSimulatorTest {
         attackerResult = CombatantResult.newBuilder().setStartHp(100).setEndHp(100).build();
         defenderResult = CombatantResult.newBuilder().setStartHp(200).setEndHp(0).build();
         fightResult.clearCombatants().addCombatants(attackerResult).addCombatants(defenderResult);
-        assertEquals(10.0,simulator.getPower(fightResult), 1E-6);
+        assertEquals(2.0,simulator.getPower(fightResult), 1E-6);
 
         attackerResult = CombatantResult.newBuilder().setStartHp(100).setEndHp(0).build();
         defenderResult = CombatantResult.newBuilder().setStartHp(200).setEndHp(200).build();
         fightResult.clearCombatants().addCombatants(attackerResult).addCombatants(defenderResult);
-        assertEquals(-10.0,simulator.getPower(fightResult), 1E-6);
+        assertEquals(-2.0,simulator.getPower(fightResult), 1E-6);
         
     }
     @Test
