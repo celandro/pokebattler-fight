@@ -5,6 +5,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
+import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -49,7 +50,8 @@ public class CinematicAttackWhenPossible implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public CinematicAttackWhenPossible build(PokemonData pokemon) {
+        public CinematicAttackWhenPossible build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        	// ignore dodgeStrategy
             return new CinematicAttackWhenPossible(pokemon, move.getById(pokemon.getMove1()),
                     move.getById(pokemon.getMove2()), 0);
         }

@@ -1,6 +1,8 @@
 package com.pokebattler.fight.strategies;
 
 import com.pokebattler.fight.calculator.CombatantState;
+import com.pokebattler.fight.calculator.dodge.AlwaysDodge;
+import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
@@ -38,9 +40,9 @@ public interface AttackStrategy {
         public default AttackStrategyType getType() {
             final PokemonData fake = PokemonData.newBuilder().setMove1(PokemonMove.LICK).setMove2(PokemonMove.BODY_SLAM)
                     .setPokemonId(PokemonId.SNORLAX).build();
-            return build(fake).getType();
+            return build(fake, new AlwaysDodge()).getType();
         }
 
-        S build(PokemonData pokemon);
+        S build(PokemonData pokemon, DodgeStrategy dodgeStrategy);
     }
 }

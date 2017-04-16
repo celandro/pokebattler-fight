@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.calculator.Formulas;
+import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -19,17 +20,21 @@ public class DodgeAll2 implements AttackStrategy {
     private final Move move1;
     private final Move move2;
     private boolean dodgedSpecial = false;
+    private final DodgeStrategy dodgeStrategy;
+    private boolean willDodgeNext = false;
 
     @Override
     public AttackStrategyType getType() {
         return AttackStrategyType.DODGE_ALL2;
     }
 
-    public DodgeAll2(PokemonData pokemon, Move move1, Move move2, int extraDelay) {
+    public DodgeAll2(PokemonData pokemon, Move move1, Move move2, int extraDelay, DodgeStrategy dodgeStrategy) {
         this.pokemon = pokemon;
         this.extraDelay = extraDelay;
         this.move1 = move1;
         this.move2 = move2;
+        this.dodgeStrategy = dodgeStrategy;
+        
     }
 
     @Override
@@ -37,19 +42,28 @@ public class DodgeAll2 implements AttackStrategy {
         // dodge special if we can
         if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0
                 && !defenderState.isDodged()) {
-            if (defenderState.getTimeToNextDamage() < Formulas.DODGE_WINDOW + extraDelay) {
-                dodgedSpecial = defenderState.isNextMoveSpecial();
-                return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
-            } else if (defenderState.getTimeToNextDamage() > move1.getDurationMs() + extraDelay) {
-                dodgedSpecial = false;
-                // we can sneak in a normal attack
-                return new PokemonAttack(pokemon.getMove1(), extraDelay);
-            } else {
-                dodgedSpecial = defenderState.isNextMoveSpecial();
-                // dodge perfect
-                return new PokemonAttack(DODGE_MOVE.getMoveId(),
-                        Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
-            }
+        	// do we dodge?
+        	willDodgeNext = willDodgeNext || dodgeStrategy.tryToDodge();
+        	
+        	if (willDodgeNext) {
+	        	
+	            if (defenderState.getTimeToNextDamage() < Formulas.DODGE_WINDOW + extraDelay) {
+	                dodgedSpecial = defenderState.isNextMoveSpecial();
+	                willDodgeNext = false;
+	                return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
+	            } else if (defenderState.getTimeToNextDamage() > move1.getDurationMs() + extraDelay) {
+	                dodgedSpecial = false;
+	                // we can sneak in a normal attack
+	                return new PokemonAttack(pokemon.getMove1(), extraDelay);
+	            } else {
+	                dodgedSpecial = defenderState.isNextMoveSpecial();
+	                willDodgeNext = false;
+	                // dodge perfect
+	                return new PokemonAttack(DODGE_MOVE.getMoveId(),
+	                        Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
+	            }
+        	}
+        	// else fall through and attack
         }
         if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta() && dodgedSpecial) {
             // use special attack after dodge
@@ -72,9 +86,9 @@ public class DodgeAll2 implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public DodgeAll2 build(PokemonData pokemon) {
+        public DodgeAll2 build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
             return new DodgeAll2(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
-                    0);
+                    0, dodgeStrategy);
         }
     }
 

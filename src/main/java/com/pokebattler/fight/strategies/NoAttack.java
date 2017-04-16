@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.calculator.Formulas;
+import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
@@ -43,7 +44,8 @@ public class NoAttack implements AttackStrategy {
     @Component
     public static class NoAttackBuilder implements AttackStrategy.AttackStrategyBuilder<NoAttack> {
         @Override
-        public NoAttack build(PokemonData pokemon) {
+        public NoAttack build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        	// ignore dodgeStrategy
             return new NoAttack(pokemon, DODGE_COOLDOWN);
         }
     }

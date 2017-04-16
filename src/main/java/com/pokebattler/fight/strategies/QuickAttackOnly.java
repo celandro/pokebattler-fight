@@ -3,6 +3,7 @@ package com.pokebattler.fight.strategies;
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
+import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 
@@ -32,7 +33,8 @@ public class QuickAttackOnly implements AttackStrategy {
     @Component
     public static class QuickAttackOnlyBuilder implements AttackStrategy.AttackStrategyBuilder<QuickAttackOnly> {
         @Override
-        public QuickAttackOnly build(PokemonData pokemon) {
+        public QuickAttackOnly build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        	// ignore dodge strategy
             return new QuickAttackOnly(pokemon, 0);
         }
     }

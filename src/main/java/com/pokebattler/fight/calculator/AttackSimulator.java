@@ -6,6 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
+import com.pokebattler.fight.calculator.dodge.DodgeStrategyRegistry;
 import com.pokebattler.fight.data.CpMRepository;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.PokemonDataCreator;
@@ -14,6 +16,7 @@ import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.FightOuterClass.CombatResult;
 import com.pokebattler.fight.data.proto.FightOuterClass.Combatant;
 import com.pokebattler.fight.data.proto.FightOuterClass.CombatantResultOrBuilder;
+import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.data.proto.FightOuterClass.Fight;
 import com.pokebattler.fight.data.proto.FightOuterClass.FightResult;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -40,6 +43,8 @@ public class AttackSimulator {
     private AttackStrategyRegistry attackStrategies;
     @Resource
     private PokemonDataCreator creator;
+    @Resource
+    private DodgeStrategyRegistry dodgeStrategies;
 
     // todo make this configurable
     public static int attackerReactionTime = 0;
@@ -68,27 +73,14 @@ public class AttackSimulator {
 
     public FightResult calculateAttackDPS(PokemonData attacker, PokemonData defender,
             AttackStrategyType attackerStrategy) {
-        return calculateAttackDPS(attacker, defender, attackerStrategy, AttackStrategyType.DEFENSE);
+        return calculateAttackDPS(attacker, defender, attackerStrategy, AttackStrategyType.DEFENSE, DodgeStrategyType.DODGE_100);
     }
 
     public FightResult calculateAttackDPS(PokemonData attacker, PokemonData defender,
-            AttackStrategyType attackerStrategy, AttackStrategyType defenseStrategy) {
+            AttackStrategyType attackerStrategy, AttackStrategyType defenseStrategy, DodgeStrategyType dodgeStrategy) {
         return fight(Fight.newBuilder().setAttacker1(attacker).setDefender(defender).setStrategy(attackerStrategy)
-                .setDefenseStrategy(defenseStrategy).build(), true).build();
+                .setDefenseStrategy(defenseStrategy).setDodgeStrategy(dodgeStrategy).build(), true).build();
     }
-
-    private int nextAttack(AttackStrategy strategy, CombatantState attackerState, CombatantState defenderState) {
-        final PokemonAttack nextAttack = strategy.nextAttack(attackerState, defenderState);
-        final Move nextMove = moveRepository.getById(nextAttack.getMove());
-        return attackerState.setNextAttack(nextAttack, nextMove);
-    }
-    boolean isDefender(AttackStrategy strategy) {
-        return isDefender(strategy.getType());
-    }
-    boolean isDefender(AttackStrategyType strategyType) {
-        return strategyType.name().startsWith("DEFENSE");
-    }
-
     public FightResult.Builder fight(Fight fight, boolean includeDetails) {
         PokemonData attacker = fight.getAttacker1();
         PokemonData defender = fight.getDefender();
@@ -103,9 +95,10 @@ public class AttackSimulator {
             d = pokemonRepository.transform(d,a);
             defender = creator.transform(defender, attacker);
         }
+        final DodgeStrategy dodgeStrategy = dodgeStrategies.create(fight.getDodgeStrategy());
         
-        final AttackStrategy attackerStrategy = attackStrategies.create(fight.getStrategy(), attacker);
-        final AttackStrategy defenderStrategy = attackStrategies.create(fight.getDefenseStrategy(), defender);
+        final AttackStrategy attackerStrategy = attackStrategies.create(fight.getStrategy(), attacker, dodgeStrategy);
+        final AttackStrategy defenderStrategy = attackStrategies.create(fight.getDefenseStrategy(), defender, null);
         final FightResult.Builder fightResult = FightResult.newBuilder();
         
         final CombatantState attackerState = new CombatantState(a, attacker, f, isDefender(attackerStrategy));
@@ -201,6 +194,20 @@ public class AttackSimulator {
         fightResult.setOverallRating(getOverallRating(fightResult));
         return fightResult;
     }
+
+    private int nextAttack(AttackStrategy strategy, CombatantState attackerState, CombatantState defenderState) {
+        final PokemonAttack nextAttack = strategy.nextAttack(attackerState, defenderState);
+        final Move nextMove = moveRepository.getById(nextAttack.getMove());
+        return attackerState.setNextAttack(nextAttack, nextMove);
+    }
+    boolean isDefender(AttackStrategy strategy) {
+        return isDefender(strategy.getType());
+    }
+    boolean isDefender(AttackStrategyType strategyType) {
+        return strategyType.name().startsWith("DEFENSE");
+    }
+
+    
     double getOverallRating(FightResult.Builder result) {
     	double combatTimeRating =  Math.max(0.1, Math.min(10.0, Formulas.MAX_COMBAT_TIME_MS/(2.0 * (double)(result.getEffectiveCombatTime()))));
     	// cap out at 5 potions
