@@ -1,11 +1,13 @@
 package com.pokebattler.fight.resources;
 
 import javax.annotation.Resource;
+import javax.ws.rs.DefaultValue;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.Response;
 
 import org.slf4j.Logger;
@@ -18,6 +20,7 @@ import com.pokebattler.fight.calculator.AttackSimulator;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.PokemonDataCreator;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
+import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.data.proto.FightOuterClass.Fight;
 import com.pokebattler.fight.data.proto.FightOuterClass.FightResult;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
@@ -71,7 +74,8 @@ public class FightResource {
             @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
             @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy, 
-            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
+            @QueryParam("dodgeStrategy") @DefaultValue("DODGE_100") DodgeStrategyType dodgeStrategy) {
         log.debug(
                 "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, defenseStrategy {}, attackerLevel {}, defenderLevel {}",
                 attackerId, defenderId, move1, move2, attackStrategy, attackerLevel, defenseStrategy, defenderLevel);
@@ -79,7 +83,7 @@ public class FightResource {
         final PokemonData defender = creator.createMaxStatPokemon(defenderId, defenderLevel, dmove1, dmove2);
 
         final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
-        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy, dodgeStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
     }
 
@@ -110,17 +114,18 @@ public class FightResource {
             @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
             @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy, 
-            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
-        log.debug(
-                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, defenseStrategy {}, attackerLevel {}, defenderLevel {}",
-                attackerId, defenderId, move1, move2, attackStrategy, attackerLevel, defenseStrategy, defenderLevel);
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
+            @QueryParam("dodgeStrategy") @DefaultValue("DODGE_100") DodgeStrategyType dodgeStrategy) {
+        log.debug("Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, "
+        		+ "defenseStrategy {}, attackerLevel {}, defenderLevel {}",
+                attackerId, defenderId, move1, move2, attackStrategy, attackerLevel, defenseStrategy, defenderLevel, dodgeStrategy);
         final PokemonData attacker = creator.createPokemon(attackerId, attackerLevel, attackerIV.getAttack(), attackerIV.getDefense(),
                 attackerIV.getStamina(), move1, move2);
         final PokemonData defender = creator.createPokemon(defenderId, defenderLevel, defenderIV.getAttack(), defenderIV.getDefense(),
                 defenderIV.getStamina(), dmove1, dmove2);
 
         final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
-        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy, dodgeStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
     }    
 
@@ -139,16 +144,17 @@ public class FightResource {
             @PathParam("attackerIV") IVWrapper attackerIV, @PathParam("defenderId") PokemonId defenderId, @PathParam("defenderCp") int defenderCp,
             @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy, 
-            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
-        log.debug(
-                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, defenseStrategy {}, attackerLevel {}, defenderCp {}",
-                attackerId, defenderId, move1, move2, attackStrategy, attackerLevel, defenseStrategy, defenderCp);
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
+            @QueryParam("dodgeStrategy") @DefaultValue("DODGE_100") DodgeStrategyType dodgeStrategy) {
+        log.debug("Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, "
+        		+ "defenseStrategy {}, attackerLevel {}, defenderCp {}, dodgeStrategy",
+                attackerId, defenderId, move1, move2, attackStrategy, attackerLevel, defenseStrategy, defenderCp, dodgeStrategy);
         final PokemonData attacker = creator.createPokemon(attackerId, attackerLevel, attackerIV.getAttack(), attackerIV.getDefense(),
                 attackerIV.getStamina(), move1, move2);
         final PokemonData defender = creator.createPokemon(defenderId, defenderCp, dmove1, dmove2);
 
         final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
-        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy, dodgeStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
     }    
     
@@ -166,16 +172,17 @@ public class FightResource {
             @PathParam("defenderLevel") String defenderLevel, @PathParam("defenderId") PokemonId defenderId,
             @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy, 
-            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
-        log.debug(
-                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, defenseStrategy {}, attackerCp {}, defenderLevel {}",
-                attackerId, defenderId, move1, move2, attackStrategy, attackerCp, defenseStrategy, defenderLevel);
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
+            @QueryParam("dodgeStrategy") @DefaultValue("DODGE_100") DodgeStrategyType dodgeStrategy) {
+        log.debug("Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, "
+        		+ "defenseStrategy {}, attackerCp {}, defenderLevel {}, dodgeStrategy {}",
+                attackerId, defenderId, move1, move2, attackStrategy, attackerCp, defenseStrategy, defenderLevel, dodgeStrategy);
         final PokemonData attacker = creator.createPokemon(attackerId, attackerCp, move1, move2);
         final PokemonData defender = creator.createPokemon(defenderId, defenderLevel, defenderIV.getAttack(), defenderIV.getDefense(),
                 defenderIV.getStamina(), dmove1, dmove2);
 
         final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
-        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy, dodgeStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
     }    
     
@@ -196,17 +203,19 @@ public class FightResource {
             @PathParam("defenderCp") int defenderCp, @PathParam("defenderId") PokemonId defenderId,
             @PathParam("dmove1") PokemonMove dmove1, @PathParam("dmove2") PokemonMove dmove2,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
-            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy) {
+            @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
+            @QueryParam("dodgeStrategy") @DefaultValue("DODGE_100") DodgeStrategyType dodgeStrategy) {
         log.debug(
-                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, attackerCp {}, defenderCp {}, defenseStrategy {}",
-                attackerId, defenderId, move1, move2, attackStrategy, attackerCp, defenderCp, defenseStrategy);
+                "Calculating dps for attacker {}, defender {}, move1 {}, move2 {}, attackStrategy {}, attackerCp {}, "
+                + "defenderCp {}, defenseStrategy {}, dodgeStrategy {}",
+                attackerId, defenderId, move1, move2, attackStrategy, attackerCp, defenderCp, defenseStrategy, dodgeStrategy);
         final PokemonData attacker = creator.createPokemon(attackerId, attackerCp, move1, move2);
         final PokemonData defender = creator.createPokemon(defenderId, defenderCp, dmove1, dmove2);
         // set caching based on wether the result is random
         // TODO: refactor this to strategy pattern or change to a parameter?
         // maybe a query parameter to seed the rng?
         final javax.ws.rs.core.CacheControl cacheControl = createCacheControl(attackStrategy, defenseStrategy);
-        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy);
+        final FightResult fightResult = simulator.calculateAttackDPS(attacker, defender, attackStrategy, defenseStrategy, dodgeStrategy);
         return Response.ok(fightResult).cacheControl(cacheControl).build();
 
     }

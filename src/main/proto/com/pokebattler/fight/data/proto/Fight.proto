@@ -17,6 +17,22 @@ enum AttackStrategyType {
 	DODGE_ALL2 = 9;
 	DODGE_SPECIALS3 = 10;
 	DODGE_ALL3 = 11;
+	DODGE_WEAVE_CAUTIOUS = 12;
+	DODGE_WEAVE_REASONABLE = 13;
+	DODGE_WEAVE_RISKY = 14;
+	DODGE_WEAVE_SPECIALS = 15;
+	DODGE_WEAVE_HUMAN = 16;
+	DODGE_WEAVE_SPECIALS_HUMAN = 17;
+	DEFENSE_MONTE_CARLO = 18;
+}
+enum DodgeStrategyType {
+	DODGE_0 = 0;
+	DODGE_25 = 1;
+	DODGE_50 = 2;
+	DODGE_75 = 3;
+	DODGE_90 = 4;
+	DODGE_100 = 5;
+	DODGE_REACTION_TIME = 6;
 }
 
 message Fight {
@@ -24,7 +40,7 @@ message Fight {
 	PokemonData defender = 2;
 	AttackStrategyType strategy = 3;
 	AttackStrategyType defenseStrategy = 4;
-	repeated PokemonId pokemon = 5;
+	DodgeStrategyType dodgeStrategy = 5;
 }
 
 message FightResult {
@@ -53,6 +69,7 @@ message CombatantResult {
 	int32 energy = 9;
 	PokemonId pokemon= 10;
 	int32 cp = 11;
+	DodgeStrategyType dodgeStrategy = 12;
 }
 enum Combatant {
 	UNKNOWN=0;
@@ -74,3 +91,5 @@ message CombatResult {
 	int32 current_time = 11;
 
 }
+
+

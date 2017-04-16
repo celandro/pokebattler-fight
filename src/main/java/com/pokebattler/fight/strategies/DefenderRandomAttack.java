@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.calculator.Formulas;
+import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -71,7 +72,8 @@ public class DefenderRandomAttack implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public DefenderRandomAttack build(PokemonData pokemon) {
+        public DefenderRandomAttack build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        	// defenders never dodge
             return new DefenderRandomAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
                     DEFENDER_DELAY - (RAND_MS_DELAY / 2), RAND_MS_DELAY, AttackStrategyType.DEFENSE_RANDOM,
                     RAND_CHANCE_SPECIAL);
@@ -89,7 +91,8 @@ public class DefenderRandomAttack implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public DefenderRandomAttack build(PokemonData pokemon) {
+        public DefenderRandomAttack build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        	// defenders never dodge
             return new DefenderRandomAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
                     DEFENDER_DELAY - RAND_LUCKY_DELAY, RAND_MS_DELAY, AttackStrategyType.DEFENSE_LUCKY,
                     RAND_CHANCE_SPECIAL);

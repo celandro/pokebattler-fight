@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.calculator.Formulas;
+import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
@@ -63,7 +64,8 @@ public class DefenderAttack implements AttackStrategy {
         public static int DEFENDER_DELAY = 2000;
 
         @Override
-        public DefenderAttack build(PokemonData pokemon) {
+        public DefenderAttack build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        	// defenders never dodge
             return new DefenderAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
                     DEFENDER_DELAY);
         }
