@@ -17,6 +17,12 @@ enum AttackStrategyType {
 	DODGE_ALL2 = 9;
 	DODGE_SPECIALS3 = 10;
 	DODGE_ALL3 = 11;
+	DODGE_WEAVE_CAUTIOUS = 12;
+	DODGE_WEAVE_REASONABLE = 13;
+	DODGE_WEAVE_RISKY = 14;
+	DODGE_WEAVE_SPECIALS = 15;
+	DODGE_WEAVE_HUMAN = 16;
+	DODGE_WEAVE_SPECIALS_HUMAN = 17;
 }
 
 message Fight {
@@ -74,3 +80,5 @@ message CombatResult {
 	int32 current_time = 11;
 
 }
+
+
