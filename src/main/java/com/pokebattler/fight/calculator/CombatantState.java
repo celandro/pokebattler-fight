@@ -21,7 +21,8 @@ public class CombatantState {
     private final long id;
     private final Formulas f;
     private final int cp;
-    private PokemonId pokemon;
+    private PokemonId pokemonId;
+    private Pokemon pokemon;
     private final boolean defender;
     private int timeSinceLastMove;
     private int currentHp;
@@ -42,10 +43,12 @@ public class CombatantState {
         return dodged;
     }
 
-    public PokemonId getPokemon() {
-        return pokemon;
+    public PokemonId getPokemonId() {
+        return pokemonId;
     }
-
+    public Pokemon getPokemon() {
+    	return pokemon;
+    }
     public int getDamageDealt() {
         return damageDealt;
     }
@@ -100,7 +103,7 @@ public class CombatantState {
 
     public CombatantState(Pokemon p, PokemonData ind, Formulas f, boolean defender) {
         this.id = ind.getId();
-        this.pokemon = p.getPokemonId();
+        this.pokemonId = p.getPokemonId();
         this.f = f;
         this.cp = ind.getCp();
         this.attack = f.getCurrentAttack(p.getStats().getBaseAttack(), ind.getIndividualAttack(),
@@ -116,6 +119,7 @@ public class CombatantState {
         this.timeSinceLastMove = 0;
         this.nextAttack = null;
         this.nextMove = null;
+        this.pokemon = p;
     }
 
     boolean isAlive() {
@@ -174,7 +178,7 @@ public class CombatantState {
     public CombatantResult toResult(Combatant combatant, AttackStrategyType strategy, int actualCombatTime) {
         return CombatantResult.newBuilder().setStrategy(strategy).setDamageDealt(getDamageDealt()).setCp(cp)
                 .setCombatTime(actualCombatTime).setDps(1000.0f * (getDamageDealt()) / actualCombatTime)
-                .setEnergy(getCurrentEnergy()).setStartHp(getStartHp()).setEndHp(getCurrentHp()).setPokemon(pokemon)
+                .setEnergy(getCurrentEnergy()).setStartHp(getStartHp()).setEndHp(getCurrentHp()).setPokemon(pokemonId)
                 .setCombatant(combatant).setId(getId()).build();
     }
 

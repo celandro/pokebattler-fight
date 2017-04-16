@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 import org.springframework.stereotype.Component;
 
-import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
+import com.pokebattler.fight.data.proto.FightOuterClass.FightResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
 
@@ -16,11 +16,12 @@ public class OverallRankingsSort implements RankingsSort{
                 .thenComparing(Comparator.<SubResultTotalOrBuilder>comparingDouble(total -> -total.getPower()));
     }
     @Override
-    public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
+    public Comparator<FightResultOrBuilder> getFightResultComparator() {
     	// for the defender section, try and find the worst case not the best case!
-        return Comparator.<DefenderSubResultOrBuilder>comparingDouble(result -> -result.getResultOrBuilder().getOverallRating())
-                .thenComparing(Comparator.<DefenderSubResultOrBuilder>comparingDouble(result -> -result.getResultOrBuilder().getPower()));
+        return Comparator.<FightResultOrBuilder>comparingDouble(result -> -result.getOverallRating())
+                .thenComparing(Comparator.<FightResultOrBuilder>comparingDouble(result -> -result.getPower()));
     }
+    
     
     @Override
     public SortType getType() {

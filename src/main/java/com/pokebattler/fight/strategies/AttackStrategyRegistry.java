@@ -89,7 +89,7 @@ public class AttackStrategyRegistry {
 //        register(strategy15);
 //        register(strategy16);
         builders.stream().forEach(builder -> register(builder));
-        strategies.put(AttackStrategyType.DEFENSE_MONTE_CARLO, strategies.get(AttackStrategyType.DEFENSE_RANDOM));
+        strategies.put(AttackStrategyType.DEFENSE_RANDOM_MC, strategies.get(AttackStrategyType.DEFENSE_RANDOM));
     }
 
     public boolean register(AttackStrategy.AttackStrategyBuilder<?> strategyBuilder) {

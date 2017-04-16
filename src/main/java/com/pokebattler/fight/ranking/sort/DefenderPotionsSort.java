@@ -4,26 +4,21 @@ import java.util.Comparator;
 
 import org.springframework.stereotype.Component;
 
-import com.pokebattler.fight.data.proto.Ranking.DefenderResultOrBuilder;
-import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
+import com.pokebattler.fight.data.proto.FightOuterClass.FightResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
 
 @Component
 public class DefenderPotionsSort implements RankingsSort {
 	public Comparator<SubResultTotalOrBuilder> getSubResultComparator() {
-		return Comparator
-				.<SubResultTotalOrBuilder>comparingDouble(total -> -total.getPotions())
+		return Comparator.<SubResultTotalOrBuilder>comparingDouble(total -> -total.getPotions())
 				.thenComparing(Comparator.comparingDouble(total -> -total.getPower()));
 	}
 
-
-	
 	@Override
-	public Comparator<DefenderSubResultOrBuilder> getDefenderSubResultComparator() {
-		return Comparator
-				.<DefenderSubResultOrBuilder>comparingDouble( result -> -result.getResultOrBuilder().getPotions())
-				.thenComparing(Comparator.comparingDouble(result -> -result.getResultOrBuilder().getPower()));
+	public Comparator<FightResultOrBuilder> getFightResultComparator() {
+		return Comparator.<FightResultOrBuilder>comparingDouble(result -> -result.getPotions())
+				.thenComparing(Comparator.comparingDouble(result -> -result.getPower()));
 	}
 
 	@Override
@@ -41,7 +36,5 @@ public class DefenderPotionsSort implements RankingsSort {
 	public boolean equals(Object obj) {
 		return getClass().equals(obj.getClass());
 	}
-
-
 
 }

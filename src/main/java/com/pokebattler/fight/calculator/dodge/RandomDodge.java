@@ -4,6 +4,7 @@ import java.util.Random;
 
 import org.springframework.stereotype.Component;
 
+import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 
 public class RandomDodge implements DodgeStrategy {
@@ -18,8 +19,8 @@ public class RandomDodge implements DodgeStrategy {
 	}
 
 	@Override
-	public boolean tryToDodge() {
-		return random.nextDouble() >= dodgePercent;
+	public boolean tryToDodge(CombatantState attackerState, CombatantState defenderState) {
+		return random.nextDouble() <= dodgePercent;
 	}
 	@Override
 	public DodgeStrategyType getType() {

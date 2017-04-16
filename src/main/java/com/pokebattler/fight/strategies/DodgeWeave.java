@@ -124,17 +124,21 @@ public class DodgeWeave implements AttackStrategy {
 						return new PokemonAttack(pokemon.getMove1(), realizationTime + extraDelay);
 					}
 				}
-				int dodgeWait = defenderState.getTimeToNextDamage() == Integer.MAX_VALUE ? earliestNextDamageTime
-						: defenderState.getTimeToNextDamage();
-				if (dodgeWait > 1000000 || dodgeWait < 0) {
-					dodgeWait = 0;
-				}
+				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
 
-				dodgedSpecial = defenderState.isNextMoveSpecial();
-				timeElapsed += DODGE_MOVE.getDurationMs()
-						+ Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME);
-				return new PokemonAttack(DODGE_MOVE.getMoveId(),
-						Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
+					int dodgeWait = defenderState.getTimeToNextDamage() == Integer.MAX_VALUE ? earliestNextDamageTime
+							: defenderState.getTimeToNextDamage();
+					if (dodgeWait > 1000000 || dodgeWait < 0) {
+						dodgeWait = 0;
+					}
+
+					dodgedSpecial = defenderState.isNextMoveSpecial();
+					timeElapsed += DODGE_MOVE.getDurationMs()
+							+ Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME);
+					return new PokemonAttack(DODGE_MOVE.getMoveId(),
+							Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
+				}
+				// missed dodge fall through to rest of the code
 			}
 		}
 		if (defenderState.getNumAttacks() < 3) { // early battle

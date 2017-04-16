@@ -2,12 +2,13 @@ package com.pokebattler.fight.calculator.dodge;
 
 import org.springframework.stereotype.Component;
 
+import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 
 public class AlwaysDodge implements DodgeStrategy {
 
 	@Override
-	public boolean tryToDodge() {
+	public boolean tryToDodge(CombatantState attackerState, CombatantState defenderState) {
 		return true;
 	}
 

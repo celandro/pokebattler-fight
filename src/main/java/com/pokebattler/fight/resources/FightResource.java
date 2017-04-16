@@ -16,7 +16,8 @@ import org.springframework.stereotype.Component;
 
 import com.google.protobuf.util.JsonFormat;
 import com.leandronunes85.etag.ETag;
-import com.pokebattler.fight.calculator.AttackSimulator;
+import com.pokebattler.fight.calculator.IndividualSimulator;
+import com.pokebattler.fight.calculator.DelegatingSimulator;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.PokemonDataCreator;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
@@ -33,7 +34,7 @@ import com.pokebattler.fight.jaxrs.CacheControl;
 public class FightResource {
 
     @Resource
-    AttackSimulator simulator;
+    DelegatingSimulator simulator;
     @Resource
     Formulas formulas;
     @Resource
@@ -255,6 +256,8 @@ public class FightResource {
     }
     private boolean isRandom(AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
         return defenseStrategy == AttackStrategyType.DEFENSE_RANDOM;
+        // lets cache the monte carlo
+        //|| defenseStrategy == AttackStrategyType.DEFENSE_RANDOM_MC;
 
     }
 

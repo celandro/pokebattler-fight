@@ -12,10 +12,10 @@ import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
 import com.pokebattler.fight.ranking.RankingSimulator;
 
 public class AttackSimulatorTest {
-    AttackSimulator simulator;
+    IndividualSimulator simulator;
     @Before
     public void setUp() throws Exception {
-        simulator = new AttackSimulator();
+        simulator = new IndividualSimulator();
     }
 
     @Test
