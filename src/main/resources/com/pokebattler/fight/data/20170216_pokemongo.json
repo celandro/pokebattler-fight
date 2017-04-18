@@ -8877,7 +8877,7 @@
         "baseAttack": 168,
         "baseDefense": 202
       },
-      "quickMoves": ["RAZOR_LEAF_FAST", "VINE_WHIP_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -8918,7 +8918,7 @@
         "baseAttack": 116,
         "baseDefense": 96
       },
-      "quickMoves": ["EMBER_FAST", "TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["QUILAVA"],
@@ -8960,7 +8960,7 @@
         "baseAttack": 158,
         "baseDefense": 129
       },
-      "quickMoves": ["EMBER_FAST", "TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["TYPHLOSION"],
@@ -9003,7 +9003,7 @@
         "baseAttack": 223,
         "baseDefense": 176
       },
-      "quickMoves": ["EMBER_FAST", "SHADOW_CLAW_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9045,7 +9045,7 @@
         "baseAttack": 117,
         "baseDefense": 116
       },
-      "quickMoves": ["WATER_GUN_FAST", "SCRATCH_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["CROCONAW"],
@@ -9087,7 +9087,7 @@
         "baseAttack": 150,
         "baseDefense": 151
       },
-      "quickMoves": ["WATER_GUN_FAST", "SCRATCH_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["FERALIGATR"],
@@ -9130,7 +9130,7 @@
         "baseAttack": 205,
         "baseDefense": 197
       },
-      "quickMoves": ["WATER_GUN_FAST", "BITE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9172,7 +9172,7 @@
         "baseAttack": 79,
         "baseDefense": 77
       },
-      "quickMoves": ["SCRATCH_FAST", "QUICK_ATTACK_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["FURRET"],
@@ -9214,7 +9214,7 @@
         "baseAttack": 148,
         "baseDefense": 130
       },
-      "quickMoves": ["QUICK_ATTACK_FAST", "SUCKER_PUNCH_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9257,7 +9257,7 @@
         "baseAttack": 67,
         "baseDefense": 101
       },
-      "quickMoves": ["TACKLE_FAST", "PECK_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["NOCTOWL"],
@@ -9300,7 +9300,7 @@
         "baseAttack": 145,
         "baseDefense": 179
       },
-      "quickMoves": ["TACKLE_FAST", "PECK_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9343,7 +9343,7 @@
         "baseAttack": 72,
         "baseDefense": 142
       },
-      "quickMoves": ["TACKLE_FAST", "BUG_BITE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["LEDIAN"],
@@ -9386,7 +9386,7 @@
         "baseAttack": 107,
         "baseDefense": 209
       },
-      "quickMoves": ["TACKLE_FAST", "BUG_BITE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9429,7 +9429,7 @@
         "baseAttack": 105,
         "baseDefense": 73
       },
-      "quickMoves": ["POISON_STING_FAST", "BUG_BITE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["ARIADOS"],
@@ -9472,7 +9472,7 @@
         "baseAttack": 161,
         "baseDefense": 128
       },
-      "quickMoves": ["POISON_STING_FAST", "BUG_BITE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9515,7 +9515,7 @@
         "baseAttack": 194,
         "baseDefense": 178
       },
-      "quickMoves": ["WING_ATTACK_FAST", "BITE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9558,7 +9558,7 @@
         "baseAttack": 106,
         "baseDefense": 106
       },
-      "quickMoves": ["BUBBLE_FAST", "SPARK_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["LANTURN"],
@@ -9601,7 +9601,7 @@
         "baseAttack": 146,
         "baseDefense": 146
       },
-      "quickMoves": ["WATER_GUN_FAST", "SPARK_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9818,8 +9818,8 @@
         "baseAttack": 139,
         "baseDefense": 191
       },
-      "quickMoves": ["ZEN_HEADBUTT_FAST", "STEEL_WING_FAST"],
-      "cinematicMoves": ["ANCIENT_POWER", "DAZZLING_GLEAM", "AERIAL_ACE"],
+      "quickMoves": [],
+      "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
       "pokedexHeightM": 0.61,
@@ -9861,7 +9861,7 @@
         "baseAttack": 134,
         "baseDefense": 89
       },
-      "quickMoves": ["PECK_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["XATU"],
@@ -9904,7 +9904,7 @@
         "baseAttack": 192,
         "baseDefense": 146
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -9946,7 +9946,7 @@
         "baseAttack": 114,
         "baseDefense": 82
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["FLAAFFY"],
@@ -9988,7 +9988,7 @@
         "baseAttack": 145,
         "baseDefense": 112
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["AMPHAROS"],
@@ -10031,7 +10031,7 @@
         "baseAttack": 211,
         "baseDefense": 172
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10073,7 +10073,7 @@
         "baseAttack": 169,
         "baseDefense": 189
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10116,7 +10116,7 @@
         "baseAttack": 37,
         "baseDefense": 93
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["AZUMARILL"],
@@ -10159,7 +10159,7 @@
         "baseAttack": 112,
         "baseDefense": 152
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10201,7 +10201,7 @@
         "baseAttack": 167,
         "baseDefense": 198
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10242,7 +10242,7 @@
         "baseAttack": 174,
         "baseDefense": 192
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10285,7 +10285,7 @@
         "baseAttack": 67,
         "baseDefense": 101
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["SKIPLOOM"],
@@ -10329,7 +10329,7 @@
         "baseAttack": 91,
         "baseDefense": 127
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["JUMPLUFF"],
@@ -10373,7 +10373,7 @@
         "baseAttack": 118,
         "baseDefense": 197
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10414,7 +10414,7 @@
         "baseAttack": 136,
         "baseDefense": 112
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10455,7 +10455,7 @@
         "baseAttack": 55,
         "baseDefense": 55
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["SUNFLORA"],
@@ -10498,7 +10498,7 @@
         "baseAttack": 185,
         "baseDefense": 148
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10540,7 +10540,7 @@
         "baseAttack": 154,
         "baseDefense": 94
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10582,7 +10582,7 @@
         "baseAttack": 75,
         "baseDefense": 75
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["QUAGSIRE"],
@@ -10626,7 +10626,7 @@
         "baseAttack": 152,
         "baseDefense": 152
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10667,7 +10667,7 @@
         "baseAttack": 261,
         "baseDefense": 194
       },
-      "quickMoves": ["CONFUSION_FAST", "ZEN_HEADBUTT_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10709,7 +10709,7 @@
         "baseAttack": 126,
         "baseDefense": 250
       },
-      "quickMoves": ["FEINT_ATTACK_FAST", "BITE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10752,7 +10752,7 @@
         "baseAttack": 175,
         "baseDefense": 87
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10794,7 +10794,7 @@
         "baseAttack": 177,
         "baseDefense": 194
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10853,7 +10853,7 @@
         "baseAttack": 167,
         "baseDefense": 167
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10911,7 +10911,7 @@
         "baseAttack": 136,
         "baseDefense": 91
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -10969,7 +10969,7 @@
         "baseAttack": 60,
         "baseDefense": 106
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11028,7 +11028,7 @@
         "baseAttack": 182,
         "baseDefense": 133
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11086,7 +11086,7 @@
         "baseAttack": 108,
         "baseDefense": 146
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["FORRETRESS"],
@@ -11146,7 +11146,7 @@
         "baseAttack": 161,
         "baseDefense": 242
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11205,7 +11205,7 @@
         "baseAttack": 131,
         "baseDefense": 131
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11264,7 +11264,7 @@
         "baseAttack": 143,
         "baseDefense": 204
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11323,7 +11323,7 @@
         "baseAttack": 148,
         "baseDefense": 333
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11382,7 +11382,7 @@
         "baseAttack": 137,
         "baseDefense": 89
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["GRANBULL"],
@@ -11441,7 +11441,7 @@
         "baseAttack": 212,
         "baseDefense": 137
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11501,7 +11501,7 @@
         "baseAttack": 184,
         "baseDefense": 148
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11560,7 +11560,7 @@
         "baseAttack": 236,
         "baseDefense": 191
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11620,7 +11620,7 @@
         "baseAttack": 17,
         "baseDefense": 396
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11679,7 +11679,7 @@
         "baseAttack": 234,
         "baseDefense": 189
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11738,7 +11738,7 @@
         "baseAttack": 189,
         "baseDefense": 157
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11796,7 +11796,7 @@
         "baseAttack": 142,
         "baseDefense": 93
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["URSARING"],
@@ -11855,7 +11855,7 @@
         "baseAttack": 236,
         "baseDefense": 144
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -11914,7 +11914,7 @@
         "baseAttack": 118,
         "baseDefense": 71
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["MAGCARGO"],
@@ -11974,7 +11974,7 @@
         "baseAttack": 139,
         "baseDefense": 209
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12034,7 +12034,7 @@
         "baseAttack": 90,
         "baseDefense": 74
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["PILOSWINE"],
@@ -12094,7 +12094,7 @@
         "baseAttack": 181,
         "baseDefense": 147
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12154,7 +12154,7 @@
         "baseAttack": 118,
         "baseDefense": 156
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12212,7 +12212,7 @@
         "baseAttack": 127,
         "baseDefense": 69
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["OCTILLERY"],
@@ -12271,7 +12271,7 @@
         "baseAttack": 197,
         "baseDefense": 141
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12331,7 +12331,7 @@
         "baseAttack": 128,
         "baseDefense": 90
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12390,7 +12390,7 @@
         "baseAttack": 148,
         "baseDefense": 260
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12449,7 +12449,7 @@
         "baseAttack": 148,
         "baseDefense": 260
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12508,7 +12508,7 @@
         "baseAttack": 152,
         "baseDefense": 93
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["HOUNDOOM"],
@@ -12568,7 +12568,7 @@
         "baseAttack": 224,
         "baseDefense": 159
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12628,7 +12628,7 @@
         "baseAttack": 194,
         "baseDefense": 194
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12685,7 +12685,7 @@
         "baseAttack": 107,
         "baseDefense": 107
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["DONPHAN"],
@@ -12744,7 +12744,7 @@
         "baseAttack": 214,
         "baseDefense": 214
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12803,7 +12803,7 @@
         "baseAttack": 198,
         "baseDefense": 183
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12862,7 +12862,7 @@
         "baseAttack": 192,
         "baseDefense": 132
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -12920,7 +12920,7 @@
         "baseAttack": 40,
         "baseDefense": 88
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13036,7 +13036,7 @@
         "baseAttack": 173,
         "baseDefense": 214
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13276,7 +13276,7 @@
         "baseAttack": 157,
         "baseDefense": 211
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13332,7 +13332,7 @@
         "baseAttack": 129,
         "baseDefense": 229
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13374,7 +13374,7 @@
         "baseAttack": 241,
         "baseDefense": 210
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13416,7 +13416,7 @@
         "baseAttack": 235,
         "baseDefense": 176
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13458,7 +13458,7 @@
         "baseAttack": 180,
         "baseDefense": 235
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13501,7 +13501,7 @@
         "baseAttack": 115,
         "baseDefense": 93
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["PUPITAR"],
@@ -13544,7 +13544,7 @@
         "baseAttack": 155,
         "baseDefense": 133
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionIds": ["TYRANITAR"],
@@ -13588,7 +13588,7 @@
         "baseAttack": 251,
         "baseDefense": 212
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13631,7 +13631,7 @@
         "baseAttack": 193,
         "baseDefense": 323
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13674,7 +13674,7 @@
         "baseAttack": 263,
         "baseDefense": 301
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,
@@ -13717,7 +13717,7 @@
         "baseAttack": 210,
         "baseDefense": 210
       },
-      "quickMoves": ["TACKLE_FAST"],
+      "quickMoves": [],
       "cinematicMoves": [],
       "animationTime": [1.3333, 0.6667, 1.6667, 2.0, 0.0, 2.0, 3.0, 3.0],
       "evolutionPips": 1,

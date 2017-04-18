@@ -26,12 +26,12 @@ enum AttackStrategyType {
 	DEFENSE_RANDOM_MC = 18;
 }
 enum DodgeStrategyType {
-	DODGE_0 = 0;
-	DODGE_25 = 1;
-	DODGE_50 = 2;
-	DODGE_75 = 3;
-	DODGE_90 = 4;
-	DODGE_100 = 5;
+	DODGE_100 = 0; // default is perfect dodging
+	DODGE_0 = 1;
+	DODGE_25 = 2;
+	DODGE_50 = 3;
+	DODGE_75 = 4;
+	DODGE_90 = 5;
 	DODGE_REACTION_TIME = 6;
 }
 

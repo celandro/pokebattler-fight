@@ -9,6 +9,7 @@ import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
+import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 import com.pokebattler.fight.data.proto.Ranking.AttackerSubResult;
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
@@ -44,10 +45,10 @@ public class CachingRankingSimulator {
 
 	public RankingResult rankAttacker(AttackStrategyType attackStrategy,
 			AttackStrategyType defenseStrategy, SortType sortType, FilterType filterType, String filterValue,
-			PokemonCreator attackerCreator, PokemonCreator defenderCreator) {
+			PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy) {
 		RankingsFilter filter = filterRegistry.getFilter(filterType, filterValue);
-		return getCache(filterType).getUnchecked(new RankingParams(attackStrategy,
-				defenseStrategy, sortRegistry.getAttackerSort(sortType), filter, attackerCreator, defenderCreator));
+		return getCache(filterType).getUnchecked(new RankingParams(attackStrategy, defenseStrategy, 
+				sortRegistry.getAttackerSort(sortType), filter, attackerCreator, defenderCreator, dodgeStrategy));
 	}
 
 	private LoadingCache<RankingParams, RankingResult> getCache(FilterType filterType) {
@@ -58,10 +59,10 @@ public class CachingRankingSimulator {
 
 	public RankingResult rankDefender(AttackStrategyType attackStrategy,
 			AttackStrategyType defenseStrategy, SortType sortType, FilterType filterType, String filterValue,
-			PokemonCreator attackerCreator, PokemonCreator defenderCreator) {
+			PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy) {
 		RankingsFilter filter = filterRegistry.getFilter(filterType, filterValue);
 		return getCache(filterType).getUnchecked(new RankingParams(defenseStrategy,
-				attackStrategy, sortRegistry.getDefenderSort(sortType), filter, defenderCreator, attackerCreator));
+				attackStrategy, sortRegistry.getDefenderSort(sortType), filter, defenderCreator, attackerCreator, dodgeStrategy));
 	}
 
 }

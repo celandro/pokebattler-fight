@@ -1,6 +1,7 @@
 package com.pokebattler.fight.ranking;
 
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
+import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.ranking.filter.RankingsFilter;
 import com.pokebattler.fight.ranking.sort.RankingsSort;
 
@@ -12,10 +13,11 @@ class RankingParams {
     final private RankingsFilter filter;
     final private PokemonCreator attackerCreator;
     final private PokemonCreator defenderCreator;
+    final private DodgeStrategyType dodgeStrategy;
     
     
     public RankingParams(AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, RankingsSort sort, RankingsFilter filter,
-    		PokemonCreator attackerCreator, PokemonCreator defenderCreator) {
+    		PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy) {
         super();
         this.attackStrategy = attackStrategy;
         this.defenseStrategy = defenseStrategy;
@@ -23,6 +25,7 @@ class RankingParams {
         this.filter = filter;
         this.attackerCreator = attackerCreator;
         this.defenderCreator = defenderCreator;
+        this.dodgeStrategy = dodgeStrategy;
     }
     public AttackStrategyType getAttackStrategy() {
         return attackStrategy;
@@ -44,6 +47,9 @@ class RankingParams {
 	public PokemonCreator getDefenderCreator() {
 		return defenderCreator;
 	}
+	public DodgeStrategyType getDodgeStrategy() {
+		return dodgeStrategy;
+	}
     
 	@Override
 	public int hashCode() {
@@ -55,6 +61,7 @@ class RankingParams {
 		result = prime * result + ((defenseStrategy == null) ? 0 : defenseStrategy.hashCode());
 		result = prime * result + ((filter == null) ? 0 : filter.hashCode());
 		result = prime * result + ((sort == null) ? 0 : sort.hashCode());
+		result = prime * result + ((dodgeStrategy == null) ? 0 : dodgeStrategy.hashCode());
 		return result;
 	}
 
@@ -91,6 +98,9 @@ class RankingParams {
 				return false;
 		} else if (!sort.equals(other.sort))
 			return false;
+		if (dodgeStrategy != other.dodgeStrategy)
+			return false;
+
 		return true;
 	}
     

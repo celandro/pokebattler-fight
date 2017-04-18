@@ -17,6 +17,7 @@ import com.leandronunes85.etag.ETag;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.PokemonDataCreator;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
+import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.ranking.CachingRankingSimulator;
@@ -48,7 +49,8 @@ public class RankingResource {
 			@PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
 			@DefaultValue("OVERALL") @QueryParam("sort") SortType sortType,
 			@DefaultValue("NO_FILTER") @QueryParam("filterType") FilterType filterType,
-			@QueryParam("filterValue") String filterValue) {
+			@QueryParam("filterValue") String filterValue,
+            @DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy) {
 		log.debug(
 				"Calculating attacker rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}",
 				attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType);
@@ -60,7 +62,7 @@ public class RankingResource {
 		cacheControl.setPrivate(false);
 		cacheControl.setNoTransform(false);
 		return Response.ok(simulator.rankAttacker(attackStrategy, defenseStrategy, sortType, filterType, filterValue,
-				new ExactStatPokemonCreator(creator, attackerLevel), new ExactStatPokemonCreator(creator, defenderLevel)))
+				new ExactStatPokemonCreator(creator, attackerLevel), new ExactStatPokemonCreator(creator, defenderLevel), dodgeStrategy))
 				.cacheControl(cacheControl).build();
 
 	}
@@ -75,7 +77,8 @@ public class RankingResource {
 			@PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
 			@DefaultValue("OVERALL") @QueryParam("sort") SortType sortType,
 			@DefaultValue("COUNTERS") @QueryParam("filterType") FilterType filterType,
-			@DefaultValue("5") @QueryParam("filterValue") String filterValue) {
+			@DefaultValue("5") @QueryParam("filterValue") String filterValue,
+            @DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy) {
 		log.debug(
 				"Calculating defender rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}",
 				attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType);
@@ -87,8 +90,8 @@ public class RankingResource {
 		cacheControl.setPrivate(false);
 		cacheControl.setNoTransform(false);
 		return Response.ok(simulator.rankDefender(attackStrategy, defenseStrategy, sortType, filterType, filterValue,
-				new ExactStatPokemonCreator(creator, attackerLevel), new ExactStatPokemonCreator(creator, defenderLevel)))
-				.cacheControl(cacheControl).build();
+				new ExactStatPokemonCreator(creator, attackerLevel), new ExactStatPokemonCreator(creator, defenderLevel)
+				,dodgeStrategy)).cacheControl(cacheControl).build();
 
 	}
 

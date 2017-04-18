@@ -2,18 +2,25 @@ package com.pokebattler.fight.ranking;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 import java.util.stream.Collectors;
 
 import javax.annotation.Resource;
+import javax.inject.Inject;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.pokebattler.fight.calculator.IndividualSimulator;
 import com.pokebattler.fight.data.MoveRepository;
 import com.pokebattler.fight.data.PokemonRepository;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
+import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.data.proto.FightOuterClass.Fight;
 import com.pokebattler.fight.data.proto.FightOuterClass.FightResult;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
@@ -30,25 +37,43 @@ import com.pokebattler.fight.data.proto.Ranking.SubResultTotal;
 public class RankingSimulator {
 	// No monte carlo support for now
 	@Resource
-	IndividualSimulator simulator;
+	private IndividualSimulator simulator;
 	@Resource
-	PokemonRepository pokemonRepository;
+	private PokemonRepository pokemonRepository;
 	@Resource
-	MoveRepository moveRepository;
+	private MoveRepository moveRepository;
+	
+	private ForkJoinPool forkJoinPool;
+	private int timeOutSeconds;
+	
+	@Inject
+	public RankingSimulator(@Value("${FORK_JOIN_POOL_SIZE}") int numThreads, @Value("${ranking.timeOutSeconds}") int timeOutSeconds) {
+		log.info("Creating ranking fork join pool with {} threads, timeout {}",numThreads, timeOutSeconds);
+		this.forkJoinPool = new ForkJoinPool(numThreads);
+		this.timeOutSeconds = timeOutSeconds;
+	}
+	
 
 	Logger log = LoggerFactory.getLogger(getClass());
 
-	public RankingResult rank(RankingParams params) {
+	public RankingResult rank(final RankingParams params) {
 		final RankingResult.Builder retval = RankingResult.newBuilder().setAttackStrategy(params.getAttackStrategy())
 				.setDefenseStrategy(params.getDefenseStrategy());
-		final List<AttackerResult.Builder> results = params.getFilter().getAttackers(pokemonRepository).parallelStream()
-				.map((attacker) -> {
-					Builder result = rankAttacker(attacker, params);
-					return result;
-				}).collect(Collectors.toList());
+		try {
+			forkJoinPool.submit(() -> {
+				final List<AttackerResult.Builder> results = params.getFilter().getAttackers(pokemonRepository).stream().parallel()
+						.map((attacker) -> {
+							Builder result = rankAttacker(attacker, params);
+							return result;
+						}).collect(Collectors.toList());
 
-		results.stream().sorted(params.getSort().getAttackerResultComparator())
-				.limit(params.getFilter().getNumBestAttackerToKeep()).forEach((result) -> retval.addAttackers(result));
+				results.stream().sorted(params.getSort().getAttackerResultComparator())
+						.limit(params.getFilter().getNumBestAttackerToKeep()).forEach((result) -> retval.addAttackers(result));
+			}).get(timeOutSeconds, TimeUnit.SECONDS);
+		} catch (InterruptedException | ExecutionException | TimeoutException e) {
+			log.error("Error calculating rankings",e);
+			throw new RuntimeException("Could not calculate rankings");
+		}
 
 		return retval.build();
 	}
@@ -134,7 +159,7 @@ public class RankingSimulator {
 				// yes we set this a few times its ok
 				retval.setCp(defenderData.getCp());
 				results.add(subRankDefenderByMoves(attackerData, defenderData, params.getAttackStrategy(),
-						params.getDefenseStrategy()));
+						params.getDefenseStrategy(), params.getDodgeStrategy()));
 			}
 		});
 
@@ -177,9 +202,9 @@ public class RankingSimulator {
 	}
 
 	public DefenderSubResult.Builder subRankDefenderByMoves(PokemonData attackerData, PokemonData defenderData,
-			AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy) {
+			AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, DodgeStrategyType dodgeStrategy) {
 		Fight fight = Fight.newBuilder().setAttacker1(attackerData).setDefender(defenderData)
-				.setStrategy(attackStrategy).setDefenseStrategy(defenseStrategy).build();
+				.setStrategy(attackStrategy).setDefenseStrategy(defenseStrategy).setDodgeStrategy(dodgeStrategy).build();
 		final FightResult.Builder result = simulator.fight(fight, false);
 		result.clearCombatResult().clearFightParameters();
 		result.getCombatantsBuilder(0).clearStrategy().clearCombatTime().clearPokemon().clearEnergy().clearCombatant();

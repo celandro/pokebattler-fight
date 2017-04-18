@@ -17,6 +17,7 @@ import com.leandronunes85.etag.ETag;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.PokemonDataCreator;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
+import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.MiniPokemonData;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
@@ -55,7 +56,8 @@ public class PrestigingResource {
             @PathParam("prestigeTarget") int prestigeTarget,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
             @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-            @DefaultValue("OVERALL") @QueryParam("sort") SortType sortType) {
+            @DefaultValue("OVERALL") @QueryParam("sort") SortType sortType,
+            @DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy) {
         log.debug("Calculating prestige rankings for defenderId {} defenderLevel {}, defenderIV()"
         		+ "attackStrategy {}, defenseStrategy {}, sortType {}", defenderId, defenderLevel, defenderIV, attackStrategy,
                 defenseStrategy, sortType);
@@ -72,7 +74,8 @@ public class PrestigingResource {
         int attackerCp = formulas.getCPForPrestigeTarget(fakeDefender.getCp(), prestigeTarget);
         CPPokemonCreator defenderCreator = new CPPokemonCreator(creator, attackerCp);
         return Response.ok(simulator.rankDefender(attackStrategy, defenseStrategy, sortType, 
-        		FilterType.PRESTIGE, defenderId.name(), defenderCreator, attackerCreator)).cacheControl(cacheControl).build();
+        		FilterType.PRESTIGE, defenderId.name(), defenderCreator, attackerCreator, dodgeStrategy))
+        		.cacheControl(cacheControl).build();
         
 
     }
@@ -86,13 +89,14 @@ public class PrestigingResource {
             @PathParam("prestigeTarget") int prestigeTarget,
             @PathParam("attackStrategy") AttackStrategyType attackStrategy,
             @PathParam("defenseStrategy") AttackStrategyType defenseStrategy,
-            @DefaultValue("OVERALL") @QueryParam("sort") SortType sortType) {
+            @DefaultValue("OVERALL") @QueryParam("sort") SortType sortType,
+    		@DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy) {
         log.debug("Calculating prestige rankings for defenderId {} defenderCP {}"
         		+ "attackStrategy {}, defenseStrategy {}, sortType {}", defenderId, defenderCP, attackStrategy,
                 defenseStrategy, sortType);
         MiniPokemonData data = creator.findPokemonStats(defenderId,  defenderCP);
         IVWrapper defenderIV = new IVWrapper(data.getAttack(), data.getDefense(), data.getStamina());
-        return prestigeByLevel(defenderId, data.getLevel(), defenderIV, prestigeTarget, attackStrategy, defenseStrategy, sortType);
+        return prestigeByLevel(defenderId, data.getLevel(), defenderIV, prestigeTarget, attackStrategy, defenseStrategy, sortType, dodgeStrategy);
         
 
     }
