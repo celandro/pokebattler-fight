@@ -98,7 +98,10 @@ public class PokemonRepositoryTest {
 			assertTrue("Should have contained " + sorted.get(i).getPokemonId(), 
 					PokemonRepository.END_GAME_DEFENDER_POKEMONS.contains(sorted.get(i).getPokemonId()));
 		}
+		
 		assertEquals(127, PokemonRepository.END_GAME_POKEMONS.size());
+		assertEquals(45, PokemonRepository.END_GAME_ATTACKER_POKEMONS.size());
+		assertEquals(58, PokemonRepository.END_GAME_GOOD_DEFENDER_POKEMONS.size());
 
 	}
 

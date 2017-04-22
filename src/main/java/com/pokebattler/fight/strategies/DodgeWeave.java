@@ -203,7 +203,7 @@ public class DodgeWeave implements AttackStrategy {
 				earliestNextDamageTime = thirdDamageTime - timeElapsed;
 			}
 		} else {
-			int chargeWindowStart = 0;
+			int chargeWindowStart = Integer.MAX_VALUE;
 			int quickWindowStart = defMove1.getDamageWindowStartMs();
 			if (defMove2 != null) {
 				chargeWindowStart = defMove2.getDamageWindowStartMs();

@@ -44,6 +44,11 @@ public class PokemonFilter implements RankingsFilter {
 		return  Collections.singletonList(repository.getById(pokemonId));
 	}
 	@Override
+	public Collection<Pokemon> getDefenders(PokemonRepository repository) {
+    	return repository.getAllEndGame().getPokemonList();
+	}
+	
+	@Override
     public boolean compressResults() {
     	return false;
     }

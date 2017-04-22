@@ -72,6 +72,11 @@ public class CountersFilter implements RankingsFilter {
 	}
 
 	@Override
+    public Collection<Pokemon> getAttackers(PokemonRepository repository) {
+    	return repository.getAllEndGameGoodDefender().getPokemonList();
+    }
+
+	@Override
     public Collection<Pokemon> getDefenders(PokemonRepository repository) {
     	return repository.getAllEndGameAttacker().getPokemonList();
     }

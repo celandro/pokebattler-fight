@@ -141,7 +141,7 @@ public class CombatantState {
 
     int applyDefense(CombatResult r, int time) {
         int energyGain = f.energyGain(r.getDamage());
-        currentEnergy = Math.max(0, Math.min(defender ? 200 : 100, currentEnergy + energyGain));
+        currentEnergy = Math.max(0, Math.min(defender ? Formulas.MAX_DEFENDER_ENERGY : Formulas.MAX_ENERGY, currentEnergy + energyGain));
         currentHp -= r.getDamage();
         timeSinceLastMove += time;
         combatTime += r.getCombatTime();
@@ -152,13 +152,17 @@ public class CombatantState {
         return energyGain;
     }
 
-    void applyAttack(CombatResult r, int time) {
+    int applyAttack(CombatResult r, int time) {
         numAttacks++;
 
         timeSinceLastMove += time;
         damageAlreadyOccurred = true;
         combatTime += time;
         damageDealt += r.getDamage();
+        // apply energy gain here due to server side bug. When this is fixed 
+        int energyGain = nextMove.getEnergyDelta();
+        currentEnergy = Math.max(0, Math.min(defender ? Formulas.MAX_DEFENDER_ENERGY : Formulas.MAX_ENERGY, currentEnergy + energyGain));
+        return energyGain;
 
     }
     void resetAttack(int time) {
@@ -185,9 +189,12 @@ public class CombatantState {
     public int setNextAttack(PokemonAttack nextAttack, Move nextMove) {
         this.nextAttack = nextAttack;
         this.nextMove = nextMove;
-        int energyGain = nextMove.getEnergyDelta();
-        currentEnergy = Math.max(0, Math.min(defender ? 200 : 100, currentEnergy + energyGain));
-        return energyGain;
+        // do not return back the energy now because there is a bug where energy gained is taken away at damage dealt
+        return 0;
+
+//        int energyGain = nextMove.getEnergyDelta();
+//        currentEnergy = Math.max(0, Math.min(defender ? Formulas.MAX_DEFENDER_ENERGY : Formulas.MAX_ENERGY, currentEnergy + energyGain));
+//        return energyGain;
     }
 
     @Override

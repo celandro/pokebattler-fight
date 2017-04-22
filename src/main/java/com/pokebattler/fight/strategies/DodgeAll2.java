@@ -41,8 +41,8 @@ public class DodgeAll2 implements AttackStrategy {
 		// dodge special if we can
 		if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0
 				&& !defenderState.isDodged()) {
-
 			if (defenderState.getTimeToNextDamage() < Formulas.DODGE_WINDOW + extraDelay) {
+				// even if we miss the dodge, we still want to do our special
 				dodgedSpecial = defenderState.isNextMoveSpecial();
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
 					return new PokemonAttack(DODGE_MOVE.getMoveId(), extraDelay);
@@ -52,6 +52,7 @@ public class DodgeAll2 implements AttackStrategy {
 				// we can sneak in a normal attack
 				return new PokemonAttack(pokemon.getMove1(), extraDelay);
 			} else {
+				// even if we miss the dodge, we still want to do our special
 				dodgedSpecial = defenderState.isNextMoveSpecial();
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
 					// dodge perfect

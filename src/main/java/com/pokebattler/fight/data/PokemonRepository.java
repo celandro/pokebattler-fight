@@ -35,7 +35,7 @@ public interface PokemonRepository {
 			FLAREON, MACHAMP, ALAKAZAM, ARCANINE, SCIZOR, PINSIR, URSARING, JOLTEON, FERALIGATR, MUK, AMPHAROS, KINGLER,
 			CHARIZARD, TYPHLOSION, OMASTAR, GENGAR, AERODACTYL, LAPRAS));
 
-	// top by cp, overall, or time to win
+	// top 30 by cp, overall, or time to win
 	public static final EnumSet<PokemonId> END_GAME_ATTACKER_POKEMONS = EnumSet.copyOf(Arrays.asList(
 			DRAGONITE, TYRANITAR, BLISSEY, VAPOREON, GYARADOS, SNORLAX, 
 			GOLEM, EXEGGUTOR, MACHAMP, ESPEON, RHYDON,  OMASTAR,  
@@ -45,6 +45,18 @@ public interface PokemonRepository {
 			MAGNETON, VICTREEBEL, RAICHU, GRANBULL, ELECTABUZZ, VILEPLUME, STARMIE, TANGELA,
 			SCIZOR, PINSIR, URSARING,  AMPHAROS, KINGLER,
 			AERODACTYL));
+	
+	public static final EnumSet<PokemonId> END_GAME_GOOD_DEFENDER_POKEMONS = EnumSet.copyOf(Arrays.asList(
+			DRAGONITE, TYRANITAR, BLISSEY, VAPOREON, GYARADOS, SNORLAX, 
+			GOLEM, EXEGGUTOR, MACHAMP, ESPEON, RHYDON,  OMASTAR,  
+			FLAREON, JOLTEON, HERACROSS,FERALIGATR, DONPHAN, CLOYSTER, 
+			ALAKAZAM, STEELIX, GENGAR, VENUSAUR, POLIWRATH, LAPRAS,
+			CHARIZARD, ARCANINE, KINGDRA, MUK, HOUNDOOM, TENTACRUEL, TYPHLOSION,
+			MAGNETON, VICTREEBEL, RAICHU, GRANBULL, ELECTABUZZ, VILEPLUME, STARMIE, TANGELA,
+			SCIZOR, PINSIR, URSARING,  AMPHAROS, KINGLER,
+			AERODACTYL, POLITOED, TENTACRUEL, CLEFABLE, CROBAT, HYPNO, UMBREON, WOBBUFFET, 
+			MILTANK, NOCTOWL, LANTURN, KANGASKHAN,  SLOWBRO, SLOWKING, JYNX, AMPHAROS));
+	
 
 	public static final EnumSet<PokemonId> UNRELEASED_POKEMONS = EnumSet.copyOf(Arrays.asList(ARTICUNO, MOLTRES, ZAPDOS,
 			MEW, MEWTWO, RAIKOU, ENTEI, SUICUNE, LUGIA, HO_OH, CELEBI, SMEARGLE));
@@ -76,6 +88,13 @@ public interface PokemonRepository {
 		Pokemons.Builder builder = getAll().toBuilder().clearPokemon();
 		getAll().getPokemonList().stream()
 				.filter(pokemon -> END_GAME_DEFENDER_POKEMONS.contains(pokemon.getPokemonId()))
+				.forEach(pokemon -> builder.addPokemon(pokemon));
+		return builder.build();
+	}
+	default Pokemons getAllEndGameGoodDefender() {
+		Pokemons.Builder builder = getAll().toBuilder().clearPokemon();
+		getAll().getPokemonList().stream()
+				.filter(pokemon -> END_GAME_GOOD_DEFENDER_POKEMONS.contains(pokemon.getPokemonId()))
 				.forEach(pokemon -> builder.addPokemon(pokemon));
 		return builder.build();
 	}

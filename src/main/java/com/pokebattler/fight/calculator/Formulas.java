@@ -37,6 +37,8 @@ public class Formulas {
     public static final int START_COMBAT_TIME = 700;
     public static final int DODGE_WINDOW = 700;
     public static final int LOSS_TIME_MS = 2000;
+    public static final int MAX_ENERGY = 100;
+    public static final int MAX_DEFENDER_ENERGY = MAX_ENERGY;
     Random r = new Random();
     Logger log = LoggerFactory.getLogger(getClass());
 
