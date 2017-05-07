@@ -1,5 +1,7 @@
 package com.pokebattler.fight.calculator.dodge;
 
+import java.util.Random;
+
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
@@ -18,7 +20,7 @@ public class NeverDodge implements DodgeStrategy {
     @Component
     public static class Builder implements DodgeStrategy.DodgeStrategyBuilder<NeverDodge> {
         @Override
-        public NeverDodge build() {
+        public NeverDodge build(Random r) {
             return new NeverDodge();
         }
     }

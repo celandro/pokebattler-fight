@@ -84,6 +84,10 @@ public class CountersFilter implements RankingsFilter {
 	public boolean compressResults() {
 		return false;
 	}
+	@Override
+	public String getValue() {
+		return Integer.toString(numForTotal);
+	}
 
     
 }

@@ -4,6 +4,8 @@ import java.util.Random;
 
 import javax.annotation.Resource;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.calculator.CombatantState;
@@ -18,6 +20,7 @@ public class DodgeReactionTime implements DodgeStrategy {
 	private final int maxSpeed;
 	private final double effectiveAdjustment;
 	private final Formulas f;
+	private final static Logger log = LoggerFactory.getLogger(DodgeReactionTime.class); 
 
 	public DodgeReactionTime(Random random, double minDodgePercent, double maxDodgePercent, int minSpeed, int maxSpeed,
 			double effectiveAdjustment, Formulas f) {
@@ -42,8 +45,9 @@ public class DodgeReactionTime implements DodgeStrategy {
 		}
 		if (defenderState.isNextMoveSpecial()) {
 			// super effective text actually makes it harder to dodge!
-			if (attackerState.getNextMove() != null && f.calculateModifier(attackerState.getNextMove(),
+			if (attackerState.getPreviousMove() != null && f.calculateModifier(attackerState.getPreviousMove(),
 					attackerState.getPokemon(), defenderState.getPokemon()) != 1.0) {
+				log.debug("Adjusting for super effective");
 				chanceToDodge *= effectiveAdjustment;
 			}
 		}
@@ -66,8 +70,8 @@ public class DodgeReactionTime implements DodgeStrategy {
 		public static final double PENALTY_DUE_TO_STUPID_SUPER_EFFECTIVE_TEXT = 0.75;
 
 		@Override
-		public DodgeReactionTime build() {
-			return new DodgeReactionTime(new Random(), MIN_DODGE_PERCENT, MAX_DODGE_PERCENT, MIN_SPEED, MAX_SPEED,
+		public DodgeReactionTime build(Random r) {
+			return new DodgeReactionTime(r, MIN_DODGE_PERCENT, MAX_DODGE_PERCENT, MIN_SPEED, MAX_SPEED,
 					PENALTY_DUE_TO_STUPID_SUPER_EFFECTIVE_TEXT, f);
 		}
 	}

@@ -14,10 +14,11 @@ class RankingParams {
     final private PokemonCreator attackerCreator;
     final private PokemonCreator defenderCreator;
     final private DodgeStrategyType dodgeStrategy;
+    final private long seed;
     
     
     public RankingParams(AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, RankingsSort sort, RankingsFilter filter,
-    		PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy) {
+    		PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy, long seed) {
         super();
         this.attackStrategy = attackStrategy;
         this.defenseStrategy = defenseStrategy;
@@ -26,6 +27,7 @@ class RankingParams {
         this.attackerCreator = attackerCreator;
         this.defenderCreator = defenderCreator;
         this.dodgeStrategy = dodgeStrategy;
+        this.seed = seed;
     }
     public AttackStrategyType getAttackStrategy() {
         return attackStrategy;
@@ -59,9 +61,10 @@ class RankingParams {
 		result = prime * result + ((attackerCreator == null) ? 0 : attackerCreator.hashCode());
 		result = prime * result + ((defenderCreator == null) ? 0 : defenderCreator.hashCode());
 		result = prime * result + ((defenseStrategy == null) ? 0 : defenseStrategy.hashCode());
-		result = prime * result + ((filter == null) ? 0 : filter.hashCode());
-		result = prime * result + ((sort == null) ? 0 : sort.hashCode());
 		result = prime * result + ((dodgeStrategy == null) ? 0 : dodgeStrategy.hashCode());
+		result = prime * result + ((filter == null) ? 0 : filter.hashCode());
+		result = prime * result + (int)seed;
+		result = prime * result + ((sort == null) ? 0 : sort.hashCode());
 		return result;
 	}
 
@@ -88,20 +91,24 @@ class RankingParams {
 			return false;
 		if (defenseStrategy != other.defenseStrategy)
 			return false;
+		if (dodgeStrategy != other.dodgeStrategy)
+			return false;
 		if (filter == null) {
 			if (other.filter != null)
 				return false;
 		} else if (!filter.equals(other.filter))
+			return false;
+		if (seed != other.seed)
 			return false;
 		if (sort == null) {
 			if (other.sort != null)
 				return false;
 		} else if (!sort.equals(other.sort))
 			return false;
-		if (dodgeStrategy != other.dodgeStrategy)
-			return false;
-
 		return true;
+	}
+	public long getSeed() {
+		return seed;
 	}
     
 

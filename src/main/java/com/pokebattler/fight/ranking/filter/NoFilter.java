@@ -40,6 +40,11 @@ public class NoFilter implements RankingsFilter {
 		return true;
 	}
 
+	@Override
+	public String getValue() {
+		return "NONE";
+	}
+
 
 
 }

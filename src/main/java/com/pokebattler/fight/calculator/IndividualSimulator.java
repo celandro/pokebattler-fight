@@ -1,5 +1,7 @@
 package com.pokebattler.fight.calculator;
 
+import java.util.Random;
+
 import javax.annotation.Resource;
 
 import org.slf4j.Logger;
@@ -29,7 +31,7 @@ import com.pokebattler.fight.strategies.AttackStrategy;
 import com.pokebattler.fight.strategies.AttackStrategy.PokemonAttack;
 import com.pokebattler.fight.strategies.AttackStrategyRegistry;
 
-@Service
+@Service("IndividualSimulator")
 public class IndividualSimulator implements AttackSimulator {
 	@Resource
 	private Formulas f;
@@ -54,15 +56,8 @@ public class IndividualSimulator implements AttackSimulator {
 	public static final double MAX_POWER = 2.0;
 	public static final double MIN_POWER = -2.0;
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * com.pokebattler.fight.calculator.Simulator#fight(com.pokebattler.fight.
-	 * data.proto.FightOuterClass.Fight, boolean)
-	 */
 	@Override
-	public FightResult.Builder fight(Fight fight, boolean includeDetails) {
+	public FightResult fight(Fight fight, Random r) {
 		PokemonData attacker = fight.getAttacker1();
 		PokemonData defender = fight.getDefender();
 		Pokemon a = pokemonRepository.getById(attacker.getPokemonId());
@@ -76,36 +71,47 @@ public class IndividualSimulator implements AttackSimulator {
 			d = pokemonRepository.transform(d, a);
 			defender = creator.transform(defender, attacker);
 		}
-		final DodgeStrategy dodgeStrategy = dodgeStrategies.create(fight.getDodgeStrategy());
+		final DodgeStrategy dodgeStrategy = dodgeStrategies.create(fight.getDodgeStrategy(), r);
+		final CombatantState attackerState = new CombatantState(a, attacker, f, isDefender(fight.getStrategy()));
+		final CombatantState defenderState = new CombatantState(d, defender, f, isDefender(fight.getDefenseStrategy()));
 
-		final AttackStrategy attackerStrategy = attackStrategies.create(fight.getStrategy(), attacker, dodgeStrategy);
-		final AttackStrategy defenderStrategy = attackStrategies.create(fight.getDefenseStrategy(), defender,
-				dodgeStrategy);
+		final AttackStrategy attackerStrategy = attackStrategies.create(fight.getStrategy(), attacker, dodgeStrategy,
+				f.damageOfMove(attackerState.getAttack(),  defenderState.getDefense(), moveRepository.getById(attacker.getMove1()), a, d),
+				f.damageOfMove(attackerState.getAttack(),  defenderState.getDefense(), moveRepository.getById(attacker.getMove2()), a, d), r);
+		final AttackStrategy defenderStrategy = attackStrategies.create(fight.getDefenseStrategy(), defender,dodgeStrategy,
+				f.damageOfMove(defenderState.getAttack(),  attackerState.getDefense(), moveRepository.getById(defender.getMove1()), d, a),
+				f.damageOfMove(defenderState.getAttack(),  attackerState.getDefense(), moveRepository.getById(defender.getMove2()), d, a), r);
+
 		final FightResult.Builder fightResult = FightResult.newBuilder();
 
-		final CombatantState attackerState = new CombatantState(a, attacker, f, isDefender(attackerStrategy));
-		final CombatantState defenderState = new CombatantState(d, defender, f, isDefender(defenderStrategy));
 
 		nextAttack(defenderStrategy, defenderState, attackerState);
 		int currentTime = Formulas.START_COMBAT_TIME;
-		log.debug("{}: {} chose {} with {} energy", currentTime - Formulas.START_COMBAT_TIME,
-				defenderState.getPokemonId(), defenderState.getNextMove().getMoveId(),
-				defenderState.getCurrentEnergy());
+		if (log.isDebugEnabled()) {
+			log.debug("{}: {} chose {} with {} energy", currentTime - Formulas.START_COMBAT_TIME,
+					defenderState.getPokemonId(), defenderState.getNextMove().getMoveId(),
+					defenderState.getCurrentEnergy());
+		}
 
 		while (attackerState.isAlive() && defenderState.isAlive() && currentTime < Formulas.MAX_COMBAT_TIME_MS) {
 			// do defender first since defender strategy determines attacker
 			// strategy
 			if (defenderState.getNextMove() == null) {
 				int energyGain = nextAttack(defenderStrategy, defenderState, attackerState);
-				log.debug("D{}: {} chose {}, gaining {} energy, new energy {}",
-						currentTime - Formulas.START_COMBAT_TIME, defenderState.getPokemonId(),
-						defenderState.getNextMove().getMoveId(), energyGain, defenderState.getCurrentEnergy());
+				if (log.isDebugEnabled()) {
+					log.debug("D{}: {} chose {}, gaining {} energy, new energy {}",
+							currentTime - Formulas.START_COMBAT_TIME, defenderState.getPokemonId(),
+							defenderState.getNextMove().getMoveId(), energyGain, defenderState.getCurrentEnergy());
+				}
 			}
 			if (attackerState.getNextMove() == null) {
 				int energyGain = nextAttack(attackerStrategy, attackerState, defenderState);
-				log.debug("A{}: {} chose {}  gaining {} energy, new energy {}",
-						currentTime - Formulas.START_COMBAT_TIME, attackerState.getPokemonId(),
-						attackerState.getNextMove().getMoveId(), energyGain, attackerState.getCurrentEnergy());
+				
+				if (log.isDebugEnabled()) {
+					log.debug("A{}: {} chose {}  gaining {} energy, new energy {}",
+							currentTime - Formulas.START_COMBAT_TIME, attackerState.getPokemonId(),
+							attackerState.getNextMove().getMoveId(), energyGain, attackerState.getCurrentEnergy());
+				}
 			}
 			final int timeToNextAttack = attackerState.getTimeToNextAttack();
 			final int timeToNextDefense = defenderState.getTimeToNextAttack();
@@ -123,8 +129,8 @@ public class IndividualSimulator implements AttackSimulator {
 			else if (timeToNextAttackDamage >= 0 && timeToNextAttackDamage <= timeToNextAttack
 					&& timeToNextAttackDamage <= timeToNextDefense
 					&& timeToNextAttackDamage <= timeToNextDefenseDamage) {
-				final CombatResult.Builder combatBuilder = f.getCombatResult(attackerState.getAttack(),
-						defenderState.getDefense(), attackerState.getNextMove(), a, d, attackerState.isDodged());
+				final CombatResult.Builder combatBuilder = f.getCombatResult(attackerState.getNextAttack().getDamage(), 
+						attackerState.getNextMove(), attackerState.isDodged());
 				currentTime += timeToNextAttackDamage;
 				final CombatResult result = combatBuilder.setCurrentTime(currentTime).setAttackerId(attacker.getId())
 						.setAttacker(Combatant.ATTACKER1).setDefender(Combatant.DEFENDER).setCurrentTime(currentTime)
@@ -132,46 +138,54 @@ public class IndividualSimulator implements AttackSimulator {
 
 				int myEnergyGain = attackerState.applyAttack(result, timeToNextAttackDamage);
 				int energyGain = defenderState.applyDefense(result, timeToNextAttackDamage);
-				log.debug("A{}: {} took {} damage and gained {} energy. defender gained {} energy",
-						currentTime - Formulas.START_COMBAT_TIME, defenderState.getPokemonId(), result.getDamage(),
-						myEnergyGain, energyGain);
-				if (includeDetails) {
+				if (log.isDebugEnabled()) {
+					log.debug("A{}: {} took {} damage and gained {} energy. defender gained {} energy",
+							currentTime - Formulas.START_COMBAT_TIME, defenderState.getPokemonId(), result.getDamage(),
+							myEnergyGain, energyGain);
+				}
+				if (fight.getIncludeDetails()) {
 					fightResult.addCombatResult(result);
 				}
 
 			} else if (timeToNextDefenseDamage >= 0 && timeToNextDefenseDamage <= timeToNextAttack
 					&& timeToNextDefenseDamage <= timeToNextDefense) {
-				final CombatResult.Builder combatBuilder = f.getCombatResult(defenderState.getAttack(),
-						attackerState.getDefense(), defenderState.getNextMove(), d, a, defenderState.isDodged());
+				final CombatResult.Builder combatBuilder = f.getCombatResult(defenderState.getNextAttack().getDamage(), 
+						defenderState.getNextMove(), defenderState.isDodged());
 				currentTime += timeToNextDefenseDamage;
 
 				final CombatResult result = combatBuilder.setCurrentTime(currentTime).setAttackerId(defender.getId())
 						.setAttacker(Combatant.DEFENDER).setDefender(Combatant.ATTACKER1).build();
 				int myEnergyGain = defenderState.applyAttack(result, timeToNextDefenseDamage);
 				int energyGain = attackerState.applyDefense(result, timeToNextDefenseDamage);
-				log.debug("D{}: {} took {} damage and gained {} energy. defender gained {} energy",
-						currentTime - Formulas.START_COMBAT_TIME, attackerState.getPokemonId(), result.getDamage(),
-						myEnergyGain, energyGain);
+				if (log.isDebugEnabled()) {
+					log.debug("D{}: {} took {} damage and gained {} energy. defender gained {} energy",
+							currentTime - Formulas.START_COMBAT_TIME, attackerState.getPokemonId(), result.getDamage(),
+							myEnergyGain, energyGain);
+				}
 				// log.debug("Defender State {}",defenderState);
-				if (includeDetails) {
+				if (fight.getIncludeDetails()) {
 					fightResult.addCombatResult(result);
 				}
 			} else if (timeToNextAttack <= timeToNextDefense) {
 				currentTime += timeToNextAttack;
 				attackerState.resetAttack(timeToNextAttack);
-				log.debug("A{}: {} finished his attack", currentTime - Formulas.START_COMBAT_TIME,
-						attackerState.getPokemonId());
+				if (log.isDebugEnabled()) {
+					log.debug("A{}: {} finished his attack", currentTime - Formulas.START_COMBAT_TIME,
+							attackerState.getPokemonId());
+				}
 				defenderState.moveTime(timeToNextAttack);
 			} else {
 				currentTime += timeToNextDefense;
 				defenderState.resetAttack(timeToNextDefense);
-				log.debug("D{}: {} finished his attack", currentTime - Formulas.START_COMBAT_TIME,
-						defenderState.getPokemonId());
+				if (log.isDebugEnabled()) {
+					log.debug("D{}: {} finished his attack", currentTime - Formulas.START_COMBAT_TIME,
+							defenderState.getPokemonId());
+				}
 				attackerState.moveTime(timeToNextDefense);
 			}
 
 		}
-		fightResult.setTotalCombatTime(currentTime)
+		fightResult.setTotalCombatTime(currentTime).setNumSims(1)
 				.addCombatants(attackerState.toResult(Combatant.ATTACKER1, attackerStrategy.getType(), currentTime))
 				.addCombatants(defenderState.toResult(Combatant.DEFENDER, defenderStrategy.getType(), currentTime))
 				.setFightParameters(fight);
@@ -182,12 +196,12 @@ public class IndividualSimulator implements AttackSimulator {
 		fightResult.setEffectiveCombatTime(getEffectiveCombatTime(fightResult));
 		fightResult.setPotions(getPotions(fightResult));
 		fightResult.setOverallRating(getOverallRating(fightResult));
-		return fightResult;
+		return fightResult.build();
 	}
 
 	private int nextAttack(AttackStrategy strategy, CombatantState attackerState, CombatantState defenderState) {
 		final PokemonAttack nextAttack = strategy.nextAttack(attackerState, defenderState);
-		final Move nextMove = moveRepository.getById(nextAttack.getMove());
+		final Move nextMove = nextAttack.getMove();
 		return attackerState.setNextAttack(nextAttack, nextMove);
 	}
 

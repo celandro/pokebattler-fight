@@ -1,5 +1,7 @@
 package com.pokebattler.fight.calculator.dodge;
 
+import java.util.Random;
+
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 
@@ -10,10 +12,10 @@ public interface DodgeStrategy {
 
     public static interface DodgeStrategyBuilder<S extends DodgeStrategy> {
         public default DodgeStrategyType getType() {
-            return build().getType();
+            return build(new Random()).getType();
         }
 
-        S build();
+        S build(Random r);
     }
 
 	

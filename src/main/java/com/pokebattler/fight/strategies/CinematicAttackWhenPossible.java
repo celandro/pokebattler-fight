@@ -1,9 +1,12 @@
 package com.pokebattler.fight.strategies;
 
+import java.util.Random;
+
 import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
+import com.pokebattler.fight.calculator.AttackDamage;
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
 import com.pokebattler.fight.data.MoveRepository;
@@ -16,25 +19,28 @@ public class CinematicAttackWhenPossible implements AttackStrategy {
     private int extraDelay;
     private Move move1;
     private Move move2;
-
+    private AttackDamage move1Damage;
+    private AttackDamage move2Damage;
     @Override
     public AttackStrategyType getType() {
         return AttackStrategyType.CINEMATIC_ATTACK_WHEN_POSSIBLE;
     }
 
-    public CinematicAttackWhenPossible(PokemonData pokemon, Move move1, Move move2, int extraDelay) {
+    public CinematicAttackWhenPossible(PokemonData pokemon, Move move1, Move move2, int extraDelay, AttackDamage move1Damage, AttackDamage move2Damage) {
         this.pokemon = pokemon;
         this.extraDelay = extraDelay;
         this.move1 = move1;
         this.move2 = move2;
+        this.move1Damage = move1Damage;
+        this.move2Damage = move2Damage;
     }
 
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
         if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
-            return new PokemonAttack(pokemon.getMove2(), extraDelay + CAST_TIME);
+            return getMove1Attack(extraDelay + CAST_TIME);
         } else {
-            return new PokemonAttack(pokemon.getMove1(), extraDelay);
+            return getMove2Attack(extraDelay);
         }
 
     }
@@ -50,11 +56,35 @@ public class CinematicAttackWhenPossible implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public CinematicAttackWhenPossible build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        public CinematicAttackWhenPossible build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
         	// ignore dodgeStrategy
             return new CinematicAttackWhenPossible(pokemon, move.getById(pokemon.getMove1()),
-                    move.getById(pokemon.getMove2()), 0);
+                    move.getById(pokemon.getMove2()), 0,  move1Damage, move2Damage);
         }
     }
+
+	public PokemonData getPokemon() {
+		return pokemon;
+	}
+
+	public int getExtraDelay() {
+		return extraDelay;
+	}
+
+	public Move getMove1() {
+		return move1;
+	}
+
+	public Move getMove2() {
+		return move2;
+	}
+
+	public AttackDamage getMove1Damage() {
+		return move1Damage;
+	}
+
+	public AttackDamage getMove2Damage() {
+		return move2Damage;
+	}
 
 }

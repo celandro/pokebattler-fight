@@ -6,6 +6,7 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
+import com.pokebattler.fight.calculator.AttackDamage;
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
@@ -19,12 +20,14 @@ public class DefenderRandomAttack implements AttackStrategy {
     private final PokemonData pokemon;
     private final Move move1;
     private final Move move2;
-    private final Random r = new Random();
+    private final Random r;
     public static int SECOND_ATTACK_DELAY = 1000;
     public static int FIRST_ATTACK_TIME = 1600 - Formulas.START_COMBAT_TIME;
     private final int randomDelay;
     private final AttackStrategyType type;
     private final double specialRandom;
+	private AttackDamage move1Damage;
+	private AttackDamage move2Damage;
 
     @Override
     public AttackStrategyType getType() {
@@ -32,7 +35,7 @@ public class DefenderRandomAttack implements AttackStrategy {
     }
 
     public DefenderRandomAttack(PokemonData pokemon, Move move1, Move move2, int extraDelay, int randomDelay,
-            AttackStrategyType type, double specialRandom) {
+            AttackStrategyType type, double specialRandom, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
         this.pokemon = pokemon;
         this.extraDelay = extraDelay;
         this.randomDelay = randomDelay;
@@ -40,23 +43,26 @@ public class DefenderRandomAttack implements AttackStrategy {
         this.move2 = move2;
         this.type = type;
         this.specialRandom = specialRandom;
+        this.move1Damage = move1Damage;
+        this.move2Damage = move2Damage;
+        this.r = r;
+        
     }
 
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
         if (r.nextDouble() < specialRandom && attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
-            return new PokemonAttack(pokemon.getMove2(), extraDelay + r.nextInt(randomDelay));
+            return getMove2Attack( extraDelay + r.nextInt(randomDelay));
         } else {
             switch (attackerState.getNumAttacks()) {
             case 0:
-                return new PokemonAttack(pokemon.getMove1(), FIRST_ATTACK_TIME);
+                return getMove1Attack(FIRST_ATTACK_TIME);
             case 1:
-                return new PokemonAttack(pokemon.getMove1(), SECOND_ATTACK_DELAY - move1.getDurationMs());
+                return getMove1Attack(SECOND_ATTACK_DELAY - move1.getDurationMs());
             case 2:
-                return new PokemonAttack(pokemon.getMove1(),
-                        extraDelay + r.nextInt(randomDelay) - move1.getDurationMs());
+                return getMove1Attack(extraDelay + r.nextInt(randomDelay) - move1.getDurationMs());
             default:
-                return new PokemonAttack(pokemon.getMove1(), extraDelay + r.nextInt(randomDelay));
+                return getMove1Attack(extraDelay + r.nextInt(randomDelay));
             }
         }
 
@@ -72,11 +78,11 @@ public class DefenderRandomAttack implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public DefenderRandomAttack build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        public DefenderRandomAttack build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
         	// defenders never dodge
             return new DefenderRandomAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
                     DEFENDER_DELAY - (RAND_MS_DELAY / 2), RAND_MS_DELAY, AttackStrategyType.DEFENSE_RANDOM,
-                    RAND_CHANCE_SPECIAL);
+                    RAND_CHANCE_SPECIAL,  move1Damage,  move2Damage, r);
         }
     }
 
@@ -91,12 +97,48 @@ public class DefenderRandomAttack implements AttackStrategy {
         private MoveRepository move;
 
         @Override
-        public DefenderRandomAttack build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+        public DefenderRandomAttack build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
         	// defenders never dodge
             return new DefenderRandomAttack(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()),
                     DEFENDER_DELAY - RAND_LUCKY_DELAY, RAND_MS_DELAY, AttackStrategyType.DEFENSE_LUCKY,
-                    RAND_CHANCE_SPECIAL);
+                    RAND_CHANCE_SPECIAL, move1Damage, move2Damage, r);
         }
     }
+
+	public int getExtraDelay() {
+		return extraDelay;
+	}
+
+	public PokemonData getPokemon() {
+		return pokemon;
+	}
+
+	public Move getMove1() {
+		return move1;
+	}
+
+	public Move getMove2() {
+		return move2;
+	}
+
+	public Random getR() {
+		return r;
+	}
+
+	public int getRandomDelay() {
+		return randomDelay;
+	}
+
+	public double getSpecialRandom() {
+		return specialRandom;
+	}
+
+	public AttackDamage getMove1Damage() {
+		return move1Damage;
+	}
+
+	public AttackDamage getMove2Damage() {
+		return move2Damage;
+	}
 
 }
