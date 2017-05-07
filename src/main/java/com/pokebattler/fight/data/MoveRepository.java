@@ -5,6 +5,7 @@ import java.util.EnumSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
@@ -27,6 +28,8 @@ public class MoveRepository {
     ObjectMapper mapper;
     final Moves all;
     final Map<PokemonMove, Move> moveMap;
+    final Set<PokemonMove> quickMoves;
+    final Set<PokemonMove> cinematicMoves;
     public final static Move DODGE_MOVE = Move.newBuilder().setMoveId(PokemonMove.DODGE).setAccuracyChance(0)
             .setDurationMs(500).build();
 
@@ -39,6 +42,8 @@ public class MoveRepository {
         mapper.configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_PROPERTIES, true);
         mapper.setSerializationInclusion(Include.NON_NULL);
         final RawData rawData = mapper.readValue(is, RawData.class);
+        quickMoves = EnumSet.noneOf(PokemonMove.class);
+        cinematicMoves = EnumSet.noneOf(PokemonMove.class);
         all = createMoves(rawData);
         moveMap = all.getMoveList().stream().collect(Collectors.toMap(p -> p.getMoveId(), p -> p));
         log.info("Loaded {} moves", all.getMoveCount());
@@ -59,6 +64,11 @@ public class MoveRepository {
                         move.setPokemonType(null);
                         moveString = mapper.writeValueAsString(move);
                         parser.merge(moveString, builder);
+                        if (builder.getMoveId().name().endsWith("FAST")) {
+                        	quickMoves.add(builder.getMoveId());
+                        } else {
+                        	cinematicMoves.add(builder.getMoveId());
+                        }
                     } catch (final Exception e) {
                         throw new IllegalArgumentException("Could not parse " + move.getMovementId() + ":" + moveString,
                                 e);
@@ -110,5 +120,13 @@ public class MoveRepository {
     public Move getById(PokemonMove id) {
         return moveMap.get(id);
     }
+
+	public Set<PokemonMove> getQuickMoves() {
+		return quickMoves;
+	}
+
+	public Set<PokemonMove> getCinematicMoves() {
+		return cinematicMoves;
+	}
 
 }

@@ -36,9 +36,10 @@ public class CombatantState {
     private boolean dodged = false;
     private boolean damageAlreadyOccurred = false;
     public static final int MIN_FAST_MOVE = PokemonMove.FURY_CUTTER_FAST.getNumber();
+    private final MoveRepository moveRepository;
     public boolean isNextMoveSpecial() {
     	
-        return getNextMove() == null?false:getNextMove().getMoveIdValue() < MIN_FAST_MOVE;
+        return moveRepository.getCinematicMoves().contains(getNextMove().getMoveId());
     }
 
     public boolean isDodged() {
@@ -106,7 +107,7 @@ public class CombatantState {
         return previousMove;
     }
 
-    public CombatantState(Pokemon p, PokemonData ind, Formulas f, boolean defender) {
+    public CombatantState(Pokemon p, PokemonData ind, Formulas f, boolean defender, MoveRepository moveRepository) {
         this.id = ind.getId();
         this.pokemonId = p.getPokemonId();
         this.f = f;
@@ -126,6 +127,7 @@ public class CombatantState {
         this.nextMove = null;
         this.previousMove = null;
         this.pokemon = p;
+        this.moveRepository = moveRepository;
     }
 
     boolean isAlive() {

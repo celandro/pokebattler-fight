@@ -123,16 +123,6 @@ public class IndividualPokemonRepository implements PokemonRepository {
         return allBuilder.build();
     }
 
-    void addCinematicMoves(String cinMoves, final Pokemon.Builder b) {
-        OctalParser.parseRepeatedInt32(cinMoves).stream()
-                .map(num -> PokemonMove.forNumber(num)).forEach(move -> b.addCinematicMoves(move));
-    }
-
-    void addQuickMoves(String quickMoves, final Pokemon.Builder b) {
-        OctalParser.parseRepeatedInt32(quickMoves).stream()
-                .map(num -> PokemonMove.forNumber(num)).forEach(move -> b.addQuickMoves(move));
-    }
-
     @Override
     public Map<PokemonId, Pokemon> getPokemonMap() {
     	return pokemonMap;

@@ -72,8 +72,8 @@ public class IndividualSimulator implements AttackSimulator {
 			defender = creator.transform(defender, attacker);
 		}
 		final DodgeStrategy dodgeStrategy = dodgeStrategies.create(fight.getDodgeStrategy(), r);
-		final CombatantState attackerState = new CombatantState(a, attacker, f, isDefender(fight.getStrategy()));
-		final CombatantState defenderState = new CombatantState(d, defender, f, isDefender(fight.getDefenseStrategy()));
+		final CombatantState attackerState = new CombatantState(a, attacker, f, isDefender(fight.getStrategy()), moveRepository);
+		final CombatantState defenderState = new CombatantState(d, defender, f, isDefender(fight.getDefenseStrategy()), moveRepository);
 
 		final AttackStrategy attackerStrategy = attackStrategies.create(fight.getStrategy(), attacker, dodgeStrategy,
 				f.damageOfMove(attackerState.getAttack(),  defenderState.getDefense(), moveRepository.getById(attacker.getMove1()), a, d),
