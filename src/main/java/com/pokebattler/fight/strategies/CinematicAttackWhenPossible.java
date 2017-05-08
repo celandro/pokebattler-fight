@@ -38,9 +38,9 @@ public class CinematicAttackWhenPossible implements AttackStrategy {
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
         if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
-            return getMove1Attack(extraDelay + CAST_TIME);
+            return getMove2Attack(extraDelay + CAST_TIME);
         } else {
-            return getMove2Attack(extraDelay);
+            return getMove1Attack(extraDelay);
         }
 
     }
