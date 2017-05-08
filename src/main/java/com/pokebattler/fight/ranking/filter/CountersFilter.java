@@ -82,7 +82,7 @@ public class CountersFilter implements RankingsFilter {
     }
 	@Override
 	public boolean compressResults() {
-		return false;
+		return true;
 	}
 	@Override
 	public String getValue() {

@@ -64,7 +64,7 @@ public class MoveRepository {
                         move.setPokemonType(null);
                         moveString = mapper.writeValueAsString(move);
                         parser.merge(moveString, builder);
-                        if (builder.getMoveId().name().endsWith("FAST")) {
+                        if (builder.getMoveId().name().contains("_FAST")) {
                         	quickMoves.add(builder.getMoveId());
                         } else {
                         	cinematicMoves.add(builder.getMoveId());

@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
+import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
 
 public class DodgeReactionTime implements DodgeStrategy {
 	private final Random random;
@@ -35,23 +36,33 @@ public class DodgeReactionTime implements DodgeStrategy {
 
 	@Override
 	public boolean tryToDodge(CombatantState attackerState, CombatantState defenderState) {
+		Move nextMove = defenderState.getNextMove();
+		double chanceToDodge = chanceToDodge(nextMove);
+		if (defenderState.isNextMoveSpecial()) {
+			// super effective text actually makes it harder to dodge!
+			if (isSuperEffective(attackerState, defenderState)) {
+				log.debug("Adjusting for super effective");
+				chanceToDodge *= effectiveAdjustment;
+			}
+		}
+		return random.nextDouble() <= chanceToDodge;
+	}
+
+	public double chanceToDodge(Move nextMove) {
 		double chanceToDodge = maxDodgePercent;
-		int damageWindow = defenderState.getNextMove().getDamageWindowStartMs();
+		int damageWindow = nextMove.getDamageWindowStartMs();
 		if (damageWindow <= minSpeed) {
 			chanceToDodge = minDodgePercent;
 		} else if (damageWindow < maxSpeed) {
 			double ratio = (damageWindow - minSpeed) / ((double) (maxSpeed - minSpeed));
 			chanceToDodge = (maxDodgePercent - minDodgePercent) * ratio + minDodgePercent;
 		}
-		if (defenderState.isNextMoveSpecial()) {
-			// super effective text actually makes it harder to dodge!
-			if (attackerState.getPreviousMove() != null && f.calculateModifier(attackerState.getPreviousMove(),
-					attackerState.getPokemon(), defenderState.getPokemon()) != 1.0) {
-				log.debug("Adjusting for super effective");
-				chanceToDodge *= effectiveAdjustment;
-			}
-		}
-		return random.nextDouble() <= chanceToDodge;
+		return chanceToDodge;
+	}
+
+	public boolean isSuperEffective(CombatantState attackerState, CombatantState defenderState) {
+		return attackerState.getPreviousMove() != null && f.calculateModifier(attackerState.getPreviousMove(),
+				attackerState.getPokemon(), defenderState.getPokemon()) != 1.0;
 	}
 
 	@Override
