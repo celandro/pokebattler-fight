@@ -9,7 +9,7 @@ import com.pokebattler.fight.data.proto.FightOuterClass.CombatantResult;
 import com.pokebattler.fight.data.proto.FightOuterClass.FightResult;
 import com.pokebattler.fight.data.proto.Ranking.DefenderSubResult;
 import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
-import com.pokebattler.fight.ranking.RankingSimulator;
+import com.pokebattler.fight.ranking.ThreadedRankingSimulator;
 
 public class AttackSimulatorTest {
     IndividualSimulator simulator;

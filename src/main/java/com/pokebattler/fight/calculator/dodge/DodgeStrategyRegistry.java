@@ -3,6 +3,7 @@ package com.pokebattler.fight.calculator.dodge;
 import java.util.EnumMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
@@ -26,9 +27,9 @@ public class DodgeStrategyRegistry {
         });
     }
 
-    public DodgeStrategy create(DodgeStrategyType type) {
+    public DodgeStrategy create(DodgeStrategyType type, Random r) {
     	if (type == null) type = DodgeStrategyType.DODGE_100;
-    	return strategies.get(type).build();
+    	return strategies.get(type).build(r);
     }
 
 }

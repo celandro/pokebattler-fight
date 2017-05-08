@@ -66,6 +66,10 @@ public class PrestigeFilter implements RankingsFilter {
     public int getNumWorstSubDefenderToKeep() {
         return 1;
     }
+	@Override
+	public String getValue() {
+		return pokemonId.name();
+	}
 
     
     

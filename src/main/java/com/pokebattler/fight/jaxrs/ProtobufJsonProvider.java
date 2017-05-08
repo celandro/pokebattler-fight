@@ -9,6 +9,7 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.lang.reflect.Type;
 
+import javax.ws.rs.Consumes;
 import javax.ws.rs.ProcessingException;
 import javax.ws.rs.Produces;
 import javax.ws.rs.WebApplicationException;
@@ -26,12 +27,13 @@ import com.google.protobuf.util.JsonFormat;
 
 @Provider
 @Produces("application/json")
-public class ProtobufProvider implements MessageBodyReader<Message>, MessageBodyWriter<Message> {
+@Consumes("application/json")
+public class ProtobufJsonProvider implements MessageBodyReader<Message>, MessageBodyWriter<Message> {
     JsonFormat.Printer printer = JsonFormat.printer().omittingInsignificantWhitespace();
     JsonFormat.Parser parser = JsonFormat.parser();
     Logger log = LoggerFactory.getLogger(getClass());
 
-    public ProtobufProvider() {
+    public ProtobufJsonProvider() {
         super();
         log.info("Registered");
     }

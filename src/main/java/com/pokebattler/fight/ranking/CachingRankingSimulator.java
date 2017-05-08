@@ -3,6 +3,7 @@ package com.pokebattler.fight.ranking;
 import javax.annotation.Resource;
 import javax.ws.rs.QueryParam;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import com.google.common.cache.CacheBuilder;
@@ -22,6 +23,7 @@ import com.pokebattler.fight.ranking.sort.SortRegistry;
 @Service
 public class CachingRankingSimulator {
 	@Resource
+	@Qualifier("RankingSimulator")
 	RankingSimulator rankingSimulator;
 	@Resource
 	SortRegistry sortRegistry;
@@ -36,7 +38,7 @@ public class CachingRankingSimulator {
 				}
 			});
 	// small objects cache
-	LoadingCache<RankingParams, RankingResult> filteredRankCache = CacheBuilder.newBuilder().maximumSize(1000)
+	LoadingCache<RankingParams, RankingResult> filteredRankCache = CacheBuilder.newBuilder().maximumSize(100)
 			.build(new CacheLoader<RankingParams, RankingResult>() {
 				public RankingResult load(RankingParams key) {
 					return rankingSimulator.rank(key);
@@ -45,10 +47,10 @@ public class CachingRankingSimulator {
 
 	public RankingResult rankAttacker(AttackStrategyType attackStrategy,
 			AttackStrategyType defenseStrategy, SortType sortType, FilterType filterType, String filterValue,
-			PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy) {
+			PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy, long seed) {
 		RankingsFilter filter = filterRegistry.getFilter(filterType, filterValue);
 		return getCache(filterType).getUnchecked(new RankingParams(attackStrategy, defenseStrategy, 
-				sortRegistry.getAttackerSort(sortType), filter, attackerCreator, defenderCreator, dodgeStrategy));
+				sortRegistry.getAttackerSort(sortType), filter, attackerCreator, defenderCreator, dodgeStrategy, seed));
 	}
 
 	private LoadingCache<RankingParams, RankingResult> getCache(FilterType filterType) {
@@ -59,10 +61,10 @@ public class CachingRankingSimulator {
 
 	public RankingResult rankDefender(AttackStrategyType attackStrategy,
 			AttackStrategyType defenseStrategy, SortType sortType, FilterType filterType, String filterValue,
-			PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy) {
+			PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy, long seed) {
 		RankingsFilter filter = filterRegistry.getFilter(filterType, filterValue);
 		return getCache(filterType).getUnchecked(new RankingParams(defenseStrategy,
-				attackStrategy, sortRegistry.getDefenderSort(sortType), filter, defenderCreator, attackerCreator, dodgeStrategy));
+				attackStrategy, sortRegistry.getDefenderSort(sortType), filter, defenderCreator, attackerCreator, dodgeStrategy, seed));
 	}
 
 }

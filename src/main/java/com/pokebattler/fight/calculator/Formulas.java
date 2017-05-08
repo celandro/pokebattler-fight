@@ -16,6 +16,7 @@ import com.pokebattler.fight.data.proto.FightOuterClass.CombatResult;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData.Builder;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonDataOrBuilder;
+import com.pokebattler.fight.data.proto.PokemonMoveOuterClass.PokemonMove;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.PokemonTypeOuterClass.PokemonType;
 
@@ -39,7 +40,6 @@ public class Formulas {
     public static final int LOSS_TIME_MS = 2000;
     public static final int MAX_ENERGY = 100;
     public static final int MAX_DEFENDER_ENERGY = MAX_ENERGY;
-    Random r = new Random();
     Logger log = LoggerFactory.getLogger(getClass());
 
     public Formulas() {
@@ -103,10 +103,10 @@ public class Formulas {
 
     public CombatResult.Builder getCombatResult(double attack, double defense, Move move, Pokemon attacker,
             Pokemon defender, boolean isDodge) {
-        final int damage = damageOfMove(attack, defense, move, attacker, defender);
+        final int damage = damageOfMove(attack, defense, move, attacker, defender).getDamage();
         return getCombatResult(damage, move, isDodge);
     }
-    public int getDamageOfMove(double attack, double defense, Move move, Pokemon attacker,
+    public AttackDamage getDamageOfMove(double attack, double defense, Move move, Pokemon attacker,
             Pokemon defender) {
         return damageOfMove(attack, defense, move, attacker, defender);
     }
@@ -124,9 +124,9 @@ public class Formulas {
         return builder;
 	}
 
-    public int damageOfMove(double attack, double defense, Move move, Pokemon attacker, Pokemon defender) {
+    public AttackDamage damageOfMove(double attack, double defense, Move move, Pokemon attacker, Pokemon defender) {
         if (move == MoveRepository.DODGE_MOVE) {
-            return 0;
+            return new AttackDamage(0, MoveRepository.DODGE_MOVE, 1.0);
         }
         final double modifier = calculateModifier(move, attacker, defender);
 
@@ -140,7 +140,7 @@ public class Formulas {
         // * (wasCrit?1.5:1.0) * move.getAccuracyChance() * modifier));
         // rounds up if possible
         int damage = (int) (0.5 * attack / defense * move.getPower() * critMultiplier * missMultiplier * modifier) + 1;
-        return damage;
+        return new AttackDamage(damage, move, modifier);
     }
 
     public int defensePrestigeGain(double attackCP, double... defenseCPs) {

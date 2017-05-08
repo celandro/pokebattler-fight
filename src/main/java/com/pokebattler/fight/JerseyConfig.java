@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 import com.leandronunes85.etag.responsefilter.ETagResponseFilter;
 import com.pokebattler.fight.jaxrs.CORSResponseFilter;
 import com.pokebattler.fight.jaxrs.CacheControlResponseFilter;
-import com.pokebattler.fight.jaxrs.ProtobufProvider;
+import com.pokebattler.fight.jaxrs.ProtobufBinaryProvider;
+import com.pokebattler.fight.jaxrs.ProtobufJsonProvider;
 
 @Component
 public class JerseyConfig extends ResourceConfig {
@@ -19,9 +20,11 @@ public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
         log.info("Registering classes");
+        register(AppConfiguration.class);
         packages("com.pokebattler.fight.data");
         packages("com.pokebattler.fight.resources");
-        register(ProtobufProvider.class);
+        register(ProtobufJsonProvider.class);
+        register(ProtobufBinaryProvider.class);
         // need to be in order
         register(ETagResponseFilter.class);
         register(CORSResponseFilter.class);

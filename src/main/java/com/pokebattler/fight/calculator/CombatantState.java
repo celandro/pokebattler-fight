@@ -32,11 +32,14 @@ public class CombatantState {
     private int numAttacks;
     private PokemonAttack nextAttack;
     private Move nextMove;
+    private Move previousMove;
     private boolean dodged = false;
     private boolean damageAlreadyOccurred = false;
-
+    public static final int MIN_FAST_MOVE = PokemonMove.FURY_CUTTER_FAST.getNumber();
+    private final MoveRepository moveRepository;
     public boolean isNextMoveSpecial() {
-        return !getNextMove().getMoveId().name().endsWith("FAST");
+    	
+        return moveRepository.getCinematicMoves().contains(getNextMove().getMoveId());
     }
 
     public boolean isDodged() {
@@ -100,8 +103,11 @@ public class CombatantState {
     public Move getNextMove() {
         return nextMove;
     }
+    public Move getPreviousMove() {
+        return previousMove;
+    }
 
-    public CombatantState(Pokemon p, PokemonData ind, Formulas f, boolean defender) {
+    public CombatantState(Pokemon p, PokemonData ind, Formulas f, boolean defender, MoveRepository moveRepository) {
         this.id = ind.getId();
         this.pokemonId = p.getPokemonId();
         this.f = f;
@@ -119,7 +125,9 @@ public class CombatantState {
         this.timeSinceLastMove = 0;
         this.nextAttack = null;
         this.nextMove = null;
+        this.previousMove = null;
         this.pokemon = p;
+        this.moveRepository = moveRepository;
     }
 
     boolean isAlive() {
@@ -159,6 +167,9 @@ public class CombatantState {
         damageAlreadyOccurred = true;
         combatTime += time;
         damageDealt += r.getDamage();
+        // apply previous move here as the super effective text shows up
+        previousMove = nextMove;
+        
         // apply energy gain here due to server side bug. When this is fixed 
         int energyGain = nextMove.getEnergyDelta();
         currentEnergy = Math.max(0, Math.min(defender ? Formulas.MAX_DEFENDER_ENERGY : Formulas.MAX_ENERGY, currentEnergy + energyGain));

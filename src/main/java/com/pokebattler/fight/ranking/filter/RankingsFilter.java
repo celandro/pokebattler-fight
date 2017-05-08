@@ -32,5 +32,6 @@ public interface RankingsFilter {
     	return true;
     }
     public static final int TRIM_TO = 24;
+	String getValue();
 
 }

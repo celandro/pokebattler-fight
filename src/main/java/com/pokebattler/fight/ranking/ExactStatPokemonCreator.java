@@ -30,7 +30,13 @@ public class ExactStatPokemonCreator implements PokemonCreator {
 
 	@Override
 	public int hashCode() {
-		return level.hashCode();
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + attack;
+		result = prime * result + defense;
+		result = prime * result + ((level == null) ? 0 : level.hashCode());
+		result = prime * result + stamina;
+		return result;
 	}
 
 	@Override
@@ -42,10 +48,16 @@ public class ExactStatPokemonCreator implements PokemonCreator {
 		if (getClass() != obj.getClass())
 			return false;
 		ExactStatPokemonCreator other = (ExactStatPokemonCreator) obj;
+		if (attack != other.attack)
+			return false;
+		if (defense != other.defense)
+			return false;
 		if (level == null) {
 			if (other.level != null)
 				return false;
 		} else if (!level.equals(other.level))
+			return false;
+		if (stamina != other.stamina)
 			return false;
 		return true;
 	}

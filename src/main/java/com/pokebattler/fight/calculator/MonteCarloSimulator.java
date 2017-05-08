@@ -1,9 +1,12 @@
 package com.pokebattler.fight.calculator;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import javax.annotation.Resource;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -17,7 +20,7 @@ import com.pokebattler.fight.data.proto.FightOuterClass.FightResult;
 import com.pokebattler.fight.data.proto.FightOuterClass.FightResult.Builder;
 import com.pokebattler.fight.ranking.sort.OverallRankingsSort;
 
-@Service
+@Service("MonteCarloSimulator")
 public class MonteCarloSimulator implements AttackSimulator {
     @Resource
     private PokemonDataCreator creator;
@@ -26,27 +29,29 @@ public class MonteCarloSimulator implements AttackSimulator {
     @Resource
     private IndividualSimulator simulator;
     @Value("${monteCarlo.numRounds}")
-    private int numRounds=999;
+    private int numRounds;
     @Resource
     OverallRankingsSort sort;
-    
+    private final Logger log = LoggerFactory.getLogger(getClass());
+  
 
 	@Override
-	public Builder fight(Fight fight, boolean includeDetails) {
-		ArrayList<Builder> results = new ArrayList<>(numRounds);
+	public FightResult fight(Fight fight) {
+		ArrayList<FightResult> results = new ArrayList<>(numRounds);
+		Random r = new Random(fight.getSeed());
 		for (int i=0; i< numRounds; i++) {
-			results.add(simulator.fight(fight, includeDetails));
+			results.add(simulator.fight(fight, r));
 		}
 		Builder result = FightResult.newBuilder();
 		// sort the results
 		results.sort(sort.getFightResultComparator());
-		Builder median = results.get((numRounds+1)/2);
+		FightResult median = results.get((numRounds+1)/2);
 
-		result.setFightParameters(median.getFightParametersBuilder())
+		result.setFightParameters(median.getFightParameters())
 				.setWin(median.getWin())
 				.setPrestige(median.getPrestige());
-		if (includeDetails) {
-			median.getCombatResultBuilderList().stream().forEach(builder -> result.addCombatResult(builder));
+		if (fight.getIncludeDetails()) {
+			median.getCombatResultList().stream().forEach(builder -> result.addCombatResult(builder));
 		}
 		result.addAllCombatants(median.getCombatantsList());
 		
@@ -57,6 +62,7 @@ public class MonteCarloSimulator implements AttackSimulator {
 			result.setPowerLog(result.getPowerLog() + fightResult.getPowerLog());
 			result.setPotions(result.getPotions() + fightResult.getPotions());
 			result.setOverallRating(result.getOverallRating() + Math.log10(fightResult.getOverallRating()));
+			result.setNumSims(result.getNumSims() + fightResult.getNumSims());
 		});
 		result.setEffectiveCombatTime(result.getEffectiveCombatTime() / numRounds);
 		result.setTotalCombatTime(result.getTotalCombatTime() / numRounds);
@@ -64,7 +70,12 @@ public class MonteCarloSimulator implements AttackSimulator {
 		result.setPower(Math.pow(10.0,result.getPowerLog()));
 		result.setOverallRating(Math.pow(10.0,(result.getOverallRating()/numRounds)));
 		result.setPotions(result.getPotions() / numRounds);
-		return result;
+		return result.build();
+	}
+	@Override
+	public FightResult fight(Fight fight, Random r) {
+		log.warn("Should not call MonteCarloSimulator with a random value, ignoring");
+		return fight(fight);
 	}
 
 	@Override

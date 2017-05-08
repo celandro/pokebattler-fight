@@ -34,7 +34,11 @@
             <artifactId>pogoprotos</artifactId>
             <version>${gamemaster.version}</version>
         </dependency>
-    
+		<dependency>
+		  <groupId>com.google.cloud</groupId>
+		  <artifactId>google-cloud-storage</artifactId>
+		  <version>1.0.0</version>
+		</dependency>    
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>

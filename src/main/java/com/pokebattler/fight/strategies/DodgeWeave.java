@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 import com.pokebattler.fight.data.proto.PokemonDataOuterClass.PokemonData;
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.MoveOuterClass.Move;
+import com.pokebattler.fight.calculator.AttackDamage;
 import com.pokebattler.fight.calculator.CombatantState;
 import com.pokebattler.fight.calculator.Formulas;
 import com.pokebattler.fight.calculator.dodge.DodgeStrategy;
@@ -22,7 +23,8 @@ public class DodgeWeave implements AttackStrategy {
 	private final Move move1;
 	private final Move move2;
 	private final DodgeStrategy dodgeStrategy;
-
+	private final AttackDamage move1Damage;
+	private final AttackDamage move2Damage;
 	private boolean dodgedSpecial = false;
 	private Move defMove1;
 	private Move defMove2;
@@ -57,7 +59,7 @@ public class DodgeWeave implements AttackStrategy {
 	}
 
 	public DodgeWeave(PokemonData pokemon, Move move1, Move move2, int extraDelay, AttackStrategyType type,
-			int expectedMinDefDelay, DodgeStrategy dodgeStrategy) {
+			int expectedMinDefDelay, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage) {
 		this.pokemon = pokemon;
 		this.extraDelay = extraDelay;
 		this.move1 = move1;
@@ -68,6 +70,8 @@ public class DodgeWeave implements AttackStrategy {
 		this.expectedMinDefDelay = expectedMinDefDelay;
 		dodgedSpecial = false;
 		this.dodgeStrategy = dodgeStrategy;
+		this.move1Damage = move1Damage;
+		this.move2Damage = move2Damage;
 	}
 
 	public boolean isRandomStrategy() {
@@ -95,12 +99,12 @@ public class DodgeWeave implements AttackStrategy {
 				// we can sneak in a special attack
 				dodgedSpecial = false;
 				timeElapsed += move2.getDurationMs() + extraDelay + CAST_TIME;
-				return new PokemonAttack(pokemon.getMove2(), extraDelay + CAST_TIME);
+				return getMove2Attack(extraDelay + CAST_TIME);
 			} else if (earliestNextDamageTime > move1.getDurationMs() + extraDelay) {
 				// we can sneak in a normal attack
 				dodgedSpecial = false;
 				timeElapsed += move1.getDurationMs() + extraDelay;
-				return new PokemonAttack(pokemon.getMove1(), extraDelay);
+				return getMove1Attack(extraDelay);
 			} else {
 
 				// We here have to define how much time the attacker will wait
@@ -121,7 +125,7 @@ public class DodgeWeave implements AttackStrategy {
 						// we can sneak in a normal attack after realization
 						dodgedSpecial = false;
 						timeElapsed += move1.getDurationMs() + realizationTime + extraDelay;
-						return new PokemonAttack(pokemon.getMove1(), realizationTime + extraDelay);
+						return getMove1Attack(realizationTime + extraDelay);
 					}
 				}
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
@@ -135,8 +139,7 @@ public class DodgeWeave implements AttackStrategy {
 					dodgedSpecial = defenderState.isNextMoveSpecial();
 					timeElapsed += DODGE_MOVE.getDurationMs()
 							+ Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME);
-					return new PokemonAttack(DODGE_MOVE.getMoveId(),
-							Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
+					return getDodge(Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
 				}
 				// missed dodge fall through to rest of the code
 			}
@@ -146,14 +149,13 @@ public class DodgeWeave implements AttackStrategy {
 				// we can sneak in a normal attack
 				dodgedSpecial = false;
 				timeElapsed += move1.getDurationMs() + extraDelay;
-				return new PokemonAttack(pokemon.getMove1(), extraDelay);
+				return getMove1Attack(extraDelay);
 			} else {
 				dodgedSpecial = false; // early battle defender never throws
 										// specials
 				timeElapsed += DODGE_MOVE.getDurationMs()
 						+ Math.max(0, earliestNextDamageTime - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME);
-				return new PokemonAttack(DODGE_MOVE.getMoveId(),
-						Math.max(0, earliestNextDamageTime - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
+				return getDodge(Math.max(0, earliestNextDamageTime - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
 			}
 		} else {
 			if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()
@@ -164,11 +166,11 @@ public class DodgeWeave implements AttackStrategy {
 													// dodged a special.
 				dodgedSpecial = false;
 				timeElapsed += move2.getDurationMs() + extraDelay + CAST_TIME;
-				return new PokemonAttack(pokemon.getMove2(), extraDelay + CAST_TIME);
+				return getMove2Attack(extraDelay + CAST_TIME);
 			} else {
 				dodgedSpecial = false;
 				timeElapsed += move1.getDurationMs() + extraDelay;
-				return new PokemonAttack(pokemon.getMove1(), extraDelay);
+				return getMove1Attack(extraDelay);
 			}
 		}
 	}
@@ -191,9 +193,9 @@ public class DodgeWeave implements AttackStrategy {
 		if (defenderState.getNumAttacks() < 3) {
 			// Beginning of battle
 			int firstDamageTime = FIRST_ATTACK_TIME + Formulas.START_COMBAT_TIME
-					+ defenderState.getNextMove().getDamageWindowStartMs();
+					+ (defenderState.getNextMove() == null?0:defenderState.getNextMove().getDamageWindowStartMs());
 			int secondDamageTime = firstDamageTime + SECOND_ATTACK_DELAY;
-			int thirdDamageTime = firstDamageTime + defenderState.getNextMove().getDurationMs() + expectedMinDefDelay;
+			int thirdDamageTime = firstDamageTime + (defenderState.getNextMove() == null?0:defenderState.getNextMove().getDurationMs()) + expectedMinDefDelay;
 
 			if (timeElapsed < firstDamageTime) {
 				earliestNextDamageTime = firstDamageTime - timeElapsed;
@@ -253,9 +255,9 @@ public class DodgeWeave implements AttackStrategy {
 		private MoveRepository move;
 
 		@Override
-		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
 			return new DodgeWeave(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()), 0,
-					AttackStrategyType.DODGE_WEAVE_CAUTIOUS, MIN_DEFENDER_DELAY, dodgeStrategy);
+					AttackStrategyType.DODGE_WEAVE_CAUTIOUS, MIN_DEFENDER_DELAY, dodgeStrategy, move1Damage, move2Damage);
 		}
 	}
 
@@ -266,9 +268,9 @@ public class DodgeWeave implements AttackStrategy {
 		private MoveRepository move;
 
 		@Override
-		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
 			return new DodgeWeave(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()), 0,
-					AttackStrategyType.DODGE_WEAVE_REASONABLE, MIN_DEFENDER_DELAY, dodgeStrategy);
+					AttackStrategyType.DODGE_WEAVE_REASONABLE, MIN_DEFENDER_DELAY, dodgeStrategy, move1Damage, move2Damage);
 		}
 	}
 
@@ -279,9 +281,9 @@ public class DodgeWeave implements AttackStrategy {
 		private MoveRepository move;
 
 		@Override
-		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
 			return new DodgeWeave(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()), 0,
-					AttackStrategyType.DODGE_WEAVE_RISKY, MIN_DEFENDER_DELAY,  dodgeStrategy);
+					AttackStrategyType.DODGE_WEAVE_RISKY, MIN_DEFENDER_DELAY,  dodgeStrategy, move1Damage, move2Damage);
 		}
 	}
 
@@ -291,9 +293,9 @@ public class DodgeWeave implements AttackStrategy {
 		private MoveRepository move;
 
 		@Override
-		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
 			return new DodgeWeave(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()), 0,
-					AttackStrategyType.DODGE_WEAVE_SPECIALS, MIN_DEFENDER_DELAY_DODGE_SPECIALS, dodgeStrategy);
+					AttackStrategyType.DODGE_WEAVE_SPECIALS, MIN_DEFENDER_DELAY_DODGE_SPECIALS, dodgeStrategy, move1Damage, move2Damage);
 		}
 	}
 
@@ -303,9 +305,9 @@ public class DodgeWeave implements AttackStrategy {
 		private MoveRepository move;
 
 		@Override
-		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
 			return new DodgeWeave(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()), 0,
-					AttackStrategyType.DODGE_WEAVE_HUMAN, MIN_DEFENDER_DELAY_RANDOM, dodgeStrategy);
+					AttackStrategyType.DODGE_WEAVE_HUMAN, MIN_DEFENDER_DELAY_RANDOM, dodgeStrategy, move1Damage, move2Damage);
 		}
 	}
 
@@ -315,11 +317,43 @@ public class DodgeWeave implements AttackStrategy {
 		private MoveRepository move;
 
 		@Override
-		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy) {
+		public DodgeWeave build(PokemonData pokemon, DodgeStrategy dodgeStrategy, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {
 			return new DodgeWeave(pokemon, move.getById(pokemon.getMove1()), move.getById(pokemon.getMove2()), 0,
 					AttackStrategyType.DODGE_WEAVE_SPECIALS_HUMAN, MIN_DEFENDER_DELAY_RANDOM_SPECIALS_ONLY,
-					dodgeStrategy);
+					dodgeStrategy, move1Damage, move2Damage);
 		}
+	}
+
+	public PokemonData getPokemon() {
+		return pokemon;
+	}
+
+	public int getExtraDelay() {
+		return extraDelay;
+	}
+
+	public Move getMove1() {
+		return move1;
+	}
+
+	public Move getMove2() {
+		return move2;
+	}
+
+	public DodgeStrategy getDodgeStrategy() {
+		return dodgeStrategy;
+	}
+
+	public AttackDamage getMove1Damage() {
+		return move1Damage;
+	}
+
+	public AttackDamage getMove2Damage() {
+		return move2Damage;
+	}
+
+	public int getExpectedMinDefDelay() {
+		return expectedMinDefDelay;
 	}
 
 }

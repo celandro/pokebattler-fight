@@ -41,6 +41,8 @@ message Fight {
 	AttackStrategyType strategy = 3;
 	AttackStrategyType defenseStrategy = 4;
 	DodgeStrategyType dodgeStrategy = 5;
+	bool includeDetails = 6;
+	int64 seed = 7;
 }
 
 message FightResult {
@@ -55,6 +57,7 @@ message FightResult {
 	int32 effective_combat_time = 9;
 	double potions = 10;
 	double overallRating = 11;
+	int64 numSims = 12;
 }
 
 message CombatantResult {

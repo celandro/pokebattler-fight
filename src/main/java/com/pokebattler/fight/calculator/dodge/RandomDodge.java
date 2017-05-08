@@ -29,32 +29,32 @@ public class RandomDodge implements DodgeStrategy {
     @Component
     public static class Builder_25 implements DodgeStrategy.DodgeStrategyBuilder<RandomDodge> {
         @Override
-        public RandomDodge build() {
-            return new RandomDodge(new Random(), 0.25, DodgeStrategyType.DODGE_25);
+        public RandomDodge build(Random r) {
+            return new RandomDodge(r, 0.25, DodgeStrategyType.DODGE_25);
         }
     }
 	
     @Component
     public static class Builder_50 implements DodgeStrategy.DodgeStrategyBuilder<RandomDodge> {
         @Override
-        public RandomDodge build() {
-            return new RandomDodge(new Random(), 0.50, DodgeStrategyType.DODGE_50);
+        public RandomDodge build(Random r) {
+            return new RandomDodge(r, 0.50, DodgeStrategyType.DODGE_50);
         }
     }
 	
     @Component
     public static class Builder_75 implements DodgeStrategy.DodgeStrategyBuilder<RandomDodge> {
         @Override
-        public RandomDodge build() {
-            return new RandomDodge(new Random(), 0.75, DodgeStrategyType.DODGE_75);
+        public RandomDodge build(Random r) {
+            return new RandomDodge(r, 0.75, DodgeStrategyType.DODGE_75);
         }
     }
 	
     @Component
     public static class Builder_90 implements DodgeStrategy.DodgeStrategyBuilder<RandomDodge> {
         @Override
-        public RandomDodge build() {
-            return new RandomDodge(new Random(), 0.90, DodgeStrategyType.DODGE_90);
+        public RandomDodge build(Random r) {
+            return new RandomDodge(r, 0.90, DodgeStrategyType.DODGE_90);
         }
     }
 	

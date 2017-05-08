@@ -26,11 +26,16 @@ message RankingResult {
 	repeated AttackerResult attackers = 1;
 	AttackStrategyType attackStrategy = 2;
 	AttackStrategyType defenseStrategy = 3;
+	int64 numSims = 4;
+	DodgeStrategyType dodgeStrategy = 5;
+	int64 seed = 6;
+	SortType sortType = 7;
 }
 message AttackerResult {
 	PokemonId pokemon_id = 1;
 	repeated AttackerSubResult byMove = 2;
 	int32 cp = 3;
+	int64 numSims = 4;
 }
 
 message AttackerSubResult {
@@ -49,6 +54,7 @@ message SubResultTotal {
 	int32 effective_combat_time = 7;
 	double potions = 8;
 	double overallRating = 9;
+	int64 numSims = 10;
 }
 
 message DefenderResult {
