@@ -38,7 +38,7 @@ public class CombatantState {
     public static final int MIN_FAST_MOVE = PokemonMove.FURY_CUTTER_FAST.getNumber();
     private final MoveRepository moveRepository;
     public boolean isNextMoveSpecial() {
-    	
+    	if (getNextMove() == null) return false;
         return moveRepository.getCinematicMoves().contains(getNextMove().getMoveId());
     }
 
