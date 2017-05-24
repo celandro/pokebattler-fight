@@ -61,7 +61,7 @@ public class PrestigingResource {
             @DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy,
             @QueryParam("seed") @DefaultValue("-1") long seed) {
     	if (seed == -1 && AttackSimulator.isRandom(attackStrategy, defenseStrategy, dodgeStrategy)) {
-    		seed = (int) System.currentTimeMillis();
+    		seed = System.currentTimeMillis();
     	}
         log.debug("Calculating prestige rankings for defenderId {} defenderLevel {}, defenderIV()"
         		+ "attackStrategy {}, defenseStrategy {}, sortType {}", defenderId, defenderLevel, defenderIV, attackStrategy,
@@ -98,7 +98,7 @@ public class PrestigingResource {
     		@DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy,
             @QueryParam("seed") @DefaultValue("-1") long seed) {
     	if (seed == -1 && AttackSimulator.isRandom(attackStrategy, defenseStrategy, dodgeStrategy)) {
-    		seed = (int) System.currentTimeMillis();
+    		seed = System.currentTimeMillis();
     	}
     		
         log.debug("Calculating prestige rankings for defenderId {} defenderCP {}"

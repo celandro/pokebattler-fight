@@ -51,7 +51,7 @@ public class DefenderRandomAttack implements AttackStrategy {
 
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
-        if (r.nextDouble() < specialRandom && attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
+    	if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta() && r.nextDouble() < specialRandom) {
             return getMove2Attack( extraDelay + r.nextInt(randomDelay));
         } else {
             switch (attackerState.getNumAttacks()) {

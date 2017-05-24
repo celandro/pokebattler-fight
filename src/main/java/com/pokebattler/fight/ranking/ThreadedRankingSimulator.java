@@ -66,7 +66,10 @@ public class ThreadedRankingSimulator implements RankingSimulator {
 	@Override
 	public RankingResult rank(final RankingParams params) {
 		final RankingResult.Builder retval = RankingResult.newBuilder().setAttackStrategy(params.getAttackStrategy())
-				.setDefenseStrategy(params.getDefenseStrategy()).setDodgeStrategy(params.getDodgeStrategy()).setSeed(params.getSeed());
+				.setDefenseStrategy(params.getDefenseStrategy()).setDodgeStrategy(params.getDodgeStrategy())
+				.setSeed(params.getSeed()).setSortType(params.getSort().getType())
+				.setFilterType(params.getFilter().getType()).setFilterValue(params.getFilter().getValue());
+		
 		try {
 			forkJoinPool.submit(() -> {
 				final List<AttackerResult.Builder> results = params.getFilter().getAttackers(pokemonRepository).stream().parallel()

@@ -184,4 +184,47 @@ public class Formulas {
 	public void setResistRepository(ResistRepository resistRepository) {
 		this.resistRepository = resistRepository;
 	}
+
+	public double getOverallRating(int effectiveCombatTime, double potions, double powerLog, boolean isDefender) {
+		double combatTimeRating = getCombatTimeRating(effectiveCombatTime);
+		// cap out at 5 potions
+		double potionsRating = getPotionsRating(potions);
+		if (isDefender) {
+			// combat time is good
+			combatTimeRating = 1.0 / combatTimeRating;
+			// potions is good
+			potionsRating = 1.0 / potionsRating;
+		}
+		combatTimeRating = Math.log10(combatTimeRating);
+		potionsRating = Math.log10(potionsRating);
+
+		return Math.pow(10, (powerLog * 50.0 + combatTimeRating * 30.0 + potionsRating * 20.0) / 100);
+	}
+
+	public double getPotionsRating(double potions) {
+		return Math.max(1.0, Math.min(10.0, 5.0 / potions));
+	}
+
+	public double getCombatTimeRating(int effectiveCombatTime) {
+		double combatTimeRating = Math.max(0.1,
+				Math.min(10.0, Formulas.MAX_COMBAT_TIME_MS / (2.0 * (double) effectiveCombatTime)));
+		if (combatTimeRating <=1.0) {
+			// penalize for being worse than 50s 
+			combatTimeRating*= (combatTimeRating);
+		}
+		if (combatTimeRating <=0.4) {
+			// penalize for being worse than 79s
+			combatTimeRating*= (combatTimeRating / 0.4);
+		}
+		if (combatTimeRating <=0.25) {
+			// penalize for being  worse than 88s
+			combatTimeRating*= (combatTimeRating / 0.25);
+		}
+
+		if (combatTimeRating <= 0.1) {
+			// penalize for death 
+			combatTimeRating = 0.1;  
+		}
+		return combatTimeRating;
+	}
 }

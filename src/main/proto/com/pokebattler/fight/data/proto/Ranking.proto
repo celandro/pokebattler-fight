@@ -30,6 +30,8 @@ message RankingResult {
 	DodgeStrategyType dodgeStrategy = 5;
 	int64 seed = 6;
 	SortType sortType = 7;
+	FilterType filterType = 8;
+	string filterValue = 9;
 }
 message AttackerResult {
 	PokemonId pokemon_id = 1;

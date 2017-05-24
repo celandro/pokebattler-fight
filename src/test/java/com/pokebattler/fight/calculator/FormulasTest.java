@@ -99,4 +99,10 @@ public class FormulasTest {
     	
     }
 
+    @Test
+    public void testCombatTimeRating() {
+    	for (int i=Formulas.MAX_COMBAT_TIME_MS/100; i <= Formulas.MAX_COMBAT_TIME_MS * 2; i+=Formulas.MAX_COMBAT_TIME_MS/100) {
+    		System.out.println(i + "," + formulas.getCombatTimeRating(i));
+    	}
+    }
 }

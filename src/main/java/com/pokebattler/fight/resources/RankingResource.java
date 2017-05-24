@@ -40,7 +40,7 @@ public class RankingResource {
 	public static final String MAX_LEVEL = "40";
 	public static final int MAX_INDIVIDUAL_STAT = 15;
 	public Logger log = LoggerFactory.getLogger(getClass());
-	public static final int ONE_HOUR = 3600;
+	public static final int CACHE_TIME = 86400;
 	@GET
 	@Path("attackers/levels/{attackerLevel}/defenders/levels/{defenderLevel}/strategies/{attackStrategy}/{defenseStrategy}/{sort}-{dodgeStrategy}-{filterType}-{filterValue}.bin")
 	@Produces(ProtobufBinaryProvider.TYPE_APPLICATION_X_PROTOBUF)
@@ -72,17 +72,15 @@ public class RankingResource {
             @DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy,
             @QueryParam("seed") @DefaultValue("-1") long seed) {
     	if (seed == -1 && AttackSimulator.isRandom(attackStrategy, defenseStrategy, dodgeStrategy)) {
-    		seed = (int) System.currentTimeMillis();
+    		seed = System.currentTimeMillis();
     	}
 
 		log.debug(
 				"Calculating attacker rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}",
 				attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType);
-		// set caching based on wether the result is random
-		// TODO: refactor this to strategy pattern or change to a parameter?
-		// maybe a query parameter to seed the rng?
+		// Always cache since we pregenerate
 		final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-		cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : ONE_HOUR);
+		cacheControl.setMaxAge(CACHE_TIME);
 		cacheControl.setPrivate(false);
 		cacheControl.setNoTransform(false);
 		return Response.ok(simulator.rankAttacker(attackStrategy, defenseStrategy, sortType, filterType, filterValue,
@@ -120,17 +118,15 @@ public class RankingResource {
             @DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy,
             @QueryParam("seed") @DefaultValue("-1") long seed) {
     	if (seed == -1 && AttackSimulator.isRandom(attackStrategy, defenseStrategy, dodgeStrategy)) {
-    		seed = (int) System.currentTimeMillis();
+    		seed = System.currentTimeMillis();
     	}
 
 		log.debug(
 				"Calculating defender rankings for attackerLevel {}, defenderLevel {}, attackStrategy {}, defenseStrategy {}, sortType {}",
 				attackerLevel, defenderLevel, attackStrategy, defenseStrategy, sortType);
-		// set caching based on wether the result is random
-		// TODO: refactor this to strategy pattern or change to a parameter?
-		// maybe a query parameter to seed the rng?
+		// always cache since we pregenerate now
 		final javax.ws.rs.core.CacheControl cacheControl = new javax.ws.rs.core.CacheControl();
-		cacheControl.setMaxAge(isRandom(attackStrategy, defenseStrategy) ? 0 : ONE_HOUR);
+		cacheControl.setMaxAge(CACHE_TIME);
 		cacheControl.setPrivate(false);
 		cacheControl.setNoTransform(false);
 		return Response.ok(simulator.rankDefender(attackStrategy, defenseStrategy, sortType, filterType, filterValue,

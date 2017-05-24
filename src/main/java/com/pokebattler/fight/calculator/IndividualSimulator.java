@@ -84,8 +84,11 @@ public class IndividualSimulator implements AttackSimulator {
 
 		final FightResult.Builder fightResult = FightResult.newBuilder();
 
-
-		nextAttack(defenderStrategy, defenderState, attackerState);
+		if (isDefender(defenderStrategy)) {
+			nextAttack(defenderStrategy, defenderState, attackerState);
+		} else {
+			nextAttack(attackerStrategy, attackerState, defenderState);
+		}
 		int currentTime = Formulas.START_COMBAT_TIME;
 		if (log.isDebugEnabled()) {
 			log.debug("{}: {} chose {} with {} energy", currentTime - Formulas.START_COMBAT_TIME,
@@ -214,21 +217,14 @@ public class IndividualSimulator implements AttackSimulator {
 	}
 
 	double getOverallRating(FightResult.Builder result) {
-		double combatTimeRating = Math.max(0.1,
-				Math.min(10.0, Formulas.MAX_COMBAT_TIME_MS / (2.0 * (double) (result.getEffectiveCombatTime()))));
-		// cap out at 5 potions
-		double potionsRating = Math.max(1.0, Math.min(10.0, 5.0 / result.getPotions()));
-		if (!isDefender(result.getFightParameters().getDefenseStrategy())) {
-			// combat time is good
-			combatTimeRating = 1.0 / combatTimeRating;
-			// potions is good
-			potionsRating = 1.0 / potionsRating;
-		}
-		combatTimeRating = Math.log10(combatTimeRating);
-		potionsRating = Math.log10(potionsRating);
+		int effectiveCombatTime = result.getEffectiveCombatTime();
+		double potions = result.getPotions();
+		double powerLog = result.getPowerLog();
+		boolean isDefender = !isDefender(result.getFightParameters().getDefenseStrategy());
 
-		return Math.pow(10, (result.getPowerLog() * 50.0 + combatTimeRating * 30.0 + potionsRating * 20.0) / 100);
+		return f.getOverallRating(effectiveCombatTime, potions, powerLog, isDefender);
 	}
+
 
 	boolean getWin(FightResult.Builder result) {
 		if (isDefender(result.getFightParameters().getDefenseStrategy())) {
@@ -308,15 +304,17 @@ public class IndividualSimulator implements AttackSimulator {
 				defenderHpRatio = 1.0;
 			}
 		}
+		final double retval;
 		if (attackerHpRatio == 0.0) {
 			// attacker takes no damage
-			return MAX_POWER;
+			retval = MAX_POWER;
 		} else if (defenderHpRatio == 0.0) {
 			// defender takes no damage
-			return MIN_POWER;
+			retval = MIN_POWER;
 		} else {
-			return Math.max(MIN_POWER, Math.min(MAX_POWER, Math.log10(defenderHpRatio / attackerHpRatio)));
+			retval = Math.max(MIN_POWER, Math.min(MAX_POWER, Math.log10(defenderHpRatio / attackerHpRatio)));
 		}
+		return retval;
 	}
 
 	public PokemonRepository getPokemonRepository() {

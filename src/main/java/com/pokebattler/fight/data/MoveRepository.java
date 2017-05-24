@@ -67,6 +67,10 @@ public class MoveRepository {
                         if (builder.getMoveId().name().contains("_FAST")) {
                         	quickMoves.add(builder.getMoveId());
                         } else {
+                        	// Struggle has 0 energy delta for some reason wtf
+                        	if (builder.getEnergyDelta() == 0) {
+                        		builder.setEnergyDelta(-33);
+                        	}
                         	cinematicMoves.add(builder.getMoveId());
                         }
                     } catch (final Exception e) {

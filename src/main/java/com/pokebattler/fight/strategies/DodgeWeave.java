@@ -206,6 +206,9 @@ public class DodgeWeave implements AttackStrategy {
 			}
 		} else {
 			int chargeWindowStart = Integer.MAX_VALUE;
+			if(defMove1 == null) {
+				defMove1 = null;
+			}
 			int quickWindowStart = defMove1.getDamageWindowStartMs();
 			if (defMove2 != null) {
 				chargeWindowStart = defMove2.getDamageWindowStartMs();
