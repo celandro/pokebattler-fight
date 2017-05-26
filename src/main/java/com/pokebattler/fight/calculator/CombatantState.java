@@ -34,9 +34,11 @@ public class CombatantState {
     private Move nextMove;
     private Move previousMove;
     private boolean dodged = false;
+    private double dodgePercent = 1.0;
     private boolean damageAlreadyOccurred = false;
     public static final int MIN_FAST_MOVE = PokemonMove.FURY_CUTTER_FAST.getNumber();
     private final MoveRepository moveRepository;
+    private boolean randomStrat;
     public boolean isNextMoveSpecial() {
     	if (getNextMove() == null) return false;
         return moveRepository.getCinematicMoves().contains(getNextMove().getMoveId());
@@ -44,6 +46,9 @@ public class CombatantState {
 
     public boolean isDodged() {
         return dodged;
+    }
+    public double getDodgePercent() {
+    	return dodgePercent;
     }
 
     public PokemonId getPokemonId() {
@@ -107,7 +112,7 @@ public class CombatantState {
         return previousMove;
     }
 
-    public CombatantState(Pokemon p, PokemonData ind, Formulas f, boolean defender, MoveRepository moveRepository) {
+    public CombatantState(Pokemon p, PokemonData ind, Formulas f, boolean defender, MoveRepository moveRepository, boolean randomStrat) {
         this.id = ind.getId();
         this.pokemonId = p.getPokemonId();
         this.f = f;
@@ -128,6 +133,7 @@ public class CombatantState {
         this.previousMove = null;
         this.pokemon = p;
         this.moveRepository = moveRepository;
+        this.randomStrat = randomStrat;
     }
 
     boolean isAlive() {
@@ -153,9 +159,19 @@ public class CombatantState {
         currentHp -= r.getDamage();
         timeSinceLastMove += time;
         combatTime += r.getCombatTime();
-        if (r.getAttackMove() == PokemonMove.DODGE
-                && getTimeToNextDamage() <= Formulas.DODGE_WINDOW && getTimeToNextDamage() >= 0 ) {
-            dodged = true;
+    	if (randomStrat) {
+	        if (r.getAttackMove() == PokemonMove.DODGE
+	                && getTimeToNextDamage() <= Formulas.DODGE_WINDOW && getTimeToNextDamage() >= 0 ) {
+	    		dodged = true;
+        		dodgePercent = 1.0;
+	        }
+    	} else {
+    		// dont double dodge
+	        if (r.getAttackMove() == PokemonMove.DODGE) {
+	    		dodged = true;
+        		dodgePercent = r.getDodgePercent();
+        	}
+            
         }
         return energyGain;
     }

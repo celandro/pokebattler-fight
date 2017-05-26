@@ -46,7 +46,7 @@ public class QuickAttackDodgeSpecials implements AttackStrategy {
 
 			if (defenderState.getTimeToNextDamage() < Formulas.DODGE_WINDOW + extraDelay) {
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
-			        return getDodge(extraDelay);
+			        return getDodge(extraDelay,dodgeStrategy.chanceToDodge(attackerState, defenderState));
 				}
 			} else if (defenderState.getTimeToNextDamage() > move1.getDurationMs() + extraDelay) {
 				// we can sneak in a normal attack
@@ -54,7 +54,8 @@ public class QuickAttackDodgeSpecials implements AttackStrategy {
 			} else {
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
 					// dodge perfect
-					return getDodge(Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
+					return getDodge(Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW),
+							dodgeStrategy.chanceToDodge(attackerState, defenderState));
 				}
 			}
 			// else fall through

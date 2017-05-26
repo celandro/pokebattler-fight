@@ -33,6 +33,7 @@ enum DodgeStrategyType {
 	DODGE_75 = 4;
 	DODGE_90 = 5;
 	DODGE_REACTION_TIME = 6;
+	DODGE_REACTION_TIME2 = 7;
 }
 
 message Fight {

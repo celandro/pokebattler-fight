@@ -35,9 +35,9 @@ public class NoAttack implements AttackStrategy {
         if (defenderState.getNextMove() != null && defenderState.getTimeToNextDamage() > 0
                 && !defenderState.isDodged()) {
                 // dodge perfect
-            return getDodge( Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
+            return getDodge( Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW), 1000);
         }        
-        return getDodge(extraDelay);
+        return getDodge(extraDelay, 1000);
 
     }
 

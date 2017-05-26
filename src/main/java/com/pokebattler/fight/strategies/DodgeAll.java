@@ -49,7 +49,7 @@ public class DodgeAll implements AttackStrategy {
 				&& !defenderState.isDodged()) {
 			if (defenderState.getTimeToNextDamage() <= Formulas.DODGE_WINDOW + extraDelay) {
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
-					return getDodge(extraDelay);
+					return getDodge(extraDelay, dodgeStrategy.chanceToDodge(attackerState, defenderState));
 				}
 			} else if (defenderState.getTimeToNextDamage() > move2.getDurationMs() + extraDelay + CAST_TIME
 					&& attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
@@ -61,7 +61,8 @@ public class DodgeAll implements AttackStrategy {
 			} else {
 				// dodge perfect
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
-					return getDodge(Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
+					return getDodge(Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW),
+							dodgeStrategy.chanceToDodge(attackerState, defenderState));
 
 				}
 			}

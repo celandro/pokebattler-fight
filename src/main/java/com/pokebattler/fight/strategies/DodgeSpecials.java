@@ -46,7 +46,7 @@ public class DodgeSpecials implements AttackStrategy {
 				&& defenderState.getTimeToNextDamage() > 0 && !defenderState.isDodged()) {
 			if (defenderState.getTimeToNextDamage() <= Formulas.DODGE_WINDOW + extraDelay) {
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
-					return getDodge(extraDelay);
+					return getDodge(extraDelay,dodgeStrategy.chanceToDodge(attackerState, defenderState));
 				}
 			} else if (defenderState.getTimeToNextDamage() > move2.getDurationMs() + extraDelay + CAST_TIME
 					&& attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()) {
@@ -57,7 +57,8 @@ public class DodgeSpecials implements AttackStrategy {
 				return getMove1Attack(extraDelay);
 			} else {
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
-					return getDodge(Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
+					return getDodge(Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW),
+							dodgeStrategy.chanceToDodge(attackerState, defenderState));
 				}
 			}
 			// else fall through and attack as normal

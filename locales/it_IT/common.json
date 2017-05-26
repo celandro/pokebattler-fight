@@ -1,0 +1,18 @@
+{
+  "back": "Back",
+  "cancel": "Cancel",
+  "cp": "CP",
+  "quickMove": "Quick Move",
+  "specialMove": "Special Move",
+  "attackStrategy": "Attack Strategy",
+  "defenseStrategy": "Simulation Type",
+  "dodgeStrategy": "Dodge Strategy",
+  "stats": {
+    "attack": "Attack",
+    "defense": "Defense",
+    "stamina": "Stamina"
+  },
+  "level": "Level",
+  "basic": "Basic",
+  "advanced": "Advanced"
+}

@@ -52,7 +52,7 @@ public class DodgeSpecials2 implements AttackStrategy {
 				// even if we miss the dodge, we still want to do our special
 				dodgedSpecial = true;
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
-					return getDodge(extraDelay);
+					return getDodge(extraDelay,dodgeStrategy.chanceToDodge(attackerState, defenderState));
 				}
 			} else if (defenderState.getTimeToNextDamage() > move1.getDurationMs() + extraDelay) {
 				// we can sneak in a normal attack
@@ -61,7 +61,8 @@ public class DodgeSpecials2 implements AttackStrategy {
 				// even if we miss the dodge, we still want to do our special
 				dodgedSpecial = true;
 				if (dodgeStrategy.tryToDodge(attackerState, defenderState)) {
-					return getDodge(Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW));
+					return getDodge(Math.max(0, defenderState.getTimeToNextDamage() - Formulas.DODGE_WINDOW),
+							dodgeStrategy.chanceToDodge(attackerState, defenderState));
 				}
 			}
 			// else fall through and attack as normal

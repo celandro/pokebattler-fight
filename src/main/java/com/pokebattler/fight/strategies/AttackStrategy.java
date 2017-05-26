@@ -30,8 +30,8 @@ public interface AttackStrategy {
     default public PokemonAttack getMove2Attack(int extraDelay) {
     	return new PokemonAttack(extraDelay, getMove2Damage());
     }
-    default public PokemonAttack getDodge(int extraDelay) {
-    	return new PokemonAttack(MoveRepository.DODGE_MOVE, extraDelay, 0);
+    default public PokemonAttack getDodge(int extraDelay, double d) {
+    	return new PokemonAttack(MoveRepository.DODGE_MOVE, extraDelay, (int)(d * 1000));
     }
 
 
@@ -63,6 +63,11 @@ public interface AttackStrategy {
         public int getDamage() {
         	return damage;
         }
+
+		@Override
+		public String toString() {
+			return "PokemonAttack [move=" + move + ", delay=" + delay + ", damage=" + damage + "]";
+		}
 
     }
 

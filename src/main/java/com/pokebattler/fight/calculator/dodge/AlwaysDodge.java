@@ -10,8 +10,8 @@ import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 public class AlwaysDodge implements DodgeStrategy {
 
 	@Override
-	public boolean tryToDodge(CombatantState attackerState, CombatantState defenderState) {
-		return true;
+	public double chanceToDodge(CombatantState attackerState, CombatantState defenderState) {
+		return 1.0;
 	}
 
 	@Override
@@ -26,5 +26,10 @@ public class AlwaysDodge implements DodgeStrategy {
             return new AlwaysDodge();
         }
     }
+
+	@Override
+	public Random getRandom() {
+		return null;
+	}
 
 }

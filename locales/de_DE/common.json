@@ -1,0 +1,18 @@
+{
+  "back": "Zurück",
+  "cancel": "Abbrechen",
+  "cp": "WP",
+  "quickMove": "Schnellangriff",
+  "specialMove": "Spezialangriff",
+  "attackStrategy": "Angriffsstrategie",
+  "defenseStrategy": "Simulationstyp",
+  "dodgeStrategy": "Ausweichstrategie",
+  "stats": {
+    "attack": "Angriff",
+    "defense": "Verteidigung",
+    "stamina": "Ausdauer"
+  },
+  "level": "Level",
+  "basic": "Standard",
+  "advanced": "Erweitert"
+}

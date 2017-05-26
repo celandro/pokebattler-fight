@@ -10,8 +10,8 @@ import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 public class NeverDodge implements DodgeStrategy {
 
 	@Override
-	public boolean tryToDodge(CombatantState attackerState, CombatantState defenderState) {
-		return false;
+	public double chanceToDodge(CombatantState attackerState, CombatantState defenderState) {
+		return 0.0;
 	}
 	@Override
 	public DodgeStrategyType getType() {
@@ -24,6 +24,10 @@ public class NeverDodge implements DodgeStrategy {
             return new NeverDodge();
         }
     }
+	@Override
+	public Random getRandom() {
+		return null;
+	}
 	
 
 }

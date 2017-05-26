@@ -1,0 +1,148 @@
+{
+  "title": "Wie man Pokebattler benutzt",
+  "intro": "Willkommen zu Pokebattler.com! Dem BESTEN und anspruchsvollste Pokemon Go Arena Simulator, der jemals entwickelt wurde. Möchtest du wissen, ob dein Relaxo das Zeug zum Sieger hat? Teste jedes einzelne deiner Pokemon um zu sehen, wie sie in einem Kopf an Kopf gegen andere Pokemon in der Arena abschneiden. Für jeden Kampf bekommst du einen sekündlichen Schadensbericht.",
+  "outro": "Und schau wieder vorbei für künftige Features wie Einloggen zum Speichern deiner besten Arenakämpfe und vieles mehr.",
+  "now-battle": "Jetzt ab zum Pokemonkampf!",
+  "sections": {
+    "battle": {
+      "title": "Kampf",
+      "intro": {
+        "title": "Kampf einstellen",
+        "text": "Der Pokebattler Kampfsimulator ist sehr präzise und erlaubt dir deine Kampfoptionen auf vielfältige Weise zu verändern. Optionen beinhalten:"
+      },
+      "outro": {
+        "title": "Kämpfe!",
+        "text": "Vollständige Kampfergebnisse werden angezeigt. Zögere nicht zurückzugehen und andere Kombinationen auszuprobieren."
+      },
+      "steps": [
+        {
+          "label": "Tippe in der Suchleiste",
+          "description": "Wähle die Angreifer und Verteidiger für deinen Kampf"
+        },
+        {
+          "label": "Normal Modus",
+          "description": "Trage die WP ein und ignoriere die versteckte Statuswerte, wir bestimmen sie so gut wir können."
+        },
+        {
+          "label": "Erweiterter Modus",
+          "description": "Trage das genaue Level und die versteckten Statuswerte deines Pokemons für die präziseste Simulation an"
+        },
+        {
+          "label": "Wähle deine Attacken",
+          "description": "Versuche alle Kombinationen von Schnell- und Spezialangriffen"
+        },
+        {
+          "label": "Wähle deine Strategien",
+          "description": "Verändere die Art wie die Pokemon angreifen und verteidigen. Für nähere Infos schau in die Definitionen unten."
+        }
+      ]
+    },
+    "rankings": {
+      "title": "Ranglisten",
+      "intro": {
+        "title": "Passe deine Ranglisten an",
+        "text": "Die Pokebattler Ranglisten sind die am weitesten entwickelten! Keine andere Seite lässt dich die Einstellungen verändern und jedes Pokemon unter verschiedenen Bedingungen zu vergleichen. Anpassungen beinhalten:"
+      },
+      "outro": {
+        "title": "Untersuche!",
+        "text": "Die beste Attacken Kombination für jedes Pokemon wird angezeigt. Klicke auf ein Pokemon um detaillierte Informationen über alle Kombinationen zu erhalten."
+      },
+      "steps": [
+        {
+          "label": "Angreifer/Verteidiger",
+          "description": "Wähle ob du angreifst oder verteidigst. Angreifer zeigt die Ergebnisse gegen all möglichen Verteidiger. Verteidiger zeigt die Ergebnisse gegen die 5 bestmöglichen Angreifer"
+        },
+        {
+          "label": "Sortierung",
+          "description": "Wähle den Ranglistentyp den du möchtest (Details siehe unten)"
+        },
+        {
+          "label": "Level",
+          "description": "Wähle das level deines Angreifer und Verteidiger Pokemon"
+        },
+        {
+          "label": "Einzeln/Gruppiert",
+          "description": "Wähle, ob du jede Attacken Kombination sehen möchtest, oder nur die Beste pro Pokemon"
+        },
+        {
+          "label": "Wähle deine Strategien",
+          "description": "Passe sie nach deinen Wünschen an (Details siehe unten)."
+        }
+      ]
+    },
+    "pokedex": {
+      "title": "Pokedex",
+      "intro": {
+        "title": "Passe die Pokemon an",
+        "text": "Die Pokedex Seite ist ein großartiger Ort um Pokemon im Detail zu analysieren. Anpassungen beinhalten:"
+      },
+      "outro": {
+        "title": "Analysiere",
+        "text": "Schlage jedes Pokemon nach, das dich interessiert. Finde heraus, was seine besten Attacken Kombinationen für Angriff als auch Verteidigung sind. Entdecke, welche Pokemon du meiden solltest und wie du ein Pokemon am besten bekämpfst."
+      },
+      "steps": [
+        {
+          "label": "Sortierung",
+          "description": "Wähle den Ranglistentyp den du möchtest (Details siehe unten)"
+        },
+        {
+          "label": "Level",
+          "description": "Wähle das level deines Angreifer und Verteidiger Pokemon"
+        },
+        {
+          "label": "Wähle deine Strategien",
+          "description": "Passe sie nach deinen Wünschen an (Details siehe unten)."
+        }
+      ]
+    },
+    "articles": {
+      "title": "Artikel",
+      "text": "Der Artikelbereich enthält die besten Forschungsbeiträge von ausgewählten Autoren sowie einige Artikel zu aktuellen Ereignissen oder Diskussionsgegenständen. Wenn du deinen Betrag von uns gehostet lassen möchtest, ",
+      "contact-link": "schreib uns"
+    }
+  },
+  "definitions": {
+    "title": "Definitionen",
+    "attack": {
+      "title": "Angriffsstrategien"
+    },
+    "dodge": {
+      "title": "Ausweichstrategien",
+      "intro": {
+        "text": "Ausweichstrategien sind ein guter Weg um den Angriffstrategiealgorithmus feiner einzustellen und so realistischere Ergebnisse zu erhalten. Sie werden benutzt um menschliche Fehler, Bugs und andere Dinge zu beachten."
+      }
+    },
+    "defense": {
+      "title": "Verteidigungssimulationen"
+    },
+    "sort": {
+      "title": "Sortieroptionen",
+      "options": [
+        {
+          "label": "Gesamtwertung",
+          "description": "Eine Wertung die eine Gesamtpunktzahl für ein Pokemon bestimmt. Basiert zu 50% auf Stärke, 30% auf Zeit zum Sieg und zu 20% auf Tränken"
+        },
+        {
+          "label": "Stärke",
+          "description": "Eine Prozentzahl die darstellt, wie häufig ein Pokemon ein anderes besiegen würde. 250% bedeutet, es würde den Gegner 2-mal komplett besiegen und anschließend im dritten Versuch bei 50% des Gegnerlebens besiegt werden. 75% bedeutet, es wurde besiegt während es nur 75% des Gegnerlebens abziehen konnte"
+        },
+        {
+          "label": "Zeit zum Sieg",
+          "description": "Zeigt wie lange es dauert, bis das Pokemon gewinnt. 2 Sekunden werden hinzugefügt wann immer das Pokemon besiegt wird"
+        },
+        {
+          "label": "Gewinn %",
+          "description": "Bewertet nach der prozentualen Menge an Siegen"
+        },
+        {
+          "label": "DPS",
+          "description": "Bewertet nach Schaden pro Sekunde"
+        },
+        {
+          "label": "Tränke",
+          "description": "Bewertet nach Anzahl von Basistränken die benötigt werden, um das Pokemon nach den Kämpfen zu heilen. 5 Tränke werden hinzugefügt, wann immer das Pokemon besiegt wird und wiederbelebt werden müsste"
+        }
+      ]
+    }
+  }
+}

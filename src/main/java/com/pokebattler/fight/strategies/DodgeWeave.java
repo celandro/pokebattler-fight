@@ -139,7 +139,8 @@ public class DodgeWeave implements AttackStrategy {
 					dodgedSpecial = defenderState.isNextMoveSpecial();
 					timeElapsed += DODGE_MOVE.getDurationMs()
 							+ Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME);
-					return getDodge(Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
+					return getDodge(Math.max(0, dodgeWait - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME),
+							dodgeStrategy.chanceToDodge(attackerState, defenderState));
 				}
 				// missed dodge fall through to rest of the code
 			}
@@ -155,7 +156,8 @@ public class DodgeWeave implements AttackStrategy {
 										// specials
 				timeElapsed += DODGE_MOVE.getDurationMs()
 						+ Math.max(0, earliestNextDamageTime - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME);
-				return getDodge(Math.max(0, earliestNextDamageTime - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME));
+				return getDodge(Math.max(0, earliestNextDamageTime - Formulas.DODGE_WINDOW + HUMAN_REACTION_TIME),
+						dodgeStrategy.chanceToDodge(attackerState, defenderState));
 			}
 		} else {
 			if (attackerState.getCurrentEnergy() >= -1 * move2.getEnergyDelta()

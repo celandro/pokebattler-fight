@@ -18,7 +18,7 @@ public interface AttackSimulator {
 	FightResult fight(Fight fight, Random r);
 
 	default FightResult fight(Fight fight) {
-		return fight(fight, new Random(fight.getSeed()));
+		return fight(fight, (fight.getSeed() == -1)?null:new Random(fight.getSeed()));
 	}
 
 	PokemonRepository getPokemonRepository();
@@ -61,8 +61,7 @@ public interface AttackSimulator {
 		return attackStrategy == AttackStrategyType.DEFENSE_RANDOM
 				|| attackStrategy == AttackStrategyType.DEFENSE_RANDOM_MC
 				|| defenseStrategy == AttackStrategyType.DEFENSE_RANDOM
-				|| defenseStrategy == AttackStrategyType.DEFENSE_RANDOM_MC
-				|| dodgeStrategy != DodgeStrategyType.DODGE_100;
+				|| defenseStrategy == AttackStrategyType.DEFENSE_RANDOM_MC;
 
 	}
 

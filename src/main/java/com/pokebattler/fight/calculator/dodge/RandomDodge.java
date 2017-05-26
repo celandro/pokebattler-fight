@@ -17,10 +17,13 @@ public class RandomDodge implements DodgeStrategy {
 		this.dodgePercent = dodgePercent;
 		this.type = type;
 	}
-
+	@Override 
+	public Random getRandom() {
+		return random;
+	}
 	@Override
-	public boolean tryToDodge(CombatantState attackerState, CombatantState defenderState) {
-		return random.nextDouble() <= dodgePercent;
+	public double chanceToDodge(CombatantState attackerState, CombatantState defenderState) {
+		return dodgePercent;
 	}
 	@Override
 	public DodgeStrategyType getType() {

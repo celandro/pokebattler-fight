@@ -89,7 +89,7 @@ public class Formulas {
     public double calculateModifier(Move move, Pokemon attacker, Pokemon defender) {
         double modifier = 1.0;
         PokemonType type = move.getType();
-		if (type == attacker.getType() || type == attacker.getType2()) {
+		if (attacker != null && (type == attacker.getType() || type == attacker.getType2())) {
             modifier *= 1.25; // stab
         }
 
@@ -102,25 +102,41 @@ public class Formulas {
 
 
     public CombatResult.Builder getCombatResult(double attack, double defense, Move move, Pokemon attacker,
-            Pokemon defender, boolean isDodge) {
+            Pokemon defender, boolean isDodge, double dodgeChance, int currentTime) {
         final int damage = damageOfMove(attack, defense, move, attacker, defender).getDamage();
-        return getCombatResult(damage, move, isDodge);
+        return getCombatResult(damage, move, isDodge, dodgeChance, currentTime);
     }
     public AttackDamage getDamageOfMove(double attack, double defense, Move move, Pokemon attacker,
             Pokemon defender) {
         return damageOfMove(attack, defense, move, attacker, defender);
     }
-	public CombatResult.Builder getCombatResult(final int damage, Move move, boolean isDodge) {
-		final int dodgeDamage;
+	public CombatResult.Builder getCombatResult(final int damage, Move move, boolean isDodge, double dodgeChance, int currentTime) {
+		int dodgeDamage;
+		final float dodgePercent;
+		int combatTime = move.getDurationMs();
         if (isDodge) {
             // divide by 4 round down but with min of 1
-            dodgeDamage = Math.max(1, damage/DODGE_MODIFIER);
+        	
+    		dodgeDamage = Math.max(1, damage/DODGE_MODIFIER);
+    		if (dodgeChance < 1.0) {
+    			// round semi randomly
+    			dodgeDamage = (int) (dodgeDamage * dodgeChance + damage * (1.0-dodgeChance) + ((currentTime%137)/137.0));
+    		}
+    		
+            dodgePercent = 1.0f - ((float)dodgeDamage)/damage;
         } else {
-            dodgeDamage = damage;
+        	// such a nasty hack to handle partial dodges
+    		if (move.getMoveId() == PokemonMove.DODGE) {
+            	dodgeDamage = 0;
+                dodgePercent = ((float)damage)/1000;
+            } else {
+	            dodgeDamage = damage;
+	            dodgePercent = 0;
+            }
         }
-        final CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(move.getDurationMs())
+        final CombatResult.Builder builder = CombatResult.newBuilder().setCombatTime(combatTime).setCurrentTime(currentTime)
                 .setDamage(dodgeDamage).setDamageTime(move.getDamageWindowEndMs()).setAttackMove(move.getMoveId())
-                .setDodgePercent((float)damage/dodgeDamage).setCriticalHit(false);
+                .setDodgePercent(dodgePercent).setCriticalHit(false);
         return builder;
 	}
 

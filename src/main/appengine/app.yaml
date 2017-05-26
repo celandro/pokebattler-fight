@@ -27,6 +27,7 @@ env_variables:
  'RANKING_SIMULATOR': CloudStorageRankingSimulator
  'RANKING_ATTACK_SIMULATOR': IndividualSimulator
  'RANKING_TIMEOUT': 30
+ 
 
 network:
   instance_tag: fight
@@ -38,8 +39,8 @@ handlers:
   secure: optional  # Do whatever...
 
 resources:
-  cpu: 2
-  memory_gb: 1.2
+  cpu: 1
+  memory_gb: 3.0
   
 automatic_scaling:
   min_num_instances: 1
