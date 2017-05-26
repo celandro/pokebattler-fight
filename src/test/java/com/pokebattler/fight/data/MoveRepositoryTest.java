@@ -23,14 +23,5 @@ public class MoveRepositoryTest {
 	public void testMoves() {
 		assertEquals(178, repo.getAll().getMoveList().size());
 	}
-	@Test
-	public void testCinematicDodge() {
-		DodgeReactionTime dodgeStrategy = (new DodgeReactionTime.Builder()).build(new Random());
-		for (PokemonMove move:repo.getCinematicMoves()) {
-			Move m = repo.getById(move);
-			double chanceToDodge = dodgeStrategy.chanceToDodge(m);
-			System.out.println(move.name() + "," + m.getDamageWindowStartMs()/1000.0 + "," + chanceToDodge + "," + chanceToDodge * 0.75);
-		}
-	}
 	
 }

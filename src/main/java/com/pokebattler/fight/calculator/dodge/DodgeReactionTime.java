@@ -57,14 +57,20 @@ public class DodgeReactionTime implements DodgeStrategy {
 			log.debug("Adjusting for super effective");
 			chanceToDodge *= effectiveAdjustment;
 		}
-		if (attackerState.getPreviousMove() != null) {
-			double quickness = (double)nextMove.getDamageWindowStartMs()/ attackerState.getPreviousMove().getDurationMs()  - 0.5;
+		
+		Move previousMove = attackerState.getPreviousMove();
+		chanceToDodge = quickBonus(previousMove, nextMove, chanceToDodge);
+		return chanceToDodge;
+		
+	}
+	public double quickBonus(Move attackerPreviousMove, Move defenderNextMove, double chanceToDodge) {
+		if (attackerPreviousMove != null) {
+			double quickness = (double)defenderNextMove.getDamageWindowStartMs()/ attackerPreviousMove.getDurationMs()  - 0.5;
 			if (quickness > 0) {
 				chanceToDodge += (maxDodgePercent-chanceToDodge) * Math.min(1.0, quickness * fastMoveBonus);
 			}
 		}
 		return chanceToDodge;
-		
 	}
 
 	public boolean isSuperEffective(CombatantState attackerState, CombatantState defenderState) {
