@@ -43,7 +43,7 @@ public class CountersFilter implements RankingsFilter {
     }
     @Override
     public int getNumWorstSubDefenderToKeep() {
-        return numForTotal;
+        return 1;
     }
     
     
@@ -88,6 +88,29 @@ public class CountersFilter implements RankingsFilter {
 	public String getValue() {
 		return Integer.toString(numForTotal);
 	}
+	@Override
+	public RankingsFilter getOptimizer() {
+		// TODO Auto-generated method stub
+		return new CountersFilter(numForTotal) {
+			@Override
+		    public int getNumWorstDefenderToKeep() {
+		        return (int)(numForTotal * 3);
+		    }
+		    @Override
+		    public int getNumWorstSubDefenderToKeep() {
+		        return 5;
+		    }
+			@Override
+			public int getNumBestAttackerToKeep() {
+				return (int) (RankingsFilter.TRIM_TO * 1.5);
+			}
 
-    
+			@Override
+			public boolean compressResults() {
+				return false;
+			}
+		
+		};
+	}
+
 }

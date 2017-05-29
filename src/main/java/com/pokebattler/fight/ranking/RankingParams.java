@@ -1,5 +1,10 @@
 package com.pokebattler.fight.ranking;
 
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
 import com.pokebattler.fight.data.proto.FightOuterClass.AttackStrategyType;
 import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.ranking.filter.RankingsFilter;
@@ -15,7 +20,7 @@ class RankingParams {
     final private PokemonCreator defenderCreator;
     final private DodgeStrategyType dodgeStrategy;
     final private long seed;
-    
+    private Set<PokemonPair> optimizedFightSet;
     
     public RankingParams(AttackStrategyType attackStrategy, AttackStrategyType defenseStrategy, RankingsSort sort, RankingsFilter filter,
     		PokemonCreator attackerCreator, PokemonCreator defenderCreator, DodgeStrategyType dodgeStrategy, long seed) {
@@ -28,6 +33,7 @@ class RankingParams {
         this.defenderCreator = defenderCreator;
         this.dodgeStrategy = dodgeStrategy;
         this.seed = seed;
+        this.optimizedFightSet = null;
     }
     public AttackStrategyType getAttackStrategy() {
         return attackStrategy;
@@ -109,6 +115,13 @@ class RankingParams {
 	}
 	public long getSeed() {
 		return seed;
+	}
+	public void setOptimizedFightSet(Set<PokemonPair> optimizedFightSet) {
+		this.optimizedFightSet = optimizedFightSet;
+		
+	}
+	public Set<PokemonPair> getOptimizedFightSet() {
+		return optimizedFightSet;
 	}
     
 

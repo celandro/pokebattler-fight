@@ -45,6 +45,22 @@ public class NoFilter implements RankingsFilter {
 		return "NONE";
 	}
 
+	@Override
+	public RankingsFilter getOptimizer() {
+		// TODO Auto-generated method stub
+		return new NoFilter() {
+			@Override
+		    public int getNumBestAttackerToKeep() {
+		        return (int)(super.getNumBestAttackerToKeep() * 1.25);
+		    }		
+			@Override
+			public boolean compressResults() {
+				return false;
+			}
+
+		};
+	}
+
 
 
 }

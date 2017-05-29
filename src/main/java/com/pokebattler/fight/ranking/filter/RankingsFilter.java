@@ -34,4 +34,6 @@ public interface RankingsFilter {
     public static final int TRIM_TO = 24;
 	String getValue();
 
+	RankingsFilter getOptimizer();
+
 }

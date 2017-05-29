@@ -2,6 +2,7 @@ package com.pokebattler.fight.ranking;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;
@@ -138,27 +139,26 @@ public class ThreadedRankingSimulator implements RankingSimulator {
 		SubResultTotal.Builder subTotal = SubResultTotal.newBuilder();
 		// calculate subtotal before filter
 		results.stream().forEach((result) -> subTotal.setNumSims(subTotal.getNumSims() + result.getTotalBuilder().getNumSims()));
+		int numToSkip = Math.max(0, results.size() - params.getFilter().getNumWorstDefenderToKeep());
 		results.stream().sorted(params.getSort().getDefenderResultComparator())
-				.skip(Math.max(0, results.size() - params.getFilter().getNumWorstDefenderToKeep())).forEach(result -> {
+				.skip(numToSkip).forEach(result -> {
 					SubResultTotal.Builder subResultTotalBuilder = result.getTotalBuilder();
 					subTotal.setNumWins(subTotal.getNumWins() + subResultTotalBuilder.getNumWins());
 					subTotal.setCombatTime(subTotal.getCombatTime() + subResultTotalBuilder.getCombatTime());
 					subTotal.setDamageDealt(subTotal.getDamageDealt() + subResultTotalBuilder.getDamageDealt());
 					subTotal.setDamageTaken(subTotal.getDamageTaken() + subResultTotalBuilder.getDamageTaken());
 					subTotal.setNumLosses(subTotal.getNumLosses() + subResultTotalBuilder.getNumLosses());
-					subTotal.setPower(subTotal.getPower() + subResultTotalBuilder.getPower());
+					subTotal.setPower(subTotal.getPower() + Math.log10(subResultTotalBuilder.getPower()));
 					subTotal.setEffectiveCombatTime(
 							subTotal.getEffectiveCombatTime() + subResultTotalBuilder.getEffectiveCombatTime());
 					subTotal.setPotions(subTotal.getPotions() + subResultTotalBuilder.getPotions());
-					subTotal.setOverallRating(subTotal.getOverallRating() + subResultTotalBuilder.getOverallRating());
+					subTotal.setOverallRating(subTotal.getOverallRating() + Math.log10(subResultTotalBuilder.getOverallRating()));
 					retval.addDefenders(result);
 				});
 
-		// normalize power
-		subTotal.setPower(Math.pow(10, subTotal.getPower() / (subTotal.getNumWins() + subTotal.getNumLosses())));
-		// normallize overall rating as well
-		subTotal.setOverallRating(
-				Math.pow(10, subTotal.getOverallRating() / (subTotal.getNumWins() + subTotal.getNumLosses())));
+		// normalize power and overall
+		subTotal.setPower(Math.pow(10, subTotal.getPower() / (results.size() -numToSkip)))
+		.setOverallRating(Math.pow(10, subTotal.getOverallRating() / (results.size() - numToSkip)));
 		retval.setTotal(subTotal);
 		return retval;
 	}
@@ -174,8 +174,15 @@ public class ThreadedRankingSimulator implements RankingSimulator {
 			if (defenderData != null) {
 				// yes we set this a few times its ok
 				retval.setCp(defenderData.getCp());
-				results.add(subRankDefenderByMoves(attackerData, defenderData, params.getAttackStrategy(),
-						params.getDefenseStrategy(), params.getDodgeStrategy(), params.getSeed()));
+				// if we are using an optimized fight set, check if this is a pokemon we are doing
+				if (params.getOptimizedFightSet() == null || 
+						params.getOptimizedFightSet().contains(new PokemonPair(attackerData.getPokemonId(), 
+							attackerData.getMove1(), attackerData.getMove2(), defenderData.getPokemonId(), 
+							defenderData.getMove1(), defenderData.getMove2()))) {
+						results.add(subRankDefenderByMoves(attackerData, defenderData, params.getAttackStrategy(),
+								params.getDefenseStrategy(), params.getDodgeStrategy(), params.getSeed()));
+				}
+				
 			}
 		});
 
@@ -185,7 +192,7 @@ public class ThreadedRankingSimulator implements RankingSimulator {
 		results.stream().sorted(params.getSort().getDefenderSubResultComparator())
 				// skip all but 1 if we are skipping any
 				.skip((params.getFilter().getNumWorstSubDefenderToKeep() == Integer.MAX_VALUE) ? 0
-						: Math.max(0, results.size() - 1))
+						: Math.max(0, results.size() - params.getFilter().getNumWorstSubDefenderToKeep()))
 				.forEach((result) -> {
 					boolean win = result.getResultOrBuilder().getWin();
 					subTotal.setNumWins(subTotal.getNumWins() + (win ? 1 : 0));
@@ -215,6 +222,9 @@ public class ThreadedRankingSimulator implements RankingSimulator {
 					}
 					retval.addByMove(result);
 				});
+		// normalize power and overall
+		subTotal.setPower(Math.pow(10, subTotal.getPower() / (subTotal.getNumWins() + subTotal.getNumLosses())))
+		.setOverallRating(Math.pow(10, subTotal.getOverallRating() / (subTotal.getNumWins() + subTotal.getNumLosses())));
 		retval.setTotal(subTotal);
 		return retval;
 	}

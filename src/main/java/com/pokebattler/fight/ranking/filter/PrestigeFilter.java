@@ -71,6 +71,24 @@ public class PrestigeFilter implements RankingsFilter {
 		return pokemonId.name();
 	}
 
+	@Override
+	public RankingsFilter getOptimizer() {
+		return new PrestigeFilter(pokemonId) {
+		    @Override
+		    public int getNumWorstDefenderToKeep() {
+		        return (int) (super.getNumWorstDefenderToKeep() * 1.25);
+		    }
+			@Override
+		    public int getNumWorstSubDefenderToKeep() {
+		        return 3;
+		    }
+			@Override
+		    public boolean compressResults() {
+		    	return false;
+		    }
+			
+		};
+	}
     
     
 }

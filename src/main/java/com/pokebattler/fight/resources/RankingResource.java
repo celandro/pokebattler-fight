@@ -70,7 +70,7 @@ public class RankingResource {
 			@DefaultValue("NO_FILTER") @QueryParam("filterType") FilterType filterType,
 			@DefaultValue("NONE") @QueryParam("filterValue") String filterValue,
             @DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy,
-            @QueryParam("seed") @DefaultValue("-1") long seed) {
+            @QueryParam("seed") @DefaultValue("1") long seed) {
     	if (seed == -1 && AttackSimulator.isRandom(attackStrategy, defenseStrategy, dodgeStrategy)) {
     		seed = System.currentTimeMillis();
     	}
@@ -116,7 +116,7 @@ public class RankingResource {
 			@DefaultValue("COUNTERS") @QueryParam("filterType") FilterType filterType,
 			@DefaultValue("5") @QueryParam("filterValue") String filterValue,
             @DefaultValue("DODGE_100") @QueryParam("dodgeStrategy") DodgeStrategyType dodgeStrategy,
-            @QueryParam("seed") @DefaultValue("-1") long seed) {
+            @QueryParam("seed") @DefaultValue("1") long seed) {
     	if (seed == -1 && AttackSimulator.isRandom(attackStrategy, defenseStrategy, dodgeStrategy)) {
     		seed = System.currentTimeMillis();
     	}
