@@ -33,6 +33,10 @@ public class DefenderRandomAttack implements AttackStrategy {
     public AttackStrategyType getType() {
         return type;
     }
+    @Override
+    public boolean isDodgeStrategy() {
+    	return false;
+    }
 
     public DefenderRandomAttack(PokemonData pokemon, Move move1, Move move2, int extraDelay, int randomDelay,
             AttackStrategyType type, double specialRandom, AttackDamage move1Damage, AttackDamage move2Damage, Random r) {

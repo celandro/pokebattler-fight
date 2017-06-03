@@ -1,29 +1,39 @@
 package com.pokebattler.fight.ranking.filter;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.pokebattler.fight.data.PokemonRepository;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
+import com.pokebattler.fight.data.proto.Ranking.RankingResult;
+import com.pokebattler.fight.ranking.CachingRankingSimulator;
 import com.pokebattler.fight.ranking.RankingParams;
 
 @Component
-public class PokemonFilter implements RankingsFilter {
+public class TopDefenderFilter implements RankingsFilter {
+
+	@Autowired
+	private CachingRankingSimulator cachingSimulator;
+	
 	private final Logger log = LoggerFactory.getLogger(getClass());
-	private final FilterType filterType = FilterType.POKEMON;
+	private final FilterType filterType = FilterType.TOP_DEFENDER;
 	private final PokemonId pokemonId;
 
-	public PokemonFilter() {
+	public TopDefenderFilter() {
 		this.pokemonId = PokemonId.UNRECOGNIZED;
 	}
 
-	public PokemonFilter(PokemonId pokemonId) {
+	public TopDefenderFilter(PokemonId pokemonId) {
 		this.pokemonId = pokemonId;
 	}
 
@@ -35,7 +45,9 @@ public class PokemonFilter implements RankingsFilter {
 	@Override
 	public RankingsFilter forValue(String filterValue) {
 		try {
-			return new PokemonFilter(PokemonId.valueOf(filterValue));
+			TopDefenderFilter result = new TopDefenderFilter(PokemonId.valueOf(filterValue));
+			result.cachingSimulator = cachingSimulator;
+			return result;
 		} catch (Exception e) {
 			log.error("Could not create filter", e);
 			return this;
@@ -74,20 +86,36 @@ public class PokemonFilter implements RankingsFilter {
 
 	@Override
 	public RankingsFilter getOptimizer(RankingParams params) {
+		// lets use the best defenders
+		RankingResult result = cachingSimulator.rankDefender(params.getAttackStrategy(), params.getDefenseStrategy(), 
+				params.getSort().getType(), FilterType.COUNTERS, "5", params.getAttackerCreator(), 
+				params.getDefenderCreator(), params.getDodgeStrategy(), params.getSeed());
+		final List<PokemonId> defenders = result.getAttackersList().stream().map(attacker -> {
+			return attacker.getPokemonId();
+		}).collect(Collectors.toList());
 		return new PokemonFilter(pokemonId) {
-			@Override
-			public int getNumWorstDefenderToKeep() {
-				return (int) (RankingsFilter.TRIM_TO * 1.5);
-			}
 			@Override
 			public int getNumWorstSubDefenderToKeep() {
 		        return 5;
 			}
+			@Override
+			public int getNumWorstDefenderToKeep() {
+				return RankingsFilter.TRIM_TO;
+			}
+
+			@Override
+			public Collection<Pokemon> getDefenders(PokemonRepository repository) {
+				return defenders.stream().map(pokemonId -> {
+					return repository.getById(pokemonId);
+				}).collect(Collectors.toList());
+			}
+
 
 			@Override
 			public boolean compressResults() {
 				return false;
 			}
+			
 
 		};
 	}
@@ -96,7 +124,6 @@ public class PokemonFilter implements RankingsFilter {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((filterType == null) ? 0 : filterType.hashCode());
 		result = prime * result + ((pokemonId == null) ? 0 : pokemonId.hashCode());
 		return result;
 	}
@@ -109,13 +136,11 @@ public class PokemonFilter implements RankingsFilter {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		PokemonFilter other = (PokemonFilter) obj;
-		if (filterType != other.filterType)
-			return false;
+		TopDefenderFilter other = (TopDefenderFilter) obj;
 		if (pokemonId != other.pokemonId)
 			return false;
 		return true;
 	}
-	
+
 
 }

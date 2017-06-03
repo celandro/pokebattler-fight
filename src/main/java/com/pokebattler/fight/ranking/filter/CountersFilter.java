@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 import com.pokebattler.fight.data.PokemonRepository;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
+import com.pokebattler.fight.ranking.RankingParams;
 
 @Component
 public class CountersFilter implements RankingsFilter {
@@ -89,7 +90,7 @@ public class CountersFilter implements RankingsFilter {
 		return Integer.toString(numForTotal);
 	}
 	@Override
-	public RankingsFilter getOptimizer() {
+	public RankingsFilter getOptimizer(RankingParams params) {
 		// TODO Auto-generated method stub
 		return new CountersFilter(numForTotal) {
 			@Override

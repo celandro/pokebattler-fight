@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 import com.pokebattler.fight.data.proto.FightOuterClass.FightResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
+import com.pokebattler.fight.ranking.RankingParams;
 
 @Component
 public class WinRankingsSort implements RankingsSort {
@@ -38,6 +39,10 @@ public class WinRankingsSort implements RankingsSort {
 	@Override
 	public boolean equals(Object obj) {
 		return getClass().equals(obj.getClass());
+	}
+	@Override
+    public RankingsSort getRelativeSort(RankingParams params) {
+		return new WinRankingsSort();
 	}
 
 }

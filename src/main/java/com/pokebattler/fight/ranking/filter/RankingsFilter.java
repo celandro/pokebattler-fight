@@ -5,6 +5,7 @@ import java.util.Collection;
 import com.pokebattler.fight.data.PokemonRepository;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
+import com.pokebattler.fight.ranking.RankingParams;
 
 public interface RankingsFilter {
 
@@ -34,6 +35,8 @@ public interface RankingsFilter {
     public static final int TRIM_TO = 24;
 	String getValue();
 
-	RankingsFilter getOptimizer();
+	RankingsFilter getOptimizer(RankingParams params);
+
+	
 
 }

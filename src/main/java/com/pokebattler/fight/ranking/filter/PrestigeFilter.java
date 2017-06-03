@@ -12,6 +12,7 @@ import com.pokebattler.fight.data.PokemonRepository;
 import com.pokebattler.fight.data.proto.PokemonIdOuterClass.PokemonId;
 import com.pokebattler.fight.data.proto.PokemonOuterClass.Pokemon;
 import com.pokebattler.fight.data.proto.Ranking.FilterType;
+import com.pokebattler.fight.ranking.RankingParams;
 
 @Component
 public class PrestigeFilter implements RankingsFilter {
@@ -72,7 +73,7 @@ public class PrestigeFilter implements RankingsFilter {
 	}
 
 	@Override
-	public RankingsFilter getOptimizer() {
+	public RankingsFilter getOptimizer(RankingParams params) {
 		return new PrestigeFilter(pokemonId) {
 		    @Override
 		    public int getNumWorstDefenderToKeep() {

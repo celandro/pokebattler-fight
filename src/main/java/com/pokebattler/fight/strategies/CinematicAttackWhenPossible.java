@@ -44,6 +44,10 @@ public class CinematicAttackWhenPossible implements AttackStrategy {
         }
 
     }
+    @Override
+    public boolean isDodgeStrategy() {
+    	return false;
+    }
 
     public int getDelay() {
         return getDelay();

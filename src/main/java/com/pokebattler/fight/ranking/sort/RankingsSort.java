@@ -10,10 +10,11 @@ import com.pokebattler.fight.data.proto.Ranking.DefenderSubResult.Builder;
 import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
+import com.pokebattler.fight.ranking.RankingParams;
 
 public interface RankingsSort {
     default public Comparator<AttackerResultOrBuilder> getAttackerResultComparator() {
-        return Comparator.<AttackerResultOrBuilder,AttackerSubResultOrBuilder>comparing(result->result.getByMove(0), getAttackerSubResultComparator());
+        return Comparator.<AttackerResultOrBuilder,AttackerSubResultOrBuilder>comparing(result->result.getByMoveOrBuilder(0), getAttackerSubResultComparator());
     }
 
     default public Comparator<AttackerSubResultOrBuilder> getAttackerSubResultComparator() {
@@ -31,5 +32,6 @@ public interface RankingsSort {
     public Comparator<SubResultTotalOrBuilder> getSubResultComparator();
     public SortType getType();
     public Comparator<FightResultOrBuilder> getFightResultComparator();
+    public RankingsSort getRelativeSort(RankingParams params);
 
 }

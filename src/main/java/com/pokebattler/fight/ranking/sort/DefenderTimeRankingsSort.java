@@ -9,6 +9,7 @@ import com.pokebattler.fight.data.proto.Ranking.DefenderResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.DefenderSubResultOrBuilder;
 import com.pokebattler.fight.data.proto.Ranking.SortType;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotalOrBuilder;
+import com.pokebattler.fight.ranking.RankingParams;
 
 @Component
 public class DefenderTimeRankingsSort implements RankingsSort{
@@ -40,6 +41,10 @@ public class DefenderTimeRankingsSort implements RankingsSort{
     public boolean equals(Object obj) {
         return getClass().equals(obj.getClass());
     }
+	@Override
+    public RankingsSort getRelativeSort(RankingParams params) {
+		return new DefenderTimeRankingsSort();
+	}
 
     
 }

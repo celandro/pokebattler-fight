@@ -53,7 +53,7 @@ public class MonteCarloRankingSimulator implements RankingSimulator {
 	public RankingResult rank(final RankingParams params) {
 		if (params.getDefenseStrategy() == AttackStrategyType.DEFENSE_RANDOM_MC) {
 			RankingParams estimateParams = new RankingParams(params.getAttackStrategy(), AttackStrategyType.DEFENSE, 
-					params.getSort(), params.getFilter().getOptimizer(), params.getAttackerCreator(), params.getDefenderCreator(), 
+					params.getSort(), params.getFilter().getOptimizer(params), params.getAttackerCreator(), params.getDefenderCreator(), 
 					params.getDodgeStrategy(), -1);
 			params.setOptimizedFightSet(calculateOptimizedFightSet(estimateParams));
 			
@@ -61,7 +61,7 @@ public class MonteCarloRankingSimulator implements RankingSimulator {
 
 		} else if (params.getAttackStrategy() == AttackStrategyType.DEFENSE_RANDOM_MC) {
 			RankingParams estimateParams = new RankingParams(AttackStrategyType.DEFENSE, params.getDefenseStrategy(),  
-					params.getSort(), params.getFilter().getOptimizer(), params.getAttackerCreator(), params.getDefenderCreator(), 
+					params.getSort(), params.getFilter().getOptimizer(params), params.getAttackerCreator(), params.getDefenderCreator(), 
 					params.getDodgeStrategy(), -1);
 			params.setOptimizedFightSet(calculateOptimizedFightSet(estimateParams));
 			return simulator.rank(params);

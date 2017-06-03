@@ -21,6 +21,7 @@ enum FilterType {
 	TYPE = 3;
 	POKEMON = 4;
 	PRESTIGE = 5;
+	TOP_DEFENDER = 6;
 }
 message RankingResult {
 	repeated AttackerResult attackers = 1;

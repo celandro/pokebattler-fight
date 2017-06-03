@@ -34,6 +34,10 @@ public class QuickAttackOnly implements AttackStrategy {
         this.move1Damage = move1Damage;
         this.move2Damage = move2Damage;
     }
+    @Override
+    public boolean isDodgeStrategy() {
+    	return false;
+    }
 
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {

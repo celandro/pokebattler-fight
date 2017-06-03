@@ -30,8 +30,8 @@ public class MonteCarloSimulator implements AttackSimulator {
     private IndividualSimulator simulator;
     @Value("${monteCarlo.numRounds}")
     private int numRounds;
-    @Resource
-    OverallRankingsSort sort;
+    // cant inject due to circular reference
+    OverallRankingsSort sort = new OverallRankingsSort();
     private final Logger log = LoggerFactory.getLogger(getClass());
   
 

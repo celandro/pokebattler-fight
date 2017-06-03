@@ -30,6 +30,10 @@ public class DefenderAttack implements AttackStrategy {
     public AttackStrategyType getType() {
         return AttackStrategyType.DEFENSE;
     }
+    @Override
+    public boolean isDodgeStrategy() {
+    	return false;
+    }
 
     public DefenderAttack(PokemonData pokemon, Move move1, Move move2, int extraDelay, AttackDamage move1Damage, AttackDamage move2Damage) {
         this.pokemon = pokemon;

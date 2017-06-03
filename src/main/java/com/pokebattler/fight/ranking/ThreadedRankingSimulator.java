@@ -35,6 +35,7 @@ import com.pokebattler.fight.data.proto.Ranking.AttackerResult.Builder;
 import com.pokebattler.fight.data.proto.Ranking.AttackerSubResult;
 import com.pokebattler.fight.data.proto.Ranking.DefenderResult;
 import com.pokebattler.fight.data.proto.Ranking.DefenderSubResult;
+import com.pokebattler.fight.data.proto.Ranking.FilterType;
 import com.pokebattler.fight.data.proto.Ranking.RankingResult;
 import com.pokebattler.fight.data.proto.Ranking.SubResultTotal;
 
@@ -65,15 +66,27 @@ public class ThreadedRankingSimulator implements RankingSimulator {
 	 * @see com.pokebattler.fight.ranking.RankingSimulator#rank(com.pokebattler.fight.ranking.RankingParams)
 	 */
 	@Override
-	public RankingResult rank(final RankingParams params) {
+	public RankingResult rank(RankingParams rankingParams) {
+		//HACK  convert the params to one that can do relative rankings
+		final RankingParams params;
+		if (rankingParams.getFilter().getType() == FilterType.TOP_DEFENDER) {
+			params = new RankingParams(rankingParams.getAttackStrategy(), rankingParams.getDefenseStrategy(),
+					rankingParams.getSort().getRelativeSort(rankingParams), rankingParams.getFilter(), rankingParams.getAttackerCreator(), 
+					rankingParams.getDefenderCreator(), rankingParams.getDodgeStrategy(), rankingParams.getSeed());
+			params.setOptimizedFightSet(rankingParams.getOptimizedFightSet());
+    	} else {
+    		params = rankingParams;
+    	}
+
 		final RankingResult.Builder retval = RankingResult.newBuilder().setAttackStrategy(params.getAttackStrategy())
 				.setDefenseStrategy(params.getDefenseStrategy()).setDodgeStrategy(params.getDodgeStrategy())
 				.setSeed(params.getSeed()).setSortType(params.getSort().getType())
 				.setFilterType(params.getFilter().getType()).setFilterValue(params.getFilter().getValue());
 		
-		try {
-			forkJoinPool.submit(() -> {
-				final List<AttackerResult.Builder> results = params.getFilter().getAttackers(pokemonRepository).stream().parallel()
+//		try {
+//			forkJoinPool.submit(() -> {
+				final List<AttackerResult.Builder> results = params.getFilter().getAttackers(pokemonRepository).stream()
+//						.parallel()
 						.map((attacker) -> {
 							Builder result = rankAttacker(attacker, params);
 							return result;
@@ -83,36 +96,44 @@ public class ThreadedRankingSimulator implements RankingSimulator {
 				results.stream().forEach((result) -> retval.setNumSims(retval.getNumSims() + result.getNumSims()));
 				results.stream().sorted(params.getSort().getAttackerResultComparator())
 						.limit(params.getFilter().getNumBestAttackerToKeep()).forEach((result) -> retval.addAttackers(result));
-			}).get(timeOutSeconds, TimeUnit.SECONDS);
-		} catch (InterruptedException | ExecutionException | TimeoutException e) {
-			log.error("Error calculating rankings",e);
-			throw new RuntimeException("Could not calculate rankings");
-		}
+//			}).get(timeOutSeconds, TimeUnit.SECONDS);
+//		} catch (InterruptedException | ExecutionException | TimeoutException e) {
+//			log.error("Error calculating rankings",e);
+//			throw new RuntimeException("Could not calculate rankings");
+//		}
 
 		return retval.build();
 	}
 
 	public AttackerResult.Builder rankAttacker(Pokemon attacker, RankingParams params) {
-		final ArrayList<AttackerSubResult.Builder> results = new ArrayList<>();
 		final AttackerResult.Builder retval = AttackerResult.newBuilder().setPokemonId(attacker.getPokemonId());
-		attacker.getMovesetsList().forEach((moveset) -> {
-			final PokemonData attackerData = params.getAttackerCreator().createPokemon(attacker.getPokemonId(),
-					moveset.getQuickMove(), moveset.getCinematicMove());
-			if (attackerData != null) {
-				// yes we set this a few times its ok
-				retval.setCp(attackerData.getCp());
-				results.add(rankAttackerByMoves(attackerData, params));
-			}
-		});
-		results.stream().sorted(params.getSort().getAttackerSubResultComparator()).forEach(result -> {
-			// defender list is too big sometimes
-			if (params.getFilter().compressResults()) {
-				result.clearDefenders();
-			}
-			retval.setNumSims(retval.getNumSims() + result.getTotal().getNumSims());
-			retval.addByMove(result);
-		});
-		;
+		try {
+			forkJoinPool.submit(() -> {
+				List<AttackerSubResult.Builder> results = attacker.getMovesetsList().stream().parallel().map((moveset) -> {
+					final PokemonData attackerData = params.getAttackerCreator().createPokemon(attacker.getPokemonId(),
+							moveset.getQuickMove(), moveset.getCinematicMove());
+					if (attackerData != null) {
+						// yes we set this a few times its ok
+						retval.setCp(attackerData.getCp());
+						return rankAttackerByMoves(attackerData, params);
+					} else {
+						return null;
+					}
+				}).collect(Collectors.toList());
+
+				results.stream().filter(result -> result != null).sorted(params.getSort().getAttackerSubResultComparator()).forEach(result -> {
+					// defender list is too big sometimes
+					if (params.getFilter().compressResults()) {
+						result.clearDefenders();
+					}
+					retval.setNumSims(retval.getNumSims() + result.getTotal().getNumSims());
+					retval.addByMove(result);
+				});
+			}).get(timeOutSeconds, TimeUnit.SECONDS);
+		} catch (InterruptedException | ExecutionException | TimeoutException e) {
+			log.error("Error calculating rankings",e);
+			throw new RuntimeException("Could not calculate rankings");
+		}
 
 		return retval;
 	}
@@ -164,10 +185,9 @@ public class ThreadedRankingSimulator implements RankingSimulator {
 	}
 
 	public DefenderResult.Builder subRankDefender(Pokemon defender, final PokemonData attackerData,
-			RankingParams params) {
+			final RankingParams params) {
 		final DefenderResult.Builder retval = DefenderResult.newBuilder().setPokemonId(defender.getPokemonId());
 		final ArrayList<DefenderSubResult.Builder> results = new ArrayList<>();
-
 		defender.getMovesetsList().forEach((moveset) -> {
 			final PokemonData defenderData = params.getDefenderCreator().createPokemon(defender.getPokemonId(),
 					moveset.getQuickMove(), moveset.getCinematicMove());

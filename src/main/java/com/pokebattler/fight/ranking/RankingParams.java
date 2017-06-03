@@ -10,7 +10,7 @@ import com.pokebattler.fight.data.proto.FightOuterClass.DodgeStrategyType;
 import com.pokebattler.fight.ranking.filter.RankingsFilter;
 import com.pokebattler.fight.ranking.sort.RankingsSort;
 
-class RankingParams {
+public class RankingParams {
     
     final private AttackStrategyType attackStrategy;
     final private AttackStrategyType defenseStrategy;
@@ -122,6 +122,12 @@ class RankingParams {
 	}
 	public Set<PokemonPair> getOptimizedFightSet() {
 		return optimizedFightSet;
+	}
+	@Override
+	public String toString() {
+		return "RankingParams [attackStrategy=" + attackStrategy + ", defenseStrategy=" + defenseStrategy + ", sort="
+				+ sort.getType() + ", filter=" + filter.getType() + "=" + filter.getValue() + ", dodgeStrategy=" + dodgeStrategy + ", seed=" + seed + ", optimizedFightSet="
+				+ optimizedFightSet + "]";
 	}
     
 

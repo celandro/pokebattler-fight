@@ -33,6 +33,9 @@ public interface AttackStrategy {
     default public PokemonAttack getDodge(int extraDelay, double d) {
     	return new PokemonAttack(MoveRepository.DODGE_MOVE, extraDelay, (int)(d * 1000));
     }
+    default public boolean isDodgeStrategy() {
+    	return true;
+    }
 
 
     public static int DODGE_COOLDOWN = 500;

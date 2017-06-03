@@ -29,6 +29,10 @@ public class NoAttack implements AttackStrategy {
         this.pokemon = pokemon;
         this.extraDelay = extraDelay;
     }
+    @Override
+    public boolean isDodgeStrategy() {
+    	return false;
+    }
 
     @Override
     public PokemonAttack nextAttack(CombatantState attackerState, CombatantState defenderState) {
