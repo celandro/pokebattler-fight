@@ -1,0 +1,18 @@
+{
+  "back": "返回",
+  "cancel": "取消",
+  "cp": "CP",
+  "quickMove": "快速招式",
+  "specialMove": "能量招式",
+  "attackStrategy": "攻擊策略",
+  "defenseStrategy": "防禦策略",
+  "dodgeStrategy": "閃躲策略",
+  "stats": {
+    "attack": "攻擊",
+    "defense": "防禦",
+    "stamina": "耐力"
+  },
+  "level": "等級",
+  "basic": "基本",
+  "advanced": "進階"
+}

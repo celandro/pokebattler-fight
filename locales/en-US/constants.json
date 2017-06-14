@@ -438,7 +438,7 @@
       },
       "DODGE_SPECIALS2": {
         "label": "Dodge Specials",
-        "description": "Use quick attacks until you can dodge their special. Then use your special."
+        "description": "Use quick attacks until you can dodge their special, then use your special."
       },
       "DODGE_SPECIALS": {
         "label": "Dodge Specials PRO",
@@ -446,7 +446,7 @@
       },
       "DODGE_ALL2": {
         "label": "Dodge All",
-        "description": "Use quick attacks and dodge their moves until you can dodge their special. Then use your special!"
+        "description": "Use quick attacks and dodge their moves until you can dodge their special, then use your special!"
       },
       "DODGE_ALL": {
         "label": "Dodge All PRO",
@@ -455,6 +455,10 @@
       "DODGE_WEAVE_CAUTIOUS": {
         "label": "Dodge All Weave",
         "description": "This uses an attack pattern strategy that assumes that the worst case 1.5s delay between attacks could happen every time. This strategy should be reproducible by a human."
+      },
+      "undefined": {
+        "label": "Unknown",
+        "description": "This should not occur. Please let us know this happened!"
       }
     },
     "dodge": {

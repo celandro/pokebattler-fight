@@ -14,5 +14,18 @@
   },
   "level": "Level",
   "basic": "Basic",
-  "advanced": "Advanced"
+  "advanced": "Advanced",
+  "move": "Move",
+  "properties": {
+    "overall": "Overall",
+    "power": "Power",
+    "win": "Win %",
+    "time": "Time to win",
+    "realTime": "Time",
+    "prestige": "Prestige",
+    "dps": "Damage per second",
+    "potions": "Potions",
+    "damage": "Damage",
+    "energy": "Energy"
+  }
 }

@@ -1,0 +1,7 @@
+{
+  "title": "Pokebattler隱私政策",
+  "policy": "Pokebattler.com關心您的隱私。我們不會與第三方分享您的個人訊息，也不會儲存您訪問本網站的任何訊息，除了通過使用Cookie和本地儲存以分析和優化您在網站上的體驗。本地儲存特別用於儲存您的自定義設定以方便您訪問本站。",
+  "browserSettings": "您隨時可以通過更改特定的瀏覽器設置來關閉Cookie和本地儲存的使用。",
+  "changeNote": "本隱私政策如有更改，恕不另行通知，最後更新於{{changed_date}}。如有任何疑問請{{contactLink}}",
+  "contactLink": "聯繫我們。"
+}

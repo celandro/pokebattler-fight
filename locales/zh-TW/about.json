@@ -1,0 +1,11 @@
+{
+  "title": "關於Pokebattler",
+  "history": "這個網站是由{{link}}(又名Ryan Barker)於2016年7月在他的一些同事的幫助下創建的。Ryan的妻子Shelley Barker也為此愛好提供了非常讚賞的幫助。",
+  "engine": "本網站的計算引擎是{{link}}並且免費提供給所有戰鬥模擬器網站。這個網站的資金目前來自Ryans的口袋，直到妻子因為他在這個網站上花費太多錢而感到不高興的時候。",
+  "githubLink": "開源的",
+  "thanks": "特別感謝所有一直在進行研究的redditors，包含",
+  "sponsor": "Pokebattler.com已經由{{link}}贊助。去看一下！",
+  "privacy": "Pokebattler嚴肅地看待您的隱私，更多資訊可以參考我們的{{link}}",
+  "privacyLink": "隱私頁面",
+  "images": "本網站上使用的寶可夢圖片屬於創用CC授權，可以在此找到：{{link}}"
+}

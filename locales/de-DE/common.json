@@ -14,5 +14,18 @@
   },
   "level": "Level",
   "basic": "Standard",
-  "advanced": "Erweitert"
+  "advanced": "Erweitert",
+  "move": "Angriff",
+  "properties": {
+    "overall": "Allgemein",
+    "power": "Stärke",
+    "win": "Sieg %",
+    "time": "Zeit zum Sieg",
+    "realTime": "Zeit",
+    "prestige": "Prestige",
+    "dps": "Schaden pro Sekunde",
+    "potions": "Tränke",
+    "damage": "Schaden",
+    "energy": "Energie"
+  }
 }

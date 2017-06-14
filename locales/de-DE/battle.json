@@ -1,0 +1,39 @@
+{
+  "title": "Kampf Simulator",
+  "startButton": "Kämpfen",
+  "attacker": "Angreifer",
+  "attackerPlaceHolder": "$t(attacker) auswählen",
+  "defender": "Verteidiger",
+  "defenderPlaceHolder": "$t(defender) auswählen",
+  "relatedBattles": {
+    "title": "Ähnliche Kämpfe",
+    "description": "Wähle den Parameter aus der Liste unten den du verändern willst und klicke auf den Link um die aktuelle Simulation mit dem veränderten Parameter neu ablaufen zu lassen. Die Ergebnisse werden sofort angepasst.",
+    "modify": "Verändere",
+    "switch": "Klicke um {{type}} zu verändern",
+    "parameterTitle" : "Parameter verändern"
+  },
+  "results": {
+    "title": {
+      "base": "Kampfergebnis: Du",
+      "win": "$t(result.title.base) gewinnst!",
+      "lose": "$t(result.title.base) verlierst!"
+    },
+    "about": "Über diesen Kampf",
+    "description": "Ein Level {{attacker.level}} {{attacker.name}} mit {{attacker.cp}} WP {{result}} einem Level {{defender.level}} {{defender.name}} mit {{defender.cp}} WP in dieser Kampfsimulation. Das angreifende {{attacker.name}} benutzte {{attacker.quickMove}} als seinen Schnell- und {{attacker.specialMove}} als seinen Spezialangriff. Das verteidigende {{defender.name}} benutzte {{defender.quickMove}} als seinen Schnell- und  {{defender.specialMove}} als seinen Spezialangriff. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} benutzend auf Basis des {{strategies.defense}} Simulationstyps. $t(battle:results.simulation, {'count': {{numSims}}}) ausgeführt, um dieses Ergebnis zu erhalten.",
+    "help": {
+      "text": "Du kannst mehr darüber herausfinden, wie diese Simulationen berechnet werden, wenn du in den {{helpLink}} schaust. Referenzen zur Pokemon Go Kampfforschung findest du im {{aboutLink}}. Pokebattler ist ein Open-Source Projekt, bitte hilf uns in dem du Fehler oder Probleme auf unserer {{repoLink}} einstellst.",
+      "links": {
+        "help": "Hilfebereich",
+        "about": "Über-uns-Bereich",
+        "repo": "Projektseite"
+      }
+    },
+    "simulation": "1 Simulation wurde",
+    "simulation_plural": "{{count}} Simulationen wurden",
+    "result": {
+      "win": "besiegt",
+      "lose": "wird besiegt von"
+    },
+    "logTitle": "Kampf-Logbuch"
+  }
+}
