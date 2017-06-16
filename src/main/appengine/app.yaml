@@ -24,7 +24,7 @@ runtime_config:  # Optional
 env_variables:
  'DBG_ENABLE': 'true'
  'FORK_JOIN_POOL_SIZE': 1
- 'RANKING_SIMULATOR': CloudStorageRankingSimulator
+ 'RANKING_SIMULATOR': MonteCarloRankingSimulator
  'RANKING_ATTACK_SIMULATOR': IndividualSimulator
  'RANKING_TIMEOUT': 30
  

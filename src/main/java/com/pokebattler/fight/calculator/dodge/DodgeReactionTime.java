@@ -92,7 +92,7 @@ public class DodgeReactionTime implements DodgeStrategy {
 		public static final int MIN_SPEED = 1000;
 		public static final int MAX_SPEED = 3000;
 		public static final double FAST_MOVE_BONUS = 0.05;
-		public static final double PENALTY_DUE_TO_STUPID_SUPER_EFFECTIVE_TEXT = 0.75;
+		public static final double PENALTY_DUE_TO_STUPID_SUPER_EFFECTIVE_TEXT = 1.0;
 
 		@Override
 		public DodgeReactionTime build(Random r) {
@@ -110,7 +110,7 @@ public class DodgeReactionTime implements DodgeStrategy {
 		public static final int MIN_SPEED = 1000;
 		public static final int MAX_SPEED = 3000;
 		public static final double FAST_MOVE_BONUS = 0.05;
-		public static final double PENALTY_DUE_TO_STUPID_SUPER_EFFECTIVE_TEXT = 0.9;
+		public static final double PENALTY_DUE_TO_STUPID_SUPER_EFFECTIVE_TEXT = 1.0;
 
 		@Override
 		public DodgeReactionTime build(Random r) {
