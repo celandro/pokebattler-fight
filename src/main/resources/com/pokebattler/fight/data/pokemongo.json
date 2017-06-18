@@ -7449,9 +7449,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 118,
-        "baseDefense": 118
+        "baseStamina": 144,
+        "baseAttack": 120,
+        "baseDefense": 119
       },
       "quickMoves": ["VINE_WHIP_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["SLUDGE_BOMB", "SEED_BOMB", "POWER_WHIP"],
@@ -7505,9 +7505,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
+        "baseStamina": 162,
         "baseAttack": 151,
-        "baseDefense": 151
+        "baseDefense": 149
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "VINE_WHIP_FAST"],
       "cinematicMoves": ["SLUDGE_BOMB", "SOLAR_BEAM", "POWER_WHIP"],
@@ -7563,9 +7563,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 198,
-        "baseDefense": 198
+        "baseStamina": 186,
+        "baseAttack": 193,
+        "baseDefense": 191
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "VINE_WHIP_FAST"],
       "cinematicMoves": ["SLUDGE_BOMB", "PETAL_BLIZZARD", "SOLAR_BEAM"],
@@ -7612,9 +7612,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 78,
-        "baseAttack": 116,
-        "baseDefense": 96
+        "baseStamina": 137,
+        "baseAttack": 129,
+        "baseDefense": 100
       },
       "quickMoves": ["EMBER_FAST", "SCRATCH_FAST"],
       "cinematicMoves": ["FLAME_CHARGE", "FLAME_BURST", "FLAMETHROWER"],
@@ -7667,9 +7667,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 116,
-        "baseAttack": 158,
-        "baseDefense": 129
+        "baseStamina": 160,
+        "baseAttack": 165,
+        "baseDefense": 131
       },
       "quickMoves": ["EMBER_FAST", "FIRE_FANG_FAST"],
       "cinematicMoves": ["FIRE_PUNCH", "FLAME_BURST", "FLAMETHROWER"],
@@ -7725,9 +7725,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 156,
-        "baseAttack": 223,
-        "baseDefense": 176
+        "baseStamina": 184,
+        "baseAttack": 218,
+        "baseDefense": 173
       },
       "quickMoves": ["FIRE_SPIN_FAST", "AIR_SLASH_FAST"],
       "cinematicMoves": ["FIRE_BLAST", "DRAGON_CLAW", "OVERHEAT"],
@@ -7774,9 +7774,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 88,
-        "baseAttack": 94,
-        "baseDefense": 122
+        "baseStamina": 143,
+        "baseAttack": 100,
+        "baseDefense": 133
       },
       "quickMoves": ["BUBBLE_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["AQUA_JET", "AQUA_TAIL", "WATER_PULSE"],
@@ -7829,9 +7829,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 118,
-        "baseAttack": 126,
-        "baseDefense": 155
+        "baseStamina": 161,
+        "baseAttack": 132,
+        "baseDefense": 166
       },
       "quickMoves": ["WATER_GUN_FAST", "BITE_FAST"],
       "cinematicMoves": ["AQUA_JET", "ICE_BEAM", "HYDRO_PUMP"],
@@ -7885,9 +7885,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 158,
-        "baseAttack": 171,
-        "baseDefense": 210
+        "baseStamina": 185,
+        "baseAttack": 174,
+        "baseDefense": 213
       },
       "quickMoves": ["WATER_GUN_FAST", "BITE_FAST"],
       "cinematicMoves": ["FLASH_CANNON", "ICE_BEAM", "HYDRO_PUMP"],
@@ -7932,9 +7932,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 55,
-        "baseDefense": 62
+        "baseStamina": 144,
+        "baseAttack": 72,
+        "baseDefense": 60
       },
       "quickMoves": ["BUG_BITE_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["STRUGGLE"],
@@ -7986,9 +7986,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 45,
-        "baseDefense": 94
+        "baseStamina": 150,
+        "baseAttack": 55,
+        "baseDefense": 83
       },
       "quickMoves": ["BUG_BITE_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["STRUGGLE"],
@@ -8044,9 +8044,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
+        "baseStamina": 162,
         "baseAttack": 167,
-        "baseDefense": 151
+        "baseDefense": 137
       },
       "quickMoves": ["STRUGGLE_BUG_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["BUG_BUZZ", "PSYCHIC", "SIGNAL_BEAM"],
@@ -8112,8 +8112,8 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 63,
+        "baseStamina": 138,
+        "baseAttack": 81,
         "baseDefense": 55
       },
       "quickMoves": ["BUG_BITE_FAST", "POISON_STING_FAST"],
@@ -8184,9 +8184,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 46,
-        "baseDefense": 86
+        "baseStamina": 144,
+        "baseAttack": 60,
+        "baseDefense": 79
       },
       "quickMoves": ["BUG_BITE_FAST", "POISON_STING_FAST"],
       "cinematicMoves": ["STRUGGLE"],
@@ -8242,9 +8242,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 169,
-        "baseDefense": 150
+        "baseStamina": 168,
+        "baseAttack": 171,
+        "baseDefense": 128
       },
       "quickMoves": ["INFESTATION_FAST", "POISON_JAB_FAST"],
       "cinematicMoves": ["SLUDGE_BOMB", "AERIAL_ACE", "X_SCISSOR"],
@@ -8310,9 +8310,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 85,
-        "baseDefense": 76
+        "baseStamina": 138,
+        "baseAttack": 100,
+        "baseDefense": 81
       },
       "quickMoves": ["QUICK_ATTACK_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["TWISTER", "AERIAL_ACE", "AIR_CUTTER"],
@@ -8368,9 +8368,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 126,
-        "baseAttack": 117,
-        "baseDefense": 108
+        "baseStamina": 166,
+        "baseAttack": 132,
+        "baseDefense": 112
       },
       "quickMoves": ["WING_ATTACK_FAST", "STEEL_WING_FAST"],
       "cinematicMoves": ["TWISTER", "AERIAL_ACE", "AIR_CUTTER"],
@@ -8445,9 +8445,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 166,
-        "baseAttack": 166,
-        "baseDefense": 157
+        "baseStamina": 190,
+        "baseAttack": 181,
+        "baseDefense": 155
       },
       "quickMoves": ["AIR_SLASH_FAST", "STEEL_WING_FAST"],
       "cinematicMoves": ["HURRICANE", "AERIAL_ACE", "BRAVE_BIRD"],
@@ -8494,9 +8494,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 60,
-        "baseAttack": 103,
-        "baseDefense": 70
+        "baseStamina": 126,
+        "baseAttack": 123,
+        "baseDefense": 77
       },
       "quickMoves": ["TACKLE_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["DIG", "HYPER_FANG", "BODY_SLAM"],
@@ -8567,9 +8567,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 161,
-        "baseDefense": 144
+        "baseStamina": 156,
+        "baseAttack": 176,
+        "baseDefense": 140
       },
       "quickMoves": ["BITE_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["DIG", "HYPER_FANG", "HYPER_BEAM"],
@@ -8634,9 +8634,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 112,
-        "baseDefense": 61
+        "baseStamina": 138,
+        "baseAttack": 128,
+        "baseDefense": 68
       },
       "quickMoves": ["PECK_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["AERIAL_ACE", "DRILL_PECK", "SKY_ATTACK"],
@@ -8710,9 +8710,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 182,
-        "baseDefense": 135
+        "baseStamina": 168,
+        "baseAttack": 191,
+        "baseDefense": 136
       },
       "quickMoves": ["PECK_FAST", "STEEL_WING_FAST"],
       "cinematicMoves": ["AERIAL_ACE", "DRILL_RUN", "SKY_ATTACK"],
@@ -8759,9 +8759,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 110,
-        "baseDefense": 102
+        "baseStamina": 132,
+        "baseAttack": 120,
+        "baseDefense": 104
       },
       "quickMoves": ["POISON_STING_FAST", "ACID_FAST"],
       "cinematicMoves": ["WRAP", "POISON_FANG", "SLUDGE_BOMB"],
@@ -8832,9 +8832,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 167,
-        "baseDefense": 158
+        "baseStamina": 162,
+        "baseAttack": 172,
+        "baseDefense": 156
       },
       "quickMoves": ["BITE_FAST", "ACID_FAST"],
       "cinematicMoves": ["DARK_PULSE", "SLUDGE_WAVE", "GUNK_SHOT"],
@@ -8881,9 +8881,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 112,
-        "baseDefense": 101
+        "baseStamina": 132,
+        "baseAttack": 139,
+        "baseDefense": 99
       },
       "quickMoves": ["THUNDER_SHOCK_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["DISCHARGE", "THUNDERBOLT", "WILD_CHARGE"],
@@ -8956,9 +8956,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 193,
-        "baseDefense": 165
+        "baseStamina": 162,
+        "baseAttack": 203,
+        "baseDefense": 146
       },
       "quickMoves": ["VOLT_SWITCH_FAST", "SPARK_FAST"],
       "cinematicMoves": ["BRICK_BREAK", "THUNDER_PUNCH", "WILD_CHARGE"],
@@ -9004,9 +9004,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 126,
-        "baseDefense": 145
+        "baseStamina": 150,
+        "baseAttack": 123,
+        "baseDefense": 119
       },
       "quickMoves": ["SCRATCH_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["DIG", "ROCK_SLIDE", "SAND_TOMB"],
@@ -9077,9 +9077,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 182,
-        "baseDefense": 202
+        "baseStamina": 180,
+        "baseAttack": 176,
+        "baseDefense": 172
       },
       "quickMoves": ["METAL_CLAW_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["EARTHQUAKE", "ROCK_TOMB", "BULLDOZE"],
@@ -9125,9 +9125,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 86,
-        "baseDefense": 94
+        "baseStamina": 156,
+        "baseAttack": 94,
+        "baseDefense": 96
       },
       "quickMoves": ["BITE_FAST", "POISON_STING_FAST"],
       "cinematicMoves": ["POISON_FANG", "BODY_SLAM", "SLUDGE_BOMB"],
@@ -9198,9 +9198,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 117,
-        "baseDefense": 126
+        "baseStamina": 174,
+        "baseAttack": 125,
+        "baseDefense": 128
       },
       "quickMoves": ["BITE_FAST", "POISON_STING_FAST"],
       "cinematicMoves": ["POISON_FANG", "DIG", "SLUDGE_BOMB"],
@@ -9273,9 +9273,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 180,
-        "baseDefense": 174
+        "baseStamina": 198,
+        "baseAttack": 179,
+        "baseDefense": 180
       },
       "quickMoves": ["POISON_JAB_FAST", "BITE_FAST"],
       "cinematicMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "STONE_EDGE"],
@@ -9340,9 +9340,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 92,
-        "baseAttack": 105,
-        "baseDefense": 76
+        "baseStamina": 145,
+        "baseAttack": 112,
+        "baseDefense": 85
       },
       "quickMoves": ["PECK_FAST", "POISON_STING_FAST"],
       "cinematicMoves": ["HORN_ATTACK", "BODY_SLAM", "SLUDGE_BOMB"],
@@ -9413,9 +9413,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 122,
-        "baseAttack": 137,
-        "baseDefense": 112
+        "baseStamina": 163,
+        "baseAttack": 144,
+        "baseDefense": 119
       },
       "quickMoves": ["POISON_JAB_FAST", "POISON_STING_FAST"],
       "cinematicMoves": ["HORN_ATTACK", "DIG", "SLUDGE_BOMB"],
@@ -9488,9 +9488,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 162,
-        "baseAttack": 204,
-        "baseDefense": 157
+        "baseStamina": 187,
+        "baseAttack": 200,
+        "baseDefense": 161
       },
       "quickMoves": ["POISON_JAB_FAST", "IRON_TAIL_FAST"],
       "cinematicMoves": ["EARTHQUAKE", "SLUDGE_WAVE", "MEGAHORN"],
@@ -9555,9 +9555,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 107,
-        "baseDefense": 116
+        "baseStamina": 174,
+        "baseAttack": 106,
+        "baseDefense": 117
       },
       "quickMoves": ["POUND_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["DISARMING_VOICE", "BODY_SLAM", "MOONBLAST"],
@@ -9629,9 +9629,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 190,
-        "baseAttack": 178,
-        "baseDefense": 171
+        "baseStamina": 204,
+        "baseAttack": 171,
+        "baseDefense": 169
       },
       "quickMoves": ["CHARGE_BEAM_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["DAZZLING_GLEAM", "PSYCHIC", "MOONBLAST"],
@@ -9678,9 +9678,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 76,
-        "baseAttack": 96,
-        "baseDefense": 122
+        "baseStamina": 136,
+        "baseAttack": 114,
+        "baseDefense": 112
       },
       "quickMoves": ["QUICK_ATTACK_FAST", "EMBER_FAST"],
       "cinematicMoves": ["BODY_SLAM", "FLAMETHROWER", "FLAME_CHARGE"],
@@ -9751,9 +9751,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 146,
-        "baseAttack": 169,
-        "baseDefense": 204
+        "baseStamina": 178,
+        "baseAttack": 183,
+        "baseDefense": 185
       },
       "quickMoves": ["FEINT_ATTACK_FAST", "FIRE_SPIN_FAST"],
       "cinematicMoves": ["HEAT_WAVE", "OVERHEAT", "SOLAR_BEAM"],
@@ -9819,9 +9819,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 230,
-        "baseAttack": 80,
-        "baseDefense": 44
+        "baseStamina": 228,
+        "baseAttack": 77,
+        "baseDefense": 47
       },
       "quickMoves": ["POUND_FAST", "FEINT_ATTACK_FAST"],
       "cinematicMoves": ["DISARMING_VOICE", "GYRO_BALL", "DAZZLING_GLEAM"],
@@ -9894,9 +9894,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 280,
-        "baseAttack": 156,
-        "baseDefense": 93
+        "baseStamina": 258,
+        "baseAttack": 148,
+        "baseDefense": 100
       },
       "quickMoves": ["POUND_FAST", "FEINT_ATTACK_FAST"],
       "cinematicMoves": ["DAZZLING_GLEAM", "HYPER_BEAM", "PLAY_ROUGH"],
@@ -9945,9 +9945,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 83,
-        "baseDefense": 76
+        "baseStamina": 138,
+        "baseAttack": 99,
+        "baseDefense": 81
       },
       "quickMoves": ["QUICK_ATTACK_FAST", "BITE_FAST"],
       "cinematicMoves": ["POISON_FANG", "AIR_CUTTER", "SWIFT"],
@@ -10021,9 +10021,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 161,
-        "baseDefense": 153
+        "baseStamina": 180,
+        "baseAttack": 172,
+        "baseDefense": 154
       },
       "quickMoves": ["WING_ATTACK_FAST", "BITE_FAST"],
       "cinematicMoves": ["SHADOW_BALL", "AIR_CUTTER", "POISON_FANG"],
@@ -10075,9 +10075,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 131,
-        "baseDefense": 116
+        "baseStamina": 144,
+        "baseAttack": 122,
+        "baseDefense": 123
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "ACID_FAST"],
       "cinematicMoves": ["SEED_BOMB", "SLUDGE_BOMB", "MOONBLAST"],
@@ -10131,9 +10131,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 153,
-        "baseDefense": 139
+        "baseStamina": 162,
+        "baseAttack": 144,
+        "baseDefense": 149
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "ACID_FAST"],
       "cinematicMoves": ["PETAL_BLIZZARD", "SLUDGE_BOMB", "MOONBLAST"],
@@ -10210,9 +10210,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 202,
-        "baseDefense": 170
+        "baseStamina": 180,
+        "baseAttack": 184,
+        "baseDefense": 180
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "ACID_FAST"],
       "cinematicMoves": ["PETAL_BLIZZARD", "SOLAR_BEAM", "MOONBLAST"],
@@ -10278,9 +10278,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 121,
-        "baseDefense": 99
+        "baseStamina": 132,
+        "baseAttack": 112,
+        "baseDefense": 113
       },
       "quickMoves": ["SCRATCH_FAST", "BUG_BITE_FAST"],
       "cinematicMoves": ["CROSS_POISON", "X_SCISSOR", "SEED_BOMB"],
@@ -10352,9 +10352,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 165,
-        "baseDefense": 146
+        "baseStamina": 162,
+        "baseAttack": 148,
+        "baseDefense": 163
       },
       "quickMoves": ["STRUGGLE_BUG_FAST", "FURY_CUTTER_FAST"],
       "cinematicMoves": ["CROSS_POISON", "X_SCISSOR", "SOLAR_BEAM"],
@@ -10420,9 +10420,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 100,
-        "baseDefense": 102
+        "baseStamina": 162,
+        "baseAttack": 106,
+        "baseDefense": 110
       },
       "quickMoves": ["BUG_BITE_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["POISON_FANG", "PSYBEAM", "SIGNAL_BEAM"],
@@ -10495,9 +10495,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 179,
-        "baseDefense": 150
+        "baseStamina": 174,
+        "baseAttack": 185,
+        "baseDefense": 144
       },
       "quickMoves": ["INFESTATION_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["SILVER_WIND", "PSYCHIC", "BUG_BUZZ"],
@@ -10559,9 +10559,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 20,
-        "baseAttack": 109,
-        "baseDefense": 88
+        "baseStamina": 102,
+        "baseAttack": 141,
+        "baseDefense": 80
       },
       "quickMoves": ["MUD_SLAP_FAST", "SCRATCH_FAST"],
       "cinematicMoves": ["DIG", "MUD_BOMB", "ROCK_TOMB"],
@@ -10629,9 +10629,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 167,
-        "baseDefense": 147
+        "baseStamina": 132,
+        "baseAttack": 191,
+        "baseDefense": 132
       },
       "quickMoves": ["SUCKER_PUNCH_FAST", "MUD_SLAP_FAST"],
       "cinematicMoves": ["EARTHQUAKE", "MUD_BOMB", "STONE_EDGE"],
@@ -10678,9 +10678,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 92,
-        "baseDefense": 81
+        "baseStamina": 138,
+        "baseAttack": 125,
+        "baseDefense": 84
       },
       "quickMoves": ["SCRATCH_FAST", "BITE_FAST"],
       "cinematicMoves": ["NIGHT_SLASH", "DARK_PULSE", "FOUL_PLAY"],
@@ -10751,9 +10751,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 150,
-        "baseDefense": 139
+        "baseStamina": 168,
+        "baseAttack": 178,
+        "baseDefense": 137
       },
       "quickMoves": ["SCRATCH_FAST", "FEINT_ATTACK_FAST"],
       "cinematicMoves": ["FOUL_PLAY", "POWER_GEM", "PLAY_ROUGH"],
@@ -10817,9 +10817,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 122,
-        "baseDefense": 96
+        "baseStamina": 150,
+        "baseAttack": 128,
+        "baseDefense": 104
       },
       "quickMoves": ["WATER_GUN_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["PSYBEAM", "AQUA_TAIL", "CROSS_CHOP"],
@@ -10872,9 +10872,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
+        "baseStamina": 186,
         "baseAttack": 191,
-        "baseDefense": 163
+        "baseDefense": 167
       },
       "quickMoves": ["WATER_GUN_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["PSYCHIC", "HYDRO_PUMP", "ICE_BEAM"],
@@ -10939,8 +10939,8 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 148,
+        "baseStamina": 138,
+        "baseAttack": 153,
         "baseDefense": 87
       },
       "quickMoves": ["KARATE_CHOP_FAST", "SCRATCH_FAST"],
@@ -11012,9 +11012,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 207,
-        "baseDefense": 144
+        "baseStamina": 168,
+        "baseAttack": 206,
+        "baseDefense": 140
       },
       "quickMoves": ["LOW_KICK_FAST", "COUNTER_FAST"],
       "cinematicMoves": ["CLOSE_COMBAT", "LOW_SWEEP", "NIGHT_SLASH"],
@@ -11079,9 +11079,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 136,
-        "baseDefense": 96
+        "baseStamina": 156,
+        "baseAttack": 140,
+        "baseDefense": 101
       },
       "quickMoves": ["EMBER_FAST", "BITE_FAST"],
       "cinematicMoves": ["FLAME_WHEEL", "BODY_SLAM", "FLAMETHROWER"],
@@ -11152,9 +11152,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 227,
-        "baseDefense": 166
+        "baseStamina": 198,
+        "baseAttack": 219,
+        "baseDefense": 170
       },
       "quickMoves": ["FIRE_FANG_FAST", "SNARL_FAST"],
       "cinematicMoves": ["FIRE_BLAST", "WILD_CHARGE", "CRUNCH"],
@@ -11219,9 +11219,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 101,
-        "baseDefense": 82
+        "baseStamina": 138,
+        "baseAttack": 131,
+        "baseDefense": 89
       },
       "quickMoves": ["BUBBLE_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["BUBBLE_BEAM", "MUD_BOMB", "BODY_SLAM"],
@@ -11274,9 +11274,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 130,
-        "baseDefense": 130
+        "baseStamina": 168,
+        "baseAttack": 151,
+        "baseDefense": 124
       },
       "quickMoves": ["BUBBLE_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["WATER_PULSE", "MUD_BOMB", "BUBBLE_BEAM"],
@@ -11354,9 +11354,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 182,
-        "baseDefense": 187
+        "baseStamina": 198,
+        "baseAttack": 178,
+        "baseDefense": 192
       },
       "quickMoves": ["BUBBLE_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "DYNAMIC_PUNCH", "ICE_PUNCH"],
@@ -11422,9 +11422,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 50,
+        "baseStamina": 120,
         "baseAttack": 195,
-        "baseDefense": 103
+        "baseDefense": 79
       },
       "quickMoves": ["ZEN_HEADBUTT_FAST", "CHARGE_BEAM_FAST"],
       "cinematicMoves": ["PSYSHOCK", "SIGNAL_BEAM", "SHADOW_BALL"],
@@ -11495,9 +11495,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 232,
-        "baseDefense": 138
+        "baseStamina": 138,
+        "baseAttack": 227,
+        "baseDefense": 111
       },
       "quickMoves": ["PSYCHO_CUT_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["PSYBEAM", "DAZZLING_GLEAM", "SHADOW_BALL"],
@@ -11570,9 +11570,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 271,
-        "baseDefense": 194
+        "baseStamina": 156,
+        "baseAttack": 258,
+        "baseDefense": 152
       },
       "quickMoves": ["PSYCHO_CUT_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["FUTURESIGHT", "FOCUS_BLAST", "SHADOW_BALL"],
@@ -11637,9 +11637,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 137,
-        "baseDefense": 88
+        "baseStamina": 174,
+        "baseAttack": 129,
+        "baseDefense": 89
       },
       "quickMoves": ["ROCK_SMASH_FAST", "KARATE_CHOP_FAST"],
       "cinematicMoves": ["LOW_SWEEP", "BRICK_BREAK", "CROSS_CHOP"],
@@ -11710,9 +11710,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 177,
-        "baseDefense": 130
+        "baseStamina": 186,
+        "baseAttack": 163,
+        "baseDefense": 135
       },
       "quickMoves": ["LOW_KICK_FAST", "KARATE_CHOP_FAST"],
       "cinematicMoves": ["SUBMISSION", "BRICK_BREAK", "DYNAMIC_PUNCH"],
@@ -11767,9 +11767,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 234,
-        "baseDefense": 162
+        "baseStamina": 198,
+        "baseAttack": 210,
+        "baseDefense": 171
       },
       "quickMoves": ["BULLET_PUNCH_FAST", "COUNTER_FAST"],
       "cinematicMoves": ["HEAVY_SLAM", "DYNAMIC_PUNCH", "CLOSE_COMBAT"],
@@ -11835,9 +11835,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 139,
-        "baseDefense": 64
+        "baseStamina": 150,
+        "baseAttack": 132,
+        "baseDefense": 69
       },
       "quickMoves": ["VINE_WHIP_FAST", "ACID_FAST"],
       "cinematicMoves": ["POWER_WHIP", "SLUDGE_BOMB", "WRAP"],
@@ -11910,9 +11910,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 172,
-        "baseDefense": 95
+        "baseStamina": 168,
+        "baseAttack": 164,
+        "baseDefense": 101
       },
       "quickMoves": ["BULLET_SEED_FAST", "ACID_FAST"],
       "cinematicMoves": ["POWER_WHIP", "SLUDGE_BOMB", "SEED_BOMB"],
@@ -11969,9 +11969,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 207,
-        "baseDefense": 138
+        "baseStamina": 186,
+        "baseAttack": 195,
+        "baseDefense": 142
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "ACID_FAST"],
       "cinematicMoves": ["LEAF_BLADE", "SLUDGE_BOMB", "SOLAR_BEAM"],
@@ -12038,9 +12038,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 97,
-        "baseDefense": 182
+        "baseStamina": 138,
+        "baseAttack": 117,
+        "baseDefense": 142
       },
       "quickMoves": ["BUBBLE_FAST", "POISON_STING_FAST"],
       "cinematicMoves": ["BUBBLE_BEAM", "WATER_PULSE", "WRAP"],
@@ -12095,9 +12095,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 166,
-        "baseDefense": 237
+        "baseStamina": 186,
+        "baseAttack": 180,
+        "baseDefense": 195
       },
       "quickMoves": ["ACID_FAST", "POISON_JAB_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "SLUDGE_WAVE", "BLIZZARD"],
@@ -12164,9 +12164,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 132,
-        "baseDefense": 163
+        "baseStamina": 138,
+        "baseAttack": 117,
+        "baseDefense": 132
       },
       "quickMoves": ["ROCK_THROW_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["ROCK_SLIDE", "ROCK_TOMB", "DIG"],
@@ -12239,9 +12239,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 164,
-        "baseDefense": 196
+        "baseStamina": 156,
+        "baseAttack": 149,
+        "baseDefense": 164
       },
       "quickMoves": ["ROCK_THROW_FAST", "MUD_SLAP_FAST"],
       "cinematicMoves": ["DIG", "STONE_EDGE", "ROCK_BLAST"],
@@ -12297,9 +12297,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 211,
-        "baseDefense": 229
+        "baseStamina": 186,
+        "baseAttack": 189,
+        "baseDefense": 200
       },
       "quickMoves": ["ROCK_THROW_FAST", "MUD_SLAP_FAST"],
       "cinematicMoves": ["STONE_EDGE", "ROCK_BLAST", "EARTHQUAKE"],
@@ -12364,9 +12364,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 170,
-        "baseDefense": 132
+        "baseStamina": 150,
+        "baseAttack": 179,
+        "baseDefense": 129
       },
       "quickMoves": ["TACKLE_FAST", "EMBER_FAST"],
       "cinematicMoves": ["FLAME_CHARGE", "FLAME_WHEEL", "STOMP"],
@@ -12437,9 +12437,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 207,
-        "baseDefense": 167
+        "baseStamina": 168,
+        "baseAttack": 211,
+        "baseDefense": 161
       },
       "quickMoves": ["LOW_KICK_FAST", "FIRE_SPIN_FAST"],
       "cinematicMoves": ["FIRE_BLAST", "DRILL_RUN", "HEAT_WAVE"],
@@ -12505,9 +12505,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 109,
-        "baseDefense": 109
+        "baseStamina": 198,
+        "baseAttack": 98,
+        "baseDefense": 107
       },
       "quickMoves": ["WATER_GUN_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["WATER_PULSE", "PSYSHOCK", "PSYCHIC"],
@@ -12583,9 +12583,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 190,
-        "baseAttack": 177,
-        "baseDefense": 194
+        "baseStamina": 204,
+        "baseAttack": 157,
+        "baseDefense": 193
       },
       "quickMoves": ["WATER_GUN_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["WATER_PULSE", "PSYCHIC", "ICE_BEAM"],
@@ -12634,9 +12634,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 50,
-        "baseAttack": 165,
-        "baseDefense": 128
+        "baseStamina": 120,
+        "baseAttack": 155,
+        "baseDefense": 130
       },
       "quickMoves": ["SPARK_FAST", "THUNDER_SHOCK_FAST"],
       "cinematicMoves": ["DISCHARGE", "MAGNET_BOMB", "THUNDERBOLT"],
@@ -12710,9 +12710,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 223,
-        "baseDefense": 182
+        "baseStamina": 150,
+        "baseAttack": 207,
+        "baseDefense": 172
       },
       "quickMoves": ["SPARK_FAST", "CHARGE_BEAM_FAST"],
       "cinematicMoves": ["ZAP_CANNON", "MAGNET_BOMB", "FLASH_CANNON"],
@@ -12778,9 +12778,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 104,
-        "baseAttack": 124,
-        "baseDefense": 118
+        "baseStamina": 152,
+        "baseAttack": 132,
+        "baseDefense": 123
       },
       "quickMoves": ["AIR_SLASH_FAST", "FURY_CUTTER_FAST"],
       "cinematicMoves": ["AERIAL_ACE", "AIR_CUTTER", "LEAF_BLADE"],
@@ -12844,8 +12844,8 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 158,
+        "baseStamina": 132,
+        "baseAttack": 163,
         "baseDefense": 88
       },
       "quickMoves": ["PECK_FAST", "QUICK_ATTACK_FAST"],
@@ -12919,9 +12919,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 218,
-        "baseDefense": 145
+        "baseStamina": 162,
+        "baseAttack": 215,
+        "baseDefense": 140
       },
       "quickMoves": ["FEINT_ATTACK_FAST", "STEEL_WING_FAST"],
       "cinematicMoves": ["DRILL_PECK", "AERIAL_ACE", "BRAVE_BIRD"],
@@ -12986,9 +12986,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 85,
-        "baseDefense": 128
+        "baseStamina": 168,
+        "baseAttack": 95,
+        "baseDefense": 130
       },
       "quickMoves": ["ICE_SHARD_FAST", "LICK_FAST"],
       "cinematicMoves": ["AURORA_BEAM", "ICY_WIND", "AQUA_TAIL"],
@@ -13061,9 +13061,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 139,
-        "baseDefense": 184
+        "baseStamina": 198,
+        "baseAttack": 147,
+        "baseDefense": 182
       },
       "quickMoves": ["FROST_BREATH_FAST", "IRON_TAIL_FAST"],
       "cinematicMoves": ["AURORA_BEAM", "WATER_PULSE", "BLIZZARD"],
@@ -13127,9 +13127,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 135,
-        "baseDefense": 90
+        "baseStamina": 186,
+        "baseAttack": 123,
+        "baseDefense": 103
       },
       "quickMoves": ["POISON_JAB_FAST", "MUD_SLAP_FAST"],
       "cinematicMoves": ["SLUDGE", "MUD_BOMB", "SLUDGE_BOMB"],
@@ -13201,9 +13201,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 210,
-        "baseAttack": 190,
-        "baseDefense": 184
+        "baseStamina": 216,
+        "baseAttack": 175,
+        "baseDefense": 180
       },
       "quickMoves": ["INFESTATION_FAST", "POISON_JAB_FAST"],
       "cinematicMoves": ["DARK_PULSE", "GUNK_SHOT", "SLUDGE_WAVE"],
@@ -13268,9 +13268,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 60,
+        "baseStamina": 126,
         "baseAttack": 116,
-        "baseDefense": 168
+        "baseDefense": 129
       },
       "quickMoves": ["ICE_SHARD_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["BUBBLE_BEAM", "WATER_PULSE", "ICY_WIND"],
@@ -13343,9 +13343,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 186,
-        "baseDefense": 323
+        "baseStamina": 150,
+        "baseAttack": 180,
+        "baseDefense": 232
       },
       "quickMoves": ["FROST_BREATH_FAST", "ICE_SHARD_FAST"],
       "cinematicMoves": ["AURORA_BEAM", "HYDRO_PUMP", "AVALANCHE"],
@@ -13412,9 +13412,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 60,
-        "baseAttack": 186,
-        "baseDefense": 70
+        "baseStamina": 126,
+        "baseAttack": 185,
+        "baseDefense": 73
       },
       "quickMoves": ["LICK_FAST", "ASTONISH_FAST"],
       "cinematicMoves": ["NIGHT_SHADE", "DARK_PULSE", "SLUDGE_BOMB"],
@@ -13470,9 +13470,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 223,
-        "baseDefense": 112
+        "baseStamina": 144,
+        "baseAttack": 217,
+        "baseDefense": 110
       },
       "quickMoves": ["SHADOW_CLAW_FAST", "ASTONISH_FAST"],
       "cinematicMoves": ["SHADOW_PUNCH", "DARK_PULSE", "SLUDGE_BOMB"],
@@ -13546,9 +13546,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 261,
-        "baseDefense": 156
+        "baseStamina": 162,
+        "baseAttack": 248,
+        "baseDefense": 146
       },
       "quickMoves": ["SUCKER_PUNCH_FAST", "HEX_FAST"],
       "cinematicMoves": ["SHADOW_BALL", "FOCUS_BLAST", "SLUDGE_BOMB"],
@@ -13612,9 +13612,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 85,
-        "baseDefense": 288
+        "baseStamina": 132,
+        "baseAttack": 109,
+        "baseDefense": 212
       },
       "quickMoves": ["ROCK_THROW_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["SAND_TOMB", "STONE_EDGE", "HEAVY_SLAM"],
@@ -13683,9 +13683,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 89,
-        "baseDefense": 158
+        "baseStamina": 162,
+        "baseAttack": 95,
+        "baseDefense": 139
       },
       "quickMoves": ["POUND_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["PSYBEAM", "PSYSHOCK", "PSYCHIC"],
@@ -13739,9 +13739,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 170,
-        "baseAttack": 144,
-        "baseDefense": 215
+        "baseStamina": 192,
+        "baseAttack": 149,
+        "baseDefense": 192
       },
       "quickMoves": ["ZEN_HEADBUTT_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["FUTURESIGHT", "PSYCHIC", "FOCUS_BLAST"],
@@ -13788,9 +13788,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 60,
-        "baseAttack": 181,
-        "baseDefense": 156
+        "baseStamina": 126,
+        "baseAttack": 168,
+        "baseDefense": 120
       },
       "quickMoves": ["BUBBLE_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["VICE_GRIP", "BUBBLE_BEAM", "WATER_PULSE"],
@@ -13861,9 +13861,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 240,
-        "baseDefense": 214
+        "baseStamina": 156,
+        "baseAttack": 221,
+        "baseDefense": 173
       },
       "quickMoves": ["BUBBLE_FAST", "METAL_CLAW_FAST"],
       "cinematicMoves": ["VICE_GRIP", "X_SCISSOR", "WATER_PULSE"],
@@ -13928,9 +13928,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 109,
-        "baseDefense": 114
+        "baseStamina": 138,
+        "baseAttack": 143,
+        "baseDefense": 115
       },
       "quickMoves": ["SPARK_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["DISCHARGE", "THUNDERBOLT", "GYRO_BALL"],
@@ -14001,9 +14001,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 173,
-        "baseDefense": 179
+        "baseStamina": 162,
+        "baseAttack": 205,
+        "baseDefense": 164
       },
       "quickMoves": ["SPARK_FAST", "VOLT_SWITCH_FAST"],
       "cinematicMoves": ["DISCHARGE", "THUNDERBOLT", "HYPER_BEAM"],
@@ -14069,9 +14069,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 107,
-        "baseDefense": 140
+        "baseStamina": 162,
+        "baseAttack": 109,
+        "baseDefense": 129
       },
       "quickMoves": ["CONFUSION_FAST", "BULLET_SEED_FAST"],
       "cinematicMoves": ["SEED_BOMB", "PSYCHIC", "ANCIENT_POWER"],
@@ -14143,9 +14143,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 190,
-        "baseAttack": 233,
-        "baseDefense": 158
+        "baseStamina": 204,
+        "baseAttack": 209,
+        "baseDefense": 156
       },
       "quickMoves": ["BULLET_SEED_FAST", "EXTRASENSORY_FAST"],
       "cinematicMoves": ["SEED_BOMB", "PSYCHIC", "SOLAR_BEAM"],
@@ -14210,9 +14210,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 90,
-        "baseDefense": 165
+        "baseStamina": 150,
+        "baseAttack": 93,
+        "baseDefense": 149
       },
       "quickMoves": ["MUD_SLAP_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["BONE_CLUB", "DIG", "BULLDOZE"],
@@ -14283,9 +14283,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 144,
-        "baseDefense": 200
+        "baseStamina": 162,
+        "baseAttack": 139,
+        "baseDefense": 195
       },
       "quickMoves": ["MUD_SLAP_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["BONE_CLUB", "DIG", "EARTHQUAKE"],
@@ -14349,9 +14349,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 224,
-        "baseDefense": 211
+        "baseStamina": 150,
+        "baseAttack": 214,
+        "baseDefense": 172
       },
       "quickMoves": ["LOW_KICK_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["CLOSE_COMBAT", "LOW_SWEEP", "STONE_EDGE"],
@@ -14415,9 +14415,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 193,
-        "baseDefense": 212
+        "baseStamina": 150,
+        "baseAttack": 188,
+        "baseDefense": 197
       },
       "quickMoves": ["BULLET_PUNCH_FAST", "COUNTER_FAST"],
       "cinematicMoves": ["FIRE_PUNCH", "ICE_PUNCH", "THUNDER_PUNCH", "CLOSE_COMBAT"],
@@ -14481,9 +14481,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 108,
-        "baseDefense": 137
+        "baseStamina": 198,
+        "baseAttack": 104,
+        "baseDefense": 153
       },
       "quickMoves": ["LICK_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["HYPER_BEAM", "STOMP", "POWER_WHIP"],
@@ -14547,9 +14547,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 119,
-        "baseDefense": 164
+        "baseStamina": 138,
+        "baseAttack": 115,
+        "baseDefense": 144
       },
       "quickMoves": ["TACKLE_FAST", "INFESTATION_FAST"],
       "cinematicMoves": ["SLUDGE", "SLUDGE_BOMB", "DARK_PULSE"],
@@ -14604,9 +14604,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 174,
-        "baseDefense": 221
+        "baseStamina": 168,
+        "baseAttack": 167,
+        "baseDefense": 196
       },
       "quickMoves": ["TACKLE_FAST", "INFESTATION_FAST"],
       "cinematicMoves": ["SLUDGE_BOMB", "SHADOW_BALL", "DARK_PULSE"],
@@ -14672,9 +14672,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 140,
-        "baseDefense": 157
+        "baseStamina": 186,
+        "baseAttack": 127,
+        "baseDefense": 128
       },
       "quickMoves": ["MUD_SLAP_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["BULLDOZE", "HORN_ATTACK", "STOMP"],
@@ -14729,9 +14729,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 210,
-        "baseAttack": 222,
-        "baseDefense": 206
+        "baseStamina": 216,
+        "baseAttack": 195,
+        "baseDefense": 169
       },
       "quickMoves": ["MUD_SLAP_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["MEGAHORN", "EARTHQUAKE", "STONE_EDGE"],
@@ -14778,9 +14778,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 500,
-        "baseAttack": 60,
-        "baseDefense": 176
+        "baseStamina": 390,
+        "baseAttack": 79,
+        "baseDefense": 115
       },
       "quickMoves": ["POUND_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["PSYCHIC", "HYPER_BEAM", "DAZZLING_GLEAM"],
@@ -14849,9 +14849,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 183,
-        "baseDefense": 205
+        "baseStamina": 168,
+        "baseAttack": 174,
+        "baseDefense": 161
       },
       "quickMoves": ["VINE_WHIP_FAST", "INFESTATION_FAST"],
       "cinematicMoves": ["GRASS_KNOT", "SLUDGE_BOMB", "SOLAR_BEAM"],
@@ -14914,9 +14914,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 210,
-        "baseAttack": 181,
-        "baseDefense": 165
+        "baseStamina": 216,
+        "baseAttack": 186,
+        "baseDefense": 169
       },
       "quickMoves": ["MUD_SLAP_FAST", "LOW_KICK_FAST"],
       "cinematicMoves": ["CRUNCH", "EARTHQUAKE", "OUTRAGE"],
@@ -14981,9 +14981,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 60,
-        "baseAttack": 129,
-        "baseDefense": 125
+        "baseStamina": 126,
+        "baseAttack": 135,
+        "baseDefense": 101
       },
       "quickMoves": ["WATER_GUN_FAST", "BUBBLE_FAST"],
       "cinematicMoves": ["BUBBLE_BEAM", "DRAGON_PULSE", "FLASH_CANNON"],
@@ -15055,9 +15055,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 187,
-        "baseDefense": 182
+        "baseStamina": 156,
+        "baseAttack": 188,
+        "baseDefense": 149
       },
       "quickMoves": ["WATER_GUN_FAST", "DRAGON_BREATH_FAST"],
       "cinematicMoves": ["AURORA_BEAM", "DRAGON_PULSE", "HYDRO_PUMP"],
@@ -15127,9 +15127,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 123,
-        "baseDefense": 115
+        "baseStamina": 144,
+        "baseAttack": 132,
+        "baseDefense": 116
       },
       "quickMoves": ["PECK_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["WATER_PULSE", "HORN_ATTACK", "AQUA_TAIL"],
@@ -15183,9 +15183,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 175,
-        "baseDefense": 154
+        "baseStamina": 186,
+        "baseAttack": 172,
+        "baseDefense": 152
       },
       "quickMoves": ["PECK_FAST", "POISON_JAB_FAST"],
       "cinematicMoves": ["ICE_BEAM", "WATER_PULSE", "MEGAHORN"],
@@ -15232,9 +15232,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 60,
-        "baseAttack": 137,
-        "baseDefense": 112
+        "baseStamina": 126,
+        "baseAttack": 154,
+        "baseDefense": 119
       },
       "quickMoves": ["TACKLE_FAST", "WATER_GUN_FAST"],
       "cinematicMoves": ["SWIFT", "BUBBLE_BEAM", "POWER_GEM"],
@@ -15306,9 +15306,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 210,
-        "baseDefense": 184
+        "baseStamina": 162,
+        "baseAttack": 217,
+        "baseDefense": 182
       },
       "quickMoves": ["HIDDEN_POWER_FAST", "WATER_GUN_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "POWER_GEM", "PSYCHIC"],
@@ -15374,9 +15374,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 192,
-        "baseDefense": 233
+        "baseStamina": 138,
+        "baseAttack": 193,
+        "baseDefense": 194
       },
       "quickMoves": ["CONFUSION_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["PSYBEAM", "PSYCHIC", "SHADOW_BALL"],
@@ -15441,9 +15441,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
+        "baseStamina": 174,
         "baseAttack": 218,
-        "baseDefense": 170
+        "baseDefense": 171
       },
       "quickMoves": ["FURY_CUTTER_FAST", "AIR_SLASH_FAST"],
       "cinematicMoves": ["NIGHT_SLASH", "X_SCISSOR", "AERIAL_ACE"],
@@ -15495,9 +15495,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 223,
-        "baseDefense": 182
+        "baseStamina": 168,
+        "baseAttack": 217,
+        "baseDefense": 140
       },
       "quickMoves": ["FROST_BREATH_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["DRAINING_KISS", "AVALANCHE", "PSYSHOCK"],
@@ -15562,9 +15562,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 198,
-        "baseDefense": 173
+        "baseStamina": 168,
+        "baseAttack": 205,
+        "baseDefense": 153
       },
       "quickMoves": ["THUNDER_SHOCK_FAST", "LOW_KICK_FAST"],
       "cinematicMoves": ["THUNDER_PUNCH", "THUNDERBOLT", "THUNDER"],
@@ -15628,9 +15628,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 206,
-        "baseDefense": 169
+        "baseStamina": 168,
+        "baseAttack": 204,
+        "baseDefense": 151
       },
       "quickMoves": ["EMBER_FAST", "KARATE_CHOP_FAST"],
       "cinematicMoves": ["FIRE_BLAST", "FIRE_PUNCH", "FLAMETHROWER"],
@@ -15695,9 +15695,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 238,
-        "baseDefense": 197
+        "baseStamina": 168,
+        "baseAttack": 223,
+        "baseDefense": 179
       },
       "quickMoves": ["ROCK_SMASH_FAST", "BUG_BITE_FAST"],
       "cinematicMoves": ["VICE_GRIP", "X_SCISSOR", "CLOSE_COMBAT"],
@@ -15743,9 +15743,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 198,
-        "baseDefense": 197
+        "baseStamina": 180,
+        "baseAttack": 207,
+        "baseDefense": 176
       },
       "quickMoves": ["TACKLE_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["HORN_ATTACK", "IRON_HEAD", "EARTHQUAKE"],
@@ -15808,9 +15808,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 40,
-        "baseAttack": 29,
-        "baseDefense": 102
+        "baseStamina": 114,
+        "baseAttack": 76,
+        "baseDefense": 83
       },
       "quickMoves": ["SPLASH_FAST"],
       "cinematicMoves": ["STRUGGLE"],
@@ -15863,9 +15863,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 190,
-        "baseAttack": 237,
-        "baseDefense": 197
+        "baseStamina": 204,
+        "baseAttack": 221,
+        "baseDefense": 187
       },
       "quickMoves": ["BITE_FAST", "DRAGON_TAIL_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "CRUNCH", "OUTRAGE"],
@@ -15931,9 +15931,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 260,
-        "baseAttack": 165,
-        "baseDefense": 180
+        "baseStamina": 246,
+        "baseAttack": 161,
+        "baseDefense": 181
       },
       "quickMoves": ["FROST_BREATH_FAST", "WATER_GUN_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "ICE_BEAM", "BLIZZARD"],
@@ -15996,9 +15996,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 96,
-        "baseAttack": 91,
-        "baseDefense": 91
+        "baseStamina": 148,
+        "baseAttack": 101,
+        "baseDefense": 101
       },
       "quickMoves": ["TRANSFORM_FAST"],
       "cinematicMoves": ["STRUGGLE"],
@@ -16059,8 +16059,8 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 104,
+        "baseStamina": 156,
+        "baseAttack": 114,
         "baseDefense": 121
       },
       "quickMoves": ["QUICK_ATTACK_FAST", "TACKLE_FAST"],
@@ -16145,9 +16145,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 260,
-        "baseAttack": 205,
-        "baseDefense": 177
+        "baseStamina": 246,
+        "baseAttack": 192,
+        "baseDefense": 162
       },
       "quickMoves": ["WATER_GUN_FAST"],
       "cinematicMoves": ["WATER_PULSE", "HYDRO_PUMP", "AQUA_TAIL"],
@@ -16213,9 +16213,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 232,
-        "baseDefense": 201
+        "baseStamina": 168,
+        "baseAttack": 237,
+        "baseDefense": 168
       },
       "quickMoves": ["THUNDER_SHOCK_FAST", "VOLT_SWITCH_FAST"],
       "cinematicMoves": ["DISCHARGE", "THUNDERBOLT", "THUNDER"],
@@ -16281,9 +16281,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 246,
-        "baseDefense": 204
+        "baseStamina": 168,
+        "baseAttack": 222,
+        "baseDefense": 177
       },
       "quickMoves": ["EMBER_FAST", "FIRE_SPIN_FAST"],
       "cinematicMoves": ["FIRE_BLAST", "FLAMETHROWER", "OVERHEAT"],
@@ -16348,9 +16348,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 153,
-        "baseDefense": 139
+        "baseStamina": 168,
+        "baseAttack": 143,
+        "baseDefense": 149
       },
       "quickMoves": ["CHARGE_BEAM_FAST", "HIDDEN_POWER_FAST"],
       "cinematicMoves": ["SOLAR_BEAM", "HYPER_BEAM", "ZAP_CANNON"],
@@ -16402,9 +16402,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 155,
-        "baseDefense": 174
+        "baseStamina": 132,
+        "baseAttack": 142,
+        "baseDefense": 159
       },
       "quickMoves": ["WATER_GUN_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "BUBBLE_BEAM", "ROCK_BLAST"],
@@ -16458,9 +16458,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 207,
-        "baseDefense": 227
+        "baseStamina": 174,
+        "baseAttack": 190,
+        "baseDefense": 201
       },
       "quickMoves": ["MUD_SHOT_FAST", "WATER_GUN_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "HYDRO_PUMP", "ROCK_BLAST"],
@@ -16508,9 +16508,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 60,
-        "baseAttack": 148,
-        "baseDefense": 162
+        "baseStamina": 126,
+        "baseAttack": 147,
+        "baseDefense": 141
       },
       "quickMoves": ["SCRATCH_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "AQUA_JET", "ROCK_TOMB"],
@@ -16564,9 +16564,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 220,
-        "baseDefense": 203
+        "baseStamina": 162,
+        "baseAttack": 208,
+        "baseDefense": 183
       },
       "quickMoves": ["MUD_SHOT_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "WATER_PULSE", "STONE_EDGE"],
@@ -16615,9 +16615,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 221,
-        "baseDefense": 164
+        "baseStamina": 186,
+        "baseAttack": 230,
+        "baseDefense": 153
       },
       "quickMoves": ["STEEL_WING_FAST", "BITE_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "IRON_HEAD", "HYPER_BEAM"],
@@ -16663,9 +16663,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 320,
-        "baseAttack": 190,
-        "baseDefense": 190
+        "baseStamina": 282,
+        "baseAttack": 167,
+        "baseDefense": 178
       },
       "quickMoves": ["ZEN_HEADBUTT_FAST", "LICK_FAST"],
       "cinematicMoves": ["HEAVY_SLAM", "HYPER_BEAM", "EARTHQUAKE"],
@@ -16712,9 +16712,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 192,
-        "baseDefense": 249
+        "baseStamina": 198,
+        "baseAttack": 191,
+        "baseDefense": 234
       },
       "quickMoves": ["FROST_BREATH_FAST"],
       "cinematicMoves": ["ICE_BEAM", "ICY_WIND", "BLIZZARD"],
@@ -16762,9 +16762,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 253,
-        "baseDefense": 188
+        "baseStamina": 198,
+        "baseAttack": 239,
+        "baseDefense": 185
       },
       "quickMoves": ["CHARGE_BEAM_FAST"],
       "cinematicMoves": ["ZAP_CANNON", "THUNDERBOLT", "THUNDER"],
@@ -16812,8 +16812,8 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 251,
+        "baseStamina": 198,
+        "baseAttack": 234,
         "baseDefense": 184
       },
       "quickMoves": ["FIRE_SPIN_FAST"],
@@ -16861,9 +16861,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 82,
-        "baseAttack": 119,
-        "baseDefense": 94
+        "baseStamina": 139,
+        "baseAttack": 122,
+        "baseDefense": 100
       },
       "quickMoves": ["DRAGON_BREATH_FAST", "IRON_TAIL_FAST"],
       "cinematicMoves": ["WRAP", "TWISTER", "AQUA_TAIL"],
@@ -16916,9 +16916,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 122,
-        "baseAttack": 163,
-        "baseDefense": 138
+        "baseStamina": 163,
+        "baseAttack": 164,
+        "baseDefense": 142
       },
       "quickMoves": ["DRAGON_BREATH_FAST", "IRON_TAIL_FAST"],
       "cinematicMoves": ["WRAP", "AQUA_TAIL", "DRAGON_PULSE"],
@@ -16975,9 +16975,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 182,
-        "baseAttack": 263,
-        "baseDefense": 201
+        "baseStamina": 199,
+        "baseAttack": 238,
+        "baseDefense": 203
       },
       "quickMoves": ["DRAGON_TAIL_FAST", "STEEL_WING_FAST"],
       "cinematicMoves": ["HURRICANE", "HYPER_BEAM", "OUTRAGE"],
@@ -17023,9 +17023,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 212,
-        "baseAttack": 330,
-        "baseDefense": 200
+        "baseStamina": 217,
+        "baseAttack": 299,
+        "baseDefense": 193
       },
       "quickMoves": ["PSYCHO_CUT_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["PSYCHIC", "SHADOW_BALL", "HYPER_BEAM", "FOCUS_BLAST"],
@@ -17072,7 +17072,7 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 200,
+        "baseStamina": 210,
         "baseAttack": 210,
         "baseDefense": 210
       },
@@ -17120,9 +17120,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 92,
-        "baseDefense": 122
+        "baseStamina": 144,
+        "baseAttack": 101,
+        "baseDefense": 135
       },
       "quickMoves": ["VINE_WHIP_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["ENERGY_BALL", "GRASS_KNOT", "BODY_SLAM"],
@@ -17175,9 +17175,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 122,
-        "baseDefense": 155
+        "baseStamina": 162,
+        "baseAttack": 130,
+        "baseDefense": 166
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["ENERGY_BALL", "GRASS_KNOT", "ANCIENT_POWER"],
@@ -17231,9 +17231,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 168,
-        "baseDefense": 202
+        "baseStamina": 186,
+        "baseAttack": 172,
+        "baseDefense": 208
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "VINE_WHIP_FAST"],
       "cinematicMoves": ["PETAL_BLIZZARD", "SOLAR_BEAM", "EARTHQUAKE"],
@@ -17280,9 +17280,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 78,
-        "baseAttack": 116,
-        "baseDefense": 96
+        "baseStamina": 137,
+        "baseAttack": 129,
+        "baseDefense": 100
       },
       "quickMoves": ["EMBER_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["FLAME_CHARGE", "SWIFT", "FLAMETHROWER"],
@@ -17335,9 +17335,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 116,
-        "baseAttack": 158,
-        "baseDefense": 129
+        "baseStamina": 160,
+        "baseAttack": 165,
+        "baseDefense": 131
       },
       "quickMoves": ["EMBER_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["FLAME_CHARGE", "DIG", "FLAMETHROWER"],
@@ -17391,9 +17391,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 156,
-        "baseAttack": 223,
-        "baseDefense": 176
+        "baseStamina": 184,
+        "baseAttack": 218,
+        "baseDefense": 172
       },
       "quickMoves": ["EMBER_FAST", "SHADOW_CLAW_FAST"],
       "cinematicMoves": ["FIRE_BLAST", "OVERHEAT", "SOLAR_BEAM"],
@@ -17440,7 +17440,7 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
+        "baseStamina": 150,
         "baseAttack": 117,
         "baseDefense": 116
       },
@@ -17495,9 +17495,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 150,
-        "baseDefense": 151
+        "baseStamina": 168,
+        "baseAttack": 149,
+        "baseDefense": 149
       },
       "quickMoves": ["WATER_GUN_FAST", "SCRATCH_FAST"],
       "cinematicMoves": ["CRUNCH", "ICE_PUNCH", "WATER_PULSE"],
@@ -17551,9 +17551,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 170,
-        "baseAttack": 205,
-        "baseDefense": 197
+        "baseStamina": 192,
+        "baseAttack": 197,
+        "baseDefense": 191
       },
       "quickMoves": ["WATER_GUN_FAST", "BITE_FAST"],
       "cinematicMoves": ["CRUNCH", "HYDRO_PUMP", "ICE_BEAM"],
@@ -17600,9 +17600,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 79,
-        "baseDefense": 77
+        "baseStamina": 132,
+        "baseAttack": 76,
+        "baseDefense": 81
       },
       "quickMoves": ["SCRATCH_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["DIG", "BRICK_BREAK", "GRASS_KNOT"],
@@ -17655,9 +17655,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 170,
-        "baseAttack": 148,
-        "baseDefense": 130
+        "baseStamina": 192,
+        "baseAttack": 164,
+        "baseDefense": 128
       },
       "quickMoves": ["QUICK_ATTACK_FAST", "SUCKER_PUNCH_FAST"],
       "cinematicMoves": ["DIG", "BRICK_BREAK", "HYPER_BEAM"],
@@ -17704,9 +17704,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 67,
-        "baseDefense": 101
+        "baseStamina": 162,
+        "baseAttack": 84,
+        "baseDefense": 91
       },
       "quickMoves": ["FEINT_ATTACK_FAST", "PECK_FAST"],
       "cinematicMoves": ["AERIAL_ACE", "SKY_ATTACK", "NIGHT_SHADE"],
@@ -17761,9 +17761,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 200,
-        "baseAttack": 145,
-        "baseDefense": 179
+        "baseStamina": 210,
+        "baseAttack": 151,
+        "baseDefense": 153
       },
       "quickMoves": ["WING_ATTACK_FAST", "EXTRASENSORY_FAST"],
       "cinematicMoves": ["PSYCHIC", "SKY_ATTACK", "NIGHT_SHADE"],
@@ -17812,9 +17812,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 72,
-        "baseDefense": 142
+        "baseStamina": 138,
+        "baseAttack": 92,
+        "baseDefense": 116
       },
       "quickMoves": ["TACKLE_FAST", "BUG_BITE_FAST"],
       "cinematicMoves": ["SILVER_WIND", "SWIFT", "AERIAL_ACE"],
@@ -17870,9 +17870,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 107,
-        "baseDefense": 209
+        "baseStamina": 156,
+        "baseAttack": 134,
+        "baseDefense": 169
       },
       "quickMoves": ["STRUGGLE_BUG_FAST", "BUG_BITE_FAST"],
       "cinematicMoves": ["BUG_BUZZ", "SILVER_WIND", "AERIAL_ACE"],
@@ -17920,9 +17920,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 105,
-        "baseDefense": 73
+        "baseStamina": 138,
+        "baseAttack": 102,
+        "baseDefense": 83
       },
       "quickMoves": ["POISON_STING_FAST", "BUG_BITE_FAST"],
       "cinematicMoves": ["NIGHT_SLASH", "SIGNAL_BEAM", "CROSS_POISON"],
@@ -17976,9 +17976,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 161,
-        "baseDefense": 128
+        "baseStamina": 174,
+        "baseAttack": 149,
+        "baseDefense": 134
       },
       "quickMoves": ["POISON_STING_FAST", "INFESTATION_FAST"],
       "cinematicMoves": ["SHADOW_SNEAK", "MEGAHORN", "CROSS_POISON"],
@@ -18028,9 +18028,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 170,
-        "baseAttack": 194,
-        "baseDefense": 178
+        "baseStamina": 192,
+        "baseAttack": 214,
+        "baseDefense": 173
       },
       "quickMoves": ["AIR_SLASH_FAST", "BITE_FAST"],
       "cinematicMoves": ["SHADOW_BALL", "AIR_CUTTER", "SLUDGE_BOMB"],
@@ -18079,9 +18079,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 106,
-        "baseDefense": 106
+        "baseStamina": 180,
+        "baseAttack": 122,
+        "baseDefense": 101
       },
       "quickMoves": ["BUBBLE_FAST", "SPARK_FAST"],
       "cinematicMoves": ["WATER_PULSE", "THUNDERBOLT", "BUBBLE_BEAM"],
@@ -18136,9 +18136,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 250,
-        "baseAttack": 146,
-        "baseDefense": 146
+        "baseStamina": 240,
+        "baseAttack": 150,
+        "baseDefense": 141
       },
       "quickMoves": ["WATER_GUN_FAST", "CHARGE_BEAM_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "THUNDERBOLT", "THUNDER"],
@@ -18184,9 +18184,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 40,
-        "baseAttack": 77,
-        "baseDefense": 63
+        "baseStamina": 114,
+        "baseAttack": 97,
+        "baseDefense": 56
       },
       "quickMoves": ["THUNDER_SHOCK_FAST"],
       "cinematicMoves": ["THUNDERBOLT", "DISARMING_VOICE", "THUNDER_PUNCH"],
@@ -18292,9 +18292,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 69,
-        "baseDefense": 34
+        "baseStamina": 198,
+        "baseAttack": 65,
+        "baseDefense": 37
       },
       "quickMoves": ["POUND_FAST", "FEINT_ATTACK_FAST"],
       "cinematicMoves": ["WILD_CHARGE", "SHADOW_BALL", "PSYCHIC"],
@@ -18344,9 +18344,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
+        "baseStamina": 132,
         "baseAttack": 67,
-        "baseDefense": 116
+        "baseDefense": 132
       },
       "quickMoves": ["HIDDEN_POWER_FAST", "PECK_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "PSYSHOCK", "DAZZLING_GLEAM"],
@@ -18402,9 +18402,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 139,
-        "baseDefense": 191
+        "baseStamina": 156,
+        "baseAttack": 133,
+        "baseDefense": 194
       },
       "quickMoves": ["EXTRASENSORY_FAST", "HIDDEN_POWER_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "DAZZLING_GLEAM", "AERIAL_ACE"],
@@ -18451,9 +18451,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 134,
-        "baseDefense": 89
+        "baseStamina": 138,
+        "baseAttack": 144,
+        "baseDefense": 97
       },
       "quickMoves": ["PECK_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["NIGHT_SHADE", "PSYSHOCK", "DRILL_PECK"],
@@ -18509,9 +18509,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 192,
-        "baseDefense": 146
+        "baseStamina": 168,
+        "baseAttack": 197,
+        "baseDefense": 150
       },
       "quickMoves": ["AIR_SLASH_FAST", "FEINT_ATTACK_FAST"],
       "cinematicMoves": ["OMINOUS_WIND", "FUTURESIGHT", "AERIAL_ACE"],
@@ -18558,9 +18558,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 114,
-        "baseDefense": 82
+        "baseStamina": 156,
+        "baseAttack": 112,
+        "baseDefense": 89
       },
       "quickMoves": ["TACKLE_FAST", "THUNDER_SHOCK_FAST"],
       "cinematicMoves": ["BODY_SLAM", "THUNDERBOLT", "DISCHARGE"],
@@ -18613,9 +18613,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 145,
-        "baseDefense": 112
+        "baseStamina": 174,
+        "baseAttack": 140,
+        "baseDefense": 120
       },
       "quickMoves": ["TACKLE_FAST", "CHARGE_BEAM_FAST"],
       "cinematicMoves": ["POWER_GEM", "THUNDERBOLT", "DISCHARGE"],
@@ -18669,9 +18669,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 211,
-        "baseDefense": 172
+        "baseStamina": 198,
+        "baseAttack": 193,
+        "baseDefense": 181
       },
       "quickMoves": ["CHARGE_BEAM_FAST", "VOLT_SWITCH_FAST"],
       "cinematicMoves": ["ZAP_CANNON", "FOCUS_BLAST", "THUNDER"],
@@ -18720,9 +18720,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 169,
-        "baseDefense": 189
+        "baseStamina": 180,
+        "baseAttack": 159,
+        "baseDefense": 200
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "ACID_FAST"],
       "cinematicMoves": ["LEAF_BLADE", "PETAL_BLIZZARD", "DAZZLING_GLEAM"],
@@ -18769,9 +18769,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 37,
-        "baseDefense": 93
+        "baseStamina": 174,
+        "baseAttack": 56,
+        "baseDefense": 104
       },
       "quickMoves": ["TACKLE_FAST", "BUBBLE_FAST"],
       "cinematicMoves": ["BUBBLE_BEAM", "AQUA_TAIL", "BODY_SLAM"],
@@ -18825,9 +18825,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 200,
-        "baseAttack": 112,
-        "baseDefense": 152
+        "baseStamina": 210,
+        "baseAttack": 117,
+        "baseDefense": 165
       },
       "quickMoves": ["ROCK_SMASH_FAST", "BUBBLE_FAST"],
       "cinematicMoves": ["PLAY_ROUGH", "HYDRO_PUMP", "ICE_BEAM"],
@@ -18871,9 +18871,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 167,
-        "baseDefense": 198
+        "baseStamina": 174,
+        "baseAttack": 149,
+        "baseDefense": 183
       },
       "quickMoves": ["ROCK_THROW_FAST", "COUNTER_FAST"],
       "cinematicMoves": ["STONE_EDGE", "EARTHQUAKE", "ROCK_SLIDE"],
@@ -18920,9 +18920,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 174,
-        "baseDefense": 192
+        "baseStamina": 198,
+        "baseAttack": 172,
+        "baseDefense": 182
       },
       "quickMoves": ["MUD_SHOT_FAST", "BUBBLE_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "BLIZZARD", "EARTHQUAKE"],
@@ -18970,9 +18970,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 67,
-        "baseDefense": 101
+        "baseStamina": 132,
+        "baseAttack": 84,
+        "baseDefense": 100
       },
       "quickMoves": ["TACKLE_FAST", "BULLET_SEED_FAST"],
       "cinematicMoves": ["GRASS_KNOT", "DAZZLING_GLEAM", "SEED_BOMB"],
@@ -19028,9 +19028,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 91,
-        "baseDefense": 127
+        "baseStamina": 156,
+        "baseAttack": 119,
+        "baseDefense": 123
       },
       "quickMoves": ["TACKLE_FAST", "BULLET_SEED_FAST"],
       "cinematicMoves": ["GRASS_KNOT", "DAZZLING_GLEAM", "ENERGY_BALL"],
@@ -19087,9 +19087,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 118,
-        "baseDefense": 197
+        "baseStamina": 180,
+        "baseAttack": 154,
+        "baseDefense": 176
       },
       "quickMoves": ["INFESTATION_FAST", "BULLET_SEED_FAST"],
       "cinematicMoves": ["ENERGY_BALL", "DAZZLING_GLEAM", "SOLAR_BEAM"],
@@ -19136,9 +19136,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 136,
-        "baseDefense": 112
+        "baseStamina": 156,
+        "baseAttack": 119,
+        "baseDefense": 123
       },
       "quickMoves": ["SCRATCH_FAST", "ASTONISH_FAST"],
       "cinematicMoves": ["LOW_SWEEP", "SWIFT", "AERIAL_ACE"],
@@ -19183,9 +19183,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 60,
-        "baseAttack": 55,
-        "baseDefense": 55
+        "baseStamina": 126,
+        "baseAttack": 63,
+        "baseDefense": 63
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "CUT_FAST"],
       "cinematicMoves": ["ENERGY_BALL", "GRASS_KNOT", "SEED_BOMB"],
@@ -19240,9 +19240,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 185,
-        "baseDefense": 148
+        "baseStamina": 180,
+        "baseAttack": 163,
+        "baseDefense": 143
       },
       "quickMoves": ["RAZOR_LEAF_FAST", "BULLET_SEED_FAST"],
       "cinematicMoves": ["SOLAR_BEAM", "PETAL_BLIZZARD", "SLUDGE_BOMB"],
@@ -19290,9 +19290,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 154,
-        "baseDefense": 94
+        "baseStamina": 168,
+        "baseAttack": 170,
+        "baseDefense": 100
       },
       "quickMoves": ["QUICK_ATTACK_FAST", "WING_ATTACK_FAST"],
       "cinematicMoves": ["ANCIENT_POWER", "AERIAL_ACE", "SILVER_WIND"],
@@ -19338,9 +19338,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 75,
-        "baseDefense": 75
+        "baseStamina": 156,
+        "baseAttack": 71,
+        "baseDefense": 72
       },
       "quickMoves": ["WATER_GUN_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["MUD_BOMB", "DIG", "BODY_SLAM"],
@@ -19394,9 +19394,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 190,
-        "baseAttack": 152,
-        "baseDefense": 152
+        "baseStamina": 204,
+        "baseAttack": 141,
+        "baseDefense": 154
       },
       "quickMoves": ["WATER_GUN_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["SLUDGE_BOMB", "EARTHQUAKE", "STONE_EDGE"],
@@ -19444,9 +19444,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 261,
-        "baseDefense": 194
+        "baseStamina": 168,
+        "baseAttack": 248,
+        "baseDefense": 166
       },
       "quickMoves": ["CONFUSION_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["PSYBEAM", "PSYCHIC", "FUTURESIGHT"],
@@ -19493,9 +19493,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 190,
-        "baseAttack": 126,
-        "baseDefense": 250
+        "baseStamina": 204,
+        "baseAttack": 136,
+        "baseDefense": 247
       },
       "quickMoves": ["FEINT_ATTACK_FAST", "SNARL_FAST"],
       "cinematicMoves": ["DARK_PULSE", "FOUL_PLAY"],
@@ -19542,9 +19542,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 175,
-        "baseDefense": 87
+        "baseStamina": 162,
+        "baseAttack": 183,
+        "baseDefense": 93
       },
       "quickMoves": ["PECK_FAST", "FEINT_ATTACK_FAST"],
       "cinematicMoves": ["DRILL_PECK", "FOUL_PLAY", "DARK_PULSE"],
@@ -19592,9 +19592,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 190,
-        "baseAttack": 177,
-        "baseDefense": 194
+        "baseStamina": 204,
+        "baseAttack": 157,
+        "baseDefense": 193
       },
       "quickMoves": ["WATER_GUN_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["BLIZZARD", "PSYCHIC", "FIRE_BLAST"],
@@ -19659,9 +19659,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 167,
-        "baseDefense": 167
+        "baseStamina": 162,
+        "baseAttack": 175,
+        "baseDefense": 154
       },
       "quickMoves": ["ASTONISH_FAST", "HEX_FAST"],
       "cinematicMoves": ["SHADOW_SNEAK", "DARK_PULSE", "OMINOUS_WIND"],
@@ -19725,9 +19725,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 96,
-        "baseAttack": 136,
-        "baseDefense": 91
+        "baseStamina": 148,
+        "baseAttack": 135,
+        "baseDefense": 101
       },
       "quickMoves": ["HIDDEN_POWER_FAST"],
       "cinematicMoves": ["STRUGGLE"],
@@ -19789,9 +19789,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 380,
-        "baseAttack": 60,
-        "baseDefense": 106
+        "baseStamina": 318,
+        "baseAttack": 69,
+        "baseDefense": 119
       },
       "quickMoves": ["COUNTER_FAST", "SPLASH_FAST"],
       "cinematicMoves": ["MIRROR_COAT"],
@@ -19855,9 +19855,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 182,
-        "baseDefense": 133
+        "baseStamina": 174,
+        "baseAttack": 184,
+        "baseDefense": 139
       },
       "quickMoves": ["TACKLE_FAST", "CONFUSION_FAST"],
       "cinematicMoves": ["PSYCHIC", "THUNDERBOLT", "MIRROR_COAT"],
@@ -19920,9 +19920,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 108,
-        "baseDefense": 146
+        "baseStamina": 150,
+        "baseAttack": 97,
+        "baseDefense": 127
       },
       "quickMoves": ["TACKLE_FAST", "BUG_BITE_FAST"],
       "cinematicMoves": ["GYRO_BALL", "ROCK_TOMB", "SAND_TOMB"],
@@ -19994,9 +19994,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 161,
-        "baseDefense": 242
+        "baseStamina": 180,
+        "baseAttack": 149,
+        "baseDefense": 204
       },
       "quickMoves": ["BUG_BITE_FAST", "STRUGGLE_BUG_FAST"],
       "cinematicMoves": ["HEAVY_SLAM", "EARTHQUAKE", "ROCK_TOMB"],
@@ -20060,9 +20060,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 200,
-        "baseAttack": 131,
-        "baseDefense": 131
+        "baseStamina": 210,
+        "baseAttack": 129,
+        "baseDefense": 140
       },
       "quickMoves": ["BITE_FAST", "ASTONISH_FAST"],
       "cinematicMoves": ["DIG", "ROCK_SLIDE", "DRILL_RUN"],
@@ -20126,9 +20126,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 143,
-        "baseDefense": 204
+        "baseStamina": 168,
+        "baseAttack": 158,
+        "baseDefense": 179
       },
       "quickMoves": ["FURY_CUTTER_FAST", "WING_ATTACK_FAST"],
       "cinematicMoves": ["DIG", "AERIAL_ACE", "NIGHT_SLASH"],
@@ -20191,9 +20191,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 148,
-        "baseDefense": 333
+        "baseStamina": 180,
+        "baseAttack": 135,
+        "baseDefense": 268
       },
       "quickMoves": ["IRON_TAIL_FAST", "DRAGON_TAIL_FAST"],
       "cinematicMoves": ["EARTHQUAKE", "HEAVY_SLAM", "CRUNCH"],
@@ -20257,9 +20257,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 137,
-        "baseDefense": 89
+        "baseStamina": 162,
+        "baseAttack": 126,
+        "baseDefense": 93
       },
       "quickMoves": ["TACKLE_FAST", "BITE_FAST"],
       "cinematicMoves": ["CRUNCH", "DAZZLING_GLEAM", "BRICK_BREAK"],
@@ -20329,9 +20329,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 212,
-        "baseDefense": 137
+        "baseStamina": 198,
+        "baseAttack": 190,
+        "baseDefense": 140
       },
       "quickMoves": ["BITE_FAST", "SNARL_FAST"],
       "cinematicMoves": ["CRUNCH", "PLAY_ROUGH", "CLOSE_COMBAT"],
@@ -20397,9 +20397,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 184,
-        "baseDefense": 148
+        "baseStamina": 168,
+        "baseAttack": 186,
+        "baseDefense": 139
       },
       "quickMoves": ["POISON_STING_FAST", "WATER_GUN_FAST"],
       "cinematicMoves": ["AQUA_TAIL", "ICE_BEAM", "SLUDGE_WAVE"],
@@ -20464,9 +20464,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 236,
-        "baseDefense": 191
+        "baseStamina": 174,
+        "baseAttack": 215,
+        "baseDefense": 187
       },
       "quickMoves": ["BULLET_PUNCH_FAST", "FURY_CUTTER_FAST"],
       "cinematicMoves": ["X_SCISSOR", "IRON_HEAD", "NIGHT_SLASH"],
@@ -20531,9 +20531,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 40,
-        "baseAttack": 17,
-        "baseDefense": 396
+        "baseStamina": 114,
+        "baseAttack": 18,
+        "baseDefense": 461
       },
       "quickMoves": ["STRUGGLE_BUG_FAST", "ROCK_THROW_FAST"],
       "cinematicMoves": ["ROCK_BLAST", "STONE_EDGE", "GYRO_BALL"],
@@ -20596,9 +20596,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 160,
-        "baseAttack": 234,
-        "baseDefense": 189
+        "baseStamina": 186,
+        "baseAttack": 220,
+        "baseDefense": 179
       },
       "quickMoves": ["COUNTER_FAST", "STRUGGLE_BUG_FAST"],
       "cinematicMoves": ["MEGAHORN", "CLOSE_COMBAT", "EARTHQUAKE"],
@@ -20662,9 +20662,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 189,
-        "baseDefense": 157
+        "baseStamina": 156,
+        "baseAttack": 204,
+        "baseDefense": 142
       },
       "quickMoves": ["ICE_SHARD_FAST", "FEINT_ATTACK_FAST"],
       "cinematicMoves": ["AVALANCHE", "ICE_PUNCH", "FOUL_PLAY"],
@@ -20726,9 +20726,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 120,
-        "baseAttack": 142,
-        "baseDefense": 93
+        "baseStamina": 162,
+        "baseAttack": 135,
+        "baseDefense": 104
       },
       "quickMoves": ["SCRATCH_FAST", "LICK_FAST"],
       "cinematicMoves": ["CROSS_CHOP", "CRUNCH", "PLAY_ROUGH"],
@@ -20798,9 +20798,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 236,
-        "baseDefense": 144
+        "baseStamina": 198,
+        "baseAttack": 211,
+        "baseDefense": 156
       },
       "quickMoves": ["METAL_CLAW_FAST", "COUNTER_FAST"],
       "cinematicMoves": ["CLOSE_COMBAT", "HYPER_BEAM", "PLAY_ROUGH"],
@@ -20864,9 +20864,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 80,
-        "baseAttack": 118,
-        "baseDefense": 71
+        "baseStamina": 138,
+        "baseAttack": 107,
+        "baseDefense": 82
       },
       "quickMoves": ["EMBER_FAST", "ROCK_THROW_FAST"],
       "cinematicMoves": ["FLAME_BURST", "FLAME_CHARGE", "ROCK_SLIDE"],
@@ -20937,9 +20937,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 139,
-        "baseDefense": 209
+        "baseStamina": 150,
+        "baseAttack": 128,
+        "baseDefense": 203
       },
       "quickMoves": ["EMBER_FAST", "ROCK_THROW_FAST"],
       "cinematicMoves": ["HEAT_WAVE", "OVERHEAT", "STONE_EDGE"],
@@ -21003,9 +21003,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 90,
-        "baseDefense": 74
+        "baseStamina": 150,
+        "baseAttack": 102,
+        "baseDefense": 75
       },
       "quickMoves": ["TACKLE_FAST", "POWDER_SNOW_FAST"],
       "cinematicMoves": ["ICY_WIND", "BODY_SLAM", "ROCK_SLIDE"],
@@ -21076,9 +21076,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 200,
-        "baseAttack": 181,
-        "baseDefense": 147
+        "baseStamina": 210,
+        "baseAttack": 168,
+        "baseDefense": 145
       },
       "quickMoves": ["ICE_SHARD_FAST", "POWDER_SNOW_FAST"],
       "cinematicMoves": ["AVALANCHE", "BULLDOZE", "STONE_EDGE"],
@@ -21142,9 +21142,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 118,
-        "baseDefense": 156
+        "baseStamina": 156,
+        "baseAttack": 114,
+        "baseDefense": 174
       },
       "quickMoves": ["TACKLE_FAST", "BUBBLE_FAST"],
       "cinematicMoves": ["ROCK_BLAST", "POWER_GEM", "BUBBLE_BEAM"],
@@ -21207,9 +21207,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 127,
-        "baseDefense": 69
+        "baseStamina": 132,
+        "baseAttack": 137,
+        "baseDefense": 77
       },
       "quickMoves": ["WATER_GUN_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["AURORA_BEAM", "WATER_PULSE", "ROCK_BLAST"],
@@ -21279,9 +21279,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 197,
-        "baseDefense": 141
+        "baseStamina": 180,
+        "baseAttack": 179,
+        "baseDefense": 155
       },
       "quickMoves": ["WATER_GUN_FAST", "MUD_SHOT_FAST"],
       "cinematicMoves": ["GUNK_SHOT", "WATER_PULSE", "AURORA_BEAM"],
@@ -21345,9 +21345,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 128,
-        "baseDefense": 90
+        "baseStamina": 144,
+        "baseAttack": 142,
+        "baseDefense": 98
       },
       "quickMoves": ["ICE_SHARD_FAST", "QUICK_ATTACK_FAST"],
       "cinematicMoves": ["ICE_PUNCH", "ICY_WIND", "AERIAL_ACE"],
@@ -21411,9 +21411,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 148,
-        "baseDefense": 260
+        "baseStamina": 168,
+        "baseAttack": 154,
+        "baseDefense": 217
       },
       "quickMoves": ["BUBBLE_FAST", "WING_ATTACK_FAST"],
       "cinematicMoves": ["WATER_PULSE", "ICE_BEAM", "AERIAL_ACE"],
@@ -21478,9 +21478,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 130,
-        "baseAttack": 148,
-        "baseDefense": 260
+        "baseStamina": 168,
+        "baseAttack": 154,
+        "baseDefense": 217
       },
       "quickMoves": ["STEEL_WING_FAST", "AIR_SLASH_FAST"],
       "cinematicMoves": ["BRAVE_BIRD", "SKY_ATTACK", "FLASH_CANNON"],
@@ -21544,9 +21544,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 152,
-        "baseDefense": 93
+        "baseStamina": 144,
+        "baseAttack": 155,
+        "baseDefense": 87
       },
       "quickMoves": ["FEINT_ATTACK_FAST", "EMBER_FAST"],
       "cinematicMoves": ["CRUNCH", "FLAMETHROWER", "DARK_PULSE"],
@@ -21617,9 +21617,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 224,
-        "baseDefense": 159
+        "baseStamina": 180,
+        "baseAttack": 218,
+        "baseDefense": 140
       },
       "quickMoves": ["SNARL_FAST", "FIRE_FANG_FAST"],
       "cinematicMoves": ["CRUNCH", "FIRE_BLAST", "FOUL_PLAY"],
@@ -21686,9 +21686,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 150,
-        "baseAttack": 194,
-        "baseDefense": 194
+        "baseStamina": 180,
+        "baseAttack": 193,
+        "baseDefense": 199
       },
       "quickMoves": ["WATER_GUN_FAST", "DRAGON_BREATH_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "BLIZZARD", "OUTRAGE"],
@@ -21750,9 +21750,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 107,
-        "baseDefense": 107
+        "baseStamina": 198,
+        "baseAttack": 109,
+        "baseDefense": 104
       },
       "quickMoves": ["TACKLE_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["BULLDOZE", "ROCK_SLIDE", "BODY_SLAM"],
@@ -21822,9 +21822,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 214,
-        "baseDefense": 214
+        "baseStamina": 198,
+        "baseAttack": 193,
+        "baseDefense": 185
       },
       "quickMoves": ["TACKLE_FAST", "COUNTER_FAST"],
       "cinematicMoves": ["EARTHQUAKE", "HEAVY_SLAM", "PLAY_ROUGH"],
@@ -21891,9 +21891,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 170,
-        "baseAttack": 198,
-        "baseDefense": 183
+        "baseStamina": 192,
+        "baseAttack": 185,
+        "baseDefense": 191
       },
       "quickMoves": ["HIDDEN_POWER_FAST", "CHARGE_BEAM_FAST"],
       "cinematicMoves": ["SOLAR_BEAM", "HYPER_BEAM", "ZAP_CANNON"],
@@ -21956,9 +21956,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 146,
-        "baseAttack": 192,
-        "baseDefense": 132
+        "baseStamina": 178,
+        "baseAttack": 191,
+        "baseDefense": 136
       },
       "quickMoves": ["TACKLE_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["STOMP", "WILD_CHARGE", "MEGAHORN"],
@@ -22021,8 +22021,8 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 110,
-        "baseAttack": 40,
+        "baseStamina": 156,
+        "baseAttack": 81,
         "baseDefense": 88
       },
       "quickMoves": ["TACKLE_FAST"],
@@ -22085,9 +22085,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 70,
-        "baseAttack": 64,
-        "baseDefense": 64
+        "baseStamina": 132,
+        "baseAttack": 74,
+        "baseDefense": 74
       },
       "quickMoves": ["ROCK_SMASH_FAST", "TACKLE_FAST"],
       "cinematicMoves": ["BRICK_BREAK", "ROCK_SLIDE", "LOW_SWEEP"],
@@ -22161,9 +22161,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
-        "baseAttack": 173,
-        "baseDefense": 214
+        "baseStamina": 150,
+        "baseAttack": 172,
+        "baseDefense": 212
       },
       "quickMoves": ["ROCK_SMASH_FAST", "COUNTER_FAST"],
       "cinematicMoves": ["CLOSE_COMBAT", "GYRO_BALL", "STONE_EDGE"],
@@ -22226,9 +22226,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 153,
-        "baseDefense": 116
+        "baseStamina": 144,
+        "baseAttack": 155,
+        "baseDefense": 87
       },
       "quickMoves": ["POWDER_SNOW_FAST", "POUND_FAST"],
       "cinematicMoves": ["ICE_BEAM", "ICE_PUNCH", "PSYSHOCK"],
@@ -22296,9 +22296,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 135,
-        "baseDefense": 110
+        "baseStamina": 144,
+        "baseAttack": 158,
+        "baseDefense": 102
       },
       "quickMoves": ["THUNDER_SHOCK_FAST", "LOW_KICK_FAST"],
       "cinematicMoves": ["THUNDER_PUNCH", "BRICK_BREAK", "DISCHARGE"],
@@ -22366,9 +22366,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 90,
-        "baseAttack": 151,
-        "baseDefense": 108
+        "baseStamina": 144,
+        "baseAttack": 162,
+        "baseDefense": 100
       },
       "quickMoves": ["EMBER_FAST", "KARATE_CHOP_FAST"],
       "cinematicMoves": ["BRICK_BREAK", "FIRE_PUNCH", "FLAME_BURST"],
@@ -22437,9 +22437,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 190,
-        "baseAttack": 157,
-        "baseDefense": 211
+        "baseStamina": 204,
+        "baseAttack": 175,
+        "baseDefense": 185
       },
       "quickMoves": ["TACKLE_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["STOMP", "BODY_SLAM", "GYRO_BALL"],
@@ -22502,9 +22502,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 510,
-        "baseAttack": 129,
-        "baseDefense": 229
+        "baseStamina": 396,
+        "baseAttack": 133,
+        "baseDefense": 151
       },
       "quickMoves": ["POUND_FAST", "ZEN_HEADBUTT_FAST"],
       "cinematicMoves": ["PSYCHIC", "HYPER_BEAM", "DAZZLING_GLEAM"],
@@ -22567,9 +22567,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 180,
-        "baseAttack": 241,
-        "baseDefense": 210
+        "baseStamina": 198,
+        "baseAttack": 237,
+        "baseDefense": 187
       },
       "quickMoves": ["THUNDER_SHOCK_FAST", "VOLT_SWITCH_FAST"],
       "cinematicMoves": ["THUNDER", "THUNDERBOLT", "WILD_CHARGE"],
@@ -22632,9 +22632,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 230,
-        "baseAttack": 235,
-        "baseDefense": 176
+        "baseStamina": 228,
+        "baseAttack": 227,
+        "baseDefense": 170
       },
       "quickMoves": ["FIRE_SPIN_FAST", "FIRE_FANG_FAST"],
       "cinematicMoves": ["FLAMETHROWER", "FIRE_BLAST", "OVERHEAT"],
@@ -22698,9 +22698,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 200,
-        "baseAttack": 180,
-        "baseDefense": 235
+        "baseStamina": 210,
+        "baseAttack": 183,
+        "baseDefense": 239
       },
       "quickMoves": ["EXTRASENSORY_FAST", "SNARL_FAST"],
       "cinematicMoves": ["HYDRO_PUMP", "BUBBLE_BEAM", "WATER_PULSE"],
@@ -22766,9 +22766,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 100,
+        "baseStamina": 150,
         "baseAttack": 115,
-        "baseDefense": 93
+        "baseDefense": 104
       },
       "quickMoves": ["BITE_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["STOMP", "CRUNCH", "ANCIENT_POWER"],
@@ -22840,9 +22840,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 140,
-        "baseAttack": 155,
-        "baseDefense": 133
+        "baseStamina": 174,
+        "baseAttack": 150,
+        "baseDefense": 145
       },
       "quickMoves": ["BITE_FAST", "ROCK_SMASH_FAST"],
       "cinematicMoves": ["DIG", "CRUNCH", "ANCIENT_POWER"],
@@ -22915,9 +22915,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 200,
-        "baseAttack": 251,
-        "baseDefense": 212
+        "baseStamina": 210,
+        "baseAttack": 224,
+        "baseDefense": 216
       },
       "quickMoves": ["BITE_FAST", "IRON_TAIL_FAST"],
       "cinematicMoves": ["FIRE_BLAST", "CRUNCH", "STONE_EDGE"],
@@ -22982,9 +22982,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 212,
-        "baseAttack": 193,
-        "baseDefense": 323
+        "baseStamina": 217,
+        "baseAttack": 203,
+        "baseDefense": 295
       },
       "quickMoves": ["EXTRASENSORY_FAST", "DRAGON_TAIL_FAST"],
       "cinematicMoves": ["SKY_ATTACK", "HYDRO_PUMP", "FUTURESIGHT"],
@@ -23049,9 +23049,9 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 212,
-        "baseAttack": 263,
-        "baseDefense": 301
+        "baseStamina": 217,
+        "baseAttack": 242,
+        "baseDefense": 253
       },
       "quickMoves": ["EXTRASENSORY_FAST", "STEEL_WING_FAST"],
       "cinematicMoves": ["BRAVE_BIRD", "FIRE_BLAST", "SOLAR_BEAM"],
@@ -23117,7 +23117,7 @@
         "maxPokemonActionFrequencyS": 1.6
       },
       "stats": {
-        "baseStamina": 200,
+        "baseStamina": 210,
         "baseAttack": 210,
         "baseDefense": 210
       },
