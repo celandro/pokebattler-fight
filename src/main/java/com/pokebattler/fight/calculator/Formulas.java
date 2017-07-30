@@ -90,7 +90,7 @@ public class Formulas {
         double modifier = 1.0;
         PokemonType type = move.getType();
 		if (attacker != null && (type == attacker.getType() || type == attacker.getType2())) {
-            modifier *= 1.25; // stab
+            modifier *= 1.2; // stab
         }
 
         modifier *= resistRepository.getResist(type, defender.getType())
