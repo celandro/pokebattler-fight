@@ -1,0 +1,88 @@
+{
+  "title": "Raid Guide",
+  "linkLabel": "Raid Guide",
+  "intro": "Pokemon Go Raids are here! Find out which Pokémon will beat raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
+  "tierList": {
+    "common": {
+      "boss": "Boss"
+    },
+    "RAID_LEVEL_1": {
+      "title": "Tier 1",
+      "subtitle": "Easy Solo Raid",
+      "intro": "Tier 1 raids are quite easy to defeat by yourself. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to collect candy for pokemon that are not common in your area."
+    },
+    "RAID_LEVEL_2": {
+      "title": "Tier 2",
+      "subtitle": "Hard Solo Raid",
+      "intro": "Tier 2 raids are targetted at level 30-40 players who can easily defeat these pokemon. Lower level players should team up to beat these pokemon."
+    },
+    "RAID_LEVEL_3": {
+      "title": "Tier 3",
+      "subtitle": "Easy Group Raid",
+      "intro": "Tier 3 raids are targetted at groups of 2 level 30-40 players. They can be soloed by a level 40 player with a little luck and perfect play with awesome pokemon."
+    },
+    "RAID_LEVEL_4": {
+      "title": "Tier 4",
+      "subtitle": "Hard Group Raid",
+      "intro": "Tier 4 raids are targetted at groups of 5-6 level 30-40 players. Reports have come in of these pokemon being beaten by max level players with 3-4 of the perfect counters."
+    },
+    "RAID_LEVEL_5": {
+      "title": "Tier 5",
+      "subtitle": "Legendary Raid",
+      "intro": "Some of these tier 5 raids are not in the game yet! They are often done with groups of 8-12 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
+    },
+    "RAID_LEVEL_UNSET": {
+      "title": "Tier ?",
+      "subtitle": "Unknown Raids",
+      "intro": "These pokemon may be parts of future pokemon raid tiers. Use this if a new raid has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Magikarp raid too!"
+    }
+  },
+  "custom": {
+    "title": "Custom Raid",
+    "levelsLabel": "Attacker Levels",
+    "buttonLabel": "Find best raider",
+    "attackersLabel": "Attackers"
+  },
+  "results": {
+    "title": "Raid Guide",
+    "calculating": "Calculating Raid Results",
+    "counters": {
+      "title": " counters",
+      "subtitle": "Best Attackers by",
+      "description": "The following analysis shows the pokemon that are the strongest raiders in terms of {{sort}} against {{pokemon}}.",
+      "moveSetOrderingDescription": "The move sets are ordered from hardest to raid against to the easiest, make sure to check multiple, the results can vary greatly!",
+      "difficultyNote": "Raid bosses are much harder than normal fight, you should consider carefully your options.",
+      "chooseMovesetLabel": "Choose Moveset"
+    },
+    "hardestMovesets": {
+      "title": "Most Difficult Raids",
+      "subtitle": "For {{pokemon}} by {{sort}}",
+      "tableTitle": "Hardest movesets to raid against",
+      "description": "Raid difficulty can vary greatly based on the moveset of the defending pokemon!"
+    },
+    "analysis": {
+      "title": "About This Analysis",
+      "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single pokemon with every possible moveset. The best 20 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
+      "attackers": {
+        "byLevel": "level {{attackerLevel}} attackers",
+        "pokebox": "the custom pokemon from user #{{userId}}'s pokebox"
+      }
+    },
+    "description": "Welcome to the Pokebattler raid guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options."
+
+  },
+  "pokebox": {
+    "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
+    "enabled": "Showing custom results for your Pokebox. The 24 top counters that you own are shown below.",
+    "disabled": "Showing results for level {{level}} attackers. The best 24 counters at that level are shown below.",
+    "friend": "Showing results for user {{userId}}. Their best 24 counters are shown below.",
+    "switchLevel": "Switch To $t(common:attackerTypes.level)",
+    "switchPokebox": "Switch To $t(common:attackerTypes.pokebox)"
+  },
+  "emptyResults": {
+    "LEVEL": "There were no results returned for this calculation. The server may be having issues",
+    "POKEBOX": "There were no results returned for this calculation. Perhaps you have not entered any pokemon in your pokebox yet?",
+    "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any pokemon in their pokebox yet?"
+  }
+
+}

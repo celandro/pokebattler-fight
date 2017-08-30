@@ -1,0 +1,10 @@
+{
+  "title": "Login to Pokebattler - Beta",
+  "description": "Login to access your Pokeboxes",
+  "explanation": "Pokebattler only uses this login information to know who you are between devices. You can login on your phone, tablet or computer and see all your pokemon. We do not use this information for marketing purposes in any way",
+  "login" : {
+    "success": {
+      "title": "Logged in Successfully"
+    }
+  }
+}

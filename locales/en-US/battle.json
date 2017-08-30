@@ -5,6 +5,10 @@
   "attackerPlaceHolder": "Choose $t(attacker)",
   "defender": "Defender",
   "defenderPlaceHolder": "Choose $t(defender)",
+  "pokemonListTypes": {
+    "pokebox": "My Pokebox",
+    "all": "All Pokemon"
+  },
   "relatedBattles": {
     "title": "Related Battles",
     "description": "Choose the parameter you wish to change below and click the link to rerun the current simulation with the new parameter. Results are changed immediately.",
@@ -19,17 +23,13 @@
       "lose": "$t(results.title.base) lose!"
     },
     "about": "About this Battle",
-    "description": "A level {{attacker.level}} {{attacker.name}} with {{attacker.cp}} CP {{result}} a level {{defender.level}} {{defender.name}} with {{defender.cp}} CP in this battle simulation. The attacking {{attacker.name}} was using {{attacker.quickMove}} as its quick and {{attacker.specialMove}} as its special move. The defending {{defender.name}} was using {{defender.quickMove}} as its quick and {{defender.specialMove}} as its special move. The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the {{strategies.defense}} simulation type. $t(battle:results.simulation, {'count': {{numSims}}}) performed to generate this battle result.",
+    "description": "A level {{attacker.level}} {{attacker.name}} with {{attacker.cp}} CP {{result}} a level {{defender.level}} {{defender.name}} with {{defender.cp}} CP in this battle simulation. The attacking {{attacker.name}} was using {{attacker.quickMove}} as its quick and {{attacker.specialMove}} as its special move. The defending {{defender.name}} was using {{defender.quickMove}} as its quick and {{defender.specialMove}} as its special move. The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the {{strategies.defense}} simulation type. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
     "help": {
       "text": "You can find out more about the way that these simulations are calculated by looking at the {{helpLink}}. References to the Pokemon Go combat research can be found in the {{aboutLink}}. Pokebattler is an open source project, please feel free to file any bugs or issues at the {{repoLink}}.",
       "links": {
-        "help": "Help section",
-        "about": "About section",
         "repo": "project site"
       }
     },
-    "simulation": "1 simulation was",
-    "simulation_plural": "{{count}} simulations were",
     "result": {
       "win": "defeats",
       "lose": "is defeated by"

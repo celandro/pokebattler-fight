@@ -250,8 +250,7 @@
     "XATU": "Xatu",
     "YANMA": "Yanma",
     "ZAPDOS": "Zapdos",
-    "ZUBAT": "Zubat"
-  },
+    "ZUBAT": "Zubat"  },
   "moves": {
     "ACID_FAST": "Säure",
     "AERIAL_ACE": "Aero-Ass",
@@ -424,7 +423,10 @@
     "WRAP": "Wickel",
     "X_SCISSOR": "Kreuzschere",
     "ZAP_CANNON": "Blitzkanone",
-    "ZEN_HEADBUTT_FAST": "Zen-Kopfstoß"
+    "ZEN_HEADBUTT_FAST": "Zen-Kopfstoß",
+    "DODGE": "Ausweichen",
+    "REVIVE": "Ohnmacht",
+    "HEAL": "Heilen"
   },
   "strategies": {
     "attack": {

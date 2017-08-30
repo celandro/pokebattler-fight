@@ -424,12 +424,13 @@
     "WRAP": "まきつく",
     "X_SCISSOR": "シザークロス",
     "ZAP_CANNON": "でんじほう",
-    "ZEN_HEADBUTT_FAST": "しねんのずつき"
+    "ZEN_HEADBUTT_FAST": "しねんのずつき",
+    "DODGE": "Dodge"
   },
   "strategies": {
     "attack": {
       "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
-        "label": "Quick and Special",
+        "label": "No Dodging",
         "description": "Use your quick moves as quick as possible until you can unleash your special move"
       },
       "QUICK_ATTACK_ONLY": {
@@ -438,7 +439,7 @@
       },
       "DODGE_SPECIALS2": {
         "label": "Dodge Specials",
-        "description": "Use quick attacks until you can dodge their special. Then use your special."
+        "description": "Use quick attacks until you can dodge their special, then use your special."
       },
       "DODGE_SPECIALS": {
         "label": "Dodge Specials PRO",
@@ -446,7 +447,7 @@
       },
       "DODGE_ALL2": {
         "label": "Dodge All",
-        "description": "Use quick attacks and dodge their moves until you can dodge their special. Then use your special!"
+        "description": "Use quick attacks and dodge their moves until you can dodge their special, then use your special!"
       },
       "DODGE_ALL": {
         "label": "Dodge All PRO",
@@ -455,6 +456,10 @@
       "DODGE_WEAVE_CAUTIOUS": {
         "label": "Dodge All Weave",
         "description": "This uses an attack pattern strategy that assumes that the worst case 1.5s delay between attacks could happen every time. This strategy should be reproducible by a human."
+      },
+      "undefined": {
+        "label": "Unknown",
+        "description": "This should not occur. Please let us know this happened!"
       }
     },
     "dodge": {
@@ -464,7 +469,7 @@
       },
       "DODGE_REACTION_TIME": {
         "label": "Realistic Dodging",
-        "description": "Attempts to simulate a realistic human dodger. Dodges vary from 50% success rate for a fast 1 second move to 90% success rate for a slow 3.5s move. In addition, if the attacker is using either super effective or not effective attacks, there is an additional 25% penalty to dodging, dropping the success rate to 37.5% to 67.5%."
+        "description": "Attempts to simulate a realistic human dodger. Dodges vary from 50% success rate for a fast 1 second move to 90% success rate for a slow 3.5s move. In addition, if the attacker is using either super effective or not effective attacks, there is an additional 25% penalty to dodging, dropping the success rate to 37.5% to 67.5%. Finally a small bonus for faster attacker moves is added based on how much faster the move is than the dodge flash"
       },
       "DODGE_REACTION_TIME2": {
         "label": "Realistic Dodging Pro",

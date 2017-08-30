@@ -1,0 +1,31 @@
+{
+  "title": "Pokebox",
+  "pokemonList": {
+    "title": "Deine Pokebox"
+  },
+  "add": {
+    "title": "Pokebox",
+    "description": "Füge Pokemon hinzu",
+    "pokemon": "Pokemon hinzufügen",
+    "pokemonSelect": "Pokemon wählen"
+  },
+  "update": {
+    "title": "Pokebox - Pokemon aktualisieren",
+    "description": "Verändere {{name}}"
+  },
+  "loading": "Lade deine Pokemon",
+  "backPokebox": "Zurück zur Pokebox",
+  "powerUp": "Power Up",
+  "status": {
+    "add": "Füge hinzu",
+    "update": "Aktualisiere",
+    "delete": "Lösche",
+    "success": "Erfolgreich gespeichert",
+    "error": "Unerwarteter Fehler"
+  },
+  "full": {
+    "title": "Pokebox - Kein Platz mehr",
+    "explanation": "Du hast die maximale Anzahl an Pokemon für deine Pokebox erreicht. Zur Zeit gibt es keine Möglichkeit deinen verfügbaren Platz zu erhöhen, aber bleib dran für Updates mit diesem Feature."
+  },
+  "explanation": "Pokebattler Pokebox ist ein spannendes neues Fature welches dich dein Pokebattler Erlebnis anpassen lässt basierend auf den Pokemon die du wirklich besitzt! Alle Pokemon die du deiner Pokebox hinzufügst können durch die ganze Seite hinweg benutzt werden. Schau nach dem Box Icon. Grün bedeutet, du benutzt die Pokebox, schwarz heißt du nimmst sie nicht. Zur Zeit gibts es ein Limit für 50 Pokemon, also lade nur deine besten (aka keine Taubsis)."
+}

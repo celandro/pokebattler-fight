@@ -1,0 +1,40 @@
+{
+  "title": "Raid Guide",
+  "linkLabel": "Raid Guide",
+  "intro": "Pokemon Go Raids are the new end game! Pokebattler has been hard at work building up the best Pokemon Go Raid Guide out there. Just select the raid below to see the best counters for each moveset!",
+  "tierList": {
+    "RAID_LEVEL_1": {
+      "title":"Tier 1",
+      "subtitle":"Easy Solo Raid",
+      "intro": "Tier 1 raids are quite easy to defeat by yourself. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to collect candy for pokemon that are not common in your area."
+    },
+    "RAID_LEVEL_2": {
+      "title":"Tier 2",
+      "subtitle":"Hard Solo Raid",
+      "intro": "Tier 2 raids are targetted at level 30-40 players who can easily defeat these pokemon. Lower level players should team up to beat these pokemon."
+    },
+    "RAID_LEVEL_3": {
+      "title":"Tier 3",
+      "subtitle":"Easy Group Raid",
+      "intro": "Tier 3 raids are targetted at groups of 2 level 30-40 players. They can be soloed by a level 40 player with a little luck and perfect play with awesome pokemon."
+    },
+    "RAID_LEVEL_4": {
+      "title":"Tier 4",
+      "subtitle":"Hard Group Raid",
+      "intro": "Tier 4 raids are targetted at groups of 5-6 level 30-40 players. Reports have come in of these pokemon being beaten by max level players with 3-4 of the perfect counters."
+    },
+    "RAID_LEVEL_5": {
+      "title":"Tier 5",
+      "subtitle":"Legendary Raid",
+      "intro": "These tier 5 raids are not in the game yet! Speculation is that they are targetted for full groups of level 30-40 players with good pokemon. The results below represent our best guess as to what legendary raids might be like."
+    },
+    "RAID_LEVEL_UNSET": {
+      "title":"Tier ?",
+      "subtitle":"Unknown Raids",
+      "intro": "These pokemon may be parts of future pokemon raid tiers. Use this if a new raid has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Magikarp raid too!"
+    }
+  },
+  "result": {
+    "title":"Raid Guide"
+  }
+}

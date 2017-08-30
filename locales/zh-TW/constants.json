@@ -763,7 +763,8 @@
     "ICE": "冰",
     "DRAGON": "龍",
     "DARK": "惡",
-    "FAIRY": "妖精"
+    "FAIRY": "妖精",
+    "DODGE": "閃躲"
   },
   "strategies": {
     "attack": {

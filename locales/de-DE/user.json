@@ -1,0 +1,28 @@
+{
+  "title": "Anmelden zu Pokebattler - Beta",
+  "description": "Melde dich mittels Google oder Facebook an, um auf deine Pokebox zuzugreifen",
+  "explanation": "Pokebattler wird und kann sich nicht in deinen Pokemon Go Acount einloggen. Wir verbinden uns in keiner Weise zu Niantic Servern. Pokebattler nutzt die Informationen nur um dich zwischen verschiedenen Geräten zu identifizieren. Du kannst dich auf deinem Telefon, Tablet oder Computer anmelden und alle deine Pokemon sehen. Wir nutzen oder teilen diese Informationen in keiner Weise für Marketingzwecke oder irgend einen anderen Zweck.",
+  "privacy": "Weitere Informationen finden Sie in unserer Datenschutzerklärung",
+  "loading": "Lade Benutzerdaten",
+  "user": "Benutzer",
+  "login" : {
+    "google": "Login mit Google",
+    "facebook": "Login mit Facebook",
+    "success": {
+      "title": "Erfolgreich angemeldet"
+    }
+  },
+  "details": {
+    "welcome": "Willkommen",
+    "description": "Deine Trainer Informationen unten werden auf der gesamten Seite zur Anpassung benutzt und werden auch anderen Nutzern angezeigt."
+  },
+  "loggedIn": {
+    "title": "Öffentliches Profil"
+  },
+  "logout": {
+    "title": "Abgemeldet",
+    "description": "Du hast dich erfolgreich abgemeldet. Komme später wieder auf irgendeinem Gerät und deine Pokebox wird für dich da sein!",
+    "back": "zurück zur Anmeldung",
+    "button": "Abmelden"
+  }
+}

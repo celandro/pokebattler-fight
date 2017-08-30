@@ -1,7 +1,12 @@
 {
   "back": "Zurück",
+  "save": "Speichern",
   "cancel": "Abbrechen",
+  "delete": "Löschen",
+  "note": "Hinweis",
   "cp": "WP",
+  "win": "Sieg",
+  "loss": "Niederlage",
   "quickMove": "Schnellangriff",
   "specialMove": "Spezialangriff",
   "attackStrategy": "Angriffsstrategie",
@@ -12,20 +17,58 @@
     "defense": "Verteidigung",
     "stamina": "Ausdauer"
   },
+  "statsAbbr": {
+    "attack": "Ang",
+    "defense": "Ver",
+    "hp": "KP"
+  },
   "level": "Level",
   "basic": "Standard",
   "advanced": "Erweitert",
-  "move": "Angriff",
+  "move": "Attacke",
+  "moves": "Attacken",
+  "type": "Pokemon Typ",
   "properties": {
     "overall": "Allgemein",
     "power": "Stärke",
     "win": "Sieg %",
+    "deaths": "Tode",
+    "effectiveDeaths": "Tode zum Sieg",
     "time": "Zeit zum Sieg",
     "realTime": "Zeit",
     "prestige": "Prestige",
-    "dps": "Schaden pro Sekunde",
+    "dps": "SPS",
     "potions": "Tränke",
     "damage": "Schaden",
-    "energy": "Energie"
-  }
+    "energy": "Energie",
+    "grouped": "Gruppiert",
+    "single": "Einzeln"
+  },
+  "sectionLinks": {
+    "help": "Hilfebereich",
+    "about": "Über-uns-Bereich"
+  },
+  "simulation": "1 Simulation wurde",
+  "simulation_plural": "{{count}} Simulationen wurden",
+  "chooseMovesetLabel": "Wähle Attackenmuster",
+  "hd": {
+    "text": "$t(simulation, {'count': {{numSims}} }) wurden ausgeführt um diese hochqualitative Simulation",
+    "attackers": "Angreifer",
+    "defenders": "Verteidiger",
+    "raid": "Raid"
+  },
+  "name": "Name",
+  "faction": "Team",
+  "mystic": "Weisheit",
+  "valor": "Wagemut",
+  "instinct": "Intuition",
+  "ivs": "IVs",
+  "trainerName": "Trainername",
+  "attackerTypes": {
+    "pokebox": "Meine Pokebox",
+    "level": "Nach Level"
+  },
+  "pokebox": "Pokebox",
+  "login": "Login",
+  "trainer": "Trainer"
 }

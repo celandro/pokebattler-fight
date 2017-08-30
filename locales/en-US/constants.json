@@ -424,33 +424,36 @@
     "WRAP": "Wrap",
     "X_SCISSOR": "X-Scissor",
     "ZAP_CANNON": "Zap Cannon",
-    "ZEN_HEADBUTT_FAST": "Zen Headbutt"
+    "ZEN_HEADBUTT_FAST": "Zen Headbutt",
+    "DODGE": "Dodge",
+    "REVIVE": "Fainted",
+    "HEAL": "Heal"
   },
   "strategies": {
     "attack": {
       "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
-        "label": "Quick and Special",
-        "description": "Use your quick moves as quick as possible until you can unleash your special move"
+        "label": "No Dodging",
+        "description": "Use your fast attacks as quick as possible until you can unleash your charge attack"
       },
       "QUICK_ATTACK_ONLY": {
-        "label": "Only Quick Moves",
-        "description": "Use your quick moves as quick as possible!"
+        "label": "Only Fast Moves",
+        "description": "Use your fast moves as quick as possible!"
       },
       "DODGE_SPECIALS2": {
         "label": "Dodge Specials",
-        "description": "Use quick attacks until you can dodge their special, then use your special."
+        "description": "Use fast attacks until you can dodge their special, then use your charge attack."
       },
       "DODGE_SPECIALS": {
         "label": "Dodge Specials PRO",
-        "description": "Use quick and special moves as soon as you can, but dodge their special!"
+        "description": "Use fast and charge moves as soon as you can, but dodge their charge attack!"
       },
       "DODGE_ALL2": {
         "label": "Dodge All",
-        "description": "Use quick attacks and dodge their moves until you can dodge their special, then use your special!"
+        "description": "Use fast attacks and dodge their moves until you can dodge their charge attack, then use your charge attack!"
       },
       "DODGE_ALL": {
         "label": "Dodge All PRO",
-        "description": "Use quick attacks and special attacks in between dodging all their moves!"
+        "description": "Use fast attacks and charge attacks in between dodging all their moves!"
       },
       "DODGE_WEAVE_CAUTIOUS": {
         "label": "Dodge All Weave",
