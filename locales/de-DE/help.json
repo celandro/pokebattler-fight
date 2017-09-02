@@ -50,7 +50,7 @@
       "steps": [
         {
           "label": "Angreifer/Verteidiger",
-          "description": "Wähle ob du angreifst oder verteidigst. Angreifer zeigt die Ergebnisse gegen all möglichen Verteidiger. Verteidiger zeigt die Ergebnisse gegen die 5 bestmöglichen Angreifer"
+          "description": "Wähle ob du angreifst oder verteidigst. Angreifer zeigt die Ergebnisse gegen all möglichen Verteidiger. Verteidiger zeigt die Ergebnisse gegen die 6 bestmöglichen Angreifer"
         },
         {
           "label": "Sortierung",

@@ -54,7 +54,7 @@
       "difficultyNote": "Raid Bosse sind sehr viel schwerer als normale kämpfe, also solltest du deine Möglichkeiten sorgfältig abwägen."
     },
     "hardestMovesets": {
-      "title": "Schwierigste Raid Attackenmuster",
+      "title": "Schwierigste Raids",
       "subtitle": "Für {{pokemon}} nach {{sort}}",
       "tableTitle": "Schwierigste Attackenmuster",
       "description": "Die Raid Schwierigkeit kann sich je nach den Attacken des verteidigenden Pokemons sehr unterscheiden!"
@@ -72,8 +72,14 @@
   "pokebox": {
     "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
     "enabled": "Zeige angepasste Ergebnisse für deine Pokebox. Die 24 besten Konter die du besitzt werden angezeigt.",
-    "disabled": "Zeige Ergebnisse für Level {{level}} Angreifer.",
+    "disabled": "Zeige Ergebnisse für Level {{level}} Angreifer. Die besten 24 Konter auf diesem Level werden angezeigt.",
+    "friend": "Zeige Ergebnisse für Benutzer {{userId}}. Die besten 24 Konter werden unten angezeigt.",
     "switchLevel": "Wechsele zu $t(common:attackerTypes.level)",
     "switchPokebox": "Wechsele zu $t(common:attackerTypes.pokebox)"
+  },
+  "emptyResults": {
+    "LEVEL": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Eventuell gab es ein Server Problem.",
+    "POKEBOX": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast du bereits Pokemon zu deiner Pokebox hinzugefügt?",
+    "FRIEND": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast dein Freund bereits Pokemon zu seiner Pokebox hinzugefügt?"
   }
 }

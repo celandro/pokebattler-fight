@@ -1,3 +1,32 @@
 {
+  "title": "Pokebox",
+  "pokemonList": {
+    "title": "Your Custom Pokebox"
+  },
+  "add": {
+    "title": "Pokebox",
+    "description": "Add Pokemon",
+    "pokemon": "Choose Pokemon",
+    "pokemonSelect": "Choose Pokemon"
+  },
+  "update": {
+    "title": "Pokebox",
+    "description": "Modify {{name}}"
+  },
+  "loading": "Loading your Pokemon",
+  "backPokebox": "Back to Pokebox",
+  "powerUp": "Power Up",
+  "status": {
+    "add": "Adding",
+    "update": "Updating",
+    "delete": "Deleting",
+    "success": "Saved Successfully",
+    "error": "Unexpected error"
+  },
+  "full": {
+    "title": "Pokebox - Out of space",
+    "explanation": "You have reached the maximum number of Pokemon for your Pokebox. Currently there is no way to increase your storage space, but stay tuned for updates with this feature coming soon."
 
+  },
+  "explanation" : "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not. You are currently limited to 50 Pokemon in your box so only load your best Pokemon (aka no Pidgeys)"
 }

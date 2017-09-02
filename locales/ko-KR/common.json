@@ -1,9 +1,14 @@
 {
   "back": "Back",
+  "save": "Save",
   "cancel": "Cancel",
+  "delete": "Delete",
+  "note": "Note",
   "cp": "CP",
-  "quickMove": "Quick Move",
-  "specialMove": "Special Move",
+  "win": "Win",
+  "loss": "Loss",
+  "quickMove": "Fast Move",
+  "specialMove": "Charge Move",
   "attackStrategy": "Attack Strategy",
   "defenseStrategy": "Simulation Type",
   "dodgeStrategy": "Dodge Strategy",
@@ -12,7 +17,59 @@
     "defense": "Defense",
     "stamina": "Stamina"
   },
+  "statsAbbr": {
+    "attack": "Att",
+    "defense": "Def",
+    "hp": "HP"
+  },
   "level": "Level",
   "basic": "Basic",
-  "advanced": "Advanced"
+  "advanced": "Advanced",
+  "move": "Move",
+  "moves": "Moves",
+  "type": "Pokemon Type",
+  "properties": {
+    "overall": "Overall",
+    "power": "Power",
+    "win": "Win %",
+    "deaths": "Deaths",
+    "effectiveDeaths": "Deaths to Win",
+    "time": "Time to Win",
+    "realTime": "Time",
+    "prestige": "Prestige",
+    "dps": "DPS",
+    "potions": "Potions",
+    "damage": "Damage",
+    "energy": "Energy",
+    "grouped": "Grouped",
+    "single": "Single"
+  },
+  "sectionLinks": {
+    "help": "Help section",
+    "about": "About section"
+  },
+  "simulation": "one simulation was",
+  "simulation_plural": "{{count}} simulations were",
+  "chooseMovesetLabel": "Choose Moveset",
+  "hd": {
+    "text": "$t(simulation, {'count': {{numSims}} }) performed to generate this high quality simulation",
+    "attackers": "attackers",
+    "defenders": "defenders",
+    "raid": "raid"
+  },
+  "name": "Name",
+  "faction": "Faction",
+  "mystic": "Mystic",
+  "valor": "Valor",
+  "instinct": "Instinct",
+  "ivs": "IVs",
+  "trainerName": "Trainer Name",
+  "attackerTypes": {
+    "pokebox": "My Pokebox",
+    "level": "By Level",
+    "friend" : "Thier Pokebox"
+  },
+  "pokebox": "Pokebox",
+  "login": "Login",
+  "trainer": "Trainer"
 }

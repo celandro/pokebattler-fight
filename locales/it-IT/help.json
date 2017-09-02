@@ -50,7 +50,7 @@
       "steps": [
         {
           "label": "Attacker/Defender",
-          "description": "Choose whether you are attacking or defending. Attacker shows the results vs. all possible defenders. Defender shows the results vs. the best 5 possible attackers"
+          "description": "Choose whether you are attacking or defending. Attacker shows the results vs. all possible defenders. Defender shows the results vs. the best 6 possible attackers"
         },
         {
           "label": "Sort",
