@@ -1,6 +1,6 @@
 {
-  "title": "Anmelden zu Pokebattler - Beta",
-  "description": "Melde dich mittels Google oder Facebook an, um auf deine Pokebox zuzugreifen",
+  "title": "Anmelden zu Pokebattler",
+  "description": "Melden Sie sich an, um auf Ihre Pokebox und personalisierte Simulationen zuzugreifen",
   "explanation": "Pokebattler wird und kann sich nicht in deinen Pokemon Go Acount einloggen. Wir verbinden uns in keiner Weise zu Niantic Servern. Pokebattler nutzt die Informationen nur um dich zwischen verschiedenen Geräten zu identifizieren. Du kannst dich auf deinem Telefon, Tablet oder Computer anmelden und alle deine Pokemon sehen. Wir nutzen oder teilen diese Informationen in keiner Weise für Marketingzwecke oder irgend einen anderen Zweck.",
   "privacy": "Weitere Informationen finden Sie in unserer Datenschutzerklärung",
   "loading": "Lade Benutzerdaten",
@@ -8,6 +8,7 @@
   "login" : {
     "google": "Login mit Google",
     "facebook": "Login mit Facebook",
+    "patreon": "Login mit Patreon",
     "success": {
       "title": "Erfolgreich angemeldet"
     }

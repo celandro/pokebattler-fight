@@ -448,25 +448,25 @@
 
   },
   "types": {
-    "POKEMON_TYPE_NONE": "Unknown",
+    "POKEMON_TYPE_NONE": "Unbekannt",
     "POKEMON_TYPE_NORMAL": "Normal",
-    "POKEMON_TYPE_FIGHTING":"Fighting",
-    "POKEMON_TYPE_FLYING": "Flying",
-    "POKEMON_TYPE_POISON": "Poison",
-    "POKEMON_TYPE_GROUND": "Ground",
-    "POKEMON_TYPE_ROCK": "Rock",
-    "POKEMON_TYPE_BUG": "Bug",
-    "POKEMON_TYPE_GHOST": "Ghost",
-    "POKEMON_TYPE_STEEL": "Steel",
-    "POKEMON_TYPE_FIRE": "Fire",
-    "POKEMON_TYPE_WATER": "Water",
-    "POKEMON_TYPE_GRASS": "Grass",
-    "POKEMON_TYPE_ELECTRIC": "Electric",
-    "POKEMON_TYPE_PSYCHIC": "Psychic",
-    "POKEMON_TYPE_ICE": "Ice",
-    "POKEMON_TYPE_DRAGON": "Dragon",
-    "POKEMON_TYPE_DARK": "Dark",
-    "POKEMON_TYPE_FAIRY": "Fairy"
+    "POKEMON_TYPE_FIGHTING":"Kampf",
+    "POKEMON_TYPE_FLYING": "Flug",
+    "POKEMON_TYPE_POISON": "Gift",
+    "POKEMON_TYPE_GROUND": "Boden",
+    "POKEMON_TYPE_ROCK": "Gestein",
+    "POKEMON_TYPE_BUG": "Käfer",
+    "POKEMON_TYPE_GHOST": "Geist",
+    "POKEMON_TYPE_STEEL": "Stahl",
+    "POKEMON_TYPE_FIRE": "Feuer",
+    "POKEMON_TYPE_WATER": "Wasser",
+    "POKEMON_TYPE_GRASS": "Pflanze",
+    "POKEMON_TYPE_ELECTRIC": "Elektro",
+    "POKEMON_TYPE_PSYCHIC": "Psycho",
+    "POKEMON_TYPE_ICE": "Eis",
+    "POKEMON_TYPE_DRAGON": "Drache",
+    "POKEMON_TYPE_DARK": "Unlicht",
+    "POKEMON_TYPE_FAIRY": "Fee"
   },
   "strategies": {
     "attack": {
@@ -497,6 +497,10 @@
       "DODGE_WEAVE_CAUTIOUS": {
         "label": "Alle Ausweichen Weave",
         "description": "Dies nutzt ein Angriffsmuster, welches annimmt, dass die schlimmste Verzögerung zwischen Angriffen von 1.5s jedes Mal passieren könnten. Diese Strategie sollte von Menschen reproduzierbar sein."
+      },
+      "undefined": {
+        "label": "Unbekannt",
+        "description": "Das sollte nicht passieren, bitte lasse uns wissen, wenn doch!"
       }
     },
     "dodge": {

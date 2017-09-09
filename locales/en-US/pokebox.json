@@ -1,7 +1,11 @@
 {
   "title": "Pokebox",
   "pokemonList": {
-    "title": "Your Custom Pokebox"
+    "title": "Your Custom Pokebox",
+    "zero": "Add your pokemon by clicking the box to the left.",
+    "zeroDescription": "If you already added Pokemon in the past, you may have logged in with a different account. Your accounts will automatically be linked if they use the same email address.",
+    "zeroHelp": "If they do not have the same email address, {{link}} with the userIds of the accounts you need to link",
+    "email": "email Pokebattler"
   },
   "add": {
     "title": "Pokebox",
@@ -25,8 +29,8 @@
   },
   "full": {
     "title": "Pokebox - Out of space",
-    "explanation": "You have reached the maximum number of Pokemon for your Pokebox. Currently there is no way to increase your storage space, but stay tuned for updates with this feature coming soon."
+    "explanation": "You have reached the maximum number of Pokemon for your Pokebox at your current support level. This puts you in the top 5% of Pokebattler users! Pokebattler depends on the support of heavy users like yourself to serve high quality simulations to everyone. You can increase your Pokemon storage by contributing to Pokebattler's Patreon."
 
   },
-  "explanation" : "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not. You are currently limited to 50 Pokemon in your box so only load your best Pokemon (aka no Pidgeys)"
+  "explanation" : "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not."
 }

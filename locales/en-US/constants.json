@@ -546,9 +546,17 @@
         "label": "Random",
         "description": "Full random simulation! Attacks come between 1.5 and 2.5s apart. Special attacks are used 50% of the time if the defender has enough energy"
       },
+      "DEFENSE_RANDOM_MC_FAST": {
+        "label": "Monte Carlo - Bronze",
+        "description": "A more accurate result. 10 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
+      },
+      "DEFENSE_RANDOM_MC_MID": {
+        "label": "Monte Carlo - Silver",
+        "description": "A highly accurate result. 25 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
+      },
       "DEFENSE_RANDOM_MC": {
-        "label": "Monte Carlo",
-        "description": "The most accurate result. 100 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies"
+        "label": "Monte Carlo - Gold",
+        "description": "The most accurate result. 200 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
       }
     }
   },

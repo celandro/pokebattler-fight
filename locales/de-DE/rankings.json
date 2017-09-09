@@ -47,12 +47,12 @@
     },
     "settings": {
       "level": "Pokemon Levels"
-    },
-    "featured": {
-      "title": {
-        "attacker": "Gemittelte Kampfstatistiken gegen die Top 30 WP Verteidiger",
-        "defender": "Gemittelte Kampfstatistiken gegen die 6 schlechtesten Herausforderer"
-      }
+    }
+  },
+  "featured": {
+    "title": {
+      "attacker": "Gemittelte Kampfstatistiken gegen die Top 30 WP Verteidiger",
+      "defender": "Gemittelte Kampfstatistiken gegen die 6 schlechtesten Herausforderer"
     }
   }
 }
