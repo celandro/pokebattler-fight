@@ -12,6 +12,7 @@
   "attackStrategy": "Attack Strategy",
   "defenseStrategy": "Simulation Type",
   "dodgeStrategy": "Dodge Strategy",
+  "weatherCondition": "Weather",
   "stats": {
     "attack": "Attack",
     "defense": "Defense",
@@ -42,7 +43,13 @@
     "damage": "Damage",
     "energy": "Energy",
     "grouped": "Grouped",
-    "single": "Single"
+    "single": "Single",
+    "id": "Id",
+    "cp": "$t(common:cp)",
+    "pokemon": "$t(common:pokemon)",
+    "name": "$t(common:name)",
+    "type": "$t(common:type)"
+
   },
   "sectionLinks": {
     "help": "Help section",
@@ -58,6 +65,7 @@
     "raid": "raid"
   },
   "name": "Name",
+  "nickname": "Nickname",
   "faction": "Faction",
   "mystic": "Mystic",
   "valor": "Valor",
@@ -70,7 +78,31 @@
     "friend" : "Thier Pokebox"
   },
   "pokebox": "Pokebox",
+  "advice": "Raid Advice",
   "login": "Login",
   "trainer": "Trainer",
-  "more": "More"
+  "more": "More",
+  "pokemon": "Pokemon",
+  "status": {
+    "add": "Adding",
+    "edit": "Editing",
+    "update": "Updating",
+    "delete": "Deleting",
+    "loading": "Loading",
+    "success": "Success",
+    "error": "Error",
+    "bulk": "Importing"
+  },
+  "message":{
+    "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
+    "delete": "Removing 1 pokemon from your Pokebox",
+    "update": "Updating your pokemon",
+    "success": "Success",
+    "error": "Oops, something went wrong. Try again in a couple seconds"
+  },
+  "site": {
+    "beta": "Beta Site",
+    "www": "Main Site"
+  }
+
 }

@@ -3,6 +3,69 @@
   "intro": "Welcome to Pokebattler.com! The BEST and most sophisticated Pokemon Go gym simulator ever invented. Want to know if that Snorlax’s just the stuff? Test every single one of your pokemon to see how they go head to head with other pokemon in the gym. You’ll get a second by second damage report for every battle.",
   "outro": "And make sure you check back for upcoming features like logins to save your best gym battlers and more.",
   "now-battle": "Now battle dem Pokémon!",
+  "backlink": "Back to help",
+  "pageNotFound": {
+    "title": "This page does not exist",
+    "text": "Sorry, we couldn't find the page you were looking for"
+  },
+  "pages": {
+    "raids": {
+      "title": "Raids",
+      "link": "/help/raids",
+      "description": "Pick the best counters for any boss with our customizable raid guide"
+    },
+    "battleSimulator": {
+      "title": "Battle Simulator",
+      "link": "/help/battle-simulator",
+      "description": "Simulate any matchup with the most accurate Pokemon Go simulator in the world"
+    },
+    "pokebox": {
+      "title": "Pokebox",
+      "link": "/help/pokebox",
+      "description": "Store your pokemon on our servers and use them across the site"
+    },
+    "pokedex": {
+      "title": "Pokedex",
+      "link": "/help/pokedex",
+      "description": "Find the best counters and the best matchups for each pokemon"
+    },
+    "rankings": {
+      "title": "Rankings",
+      "link": "/help/rankings",
+      "description": "Learn which pokemon are the best overall attackers and defenders"
+    },
+    "simulations": {
+      "title": "Simulations",
+      "link": "/help/simulations",
+      "description": "Definitions for all Pokebattler simulation types"
+    },
+    "attackStrategies": {
+      "title": "Attack Strategies",
+      "link": "/help/attack-strategies",
+      "description": "Definitions for attack strategies"
+    },
+    "dodgeStrategies": {
+      "title": "Dodge Strategies",
+      "link": "/help/dodge-strategies",
+      "description": "Definitions for dodge strategies"
+    },
+    "patreon": {
+      "title": "Patreon",
+      "link": "/help/patreon",
+      "description": "Learn how and why to support us through Patreon"
+    },
+    "glossary": {
+      "title": "Glossary",
+      "link": "/help/glossary",
+      "description": "A Pokemon Go dictionary"
+    },
+    "faqs": {
+      "title": "FAQs",
+      "link": "/help/faqs",
+      "description": "We get a lot of questions. Sometimes we get a lot of the same questions. Those questions and their answers lie here"
+    }
+  },
+
   "sections": {
     "battle": {
       "title": "Battle",

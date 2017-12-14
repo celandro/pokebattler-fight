@@ -34,8 +34,34 @@
     "RAID_LEVEL_UNSET": {
       "title": "Rang ?",
       "subtitle": "Unbekannte Raids",
-      "intro": "Diese Pokemon könnten Teil von zu künftigen Raids sein. Benutz dies wenn neue Raids erschienen sind und unsere Seite noch nicht aktualisiert wurde. Du kannst diesen Bereich auch benutzen, um zu sehen was bei einem Legendären Karpador Raid geschehen würde!"
+      "intro": "Diese Pokemon könnten Teil von zu künftigen Raids sein. Benutze dies wenn neue Raids erschienen sind und unsere Seite noch nicht aktualisiert wurde. Du kannst diesen Bereich auch benutzen, um zu sehen was bei einem Legendären Karpador Raid geschehen würde!"
+    },
+    "RAID_LEVEL_4_EVENTS": {
+      "title": "Spezial Rang 4",
+      "subtitle": "Spezial Event Raids",
+      "intro": "Diese Pokemon waren Raids bei vergangenen Ereignissen wie Yokohama. Sie könnten jederzeit unangekündigt wiederkommen."
+    },
+    "RAID_LEVEL_1_LEGACY": {
+      "title": "Legacy Tier 1",
+      "subtitle": "Einfacher Einzel-Raid",
+      "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
+    },
+    "RAID_LEVEL_2_LEGACY": {
+      "title": "Legacy Tier 2",
+      "subtitle": "Schwerer Einzel-Raid",
+      "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
+    },
+    "RAID_LEVEL_3_LEGACY": {
+      "title": "Legacy Tier 3",
+      "subtitle": "Einfacher Gruppen-Raid",
+      "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
+    },
+    "RAID_LEVEL_4_LEGACY": {
+      "title": "Legacy Tier 4",
+      "subtitle": "Schwerer Gruppen-Raid",
+      "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
     }
+
   },
   "custom": {
     "title": "Eigener Raid",
@@ -51,7 +77,8 @@
       "subtitle": "Die besten Angreifer nach",
       "description": "Die folgende Analyse zeigt die Pokemon, die die stärksten Angreifer hinsichtlich {{sort}} gegen {{pokemon}} sind.",
       "moveSetOrderingDescription": "Die Attackenmuster sind vom schwersten zum einfachsten sortiert. Stelle sicher, dir mehrere anzuschauen, da die Ergebnisse große Unterschiede haben können!",
-      "difficultyNote": "Raid Bosse sind sehr viel schwerer als normale kämpfe, also solltest du deine Möglichkeiten sorgfältig abwägen."
+      "difficultyNote": "Raid Bosse sind sehr viel schwerer als normale kämpfe, also solltest du deine Möglichkeiten sorgfältig abwägen.",
+      "chooseMovesetLabel": "Wähle Attacken"
     },
     "hardestMovesets": {
       "title": "Schwierigste Raids",
@@ -68,6 +95,7 @@
       }
     },
     "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter basierend auf dem Attackenmuster jedes Bosses. Dieser Guide is anpassbar auf verschiedenen Wegen. Du kannst verschiedene Angriffslevel und Angriffsstrategien wählen, welche du nutzen willst, sowie verschiedene Sortierungen."
+
   },
   "pokebox": {
     "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
@@ -80,6 +108,7 @@
   "emptyResults": {
     "LEVEL": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Eventuell gab es ein Server Problem.",
     "POKEBOX": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast du bereits Pokemon zu deiner Pokebox hinzugefügt?",
-    "FRIEND": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast dein Freund bereits Pokemon zu seiner Pokebox hinzugefügt?"
+    "FRIEND": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast dein Freund bereits Pokemon zu seiner Pokebox hinzugefügt? Versuche es mit einem anderen Trainer."
   }
+
 }

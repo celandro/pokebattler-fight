@@ -12,6 +12,7 @@
   "attackStrategy": "Angriffsstrategie",
   "defenseStrategy": "Simulationstyp",
   "dodgeStrategy": "Ausweichstrategie",
+  "weatherCondition": "Wetter",
   "stats": {
     "attack": "Angriff",
     "defense": "Verteidigung",
@@ -42,7 +43,13 @@
     "damage": "Schaden",
     "energy": "Energie",
     "grouped": "Gruppiert",
-    "single": "Einzeln"
+    "single": "Einzeln",
+    "id": "ID",
+    "cp": "$t(common:cp)",
+    "pokemon": "$t(common:pokemon)",
+    "name": "$t(common:name)",
+    "type": "$t(common:type)"
+
   },
   "sectionLinks": {
     "help": "Hilfebereich",
@@ -58,6 +65,7 @@
     "raid": "Raid"
   },
   "name": "Name",
+  "nickname": "Spitzname",
   "faction": "Team",
   "mystic": "Weisheit",
   "valor": "Wagemut",
@@ -70,7 +78,31 @@
     "friend": "Ihre Pokebox"
   },
   "pokebox": "Pokebox",
+  "advice": "Raid Hilfe",
   "login": "Login",
   "trainer": "Trainer",
-  "more": "Mehr"
+  "more": "Mehr",
+  "pokemon": "Pokemon",
+  "status": {
+    "add": "Füge hinzu",
+    "edit": "Bearbeite",
+    "update": "Aktualisiere",
+    "delete": "Lösche",
+    "loading": "Lade",
+    "success": "Erfolgreich",
+    "error": "Fehler",
+    "bulk": "Importiere"
+  },
+  "message": {
+    "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
+    "delete": "Removing 1 pokemon from your Pokebox",
+    "update": "Updating your pokemon",
+    "success": "Success",
+    "error": "Oops, something went wrong. Try again in a couple seconds"
+  },
+  "site": {
+    "beta": "Beta-Seite",
+    "www": "Hauptseite"
+  }
+
 }

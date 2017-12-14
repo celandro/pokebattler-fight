@@ -35,7 +35,33 @@
       "title": "Tier ?",
       "subtitle": "Unknown Raids",
       "intro": "These pokemon may be parts of future pokemon raid tiers. Use this if a new raid has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Magikarp raid too!"
+    },
+    "RAID_LEVEL_4_EVENTS": {
+      "title": "Special Tier 4",
+      "subtitle": "Special Event Raids",
+      "intro": "These Pokemon have been raids at past events such as Yokohama. They may come back again unannounced."
+    },
+    "RAID_LEVEL_1_LEGACY": {
+      "title": "Legacy Tier 1",
+      "subtitle": "Easy Solo Raid",
+      "intro": "These raids are not currently in the raid rotations"
+    },
+    "RAID_LEVEL_2_LEGACY": {
+      "title": "Legacy Tier 2",
+      "subtitle": "Hard Solo Raid",
+      "intro": "These raids are not currently in the raid rotations"
+    },
+    "RAID_LEVEL_3_LEGACY": {
+      "title": "Legacy Tier 3",
+      "subtitle": "Easy Group Raid",
+      "intro": "These raids are not currently in the raid rotations"
+    },
+    "RAID_LEVEL_4_LEGACY": {
+      "title": "Legacy Tier 4",
+      "subtitle": "Hard Group Raid",
+      "intro": "These raids are not currently in the raid rotations"
     }
+
   },
   "custom": {
     "title": "Custom Raid",
@@ -82,7 +108,7 @@
   "emptyResults": {
     "LEVEL": "There were no results returned for this calculation. The server may be having issues",
     "POKEBOX": "There were no results returned for this calculation. Perhaps you have not entered any pokemon in your pokebox yet?",
-    "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any pokemon in their pokebox yet?"
+    "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any pokemon in their pokebox yet? Try a different trainer."
   }
 
 }

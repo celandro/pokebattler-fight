@@ -31,7 +31,7 @@
   "roles": {
     "title": "Account Information",
     "heading": "Current Benefits",
-    "description": "Contribute to Pokebattler's {{link}} for premium benefits. Pokebattler is made possible by supporters contributing to the increasing server costs of hosting this site. ",
+    "description": "Contribute to Pokebattler's {{link}} for premium benefits. Pokebattler is made possible by supporters contributing to the increasing server costs of hosting this site.",
     "maxPokemon": "Max Pokemon",
     "quality": "Simulation Quality",
     "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated",
@@ -42,7 +42,8 @@
       "ROLE_FAN": "Pokebattler Fan",
       "ROLE_SUPPORTER": "Pokebattler Supporter",
       "ROLE_PATREON": "Pokebattler Patreon",
-      "ROLE_FANATIC": "Pokebattler Fanatic"
+      "ROLE_FANATIC": "Pokebattler Fanatic",
+      "ROLE_CONTEST": "Pokebattler Contest Winner"
     }
   }
 

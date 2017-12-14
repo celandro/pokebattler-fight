@@ -3,6 +3,69 @@
   "intro": "Willkommen zu Pokebattler.com! Dem BESTEN und anspruchsvollste Pokemon Go Arena Simulator, der jemals entwickelt wurde. Möchtest du wissen, ob dein Relaxo das Zeug zum Sieger hat? Teste jedes einzelne deiner Pokemon um zu sehen, wie sie in einem Kopf an Kopf gegen andere Pokemon in der Arena abschneiden. Für jeden Kampf bekommst du einen sekündlichen Schadensbericht.",
   "outro": "Und schau wieder vorbei für künftige Features wie Einloggen zum Speichern deiner besten Arenakämpfe und vieles mehr.",
   "now-battle": "Jetzt ab zum Pokemonkampf!",
+  "backlink": "Zurück zur Hilfe",
+  "pageNotFound": {
+    "title": "Diese Seite existiert nicht",
+    "text": "Entschuldige, wir konnten die angeforderte Seite nicht finden"
+  },
+  "pages": {
+    "raids": {
+      "title": "Raids",
+      "link": "/help/raids",
+      "description": "Wähle die besten Konter für irgendeinen Boss mit unserem anpassbarem Raid Guide"
+    },
+    "battleSimulator": {
+      "title": "Kampfsimulator",
+      "link": "/help/battle-simulator",
+      "description": "Simuliere jedes beliebige Aufeinandertreffen mit dem genausten Pokemon Go Simulator der Welt"
+    },
+    "pokebox": {
+      "title": "Pokebox",
+      "link": "/help/pokebox",
+      "description": "Speichere deinen Pokemon auf unseren Server und nutze sie auf der ganzen Webseite"
+    },
+    "pokedex": {
+      "title": "Pokedex",
+      "link": "/help/pokedex",
+      "description": "Finde die besten Konter und die besten Aufeinandertreffen für jedes Pokemon"
+    },
+    "rankings": {
+      "title": "Rankings",
+      "link": "/help/rankings",
+      "description": "Lerne welche Pokemon die besten allgemeinen Angreifer und Verteidiger sind"
+    },
+    "simulations": {
+      "title": "Simulationen",
+      "link": "/help/simulations",
+      "description": "Definitionen für alle Pokebattler Simulationstypen"
+    },
+    "attackStrategies": {
+      "title": "Angriffsstrategien",
+      "link": "/help/attack-strategies",
+      "description": "Definitionen für Angriffstrategien"
+    },
+    "dodgeStrategies": {
+      "title": "Dodge Strategies",
+      "link": "/help/dodge-strategies",
+      "description": "Definitionen für Ausweichstrategien"
+    },
+    "patreon": {
+      "title": "Patreon",
+      "link": "/help/patreon",
+      "description": "Lerne wie und warum du uns durch Patreon supportest"
+    },
+    "glossary": {
+      "title": "Glossar",
+      "link": "/help/glossary",
+      "description": "Ein Pokemon Go Wörterbuch"
+    },
+    "faqs": {
+      "title": "FAQs",
+      "link": "/help/faqs",
+      "description": "Wir bekommen viele Frage. Manchmal bekommen wir häufig die selben Fragen. Diese Fragen und ihre Antworten finden sich hier"
+    }
+  },
+  
   "sections": {
     "battle": {
       "title": "Kampf",
