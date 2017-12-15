@@ -560,9 +560,6 @@
     "X_SCISSOR": "시저크로스",
     "ZAP_CANNON": "전자포",
     "ZEN_HEADBUTT_FAST": "사념의박치기",
-    "DODGE": "Dodge",
-    "REVIVE": "Fainted",
-    "HEAL": "Heal",
     "HIDDEN_POWER_FAIRY_FAST": "잠재파워",
     "HIDDEN_POWER_DARK_FAST": "잠재파워",
     "HIDDEN_POWER_DRAGON_FAST": "잠재파워",
@@ -581,112 +578,6 @@
     "HIDDEN_POWER_FLYING_FAST": "잠재파워",
     "HIDDEN_POWER_FIGHTING_FAST": "잠재파워",
     "HIDDEN_POWER_NORMAL_FAST": "잠재파워"    
-  },
-  "types": {
-    "POKEMON_TYPE_NONE": "Unknown",
-    "POKEMON_TYPE_NORMAL": "Normal",
-    "POKEMON_TYPE_FIGHTING":"Fighting",
-    "POKEMON_TYPE_FLYING": "Flying",
-    "POKEMON_TYPE_POISON": "Poison",
-    "POKEMON_TYPE_GROUND": "Ground",
-    "POKEMON_TYPE_ROCK": "Rock",
-    "POKEMON_TYPE_BUG": "Bug",
-    "POKEMON_TYPE_GHOST": "Ghost",
-    "POKEMON_TYPE_STEEL": "Steel",
-    "POKEMON_TYPE_FIRE": "Fire",
-    "POKEMON_TYPE_WATER": "Water",
-    "POKEMON_TYPE_GRASS": "Grass",
-    "POKEMON_TYPE_ELECTRIC": "Electric",
-    "POKEMON_TYPE_PSYCHIC": "Psychic",
-    "POKEMON_TYPE_ICE": "Ice",
-    "POKEMON_TYPE_DRAGON": "Dragon",
-    "POKEMON_TYPE_DARK": "Dark",
-    "POKEMON_TYPE_FAIRY": "Fairy"
-  },
+  }
 
-  "strategies": {
-    "attack": {
-      "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
-        "label": "No Dodging",
-        "description": "Use your quick moves as quick as possible until you can unleash your special move"
-      },
-      "QUICK_ATTACK_ONLY": {
-        "label": "Only Quick Moves",
-        "description": "Use your quick moves as quick as possible!"
-      },
-      "DODGE_SPECIALS2": {
-        "label": "Dodge Specials",
-        "description": "Use quick attacks until you can dodge their special, then use your special."
-      },
-      "DODGE_SPECIALS": {
-        "label": "Dodge Specials PRO",
-        "description": "Use quick and special moves as soon as you can, but dodge their special!"
-      },
-      "DODGE_ALL2": {
-        "label": "Dodge All",
-        "description": "Use quick attacks and dodge their moves until you can dodge their special, then use your special!"
-      },
-      "DODGE_ALL": {
-        "label": "Dodge All PRO",
-        "description": "Use quick attacks and special attacks in between dodging all their moves!"
-      },
-      "DODGE_WEAVE_CAUTIOUS": {
-        "label": "Dodge All Weave",
-        "description": "This uses an attack pattern strategy that assumes that the worst case 1.5s delay between attacks could happen every time. This strategy should be reproducible by a human."
-      },
-      "undefined": {
-        "label": "Unknown",
-        "description": "This should not occur. Please let us know this happened!"
-      }
-    },
-    "dodge": {
-      "DODGE_100": {
-        "label": "Perfect Dodging",
-        "description": "Tries to dodge 100% of the time. This dodge strategy will almost never miss a dodge. You may still get hit in certain unavoidable situations such as when using a special move"
-      },
-      "DODGE_REACTION_TIME": {
-        "label": "Realistic Dodging",
-        "description": "Attempts to simulate a realistic human dodger. Dodges vary from 50% success rate for a fast 1 second move to 90% success rate for a slow 3.5s move. In addition, if the attacker is using either super effective or not effective attacks, there is an additional 25% penalty to dodging, dropping the success rate to 37.5% to 67.5%. Finally a small bonus for faster attacker moves is added based on how much faster the move is than the dodge flash"
-      },
-      "DODGE_REACTION_TIME2": {
-        "label": "Realistic Dodging Pro",
-        "description": "Attempts to simulate a realistic experienced human dodger. Dodges vary from 70% success rate for a fast 1 second move to 90% success rate for a slow 3.5s move. In addition, if the attacker is using either super effective or not effective attacks, there is an additional 10% penalty to dodging, dropping the success rate to 63.0% to 81.0%. Finally a small bonus for faster attack moves is added based on how much faster the move is than the dodge flash"
-      },
-      "DODGE_25": {
-        "label": "25% Dodging",
-        "description": "Chooses to dodge 25% of the time"
-      },
-      "DODGE_50": {
-        "label": "50% Dodging",
-        "description": "Chooses to dodge 50% of the time"
-      },
-      "DODGE_75": {
-        "label": "75% Dodging",
-        "description": "Chooses to dodge 75% of the time"
-      },
-      "DODGE_90": {
-        "label": "90% Dodging",
-        "description": "Chooses to dodge 90% of the time"
-      }
-    },
-    "defense": {
-      "DEFENSE": {
-        "label": "Expected Defender",
-        "description": "Statistically valid expected result. Attacks come every 2 seconds and special attacks are always 1 attack late."
-      },
-      "DEFENSE_LUCKY": {
-        "label": "Lucky Defender",
-        "description": "About as bad as it can get. Attacks come every 1.95s and special attacks are as early as possible"
-      },
-      "DEFENSE_RANDOM": {
-        "label": "Random",
-        "description": "Full random simulation! Attacks come between 1.5 and 2.5s apart. Special attacks are used 50% of the time if the defender has enough energy"
-      },
-      "DEFENSE_RANDOM_MC": {
-        "label": "Monte Carlo",
-        "description": "The most accurate result. 100 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies"
-      }
-    }
-  },
-  "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender"
 }
