@@ -1,11 +1,11 @@
 {
-  "title": "About Pokebattler",
-  "history": "This site was created by {{link}} (aka Ryan Barker) in July 2016  with the help of some of his coworkers.  Ryan's wife Shelley Barker is also providing some much appreciated help on this labor of love",
-  "engine": "This calculation engine for this site is {{link}} and backs this free to all battle simulator site. Funding for this site is currently coming from Ryans pocket until such a time as his wife gets upset with him for spending too much money on this  site.",
-  "githubLink": "open sourced",
-  "thanks": "Special thanks to all the redditors who did research along the way including ",
-  "sponsor": "Pokebattler.com has been sponsored by {{link}}. Check them out!",
-  "privacy": "Pokebattler takes your privacy seriously, more information on our {{link}}",
-  "privacyLink": "privacy page",
-  "images": "Pokémon Images from this site are used under Creative Commons Attribution license They can be found at {{link}}"
+    "title": "About Pokebattler",
+    "history": "This site was created by {{link}} (aka Ryan Barker) in July 2016  with the help of some of his coworkers.  Ryan's wife Shelley Barker is also providing some much appreciated help on this labor of love.",
+    "engine": "This calculation engine for this site is {{link}} and backs this free to all battle simulator site. Funding for this site is currently coming from Ryans pocket until such a time as his wife gets upset with him for spending too much money on this  site.",
+    "githubLink": "open sourced",
+    "thanks": "Special thanks to all the redditors who did research along the way including ",
+    "sponsor": "Pokebattler.com has been sponsored by {{link}}. Check them out!",
+    "privacy": "Pokebattler takes your privacy seriously, more information on our {{link}}",
+    "privacyLink": "privacy page",
+    "images": "Pokémon Images from this site are used under Creative Commons Attribution license. They can be found at {{link}}."
 }
