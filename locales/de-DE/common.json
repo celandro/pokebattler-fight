@@ -1,108 +1,106 @@
 {
-  "back": "Zurück",
-  "save": "Speichern",
-  "cancel": "Abbrechen",
-  "delete": "Löschen",
-  "note": "Hinweis",
-  "cp": "WP",
-  "win": "Sieg",
-  "loss": "Niederlage",
-  "quickMove": "Schnellangriff",
-  "specialMove": "Spezialangriff",
-  "attackStrategy": "Angriffsstrategie",
-  "defenseStrategy": "Simulationstyp",
-  "dodgeStrategy": "Ausweichstrategie",
-  "weatherCondition": "Wetter",
-  "stats": {
-    "attack": "Angriff",
-    "defense": "Verteidigung",
-    "stamina": "Ausdauer"
-  },
-  "statsAbbr": {
-    "attack": "Ang",
-    "defense": "Ver",
-    "hp": "KP"
-  },
-  "level": "Level",
-  "basic": "Standard",
-  "advanced": "Erweitert",
-  "move": "Attacke",
-  "moves": "Attacken",
-  "type": "Pokemon Typ",
-  "properties": {
-    "overall": "Allgemein",
-    "power": "Stärke",
-    "win": "Sieg %",
-    "deaths": "Tode",
-    "effectiveDeaths": "Tode zum Sieg",
-    "time": "Zeit zum Sieg",
-    "realTime": "Zeit",
-    "prestige": "Prestige",
-    "dps": "SPS",
-    "potions": "Tränke",
-    "damage": "Schaden",
-    "energy": "Energie",
-    "grouped": "Gruppiert",
-    "single": "Einzeln",
-    "id": "ID",
-    "cp": "$t(common:cp)",
-    "pokemon": "$t(common:pokemon)",
-    "name": "$t(common:name)",
-    "type": "$t(common:type)"
-
-  },
-  "sectionLinks": {
-    "help": "Hilfebereich",
-    "about": "Über-uns-Bereich"
-  },
-  "simulation": "1 Simulation wurde",
-  "simulation_plural": "{{count}} Simulationen wurden",
-  "chooseMovesetLabel": "Wähle Attackenmuster",
-  "hd": {
-    "text": "$t(simulation, {'count': {{numSims}} }) wurden ausgeführt um diese hochqualitative Simulation",
-    "attackers": "Angreifer",
-    "defenders": "Verteidiger",
-    "raid": "Raid"
-  },
-  "name": "Name",
-  "nickname": "Spitzname",
-  "faction": "Team",
-  "mystic": "Weisheit",
-  "valor": "Wagemut",
-  "instinct": "Intuition",
-  "ivs": "IVs",
-  "trainerName": "Trainername",
-  "attackerTypes": {
-    "pokebox": "Meine Pokebox",
-    "level": "Nach Level",
-    "friend": "Ihre Pokebox"
-  },
-  "pokebox": "Pokebox",
-  "advice": "Raid Hilfe",
-  "login": "Login",
-  "trainer": "Trainer",
-  "more": "Mehr",
-  "pokemon": "Pokemon",
-  "status": {
-    "add": "Füge hinzu",
-    "edit": "Bearbeite",
-    "update": "Aktualisiere",
-    "delete": "Lösche",
-    "loading": "Lade",
-    "success": "Erfolgreich",
-    "error": "Fehler",
-    "bulk": "Importiere"
-  },
-  "message": {
-    "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
-    "delete": "Removing 1 pokemon from your Pokebox",
-    "update": "Updating your pokemon",
-    "success": "Success",
-    "error": "Oops, something went wrong. Try again in a couple seconds"
-  },
-  "site": {
-    "beta": "Beta-Seite",
-    "www": "Hauptseite"
-  }
-
+    "back": "Zurück",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "note": "Hinweis",
+    "cp": "WP",
+    "win": "Sieg",
+    "loss": "Niederlage",
+    "quickMove": "Schnellangriff",
+    "specialMove": "Spezialangriff",
+    "attackStrategy": "Angriffsstrategie",
+    "defenseStrategy": "Simulationstyp",
+    "dodgeStrategy": "Ausweichstrategie",
+    "weatherCondition": "Wetter",
+    "stats": {
+        "attack": "Angriff",
+        "defense": "Verteidigung",
+        "stamina": "Ausdauer"
+    },
+    "statsAbbr": {
+        "attack": "Ang",
+        "defense": "Ver",
+        "hp": "KP"
+    },
+    "level": "Level",
+    "basic": "Standard",
+    "advanced": "Erweitert",
+    "move": "Attacke",
+    "moves": "Attacken",
+    "type": "Pokemon Typ",
+    "properties": {
+        "overall": "Allgemein",
+        "power": "Stärke",
+        "win": "Sieg %",
+        "deaths": "Tode",
+        "effectiveDeaths": "Tode zum Sieg",
+        "time": "Zeit zum Sieg",
+        "realTime": "Zeit",
+        "prestige": "Prestige",
+        "dps": "SPS",
+        "potions": "Tränke",
+        "damage": "Schaden",
+        "energy": "Energie",
+        "grouped": "Gruppiert",
+        "single": "Einzeln",
+        "id": "ID",
+        "cp": "$t(common:cp)",
+        "pokemon": "$t(common:pokemon)",
+        "name": "$t(common:name)",
+        "type": "$t(common:type)"
+    },
+    "sectionLinks": {
+        "help": "Hilfebereich",
+        "about": "Über-uns-Bereich"
+    },
+    "simulation": "1 Simulation wurde",
+    "simulation_plural": "{{count}} Simulationen wurden",
+    "chooseMovesetLabel": "Wähle Attackenmuster",
+    "hd": {
+        "text": "$t(simulation, {'count': {{numSims}} }) wurden ausgeführt um diese hochqualitative Simulation",
+        "attackers": "Angreifer",
+        "defenders": "Verteidiger",
+        "raid": "Raid"
+    },
+    "name": "Name",
+    "nickname": "Spitzname",
+    "faction": "Team",
+    "mystic": "Weisheit",
+    "valor": "Wagemut",
+    "instinct": "Intuition",
+    "ivs": "IVs",
+    "trainerName": "Trainername",
+    "attackerTypes": {
+        "pokebox": "Meine Pokebox",
+        "level": "Nach Level",
+        "friend": "Ihre Pokebox"
+    },
+    "pokebox": "Pokebox",
+    "advice": "Raid Hilfe",
+    "login": "Login",
+    "trainer": "Trainer",
+    "more": "Mehr",
+    "pokemon": "Pokemon",
+    "status": {
+        "add": "Füge hinzu",
+        "edit": "Bearbeite",
+        "update": "Aktualisiere",
+        "delete": "Lösche",
+        "loading": "Lade",
+        "success": "Erfolgreich",
+        "error": "Fehler",
+        "bulk": "Importiere"
+    },
+    "message": {
+        "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
+        "delete": "Removing 1 pokemon from your Pokebox",
+        "update": "Updating your pokemon",
+        "success": "Success",
+        "error": "Oops, something went wrong. Try again in a couple seconds"
+    },
+    "site": {
+        "beta": "Beta-Seite",
+        "www": "Hauptseite"
+    }
 }

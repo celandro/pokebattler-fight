@@ -1,8 +1,8 @@
 {
-  "title": "Pokebattler Privacy Policy",
-  "policy": "Pokebattler.com cares about your privacy. We do not share your personal information with third parties nor do we store any information about your visit to this website other than to analyze and optimize your experience on the site through the use of cookies and local storage. Local storage in particular is used to store your site customizations between visits for your convenience. ",
-  "pokebox":"Pokebattler does not connect to Niantic servers in any way. The pokebox and personalization options use Google and Facebook single sign on capability and are used to provide a custom experience across devices. No personal information is retrieved or stored other than an identification number and email address which are only used for login purposes and account troubleshooting. This data is not used for marketing or affiliate purposes in any way. Use of these features is optional and is intended for your benefit only",
-  "browserSettings": "You can turn off the use of cookies and local storage at any time by changing your specific browser settings.",
-  "changeNote": "This privacy policy is subject to change without notice and was last updated on {{changed_date}}. If you have any questions {{contactLink}}",
-  "contactLink": "contact us."
+    "title": "Pokebattler Privacy Policy",
+    "policy": "Pokebattler.com cares about your privacy. We do not share your personal information with third parties nor do we store any information about your visit to this website other than to analyze and optimize your experience on the site through the use of cookies and local storage. Local storage in particular is used to store your site customizations between visits for your convenience.",
+    "pokebox": "Pokebattler does not connect to Niantic servers in any way. The pokebox and personalization options use Google and Facebook single sign on capability and are used to provide a custom experience across devices. No personal information is retrieved or stored other than an identification number and email address which are only used for login purposes and account troubleshooting. This data is not used for marketing or affiliate purposes in any way. Use of these features is optional and is intended for your benefit only.",
+    "browserSettings": "You can turn off the use of cookies and local storage at any time by changing your specific browser settings.",
+    "changeNote": "This privacy policy is subject to change without notice and was last updated on {{changed_date}}. If you have any questions {{contactLink}}",
+    "contactLink": "contact us."
 }
