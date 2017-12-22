@@ -1,50 +1,48 @@
 {
-  "title": "Anmelden zu Pokebattler",
-  "description": "Melde dich an, um auf deine Pokebox und personalisierten Simulationen zuzugreifen",
-  "explanation": "Pokebattler wird und kann sich nicht in deinen Pokemon Go Acount einloggen. Wir verbinden uns in keiner Weise zu Niantic Servern. Pokebattler nutzt die Informationen nur um dich zwischen verschiedenen Geräten zu identifizieren. Du kannst dich auf deinem Telefon, Tablet oder Computer anmelden und alle deine Pokemon sehen. Wir nutzen oder teilen diese Informationen in keiner Weise für Marketingzwecke oder irgend einen anderen Zweck.",
-  "privacy": "Weitere Informationen finden Sie in unserer Datenschutzerklärung",
-  "loading": "Lade Benutzerdaten",
-  "user": "Benutzer",
-
-  "login": {
-    "google": "Login mit Google",
-    "facebook": "Login mit Facebook",
-    "patreon": "Login mit Patreon",
-    "patreonDescription": "Patreon Unterstützer erhalten Belohnungen wie mehr Pokemon in ihrer Pokebox und qualitativ höhere personalisierte Simulationen",
-    "success": {
-      "title": "Erfolgreich angemeldet"
+    "title": "Anmelden zu Pokebattler",
+    "description": "Melde dich an, um auf deine Pokebox und personalisierten Simulationen zuzugreifen",
+    "explanation": "Pokebattler wird und kann sich nicht in deinen Pokemon Go Acount einloggen. Wir verbinden uns in keiner Weise zu Niantic Servern. Pokebattler nutzt die Informationen nur um dich zwischen verschiedenen Geräten zu identifizieren. Du kannst dich auf deinem Telefon, Tablet oder Computer anmelden und alle deine Pokemon sehen. Wir nutzen oder teilen diese Informationen in keiner Weise für Marketingzwecke oder irgend einen anderen Zweck.",
+    "privacy": "Weitere Informationen finden Sie in unserer Datenschutzerklärung",
+    "loading": "Lade Benutzerdaten",
+    "user": "Benutzer",
+    "login": {
+        "google": "Login mit Google",
+        "facebook": "Login mit Facebook",
+        "patreon": "Login mit Patreon",
+        "patreonDescription": "Patreon Unterstützer erhalten Belohnungen wie mehr Pokemon in ihrer Pokebox und qualitativ höhere personalisierte Simulationen",
+        "success": {
+            "title": "Erfolgreich angemeldet"
+        }
+    },
+    "details": {
+        "welcome": "Willkommen",
+        "description": "Deine Trainer Informationen unten werden auf der gesamten Seite zur Anpassung benutzt und werden auch anderen Nutzern angezeigt."
+    },
+    "loggedIn": {
+        "title": "Öffentliches Profil"
+    },
+    "logout": {
+        "title": "Abgemeldet",
+        "description": "Du hast dich erfolgreich abgemeldet. Komme später wieder auf irgendeinem Gerät und deine Pokebox wird für dich da sein!",
+        "back": "zurück zur Anmeldung",
+        "button": "Abmelden"
+    },
+    "roles": {
+        "title": "Account Informationen",
+        "heading": "Aktuelle Vorteile",
+        "description": "Trage zu Pokebattler's {{link}} bei und erlange tolle Vorteile. Pokebattler wird ermöglichst durch Unterstützer die zu den steigenden Serverkosten zum hosten dieser Seite beitragen.",
+        "maxPokemon": "Max Pokemon",
+        "quality": "Simulationsqualität",
+        "thanks": "Danke dass du Pokebattler unterstützt! Deine Beteiligung wird sehr geschätzt.",
+        "support": "Unterstütze Pokebattler",
+        "role": {
+            "ROLE_USER": "Pokebattler User",
+            "ROLE_ADMIN": "Pokebattler Admin",
+            "ROLE_FAN": "Pokebattler Fan",
+            "ROLE_SUPPORTER": "Pokebattler Supporter",
+            "ROLE_PATREON": "Pokebattler Patreon",
+            "ROLE_FANATIC": "Pokebattler Fanatic",
+            "ROLE_CONTEST": "Pokebattler Wettbewerb Sieger"
+        }
     }
-  },
-  "details": {
-    "welcome": "Willkommen",
-    "description": "Deine Trainer Informationen unten werden auf der gesamten Seite zur Anpassung benutzt und werden auch anderen Nutzern angezeigt."
-  },
-  "loggedIn": {
-    "title": "Öffentliches Profil"
-  },
-  "logout": {
-    "title": "Abgemeldet",
-    "description": "Du hast dich erfolgreich abgemeldet. Komme später wieder auf irgendeinem Gerät und deine Pokebox wird für dich da sein!",
-    "back": "zurück zur Anmeldung",
-    "button": "Abmelden"
-  },
-  "roles": {
-    "title": "Account Informationen",
-    "heading": "Aktuelle Vorteile",
-    "description": "Trage zu Pokebattler's {{link}} bei und erlange tolle Vorteile. Pokebattler wird ermöglichst durch Unterstützer die zu den steigenden Serverkosten zum hosten dieser Seite beitragen.",
-    "maxPokemon": "Max Pokemon",
-    "quality": "Simulationsqualität",
-    "thanks": "Danke dass du Pokebattler unterstützt! Deine Beteiligung wird sehr geschätzt.",
-    "support": "Unterstütze Pokebattler",
-    "role": {
-      "ROLE_USER": "Pokebattler User",
-      "ROLE_ADMIN": "Pokebattler Admin",
-      "ROLE_FAN": "Pokebattler Fan",
-      "ROLE_SUPPORTER": "Pokebattler Supporter",
-      "ROLE_PATREON": "Pokebattler Patreon",
-      "ROLE_FANATIC": "Pokebattler Fanatic",
-      "ROLE_CONTEST": "Pokebattler Wettbewerb Sieger"
-    }
-  }
-
 }
