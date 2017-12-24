@@ -1,2 +1,18 @@
 {
+    "title": "Guía para incursiones",
+    "linkLabel": "Guía para incursiones",
+    "intro": "¡Las incursiones han llegado a Pokémon Go! Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión  con la guía para incursiones más precisa del mundo. Simplemente selecciona la incursión para ver los mejores atacantes para cada movimiento.",
+    "tierList": {
+        "common": {
+            "boss": "Jefe"
+        },
+        "RAID_LEVEL_1": {
+            "title": "Nivel 1",
+            "subtitle": "Incursión sencilla de forma individual",
+            "intro": "Las incursiones de nivel 1 son muy fáciles de vencer en solitario. Un jugador de nivel 20 sin los mejores Pokémon debería de ser capaz de hacerlo por su cuenta. Estas incursiones son útiles para obtener caramelos de Pokémon que no son comunes en tu zona."
+        },
+        "RAID_LEVEL_2": {
+            "title": "Nivel 2"
+        }
+    }
 }
