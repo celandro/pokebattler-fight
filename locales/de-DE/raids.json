@@ -1,114 +1,111 @@
 {
-  "title": "Raid Guide",
-  "linkLabel": "Raid Guide",
-  "intro": "Pokemon Go Raids sind da! Finde heraus, welches Pokemon Raid Bosse am besten besiegt mit dem weltbesten einstellbarem Pokemon Go Raid Guide. Wähle einfach den Raid unten und sieh die besten Kämpfer dagegen für jedes Attackenmuster!",
-  "tierList": {
-    "common": {
-      "boss": "Boss"
-    },
-    "RAID_LEVEL_1": {
-      "title": "Rang 1",
-      "subtitle": "Einfacher Einzel-Raid",
-      "intro": "Rang 1 Raids sind ziemlich einfach zu besiegen. Ein Level 20 Spieler mit normalen Pokemon sollte in der Lage sein, dies zu schaffen. Diese Raids sind ein guter Weg um Bonbons für Pokemon zu sammeln, die selten im jeweiligen Gebiet sind."
-    },
-    "RAID_LEVEL_2": {
-      "title": "Rang 2",
-      "subtitle": "Schwerer Einzel-Raid",
-      "intro": "Rang 2 Rainds zielen auf Level 30 bis 40 Spieler, die diese Pokemon einfach besiegen können. Niedriger gelevelte Spieler sollten sich gruppieren um diese Pokemon zu besiegen."
-    },
-    "RAID_LEVEL_3": {
-      "title": "Rang 3",
-      "subtitle": "Einfacher Gruppen-Raid",
-      "intro": "Rang 3 Raids zielen auf Gruppen von 2 Level 30 bis 40 Spielern. Sie können auch allein besiegt werden von Level 40 Spielern mit etwas Glück und perfektem Spiel mit starken Pokemon."
-    },
-    "RAID_LEVEL_4": {
-      "title": "Rang 4",
-      "subtitle": "Schwerer Gruppen-Raid",
-      "intro": "Rang 4 Raids zielen auf Gruppen von 5 bis 6 Level 30 bis 40 Spielern. Es gibt Berichte, dass einige Maximal Level Spieler diese mit 3 bis 4 perfekten Kontern besiegt haben."
-    },
-    "RAID_LEVEL_5": {
-      "title": "Rang 5",
-      "subtitle": "Legendärer Raid",
-      "intro": "Einige dieser Rang 5 Raids sind noch nicht im Spiel! Sie werden oft in Gruppen von 8 bis 12 level 30 bis 40 Spielern bekämpft. Einige Experten schafften sie sogar mit nur 2 bis 5 Spielern."
-    },
-    "RAID_LEVEL_UNSET": {
-      "title": "Rang ?",
-      "subtitle": "Unbekannte Raids",
-      "intro": "Diese Pokemon könnten Teil von zu künftigen Raids sein. Benutze dies wenn neue Raids erschienen sind und unsere Seite noch nicht aktualisiert wurde. Du kannst diesen Bereich auch benutzen, um zu sehen was bei einem Legendären Karpador Raid geschehen würde!"
-    },
-    "RAID_LEVEL_4_EVENTS": {
-      "title": "Spezial Rang 4",
-      "subtitle": "Spezial Event Raids",
-      "intro": "Diese Pokemon waren Raids bei vergangenen Ereignissen wie Yokohama. Sie könnten jederzeit unangekündigt wiederkommen."
-    },
-    "RAID_LEVEL_1_LEGACY": {
-      "title": "Legacy Tier 1",
-      "subtitle": "Einfacher Einzel-Raid",
-      "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
-    },
-    "RAID_LEVEL_2_LEGACY": {
-      "title": "Legacy Tier 2",
-      "subtitle": "Schwerer Einzel-Raid",
-      "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
-    },
-    "RAID_LEVEL_3_LEGACY": {
-      "title": "Legacy Tier 3",
-      "subtitle": "Einfacher Gruppen-Raid",
-      "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
-    },
-    "RAID_LEVEL_4_LEGACY": {
-      "title": "Legacy Tier 4",
-      "subtitle": "Schwerer Gruppen-Raid",
-      "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
-    }
-
-  },
-  "custom": {
-    "title": "Eigener Raid",
-    "levelsLabel": "Angreifer-Level",
-    "buttonLabel": "Beste Angreifer finden",
-    "attackersLabel": "Angreifer"
-  },
-  "results": {
     "title": "Raid Guide",
-    "calculating": "Berechne Raid Ergebnisse",
-    "counters": {
-      "title": " Konter",
-      "subtitle": "Die besten Angreifer nach",
-      "description": "Die folgende Analyse zeigt die Pokemon, die die stärksten Angreifer hinsichtlich {{sort}} gegen {{pokemon}} sind.",
-      "moveSetOrderingDescription": "Die Attackenmuster sind vom schwersten zum einfachsten sortiert. Stelle sicher, dir mehrere anzuschauen, da die Ergebnisse große Unterschiede haben können!",
-      "difficultyNote": "Raid Bosse sind sehr viel schwerer als normale kämpfe, also solltest du deine Möglichkeiten sorgfältig abwägen.",
-      "chooseMovesetLabel": "Wähle Attacken"
+    "linkLabel": "Raid Guide",
+    "intro": "Pokemon Go Raids sind da! Finde heraus, welches Pokemon Raid Bosse am besten besiegt mit dem weltbesten einstellbarem Pokemon Go Raid Guide. Wähle einfach den Raid unten und sieh die besten Kämpfer dagegen für jedes Attackenmuster!",
+    "tierList": {
+        "common": {
+            "boss": "Boss"
+        },
+        "RAID_LEVEL_1": {
+            "title": "Rang 1",
+            "subtitle": "Einfacher Einzel-Raid",
+            "intro": "Rang 1 Raids sind ziemlich einfach zu besiegen. Ein Level 20 Spieler mit normalen Pokemon sollte in der Lage sein, dies zu schaffen. Diese Raids sind ein guter Weg um Bonbons für Pokemon zu sammeln, die selten im jeweiligen Gebiet sind."
+        },
+        "RAID_LEVEL_2": {
+            "title": "Rang 2",
+            "subtitle": "Schwerer Einzel-Raid",
+            "intro": "Rang 2 Rainds zielen auf Level 30 bis 40 Spieler, die diese Pokemon einfach besiegen können. Niedriger gelevelte Spieler sollten sich gruppieren um diese Pokemon zu besiegen."
+        },
+        "RAID_LEVEL_3": {
+            "title": "Rang 3",
+            "subtitle": "Einfacher Gruppen-Raid",
+            "intro": "Rang 3 Raids zielen auf Gruppen von 2 Level 30 bis 40 Spielern. Sie können auch allein besiegt werden von Level 40 Spielern mit etwas Glück und perfektem Spiel mit starken Pokemon."
+        },
+        "RAID_LEVEL_4": {
+            "title": "Rang 4",
+            "subtitle": "Schwerer Gruppen-Raid",
+            "intro": "Rang 4 Raids zielen auf Gruppen von 5 bis 6 Level 30 bis 40 Spielern. Es gibt Berichte, dass einige Maximal Level Spieler diese mit 3 bis 4 perfekten Kontern besiegt haben."
+        },
+        "RAID_LEVEL_5": {
+            "title": "Rang 5",
+            "subtitle": "Legendärer Raid",
+            "intro": "Einige dieser Rang 5 Raids sind noch nicht im Spiel! Sie werden oft in Gruppen von 8 bis 12 level 30 bis 40 Spielern bekämpft. Einige Experten schafften sie sogar mit nur 2 bis 5 Spielern."
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "Rang ?",
+            "subtitle": "Unbekannte Raids",
+            "intro": "Diese Pokemon könnten Teil von zu künftigen Raids sein. Benutze dies wenn neue Raids erschienen sind und unsere Seite noch nicht aktualisiert wurde. Du kannst diesen Bereich auch benutzen, um zu sehen was bei einem Legendären Karpador Raid geschehen würde!"
+        },
+        "RAID_LEVEL_4_EVENTS": {
+            "title": "Spezial Rang 4",
+            "subtitle": "Spezial Event Raids",
+            "intro": "Diese Pokemon waren Raids bei vergangenen Ereignissen wie Yokohama. Sie könnten jederzeit unangekündigt wiederkommen."
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Legacy Tier 1",
+            "subtitle": "Einfacher Einzel-Raid",
+            "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Legacy Tier 2",
+            "subtitle": "Schwerer Einzel-Raid",
+            "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "Legacy Tier 3",
+            "subtitle": "Einfacher Gruppen-Raid",
+            "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "Legacy Tier 4",
+            "subtitle": "Schwerer Gruppen-Raid",
+            "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
+        }
     },
-    "hardestMovesets": {
-      "title": "Schwierigste Raids",
-      "subtitle": "Für {{pokemon}} nach {{sort}}",
-      "tableTitle": "Schwierigste Attackenmuster",
-      "description": "Die Raid Schwierigkeit kann sich je nach den Attacken des verteidigenden Pokemons sehr unterscheiden!"
+    "custom": {
+        "title": "Eigener Raid",
+        "levelsLabel": "Angreifer-Level",
+        "buttonLabel": "Beste Angreifer finden",
+        "attackersLabel": "Angreifer"
     },
-    "analysis": {
-      "title": "Über diese Analyse",
-      "description": "Diese Raid Analyse basiert auf der Kampfsimulation eines verteidigenden {{defender.pokemon}} mit {{defender.cp}} WP und {{attackers}}. Die Simulation lief mit der {{attackStrategy}} Angriffstrategie basierend auf dem {{defenseStrategy}} Simulationstyp. {{numSims}} Simulationen wurden durchgeführt mit jeden möglichen Attackenmuster von {{defender.pokemon}} gegen jedes einzelne Pokemone mit jeden möglichen Attackenmuster. Die 20 besten Angreifer mit ihren besten Attacken wurde basierend auf {{sort}} behalten und hier dargestellt. Du kannst auf jeden der Angreifer klicken um die Simulationen zu sehen und verschiedene Attacken auszuprobieren.",
-      "attackers": {
-        "byLevel": "Level {{attackerLevel}} Angreifern",
-        "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
-      }
+    "results": {
+        "title": "Raid Guide",
+        "calculating": "Berechne Raid Ergebnisse",
+        "counters": {
+            "title": " Konter",
+            "subtitle": "Die besten Angreifer nach",
+            "description": "Die folgende Analyse zeigt die Pokemon, die die stärksten Angreifer hinsichtlich {{sort}} gegen {{pokemon}} sind.",
+            "moveSetOrderingDescription": "Die Attackenmuster sind vom schwersten zum einfachsten sortiert. Stelle sicher, dir mehrere anzuschauen, da die Ergebnisse große Unterschiede haben können!",
+            "difficultyNote": "Raid Bosse sind sehr viel schwerer als normale kämpfe, also solltest du deine Möglichkeiten sorgfältig abwägen.",
+            "chooseMovesetLabel": "Wähle Attacken"
+        },
+        "hardestMovesets": {
+            "title": "Schwierigste Raids",
+            "subtitle": "Für {{pokemon}} nach {{sort}}",
+            "tableTitle": "Schwierigste Attackenmuster",
+            "description": "Die Raid Schwierigkeit kann sich je nach den Attacken des verteidigenden Pokemons sehr unterscheiden!"
+        },
+        "analysis": {
+            "title": "Über diese Analyse",
+            "description": "Diese Raid Analyse basiert auf der Kampfsimulation eines verteidigenden {{defender.pokemon}} mit {{defender.cp}} WP und {{attackers}}. Die Simulation lief mit der {{attackStrategy}} Angriffstrategie basierend auf dem {{defenseStrategy}} Simulationstyp. {{numSims}} Simulationen wurden durchgeführt mit jeden möglichen Attackenmuster von {{defender.pokemon}} gegen jedes einzelne Pokemone mit jeden möglichen Attackenmuster. Die 20 besten Angreifer mit ihren besten Attacken wurde basierend auf {{sort}} behalten und hier dargestellt. Du kannst auf jeden der Angreifer klicken um die Simulationen zu sehen und verschiedene Attacken auszuprobieren.",
+            "attackers": {
+                "byLevel": "Level {{attackerLevel}} Angreifern",
+                "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
+            }
+        },
+        "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter basierend auf dem Attackenmuster jedes Bosses. Dieser Guide is anpassbar auf verschiedenen Wegen. Du kannst verschiedene Angriffslevel und Angriffsstrategien wählen, welche du nutzen willst, sowie verschiedene Sortierungen."
     },
-    "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter basierend auf dem Attackenmuster jedes Bosses. Dieser Guide is anpassbar auf verschiedenen Wegen. Du kannst verschiedene Angriffslevel und Angriffsstrategien wählen, welche du nutzen willst, sowie verschiedene Sortierungen."
-
-  },
-  "pokebox": {
-    "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
-    "enabled": "Zeige angepasste Ergebnisse für deine Pokebox. Die 24 besten Konter die du besitzt werden angezeigt.",
-    "disabled": "Zeige Ergebnisse für Level {{level}} Angreifer. Die besten 24 Konter auf diesem Level werden angezeigt.",
-    "friend": "Zeige Ergebnisse für Benutzer {{userId}}. Die besten 24 Konter werden unten angezeigt.",
-    "switchLevel": "Wechsele zu $t(common:attackerTypes.level)",
-    "switchPokebox": "Wechsele zu $t(common:attackerTypes.pokebox)"
-  },
-  "emptyResults": {
-    "LEVEL": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Eventuell gab es ein Server Problem.",
-    "POKEBOX": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast du bereits Pokemon zu deiner Pokebox hinzugefügt?",
-    "FRIEND": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast dein Freund bereits Pokemon zu seiner Pokebox hinzugefügt? Versuche es mit einem anderen Trainer."
-  }
-
+    "pokebox": {
+        "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
+        "enabled": "Zeige angepasste Ergebnisse für deine Pokebox. Die 24 besten Konter die du besitzt werden angezeigt.",
+        "disabled": "Zeige Ergebnisse für Level {{level}} Angreifer. Die besten 24 Konter auf diesem Level werden angezeigt.",
+        "friend": "Zeige Ergebnisse für Benutzer {{userId}}. Die besten 24 Konter werden unten angezeigt.",
+        "switchLevel": "Wechsele zu $t(common:attackerTypes.level)",
+        "switchPokebox": "Wechsele zu $t(common:attackerTypes.pokebox)"
+    },
+    "emptyResults": {
+        "LEVEL": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Eventuell gab es ein Server Problem.",
+        "POKEBOX": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast du bereits Pokemon zu deiner Pokebox hinzugefügt?",
+        "FRIEND": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast dein Freund bereits Pokemon zu seiner Pokebox hinzugefügt? Versuche es mit einem anderen Trainer."
+    }
 }
