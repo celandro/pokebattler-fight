@@ -1,46 +1,45 @@
 {
-  "title": "Pokebox",
-  "blurb": "Füge dein Pokemon für angepasste Ergebnisse hinzu!",
-  "pokemonList": {
-    "title": "Deine Pokebox",
-    "zero": "Füge deine Pokemon hinzu, indem du die Box links anklickst.",
-    "zeroDescription": "Falls du bereits in der Vergangenheit Pokemon hinzugefügt hast, bist du vielleicht mit einem anderen Account angemeldet. Deine Accounts werden automatisch verlinkt, wenn sie die gleiche Emailadresse benutzen.",
-    "zeroHelp": "Falls sie nicht die gleiche Emailadresse benutzen, {{link}} mit den UserIds, die du verlinkt haben möchtest",
-    "email": "schreibe Pokebattler eine Mail"
-  },
-  "add": {
     "title": "Pokebox",
-    "description": "Füge Pokemon hinzu",
-    "pokemon": "Pokemon hinzufügen",
-    "pokemonSelect": "Pokemon wählen"
-  },
-  "delete": {
-    "title": "Löschen",
-    "confirmation": "Bist du sicher, dass du dieses Pokemon löschen willst?"
-  },
-  "import": {
-    "button": "Massenimport",
-    "title": "Pokebox Import",
-    "description": "Importiere Pokemon",
-    "parse": "Beginne Import",
-    "hintText": "Viele Formate werden unterstützt. Stelle sicher, dass du eine Kopfzeile bereitstellst",
-    "floatingLabel": "Füge hier deine Pokemon ein, nachdem du sie kopiert hast",
-    "table": {
-      "header": "Wähle alle Pokemon, die du importieren willst",
-      "selectAll": "Alle auswählen"
-    }
-  },
-  "update": {
-    "title": "Pokebox - Pokemon aktualisieren",
-    "description": "Verändere {{name}}"
-  },
-  "loading": "Lade deine Pokemon",
-  "backPokebox": "Zurück zur Pokebox",
-  "powerUp": "Power Up",
-  "full": {
-    "title": "Pokebox - Kein Platz mehr",
-    "explanation": "Du hast die maximale Anzahl an Pokemon für deine Pokebox auf deinem Unterstützungslevel erreicht. Das macht dich zu einem der Top 5% aller Pokebattler Benutzer.Pokebattler baut auf die Unterstützung von Powerusern wie dich um hochqualitative Simulationen für alle zur Verfügung zu stellen. Du kannst deinen Pokemon Platz erhöhen, in dem du uns auf Patreon unterstützt."
-
-  },
-  "explanation": "Pokebattler Pokebox ist ein spannendes neues Fature welches dich dein Pokebattler Erlebnis anpassen lässt basierend auf den Pokemon die du wirklich besitzt! Alle Pokemon die du deiner Pokebox hinzufügst können durch die ganze Seite hinweg benutzt werden. Schau nach dem Box Icon. Grün bedeutet, du benutzt die Pokebox, schwarz heißt du nimmst sie nicht."
+    "blurb": "Füge dein Pokemon für angepasste Ergebnisse hinzu!",
+    "pokemonList": {
+        "title": "Deine Pokebox",
+        "zero": "Füge deine Pokemon hinzu, indem du die Box links anklickst.",
+        "zeroDescription": "Falls du bereits in der Vergangenheit Pokemon hinzugefügt hast, bist du vielleicht mit einem anderen Account angemeldet. Deine Accounts werden automatisch verlinkt, wenn sie die gleiche Emailadresse benutzen.",
+        "zeroHelp": "Falls sie nicht die gleiche Emailadresse benutzen, {{link}} mit den UserIds, die du verlinkt haben möchtest",
+        "email": "schreibe Pokebattler eine Mail"
+    },
+    "add": {
+        "title": "Pokebox",
+        "description": "Füge Pokemon hinzu",
+        "pokemon": "Pokemon hinzufügen",
+        "pokemonSelect": "Pokemon wählen"
+    },
+    "delete": {
+        "title": "Löschen",
+        "confirmation": "Bist du sicher, dass du dieses Pokemon löschen willst?"
+    },
+    "import": {
+        "button": "Massenimport",
+        "title": "Pokebox Import",
+        "description": "Importiere Pokemon",
+        "parse": "Beginne Import",
+        "hintText": "Viele Formate werden unterstützt. Stelle sicher, dass du eine Kopfzeile bereitstellst",
+        "floatingLabel": "Füge hier deine Pokemon ein, nachdem du sie kopiert hast",
+        "table": {
+            "header": "Wähle alle Pokemon, die du importieren willst",
+            "selectAll": "Alle auswählen"
+        }
+    },
+    "update": {
+        "title": "Pokebox - Pokemon aktualisieren",
+        "description": "Verändere {{name}}"
+    },
+    "loading": "Lade deine Pokemon",
+    "backPokebox": "Zurück zur Pokebox",
+    "powerUp": "Power Up",
+    "full": {
+        "title": "Pokebox - Kein Platz mehr",
+        "explanation": "Du hast die maximale Anzahl an Pokemon für deine Pokebox auf deinem Unterstützungslevel erreicht. Das macht dich zu einem der Top 5% aller Pokebattler Benutzer.Pokebattler baut auf die Unterstützung von Powerusern wie dich um hochqualitative Simulationen für alle zur Verfügung zu stellen. Du kannst deinen Pokemon Platz erhöhen, in dem du uns auf Patreon unterstützt."
+    },
+    "explanation": "Pokebattler Pokebox ist ein spannendes neues Fature welches dich dein Pokebattler Erlebnis anpassen lässt basierend auf den Pokemon die du wirklich besitzt! Alle Pokemon die du deiner Pokebox hinzufügst können durch die ganze Seite hinweg benutzt werden. Schau nach dem Box Icon. Grün bedeutet, du benutzt die Pokebox, schwarz heißt du nimmst sie nicht."
 }

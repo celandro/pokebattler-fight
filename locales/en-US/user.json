@@ -1,50 +1,48 @@
 {
-  "title": "Log in to Pokebattler",
-  "description": "Log in to access your Pokebox and personalized simulations",
-  "explanation": "Pokebattler does not and can not log in to your Pokemon Go account. We do not connect to Niantic servers in any way. Pokebattler only uses this login to know who you across all your devices. You can login on your phone or tablet or computer and see all the Pokemon that you have entered into our site. We do not share your information or use it for marketing purposes or any other way.",
-  "privacy": "For more information, see our privacy policy",
-  "loading": "Loading User Data",
-  "user": "User",
-
-  "login" : {
-    "google": "Login using Google",
-    "facebook": "Login using Facebook",
-    "patreon": "Login using Patreon",
-    "patreonDescription": "Patreon supporters have rewards including more Pokemon in their Pokebox and higher quality personalized simulations",
-    "success": {
-      "title": "Logged in Successfully"
+    "title": "Log in to Pokebattler",
+    "description": "Log in to access your Pokebox and personalized simulations",
+    "explanation": "Pokebattler does not and can not log in to your Pokemon Go account. We do not connect to Niantic servers in any way. Pokebattler only uses this login to know who you across all your devices. You can login on your phone or tablet or computer and see all the Pokemon that you have entered into our site. We do not share your information or use it for marketing purposes or any other way.",
+    "privacy": "For more information, see our privacy policy",
+    "loading": "Loading User Data",
+    "user": "User",
+    "login": {
+        "google": "Login using Google",
+        "facebook": "Login using Facebook",
+        "patreon": "Login using Patreon",
+        "patreonDescription": "Patreon supporters have rewards including more Pokemon in their Pokebox and higher quality personalized simulations",
+        "success": {
+            "title": "Logged in Successfully"
+        }
+    },
+    "details": {
+        "welcome": "Welcome",
+        "description": "Your trainer information below will be used to customize the site and will be displayed to other users."
+    },
+    "loggedIn": {
+        "title": "Public Profile"
+    },
+    "logout": {
+        "title": "Logged out",
+        "description": "You have been successfully logged out. Come back later on any device and your Pokebox will be there waiting for you!",
+        "back": "Back to login",
+        "button": "Logout"
+    },
+    "roles": {
+        "title": "Account Information",
+        "heading": "Current Benefits",
+        "description": "Contribute to Pokebattler's {{link}} for premium benefits. Pokebattler is made possible by supporters contributing to the increasing server costs of hosting this site.",
+        "maxPokemon": "Max Pokemon",
+        "quality": "Simulation Quality",
+        "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated.",
+        "support": "Support Pokebattler",
+        "role": {
+            "ROLE_USER": "Pokebattler User",
+            "ROLE_ADMIN": "Pokebattler Admin",
+            "ROLE_FAN": "Pokebattler Fan",
+            "ROLE_SUPPORTER": "Pokebattler Supporter",
+            "ROLE_PATREON": "Pokebattler Patreon",
+            "ROLE_FANATIC": "Pokebattler Fanatic",
+            "ROLE_CONTEST": "Pokebattler Contest Winner"
+        }
     }
-  },
-  "details": {
-    "welcome": "Welcome",
-    "description": "Your trainer information below will be used to customize the site and will be displayed to other users."
-  },
-  "loggedIn": {
-    "title": "Public Profile"
-  },
-  "logout": {
-    "title": "Logged out",
-    "description": "You have been successfully logged out. Come back later on any device and your Pokebox will be there waiting for you! ",
-    "back": "Back to login",
-    "button": "Logout"
-  },
-  "roles": {
-    "title": "Account Information",
-    "heading": "Current Benefits",
-    "description": "Contribute to Pokebattler's {{link}} for premium benefits. Pokebattler is made possible by supporters contributing to the increasing server costs of hosting this site.",
-    "maxPokemon": "Max Pokemon",
-    "quality": "Simulation Quality",
-    "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated",
-    "support": "Support Pokebattler",
-    "role": {
-      "ROLE_USER": "Pokebattler User",
-      "ROLE_ADMIN": "Pokebattler Admin",
-      "ROLE_FAN": "Pokebattler Fan",
-      "ROLE_SUPPORTER": "Pokebattler Supporter",
-      "ROLE_PATREON": "Pokebattler Patreon",
-      "ROLE_FANATIC": "Pokebattler Fanatic",
-      "ROLE_CONTEST": "Pokebattler Contest Winner"
-    }
-  }
-
 }
