@@ -4,7 +4,8 @@
     "intro": "Pokemon Go Raids are here! Find out which Pokémon will beat raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
     "tierList": {
         "common": {
-            "boss": "Boss"
+            "boss": "Boss",
+            "raidTier": "Raid Tier"
         },
         "RAID_LEVEL_1": {
             "title": "Tier 1",

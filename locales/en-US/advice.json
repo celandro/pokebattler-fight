@@ -1,5 +1,33 @@
 {
   "title": "Advice",
   "linkLabel": "Raid Guide",
-  "intro": "Pokebattler Advice is a custom feature designed to help you optimize your Pokebox for particular raids. Simply select your Pokemon from your Pokebox and the target raid boss to see how your Pokemon will do after it is powered up."
+  "intro": "Pokebattler Advice is a custom feature designed to help you optimize your Pokebox for particular raids. Simply select your Pokemon from your Pokebox and the target raid boss to see how your Pokemon will do after it is powered up.",
+  "buttonLabel": "Power Up Pokemon",
+  "results": {
+    "title": "Raid Advice",
+    "calculating": "Calculating Raid Advice",
+    "counters": {
+      "title": " counters",
+      "subtitle": "Best Powered Up Attackers by",
+      "description": "The following analysis shows the pokemon that have the potential to be the strongest raiders in terms of {{sort}} against {{pokemon}}.",
+      "moveSetOrderingDescription": "The move sets are ordered from hardest to raid against to the easiest, make sure to check multiple, the results can vary greatly!",
+      "chooseMovesetLabel": "Choose Moveset"
+    },
+    "hardestMovesets": {
+      "title": "Most Difficult Raids",
+      "subtitle": "For {{pokemon}} by {{sort}}",
+      "tableTitle": "Hardest movesets to raid against",
+      "description": "Raid difficulty can vary greatly based on the moveset of the defending pokemon!"
+    },
+    "analysis": {
+      "title": "About This Analysis",
+      "description": "This raid advice was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single pokemon with every possible moveset. The best 20 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
+      "attackers": {
+        "byLevel": "level {{attackerLevel}} attackers",
+        "pokebox": "the custom pokemon from user #{{userId}}'s pokebox"
+      }
+    },
+    "description": "Welcome to the Pokebattler raid advice {{pokemon}}. You can find the best potential counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options. You can also choose the amount of stardust and candies you have available."
+
+  }
 }

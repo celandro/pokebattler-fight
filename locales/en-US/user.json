@@ -9,7 +9,7 @@
         "google": "Login using Google",
         "facebook": "Login using Facebook",
         "patreon": "Login using Patreon",
-        "patreonDescription": "Patreon supporters have rewards including more Pokemon in their Pokebox and higher quality personalized simulations",
+        "patreonDescription": "Patreon supporters have rewards including more Pokemon in their Pokebox, higher quality personalized simulations and a Raid Advice google sheet!",
         "success": {
             "title": "Logged in Successfully"
         }
