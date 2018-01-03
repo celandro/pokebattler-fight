@@ -49,8 +49,11 @@
     "cp": "$t(common:cp)",
     "pokemon": "$t(common:pokemon)",
     "name": "$t(common:name)",
-    "type": "$t(common:type)"
-
+    "type": "$t(common:type)",
+    "cp": "$t(common:cp)",
+    "powerups": "Power Ups",
+    "stardust": "Stardust",
+    "candy": "Candy"
   },
   "sectionLinks": {
     "help": "Help section",
@@ -104,6 +107,13 @@
   "site": {
     "beta": "Beta Site",
     "www": "Main Site"
+  },
+  "candy": {
+    "title": "Candy Available"
+  },
+  "stardust": {
+    "title": "Stardust Available"
   }
+
 
 }
