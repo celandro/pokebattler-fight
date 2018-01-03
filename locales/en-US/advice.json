@@ -1,7 +1,11 @@
 {
   "title": "Advice",
   "linkLabel": "Raid Guide",
-  "intro": "Pokebattler Advice is a custom feature designed to help you optimize your Pokebox for particular raids. Simply select your Pokemon from your Pokebox and the target raid boss to see how your Pokemon will do after it is powered up.",
+  "intro": "Pokebattler Advice is a custom feature designed to help you optimize your Pokebox for particular raids. Simply select the raid boss you wish to find your best potential Pokemon for, and enter the stardust and candy you have available to see how your Pokemon will look after they are powered up.",
+  "intro2": "After you have run a simulation, click on any Pokemon to see how much improvement you got after each level. There are often breakpoints that you can stop powering your Pokemon up after to save yourself some stardust and candy!",
+  "inputs": {
+    "title": "What Do You Need Advice For?"
+  },
   "buttonLabel": "Power Up Pokemon",
   "results": {
     "title": "Raid Advice",
@@ -27,7 +31,11 @@
         "pokebox": "the custom pokemon from user #{{userId}}'s pokebox"
       }
     },
-    "description": "Welcome to the Pokebattler raid advice {{pokemon}}. You can find the best potential counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options. You can also choose the amount of stardust and candies you have available."
+    "description": "Welcome to the Pokebattler raid advice for {{pokemon}}. You can find the best potential counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options. You can also choose the amount of stardust and candies you have available."
 
+  },
+  "result": {
+    "description": "The result of each powerup of a {{attacker}} vs. a {{defender}} raid boss is shown below. The results will vary based on the move set of the boss."
   }
+
 }
