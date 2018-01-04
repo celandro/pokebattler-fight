@@ -1,2 +1,25 @@
 {
+    "title": "Pokebox",
+    "blurb": "Ajoutez vos pokémons pour des résultats personnalisés !",
+    "pokemonList": {
+        "title": "Votre Pokebox personnalisée",
+        "zero": "Ajoutez vos pokémons en cliquant sur la case à gauche.",
+        "zeroDescription": "Si vous avez déjà ajouté des pokémons par le passé, vous avez peut-être ouvert une session avec un autre compte. Vos comptes seront automatiquement liés s'ils utilisent la même adresse mail."
+    },
+    "add": {
+        "title": "Pokebox",
+        "description": "Ajouter un pokémon",
+        "pokemon": "Choisir un pokémon",
+        "pokemonSelect": "Choisir un pokémon"
+    },
+    "delete": {
+        "title": "Supprimer",
+        "confirmation": "Êtes-vous sûr de vouloir supprimer ce pokémon ?"
+    },
+    "import": {
+        "description": "Importer des pokémons",
+        "parse": "Commencer l'importation",
+        "hintText": "De nombreux formats sont pris en charge. Assurez-vous d'inclure une ligne d'en-tête.",
+        "floatingLabel": "Copiez et collez vos pokémons ici"
+    }
 }
