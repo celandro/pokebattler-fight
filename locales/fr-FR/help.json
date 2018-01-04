@@ -12,7 +12,17 @@
         },
         "battleSimulator": {
             "title": "Simulateur de combat",
-            "link": "/help/battle-simulator"
+            "link": "/help/battle-simulator",
+            "description": "Simuler n'importe quel match avec le simulateur de Pokémon Go le plus précis au monde"
+        },
+        "pokebox": {
+            "description": "Stockez vos pokémons sur nos serveurs et utilisez-les sur le site"
+        },
+        "pokedex": {
+            "description": "Trouvez les meilleurs contres et les meilleurs matchs pour chaque pokémon"
+        },
+        "rankings": {
+            "title": "Classements"
         }
     }
 }
