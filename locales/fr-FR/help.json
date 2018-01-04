@@ -22,7 +22,8 @@
             "description": "Trouvez les meilleurs contres et les meilleurs matchs pour chaque pokémon"
         },
         "rankings": {
-            "title": "Classements"
+            "title": "Classements",
+            "link": "/help/rankings"
         }
     }
 }
