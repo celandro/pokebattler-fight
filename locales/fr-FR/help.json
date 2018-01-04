@@ -1,2 +1,13 @@
 {
+    "title": "Comment utiliser Pokebattler",
+    "pageNotFound": {
+        "title": "Cette page n'existe pas",
+        "text": "Désolé, nous n'avons pas trouvé la page que vous cherchiez"
+    },
+    "pages": {
+        "raids": {
+            "title": "Raids",
+            "link": "/aide/raids"
+        }
+    }
 }
