@@ -7,7 +7,11 @@
     "pages": {
         "raids": {
             "title": "Raids",
-            "link": "/help/raids"
+            "link": "/help/raids",
+            "description": "Choisissez les meilleurs contres pour n'importe quel boss avec notre guide de raid personnalisable"
+        },
+        "battleSimulator": {
+            "title": "Simulateur de combat"
         }
     }
 }
