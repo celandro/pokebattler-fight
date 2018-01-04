@@ -1,2 +1,15 @@
 {
+    "linkLabel": "團體戰導引",
+    "results": {
+        "counters": {
+            "title": "剋星",
+            "moveSetOrderingDescription": "招式組由最難排到最簡單，請確認每一個，以防結果差異過大。",
+            "chooseMovesetLabel": "選擇招式組"
+        },
+        "hardestMovesets": {
+            "title": "最難的團體戰",
+            "tableTitle": "最難撃敗的招式組",
+            "description": "防守寶可夢的招式組可決定團體戰難易度！"
+        }
+    }
 }
