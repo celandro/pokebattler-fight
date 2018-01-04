@@ -11,7 +11,8 @@
             "description": "Choisissez les meilleurs contres pour n'importe quel boss avec notre guide de raid personnalisable"
         },
         "battleSimulator": {
-            "title": "Simulateur de combat"
+            "title": "Simulateur de combat",
+            "link": "/help/battle-simulator"
         }
     }
 }
