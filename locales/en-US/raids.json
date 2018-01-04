@@ -98,7 +98,7 @@
     },
     "pokebox": {
         "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
-        "enabled": "Showing custom results for your Pokebox. The 24 top counters that you own are shown below.",
+        "enabled": "Showing custom results for your Pokebox. The 24 best counters that you own are shown below.",
         "disabled": "Showing results for level {{level}} attackers. The best 24 counters at that level are shown below.",
         "friend": "Showing results for user {{userId}}. Their best 24 counters are shown below.",
         "switchLevel": "Switch To $t(common:attackerTypes.level)",
@@ -108,5 +108,17 @@
         "LEVEL": "There were no results returned for this calculation. The server may be having issues.",
         "POKEBOX": "There were no results returned for this calculation. Perhaps you have not entered any pokemon in your pokebox yet?",
         "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any pokemon in their pokebox yet? Try a different trainer."
+    },
+    "people": {
+        "title": "Pokebattler Estimater",
+        "difficultyRating": "Difficulty rating: {{rating}}",
+        "adviceLink": "See what happens if you power up",
+        "estimate": {
+            "close": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a very close fight. Bring one more trainer if you can to be safe. ",
+            "almost": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. If you are very lucky, you might be able to beat it with 1 less trainers.",
+            "normal": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. Make sure your group is prepared before the fight.",
+            "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
+        }
     }
+
 }

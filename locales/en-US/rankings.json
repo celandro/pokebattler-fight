@@ -39,8 +39,8 @@
             "attackers": "attackers",
             "defenders": "defenders",
             "details": {
-                "attackers": "each fully evolved pokemon attacker with every possible moveset simulated against the top 30 CP defenders with every possible moveset with the Expected strategy. The top 32 attackers were then run with the Monte Carlo strategy hundreds of times each. The best 24 attackers with their best moveset based on {{sort}} were kept and are displayed here.",
-                "defenders": "each possible moveset simulated against the top 30 CP, top 30 power, top 30 overall and top 30 time to win attackers with every possible moveset with the expected strategy. The top 32 defenders were kept and simulated against their best 15 counters with their best 5 movesets 300 times each. Finally the worst 5 counters for each pokemon were considered and used to find the best 24 defenders with their best moveset based on {{sort}} were kept and are displayed here."
+                "attackers": "each fully evolved pokemon attacker with every possible moveset simulated against the best 30 CP defenders with every possible moveset with the Expected strategy. The top 32 attackers were then run with the Monte Carlo strategy hundreds of times each. The best 24 attackers with their best moveset based on {{sort}} were kept and are displayed here.",
+                "defenders": "each possible moveset simulated against the best 30 CP, best 30 power, best 30 overall and best 30 time to win attackers with every possible moveset with the expected strategy. The top 32 defenders were kept and simulated against their best 15 counters with their best 5 movesets 300 times each. Finally the worst 5 counters for each pokemon were considered and used to find the best 24 defenders with their best moveset based on {{sort}} were kept and are displayed here."
             }
         },
         "typeSelection": {
@@ -53,7 +53,7 @@
     },
     "featured": {
         "title": {
-            "attacker": "Avg Combat Stats Vs. Top 24 Defenders",
+            "attacker": "Avg Combat Stats Vs. Best 24 Defenders",
             "defender": "Avg Combat Stats Vs. Worst 6 Matchups"
         },
         "deepLink": "See more details for {{pokemon}}"

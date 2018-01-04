@@ -16,9 +16,11 @@
             "description": "Simuler n'importe quel match avec le simulateur de Pokémon Go le plus précis au monde"
         },
         "pokebox": {
+            "link": "/help/pokebox",
             "description": "Stockez vos pokémons sur nos serveurs et utilisez-les sur le site"
         },
         "pokedex": {
+            "link": "/help/pokedex",
             "description": "Trouvez les meilleurs contres et les meilleurs matchs pour chaque pokémon"
         },
         "rankings": {
@@ -29,6 +31,21 @@
         "simulations": {
             "title": "Simulations",
             "link": "/help/simulations"
+        },
+        "attackStrategies": {
+            "link": "/help/attack-strategies"
+        },
+        "dodgeStrategies": {
+            "link": "/help/dodge-strategies"
+        },
+        "patreon": {
+            "link": "/help/patreon"
+        },
+        "glossary": {
+            "link": "/help/glossary"
+        },
+        "faqs": {
+            "link": "/help/faqs"
         }
     }
 }
