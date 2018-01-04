@@ -1,2 +1,22 @@
 {
+    "user": "Utilisateur",
+    "login": {
+        "google": "Se connecter avec Google",
+        "facebook": "Se connecter avec Facebook",
+        "patreon": "Se connecter avec Patreon",
+        "success": {
+            "title": "Connecté avec succès"
+        }
+    },
+    "details": {
+        "welcome": "Bienvenue",
+        "description": "Vos informations de dresseur ci-dessous seront utilisés pour personnaliser le site et seront affichés aux autres utilisateurs."
+    },
+    "loggedIn": {
+        "title": "Profil public"
+    },
+    "logout": {
+        "title": "Se déconnecter",
+        "description": "Vous avez été déconnecté avec succès. Revenez plus tard sur n'importe quel appareil et votre Pokebox sera là pour vous!"
+    }
 }
