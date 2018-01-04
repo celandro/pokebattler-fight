@@ -585,7 +585,10 @@
         "WATERFALL_FAST": "Cascade",
         "DODGE": "Éviter",
         "REVIVE": "Evanoui",
-        "HEAL": "Soigner"
+        "HEAL": "Soigner",
+        "PRESENT_FAST": "Cadeau",
+        "PSYCHO_BOOST": "Psycho Boost",
+        "TAKE_DOWN_FAST": "Bélier"
     },
     "types": {
         "POKEMON_TYPE_NORMAL": "Normal",
