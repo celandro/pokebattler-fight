@@ -35,7 +35,7 @@
 
   },
   "result": {
-    "description": "The result of each powerup of a {{attacker}} vs. a {{defender}} raid boss is shown below. The results will vary based on the move set of the boss."
+    "description": "The result of each powerup of a {{attacker}} vs. a {{defender}} raid boss is shown below. The results will vary based on the moves of {{defender}}."
   }
 
 }
