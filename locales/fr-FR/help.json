@@ -23,7 +23,11 @@
         },
         "rankings": {
             "title": "Classements",
-            "link": "/help/rankings"
+            "link": "/help/rankings",
+            "description": "Découvrez quels pokémons sont les meilleurs attaquants et défenseurs"
+        },
+        "simulations": {
+            "title": "Simulations"
         }
     }
 }
