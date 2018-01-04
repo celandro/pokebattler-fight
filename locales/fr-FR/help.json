@@ -1,2 +1,33 @@
 {
+    "title": "Comment utiliser Pokebattler",
+    "pageNotFound": {
+        "title": "Cette page n'existe pas",
+        "text": "Désolé, nous n'avons pas trouvé la page que vous cherchiez"
+    },
+    "pages": {
+        "raids": {
+            "title": "Raids",
+            "link": "/help/raids",
+            "description": "Choisissez les meilleurs contres pour n'importe quel boss avec notre guide de raid personnalisable"
+        },
+        "battleSimulator": {
+            "title": "Simulateur de combat",
+            "link": "/help/battle-simulator",
+            "description": "Simuler n'importe quel match avec le simulateur de Pokémon Go le plus précis au monde"
+        },
+        "pokebox": {
+            "description": "Stockez vos pokémons sur nos serveurs et utilisez-les sur le site"
+        },
+        "pokedex": {
+            "description": "Trouvez les meilleurs contres et les meilleurs matchs pour chaque pokémon"
+        },
+        "rankings": {
+            "title": "Classements",
+            "link": "/help/rankings",
+            "description": "Découvrez quels pokémons sont les meilleurs attaquants et défenseurs"
+        },
+        "simulations": {
+            "title": "Simulations"
+        }
+    }
 }
