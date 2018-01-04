@@ -27,7 +27,8 @@
             "description": "Découvrez quels pokémons sont les meilleurs attaquants et défenseurs"
         },
         "simulations": {
-            "title": "Simulations"
+            "title": "Simulations",
+            "link": "/help/simulations"
         }
     }
 }
