@@ -1,4 +1,23 @@
 {
-    "linkLabel": "Raid Guide",
-    "intro": ""
+    "linkLabel": "Raid-Guide",
+    "intro": "",
+    "results": {
+        "counters": {
+            "title": "Konter",
+            "moveSetOrderingDescription": "Die Angriffsmuster sind von schwer nach leicht sortiert. Schau dir auf jeden Fall mehrere an, die Ergebnisse können sehr unterschiedlich ausfallen!",
+            "chooseMovesetLabel": "Angriffsmuster auswählen"
+        },
+        "hardestMovesets": {
+            "title": "Schwierigste Raids",
+            "subtitle": "Für {{pokemon}} nach {{sort}}",
+            "tableTitle": "Schwerstes Angriffsmuster",
+            "description": "Die Schwierigkeit des Raids kann sehr unterschiedlich ausfallen, je nachdem welches Angriffsmuster das verteidigende Pokemon hat!"
+        },
+        "analysis": {
+            "title": "Über diese Analyse",
+            "attackers": {
+                "byLevel": "Level {{attackerLevel}} Angreifern"
+            }
+        }
+    }
 }
