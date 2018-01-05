@@ -48,13 +48,16 @@
         "cp": "$t(common:cp)",
         "pokemon": "$t(common:pokemon)",
         "name": "$t(common:name)",
-        "type": "$t(common:type)"
+        "type": "$t(common:type)",
+        "powerups": "Power-Ups",
+        "stardust": "Sternenstaub",
+        "candy": "Bonbons"
     },
     "sectionLinks": {
         "help": "Hilfebereich",
-        "about": "Über-uns-Bereich"
+        "about": "Über uns"
     },
-    "simulation": "1 Simulation wurde",
+    "simulation": "Eine Simulation wurde",
     "simulation_plural": "{{count}} Simulationen wurden",
     "chooseMovesetLabel": "Wähle Attackenmuster",
     "hd": {
@@ -93,14 +96,15 @@
         "bulk": "Importiere"
     },
     "message": {
-        "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
-        "delete": "Removing 1 pokemon from your Pokebox",
-        "update": "Updating your pokemon",
-        "success": "Success",
-        "error": "Oops, something went wrong. Try again in a couple seconds"
+        "bulk": "Massenimport von {{num}} Pokemon, das kann eine Weile dauern",
+        "delete": "Ein Pokemon wird aus Ihrer Pokebox entfernt",
+        "update": "Das Pokemon wird aktualisiert",
+        "success": "Erfolg",
+        "error": "Ups, da ist etwas schiefgegangen. Versuchen Sie es in ein paar Sekunden erneut"
     },
     "site": {
         "beta": "Beta-Seite",
         "www": "Hauptseite"
-    }
+    },
+    "reset": "Zurücksetzen"
 }
