@@ -70,7 +70,7 @@
         "attackersLabel": "Angreifer"
     },
     "results": {
-        "title": "Raid Guide",
+        "title": "Raid-Guide",
         "calculating": "Berechne Raid Ergebnisse",
         "counters": {
             "title": " Konter",
@@ -97,8 +97,8 @@
         "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung."
     },
     "pokebox": {
-        "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
-        "enabled": "Zeige angepasste Ergebnisse für deine Pokebox. Die 24 besten Konter die du besitzt werden angezeigt.",
+        "login": "Der Raid-Guide von Pokebattler kann individuell angepasst werden, indem du deine eigene Pokebox verwendest, damit er nur Pokemon enthält, die du auch tatsächlich besitzt. Melde dich an, füge deine besten Pokemon zu deiner eigenen Pokebox hinzu, und danach kannst du bei der Planung deiner Raidkämpfe wählen zwischen deinen eigenen Pokemon aus der Pokebox und den Kontern, die ganz allgemein die besten sind.",
+        "enabled": "Zeige angepasste Ergebnisse für deine Pokebox. Die 24 besten Konter, die du besitzt, werden angezeigt.",
         "disabled": "Zeige Ergebnisse für Level {{level}} Angreifer. Die besten 24 Konter auf diesem Level werden angezeigt.",
         "friend": "Zeige Ergebnisse für Benutzer {{userId}}. Die besten 24 Konter werden unten angezeigt.",
         "switchLevel": "Wechsele zu $t(common:attackerTypes.level)",
