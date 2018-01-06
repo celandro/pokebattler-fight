@@ -1,2 +1,92 @@
 {
+    "back": "Retour",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "reset": "Réinitialiser",
+    "cp": "PC",
+    "win": "Victoire",
+    "loss": "Défaite",
+    "quickMove": "Attaque immédiate",
+    "specialMove": "Attaqué Chargée",
+    "attackStrategy": "Stratégie d'attaque",
+    "defenseStrategy": "Type de simulation",
+    "dodgeStrategy": "Stratégie d’esquive",
+    "weatherCondition": "Météo",
+    "stats": {
+        "attack": "Attaque",
+        "defense": "Défense",
+        "stamina": "Endurance"
+    },
+    "statsAbbr": {
+        "attack": "Att",
+        "defense": "Def",
+        "hp": "PV"
+    },
+    "level": "Niveau",
+    "basic": "Basique",
+    "advanced": "Avancé",
+    "move": "Attaque",
+    "moves": "Attaques",
+    "properties": {
+        "win": "% de victoire",
+        "deaths": "Morts",
+        "effectiveDeaths": "Morts pour gagner",
+        "time": "Temps pour gagner",
+        "realTime": "Temps",
+        "prestige": "Prestige",
+        "dps": "DPS",
+        "potions": "Potions",
+        "damage": "Dégat",
+        "powerups": "Rechargements",
+        "stardust": "Poussières étoile",
+        "candy": "Bonbon"
+    },
+    "sectionLinks": {
+        "help": "Rubrique d'aide",
+        "about": "Rubrique à propos"
+    },
+    "simulation": "une simulation était",
+    "simulation_plural": "{{count}} simulations étaient",
+    "hd": {
+        "attackers": "Attaquants",
+        "defenders": "défenseurs",
+        "raid": "raid"
+    },
+    "name": "Nom",
+    "nickname": "Pseudonyme",
+    "faction": "Faction",
+    "mystic": "Sagesse",
+    "valor": "Bravoure",
+    "instinct": "Intuition",
+    "trainerName": "Nom de dresseur",
+    "attackerTypes": {
+        "pokebox": "Ma Pokebox",
+        "level": "Par niveau"
+    },
+    "pokebox": "Pokebox",
+    "trainer": "Dresseur",
+    "more": "Plus",
+    "pokemon": "Pokémon",
+    "status": {
+        "add": "Ajouter",
+        "success": "Succès ",
+        "error": "Erreur"
+    },
+    "message": {
+        "bulk": "Importation de masse {{num}} pokémon, cela peut prendre un peu de temps",
+        "delete": "Retrait d'un pokémon de votre Pokebox",
+        "update": "Mise à jour de vos pokémon",
+        "success": "Succès",
+        "error": "Oups, quelque chose s'est mal passé. Réessayez dans quelques secondes"
+    },
+    "site": {
+        "www": "Site principal"
+    },
+    "candy": {
+        "title": "Bonbon disponible"
+    },
+    "stardust": {
+        "title": "Poussière étoile disponible"
+    }
 }
