@@ -28,7 +28,7 @@
         "description": "Willkommen zur Pokebattler Raid-Beratung für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung. Außerdem kannst du die Menge an Sternenstaub und Bonbons wählen, die du zur Verfügung hast."
     },
     "title": "Beratung",
-    "pokeboxRequired": "Damit die Pokebattler-Beratung richtig funktioniert, muss du deine Pokemon in deiner Pokebox eintragen. Log dich einfach ein und füg deine stärksten Pokemon zu deiner Pokebox hinzu, damit die besten Pokemon für Power-Ups gefunden werden können.",
+    "pokeboxRequired": "Damit die Pokebattler-Beratung richtig funktioniert, musst du deine Pokemon in deine Pokebox eintragen. Melde dich einfach an und füge deine stärksten Pokemon zu deiner Pokebox hinzu, damit die besten Pokemon für Power-Ups gefunden werden können.",
     "intro2": "Nachdem du eine Simulation durchgeführt hast, kannst du auf jedes Pokemon klicken, um zu sehen, wie viel es sich mit jedem Power-Up verbessert. Oft gibt es Breakpoints, bei denen du aufhören kannst, deinem Pokemon Power-Ups zu geben, um dir Sternenstaub und Bonbons zu sparen! Im Gegensatz zu anderen Breakpoint-Tools, die du vielleicht kennst, findet diese Seite sie mit empirischen Mitteln, und deshalb auch solche, die nicht auf der Hand liegen.",
     "inputs": {
         "title": "Wofür brauchst du eine Beratung?"
