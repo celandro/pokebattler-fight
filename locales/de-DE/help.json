@@ -30,7 +30,7 @@
             "description": "Finde die besten Konter und die besten Aufeinandertreffen für jedes Pokemon"
         },
         "rankings": {
-            "title": "Rankings",
+            "title": "Ranglisten",
             "link": "/help/rankings",
             "description": "Lerne welche Pokemon die besten allgemeinen Angreifer und Verteidiger sind"
         },
@@ -45,7 +45,7 @@
             "description": "Definitionen für Angriffstrategien"
         },
         "dodgeStrategies": {
-            "title": "Dodge Strategies",
+            "title": "Ausweichstrategien",
             "link": "/help/dodge-strategies",
             "description": "Definitionen für Ausweichstrategien"
         },
@@ -74,7 +74,7 @@
             },
             "outro": {
                 "title": "Kämpfe!",
-                "text": "Vollständige Kampfergebnisse werden angezeigt. Zögere nicht zurückzugehen und andere Kombinationen auszuprobieren."
+                "text": "Vollständige Kampfergebnisse werden angezeigt. Zögere nicht, zurückzugehen und andere Kombinationen auszuprobieren."
             },
             "steps[0]": {
                 "label": "Tippe in der Suchleiste",
@@ -105,7 +105,7 @@
             },
             "outro": {
                 "title": "Untersuche!",
-                "text": "Die beste Attacken Kombination für jedes Pokemon wird angezeigt. Klicke auf ein Pokemon um detaillierte Informationen über alle Kombinationen zu erhalten."
+                "text": "Die besten Attackenkombinationen für jedes Pokemon werden angezeigt. Klicke auf ein Pokemon, um detaillierte Informationen über alle Kombinationen zu erhalten."
             },
             "steps[0]": {
                 "label": "Angreifer/Verteidiger",
