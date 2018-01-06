@@ -39,7 +39,7 @@
             "attackers": "Angreifer",
             "defenders": "Verteidiger",
             "details": {
-                "attackers": "jeder voll entwickelte Pokemon Angreifer mit jedem möglichen Attackenmuster gegen jeden der Top 30 WP Verteidiger mit jeden möglichen Attackenmuster simuliert wurde. Die Top 32 Angreifer wurden dann mit der Monte Carlo Strategie jeweils 300 simuliert. Die besten 24 Angreifer wurden dann nach {{sort}} sortiert behalten und werden hier angezeigt.",
+                "attackers": "jedes voll entwickelte Pokemon als Angreifer, mit jedem möglichen Attackenmuster, simuliert gegen jeden der Verteidiger unter den Top 30 nach WP, mit jedem möglichen Attackenmuster. Die Top 32 der Angreifer wurden dann mit der Monte-Carlo-Strategie jeweils mehrere hundert mal simuliert. Die besten 24 Angreifer nach {{sort}} wurden herausgefiltert und werden hier angezeigt.",
                 "defenders": "jedes mögliche Attackenmuster gegen die Top 30 WP, Top 30 Power, Top 30 Allgemein und Top 30 Zeit zum Sieg Angreifer mit jedem möglichen Attackenmuster simuliert wurde. Die Top 32 Verteidiger wurden behalten und gegen ihre 15 besten Konter mit den jeweils 5 besten Attackenmustern simuliert. Zum Schluss wurden die 5 besten Konter gegen jedes Pokemon betrachtet und daraus wurden die besten 24 Verteidiger gefunden und nach {{sort}} sortiert hier angezeigt."
             }
         },
@@ -48,13 +48,14 @@
             "defender": "Verteidigerranglisten"
         },
         "settings": {
-            "level": "Pokemon Levels"
+            "level": "Pokemon-Level"
         }
     },
     "featured": {
         "title": {
-            "attacker": "Gemittelte Kampfstatistiken gegen die Top 30 WP Verteidiger",
+            "attacker": "Durchscnittliche Kampfstatistiken gegen die 24 besten Verteidiger",
             "defender": "Gemittelte Kampfstatistiken gegen die 6 schlechtesten Herausforderer"
-        }
+        },
+        "deepLink": "Mehr Details für {{pokemon}}"
     }
 }
