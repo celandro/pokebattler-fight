@@ -106,5 +106,11 @@
         "beta": "Beta-Seite",
         "www": "Hauptseite"
     },
-    "reset": "Zurücksetzen"
+    "reset": "Zurücksetzen",
+    "candy": {
+        "title": "Verfügbare Bonbons"
+    },
+    "stardust": {
+        "title": "Verfügbarer Sternenstaub"
+    }
 }
