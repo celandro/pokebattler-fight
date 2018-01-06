@@ -1,2 +1,7 @@
 {
+    "title": "Pokebox",
+    "blurb": "Aggiungi i tuoi Pokémon per risultati personalizzati!",
+    "pokemonList": {
+        "zero": "Aggiungi il tuo Pokémon cliccando il riquadro a sinistra."
+    }
 }
