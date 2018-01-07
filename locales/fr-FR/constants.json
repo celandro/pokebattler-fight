@@ -588,7 +588,10 @@
         "HEAL": "Soigner",
         "PRESENT_FAST": "Cadeau",
         "PSYCHO_BOOST": "Psycho Boost",
-        "TAKE_DOWN_FAST": "Bélier"
+        "TAKE_DOWN_FAST": "Bélier",
+        "PRECIPICE_BLADES": "Lame Pangéenne",
+        "YAWN_FAST": "Baillement",
+        "RANDOM": "Inconnu"
     },
     "types": {
         "POKEMON_TYPE_NORMAL": "Normal",
@@ -608,7 +611,8 @@
         "POKEMON_TYPE_ICE": "Glace",
         "POKEMON_TYPE_DRAGON": "Dragon",
         "POKEMON_TYPE_DARK": "Ténèbre",
-        "POKEMON_TYPE_FAIRY": "Fée"
+        "POKEMON_TYPE_FAIRY": "Fée",
+        "POKEMON_TYPE_NONE": "Inconnu"
     },
     "strategies": {
         "attack": {

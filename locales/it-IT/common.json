@@ -1,2 +1,63 @@
 {
+    "back": "Indietro",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "cp": "PL",
+    "quickMove": "Attacco Veloce",
+    "specialMove": "Attacco Caricato",
+    "attackStrategy": "Strategia di Attacco",
+    "defenseStrategy": "Tipo di Simulazione",
+    "stats": {
+        "attack": "Attacco",
+        "defense": "Difesa"
+    },
+    "statsAbbr": {
+        "attack": "Att",
+        "defense": "Dif"
+    },
+    "level": "Livello",
+    "move": "Mossa",
+    "moves": "Mosse",
+    "properties": {
+        "win": "% Vittoria",
+        "deaths": "Morti",
+        "effectiveDeaths": "Morti per Vincere",
+        "time": "Tempo per Vincere",
+        "realTime": "Tempo",
+        "potions": "Pozioni",
+        "damage": "Danno",
+        "energy": "Energia",
+        "powerups": "Potenziamenti",
+        "stardust": "Polvere di Stella",
+        "candy": "Caramelle"
+    },
+    "simulation": "una simulazione era",
+    "simulation_plural": "simulazioni erano",
+    "chooseMovesetLabel": "Scegli Moveset",
+    "hd": {
+        "attackers": "attaccanti",
+        "defenders": "difensori",
+        "raid": "raid"
+    },
+    "name": "Nome",
+    "nickname": "Soprannome",
+    "ivs": "IV",
+    "attackerTypes": {
+        "pokebox": "Il Mio Pokebox",
+        "level": "Per Livello"
+    },
+    "pokebox": "Pokebox",
+    "trainer": "Allenatore",
+    "pokemon": "Pokémon",
+    "status": {
+        "error": "Errore"
+    },
+    "message": {
+        "error": "Ops, qualcosa è andato storto. Prova di nuovo fra qualche secondo"
+    },
+    "site": {
+        "beta": "Sito Beta",
+        "www": "Sito Principale"
+    }
 }
