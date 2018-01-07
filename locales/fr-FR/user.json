@@ -18,5 +18,6 @@
     "logout": {
         "title": "Se déconnecter",
         "description": "Vous avez été déconnecté avec succès. Revenez plus tard sur n'importe quel appareil et votre Pokebox sera là pour vous!"
-    }
+    },
+    "title": "Se connecter à Pokebattler"
 }

@@ -1,7 +1,7 @@
 {
     "title": "Anmelden zu Pokebattler",
     "description": "Melde dich an, um auf deine Pokebox und personalisierten Simulationen zuzugreifen",
-    "explanation": "Pokebattler wird und kann sich nicht in deinen Pokemon Go Acount einloggen. Wir verbinden uns in keiner Weise zu Niantic Servern. Pokebattler nutzt die Informationen nur um dich zwischen verschiedenen Geräten zu identifizieren. Du kannst dich auf deinem Telefon, Tablet oder Computer anmelden und alle deine Pokemon sehen. Wir nutzen oder teilen diese Informationen in keiner Weise für Marketingzwecke oder irgend einen anderen Zweck.",
+    "explanation": "Pokebattler wird und kann sich nicht in deinen Pokemon-Go-Acount einloggen. Wir stellen keinerlei Verbindung zu Niantics Servern her. Pokebattler nutzt die Informationen nur, um dich auf allein deinen Geräten korrekt zu identifizieren. Du kannst dich auf deinem Telefon, Tablet oder Computer anmelden und alle Pokemon sehen, die du auf unserer Seite eingegeben hast. Wir nutzen oder teilen diese Informationen in keiner Weise für Marketingzwecke oder auf irgendeine andere Art.",
     "privacy": "Weitere Informationen finden Sie in unserer Datenschutzerklärung",
     "loading": "Lade Benutzerdaten",
     "user": "Benutzer",
@@ -9,7 +9,7 @@
         "google": "Login mit Google",
         "facebook": "Login mit Facebook",
         "patreon": "Login mit Patreon",
-        "patreonDescription": "Patreon Unterstützer erhalten Belohnungen wie mehr Pokemon in ihrer Pokebox und qualitativ höhere personalisierte Simulationen",
+        "patreonDescription": "Patreon-Unterstützer erhalten Belohnungen, darunter mehr Plätze für Pokemon in ihrer Pokebox, qualitativ höherwertigere personalisierte Simulationen und eine Google-Tabelle zur Raid-Beratung",
         "success": {
             "title": "Erfolgreich angemeldet"
         }
@@ -31,17 +31,17 @@
         "title": "Account Informationen",
         "heading": "Aktuelle Vorteile",
         "description": "Trage zu Pokebattler's {{link}} bei und erlange tolle Vorteile. Pokebattler wird ermöglichst durch Unterstützer die zu den steigenden Serverkosten zum hosten dieser Seite beitragen.",
-        "maxPokemon": "Max Pokemon",
+        "maxPokemon": "Maximale Pokemon",
         "quality": "Simulationsqualität",
         "thanks": "Danke dass du Pokebattler unterstützt! Deine Beteiligung wird sehr geschätzt.",
         "support": "Unterstütze Pokebattler",
         "role": {
-            "ROLE_USER": "Pokebattler User",
-            "ROLE_ADMIN": "Pokebattler Admin",
-            "ROLE_FAN": "Pokebattler Fan",
-            "ROLE_SUPPORTER": "Pokebattler Supporter",
-            "ROLE_PATREON": "Pokebattler Patreon",
-            "ROLE_FANATIC": "Pokebattler Fanatic",
+            "ROLE_USER": "Pokebattler-Benutzer",
+            "ROLE_ADMIN": "Pokebattler-Admin",
+            "ROLE_FAN": "Pokebattler-Fan",
+            "ROLE_SUPPORTER": "Pokebattler-Unterstützer",
+            "ROLE_PATREON": "Pokebattler-Patreon",
+            "ROLE_FANATIC": "Pokebattler-Fanatiker",
             "ROLE_CONTEST": "Pokebattler Wettbewerb Sieger"
         }
     }
