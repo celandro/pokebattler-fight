@@ -25,7 +25,7 @@
         "about": "Über diesen Kampf",
         "description": "Ein Level {{attacker.level}} {{attacker.name}} mit {{attacker.cp}} WP {{result}} einem Level {{defender.level}} {{defender.name}} mit {{defender.cp}} WP in dieser Kampfsimulation. Das angreifende {{attacker.name}} benutzte {{attacker.quickMove}} als seinen Schnell- und {{attacker.specialMove}} als seinen Spezialangriff. Das verteidigende {{defender.name}} benutzte {{defender.quickMove}} als seinen Schnell- und  {{defender.specialMove}} als seinen Spezialangriff. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} Ausweichstrategie benutzend auf Basis des {{strategies.defense}} Simulationstyps mit Wetter '{{weatherCondition}}'. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, um dieses Ergebnis zu erhalten.",
         "help": {
-            "text": "Du kannst mehr darüber herausfinden, wie diese Simulationen berechnet werden, wenn du in den {{helpLink}} schaust. Referenzen zur Pokemon Go Kampfforschung findest du im {{aboutLink}}. Pokebattler ist ein Open-Source Projekt, bitte hilf uns in dem du Fehler oder Probleme auf unserer {{repoLink}} einstellst.",
+            "text": "Du kannst mehr darüber herausfinden, wie diese Simulationen berechnet werden, wenn du in den {{helpLink}} schaust. Referenzen zur Forschung über Pokemon-Go-Kämpfe findest du im {{aboutLink}}. Pokebattler ist ein Open-Source-Projekt, bitte hilf uns, indem du Fehler oder Probleme auf unserer {{repoLink}} einstellst.",
             "links": {
                 "repo": "Projektseite"
             }
@@ -36,5 +36,5 @@
         },
         "logTitle": "Kampf-Logbuch"
     },
-    "runAgain": "Run this random simulation again"
+    "runAgain": "Diese Zufallssimulation erneut durchführen"
 }
