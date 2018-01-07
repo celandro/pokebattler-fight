@@ -1,10 +1,11 @@
 {
-    "title": "Raid Guide",
-    "linkLabel": "Raid Guide",
+    "title": "Raid-Guide",
+    "linkLabel": "Raid-Guide",
     "intro": "Pokemon Go Raids sind da! Finde heraus, welches Pokemon Raid Bosse am besten besiegt mit dem weltbesten einstellbarem Pokemon Go Raid Guide. Wähle einfach den Raid unten und sieh die besten Kämpfer dagegen für jedes Attackenmuster!",
     "tierList": {
         "common": {
-            "boss": "Boss"
+            "boss": "Boss",
+            "raidTier": "Raid-Rang"
         },
         "RAID_LEVEL_1": {
             "title": "Rang 1",
@@ -42,22 +43,22 @@
             "intro": "Diese Pokemon waren Raids bei vergangenen Ereignissen wie Yokohama. Sie könnten jederzeit unangekündigt wiederkommen."
         },
         "RAID_LEVEL_1_LEGACY": {
-            "title": "Legacy Tier 1",
+            "title": "Legacy Rang 1",
             "subtitle": "Einfacher Einzel-Raid",
             "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
         },
         "RAID_LEVEL_2_LEGACY": {
-            "title": "Legacy Tier 2",
+            "title": "Legacy Rang 2",
             "subtitle": "Schwerer Einzel-Raid",
             "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
         },
         "RAID_LEVEL_3_LEGACY": {
-            "title": "Legacy Tier 3",
+            "title": "Legacy Rang 3",
             "subtitle": "Einfacher Gruppen-Raid",
             "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
         },
         "RAID_LEVEL_4_LEGACY": {
-            "title": "Legacy Tier 4",
+            "title": "Legacy Rang 4",
             "subtitle": "Schwerer Gruppen-Raid",
             "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
         }
@@ -69,43 +70,54 @@
         "attackersLabel": "Angreifer"
     },
     "results": {
-        "title": "Raid Guide",
+        "title": "Raid-Guide",
         "calculating": "Berechne Raid Ergebnisse",
         "counters": {
             "title": " Konter",
             "subtitle": "Die besten Angreifer nach",
             "description": "Die folgende Analyse zeigt die Pokemon, die die stärksten Angreifer hinsichtlich {{sort}} gegen {{pokemon}} sind.",
-            "moveSetOrderingDescription": "Die Attackenmuster sind vom schwersten zum einfachsten sortiert. Stelle sicher, dir mehrere anzuschauen, da die Ergebnisse große Unterschiede haben können!",
+            "moveSetOrderingDescription": "Die Angriffsmuster sind von schwer nach leicht sortiert. Schau dir auf jeden Fall mehrere an, die Ergebnisse können sehr unterschiedlich ausfallen!",
             "difficultyNote": "Raid Bosse sind sehr viel schwerer als normale kämpfe, also solltest du deine Möglichkeiten sorgfältig abwägen.",
-            "chooseMovesetLabel": "Wähle Attacken"
+            "chooseMovesetLabel": "Angriffsmuster auswählen"
         },
         "hardestMovesets": {
             "title": "Schwierigste Raids",
             "subtitle": "Für {{pokemon}} nach {{sort}}",
-            "tableTitle": "Schwierigste Attackenmuster",
-            "description": "Die Raid Schwierigkeit kann sich je nach den Attacken des verteidigenden Pokemons sehr unterscheiden!"
+            "tableTitle": "Schwerstes Angriffsmuster",
+            "description": "Die Schwierigkeit des Raids kann sehr unterschiedlich ausfallen, je nachdem welches Angriffsmuster das verteidigende Pokemon hat!"
         },
         "analysis": {
             "title": "Über diese Analyse",
-            "description": "Diese Raid Analyse basiert auf der Kampfsimulation eines verteidigenden {{defender.pokemon}} mit {{defender.cp}} WP und {{attackers}}. Die Simulation lief mit der {{attackStrategy}} Angriffstrategie basierend auf dem {{defenseStrategy}} Simulationstyp. {{numSims}} Simulationen wurden durchgeführt mit jeden möglichen Attackenmuster von {{defender.pokemon}} gegen jedes einzelne Pokemone mit jeden möglichen Attackenmuster. Die 20 besten Angreifer mit ihren besten Attacken wurde basierend auf {{sort}} behalten und hier dargestellt. Du kannst auf jeden der Angreifer klicken um die Simulationen zu sehen und verschiedene Attacken auszuprobieren.",
+            "description": "Diese Raid Analyse basiert auf der Kampfsimulation eines verteidigenden {{defender.pokemon}} mit {{defender.cp}} WP und {{attackers}}. Die Simulation wurde mit der {{attackStrategy}} Angriffstrategie basierend auf dem {{defenseStrategy}} Simulationstyp durchgefürt. {{numSims}} Simulationen wurden durchgeführt, mit jedem möglichen Attackenmuster von {{defender.pokemon}}, gegen jedes einzelne Pokemon mit jedem möglichen Attackenmuster. Die 20 besten Angreifer mit ihren besten Attacken wurde basierend auf {{sort}} behalten und hier dargestellt. Du kannst auf jeden der Angreifer klicken, um die Simulationen zu sehen und verschiedene Attacken auszuprobieren.",
             "attackers": {
                 "byLevel": "Level {{attackerLevel}} Angreifern",
                 "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
             }
         },
-        "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter basierend auf dem Attackenmuster jedes Bosses. Dieser Guide is anpassbar auf verschiedenen Wegen. Du kannst verschiedene Angriffslevel und Angriffsstrategien wählen, welche du nutzen willst, sowie verschiedene Sortierungen."
+        "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung."
     },
     "pokebox": {
-        "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
-        "enabled": "Zeige angepasste Ergebnisse für deine Pokebox. Die 24 besten Konter die du besitzt werden angezeigt.",
+        "login": "Der Raid-Guide von Pokebattler kann individuell angepasst werden, indem du deine eigene Pokebox verwendest, damit er nur Pokemon enthält, die du auch tatsächlich besitzt. Melde dich an, füge deine besten Pokemon zu deiner eigenen Pokebox hinzu, und danach kannst du bei der Planung deiner Raidkämpfe wählen zwischen deinen eigenen Pokemon aus der Pokebox und den Kontern, die ganz allgemein die besten sind.",
+        "enabled": "Zeige angepasste Ergebnisse für deine Pokebox. Die 24 besten Konter, die du besitzt, werden angezeigt.",
         "disabled": "Zeige Ergebnisse für Level {{level}} Angreifer. Die besten 24 Konter auf diesem Level werden angezeigt.",
         "friend": "Zeige Ergebnisse für Benutzer {{userId}}. Die besten 24 Konter werden unten angezeigt.",
         "switchLevel": "Wechsele zu $t(common:attackerTypes.level)",
         "switchPokebox": "Wechsele zu $t(common:attackerTypes.pokebox)"
     },
     "emptyResults": {
-        "LEVEL": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Eventuell gab es ein Server Problem.",
+        "LEVEL": "Es sind keine Ergebnisse für diese Berechnung zurückgesandt worden. Eventuell gibt es ein Serverproblem.",
         "POKEBOX": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast du bereits Pokemon zu deiner Pokebox hinzugefügt?",
         "FRIEND": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast dein Freund bereits Pokemon zu seiner Pokebox hinzugefügt? Versuche es mit einem anderen Trainer."
+    },
+    "people": {
+        "title": "Pokebattler-Schätzung",
+        "difficultyRating": "Schwierigkeitsgrad: {{rating}}",
+        "adviceLink": "Schau, was passiert, wenn du Power-Ups verwendest",
+        "estimate": {
+            "close": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Es wird ein enger Kampf. Bring einen Trainer mehr mit, um sicher zu gehen.",
+            "almost": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Wenn du viel Glück hast, schaffst du es vielleicht auch mit einem Trainer weniger.",
+            "normal": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Vergewissere dich, dass deine Gruppe für den Kampf vorbereitet ist.",
+            "difficult": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Es wird ein harter Kampf. Stell sicher, dass jeder seine besten Pokemon verwendet."
+        }
     }
 }
