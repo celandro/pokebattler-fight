@@ -73,7 +73,7 @@
         "title": "Raid Guide",
         "calculating": "Calculating Raid Results",
         "counters": {
-            "title": " counters",
+            "title": "counters",
             "subtitle": "Best Attackers by",
             "description": "The following analysis shows the pokemon that are the strongest raiders in terms of {{sort}} against {{pokemon}}.",
             "moveSetOrderingDescription": "The move sets are ordered from hardest to raid against to the easiest, make sure to check multiple, the results can vary greatly!",
@@ -120,5 +120,4 @@
             "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
         }
     }
-
 }

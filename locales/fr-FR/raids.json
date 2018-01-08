@@ -1,2 +1,9 @@
 {
+    "linkLabel": "Guide de Raid",
+    "results": {
+        "counters": {
+            "title": "Les contres",
+            "moveSetOrderingDescription": "Les combinaisons d'attaques sont classées de la plus difficile à la plus facile à affronter, assurez-vous d'en vérifier plusieurs, les résultats peuvent grandement varier!"
+        }
+    }
 }
