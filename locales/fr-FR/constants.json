@@ -618,11 +618,22 @@
         "attack": {
             "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
                 "label": "Pas d'esquive",
-                "description": "Utilisez vos attaques rapides le plus vite possible jusqu’à ce que vous puissiez envoyer votre attaque chargée"
+                "description": "Utilisez vos attaques immédiates le plus vite possible jusqu’à ce que vous puissiez envoyer votre attaque chargée"
             },
             "QUICK_ATTACK_ONLY": {
-                "label": "Attaques Rapides Seulement ",
-                "description": "Utilisez vos attaques rapides le plus vite possible! "
+                "label": "Attaques Rapides Seulement",
+                "description": "Utilisez vos attaques rapides le plus vite possible!"
+            },
+            "DODGE_SPECIALS2": {
+                "label": "Esquive attaques chargées",
+                "description": "Utilisez les attaques rapides jusqu'à ce que vous puissiez esquiver l'attaque spéciale, ensuite utilisez votre attaque chargée."
+            },
+            "DODGE_SPECIALS": {
+                "label": "Esquive attaques spéciales PRO",
+                "description": "Utilisez les attaques immédiates et les attaques chargées dès que possible, mais esquivez l'attaque spéciale. "
+            },
+            "DODGE_ALL2": {
+                "label": "Esquiver tout"
             }
         },
         "dodge": {
