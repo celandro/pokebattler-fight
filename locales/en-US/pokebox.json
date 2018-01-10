@@ -18,6 +18,11 @@
     "title": "Delete",
     "confirmation":  "Are you sure you want to delete this Pokemon?"
   },
+  "deleteAll": {
+    "button": "Delete All",
+    "title": "Delete All",
+    "confirmation":  "Are you sure you want to delete all Pokemon in your Pokebox?"
+  },
   "import": {
     "button": "Bulk Import",
     "title": "Pokebox Import",
