@@ -1,46 +1,45 @@
 {
-  "title": "Pokebox",
-  "blurb": "Add your pokemon for custom results!",
-  "pokemonList": {
-    "title": "Your Custom Pokebox",
-    "zero": "Add your pokemon by clicking the box to the left.",
-    "zeroDescription": "If you already added Pokemon in the past, you may have logged in with a different account. Your accounts will automatically be linked if they use the same email address.",
-    "zeroHelp": "If they do not have the same email address, {{link}} with the userIds of the accounts you need to link",
-    "email": "email Pokebattler"
-  },
-  "add": {
     "title": "Pokebox",
-    "description": "Add Pokemon",
-    "pokemon": "Choose Pokemon",
-    "pokemonSelect": "Choose Pokemon"
-  },
-  "delete": {
-    "title": "Delete",
-    "confirmation":  "Are you sure you want to delete this Pokemon?"
-  },
-  "import": {
-    "button": "Bulk Import",
-    "title": "Pokebox Import",
-    "description": "Import Pokemon",
-    "parse": "Begin Import",
-    "hintText": "Many formats are supported. Make sure to include a header row",
-    "floatingLabel": "Copy and paste your pokemon here",
-    "table": {
-      "header": "Select the Pokemon you wish to import below",
-      "selectAll": "Select All"
-    }
-  },
-  "update": {
-    "title": "Pokebox",
-    "description": "Modify {{name}}"
-  },
-  "loading": "Loading your Pokemon",
-  "backPokebox": "Back to Pokebox",
-  "powerUp": "Power Up",
-  "full": {
-    "title": "Pokebox - Out of space",
-    "explanation": "You have reached the maximum number of Pokemon for your Pokebox at your current support level. This puts you in the top 5% of Pokebattler users! Pokebattler depends on the support of heavy users like yourself to serve high quality simulations to everyone. You can increase your Pokemon storage by contributing to Pokebattler's Patreon."
-
-  },
-  "explanation" : "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not."
+    "blurb": "Add your Pokemon for custom results!",
+    "pokemonList": {
+        "title": "Your Custom Pokebox",
+        "zero": "Add your Pokemon by clicking the box to the left.",
+        "zeroDescription": "If you already added Pokemon in the past, you may have logged in with a different account. Your accounts will automatically be linked if they use the same email address.",
+        "zeroHelp": "If they do not have the same email address, {{link}} with the userIds of the accounts you need to link",
+        "email": "email Pokebattler"
+    },
+    "add": {
+        "title": "Pokebox",
+        "description": "Add Pokemon",
+        "pokemon": "Choose Pokemon",
+        "pokemonSelect": "Choose Pokemon"
+    },
+    "delete": {
+        "title": "Delete",
+        "confirmation": "Are you sure you want to delete this Pokemon?"
+    },
+    "import": {
+        "button": "Bulk Import",
+        "title": "Pokebox Import",
+        "description": "Import Pokemon",
+        "parse": "Begin Import",
+        "hintText": "Many formats are supported. Make sure to include a header row",
+        "floatingLabel": "Copy and paste your Pokemon here",
+        "table": {
+            "header": "Select the Pokemon you wish to import below",
+            "selectAll": "Select All"
+        }
+    },
+    "update": {
+        "title": "Pokebox",
+        "description": "Modify {{name}}"
+    },
+    "loading": "Loading your Pokemon",
+    "backPokebox": "Back to Pokebox",
+    "powerUp": "Power Up",
+    "full": {
+        "title": "Pokebox - Out of space",
+        "explanation": "You have reached the maximum number of Pokemon for your Pokebox at your current support level. This puts you in the top 5% of Pokebattler users! Pokebattler depends on the support of heavy users like yourself to serve high quality simulations to everyone. You can increase your Pokemon storage by contributing to Pokebattler's Patreon."
+    },
+    "explanation": "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not."
 }
