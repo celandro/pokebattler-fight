@@ -389,7 +389,7 @@
         "undefined": " "
     },
     "moves": {
-        "undefined": "",
+        "undefined": " ",
         "ACID_FAST": "Säure",
         "AERIAL_ACE": "Aero-Ass",
         "AIR_CUTTER": "Windschnitt",
