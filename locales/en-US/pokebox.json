@@ -21,7 +21,7 @@
   "deleteAll": {
     "button": "Delete All",
     "title": "Delete All",
-    "confirmation":  "This will delete all Pokemon in your Pokebox - are you sure? This cannot be reversed!"
+    "confirmation":  "This will delete all Pokemon in your Pokebox, are you sure? This cannot be reversed!"
   },
   "import": {
     "button": "Bulk Import",
