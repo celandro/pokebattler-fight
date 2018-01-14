@@ -587,6 +587,51 @@
         "SURF": "Surf",
         "TAKE_DOWN_FAST": "Derribo",
         "WATERFALL_FAST": "Cascada",
-        "YAWN_FAST": "Bostezo"
+        "YAWN_FAST": "Bostezo",
+        "DODGE": "Esquivar",
+        "HEAL": "Curar",
+        "RANDOM": "Desconocido"
+    },
+    "types": {
+        "POKEMON_TYPE_NONE": "Desconocido",
+        "POKEMON_TYPE_NORMAL": "Normal",
+        "POKEMON_TYPE_FIGHTING": "Lucha",
+        "POKEMON_TYPE_FLYING": "Volador",
+        "POKEMON_TYPE_POISON": "Veneno",
+        "POKEMON_TYPE_GROUND": "Tierra",
+        "POKEMON_TYPE_ROCK": "Roca",
+        "POKEMON_TYPE_BUG": "Bicho",
+        "POKEMON_TYPE_GHOST": "Fantasma",
+        "POKEMON_TYPE_STEEL": "Acero",
+        "POKEMON_TYPE_FIRE": "Fuego",
+        "POKEMON_TYPE_WATER": "Agua",
+        "POKEMON_TYPE_GRASS": "Planta",
+        "POKEMON_TYPE_ELECTRIC": "Eléctrico",
+        "POKEMON_TYPE_PSYCHIC": "Psíquico",
+        "POKEMON_TYPE_ICE": "Hielo",
+        "POKEMON_TYPE_DRAGON": "Dragón",
+        "POKEMON_TYPE_DARK": "Siniestro",
+        "POKEMON_TYPE_FAIRY": "Hada"
+    },
+    "strategies": {
+        "attack": {
+            "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
+                "label": "Sin esquivar",
+                "description": "Utiliza tus ataques rápidos tan rápido como sea posible hasta que puedas liberar tu ataque cargado"
+            },
+            "QUICK_ATTACK_ONLY": {
+                "label": "Sólo ataques rápidos",
+                "description": "Utiliza tus movimientos rápidos tan rápido como sea posible!"
+            },
+            "DODGE_SPECIALS": {
+                "description": "Utiliza tus movimientos rápidos y cargados tan pronto como puedas pero esquiva su ataque cargado."
+            },
+            "DODGE_ALL2": {
+                "label": "Esquivar todo"
+            },
+            "DODGE_ALL": {
+                "label": "Esquivar todo PRO"
+            }
+        }
     }
 }

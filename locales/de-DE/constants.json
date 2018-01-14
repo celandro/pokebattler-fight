@@ -385,10 +385,11 @@
         "ZANGOOSE": "Sengo",
         "ZAPDOS": "Zapdos",
         "ZIGZAGOON": "Zigzachs",
-        "ZUBAT": "Zubat"
+        "ZUBAT": "Zubat",
+        "undefined": " "
     },
     "moves": {
-        "undefined": "",
+        "undefined": " ",
         "ACID_FAST": "Säure",
         "AERIAL_ACE": "Aero-Ass",
         "AIR_CUTTER": "Windschnitt",
@@ -661,7 +662,7 @@
             },
             "DODGE_REACTION_TIME2": {
                 "label": "Realistisches Ausweichen PRO",
-                "description": "Versucht einen realistisches, menschliches Ausweichen zu simulieren. Ausweichen variiert von 70% Erfolgsrate für eine schnelle 1s Attacke zu 90% Erfolgsrate für eine langsame 3.5s Attacke. Zusätzlich gibt es für super oder nicht effektive Angriffe einen Malus von zusätzlichen 10%, was die Erfolgsrate von 81,0% auf 63,0% verringert."
+                "description": "Versucht, einen realistisches, menschliches Ausweichen eines erfahrenen Trainers zu simulieren. Das Ausweichen variiert von 70 % Erfolgsrate für eine schnelle Attacke mit 1 Sekunde Dauer bis zu 90 % Erfolgsrate für eine langsame Attacke mit 3,5 Sekunden Dauer. Zusätzlich gibt es für Sehr Effektive oder Nicht Effektive Angriffe einen Malus von zusätzlichen 10 %, was die Erfolgsrate von 81,0% auf 63,0% verringert. Schließlich gibt es noch einen kleinen Bonus für schnelle Attacken, basierend darauf, wie viel schneller der Angriff ist als die gelbe Blitzanimation, mit der Angriffe angekündigt werden."
             },
             "DODGE_25": {
                 "label": "25% Ausweichen",
