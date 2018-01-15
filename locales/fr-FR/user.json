@@ -20,7 +20,7 @@
         "description": "Vous avez été déconnecté avec succès. Revenez plus tard sur n'importe quel appareil et votre Pokebox sera là pour vous!"
     },
     "title": "Se connecter à Pokebattler",
-    "description": "Se connecter pour accéder à la Pokebox et aux simulations personnalisées ",
+    "description": "Se connecter pour accéder à la Pokebox et aux simulations personnalisées",
     "privacy": "Pour plus d'informations, référez vous à notre politique de confidentialité",
     "loading": "Chargement des données de l'utilisateur"
 }
