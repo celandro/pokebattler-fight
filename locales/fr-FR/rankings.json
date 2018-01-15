@@ -1,5 +1,18 @@
 {
     "index": {
-        "title": "Classements"
+        "title": "Classements",
+        "welcome": {
+            "paragraph1": "Bienvenue dans la nouvelle section des classements personnalisés à la fine pointe de la technologie de Pokebattler. Contrairement à d'autres sites, vous pouvez choisir exactement quelle combinaison de paramètres vous souhaitez construire vos propres classements personnalisés ! Ce site est extrêmement personnalisable, vous permettant de choisir le niveau de votre attaquant, le niveau du défenseur, votre stratégie d'attaque, votre stratégie d'esquive, vos options de tri et de groupage.",
+            "paragraph2": "Cette page fonctionne en exécutant plus de 30 000 000 de simulations de combat pour chaque paramètre de classement. Cela couvre toutes les combinaisons possibles d'attaquants et de défenseurs, ainsi que leurs attaques pour le paramètre choisi. Il y a des centaines de milliers de combinaisons différentes de paramètres à choisir pour les classements des attaquants et des défenseurs ! N'hésitez pas à essayer différents réglages jusqu'à obtenir ce que vous aimez."
+        },
+        "recommendations": {
+            "title": "Recommandations de réglage",
+            "paragraph1": {
+                "text": "Un bon point de départ pour la plupart des joueurs est le {{link1}}. Il suppose un attaquant de niveau 25 et simule une attaque contre un défenseur de gym de niveau 30. J'aime utiliser mes attaques dès que possible et j'essaye d'esquiver les attaques chargées. Les résultats pourraient vous surprendre. vous pouvez également essayer des choses amusantes comme {{link2}} or {{link3}}.",
+                "link1": "classement par défaut des attaquants",
+                "link2": "des combats bas niveau avec esquive parfaite",
+                "link3": "des combats de niveau 40"
+            }
+        }
     }
 }
