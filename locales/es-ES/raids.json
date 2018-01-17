@@ -49,7 +49,7 @@
         },
         "RAID_LEVEL_2_LEGACY": {
             "title": "Antigua nivel 2",
-            "subtitle": "Incursión difícil en solitario",
+            "subtitle": "Difícil incursión en solitario",
             "intro": "Estas incursiones no están actualmente en la rotación de incursiones."
         },
         "RAID_LEVEL_3_LEGACY": {
@@ -65,29 +65,29 @@
     },
     "custom": {
         "title": "Incursión personalizada",
-        "levelsLabel": "Nivel de los atacantes",
-        "buttonLabel": "Encontrar el mejor oponente",
+        "levelsLabel": "Niveles de atacantes",
+        "buttonLabel": "Encontrar mejor oponente",
         "attackersLabel": "Atacantes"
     },
     "results": {
         "title": "Guía de incursión",
-        "calculating": "Calculando los resultados de la incursión",
+        "calculating": "Calculando resultados de incursión",
         "counters": {
             "title": "Rivales óptimos",
             "subtitle": "Mejores atacantes por",
-            "description": "El siguiente análisis muestra los Pokemon más fuertes ordenados por {{sort}} contra {{pokemon}}.",
-            "moveSetOrderingDescription": "Las combinaciones de movimientos están ordenadas según su dificultad para realizar la incursión, de más difícil a más fácil, asegúrate de comprobar varios, ¡ los resultados pueden variar mucho !",
-            "difficultyNote": "Los jefes de incursión son mucho más duros que una pelea normal, deberías considerar cuidadosamente tus opciones.",
-            "chooseMovesetLabel": "Elige unos movimientos"
+            "description": "El siguiente análisis muestra los ponemos que son los más fuertes en términos de {{ordenar}} contra {{Pokémon}}",
+            "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente.",
+            "difficultyNote": "Los jefes de incursión son mucho más difíciles de vencer que batallas normales, debe considerar cuidadosamente sus opciones",
+            "chooseMovesetLabel": "Elegir movimientos"
         },
         "hardestMovesets": {
             "title": "Incursiones más difíciles",
-            "subtitle": "Para {{pokemon}} por {{sort}}",
-            "tableTitle": "Combinación de movimientos más difícil de afrontar",
-            "description": "¡ La dificultad de la incursión puede variar mucho dependiendo de los movimientos del pokémon defensor !"
+            "subtitle": "Para {{Pokémon}} por {{ordenar}}",
+            "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
+            "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor"
         },
         "analysis": {
-            "title": "Sobre este análisis",
+            "title": "Acerca de este análisis",
             "description": "El análisis de esta incursión fue realizado simulando un combate con {{defender.pokemon}} como defensor, con {{defender.cp}} PC y {{attackers}}. La simulación se ejecuto con la estrategia de ataque {{attackStrategy}} basado en el tipo de simulación {{defenseStrategy}}. {{numSims}} de simulaciones fueron realizadas con cada combinación de movimientos de {{defender.pokemon}} contra cada uno de los Pokemon y cada uno de sus posibles movimientos. Los 20 mejores atacantes con su mejor combinación de movimiento basándose en {{sort}} fueron guardados y mostrados aquí. Puedes hacer clic en cualquiera de los atacantes para ver los detalles de la simulación y probar combinaciones de movimientos diferentes.",
             "attackers": {
                 "byLevel": "Atacantes nivel {{attackerLevel}}",
