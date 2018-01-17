@@ -88,7 +88,36 @@
         },
         "analysis": {
             "title": "Sobre este análisis",
-            "description": "El análisis de esta incursión fue realizado simulando un combate con {{defender.pokemon}} como defensor, con {{defender.cp}} PC y {{attackers}}. La simulación se ejecuto con la estrategia de ataque {{attackStrategy}} basado en el tipo de simulación {{defenseStrategy}}. {{numSims}} de simulaciones fueron realizadas con cada combinación de movimientos de {{defender.pokemon}} contra cada uno de los Pokemon y cada uno de sus posibles movimientos. Los 20 mejores atacantes con su mejor combinación de movimiento basándose en {{sort}} fueron guardados y mostrados aquí. Puedes hacer clic en cualquiera de los atacantes para ver los detalles de la simulación y probar combinaciones de movimientos diferentes."
+            "description": "El análisis de esta incursión fue realizado simulando un combate con {{defender.pokemon}} como defensor, con {{defender.cp}} PC y {{attackers}}. La simulación se ejecuto con la estrategia de ataque {{attackStrategy}} basado en el tipo de simulación {{defenseStrategy}}. {{numSims}} de simulaciones fueron realizadas con cada combinación de movimientos de {{defender.pokemon}} contra cada uno de los Pokemon y cada uno de sus posibles movimientos. Los 20 mejores atacantes con su mejor combinación de movimiento basándose en {{sort}} fueron guardados y mostrados aquí. Puedes hacer clic en cualquiera de los atacantes para ver los detalles de la simulación y probar combinaciones de movimientos diferentes.",
+            "attackers": {
+                "byLevel": "Atacantes nivel {{attackerLevel}}",
+                "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
+            }
+        },
+        "description": "Bienvenido a la guía de incursión de Pokebattler para {{pokemon}}. Puedes encontrar los mejores oponentes basados en los movimientos de cada jefe. Esta guía es personalizable en muchas maneras diferentes. Puedes seleccionar el nivel  de ataque y la estrategia de ataque que le gustaría usar así como también varias opciones para ordenar."
+    },
+    "pokebox": {
+        "login": "La guía de incursiones de Pokebattler puede ser personalizada solo para incluir Pokémon que posees usando tu propia caja de Pokémon. Ingresa, añade tus mejores Pokémon, a luego puedes alternar entre los mejores Pokémon que hay en tu colección y los mejores oponentes en general para planear tus peleas de incursión.",
+        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 24 mejores contendores que posees se muestran debajo.",
+        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 24 mejores contendores a ese nivel son mostrados debajo.",
+        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 24 contendores se muestran debajo.",
+        "switchLevel": "Cambiar a $t(common:attackerTypes.level)",
+        "switchPokebox": "Cambiar a $t(common:attackerTypes.pokebox)"
+    },
+    "emptyResults": {
+        "LEVEL": "No hubo resultados arrojados para este cálculo. El servidor puede estar presentando fallas.",
+        "POKEBOX": "No hubo resultados arrojados para este cálculo. Quizá no has ingresado ningún Pokémon en tu caja de Pokémon aún.",
+        "FRIEND": "No hubo resultados arrojados para este cálculo. Quizá tú amigo no ha ingresado ningún Pokémon en su caja de Pokémon aún. Intenta un entrenador diferente."
+    },
+    "people": {
+        "title": "Estimación de Pokebattler",
+        "difficultyRating": "Estimado de dificultad: {{rating}}",
+        "adviceLink": "Ver qué pasa si das más poder ",
+        "estimate": {
+            "close": "Vencer a {{pokemon}} debería tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla muy cercana. Trae otro entrenador si puedes para estar seguro.",
+            "almost": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Si tienes mucha suerte, podrías lograrlo con 1 entrenador menos.",
+            "normal": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Asegúrate que tu grupo esté preparado antes de la batalla.",
+            "difficult": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla difícil, asegúrate que todos usen sus mejores Pokémon."
         }
     }
 }
