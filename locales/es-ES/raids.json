@@ -1,7 +1,7 @@
 {
     "title": "Guía para incursiones",
     "linkLabel": "Guía para incursiones",
-    "intro": "Las incursiones han llegado a Pokémon Go. Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión  con la guía para incursiones más precisa del mundo. Simplemente selecciona la incursión para ver los mejores atacantes para cada movimiento.",
+    "intro": "¡Las incursiones han llegado a Pokémon Go! Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión  con la guía para incursiones más precisa del mundo. Simplemente selecciona la incursión para ver los mejores atacantes para cada combinación de movimientos ",
     "tierList": {
         "common": {
             "boss": "Jefe",
@@ -14,7 +14,41 @@
         },
         "RAID_LEVEL_2": {
             "title": "Nivel 2",
-            "subtitle": "Difícil incursión en solitario"
+            "subtitle": "Difícil incursión en solitario",
+            "intro": "Incursiones de nivel 2 están enfocadas a jugadores de nivel 30 a 40 que fácilmente pueden derrotar estos Pokémon. Jugadores de menor nivel deben hacer equipo para vencer estos Pokémon."
+        },
+        "RAID_LEVEL_3": {
+            "title": "Nivel 3",
+            "subtitle": "Incursión fácil en grupo",
+            "intro": "Incursiones de nivel 3 están enfocadas a grupos de 2 jugadores de nivel 30 a 4p. Estas pueden ser hechas en solitario por un jugador nivel 40 con un poco de suerte y con Pokémon excelentes."
+        },
+        "RAID_LEVEL_4": {
+            "title": "Nivel 4",
+            "subtitle": "Incursión difícil en grupo",
+            "intro": "Incursiones de nivel 4 están enfocadas a grupos de 5 o 6 jugadores de nivel 30 a 40. Reportes han llegado de estos Pokémon siendo vencidos por jugadores de máximo nivel con 3 o 4 de los atacantes ideales."
+        },
+        "RAID_LEVEL_5": {
+            "title": "Nivel 5",
+            "subtitle": "Incursión legendaria",
+            "intro": "Algunas de estas incursiones de nivel 5 no están en el juego aún. Estas son normalmente hechas por grupos de 8 a 12 jugadores de niveles 30 a 40. Algunos intrépidos expertos han hecho estas incursiones con tan poco como 2 a 5 jugadores."
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "Nivel ¿?",
+            "subtitle": "Incursiones desconocidas",
+            "intro": "Estos Pokémon pueden ser parte de futuros niveles de incursiones. Use esto si una nueva incursión ha salido y el sitio web no ha sido actualizado aún. Usted puede también usar esta sección para analizar que pasaría si tuviese una incursión legendaria de Magikarp también."
+        },
+        "RAID_LEVEL_4_EVENTS": {
+            "title": "Especial de nivel 4",
+            "subtitle": "Incursiones de eventos especiales",
+            "intro": "Estos Pokémon han sido incursiones en pasados eventos como el de Yokohama. Podrían volver sin anunciar."
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Antigua nivel 1",
+            "subtitle": "Incursión en solitario fácil",
+            "intro": "Estás incursiones no están actualmente en la rotación de incursiones."
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Antigua nivel 2"
         }
     }
 }
