@@ -81,7 +81,14 @@
             "chooseMovesetLabel": "Elige unos movimientos"
         },
         "hardestMovesets": {
-            "title": "Incursiones más difíciles"
+            "title": "Incursiones más difíciles",
+            "subtitle": "Para {{pokemon}} por {{sort}}",
+            "tableTitle": "Combinación de movimientos más difícil de afrontar",
+            "description": "¡ La dificultad de la incursión puede variar mucho dependiendo de los movimientos del pokémon defensor !"
+        },
+        "analysis": {
+            "title": "Sobre este análisis",
+            "description": "El análisis de esta incursión fue realizado simulando un combate con {{defender.pokemon}} como defensor, con {{defender.cp}} PC y {{attackers}}. La simulación se ejecuto con la estrategia de ataque {{attackStrategy}} basado en el tipo de simulación {{defenseStrategy}}. {{numSims}} de simulaciones fueron realizadas con cada combinación de movimientos de {{defender.pokemon}} contra cada uno de los Pokemon y cada uno de sus posibles movimientos. Los 20 mejores atacantes con su mejor combinación de movimiento basándose en {{sort}} fueron guardados y mostrados aquí. Puedes hacer clic en cualquiera de los atacantes para ver los detalles de la simulación y probar combinaciones de movimientos diferentes."
         }
     }
 }
