@@ -73,7 +73,8 @@
         "title": "Guía de incursión",
         "calculating": "Calculando los resultados de la incursión",
         "counters": {
-            "title": "Rivales óptimos"
+            "title": "Rivales óptimos",
+            "subtitle": "Mejores atacantes por"
         }
     }
 }
