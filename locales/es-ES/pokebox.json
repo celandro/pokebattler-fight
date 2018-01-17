@@ -1,2 +1,9 @@
 {
+    "title": "Caja Pokémon",
+    "blurb": "Añade tus Pokémon para resultados personalizados.",
+    "pokemonList": {
+        "title": "Tu caja de Pokémon personalizada",
+        "zero": "Añade tus Pokémon haciendo clic en la  caja a la izquierda.",
+        "zeroDescription": "Si ya añadiste Pokémon en el pasado, pudiste haber ingresado con una cuenta diferente. Tus cuentas serán automáticamente vinculadas si usan el mismo correo electrónico."
+    }
 }

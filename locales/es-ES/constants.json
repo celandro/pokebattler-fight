@@ -590,7 +590,8 @@
         "YAWN_FAST": "Bostezo",
         "DODGE": "Esquivar",
         "HEAL": "Curar",
-        "RANDOM": "Desconocido"
+        "RANDOM": "Desconocido",
+        "REVIVE": "Debilitado"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Desconocido",
@@ -624,13 +625,19 @@
                 "description": "Utiliza tus movimientos rápidos tan rápido como sea posible!"
             },
             "DODGE_SPECIALS": {
-                "description": "Utiliza tus movimientos rápidos y cargados tan pronto como puedas pero esquiva su ataque cargado."
+                "description": "Utiliza tus movimientos rápidos y cargados tan pronto como puedas pero esquiva su ataque cargado.",
+                "label": "Esquivar Ataques Cargados PRO"
             },
             "DODGE_ALL2": {
-                "label": "Esquivar todo"
+                "label": "Esquivar todo",
+                "description": "Utilizar ataques rápidos y esquivar sus ataques hasta que puedas esquivar su ataque cargado, luego utilizar tu ataque cargado!"
             },
             "DODGE_ALL": {
                 "label": "Esquivar todo PRO"
+            },
+            "DODGE_SPECIALS2": {
+                "label": "Esquivar Ataques Cargados",
+                "description": "Utilizar ataques rápidos hasta que puedas esquivar su especial, luego utilizar tu ataque cargado."
             }
         }
     }
