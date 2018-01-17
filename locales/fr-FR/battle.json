@@ -11,12 +11,15 @@
     },
     "relatedBattles": {
         "description": "Choisissez le paramètre que vous désirez changer ci-dessous et cliquez sur le lien pour relancer la simulation actuelle avec le nouveau paramètre. Les résultats sont immédiatement modifiés.",
-        "modify": "Modifier"
+        "modify": "Modifier",
+        "title": "Combats apparentés",
+        "parameterTitle": "Changer les paramètres"
     },
     "results": {
         "title": {
             "base": "Résultat du Combat : Vous",
-            "win": "$t(results.title.base) Victoire!"
+            "win": "$t(results.title.base) Victoire!",
+            "lose": "$t(results.title.base) défaite!"
         },
         "description": "Un {{attacker.name}} de niveau {{attacker.level}} avec {{attacker.cp}} PC {{result}} un {{defender.name}} de niveau {{defender.level}} avec {{defender.cp}} PC dans cette simulation de combat. Le {{attacker.name}} attaquant utilise {{attacker.quickMove}} comme attaque immédiate et {{attacker.specialMove}} comme attaque chargée. Le {{defender.name}} défenseur utilise {{defender.quickMove}} comme attaque immédiate et {{defender.specialMove}} comme attaque chargée. La simulation du combat a été réalisée avec la stratégie d'attaque {{strategies.attack}} utilisant {{strategies.dodge}} basé sur une simulation de type {{strategies.defense}} par temps {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) ont été réalisée pour obtenir ce résultat.",
         "help": {
@@ -29,7 +32,8 @@
             "win": "bat",
             "lose": "est battu par"
         },
-        "logTitle": "Journal du Combat"
+        "logTitle": "Journal du Combat",
+        "about": "A propos de ce combat"
     },
     "runAgain": "Exécuter cette simulation à nouveau"
 }

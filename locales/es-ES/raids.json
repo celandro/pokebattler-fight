@@ -1,10 +1,11 @@
 {
     "title": "Guía para incursiones",
     "linkLabel": "Guía para incursiones",
-    "intro": "¡Las incursiones han llegado a Pokémon Go! Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión  con la guía para incursiones más precisa del mundo. Simplemente selecciona la incursión para ver los mejores atacantes para cada movimiento.",
+    "intro": "¡Las incursiones han llegado a Pokémon Go! Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión  con la guía para incursiones más precisa del mundo. Simplemente selecciona la incursión para ver los mejores atacantes para cada combinación de movimientos ",
     "tierList": {
         "common": {
-            "boss": "Jefe"
+            "boss": "Jefe",
+            "raidTier": "Nivel de incursión"
         },
         "RAID_LEVEL_1": {
             "title": "Nivel 1",
@@ -12,7 +13,111 @@
             "intro": "Las incursiones de nivel 1 son muy fáciles de vencer en solitario. Un jugador de nivel 20 sin los mejores Pokémon debería de ser capaz de hacerlo por su cuenta. Estas incursiones son útiles para obtener caramelos de Pokémon que no son comunes en tu zona."
         },
         "RAID_LEVEL_2": {
-            "title": "Nivel 2"
+            "title": "Nivel 2",
+            "subtitle": "Difícil incursión en solitario",
+            "intro": "Incursiones de nivel 2 están enfocadas a jugadores de nivel 30 a 40 que fácilmente pueden derrotar estos Pokémon. Jugadores de menor nivel deben hacer equipo para vencer estos Pokémon."
+        },
+        "RAID_LEVEL_3": {
+            "title": "Nivel 3",
+            "subtitle": "Incursión fácil en grupo",
+            "intro": "Incursiones de nivel 3 están enfocadas a grupos de 2 jugadores de nivel 30 a 4p. Estas pueden ser hechas en solitario por un jugador nivel 40 con un poco de suerte y con Pokémon excelentes."
+        },
+        "RAID_LEVEL_4": {
+            "title": "Nivel 4",
+            "subtitle": "Incursión difícil en grupo",
+            "intro": "Incursiones de nivel 4 están enfocadas a grupos de 5 o 6 jugadores de nivel 30 a 40. Reportes han llegado de estos Pokémon siendo vencidos por jugadores de máximo nivel con 3 o 4 de los atacantes ideales."
+        },
+        "RAID_LEVEL_5": {
+            "title": "Nivel 5",
+            "subtitle": "Incursión legendaria",
+            "intro": "Algunas de estas incursiones de nivel 5 no están en el juego aún. Estas son normalmente hechas por grupos de 8 a 12 jugadores de niveles 30 a 40. Algunos intrépidos expertos han hecho estas incursiones con tan poco como 2 a 5 jugadores."
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "Nivel ¿?",
+            "subtitle": "Incursiones desconocidas",
+            "intro": "Estos Pokémon pueden ser parte de futuros niveles de incursiones. Use esto si una nueva incursión ha salido y el sitio web no ha sido actualizado aún. Usted puede también usar esta sección para analizar que pasaría si tuviese una incursión legendaria de Magikarp también."
+        },
+        "RAID_LEVEL_4_EVENTS": {
+            "title": "Especial de nivel 4",
+            "subtitle": "Incursiones de eventos especiales",
+            "intro": "Estos Pokémon han sido incursiones en pasados eventos como el de Yokohama. Podrían volver sin anunciar."
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Antigua nivel 1",
+            "subtitle": "Incursión en solitario fácil",
+            "intro": "Estás incursiones no están actualmente en la rotación de incursiones."
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Antigua nivel 2",
+            "subtitle": "Difícil incursión en solitario",
+            "intro": "Estas incursiones no están actualmente en la rotación de incursiones."
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "Antigua nivel 3",
+            "subtitle": "Incursión fácil en grupo",
+            "intro": "Estás incursiones no están actualmente en la rotación de incursiones."
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "Antigua nivel 4",
+            "subtitle": "Incursión difícil en grupo",
+            "intro": "Estas incursiones no están actualmente en la rotación de incursiones."
+        }
+    },
+    "custom": {
+        "title": "Incursión personalizada",
+        "levelsLabel": "Niveles de atacantes",
+        "buttonLabel": "Encontrar mejor oponente",
+        "attackersLabel": "Atacantes"
+    },
+    "results": {
+        "title": "Guía de incursión",
+        "calculating": "Calculando resultados de incursión",
+        "counters": {
+            "title": "Rivales óptimos",
+            "subtitle": "Mejores atacantes por",
+            "description": "El siguiente análisis muestra los ponemos que son los más fuertes en términos de {{ordenar}} contra {{Pokémon}}",
+            "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente.",
+            "difficultyNote": "Los jefes de incursión son mucho más difíciles de vencer que batallas normales, debe considerar cuidadosamente sus opciones",
+            "chooseMovesetLabel": "Elegir movimientos"
+        },
+        "hardestMovesets": {
+            "title": "Incursiones más difíciles",
+            "subtitle": "Para {{Pokémon}} por {{ordenar}}",
+            "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
+            "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor"
+        },
+        "analysis": {
+            "title": "Acerca de este análisis",
+            "description": "El análisis de esta incursión fue realizado simulando un combate con {{defender.pokemon}} como defensor, con {{defender.cp}} PC y {{attackers}}. La simulación se ejecuto con la estrategia de ataque {{attackStrategy}} basado en el tipo de simulación {{defenseStrategy}}. {{numSims}} de simulaciones fueron realizadas con cada combinación de movimientos de {{defender.pokemon}} contra cada uno de los Pokemon y cada uno de sus posibles movimientos. Los 20 mejores atacantes con su mejor combinación de movimiento basándose en {{sort}} fueron guardados y mostrados aquí. Puedes hacer clic en cualquiera de los atacantes para ver los detalles de la simulación y probar combinaciones de movimientos diferentes.",
+            "attackers": {
+                "byLevel": "Atacantes nivel {{attackerLevel}}",
+                "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
+            }
+        },
+        "description": "Bienvenido a la guía de incursión de Pokebattler para {{pokemon}}. Puedes encontrar los mejores oponentes basados en los movimientos de cada jefe. Esta guía es personalizable en muchas maneras diferentes. Puedes seleccionar el nivel  de ataque y la estrategia de ataque que le gustaría usar así como también varias opciones para ordenar."
+    },
+    "pokebox": {
+        "login": "La guía de incursiones de Pokebattler puede ser personalizada solo para incluir Pokémon que posees usando tu propia caja de Pokémon. Ingresa, añade tus mejores Pokémon, a luego puedes alternar entre los mejores Pokémon que hay en tu colección y los mejores oponentes en general para planear tus peleas de incursión.",
+        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 24 mejores contendores que posees se muestran debajo.",
+        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 24 mejores contendores a ese nivel son mostrados debajo.",
+        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 24 contendores se muestran debajo.",
+        "switchLevel": "Cambiar a $t(common:attackerTypes.level)",
+        "switchPokebox": "Cambiar a $t(common:attackerTypes.pokebox)"
+    },
+    "emptyResults": {
+        "LEVEL": "No hubo resultados arrojados para este cálculo. El servidor puede estar presentando fallas.",
+        "POKEBOX": "No hubo resultados arrojados para este cálculo. Quizá no has ingresado ningún Pokémon en tu caja de Pokémon aún.",
+        "FRIEND": "No hubo resultados arrojados para este cálculo. Quizá tú amigo no ha ingresado ningún Pokémon en su caja de Pokémon aún. Intenta un entrenador diferente."
+    },
+    "people": {
+        "title": "Estimación de Pokebattler",
+        "difficultyRating": "Estimado de dificultad: {{rating}}",
+        "adviceLink": "Ver qué pasa si das más poder ",
+        "estimate": {
+            "close": "Vencer a {{pokemon}} debería tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla muy cercana. Trae otro entrenador si puedes para estar seguro.",
+            "almost": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Si tienes mucha suerte, podrías lograrlo con 1 entrenador menos.",
+            "normal": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Asegúrate que tu grupo esté preparado antes de la batalla.",
+            "difficult": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla difícil, asegúrate que todos usen sus mejores Pokémon."
         }
     }
 }
