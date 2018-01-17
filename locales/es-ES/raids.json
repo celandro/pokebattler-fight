@@ -79,6 +79,9 @@
             "moveSetOrderingDescription": "Las combinaciones de movimientos están ordenadas según su dificultad para realizar la incursión, de más difícil a más fácil, asegúrate de comprobar varios, ¡ los resultados pueden variar mucho !",
             "difficultyNote": "Los jefes de incursión son mucho más duros que una pelea normal, deberías considerar cuidadosamente tus opciones.",
             "chooseMovesetLabel": "Elige unos movimientos"
+        },
+        "hardestMovesets": {
+            "title": "Incursiones más difíciles"
         }
     }
 }
