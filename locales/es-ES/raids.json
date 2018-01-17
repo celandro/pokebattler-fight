@@ -70,6 +70,10 @@
         "attackersLabel": "Atacantes"
     },
     "results": {
-        "title": "Guía de incursión"
+        "title": "Guía de incursión",
+        "calculating": "Calculando los resultados de la incursión",
+        "counters": {
+            "title": "Rivales óptimos"
+        }
     }
 }
