@@ -48,7 +48,8 @@
             "intro": "Estás incursiones no están actualmente en la rotación de incursiones."
         },
         "RAID_LEVEL_2_LEGACY": {
-            "title": "Antigua nivel 2"
+            "title": "Antigua nivel 2",
+            "subtitle": "Incursión difícil en solitario"
         }
     }
 }
