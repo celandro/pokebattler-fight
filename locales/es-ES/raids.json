@@ -74,7 +74,11 @@
         "calculating": "Calculando los resultados de la incursión",
         "counters": {
             "title": "Rivales óptimos",
-            "subtitle": "Mejores atacantes por"
+            "subtitle": "Mejores atacantes por",
+            "description": "El siguiente análisis muestra los Pokemon más fuertes ordenados por {{sort}} contra {{pokemon}}.",
+            "moveSetOrderingDescription": "Las combinaciones de movimientos están ordenadas según su dificultad para realizar la incursión, de más difícil a más fácil, asegúrate de comprobar varios, ¡ los resultados pueden variar mucho !",
+            "difficultyNote": "Los jefes de incursión son mucho más duros que una pelea normal, deberías considerar cuidadosamente tus opciones.",
+            "chooseMovesetLabel": "Elige unos movimientos"
         }
     }
 }
