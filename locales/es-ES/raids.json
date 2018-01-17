@@ -49,7 +49,21 @@
         },
         "RAID_LEVEL_2_LEGACY": {
             "title": "Antigua nivel 2",
-            "subtitle": "Incursión difícil en solitario"
+            "subtitle": "Incursión difícil en solitario",
+            "intro": "Estas incursiones no están actualmente en la rotación de incursiones."
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "Antigua nivel 3",
+            "subtitle": "Incursión fácil en grupo",
+            "intro": "Estás incursiones no están actualmente en la rotación de incursiones."
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "Antigua nivel 4",
+            "subtitle": "Incursión difícil en grupo",
+            "intro": "Estas incursiones no están actualmente en la rotación de incursiones."
         }
+    },
+    "custom": {
+        "title": "Incursión personalizada"
     }
 }
