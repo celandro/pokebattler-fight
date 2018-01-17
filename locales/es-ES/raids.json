@@ -64,6 +64,8 @@
         }
     },
     "custom": {
-        "title": "Incursión personalizada"
+        "title": "Incursión personalizada",
+        "levelsLabel": "Nivel de los atacantes",
+        "buttonLabel": "Encontrar el mejor oponente"
     }
 }
