@@ -15,17 +15,17 @@
         "RAID_LEVEL_2": {
             "title": "Tier 2",
             "subtitle": "Hard Solo Raid",
-            "intro": "Tier 2 raids are targetted at level 30-40 players who can easily defeat these pokemon. Lower level players should team up to beat these pokemon."
+            "intro": "Tier 2 raids are targeted at level 30-40 players who can easily defeat these Pokemon. Lower level players should team up to beat these Pokemon."
         },
         "RAID_LEVEL_3": {
             "title": "Tier 3",
             "subtitle": "Easy Group Raid",
-            "intro": "Tier 3 raids are targetted at groups of 2 level 30-40 players. They can be soloed by a level 40 player with a little luck and perfect play with awesome pokemon."
+            "intro": "Tier 3 raids are targeted at groups of 2 level 30-40 players. They can be soloed by a level 40 player with a little luck and perfect play with awesome Pokemon."
         },
         "RAID_LEVEL_4": {
             "title": "Tier 4",
             "subtitle": "Hard Group Raid",
-            "intro": "Tier 4 raids are targetted at groups of 5-6 level 30-40 players. Reports have come in of these pokemon being beaten by max level players with 3-4 of the perfect counters."
+            "intro": "Tier 4 raids are targetted at groups of 5-6 level 30-40 players. Reports have come in of these Pokemon being beaten by max level players with 3-4 of the perfect counters."
         },
         "RAID_LEVEL_5": {
             "title": "Tier 5",
@@ -35,7 +35,7 @@
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
             "subtitle": "Unknown Raids",
-            "intro": "These pokemon may be parts of future pokemon raid tiers. Use this if a new raid has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Magikarp raid too!"
+            "intro": "These Pokemon may be parts of future Pokemon raid tiers. Use this if a new raid has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Magikarp raid too!"
         },
         "RAID_LEVEL_4_EVENTS": {
             "title": "Special Tier 4",
@@ -75,7 +75,7 @@
         "counters": {
             "title": "counters",
             "subtitle": "Best Attackers by",
-            "description": "The following analysis shows the pokemon that are the strongest raiders in terms of {{sort}} against {{pokemon}}.",
+            "description": "The following analysis shows the Pokemon that are the strongest raiders in terms of {{sort}} against {{pokemon}}.",
             "moveSetOrderingDescription": "The move sets are ordered from hardest to raid against to the easiest, make sure to check multiple, the results can vary greatly!",
             "difficultyNote": "Raid bosses are much harder than normal fight, you should consider carefully your options.",
             "chooseMovesetLabel": "Choose Moveset"
@@ -88,10 +88,10 @@
         },
         "analysis": {
             "title": "About This Analysis",
-            "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single pokemon with every possible moveset. The best 20 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
+            "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 20 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
             "attackers": {
                 "byLevel": "level {{attackerLevel}} attackers",
-                "pokebox": "the custom pokemon from user #{{userId}}'s pokebox"
+                "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
         "description": "Welcome to the Pokebattler raid guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options."
@@ -107,15 +107,15 @@
     "emptyResults": {
         "LEVEL": "There were no results returned for this calculation. The server may be having issues.",
         "POKEBOX": "There were no results returned for this calculation. Perhaps you have not entered any pokemon in your pokebox yet?",
-        "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any pokemon in their pokebox yet? Try a different trainer."
+        "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any Pokemon in their pokebox yet? Try a different trainer."
     },
     "people": {
         "title": "Pokebattler Estimater",
         "difficultyRating": "Difficulty rating: {{rating}}",
         "adviceLink": "See what happens if you power up",
         "estimate": {
-            "close": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a very close fight. Bring one more trainer if you can to be safe. ",
-            "almost": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. If you are very lucky, you might be able to beat it with 1 less trainers.",
+            "close": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a very close fight. Bring one more trainer if you can to be safe.",
+            "almost": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. If you are very lucky, you might be able to beat it with 1 less trainer.",
             "normal": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. Make sure your group is prepared before the fight.",
             "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
         }

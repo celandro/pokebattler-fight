@@ -618,11 +618,26 @@
         "attack": {
             "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
                 "label": "Pas d'esquive",
-                "description": "Utilisez vos attaques rapides le plus vite possible jusqu’à ce que vous puissiez envoyer votre attaque chargée"
+                "description": "Utilisez vos attaques immédiates le plus vite possible jusqu’à ce que vous puissiez envoyer votre attaque chargée"
             },
             "QUICK_ATTACK_ONLY": {
-                "label": "Attaques Rapides Seulement ",
-                "description": "Utilisez vos attaques rapides le plus vite possible! "
+                "label": "Attaques Rapides Seulement",
+                "description": "Utilisez vos attaques rapides le plus vite possible!"
+            },
+            "DODGE_SPECIALS2": {
+                "label": "Esquive attaques chargées",
+                "description": "Utilisez les attaques rapides jusqu'à ce que vous puissiez esquiver l'attaque spéciale, ensuite utilisez votre attaque chargée."
+            },
+            "DODGE_SPECIALS": {
+                "label": "Esquive attaques spéciales PRO",
+                "description": "Utilisez les attaques immédiates et les attaques chargées dès que possible, mais esquivez l'attaque spéciale. "
+            },
+            "DODGE_ALL2": {
+                "label": "Esquiver tout"
+            },
+            "undefined": {
+                "label": "Inconnu",
+                "description": "Ceci ne doit pas se produire. Informez nous que c'est arrivé s'il vous plait!"
             }
         },
         "dodge": {
@@ -641,29 +656,69 @@
             "DODGE_90": {
                 "label": "90% d'esquive",
                 "description": "Choisit d'esquiver 90% du temps"
+            },
+            "DODGE_100": {
+                "label": "Esquive parfaite"
+            },
+            "DODGE_REACTION_TIME": {
+                "label": "Esquive réaliste"
             }
         },
         "defense": {
             "DEFENSE_RANDOM": {
-                "label": "Aléatoire"
+                "label": "Aléatoire",
+                "description": "Simulation entièrement aléatoire! Les attaques se produisent entre 1,5 et 2,5 secondes. Les attaques spéciales sont utilisées 50% du temps si le défenseur a assez d’énergie"
             },
             "DEFENSE_RANDOM_MC_MID": {
                 "label": "Monte Carlo - Argent"
+            },
+            "DEFENSE": {
+                "label": "Défenseur attendu"
+            },
+            "DEFENSE_LUCKY": {
+                "label": "Défenseur chanceux",
+                "description": "Le pire qu'il peut arriver, Les attaques se produisent toutes les 1,95s et les attaques spéciales sont le plus tôt possible"
+            },
+            "DEFENSE_RANDOM_MC_FAST": {
+                "label": "Monte Carlo - Bronze\n"
+            },
+            "DEFENSE_RANDOM_MC": {
+                "label": "Monte Carlo - Or"
             }
         }
     },
     "weatherConditions": {
         "NO_WEATHER": {
-            "label": "Extrême"
+            "label": "Extrême",
+            "description": "Aucun Bonus"
         },
         "RAINY": {
-            "label": "Pluvieux"
+            "label": "Pluvieux",
+            "description": "Bonus de 20% pour les attaques de type Eau, Électrik et Insecte"
         },
         "OVERCAST": {
-            "label": "Nuageux"
+            "label": "Nuageux",
+            "description": "Bonus de 20% pour les attaques de type Fée, Combat et Poison"
         },
         "SNOW": {
-            "label": "Neigeux"
+            "label": "Neigeux",
+            "description": "Bonus de 20% pour les attaques de type Glace et Acier"
+        },
+        "CLEAR": {
+            "label": "Ensoleillé",
+            "description": "Bonus de 20% pour les attaques de type plante, sol et feu"
+        },
+        "PARTLY_CLOUDY": {
+            "label": "Quelques nuages",
+            "description": "Bonus de 20% pour les attaques de type Normal et Roche"
+        },
+        "WINDY": {
+            "label": "Vent",
+            "description": "Bonus de 20% pour les attaques de type Dragon, Vol et Psy"
+        },
+        "FOG": {
+            "label": "Brouillard",
+            "description": "Bonus de 20% pour les attaques de type Ténèbres et Spectre"
         }
     },
     "pokeboxVsLevel": "Pokebox {{userId}} Attaquants Vs. Niveau {{defenderLevel}} Défenseur"

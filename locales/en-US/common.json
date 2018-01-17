@@ -95,7 +95,8 @@
     "loading": "Loading",
     "success": "Success",
     "error": "Error",
-    "bulk": "Importing"
+    "bulk": "Importing",
+    "newVersion": "New Release"
   },
   "message":{
     "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
@@ -103,7 +104,8 @@
     "deleteAll": "Removing all Pokemon from your Pokebox",
     "update": "Updating your pokemon",
     "success": "Success",
-    "error": "Oops, something went wrong. Try again in a couple seconds"
+    "error": "Oops, something went wrong. Try again in a couple seconds",
+    "newVersion": "A new version is available, reload your browser"
   },
   "site": {
     "beta": "Beta Site",
