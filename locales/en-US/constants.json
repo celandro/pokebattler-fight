@@ -705,7 +705,20 @@
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Gold",
                 "description": "The most accurate result. 200 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
+            },
+            "DEFENSE_RANDOM_MC_EX": {
+                "label": "Monte Carlo - Ex",
+                "description": "A special benefit for Fanatics on Patreon. An excessively accurate result. 500 random simulations are run and combined together to make one overall result based on your aggregation choice. Most useful when looking at percentiles"
+            },
+            "DEFENSE_PATTERN": {
+                "label": "Defense Pattern - RNG",
+                "description": "An extremely predictable random number generator is used for this single simulation. This is used internally by Pokebattler for optimizing Monte Carlo simulations with random dodging"
+            },
+            "DEFENSE_PATTERN2": {
+                "label": "Defense Pattern",
+                "description": "A pattern of delays and attacks is used for this single simulation. This is used internally by Pokebattler for optimizing Monte-Carlo simulations without dodging"
             }
+
         }
     },
     "weatherConditions": {
