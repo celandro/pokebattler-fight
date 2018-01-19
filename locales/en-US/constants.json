@@ -707,7 +707,7 @@
                 "description": "The most accurate result. 200 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
             },
             "DEFENSE_RANDOM_MC_EX": {
-                "label": "Monte Carlo - Ex",
+                "label": "Monte Carlo - Platinum",
                 "description": "A special benefit for Fanatics on Patreon. An excessively accurate result. 500 random simulations are run and combined together to make one overall result based on your aggregation choice. Most useful when looking at percentiles"
             },
             "DEFENSE_PATTERN": {
