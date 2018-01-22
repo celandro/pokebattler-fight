@@ -116,7 +116,8 @@
   },
   "stardust": {
     "title": "Stardust Available"
-  }
-
+  },
+  "xAxis": "X-Axis",
+  "yAxis": "Y-Axis"
 
 }

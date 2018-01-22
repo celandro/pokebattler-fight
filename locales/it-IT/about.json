@@ -1,2 +1,11 @@
 {
+    "title": "Riguardo a Pokebattler",
+    "history": "Questo sito è stato creato a Luglio 2016 da {{link}} (aka Ryan Barker), con l'aiuto di alcuni dei suoi colleghi. Anche la moglie di Ryan, Shelley Barker, fornisce un aiuto molto apprezzato in questo progetto.",
+    "engine": "Questo motore di calcolo per questo sito è {{link}} e supporta in maniera gratuita tutte le simulazioni di battaglie di questo sito. I finanziamenti per questo sito provengono attualmente da Ryans fino al momento in cui sua moglie non si arrabbierà con lui per aver speso troppi soldi su questo sito.",
+    "githubLink": "risorse open",
+    "thanks": "Un ringraziamento speciale a tutti i redditors che hanno fatto ricerche lungo la strada, inclusi ",
+    "sponsor": "Pokebattler.com è sponsorizzato da {{link}}. Dacci un'occhiata!",
+    "privacy": "Pokebattler prende sul serio la tua privacy, maggiori informazioni sul nostro {{link}}",
+    "privacyLink": "Pagina di privacy",
+    "images": "Le immagini dei Pokémon di questo sito sono utilizzate sotto la licenza Creative Commons Attribution. Possono essere trovati su {{link}}."
 }
