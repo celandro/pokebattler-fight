@@ -115,5 +115,7 @@
     },
     "stardust": {
         "title": "Verfügbarer Sternenstaub"
-    }
+    },
+    "xAxis": "X-Achse",
+    "yAxis": "Y-Achse"
 }
