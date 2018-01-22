@@ -119,5 +119,6 @@
             "normal": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Vergewissere dich, dass deine Gruppe für den Kampf vorbereitet ist.",
             "difficult": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Es wird ein harter Kampf. Stell sicher, dass jeder seine besten Pokemon verwendet."
         }
-    }
+    },
+    "helpLink": "Sieh dir das Raid Tutorial Video an"
 }
