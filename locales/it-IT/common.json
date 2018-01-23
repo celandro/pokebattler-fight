@@ -59,5 +59,6 @@
     "site": {
         "beta": "Sito Beta",
         "www": "Sito Principale"
-    }
+    },
+    "reset": "Resetta"
 }

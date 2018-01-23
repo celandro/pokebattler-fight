@@ -34,6 +34,11 @@
             "link": "/help/rankings",
             "description": "Learn which pokemon are the best overall attackers and defenders"
         },
+        "raidAdvice": {
+            "title": "Raid Advice",
+            "link": "/help/raid-advice",
+            "description": "Discover which Pokemon to power up to beat a raid boss"
+        },
         "simulations": {
             "title": "Simulations",
             "link": "/help/simulations",

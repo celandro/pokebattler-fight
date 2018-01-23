@@ -705,7 +705,20 @@
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Gold",
                 "description": "The most accurate result. 200 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
+            },
+            "DEFENSE_RANDOM_MC_EX": {
+                "label": "Monte Carlo - Platinum",
+                "description": "A special benefit for Fanatics on Patreon. An excessively accurate result. 500 random simulations are run and combined together to make one overall result based on your aggregation choice. Most useful when looking at percentiles"
+            },
+            "DEFENSE_PATTERN": {
+                "label": "Defense Pattern - RNG",
+                "description": "An extremely predictable random number generator is used for this single simulation. This is used internally by Pokebattler for optimizing Monte Carlo simulations with random dodging"
+            },
+            "DEFENSE_PATTERN2": {
+                "label": "Defense Pattern",
+                "description": "A pattern of delays and attacks is used for this single simulation. This is used internally by Pokebattler for optimizing Monte-Carlo simulations without dodging"
             }
+
         }
     },
     "weatherConditions": {
@@ -740,6 +753,40 @@
         "FOG": {
             "label": "Fog",
             "description": "20% bonus to Dark and Ghost attacks"
+        }
+    },
+    "aggregations": {
+        "AVERAGE": {
+            "label": "Average",
+            "description": "Average the results of the Monte Carlo simulations together. Note: The combat log and detailed damage reports are based on the median"
+        },
+        "MEDIAN": {
+            "label": "Expected - 50%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 50th percentile."
+        },
+        "PERCENTILE_99": {
+            "label": "Extremely lucky - 99%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 99th percentile."
+        },
+        "PERCENTILE_95": {
+            "label": "Very lucky - 95%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        },
+        "PERCENTILE_75": {
+            "label": "Lucky - 75%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        },
+        "PERCENTILE_25": {
+            "label": "Unlucky - 25%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        },
+        "PERCENTILE_5": {
+            "label": "Very Unlucky - 5%",
+            "description": "Very unlucky. Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        },
+        "PERCENTILE_1": {
+            "label": "Extremely unlucky - 1%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
         }
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
