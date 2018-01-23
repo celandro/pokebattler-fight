@@ -14,7 +14,7 @@
   "defenseStrategy": "Simulation Type",
   "dodgeStrategy": "Dodge Strategy",
   "weatherCondition": "Weather",
-  "aggregation": "Aggregation",
+  "aggregation": "How Lucky?",
   "stats": {
     "attack": "Attack",
     "defense": "Defense",
