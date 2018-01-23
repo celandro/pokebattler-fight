@@ -755,6 +755,40 @@
             "description": "20% bonus to Dark and Ghost attacks"
         }
     },
+    "aggregations": {
+        "AVERAGE": {
+            "label": "Average",
+            "description": "Average the results of the Monte Carlo simulations together. Note: The combat log and detailed damage reports are based on the median"
+        },
+        "MEDIAN": {
+            "label": "Expected - 50%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 50th percentile."
+        },
+        "PERCENTILE_99": {
+            "label": "Extremely lucky - 99%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 99th percentile."
+        },
+        "PERCENTILE_95": {
+            "label": "Very lucky - 95%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        },
+        "PERCENTILE_75": {
+            "label": "Lucky - 75%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        },
+        "PERCENTILE_25": {
+            "label": "Unlucky - 25%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        },
+        "PERCENTILE_5": {
+            "label": "Very Unlucky - 5%",
+            "description": "Very unlucky. Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        },
+        "PERCENTILE_1": {
+            "label": "Extremely unlucky - 1%",
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+        }
+    },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"
