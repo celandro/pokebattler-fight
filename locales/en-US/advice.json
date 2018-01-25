@@ -35,7 +35,13 @@
         "description": "Welcome to the Pokebattler raid advice for {{pokemon}}. You can find the best potential counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options. You can also choose the amount of stardust and candies you have available."
     },
     "result": {
-        "description": "The result of each Power Up of a {{attacker}} vs. a {{defender}} raid boss is shown below. The results will vary based on the moves of {{defender}}."
+        "description": "The result of each Power Up of a {{attacker}} vs. a {{defender}} raid boss is shown below. The results will vary based on the moves of {{defender}}.",
+        "summaryStart": "Starting Results",
+        "summaryEnd": "Powered Up Results",
+        "graphTitle": "{{yAxis}} Versus {{xAxis}}",
+        "detail": "Detailed Results For Each Power Up",
+        "back": "Back to Advice Settings"
     },
-    "raidLink": "See this result without the Power Ups"
+    "raidLink": "See this result without the Power Ups",
+    "helpLink": "Watch the Raid Advice tutorial video"
 }
