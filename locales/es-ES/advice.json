@@ -3,14 +3,14 @@
     "results": {
         "counters": {
             "title": "Rivales óptimos",
-            "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente.",
+            "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente!",
             "chooseMovesetLabel": "Elegir movimientos"
         },
         "hardestMovesets": {
             "title": "Incursiones más difíciles",
             "subtitle": "Para {{Pokémon}} por {{ordenar}}",
             "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
-            "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor"
+            "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor!"
         },
         "analysis": {
             "title": "Acerca de este análisis",

@@ -23,7 +23,7 @@
         "title": "Pokebox-Import",
         "description": "Importiere Pokemon",
         "parse": "Beginne Import",
-        "hintText": "Viele Formate werden unterstützt. Stelle sicher, dass du eine Kopfzeile bereitstellst",
+        "hintText": "Viele Formate werden unterstützt. Stelle sicher, dass du eine Kopfzeile bereitstellst.",
         "floatingLabel": "Füge hier deine Pokemon ein, nachdem du sie kopiert hast",
         "table": {
             "header": "Wähle alle Pokemon, die du importieren willst",
