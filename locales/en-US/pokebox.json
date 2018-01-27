@@ -50,7 +50,8 @@
     "explanation": "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not.",
     "delete": {
       "title": "Bulk Delete",
-      "blurb": "You can quickly delete multiple pokemon at a time here. This is an operation",
+      "blurb": "You can quickly delete multiple pokemon at a time here. You can quickly clear out more space in your pokebox. Just select each pokemon you want to delete. When you are done, scroll to the bottom to find the Delete button.",
+      "button": "Bulk Delete",
       "bulk": {
         "title": "Delete",
         "toolbarTitle": "Bulk Delete",
