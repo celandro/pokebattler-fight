@@ -718,7 +718,6 @@
                 "label": "Defense Pattern",
                 "description": "A pattern of delays and attacks is used for this single simulation. This is used internally by Pokebattler for optimizing Monte-Carlo simulations without dodging"
             }
-
         }
     },
     "weatherConditions": {
@@ -774,19 +773,19 @@
         },
         "PERCENTILE_75": {
             "label": "Lucky - 75%",
-            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 75th percentile."
         },
         "PERCENTILE_25": {
             "label": "Unlucky - 25%",
-            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 25th percentile."
         },
         "PERCENTILE_5": {
             "label": "Very Unlucky - 5%",
-            "description": "Very unlucky. Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 5th percentile."
         },
         "PERCENTILE_1": {
             "label": "Extremely unlucky - 1%",
-            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+            "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 1st percentile."
         }
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
