@@ -47,5 +47,15 @@
         "title": "Pokebox - Out of space",
         "explanation": "You have reached the maximum number of Pokemon for your Pokebox at your current support level. This puts you in the top 5% of Pokebattler users! Pokebattler depends on the support of heavy users like yourself to serve high quality simulations to everyone. You can increase your Pokemon storage by contributing to Pokebattler's Patreon."
     },
-    "explanation": "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not."
+    "explanation": "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not.",
+    "delete": {
+      "title": "Bulk Delete",
+      "blurb": "You can quickly delete multiple pokemon at a time here. This is an operation",
+      "bulk": {
+        "title": "Delete",
+        "toolbarTitle": "Bulk Delete",
+        "confirmation": "This will delete {{num}} Pokemon from your Pokebox, are you sure?"
+      },
+      "irreversible": "This cannot be undone!"
+    }
 }
