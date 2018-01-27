@@ -18,19 +18,18 @@
         "title": "Delete",
         "confirmation": "Are you sure you want to delete this Pokemon?"
     },
-  "deleteAll": {
-    "button": "Delete All",
-    "title": "Delete All",
-    "confirmation":  "This will delete all Pokemon in your Pokebox, are you sure?",
-    "irreversible": "This cannot be undone!"
-  },
-
+    "deleteAll": {
+        "button": "Delete All",
+        "title": "Delete All",
+        "confirmation": "This will delete all Pokemon in your Pokebox, are you sure?",
+        "irreversible": "This cannot be undone!"
+    },
     "import": {
         "button": "Bulk Import",
         "title": "Pokebox Import",
         "description": "Import Pokemon",
         "parse": "Begin Import",
-        "hintText": "Many formats are supported. Make sure to include a header row",
+        "hintText": "Many formats are supported. Make sure to include a header row.",
         "floatingLabel": "Copy and paste your Pokemon here",
         "table": {
             "header": "Select the Pokemon you wish to import below",
