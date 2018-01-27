@@ -93,14 +93,17 @@
         "loading": "Lade",
         "success": "Erfolgreich",
         "error": "Fehler",
-        "bulk": "Importiere"
+        "bulk": "Importiere",
+        "newVersion": "Neue Version"
     },
     "message": {
         "bulk": "Massenimport von {{num}} Pokemon, das kann eine Weile dauern",
         "delete": "Ein Pokemon wird aus Ihrer Pokebox entfernt",
         "update": "Das Pokemon wird aktualisiert",
         "success": "Erfolg",
-        "error": "Ups, da ist etwas schiefgegangen. Versuchen Sie es in ein paar Sekunden erneut"
+        "error": "Ups, da ist etwas schiefgegangen. Versuchen Sie es in ein paar Sekunden erneut",
+        "deleteAll": "Lösche alle Pokemon aus deiner Pokebox",
+        "newVersion": "Eine neue Version steht bereit, bitte aktualisiere die Seite"
     },
     "site": {
         "beta": "Beta-Seite",
@@ -112,5 +115,7 @@
     },
     "stardust": {
         "title": "Verfügbarer Sternenstaub"
-    }
+    },
+    "xAxis": "X-Achse",
+    "yAxis": "Y-Achse"
 }

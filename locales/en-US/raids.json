@@ -119,5 +119,6 @@
             "normal": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. Make sure your group is prepared before the fight.",
             "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
         }
-    }
+    },
+    "helpLink": "Watch the Raid tutorial video"
 }

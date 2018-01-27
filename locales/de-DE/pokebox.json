@@ -23,7 +23,7 @@
         "title": "Pokebox-Import",
         "description": "Importiere Pokemon",
         "parse": "Beginne Import",
-        "hintText": "Viele Formate werden unterstützt. Stelle sicher, dass du eine Kopfzeile bereitstellst",
+        "hintText": "Viele Formate werden unterstützt. Stelle sicher, dass du eine Kopfzeile bereitstellst.",
         "floatingLabel": "Füge hier deine Pokemon ein, nachdem du sie kopiert hast",
         "table": {
             "header": "Wähle alle Pokemon, die du importieren willst",
@@ -41,5 +41,11 @@
         "title": "Pokebox - Kein Platz mehr",
         "explanation": "Du hast die maximale Anzahl an Pokemon für deine Pokebox auf deinem Unterstützungslevel erreicht. Das macht dich zu einem der Top 5% aller Pokebattler Benutzer.Pokebattler baut auf die Unterstützung von Powerusern wie dich um hochqualitative Simulationen für alle zur Verfügung zu stellen. Du kannst deinen Pokemon Platz erhöhen, in dem du uns auf Patreon unterstützt."
     },
-    "explanation": "Pokebattler Pokebox ist ein spannendes neues Fature welches dich dein Pokebattler Erlebnis anpassen lässt basierend auf den Pokemon die du wirklich besitzt! Alle Pokemon die du deiner Pokebox hinzufügst können durch die ganze Seite hinweg benutzt werden. Schau nach dem Box Icon. Grün bedeutet, du benutzt die Pokebox, schwarz heißt du nimmst sie nicht."
+    "explanation": "Pokebattler Pokebox ist ein spannendes neues Fature welches dich dein Pokebattler Erlebnis anpassen lässt basierend auf den Pokemon die du wirklich besitzt! Alle Pokemon die du deiner Pokebox hinzufügst können durch die ganze Seite hinweg benutzt werden. Schau nach dem Box Icon. Grün bedeutet, du benutzt die Pokebox, schwarz heißt du nimmst sie nicht.",
+    "deleteAll": {
+        "button": "Alle löschen",
+        "title": "Alle löschen",
+        "confirmation": "Du bist dabei alle Pokemon in deiner Pokebox zu löschen. Bist du sicher?",
+        "irreversible": "Das kann nicht rückgängig gemacht werden!"
+    }
 }
