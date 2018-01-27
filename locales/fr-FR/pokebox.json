@@ -1,9 +1,9 @@
 {
     "title": "Pokebox",
-    "blurb": "Ajoutez vos pokémons pour des résultats personnalisés !",
+    "blurb": "Ajoutez vos Pokémon pour des résultats personnalisés !",
     "pokemonList": {
         "title": "Votre Pokebox personnalisée",
-        "zero": "Ajoutez vos pokémons en cliquant sur la case à gauche.",
+        "zero": "Ajoutez vos Pokémon en cliquant sur la case à gauche.",
         "zeroDescription": "Si vous avez déjà ajouté des pokémons par le passé, vous avez peut-être ouvert une session avec un autre compte. Vos comptes seront automatiquement liés s'ils utilisent la même adresse mail."
     },
     "add": {
@@ -20,6 +20,6 @@
         "description": "Importer des pokémons",
         "parse": "Commencer l'importation",
         "hintText": "De nombreux formats sont pris en charge. Assurez-vous d'inclure une ligne d'en-tête.",
-        "floatingLabel": "Copiez et collez vos pokémons ici"
+        "floatingLabel": "Copiez et collez vos Pokémon ici"
     }
 }
