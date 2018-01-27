@@ -98,7 +98,7 @@
     },
     "message": {
         "bulk": "Massenimport von {{num}} Pokemon, das kann eine Weile dauern",
-        "delete": "Ein Pokemon wird aus Ihrer Pokebox entfernt",
+        "delete": "Es werden {{num}} Pokemon aus Ihrer Pokebox entfernt",
         "update": "Das Pokemon wird aktualisiert",
         "success": "Erfolg",
         "error": "Ups, da ist etwas schiefgegangen. Versuchen Sie es in ein paar Sekunden erneut",
