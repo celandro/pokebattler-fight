@@ -630,7 +630,7 @@
             },
             "DODGE_SPECIALS": {
                 "label": "Esquive attaques spéciales PRO",
-                "description": "Utilisez les attaques immédiates et les attaques chargées dès que possible, mais esquivez l'attaque spéciale. "
+                "description": "Utilisez les attaques immédiates et les attaques chargées dès que possible, mais esquivez l'attaque spéciale!"
             },
             "DODGE_ALL2": {
                 "label": "Esquiver tout"
@@ -680,7 +680,7 @@
                 "description": "Le pire qu'il peut arriver, Les attaques se produisent toutes les 1,95s et les attaques spéciales sont le plus tôt possible"
             },
             "DEFENSE_RANDOM_MC_FAST": {
-                "label": "Monte Carlo - Bronze\n"
+                "label": "Monte Carlo - Bronze"
             },
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Or"

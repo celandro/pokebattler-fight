@@ -705,6 +705,18 @@
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Gold",
                 "description": "Das genauste Ergebnis. 200 Zufallssimulationen werden zu einem Gesamtergebnis zusammengerechnet. Der Median wird als Beispiel für den Kampfbericht benutzt. Am nützlichsten in nicht perfekten Ausweichstrategien."
+            },
+            "DEFENSE_RANDOM_MC_EX": {
+                "label": "Monte Carlo - Platinum",
+                "description": "Eine besonderer Vorteil für Fanatiker auf Patreon. Ein exzessiv genaues Ergebnis. 500 Zufallssimulationen werden durchlaufen und kombiniert um ein Allgemeinergebnis auf Basis deiner Aggregationen zu erhalten. Am nützlichsten beim betrachten von Quantilen"
+            },
+            "DEFENSE_PATTERN": {
+                "label": "Verteidigungsmuster - Zufall",
+                "description": "Ein extrem vorhersagbarer Zufallsnummerngenerator wird für diese Einzelsimulation genutzt. Dies wird hauptsächlich intern für die Optimierung von Monte Carlo Simulationen mit Zufallsausweichen benutzt"
+            },
+            "DEFENSE_PATTERN2": {
+                "label": "Verteidigungsmuster",
+                "description": "Ein Muster von Verzögerungen und Attacken wird für diese Einzelsimulation benutzt. Dies wird intern für die Optimierung von Monte Carlo Simulationen ohne Ausweichen benutzt"
             }
         }
     },
@@ -744,5 +756,39 @@
     },
     "levelVs": "Level {{attackerLevel}} Angreifer gegen Level {{defenderLevel}} Verteidiger",
     "levelVsPokebox": "Level {{attackerLevel}} Angreifer gegen Pokebox {{userId}} Verteidiger",
-    "pokeboxVsLevel": "Pokebox {{userId}} Angreifer gegen Level {{defenderLevel}} Verteidiger"
+    "pokeboxVsLevel": "Pokebox {{userId}} Angreifer gegen Level {{defenderLevel}} Verteidiger",
+    "aggregations": {
+        "AVERAGE": {
+            "label": "Durchschnitt",
+            "description": "Bilde den Durchschnitt aller Monte Carlo Simulationen. Beachte: Das Kampflog und der detaillierte Schadensreport basieren auf dem Median"
+        },
+        "MEDIAN": {
+            "label": "Erwartet - 50%",
+            "description": "Sortiere die Ergebnisse der Monte Carlo Simulationen nach dem Allgemeinen Rating und gib die 50. Quantile zurück."
+        },
+        "PERCENTILE_99": {
+            "label": "Extrem erfolgreich - 99%",
+            "description": "Sortiere die Ergebnisse der Monte Carlo Simulationen nach dem Allgemeinen Rating und gib die 99. Quantile zurück."
+        },
+        "PERCENTILE_95": {
+            "label": "Sehr Erfolgreich - 95%",
+            "description": "Sortiere die Ergebnisse der Monte Carlo Simulationen nach dem Allgemeinen Rating und gib die 95. Quantile zurück."
+        },
+        "PERCENTILE_75": {
+            "label": "Erfolgreich - 75%",
+            "description": "Sortiere die Ergebnisse der Monte Carlo Simulationen nach dem Allgemeinen Rating und gib die 75. Quantile zurück."
+        },
+        "PERCENTILE_25": {
+            "label": "Nicht erfolgreich - 25%",
+            "description": "Sortiere die Ergebnisse der Monte Carlo Simulationen nach dem Allgemeinen Rating und gib die 25. Quantile zurück."
+        },
+        "PERCENTILE_5": {
+            "label": "Sehr unerfolgreich - 5%",
+            "description": "Sortiere die Ergebnisse der Monte Carlo Simulationen nach dem Allgemeinen Rating und gib die 5. Quantile zurück."
+        },
+        "PERCENTILE_1": {
+            "label": "Extrem unerfolgreich - 1%",
+            "description": "Sortiere die Ergebnisse der Monte Carlo Simulationen nach dem Allgemeinen Rating und gib die 50. Quantile zurück."
+        }
+    }
 }
