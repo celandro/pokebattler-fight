@@ -62,10 +62,10 @@
     },
     "name": "名字",
     "nickname": "暱稱",
-    "mystic": "Mystic",
-    "valor": "Valor",
-    "instinct": "Instinct",
-    "ivs": "IVs",
+    "mystic": "",
+    "valor": "",
+    "instinct": "",
+    "ivs": "",
     "trainerName": "訓練家名稱",
     "attackerTypes": {
         "pokebox": "我的Pokébox"
