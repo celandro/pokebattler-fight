@@ -1,7 +1,7 @@
 {
     "title": "Guía para incursiones",
     "linkLabel": "Guía para incursiones",
-    "intro": "¡Las incursiones han llegado a Pokémon Go! Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión  con la guía para incursiones más precisa del mundo. Simplemente selecciona la incursión para ver los mejores atacantes para cada combinación de movimientos ",
+    "intro": "¡Las incursiones han llegado a Pokémon Go! Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión con la guía para incursiones más precisa del mundo. ¡Simplemente selecciona la incursión para ver los mejores atacantes para cada combinación de movimientos!",
     "tierList": {
         "common": {
             "boss": "Jefe",
@@ -35,7 +35,7 @@
         "RAID_LEVEL_UNSET": {
             "title": "Nivel ¿?",
             "subtitle": "Incursiones desconocidas",
-            "intro": "Estos Pokémon pueden ser parte de futuros niveles de incursiones. Use esto si una nueva incursión ha salido y el sitio web no ha sido actualizado aún. Usted puede también usar esta sección para analizar que pasaría si tuviese una incursión legendaria de Magikarp también."
+            "intro": "Estos Pokémon pueden ser parte de futuros niveles de incursiones. Use esto si una nueva incursión ha salido y el sitio web no ha sido actualizado aún. ¡También puedes usar esta sección para analizar que pasaría si tuvieses una incursión legendaria de Magikarp!"
         },
         "RAID_LEVEL_4_EVENTS": {
             "title": "Especial de nivel 4",
@@ -70,12 +70,12 @@
         "attackersLabel": "Atacantes"
     },
     "results": {
-        "title": "Guía de incursión",
+        "title": "Guía para incursiones",
         "calculating": "Calculando resultados de incursión",
         "counters": {
             "title": "Rivales óptimos",
             "subtitle": "Mejores atacantes por",
-            "description": "El siguiente análisis muestra los ponemos que son los más fuertes en términos de {{ordenar}} contra {{Pokémon}}",
+            "description": "El siguiente análisis muestra los Pokemon que son más fuertes basándose en {{sort}} contra {{pokemon}}.",
             "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente.",
             "difficultyNote": "Los jefes de incursión son mucho más difíciles de vencer que batallas normales, debe considerar cuidadosamente sus opciones",
             "chooseMovesetLabel": "Elegir movimientos"
