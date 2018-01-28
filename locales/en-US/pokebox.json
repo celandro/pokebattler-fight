@@ -14,23 +14,6 @@
         "pokemon": "Choose Pokemon",
         "pokemonSelect": "Choose Pokemon"
     },
-    "delete": {
-        "title": "Delete",
-        "confirmation": "Are you sure you want to delete this Pokemon?",
-        "blurb": "Select the Pokemon you wish to delete below.",
-        "irreversible": "This cannot be undone!",
-        "bulk": {
-          "toolbarTitle": "Pokebox - Delete Pokemon",
-          "title": "Delete Pokemon",
-          "confirmation": "This will delete the selected {{num}} Pokemon, are you sure?"
-        }
-    },
-    "deleteAll": {
-        "button": "Delete All",
-        "title": "Delete All",
-        "confirmation":  "This will delete all Pokemon in your Pokebox, are you sure?",
-        "irreversible": "This cannot be undone!"
-    },
     "import": {
         "button": "Bulk Import",
         "title": "Pokebox Import",
