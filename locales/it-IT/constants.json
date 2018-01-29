@@ -650,7 +650,7 @@
             },
             "DODGE_REACTION_TIME": {
                 "label": "Schivamento Realistico",
-                "description": "Prova a schivare in modo umanamente realistico. Gli schivamenti variano dal 50% di successo per una mossa rapida di 1 secondo al 90% di successo per una mossa lenta di 3,5s. In più, se l'attaccante sta usando attacchi superefficaci o non molto efficaci, c'è il 25% di penalità aggiuntiva allo schivamento, facendo calare la percentuale di successo a 37,5% e 67,5%. Infine un piccolo bonus per mosse di attaccanti veloci è aggiunto in base a quanto più veloce la mossa è rispetto al flash dello schivamento"
+                "description": "Prova a schivare in modo umanamente realistico. Gli schivamenti variano dal 50% di successo per una mossa rapida di 1 secondo al 90% di successo per una mossa lenta di 3,5s. In più, se l'attaccante sta usando attacchi superefficaci o non molto efficaci, c'è il 25% di penalità aggiuntiva allo schivamento, facendo calare la percentuale di successo a 37,5% e 67,5%. Infine un piccolo bonus per mosse di attaccanti veloci è aggiunto in base a quanto più veloce la mossa è rispetto al flash dello schivamento."
             },
             "DODGE_REACTION_TIME2": {
                 "label": "Schivamento Realistico PRO",
