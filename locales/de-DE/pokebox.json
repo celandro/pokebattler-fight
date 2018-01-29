@@ -15,8 +15,15 @@
         "pokemonSelect": "Pokemon wählen"
     },
     "delete": {
-        "title": "Löschen",
-        "confirmation": "Bist du sicher, dass du dieses Pokemon löschen willst?"
+        "title": "Mehrere löschen",
+        "confirmation": "Bist du sicher, dass du dieses Pokemon löschen willst?",
+        "blurb": "Du kannst hier schnell mehrere Pokemon löschen, das ist eine eigenständige Operation",
+        "bulk": {
+            "title": "Löschen",
+            "toolbarTitle": "Mehrere löschen",
+            "confirmation": "Dies wird {{num}} Pokemon aus deiner Pokebox löschen. Bist du sicher?"
+        },
+        "irreversible": "Das kann nicht rückgängig gemacht werden!"
     },
     "import": {
         "button": "Massenimport",
