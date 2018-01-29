@@ -76,15 +76,15 @@
             "title": "Rivales óptimos",
             "subtitle": "Mejores atacantes por",
             "description": "El siguiente análisis muestra los Pokemon que son más fuertes basándose en {{sort}} contra {{pokemon}}.",
-            "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente.",
-            "difficultyNote": "Los jefes de incursión son mucho más difíciles de vencer que batallas normales, debe considerar cuidadosamente sus opciones",
+            "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente!",
+            "difficultyNote": "Los jefes de incursión son mucho más difíciles de vencer que batallas normales, debe considerar cuidadosamente sus opciones.",
             "chooseMovesetLabel": "Elegir movimientos"
         },
         "hardestMovesets": {
             "title": "Incursiones más difíciles",
             "subtitle": "Para {{Pokémon}} por {{ordenar}}",
             "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
-            "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor"
+            "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor!"
         },
         "analysis": {
             "title": "Acerca de este análisis",
@@ -106,13 +106,13 @@
     },
     "emptyResults": {
         "LEVEL": "No hubo resultados arrojados para este cálculo. El servidor puede estar presentando fallas.",
-        "POKEBOX": "No hubo resultados arrojados para este cálculo. Quizá no has ingresado ningún Pokémon en tu caja de Pokémon aún.",
+        "POKEBOX": "No hubo resultados arrojados para este cálculo. Quizá no has ingresado ningún Pokémon en tu caja de Pokémon aún?",
         "FRIEND": "No hubo resultados arrojados para este cálculo. Quizá tú amigo no ha ingresado ningún Pokémon en su caja de Pokémon aún. Intenta un entrenador diferente."
     },
     "people": {
         "title": "Estimación de Pokebattler",
         "difficultyRating": "Estimado de dificultad: {{rating}}",
-        "adviceLink": "Ver qué pasa si das más poder ",
+        "adviceLink": "Ver qué pasa si das más poder",
         "estimate": {
             "close": "Vencer a {{pokemon}} debería tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla muy cercana. Trae otro entrenador si puedes para estar seguro.",
             "almost": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Si tienes mucha suerte, podrías lograrlo con 1 entrenador menos.",
