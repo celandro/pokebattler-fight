@@ -35,7 +35,13 @@
     },
     "buttonLabel": "Pokemon Power-Up",
     "result": {
-        "description": "Das Ergebnis von jedem Power-Up von {{attacker}} gegen {{defender}} als Raid-Boss ist hier zu sehen. Die Ergebnisse fallen unterschiedlich aus, je nach dem Angriffsmuster von {{defender}}."
+        "description": "Das Ergebnis von jedem Power-Up von {{attacker}} gegen {{defender}} als Raid-Boss ist hier zu sehen. Die Ergebnisse fallen unterschiedlich aus, je nach dem Angriffsmuster von {{defender}}.",
+        "summaryStart": "Anfangsergebnisse",
+        "summaryEnd": "Aufwertungsergebnisse",
+        "graphTitle": "{{yAxis}} Gegen {{xAxis}}",
+        "detail": "Detaillierte Ergebnisse für jede Aufwertung",
+        "back": "Zurück zu den Beratungseinstellungen"
     },
-    "raidLink": "Dieses Ergebnis ohne Power-Ups anzeigen"
+    "raidLink": "Dieses Ergebnis ohne Power-Ups anzeigen",
+    "helpLink": "Sieh dir das Raid Hinweis Tutorial an"
 }
