@@ -11,7 +11,8 @@
         "hardestMovesets": {
             "subtitle": "Para {{pokemon}} por {{sort}}",
             "tableTitle": "Ataques mais difíceis de enfrentar",
-            "description": "A dificuldade da Reide pode variar bastante dependendo do ataque do pokemon defensor!"
+            "description": "A dificuldade da Reide pode variar bastante dependendo do ataque do pokemon defensor!",
+            "title": "Reides Mais Difíceis"
         },
         "analysis": {
             "title": "Sobre esta Análise",
