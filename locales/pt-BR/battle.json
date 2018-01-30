@@ -1,2 +1,40 @@
 {
+    "title": "Simulador de Combate",
+    "startButton": "Batalha",
+    "attacker": "Atacante",
+    "attackerPlaceHolder": "Selecione o $t(attacker)",
+    "defender": "Defensor",
+    "defenderPlaceHolder": "Escolha o $t(defender)",
+    "pokemonListTypes": {
+        "pokebox": "Minha Pokébox",
+        "all": "Todos os Pokémons"
+    },
+    "relatedBattles": {
+        "title": "Batalhas Relacionadas",
+        "description": "Escolha os parâmetros que deseja alterar e clique no link para relançar a simulação com os novos parâmetros. Os resultados são modificados imediatamente.",
+        "modify": "Tipo",
+        "switch": "Troque para o tipo {{type}}",
+        "parameterTitle": "Mudar parâmetro"
+    },
+    "results": {
+        "title": {
+            "base": "Resultado da Batalha: Seus",
+            "win": "$t(results.title.base) Vitória!",
+            "lose": "$t(results.title.base) perdeu!"
+        },
+        "about": "Sobre esta Batalha",
+        "description": "Um {{attacker.name}} de nível {{attacker.level}} com {{attacker.cp}} PC {{result}} um {{defender.name}} de nível {{defender.level}} com {{defender.cp}} PC nesta simulação de batalha. O {{attacker.name}} atacante usou {{attacker.quickMove}} como ataque rápido e {{attacker.specialMove}} como ataque carregado. O {{defender.name}} defensor usou {{defender.quickMove}} como ataque rápido e {{defender.specialMove}} como ataque carregado. A simulação de combate foi realizada com a estratégia de ataque {{strategies.attack}} usando {{strategies.dodge}} baseada numa simulação de tipo {{strategies.defense}} com clima {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) foram feitas para obter este resultado.",
+        "help": {
+            "text": "Você pode encontrar mais informações em como estas simulações são calculadas visitando {{helpLink}}. As fontes de pesquisa sobre as batalhas de Pokémon GO podem ser encontradas em {{aboutLink}}. Pokebattler é um projeto de código aberto, fique a vontade em reportar erros ou problemas pela página {{repoLink}}.",
+            "links": {
+                "repo": "Página do Projeto"
+            }
+        },
+        "result": {
+            "win": "vence",
+            "lose": "perde"
+        },
+        "logTitle": "Relatório da Batalha"
+    },
+    "runAgain": "Execute novamente esta simulação"
 }

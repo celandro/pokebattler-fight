@@ -1,2 +1,48 @@
 {
+    "title": "Entrar no Pokebattler",
+    "description": "Conecte-se para acessar sua Pokebox e simulações personalizadas",
+    "explanation": "O Pokebattler não entra e nem pode entrar na sua conta Pokemon Go. Nós não conectamos nos servidores da Niantic de nenhuma forma. O Pokebattler somente usa este login para conhece-lo em todos os seus dispositivos. Você pode logar no seu celular, ou tablet ou computador e ver todos os Pokemons que você adicionou no nosso site. Nós não compartilhamos sua informação ou a usamos para fins de marketing ou de nenhuma outra forma.",
+    "privacy": "Para mais informações, consulte nossa política de confidencialidade",
+    "loading": "Carregando dados do usuário",
+    "user": "Usuário",
+    "login": {
+        "google": "Logar com Google",
+        "facebook": "Logar com Facebook",
+        "patreon": "Logar com Patreon",
+        "patreonDescription": "Suportadores do Patreon tem recompensas incluindo mais Pokemon em suas Pokebox, simulações personalizadas de maior qualidade e uma planilha do google de Recomendações de Reides!",
+        "success": {
+            "title": "Logado com Sucesso"
+        }
+    },
+    "details": {
+        "welcome": "Bem-Vindo",
+        "description": "As informações abaixo do seu treinador serão usadas para customizar o site e estarão visíveis para outros usuários."
+    },
+    "loggedIn": {
+        "title": "Perfil Público"
+    },
+    "logout": {
+        "title": "Deslogado",
+        "description": "Você foi deslogado com sucesso. Volte depois em qualquer dispositivo e sua Pokebox estará esperando por você!",
+        "back": "Voltar ao login",
+        "button": "Logout"
+    },
+    "roles": {
+        "title": "Informação da Conta",
+        "heading": "Benefícios Atuais",
+        "description": "Contribua com o Pokebattler {{link}} para benefícios premium. O Pokebattler é viabilizado por suportadores que contribuem com os crescentes custos de hospedagem deste site.",
+        "maxPokemon": "Máximo de Pokemons",
+        "quality": "Qualidade da Simulação",
+        "thanks": "Obrigado por suportar o Pokebattler! Suas contribuições são muito apreciadas.",
+        "support": "Suporte o Pokebattler",
+        "role": {
+            "ROLE_USER": "Usuário do Pokebattler",
+            "ROLE_ADMIN": "Admin do Pokebattler",
+            "ROLE_FAN": "Fã do Pokebattler",
+            "ROLE_SUPPORTER": "Suportador do Pokebattler",
+            "ROLE_PATREON": "Patreon do Pokebattler",
+            "ROLE_FANATIC": "Fanático do Pokebattler",
+            "ROLE_CONTEST": "Vencedor de Concurso do Pokebattler"
+        }
+    }
 }
