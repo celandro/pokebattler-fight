@@ -1,37 +1,202 @@
 {
-  "pages": {
-    "raids": {
-      "link": "/help/raids"
+    "pages": {
+        "raids": {
+            "link": "/help/raids",
+            "title": "Reides",
+            "description": "Escolha os melhores adversários para qualquer chefe de reide com nosso guia customizado de reide"
+        },
+        "battleSimulator": {
+            "link": "/help/battle-simulator",
+            "title": "Simulator de Batalha",
+            "description": "Simule qualquer disputa com o simulador de Pokemon Go mais preciso do mundo"
+        },
+        "pokebox": {
+            "link": "/help/pokebox",
+            "title": "Pokebok",
+            "description": "Salve seus pokemons em nossos servidores e os use em todo o site"
+        },
+        "pokedex": {
+            "link": "/help/pokedex",
+            "title": "Pokedex",
+            "description": "Encontre os melhores adversários e os melhores confrontos para cada pokemon"
+        },
+        "rankings": {
+            "link": "/help/rankings",
+            "title": "Rankings",
+            "description": "Aprenda quais pokemons são os melhores atacantes e defensores"
+        },
+        "simulations": {
+            "link": "/help/simulations",
+            "title": "Simulações",
+            "description": "Definições para todos os tipos de simulações do Pokebattler"
+        },
+        "attackStrategies": {
+            "link": "/help/attack-strategies",
+            "title": "Estratégias de Ataque",
+            "description": "Definições para estratégias de ataque"
+        },
+        "dodgeStrategies": {
+            "link": "/help/dodge-strategies",
+            "title": "Estratégias de esquiva",
+            "description": "Definições para estratégias de esquiva"
+        },
+        "patreon": {
+            "link": "/help/patreon",
+            "title": "Patreon",
+            "description": "Aprenda como e porque nos suportar pelo Patreon"
+        },
+        "glossary": {
+            "link": "/help/glossary",
+            "title": "Glossário",
+            "description": "Um dicionário Pokemon Go"
+        },
+        "faqs": {
+            "link": "/help/faqs",
+            "title": "Perguntas Frequentes",
+            "description": "Recebemos muitas dúvidas. As vezes recebemos muitas vezes as mesmas dúvidas. Estas dúvidas e suas respostas estão aqui"
+        }
     },
-    "battleSimulator": {
-      "link": "/help/battle-simulator"
+    "title": "Como usar o Pokebattler",
+    "intro": "Bem vindo ao Pokebattler.com! O MELHOR e mais sofisticado simulador de batalhas de ginásios de Pokemon Go já criado. Quer saber se aquele Snorlax é o melhor? Teste cada um de seus pokemons para ver como eles vão um a um contra outros pokemons nos ginásios. Você vai ter um relatório de danos segundo a segundo para cada batalha.",
+    "outro": "Não esqueça de voltar para conferir novas funcionalidades como login para salvar seus melhores lutadores de ginásio e mais.",
+    "now-battle": "Agora batalhe com seus Pokémons!",
+    "backlink": "Voltar à ajuda",
+    "pageNotFound": {
+        "title": "Esta página não existe",
+        "text": "Desculpe, nós não conseguimos encontrar a página que você procura"
     },
-    "pokebox": {
-      "link": "/help/pokebox"
+    "sections": {
+        "battle": {
+            "title": "Batalha",
+            "intro": {
+                "title": "Configure uma batalha",
+                "text": "O simulador de batalhas do Pokebattler é muito preciso e permite que você customize suas opções de combate de muitas formas. As opções incluem:"
+            },
+            "outro": {
+                "title": "Batalha!",
+                "text": "Resultados de batalha completo serão mostrados. Fique a vontade para sair e tentar outras combinações."
+            },
+            "steps[0]": {
+                "label": "Digite na barra de pesquisas",
+                "description": "Escolha os atacantes e defensores que você quer batalhar"
+            },
+            "steps[1]": {
+                "label": "Modo básico",
+                "description": "Entre o PC, não se preocupe com seus dados ocultos, nós vamos descobrir pra você o melhor que pudermos."
+            },
+            "steps[2]": {
+                "label": "Modo avançado",
+                "description": "Entre o nível exato e dados ocultos do seu pokemon para a simulação mais precisa"
+            },
+            "steps[3]": {
+                "label": "Escolha seus ataques",
+                "description": "Teste todas as combinações de ataques rápidos e carregados"
+            },
+            "steps[4]": {
+                "label": "Escolha suas estratégias",
+                "description": "Customize a forma que o pokemon ataca e defende. Veja a seção de definições abaixo."
+            }
+        },
+        "rankings": {
+            "title": "Rankings",
+            "intro": {
+                "title": "Customize seus rankings",
+                "text": "Os rankings do Pokebattler são os mais avançados! Nenhum outro site permite mudar as configurações e comparar cada pokemon usando diferentes restrições. Opções de customização incluem:"
+            },
+            "outro": {
+                "title": "Investigar!",
+                "text": "As melhores combinações de ataques para cada pokemon são mostradas. Clicando em um pokemon você terá informações detalhadas sobre todas as combinações de ataques."
+            },
+            "steps[0]": {
+                "label": "Atacante/Defensor",
+                "description": "Selecione se você está atacando ou defendendo. Atacante mostra os resultados contra todos os defensores possíveis. Defensor mostra os resultados contra os 6 melhores atacantes possíveis."
+            },
+            "steps[1]": {
+                "label": "Ordenar",
+                "description": "Selecione o tipo de ranking que deseja (veja abaixo)"
+            },
+            "steps[2]": {
+                "label": "Nível",
+                "description": "Escolha o nível do pokemon atacante e defensor"
+            },
+            "steps[3]": {
+                "label": "Individual/Grupo",
+                "description": "Selecione ver cada combinação de ataques ou somente mostrar a melhor por pokemon"
+            },
+            "steps[4]": {
+                "label": "Selecione suas estratégias",
+                "description": "Customize suas preferências, (veja abaixo)."
+            }
+        },
+        "pokedex": {
+            "title": "Pokedex",
+            "intro": {
+                "title": "Customizar Pokemon",
+                "text": "A página Pokedex é um ótimo lugar para analisar o Pokemon em detalhes. Opções de customização incluem:"
+            },
+            "outro": {
+                "title": "Analisar",
+                "text": "Procure qualquer pokemon que deseje. Ache quais são os melhores ataques tanto para ataque quanto defesa. Descubra que pokemon você deve evitar e como vencer este pokemon em um ataque."
+            },
+            "steps[0]": {
+                "label": "Ordenar",
+                "description": "Selecione o tipo de ranking desejado (veja abaixo)"
+            },
+            "steps[1]": {
+                "label": "Nível",
+                "description": "Selecione o nível do pokemon atacante e defensor"
+            },
+            "steps[2]": {
+                "label": "Selecione suas estratégias",
+                "description": "Customize suas preferências, (veja abaixo)."
+            }
+        },
+        "articles": {
+            "title": "Artigos",
+            "text": "A seção de artigos contêm todos as melhores postagens de pesquisa de um seleto conjunto de autores selecionados assim como alguns artigos relacionados a eventos atuais e discussões. Se você quiser seus artigos hospedados aqui, ",
+            "contact-link": "Contate-nos"
+        }
     },
-    "pokedex": {
-      "link": "/help/pokedex"
-    },
-    "rankings": {
-      "link": "/help/rankings"
-    },
-    "simulations": {
-      "link": "/help/simulations"
-    },
-    "attackStrategies": {
-      "link": "/help/attack-strategies"
-    },
-    "dodgeStrategies": {
-      "link": "/help/dodge-strategies"
-    },
-    "patreon": {
-      "link": "/help/patreon"
-    },
-    "glossary": {
-      "link": "/help/glossary"
-    },
-    "faqs": {
-      "link": "/help/faqs"
+    "definitions": {
+        "title": "Definições",
+        "attack": {
+            "title": "Estratégias de Ataque"
+        },
+        "dodge": {
+            "title": "Estratégias de Esquiva",
+            "intro": {
+                "text": "Estratégias de esquiva são uma forma de regular o algoritmo de estratégia de ataque para retornar resultados mais realistas. Elas são usadas para considerar erro humano, bugs e outros."
+            }
+        },
+        "defense": {
+            "title": "Simulações de Defesa"
+        },
+        "sort": {
+            "title": "Opções de Ordenação",
+            "options[0]": {
+                "label": "Geral",
+                "description": "Uma nota que dá um resultado geral para um pokemon específico. A nota é composta por 50% de peso para potência, 30% de peso para tempo para vencer e 20% para poções"
+            },
+            "options[1]": {
+                "label": "Potência",
+                "description": "Uma percentagem que representa quantas vezes um pokemon mataria outro. 250% significa que ele mataria 2 vezes e daí morreria na metade da 3ª tentativa. 75% significa que ele morreria em apenas 75% da saúde do alvo."
+            },
+            "options[2]": {
+                "label": "Tempo para Vencer",
+                "description": "Mostra a quantidade de tempo que levaria para o Pokemon vencer. 2 segundos são adicionados para cada vez que o pokemon desmaia."
+            },
+            "options[3]": {
+                "label": "% Vitórias",
+                "description": "Ordena pela chance percentual de vencer"
+            },
+            "options[4]": {
+                "label": "DPS",
+                "description": "Ordena pelo dano por segundo"
+            },
+            "options[5]": {
+                "label": "Poções",
+                "description": "Ordena pelo número de poções que levaria para curar, mais 5 para cada vez o pokemon desmaia e precisaria de um Reviver."
+            }
+        }
     }
-  }
 }
