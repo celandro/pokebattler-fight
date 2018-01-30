@@ -1,2 +1,22 @@
 {
+    "linkLabel": "Guia de Reides",
+    "results": {
+        "counters": {
+            "title": "adversários",
+            "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
+            "chooseMovesetLabel": "Escolher Ataques"
+        },
+        "hardestMovesets": {
+            "subtitle": "Para {{pokemon}} por {{sort}}",
+            "tableTitle": "Ataques mais difíceis de enfrentar",
+            "description": "A dificuldade da Reide pode variar bastante dependendo do ataque do pokemon defensor!"
+        },
+        "analysis": {
+            "title": "Sobre esta Análise",
+            "attackers": {
+                "byLevel": "Atacantes nível {{attackerLevel}}",
+                "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
+            }
+        }
+    }
 }
