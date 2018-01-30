@@ -1,4 +1,5 @@
 {
+
     "back": "Back",
     "save": "Save",
     "cancel": "Cancel",
@@ -99,7 +100,7 @@
     },
     "message": {
         "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
-        "delete": "Removing 1 pokemon from your Pokebox",
+        "delete": "Removing {{num}} pokemon from your Pokebox",
         "deleteAll": "Removing all Pokemon from your Pokebox",
         "update": "Updating your pokemon",
         "success": "Success",
