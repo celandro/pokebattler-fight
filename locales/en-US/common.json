@@ -1,124 +1,122 @@
 {
-  "back": "Back",
-  "save": "Save",
-  "cancel": "Cancel",
-  "delete": "Delete",
-  "reset": "Reset",
-  "note": "Note",
-  "cp": "CP",
-  "win": "Win",
-  "loss": "Loss",
-  "quickMove": "Fast Move",
-  "specialMove": "Charge Move",
-  "attackStrategy": "Attack Strategy",
-  "defenseStrategy": "Simulation Type",
-  "dodgeStrategy": "Dodge Strategy",
-  "weatherCondition": "Weather",
-  "aggregation": "How Lucky?",
-  "stats": {
-    "attack": "Attack",
-    "defense": "Defense",
-    "stamina": "Stamina"
-  },
-  "statsAbbr": {
-    "attack": "Att",
-    "defense": "Def",
-    "hp": "HP"
-  },
-  "level": "Level",
-  "basic": "Basic",
-  "advanced": "Advanced",
-  "move": "Move",
-  "moves": "Moves",
-  "type": "Pokemon Type",
-  "properties": {
-    "overall": "Overall",
-    "power": "Power",
-    "win": "Win %",
-    "deaths": "Deaths",
-    "effectiveDeaths": "Deaths to Win",
-    "time": "Time to Win",
-    "realTime": "Time",
-    "prestige": "Prestige",
-    "dps": "DPS",
-    "potions": "Potions",
-    "damage": "Damage",
-    "energy": "Energy",
-    "grouped": "Grouped",
-    "single": "Single",
-    "id": "Id",
-    "cp": "$t(common:cp)",
-    "pokemon": "$t(common:pokemon)",
-    "name": "$t(common:name)",
-    "type": "$t(common:type)",
-    "cp": "$t(common:cp)",
-    "powerups": "Power Ups",
-    "stardust": "Stardust",
-    "candy": "Candy"
-  },
-  "sectionLinks": {
-    "help": "Help section",
-    "about": "About section"
-  },
-  "simulation": "one simulation was",
-  "simulation_plural": "{{count}} simulations were",
-  "chooseMovesetLabel": "Choose Moveset",
-  "hd": {
-    "text": "$t(simulation, {'count': {{numSims}} }) performed to generate this high quality simulation",
-    "attackers": "attackers",
-    "defenders": "defenders",
-    "raid": "raid"
-  },
-  "name": "Name",
-  "nickname": "Nickname",
-  "faction": "Faction",
-  "mystic": "Mystic",
-  "valor": "Valor",
-  "instinct": "Instinct",
-  "ivs": "IVs",
-  "trainerName": "Trainer Name",
-  "attackerTypes": {
-    "pokebox": "My Pokebox",
-    "level": "By Level",
-    "friend" : "Thier Pokebox"
-  },
-  "pokebox": "Pokebox",
-  "advice": "Raid Advice",
-  "login": "Login",
-  "trainer": "Trainer",
-  "more": "More",
-  "pokemon": "Pokemon",
-  "status": {
-    "add": "Adding",
-    "edit": "Editing",
-    "update": "Updating",
-    "delete": "Deleting",
-    "loading": "Loading",
-    "success": "Success",
-    "error": "Error",
-    "bulk": "Importing",
-    "newVersion": "New Release"
-  },
-  "message":{
-    "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
-    "delete": "Removing 1 pokemon from your Pokebox",
-    "deleteAll": "Removing all Pokemon from your Pokebox",
-    "update": "Updating your pokemon",
-    "success": "Success",
-    "error": "Oops, something went wrong. Try again in a couple seconds",
-    "newVersion": "A new version is available, reload your browser"
-  },
-  "site": {
-    "beta": "Beta Site",
-    "www": "Main Site"
-  },
-  "candy": {
-    "title": "Candy Available"
-  },
-  "stardust": {
-    "title": "Stardust Available"
-  },
-  "xAxis": "X-Axis",
-  "yAxis": "Y-Axis"
 
+    "back": "Back",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "reset": "Reset",
+    "note": "Note",
+    "cp": "CP",
+    "win": "Win",
+    "loss": "Loss",
+    "quickMove": "Fast Move",
+    "specialMove": "Charge Move",
+    "attackStrategy": "Attack Strategy",
+    "defenseStrategy": "Simulation Type",
+    "dodgeStrategy": "Dodge Strategy",
+    "weatherCondition": "Weather",
+    "stats": {
+        "attack": "Attack",
+        "defense": "Defense",
+        "stamina": "Stamina"
+    },
+    "statsAbbr": {
+        "attack": "Att",
+        "defense": "Def",
+        "hp": "HP"
+    },
+    "level": "Level",
+    "basic": "Basic",
+    "advanced": "Advanced",
+    "move": "Move",
+    "moves": "Moves",
+    "type": "Pokemon Type",
+    "properties": {
+        "overall": "Overall",
+        "power": "Power",
+        "win": "Win %",
+        "deaths": "Deaths",
+        "effectiveDeaths": "Deaths to Win",
+        "time": "Time to Win",
+        "realTime": "Time",
+        "prestige": "Prestige",
+        "dps": "DPS",
+        "potions": "Potions",
+        "damage": "Damage",
+        "energy": "Energy",
+        "grouped": "Grouped",
+        "single": "Single",
+        "id": "Id",
+        "cp": "$t(common:cp)",
+        "pokemon": "$t(common:pokemon)",
+        "name": "$t(common:name)",
+        "type": "$t(common:type)",
+        "powerups": "Power Ups",
+        "stardust": "Stardust",
+        "candy": "Candy"
+    },
+    "sectionLinks": {
+        "help": "Help section",
+        "about": "About section"
+    },
+    "simulation": "one simulation was",
+    "simulation_plural": "{{count}} simulations were",
+    "chooseMovesetLabel": "Choose Moveset",
+    "hd": {
+        "text": "$t(simulation, {'count': {{numSims}} }) performed to generate this high quality simulation",
+        "attackers": "attackers",
+        "defenders": "defenders",
+        "raid": "raid"
+    },
+    "name": "Name",
+    "nickname": "Nickname",
+    "faction": "Faction",
+    "mystic": "Mystic",
+    "valor": "Valor",
+    "instinct": "Instinct",
+    "ivs": "IVs",
+    "trainerName": "Trainer Name",
+    "attackerTypes": {
+        "pokebox": "My Pokebox",
+        "level": "By Level",
+        "friend": "Their Pokebox"
+    },
+    "pokebox": "Pokebox",
+    "advice": "Raid Advice",
+    "login": "Login",
+    "trainer": "Trainer",
+    "more": "More",
+    "pokemon": "Pokemon",
+    "status": {
+        "add": "Adding",
+        "edit": "Editing",
+        "update": "Updating",
+        "delete": "Deleting",
+        "loading": "Loading",
+        "success": "Success",
+        "error": "Error",
+        "bulk": "Importing",
+        "newVersion": "New Release"
+    },
+    "message": {
+        "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
+        "delete": "Removing {{num}} pokemon from your Pokebox",
+        "deleteAll": "Removing all Pokemon from your Pokebox",
+        "update": "Updating your pokemon",
+        "success": "Success",
+        "error": "Oops, something went wrong. Try again in a couple seconds",
+        "newVersion": "A new version is available, reload your browser"
+    },
+    "site": {
+        "beta": "Beta Site",
+        "www": "Main Site"
+    },
+    "candy": {
+        "title": "Candy Available"
+    },
+    "stardust": {
+        "title": "Stardust Available"
+    },
+    "xAxis": "X-Axis",
+    "yAxis": "Y-Axis"
 }

@@ -222,7 +222,279 @@
         "ICE_BEAM": "Raio Congelante",
         "ICE_PUNCH": "Soco de Gelo",
         "ICE_SHARD_FAST": "Caco de Gelo",
-        "ICY_WIND": "Vento Congelante"
+        "ICY_WIND": "Vento Congelante",
+        "RAZOR_LEAF_FAST": "Folha Navalha",
+        "REST": "Descanso",
+        "ROCK_BLAST": "Explosão de Rocha",
+        "ROCK_SLIDE": "Deslize de Pedras",
+        "ROCK_SMASH_FAST": "Esmagamento de Pedras",
+        "ROCK_THROW_FAST": "Lançamento de Rocha",
+        "ROCK_TOMB": "Tumba de Rochas",
+        "SAND_TOMB": "Fosso de Areia",
+        "SCALD": "Escaldar",
+        "SCRATCH_FAST": "Arranhão",
+        "SEED_BOMB": "Bomba de Sementes",
+        "SHADOW_BALL": "Bola Sombria",
+        "SHADOW_CLAW_FAST": "Garra Sombria",
+        "SHADOW_PUNCH": "Soco Sombrio",
+        "SHADOW_SNEAK": "Furtividade nas Sombras",
+        "SIGNAL_BEAM": "Feixe Sinalizador",
+        "SILVER_WIND": "Vento Prateado",
+        "SKY_ATTACK": "Ataque do Céu",
+        "SLUDGE": "Ataque de Lama",
+        "SLUDGE_BOMB": "Bomba de Lodo",
+        "SLUDGE_WAVE": "Onda de Lama",
+        "SNARL_FAST": "Rosnado",
+        "SOLAR_BEAM": "Raio Solar",
+        "SPARK_FAST": "Faísca",
+        "SPLASH_FAST": "Borrifada",
+        "STEEL_WING_FAST": "Asa de Aço",
+        "STOMP": "Pisotear",
+        "STONE_EDGE": "Gume de Pedra",
+        "STRUGGLE": "Insistência",
+        "STRUGGLE_BUG_FAST": "Ira de Inseto",
+        "SUBMISSION": "Submissão",
+        "SUCKER_PUNCH_FAST": "Soco Enganador",
+        "SURF": "Surfar",
+        "SWIFT": "Ataque Veloz",
+        "TACKLE_FAST": "Investida",
+        "TAKE_DOWN_FAST": "Golpe Baixo",
+        "THUNDER": "Trovão",
+        "THUNDERBOLT": "Relâmpago",
+        "THUNDER_PUNCH": "Soco Trovoada",
+        "THUNDER_SHOCK_FAST": "Trovoada de Choques",
+        "TRANSFORM_FAST": "Transformação",
+        "TWISTER": "Twister",
+        "VICE_GRIP": "Agarramento Viciado",
+        "VINE_WHIP_FAST": "Chicote de Vinha",
+        "VOLT_SWITCH_FAST": "Troca Elétrica",
+        "WATERFALL_FAST": "Cachoeira",
+        "WATER_GUN_FAST": "Revólver d'Água",
+        "WATER_PULSE": "Pulso d'Água",
+        "WILD_CHARGE": "Ataque Selvagem",
+        "WING_ATTACK_FAST": "Ataque de Asa",
+        "WRAP": "Embrulho",
+        "X_SCISSOR": "Tesoura X",
+        "YAWN_FAST": "Bocejo",
+        "ZAP_CANNON": "Canhão Zap",
+        "ZEN_HEADBUTT_FAST": "Cabeçada Zen",
+        "DODGE": "Esquivar",
+        "REVIVE": "Desmaiado",
+        "HEAL": "Curar",
+        "HIDDEN_POWER_FAIRY_FAST": "Poder Oculto",
+        "HIDDEN_POWER_DARK_FAST": "Poder Oculto",
+        "HIDDEN_POWER_DRAGON_FAST": "Poder Oculto",
+        "HIDDEN_POWER_ICE_FAST": "Poder Oculto",
+        "HIDDEN_POWER_PSYCHIC_FAST": "Poder Oculto",
+        "HIDDEN_POWER_ELECTRIC_FAST": "Poder Oculto",
+        "HIDDEN_POWER_GRASS_FAST": "Poder Oculto",
+        "HIDDEN_POWER_WATER_FAST": "Poder Oculto",
+        "HIDDEN_POWER_FIRE_FAST": "Poder Oculto",
+        "HIDDEN_POWER_STEEL_FAST": "Poder Oculto",
+        "HIDDEN_POWER_GHOST_FAST": "Poder Oculto",
+        "HIDDEN_POWER_BUG_FAST": "Poder Oculto",
+        "HIDDEN_POWER_ROCK_FAST": "Poder Oculto",
+        "HIDDEN_POWER_GROUND_FAST": "Poder Oculto",
+        "HIDDEN_POWER_POISON_FAST": "Poder Oculto",
+        "HIDDEN_POWER_FLYING_FAST": "Poder Oculto",
+        "HIDDEN_POWER_FIGHTING_FAST": "Poder Oculto",
+        "HIDDEN_POWER_NORMAL_FAST": "Poder Oculto",
+        "RANDOM": "Desconhecido"
     },
-    "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}"
+    "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
+    "types": {
+        "POKEMON_TYPE_NONE": "Desconhecido",
+        "POKEMON_TYPE_NORMAL": "Normal",
+        "POKEMON_TYPE_FIGHTING": "Luta",
+        "POKEMON_TYPE_FLYING": "Voador",
+        "POKEMON_TYPE_POISON": "Venenoso",
+        "POKEMON_TYPE_GROUND": "Terrestre",
+        "POKEMON_TYPE_ROCK": "Pedra",
+        "POKEMON_TYPE_BUG": "Inseto",
+        "POKEMON_TYPE_GHOST": "Fantasma",
+        "POKEMON_TYPE_STEEL": "Aço",
+        "POKEMON_TYPE_FIRE": "Fogo",
+        "POKEMON_TYPE_WATER": "Água",
+        "POKEMON_TYPE_GRASS": "Planta",
+        "POKEMON_TYPE_ELECTRIC": "Elétrico",
+        "POKEMON_TYPE_PSYCHIC": "Psíquico",
+        "POKEMON_TYPE_ICE": "Gelo",
+        "POKEMON_TYPE_DRAGON": "Dragão",
+        "POKEMON_TYPE_DARK": "Sombrio",
+        "POKEMON_TYPE_FAIRY": "Fada"
+    },
+    "strategies": {
+        "attack": {
+            "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
+                "label": "Sem Esquivar",
+                "description": "Usa seus ataques rápidos o mais rápido possível até você poder liberar seu ataque carregado"
+            },
+            "QUICK_ATTACK_ONLY": {
+                "label": "Só Ataques Rápidos",
+                "description": "Usa seus ataques rápidos o mais rápido possível!"
+            },
+            "DODGE_SPECIALS2": {
+                "label": "Esquivar Ataques Carregados",
+                "description": "Usa ataques rápidos até você desviar do especial dele, daí usa seu ataque carregado."
+            },
+            "DODGE_SPECIALS": {
+                "label": "Esquivar Ataques Carregados PRO",
+                "description": "Usa ataques rápidos e carregados assim que possível, mas esquiva do ataque carregado dele!"
+            },
+            "DODGE_ALL2": {
+                "label": "Esquiva de Tudo",
+                "description": "Usa ataques rápidos e esquiva dos ataques dele até que você esquive do ataque carregado, daí usa seu ataque carregado!"
+            },
+            "DODGE_ALL": {
+                "label": "Esquiva de Tudo PRO",
+                "description": "Usa ataques rápidos e carregados entre as esquivas de todos os ataques deles."
+            },
+            "DODGE_WEAVE_CAUTIOUS": {
+                "label": "Intercala Esquivar de Tudo",
+                "description": "Isto usa um padrão de estratégia de ataque que assume que no pior caso 1,5s de atraso entre ataques pode ocorrer toda vez. Esta estratégia deve ser reproduzível por uma pessoa."
+            },
+            "undefined": {
+                "label": "Desconhecido",
+                "description": "Isto não deveria acontecer. Por favor deixe-nos saber que isto ocorreu!"
+            }
+        },
+        "dodge": {
+            "DODGE_100": {
+                "label": "Esquiva Perfeita",
+                "description": "Tenta esquivar 100% do tempo. Esta estratégia de esquiva quase nunca vai deixar de esquivar. Você pode ainda ser atingido em certas situações inevitáveis tal como ao usar um ataque especial."
+            },
+            "DODGE_REACTION_TIME": {
+                "label": "Esquiva Realística",
+                "description": "Tenta simular uma pessoa esquivando. A esquiva varia de uma taxa de sucesso de 50% para um ataque rápido de 1 segundo até uma taxa de sucesso de 90% para um ataque lento de 3,5s. Adicionalmente, se o atacante está usando ataques super-efetivos ou não-efetivos, existe um penalidade adicional de 25% ao esquivar, reduzindo a taxa de sucesso para 37,5% a 67,5%. Finalmente um pequeno bônus para ataques rápidos velozes é adicionado baseado em quão mais rápido o ataque é do que o clarão para esquivar."
+            },
+            "DODGE_REACTION_TIME2": {
+                "label": "Esquiva Realística PRO",
+                "description": "Tenta simular uma experiência realística de uma pessoa esquivando. As esquivas variam de uma taxa de sucesso de 70% para um ataque rápido de 1s até uma taxa de sucesso de 90% para um ataque lento de 3,5s. Adicionalmente, se o atacante está usando ataques super-efetivos ou não-efetivos, há uma penalidade adicional de 10% para a esquiva, reduzindo a taxa de sucesso para 63,0% a 81,0%. Finalmente um pequeno bônus é adicionado para ataques rápidos velozes baseado em quão mais rápido o ataque é do que o clarão da esquiva.\n"
+            },
+            "DODGE_25": {
+                "label": "25% de Esquiva",
+                "description": "Selecione para esquivar 25% das vezes"
+            },
+            "DODGE_50": {
+                "label": "Esquiva 50%",
+                "description": "Selecione para esquivar 50% das vezes"
+            },
+            "DODGE_75": {
+                "label": "Esquiva 75%",
+                "description": "Selecione para esquivar 75% das vezes"
+            },
+            "DODGE_90": {
+                "label": "Esquiva 90%",
+                "description": "Selecione para esquivar 90% das vezes"
+            }
+        },
+        "defense": {
+            "DEFENSE": {
+                "label": "Defensor Esperado",
+                "description": "Resultado esperado estatisticamente válido. Ataques vem a cada 2 segundos e ataques especiais estão sempre 1 ataque atrasados."
+            },
+            "DEFENSE_LUCKY": {
+                "label": "Defensor Sortudo",
+                "description": "Pior caso possível. Ataques vem a cada 1,95s e ataques especiais assim que possível."
+            },
+            "DEFENSE_RANDOM": {
+                "label": "Aleatório",
+                "description": "Simulação totalmente aleatória! Ataques vem entre 1,5 e 2,5s. Ataques especiais são usados 50% das vezes se o defensor tem energia suficiente"
+            },
+            "DEFENSE_RANDOM_MC_FAST": {
+                "label": "Monte Carlo - Bronze",
+                "description": "Um resultado mais preciso. 10 simulações aleatórias são executadas e a média é calculada para compor o resultado geral. O resultado médio baseado na avaliação geral é usado para registros de combate por exemplo. Mais útil em combinação com estratégias de esquiva não-perfeitas."
+            },
+            "DEFENSE_RANDOM_MC_MID": {
+                "label": "Monte Carlo - Prata",
+                "description": "Um resultado altamente preciso. 25 simulações aleatórias são executadas e a média é calculada para compor o resultado geral. O resultado médio baseado na avaliação geral é usado para registros de combate por exemplo. Mais útil em combinação com estratégias de esquiva não-perfeitas."
+            },
+            "DEFENSE_RANDOM_MC": {
+                "label": "Monte Carlo - Ouro",
+                "description": "O resultado mais preciso de todos. 200 simulações aleatórias são executadas e a média é calculada para compor o resultado geral. O resultado médio baseado na avaliação geral é usado para registros de combate por exemplo. Mais útil em combinação com estratégias de esquiva não-perfeitas."
+            },
+            "DEFENSE_RANDOM_MC_EX": {
+                "label": "Monte Carlo - Platina",
+                "description": "Um benefício especial para Fanáticos no Patreon. Um resultado excessivamente preciso. 500 simulações aleatórias são executadas e os resultados combinados para compor um resultado geral baseado na sua escolha de agregação. Mais útil quando olhando em percentis"
+            },
+            "DEFENSE_PATTERN": {
+                "label": "Padrão de Defesa - RNG",
+                "description": "Um gerador de números aleatórios extremamente previsível é usado para esta simulação individual. Isto é usado internamente pelo Pokebattler para otimizar simulações de Monte Carlo com esquiva aleatória"
+            },
+            "DEFENSE_PATTERN2": {
+                "label": "Padrão de Defesa",
+                "description": "Um padrão de atrasos e ataques é usado para esta simulação individual. Isto é usado internamente pelo Pokebattler para otimizar simulações de Monte-Carlo sem esquiva"
+            }
+        }
+    },
+    "weatherConditions": {
+        "NO_WEATHER": {
+            "label": "Extremo",
+            "description": "Nenhum bônus para nenhum Pokemon"
+        },
+        "CLEAR": {
+            "label": "Limpo",
+            "description": "20% de bônus para ataques Planta, Terrestre e Fogo"
+        },
+        "RAINY": {
+            "label": "Chuvoso",
+            "description": "20% de bônus para ataques Elétrico e Inseto"
+        },
+        "PARTLY_CLOUDY": {
+            "label": "Parcialmente Nublado",
+            "description": "20% de bônus para ataques Normal e Pedra"
+        },
+        "OVERCAST": {
+            "label": "Nublado",
+            "description": "20% de bônus para ataques Fada, Luta e Venenoso"
+        },
+        "WINDY": {
+            "label": "Ventando",
+            "description": "20% de bônus para ataques Voador, Dragão e Psíquico"
+        },
+        "SNOW": {
+            "label": "Neve",
+            "description": "20% de bônus para ataques Gelo e Aço"
+        },
+        "FOG": {
+            "label": "Névoa",
+            "description": "20% de bônus para ataques Noturno e Fantasma"
+        }
+    },
+    "aggregations": {
+        "AVERAGE": {
+            "label": "Média",
+            "description": "Calcula a média das simulações Monte Carlo. Nota: O registro de combate e relatórios de danos detalhados são baseados na média"
+        },
+        "MEDIAN": {
+            "label": "Esperado - 50%",
+            "description": "Ordena os resultados das simulações Monte Carlo por Resultado Geral e retorna o 50º percentil."
+        },
+        "PERCENTILE_99": {
+            "label": "Extremamente sortudo - 99%",
+            "description": "Ordena os resultados das simulações Monte Carlo por Resultado Geral e retorna o 99º percentil."
+        },
+        "PERCENTILE_95": {
+            "label": "Muito sortudo - 95%",
+            "description": "Ordena os resultados das simulações Monte Carlo por Resultado Geral e retorna o 95º percentil."
+        },
+        "PERCENTILE_75": {
+            "label": "Sortudo - 75%",
+            "description": "Ordena os resultados das simulações Monte Carlo por Resultado Geral e retorna o 75º percentil."
+        },
+        "PERCENTILE_25": {
+            "label": "Azarado - 25%",
+            "description": "Ordena os resultados das simulações Monte Carlo por Resultado Geral e retorna o 25º percentil."
+        },
+        "PERCENTILE_5": {
+            "label": "Muito Azarado - 5%",
+            "description": "Ordena os resultados das simulações Monte Carlo por Resultado Geral e retorna o 5º percentil."
+        },
+        "PERCENTILE_1": {
+            "label": "Extremamente Azarado - 1%",
+            "description": "Ordena os resultados das simulações Monte Carlo por Resultado Geral e retorna o 1º percentil."
+        }
+    },
+    "levelVs": "Atacante nível {{attackerLevel}}  Vs. Defensor nível {{defenderLevel}}",
+    "levelVsPokebox": "Atacante Nível {{attackerLevel}}  Vs. Defensor da Pokebox {{userId}}"
 }

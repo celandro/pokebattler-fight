@@ -1,2 +1,52 @@
 {
+    "pokemonList": {
+        "zeroDescription": "Se você já adicionou Pokemons antes, você pode ter logado em uma conta diferente. Suas contas serão automaticamente conectadas se elas usam o mesmo endereço de email.",
+        "zeroHelp": "Se elas não tem o mesmo endereço de email, {{link}} com os userIds das contas que você precisa conectar",
+        "email": "envie email ao Pokebattler"
+    },
+    "add": {
+        "title": "Pokebox",
+        "description": "Adicione Pokemon",
+        "pokemon": "Escolha Pokemon",
+        "pokemonSelect": "Selecione Pokemon"
+    },
+    "delete": {
+        "title": "Apagar em massa",
+        "bulk": {
+            "title": "Apagar",
+            "toolbarTitle": "Apagar em massa",
+            "confirmation": "Isto vai apagar {{num}} Pokemons da sua Pokebox, tem certeza?"
+        },
+        "irreversible": "Isto não poderá ser desfeito!"
+    },
+    "deleteAll": {
+        "button": "Apagar Tudo",
+        "title": "Apagar Tudo",
+        "confirmation": "Isto vai apagar todos os Pokemons na sua Pokebox, tem certeza?",
+        "irreversible": "Isto não poderá ser desfeito!"
+    },
+    "import": {
+        "button": "Importação em massa",
+        "title": "Importação da Pokebox",
+        "description": "Importar Pokemon",
+        "parse": "Começar Importação",
+        "hintText": "Muitos formatos são suportados. Lembre-se de incluir uma linha de cabeçalho.",
+        "floatingLabel": "Copie e cole seu Pokemon aqui",
+        "table": {
+            "header": "Selecione o Pokemon que você deseja importar abaixo",
+            "selectAll": "Selecionar Tudo"
+        }
+    },
+    "update": {
+        "title": "Pokebox",
+        "description": "Modificar {{name}}"
+    },
+    "loading": "Carregando seu Pokemon",
+    "backPokebox": "Retornar à Pokebox",
+    "powerUp": "Fortalecer",
+    "full": {
+        "title": "Pokebox - Sem espaço",
+        "explanation": "Você alcançou o número máximo de Pokemons para a sua Pokebox no nível atual de suporte. Isto te coloca nos primeiros 5% dos usuários do Pokebattler! O Pokebattler depende do suporte de usuários muito ativos como você para entregar simulações de alta qualidade para todos. Você pode aumentar seu espaço para Pokemons contribuindo como Patreon do Pokebattler."
+    },
+    "explanation": "A Pokebox do Pokebattler é uma nova e excitante funcionalidade que te permite customizar sua experiência no Pokebattler baseado nos Pokemons que você realmente tem! O Pokemon que você adicionar na sua Pokebox pode ser usado pelo site. Fique atento ao ícone da Pokebox. Um ícone verde significa que você está usando a Pokebox, um ícone preto significa que não está."
 }
