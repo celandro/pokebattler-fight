@@ -117,5 +117,6 @@
         "title": "Verfügbarer Sternenstaub"
     },
     "xAxis": "X-Achse",
-    "yAxis": "Y-Achse"
+    "yAxis": "Y-Achse",
+    "aggregation": "Wie erfolgreich?"
 }
