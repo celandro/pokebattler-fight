@@ -30,7 +30,7 @@
     "list": {
         "descriptions": {
             "title": "À Propos de ces Classements",
-            "text": "Ce {{type}} classement est basé sur la simulation de combat entre un attaquant de niveau {{niveau de l'attaquant}} qui attaque un défenseur de niveau {{niveau du défenseur}} "
+            "text": "Ce {{type}} classement est basé sur la simulation de combat entre un attaquant de niveau {{levels.attacker}} qui attaque un défenseur de niveau {{levels.defender}}. The ranking simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) simulation type. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}."
         }
     }
 }
