@@ -38,6 +38,9 @@
         "typeSelection": {
             "attacker": "Classement des Attaquants",
             "defender": "Classement des Défenseurs"
+        },
+        "settings": {
+            "level": "niveaux des pokemons"
         }
     }
 }
