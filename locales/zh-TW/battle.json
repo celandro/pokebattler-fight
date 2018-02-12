@@ -1,14 +1,18 @@
 {
-  "title": "戰鬥模擬器",
-  "startButton": "對戰",
-  "attacker": "攻擊方",
-  "attackerPlaceHolder": "選擇攻擊方",
-  "defender": "防禦方",
-  "defenderPlaceHolder": "選擇防禦方",
-  "relatedBattles": {
-    "title": "相關戰役",
-    "description": "選擇下方你想更改的參數，點擊連結以使用新參數重新開始模擬。模擬結果將立即更改。",
-    "modify": "修改",
-    "switch": "切換以修改{{type}}"
-  }
+    "title": "戰鬥模擬器",
+    "startButton": "對戰",
+    "attacker": "攻擊方",
+    "attackerPlaceHolder": "選擇攻擊方",
+    "defender": "防禦方",
+    "defenderPlaceHolder": "選擇防禦方",
+    "relatedBattles": {
+        "title": "相關戰役",
+        "description": "選擇下方你想更改的參數，點擊連結以使用新參數重新開始模擬。模擬結果將立即更改。",
+        "modify": "修改",
+        "switch": "切換以修改{{type}}"
+    },
+    "pokemonListTypes": {
+        "pokebox": "圖鑑",
+        "all": "所有寶可夢"
+    }
 }

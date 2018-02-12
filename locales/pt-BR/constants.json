@@ -369,7 +369,7 @@
             },
             "DODGE_REACTION_TIME2": {
                 "label": "Esquiva Realística PRO",
-                "description": "Tenta simular uma experiência realística de uma pessoa esquivando. As esquivas variam de uma taxa de sucesso de 70% para um ataque rápido de 1s até uma taxa de sucesso de 90% para um ataque lento de 3,5s. Adicionalmente, se o atacante está usando ataques super-efetivos ou não-efetivos, há uma penalidade adicional de 10% para a esquiva, reduzindo a taxa de sucesso para 63,0% a 81,0%. Finalmente um pequeno bônus é adicionado para ataques rápidos velozes baseado em quão mais rápido o ataque é do que o clarão da esquiva.\n"
+                "description": "Tenta simular uma experiência realística de uma pessoa esquivando. As esquivas variam de uma taxa de sucesso de 70% para um ataque rápido de 1s até uma taxa de sucesso de 90% para um ataque lento de 3,5s. Adicionalmente, se o atacante está usando ataques super-efetivos ou não-efetivos, há uma penalidade adicional de 10% para a esquiva, reduzindo a taxa de sucesso para 63,0% a 81,0%. Finalmente um pequeno bônus é adicionado para ataques rápidos velozes baseado em quão mais rápido o ataque é do que o clarão da esquiva."
             },
             "DODGE_25": {
                 "label": "25% de Esquiva",
