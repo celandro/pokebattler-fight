@@ -3,7 +3,8 @@
         "title": "Classements",
         "welcome": {
             "paragraph1": "Bienvenue dans la nouvelle section des classements personnalisés à la fine pointe de la technologie de Pokebattler. Contrairement à d'autres sites, vous pouvez choisir exactement quelle combinaison de paramètres vous souhaitez construire vos propres classements personnalisés ! Ce site est extrêmement personnalisable, vous permettant de choisir le niveau de votre attaquant, le niveau du défenseur, votre stratégie d'attaque, votre stratégie d'esquive, vos options de tri et de groupage.",
-            "paragraph2": "Cette page fonctionne en exécutant plus de 30 000 000 de simulations de combat pour chaque paramètre de classement. Cela couvre toutes les combinaisons possibles d'attaquants et de défenseurs, ainsi que leurs attaques pour le paramètre choisi. Il y a des centaines de milliers de combinaisons différentes de paramètres à choisir pour les classements des attaquants et des défenseurs ! N'hésitez pas à essayer différents réglages jusqu'à obtenir ce que vous aimez."
+            "paragraph2": "Cette page fonctionne en exécutant plus de 30 000 000 de simulations de combat pour chaque paramètre de classement. Cela couvre toutes les combinaisons possibles d'attaquants et de défenseurs, ainsi que leurs attaques pour le paramètre choisi. Il y a des centaines de milliers de combinaisons différentes de paramètres à choisir pour les classements des attaquants et des défenseurs ! N'hésitez pas à essayer différents réglages jusqu'à obtenir ce que vous aimez.",
+            "title": "Bienvenue sur le classement 2.0 de Pokebattler "
         },
         "recommendations": {
             "title": "Recommandations de réglage",
