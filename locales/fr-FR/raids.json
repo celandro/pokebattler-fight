@@ -78,6 +78,7 @@
     "custom": {
         "title": "Raid Personnalisé",
         "levelsLabel": "Niveaux des Attaquants",
-        "buttonLabel": "Trouvez le meilleur attaquant"
+        "buttonLabel": "Trouvez le meilleur attaquant",
+        "attackersLabel": "attaquants"
     }
 }
