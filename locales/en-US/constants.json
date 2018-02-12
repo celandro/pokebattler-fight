@@ -386,7 +386,15 @@
         "ZANGOOSE": "Zangoose",
         "ZAPDOS": "Zapdos",
         "ZIGZAGOON": "Zigzagoon",
-        "ZUBAT": "Zubat"
+        "ZUBAT": "Zubat",
+        "CASTFORM_NORMAL_FORM": "Castform - Normal",
+        "CASTFORM_RAINY_FORM": "Castform - Rainy",
+        "CASTFORM_SNOWY_FORM": "Castform - Snowy",
+        "CASTFORM_SUNNY_FORM": "Castform - Sunny",
+        "DEOXYS_NORMAL_FORM": "Deoxys - Normal",
+        "DEOXYS_ATTACK_FORM": "Deoxys - Attack",
+        "DEOXYS_DEFENSE_FORM": "Deoxys - Defense",
+        "DEOXYS_SPEED_FORM": "Deoxys - Speed"
     },
     "moves": {
         "undefined": "",
