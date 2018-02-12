@@ -26,5 +26,10 @@
             "defender": "Défenseur",
             "gotoRankings": "Redirection vers le Classement"
         }
+    },
+    "list": {
+        "descriptions": {
+            "title": "à propos de ces classements"
+        }
     }
 }
