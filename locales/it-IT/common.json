@@ -10,11 +10,13 @@
     "defenseStrategy": "Tipo di Simulazione",
     "stats": {
         "attack": "Attacco",
-        "defense": "Difesa"
+        "defense": "Difesa",
+        "stamina": "Salute"
     },
     "statsAbbr": {
         "attack": "Att",
-        "defense": "Dif"
+        "defense": "Dif",
+        "hp": "PS"
     },
     "level": "Livello",
     "move": "Mossa",
@@ -30,7 +32,15 @@
         "energy": "Energia",
         "powerups": "Potenziamenti",
         "stardust": "Polvere di Stella",
-        "candy": "Caramelle"
+        "candy": "Caramelle",
+        "overall": "Complessivo",
+        "power": "Forza",
+        "prestige": "Prestigio",
+        "dps": "DPS",
+        "grouped": "Raggruppato",
+        "single": "Singolo",
+        "id": "Id",
+        "pokemon": "$t(common:pokemon)"
     },
     "simulation": "una simulazione era",
     "simulation_plural": "simulazioni erano",
@@ -60,5 +70,14 @@
         "beta": "Sito Beta",
         "www": "Sito Principale"
     },
-    "reset": "Resetta"
+    "reset": "Resetta",
+    "note": "Note",
+    "win": "Vittoria",
+    "loss": "Sconfitta",
+    "dodgeStrategy": "Strategia di schivata",
+    "weatherCondition": "Meteo",
+    "aggregation": "Quanta fortuna?",
+    "basic": "Base",
+    "advanced": "Avanzato",
+    "type": "Tipo del Pokemon"
 }
