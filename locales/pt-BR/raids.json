@@ -1,2 +1,122 @@
 {
+    "title": "Guia de Reide",
+    "linkLabel": "Guia de Reides",
+    "tierList": {
+        "common": {
+            "boss": "Chefe",
+            "raidTier": "Nível da Reide"
+        },
+        "RAID_LEVEL_1": {
+            "title": "Nível 1",
+            "subtitle": "Reide fácil de fazer sozinho",
+            "intro": "Reides de Nível 1 são bem fáceis de derrotar sozinho. Um jogador nível 20 com pokemons imperfeitos deve conseguir vencer por conta própria. Estas reides são uma boa forma de coletar doces para pokemons que não são comuns na sua área."
+        },
+        "RAID_LEVEL_2": {
+            "title": "Nível 2",
+            "subtitle": "Reides difíceis de derrotar sozinho",
+            "intro": "Reides de Nível 2 são pensadas para jogadores de nível 30-40 que podem facilmente derrotar estes Pokemons. Jogadores de níveis mais baixos devem se unir para derrotar estes Pokemons."
+        },
+        "RAID_LEVEL_3": {
+            "title": "Nível 3",
+            "subtitle": "Reides Fáceis para Grupos",
+            "intro": "Reides Nível 3 são pensadas para grupos de 2 jogadores nível 30-40. Elas podem ser feitas individualmente por um jogador nível 40 com um pouco de sorte e jogadas perfeitas com Pokemons ótimos."
+        },
+        "RAID_LEVEL_4": {
+            "title": "Nível 4",
+            "subtitle": "Reides em Grupo Difíceis",
+            "intro": "Reides Nível 4 são pensadas para grupos de 5-6 jogadores de nível 30-40. Há relatos desses Pokemons sendo derrotados por players de nível máximo com 3-4 de adversários perfeitos."
+        },
+        "RAID_LEVEL_5": {
+            "title": "Nível 5",
+            "subtitle": "Reides Lendárias",
+            "intro": "Algumas destas reides nível 5 não estão no jogo ainda! Elas são geralmente feitas por grupos de 8-12 jogadores de nível 30-40. Alguns experts intrépidos fizeram algumas destas reides com apenas 2-5 jogadores."
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "Nível ?",
+            "subtitle": "Reides Desconhecidas",
+            "intro": "Estes Pokemons podem fazer parte de reides futuras. Use isto se uma nova reide for lançada e o site ainda não tiver sido atualizado. Você pode também usar esta seção para análise do que aconteceria se você tivesse uma reide de Magikarp lendário!"
+        },
+        "RAID_LEVEL_4_EVENTS": {
+            "title": "Nível 4 Especial",
+            "subtitle": "Reides de Eventos Especiais",
+            "intro": "Estes Pokemons tiveram reides em eventos passados como em Yokohama. Eles podem voltar novamente sem aviso."
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Nível 1 Legado",
+            "subtitle": "Reide Fácil de fazer sozinho",
+            "intro": "Estas reides não estão atualmente nas rotações."
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Nível 2 Legado",
+            "subtitle": "Reides Difíceis de fazer sozinho",
+            "intro": "Estas reides não estão atualmente nas rotações."
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "Nível 3 Legado",
+            "subtitle": "Reides Fáceis em Grupo",
+            "intro": "Estas reides não estão atualmente nas rotações."
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "Nível 4 Legado",
+            "subtitle": "Reides Difíceis em Grupo",
+            "intro": "Estas reides não estão atualmente nas rotações."
+        }
+    },
+    "custom": {
+        "title": "Reide Customizada",
+        "levelsLabel": "Níveis dos Atacantes",
+        "buttonLabel": "Encontre o melhor atacante",
+        "attackersLabel": "Atacantes"
+    },
+    "results": {
+        "title": "Guia de Reides",
+        "calculating": "Calculando o Resultado da Reide",
+        "counters": {
+            "title": "adversários",
+            "subtitle": "Melhores Atacantes por",
+            "description": "A seguinte análise mostra o Pokemon que é o mais forte oponente em termos de {{sort}} contra {{pokemon}}.",
+            "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
+            "chooseMovesetLabel": "Escolher Ataques"
+        },
+        "hardestMovesets": {
+            "subtitle": "Para {{pokemon}} por {{sort}}",
+            "tableTitle": "Ataques mais difíceis de enfrentar",
+            "description": "A dificuldade da Reide pode variar bastante dependendo do ataque do pokemon defensor!",
+            "title": "Reides Mais Difíceis"
+        },
+        "analysis": {
+            "title": "Sobre esta Análise",
+            "description": "Esta análise de reide é baseada em simulações de combate com um defensor {{defender.pokemon}} com PC {{defender.cp}} e {{attackers}}. A simulação foi executada com a estratégia de ataque {{attackStrategy}} conforme o tipo de simulação {{defenseStrategy}}. {{numSims}} simulações foram executadas com cada possível combinação de ataques de {{defender.pokemon}} simuladas contra cada Pokemon com todos os possíveis ataques. Os melhores 20 atacantes com seus melhores ataques de acordo com {{sort}} foram mantidos e são mostrados aqui. Você pode clicar em qualquer dos atacantes para ver a simulação que foi executada e tentar ataques diferentes.",
+            "attackers": {
+                "byLevel": "Atacantes nível {{attackerLevel}}",
+                "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
+            }
+        },
+        "description": "Bem-vindo ao Guia de Reide do Pokebattler para {{pokemon}}. Você pode encontrar o melhor oponente de acordo com os ataques de cada Chefe. Este guia é customizável de muitas formas diferentes. Você pode escolher o nível do ataque e estratégia de ataque que deseja usar assim como várias opções de ordenação."
+    },
+    "pokebox": {
+        "login": "O Guida de Reides do Pokebattler pode ser customizável para inclusir apenas Pokemon que você tem realmente usando sua própria Pokebox. Faça o Login, adicione seus melhores Pokemon na sua Pokebox pessoal, e então você pode trocar entre os melhores Pokemons que você tem na sua Pokebox, e os melhores oponentes gerais para planejar suas batalhas de reide.",
+        "enabled": "Mostrando resultados customizados para sua Pokebox. Os 24 melhores adversários que você tem são mostrados abaixo.",
+        "disabled": "Mostrando resultados para atacantes nível {{level}}. Os melhores 24 oponentes deste nível são mostrados abaixo.",
+        "friend": "Mostrando resultados para o usuário {{userId}}. Os seus 24 melhores oponentes são mostrados abaixo.",
+        "switchLevel": "Trocar para $t(common:attackerTypes.level)",
+        "switchPokebox": "Trocar para $t(common:attackerTypes.pokebox)"
+    },
+    "emptyResults": {
+        "LEVEL": "Nenhum resultado foi retornado para esta simulação. O servidor pode estar com problemas.",
+        "POKEBOX": "Não foi retornado nenhum resultado para este cálculo. Talvez você não tenha adicionado nenhum pokemon na sua pokebox ainda?",
+        "FRIEND": "Não foi retornado nenhum resultado para este cálculo. Talvez seu amigo não tenha adicionado nenhum Pokemon na pokebox dele ainda? Tente um treinador diferente."
+    },
+    "people": {
+        "title": "Estimador do Pokebattler",
+        "difficultyRating": "Nível de Dificuldade: {{rating}}",
+        "adviceLink": "Veja o que acontece se você fortalecer",
+        "estimate": {
+            "close": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha bem apertada. Traga mais um treinador se você quer ficar mais seguro.",
+            "almost": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Se você der muita sorte, você talvez possa derrotá-lo com um treinador a menos.",
+            "normal": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Certifique-se que seu grupo está pronto antes da batalha.",
+            "difficult": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha difícil, confira que todos estão levando seus melhores Pokemon."
+        }
+    },
+    "helpLink": "Assista o Tutorial de Reides em vídeo"
 }

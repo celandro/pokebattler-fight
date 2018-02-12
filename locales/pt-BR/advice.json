@@ -4,19 +4,44 @@
         "counters": {
             "title": "adversários",
             "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
-            "chooseMovesetLabel": "Escolher Ataques"
+            "chooseMovesetLabel": "Escolher Ataques",
+            "subtitle": "Melhores Atacantes Fortalecidos por",
+            "description": "A análise a seguir mostra o Pokemon que tem o potencial para ser o mais forte atacante em termos de {{sort}} contra {{pokemon}}."
         },
         "hardestMovesets": {
             "subtitle": "Para {{pokemon}} por {{sort}}",
             "tableTitle": "Ataques mais difíceis de enfrentar",
-            "description": "A dificuldade da Reide pode variar bastante dependendo do ataque do pokemon defensor!"
+            "description": "A dificuldade da Reide pode variar bastante dependendo do ataque do pokemon defensor!",
+            "title": "Reides Mais Difíceis"
         },
         "analysis": {
             "title": "Sobre esta Análise",
             "attackers": {
                 "byLevel": "Atacantes nível {{attackerLevel}}",
                 "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
-            }
-        }
-    }
+            },
+            "description": "Esta recomendação de reide foi baseada através da simulação de combate de um {{defender.pokemon}} defendendo com {{defender.cp}} PC e {{attackers}}. A simulação rodou com a estratégia de ataque {{attackStrategy}} baseada no tipo de simulação {{defenseStrategy}}. {{numSims}} simulações foram executadas com cada possível combinação de ataques  de {{defender.pokemon}} simuladas contra todos os Pokemons com todos os ataques possíveis. Os melhores 20 atacantes com seus melhores ataques de acordo com {{sort}} foram mantidos e são mostrados aqui. Você pode clicar em qualquer dos atacantes para ver a simulação que foi executada e tentar diferentes ataques."
+        },
+        "title": "Recomendação de Reides",
+        "calculating": "Calculando Recomendação de Reides",
+        "description": "Bem-vindo à recomendação de reide do Pokebattler para {{pokemon}}. Você pode ver o melhor atacante potencial de acordo com os ataques de cada chefe de reide. Este guia é customizado de diversas formas diferentes. Você pode escolher o nível e estratégia de ataque que você deseja usar assim como diversas opções de ordenação. Você também pode escolher a quantidade de poeira estelar e doces tem disponível."
+    },
+    "title": "Recomendação",
+    "pokeboxRequired": "A Recomendação do Pokebattler requer que você entre seus Pokemons na sua Pokebox para funcionar corretamente. Basta logar e adicionar seus Pokemons mais fortes na sua Pokebox para ajudar a encontrar o melhor pokemon para fortalecer.\n",
+    "intro": "A Recomendação do Pokebattler é uma funcionalidade customizada projetada para ajudá-lo a otimizar sua Pokebox para reides específicas. Simplesmente selecione o chefe de reide desejado para encontrar o melhor Pokemon potencial para enfrentá-lo, e entre quanto de poeira estelar e doces você tem disponíveis para ver como seu Pokemon vai ficar depois de fortalecê-lo. Esta ferramenta o ajudará a decidir qual Pokemon vai ganhar mais da poeira estelar e doces para que você possa saber como gastá-los com máxima eficiência.",
+    "intro2": "Depois que você rodar uma simulação, clique em qualquer Pokemon para ver quanta melhoria você ganha depois de cada Fortalecer. Existem breakpoints frequentes onde você pode parar de fortalecer seu Pokemon ao atingi-los e salvar poeira estelar e doces! Isto é diferente do que qualquer outra ferramenta de breakpoint que você viu, pois empiricamente acha os breakpoints, mesmo aqueles que não são óbvios.",
+    "inputs": {
+        "title": "Para que você precisa de Recomendação?"
+    },
+    "buttonLabel": "Fortalecer Pokemon",
+    "result": {
+        "description": "O resultado de cada Fortalecer de um {{attacker}} contra um chefe de reide {{defender}} é mostrado abaixo. Os resultados vão variar de acordo com os ataques de {{defender}}.",
+        "summaryStart": "iniciando Resultados",
+        "summaryEnd": "Resultados de Fortalecer",
+        "graphTitle": "{{yAxis}} Versus {{xAxis}}",
+        "detail": "Resultados Detalhados para cada Fortalecer",
+        "back": "Voltar aos Ajustes de Recomendação"
+    },
+    "raidLink": "Veja este resultado sem os Fortalecer",
+    "helpLink": "Assista o vídeo tutorial do Recomendação de Reides"
 }
