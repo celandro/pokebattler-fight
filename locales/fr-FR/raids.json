@@ -43,7 +43,8 @@
             "intro": "Les raids de niveau 4 sont ciblés pour des groupes de 5-6 joueurs de niveau 30-40. Ces pokémons ont pu être vaincus par des joueurs de niveau 40 avec 3-4 contres optimaux."
         },
         "RAID_LEVEL_5": {
-            "title": "Niveau 5"
+            "title": "Niveau 5",
+            "subtitle": "raid légendaire"
         }
     },
     "intro": "Les raids de Pokemon Go sont là ! Trouvez les meilleurs pokemons pour vaincre le boss du raid avec le guide de raid le plus précis du monde. Sélectionnez simplement ci dessous le raid pour voir les meilleurs contres pour chacune des capacités du boss."
