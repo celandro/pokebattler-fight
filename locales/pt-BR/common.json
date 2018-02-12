@@ -99,7 +99,7 @@
     },
     "message": {
         "bulk": "Importando em massa {{num}} pokemons, isso pode levar um tempo",
-        "delete": "Removendo 1 pokemon da sua Pokebox",
+        "delete": "Removendo {{num}} pokemon da sua Pokebox",
         "deleteAll": "Removendo todos os Pokemons da sua Pokebox",
         "update": "Atualizando seu pokemon",
         "success": "Sucesso",
@@ -117,5 +117,6 @@
         "title": "Poeira Estelar Disponível"
     },
     "xAxis": "Eixo X",
-    "yAxis": "Eixo Y"
+    "yAxis": "Eixo Y",
+    "aggregation": "Quanta Sorte?"
 }
