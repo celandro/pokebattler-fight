@@ -22,7 +22,8 @@
             }
         },
         "buttons": {
-            "attacker": "Attaquant"
+            "attacker": "Attaquant",
+            "defender": "défenseur"
         }
     }
 }
