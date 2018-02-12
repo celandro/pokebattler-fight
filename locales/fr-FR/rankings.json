@@ -36,7 +36,8 @@
             "defenders": "défenseurs"
         },
         "typeSelection": {
-            "attacker": "Classement des Attaquants"
+            "attacker": "Classement des Attaquants",
+            "defender": "classement des défenseurs"
         }
     }
 }
