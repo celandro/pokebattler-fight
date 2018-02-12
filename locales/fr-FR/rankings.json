@@ -23,7 +23,8 @@
         },
         "buttons": {
             "attacker": "Attaquant",
-            "defender": "Défenseur"
+            "defender": "Défenseur",
+            "gotoRankings": "redirection vers le classement"
         }
     }
 }
