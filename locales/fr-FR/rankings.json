@@ -13,7 +13,16 @@
                 "link1": "classement par défaut des attaquants",
                 "link2": "des combats bas niveau avec esquive parfaite",
                 "link3": "des combats de niveau 40"
+            },
+            "paragraph2": {
+                "text": "Pour ceux qui cherchent quels défenseurs sont difficiles à battre avec un défenseur de faible niveau essayez le {{link1}}. Prenons un attaquant au niveau 25 et faisons une simulation avec un défenseur de niveau 30. Vous pouvez essayer de rendre la simulation plus réaliste avec {{link2}} ou {{link3}}.",
+                "link1": "classement par défaut des défenseurs.",
+                "link2": "classement des défenseurs de niveau 30 avec esquive",
+                "link3": "combat de haut niveau"
             }
+        },
+        "buttons": {
+            "attacker": "attaquant"
         }
     }
 }
