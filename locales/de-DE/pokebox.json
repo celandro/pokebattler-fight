@@ -16,7 +16,15 @@
     },
     "delete": {
         "title": "Löschen",
-        "confirmation": "Bist du sicher, dass du dieses Pokemon löschen willst?"
+        "confirmation": "Bist du sicher, dass du dieses Pokemon löschen willst?",
+        "blurb": "Du kannst hier schnell mehrere Pokemon löschen. Du kannst schnell mehr Platz in deiner Pokebox schaffen. Wähle einfach die Pokemon, die du löschen willst. Wenn du fertig bist, scrolle nach unten für den \"Löschen\" Knopf.",
+        "bulk": {
+            "title": "Löschen",
+            "toolbarTitle": "Mehrere löschen",
+            "confirmation": "Dies wird {{num}} Pokemon aus deiner Pokebox löschen. Bist du sicher?"
+        },
+        "irreversible": "Das kann nicht rückgängig gemacht werden!",
+        "button": "Mehrere löschen"
     },
     "import": {
         "button": "Massenimport",

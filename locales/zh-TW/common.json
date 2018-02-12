@@ -1,18 +1,73 @@
 {
-  "back": "返回",
-  "cancel": "取消",
-  "quickMove": "快速招式",
-  "specialMove": "能量招式",
-  "attackStrategy": "攻擊策略",
-  "defenseStrategy": "防禦策略",
-  "dodgeStrategy": "閃躲策略",
-  "stats": {
-    "attack": "攻擊",
-    "defense": "防禦",
-    "stamina": "耐力"
-  },
-  "level": "等級",
-  "basic": "基本",
-  "advanced": "進階"
-
+    "back": "返回",
+    "cancel": "取消",
+    "quickMove": "快速招式",
+    "specialMove": "能量招式",
+    "attackStrategy": "攻擊策略",
+    "defenseStrategy": "防禦策略",
+    "dodgeStrategy": "閃躲策略",
+    "stats": {
+        "attack": "攻擊",
+        "defense": "防禦",
+        "stamina": "耐力"
+    },
+    "level": "等級",
+    "basic": "基本",
+    "advanced": "進階",
+    "save": "儲存",
+    "delete": "刪除",
+    "reset": "重置",
+    "note": "注意",
+    "cp": "攻擊力",
+    "win": "贏",
+    "loss": "輸",
+    "weatherCondition": "天氣",
+    "statsAbbr": {
+        "attack": "攻擊",
+        "defense": "防禦",
+        "hp": "耐力"
+    },
+    "move": "招式",
+    "moves": "招式",
+    "type": "寶可夢屬性",
+    "properties": {
+        "win": "勝利機率",
+        "deaths": "瀕死數",
+        "realTime": "時間",
+        "prestige": "聲望值",
+        "dps": "每秒傷害",
+        "potions": "傷藥",
+        "damage": "傷害",
+        "energy": "能量",
+        "grouped": "小隊",
+        "single": "單人",
+        "id": "ID",
+        "cp": "$t(common:cp)",
+        "pokemon": "$t(common:pokemon)",
+        "name": "$t(common:name)",
+        "type": "$t(common:type)",
+        "powerups": "強化",
+        "stardust": "星星沙子",
+        "candy": "糖果"
+    },
+    "sectionLinks": {
+        "help": "幫助欄位",
+        "about": "關於段落"
+    },
+    "chooseMovesetLabel": "選擇招式組",
+    "hd": {
+        "attackers": "攻擊者",
+        "defenders": "防守者",
+        "raid": "團體戰"
+    },
+    "name": "名字",
+    "nickname": "暱稱",
+    "mystic": "",
+    "valor": "",
+    "instinct": "",
+    "ivs": "",
+    "trainerName": "訓練家名稱",
+    "attackerTypes": {
+        "pokebox": "我的Pokébox"
+    }
 }

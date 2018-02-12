@@ -1,2 +1,40 @@
 {
+    "title": "Simulatore di battaglie",
+    "startButton": "Battaglia",
+    "attacker": "Attaccante",
+    "attackerPlaceHolder": "Scegli $t(attaccante)",
+    "defender": "Difensore",
+    "defenderPlaceHolder": "Scegli $t(difensore)",
+    "pokemonListTypes": {
+        "pokebox": "Il mio Pokebox",
+        "all": "Tutti i Pokemon"
+    },
+    "relatedBattles": {
+        "title": "Battaglie correlate",
+        "description": "Scegli il parametro che desideri cambiare qui sotto e clicca sul link per ricalcolare la simulazione corrente con il nuovo parametro. I risultati vengono cambiati immediatamente.",
+        "modify": "Modifica",
+        "switch": "Cambia per modificare {{tipo}}",
+        "parameterTitle": "Cambia il parametro"
+    },
+    "results": {
+        "title": {
+            "base": "Risultati della battaglia: Tu",
+            "win": "$t(results.title.base) vittoria!",
+            "lose": "$t(results.title.base) sconfitta!"
+        },
+        "about": "Riguardo questa battaglia",
+        "description": "Un {{attacker.name}} di livello {{attacker.level}} con {{attacker.cp}} PL {{result}} un {{defender.name}} di livello {{defender.level}} con {{defender.cp}} PL in questa simulazione di battaglia. L'attaccante {{attacker.name}} ha usato {{attacker.quickMove}} come mossa veloce e {{attacker.specialMove}} come mossa caricata. Il difensore {{defender.name}} ha usato {{defender.quickMove}} come mossa veloce e {{defender.specialMove}} come mossa caricata. La simulazione del combattimento è stata effettuata con la strategia d'attacco {{strategies.attack}} usando {{strategies.dodge}} basata sul tipo di simulazione {{strategies.defense}} con meteo {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) effettuate per generare questi risultati.",
+        "help": {
+            "text": "Puoi scoprire di più su come queste simulazioni sono calcolate guardando il {{helpLink}}. I riferimenti alle ricerche sui combattimenti in Pokemon Go possono essere trovati nel {{aboutLink}}. Pokebattler è un progetto open source, puoi mandare ogni errore riscontrato o problema generico a {{repoLink}}.",
+            "links": {
+                "repo": "progetto del sito"
+            }
+        },
+        "result": {
+            "win": "sconfitte",
+            "lose": "è sconfitto da"
+        },
+        "logTitle": "Diario del combattimento"
+    },
+    "runAgain": "Esegui questa simulazione casuale di nuovo"
 }

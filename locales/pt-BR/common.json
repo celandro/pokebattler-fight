@@ -1,2 +1,122 @@
 {
+    "back": "Voltar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Apagar",
+    "reset": "Reiniciar",
+    "note": "Nota",
+    "cp": "PC",
+    "win": "Vitória",
+    "loss": "Derrota",
+    "quickMove": "Ataque Rápido",
+    "specialMove": "Ataque Carregado",
+    "attackStrategy": "Estratégia de Ataque",
+    "defenseStrategy": "Tipo de Simulação",
+    "dodgeStrategy": "Estratégia de Esquiva",
+    "weatherCondition": "Clima",
+    "stats": {
+        "attack": "Ataque",
+        "defense": "Defesa",
+        "stamina": "Resistência"
+    },
+    "statsAbbr": {
+        "attack": "Atk",
+        "defense": "Def",
+        "hp": "PS"
+    },
+    "level": "Nível",
+    "basic": "Básico",
+    "advanced": "Avançado",
+    "move": "Ataque",
+    "moves": "Ataques",
+    "type": "Tipo de Pokemon",
+    "properties": {
+        "overall": "Geral",
+        "power": "Potência",
+        "win": "% de Vitória",
+        "deaths": "Mortes",
+        "effectiveDeaths": "Mortes para Vencer",
+        "time": "Tempo para Vencer",
+        "realTime": "Tempo",
+        "prestige": "Prestígio",
+        "dps": "DPS",
+        "potions": "Poções",
+        "damage": "Dano",
+        "energy": "Energia",
+        "grouped": "Agrupado",
+        "single": "Individual",
+        "id": "Id",
+        "cp": "$t(common:cp)",
+        "pokemon": "$t(common:pokemon)",
+        "name": "$t(common:name)",
+        "type": "$t(common:type)",
+        "powerups": "Fortalecer",
+        "stardust": "Poeira Estelar",
+        "candy": "Doce"
+    },
+    "sectionLinks": {
+        "help": "Seção de ajuda",
+        "about": "Seção Sobre"
+    },
+    "simulation": "uma simulation foi",
+    "simulation_plural": "{{count}} simulações foram",
+    "chooseMovesetLabel": "Escolha o Ataque",
+    "hd": {
+        "text": "$t(simulation, {'count': {{numSims}} }) executadas para gerar esta simulação de alta qualidade",
+        "attackers": "atacantes",
+        "defenders": "defensores",
+        "raid": "reide"
+    },
+    "name": "Nome",
+    "nickname": "Apelido",
+    "faction": "Time",
+    "mystic": "Mystic",
+    "valor": "Valor",
+    "instinct": "Instinct",
+    "ivs": "IVs",
+    "trainerName": "Nome do Treinador",
+    "attackerTypes": {
+        "pokebox": "Minha Pokebox",
+        "level": "Por Nível",
+        "friend": "Pokebox deles"
+    },
+    "pokebox": "Pokebox",
+    "advice": "Recomendação de Reide",
+    "login": "Login",
+    "trainer": "Treinador",
+    "more": "Mais",
+    "pokemon": "Pokemon",
+    "status": {
+        "add": "Adicionando",
+        "edit": "Editando",
+        "update": "Atualizando",
+        "delete": "Apagando",
+        "loading": "Carregando",
+        "success": "Sucesso",
+        "error": "Erro",
+        "bulk": "Importando",
+        "newVersion": "Nova Versão"
+    },
+    "message": {
+        "bulk": "Importando em massa {{num}} pokemons, isso pode levar um tempo",
+        "delete": "Removendo {{num}} pokemon da sua Pokebox",
+        "deleteAll": "Removendo todos os Pokemons da sua Pokebox",
+        "update": "Atualizando seu pokemon",
+        "success": "Sucesso",
+        "error": "Ops, algo deu errado. Tente novamente em alguns segundos",
+        "newVersion": "Uma nova versão está disponível, recarregue seu navegador"
+    },
+    "site": {
+        "beta": "Site Beta",
+        "www": "Site Principal"
+    },
+    "candy": {
+        "title": "Doce Disponível"
+    },
+    "stardust": {
+        "title": "Poeira Estelar Disponível"
+    },
+    "xAxis": "Eixo X",
+    "yAxis": "Eixo Y",
+    "aggregation": "Quanta Sorte?"
 }

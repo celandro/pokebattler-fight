@@ -63,6 +63,11 @@
             "title": "FAQs",
             "link": "/help/faqs",
             "description": "Wir bekommen viele Frage. Manchmal bekommen wir häufig die selben Fragen. Diese Fragen und ihre Antworten finden sich hier"
+        },
+        "raidAdvice": {
+            "title": "Raid-Beratung",
+            "link": "/help/raid-advice",
+            "description": "Entdecke welche Pokemon du aufwerten kannst, um diesen Raid Boss zu besiegen"
         }
     },
     "sections": {
