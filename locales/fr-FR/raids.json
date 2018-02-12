@@ -57,7 +57,8 @@
             "intro": "Ces pokemons ont été des raids à des rassemblements comme à Yokohama. Ils pourraient bien revenir par surprise."
         },
         "RAID_LEVEL_1_LEGACY": {
-            "title": "Anciens Raids de Niveau 1"
+            "title": "Anciens Raids de Niveau 1",
+            "subtitle": "raid facile en solo"
         }
     },
     "intro": "Les raids de Pokemon Go sont là ! Trouvez les meilleurs pokemons pour vaincre le boss du raid avec le guide de raid le plus précis du monde. Sélectionnez simplement ci dessous le raid pour voir les meilleurs contres pour chacune des capacités du boss."
