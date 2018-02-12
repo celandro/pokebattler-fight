@@ -24,7 +24,7 @@
         "buttons": {
             "attacker": "Attaquant",
             "defender": "Défenseur",
-            "gotoRankings": "redirection vers le classement"
+            "gotoRankings": "Redirection vers le Classement"
         }
     }
 }
