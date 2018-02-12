@@ -30,7 +30,7 @@
         "RAID_LEVEL_5": {
             "title": "Rang 5",
             "subtitle": "Legendärer Raid",
-            "intro": "Einige dieser Rang 5 Raids sind noch nicht im Spiel! Sie werden oft in Gruppen von 8 bis 12 level 30 bis 40 Spielern bekämpft. Einige Experten schafften sie sogar mit nur 2 bis 5 Spielern."
+            "intro": "Die aktuellen legendären Raids sind der beste Weg starke Pokemon zu bekommen! Sie werden oft in Gruppen von 6 bis 10 Level 30 bis 40 Spielern bekämpft. Einige Experten schafften sie sogar mit nur 2 bis 5 Spielern."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Rang ?",
@@ -61,6 +61,16 @@
             "title": "Legacy Rang 4",
             "subtitle": "Schwerer Gruppen-Raid",
             "intro": "Diese Raids sind im Moment nicht im Spiel aktiv."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Alt-Tier 5",
+            "subtitle": "Legendärer Raid",
+            "intro": "Diese Raids waren in der Vergangenheit verfügbar, aber sind nicht in den aktuellen Raid Rotationen enthalten. Sie könnten in Zukunft wiederkehren."
+        },
+        "RAID_LEVEL_5_FUTURE": {
+            "title": "Zukunft-Tier 5",
+            "subtitle": "Legendärer Raid",
+            "intro": "Diese Tier 5 Raids sind noch nicht im Spiel! Ihre Werte und Attacken werden sich vermutlich noch ändern."
         }
     },
     "custom": {

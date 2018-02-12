@@ -30,7 +30,7 @@
         "RAID_LEVEL_5": {
             "title": "Tier 5",
             "subtitle": "Legendary Raid",
-            "intro": "Some of these tier 5 raids are not in the game yet! They are often done with groups of 8-12 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
+            "intro": "The current legendary raids are the best way to obtain strong pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
@@ -61,6 +61,16 @@
             "title": "Legacy Tier 4",
             "subtitle": "Hard Group Raid",
             "intro": "These raids are not currently in the raid rotations."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Legacy Tier 5",
+            "subtitle": "Legendary Raid",
+            "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_5_FUTURE": {
+            "title": "Future Tier 5",
+            "subtitle": "Legendary Raid",
+            "intro": "These tier 5 raids are not in the game yet! Their stats and moves are still subject to change."
         }
     },
     "custom": {
