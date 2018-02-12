@@ -42,5 +42,8 @@
         "settings": {
             "level": "Niveaux des Pokemons"
         }
+    },
+    "featured": {
+        "deepLink": "voir plus de détails pour {{pokemon}}"
     }
 }
