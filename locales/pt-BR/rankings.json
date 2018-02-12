@@ -1,2 +1,61 @@
 {
+    "index": {
+        "title": "Rankings",
+        "welcome": {
+            "title": "Bem-vindo ao Pokebattler Rankings 2.0!",
+            "paragraph1": "Bem-vindo à nova seção dos rankings personalizados estado-da-arte do Pokebattler. Ao contrário de outros sites, você pode escolher exatamente quais combinações de configurações você quer em seus rankings customizados! Este site é extremamente customizável, permitindo que você escolha o nível do seu atacante, o nível do seu defensor, sua estratégia de ataque, sua estratégia de esquiva, suas opções de ordenação e agrupamento.",
+            "paragraph2": "Esta página trabalha rodando mais de 30.000.000 simulações de combate para cada parâmetro de ranqueamento. Isto cobre todas as possíveis combinações de atacantes e defensores, assim como seus ataques para os parâmetros escolhidos. Existem centenas de milhares de diferentes combinações de configurações para escolher nos rankings de atacantes e defensores! Tente diferentes configurações à vontade até alcançar o que você deseja."
+        },
+        "recommendations": {
+            "title": "Recomendações de ajustes",
+            "paragraph1": {
+                "text": "Um bom ponto de partida para a maioria dos jogadores é {{link1}}. Ele assume um atacante nível 25 e simula um ataque contra um defensor nível 30 no ginásio. Eu gosto de usar meus ataques o quanto antes e tento esquivar dos ataques carregados. Os resultados podem te surpreender. Você pode também tentar algo engraçado como {{link2}} ou {{link3}}.",
+                "link1": "ranking padrão dos atacantes",
+                "link2": "lutas de nível baixo com esquiva perfeita",
+                "link3": "batalhas de nível 40"
+            },
+            "paragraph2": {
+                "text": "Pra quem procura quais defensores são difíceis de ganhar com um defensor de menor nível tente o link {{link1}}. Ele assume um atacante nível 25 e simula um pokemon defensor nível 30. Você pode também tentar fazer as coisas mais justas com {{link2}} ou {{link3}}.",
+                "link1": "rankings padrão dos defensores",
+                "link2": "rankings defensores nível 30 esquivar de tudo",
+                "link3": "combate de alto nível"
+            }
+        },
+        "buttons": {
+            "attacker": "Atacante",
+            "defender": "Defensor",
+            "gotoRankings": "Vá ao Ranking"
+        }
+    },
+    "list": {
+        "title": "Rankings de Batalha Pokemon Go",
+        "descriptions": {
+            "title": "Sobre estes Rankings",
+            "text": "Este ranking {{type}} é baseado em simulações de combate com atacantes nível {{levels.attacker}} batalhando defensores nível {{levels.defender}}. A simulação de ranking rodou com estratégia de ataque {{strategies.attack}} usando {{strategies.dodge}} baseada simulação tipo $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label). $t(common:simulation, {'count': {{numSims}}}) executadas com {{details}}.",
+            "textPokeboxAttackers": "Este ranking {{type}} é baseado em simulações de combate com os atacantes do treinador {{userId}} batalhando defensores nível {{levels.defender}}. A simulação de ranking rodou com estratégia de ataque {{strategies.attack}} usando {{strategies.dodge}} baseada no tipo de simulação $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label). $t(common:simulation, {'count': {{numSims}}}) executadas com {{details}}.",
+            "textPokeboxDefenders": "Este ranking {{type}} é feito simulando combates com atacantes nível {{levels.attacker}} batalhando defensores do treinador {{userId}}. A simulação de ranking rodou com estratégia de ataque {{strategies.attack}} usando {{strategies.dodge}} baseado no tipo de simulação $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label). $t(common:simulation, {'count': {{numSims}}}) executadas com {{details}}.",
+            "help1": "Você pode clicar em qualquer {{type}} para ver os resultados para diferentes ataques ou clicar no penúltimo ícone de agrupamento no canto superior direito para vê-los desagrupados. A ordenação pode ser alterada clicando o ícone no canto superior direito e selecionando o tipo de ordenação que você prefere.",
+            "help2": "Informações adicionais sobre estas simulações de ranking avançadas podem ser encontradas {{link}}.",
+            "attackers": "atacantes",
+            "defenders": "defensores",
+            "details": {
+                "attackers": "cada atacante totalmente evoluído com cada ataque possível simulados contra os 30 defensores de maior PC com todos os ataques possíveis com a estratégia Esperada. Os melhores 32 atacantes são então executados com a estratégia Monte Carlo centenas de vezes cada. Os melhores 24 atacantes com seus melhores ataques de acordo com {{sort}} são mantidos e mostrados aqui.",
+                "defenders": "cada possível combinação de ataques simuladas contra os 30 atacantes de melhor PC, 30 melhores potência, 30 melhores gerais e 30 melhores tempo para vencer com todas as possíveis combinações de ataque com a estratégia esperada. Os melhores 32 defensores foram mantidos e simulados contra seus 15 melhores adversários com suas 5 melhores combinações de ataque 300 vezes cada. Finalmente os 5 piores adversários para cada pokemon foram considerados e usados para encontrar os melhores 24 defensores com suas melhores combinações de ataque de acordo com {{sort}} foram mantidos e são mostrados aqui."
+            }
+        },
+        "typeSelection": {
+            "attacker": "Rankings de Atacantes",
+            "defender": "Rankings de Defensores"
+        },
+        "settings": {
+            "level": "Níveis de Pokemons"
+        }
+    },
+    "featured": {
+        "title": {
+            "attacker": "Estatísticas Médias de Combate Vs. 24 Melhores Defensores",
+            "defender": "Estatísticas Médias de Combate Vs. 6 Piores Confrontos"
+        },
+        "deepLink": "Mais detalhes para {{pokemon}}"
+    }
 }

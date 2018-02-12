@@ -3,7 +3,8 @@
         "title": "Classements",
         "welcome": {
             "paragraph1": "Bienvenue dans la nouvelle section des classements personnalisés à la fine pointe de la technologie de Pokebattler. Contrairement à d'autres sites, vous pouvez choisir exactement quelle combinaison de paramètres vous souhaitez construire vos propres classements personnalisés ! Ce site est extrêmement personnalisable, vous permettant de choisir le niveau de votre attaquant, le niveau du défenseur, votre stratégie d'attaque, votre stratégie d'esquive, vos options de tri et de groupage.",
-            "paragraph2": "Cette page fonctionne en exécutant plus de 30 000 000 de simulations de combat pour chaque paramètre de classement. Cela couvre toutes les combinaisons possibles d'attaquants et de défenseurs, ainsi que leurs attaques pour le paramètre choisi. Il y a des centaines de milliers de combinaisons différentes de paramètres à choisir pour les classements des attaquants et des défenseurs ! N'hésitez pas à essayer différents réglages jusqu'à obtenir ce que vous aimez."
+            "paragraph2": "Cette page fonctionne en exécutant plus de 30 000 000 de simulations de combat pour chaque paramètre de classement. Cela couvre toutes les combinaisons possibles d'attaquants et de défenseurs, ainsi que leurs attaques pour le paramètre choisi. Il y a des centaines de milliers de combinaisons différentes de paramètres à choisir pour les classements des attaquants et des défenseurs ! N'hésitez pas à essayer différents réglages jusqu'à obtenir ce que vous aimez.",
+            "title": "Bienvenue sur le classement 2.0 de Pokebattler!"
         },
         "recommendations": {
             "title": "Recommandations de réglage",
@@ -12,7 +13,37 @@
                 "link1": "classement par défaut des attaquants",
                 "link2": "des combats bas niveau avec esquive parfaite",
                 "link3": "des combats de niveau 40"
+            },
+            "paragraph2": {
+                "text": "Pour ceux qui cherchent quels défenseurs sont difficiles à battre avec un défenseur de faible niveau essayez le {{link1}}. Prenons un attaquant au niveau 25 et faisons une simulation avec un défenseur de niveau 30. Vous pouvez essayer de rendre la simulation plus réaliste avec {{link2}} ou {{link3}}.",
+                "link1": "classement par défaut des défenseurs",
+                "link2": "classement des défenseurs de niveau 30 avec esquive",
+                "link3": "combat de haut niveau"
             }
+        },
+        "buttons": {
+            "attacker": "Attaquant",
+            "defender": "Défenseur",
+            "gotoRankings": "Redirection vers le Classement"
         }
+    },
+    "list": {
+        "descriptions": {
+            "title": "À Propos de ces Classements",
+            "text": "Ce {{type}} classement est basé sur la simulation de combat entre un attaquant de niveau {{levels.attacker}} qui attaque un défenseur de niveau {{levels.defender}}. \nLa simulation de classement a été exécutée avec la stratégie d'attaque {{strategies.attack}} en utilisant {{strategies.dodge}} sur la base du type de simulation $ t (constants: strategies.defense.DEFENSE_RANDOM_MC.label). $ t (common: simulation, {'count': {{numSims}}}) effectué avec {{details}}.",
+            "help2": "Des informations supplémentaires concernant ces simulations avancées de classement peuvent être trouvées in the {{link}}.",
+            "attackers": "attaquants",
+            "defenders": "défenseurs"
+        },
+        "typeSelection": {
+            "attacker": "Classement des Attaquants",
+            "defender": "Classement des Défenseurs"
+        },
+        "settings": {
+            "level": "Niveaux des Pokemons"
+        }
+    },
+    "featured": {
+        "deepLink": "Voir plus de détails pour {{pokemon}}"
     }
 }
