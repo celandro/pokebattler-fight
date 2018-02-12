@@ -16,7 +16,7 @@
             },
             "paragraph2": {
                 "text": "Pour ceux qui cherchent quels défenseurs sont difficiles à battre avec un défenseur de faible niveau essayez le {{link1}}. Prenons un attaquant au niveau 25 et faisons une simulation avec un défenseur de niveau 30. Vous pouvez essayer de rendre la simulation plus réaliste avec {{link2}} ou {{link3}}.",
-                "link1": "classement par défaut des défenseurs.",
+                "link1": "classement par défaut des défenseurs",
                 "link2": "classement des défenseurs de niveau 30 avec esquive",
                 "link3": "combat de haut niveau"
             }
@@ -30,7 +30,7 @@
     "list": {
         "descriptions": {
             "title": "À Propos de ces Classements",
-            "text": "Ce {{type}} classement est basé sur la simulation de combat entre un attaquant de niveau {{levels.attacker}} qui attaque un défenseur de niveau {{levels.defender}}. The ranking simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) simulation type. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
+            "text": "Ce {{type}} classement est basé sur la simulation de combat entre un attaquant de niveau {{levels.attacker}} qui attaque un défenseur de niveau {{levels.defender}}. \nLa simulation de classement a été exécutée avec la stratégie d'attaque {{strategies.attack}} en utilisant {{strategies.dodge}} sur la base du type de simulation $ t (constants: strategies.defense.DEFENSE_RANDOM_MC.label). $ t (common: simulation, {'count': {{numSims}}}) effectué avec {{details}}.",
             "help2": "Des informations supplémentaires concernant ces simulations avancées de classement peuvent être trouvées in the {{link}}.",
             "attackers": "attaquants",
             "defenders": "défenseurs"
@@ -44,6 +44,6 @@
         }
     },
     "featured": {
-        "deepLink": "voir plus de détails pour {{pokemon}}"
+        "deepLink": "Voir plus de détails pour {{pokemon}}"
     }
 }
