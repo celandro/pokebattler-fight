@@ -28,7 +28,8 @@
             "intro": "Les raids de niveau 1 sont plutôt faciles à vaincre tout seul. Un joueur de niveau 20 avec une équipe de pokémons non optimale devrait être en mesure battre un raid de niveau 1 tout seul. Ces raids sont un bon moyen de collectionner des bonbons pour des pokémons peu communs dans votre région."
         },
         "RAID_LEVEL_2": {
-            "title": "Niveau 2"
+            "title": "Niveau 2",
+            "subtitle": "raid difficile à solo "
         }
     },
     "intro": "Les raids de Pokemon Go sont là ! Trouvez les meilleurs pokemons pour vaincre le boss du raid avec le guide de raid le plus précis du monde. Sélectionnez simplement ci dessous le raid pour voir les meilleurs contres pour chacune des capacités du boss."
