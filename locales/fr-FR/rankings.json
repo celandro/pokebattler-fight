@@ -29,7 +29,8 @@
     },
     "list": {
         "descriptions": {
-            "title": "À Propos de ces Classements"
+            "title": "À Propos de ces Classements",
+            "text": "Ce {{type}} classement est basé sur la simulation de combat entre un attaquant de niveau {{niveau de l'attaquant}} qui attaque un défenseur de niveau {{niveau du défenseur}} "
         }
     }
 }
