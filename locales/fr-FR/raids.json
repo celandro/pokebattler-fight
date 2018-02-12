@@ -33,7 +33,8 @@
             "intro": "Les raids de niveaux 2 sont ciblés pour des joueurs de niveaux 30-40 qui peuvent facilement battre ces pokémons. Les joueurs de niveaux plus faible devraient faire équipe pour battre ces pokémons."
         },
         "RAID_LEVEL_3": {
-            "title": "Niveau 3"
+            "title": "Niveau 3",
+            "subtitle": "raid facile en groupe"
         }
     },
     "intro": "Les raids de Pokemon Go sont là ! Trouvez les meilleurs pokemons pour vaincre le boss du raid avec le guide de raid le plus précis du monde. Sélectionnez simplement ci dessous le raid pour voir les meilleurs contres pour chacune des capacités du boss."
