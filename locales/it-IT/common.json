@@ -49,7 +49,7 @@
         "attackers": "attaccanti",
         "defenders": "difensori",
         "raid": "raid",
-        "text": "$t(simulazioni, {'count': {{numSims}} }) eseguite per generare questo risultato di alta qualità"
+        "text": "$t(simulation, {'count': {{numSims}} }) eseguite per generare questo risultato di alta qualità"
     },
     "name": "Nome",
     "nickname": "Soprannome",
