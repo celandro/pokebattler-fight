@@ -73,7 +73,7 @@
         "calculating": "Calculando o Resultado da Reide",
         "counters": {
             "title": "adversários",
-            "subtitle": "Melhores Atacantes por ",
+            "subtitle": "Melhores Atacantes por",
             "description": "A seguinte análise mostra o Pokemon que é o mais forte oponente em termos de {{sort}} contra {{pokemon}}.",
             "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
             "chooseMovesetLabel": "Escolher Ataques"
@@ -81,7 +81,8 @@
         "hardestMovesets": {
             "subtitle": "Para {{pokemon}} por {{sort}}",
             "tableTitle": "Ataques mais difíceis de enfrentar",
-            "description": "A dificuldade da Reide pode variar bastante dependendo do ataque do pokemon defensor!"
+            "description": "A dificuldade da Reide pode variar bastante dependendo do ataque do pokemon defensor!",
+            "title": "Reides Mais Difíceis"
         },
         "analysis": {
             "title": "Sobre esta Análise",
@@ -111,7 +112,7 @@
         "difficultyRating": "Nível de Dificuldade: {{rating}}",
         "adviceLink": "Veja o que acontece se você fortalecer",
         "estimate": {
-            "close": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha bem apertada. Traga mais um treinador se você quer ficar mais seguro.\n",
+            "close": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha bem apertada. Traga mais um treinador se você quer ficar mais seguro.",
             "almost": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Se você der muita sorte, você talvez possa derrotá-lo com um treinador a menos.",
             "normal": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Certifique-se que seu grupo está pronto antes da batalha.",
             "difficult": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha difícil, confira que todos estão levando seus melhores Pokemon."
