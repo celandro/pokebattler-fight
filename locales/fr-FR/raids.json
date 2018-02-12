@@ -15,7 +15,8 @@
         "analysis": {
             "title": "À propos de cette analyse"
         },
-        "title": "Guide des Raids"
+        "title": "Guide des Raids",
+        "calculating": "calcul des résultats du raid"
     },
     "title": "Guide de Raid",
     "tierList": {
