@@ -48,7 +48,8 @@
     "hd": {
         "attackers": "attaccanti",
         "defenders": "difensori",
-        "raid": "raid"
+        "raid": "raid",
+        "text": "$t(simulation, {'count': {{numSims}} }) eseguite per generare questo risultato di alta qualità"
     },
     "name": "Nome",
     "nickname": "Soprannome",
@@ -79,5 +80,9 @@
     "aggregation": "Quanta fortuna?",
     "basic": "Base",
     "advanced": "Avanzato",
-    "type": "Tipo del Pokemon"
+    "type": "Tipo del Pokemon",
+    "sectionLinks": {
+        "help": "Sezione aiuto",
+        "about": "Sezione Riguardo a"
+    }
 }
