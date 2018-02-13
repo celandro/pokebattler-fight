@@ -386,7 +386,15 @@
         "ZAPDOS": "Zapdos",
         "ZIGZAGOON": "Zigzachs",
         "ZUBAT": "Zubat",
-        "undefined": " "
+        "undefined": " ",
+        "CASTFORM_NORMAL_FORM": "Formeo - Normal",
+        "CASTFORM_RAINY_FORM": "Formeo - Regen",
+        "CASTFORM_SNOWY_FORM": "Formeo - Schnee",
+        "CASTFORM_SUNNY_FORM": "Formeo - Sonnig",
+        "DEOXYS_NORMAL_FORM": "Deoxys - Normal",
+        "DEOXYS_ATTACK_FORM": "Deoxys - Angriff",
+        "DEOXYS_DEFENSE_FORM": "Deoxys - Verteidigung",
+        "DEOXYS_SPEED_FORM": "Deoxys - Geschwindigkeit"
     },
     "moves": {
         "undefined": " ",
