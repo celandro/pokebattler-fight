@@ -53,6 +53,7 @@
         "toolbarTitle": "Bulk Delete",
         "confirmation": "This will delete {{num}} Pokemon from your Pokebox, are you sure?"
       },
+      "confirmation": "Are you sure you want to delete?",
       "irreversible": "This cannot be undone!"
     }
 }

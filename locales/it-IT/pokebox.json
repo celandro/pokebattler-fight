@@ -2,6 +2,57 @@
     "title": "Pokebox",
     "blurb": "Aggiungi i tuoi Pokémon per risultati personalizzati!",
     "pokemonList": {
-        "zero": "Aggiungi il tuo Pokémon cliccando il riquadro a sinistra."
+        "zero": "Aggiungi il tuo Pokémon cliccando il riquadro a sinistra.",
+        "title": "Il tuo Pokebox personale",
+        "zeroDescription": "Se in passato hai già aggiunto dei Pokemon, potresti aver effettuato il login con un altro account. I tuoi account saranno automaticamente collegati se usano lo stesso indirizzo email.",
+        "zeroHelp": "Se non hanno lo stesso indirizzo email, {{link}} con l'userIds degli account che vuoi collegare.",
+        "email": "email Pokebattler"
+    },
+    "add": {
+        "title": "Pokebox",
+        "description": "Aggiungi un Pokemon",
+        "pokemon": "Scegli un Pokemon",
+        "pokemonSelect": "Scegli un Pokemon"
+    },
+    "deleteAll": {
+        "button": "Cancella tutti",
+        "title": "Cancella tutti",
+        "confirmation": "Così cancellerai tutti i Pokemon nel tuo Pokebox, ne sei sicuro?",
+        "irreversible": "Quest'azione non è reversibile!"
+    },
+    "import": {
+        "button": "Importa in massa",
+        "title": "Importa un Pokebox",
+        "description": "Importa un Pokemon",
+        "parse": "Inizia ad importare",
+        "hintText": "Sono supportati molti formati. Assicurati di includere una riga header (intestazione).",
+        "floatingLabel": "Copia e incolla qui i tuoi Pokemon",
+        "table": {
+            "header": "Seleziona il Pokemon che desideri importare qui sotto",
+            "selectAll": "Seleziona tutti"
+        }
+    },
+    "update": {
+        "title": "Pokebox",
+        "description": "Modifica {{name}}"
+    },
+    "loading": "Sto caricando il tuo Pokemon",
+    "backPokebox": "Torna al Pokebox",
+    "powerUp": "Potenzia",
+    "full": {
+        "title": "Pokebox - Spazio esaurito",
+        "explanation": "Hai raggiunto il numero massimo di Pokemon nel Pokebox che puoi permetterti col tuo livello di supporto attuale. Ciò ti pone nel 5% dei maggiori fruitori di Pokebattler! Pokebattler dipende dal supporto di grandi utenti come te per offrire simulazione di alta qualità a tutti. Puoi incrementare lo spazio per i tuoi Pokemon contribuendo sul Patreon di Pokebattler."
+    },
+    "explanation": "Il Pokebox di Pokebattler è un'eccitante nuova caratteristica che ti permette di personalizzare la tua esperienza su Pokebattler e basarla sui Pokemon che possiedi! I Pokemon che aggiungi al tuo Pokebox possono essere usati in tutto il sito. Presta attenzione all'icona del box. Un'icona verde significa che stai usando il Pokebox, una nera significa che non lo stai usando.",
+    "delete": {
+        "title": "Cancella",
+        "blurb": "Puoi cancellare velocemente più Pokemon alla volta qui. Puoi liberare velocemente più spazio nel tuo Pokebox. Ti basta selezionare ogni Pokemon che vuoi cancellare. Quando hai finito, scrolla la pagina fino in fondo per trovare il tasto Cancella.",
+        "button": "Cancella in massa",
+        "bulk": {
+            "title": "Cancella",
+            "toolbarTitle": "Cancella in massa",
+            "confirmation": "Questo cancellerà {{num}} Pokemon dal tuo Pokebox, ne sei sicuro?"
+        },
+        "irreversible": "Questa azione non è reversibile!"
     }
 }

@@ -130,5 +130,8 @@
             "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
         }
     },
+    "battle": {
+        "resultLink": "See this result as a battle party"
+    },
     "helpLink": "Watch the Raid tutorial video"
 }
