@@ -5,7 +5,7 @@
         "zero": "Aggiungi il tuo Pokémon cliccando il riquadro a sinistra.",
         "title": "Il tuo Pokebox personale",
         "zeroDescription": "Se in passato hai già aggiunto dei Pokemon, potresti aver effettuato il login con un altro account. I tuoi account saranno automaticamente collegati se usano lo stesso indirizzo email.",
-        "zeroHelp": "Se non hanno lo stesso indirizzo email, {{link}} con l'userIds degli account che vuoi collegare.",
+        "zeroHelp": "Se non hanno lo stesso indirizzo email, {{link}} con l'userIds degli account che vuoi collegare",
         "email": "email Pokebattler"
     },
     "add": {
