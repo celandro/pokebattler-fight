@@ -126,9 +126,13 @@
         "estimate": {
             "close": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a very close fight. Bring one more trainer if you can to be safe.",
             "almost": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. If you are very lucky, you might be able to beat it with 1 less trainer.",
+            "trivial": "Beating {{pokemon}} should take {{numPeople}} trainer with Pokemon of this strength. This fight will be over before it's begun. It's so easy you could just use the in game suggestions and win. 😉",
             "normal": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. Make sure your group is prepared before the fight.",
             "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
         }
+    },
+    "battle": {
+        "resultLink": "See this result as a battle party"
     },
     "helpLink": "Watch the Raid tutorial video"
 }
