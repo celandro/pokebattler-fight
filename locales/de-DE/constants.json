@@ -708,7 +708,7 @@
             },
             "DEFENSE_RANDOM_MC_MID": {
                 "label": "Monte Carlo - Silber",
-                "description": "Ein bedeutend genaueres Ergebnis. 25 Zufallssimulationen werden zu einem Gesamtergebnis zusammengerechnet. Der Median wird als Beispiel für den Kampfbericht benutzt. Am nützlichsten in nicht perfekten Ausweichstrategien."
+                "description": "Ein bedeutend genaueres Ergebnis. 50 Zufallssimulationen werden zu einem Gesamtergebnis zusammengerechnet. Der Median wird als Beispiel für den Kampfbericht benutzt. Am nützlichsten in nicht perfekten Ausweichstrategien."
             },
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Gold",

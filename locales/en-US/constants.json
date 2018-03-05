@@ -708,7 +708,7 @@
             },
             "DEFENSE_RANDOM_MC_MID": {
                 "label": "Monte Carlo - Silver",
-                "description": "A highly accurate result. 25 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
+                "description": "A highly accurate result. 50 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
             },
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Gold",
