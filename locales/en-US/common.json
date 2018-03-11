@@ -88,6 +88,8 @@
     "trainer": "Trainer",
     "more": "More",
     "pokemon": "Pokemon",
+    "battleParty": "Battle Party",
+    "battleParties": "Battle Parties",
     "status": {
         "add": "Adding",
         "edit": "Editing",
