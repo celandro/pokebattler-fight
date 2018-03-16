@@ -117,12 +117,12 @@
     "emptyResults": {
         "LEVEL": "Es sind keine Ergebnisse für diese Berechnung zurückgesandt worden. Eventuell gibt es ein Serverproblem.",
         "POKEBOX": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast du bereits Pokemon zu deiner Pokebox hinzugefügt?",
-        "FRIEND": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hast dein Freund bereits Pokemon zu seiner Pokebox hinzugefügt? Versuche es mit einem anderen Trainer."
+        "FRIEND": "Es wurden keine Ergebnisse für diese Berechnung zurückgeliefert. Hat dein Freund bereits Pokemon zu seiner Pokébox hinzugefügt? Versuche es mit einem anderen Trainer."
     },
     "people": {
         "title": "Pokebattler-Schätzung",
         "difficultyRating": "Schwierigkeitsgrad: {{rating}}",
-        "adviceLink": "Schau, was passiert, wenn du Power-Ups verwendest",
+        "adviceLink": "Verbesserst du dich mit Power-Ups?",
         "estimate": {
             "close": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Es wird ein enger Kampf. Bring einen Trainer mehr mit, um sicher zu gehen.",
             "almost": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Wenn du viel Glück hast, schaffst du es vielleicht auch mit einem Trainer weniger.",
