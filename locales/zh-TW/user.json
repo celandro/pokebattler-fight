@@ -1,2 +1,16 @@
 {
+    "title": "登入Pokebattler",
+    "privacy": "更多的資訊請參閱我們的隱私政策",
+    "loading": "載入使用者資料",
+    "user": "使用者",
+    "login": {
+        "google": "使用Google帳號登入",
+        "facebook": "使用Facebook帳號登入",
+        "success": {
+            "title": "登入成功"
+        }
+    },
+    "details": {
+        "welcome": "歡迎"
+    }
 }
