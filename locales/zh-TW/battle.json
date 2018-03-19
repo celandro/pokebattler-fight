@@ -9,10 +9,25 @@
         "title": "相關戰役",
         "description": "選擇下方你想更改的參數，點擊連結以使用新參數重新開始模擬。模擬結果將立即更改。",
         "modify": "修改",
-        "switch": "切換以修改{{type}}"
+        "switch": "切換以修改{{type}}",
+        "parameterTitle": "改變參數"
     },
     "pokemonListTypes": {
         "pokebox": "圖鑑",
         "all": "所有寶可夢"
-    }
+    },
+    "results": {
+        "title": {
+            "base": "對戰結果：你",
+            "win": "勝利！",
+            "lose": "失敗！"
+        },
+        "about": "關於戰鬥",
+        "result": {
+            "win": "擊敗",
+            "lose": "被擊敗"
+        },
+        "logTitle": "對戰日誌"
+    },
+    "runAgain": "重新模擬"
 }

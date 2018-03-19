@@ -32,6 +32,7 @@
         "heading": "Current Benefits",
         "description": "Contribute to Pokebattler's {{link}} for premium benefits. Pokebattler is made possible by supporters contributing to the increasing server costs of hosting this site.",
         "maxPokemon": "Max Pokemon",
+        "maxBattleParties": "Max Battle Parties",
         "quality": "Simulation Quality",
         "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated.",
         "support": "Support Pokebattler",
