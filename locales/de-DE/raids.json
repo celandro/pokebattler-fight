@@ -104,7 +104,12 @@
                 "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
             }
         },
-        "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung."
+        "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung.",
+        "patreon": {
+            "description": "Genauere Ergebnisse für unbekannte Attacken dank dem Support unserer Patreon Abonnenten. Patreon Abonnenten erhalten zusätzlichen Pokebox Platz, sogar noch genauere Ergebnisse für alle Attackenmuster und mehr.",
+            "link": "Sieh dir alle Vorteile an, die du fürs anmelden erhälst",
+            "thanks": "Danke für deine Unterstützung!"
+        }
     },
     "pokebox": {
         "login": "Der Raid-Guide von Pokebattler kann individuell angepasst werden, indem du deine eigene Pokebox verwendest, damit er nur Pokemon enthält, die du auch tatsächlich besitzt. Melde dich an, füge deine besten Pokemon zu deiner eigenen Pokebox hinzu, und danach kannst du bei der Planung deiner Raidkämpfe wählen zwischen deinen eigenen Pokemon aus der Pokebox und den Kontern, die ganz allgemein die besten sind.",
@@ -127,8 +132,12 @@
             "close": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Es wird ein enger Kampf. Bring einen Trainer mehr mit, um sicher zu gehen.",
             "almost": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Wenn du viel Glück hast, schaffst du es vielleicht auch mit einem Trainer weniger.",
             "normal": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Vergewissere dich, dass deine Gruppe für den Kampf vorbereitet ist.",
-            "difficult": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Es wird ein harter Kampf. Stell sicher, dass jeder seine besten Pokemon verwendet."
+            "difficult": "Um {{pokemon}} zu besiegen, sollte man {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Es wird ein harter Kampf. Stell sicher, dass jeder seine besten Pokemon verwendet.",
+            "trivial": "{{pokemon}} zu besiegen sollte {{numPeople}} Trainer mit Pokemon dieser Stärke benötigen. Dieser Kampf wird vorbei sein, bevor er überhaupt begonnen hat. Er ist so einfach, dass du die spieleigenen Vorschläge nehmen und gewinnen kannst. "
         }
     },
-    "helpLink": "Sieh dir das Raid Tutorial Video an"
+    "helpLink": "Sieh dir das Raid Tutorial Video an",
+    "battle": {
+        "resultLink": "Sieh dir dieses Ergebnis als Kampfgruppe an"
+    }
 }
