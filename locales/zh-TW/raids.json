@@ -10,6 +10,19 @@
             "title": "最難的團體戰",
             "tableTitle": "最難撃敗的招式組",
             "description": "防守寶可夢的招式組可決定團體戰難易度！"
+        },
+        "analysis": {
+            "title": "關於此分析"
+        }
+    },
+    "title": "團隊指南",
+    "tierList": {
+        "common": {
+            "boss": "頭目",
+            "raidTier": "團隊等級"
+        },
+        "RAID_LEVEL_1": {
+            "subtitle": "簡易單人團隊"
         }
     }
 }
