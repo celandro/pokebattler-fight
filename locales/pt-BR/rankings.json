@@ -4,19 +4,19 @@
         "welcome": {
             "title": "Bem-vindo ao Pokebattler Rankings 2.0!",
             "paragraph1": "Bem-vindo à nova seção dos rankings personalizados estado-da-arte do Pokebattler. Ao contrário de outros sites, você pode escolher exatamente quais combinações de configurações você quer em seus rankings customizados! Este site é extremamente customizável, permitindo que você escolha o nível do seu atacante, o nível do seu defensor, sua estratégia de ataque, sua estratégia de esquiva, suas opções de ordenação e agrupamento.",
-            "paragraph2": "Esta página trabalha rodando mais de 30.000.000 simulações de combate para cada parâmetro de ranqueamento. Isto cobre todas as possíveis combinações de atacantes e defensores, assim como seus ataques para os parâmetros escolhidos. Existem centenas de milhares de diferentes combinações de configurações para escolher nos rankings de atacantes e defensores! Tente diferentes configurações à vontade até alcançar o que você deseja.\n"
+            "paragraph2": "Esta página trabalha rodando mais de 30.000.000 simulações de combate para cada parâmetro de ranqueamento. Isto cobre todas as possíveis combinações de atacantes e defensores, assim como seus ataques para os parâmetros escolhidos. Existem centenas de milhares de diferentes combinações de configurações para escolher nos rankings de atacantes e defensores! Tente diferentes configurações à vontade até alcançar o que você deseja."
         },
         "recommendations": {
             "title": "Recomendações de ajustes",
             "paragraph1": {
-                "text": "Um bom ponto de partida para a maioria dos jogadores é {{link1}}. Ele assume um atacante nível 25 e simula um ataque contra um defensor nível 30 no ginásio. Eu gosto de usar meus ataques o quanto antes e tento esquivar dos ataques carregados. Os resultados podem te surpreender. Você pode também tentar algo engraçado como {{link2}} ou {{link3}}.\n",
+                "text": "Um bom ponto de partida para a maioria dos jogadores é {{link1}}. Ele assume um atacante nível 25 e simula um ataque contra um defensor nível 30 no ginásio. Eu gosto de usar meus ataques o quanto antes e tento esquivar dos ataques carregados. Os resultados podem te surpreender. Você pode também tentar algo engraçado como {{link2}} ou {{link3}}.",
                 "link1": "ranking padrão dos atacantes",
                 "link2": "lutas de nível baixo com esquiva perfeita",
                 "link3": "batalhas de nível 40"
             },
             "paragraph2": {
                 "text": "Pra quem procura quais defensores são difíceis de ganhar com um defensor de menor nível tente o link {{link1}}. Ele assume um atacante nível 25 e simula um pokemon defensor nível 30. Você pode também tentar fazer as coisas mais justas com {{link2}} ou {{link3}}.",
-                "link1": "rankings padrão dos defensores\n",
+                "link1": "rankings padrão dos defensores",
                 "link2": "rankings defensores nível 30 esquivar de tudo",
                 "link3": "combate de alto nível"
             }

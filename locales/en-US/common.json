@@ -88,6 +88,11 @@
     "trainer": "Trainer",
     "more": "More",
     "pokemon": "Pokemon",
+    "battleParty": "Battle Party",
+    "battleParties": "Battle Parties",
+    "raids": "Raids",
+    "gym": "Gym",
+    "pvp": "PvP",
     "status": {
         "add": "Adding",
         "edit": "Editing",

@@ -53,7 +53,7 @@
     },
     "featured": {
         "title": {
-            "attacker": "Durchscnittliche Kampfstatistiken gegen die 24 besten Verteidiger",
+            "attacker": "Durchschnittliche Kampfstatistiken gegen die 24 besten Verteidiger",
             "defender": "Gemittelte Kampfstatistiken gegen die 6 schlechtesten Herausforderer"
         },
         "deepLink": "Mehr Details für {{pokemon}}"

@@ -386,7 +386,15 @@
         "ZAPDOS": "Zapdos",
         "ZIGZAGOON": "Zigzachs",
         "ZUBAT": "Zubat",
-        "undefined": " "
+        "undefined": " ",
+        "CASTFORM_NORMAL_FORM": "Formeo - Normal",
+        "CASTFORM_RAINY_FORM": "Formeo - Regen",
+        "CASTFORM_SNOWY_FORM": "Formeo - Schnee",
+        "CASTFORM_SUNNY_FORM": "Formeo - Sonnig",
+        "DEOXYS_NORMAL_FORM": "Deoxys - Normal",
+        "DEOXYS_ATTACK_FORM": "Deoxys - Angriff",
+        "DEOXYS_DEFENSE_FORM": "Deoxys - Verteidigung",
+        "DEOXYS_SPEED_FORM": "Deoxys - Geschwindigkeit"
     },
     "moves": {
         "undefined": " ",
@@ -700,7 +708,7 @@
             },
             "DEFENSE_RANDOM_MC_MID": {
                 "label": "Monte Carlo - Silber",
-                "description": "Ein bedeutend genaueres Ergebnis. 25 Zufallssimulationen werden zu einem Gesamtergebnis zusammengerechnet. Der Median wird als Beispiel für den Kampfbericht benutzt. Am nützlichsten in nicht perfekten Ausweichstrategien."
+                "description": "Ein bedeutend genaueres Ergebnis. 50 Zufallssimulationen werden zu einem Gesamtergebnis zusammengerechnet. Der Median wird als Beispiel für den Kampfbericht benutzt. Am nützlichsten in nicht perfekten Ausweichstrategien."
             },
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Gold",
@@ -742,7 +750,7 @@
             "description": "20% Bonus zu Feen-, Kampf- und Giftattacken"
         },
         "WINDY": {
-            "label": "Windisch",
+            "label": "Windig",
             "description": "20% Bonus zu Drachen-, Flug und Psychoattacken"
         },
         "SNOW": {
