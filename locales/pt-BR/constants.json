@@ -682,7 +682,7 @@
             },
             "DEFENSE_RANDOM_MC_MID": {
                 "label": "Monte Carlo - Prata",
-                "description": "Um resultado altamente preciso. 25 simulações aleatórias são executadas e a média é calculada para compor o resultado geral. O resultado médio baseado na avaliação geral é usado para registros de combate por exemplo. Mais útil em combinação com estratégias de esquiva não-perfeitas."
+                "description": "Um resultado altamente preciso. 50 simulações aleatórias são executadas e a média é calculada para compor o resultado geral. O resultado médio baseado na avaliação geral é usado para registros de combate por exemplo. Mais útil em combinação com estratégias de esquiva não-perfeitas."
             },
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Ouro",
