@@ -56,16 +56,31 @@
     "ivs": "IV",
     "attackerTypes": {
         "pokebox": "Il Mio Pokebox",
-        "level": "Per Livello"
+        "level": "Per Livello",
+        "friend": "Pokebox di altri"
     },
     "pokebox": "Pokebox",
     "trainer": "Allenatore",
     "pokemon": "Pokémon",
     "status": {
-        "error": "Errore"
+        "error": "Errore",
+        "add": "Aggiungere",
+        "edit": "Modificare",
+        "update": "Aggiornare",
+        "delete": "Cancellare",
+        "loading": "Caricamento",
+        "success": "Completato",
+        "bulk": "Importa",
+        "newVersion": "Nuova uscita"
     },
     "message": {
-        "error": "Ops, qualcosa è andato storto. Prova di nuovo fra qualche secondo"
+        "error": "Ops, qualcosa è andato storto. Prova di nuovo fra qualche secondo",
+        "bulk": "Importando in massa {{num}} pokemon, potrebbe volerci un po'",
+        "delete": "Rimuovendo {{num}} pokemon dal tuo Pokebox",
+        "deleteAll": "Rimuovendo tutti i Pokemon dal tuo Pokebox",
+        "update": "Aggiornando i tuoi Pokemon",
+        "success": "Completato",
+        "newVersion": "Nuova versione disponibile, riavvia il tuo browser"
     },
     "site": {
         "beta": "Sito Beta",
@@ -84,5 +99,21 @@
     "sectionLinks": {
         "help": "Sezione aiuto",
         "about": "Sezione Riguardo a"
-    }
+    },
+    "faction": "Squadra",
+    "mystic": "Saggezza",
+    "valor": "Coraggio",
+    "instinct": "Istinto",
+    "trainerName": "Nome allenatore",
+    "advice": "Suggerimenti per i raid",
+    "login": "Login",
+    "more": "Altro",
+    "candy": {
+        "title": "Caramelle disponibili"
+    },
+    "stardust": {
+        "title": "Polvere di stella disponibile"
+    },
+    "xAxis": "asse x",
+    "yAxis": "asse y"
 }

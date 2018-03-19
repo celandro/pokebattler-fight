@@ -43,6 +43,7 @@
             "ROLE_PATREON": "Pokebattler-Patreon",
             "ROLE_FANATIC": "Pokebattler-Fanatiker",
             "ROLE_CONTEST": "Pokebattler Wettbewerb Sieger"
-        }
+        },
+        "maxBattleParties": "Maximale Kampfgruppen"
     }
 }
