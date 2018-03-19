@@ -48,7 +48,11 @@
         "type": "$t(common:type)",
         "powerups": "強化",
         "stardust": "星星沙子",
-        "candy": "糖果"
+        "candy": "糖果",
+        "overall": "整體表現",
+        "power": "能力值",
+        "effectiveDeaths": "獲勝代價",
+        "time": "獲勝需時"
     },
     "sectionLinks": {
         "help": "幫助欄位",
@@ -62,12 +66,52 @@
     },
     "name": "名字",
     "nickname": "暱稱",
-    "mystic": "",
-    "valor": "",
-    "instinct": "",
+    "mystic": "睿智隊(藍隊)",
+    "valor": "武勇隊(紅隊)",
+    "instinct": "靈犀隊(黃隊)",
     "ivs": "個體值",
     "trainerName": "訓練家名稱",
     "attackerTypes": {
-        "pokebox": "我的Pokébox"
-    }
+        "pokebox": "我的Pokébox",
+        "level": "根據等級",
+        "friend": "他們的寶可夢盒子"
+    },
+    "aggregation": "多麼幸運？",
+    "faction": "部分",
+    "pokebox": "寶可夢盒子",
+    "advice": "團體戰建議",
+    "login": "登入",
+    "trainer": "訓練師",
+    "more": "更多",
+    "pokemon": "寶可夢",
+    "status": {
+        "add": "加入",
+        "edit": "編輯",
+        "update": "更新",
+        "delete": "刪除",
+        "loading": "載入",
+        "success": "成功",
+        "error": "錯誤",
+        "newVersion": "最新資訊"
+    },
+    "message": {
+        "delete": "從寶可夢盒子刪除寶可夢",
+        "deleteAll": "刪除寶可夢盒子中的全部寶可夢",
+        "update": "更新寶可夢數據",
+        "success": "成功",
+        "error": "噢！發生了小問題，請稍後再嘗試",
+        "newVersion": "新版本出爐了，請重新整理瀏覽器"
+    },
+    "site": {
+        "beta": "測試版本",
+        "www": "主要網頁"
+    },
+    "candy": {
+        "title": "可用糖果"
+    },
+    "stardust": {
+        "title": "可用星塵"
+    },
+    "xAxis": "X軸",
+    "yAxis": "Y軸"
 }
