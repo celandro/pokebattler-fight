@@ -1,2 +1,19 @@
 {
+    "linkLabel": "Raid",
+    "results": {
+        "counters": {
+            "title": "counter",
+            "moveSetOrderingDescription": "I moveset sono ordinati dal più difficile da affrontare al più facile, assicurati di controllare più volte. i risultati possono variare molto!",
+            "chooseMovesetLabel": "Scegli Moveset"
+        },
+        "hardestMovesets": {
+            "title": "Raid più Difficili",
+            "subtitle": "Per {{pokemon}} in base a {{sort}}",
+            "tableTitle": "Moveset più difficili da affrontare",
+            "description": "La difficoltà nei raid possono variare molto in base al moveset del pokemon difensore!"
+        },
+        "analysis": {
+            "title": "Riguardo questa Analisi"
+        }
+    }
 }
