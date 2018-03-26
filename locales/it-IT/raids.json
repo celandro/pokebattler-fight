@@ -26,6 +26,11 @@
             "title": "Livello 4",
             "subtitle": "Raid di gruppo Difficili",
             "intro": "I raid di Livello 4 sono rivolti a gruppi di 5-6 allenatori di livello 30-40. Sono arrivate notizie che questi Pokemon sono stati sconfitti da allenatori di livello massimo usando 3-4 counter perfetti."
+        },
+        "RAID_LEVEL_5": {
+            "title": "Livello 5",
+            "subtitle": "Raid Leggendari",
+            "intro": "Gli attuali raid leggendari sono il miglior modo per ottenere pokemon forti! Sono spesso vinti con gruppi di 6-10 allenatori di livello 30-40. Alcuni intrepidi esperti sono riusciti a vincere alcuni di questi raid in pochi come 2-5 allenatori"
         }
     }
 }
