@@ -1,5 +1,31 @@
 {
     "title": "Raid",
     "linkLabel": "Raid",
-    "intro": "Sono arrivati i Raid in Pokemon Go! Scopri qual è il miglior Pokémon per sconfiggere i raid boss con la più accurata guida ai Raid in Pokemon Go del mondo.\nSeleziona il raid qui sotto per vedere i migliori counter per ogni moveset!"
+    "intro": "Sono arrivati i Raid in Pokemon Go! Scopri qual è il miglior Pokémon per sconfiggere i raid boss con la più accurata guida ai Raid in Pokemon Go del mondo.\nSeleziona il raid qui sotto per vedere i migliori counter per ogni moveset!",
+    "tierList": {
+        "common": {
+            "boss": "Boss",
+            "raidTier": "Livello Raid"
+        },
+        "RAID_LEVEL_1": {
+            "title": "Livello 1",
+            "subtitle": "Raid in solitaria Facili",
+            "intro": "I raid di Livello 1 sono abbastanza semplici da sconfiggere in solitaria. Un allenatore di livello 20 con pokemon imperfetti dovrebbe esserne capace. Questi raid sono un buon modo per raccogliere caramelle per pokemon che non sono comuni nella tua zona"
+        },
+        "RAID_LEVEL_2": {
+            "title": "Livello 2",
+            "subtitle": "Raid in solitaria Difficili",
+            "intro": "I raid di Livello 2 sono rivolti agli allenatori di livello 30-40 che possono sconfiggere facilmente questi Pokemon. Allenatori di livello più basso dovrebbero collaborare per sconfiggere questi Pokemon."
+        },
+        "RAID_LEVEL_3": {
+            "title": "Livello 3",
+            "subtitle": "Raid di gruppo Facili",
+            "intro": "I raid di Livello 3 sono rivolti a gruppi di 2 allenatori di livello 30-40. Possono essere sconfitti da allenatori di livello 40 con un pò di fortuna e una perfetta lotta con Pokemon fantastici."
+        },
+        "RAID_LEVEL_4": {
+            "title": "Livello 4",
+            "subtitle": "Raid di gruppo Difficili",
+            "intro": "I raid di Livello 4 sono rivolti a gruppi di 5-6 allenatori di livello 30-40. Sono arrivate notizie che questi Pokemon sono stati sconfitti da allenatori di livello massimo usando 3-4 counter perfetti"
+        }
+    }
 }
