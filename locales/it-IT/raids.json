@@ -1,2 +1,103 @@
 {
+    "title": "Raid",
+    "linkLabel": "Raid",
+    "intro": "Sono arrivati i Raid in Pokemon Go! Scopri qual è il miglior Pokémon per sconfiggere i raid boss con la più accurata guida ai Raid in Pokemon Go del mondo.\nSeleziona il raid qui sotto per vedere i migliori counter per ogni moveset!",
+    "tierList": {
+        "common": {
+            "boss": "Boss",
+            "raidTier": "Livello Raid"
+        },
+        "RAID_LEVEL_1": {
+            "title": "Livello 1",
+            "subtitle": "Raid in solitaria Facili",
+            "intro": "I raid di Livello 1 sono abbastanza semplici da sconfiggere in solitaria. Un allenatore di livello 20 con pokemon imperfetti dovrebbe esserne capace. Questi raid sono un buon modo per raccogliere caramelle per pokemon che non sono comuni nella tua zona"
+        },
+        "RAID_LEVEL_2": {
+            "title": "Livello 2",
+            "subtitle": "Raid in solitaria Difficili",
+            "intro": "I raid di Livello 2 sono rivolti agli allenatori di livello 30-40 che possono sconfiggere facilmente questi Pokemon. Allenatori di livello più basso dovrebbero collaborare per sconfiggere questi Pokemon."
+        },
+        "RAID_LEVEL_3": {
+            "title": "Livello 3",
+            "subtitle": "Raid di gruppo Facili",
+            "intro": "I raid di Livello 3 sono rivolti a gruppi di 2 allenatori di livello 30-40. Possono essere sconfitti da allenatori di livello 40 con un pò di fortuna e una perfetta lotta con Pokemon fantastici."
+        },
+        "RAID_LEVEL_4": {
+            "title": "Livello 4",
+            "subtitle": "Raid di gruppo Difficili",
+            "intro": "I raid di Livello 4 sono rivolti a gruppi di 5-6 allenatori di livello 30-40. Sono arrivate notizie che questi Pokemon sono stati sconfitti da allenatori di livello massimo usando 3-4 counter perfetti."
+        },
+        "RAID_LEVEL_5": {
+            "title": "Livello 5",
+            "subtitle": "Raid Leggendari",
+            "intro": "Gli attuali raid leggendari sono il miglior modo per ottenere pokemon forti! Sono spesso vinti con gruppi di 6-10 allenatori di livello 30-40. Alcuni intrepidi esperti sono riusciti a vincere alcuni di questi raid in pochi come 2-5 allenatori."
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "Livello ?",
+            "subtitle": "Raid Sconosciuti",
+            "intro": "Questi Pokemon potrebbero fare parte dei livelli raid in futuro. Usa questo se spunta un nuovo raid e il sito non è ancora stato aggiornato. Puoi anche usare questa sezione per analisi di cosa potrebbe succedere se avessi Magikarp come raid leggendario!"
+        },
+        "RAID_LEVEL_4_EVENTS": {
+            "title": "Livello 4 Speciale",
+            "subtitle": "Raid Eventi Speciali",
+            "intro": "Questi Pokemon hanno fatto parte dei raid in eventi passati come quello di Yokohama. Potrebbero tornare di nuovo senza preavviso"
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Livello 1 Legacy",
+            "subtitle": "Raid in solitaria Facili",
+            "intro": "Questi raid non sono presenti nell'attuale rotazione raid. "
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Livello 2 Legacy",
+            "subtitle": "Raid in solitaria Difficili",
+            "intro": "Questi raid non sono presenti nell'attuale rotazione raid. "
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "Livello 3 Legacy",
+            "subtitle": "Raid di gruppo Facili",
+            "intro": "Questi raid non sono presenti nell'attuale rotazione raid. "
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "Livello 4 Legacy",
+            "subtitle": "Raid di gruppo Difficili",
+            "intro": "Questi raid non sono presenti nell'attuale rotazione raid. "
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Livello 5 Legacy",
+            "subtitle": "Raid leggendari",
+            "intro": "Questi raid erano disponibili in passato ma non sono presenti nell'attuale rotazione raid. Potrebbero tornare in futuro per eventi speciali"
+        },
+        "RAID_LEVEL_5_FUTURE": {
+            "title": "Livelli 5 Futuri",
+            "subtitle": "Raid leggendario",
+            "intro": "Questi raid di livello 5 non sono ancora in gioco. Le loro statistiche e mosse sono soggette a cambiamento."
+        }
+    },
+    "custom": {
+        "title": "Raid Personalizzati",
+        "levelsLabel": "Livello Attaccante",
+        "buttonLabel": "Trova il miglior pokemon",
+        "attackersLabel": "Attaccanti"
+    },
+    "results": {
+        "title": "Raid",
+        "calculating": "Calcolando Risultati Raid",
+        "counters": {
+            "title": "counter",
+            "subtitle": "Migliori Attaccanti per",
+            "description": "La seguente analisi mostra il più forte Pokemon in termini di {{sort}} contro {{pokemon}}",
+            "moveSetOrderingDescription": "I moveset sono ordinati dal più difficile da affrontare al più facile, assicurati di controllare più volte. i risultati possono variare molto!",
+            "difficultyNote": "I Raid boss sono molto più difficili delle lotte normali, dovresti scegliere accuratamente le tue opzioni",
+            "chooseMovesetLabel": "Scegli Moveset"
+        },
+        "hardestMovesets": {
+            "title": "Raid più Difficili",
+            "subtitle": "Per {{pokemon}} in base a {{sort}}",
+            "tableTitle": "Moveset più difficili da affrontare",
+            "description": "La difficoltà nei raid possono variare molto in base al moveset del pokemon difensore"
+        },
+        "analysis": {
+            "title": "Riguardo questa Analisi"
+        }
+    }
 }
