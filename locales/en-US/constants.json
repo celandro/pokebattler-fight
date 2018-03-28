@@ -735,7 +735,7 @@
             "description": "No bonus to any Pokemon"
         },
         "CLEAR": {
-            "label": "Clear",
+            "label": "Sunny/Clear",
             "description": "20% bonus to Grass, Ground and Fire attacks"
         },
         "RAINY": {
