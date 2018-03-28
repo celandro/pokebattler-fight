@@ -1,2 +1,18 @@
 {
+    "index": {
+        "title": "Classifiche",
+        "recommendations": {
+            "paragraph1": {
+                "link1": "classifica attaccanti predefinita"
+            },
+            "paragraph2": {
+                "link1": "classifica difensori predefinita"
+            }
+        },
+        "buttons": {
+            "attacker": "Attaccante",
+            "defender": "Difensore",
+            "gotoRankings": "Vai a Classifica"
+        }
+    }
 }

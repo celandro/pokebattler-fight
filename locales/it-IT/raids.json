@@ -10,7 +10,7 @@
         "RAID_LEVEL_1": {
             "title": "Livello 1",
             "subtitle": "Raid in solitaria Facili",
-            "intro": "I raid di Livello 1 sono abbastanza semplici da sconfiggere in solitaria. Un allenatore di livello 20 con pokemon imperfetti dovrebbe esserne capace. Questi raid sono un buon modo per raccogliere caramelle per pokemon che non sono comuni nella tua zona"
+            "intro": "I raid di Livello 1 sono abbastanza semplici da sconfiggere in solitaria. Un allenatore di livello 20 con pokemon imperfetti dovrebbe esserne capace. Questi raid sono un buon modo per raccogliere caramelle per pokemon che non sono comuni nella tua zona."
         },
         "RAID_LEVEL_2": {
             "title": "Livello 2",
@@ -40,32 +40,32 @@
         "RAID_LEVEL_4_EVENTS": {
             "title": "Livello 4 Speciale",
             "subtitle": "Raid Eventi Speciali",
-            "intro": "Questi Pokemon hanno fatto parte dei raid in eventi passati come quello di Yokohama. Potrebbero tornare di nuovo senza preavviso"
+            "intro": "Questi Pokemon hanno fatto parte dei raid in eventi passati come quello di Yokohama. Potrebbero tornare di nuovo senza preavviso."
         },
         "RAID_LEVEL_1_LEGACY": {
             "title": "Livello 1 Legacy",
             "subtitle": "Raid in solitaria Facili",
-            "intro": "Questi raid non sono presenti nell'attuale rotazione raid. "
+            "intro": "Questi raid non sono presenti nell'attuale rotazione raid."
         },
         "RAID_LEVEL_2_LEGACY": {
             "title": "Livello 2 Legacy",
             "subtitle": "Raid in solitaria Difficili",
-            "intro": "Questi raid non sono presenti nell'attuale rotazione raid. "
+            "intro": "Questi raid non sono presenti nell'attuale rotazione raid."
         },
         "RAID_LEVEL_3_LEGACY": {
             "title": "Livello 3 Legacy",
             "subtitle": "Raid di gruppo Facili",
-            "intro": "Questi raid non sono presenti nell'attuale rotazione raid. "
+            "intro": "Questi raid non sono presenti nell'attuale rotazione raid."
         },
         "RAID_LEVEL_4_LEGACY": {
             "title": "Livello 4 Legacy",
             "subtitle": "Raid di gruppo Difficili",
-            "intro": "Questi raid non sono presenti nell'attuale rotazione raid. "
+            "intro": "Questi raid non sono presenti nell'attuale rotazione raid."
         },
         "RAID_LEVEL_5_LEGACY": {
             "title": "Livello 5 Legacy",
             "subtitle": "Raid leggendari",
-            "intro": "Questi raid erano disponibili in passato ma non sono presenti nell'attuale rotazione raid. Potrebbero tornare in futuro per eventi speciali"
+            "intro": "Questi raid erano disponibili in passato ma non sono presenti nell'attuale rotazione raid. Potrebbero tornare in futuro per eventi speciali."
         },
         "RAID_LEVEL_5_FUTURE": {
             "title": "Livelli 5 Futuri",
@@ -85,19 +85,22 @@
         "counters": {
             "title": "counter",
             "subtitle": "Migliori Attaccanti per",
-            "description": "La seguente analisi mostra il più forte Pokemon in termini di {{sort}} contro {{pokemon}}",
+            "description": "La seguente analisi mostra il più forte Pokemon in termini di {{sort}} contro {{pokemon}}.",
             "moveSetOrderingDescription": "I moveset sono ordinati dal più difficile da affrontare al più facile, assicurati di controllare più volte. i risultati possono variare molto!",
-            "difficultyNote": "I Raid boss sono molto più difficili delle lotte normali, dovresti scegliere accuratamente le tue opzioni",
+            "difficultyNote": "I Raid boss sono molto più difficili delle lotte normali, dovresti scegliere accuratamente le tue opzioni.",
             "chooseMovesetLabel": "Scegli Moveset"
         },
         "hardestMovesets": {
             "title": "Raid più Difficili",
             "subtitle": "Per {{pokemon}} in base a {{sort}}",
             "tableTitle": "Moveset più difficili da affrontare",
-            "description": "La difficoltà nei raid possono variare molto in base al moveset del pokemon difensore"
+            "description": "La difficoltà nei raid possono variare molto in base al moveset del pokemon difensore!"
         },
         "analysis": {
             "title": "Riguardo questa Analisi"
+        },
+        "patreon": {
+            "link": "Guarda tutti i benefici che avrai registrandoti"
         }
     }
 }

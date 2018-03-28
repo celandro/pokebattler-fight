@@ -53,6 +53,7 @@
             "toolbarTitle": "Cancella in massa",
             "confirmation": "Questo cancellerà {{num}} Pokemon dal tuo Pokebox, ne sei sicuro?"
         },
-        "irreversible": "Questa azione non è reversibile!"
+        "irreversible": "Questa azione non è reversibile!",
+        "confirmation": "Sei sicuro di voler cancellare?"
     }
 }
