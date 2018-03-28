@@ -118,5 +118,10 @@
     },
     "xAxis": "X-Achse",
     "yAxis": "Y-Achse",
-    "aggregation": "Wie erfolgreich?"
+    "aggregation": "Wie erfolgreich?",
+    "battleParty": "Kampfgruppe",
+    "battleParties": "Kampfgruppen",
+    "raids": "Raids",
+    "gym": "Arena",
+    "pvp": "PvP"
 }
