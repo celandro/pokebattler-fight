@@ -601,7 +601,8 @@
         "HIDDEN_POWER_FLYING_FAST": "Hidden Power",
         "HIDDEN_POWER_FIGHTING_FAST": "Hidden Power",
         "HIDDEN_POWER_NORMAL_FAST": "Hidden Power",
-        "RANDOM": "Unknown"
+        "RANDOM": "Unknown",
+        "FRENZY_PLANT": "Frenzy Plant"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
@@ -708,7 +709,7 @@
             },
             "DEFENSE_RANDOM_MC_MID": {
                 "label": "Monte Carlo - Silver",
-                "description": "A highly accurate result. 25 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
+                "description": "A highly accurate result. 50 random simulations are run and averaged together to make one overall result. The median result based on overall rating is used for combat logs as an example. Most useful in combination with non-perfect dodge strategies."
             },
             "DEFENSE_RANDOM_MC": {
                 "label": "Monte Carlo - Gold",
