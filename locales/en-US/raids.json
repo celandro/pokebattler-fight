@@ -125,7 +125,7 @@
         "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any Pokemon in their pokebox yet? Try a different trainer."
     },
     "people": {
-        "title": "Pokebattler Estimater",
+        "title": "Pokebattler Estimator",
         "difficultyRating": "Difficulty rating: {{rating}}",
         "adviceLink": "See what happens if you power up",
         "estimate": {
