@@ -703,7 +703,7 @@
             },
             "DEFENSE_RANDOM_MC_FAST": {
                 "label": "Monte Carlo - Bronzo",
-                "description": "Un risultato più accurato. Vengono lanciate 10 simulazioni casuali e calcolate insieme per avere un unico risultato complessivo. La media dei risultati nel complesso è usato per i log combattimenti come esempio. Molto utile in combinazione con una strategia di schivata non perfetta"
+                "description": "Un risultato più accurato. Sono lanciate 10 simulazioni casuali e calcolate insieme per avere un unico risultato complessivo. La media dei risultati nel complesso è usato per i log combattimenti come esempio. Molto utile in combinazione con una strategia di schivata non perfetta"
             },
             "DEFENSE_RANDOM_MC_MID": {
                 "label": "Monte Carlo - Argento",
