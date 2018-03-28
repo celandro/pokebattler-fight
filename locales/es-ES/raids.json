@@ -30,7 +30,7 @@
         "RAID_LEVEL_5": {
             "title": "Nivel 5",
             "subtitle": "Incursión legendaria",
-            "intro": "Algunas de estas incursiones de nivel 5 no están en el juego aún. Estas son normalmente hechas por grupos de 8 a 12 jugadores de niveles 30 a 40. Algunos intrépidos expertos han hecho estas incursiones con tan poco como 2 a 5 jugadores."
+            "intro": "Algunas de estas incursiones de nivel 5 no están en el juego aún. Estas son normalmente hechas por grupos de 6 a 10 jugadores de niveles 30 a 40. Algunos intrépidos expertos han hecho estas incursiones con tan poco como 2 a 5 jugadores."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Nivel ¿?",

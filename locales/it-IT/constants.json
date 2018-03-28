@@ -385,7 +385,15 @@
         "ZANGOOSE": "Zangoose",
         "ZAPDOS": "Zapdos",
         "ZIGZAGOON": "Zigzagoon",
-        "ZUBAT": "Zubat"
+        "ZUBAT": "Zubat",
+        "CASTFORM_NORMAL_FORM": "Castform - Normale",
+        "CASTFORM_RAINY_FORM": "Castform - Pioggia",
+        "CASTFORM_SNOWY_FORM": "Castform - Neve",
+        "CASTFORM_SUNNY_FORM": "Castform - Sole",
+        "DEOXYS_NORMAL_FORM": "Deoxys - Normale",
+        "DEOXYS_ATTACK_FORM": "Deoxys - Attacco",
+        "DEOXYS_DEFENSE_FORM": "Deoxys - Difesa",
+        "DEOXYS_SPEED_FORM": "Deoxys - Velocità"
     },
     "moves": {
         "ACID_FAST": "Acido",
@@ -588,7 +596,11 @@
         "TAKE_DOWN_FAST": "Riduttore",
         "WATERFALL_FAST": "Cascata",
         "YAWN_FAST": "Sbadiglio",
-        "DODGE": "Schivare"
+        "DODGE": "Schivare",
+        "REVIVE": "Esausto",
+        "HEAL": "Curato",
+        "RANDOM": "Sconosciuto",
+        "FRENZY_PLANT": "Radicalbero"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Sconosciuto",
@@ -622,10 +634,12 @@
                 "description": "Usa il tuo attacco veloce il più rapidamente possibile!"
             },
             "DODGE_SPECIALS2": {
-                "description": "Usa i tuoi attacchi veloci finché non riesci a schivare il loro attacco caricato, poi usa il tuo attacco caricato."
+                "description": "Usa i tuoi attacchi veloci finché non riesci a schivare il loro attacco caricato, poi usa il tuo attacco caricato.",
+                "label": "Schiva Mosse Caricate"
             },
             "DODGE_SPECIALS": {
-                "description": "Usa attacchi veloci e caricati il prima possibile, ma schiva i loro attacchi caricati!"
+                "description": "Usa attacchi veloci e caricati il prima possibile, ma schiva i loro attacchi caricati!",
+                "label": "Schiva Mosse Caricate PRO"
             },
             "DODGE_ALL2": {
                 "label": "Schiva Tutto",
@@ -636,7 +650,8 @@
                 "description": "Usa attacchi veloci e caricati mentre schivi tutte le loro mosse!"
             },
             "DODGE_WEAVE_CAUTIOUS": {
-                "description": "Questo usa una strategia di attacco che assume che il peggior caso di 1,5s di ritardo tra attacchi possa succedere ogni volta. Questa strategia dovrebbe essere attuabile da un umano."
+                "description": "Questo usa una strategia di attacco che assume che il peggior caso di 1,5s di ritardo tra attacchi possa succedere ogni volta. Questa strategia dovrebbe essere attuabile da un umano.",
+                "label": "Schiva Tutte le Mosse"
             },
             "undefined": {
                 "label": "Sconosciuto",
@@ -687,13 +702,25 @@
                 "description": "Simulazione completamente casuale! Gli attacchi arrivano tra 1,5 e 2,5s di distanza. Gli attacchi speciali sono usati il 50% delle volte che il difensore ha energia sufficiente"
             },
             "DEFENSE_RANDOM_MC_FAST": {
-                "label": "Monte Carlo - Bronzo"
+                "label": "Monte Carlo - Bronzo",
+                "description": "Un risultato più accurato. Sono lanciate 10 simulazioni casuali e calcolate insieme per avere un unico risultato complessivo. La media dei risultati nel complesso è usato per i log combattimenti come esempio. Molto utile in combinazione con una strategia di schivata non perfetta."
             },
             "DEFENSE_RANDOM_MC_MID": {
-                "label": "Monte Carlo - Argento"
+                "label": "Monte Carlo - Argento",
+                "description": "Un risultato altamente accurato. Vengono lanciate 50 simulazioni casuali e calcolate insieme per avere un unico risultato complessivo. La media dei risultati nel complesso è usato per i log combattimenti come esempio. Molto utile in combinazione con una strategia di schivata non perfetta."
             },
             "DEFENSE_RANDOM_MC": {
-                "label": "Monte Carlo - Oro"
+                "label": "Monte Carlo - Oro",
+                "description": "Il risultato più accurato. Vengono lanciate 200 simulazioni casuali e calcolate insieme per avere un unico risultato complessivo. La media dei risultati nel complesso è usato per i log combattimenti come esempio. Molto utile in combinazione con una strategia di schivata non perfetta."
+            },
+            "DEFENSE_RANDOM_MC_EX": {
+                "label": "Monte Carlo - Platino"
+            },
+            "DEFENSE_PATTERN": {
+                "label": "Schema Difensivo - RNG"
+            },
+            "DEFENSE_PATTERN2": {
+                "label": "Schema Difensivo"
             }
         }
     },
@@ -733,5 +760,31 @@
     },
     "levelVs": "Attaccante di Livello {{attackerLevel}} Vs. Difensore di Livello {{defenderLevel}}",
     "levelVsPokebox": "Attaccante di livello {{attackerLevel}} Vs. Difensori del Pokebox {{userId}}",
-    "pokeboxVsLevel": "Attaccanti del Pokebox {{userId}} Vs. Difensore di livello {{attackerLevel}}"
+    "pokeboxVsLevel": "Attaccanti del Pokebox {{userId}} Vs. Difensore di livello {{attackerLevel}}",
+    "aggregations": {
+        "AVERAGE": {
+            "label": "Nella media"
+        },
+        "MEDIAN": {
+            "label": "Previsto - 50%"
+        },
+        "PERCENTILE_99": {
+            "label": "Estremamente fortunato - 99%"
+        },
+        "PERCENTILE_95": {
+            "label": "Veramente fortunato - 95%"
+        },
+        "PERCENTILE_75": {
+            "label": "Fortunato - 75%"
+        },
+        "PERCENTILE_25": {
+            "label": "Sfortunato - 25%"
+        },
+        "PERCENTILE_5": {
+            "label": "Veramente sfortunato - 5%"
+        },
+        "PERCENTILE_1": {
+            "label": "Estremamente sfortunato - 1%"
+        }
+    }
 }

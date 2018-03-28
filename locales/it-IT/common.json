@@ -115,5 +115,10 @@
         "title": "Polvere di stella disponibile"
     },
     "xAxis": "asse x",
-    "yAxis": "asse y"
+    "yAxis": "asse y",
+    "battleParty": "Squadra Lotta",
+    "battleParties": "Squadre Lotta",
+    "raids": "Raid",
+    "gym": "Palestra",
+    "pvp": "PvP"
 }
