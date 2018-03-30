@@ -1044,5 +1044,6 @@
             }
         }
     },
-    "levelVs": "{{attackerLevel}} 等攻擊方 Vs. {{defenderLevel}} 等防禦方"
+    "levelVs": "{{attackerLevel}} 級攻擊方 Vs. {{defenderLevel}} 級防禦方",
+    "pokeboxVsLevel": "寶可夢背包{{userId}} 攻擊方 Vs. {{defenderLevel}}級 防守方"
 }
