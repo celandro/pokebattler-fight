@@ -1,7 +1,7 @@
 {
     "title": "Симулятор битвы",
     "startButton": "Битва",
-    "attacker": "Атакующий ",
+    "attacker": "Атакующий",
     "attackerPlaceHolder": "Выберите  $t(attacker)",
     "defender": "Защитник",
     "defenderPlaceHolder": "Выберите $t(defender)",
@@ -11,24 +11,24 @@
     },
     "relatedBattles": {
         "title": "Похожие битвы",
-        "description": "Выберите параметр, который хотите изменить, и нажмите на кнопку, чтобы обновить данную симуляцию с новыми параметрами. Результаты изменяться мгновенно. ",
+        "description": "Выберите параметр, который хотите изменить, и нажмите на кнопку, чтобы обновить данную симуляцию с новыми параметрами. Результаты изменяться мгновенно.",
         "modify": "Редактирование",
-        "switch": "Переключиться на {{type}} редактирование",
+        "switch": "Переключиться на {{type}}",
         "parameterTitle": "Изменить параметр"
     },
     "results": {
         "title": {
             "base": "Результаты битвы: Вы",
-            "win": "$t(results.title.base) победили! ",
-            "lose": "$t(results.title.base) проиграли! "
+            "win": "$t(results.title.base) победили!",
+            "lose": "$t(results.title.base) проиграли!"
         },
         "about": "О этой битве",
-        "description": "Уровень {{attacker.level}} {{attacker.name}} с {{attacker.cp}} CP {{result}} уровень {{defender.level}} {{defender.name}} с {{defender.cp}} CP в этой боевой симуляции. Атакующий {{attacker.name}} использовал {{attacker.quickMove}} как быструю атаку и {{attacker.specialMove}} как мощную атаку. Защитник {{defender.name}} использовал {{defender.quickMove}} как быструю атаку и {{defender.specialMove}} как мощную атаку. Боевая симуляция была произведена с {{strategies.attack}} стратегией атаки и {{strategies.dodge}} основываясь на  {{strategies.defense}} и типе симуляции при {{weatherCondition}} погоде. $t(common:simulation, {'count': {{numSims}}}) выполнено чтобы сгенерировать результаты этой битвы. ",
+        "description": "Уровень {{attacker.level}} {{attacker.name}} с {{attacker.cp}} CP {{result}} уровень {{defender.level}} {{defender.name}} с {{defender.cp}} CP в этой боевой симуляции. Атакующий {{attacker.name}} использовал {{attacker.quickMove}} как быструю атаку и {{attacker.specialMove}} как мощную атаку. Защитник {{defender.name}} использовал {{defender.quickMove}} как быструю атаку и {{defender.specialMove}} как мощную атаку. Боевая симуляция была произведена с {{strategies.attack}} стратегией атаки и {{strategies.dodge}} основываясь на  {{strategies.defense}} и типе симуляции при {{weatherCondition}} погоде. $t(common:simulation, {'count': {{numSims}}}) выполнено чтобы сгенерировать результаты этой битвы.",
         "battleParty": {
             "description": "Пользователь {{attacker.userId}} с battle party {{attacker.battlePartyId}} {{result}}  {{defender.tier}} {{defender.name}} с {{defender.cp}} CP в этой боевой симуляции. Симуляция битвы была произведена с {{strategies.attack}} стратегией атаки и {{strategies.dodge}} основываясь на {{strategies.defense}} и типом симуляции при {{weatherCondition}} погоде. $t(common:simulation, {'count': {{numSims}}}) было произведено для генерации результатов этой битвы."
         },
         "pvp": {
-            "description": "Пользователь {{attacker.userId}} с battle party {{attacker.battlePartyId}} {{result}} {{defender.userId}} с battle party {{defender.battlePartyId}} в данной боевой симуляции.  Симуляция была произведена с {{strategies.attack}} стратегией атаки и {{strategies.dodge}} против {{strategies.defense}} стратегией атаки и {{strategies.defenseDodge}} при {{weatherCondition}} погоде. $t(common:simulation, {'count': {{numSims}}}) было проведено для генерации результатов этой битвы. "
+            "description": "Пользователь {{attacker.userId}} с battle party {{attacker.battlePartyId}} {{result}} {{defender.userId}} с battle party {{defender.battlePartyId}} в данной боевой симуляции.  Симуляция была произведена с {{strategies.attack}} стратегией атаки и {{strategies.dodge}} против {{strategies.defense}} стратегией атаки и {{strategies.defenseDodge}} при {{weatherCondition}} погоде. $t(common:simulation, {'count': {{numSims}}}) было проведено для генерации результатов этой битвы."
         },
         "help": {
             "text": "Подробнее о том как проводятся эти симуляции битвы Вы можете узнать здесь {{helpLink}}. Ссылки на исследования битв в Pokemon Go могут быть найдены здесь {{aboutLink}}. Pokebattler - открытый источник информации, так что не стесняйтесь указывать нам на баги и ошибки здесь {{repoLink}}.",
