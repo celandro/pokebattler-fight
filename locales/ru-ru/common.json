@@ -1,3 +1,127 @@
 {
-
+    "back": "Назад",
+    "save": "Сохранить",
+    "cancel": "Отменить",
+    "delete": "Удалить",
+    "reset": "Сбросить",
+    "note": "Отметить ",
+    "cp": "CP",
+    "win": "Победа",
+    "loss": "Поражение",
+    "quickMove": "Быстрая атака (Fast Move)",
+    "specialMove": "Мощная атака (Charge Move)",
+    "attackStrategy": "Стратегия атаки",
+    "defenseStrategy": "Тип симуляции",
+    "dodgeStrategy": "Стратегия уклонений ",
+    "weatherCondition": "Погода",
+    "aggregation": "Уровень везения?",
+    "stats": {
+        "attack": "Атака",
+        "defense": "Защита",
+        "stamina": "Выносливость"
+    },
+    "statsAbbr": {
+        "attack": "Att",
+        "defense": "Def",
+        "hp": "HP"
+    },
+    "level": "Уровень",
+    "basic": "Кратко",
+    "advanced": "Подробно",
+    "move": "Атака",
+    "moves": "Атаки",
+    "type": "Тип покемона",
+    "properties": {
+        "overall": "Всего",
+        "power": "Сила",
+        "win": "Процент побед",
+        "deaths": "Смертей",
+        "effectiveDeaths": "Смертей до победы",
+        "time": "Времени на победу",
+        "realTime": "Время",
+        "prestige": "Престиж",
+        "dps": "DPS",
+        "potions": "Зелий",
+        "damage": "Урон",
+        "energy": "Энергия",
+        "grouped": "Группы",
+        "single": "Соло",
+        "id": "Id",
+        "cp": "$t(common:cp)",
+        "pokemon": "$t(common:pokemon)",
+        "name": "$t(common:name)",
+        "type": "$t(common:type)",
+        "powerups": "Усилений (Power Ups)",
+        "stardust": "Stardust",
+        "candy": "Конфет (Candy)"
+    },
+    "sectionLinks": {
+        "help": "Раздел помощи",
+        "about": "О разделе"
+    },
+    "simulation": "симуляция была",
+    "simulation_plural": "{{count}} симуляции были",
+    "chooseMovesetLabel": "Выбрать набор атак",
+    "hd": {
+        "text": "$t(simulation, {'count': {{numSims}} }) выполнено для генерации этой высококвалифицированной симуляции",
+        "attackers": "атакующие",
+        "defenders": "защищающиеся ",
+        "raid": "рейд"
+    },
+    "name": "Имя",
+    "nickname": "Ник",
+    "faction": "Фракция",
+    "mystic": "Mystic",
+    "valor": "Valor",
+    "instinct": "Instinct",
+    "ivs": "IVs",
+    "trainerName": "Имя тренера",
+    "attackerTypes": {
+        "pokebox": "Мой Pokebox",
+        "level": "По уровню",
+        "friend": "Другой Pokebox"
+    },
+    "pokebox": "Pokebox",
+    "advice": "Советчик по рейдам",
+    "login": "Войти",
+    "trainer": "Тренер",
+    "more": "Больше",
+    "pokemon": "Покемон",
+    "battleParty": "Battle Party",
+    "battleParties": "Battle Parties",
+    "raids": "Рейды",
+    "gym": "Стадион (Gym)",
+    "pvp": "PvP",
+    "status": {
+        "add": "Добавление",
+        "edit": "Редактирование",
+        "update": "Обновление",
+        "delete": "Удаление",
+        "loading": "Загрузка",
+        "success": "Успешно",
+        "error": "Ошибка",
+        "bulk": "Импорт",
+        "newVersion": "Новый релиз"
+    },
+    "message": {
+        "bulk": "Импортируем {{num}} покемонов, это займёт какое-то время",
+        "delete": "Удаление {{num}} покемона(ов) из Вашего Pokebox'а",
+        "deleteAll": "Удалить всех покемонов из Вашего Pokebox'а",
+        "update": "Обновляет Ваших покемонов",
+        "success": "Успешно",
+        "error": "Упс, что-то пошло не так. Попробуйте снова через несколько секунд ",
+        "newVersion": "Доступна новая версия, обновите страницу браузера"
+    },
+    "site": {
+        "beta": "Beta Site",
+        "www": "Основной сайт"
+    },
+    "candy": {
+        "title": "Доступно конфет (Candy)"
+    },
+    "stardust": {
+        "title": "Доступно Stardust"
+    },
+    "xAxis": "Ось X",
+    "yAxis": "Ось Y"
 }
