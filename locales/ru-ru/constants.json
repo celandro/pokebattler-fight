@@ -535,6 +535,7 @@
         "SCRATCH_FAST": "Scratch",
         "SEED_BOMB": "Seed Bomb",
         "SHADOW_BALL": "Shadow Ball",
-        "SHADOW_CLAW_FAST": "Shadow Claw"
+        "SHADOW_CLAW_FAST": "Shadow Claw",
+        "SHADOW_PUNCH": "Shadow Punch"
     }
 }
