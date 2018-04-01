@@ -427,6 +427,7 @@
         "CROSS_CHOP": "Cross Chop",
         "CROSS_POISON": "Cross Poison",
         "CRUNCH": "Crunch",
-        "CUT_FAST": "Cut"
+        "CUT_FAST": "Cut",
+        "DARK_PULSE": "Dark Pulse"
     }
 }
