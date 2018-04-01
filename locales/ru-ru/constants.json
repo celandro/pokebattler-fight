@@ -592,6 +592,7 @@
         "HIDDEN_POWER_FIRE_FAST": "Hidden Power",
         "HIDDEN_POWER_STEEL_FAST": "Hidden Power",
         "HIDDEN_POWER_GHOST_FAST": "Hidden Power",
-        "HIDDEN_POWER_BUG_FAST": "Hidden Power"
+        "HIDDEN_POWER_BUG_FAST": "Hidden Power",
+        "HIDDEN_POWER_ROCK_FAST": "Hidden Power"
     }
 }
