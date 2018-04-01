@@ -520,6 +520,7 @@
         "PSYCHIC": "Psychic",
         "PSYCHO_BOOST": "Psycho Boost",
         "PSYCHO_CUT_FAST": "Psycho Cut",
-        "PSYSHOCK": "Psyshock"
+        "PSYSHOCK": "Psyshock",
+        "PSYSTRIKE": "Psystrike"
     }
 }
