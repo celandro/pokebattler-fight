@@ -569,6 +569,7 @@
         "VINE_WHIP_FAST": "Vine Whip",
         "VOLT_SWITCH_FAST": "Volt Switch",
         "WATERFALL_FAST": "Waterfall",
-        "WATER_GUN_FAST": "Water Gun"
+        "WATER_GUN_FAST": "Water Gun",
+        "WATER_PULSE": "Water Pulse"
     }
 }
