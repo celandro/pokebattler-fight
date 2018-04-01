@@ -587,6 +587,7 @@
         "HIDDEN_POWER_ICE_FAST": "Hidden Power",
         "HIDDEN_POWER_PSYCHIC_FAST": "Hidden Power",
         "HIDDEN_POWER_ELECTRIC_FAST": "Hidden Power",
-        "HIDDEN_POWER_GRASS_FAST": "Hidden Power"
+        "HIDDEN_POWER_GRASS_FAST": "Hidden Power",
+        "HIDDEN_POWER_WATER_FAST": "Hidden Power"
     }
 }
