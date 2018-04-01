@@ -601,5 +601,8 @@
         "HIDDEN_POWER_NORMAL_FAST": "Hidden Power",
         "RANDOM": "Неизвестна",
         "FRENZY_PLANT": "Frenzy Plant"
+    },
+    "types": {
+        "POKEMON_TYPE_NONE": "Неизвестен"
     }
 }
