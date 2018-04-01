@@ -422,6 +422,7 @@
         "BULLET_SEED_FAST": "Bullet Seed",
         "CHARGE_BEAM_FAST": "Charge Beam",
         "CLOSE_COMBAT": "Close Combat",
-        "CONFUSION_FAST": "Confusion"
+        "CONFUSION_FAST": "Confusion",
+        "COUNTER_FAST": "Counter"
     }
 }
