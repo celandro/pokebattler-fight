@@ -486,6 +486,7 @@
         "KARATE_CHOP_FAST": "Karate Chop",
         "LEAF_BLADE": "Leaf Blade",
         "LICK_FAST": "Lick",
-        "LOW_KICK_FAST": "Low Kick"
+        "LOW_KICK_FAST": "Low Kick",
+        "LOW_SWEEP": "Low Sweep"
     }
 }
