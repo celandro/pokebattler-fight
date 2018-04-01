@@ -453,6 +453,7 @@
         "FIRE_PUNCH": "Fire Punch",
         "FIRE_SPIN_FAST": "Fire Spin",
         "FLAMETHROWER": "Flamethrower",
-        "FLAME_BURST": "Flame Burst"
+        "FLAME_BURST": "Flame Burst",
+        "FLAME_CHARGE": "Flame Charge"
     }
 }
