@@ -558,6 +558,7 @@
         "SURF": "Surf",
         "SWIFT": "Swift",
         "TACKLE_FAST": "Tackle",
-        "TAKE_DOWN_FAST": "Take Down"
+        "TAKE_DOWN_FAST": "Take Down",
+        "THUNDER": "Thunder"
     }
 }
