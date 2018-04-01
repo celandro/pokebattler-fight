@@ -414,6 +414,7 @@
         "BRICK_BREAK": "Brick Break",
         "BRINE": "Brine",
         "BUBBLE_BEAM": "Bubble Beam",
-        "BUBBLE_FAST": "Bubble"
+        "BUBBLE_FAST": "Bubble",
+        "BUG_BITE_FAST": "Bug Bite"
     }
 }
