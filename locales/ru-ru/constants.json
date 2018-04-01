@@ -424,6 +424,7 @@
         "CLOSE_COMBAT": "Close Combat",
         "CONFUSION_FAST": "Confusion",
         "COUNTER_FAST": "Counter",
-        "CROSS_CHOP": "Cross Chop"
+        "CROSS_CHOP": "Cross Chop",
+        "CROSS_POISON": "Cross Poison"
     }
 }
