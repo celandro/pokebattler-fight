@@ -546,6 +546,7 @@
         "SLUDGE_WAVE": "Sludge Wave",
         "SNARL_FAST": "Snarl",
         "SOLAR_BEAM": "Solar Beam",
-        "SPARK_FAST": "Spark"
+        "SPARK_FAST": "Spark",
+        "SPLASH_FAST": "Splash"
     }
 }
