@@ -617,6 +617,7 @@
         "POKEMON_TYPE_WATER": "Водяной (Water)",
         "POKEMON_TYPE_GRASS": "Травяной (Grass)",
         "POKEMON_TYPE_ELECTRIC": "Электрический (Electric)",
-        "POKEMON_TYPE_PSYCHIC": "Психический (Psychic)"
+        "POKEMON_TYPE_PSYCHIC": "Психический (Psychic)",
+        "POKEMON_TYPE_ICE": "Ледяной (Ice)"
     }
 }
