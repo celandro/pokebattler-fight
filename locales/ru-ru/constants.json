@@ -426,6 +426,7 @@
         "COUNTER_FAST": "Counter",
         "CROSS_CHOP": "Cross Chop",
         "CROSS_POISON": "Cross Poison",
-        "CRUNCH": "Crunch"
+        "CRUNCH": "Crunch",
+        "CUT_FAST": "Cut"
     }
 }
