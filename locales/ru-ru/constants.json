@@ -537,6 +537,7 @@
         "SHADOW_BALL": "Shadow Ball",
         "SHADOW_CLAW_FAST": "Shadow Claw",
         "SHADOW_PUNCH": "Shadow Punch",
-        "SHADOW_SNEAK": "Shadow Sneak"
+        "SHADOW_SNEAK": "Shadow Sneak",
+        "SIGNAL_BEAM": "Signal Beam"
     }
 }
