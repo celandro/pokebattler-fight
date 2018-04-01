@@ -607,6 +607,7 @@
         "POKEMON_TYPE_NORMAL": "Обычный (Normal)",
         "POKEMON_TYPE_FIGHTING": "Боевой (Fighting)",
         "POKEMON_TYPE_FLYING": "Летающий (Flying)",
-        "POKEMON_TYPE_POISON": "Ядовитый (Poison)"
+        "POKEMON_TYPE_POISON": "Ядовитый (Poison)",
+        "POKEMON_TYPE_GROUND": "Земляной (Ground)"
     }
 }
