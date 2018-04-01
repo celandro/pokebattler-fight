@@ -529,6 +529,7 @@
         "ROCK_SLIDE": "Rock Slide",
         "ROCK_SMASH_FAST": "Rock Smash",
         "ROCK_THROW_FAST": "Rock Throw",
-        "ROCK_TOMB": "Rock Tomb"
+        "ROCK_TOMB": "Rock Tomb",
+        "SAND_TOMB": "Sand Tomb"
     }
 }
