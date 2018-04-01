@@ -388,6 +388,7 @@
         "ZUBAT": "Zubat",
         "CASTFORM_NORMAL_FORM": "Castform - Обычный",
         "CASTFORM_RAINY_FORM": "Castform - Дождевой",
-        "CASTFORM_SNOWY_FORM": "Castform - Снежный"
+        "CASTFORM_SNOWY_FORM": "Castform - Снежный",
+        "CASTFORM_SUNNY_FORM": "Castform - Солнечный"
     }
 }
