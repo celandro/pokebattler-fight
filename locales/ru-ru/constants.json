@@ -216,6 +216,7 @@
         "NATU": "Natu",
         "NIDOKING": "Nidoking",
         "NIDOQUEEN": "Nidoqueen",
-        "NIDORAN_FEMALE": "Nidoran♀"
+        "NIDORAN_FEMALE": "Nidoran♀",
+        "NIDORAN_MALE": "Nidoran♂"
     }
 }
