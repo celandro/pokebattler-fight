@@ -527,6 +527,7 @@
         "REST": "Rest",
         "ROCK_BLAST": "Rock Blast",
         "ROCK_SLIDE": "Rock Slide",
-        "ROCK_SMASH_FAST": "Rock Smash"
+        "ROCK_SMASH_FAST": "Rock Smash",
+        "ROCK_THROW_FAST": "Rock Throw"
     }
 }
