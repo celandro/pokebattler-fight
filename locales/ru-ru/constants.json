@@ -523,6 +523,7 @@
         "PSYSHOCK": "Psyshock",
         "PSYSTRIKE": "Psystrike",
         "QUICK_ATTACK_FAST": "Quick Attack",
-        "RAZOR_LEAF_FAST": "Razor Leaf"
+        "RAZOR_LEAF_FAST": "Razor Leaf",
+        "REST": "Rest"
     }
 }
