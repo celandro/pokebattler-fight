@@ -611,6 +611,7 @@
         "POKEMON_TYPE_GROUND": "Земляной (Ground)",
         "POKEMON_TYPE_ROCK": "Каменный (Rock)",
         "POKEMON_TYPE_BUG": "Жук (Bug)",
-        "POKEMON_TYPE_GHOST": "Призрак (Ghost)"
+        "POKEMON_TYPE_GHOST": "Призрак (Ghost)",
+        "POKEMON_TYPE_STEEL": "Стальной (Steel)"
     }
 }
