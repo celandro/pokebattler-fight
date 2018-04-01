@@ -541,6 +541,7 @@
         "SIGNAL_BEAM": "Signal Beam",
         "SILVER_WIND": "Silver Wind",
         "SKY_ATTACK": "Sky Attack",
-        "SLUDGE": "Sludge"
+        "SLUDGE": "Sludge",
+        "SLUDGE_BOMB": "Sludge Bomb"
     }
 }
