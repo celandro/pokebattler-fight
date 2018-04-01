@@ -446,6 +446,7 @@
         "EARTHQUAKE": "Earthquake",
         "EMBER_FAST": "Ember",
         "ENERGY_BALL": "Energy Ball",
-        "EXTRASENSORY_FAST": "Extrasensory"
+        "EXTRASENSORY_FAST": "Extrasensory",
+        "FEINT_ATTACK_FAST": "Feint Attack"
     }
 }
