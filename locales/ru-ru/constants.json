@@ -1,3 +1,21 @@
 {
-
+    "pokemon": {
+        "ABRA": "Abra",
+        "ABSOL": "Absol",
+        "AERODACTYL": "Aerodactyl",
+        "AGGRON": "Aggron",
+        "AIPOM": "Aipom",
+        "ALAKAZAM": "Alakazam",
+        "ALTARIA": "Altaria",
+        "AMPHAROS": "Ampharos",
+        "ANORITH": "Anorith",
+        "ARBOK": "Arbok",
+        "ARCANINE": "Arcanine",
+        "ARIADOS": "Ariados",
+        "ARMALDO": "Armaldo",
+        "ARON": "Aron",
+        "ARTICUNO": "Articuno",
+        "AZUMARILL": "Azumarill",
+        "AZURILL": "Azurill"
+    }
 }
