@@ -581,6 +581,7 @@
         "DODGE": "Dodge",
         "REVIVE": "Fainted",
         "HEAL": "Heal",
-        "HIDDEN_POWER_FAIRY_FAST": "Hidden Power"
+        "HIDDEN_POWER_FAIRY_FAST": "Hidden Power",
+        "HIDDEN_POWER_DARK_FAST": "Hidden Power"
     }
 }
