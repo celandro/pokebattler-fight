@@ -622,5 +622,12 @@
         "POKEMON_TYPE_DRAGON": "Дракон (Dragon)",
         "POKEMON_TYPE_DARK": "Тёмный (Dark)",
         "POKEMON_TYPE_FAIRY": "Волшебный (Fairy)"
+    },
+    "strategies": {
+        "attack": {
+            "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
+                "label": "Без уклонений (No Dodging)"
+            }
+        }
     }
 }
