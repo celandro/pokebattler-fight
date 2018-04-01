@@ -720,7 +720,51 @@
             "DEFENSE_PATTERN": {
                 "label": "Defense Pattern - RNG",
                 "description": "Наиболее предсказуемый генератор случайных чисел, используемый для симуляций. Используется Pokebattler для оптимизации системы Монте Карло со случайными уклонениями"
+            },
+            "DEFENSE_PATTERN2": {
+                "label": "Defense Pattern",
+                "description": "Генератор промежутков и атак, используемый Pokebattler для оптимизации системы Монте Карло для симуляций без уклонений"
             }
+        }
+    },
+    "weatherConditions": {
+        "NO_WEATHER": {
+            "label": "Экстрим",
+            "description": "Никаких бонусов"
+        },
+        "CLEAR": {
+            "label": "Ясная (Clear)",
+            "description": "20% бонус травяным (Grass), земляным (Ground) и огненным (Fire) атакам"
+        },
+        "RAINY": {
+            "label": "Дождливая (Rainy)",
+            "description": "20% бонус водяным (Water), электрическим (Electric) и жучьим (Bug) атакам"
+        },
+        "PARTLY_CLOUDY": {
+            "label": "Облочно с прояснениями (Partly Cloudy)",
+            "description": "20% бонус обычным (Normal) и каменным (Rock) атакам"
+        },
+        "OVERCAST": {
+            "label": "Облачная (Cloudy)",
+            "description": "20% бонус волшебным (Fairy), боевым (Fighting) и ядовитым (Poison) атакам"
+        },
+        "WINDY": {
+            "label": "Ветренная (Windy)",
+            "description": "20% бонус драконьим (Dragon), летающим (Flying) и психическим (Psychic) атакам"
+        },
+        "SNOW": {
+            "label": "Снежная (Snow)",
+            "description": "20% бонус ледяным (Ice) и стальным (Steel) атакам"
+        },
+        "FOG": {
+            "label": "Туманная (Fog)",
+            "description": "20% бонус тёмным (Dark) и призрачным (Ghost) атакам"
+        }
+    },
+    "aggregations": {
+        "AVERAGE": {
+            "label": "Средний",
+            "description": "Средние результаты симуляций Монте Карло. Журнал битвы и детальный учёт урона основаны на средней симуляции. "
         }
     }
 }
