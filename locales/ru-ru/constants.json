@@ -614,6 +614,7 @@
         "POKEMON_TYPE_GHOST": "Призрак (Ghost)",
         "POKEMON_TYPE_STEEL": "Стальной (Steel)",
         "POKEMON_TYPE_FIRE": "Огненный (Fire)",
-        "POKEMON_TYPE_WATER": "Водяной (Water)"
+        "POKEMON_TYPE_WATER": "Водяной (Water)",
+        "POKEMON_TYPE_GRASS": "Травяной (Grass)"
     }
 }
