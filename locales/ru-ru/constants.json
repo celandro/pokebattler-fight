@@ -566,6 +566,7 @@
         "TRANSFORM_FAST": "Transform",
         "TWISTER": "Twister",
         "VICE_GRIP": "Vice Grip",
-        "VINE_WHIP_FAST": "Vine Whip"
+        "VINE_WHIP_FAST": "Vine Whip",
+        "VOLT_SWITCH_FAST": "Volt Switch"
     }
 }
