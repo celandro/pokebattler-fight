@@ -525,6 +525,7 @@
         "QUICK_ATTACK_FAST": "Quick Attack",
         "RAZOR_LEAF_FAST": "Razor Leaf",
         "REST": "Rest",
-        "ROCK_BLAST": "Rock Blast"
+        "ROCK_BLAST": "Rock Blast",
+        "ROCK_SLIDE": "Rock Slide"
     }
 }
