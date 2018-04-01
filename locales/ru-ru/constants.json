@@ -180,7 +180,7 @@
         "MACHOP": "Machop",
         "MAGBY": "Magby",
         "MAGCARGO": "Magcargo",
-        "MAGIKARP": "",
+        "MAGIKARP": "Magikarp",
         "MAGMAR": "Magmar",
         "MAGNEMITE": "Magnemite",
         "MAGNETON": "Magneton",
@@ -222,7 +222,7 @@
         "NIDORINO": "Nidorino",
         "NINCADA": "Nincada",
         "NINETALES": "Ninetales",
-        "NINJASK": "",
+        "NINJASK": "Ninjask",
         "NOCTOWL": "Noctowl",
         "NOSEPASS": "Nosepass",
         "NUMEL": "Numel",
@@ -393,7 +393,8 @@
         "DEOXYS_NORMAL_FORM": "Deoxys - Обычный",
         "DEOXYS_ATTACK_FORM": "Deoxys - Атака",
         "DEOXYS_DEFENSE_FORM": "Deoxys - Защита",
-        "DEOXYS_SPEED_FORM": "Deoxys - Скорость"
+        "DEOXYS_SPEED_FORM": "Deoxys - Скорость",
+        "undefined": " "
     },
     "moves": {
         "ACID_FAST": "Acid",
@@ -600,7 +601,8 @@
         "HIDDEN_POWER_FIGHTING_FAST": "Hidden Power",
         "HIDDEN_POWER_NORMAL_FAST": "Hidden Power",
         "RANDOM": "Неизвестна",
-        "FRENZY_PLANT": "Frenzy Plant"
+        "FRENZY_PLANT": "Frenzy Plant",
+        "undefined": " "
     },
     "types": {
         "POKEMON_TYPE_NONE": "Неизвестен",
