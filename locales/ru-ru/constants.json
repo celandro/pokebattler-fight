@@ -557,6 +557,7 @@
         "SUCKER_PUNCH_FAST": "Sucker Punch",
         "SURF": "Surf",
         "SWIFT": "Swift",
-        "TACKLE_FAST": "Tackle"
+        "TACKLE_FAST": "Tackle",
+        "TAKE_DOWN_FAST": "Take Down"
     }
 }
