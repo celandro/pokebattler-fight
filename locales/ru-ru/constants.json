@@ -396,6 +396,7 @@
         "DEOXYS_SPEED_FORM": "Deoxys - Скорость"
     },
     "moves": {
-        "ACID_FAST": "Acid"
+        "ACID_FAST": "Acid",
+        "AERIAL_ACE": "Aerial Ace"
     }
 }
