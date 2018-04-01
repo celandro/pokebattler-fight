@@ -620,6 +620,7 @@
         "POKEMON_TYPE_PSYCHIC": "Психический (Psychic)",
         "POKEMON_TYPE_ICE": "Ледяной (Ice)",
         "POKEMON_TYPE_DRAGON": "Дракон (Dragon)",
-        "POKEMON_TYPE_DARK": "Тёмный (Dark)"
+        "POKEMON_TYPE_DARK": "Тёмный (Dark)",
+        "POKEMON_TYPE_FAIRY": "Волшебный (Fairy)"
     }
 }
