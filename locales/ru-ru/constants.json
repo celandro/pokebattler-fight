@@ -447,6 +447,7 @@
         "EMBER_FAST": "Ember",
         "ENERGY_BALL": "Energy Ball",
         "EXTRASENSORY_FAST": "Extrasensory",
-        "FEINT_ATTACK_FAST": "Feint Attack"
+        "FEINT_ATTACK_FAST": "Feint Attack",
+        "FIRE_BLAST": "Fire Blast"
     }
 }
