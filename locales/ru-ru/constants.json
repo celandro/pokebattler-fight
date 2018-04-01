@@ -477,6 +477,7 @@
         "HYPER_BEAM": "Hyper Beam",
         "HYPER_FANG": "Hyper Fang",
         "ICE_BEAM": "Ice Beam",
-        "ICE_PUNCH": "Ice Punch"
+        "ICE_PUNCH": "Ice Punch",
+        "ICE_SHARD_FAST": "Ice Shard"
     }
 }
