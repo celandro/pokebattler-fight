@@ -11,6 +11,8 @@
     "loss": "Loss",
     "quickMove": "Fast Move",
     "specialMove": "Charge Move",
+    "quickMoves": "Fast Moves",
+    "specialMoves": "Charge Moves",
     "attackStrategy": "Attack Strategy",
     "defenseStrategy": "Simulation Type",
     "dodgeStrategy": "Dodge Strategy",
@@ -54,7 +56,8 @@
         "type": "$t(common:type)",
         "powerups": "Power Ups",
         "stardust": "Stardust",
-        "candy": "Candy"
+        "candy": "Candy",
+        "tdo": "Damage (TDO)"
     },
     "sectionLinks": {
         "help": "Help section",
