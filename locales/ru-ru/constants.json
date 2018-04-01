@@ -552,6 +552,7 @@
         "STOMP": "Stomp",
         "STONE_EDGE": "Stone Edge",
         "STRUGGLE": "Struggle",
-        "STRUGGLE_BUG_FAST": "Struggle Bug"
+        "STRUGGLE_BUG_FAST": "Struggle Bug",
+        "SUBMISSION": "Submission"
     }
 }
