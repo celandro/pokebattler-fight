@@ -425,6 +425,7 @@
         "CONFUSION_FAST": "Confusion",
         "COUNTER_FAST": "Counter",
         "CROSS_CHOP": "Cross Chop",
-        "CROSS_POISON": "Cross Poison"
+        "CROSS_POISON": "Cross Poison",
+        "CRUNCH": "Crunch"
     }
 }
