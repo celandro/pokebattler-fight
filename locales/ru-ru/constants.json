@@ -421,6 +421,7 @@
         "BULLET_PUNCH_FAST": "Bullet Punch",
         "BULLET_SEED_FAST": "Bullet Seed",
         "CHARGE_BEAM_FAST": "Charge Beam",
-        "CLOSE_COMBAT": "Close Combat"
+        "CLOSE_COMBAT": "Close Combat",
+        "CONFUSION_FAST": "Confusion"
     }
 }
