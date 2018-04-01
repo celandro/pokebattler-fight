@@ -543,6 +543,7 @@
         "SKY_ATTACK": "Sky Attack",
         "SLUDGE": "Sludge",
         "SLUDGE_BOMB": "Sludge Bomb",
-        "SLUDGE_WAVE": "Sludge Wave"
+        "SLUDGE_WAVE": "Sludge Wave",
+        "SNARL_FAST": "Snarl"
     }
 }
