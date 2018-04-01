@@ -590,6 +590,7 @@
         "HIDDEN_POWER_GRASS_FAST": "Hidden Power",
         "HIDDEN_POWER_WATER_FAST": "Hidden Power",
         "HIDDEN_POWER_FIRE_FAST": "Hidden Power",
-        "HIDDEN_POWER_STEEL_FAST": "Hidden Power"
+        "HIDDEN_POWER_STEEL_FAST": "Hidden Power",
+        "HIDDEN_POWER_GHOST_FAST": "Hidden Power"
     }
 }
