@@ -578,6 +578,7 @@
         "YAWN_FAST": "Yawn",
         "ZAP_CANNON": "Zap Cannon",
         "ZEN_HEADBUTT_FAST": "Zen Headbutt",
-        "DODGE": "Dodge"
+        "DODGE": "Dodge",
+        "REVIVE": "Fainted"
     }
 }
