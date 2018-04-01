@@ -391,6 +391,7 @@
         "CASTFORM_SNOWY_FORM": "Castform - Снежный",
         "CASTFORM_SUNNY_FORM": "Castform - Солнечный",
         "DEOXYS_NORMAL_FORM": "Deoxys - Обычный",
-        "DEOXYS_ATTACK_FORM": "Deoxys - Атака"
+        "DEOXYS_ATTACK_FORM": "Deoxys - Атака",
+        "DEOXYS_DEFENSE_FORM": "Deoxys - Защита"
     }
 }
