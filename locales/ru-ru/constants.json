@@ -562,6 +562,7 @@
         "THUNDER": "Thunder",
         "THUNDERBOLT": "Thunderbolt",
         "THUNDER_PUNCH": "Thunder Punch",
-        "THUNDER_SHOCK_FAST": "Thunder Shock"
+        "THUNDER_SHOCK_FAST": "Thunder Shock",
+        "TRANSFORM_FAST": "Transform"
     }
 }
