@@ -30,7 +30,7 @@
         "logTitle": "對戰日誌",
         "description": "戰鬥模擬的結果為{{attacker.level}}級CP{{attacker.cp}}的{{attacker.name}}{{result}} {{defender.level}}級CP{{defender.cp}}的{{defender.name}}.挑戰者 {{attacker.name}}使用的小招{{attacker.quickMove}}及大招{{attacker.specialMove}}.道館防守方{{defender.name}}的小招是{{defender.quickMove}}及大招{{defender.specialMove}}.這場模擬採用的攻擊策略為{{strategies.attack}}，閃躲策略為 {{strategies.dodge}}，防守方防守策略為{{strategies.defense}}，天氣為{{weatherCondition}}. 戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。",
         "battleParty": {
-            "description": "模擬結果為玩家{{attacker.userId}}使用戰鬥小組「{{attacker.battlePartyId}}」 {{result}} CP {{defender.cp}}的 {{defender.tier}}星{{defender.name}}。本次模擬採用攻擊策略 {{strategies.attack}} 閃躲策略{{strategies.dodge}} 以及防守策略{{strategies.defense}}，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。\n\n"
+            "description": "模擬結果為玩家{{attacker.userId}}使用戰鬥小組「{{attacker.battlePartyId}}」 {{result}} CP {{defender.cp}}的 {{defender.tier}}星{{defender.name}}。本次模擬採用攻擊策略 {{strategies.attack}} 閃躲策略{{strategies.dodge}} 以及防守策略{{strategies.defense}}，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。"
         },
         "help": {
             "links": {
