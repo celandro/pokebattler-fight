@@ -530,6 +530,7 @@
         "ROCK_SMASH_FAST": "Rock Smash",
         "ROCK_THROW_FAST": "Rock Throw",
         "ROCK_TOMB": "Rock Tomb",
-        "SAND_TOMB": "Sand Tomb"
+        "SAND_TOMB": "Sand Tomb",
+        "SCALD": "Scald"
     }
 }
