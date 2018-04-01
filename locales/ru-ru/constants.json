@@ -398,6 +398,7 @@
     "moves": {
         "ACID_FAST": "Acid",
         "AERIAL_ACE": "Aerial Ace",
-        "AIR_CUTTER": "Air Cutter"
+        "AIR_CUTTER": "Air Cutter",
+        "AIR_SLASH_FAST": "Air Slash"
     }
 }
