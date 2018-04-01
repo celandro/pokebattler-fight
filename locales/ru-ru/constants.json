@@ -603,6 +603,7 @@
         "FRENZY_PLANT": "Frenzy Plant"
     },
     "types": {
-        "POKEMON_TYPE_NONE": "Неизвестен"
+        "POKEMON_TYPE_NONE": "Неизвестен",
+        "POKEMON_TYPE_NORMAL": "Обычный (Normal)"
     }
 }
