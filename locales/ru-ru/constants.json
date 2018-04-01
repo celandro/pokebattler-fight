@@ -524,6 +524,7 @@
         "PSYSTRIKE": "Psystrike",
         "QUICK_ATTACK_FAST": "Quick Attack",
         "RAZOR_LEAF_FAST": "Razor Leaf",
-        "REST": "Rest"
+        "REST": "Rest",
+        "ROCK_BLAST": "Rock Blast"
     }
 }
