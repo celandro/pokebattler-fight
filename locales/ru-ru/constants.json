@@ -386,6 +386,7 @@
         "ZAPDOS": "Zapdos",
         "ZIGZAGOON": "Zigzagoon",
         "ZUBAT": "Zubat",
-        "CASTFORM_NORMAL_FORM": "Castform - Обычный"
+        "CASTFORM_NORMAL_FORM": "Castform - Обычный",
+        "CASTFORM_RAINY_FORM": "Castform - Дождевой"
     }
 }
