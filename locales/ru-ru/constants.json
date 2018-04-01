@@ -580,6 +580,7 @@
         "ZEN_HEADBUTT_FAST": "Zen Headbutt",
         "DODGE": "Dodge",
         "REVIVE": "Fainted",
-        "HEAL": "Heal"
+        "HEAL": "Heal",
+        "HIDDEN_POWER_FAIRY_FAST": "Hidden Power"
     }
 }
