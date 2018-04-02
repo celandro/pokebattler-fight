@@ -127,5 +127,11 @@
         "title": "Stardust Available"
     },
     "xAxis": "X-Axis",
-    "yAxis": "Y-Axis"
+    "yAxis": "Y-Axis",
+    "spinner": {
+        "battle": "Simulating combat results. This shouldn't take long",
+        "raid": "Searching through all possible attackers to find the best counters. This shouldn't take long.",
+        "pokedex": "Finding best attack matchups and counters. This might take a second.",
+        "rankings": "Finding the best Pokemon by simulating combat between every single Pokemon matchup available. This will take a bit."
+    }
 }
