@@ -1,0 +1,10 @@
+{
+    "results": {
+        "analysis": {
+            "attackers": {
+                "byLevel": "уровень {{attackerLevel}} атакующих",
+                "pokebox": "настроенный покемон из pokebox пользователя #{{userId}}'s"
+            }
+        }
+    }
+}
