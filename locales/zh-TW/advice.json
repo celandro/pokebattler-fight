@@ -10,7 +10,7 @@
         "calculating": "團體戰建議計算中",
         "counters": {
             "title": "剋星",
-            "moveSetOrderingDescription": "招式組由最難排到最簡單，請確認每一個，以防結果差異過大。",
+            "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
             "chooseMovesetLabel": "選擇招式組"
         },
         "hardestMovesets": {
