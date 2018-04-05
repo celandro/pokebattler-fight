@@ -4,13 +4,16 @@
         "counters": {
             "title": "剋星",
             "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
-            "chooseMovesetLabel": "選擇招式組",
-            "subtitle": "排名順序依照"
+            "chooseMovesetLabel": "頭目的配招",
+            "subtitle": "排名順序依照",
+            "description": "下列是對上{{pokemon}}頭目的最佳打手(依照{{sort}} 排序)",
+            "difficultyNote": "團戰比起一般打塔難度高上許多，選擇上場陣容及與寶友組隊時建議要保守一點，多留一點傷害餘裕量。"
         },
         "hardestMovesets": {
-            "title": "最難的團體戰",
-            "tableTitle": "最難撃敗的招式組",
-            "description": "防守寶可夢的招式組可決定團體戰難易度！"
+            "title": "頭目各種配招的挑戰難度",
+            "tableTitle": "頭目配招的挑戰難度(排名越上面越困難)",
+            "description": "防守寶可夢的招式組可決定團體戰難易度！",
+            "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
         },
         "analysis": {
             "title": "關於此分析"
@@ -57,7 +60,7 @@
         "RAID_LEVEL_4_EVENTS": {
             "title": "4星級頭目(活動限定)",
             "subtitle": "活動限定團戰",
-            "intro": "這些是官方舉辦的活動期間才有的活動限定頭目，例如日本橫濱舉辦的「皮卡丘大量發生中2017」活動。未來或許又會再度上陣喔!"
+            "intro": "這些是官方舉辦的活動期間才有的活動限定頭目，例如日本橫濱舉辦的「皮卡丘大量發生中2017」活動。未來或許又會再度上陣喔。"
         },
         "RAID_LEVEL_1_LEGACY": {
             "title": "一星級頭目(已下架)",
@@ -82,7 +85,7 @@
         "RAID_LEVEL_5_LEGACY": {
             "title": "五星級頭目(已下架)",
             "subtitle": "傳說級寶可夢團戰",
-            "intro": "這些是之前上場過的五星級團戰頭目，目前都已經下架。未來還是有可能會再度上陣喔!"
+            "intro": "這些是之前上場過的五星級團戰頭目，目前都已經下架。未來還是有可能會再度上陣喔。"
         },
         "RAID_LEVEL_5_FUTURE": {
             "title": "未來的五星級頭目",
