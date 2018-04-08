@@ -735,7 +735,7 @@
             "description": "Никаких бонусов"
         },
         "CLEAR": {
-            "label": "Ясная (Clear)",
+            "label": "Солнечная/Ясная (Clear)",
             "description": "20% бонус травяным (Grass), земляным (Ground) и огненным (Fire) атакам"
         },
         "RAINY": {
