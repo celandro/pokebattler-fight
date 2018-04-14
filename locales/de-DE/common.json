@@ -51,7 +51,8 @@
         "type": "$t(common:type)",
         "powerups": "Power-Ups",
         "stardust": "Sternenstaub",
-        "candy": "Bonbons"
+        "candy": "Bonbons",
+        "tdo": "Schaden (TDO)"
     },
     "sectionLinks": {
         "help": "Hilfebereich",
@@ -123,5 +124,13 @@
     "battleParties": "Kampfgruppen",
     "raids": "Raids",
     "gym": "Arena",
-    "pvp": "PvP"
+    "pvp": "PvP",
+    "quickMoves": "Schnellangriffe",
+    "specialMoves": "Spezialangriffe",
+    "spinner": {
+        "battle": "Simuliere Kampfergebnisse. Das sollte nicht lang dauern",
+        "raid": "Durchsuche alle möglichen Angreifer um den besten Konter zu finden. Das sollte nicht lang dauern.",
+        "pokedex": "Finde die besten Angriffsbegegnungen und Konter. Das könnte ein bisschen dauern.",
+        "rankings": "Finde das beste Pokemon durch Simulation jeder einzelnen möglichen Begegnung. Das wird eine Weile dauern."
+    }
 }

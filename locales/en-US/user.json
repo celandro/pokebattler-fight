@@ -39,11 +39,13 @@
         "role": {
             "ROLE_USER": "Pokebattler User",
             "ROLE_ADMIN": "Pokebattler Admin",
-            "ROLE_FAN": "Pokebattler Fan",
-            "ROLE_SUPPORTER": "Pokebattler Supporter",
+            "ROLE_FAN": "Pokebattler Fan (Legacy)",
+            "ROLE_SUPPORTER": "Pokebattler Supporter (Legacy)",
             "ROLE_PATREON": "Pokebattler Patreon",
             "ROLE_FANATIC": "Pokebattler Fanatic",
-            "ROLE_CONTEST": "Pokebattler Contest Winner"
+            "ROLE_CONTEST": "Pokebattler Contest Winner",
+            "ROLE_PATREON_USER": "Pokebattler Patreon User",
+            "ROLE_SUPPORTER2": "Pokebattler Supporter"
         }
     }
 }
