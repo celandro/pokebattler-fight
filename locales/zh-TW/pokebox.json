@@ -1,9 +1,39 @@
 {
-    "title": "寶可夢盒子",
-    "blurb": "添加寶可夢來客製化計算數據結果！",
+    "title": "寶可夢背包",
+    "blurb": "把你想模擬的寶可夢加入背包吧!",
     "pokemonList": {
-        "title": "您的客製化寶可夢盒子",
-        "zero": "點擊左方盒子以增添您的寶可夢。",
-        "zeroDescription": "如果您過去已經增添了寶可夢，您可能是使用了不同的帳號來登入。\n如果您使用相同的電子郵件地址，您的帳號會自動連結。"
+        "title": "你的寶可夢背包",
+        "zero": "按下左側方格選擇你要加入背包的寶可夢",
+        "zeroDescription": "如果您過去已經增添了寶可夢，您可能是使用了不同的帳號來登入。\n如果您使用相同的電子郵件地址，您的帳號會自動連結。",
+        "email": "寫email給Pokebattler網站"
+    },
+    "add": {
+        "title": "寶可夢背包",
+        "description": "新增寶可夢",
+        "pokemon": "選擇寶可夢種類",
+        "pokemonSelect": "選擇寶可夢種類"
+    },
+    "deleteAll": {
+        "button": "全部刪掉",
+        "title": "全部刪掉",
+        "confirmation": "你卻定要刪掉背包內的全部寶可夢，一隻不留?",
+        "irreversible": "注意!刪掉之後無法復原喔!"
+    },
+    "import": {
+        "hintText": "我們有支援許多種的檔案格式，請確認你的檔案有包含正確的欄位名稱列",
+        "floatingLabel": "將你的寶可夢複製到此處",
+        "table": {
+            "header": "選擇你要增加到背包裡的寶可夢",
+            "selectAll": "全選"
+        }
+    },
+    "update": {
+        "title": "寶可夢背包",
+        "description": "{{name}}"
+    },
+    "backPokebox": "回到寶可夢背包",
+    "powerUp": "強化",
+    "full": {
+        "title": "背包滿了"
     }
 }
