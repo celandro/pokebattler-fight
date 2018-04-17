@@ -43,6 +43,7 @@
                 "defenders": "each possible moveset simulated against the best 30 CP, best 30 power, best 30 overall and best 30 time to win attackers with every possible moveset with the expected strategy. The top 32 defenders were kept and simulated against their best 15 counters with their best 5 movesets 300 times each. Finally the worst 5 counters for each pokemon were considered and used to find the best 24 defenders with their best moveset based on {{sort}} were kept and are displayed here."
             }
         },
+        "loading": "Generating {{type}} ranking results. Many millions of simulations were required to perform this analysis but the results will be soon",
         "typeSelection": {
             "attacker": "Attacker Rankings",
             "defender": "Defender Rankings"
