@@ -1,15 +1,15 @@
 {
     "back": "返回",
     "cancel": "取消",
-    "quickMove": "快速招式",
-    "specialMove": "能量招式",
+    "quickMove": "小招",
+    "specialMove": "大招",
     "attackStrategy": "攻擊策略",
     "defenseStrategy": "防禦策略",
     "dodgeStrategy": "閃躲策略",
     "stats": {
         "attack": "攻擊",
         "defense": "防禦",
-        "stamina": "耐力"
+        "stamina": "體力"
     },
     "level": "等級",
     "basic": "基本",
@@ -18,14 +18,14 @@
     "delete": "刪除",
     "reset": "重置",
     "note": "注意",
-    "cp": "攻擊力",
+    "cp": "CP",
     "win": "贏",
     "loss": "輸",
     "weatherCondition": "天氣",
     "statsAbbr": {
         "attack": "攻擊",
         "defense": "防禦",
-        "hp": "耐力"
+        "hp": "血量"
     },
     "move": "招式",
     "moves": "招式",
@@ -76,7 +76,7 @@
         "level": "根據等級",
         "friend": "他們的寶可夢盒子"
     },
-    "aggregation": "多麼幸運？",
+    "aggregation": "運氣",
     "faction": "部分",
     "pokebox": "寶可夢盒子",
     "advice": "團體戰建議",
@@ -113,5 +113,13 @@
         "title": "可用星塵"
     },
     "xAxis": "X軸",
-    "yAxis": "Y軸"
+    "yAxis": "Y軸",
+    "quickMoves": "小招",
+    "specialMoves": "大招",
+    "spinner": {
+        "battle": "戰鬥模擬中，請稍候",
+        "raid": "最強打手計算中，請稍候...",
+        "pokedex": "最佳打手及攻擊組合計算中，請稍候...",
+        "rankings": "正在計算每一隻寶可夢的對戰組合，要花一點時間，請耐心等待..."
+    }
 }
