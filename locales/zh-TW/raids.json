@@ -3,17 +3,23 @@
     "results": {
         "counters": {
             "title": "剋星",
-            "moveSetOrderingDescription": "招式組由最難排到最簡單，請確認每一個，以防結果差異過大。",
-            "chooseMovesetLabel": "選擇招式組"
+            "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
+            "chooseMovesetLabel": "頭目的配招",
+            "subtitle": "排名順序依照",
+            "description": "下列是對上{{pokemon}}頭目的最佳打手(依照{{sort}} 排序)",
+            "difficultyNote": "團戰比起一般打塔難度高上許多，選擇上場陣容及與寶友組隊時建議要保守一點，多留一點傷害餘裕量。"
         },
         "hardestMovesets": {
-            "title": "最難的團體戰",
-            "tableTitle": "最難撃敗的招式組",
-            "description": "防守寶可夢的招式組可決定團體戰難易度！"
+            "title": "頭目各種配招的挑戰難度",
+            "tableTitle": "頭目配招的挑戰難度(排名越上面越困難)",
+            "description": "防守寶可夢的招式組可決定團體戰難易度！",
+            "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
         },
         "analysis": {
             "title": "關於此分析"
-        }
+        },
+        "title": "團戰建議",
+        "calculating": "團戰模擬中"
     },
     "title": "團體戰指南",
     "tierList": {
@@ -48,12 +54,54 @@
         },
         "RAID_LEVEL_UNSET": {
             "title": "? 星級頭目",
-            "subtitle": "團戰難度: 未知"
+            "subtitle": "團戰難度: 未知",
+            "intro": "這些團戰頭目會陸續開放，你可以先模擬看看。如果有天鯉魚王成為5星頭目，你也可以在這裡先模擬看看你打不打得過!"
+        },
+        "RAID_LEVEL_4_EVENTS": {
+            "title": "4星級頭目(活動限定)",
+            "subtitle": "活動限定團戰",
+            "intro": "這些是官方舉辦的活動期間才有的活動限定頭目，例如日本橫濱舉辦的「皮卡丘大量發生中2017」活動。未來或許又會再度上陣喔。"
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "一星級頭目(已下架)",
+            "subtitle": "單人挑戰難度: 容易",
+            "intro": "這些是目前已下架的團戰頭目。"
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "二星級頭目(已下架)",
+            "subtitle": "單人挑戰難度: 困難",
+            "intro": "這些是目前已下架的團戰頭目。"
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "三星級頭目(已下架)",
+            "subtitle": "團體挑戰難度: 容易",
+            "intro": "這些是目前已下架的團戰頭目。"
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "四星級頭目(已下架)",
+            "subtitle": "團體挑戰難度: 困難",
+            "intro": "這些是目前已下架的團戰頭目。"
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "五星級頭目(已下架)",
+            "subtitle": "傳說級寶可夢團戰",
+            "intro": "這些是之前上場過的五星級團戰頭目，目前都已經下架。未來還是有可能會再度上陣喔。"
+        },
+        "RAID_LEVEL_5_FUTURE": {
+            "title": "未來的五星級頭目",
+            "subtitle": "傳說級寶可夢團戰",
+            "intro": "這些是未來可能會陸續上場的五星級頭目，攻防體三圍及配招還沒定案，屆時會依正式釋出時的資料修改。"
         }
     },
     "intro": "寶可夢頭目團戰模擬功能上線了!使用最準確的頭目團戰計算模擬找出你手上最佳的戰鬥陣容。選擇想挑戰的寶可夢頭目看看各種頭目招式組合的最佳攻擊手。",
     "battle": {
         "resultLink": "模擬這個戰鬥小隊的對戰結果"
     },
-    "helpLink": "觀看團戰模擬功能影片介紹"
+    "helpLink": "觀看團戰模擬功能影片介紹",
+    "custom": {
+        "title": "自訂團戰",
+        "levelsLabel": "攻擊方等級",
+        "buttonLabel": "計算最佳打手",
+        "attackersLabel": "攻擊方"
+    }
 }

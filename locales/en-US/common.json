@@ -89,6 +89,7 @@
     "advice": "Raid Advice",
     "login": "Login",
     "trainer": "Trainer",
+    "trainers": "Trainers",
     "more": "More",
     "pokemon": "Pokemon",
     "battleParty": "Battle Party",
@@ -133,5 +134,23 @@
         "raid": "Searching through all possible attackers to find the best counters. This shouldn't take long.",
         "pokedex": "Finding best attack matchups and counters. This might take a second.",
         "rankings": "Finding the best Pokemon by simulating combat between every single Pokemon matchup available. This will take a bit."
+    },
+    "patreon": {
+        "ad1": "Pokebattler is doing an ad free trial. Please support us on Patreon to keep us ad free, get more Pokebox space, run more accurate sims, get more features and more!",
+        "ad2": "Sign up for a free Patreon account and get 25 Pokebox spaces free. Simply log in using Patreon, no donation required.",
+        "ad3": "Optimize your Raids. Sign up for Patreon for more accurate results and special features.",
+        "ad4": "Love Pokebattler? Keep us going and ad free. Sign up for Patreon today and get more space, better results, exclusive tools and more.",
+        "ad5": "Pokebattler is made possible by our Patreon supporters. Sign up for your free account today for 25 extra Pokebox slots.",
+        "ad6": "Take your gaming to the next level with a Pokebattler Patreon account. Sign up now."
+    },
+    "randomAssistants": {
+        "title": "Extra Random Trainers",
+        "default": "Auto",
+        "description": "The number of additional random trainers to help you beat the boss. For tier 4 and 5 raid bosses, 5 random battle parties assist you with the fight by default."
+    },
+    "explicitAssistants": {
+        "title": "Extra Trainers",
+        "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers"
     }
+
 }
