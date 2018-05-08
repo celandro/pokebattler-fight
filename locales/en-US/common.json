@@ -91,6 +91,7 @@
     "advice": "Raid Advice",
     "login": "Login",
     "trainer": "Trainer",
+    "trainers": "Trainers",
     "more": "More",
     "pokemon": "Pokemon",
     "battleParty": "Battle Party",
@@ -163,5 +164,14 @@
             "contact": "Contact Us",
             "translate": "Help Translate"
         }
+    },
+    "randomAssistants": {
+        "title": "Extra Random Trainers",
+        "default": "Auto",
+        "description": "The number of additional random trainers to help you beat the boss. For tier 4 and 5 raid bosses, 5 random battle parties assist you with the fight by default."
+    },
+    "explicitAssistants": {
+        "title": "Extra Trainers",
+        "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers"
     }
 }
