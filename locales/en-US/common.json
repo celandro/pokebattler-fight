@@ -18,6 +18,7 @@
     "dodgeStrategy": "Dodge Strategy",
     "weatherCondition": "Weather",
     "aggregation": "How Lucky?",
+    "choosePokemon": "Choose Pokemon",
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
@@ -57,7 +58,8 @@
         "powerups": "Power Ups",
         "stardust": "Stardust",
         "candy": "Candy",
-        "tdo": "Damage (TDO)"
+        "tdo": "Damage (TDO)",
+        "maxCP": "Max $t(common:cp)"
     },
     "sectionLinks": {
         "help": "Help section",
@@ -141,6 +143,25 @@
         "ad4": "Love Pokebattler? Keep us going and ad free. Sign up for Patreon today and get more space, better results, exclusive tools and more.",
         "ad5": "Pokebattler is made possible by our Patreon supporters. Sign up for your free account today for 25 extra Pokebox slots.",
         "ad6": "Take your gaming to the next level with a Pokebattler Patreon account. Sign up now."
+    },
+    "menu": {
+        "follow": "Follow us!",
+        "mainMenu": {
+            "articles": "Articles",
+            "tools": "Tools",
+            "battle": "Battle",
+            "rankings": "Rankings",
+            "pokedex": "Pokedex",
+            "raids": "Raids",
+            "personal": "Personal",
+            "trainer": "Trainer",
+            "pokebox": "Pokebox",
+            "raidAdvice": "Raid Advice",
+            "misc": "Misc.",
+            "help": "Help",
+            "about": "About",
+            "contact": "Contact Us",
+            "translate": "Help Translate"
+        }
     }
-
 }
