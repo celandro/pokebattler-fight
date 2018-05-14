@@ -602,7 +602,8 @@
         "HIDDEN_POWER_FIGHTING_FAST": "Hidden Power",
         "HIDDEN_POWER_NORMAL_FAST": "Hidden Power",
         "RANDOM": "Unknown",
-        "FRENZY_PLANT": "Frenzy Plant"
+        "FRENZY_PLANT": "Frenzy Plant",
+        "BLAST_BURN": "Blast Burn"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
