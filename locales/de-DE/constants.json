@@ -601,7 +601,8 @@
         "HIDDEN_POWER_FLYING_FAST": "Kraftreserve",
         "HIDDEN_POWER_FIGHTING_FAST": "Kraftreserve",
         "HIDDEN_POWER_NORMAL_FAST": "Kraftreserve",
-        "RANDOM": "Unbekannt"
+        "RANDOM": "Unbekannt",
+        "FRENZY_PLANT": "Flora-Statue"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unbekannt",
@@ -734,7 +735,7 @@
             "description": "Kein Bonus zu irgend einem Pokemon"
         },
         "CLEAR": {
-            "label": "Klar",
+            "label": "Sonnig/Klar",
             "description": "20% Bonus zu Gras-, Boden- und Feuerattacken"
         },
         "RAINY": {
