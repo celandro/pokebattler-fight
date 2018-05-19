@@ -40,7 +40,15 @@
       "win": "defeats",
       "lose": "is defeated by"
     },
+    "assistants": {
+      "title": "Beta Extra Trainers Feature",
+      "both": "The results below include {{numExplicit}} additional trainers and {{numRandom}} random level additional battle parties level 30-40.  This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. There is also be a better interface for selecting how many trainers and additional battle parties helping you on the ",
+      "explicit": "The results below include {{numExplicit}} additional trainers.  This is intended to simulate a realistic actual combat scenario.  The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will make you win. The power, time to win, potions and overall rating are all based on what your entire battle party of 6 can do. This page will eventually show much more information only the combat log is complete at this time. There is also be a better UI for selecting how many and which battle parties are helping you on the",
+      "random": "The results below include {{numRandom}} random additional battle parties level 30-40 extra.  This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. There is also be a better interface for selecting how many trainers and additional battle parties helping you on the ",
+      "link": "raid simulation page."
+    },
     "logTitle": "Combat Log"
   },
-  "runAgain": "Run this random simulation again"
+  "runAgain": "Run this random simulation again",
+  "runSolo": "Run as solo attempt"
 }

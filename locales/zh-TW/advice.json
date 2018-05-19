@@ -10,13 +10,14 @@
         "calculating": "團體戰建議計算中",
         "counters": {
             "title": "剋星",
-            "moveSetOrderingDescription": "招式組由最難排到最簡單，請確認每一個，以防結果差異過大。",
-            "chooseMovesetLabel": "選擇招式組"
+            "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
+            "chooseMovesetLabel": "頭目的配招"
         },
         "hardestMovesets": {
-            "title": "最難的團體戰",
-            "tableTitle": "最難撃敗的招式組",
-            "description": "防守寶可夢的招式組可決定團體戰難易度！"
+            "title": "頭目各種配招的挑戰難度",
+            "tableTitle": "頭目配招的挑戰難度(排名越上面越困難)",
+            "description": "防守寶可夢的招式組可決定團體戰難易度！",
+            "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
         },
         "analysis": {
             "title": "關於此分析"

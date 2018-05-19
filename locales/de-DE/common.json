@@ -51,7 +51,8 @@
         "type": "$t(common:type)",
         "powerups": "Power-Ups",
         "stardust": "Sternenstaub",
-        "candy": "Bonbons"
+        "candy": "Bonbons",
+        "tdo": "Schaden (TDO)"
     },
     "sectionLinks": {
         "help": "Hilfebereich",
@@ -123,5 +124,21 @@
     "battleParties": "Kampfgruppen",
     "raids": "Raids",
     "gym": "Arena",
-    "pvp": "PvP"
+    "pvp": "PvP",
+    "quickMoves": "Schnellangriffe",
+    "specialMoves": "Spezialangriffe",
+    "spinner": {
+        "battle": "Simuliere Kampfergebnisse. Das sollte nicht lang dauern",
+        "raid": "Durchsuche alle möglichen Angreifer um den besten Konter zu finden. Das sollte nicht lang dauern.",
+        "pokedex": "Finde die besten Angriffsbegegnungen und Konter. Das könnte ein bisschen dauern.",
+        "rankings": "Finde das beste Pokemon durch Simulation jeder einzelnen möglichen Begegnung. Das wird eine Weile dauern."
+    },
+    "patreon": {
+        "ad1": "Pokebattler läuft gerade im Werbefrei-Versuch. Bitte unterstütze uns auf Patreon um weiterhin werbefrei zu bleiben, mehr Pokebox Platz zu bekommen, genauere Simulationen laufen zu lassen und vieles mehr!",
+        "ad2": "Melde dich an für einen kostenlosen Patreon Account und erhalte 25 mehr Pokebox Platz. Melde dich einfach mit Patreon an, du brauchst nichts spenden.",
+        "ad3": "Optimiere deine Raids. Melde dich in Patreon für genauere Ergebnisse und Spezialfeature an.",
+        "ad4": "Du liebst Pokebattler? Erhalte uns am Leben und werbefrei. Melde dich heute für Patreon an und erhalte mehr Platz, bessere Ergebnisse, exklusive Werkzeuge und mehr.",
+        "ad5": "Pokebattler wird ermöglicht durch Patreon Unterstützer. Melde dich heute für einen kostenlosen Account an und erhalte 25 extra Pokebox Plätze.",
+        "ad6": "Hebe dein Spiel auf das nächste Level mit dem Pokebattler Patreon account. Melde dich jetzt an."
+    }
 }
