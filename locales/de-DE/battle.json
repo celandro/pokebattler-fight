@@ -1,6 +1,6 @@
 {
     "title": "Kampf Simulator",
-    "startButton": "Kämpfen",
+    "startButton": "Kampf",
     "attacker": "Angreifer",
     "attackerPlaceHolder": "$t(attacker) auswählen",
     "defender": "Verteidiger",
@@ -37,6 +37,9 @@
         "logTitle": "Kampf-Logbuch",
         "battleParty": {
             "description": "Spieler {{attacker.userId}} mit Pokebox {{attacker.battlePartyId}} {{result}} ein {{defender.tier}} {{defender.name}} mit {{defender.cp}} WP in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie und nutze die {{strategies.dodge}} basierend auf dem {{strategies.defense}} Simulationstyp mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt um dieses Ergebnis zu erhalten."
+        },
+        "pvp": {
+            "description": "Spieler {{attacker.userId}} mit Pokebox {{attacker.battlePartyId}} {{result}} Spieler {{defender.userId}} mit Pokebox {{defender.battlePartyId}} in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie, dabei die {{strategies.dodge}} versus der {{strategies.defense}} Angriffsstategie benutzend auf Basis des {{strategies.defenseDodge}} mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, um dieses Ergebnis zu erhalten."
         }
     },
     "runAgain": "Diese Zufallssimulation erneut durchführen"
