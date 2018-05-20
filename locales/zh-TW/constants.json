@@ -385,7 +385,15 @@
         "WURMPLE": "刺尾蟲",
         "WYNAUT": "小果然",
         "ZANGOOSE": "貓鼬斬",
-        "ZIGZAGOON": "蛇紋熊"
+        "ZIGZAGOON": "蛇紋熊",
+        "CASTFORM_NORMAL_FORM": "漂浮泡泡 - 一般",
+        "CASTFORM_RAINY_FORM": "飄浮泡泡 - 雨水型態",
+        "CASTFORM_SNOWY_FORM": "飄浮泡泡 - 雪雲型態",
+        "CASTFORM_SUNNY_FORM": "飄浮泡泡 - 太陽型態",
+        "DEOXYS_NORMAL_FORM": "代歐奇希斯 - 一般型態",
+        "DEOXYS_ATTACK_FORM": "代歐奇希斯 - 攻擊型態",
+        "DEOXYS_DEFENSE_FORM": "代歐奇希斯 - 防禦型態",
+        "DEOXYS_SPEED_FORM": "代歐奇希斯 - 速度型態"
     },
     "moves": {
         "HYPER_BEAM": "破壞光線",
@@ -583,7 +591,8 @@
         "PRESENT_FAST": "禮物",
         "QUICK_ATTACK_FAST": "電光一閃",
         "SURF": "衝浪",
-        "WATERFALL_FAST": "攀瀑"
+        "WATERFALL_FAST": "攀瀑",
+        "DOOM_DESIRE": "破滅之願"
     },
     "types": {
         "POKEMON_TYPE_NONE": "",
