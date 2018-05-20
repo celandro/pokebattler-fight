@@ -36,7 +36,7 @@
         },
         "logTitle": "Kampf-Logbuch",
         "battleParty": {
-            "description": "Spieler {{attacker.userId}} mit Pokeebox {{attacker.battlePartyId}} {{result}} ein {{defender.tier}} {{defender.name}} mit {{defender.cp}} CP in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie und nutze die {{strategies.dodge}} basierend auf dem {{strategies.defense}} Simulationstyp mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt um dieses Ergebnis zu erhalten."
+            "description": "Spieler {{attacker.userId}} mit Pokebox {{attacker.battlePartyId}} {{result}} ein {{defender.tier}} {{defender.name}} mit {{defender.cp}} WP in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie und nutze die {{strategies.dodge}} basierend auf dem {{strategies.defense}} Simulationstyp mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt um dieses Ergebnis zu erhalten."
         }
     },
     "runAgain": "Diese Zufallssimulation erneut durchführen"
