@@ -1,2 +1,18 @@
 {
+    "back": "Volver",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "reset": "Reiniciar",
+    "note": "Nota",
+    "cp": "PC",
+    "win": "Gana",
+    "loss": "Pierde",
+    "quickMove": "Ataque Rápido",
+    "specialMove": "Ataque Cargado",
+    "quickMoves": "Ataques Rápidos",
+    "specialMoves": "Ataques Cargados",
+    "attackStrategy": "Estrategia de Ataque",
+    "defenseStrategy": "Tipo de Simulación",
+    "dodgeStrategy": "Estrategia de Esquivar",
+    "weatherCondition": "Clima"
 }

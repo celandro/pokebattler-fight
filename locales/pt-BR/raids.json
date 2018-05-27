@@ -60,6 +60,16 @@
             "title": "Nível 4 Legado",
             "subtitle": "Reides Difíceis em Grupo",
             "intro": "Estas reides não estão atualmente nas rotações."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Nível 5 - Legacy",
+            "subtitle": "Reide Legendária",
+            "intro": "Estas reides estavam disponíveis no passado mas não estão atualmente válidas na rotação de reides. Elas podem retornar no futuro em eventos especiais."
+        },
+        "RAID_LEVEL_5_FUTURE": {
+            "title": "Reides 5 Futuras",
+            "subtitle": "Reides Legendárias",
+            "intro": "Estas reides nível 5 não estão no jogo ainda! Suas estatísticas e ataques estão ainda sujeitas a mudanças."
         }
     },
     "custom": {
@@ -76,7 +86,8 @@
             "subtitle": "Melhores Atacantes por",
             "description": "A seguinte análise mostra o Pokemon que é o mais forte oponente em termos de {{sort}} contra {{pokemon}}.",
             "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
-            "chooseMovesetLabel": "Escolher Ataques"
+            "chooseMovesetLabel": "Escolher Ataques",
+            "difficultyNote": "Chefes de reide são muito mais difíceis que lutas normais, você deve considerar cuidadosamente suas opções."
         },
         "hardestMovesets": {
             "subtitle": "Para {{pokemon}} por {{sort}}",
@@ -92,7 +103,12 @@
                 "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
             }
         },
-        "description": "Bem-vindo ao Guia de Reide do Pokebattler para {{pokemon}}. Você pode encontrar o melhor oponente de acordo com os ataques de cada Chefe. Este guia é customizável de muitas formas diferentes. Você pode escolher o nível do ataque e estratégia de ataque que deseja usar assim como várias opções de ordenação."
+        "description": "Bem-vindo ao Guia de Reide do Pokebattler para {{pokemon}}. Você pode encontrar o melhor oponente de acordo com os ataques de cada Chefe. Este guia é customizável de muitas formas diferentes. Você pode escolher o nível do ataque e estratégia de ataque que deseja usar assim como várias opções de ordenação.",
+        "patreon": {
+            "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores Patreon. Os usuários Patreon recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais.",
+            "link": "Veja todos os benefícios que você ganha ao se registrar.",
+            "thanks": "Obrigado pelo seu suporte!"
+        }
     },
     "pokebox": {
         "login": "O Guida de Reides do Pokebattler pode ser customizável para inclusir apenas Pokemon que você tem realmente usando sua própria Pokebox. Faça o Login, adicione seus melhores Pokemon na sua Pokebox pessoal, e então você pode trocar entre os melhores Pokemons que você tem na sua Pokebox, e os melhores oponentes gerais para planejar suas batalhas de reide.",
@@ -115,8 +131,12 @@
             "close": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha bem apertada. Traga mais um treinador se você quer ficar mais seguro.",
             "almost": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Se você der muita sorte, você talvez possa derrotá-lo com um treinador a menos.",
             "normal": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Certifique-se que seu grupo está pronto antes da batalha.",
-            "difficult": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha difícil, confira que todos estão levando seus melhores Pokemon."
+            "difficult": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha difícil, confira que todos estão levando seus melhores Pokemon.",
+            "trivial": "Ganhar de {{pokemon}} deve precisar de {{numPeople}} treinadores com Pokemons desta força. Esta luta vai terminar antes mesmo de começar. É tão fácil que você pode usar as sugestões do jogo mesmo e ganhar. "
         }
     },
-    "helpLink": "Assista o Tutorial de Reides em vídeo"
+    "helpLink": "Assista o Tutorial de Reides em vídeo",
+    "battle": {
+        "resultLink": "Veja este resultado como um time de batalha"
+    }
 }
