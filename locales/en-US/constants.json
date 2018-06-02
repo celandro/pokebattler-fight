@@ -394,7 +394,9 @@
         "DEOXYS_NORMAL_FORM": "Deoxys - Normal",
         "DEOXYS_ATTACK_FORM": "Deoxys - Attack",
         "DEOXYS_DEFENSE_FORM": "Deoxys - Defense",
-        "DEOXYS_SPEED_FORM": "Deoxys - Speed"
+        "DEOXYS_SPEED_FORM": "Deoxys - Speed",
+        "EXEGGUTOR_ALOLA_FORM": "Exeggutor - Alola",
+        "EXEGGUTOR_NORMAL_FORM": "Exeggutor - Normal"
     },
     "moves": {
         "undefined": "",
