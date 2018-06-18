@@ -4,7 +4,8 @@
         "zeroHelp": "Se elas não tem o mesmo endereço de email, {{link}} com os userIds das contas que você precisa conectar",
         "email": "envie email ao Pokebattler",
         "title": "Sua Pokebox Customizada",
-        "zero": "Adicione seus Pokemons clicando na caixa à esquerda."
+        "zero": "Adicione seus Pokemons clicando na caixa à esquerda.",
+        "showMore": "Mostrar Mais"
     },
     "add": {
         "title": "Pokebox",
@@ -21,7 +22,8 @@
         },
         "irreversible": "Isto não poderá ser desfeito!",
         "blurb": "Você pode apagar rapidamente múltiplos pokemons aqui quando quiser. Você pode rapidamente liberar espaço na sua pokebox. Basta selecionar cada pokemon que você quer apagar. Quando terminar, role para o final da página para achar o botão Apagar.",
-        "button": "Apagar em Massa"
+        "button": "Apagar em Massa",
+        "confirmation": "Tem certeza que quer apagar?"
     },
     "deleteAll": {
         "button": "Apagar Tudo",

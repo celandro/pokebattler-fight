@@ -16,7 +16,10 @@
             "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
         },
         "analysis": {
-            "title": "關於此分析"
+            "title": "關於此分析",
+            "attackers": {
+                "byLevel": "等級{{attackerLevel}}攻擊者"
+            }
         },
         "title": "團戰建議",
         "calculating": "團戰模擬中"

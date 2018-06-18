@@ -40,7 +40,8 @@
         "grouped": "Raggruppato",
         "single": "Singolo",
         "id": "Id",
-        "pokemon": "$t(common:pokemon)"
+        "pokemon": "$t(common:pokemon)",
+        "tdo": "Danno (TDO)"
     },
     "simulation": "una simulazione era",
     "simulation_plural": "simulazioni erano",
@@ -120,5 +121,10 @@
     "battleParties": "Squadre Lotta",
     "raids": "Raid",
     "gym": "Palestra",
-    "pvp": "PvP"
+    "pvp": "PvP",
+    "menu": {
+        "mainMenu": {
+            "trainer": "Allenatore"
+        }
+    }
 }
