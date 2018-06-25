@@ -19,6 +19,7 @@
     "weatherCondition": "Weather",
     "aggregation": "How Lucky?",
     "choosePokemon": "Choose Pokemon",
+    "friendLevels": "Friend Level",
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
@@ -172,6 +173,6 @@
     },
     "explicitAssistants": {
         "title": "Extra Trainers",
-        "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers"
+        "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers. The friend level should be the maximum friend level that they have with other players at the raid, not your friend level with them."
     }
 }
