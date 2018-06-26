@@ -874,7 +874,7 @@
     "friendLevels": {
         "FRIENDSHIP_LEVEL_0": {
             "label": "Not Friends",
-            "description": "If you are not friends with anyone else in the raid, you get no bonus to attack. You can also trade regular Pokemon."
+            "description": "If you are not friends with anyone else in the raid, you get no bonus to attack. You can only trade regular Pokemon both players already own."
         },
         "FRIENDSHIP_LEVEL_1": {
             "label": "Good Friends",
