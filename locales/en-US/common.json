@@ -149,9 +149,11 @@
     "menu": {
         "follow": "Follow us!",
         "mainMenu": {
+            "gym": "$t(gym)",
             "articles": "Articles",
             "tools": "Tools",
             "battle": "Battle",
+            "simulator": "Simulator",
             "rankings": "Rankings",
             "pokedex": "Pokedex",
             "raids": "Raids",
@@ -163,7 +165,13 @@
             "help": "Help",
             "about": "About",
             "contact": "Contact Us",
-            "translate": "Help Translate"
+            "translate": "Help Translate",
+            "counters": "Counters",
+            "battleParties": "$t(battleParties)",
+            "account": "My Account",
+            "more": "More",
+            "privacy": "Privacy",
+            "pvp": "$t(pvp)"
         }
     },
     "randomAssistants": {
