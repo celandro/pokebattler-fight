@@ -165,13 +165,30 @@
             "help": "Help",
             "about": "About",
             "contact": "Contact Us",
-            "translate": "Help Translate",
+            "translate": "Translate",
             "counters": "Counters",
             "battleParties": "$t(battleParties)",
             "account": "My Account",
             "more": "More",
             "privacy": "Privacy",
-            "pvp": "$t(pvp)"
+            "pvp": "$t(pvp)",
+            "news": "News"
+        },
+        "description": {
+            "gym": "Gym Battle Simulations, Pokedex and Rankings",
+            "raids": "Top Counters, Raid Battle Party Simulations and Power Up Advice",
+            "pvp": "Pvp Simulations",
+            "help": "Tutorials, Terms and Definitions",
+            "account": "Customize Pokebattler By Adding Pokemon To Your Pokebox and Battle Parties",
+            "more": "News, Articles, Translations, How To Contact Us and More"
+        },
+        "tooltip": {
+            "gym": "Gym battle simulations, Pokedex, attacker and defender rankings and more for Pokemon Go",
+            "raids": "Find the top counters, do full raid simulations, get advice on which Pokemon to Power Up and more for Pokemon Go Raids",
+            "pvp": "See what happens if you battle your friends",
+            "help": "",
+            "account": "",
+            "more": "Read News and articles, download  infographics, help translate for us, about us, and privacy policy for Pokebattler for Pokemon Go"
         }
     },
     "randomAssistants": {
