@@ -1,5 +1,7 @@
 {
-  "title": "Battle Simulator",
+  "title": "Gym Battle Simulator",
+  "raidBattlePartyTitle": "Raid Battle Party Simulator",
+  "pvpTitle": "PvP Battle Simulator",
   "startButton": "Battle",
   "attacker": "Attacker",
   "attackerPlaceHolder": "Choose $t(attacker)",
