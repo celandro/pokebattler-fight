@@ -38,6 +38,7 @@
     "type": "Pokemon Type",
     "properties": {
         "overall": "Overall",
+        "estimator": "Estimator",
         "power": "Power",
         "win": "Win %",
         "deaths": "Deaths",
