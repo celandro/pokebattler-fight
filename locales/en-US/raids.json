@@ -1,7 +1,7 @@
 {
-    "title": "Raid Guide",
-    "linkLabel": "Raid Guide",
-    "intro": "Pokemon Go Raids are here! Find out which Pokémon will beat raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
+    "title": "Raid Counters",
+    "linkLabel": "Raid Counters",
+    "intro": "Pokemon Go Raids are here! Find out which Pokémon will counter raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
     "tierList": {
         "common": {
             "boss": "Boss",
