@@ -52,5 +52,6 @@
     "logTitle": "Combat Log"
   },
   "runAgain": "Run this random simulation again",
-  "runSolo": "Run as solo attempt"
+  "runSolo": "Run as solo attempt",
+  "addBattleParty": "Save this battle party"
 }
