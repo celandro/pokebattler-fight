@@ -23,7 +23,7 @@
         "pokedex": {
             "link": "/help/pokedex",
             "description": "Trouvez les meilleurs contres et les meilleurs matchs pour chaque pokémon",
-            "title": "/help/pokedex"
+            "title": "Pokedex"
         },
         "rankings": {
             "title": "Classements",
