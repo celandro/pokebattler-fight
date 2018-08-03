@@ -1,1 +1,34 @@
-{}
+{
+    "title": "Analisi Battaglia di $t(constants:pokemon.{{pokemon}})",
+    "intro": "Benvenuto nel Pokedex di Pokebattler per $t(constants:pokemon.{{pokemon}}). Puoi trovare le migliori mosse offensive e difensive di $t(constants:pokemon.{{pokemon}}) ma anche i peggiori oppositori in attacco o i migliori oppositori in difesa. In questo modo saprai quali Pokemon evitare in combattimento o come affrontare al meglio quel fastidioso difensore. Sentiti libero di cambiare le opzioni qui sotto per vedere l'effetto delle diverse situazioni di combattimento o di cambiare l'ordine a tuo piacimento. Come sempre, i risultati su questa pagina sono generati dal Simulatore di Battaglie di Pokemon Go di Pokebattler. Puoi scoprire di più su ogni simulazione possibile semplicemente cliccando sull'immagine del pokemon opponente",
+    "loading": "Sto generando analisi dettagliate delle battaglie per $t(constants:pokemon.{{pokemon}}). Più di un milione di simulazioni sono necessarie per generare questa pagina. Tuttavia non dovrei impiegarci tanto.",
+    "about": {
+        "title": "Su queste Analisi di Battaglia",
+        "text1": "Le analisi su {{pokemon}} sono basate su simulazioni di un attaccante al livello {{attackerLevel}} che combatte contro difensori di livello {{defenderLevel}}. La simulazione della classifica è stata eseguita con la strategia d'attacco {{attackStrategy}} utilizzando {{dodgeStrategy}} basata sulla tipologia di simulazione Monte Carlo. I 32 migliori oppositori e i 32 peggiori sono stati identificati utilizzando la suddetta strategia e comparando ogni evoluzione massima di un Pokemon con ogni possibile combinazione di mosse, sia come attaccante sia come difensore contro {{pokemon}}. Centinaia di simulazioni monte Carlo sono state eseguite contro ognuna delle 5 migliori combinazioni di mosse per  questi 32 oppositori per un totale di {{simulationCount}} simulazioni. I migliori 24 oppositori e anche i peggiori 24 con le loro migliori combinazioni di mosse basate su {{sort}} sono stati salvati e mostrati qui.",
+        "text2": "Puoi cliccare su qualunque degli attaccanti per vedere i risultati di quella particolare simulazione. L'ordine può essere cambiato cliccando l'icona dell'ordine in alto a destra per ciascun risultato e selezionando la modalità d'ordine che preferisci",
+        "text3": {
+            "text": "Più informazioni si possono trovare qui: {{link}}",
+            "link": "sezione supporto"
+        }
+    },
+    "bestAttack": {
+        "title": "Migliori Combinazioni di Mosse d'Attacco",
+        "subtitle": "Per $t(common:properties.{{sort}})",
+        "rankingTitle": "Statistiche Medie di Combattimento contro I Peggiori 24 Oppositori"
+    },
+    "bestDefense": {
+        "title": "Migliori Combinazioni di Mosse di Difesa",
+        "subtitle": "Per $t(common:properties.{{sort}})",
+        "rankingTitle": "Statistiche Medie di Combattimento contro I Migliori 5 Oppositori"
+    },
+    "attackMatchups": {
+        "title": "Scontri d'Attacco",
+        "subtitle": "Per $t(common:properties.{{sort}})",
+        "text": "La seguente analisi mostra i risultati contro i più difficili {{defenderLevel}} difensori per $t(constants:pokemon.{{pokemon}}) di livello {{attackerLevel}}. Questa classifica è relativa a quanto bene tutti gli attaccanti si comportano contro i difensori in termini di $t(common:properties.{{sort}}). Brevemente: usa $t(constants:pokemon.{{pokemon}}) contro il pokemon all'inizio della lista!"
+    },
+    "bestCounters": {
+        "title": "I Migliori Oppositori",
+        "subtitle": "Per $t(common:properties.{{sort}})",
+        "text": "La seguente analisi mostra il livello {{attackerLevel}} dei pokemon che sono i più forti in termini di $t(common:properties.{{sort}}) contro il difensore $t(constants:pokemon.{{pokemon}}) al livello {{defenderLevel}}. Questi sono i migliori pokemon da usare se $t(constants:pokemon.{{pokemon}}) è il difensore di una palestra."
+    }
+}
