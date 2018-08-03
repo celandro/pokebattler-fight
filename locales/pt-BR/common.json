@@ -118,5 +118,24 @@
     },
     "xAxis": "Eixo X",
     "yAxis": "Eixo Y",
-    "aggregation": "Quanta Sorte?"
+    "aggregation": "Quanta Sorte?",
+    "battleParty": "Time de Batalha",
+    "battleParties": "Times de Batalhas",
+    "raids": "Reides",
+    "gym": "Ginásio",
+    "pvp": "PvP",
+    "spinner": {
+        "battle": "Simulando resultados de batalha. Não deve demorar muito.",
+        "raid": "Procurando entre todos os possíveis atacantes os melhores adversários. Isto não deve demorar muito.",
+        "pokedex": "Encontrando as melhores correspondências e adversários. Isso pode levar um tempinho.",
+        "rankings": "Encontrando o melhor Pokemon simulando batalhas entre cada possível combinação de Pokemons. Isto vai levar um tempo. "
+    },
+    "patreon": {
+        "ad1": "Pokebattler está fazendo um teste sem publicidade. Por favor nos suporte no Patreon para manter o site livre de propagandas, ganhe mais espaço na Pokebox, rode simulações mais precisas, ganhe mais funcionalidades e mais!",
+        "ad2": "Registre-se para uma conta grátis no Patreon e ganhe 25 espaços na Pokebox. Simplesmente faça o login pelo Patreon, sem doações necessárias.",
+        "ad3": "Otimize suas Reides. Registre-se no Patreon para resultados mais precisos e funcionalidades especiais.",
+        "ad4": "Ama o Pokebattler? Mantenha-nos rodando sem propaganda. Registre-se no Patreon hoje e ganhe mais espaço, resultados melhores, ferramentas exclusivas e mais.",
+        "ad5": "Pokebattler é possível pelos nossos apoiadores no Patreon. Registre-se hoje com uma conta grátis para 25 posições extras na Pokebox.",
+        "ad6": "Leve seu jogo ao próximo nível com uma conta Patreon do Pokebattler. Registre-se agora."
+    }
 }
