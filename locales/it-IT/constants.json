@@ -459,7 +459,14 @@
         "GEODUDE_ALOLA_FORM": "Geodude - Alola",
         "GRAVELER_NORMAL_FORM": "Graveler - Normale",
         "GRAVELER_ALOLA_FORM": "Graveler - Alola",
-        "GOLEM_NORMAL_FORM": "Golem - Normale"
+        "GOLEM_NORMAL_FORM": "Golem - Normale",
+        "GOLEM_ALOLA_FORM": "Golem - Alola",
+        "GRIMER_NORMAL_FORM": "Grimer - Normale",
+        "GRIMER_ALOLA_FORM": "Grimer - Alola",
+        "MUK_NORMAL_FORM": "Muk - Normale",
+        "MUK_ALOLA_FORM": "Muk - Alola",
+        "MAROWAK_NORMAL_FORM": "Marowak - Normale",
+        "MAROWAK_ALOLA_FORM": "Marowak - Alola"
     },
     "moves": {
         "ACID_FAST": "Acido",
