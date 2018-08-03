@@ -43,7 +43,14 @@
         "summaryEnd": "Powered Up Results",
         "graphTitle": "{{yAxis}} Versus {{xAxis}}",
         "detail": "Detailed Results For Each Power Up",
-        "back": "Back to Advice Settings"
+        "back": "Back to Advice Settings",
+        "powerUpDialog": {
+            "title": "Power Up",
+            "description": "Do you want to power up {{pokemon}} {{powerUps}} times to {{cp}}?",
+            "submit": "Yes",
+            "cancel": "No"
+        }
+
     },
     "raidLink": "See this result without the Power Ups",
     "helpLink": "Watch the Raid Advice tutorial video"
