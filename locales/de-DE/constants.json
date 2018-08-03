@@ -394,7 +394,9 @@
         "DEOXYS_NORMAL_FORM": "Deoxys - Normal",
         "DEOXYS_ATTACK_FORM": "Deoxys - Angriff",
         "DEOXYS_DEFENSE_FORM": "Deoxys - Verteidigung",
-        "DEOXYS_SPEED_FORM": "Deoxys - Geschwindigkeit"
+        "DEOXYS_SPEED_FORM": "Deoxys - Geschwindigkeit",
+        "EXEGGUTOR_ALOLA_FORM": "Kokowei - Alola",
+        "EXEGGUTOR_NORMAL_FORM": "Kokowei - Normal"
     },
     "moves": {
         "undefined": " ",

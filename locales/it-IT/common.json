@@ -41,7 +41,11 @@
         "single": "Singolo",
         "id": "Id",
         "pokemon": "$t(common:pokemon)",
-        "tdo": "Danno (TDO)"
+        "tdo": "Danno (TDO)",
+        "cp": "$t(common:cp)",
+        "name": "$t(common:name)",
+        "type": "$t(common:type)",
+        "maxCP": "Massimi $t(common:cp)"
     },
     "simulation": "una simulazione era",
     "simulation_plural": "simulazioni erano",
@@ -87,7 +91,7 @@
         "beta": "Sito Beta",
         "www": "Sito Principale"
     },
-    "reset": "Resetta",
+    "reset": "Reimposta",
     "note": "Note",
     "win": "Vittoria",
     "loss": "Sconfitta",
@@ -124,7 +128,73 @@
     "pvp": "PvP",
     "menu": {
         "mainMenu": {
-            "trainer": "Allenatore"
+            "trainer": "Allenatore",
+            "gym": "$t(gym)",
+            "articles": "Articoli",
+            "tools": "Strumenti",
+            "battle": "Battaglia",
+            "simulator": "Simulatore",
+            "rankings": "Classifiche",
+            "pokedex": "Pokedex",
+            "raids": "Raid",
+            "personal": "Personale",
+            "pokebox": "Pokebox",
+            "raidAdvice": "Consiglio Raid",
+            "help": "Aiuto",
+            "contact": "Contattaci",
+            "translate": "Aiutaci a Tradurre",
+            "counters": "Oppositori",
+            "battleParties": "$t(battleParties)",
+            "account": "Il Mio Account",
+            "more": "Di Più",
+            "privacy": "Privacy",
+            "pvp": "$t(pvp)",
+            "news": "Novità"
+        },
+        "follow": "Seguici!",
+        "description": {
+            "gym": "Simulazioni di battaglie nelle palestre, Pokedex e Classifiche",
+            "raids": "I Migliori Oppositori, Simulazioni di Gruppi delle Battaglie Raid e Consigli sui Potenziamenti",
+            "pvp": "Simulazioni PvP",
+            "help": "Tutorial, Termini e Definizioni",
+            "account": "Personalizza Pokebattler Aggiungendo Pokemon Al Tuo Pokebox e Gruppi di Battaglia",
+            "more": "Novità, Articoli, Traduzioni, Come Contattarci e Altro"
+        },
+        "tooltip": {
+            "gym": "Simulazioni di Battaglie di Palestre, Pokedex, classifiche di attaccanti e difensori e altro per Pokemon GO",
+            "raids": "Trova i migliori oppositori, crea una completa simulazione raid, ricevi consigli su quale Pokemon potenziare e molto altro per i Raid di Pokemon GO",
+            "pvp": "Osserva cosa succede se combatti contro i tuoi amici",
+            "help": " ",
+            "account": " ",
+            "more": "Leggi Novità e Articoli, scarica infografiche, aiutaci a tradurre, su di noi e la Privacy Policy per Pokebattler per Pokemon GO"
         }
+    },
+    "quickMoves": "Mossa Rapida",
+    "specialMoves": "Mossa Caricata",
+    "choosePokemon": "Scegli il Pokemon",
+    "friendLevels": "Livello Amicizia",
+    "trainers": "Allenatori",
+    "spinner": {
+        "battle": "Sto simulando i combattimenti. Non dovrei impegarci troppo.",
+        "raid": "Sto ricercando tra tutti i possibili attaccanti i migliori oppositori. Non dovrei impiegarci troppo.",
+        "pokedex": "Sto ricercando i migliori scontri possibili e i migliori oppositori. Potrei impiegarci un attimo.",
+        "rankings": "Sto cercando il miglior Pokemon simulando un combattimento contro ogni singolo Pokemon disponibile. Ci impiegherò un po'."
+    },
+    "patreon": {
+        "ad1": "Pokebattler sta provando ad essere privo di annunci. Ti invitiamo a supportarci su Patreon per mantenere il sito privo di pubblicità, ricevere più spazio nel Pokebox, eseguire simulazioni più accurate, ricevere più funzionalità e tanto altro.",
+        "ad2": "Iscriviti per un account Patreon gratuito e ricevi 25 spazi Pokebox gratuiti. Semplicemente accedi usando Patreon, nessuna donazione richiesta.",
+        "ad3": "Ottimizza i tuoi Raid. Iscriviti a Patreon per risultati più accurati e molto altro.",
+        "ad4": "Adori Pokebattler? Aiutaci a proseguire e ad essere privi di annunci. Iscriviti a Patreon oggi e ricevi più spazio, migliori risultati, strumenti esclusivi e tanto altro.",
+        "ad5": "Pokebattler è possibile dai nostri sostenitori su Patreon. Iscriviti oggi per un account gratuito con 25 spazi Pokebox in più.",
+        "ad6": "Porta il tuo gioco ad un livello superiore con un account Patreon in Pokebattler. Iscriviti ora."
+    },
+    "randomAssistants": {
+        "title": "Allenatore Extra Casuale",
+        "default": "Automatico",
+        "description": "Il numero di allenatori extra casuali che ti aiuteranno a combattere il boss. Per i raid boss di livello 4 e 5, 5 gruppi di Pokemon di battaglia ti assistono nel combattimento di default."
+    },
+    "explicitAssistants": {
+        "title": "Allenatori Extra",
+        "description": "Il numero di allenatori ulteriori che ti aiuteranno a combattere il boss. Tu scegli i gruppi di pokemon per ciascuno di questi allenatori"
     }
 }
