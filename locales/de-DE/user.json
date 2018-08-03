@@ -11,7 +11,8 @@
         "patreon": "Login mit Patreon",
         "patreonDescription": "Patreon-Unterstützer erhalten Belohnungen, darunter mehr Plätze für Pokemon in ihrer Pokebox, qualitativ höherwertigere personalisierte Simulationen und eine Google-Tabelle zur Raid-Beratung!",
         "success": {
-            "title": "Erfolgreich angemeldet"
+            "title": "Erfolgreich angemeldet",
+            "fromApi": " $t(login.success.title)! Bitte warte einen Moment um fortzufahren."
         }
     },
     "details": {
