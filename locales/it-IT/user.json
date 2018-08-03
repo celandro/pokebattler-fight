@@ -38,11 +38,13 @@
         "role": {
             "ROLE_USER": "Utente di Pokebattler",
             "ROLE_ADMIN": "Admin di Pokebattler",
-            "ROLE_FAN": "Fan di Pokebattler",
-            "ROLE_SUPPORTER": "Sostenitore di Pokebattler",
+            "ROLE_FAN": "Fan di Pokebattler (Legacy)",
+            "ROLE_SUPPORTER": "Sostenitore di Pokebattler (Legacy)",
             "ROLE_PATREON": "Patreon di Pokebattler",
             "ROLE_FANATIC": "Fanatico di Pokebattler",
-            "ROLE_CONTEST": "Vincitore di un concorso di Pokebattler"
+            "ROLE_CONTEST": "Vincitore di un concorso di Pokebattler",
+            "ROLE_PATREON_USER": "Utente Patreon di Pokebattler",
+            "ROLE_SUPPORTER2": "Sostenitore di Pokebattler"
         },
         "maxBattleParties": "Limite Squadre Lotta"
     }
