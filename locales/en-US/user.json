@@ -39,7 +39,7 @@
         "role": {
             "ROLE_USER": "Pokebattler User",
             "ROLE_ADMIN": "Pokebattler Admin",
-            "ROLE_FAN": "Pokebattler Fan (Legacy)",
+            "ROLE_FAN": "Pokebattler Fan",
             "ROLE_SUPPORTER": "Pokebattler Supporter (Legacy)",
             "ROLE_PATREON": "Pokebattler Patreon",
             "ROLE_FANATIC": "Pokebattler Fanatic",
