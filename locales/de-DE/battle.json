@@ -1,6 +1,6 @@
 {
-    "title": "Kampf Simulator",
-    "startButton": "Kämpfen",
+    "title": "Arena Kampfsimulator",
+    "startButton": "Kampf",
     "attacker": "Angreifer",
     "attackerPlaceHolder": "$t(attacker) auswählen",
     "defender": "Verteidiger",
@@ -34,7 +34,24 @@
             "win": "besiegt",
             "lose": "wird besiegt von"
         },
-        "logTitle": "Kampf-Logbuch"
+        "logTitle": "Kampf-Logbuch",
+        "battleParty": {
+            "description": "Spieler {{attacker.userId}} mit Pokebox {{attacker.battlePartyId}} {{result}} ein {{defender.tier}} {{defender.name}} mit {{defender.cp}} WP in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie und nutze die {{strategies.dodge}} basierend auf dem {{strategies.defense}} Simulationstyp mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt um dieses Ergebnis zu erhalten."
+        },
+        "pvp": {
+            "description": "Spieler {{attacker.userId}} mit Pokebox {{attacker.battlePartyId}} {{result}} Spieler {{defender.userId}} mit Pokebox {{defender.battlePartyId}} in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie, dabei die {{strategies.dodge}} versus der {{strategies.defense}} Angriffsstategie benutzend auf Basis des {{strategies.defenseDodge}} mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, um dieses Ergebnis zu erhalten."
+        },
+        "assistants": {
+            "title": "Beta Bonus Trainer Freature",
+            "both": "Die Ergebnisse unten enthalten {{numExplicit}} zusätzliche Trainer und {{numRandom}} zusätzliche Kampfgruppen unterschiedlicher Level im Bereich 30 bis 40. Dies ist ein Versuch einen realistischen Ausgang eines Raidkampfes zu simulieren. Die Sieg% oben zeigt die Chance zu gewinnen, bevor deine Kampfgruppe ohnmächtig wird, wenn dir diese zusätzlichen Leute helfen. Oft hilf erneutes Beitreten in diesem Szenario zu gewinnen. Die Sortierungen Stärke, Tränke und Allgemein basieren alle auf deiner Kampfgruppe von 6 und enthalten nicht die zusätzlichen Trainer. Diese Seite wird in Zukunft mehr Informationen anzeigen - Nur das Kampflog ist vollständig zu diesem Zeitpunkt. Es wird auch bessere Bedienung geben dafür, wieviele Trainer und zusätzliche Kampfgruppen dir helfen werden. ",
+            "explicit": "Die Ergebnisse unten enthalten {{numExplicit}} zusätzliche Trainer. Dies ist ein Versuch einen realistischen Ausgang eines Raidkampfes zu simulieren. Die Sieg% oben zeigt die Chance zu gewinnen, bevor deine Kampfgruppe ohnmächtig wird, wenn dir diese zusätzlichen Leute helfen. Oft hilf erneutes Beitreten in diesem Szenario zu gewinnen. Die Sortierungen Stärke, Tränke und Allgemein basieren alle auf deiner Kampfgruppe von 6 und enthalten nicht die zusätzlichen Trainer. Diese Seite wird in Zukunft mehr Informationen anzeigen - Nur das Kampflog ist vollständig zu diesem Zeitpunkt. Es wird auch bessere Bedienung geben dafür, wieviele Trainer und zusätzliche Kampfgruppen dir helfen werden",
+            "random": "Die Ergebnisse unten enthalten {{numRandom}} zusätzliche Kampfgruppen unterschiedlicher Level im Bereich 30 bis 40. Dies ist ein Versuch einen realistischen Ausgang eines Raidkampfes zu simulieren. Die Sieg% oben zeigt die Chance zu gewinnen, bevor deine Kampfgruppe ohnmächtig wird, wenn dir diese zusätzlichen Leute helfen. Oft hilf erneutes Beitreten in diesem Szenario zu gewinnen. Die Sortierungen Stärke, Tränke und Allgemein basieren alle auf deiner Kampfgruppe von 6 und enthalten nicht die zusätzlichen Trainer. Diese Seite wird in Zukunft mehr Informationen anzeigen - Nur das Kampflog ist vollständig zu diesem Zeitpunkt. Es wird auch bessere Bedienung geben dafür, wieviele Trainer und zusätzliche Kampfgruppen dir helfen werden ",
+            "link": "Raidsimulationseite."
+        }
     },
-    "runAgain": "Diese Zufallssimulation erneut durchführen"
+    "runAgain": "Diese Zufallssimulation erneut durchführen",
+    "runSolo": "Starte einen Einzelversuch",
+    "raidBattlePartyTitle": "Raid Kampfgruppensimulator",
+    "pvpTitle": "PvP Kampfsimulator",
+    "addBattleParty": "Speichere diese Kampfgruppe"
 }

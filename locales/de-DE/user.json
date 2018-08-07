@@ -11,7 +11,8 @@
         "patreon": "Login mit Patreon",
         "patreonDescription": "Patreon-Unterstützer erhalten Belohnungen, darunter mehr Plätze für Pokemon in ihrer Pokebox, qualitativ höherwertigere personalisierte Simulationen und eine Google-Tabelle zur Raid-Beratung!",
         "success": {
-            "title": "Erfolgreich angemeldet"
+            "title": "Erfolgreich angemeldet",
+            "fromApi": " $t(login.success.title)! Bitte warte einen Moment um fortzufahren."
         }
     },
     "details": {
@@ -38,11 +39,13 @@
         "role": {
             "ROLE_USER": "Pokebattler-Benutzer",
             "ROLE_ADMIN": "Pokebattler-Admin",
-            "ROLE_FAN": "Pokebattler-Fan",
-            "ROLE_SUPPORTER": "Pokebattler-Unterstützer",
+            "ROLE_FAN": "Pokebattler-Fan (Alt)",
+            "ROLE_SUPPORTER": "Pokebattler-Unterstützer (Alt)",
             "ROLE_PATREON": "Pokebattler-Patreon",
             "ROLE_FANATIC": "Pokebattler-Fanatiker",
-            "ROLE_CONTEST": "Pokebattler Wettbewerb Sieger"
+            "ROLE_CONTEST": "Pokebattler Wettbewerb Sieger",
+            "ROLE_PATREON_USER": "Pokebattler Patreon Benutzer",
+            "ROLE_SUPPORTER2": "Pokebattler Unterstützer"
         },
         "maxBattleParties": "Maximale Kampfgruppen"
     }

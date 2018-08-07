@@ -52,7 +52,10 @@
         "powerups": "Power-Ups",
         "stardust": "Sternenstaub",
         "candy": "Bonbons",
-        "tdo": "Schaden (TDO)"
+        "tdo": "Schaden (TDO)",
+        "maxCP": "Max $t(common:cp)",
+        "estimator": "Schätzer",
+        "level": "$t(common:level)"
     },
     "sectionLinks": {
         "help": "Hilfebereich",
@@ -140,5 +143,60 @@
         "ad4": "Du liebst Pokebattler? Erhalte uns am Leben und werbefrei. Melde dich heute für Patreon an und erhalte mehr Platz, bessere Ergebnisse, exklusive Werkzeuge und mehr.",
         "ad5": "Pokebattler wird ermöglicht durch Patreon Unterstützer. Melde dich heute für einen kostenlosen Account an und erhalte 25 extra Pokebox Plätze.",
         "ad6": "Hebe dein Spiel auf das nächste Level mit dem Pokebattler Patreon account. Melde dich jetzt an."
-    }
+    },
+    "choosePokemon": "Pokemon wählen",
+    "trainers": "Trainer",
+    "menu": {
+        "follow": "Folge uns!",
+        "mainMenu": {
+            "articles": "Artikel",
+            "tools": "Werkzeuge",
+            "battle": "Kampf",
+            "rankings": "Ranglisten",
+            "pokedex": "Pokedex",
+            "raids": "Raids",
+            "personal": "Persönliches",
+            "trainer": "Trainer",
+            "pokebox": "Pokebox",
+            "raidAdvice": "Raid-Hilfe",
+            "misc": "Verschiedenes",
+            "help": "Hilfe",
+            "about": "Über uns",
+            "contact": "Kontakt",
+            "translate": "Übersetzung",
+            "gym": "$t(gym)",
+            "simulator": "Simulator",
+            "counters": "Konter",
+            "battleParties": "$t(battleParties)",
+            "account": "Mein Profil",
+            "more": "Mehr",
+            "privacy": "Datenschutz",
+            "pvp": "$t(pvp)",
+            "news": "Neuigkeiten"
+        },
+        "description": {
+            "gym": "Arena Kampfsimulationen, Pokedex und Ranglisten",
+            "raids": "Beste Konter, Raid Kampfgruppensimulationen und Aufwerthilfe",
+            "pvp": "PvP Simulationen",
+            "help": "Anleitungen, Begriffe und Definitionen",
+            "account": "Passe Pokebattler an, in dem du Pokemon zu deiner Pokebox und Kampfgruppen hinzufügst",
+            "more": "Neuigkeiten, Artikel, Übersetzungen, Wie du zu uns Kontakt aufnimmst und mehr"
+        },
+        "tooltip": {
+            "gym": "Arena Kampfsimulationen, Pokedex, Angreifer- und Verteidigerranglisten und mehr für Pokemon Go",
+            "raids": "Finde die besten Konter, führe volle Raid Simulationen aus, bekommen Hinweise welche Pokemon du aufwerten solltest und mehr für Pokemon Go Raids",
+            "pvp": "Sieh was passiert, wenn du deine Freunde herausforderst",
+            "more": "Lies Neuigkeiten und Artikel, lade Infografikten, hilf uns zu übersetzen, über uns und Datenschutzrichtlinen für Pokebatller für Pokemon Go"
+        }
+    },
+    "randomAssistants": {
+        "title": "Zusätzliche Zufallstrainer",
+        "default": "Auto",
+        "description": "Die Zahl zusätzlicher Zufallstrainer, die dir helfen den Boss zu besiegen. Für Stufe 4 und 5 Raid-Bosse, helfen dir 5 Kampfgruppen standardmäßig."
+    },
+    "explicitAssistants": {
+        "title": "Zusatztrainer",
+        "description": "Die Zahl der zusätzlichen Trainer die dir helfen, den Boss zu besiegen. Du wählst die Kampfgruppen für jeden der Angreifer. Das Freundschaftslevel sollte das Maximum sein, was sie mit anderen Spielern haben und nicht mit dir."
+    },
+    "friendLevels": "Freundschaftslevel"
 }
