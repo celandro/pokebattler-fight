@@ -20,6 +20,8 @@
     "aggregation": "How Lucky?",
     "choosePokemon": "Choose Pokemon",
     "friendLevels": "Friend Level",
+    "shiny": "Shiny",
+    "lucky": "Lucky",
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
