@@ -677,7 +677,8 @@
         "RANDOM": "Unknown",
         "FRENZY_PLANT": "Frenzy Plant",
         "BLAST_BURN": "Blast Burn",
-        "SMACK_DOWN_FAST": "Smack Down"
+        "SMACK_DOWN_FAST": "Smack Down",
+        "LAST_RESORT": "Last Resort"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
