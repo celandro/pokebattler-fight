@@ -1,7 +1,8 @@
 {
   "title": "Contact Us",
   "meta": {
-    "description": "Send us a message or follow us on social to get the latest updates on the World's #1 Most Accurate Pokemon Go Simulator"
+    "description": "Send us a message or follow us on social to get the latest updates on the World's #1 Most Accurate Pokemon Go Simulator",
+    "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
   },
   "contactInfo": "Contact Information",
   "feedbackText": "We at Pokebattler love to hear your feadback! Whether it's a feature request or a bug report or just a word of thanks, we truly appreciate our users and try our best to keep this the only site you need to use for Pokemon Go gym combat.",
