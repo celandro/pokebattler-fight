@@ -1,5 +1,9 @@
 {
     "title":"Pokemon Go Simulator and Rankings",
+    "meta": {
+        "description": "World's #1 source for detailed Pokemon Go analysis. The best simulations, customizable rankings and the most accurate raid counters!",
+        "image": "https://static.pokebattler.com/images/og_home.png"
+    },
     "articles": {
         "title": "In Depth Pokemon Go Articles",
         "subtitle":"News And Research Available Nowhere Else",
