@@ -1,7 +1,24 @@
 {
   "title": "Gym Battle Simulator",
+  "meta": {
+    "description": "Pokebattler Gym Simulator gives the World's #1 most accurate results for gym battles including weather bonuses and second by second analysis.",
+    "image": "https://static.pokebattler.com/images/og_gym_simulator.png"
+  },
   "raidBattlePartyTitle": "Raid Battle Party Simulator",
-  "pvpTitle": "PvP Battle Simulator",
+  "raid": {
+    "title": "Raid Simulator",
+    "meta": {
+      "description": "Pokebattler Raid Simulator is the World's #1 most accurate. Get results for up to 20 battle parties, friends bonuses and weather bonuses.",
+      "image": "https://static.pokebattler.com/images/og_raid_simulator.png"
+    }
+  },
+  "pvp" : {
+    "title": "PvP Simulator",
+    "meta": {
+      "description": "Pokebattler PvP Simulator lets you battle your friends Pokemon to see how comes out on top with the World's #1 Most accurate simulator.",
+      "image": "https://static.pokebattler.com/images/og_pvp_simulator.png"
+    }
+  },
   "startButton": "Battle",
   "attacker": "Attacker",
   "attackerPlaceHolder": "Choose $t(attacker)",

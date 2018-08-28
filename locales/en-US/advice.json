@@ -1,5 +1,9 @@
 {
     "title": "Raid Advice",
+    "meta": {
+        "description": "Pokemon Go Raid Advice helps you find out which Pokemon to Power up to beat Raid Bosses and spend candy and stardust most efficiently",
+        "image": "https://static.pokebattler.com/images/og_raid_advice.png"
+    },
     "linkLabel": "Raid Guide",
     "pokeboxRequired": "Pokebattler Advice requires you to enter your Pokemon into your Pokebox to work properly. Simply log in and add your strongest Pokemon to your Pokebox to help find the best pokemon to power up.",
     "intro": "Pokebattler Advice is a custom feature designed to help you optimize your Pokebox for specific raids. Simply select the raid boss you wish to find the best potential Pokemon to fight against it with, and enter the stardust and candy you have available to see how your Pokemon will look after they are powered up. This tool will help you decide which Pokemon will gain the most from that stardust and candy so you know how to spend it with maximum efficiency.",
