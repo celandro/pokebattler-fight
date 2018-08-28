@@ -1,5 +1,8 @@
 {
     "title": "Log in to Pokebattler",
+    "meta": {
+        "description": "Pokebattler stores your Pokemon Go Pokemon in its Pokedex for fast raid counters and more!"
+    },
     "description": "Log in to access your Pokebox and personalized simulations",
     "explanation": "Pokebattler does not and can not log in to your Pokemon Go account. We do not connect to Niantic servers in any way. Pokebattler only uses this login to know who you across all your devices. You can login on your phone or tablet or computer and see all the Pokemon that you have entered into our site. We do not share your information or use it for marketing purposes or any other way.",
     "privacy": "For more information, see our privacy policy",
@@ -20,10 +23,16 @@
         "description": "Your trainer information below will be used to customize the site and will be displayed to other users."
     },
     "loggedIn": {
-        "title": "Public Profile"
+        "title": "Public Profile",
+        "meta": {
+            "description": "Store your Pokemon Go User Info and Pokemon."
+        }
     },
     "logout": {
         "title": "Logged out",
+        "meta": {
+            "description": "You have successfully logged out of Pokebattler"
+        },
         "description": "You have been successfully logged out. Come back later on any device and your Pokebox will be there waiting for you!",
         "back": "Back to login",
         "button": "Logout"
