@@ -3,7 +3,7 @@
         "title": "Gym Rankings",
         "meta": {
             "description": "Pokebattler's Pokemon Go Gym Rankings are the world's #1 most accurate, showing the top attackers and defenders for gyms based on your preferences.",
-            "image": "https://static.pokebattler.com/images/og_gym_rankings.png"
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
         },
         "welcome": {
             "title": "Welcome to Pokebattler Rankings 2.0!",
@@ -35,7 +35,7 @@
         "title": "Pokemon Go {{typeSelection}}",
         "meta": {
             "description": "Pokebattler's Pokemon Go {{typeSelection}} are customizable based on level of attacker, level of defender, dodging ability and more!",
-            "image": "https://static.pokebattler.com/images/og_gym_rankings.png"
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
         },
         "descriptions": {
             "title": "About these Rankings",

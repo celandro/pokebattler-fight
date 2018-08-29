@@ -2,7 +2,7 @@
     "title": "Raid Counters",
     "meta": {
         "description": "Find Pokemon Go raid counters with weather, friendship and even your own Pokebox.  Get the 24 best counters with the world's #1 most accurate raid guide customized to your exact specifications.",
-        "image": "https://static.pokebattler.com/images/og_raid_counters.png"
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "linkLabel": "Raid Counters",
     "intro": "Pokemon Go raids are here! Find out which Pokémon will counter raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
@@ -87,7 +87,7 @@
         "title": "{{defender}} Counters",
         "meta": {
             "description": "Pokemon Go {{defender}} raid guide: The World's #1 Most accurate guide with over 1,000,000 provides the top 24 counters for beating this raid boss.",
-            "image": "https://static.pokebattler.com/images/og_raid_counters.png"
+            "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
         },
         "calculating": "Calculating Raid Results",
         "counters": {
