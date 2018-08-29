@@ -48,7 +48,7 @@
         "title": "Raid Advice Details for {{attacker}} vs {{defender}}",
         "meta": {
             "description": "Pokemon Go Raid Advice Details for {{attacker}} vs. {{defender}} shows breakpoints and stardust efficiency",
-            "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+            "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
         },
         "subTitle": "{{attacker}} vs. {{defender}}",
         "description": "The result of each Power Up of a {{attacker}} vs. a {{defender}} raid boss is shown below. The results will vary based on the moves of {{defender}}.",
