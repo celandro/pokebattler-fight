@@ -49,7 +49,7 @@
       "title": "{{attacker.name}} vs. {{defender.name}} Battle Simulation",
       "meta": {
         "description": "Gym battle results for {{attacker.name}} with {{attacker.quickMove}} and {{attacker.specialMove}} vs. {{defender.name}} with {{defender.quickMove}} and {{defender.specialMove}}",
-        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
+        "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
       }
     },
 
