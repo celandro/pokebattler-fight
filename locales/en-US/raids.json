@@ -86,7 +86,7 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "Pokemon Go {{defender}} raid guide: The World's #1 Most accurate guide with over 1,000,000 provides the top 24 counters for beating this raid boss.",
+            "description": "Pokemon Go {{defender}} raid guide: The World's #1 Most accurate guide. See the top 24 counters for beating {{defender}}!",
             "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
         },
         "calculating": "Calculating Raid Results",
