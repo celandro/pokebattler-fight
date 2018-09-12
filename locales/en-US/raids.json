@@ -1,7 +1,11 @@
 {
     "title": "Raid Counters",
+    "meta": {
+        "description": "Find Pokemon Go raid counters with weather, friendship and even your own Pokebox. Get the 24 best counters with the world's #1 custom raid guide.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
     "linkLabel": "Raid Counters",
-    "intro": "Pokemon Go Raids are here! Find out which Pokémon will counter raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
+    "intro": "Pokemon Go raids are here! Find out which Pokémon will counter raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
     "tierList": {
         "common": {
             "boss": "Boss",
@@ -80,7 +84,11 @@
         "attackersLabel": "Attackers"
     },
     "results": {
-        "title": "Raid Guide",
+        "title": "{{defender}} Counters",
+        "meta": {
+            "description": "Pokemon Go {{defender}} raid guide: The World's #1 Most accurate guide. See the top 24 counters for beating {{defender}}!",
+            "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+        },
         "calculating": "Calculating Raid Results",
         "counters": {
             "title": "counters",
@@ -104,7 +112,7 @@
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
-        "description": "Welcome to the Pokebattler raid guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options.",
+        "description": "Welcome to the Pokebattler raid counters guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options.",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of Patreon subscribers. Patreon subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
             "link":"See all the benefits you get for signing up",
