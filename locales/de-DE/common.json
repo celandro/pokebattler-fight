@@ -198,5 +198,12 @@
         "title": "Zusatztrainer",
         "description": "Die Zahl der zusätzlichen Trainer die dir helfen, den Boss zu besiegen. Du wählst die Kampfgruppen für jeden der Angreifer. Das Freundschaftslevel sollte das Maximum sein, was sie mit anderen Spielern haben und nicht mit dir."
     },
-    "friendLevels": "Freundschaftslevel"
+    "friendLevels": "Freundschaftslevel",
+    "shiny": "Schillernd",
+    "lucky": "Glück",
+    "seconds": "Sekunden",
+    "rejoin": {
+        "label": "Wiederbeitrittszeit",
+        "default": "Niemals"
+    }
 }
