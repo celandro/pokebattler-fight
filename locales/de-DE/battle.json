@@ -1,5 +1,5 @@
 {
-    "title": "Arena Kampf Simulator",
+    "title": "Arena Kampfsimulator",
     "startButton": "Kampf",
     "attacker": "Angreifer",
     "attackerPlaceHolder": "$t(attacker) auswählen",

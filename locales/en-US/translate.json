@@ -1,5 +1,10 @@
 {
   "title": "Help Translate Pokebattler",
+  "meta": {
+    "description": "Pokebattler Translate lets users help us translate the site so everyone can use the World's #1 Most accurate Pokemon Go Simulator.",
+    "image": "https://static.pokebattler.com/images/og_more_translate.jpg"
+  },
+
   "info": "This site is set up to be translated to multiple languages! You can help make the site easier to use for your friends who do not speak English.",
   "how": "Translating is done using a web tool called Weblate and can be found at {{link}}. You need to create an account, choose your languages and begin making suggestions for translations. These translations will be reviewed and in general automatically accepted.",
   "rewards": "Special rewards normally only available for Patreon supporters are available for translaters who make a significant contribution. This includes more Pokemon for your Pokebox and higher quality custom simulations."
