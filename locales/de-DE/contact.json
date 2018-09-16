@@ -21,5 +21,9 @@
             "title": "Facebook Verbindung",
             "subtitle": "Lass deine Freunde von uns wissen"
         }
+    },
+    "meta": {
+        "description": "Sende uns eine Nachricht oder folge uns in den sozialen Medien um die neusten Updates für den weltweit genausten Pokemon Go Simulator zu erhalten",
+        "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
     }
 }
