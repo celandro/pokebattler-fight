@@ -97,5 +97,8 @@
     "quickMoves": "Attaques Immédiates",
     "specialMoves": "Attaques Chargées",
     "choosePokemon": "Choisir un Pokémon",
-    "type": "Type"
+    "type": "Type",
+    "friendLevels": "Niveau d'amitié",
+    "shiny": "Chromatique",
+    "lucky": "Chanceux"
 }
