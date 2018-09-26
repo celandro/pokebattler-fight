@@ -91,7 +91,7 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "Pokemon Go {{defender}} raid guide: The World's #1 Most accurate guide. See the top 24 counters for beating {{defender}}!",
+            "description": "The best Pokemon Go level 35 general raid counters vs. {{defender}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
             "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
         },
         "calculating": "Calculating Raid Results",
