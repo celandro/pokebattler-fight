@@ -92,7 +92,7 @@
         "title": "{{defender}} Counters",
         "meta": {
             "description": "The best Pokemon Go level 35 general raid counters vs. {{defender}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
-            "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
         },
         "calculating": "Calculating Raid Results",
         "counters": {
