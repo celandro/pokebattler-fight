@@ -53,7 +53,9 @@
         "stardust": "Sternenstaub",
         "candy": "Bonbons",
         "tdo": "Schaden (TDO)",
-        "maxCP": "Max $t(common:cp)"
+        "maxCP": "Max $t(common:cp)",
+        "estimator": "Schätzer",
+        "level": "$t(common:level)"
     },
     "sectionLinks": {
         "help": "Hilfebereich",
@@ -161,7 +163,30 @@
             "help": "Hilfe",
             "about": "Über uns",
             "contact": "Kontakt",
-            "translate": "Übersetzungshilfe"
+            "translate": "Übersetzung",
+            "gym": "$t(gym)",
+            "simulator": "Simulator",
+            "counters": "Konter",
+            "battleParties": "$t(battleParties)",
+            "account": "Mein Profil",
+            "more": "Mehr",
+            "privacy": "Datenschutz",
+            "pvp": "$t(pvp)",
+            "news": "Neuigkeiten"
+        },
+        "description": {
+            "gym": "Arena Kampfsimulationen, Pokedex und Ranglisten",
+            "raids": "Beste Konter, Raid Kampfgruppensimulationen und Aufwerthilfe",
+            "pvp": "PvP Simulationen",
+            "help": "Anleitungen, Begriffe und Definitionen",
+            "account": "Passe Pokebattler an, in dem du Pokemon zu deiner Pokebox und Kampfgruppen hinzufügst",
+            "more": "Neuigkeiten, Artikel, Übersetzungen, Wie du zu uns Kontakt aufnimmst und mehr"
+        },
+        "tooltip": {
+            "gym": "Arena Kampfsimulationen, Pokedex, Angreifer- und Verteidigerranglisten und mehr für Pokemon Go",
+            "raids": "Finde die besten Konter, führe volle Raid Simulationen aus, bekommen Hinweise welche Pokemon du aufwerten solltest und mehr für Pokemon Go Raids",
+            "pvp": "Sieh was passiert, wenn du deine Freunde herausforderst",
+            "more": "Lies Neuigkeiten und Artikel, lade Infografikten, hilf uns zu übersetzen, über uns und Datenschutzrichtlinen für Pokebatller für Pokemon Go"
         }
     },
     "randomAssistants": {
@@ -171,6 +196,14 @@
     },
     "explicitAssistants": {
         "title": "Zusatztrainer",
-        "description": "Die Zahl der zusätzlichen Trainer die dir helfen, den Boss zu besiegen. Du wählst die Kampfgruppen für jeden der Angreifer"
+        "description": "Die Zahl der zusätzlichen Trainer die dir helfen, den Boss zu besiegen. Du wählst die Kampfgruppen für jeden der Angreifer. Das Freundschaftslevel sollte das Maximum sein, was sie mit anderen Spielern haben und nicht mit dir."
+    },
+    "friendLevels": "Freundschaftslevel",
+    "shiny": "Schillernd",
+    "lucky": "Glück",
+    "seconds": "Sekunden",
+    "rejoin": {
+        "label": "Wiederbeitrittszeit",
+        "default": "Niemals"
     }
 }
