@@ -5,7 +5,9 @@
             "title": "Les contres",
             "moveSetOrderingDescription": "Les combinaisons d'attaques sont classées de la plus difficile à la plus facile à affronter, assurez-vous d'en vérifier plusieurs, les résultats peuvent grandement varier!",
             "chooseMovesetLabel": "Choisissez la combinaison d'attaques",
-            "subtitle": "Meilleurs Attaquants par"
+            "subtitle": "Meilleurs Attaquants par",
+            "description": "L'analyse ci-dessous montre les Pokémon les plus forts en raid en termes de {{sort}} contre {{pokemon}}.",
+            "difficultyNote": "Les boss de raids étant beaucoup plus difficiles que les combats normaux, vous devriez réfléchir soigneusement à vos différentes options."
         },
         "hardestMovesets": {
             "title": "Raids les plus difficiles",
@@ -14,10 +16,20 @@
             "description": "La difficulté du Raid peut grandement varier en fonction de la combinaison d'attaques du Pokémon défenseur!"
         },
         "analysis": {
-            "title": "À propos de cette analyse"
+            "title": "À propos de cette analyse",
+            "attackers": {
+                "byLevel": "attaquants de niveau {{attackerLevel}}",
+                "pokebox": "le Pokémon personnalisé de la Pokébox de l'utilisateur #{{userId}}"
+            }
         },
         "title": "Guide des Raids",
-        "calculating": "Calcul des Résultats du Raid"
+        "calculating": "Calcul des Résultats du Raid",
+        "description": "Bienvenue dans le guide de raid Pokebattler pour {{pokemon}}. Vous pouvez trouver les meilleurs contres en fonction des attaques de chaque boss. Ce guide est modifiable de plusieurs façons. Vous pouvez choisir le niveau et la stratégie d'attaque que vous souhaitez utiliser, ainsi que diverses options de tri.",
+        "patreon": {
+            "description": "Des résultats plus fidèles pour les attaques inconnues sont disponibles grâce au soutien des abonnés sur Patreon. Les abonnés sur Patreon bénéficient — entre autres — de davantage d'espace dans leur Pokébox, et d'une meilleure précision sur toutes leurs simulations.",
+            "link": "Consulter tous les avantages réservés aux abonnés",
+            "thanks": "Merci pour votre soutien !"
+        }
     },
     "title": "Guide de Raid",
     "tierList": {
@@ -75,6 +87,10 @@
         "RAID_LEVEL_4_LEGACY": {
             "title": "Anciens Raids de Niveau 4",
             "subtitle": "Raid Difficile en Groupe"
+        },
+        "RAID_LEVEL_5_FUTURE": {
+            "subtitle": "Raid Légendaire",
+            "intro": "Ces raids de Niveau 5 ne sont pas encore dans le jeu ! Leurs stats et attaques sont toujours susceptibles de changer."
         }
     },
     "intro": "Les raids de Pokemon Go sont là ! Trouvez les meilleurs pokemons pour vaincre le boss du raid avec le guide de raid le plus précis du monde. Sélectionnez simplement ci dessous le raid pour voir les meilleurs contres pour chacune des capacités du boss!",
@@ -83,5 +99,26 @@
         "levelsLabel": "Niveaux des Attaquants",
         "buttonLabel": "Trouvez le meilleur attaquant",
         "attackersLabel": "Attaquants"
+    },
+    "pokebox": {
+        "login": "Le Guide de Raid Pokebattler peut être personnalisé pour n'inclure que les Pokémon que vous possédez, en utilisant votre Pokébox personnelle. Connectez-vous, ajoutez vos meilleurs Pokémon à votre Pokébox, et vous pourrez alterner entre ne voir que les meilleurs Pokémon que vous avez dans votre Pokébox, et voir tous les meilleurs Pokémon afin de mieux prévoir vos combats de Raid.",
+        "enabled": "Résultats personnalisés pour votre Pokébox. Les 24 meilleurs contres que vous possédez sont affichés ci-dessous.",
+        "disabled": "Résultats pour des attaquants de niveau {{level}}. Les 24 meilleurs contres à ce niveau sont affichés ci-dessous.",
+        "friend": "Résultats pour l'utilisateur #{{userId}}. Leurs 24 meilleurs contres sont affichés ci-dessous."
+    },
+    "emptyResults": {
+        "LEVEL": "Aucun résultat n'a été renvoyé pour ce calcul. Il est possible que le serveur ait rencontré un problème.",
+        "POKEBOX": "Aucun résultat n'a été renvoyé pour ce calcul. Avez-vous bien d'abord ajouté des Pokémon à votre Pokébox ?",
+        "FRIEND": "Aucun résultat n'a été renvoyé pour ce calcul. Votre ami a-t-il bien d'abord ajouté des Pokémon à sa Pokébox ? Essayez un autre dresseur."
+    },
+    "people": {
+        "title": "Estimateur Pokebattler",
+        "difficultyRating": "Score de difficulté : {{rating}}",
+        "adviceLink": "Voir ce qu'il se passe en rechargeant",
+        "estimate": {
+            "almost": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Si vous êtes très chanceux, vous arriverez peut-être à le battre avec 1 dresseur de moins.",
+            "trivial": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Ce combat sera terminé avant même d'avoir commencé : c'est si facile que vous pourriez simplement utiliser les suggestions du jeu et tout de même gagner.",
+            "normal": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Prenez soin de bien préparer votre groupe avant le combat."
+        }
     }
 }
