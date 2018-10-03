@@ -100,5 +100,7 @@
     "type": "Type",
     "friendLevels": "Niveau d'amitié",
     "shiny": "Chromatique",
-    "lucky": "Chanceux"
+    "lucky": "Chanceux",
+    "note": "Note",
+    "aggregation": "Chanceux à quel point ?"
 }
