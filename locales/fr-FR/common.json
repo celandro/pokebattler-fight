@@ -128,7 +128,7 @@
     "yAxis": "Axe des Y",
     "spinner": {
         "battle": "Simulation des résultats de combat. Cela ne devrait pas être long",
-        "raid": "Recherche du meilleur contre parmi tous les attaquants possibles. Cela ne devrait pas être long"
+        "raid": "Recherche du meilleur contre parmi tous les attaquants possibles. Cela ne devrait pas être long."
     },
     "patreon": {
         "ad1": "Pokebattler fonctionne sans pub. Merci de nous soutenir sur Patreon pour que cela continue. Vous aurez un plus grand espace dans votre Pokébox, des simulations plus précises et d'autres fonctionnalités !",
