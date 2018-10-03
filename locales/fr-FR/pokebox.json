@@ -1,5 +1,5 @@
 {
-    "title": "Pokebox",
+    "title": "Pokébox",
     "blurb": "Ajoutez vos Pokémon pour des résultats personnalisés !",
     "pokemonList": {
         "title": "Votre Pokebox personnalisée",
@@ -7,7 +7,7 @@
         "zeroDescription": "Si vous avez déjà ajouté des pokémons par le passé, vous avez peut-être ouvert une session avec un autre compte. Vos comptes seront automatiquement liés s'ils utilisent la même adresse mail."
     },
     "add": {
-        "title": "Pokebox",
+        "title": "Pokébox",
         "description": "Ajouter un pokémon",
         "pokemon": "Choisir un pokémon",
         "pokemonSelect": "Choisir un pokémon"
