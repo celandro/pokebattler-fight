@@ -5,12 +5,25 @@
     "email": "Envoyez-moi un message privé à",
     "facebook": "Connectez-vous sur Facebook",
     "meta": {
-        "description": "Envoyez-nous un message ou suivez-nous sur les réseaux sociaux pour connaître les dernières mises à jour du Simulateur de Pokémon Go le plus précis au monde"
+        "description": "Envoyez-nous un message ou suivez-nous sur les réseaux sociaux pour connaître les dernières mises à jour du Simulateur de Pokémon Go le plus précis au monde",
+        "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
     },
     "button": {
         "reddit": {
-            "title": "En parler sur Reddit",
+            "title": "Discuter sur Reddit",
             "subtitle": "Actualités et Annonces dans /r/pokebattler"
+        },
+        "twitter": {
+            "title": "M'envoyer un Tweet",
+            "subtitle": "Actualités et messages en tous genres de @Pokebattler_com"
+        },
+        "youtube": {
+            "title": "Regarder nos vidéos",
+            "subtitle": "Guides de Raid et Tutoriels Vidéo de Pokebattler"
+        },
+        "facebook": {
+            "title": "Nous retrouver sur Facebook",
+            "subtitle": "Parlez de nous à vos amis"
         }
     }
 }
