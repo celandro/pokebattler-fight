@@ -1,6 +1,6 @@
 {
     "title": "Pokebox",
-    "blurb": "Füge dein Pokemon für angepasste Ergebnisse hinzu!",
+    "blurb": "Füge dein Pokemon für angepasste Ergebnisse hinzu! Du kannst deine Pokoemon eins nach dem anderen hinzufügen, indem du den blauen Plus-Button am unteren rechten Ende benutzt. Du kannst ebenso den Import benutzen um deine Pokemon aus anderen Apps zu laden. Der Sortierbutton befindet sich oben recht um dir zu helfen, deine Pokemon zu finden",
     "pokemonList": {
         "title": "Deine Pokebox",
         "zero": "Füge deine Pokemon hinzu, indem du die Box links anklickst.",
@@ -80,5 +80,8 @@
     },
     "meta": {
         "description": "Speichere deine Pokemon Go Pokemon für angepasste Raid Ergebnisse und mehr!"
+    },
+    "export": {
+        "button": "Massenexport"
     }
 }
