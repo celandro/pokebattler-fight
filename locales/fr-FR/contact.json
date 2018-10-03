@@ -15,15 +15,15 @@
         },
         "twitter": {
             "title": "M'envoyer un Tweet",
-            "subtitle": "Actualités et messages en tous genres de @Pokebattler_com"
+            "subtitle": "Actualités et messages au hasard de @Pokebattler_com"
         },
         "youtube": {
-            "title": "Regarder nos vidéos",
-            "subtitle": "Guides de Raid et Tutoriels Vidéo de Pokebattler"
+            "title": "Regardez nos vidéos",
+            "subtitle": "Guides de Raids et Didacticiels Vidéos de Pokebattler"
         },
         "facebook": {
-            "title": "Nous retrouver sur Facebook",
-            "subtitle": "Parlez de nous à vos amis"
+            "title": "Se connecter avec Facebook",
+            "subtitle": "Parlez-en à vos amis"
         }
     }
 }
