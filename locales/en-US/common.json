@@ -20,6 +20,14 @@
     "aggregation": "How Lucky?",
     "choosePokemon": "Choose Pokemon",
     "friendLevels": "Friend Level",
+    "shiny": "Shiny",
+    "lucky": "Lucky",
+    "seconds": "Seconds",
+    "rejoin": {
+        "label":"Rejoin Time",
+        "default": "Never"
+    },
+
     "stats": {
         "attack": "Attack",
         "defense": "Defense",

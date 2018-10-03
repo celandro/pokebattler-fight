@@ -40,7 +40,12 @@
         "damage": "Dégat",
         "powerups": "Rechargements",
         "stardust": "Poussières étoile",
-        "candy": "Bonbon"
+        "candy": "Bonbon",
+        "overall": "Global",
+        "power": "Puissance",
+        "energy": "Energie",
+        "grouped": "Groupé",
+        "single": "Unique"
     },
     "sectionLinks": {
         "help": "Rubrique d'aide",
@@ -88,5 +93,12 @@
     },
     "stardust": {
         "title": "Poussière étoile disponible"
-    }
+    },
+    "quickMoves": "Attaques Immédiates",
+    "specialMoves": "Attaques Chargées",
+    "choosePokemon": "Choisir un Pokémon",
+    "type": "Type",
+    "friendLevels": "Niveau d'amitié",
+    "shiny": "Chromatique",
+    "lucky": "Chanceux"
 }

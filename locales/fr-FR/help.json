@@ -50,7 +50,8 @@
             "link": "/help/faqs"
         },
         "raidAdvice": {
-            "title": "Pokebattler Advice est une fonctionnalité personnalisée conçue pour optimiser votre Pokebox pour des raids spécifiques. Sélectionnez simplement le Boss de Raid pour lequel vous désirez connaître les meilleurs Pokémon avec lesquels l'affronter, et entrez votre quantité de poussières d'étoiles et de bonbons que vous possédez pour savoir de quoi ils auront l'air après que vous les avez recharger. Cette fonction vous aidera à décider quels Pokémon gagneront le plus de cette poussière d'étoile et de ces bonbons, et ce pour que vous les dépensiez de la manière la plus efficace."
+            "title": "",
+            "link": "/help/raid-advice"
         }
     },
     "intro": "Bienvenue sur Pokebattler.com ! Le plus sophistiqué et le meilleur simulateur d'arènes et de raid jamais inventé sur Pokemon GO. Vous voulez savoir ce qu'il en est de ce Ronflex ? Essayez chacun de vos pokémons pour voir comment il se comportent en combat d'arène. Un rapport complet du combat, attaque après attaque, est disponible.",
