@@ -464,7 +464,7 @@
         "BRINE": "鹽水",
         "WATER_PULSE": "水之波動",
         "SCALD": "熱水",
-        "HYDRO_PUMP": "水炮",
+        "HYDRO_PUMP": "水砲",
         "PSYCHIC": "精神強念",
         "PSYSTRIKE": "精神擊破",
         "ICY_WIND": "冰凍之風",
@@ -603,10 +603,11 @@
         "TAKE_DOWN_FAST": "猛撞",
         "WRAP": "緊束",
         "YAWN_FAST": "哈欠",
-        "RANDOM": "未知圖騰",
+        "RANDOM": "未知",
         "FRENZY_PLANT": "瘋狂植物",
         "BLAST_BURN": "爆炸烈焰",
-        "SMACK_DOWN_FAST": "擊落"
+        "SMACK_DOWN_FAST": "擊落",
+        "CROSS_POISON": "十字毒藥"
     },
     "types": {
         "POKEMON_TYPE_NONE": "未知",
@@ -1081,5 +1082,10 @@
         }
     },
     "levelVs": "{{attackerLevel}} 級攻擊方 Vs. {{defenderLevel}} 級防禦方",
-    "pokeboxVsLevel": "寶可夢背包{{userId}} 攻擊方 Vs. {{defenderLevel}}級 防守方"
+    "pokeboxVsLevel": "寶可夢背包{{userId}} 攻擊方 Vs. {{defenderLevel}}級 防守方",
+    "weatherConditions": {
+        "NO_WEATHER": {
+            "label": "極端"
+        }
+    }
 }

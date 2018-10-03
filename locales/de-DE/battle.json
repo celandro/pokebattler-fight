@@ -1,5 +1,5 @@
 {
-    "title": "Kampf Simulator",
+    "title": "Arena Kampfsimulator",
     "startButton": "Kampf",
     "attacker": "Angreifer",
     "attackerPlaceHolder": "$t(attacker) auswählen",
@@ -50,5 +50,8 @@
         }
     },
     "runAgain": "Diese Zufallssimulation erneut durchführen",
-    "runSolo": "Starte einen Einzelversuch"
+    "runSolo": "Starte einen Einzelversuch",
+    "raidBattlePartyTitle": "Raid Kampfgruppensimulator",
+    "pvpTitle": "PvP Kampfsimulator",
+    "addBattleParty": "Speichere diese Kampfgruppe"
 }
