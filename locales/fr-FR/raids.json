@@ -79,19 +79,25 @@
         },
         "RAID_LEVEL_2_LEGACY": {
             "title": "Anciens Raids de Niveau 2",
-            "subtitle": "Raid Difficile en Solo"
+            "subtitle": "Raid Difficile en Solo",
+            "intro": "Actuellement, ces raids ne sont pas disponibles."
         },
         "RAID_LEVEL_3_LEGACY": {
             "title": "Anciens Raids de Niveau 3",
-            "subtitle": "Raid Facile en Groupe"
+            "subtitle": "Raid Facile en Groupe",
+            "intro": "Actuellement, ces raids ne sont pas disponibles."
         },
         "RAID_LEVEL_4_LEGACY": {
             "title": "Anciens Raids de Niveau 4",
-            "subtitle": "Raid Difficile en Groupe"
+            "subtitle": "Raid Difficile en Groupe",
+            "intro": "Actuellement, ces raids ne sont pas disponibles."
         },
         "RAID_LEVEL_5_FUTURE": {
             "subtitle": "Raid Légendaire",
             "intro": "Ces raids de Niveau 5 ne sont pas encore dans le jeu ! Leurs stats et attaques sont toujours susceptibles de changer."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Rang 5 Historique"
         }
     },
     "intro": "Les raids de Pokémon Go sont là ! Trouvez les meilleurs Pokémon pour vaincre le boss du raid avec le guide de raid le plus précis du monde. Sélectionnez simplement ci dessous le raid pour voir les meilleurs contres pour chacune des capacités du boss !",
