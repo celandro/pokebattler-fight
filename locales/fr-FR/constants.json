@@ -756,7 +756,7 @@
             },
             "DODGE_REACTION_TIME": {
                 "label": "Esquive réaliste",
-                "description": "Simule un esquiveur humain réaliste. Les chances d'esquive varient de 50% pour une attaque chargée rapide (1 seconde) à 90% pour une attaque chargée lente (3,5 secondes). De plus, si l'attaquant utilise des coups Super Efficaces ou Peu Efficaces, une pénalité de 25% est appliquée, amenant les chances d'esquive entre 37,5% et 67,5%. Enfin, un léger bonus est ajouté aux attaques plus rapides, selon leur vitesse par rapport au flash d'esquive. "
+                "description": "Simule un esquiveur humain réaliste. Les chances d'esquive varient de 50% pour une attaque chargée rapide (1 seconde) à 90% pour une attaque chargée lente (3,5 secondes). De plus, si l'attaquant utilise des coups Super Efficaces ou Peu Efficaces, une pénalité de 25% est appliquée, amenant les chances d'esquive entre 37,5% et 67,5%. Enfin, un léger bonus est ajouté aux attaques plus rapides, selon leur vitesse par rapport au flash d'esquive."
             },
             "DODGE_REACTION_TIME2": {
                 "label": "Esquive Réaliste Pro",
@@ -778,7 +778,7 @@
             },
             "DEFENSE_LUCKY": {
                 "label": "Défenseur chanceux",
-                "description": "Ce qu'on peut redouter de pire. Les attaques immédiates se produisent toutes les 1,95s, et les attaques chargées dès qu'elles sont possibles."
+                "description": "Ce qu'on peut redouter de pire. Les attaques immédiates se produisent toutes les 1,95s, et les attaques chargées dès qu'elles sont possibles"
             },
             "DEFENSE_RANDOM_MC_FAST": {
                 "label": "Monte Carlo - Bronze",
@@ -790,15 +790,15 @@
             },
             "DEFENSE_RANDOM_MC_EX": {
                 "label": "Monte Carlo - Platine",
-                "description": "Un avantage spécial pour les donateurs au rang \"Fanatic\" sur Patreon. Un résultat extrêmement précis. 500 simulations aléatoires sont effectuées et compilées pour obtenir un résultat global. Le résultat médian, basé sur le score global, est utilisé pour le rapport de combat à titre d'exemple. Surtout utile pour consulter les centiles."
+                "description": "Un avantage spécial pour les donateurs au rang \"Fanatic\" sur Patreon. Un résultat extrêmement précis. 500 simulations aléatoires sont effectuées et compilées pour obtenir un résultat global. Le résultat médian, basé sur le score global, est utilisé pour le rapport de combat à titre d'exemple. Surtout utile pour consulter les centiles"
             },
             "DEFENSE_PATTERN": {
                 "label": "Modèle de Défense - RNG",
-                "description": "Un générateur de nombres aléatoires très prévisible est utilisé pour cette simulation. Utilisé en interne par Pokebattler pour optimiser les simulations Monte Carlo avec esquives aléatoires."
+                "description": "Un générateur de nombres aléatoires très prévisible est utilisé pour cette simulation. Utilisé en interne par Pokebattler pour optimiser les simulations Monte Carlo avec esquives aléatoires"
             },
             "DEFENSE_PATTERN2": {
                 "label": "Modèle de Défense",
-                "description": "Un profil de délais et d'attaques est utilisé pour cette simulation. Utilisé en interne par Pokebattler pour optimiser les simulations Monte Carlo sans esquives."
+                "description": "Un profil de délais et d'attaques est utilisé pour cette simulation. Utilisé en interne par Pokebattler pour optimiser les simulations Monte Carlo sans esquives"
             }
         }
     },
@@ -852,7 +852,7 @@
         },
         "PERCENTILE_95": {
             "label": "Très chanceux - 95%",
-            "description": "Trie les résultats des simulations Monte Carlo par Score Global et en renvoie le 95ème centile"
+            "description": "Trie les résultats des simulations Monte Carlo par Score Global et en renvoie le 95ème centile."
         },
         "PERCENTILE_75": {
             "label": "Chanceux - 75%",
