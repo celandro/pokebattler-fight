@@ -24,7 +24,11 @@
             "description": "La difficulté du Raid peut grandement varier en fonction de la combinaison d'attaques du Pokémon défenseur!"
         },
         "analysis": {
-            "title": "À propos de cette analyse"
+            "title": "À propos de cette analyse",
+            "attackers": {
+                "byLevel": "attaquants de niveau {{attackerLevel}}",
+                "pokebox": "le Pokémon personnalisé de la Pokébox de l'utilisateur #{{userId}}"
+            }
         },
         "calculating": "Calcul des Conseils de Raid"
     }
