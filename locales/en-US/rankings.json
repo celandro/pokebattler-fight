@@ -1,6 +1,10 @@
 {
     "index": {
-        "title": "Rankings",
+        "title": "Gym Rankings",
+        "meta": {
+            "description": "Pokebattler's Pokemon Go Gym Rankings are the world's #1 most accurate, showing the top attackers and defenders for gyms based on your preferences.",
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
+        },
         "welcome": {
             "title": "Welcome to Pokebattler Rankings 2.0!",
             "paragraph1": "Welcome to the new, state of the art personalized rankings section of Pokebattler. Unlike other sites, you get to choose exactly what combination of settings you wish to build your own customized rankings! This site is extremely customizable, allowing you to choose your attacker level, defender level, attack strategy, dodge strategy, sort and grouping options.",
@@ -28,7 +32,11 @@
         }
     },
     "list": {
-        "title": "Pokemon Go Combat Rankings",
+        "title": "Pokemon Go {{typeSelection}}",
+        "meta": {
+            "description": "Pokebattler's Pokemon Go {{typeSelection}} are customizable based on level of attacker, level of defender, dodging ability and more!",
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
+        },
         "descriptions": {
             "title": "About these Rankings",
             "text": "This {{type}} ranking is based off simulating combat with level {{levels.attacker}} attackers battling level {{levels.defender}} defenders. The ranking simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) simulation type. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
@@ -39,14 +47,16 @@
             "attackers": "attackers",
             "defenders": "defenders",
             "details": {
-                "attackers": "each fully evolved pokemon attacker with every possible moveset simulated against the best 30 CP defenders with every possible moveset with the Expected strategy. The top 32 attackers were then run with the Monte Carlo strategy hundreds of times each. The best 24 attackers with their best moveset based on {{sort}} were kept and are displayed here.",
-                "defenders": "each possible moveset simulated against the best 30 CP, best 30 power, best 30 overall and best 30 time to win attackers with every possible moveset with the expected strategy. The top 32 defenders were kept and simulated against their best 15 counters with their best 5 movesets 300 times each. Finally the worst 5 counters for each pokemon were considered and used to find the best 24 defenders with their best moveset based on {{sort}} were kept and are displayed here."
+                "attackers": "each fully evolved pokemon attacker with every possible moveset simulated against the best 24 defenders with every possible moveset with the Expected strategy. The best 24 attackers with their best moveset based on {{sort}} were kept and are displayed here.",
+                "defenders": "each possible moveset simulated against attackers with every possible moveset with the expected strategy. The worst 6 counters for each pokemon were found and used to determine the best 24 defenders with their best moveset based on {{sort}} were kept and are displayed here."
             }
         },
         "loading": "Generating {{type}} ranking results. Many millions of simulations were required to perform this analysis but the results will be soon",
         "typeSelection": {
             "attacker": "Attacker Rankings",
-            "defender": "Defender Rankings"
+            "defender": "Defender Rankings",
+            "attackers": "$t(rankings:list.typeSelection.attacker)",
+            "defenders": "$t(rankings:list.typeSelection.defender)"
         },
         "settings": {
             "level": "Pokemon Levels"

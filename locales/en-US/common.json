@@ -20,6 +20,14 @@
     "aggregation": "How Lucky?",
     "choosePokemon": "Choose Pokemon",
     "friendLevels": "Friend Level",
+    "shiny": "Shiny",
+    "lucky": "Lucky",
+    "seconds": "Seconds",
+    "rejoin": {
+        "label":"Rejoin Time",
+        "default": "Never"
+    },
+
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
@@ -38,6 +46,7 @@
     "type": "Pokemon Type",
     "properties": {
         "overall": "Overall",
+        "estimator": "Estimator",
         "power": "Power",
         "win": "Win %",
         "deaths": "Deaths",
@@ -60,7 +69,9 @@
         "stardust": "Stardust",
         "candy": "Candy",
         "tdo": "Damage (TDO)",
-        "maxCP": "Max $t(common:cp)"
+        "maxCP": "Max $t(common:cp)",
+        "level": "$t(common:level)"
+
     },
     "sectionLinks": {
         "help": "Help section",

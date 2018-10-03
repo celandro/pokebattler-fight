@@ -1,10 +1,10 @@
 {
-    "title": "$t(constants:pokemon.{{pokemon}}) Kampfanalyse",
+    "title": "{{defender}} Konter und Angriffsbegegnungen",
     "intro": "Willkommen zum Pokebattler Pokedex für $t(constants:pokemon.{{pokemon}}). Du findest $t(constants:pokemon.{{pokemon}})s besten Angriffs- und Verteidigungsattackenmuster sowie seine schwierigsten Zweikämpfe sowie die Besten Konter für seine Verteidigung. Auf diesem Weg weißt du, welche Pokemon du im Kampf meiden solltest und wie du diesen nervigen Verteidiger besiegst. Fühle dich frei die verschiedenen Optionen unten und ihren Effekt auf die Kampfsituationen auszuprobieren oder ändere die Sortierung nach deinen Wünschen. Wie immer sind die Ergebnisse auf dieser Seite generiert durch den Pokebattler Pokemon Go Kampfsimulator. Du kannst bei jeder individuellen Simulation tiefergehen indem du auf das Bild deines Pokemon-Gegners klickst",
     "loading": "Generiere detaillierte Kampfanalyse für $t(constants:pokemon.{{pokemon}}). Mehr als eine Million Simulationen sind notwendig um diese Seite zu generieren. Wird allerdings nicht lange dauern.",
     "about": {
         "title": "Über diese Kampfanalyse",
-        "text1": "Diese Pokemon-Analyse basiert auf der Simulatioen von Level {{attackerLevel}} Angreifern, die mit Level {{defenderLevel}} Verteidigern kämpfen. Die Ranglisten-Simulation lief mit der {{attackStrategy}} Angriffsstrategie die {{dodgeStrategy]] benutzend auf Bases des Monte Carlo Simulationstyps. Zuerst wurden die besten 32 Konter und die 32 besten Duelle gefunden, indem auf Basis der Erwartungsstrategie jedes voll entwickelte Pokemon mit jedem möglichen Angriffsmuster als Angreifer sowohl auch Verteidiger gegen {{pokemon}} simuliert wurde. Hunderte von Monte Carlo Simulationen wurden ausgeführt gegen die 5 besten Angriffsmuster für diese 32 Konter/Duelle in insgesamt {{simulationCount}} Simulationen. Die besten 24 Konter sowie die 24 schlimmsten Duelle wurden mit ihrem besten Angriffsmuster basierend auf {{sort}} behalten und hier angezeigt.",
+        "text1": "Diese Analysefür {{pokemon}} basiert auf der Simulatioen von Level {{attackerLevel}} Angreifern, die mit Level {{defenderLevel}} Verteidigern kämpfen. Die Ranglisten-Simulation lief mit der {{attackStrategy}} Angriffsstrategie die {{dodgeStrategy]] benutzend auf Bases des Monte Carlo Simulationstyps. Zuerst wurden die besten 32 Konter und die 32 besten Duelle gefunden, indem auf Basis der Erwartungsstrategie jedes voll entwickelte Pokemon mit jedem möglichen Angriffsmuster als Angreifer sowohl auch Verteidiger gegen {{pokemon}} simuliert wurde. Hunderte von Monte Carlo Simulationen wurden ausgeführt gegen die 5 besten Angriffsmuster für diese 32 Konter/Duelle in insgesamt {{simulationCount}} Simulationen. Die besten 24 Konter sowie die 24 schlimmsten Duelle wurden mit ihrem besten Angriffsmuster basierend auf {{sort}} behalten und hier angezeigt.",
         "text2": "Du kannst auf jeden beliebigen Angreifer klicken um die Ergebnisse dieser bestimmten Simulation anzusehen. Sortierreihenfolge kann geändert werden, indem du auf das Sortiersymbol oben rechts aufwählst und deine bevorzugte Sortierung wählst",
         "text3": {
             "text": "Zusätzliche Informationen können in der {{link}} gefunden werden",
@@ -30,5 +30,9 @@
         "title": "Besten Konter",
         "subtitle": "Nach $t(common:properties.{{sort}})",
         "text": "Die folgende Analyse zeigt Level {{attackerLevel}} Pokemon, welche die stärksten Angreifer nach $t(common:properties.{{sort}}) gegen ein Level {{defenderLevel}} $t(constants:pokemon.{{pokemon}}) sind. Diese sind die besten Pokemon, falls $t(constants:pokemon.{{pokemon}}) eine Arena verteidigt."
+    },
+    "meta": {
+        "description": "Pokemon Go {{defender}} Pokedex ist ein anpassbarer Guide zu den Kontern von {{defender}} und zu den Pokemon, zu welchen {{defender}} die besten Angriffsbegegnungen hat.",
+        "image": "https://static.pokebattler.com/images/og_gym_pokedex.jpg"
     }
 }

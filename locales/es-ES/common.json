@@ -14,5 +14,6 @@
     "attackStrategy": "Estrategia de Ataque",
     "defenseStrategy": "Tipo de Simulación",
     "dodgeStrategy": "Estrategia de Esquivar",
-    "weatherCondition": "Clima"
+    "weatherCondition": "Clima",
+    "delete": "Eliminar"
 }
