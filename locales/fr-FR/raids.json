@@ -97,7 +97,8 @@
             "intro": "Ces raids de Niveau 5 ne sont pas encore dans le jeu ! Leurs stats et attaques sont toujours susceptibles de changer."
         },
         "RAID_LEVEL_5_LEGACY": {
-            "title": "Rang 5 Historique"
+            "title": "Rang 5 Historique",
+            "subtitle": "Raid Légendaire"
         }
     },
     "intro": "Les raids de Pokémon Go sont là ! Trouvez les meilleurs Pokémon pour vaincre le boss du raid avec le guide de raid le plus précis du monde. Sélectionnez simplement ci dessous le raid pour voir les meilleurs contres pour chacune des capacités du boss !",
