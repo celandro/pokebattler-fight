@@ -75,7 +75,7 @@
         "RAID_LEVEL_1_LEGACY": {
             "title": "Anciens Raids de Niveau 1",
             "subtitle": "Raid Facile en Solo",
-            "intro": "Ces raids ne sont pas pour le moment disponible."
+            "intro": "Ces raids ne sont pas disponibles actuellement."
         },
         "RAID_LEVEL_2_LEGACY": {
             "title": "Anciens Raids de Niveau 2",
