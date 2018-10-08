@@ -183,7 +183,8 @@
             "more": "More",
             "privacy": "Privacy",
             "pvp": "$t(pvp)",
-            "news": "News"
+            "news": "News",
+            "profiles": "Public Profiles"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",

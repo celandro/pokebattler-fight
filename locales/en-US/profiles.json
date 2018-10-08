@@ -1,0 +1,13 @@
+{
+  "search": {
+    "description": "Find your friends! You may search by trainer name or by trainer id."
+  },
+  "profile": {
+    "title":"User #{{profileId}} Public Profile",
+    "description": "This feature is in BETA. Pokebattler profiles are now shareable. For now, all you can do is show your friends the pokemon that you have but more to come! ",
+    "meta": {
+      "description": "View the public profile for User #{{profileId}}. See what pokemon {{name || 'he'}} is using",
+      "image": "https://static.pokebattler.com/images/og_home.png"
+    }
+  }
+}
