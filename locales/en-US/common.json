@@ -23,6 +23,7 @@
     "shiny": "Shiny",
     "lucky": "Lucky",
     "seconds": "Seconds",
+    "find": "Find",
     "rejoin": {
         "label":"Rejoin Time",
         "default": "Never"
@@ -183,7 +184,8 @@
             "more": "More",
             "privacy": "Privacy",
             "pvp": "$t(pvp)",
-            "news": "News"
+            "news": "News",
+            "profiles": "Public Profiles"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
@@ -191,6 +193,7 @@
             "pvp": "Pvp Simulations",
             "help": "Tutorials, Terms and Definitions",
             "account": "Customize Pokebattler By Adding Pokemon To Your Pokebox and Battle Parties",
+            "profiles": "Find what Pokemon your friends have in their Pokebox",
             "more": "News, Articles, Translations, How To Contact Us and More"
         },
         "tooltip": {

@@ -1,0 +1,28 @@
+{
+  "search": {
+    "title": "Pokebattler Public Profiles",
+    "description": "Find your friends! You may search by trainer name or by Pokebattler user id.  This feature is designed to allow you to quickly share with your friends the contents of your pokebox!",
+    "meta": {
+      "description": "View the public profile of other Pokebattler users.",
+      "image": "https://static.pokebattler.com/images/og_home.png"
+    },
+    "id": {
+      "title": "Search by User Id",
+      "subtitle": "User Id can be found in the upper right corner",
+      "label": "Pokebattler User #"
+    },
+    "name": {
+      "title": "Search by Name",
+      "subtitle": "Enter a Trainer Name"
+    }
+
+  },
+  "profile": {
+    "title": "User #{{profileId}} Public Profile",
+    "description": "This feature is in BETA. Pokebattler profiles are now shareable. For now, all you can do is show your friends the pokemon that you have but more to come! ",
+    "meta": {
+      "description": "View the public profile for User #{{profileId}}. See what pokemon {{name || 'he'}} is using",
+      "image": "https://static.pokebattler.com/images/og_home.png"
+    }
+  }
+}
