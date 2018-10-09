@@ -20,6 +20,15 @@
     "aggregation": "How Lucky?",
     "choosePokemon": "Choose Pokemon",
     "friendLevels": "Friend Level",
+    "shiny": "Shiny",
+    "lucky": "Lucky",
+    "seconds": "Seconds",
+    "find": "Find",
+    "rejoin": {
+        "label":"Rejoin Time",
+        "default": "Never"
+    },
+
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
@@ -38,6 +47,7 @@
     "type": "Pokemon Type",
     "properties": {
         "overall": "Overall",
+        "estimator": "Estimator",
         "power": "Power",
         "win": "Win %",
         "deaths": "Deaths",
@@ -60,7 +70,9 @@
         "stardust": "Stardust",
         "candy": "Candy",
         "tdo": "Damage (TDO)",
-        "maxCP": "Max $t(common:cp)"
+        "maxCP": "Max $t(common:cp)",
+        "level": "$t(common:level)"
+
     },
     "sectionLinks": {
         "help": "Help section",
@@ -172,7 +184,8 @@
             "more": "More",
             "privacy": "Privacy",
             "pvp": "$t(pvp)",
-            "news": "News"
+            "news": "News",
+            "profiles": "Public Profiles"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
@@ -180,6 +193,7 @@
             "pvp": "Pvp Simulations",
             "help": "Tutorials, Terms and Definitions",
             "account": "Customize Pokebattler By Adding Pokemon To Your Pokebox and Battle Parties",
+            "profiles": "Find what Pokemon your friends have in their Pokebox",
             "more": "News, Articles, Translations, How To Contact Us and More"
         },
         "tooltip": {

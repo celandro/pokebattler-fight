@@ -1,7 +1,25 @@
 {
   "title": "Gym Battle Simulator",
+  "meta": {
+    "description": "Pokebattler Gym Simulator gives the World's #1 most accurate results for gym battles including weather bonuses and second by second analysis.",
+    "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
+  },
   "raidBattlePartyTitle": "Raid Battle Party Simulator",
-  "pvpTitle": "PvP Battle Simulator",
+  "raid": {
+    "title": "Raid Simulator",
+    "meta": {
+      "description": "Pokebattler Raid Simulator is the World's #1 most accurate. Get results for up to 20 battle parties, friends bonuses and weather bonuses.",
+      "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+    }
+  },
+  "pvp" : {
+    "title": "PvP Simulator",
+    "meta": {
+      "description": "Pokebattler PvP Simulator lets you battle your friends Pokemon to see how comes out on top with the World's #1 Most accurate simulator.",
+      "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+    }
+  },
+  "recommended": "Recommended",
   "startButton": "Battle",
   "attacker": "Attacker",
   "attackerPlaceHolder": "Choose $t(attacker)",
@@ -19,6 +37,7 @@
     "parameterTitle": "Change Parameter"
   },
   "results": {
+
     "title": {
       "base": "Battle Result: You",
       "win": "$t(results.title.base) win!",
@@ -26,10 +45,28 @@
     },
     "about": "About this Battle",
     "description": "A level {{attacker.level}} {{attacker.name}} with {{attacker.cp}} CP {{result}} a level {{defender.level}} {{defender.name}} with {{defender.cp}} CP in this battle simulation. The attacking {{attacker.name}} was using {{attacker.quickMove}} as its quick and {{attacker.specialMove}} as its special move. The defending {{defender.name}} was using {{defender.quickMove}} as its quick and {{defender.specialMove}} as its special move. The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the {{strategies.defense}} simulation type with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
+    "gym": {
+      "title": "{{attacker.name}} vs. {{defender.name}} Battle Simulation",
+      "meta": {
+        "description": "Gym battle results for {{attacker.name}} with {{attacker.quickMove}} and {{attacker.specialMove}} vs. {{defender.name}} with {{defender.quickMove}} and {{defender.specialMove}}",
+        "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+      }
+    },
+
     "battleParty": {
+      "title": "{{attacker.name}} vs. {{defender.name}} Raid Simulation",
+      "meta": {
+        "description": "Raid simulator results for {{attacker.name}} vs. {{defender.name}} with {{defender.quickMove}} and {{defender.specialMove}}",
+        "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+      },
       "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} a {{defender.tier}} {{defender.name}} with {{defender.cp}} CP in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the {{strategies.defense}} simulation type with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
     },
     "pvp" : {
+      "title": "{{attacker.name}} vs. {{defender.name}} PvP Simulation",
+      "meta": {
+        "description": "PvP simulator results for {{attacker.name}} vs. {{defender.name}}",
+        "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+      },
       "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseDodge}} with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
     },
     "help": {
@@ -52,5 +89,6 @@
     "logTitle": "Combat Log"
   },
   "runAgain": "Run this random simulation again",
-  "runSolo": "Run as solo attempt"
+  "runSolo": "Run as solo attempt",
+  "addBattleParty": "Save this battle party"
 }
