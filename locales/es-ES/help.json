@@ -41,6 +41,9 @@
         },
         "faqs": {
             "link": "/help/faqs"
+        },
+        "raidAdvice": {
+            "title": "Asesoramiento de excursiones"
         }
     },
     "title": "Cómo utilizar Pokebattler",
