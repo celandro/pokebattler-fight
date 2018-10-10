@@ -3,5 +3,8 @@
     "description": "Inicia sesion para accesar a tu Pokebox y simulaciones personalizadas",
     "privacy": "Para mas informacion, revisa nuestra poliza de privacidad",
     "loading": "Cargando datos de usuario",
-    "user": "Usuario"
+    "user": "Usuario",
+    "login": {
+        "google": "Inicia sesion con Google"
+    }
 }
