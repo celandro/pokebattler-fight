@@ -38,6 +38,7 @@
     "intro": "Bienvenido a Pokebattler.com! El MEJOR y mas sofisticado simulador de gimnasios de Pokemon Go jamas inventado. Te gustaria saber mas sobre ese Snorlax? Prueba cada uno de tus pokemon y ve como compiten directamente con otros pokemon en el gimnasio. Obtendras un reporte de daño segundo a segundo para cada batalla.",
     "now-battle": "Ahora a pelear contra esos Pokemon!",
     "pageNotFound": {
-        "title": "Esta página no existe"
+        "title": "Esta página no existe",
+        "text": "Lo sentimos,no pudimos encontrar la pagina que estabas buscando"
     }
 }
