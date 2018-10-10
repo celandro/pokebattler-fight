@@ -76,6 +76,9 @@
             "outro": {
                 "title": "A Luchar!",
                 "text": "Los resultados completos del combate seran mostrados. Sientete libre de salirte y probar otras combinaciones"
+            },
+            "steps[0]": {
+                "label": "Escribe en la barra de busqueda"
             }
         }
     }
