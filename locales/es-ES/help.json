@@ -25,7 +25,8 @@
             "description": "Descubre cuales pokemon son los mejores atacantes y defensores en promedio"
         },
         "simulations": {
-            "link": "/help/simulations"
+            "link": "/help/simulations",
+            "title": "Simulaciones"
         },
         "attackStrategies": {
             "link": "/help/attack-strategies"
