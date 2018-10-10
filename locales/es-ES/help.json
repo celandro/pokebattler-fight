@@ -117,7 +117,8 @@
                 "description": "Elige el tipo de clasificacion que deseas (Ve Abajo)"
             },
             "steps[2]": {
-                "label": "Nivel"
+                "label": "Nivel",
+                "description": "Elige el nivel de el pokemon atacante y defensor"
             }
         }
     }
