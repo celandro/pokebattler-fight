@@ -7,6 +7,7 @@
     "login": {
         "google": "Inicia sesion con Google",
         "facebook": "Inicia sesion con Facebook",
-        "patreon": "Inicia sesion con Patreon"
+        "patreon": "Inicia sesion con Patreon",
+        "patreonDescription": "Los patrocinadores de patreon tienen recompensas que incluyen: Mas Pokemon en su Pokebox, Simulaciones personalizadas de mas alta calidad y una hoja de calculo de Google con recomendaciones para excursiones"
     }
 }
