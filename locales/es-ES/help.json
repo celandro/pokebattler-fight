@@ -65,5 +65,10 @@
     "pageNotFound": {
         "title": "Esta página no existe",
         "text": "Lo sentimos,no pudimos encontrar la pagina que estabas buscando"
+    },
+    "sections": {
+        "battle": {
+            "title": "Batalla"
+        }
     }
 }
