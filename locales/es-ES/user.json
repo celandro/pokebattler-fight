@@ -5,6 +5,7 @@
     "loading": "Cargando datos de usuario",
     "user": "Usuario",
     "login": {
-        "google": "Inicia sesion con Google"
+        "google": "Inicia sesion con Google",
+        "facebook": "Inicia sesion con Facebook"
     }
 }
