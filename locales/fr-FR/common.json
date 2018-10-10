@@ -37,10 +37,17 @@
         "prestige": "Prestige",
         "dps": "DPS",
         "potions": "Potions",
-        "damage": "Dégat",
+        "damage": "Dégât",
         "powerups": "Rechargements",
         "stardust": "Poussières étoile",
-        "candy": "Bonbon"
+        "candy": "Bonbon",
+        "overall": "Global",
+        "power": "Puissance",
+        "energy": "Énergie",
+        "grouped": "Groupé",
+        "single": "Unique",
+        "id": "Id",
+        "tdo": "Dégâts (totaux)"
     },
     "sectionLinks": {
         "help": "Rubrique d'aide",
@@ -51,42 +58,133 @@
     "hd": {
         "attackers": "Attaquants",
         "defenders": "défenseurs",
-        "raid": "raid"
+        "raid": "raid",
+        "text": "$t(simulation, {'count': {{numSims}} }) ont été réalisées pour générer cette simulation de haute qualité"
     },
     "name": "Nom",
     "nickname": "Pseudonyme",
-    "faction": "Faction",
+    "faction": "Équipe",
     "mystic": "Sagesse",
     "valor": "Bravoure",
     "instinct": "Intuition",
     "trainerName": "Nom de dresseur",
     "attackerTypes": {
-        "pokebox": "Ma Pokebox",
-        "level": "Par niveau"
+        "pokebox": "Ma Pokébox",
+        "level": "Par niveau",
+        "friend": "Leur Pokébox"
     },
-    "pokebox": "Pokebox",
+    "pokebox": "Pokébox",
     "trainer": "Dresseur",
     "more": "Plus",
     "pokemon": "Pokémon",
     "status": {
         "add": "Ajouter",
         "success": "Succès",
-        "error": "Erreur"
+        "error": "Erreur",
+        "newVersion": "Nouvelle version"
     },
     "message": {
-        "bulk": "Importation de masse {{num}} pokémon, cela peut prendre un peu de temps",
-        "delete": "Retrait {{num}} pokémon de votre Pokebox",
+        "bulk": "Importation de masse de {{num}} pokémon, cela peut prendre un peu de temps",
+        "delete": "Retrait de {{num}} pokémon de votre Pokébox",
         "update": "Mise à jour de vos pokémon",
         "success": "Succès",
-        "error": "Oups, quelque chose s'est mal passé. Réessayez dans quelques secondes"
+        "error": "Oups, quelque chose s'est mal passé. Réessayez dans quelques secondes",
+        "deleteAll": "Retrait de tous les Pokémon de votre Pokébox",
+        "newVersion": "Une nouvelle version est disponible, rechargez la page"
     },
     "site": {
-        "www": "Site principal"
+        "www": "Site principal",
+        "beta": "Site en version Bêta"
     },
     "candy": {
-        "title": "Bonbon disponible"
+        "title": "Bonbons disponibles"
     },
     "stardust": {
         "title": "Poussière étoile disponible"
+    },
+    "quickMoves": "Attaques Immédiates",
+    "specialMoves": "Attaques Chargées",
+    "choosePokemon": "Choisir un Pokémon",
+    "type": "Type",
+    "friendLevels": "Niveau d'amitié",
+    "shiny": "Chromatique",
+    "lucky": "Chanceux",
+    "note": "Note",
+    "aggregation": "Chanceux à quel point ?",
+    "seconds": "Secondes",
+    "rejoin": {
+        "default": "Jamais"
+    },
+    "chooseMovesetLabel": "Choisissez les Attaques",
+    "advice": "Conseils de Raid",
+    "login": "Se connecter",
+    "trainers": "Dresseurs",
+    "battleParty": "Équipe de combat",
+    "battleParties": "Équipes de combat",
+    "raids": "Raids",
+    "gym": "Arène",
+    "pvp": "JcJ",
+    "xAxis": "Axe des X",
+    "yAxis": "Axe des Y",
+    "spinner": {
+        "battle": "Simulation des résultats de combat. Cela ne devrait pas être long",
+        "raid": "Recherche du meilleur contre parmi tous les attaquants possibles. Cela ne devrait pas être long."
+    },
+    "patreon": {
+        "ad1": "Pokebattler fonctionne sans pub. Merci de nous soutenir sur Patreon pour que cela continue. Vous aurez un plus grand espace dans votre Pokébox, des simulations plus précises et d'autres fonctionnalités !",
+        "ad2": "Enregistrez-vous gratuitement sur Patreon et obtenez 25 places supplémentaires dans votre Pokébox. Il suffit de se connecter en utilisant son compte Patreon, aucune donation n'est requise.",
+        "ad3": "Optimisez vos raids. Connectez-vous avec Patreon pour des résultats plus précis et des fonctionnalités spéciales.",
+        "ad4": "Vous aimez Pokebattler ? Aidez-nous à rester sans pub. Créez votre compte Patreon et obtenez plus d'espace, de meilleurs résultats, des outils exclusifs et plus encore.",
+        "ad5": "Pokebattler existe grâce à nos supporteurs Patreon. Créez gratuitement votre compte dès à présent pour 25 places supplémentaires dans votre Pokébox.",
+        "ad6": "Améliorez votre niveau de jeu avec un compte Pokebattler Patreon. Inscrivez-vous !"
+    },
+    "menu": {
+        "follow": "Suivez-nous !",
+        "mainMenu": {
+            "articles": "Articles",
+            "tools": "Outils",
+            "battle": "Combat",
+            "simulator": "Simulateur",
+            "rankings": "Classements",
+            "pokedex": "Pokédex",
+            "raids": "Raids",
+            "personal": "Personnel",
+            "trainer": "Dresseur",
+            "pokebox": "Pokébox",
+            "raidAdvice": "Conseils de Raid",
+            "misc": "Divers",
+            "help": "Aide",
+            "about": "À propos",
+            "contact": "Contact",
+            "translate": "Traduction",
+            "counters": "Contres",
+            "account": "Mon compte",
+            "more": "Plus",
+            "privacy": "Confidentialité",
+            "news": "Actualités"
+        },
+        "description": {
+            "gym": "Simulations de Combats d'Arènes, Pokédex et Classements",
+            "raids": "Meilleurs Contres, Simulations avec Équipes de Combat en Raid et Conseils de Rechargement",
+            "pvp": "Simulations JcJ",
+            "help": "Didacticiels, Lexique et Définitions",
+            "account": "Personnalisez Pokebattler avec vos propres Pokémon et Équipes de Combat",
+            "more": "Actualités, Articles, Traductions, Comment Nous Contacter, et Plus"
+        },
+        "tooltip": {
+            "gym": "Simulations de combats d'Arènes, Pokédex, classements d'attaquants et défenseurs et plus pour Pokémon Go",
+            "raids": "Trouvez les meilleurs contres, réalisez des simulations de raid complètes, voyez quel Pokémon recharger et plus pour les Raids de Pokémon Go",
+            "pvp": "Voyez ce qui se passe si vous combattez avec vos amis",
+            "more": "Lisez les Actualités et articles, téléchargez des graphiques, aidez-nous à traduire, à propos de nous, et règles de confidentialité pour Pokebattler pour Pokémon Go"
+        }
+    },
+    "randomAssistants": {
+        "title": "Dresseurs aléatoires supplémentaires",
+        "default": "Automatique",
+        "description": "Le nombre de dresseurs aléatoires supplémentaires nécessaire pour vous aider à vaincre le boss. Pour les boss de raid de rang 4 et 5, 5 équipes de combat aléatoires vous assistent par défaut."
+    },
+    "explicitAssistants": {
+        "title": "Dresseurs supplémentaires",
+        "description": "Le nombre de dresseurs aléatoires supplémentaires nécessaire pour vous aider à vaincre le boss. Vous avez choisi les équipes de chacun d'entre eux. Leur niveau d'amitié doit être le niveau maximum qu'ils ont avec les autres joueurs du raid, pas le niveau d'amitié que vous avez avec eux."
     }
 }

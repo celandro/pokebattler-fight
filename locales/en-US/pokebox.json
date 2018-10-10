@@ -1,8 +1,14 @@
 {
     "title": "Pokebox",
-    "blurb": "Add your Pokemon for custom results!",
+    "meta": {
+        "description": "Store your Pokemon Go Pokemon for custom raid results and more!"
+    },
+    "blurb": "Add your Pokemon for custom results!  You can add your Pokemon one at a time using the blue circle in the bottom right. You also have the option of using the bulk import functionality to add Pokemon from other apps. There is a sort button in the top right to help you find your Pokemon",
     "pokemonList": {
         "title": "Your Custom Pokebox",
+        "meta": {
+            "description": "Store your Pokemon Go Pokemon for custom raid results and more!"
+        },
         "zero": "Add your Pokemon by clicking the box to the left.",
         "zeroDescription": "If you already added Pokemon in the past, you may have logged in with a different account. Your accounts will automatically be linked if they use the same email address.",
         "zeroHelp": "If they do not have the same email address, {{link}} with the userIds of the accounts you need to link",
@@ -11,6 +17,9 @@
     },
     "add": {
         "title": "Pokebox",
+        "meta": {
+            "description": "Add a Pokemon to your Pokebox"
+        },
         "description": "Add Pokemon",
         "pokemon": "Choose Pokemon",
         "pokemonSelect": "Choose Pokemon"
@@ -18,12 +27,21 @@
     "deleteAll": {
         "button": "Delete All",
         "title": "Delete All",
+        "meta": {
+            "description": "Remove a Pokemon from your Pokebox."
+        },
         "confirmation": "This will delete all Pokemon in your Pokebox, are you sure?",
         "irreversible": "This cannot be undone!"
+    },
+    "export": {
+        "button": "Bulk Export"
     },
     "import": {
         "button": "Bulk Import",
         "title": "Pokebox Import",
+        "meta": {
+            "description": "Add Pokemon to your Pokebox from 3rd party programs."
+        },
         "description": "Import Pokemon",
         "parse": "Begin Import",
         "hintText": "Many formats are supported. Make sure to include a header row.",
@@ -35,6 +53,9 @@
     },
     "update": {
         "title": "Pokebox",
+        "meta": {
+            "description": "Update your Pokemon in your Pokebox"
+        },
         "description": "Modify {{name}}"
     },
     "loading": "Loading your Pokemon",
@@ -47,10 +68,16 @@
     "explanation": "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not.",
     "delete": {
       "title": "Delete",
+        "meta": {
+            "description": "Delete a Pokemon from your Pokebox"
+        },
       "blurb": "You can quickly delete multiple pokemon at a time here. You can quickly clear out more space in your pokebox. Just select each pokemon you want to delete. When you are done, scroll to the bottom to find the Delete button.",
       "button": "Bulk Delete",
       "bulk": {
         "title": "Delete",
+          "meta": {
+              "description": "Bulk Delete Pokemon from your Pokebox."
+          },
         "toolbarTitle": "Bulk Delete",
         "confirmation": "This will delete {{num}} Pokemon from your Pokebox, are you sure?"
       },
