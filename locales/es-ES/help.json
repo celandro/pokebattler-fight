@@ -7,7 +7,8 @@
         },
         "battleSimulator": {
             "link": "/help/battle-simulator",
-            "title": "Simulador de batallas"
+            "title": "Simulador de batallas",
+            "description": "Simula cualquier enfrentamiento con el simulador mas certero de Pokemon Go en el mundo"
         },
         "pokebox": {
             "link": "/help/pokebox"
