@@ -82,7 +82,8 @@
                 "description": "Elige los atacantes y a los defensores que deseas enfrentar"
             },
             "steps[1]": {
-                "label": "Modo Básico"
+                "label": "Modo Básico",
+                "description": "Ingresa el PC, no te preocupes acerca de tus caracteristicas ocultas, nosotros lo averiguaremos por ti lo mejor que podamos."
             }
         }
     }
