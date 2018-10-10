@@ -16,7 +16,8 @@
             "description": "Guarda tus pokemon en nuestros servidores y usalos a traves del sitio"
         },
         "pokedex": {
-            "link": "/help/pokedex"
+            "link": "/help/pokedex",
+            "title": "Pokedex"
         },
         "rankings": {
             "link": "/help/rankings"
