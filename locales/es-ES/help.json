@@ -74,7 +74,8 @@
                 "text": "El simulador de Pokebattler es altamente preciso y te permite personalizar tu combate de muchas formas. Algunas opciones incluyen:"
             },
             "outro": {
-                "title": "A Luchar!"
+                "title": "A Luchar!",
+                "text": "Los resultados completos del combate seran mostrados. Sientete libre de salirte y probar otras combinaciones"
             }
         }
     }
