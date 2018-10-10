@@ -24,9 +24,11 @@
     },
     "loggedIn": {
         "title": "Public Profile",
+        "description": "You have successfully logged in. Fill out your trainer information below, then click on the Pokebox to add your Pokemon for custom results. Then create Battle Parties for use for custom raid results.",
         "meta": {
             "description": "Store your Pokemon Go User Info and Pokemon."
-        }
+        },
+        "profileButton": "Your Profile"
     },
     "logout": {
         "title": "Logged out",

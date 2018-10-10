@@ -1,7 +1,7 @@
 {
-    "title": "Raid-Guide",
-    "linkLabel": "Raid-Guide",
-    "intro": "Pokemon Go Raids sind da! Finde heraus, welches Pokemon Raid-Bosse am besten besiegt mit dem weltbesten einstellbarem Pokemon Go Raid-Guide. Wähle einfach den Raid unten und sieh die besten Kämpfer dagegen für jedes Attackenmuster!",
+    "title": "Raid-Konter",
+    "linkLabel": "Raid-Konter",
+    "intro": "Pokemon Go Raids sind da! Finde heraus, welches Pokemon Raid-Bosse am besten besiegt mit dem weltbesten einstellbarem Pokemon Go Raid-Kontern. Wähle einfach den Raid unten und sieh die besten Kämpfer dagegen für jedes Attackenmuster!",
     "tierList": {
         "common": {
             "boss": "Boss",
@@ -71,6 +71,11 @@
             "title": "Zukunft-Tier 5",
             "subtitle": "Legendärer Raid",
             "intro": "Diese Tier 5 Raids sind noch nicht im Spiel! Ihre Werte und Attacken werden sich vermutlich noch ändern."
+        },
+        "RAID_LEVEL_6": {
+            "title": "Rang 6",
+            "subtitle": "Legendärer Raid - Bonus Lp",
+            "intro": "Diese Raid haben Bonus Lp verglichen mit den Rang 6 Raids. Es ist unbekannt ob das eine permanente Änderung für Rang 5 ist. Sie werden of in Gruppen von 6-10 Level 30-40 Spieler gemacht. Einige Experten haben sogar welche mit 2-5 Spielern geschafft."
         }
     },
     "custom": {
@@ -80,7 +85,7 @@
         "attackersLabel": "Angreifer"
     },
     "results": {
-        "title": "Raid-Guide",
+        "title": "{{defender}} Konter",
         "calculating": "Berechne Raid Ergebnisse",
         "counters": {
             "title": " Konter",
@@ -104,11 +109,15 @@
                 "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
             }
         },
-        "description": "Willkommen zum Pokebattler Raid Guide für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung.",
+        "description": "Willkommen zum Pokebattler Raid Konter für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung.",
         "patreon": {
             "description": "Genauere Ergebnisse für unbekannte Attacken dank dem Support unserer Patreon Abonnenten. Patreon Abonnenten erhalten zusätzlichen Pokebox Platz, sogar noch genauere Ergebnisse für alle Attackenmuster und mehr.",
             "link": "Sieh dir alle Vorteile an, die du fürs anmelden erhälst",
             "thanks": "Danke für deine Unterstützung!"
+        },
+        "meta": {
+            "description": "Die besten Pokemon Go Level 35 allgemeinen Raid Konter gegen {{defender}} sind {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Schau dir deine eigenen Ergebnisse an!",
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
         }
     },
     "pokebox": {
@@ -139,5 +148,9 @@
     "helpLink": "Sieh dir das Raid Tutorial Video an",
     "battle": {
         "resultLink": "Sieh dir dieses Ergebnis als Kampfgruppe an"
+    },
+    "meta": {
+        "description": "Finde Pokemon Go Raid Konter mit Wetter, Freundschaft und sogar deinen eigenen Pokemon. Erhalte die 24 besten Konter mit dem weltweit besten angepasstem Raid Guide.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     }
 }
