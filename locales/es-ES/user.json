@@ -15,6 +15,7 @@
         }
     },
     "details": {
-        "welcome": "Bienvenido"
+        "welcome": "Bienvenido",
+        "description": "Tu informacion de entrenador debajo será utilizada para personalizar el sitio y será mostrada otros usuarios."
     }
 }
