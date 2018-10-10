@@ -6,6 +6,7 @@
     "user": "Usuario",
     "login": {
         "google": "Inicia sesion con Google",
-        "facebook": "Inicia sesion con Facebook"
+        "facebook": "Inicia sesion con Facebook",
+        "patreon": "Inicia sesion con Patreon"
     }
 }
