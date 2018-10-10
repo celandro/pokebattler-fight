@@ -40,7 +40,8 @@
             "description": "Definiciones para estrategias de esquivar"
         },
         "patreon": {
-            "link": "/help/patreon"
+            "link": "/help/patreon",
+            "title": "Patreon"
         },
         "glossary": {
             "link": "/help/glossary"
