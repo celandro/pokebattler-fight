@@ -80,6 +80,9 @@
             "steps[0]": {
                 "label": "Escribe en la barra de busqueda",
                 "description": "Elige los atacantes y a los defensores que deseas enfrentar"
+            },
+            "steps[1]": {
+                "label": "Modo Básico"
             }
         }
     }
