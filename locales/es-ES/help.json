@@ -41,7 +41,8 @@
         },
         "patreon": {
             "link": "/help/patreon",
-            "title": "Patreon"
+            "title": "Patreon",
+            "description": "Aprende cómo y por qué respaldarnos a traves de Patreon"
         },
         "glossary": {
             "link": "/help/glossary"
