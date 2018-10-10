@@ -43,7 +43,8 @@
             "link": "/help/faqs"
         },
         "raidAdvice": {
-            "title": "Asesoramiento de excursiones"
+            "title": "Asesoramiento de excursiones",
+            "description": "Descubre a cuales pokemon dar mas poder para vencer a un jefe de excursion"
         }
     },
     "title": "Cómo utilizar Pokebattler",
