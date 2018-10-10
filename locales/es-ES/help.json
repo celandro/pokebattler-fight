@@ -21,7 +21,8 @@
             "description": "Encuentra los mejores oponentes y los mejores enfrentamientos para cada pokemon"
         },
         "rankings": {
-            "link": "/help/rankings"
+            "link": "/help/rankings",
+            "description": "Descubre cuales pokemon son los mejores atacantes y defensores en promedio"
         },
         "simulations": {
             "link": "/help/simulations"
