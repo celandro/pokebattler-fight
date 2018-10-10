@@ -1,7 +1,8 @@
 {
     "pages": {
         "raids": {
-            "link": "/help/raids"
+            "link": "/help/raids",
+            "title": "Excursiones"
         },
         "battleSimulator": {
             "link": "/help/battle-simulator"
