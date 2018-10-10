@@ -12,7 +12,8 @@
         },
         "pokebox": {
             "link": "/help/pokebox",
-            "title": "Pokebox"
+            "title": "Pokebox",
+            "description": "Guarda tus pokemon en nuestros servidores y usalos a traves del sitio"
         },
         "pokedex": {
             "link": "/help/pokedex"
