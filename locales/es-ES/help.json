@@ -88,6 +88,9 @@
             "steps[2]": {
                 "label": "Modo Avanzado",
                 "description": "Ingresa el nivel exacto y caracteristicas ocultas de tu pokemon para la simulacion mas precisa posible"
+            },
+            "steps[3]": {
+                "label": "Elige tus movimientos"
             }
         }
     }
