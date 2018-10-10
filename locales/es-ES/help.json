@@ -31,7 +31,8 @@
         },
         "attackStrategies": {
             "link": "/help/attack-strategies",
-            "title": "Estrategias de ataque"
+            "title": "Estrategias de ataque",
+            "description": "Definiciones de estrategias de ataque"
         },
         "dodgeStrategies": {
             "link": "/help/dodge-strategies"
