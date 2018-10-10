@@ -26,7 +26,8 @@
         },
         "simulations": {
             "link": "/help/simulations",
-            "title": "Simulaciones"
+            "title": "Simulaciones",
+            "description": "Definiciones para todos los tipos de simulacion de Pokebattler"
         },
         "attackStrategies": {
             "link": "/help/attack-strategies"
