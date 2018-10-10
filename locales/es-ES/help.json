@@ -90,7 +90,8 @@
                 "description": "Ingresa el nivel exacto y caracteristicas ocultas de tu pokemon para la simulacion mas precisa posible"
             },
             "steps[3]": {
-                "label": "Elige tus movimientos"
+                "label": "Elige tus movimientos",
+                "description": "Intenta con todas las combinaciones de movimientos rapidos y cargados"
             }
         }
     }
