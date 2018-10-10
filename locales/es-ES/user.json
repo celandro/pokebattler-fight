@@ -13,5 +13,8 @@
             "title": "Sesion iniciada exitosamente",
             "fromApi": " $t(login.success.title)! Porfavor espere un poco para continuar."
         }
+    },
+    "details": {
+        "welcome": "Bienvenido"
     }
 }
