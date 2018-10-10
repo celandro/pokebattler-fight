@@ -36,7 +36,8 @@
         },
         "dodgeStrategies": {
             "link": "/help/dodge-strategies",
-            "title": "Estrategias para esquivar"
+            "title": "Estrategias para esquivar",
+            "description": "Definiciones para estrategias de esquivar"
         },
         "patreon": {
             "link": "/help/patreon"
