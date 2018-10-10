@@ -30,7 +30,8 @@
             "description": "Definiciones para todos los tipos de simulacion de Pokebattler"
         },
         "attackStrategies": {
-            "link": "/help/attack-strategies"
+            "link": "/help/attack-strategies",
+            "title": "Estrategias de ataque"
         },
         "dodgeStrategies": {
             "link": "/help/dodge-strategies"
