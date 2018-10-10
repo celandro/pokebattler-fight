@@ -35,7 +35,8 @@
             "description": "Definiciones de estrategias de ataque"
         },
         "dodgeStrategies": {
-            "link": "/help/dodge-strategies"
+            "link": "/help/dodge-strategies",
+            "title": "Estrategias para esquivar"
         },
         "patreon": {
             "link": "/help/patreon"
