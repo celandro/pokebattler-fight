@@ -103,6 +103,9 @@
             "intro": {
                 "title": "Personaliza tus clasificaciones",
                 "text": "Las clasificaciones de pokebattler son las mas avanzadas de todas! Ningun otro sitio te permite cambiar tus preferencias y comparar cualquiero otro pokemon bajo distintas circunstancias. Las opciones personalizacion incluyen:"
+            },
+            "outro": {
+                "title": "Investiga!"
             }
         }
     }
