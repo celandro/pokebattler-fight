@@ -113,7 +113,8 @@
                 "description": "Elige si estas atacando o defendiendo. Atacante muestra los resultados contra todos los defensores posibles. Defensor muestra los resultados contra los 6 mejores atacantes posibles"
             },
             "steps[1]": {
-                "label": "Ordenar"
+                "label": "Ordenar",
+                "description": "Elige el tipo de clasificacion que deseas (Ve Abajo)"
             }
         }
     }
