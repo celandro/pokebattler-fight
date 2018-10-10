@@ -122,6 +122,9 @@
             },
             "steps[3]": {
                 "description": "Elegir entre ver cada combinacion de movimientos o solo ver la mejor por pokemon"
+            },
+            "steps[4]": {
+                "label": "Elige tus estrategias"
             }
         }
     }
