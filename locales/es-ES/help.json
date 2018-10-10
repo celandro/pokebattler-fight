@@ -51,7 +51,8 @@
         },
         "faqs": {
             "link": "/help/faqs",
-            "title": "Preguntas frecuentes"
+            "title": "Preguntas frecuentes",
+            "description": "Recibimos muchas preguntas. A veces recibimos muchas de las mismas preguntas. Estas preguntas y sus respuestas se encuentran aqui"
         },
         "raidAdvice": {
             "title": "Asesoramiento de excursiones",
