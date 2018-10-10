@@ -115,6 +115,9 @@
             "steps[1]": {
                 "label": "Ordenar",
                 "description": "Elige el tipo de clasificacion que deseas (Ve Abajo)"
+            },
+            "steps[2]": {
+                "label": "Nivel"
             }
         }
     }
