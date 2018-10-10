@@ -84,6 +84,9 @@
             "steps[1]": {
                 "label": "Modo Básico",
                 "description": "Ingresa el PC, no te preocupes acerca de tus caracteristicas ocultas, nosotros lo averiguaremos por ti lo mejor que podamos."
+            },
+            "steps[2]": {
+                "label": "Modo Avanzado"
             }
         }
     }
