@@ -28,6 +28,7 @@
         "button": "Cerrar Sesion"
     },
     "roles": {
-        "title": "Informacion de cuenta"
+        "title": "Informacion de cuenta",
+        "heading": "Beneficios Actuales"
     }
 }
