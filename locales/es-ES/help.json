@@ -109,7 +109,8 @@
                 "text": "Las mejores combinaciones de movimientos para cada pokemon estan siendo mostradas. Dando click a un pokemon dara informacion detallada acerca de todas las combinaciones de movimientos"
             },
             "steps[0]": {
-                "label": "Atacante/Defensor"
+                "label": "Atacante/Defensor",
+                "description": "Elige si estas atacando o defendiendo. Atacante muestra los resultados contra todos los defensores posibles. Defensor muestra los resultados contra los 6 mejores atacantes posibles"
             }
         }
     }
