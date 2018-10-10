@@ -119,6 +119,9 @@
             "steps[2]": {
                 "label": "Nivel",
                 "description": "Elige el nivel de el pokemon atacante y defensor"
+            },
+            "steps[3]": {
+                "description": "Elegir entre ver cada combinacion de movimientos o solo ver la mejor por pokemon"
             }
         }
     }
