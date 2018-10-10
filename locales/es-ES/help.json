@@ -2,7 +2,8 @@
     "pages": {
         "raids": {
             "link": "/help/raids",
-            "title": "Excursiones"
+            "title": "Excursiones",
+            "description": "Elige los mejores oponentes para cualquier jefe con nuestra guia de excursiones personalizables"
         },
         "battleSimulator": {
             "link": "/help/battle-simulator"
