@@ -99,7 +99,10 @@
             }
         },
         "rankings": {
-            "title": "Clasificaciones"
+            "title": "Clasificaciones",
+            "intro": {
+                "title": "Personaliza tus clasificaciones"
+            }
         }
     }
 }
