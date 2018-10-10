@@ -70,7 +70,8 @@
         "battle": {
             "title": "Batalla",
             "intro": {
-                "title": "Prepara una batalla"
+                "title": "Prepara una batalla",
+                "text": "El simulador de Pokebattler es altamente preciso y te permite personalizar tu combate de muchas formas. Algunas opciones incluyen:"
             }
         }
     }
