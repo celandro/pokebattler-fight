@@ -50,7 +50,8 @@
             "description": "Un diccionario de Pokemon Go"
         },
         "faqs": {
-            "link": "/help/faqs"
+            "link": "/help/faqs",
+            "title": "Preguntas frecuentes"
         },
         "raidAdvice": {
             "title": "Asesoramiento de excursiones",
