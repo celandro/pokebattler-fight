@@ -1,37 +1,38 @@
 {
-  "pages": {
-    "raids": {
-      "link": "/help/raids"
+    "pages": {
+        "raids": {
+            "link": "/help/raids"
+        },
+        "battleSimulator": {
+            "link": "/help/battle-simulator"
+        },
+        "pokebox": {
+            "link": "/help/pokebox"
+        },
+        "pokedex": {
+            "link": "/help/pokedex"
+        },
+        "rankings": {
+            "link": "/help/rankings"
+        },
+        "simulations": {
+            "link": "/help/simulations"
+        },
+        "attackStrategies": {
+            "link": "/help/attack-strategies"
+        },
+        "dodgeStrategies": {
+            "link": "/help/dodge-strategies"
+        },
+        "patreon": {
+            "link": "/help/patreon"
+        },
+        "glossary": {
+            "link": "/help/glossary"
+        },
+        "faqs": {
+            "link": "/help/faqs"
+        }
     },
-    "battleSimulator": {
-      "link": "/help/battle-simulator"
-    },
-    "pokebox": {
-      "link": "/help/pokebox"
-    },
-    "pokedex": {
-      "link": "/help/pokedex"
-    },
-    "rankings": {
-      "link": "/help/rankings"
-    },
-    "simulations": {
-      "link": "/help/simulations"
-    },
-    "attackStrategies": {
-      "link": "/help/attack-strategies"
-    },
-    "dodgeStrategies": {
-      "link": "/help/dodge-strategies"
-    },
-    "patreon": {
-      "link": "/help/patreon"
-    },
-    "glossary": {
-      "link": "/help/glossary"
-    },
-    "faqs": {
-      "link": "/help/faqs"
-    }
-  }
+    "title": "Cómo utilizar Pokebattler"
 }
