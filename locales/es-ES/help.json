@@ -17,7 +17,8 @@
         },
         "pokedex": {
             "link": "/help/pokedex",
-            "title": "Pokedex"
+            "title": "Pokedex",
+            "description": "Encuentra los mejores oponentes y los mejores enfrentamientos para cada pokemon"
         },
         "rankings": {
             "link": "/help/rankings"
