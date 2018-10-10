@@ -26,5 +26,8 @@
         "description": "Tu sesion ha sido exitosamente finalizada. ¡Vuelve pronto en cualquier dispositivo y tu Pokebox estará ahi esperando por ti!",
         "back": "Regresar a inicio de sesion",
         "button": "Cerrar Sesion"
+    },
+    "roles": {
+        "title": "Informacion de cuenta"
     }
 }
