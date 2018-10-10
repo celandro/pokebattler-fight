@@ -11,7 +11,8 @@
             "description": "Simula cualquier enfrentamiento con el simulador mas certero de Pokemon Go en el mundo"
         },
         "pokebox": {
-            "link": "/help/pokebox"
+            "link": "/help/pokebox",
+            "title": "Pokebox"
         },
         "pokedex": {
             "link": "/help/pokedex"
