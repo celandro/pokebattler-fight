@@ -92,6 +92,9 @@
             "steps[3]": {
                 "label": "Elige tus movimientos",
                 "description": "Intenta con todas las combinaciones de movimientos rapidos y cargados"
+            },
+            "steps[4]": {
+                "label": "Elige tus estrategias"
             }
         }
     }
