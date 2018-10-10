@@ -45,7 +45,8 @@
             "description": "Aprende cómo y por qué respaldarnos a traves de Patreon"
         },
         "glossary": {
-            "link": "/help/glossary"
+            "link": "/help/glossary",
+            "title": "Glosario"
         },
         "faqs": {
             "link": "/help/faqs"
