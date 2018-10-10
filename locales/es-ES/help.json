@@ -97,6 +97,9 @@
                 "label": "Elige tus estrategias",
                 "description": "Personaliza la forma que los pokemon atacan y defienden. Ve las definiciones en la seccion debajo"
             }
+        },
+        "rankings": {
+            "title": "Clasificaciones"
         }
     }
 }
