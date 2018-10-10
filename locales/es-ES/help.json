@@ -105,7 +105,8 @@
                 "text": "Las clasificaciones de pokebattler son las mas avanzadas de todas! Ningun otro sitio te permite cambiar tus preferencias y comparar cualquiero otro pokemon bajo distintas circunstancias. Las opciones personalizacion incluyen:"
             },
             "outro": {
-                "title": "Investiga!"
+                "title": "Investiga!",
+                "text": "Las mejores combinaciones de movimientos para cada pokemon estan siendo mostradas. Dando click a un pokemon dara informacion detallada acerca de todas las combinaciones de movimientos"
             }
         }
     }
