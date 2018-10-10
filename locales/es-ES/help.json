@@ -46,7 +46,8 @@
         },
         "glossary": {
             "link": "/help/glossary",
-            "title": "Glosario"
+            "title": "Glosario",
+            "description": "Un diccionario de Pokemon Go"
         },
         "faqs": {
             "link": "/help/faqs"
