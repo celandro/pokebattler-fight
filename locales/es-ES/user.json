@@ -20,5 +20,8 @@
     },
     "loggedIn": {
         "title": "Perfil Publico"
+    },
+    "logout": {
+        "title": "Sesion Finalizada"
     }
 }
