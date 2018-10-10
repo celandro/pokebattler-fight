@@ -94,7 +94,8 @@
                 "description": "Intenta con todas las combinaciones de movimientos rapidos y cargados"
             },
             "steps[4]": {
-                "label": "Elige tus estrategias"
+                "label": "Elige tus estrategias",
+                "description": "Personaliza la forma que los pokemon atacan y defienden. Ve las definiciones en la seccion debajo"
             }
         }
     }
