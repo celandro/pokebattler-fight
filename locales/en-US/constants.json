@@ -710,7 +710,8 @@
         "FRENZY_PLANT": "Frenzy Plant",
         "BLAST_BURN": "Blast Burn",
         "SMACK_DOWN_FAST": "Smack Down",
-        "LAST_RESORT": "Last Resort"
+        "LAST_RESORT": "Last Resort",
+        "METEOR_MASH": "Meteor Mash"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
