@@ -7,5 +7,9 @@
     "sponsor": "Pokebattler.com ha sido auspiciado por {{link}}. Da un vistazo!",
     "privacy": "",
     "privacyLink": "",
-    "images": ""
+    "images": "",
+    "meta": {
+        "description": "En esta sección te explicamos qué es Pokebattler y cómo se convirtió en Simulador de Pokemon Go más preciso del mundo.",
+        "image": "https://static.pokebattler.com/images/og_more_about.jpg"
+    }
 }
