@@ -1,1 +1,38 @@
-{}
+{
+    "title": "Oponentes e Combinação de Ataque para {{defender}}",
+    "meta": {
+        "description": "Pokedex {{defender}} do Pokemon Go é um guia customizável para qual o melhor oponente do Pokemon {{defender}} e qual o melhor confronto para o Pokemon {{defender}}.",
+        "image": "https://static.pokebattler.com/images/og_gym_pokedex.jpg"
+    },
+    "intro": "Bem vindo ao Pokedex do Pokebattler para $t(constants:pokemon.{{pokemon}}). Você pode encontrar as melhores combinações de ataques para atacar e defender do $t(constants:pokemon.{{pokemon}}) assim como seus piores confrontos no ataque e melhores oponentes para ele como defensor. Desta forma você pode saber quais pokemon evitar em combates e como derrotar aquele incômodo defensor. Sinta-se a vontade para mudar as opções abaixo e ver o efeito de diferentes situações de combate ou mudar a ordenação a seu gosto. Como sempre, os resultados nesta página são gerados pelo Simulador de Batalhas Pokemon Go do Pokebattler. Você pode descer no nível de qualquer simulação individual simplesmente clicando na imagem do pokemon adversário",
+    "loading": "Gerando análises de batalha detalhadas para $t(constants:pokemon.{{pokemon}}). Mais de um milhão de simulações são necessárias para gerar esta página. Mas não vai demorar muito.",
+    "about": {
+        "title": "Sobre esta Análise de Batalha",
+        "text1": "Esta análise para {{pokemon}} é baseada em simulação de combate com atacantes nível {{attackerLevel}} enfrentando defensores nível {{defenderLevel}}. O ranking da simulação rodou com a estratégia de ataque {{attackStrategy}} usando {{dodgeStrategy}} baseada no tipo de simulação Monte Carlo. Primeiro os 32 melhores oponentes e 32 piores confrontos são encontrados usando a estratégia esperada comparando cada pokemon totalmente evoluído com todas as combinações de ataque tanto do atacante quanto defensor vs. {{pokemon}}. Centenas de simulações monte carlo são executadas contra cada um dos 5 melhores ataques para estes 32 adversários/confrontos num total de {{simulationCount}} simulações. Os melhores 24 oponentes assim como os piores 24 confrontos com seus melhores ataques baseados em {{sort}} são mantidos e mostrados aqui.",
+        "text2": "Você pode clicar em qualquer atacante para ver os resultados para aquela simulação particular. A ordem de ordenação pode ser alterada clicando o ícone de ordenação no lado direito superior de cada resultado e selecionar que ordenação você prefere",
+        "text3": {
+            "text": "Informações adicionais podem ser encontradas no link {{link}}",
+            "link": "sessão de ajuda"
+        }
+    },
+    "bestAttack": {
+        "title": "Melhores Movimentos para Ataque",
+        "subtitle": "Por $t(common:properties.{{sort}})",
+        "rankingTitle": "Estatísticas Média de Combate Vs. Piores 24 Confrontos"
+    },
+    "bestDefense": {
+        "title": "Melhores Movimentos de Defesa",
+        "subtitle": "Por $t(common:properties.{{sort}})",
+        "rankingTitle": "Estatísticas Média Combate Vs. 5 Melhores Oponentes"
+    },
+    "attackMatchups": {
+        "title": "Combinações de Ataque",
+        "subtitle": "Por $t(common:properties.{{sort}})",
+        "text": "A seguinte análise mostra os resultados versus os defensores {{defenderLevel}} mais difíceis para um  $t(constants:pokemon.{{pokemon}}) atacante nível {{attackerLevel}}. Este ranking é relativo a quão bem todos os atacantes são contra os defensores em termos de $t(common:properties.{{sort}}). Em resumo, use $t(constants:pokemon.{{pokemon}}) contra o pokemon no topo da lista!"
+    },
+    "bestCounters": {
+        "title": "Melhores Ofensores",
+        "subtitle": "Por $t(common:properties.{{sort}})",
+        "text": "A seguinte análise mostra pokemon {{attackerLevel}} que são os atacantes mais fortes em termos de $t(common:properties.{{sort}}) contra um $t(constants:pokemon.{{pokemon}}) nível {{defenderLevel}}. Estes são os melhores pokemon para usar se $t(constants:pokemon.{{pokemon}}) está defendendo o ginásio."
+    }
+}
