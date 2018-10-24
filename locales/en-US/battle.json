@@ -52,6 +52,51 @@
         "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
       }
     },
+    "explore": {
+      "title": "Explore this result",
+      "subtitle": "Drag and drop columns to perform custom analysis",
+      "select": "Chart Type",
+      "columns": {
+        "attackerId": "Id",
+        "attackerGroup": "Group",
+        "attackerOrder": "Order",
+        "battlePartyUserId": "User",
+        "battlePartyTrainer": "Trainer",
+        "combatTime": "Combat Time",
+        "currentTime": "Current Time",
+        "damageDealt": "Damage Out",
+        "damageReceived": "Damage In",
+        "energy": "Energy",
+        "move": "Move",
+        "moveType": "Move Type",
+        "attacker": "Attacker",
+        "defender": "Defender",
+        "actor": "Actor"
+
+      },
+      "pivotTypes": {
+        "damageByTrainer": {
+          "title": "Damage by Trainer",
+          "description": "Damage output by each trainer is shown here."
+        },
+        "damageByPokemon": {
+          "title": "Damage by Pokemon",
+          "description": "Damage output for each of your Pokemon is shown here."
+        },
+        "dpsByPokemon": {
+          "title": "DPS by Pokemon",
+          "description": "DPS for each of your Pokemon is shown here."
+        },
+        "damageByGroup": {
+          "title": "Damage by Group",
+          "description": "Damage output for each Group by Pokemon is shown."
+        },
+        "custom": {
+          "title":"Custom Analysis",
+          "description":"You can perform advanced analysis here! This works best on desktop or in landscape mode."
+        }
+      }
+    },
 
     "battleParty": {
       "title": "{{attacker.name}} vs. {{defender.name}} Raid Simulation",
@@ -84,7 +129,8 @@
       "both": "The results below include {{numExplicit}} additional trainers and {{numRandom}} random level additional battle parties level 30-40.  This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. There is also be a better interface for selecting how many trainers and additional battle parties helping you on the ",
       "explicit": "The results below include {{numExplicit}} additional trainers.  This is intended to simulate a realistic actual combat scenario.  The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will make you win. The power, time to win, potions and overall rating are all based on what your entire battle party of 6 can do. This page will eventually show much more information only the combat log is complete at this time. There is also be a better UI for selecting how many and which battle parties are helping you on the",
       "random": "The results below include {{numRandom}} random additional battle parties level 30-40 extra.  This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. There is also be a better interface for selecting how many trainers and additional battle parties helping you on the ",
-      "link": "raid simulation page."
+      "link": "raid simulation page.",
+      "name": "Assistant"
     },
     "logTitle": "Combat Log"
   },
