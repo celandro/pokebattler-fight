@@ -1,3 +1,10 @@
 {
-
+    "title": "Grupos de Batalha - beta",
+    "battlePartyList": {
+        "title": "Seus Grupos de Batalha"
+    },
+    "add": {
+        "title": "Grupo de Batalha",
+        "description": "Crie seu grupo de batalha"
+    }
 }
