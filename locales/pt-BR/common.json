@@ -52,7 +52,10 @@
         "type": "$t(common:type)",
         "powerups": "Fortalecer",
         "stardust": "Poeira Estelar",
-        "candy": "Doce"
+        "candy": "Doce",
+        "estimator": "Estimador",
+        "tdo": "Dano (TDO)",
+        "level": "$t(common:level)"
     },
     "sectionLinks": {
         "help": "Seção de ajuda",
@@ -137,5 +140,59 @@
         "ad4": "Ama o Pokebattler? Mantenha-nos rodando sem propaganda. Registre-se no Patreon hoje e ganhe mais espaço, resultados melhores, ferramentas exclusivas e mais.",
         "ad5": "Pokebattler é possível pelos nossos apoiadores no Patreon. Registre-se hoje com uma conta grátis para 25 posições extras na Pokebox.",
         "ad6": "Leve seu jogo ao próximo nível com uma conta Patreon do Pokebattler. Registre-se agora."
+    },
+    "quickMoves": "Ataques Rápidos",
+    "specialMoves": "Ataques Carregados",
+    "choosePokemon": "Escolha o Pokemon",
+    "friendLevels": "Nível de Amizade",
+    "shiny": "Brilhante",
+    "lucky": "Sortudo",
+    "seconds": "Segundos",
+    "rejoin": {
+        "label": "Tempo para Reentrar",
+        "default": "Nunca"
+    },
+    "trainers": "Treinadores",
+    "menu": {
+        "follow": "Siga-nos!",
+        "mainMenu": {
+            "gym": "$t(gym)",
+            "articles": "Artigos",
+            "tools": "Ferramentas",
+            "battle": "Batalha",
+            "simulator": "Simulador",
+            "pokedex": "Pokedex",
+            "raids": "Reides",
+            "personal": "Pessoal",
+            "trainer": "Treinador",
+            "pokebox": "Pokebox",
+            "help": "Ajuda",
+            "about": "Sobre",
+            "contact": "Contate-nos",
+            "battleParties": "$t(battleParties)",
+            "account": "Minha Conta",
+            "more": "Mais",
+            "privacy": "Privacidade",
+            "pvp": "$t(pvp)",
+            "news": "Notícias"
+        },
+        "description": {
+            "gym": "Simulações de Batalhas de Ginásios, Pokedex e Rankings",
+            "pvp": "Simulações PvP",
+            "help": "Tutoriais, Termos e Definições",
+            "more": "Notícias, Artigos, Traduções, Como nos contatar e Mais"
+        },
+        "tooltip": {
+            "gym": "Simulações de batalhas de ginásios, Pokedex, Rankings de atacantes e defensores e mais para Pokemon Go",
+            "raids": "Encontre os melhores oponentes, faça simulações de reide completas, receba conselhos sobre que Pokemon Fortalecer e mais para Reides Pokemon Go",
+            "pvp": "Veja o que acontece se você batalhar contra seus amigos",
+            "help": "...",
+            "account": "...",
+            "more": "Leia Notícias e Artigos, baixe infográficos, ajude-nos com traduções, sobre nós, e política de privacidade para Pokebattler para Pokemon Go"
+        }
+    },
+    "randomAssistants": {
+        "title": "Treinadores aleatórios extras",
+        "default": "Automático"
     }
 }
