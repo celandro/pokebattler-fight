@@ -21,7 +21,7 @@
                 "byLevel": "attaquants de niveau {{attackerLevel}}",
                 "pokebox": "le Pokémon personnalisé de la Pokébox de l'utilisateur #{{userId}}"
             },
-            "description": "Cette analyse de raid est basée sur une simulation de combat avec un {{defender.pokemon}} en défense avec {{defender.cp}} PC, et {{attackers}}. Cette simulation a été effectuée avec la stratégie d'attaque {{attackStrategy}} et la stratégie de défense {{defenseStrategy}}. {{numSims}} simulations ont été effectuées avec chaque combinaison d'attaques de {{defender.pokemon}} contre toutes les combinaisons d'attaques de tous les Pokémon. Les 20 meilleurs attaquants et leur meilleure combinaison d'attaques en termes de {{sort}} ont été sélectionnés et sont affichés ci-dessous. Vous pouvez cliquer sur un attaquant pour voir le déroulement de la simulation et comparer ses différentes combinaisons d'attaques."
+            "description": "Cette analyse de raid est basée sur une simulation de combat avec un {{defender.pokemon}} en défense avec {{defender.cp}} PC, et {{attackers}}. Cette simulation a été effectuée avec la stratégie d'attaque {{attackStrategy}}et la stratégie de défense {{defenseStrategy}}. {{numSims}} simulations ont été effectuées avec chaque combinaison d'attaques de {{defender.pokemon}} contre toutes les combinaisons d'attaques de tous les Pokémon. Les 20 meilleurs attaquants et leur meilleure combinaison d'attaques en termes de {{sort}} ont été sélectionnés et sont affichés ci-dessous. Vous pouvez cliquer sur un attaquant pour voir le déroulement de la simulation et comparer ses différentes combinaisons d'attaques."
         },
         "title": "Guide des Raids",
         "calculating": "Calcul des Résultats du Raid",
@@ -61,7 +61,7 @@
         "RAID_LEVEL_5": {
             "title": "Niveau 5",
             "subtitle": "Raid Légendaire",
-            "intro": "Les raids légendaires actuels sont le meilleur moyen d'obtenir des Pokémon puissant ! Ils sont souvent faits avec des groupes de 6 à 10 joueurs de niveau 30 à 40. Certains joueurs experts intrépides ont fait certains de ces raids avec seulement de 2 à 5 joueurs."
+            "intro": "Les raids légendaires sont la meilleure façon d'obtenir de puissants Pokémon ! Ils sont souvent faits par groupes de 6 à 10 joueurs de niveau 30 à 40. Certains experts intrépides ont réussi à effectuer certains de ces raids avec seulement 2 à 5 joueurs."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Niveau ?",
@@ -81,27 +81,27 @@
         "RAID_LEVEL_2_LEGACY": {
             "title": "Anciens Raids de Niveau 2",
             "subtitle": "Raid Difficile en Solo",
-            "intro": "Actuellement, ces raids ne sont pas disponibles."
+            "intro": "Ces raids ne sont pas disponibles actuellement."
         },
         "RAID_LEVEL_3_LEGACY": {
             "title": "Anciens Raids de Niveau 3",
             "subtitle": "Raid Facile en Groupe",
-            "intro": "Actuellement, ces raids ne sont pas disponibles."
+            "intro": "Ces raids ne sont pas disponibles actuellement."
         },
         "RAID_LEVEL_4_LEGACY": {
             "title": "Anciens Raids de Niveau 4",
             "subtitle": "Raid Difficile en Groupe",
-            "intro": "Actuellement, ces raids ne sont pas disponibles."
+            "intro": "Ces raids ne sont pas disponibles actuellement."
         },
         "RAID_LEVEL_5_FUTURE": {
             "subtitle": "Raid Légendaire",
             "intro": "Ces raids de Niveau 5 ne sont pas encore dans le jeu ! Leurs stats et attaques sont toujours susceptibles de changer.",
-            "title": "Futur Rang 5"
+            "title": "Futur Niveau 5"
         },
         "RAID_LEVEL_5_LEGACY": {
-            "title": "Rang 5 Historique",
+            "title": "Anciens Raids de Niveau 5",
             "subtitle": "Raid Légendaire",
-            "intro": "Ces raids ont été disponibles dans le passé, mais ne le sont plus actuellement. Ils reviendront peut-être lors d’événements spéciaux."
+            "intro": "Ces raids ont été disponibles par le passé, mais ne sont pas actuellement présents dans le jeu. Il est possible qu'ils soient à nouveau disponibles à l'avenir pour des événements, etc."
         }
     },
     "intro": "Les raids de Pokémon Go sont là ! Trouvez les meilleurs Pokémon pour vaincre le boss du raid avec le guide de raid le plus précis du monde. Sélectionnez simplement ci dessous le raid pour voir les meilleurs contres pour chacune des capacités du boss !",
@@ -130,8 +130,12 @@
             "almost": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Si vous êtes très chanceux, vous arriverez peut-être à le battre avec 1 dresseur de moins.",
             "trivial": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Ce combat sera terminé avant même d'avoir commencé : c'est si facile que vous pourriez simplement utiliser les suggestions du jeu et tout de même gagner.",
             "normal": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Prenez soin de bien préparer votre groupe avant le combat.",
-            "close": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Ce sera un combat très serré : amenez un joueur de plus, si vous le pouvez, pour plus de sûreté.",
-            "difficult": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Ce sera un combat difficile : assurez-vous que tout le monde utilise ses meilleurs Pokémon."
+            "close": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Ça sera un combat très serré : amenez un joueur de plus, si vous le pouvez, pour plus de sûreté.",
+            "difficult": "Battre {{pokemon}} devrait prendre {{numPeople}} dresseurs avec des Pokémon de cette force. Ça sera un combat difficile : assurez-vous que tout le monde utilise ses meilleurs Pokémon."
         }
-    }
+    },
+    "battle": {
+        "resultLink": "Voir ce résultat en tant qu'équipe de combat"
+    },
+    "helpLink": "Regarder la vidéo de tutoriel sur les raids"
 }

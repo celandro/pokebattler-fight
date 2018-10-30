@@ -76,6 +76,11 @@
             "subtitle": "Legendary Raid",
             "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Legacy Tier 6",
+            "subtitle": "Legendary Raid - Bonus Hp",
+            "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
         "RAID_LEVEL_5_FUTURE": {
             "title": "Future Tier 5",
             "subtitle": "Legendary Raid",

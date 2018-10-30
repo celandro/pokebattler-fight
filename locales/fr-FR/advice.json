@@ -2,8 +2,8 @@
     "title": "Conseil",
     "linkLabel": "Guide de Raid",
     "pokeboxRequired": "Pokebattler Advice nécessite que vous entriez vos Pokémon dans votre Pokebox correctement. Connectez-vous simplement et ajouter vos Pokémon les plus puissants afin de savoir lequel il est mieux de recharger.",
-    "intro": "Pokebattler Advice est une fonctionnalité personnalisée conçue pour optimiser votre Pokebox pour des raids spécifiques. Sélectionnez simplement le Boss de Raid pour lequel vous désirez connaître les meilleurs Pokémon avec lesquels l'affronter, et entrez votre quantité de poussières d'étoiles et de bonbons que vous possédez pour savoir de quoi ils auront l'air après que vous les avez recharger. Cette fonction vous aidera à décider quels Pokémon gagneront le plus de cette poussière d'étoile et de ces bonbons, et ce pour que vous les dépensiez de la manière la plus efficace.",
-    "intro2": "Après que vous avez lancé une simulation, cliquez sur n'importe quel Pokémon pour quelles améliorations vous obtenez après chaque Rechargement. Il y a souvent des seuils pour lesquels vous pouvez, une fois atteints, arrêtez de recharger le Pokémon afin d'économiser quelques ressources! Ceci est différent des autres outils de seuils que vous avez pu utilisez. En effet, cela trouve mêmes les seuils qui sont cachés.",
+    "intro": "Pokebattler Advice est une fonctionnalité personnalisée conçue pour optimiser votre Pokebox pour des raids spécifiques. Sélectionnez simplement le Boss de Raid pour lequel vous désirez connaître les meilleurs Pokémon avec lesquels l'affronter, et entrez votre quantité de poussières d'étoiles et de bonbons que vous possédez pour savoir de quoi ils auront l'air après les avoir rechargés. Cette fonction vous aidera à décider quels Pokémon bénéficieront le plus de cette poussière d'étoile et de ces bonbons, afin que vous les dépensiez de la manière la plus efficace.",
+    "intro2": "Après avoir lancé une simulation, cliquez sur n'importe quel Pokémon pour voir comment celui-ci s'améliorera avec chaque Rechargement. Il y a souvent des paliers pour lesquels vous pouvez, une fois atteints, arrêter de recharger le Pokémon afin d'économiser un peu de Poussière et de bonbons ! Cela diffère des outils traditionnels pour trouver ces seuils car ils sont ici trouvés empiriquement, même lorsqu'ils ne sont pas évidents.",
     "inputs": {
         "title": "Pourquoi avoir besoin de Advice?"
     },
@@ -28,7 +28,8 @@
             "attackers": {
                 "byLevel": "attaquants de niveau {{attackerLevel}}",
                 "pokebox": "le Pokémon personnalisé de la Pokébox de l'utilisateur #{{userId}}"
-            }
+            },
+            "description": "Ces suggestions de raid sont basées sur un combat simulé avec un {{defender.pokemon}} en défense avec {{defender.cp}} PC, et {{attackers}}. La simulation a été effectuée avec la stratégie d'attaque {{attackStrategy}} basée sur le modèle de simulation {{defenseStrategy}}. {{numSims}} simulations ont été faites avec chaque combinaison d'attaques possible de {{defender.pokemon}} contre chaque combinaison d'attaques de chaque Pokémon du jeu. Les 20 meilleurs attaquants et leur meilleure combinaison d'attaques sont affichés ici, triés par {{sort}}. Vous pouvez cliquer sur un attaquant pour voir la simulation qui a été effectuée, et essayer des attaques différentes."
         },
         "calculating": "Calcul des Conseils de Raid"
     }
