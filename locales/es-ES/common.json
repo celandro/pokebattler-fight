@@ -41,6 +41,7 @@
     "type": "Tipo de Pokemon",
     "properties": {
         "overall": "Total",
-        "estimator": "Estimador"
+        "estimator": "Estimador",
+        "power": "Poder"
     }
 }
