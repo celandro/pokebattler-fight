@@ -83,5 +83,6 @@
     "name": "Nombre",
     "nickname": "Mote",
     "faction": "Equipo",
-    "mystic": "Sabiduría"
+    "mystic": "Sabiduría",
+    "valor": "Valor"
 }
