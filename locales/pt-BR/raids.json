@@ -84,7 +84,7 @@
         "attackersLabel": "Atacantes"
     },
     "results": {
-        "title": "Guia de Reides",
+        "title": "Atacantes para {{defender}}",
         "calculating": "Calculando o Resultado da Reide",
         "counters": {
             "title": "adversários",
