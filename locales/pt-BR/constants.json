@@ -707,7 +707,8 @@
         "FRENZY_PLANT": "Planta Mortal",
         "HYDRO_CANNON": "Hidro Canhão",
         "BLAST_BURN": "Queimadura Explosiva",
-        "SMACK_DOWN_FAST": "Derrubada"
+        "SMACK_DOWN_FAST": "Derrubada",
+        "LAST_RESORT": "Último Recurso"
     },
     "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
     "types": {
