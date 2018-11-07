@@ -162,7 +162,8 @@
             "rankings": "Rankings",
             "pokedex": "Pokedex",
             "raids": "Incursiones",
-            "personal": "Personal"
+            "personal": "Personal",
+            "trainer": "Entrenador"
         }
     }
 }
