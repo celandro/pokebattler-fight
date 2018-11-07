@@ -422,7 +422,8 @@
         "UNOWN_X_FORM": "Unown - X",
         "UNOWN_Y_FORM": "Unown - Y",
         "UNOWN_Z_FORM": "Unown - Z",
-        "UNOWN_EXCLAMATION_POINT_FORM": "Unown - !"
+        "UNOWN_EXCLAMATION_POINT_FORM": "Unown - !",
+        "UNOWN_QUESTION_MARK_FORM": "Unown - ?"
     },
     "moves": {
         "ACID_FAST": "Ácido",
