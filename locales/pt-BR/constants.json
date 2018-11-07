@@ -489,7 +489,8 @@
         "ARCEUS_GHOST_FORM": "Arceus - Fantasma",
         "ARCEUS_GRASS_FORM": "Arceus - Planta",
         "ARCEUS_GROUND_FORM": "Arceus - Terrestre",
-        "ARCEUS_ICE_FORM": "Arceus - Gelo"
+        "ARCEUS_ICE_FORM": "Arceus - Gelo",
+        "ARCEUS_NORMAL_FORM": "Arceus - Normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",
