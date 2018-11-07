@@ -124,5 +124,8 @@
         "success": "Éxito",
         "error": "Ups, algo salió mal. Intente de nuevo en un par de segundos.",
         "newVersion": "Una nueva versión está disponible. Refresque la página de su navegador."
+    },
+    "site": {
+        "beta": "Sitio Beta"
     }
 }
