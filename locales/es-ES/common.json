@@ -63,6 +63,7 @@
         "powerups": "Incrementos de Poder",
         "stardust": "Polvos Estelares",
         "candy": "Caramelos",
-        "tdo": "Daño (TDO)"
+        "tdo": "Daño (TDO)",
+        "maxCP": "Max $t(common:cp)"
     }
 }
