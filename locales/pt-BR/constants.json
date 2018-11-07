@@ -462,7 +462,8 @@
         "GOLEM_NORMAL_FORM": "Golem - Normal",
         "GOLEM_ALOLA_FORM": "Golem - Alola",
         "GRIMER_NORMAL_FORM": "Grimer - Normal",
-        "GRIMER_ALOLA_FORM": "Grimer - Alola"
+        "GRIMER_ALOLA_FORM": "Grimer - Alola",
+        "MUK_NORMAL_FORM": "Muk - Normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",
