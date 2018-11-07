@@ -90,6 +90,7 @@
     "trainerName": "Nombre del Entrenador",
     "attackerTypes": {
         "pokebox": "Mi Pokebox",
-        "level": "Por Nivel"
+        "level": "Por Nivel",
+        "friend": "Su Pokebox"
     }
 }
