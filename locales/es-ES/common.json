@@ -136,5 +136,8 @@
         "title": "Polvos Estelares Disponibles"
     },
     "xAxis": "Axis-X",
-    "yAxis": "Axis-Y"
+    "yAxis": "Axis-Y",
+    "spinner": {
+        "battle": "Simulando resultados de combate. Esto no debería demorar."
+    }
 }
