@@ -22,6 +22,7 @@
             "base": "Resultado del Combate: Tu",
             "win": "$t(results.title.base) Ganaste!",
             "lose": "$t(results.title.base) Haz Perdido!"
-        }
+        },
+        "about": "Acerca de esta batalla"
     }
 }
