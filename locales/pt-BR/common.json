@@ -55,7 +55,8 @@
         "candy": "Doce",
         "estimator": "Estimador",
         "tdo": "Dano (TDO)",
-        "level": "$t(common:level)"
+        "level": "$t(common:level)",
+        "maxCP": "$t(common:cp) máximo"
     },
     "sectionLinks": {
         "help": "Seção de ajuda",
@@ -128,10 +129,10 @@
     "gym": "Ginásio",
     "pvp": "PvP",
     "spinner": {
-        "battle": "Simulando resultados de batalha. Não deve demorar muito.",
+        "battle": "Simulando resultados de batalha. Não deve demorar muito",
         "raid": "Procurando entre todos os possíveis atacantes os melhores adversários. Isto não deve demorar muito.",
         "pokedex": "Encontrando as melhores correspondências e adversários. Isso pode levar um tempinho.",
-        "rankings": "Encontrando o melhor Pokemon simulando batalhas entre cada possível combinação de Pokemons. Isto vai levar um tempo. "
+        "rankings": "Encontrando o melhor Pokémon simulando batalhas entre cada combinação de Pokémon disponível. Isto vai levar um tempo."
     },
     "patreon": {
         "ad1": "Pokebattler está fazendo um teste sem publicidade. Por favor nos suporte no Patreon para manter o site livre de propagandas, ganhe mais espaço na Pokebox, rode simulações mais precisas, ganhe mais funcionalidades e mais!",
