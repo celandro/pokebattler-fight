@@ -71,5 +71,6 @@
         "help": "Sección de Ayuda",
         "about": "Acerca de"
     },
-    "simulation": "una simulación fue"
+    "simulation": "una simulación fue",
+    "simulation_plural": "{{count}} simulaciones fueron"
 }
