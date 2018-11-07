@@ -7,6 +7,7 @@
     "defender": "Defensor",
     "defenderPlaceHolder": "Elige el $t(defender)",
     "pokemonListTypes": {
-        "pokebox": "Mi Pokebox"
+        "pokebox": "Mi Pokebox",
+        "all": "Todos los Pokemon"
     }
 }
