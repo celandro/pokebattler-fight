@@ -179,7 +179,8 @@
             "rankings": "Rankings",
             "raidAdvice": "Conselho de Reide",
             "misc": "Diversos",
-            "translate": "Traduza"
+            "translate": "Traduza",
+            "counters": "Oponentes"
         },
         "description": {
             "gym": "Simulações de Batalhas de Ginásios, Pokedex e Rankings",
