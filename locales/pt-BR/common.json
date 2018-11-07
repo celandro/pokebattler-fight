@@ -55,7 +55,8 @@
         "candy": "Doce",
         "estimator": "Estimador",
         "tdo": "Dano (TDO)",
-        "level": "$t(common:level)"
+        "level": "$t(common:level)",
+        "maxCP": "$t(common:cp) máximo"
     },
     "sectionLinks": {
         "help": "Seção de ajuda",
@@ -128,10 +129,10 @@
     "gym": "Ginásio",
     "pvp": "PvP",
     "spinner": {
-        "battle": "Simulando resultados de batalha. Não deve demorar muito.",
+        "battle": "Simulando resultados de batalha. Não deve demorar muito",
         "raid": "Procurando entre todos os possíveis atacantes os melhores adversários. Isto não deve demorar muito.",
         "pokedex": "Encontrando as melhores correspondências e adversários. Isso pode levar um tempinho.",
-        "rankings": "Encontrando o melhor Pokemon simulando batalhas entre cada possível combinação de Pokemons. Isto vai levar um tempo. "
+        "rankings": "Encontrando o melhor Pokémon simulando batalhas entre cada combinação de Pokémon disponível. Isto vai levar um tempo."
     },
     "patreon": {
         "ad1": "Pokebattler está fazendo um teste sem publicidade. Por favor nos suporte no Patreon para manter o site livre de propagandas, ganhe mais espaço na Pokebox, rode simulações mais precisas, ganhe mais funcionalidades e mais!",
@@ -174,13 +175,20 @@
             "more": "Mais",
             "privacy": "Privacidade",
             "pvp": "$t(pvp)",
-            "news": "Notícias"
+            "news": "Notícias",
+            "rankings": "Rankings",
+            "raidAdvice": "Conselho de Reide",
+            "misc": "Diversos",
+            "translate": "Traduza",
+            "counters": "Oponentes"
         },
         "description": {
             "gym": "Simulações de Batalhas de Ginásios, Pokedex e Rankings",
             "pvp": "Simulações PvP",
             "help": "Tutoriais, Termos e Definições",
-            "more": "Notícias, Artigos, Traduções, Como nos contatar e Mais"
+            "more": "Notícias, Artigos, Traduções, Como nos contatar e Mais",
+            "raids": "Principais Oponentes, Simulações de Grupos de Batalhas de Reide e Conselho de Fortalecimento",
+            "account": "Personalize o Pokebattler adicionando Pokémon a sua Pokebox e Grupos de Batalhas"
         },
         "tooltip": {
             "gym": "Simulações de batalhas de ginásios, Pokedex, Rankings de atacantes e defensores e mais para Pokemon Go",
@@ -193,6 +201,11 @@
     },
     "randomAssistants": {
         "title": "Treinadores aleatórios extras",
-        "default": "Automático"
+        "default": "Automático",
+        "description": "O número de treinadores aleatórios adicionais para ajudá-lo a derrotar o Chefe. Para chefes Nível 4 e 5, 5 grupos de batalha aleatórios o auxiliam na luta por padrão."
+    },
+    "explicitAssistants": {
+        "title": "Treinadores Extras",
+        "description": "O número de treinadores adicionais para ajudá-lo a derrotar o chefe. Você escolhe o grupo de batalha para cada um desses atacantes. O nível de amizade deve ser o nível máximo que eles têm com os outros jogadores na reide, não o seu nível de amizade com eles."
     }
 }
