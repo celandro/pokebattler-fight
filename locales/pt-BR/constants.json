@@ -432,7 +432,8 @@
         "SPINDA_04_FORM": "Spinda - 04",
         "SPINDA_05_FORM": "Spinda - 05",
         "SPINDA_06_FORM": "Spinda - 06",
-        "SPINDA_07_FORM": "Spinda - 07"
+        "SPINDA_07_FORM": "Spinda - 07",
+        "RATTATA_NORMAL_FORM": "Rattata - Normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",
