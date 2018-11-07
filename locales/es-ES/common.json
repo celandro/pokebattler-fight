@@ -29,6 +29,7 @@
         "stamina": "Salud"
     },
     "statsAbbr": {
-        "attack": "Atq"
+        "attack": "Atq",
+        "defense": "Def"
     }
 }
