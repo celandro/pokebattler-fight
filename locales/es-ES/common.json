@@ -76,6 +76,7 @@
     "chooseMovesetLabel": "Seleccionar Ataques",
     "hd": {
         "text": "$t(simulación, {'count': {{numSims}} }) realizadas para generar esta simulación de alta precisión",
-        "attackers": "atacantes"
+        "attackers": "atacantes",
+        "defenders": "defensores"
     }
 }
