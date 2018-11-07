@@ -186,6 +186,9 @@
             "help": "Tutoriales, Términos y Definiciones",
             "account": "Personaliza PokeBattler añadiendo Pokemon a tu Pokebox y Equipos de Combate.",
             "more": "Noticias, Artículos, Traducciones, Cómo Contactarnos y más!"
+        },
+        "tooltip": {
+            "gym": "Simulador de batallas de gimansios, Pokedex, rankings de defensores/atacantes y más para Pokemon Go."
         }
     }
 }
