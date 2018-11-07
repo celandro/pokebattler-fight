@@ -398,7 +398,8 @@
         "EXEGGUTOR_ALOLA_FORM": "Exeggutor - Alola",
         "EXEGGUTOR_NORMAL_FORM": "Exeggutor - Normal",
         "UNOWN_A_FORM": "Unown - A",
-        "UNOWN_B_FORM": "Unown - B"
+        "UNOWN_B_FORM": "Unown - B",
+        "UNOWN_C_FORM": "Unown - C"
     },
     "moves": {
         "ACID_FAST": "Ácido",
