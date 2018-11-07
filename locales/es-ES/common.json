@@ -81,5 +81,6 @@
         "raid": "incursión"
     },
     "name": "Nombre",
-    "nickname": "Mote"
+    "nickname": "Mote",
+    "faction": "Equipo"
 }
