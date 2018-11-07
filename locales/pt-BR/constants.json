@@ -918,6 +918,9 @@
         "FRIENDSHIP_LEVEL_2": {
             "label": "Grande Amizade",
             "description": "O nível máximo de amizade que você possui com alguém na reide. Amigos com Grande Amizade ganham um bônus de 5% de ataque e 1 bola extra em reides. Podem trocar Pokémon não-míticos com 20% de desconto em Poeira Estelar."
+        },
+        "FRIENDSHIP_LEVEL_3": {
+            "label": "Ultra-Amizade"
         }
     }
 }
