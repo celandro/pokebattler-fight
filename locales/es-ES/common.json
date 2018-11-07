@@ -128,5 +128,8 @@
     "site": {
         "beta": "Sitio Beta",
         "www": "Sitio Principal"
+    },
+    "candy": {
+        "title": "Caramelos disponibles"
     }
 }
