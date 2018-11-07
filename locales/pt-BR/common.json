@@ -201,6 +201,7 @@
     },
     "randomAssistants": {
         "title": "Treinadores aleatórios extras",
-        "default": "Automático"
+        "default": "Automático",
+        "description": "O número de treinadores aleatórios adicionais para ajudá-lo a derrotar o Chefe. Para chefes Nível 4 e 5, 5 grupos de batalha aleatórios o auxiliam na luta por padrão.\n"
     }
 }
