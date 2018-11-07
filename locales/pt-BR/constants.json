@@ -427,7 +427,8 @@
         "UNOWN_QUESTION_MARK_FORM": "Unown - ?",
         "SPINDA_00_FORM": "Spinda - 00",
         "SPINDA_01_FORM": "Spinda - 01",
-        "SPINDA_02_FORM": "Spinda - 02"
+        "SPINDA_02_FORM": "Spinda - 02",
+        "SPINDA_03_FORM": "Spinda - 03"
     },
     "moves": {
         "ACID_FAST": "Ácido",
