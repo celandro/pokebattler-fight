@@ -440,7 +440,8 @@
         "RAICHU_NORMAL_FORM": "Raichu - Normal",
         "RAICHU_ALOLA_FORM": "Raichu - Alola",
         "SANDSHREW_NORMAL_FORM": "Sandshrew - Normal",
-        "SANDSHREW_ALOLA_FORM": "Sandshrew - Alola"
+        "SANDSHREW_ALOLA_FORM": "Sandshrew - Alola",
+        "SANDSLASH_NORMAL_FORM": "Sandslash - Normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",
