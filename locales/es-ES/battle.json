@@ -2,5 +2,6 @@
     "startButton": "Batalla",
     "attacker": "Atacante",
     "title": "Simulador de batallas de gimnasio",
-    "raidBattlePartyTitle": "Simulador de Grupos de Combate para excursiones"
+    "raidBattlePartyTitle": "Simulador de Grupos de Combate para excursiones",
+    "attackerPlaceHolder": "Elige el $t(attacker)"
 }
