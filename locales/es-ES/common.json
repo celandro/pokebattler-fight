@@ -166,7 +166,8 @@
             "trainer": "Entrenador",
             "pokebox": "Pokebox",
             "raidAdvice": "Sugerencia para la Incursión",
-            "misc": "Misc."
+            "misc": "Misc.",
+            "help": "Ayuda"
         }
     }
 }
