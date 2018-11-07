@@ -113,6 +113,9 @@
             "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores Patreon. Os usuários Patreon recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais.",
             "link": "Veja todos os benefícios que você ganha ao se registrar.",
             "thanks": "Obrigado pelo seu suporte!"
+        },
+        "meta": {
+            "description": "Os melhores atacantes generalistas nível 35 vs. {{defender}} são {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Veja seus resultados personalizados!"
         }
     },
     "pokebox": {
