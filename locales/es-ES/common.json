@@ -35,5 +35,6 @@
     },
     "level": "Nivel",
     "basic": "Básico",
-    "advanced": "Avanzado"
+    "advanced": "Avanzado",
+    "move": "Ataque"
 }
