@@ -434,7 +434,8 @@
         "SPINDA_07_FORM": "Spinda - 07",
         "RATTATA_NORMAL_FORM": "Rattata - Normal",
         "RATTATA_ALOLA_FORM": "Rattata - Alola",
-        "RATICATE_NORMAL_FORM": "Raticate - Normal"
+        "RATICATE_NORMAL_FORM": "Raticate - Normal",
+        "RATICATE_ALOLA_FORM": "Raticate - Alola"
     },
     "moves": {
         "ACID_FAST": "Ácido",
