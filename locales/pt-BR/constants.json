@@ -460,7 +460,8 @@
         "GRAVELER_NORMAL_FORM": "Graveler - Normal",
         "GRAVELER_ALOLA_FORM": "Graveler - Alola",
         "GOLEM_NORMAL_FORM": "Golem - Normal",
-        "GOLEM_ALOLA_FORM": "Golem - Alola"
+        "GOLEM_ALOLA_FORM": "Golem - Alola",
+        "GRIMER_NORMAL_FORM": "Grimer - Normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",
