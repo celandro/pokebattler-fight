@@ -449,7 +449,8 @@
         "NINETALES_ALOLA_FORM": "Ninetails - Alola",
         "DIGLETT_NORMAL_FORM": "Diglett - Normal",
         "DIGLETT_ALOLA_FORM": "Diglett - Alola",
-        "DUGTRIO_NORMAL_FORM": "Dugtrio - Normal"
+        "DUGTRIO_NORMAL_FORM": "Dugtrio - Normal",
+        "DUGTRIO_ALOLA_FORM": "Dugtrio - Alola"
     },
     "moves": {
         "ACID_FAST": "Ácido",
