@@ -108,6 +108,7 @@
     "status": {
         "add": "Añadiendo",
         "edit": "Editando",
-        "update": "Actualizando"
+        "update": "Actualizando",
+        "delete": "Borrando"
     }
 }
