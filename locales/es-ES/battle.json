@@ -5,5 +5,8 @@
     "raidBattlePartyTitle": "Simulador de Grupos de Combate para excursiones",
     "attackerPlaceHolder": "Elige el $t(attacker)",
     "defender": "Defensor",
-    "defenderPlaceHolder": "Elige el $t(defender)"
+    "defenderPlaceHolder": "Elige el $t(defender)",
+    "pokemonListTypes": {
+        "pokebox": "Mi Pokebox"
+    }
 }
