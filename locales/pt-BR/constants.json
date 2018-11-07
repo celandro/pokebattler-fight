@@ -472,7 +472,8 @@
         "AZELF": "Azelf",
         "DIALGA": "Dialga",
         "PALKIA": "Palkia",
-        "REGIGIGAS": "Regigigas"
+        "REGIGIGAS": "Regigigas",
+        "GIRATINA": "Giratina"
     },
     "moves": {
         "ACID_FAST": "Ácido",
