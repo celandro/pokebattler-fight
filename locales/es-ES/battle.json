@@ -16,5 +16,10 @@
         "modify": "Modificar",
         "switch": "Cambia para modificar {{type}}",
         "parameterTitle": "Cambiar parametro"
+    },
+    "results": {
+        "title": {
+            "base": "Resultado del Combate: Tu"
+        }
     }
 }
