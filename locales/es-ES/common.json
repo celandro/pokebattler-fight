@@ -120,6 +120,7 @@
         "bulk": "Importando en grupo {{num}} pokemon, esto puede tardar un poco",
         "delete": "Borrando {{num}} pokemon de su Pokebox",
         "deleteAll": "Borrando todos los Pokemon de su Pokebox",
-        "update": "Actualizando sus Pokemon"
+        "update": "Actualizando sus Pokemon",
+        "success": "Éxito"
     }
 }
