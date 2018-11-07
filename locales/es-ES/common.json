@@ -22,5 +22,8 @@
     "rejoin": {
         "label": "Tiempo para volver a la partida",
         "default": "Nunca"
+    },
+    "stats": {
+        "attack": "Ataque"
     }
 }
