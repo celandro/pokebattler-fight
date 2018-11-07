@@ -121,6 +121,7 @@
         "delete": "Borrando {{num}} pokemon de su Pokebox",
         "deleteAll": "Borrando todos los Pokemon de su Pokebox",
         "update": "Actualizando sus Pokemon",
-        "success": "Éxito"
+        "success": "Éxito",
+        "error": "Ups, algo salió mal. Intente de nuevo en un par de segundos."
     }
 }
