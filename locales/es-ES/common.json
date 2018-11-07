@@ -50,6 +50,7 @@
         "realTime": "Tiempo",
         "prestige": "Prestigio",
         "dps": "DPS",
-        "potions": "Pociones"
+        "potions": "Pociones",
+        "damage": "Daño"
     }
 }
