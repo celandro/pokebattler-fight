@@ -59,6 +59,7 @@
         "cp": "$t(common:cp)",
         "pokemon": "$t(common:pokemon)",
         "name": "$t(common:name)",
-        "type": "$t(common:type)"
+        "type": "$t(common:type)",
+        "powerups": "Incrementos de Poder"
     }
 }
