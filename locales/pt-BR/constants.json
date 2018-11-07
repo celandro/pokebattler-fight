@@ -466,7 +466,8 @@
         "MUK_NORMAL_FORM": "Muk - Normal",
         "MUK_ALOLA_FORM": "Muk - Alola",
         "MAROWAK_NORMAL_FORM": "Marowak - Normal",
-        "MAROWAK_ALOLA_FORM": "Marowak - Alola"
+        "MAROWAK_ALOLA_FORM": "Marowak - Alola",
+        "UXIE": "Uxie"
     },
     "moves": {
         "ACID_FAST": "Ácido",
