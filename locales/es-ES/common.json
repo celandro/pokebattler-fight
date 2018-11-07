@@ -51,6 +51,7 @@
         "prestige": "Prestigio",
         "dps": "DPS",
         "potions": "Pociones",
-        "damage": "Daño"
+        "damage": "Daño",
+        "energy": "Energía"
     }
 }
