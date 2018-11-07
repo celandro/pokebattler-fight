@@ -175,7 +175,8 @@
             "battleParties": "$t(equiposdeCombate)",
             "account": "Mi cuenta",
             "more": "Más",
-            "privacy": "Privacidad"
+            "privacy": "Privacidad",
+            "pvp": "$t(pvp)"
         }
     }
 }
