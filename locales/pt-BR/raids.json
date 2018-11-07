@@ -72,7 +72,8 @@
             "intro": "Estas reides nível 5 não estão no jogo ainda! Suas estatísticas e ataques estão ainda sujeitas a mudanças."
         },
         "RAID_LEVEL_6": {
-            "title": "Nível 6"
+            "title": "Nível 6",
+            "subtitle": "Reide Legendária - Bonus Hp"
         }
     },
     "custom": {
