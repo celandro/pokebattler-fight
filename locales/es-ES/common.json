@@ -57,6 +57,7 @@
         "single": "Simple",
         "id": "Id",
         "cp": "$t(common:cp)",
-        "pokemon": "$t(common:pokemon)"
+        "pokemon": "$t(common:pokemon)",
+        "name": "$t(common:name)"
     }
 }
