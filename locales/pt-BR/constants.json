@@ -477,7 +477,8 @@
         "HEATRAN": "Heatran",
         "CRESSELIA": "Cresselia",
         "DARKRAI": "Darkrai",
-        "ARCEUS": "Arceus"
+        "ARCEUS": "Arceus",
+        "ARCEUS_BUG_FORM": "Arceus - Inseto"
     },
     "moves": {
         "ACID_FAST": "Ácido",
