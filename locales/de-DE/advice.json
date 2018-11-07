@@ -23,15 +23,20 @@
             },
             "description": "Diese Raid-Beratung basiert auf der Kampfsimulation eines verteidigenden {{defender.pokemon}} mit {{defender.cp}} WP und {{attackers}}. Die Simulation wurde mit der {{attackStrategy}} Angriffstrategie basierend auf dem {{defenseStrategy}} Simulationstyp durchgefürt. {{numSims}} Simulationen wurden durchgeführt, mit jedem möglichen Attackenmuster von {{defender.pokemon}}, gegen jedes einzelne Pokemon mit jedem möglichen Attackenmuster. Die 20 besten Angreifer mit ihren besten Attacken wurde basierend auf {{sort}} behalten und hier dargestellt. Du kannst auf jeden der Angreifer klicken, um die Simulationen zu sehen und verschiedene Attacken auszuprobieren."
         },
-        "title": "Raid-Beratung",
+        "title": "Raid-Beratung für {{attacker}} gegen {{defender}}",
         "calculating": "Raid-Beratung wird ermittelt",
-        "description": "Willkommen zur Pokebattler Raid-Beratung für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung. Außerdem kannst du die Menge an Sternenstaub und Bonbons wählen, die du zur Verfügung hast."
+        "description": "Willkommen zur Pokebattler Raid-Beratung für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung. Außerdem kannst du die Menge an Sternenstaub und Bonbons wählen, die du zur Verfügung hast.",
+        "meta": {
+            "description": "Pokemon Go Raid Beratungsergebnisse für {{attacker}} gegen {{defender}} findet die besten zu trainierenden Pokemon um jeden Raidboss zu besiegen.",
+            "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+        }
     },
-    "title": "Beratung",
+    "title": "Raid Beratung",
     "pokeboxRequired": "Damit die Pokebattler-Beratung richtig funktioniert, musst du deine Pokemon in deine Pokebox eintragen. Melde dich einfach an und füge deine stärksten Pokemon zu deiner Pokebox hinzu, damit die besten Pokemon für Power-Ups gefunden werden können.",
     "intro2": "Nachdem du eine Simulation durchgeführt hast, kannst du auf jedes Pokemon klicken, um zu sehen, wie viel es sich mit jedem Power-Up verbessert. Oft gibt es Breakpoints, bei denen du aufhören kannst, deinem Pokemon Power-Ups zu geben, um dir Sternenstaub und Bonbons zu sparen! Im Gegensatz zu anderen Breakpoint-Tools, die du vielleicht kennst, findet diese Seite sie mit empirischen Mitteln, und deshalb auch solche, die nicht auf der Hand liegen.",
     "inputs": {
-        "title": "Wofür brauchst du eine Beratung?"
+        "title": "Beratungseinstellungen",
+        "subtitle": "Wofür brauchst du eine Beratung?"
     },
     "buttonLabel": "Pokemon Power-Up",
     "result": {
@@ -40,8 +45,24 @@
         "summaryEnd": "Aufwertungsergebnisse",
         "graphTitle": "{{yAxis}} Gegen {{xAxis}}",
         "detail": "Detaillierte Ergebnisse für jede Aufwertung",
-        "back": "Zurück zu den Beratungseinstellungen"
+        "back": "Zurück zu den Beratungseinstellungen",
+        "title": "Raid Beratungsdetails für {{attacker}} gegen {{defender}}",
+        "meta": {
+            "description": "Pokemon Go Raid Beratungsdetails für {{attacker}} gegen {{defender}} zeigt Breakpoints und Sternenstaub-Effizienz",
+            "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
+        },
+        "subTitle": "{{attacker}} gegen {{defender}}",
+        "powerUpDialog": {
+            "title": "Aufwerten",
+            "description": "Möchtest du {{pokemon}} {{powerUps}} mal auf {{cp}} aufwerten?",
+            "submit": "Ja",
+            "cancel": "Nein"
+        }
     },
     "raidLink": "Dieses Ergebnis ohne Power-Ups anzeigen",
-    "helpLink": "Sieh dir das Raid Hinweis Tutorial an"
+    "helpLink": "Sieh dir das Raid Hinweis Tutorial an",
+    "meta": {
+        "description": "Die Pokemon Go Raid Beratung hilft dir die Pokemon zu finden, die du für Raid Bosse trainieren solltest dabei Bonbons und Sternenstaub effektive auszugeben",
+        "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+    }
 }

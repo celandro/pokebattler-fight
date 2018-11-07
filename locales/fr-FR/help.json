@@ -18,7 +18,7 @@
         "pokebox": {
             "link": "/help/pokebox",
             "description": "Stockez vos pokémons sur nos serveurs et utilisez-les sur le site",
-            "title": "Pokebox"
+            "title": "Pokébox"
         },
         "pokedex": {
             "link": "/help/pokedex",
@@ -55,7 +55,7 @@
         }
     },
     "intro": "Bienvenue sur Pokebattler.com ! Le plus sophistiqué et le meilleur simulateur d'arènes et de raid jamais inventé sur Pokemon GO. Vous voulez savoir ce qu'il en est de ce Ronflex ? Essayez chacun de vos pokémons pour voir comment il se comportent en combat d'arène. Un rapport complet du combat, attaque après attaque, est disponible.",
-    "outro": "Restez attentif aux prochaines mises à jour comme la possibilité de sauvegarder ses pokémons et plus encore.\n",
+    "outro": "Restez attentif aux prochaines mises à jour comme la possibilité de sauvegarder ses pokémon et plus encore.",
     "now-battle": "Maintenant sus aux pokémons !",
     "backlink": "Retour à l'aide"
 }
