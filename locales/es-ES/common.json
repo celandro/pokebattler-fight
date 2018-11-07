@@ -87,5 +87,8 @@
     "valor": "Valor",
     "instinct": "Instinto",
     "ivs": "IVs",
-    "trainerName": "Nombre del Entrenador"
+    "trainerName": "Nombre del Entrenador",
+    "attackerTypes": {
+        "pokebox": "Mi Pokebox"
+    }
 }
