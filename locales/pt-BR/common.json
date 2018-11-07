@@ -178,7 +178,8 @@
             "news": "Notícias",
             "rankings": "Rankings",
             "raidAdvice": "Conselho de Reide",
-            "misc": "Diversos"
+            "misc": "Diversos",
+            "translate": "Traduza"
         },
         "description": {
             "gym": "Simulações de Batalhas de Ginásios, Pokedex e Rankings",
