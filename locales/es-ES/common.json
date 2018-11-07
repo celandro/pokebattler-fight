@@ -115,5 +115,8 @@
         "error": "Error",
         "bulk": "Importando",
         "newVersion": "Nuevo lanzamiento"
+    },
+    "message": {
+        "bulk": "Importando en grupo {{num}} pokemon, esto puede tardar un poco"
     }
 }
