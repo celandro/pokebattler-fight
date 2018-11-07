@@ -43,6 +43,7 @@
         "overall": "Total",
         "estimator": "Estimador",
         "power": "Poder",
-        "win": "% de Victoria"
+        "win": "% de Victoria",
+        "deaths": "Muertes"
     }
 }
