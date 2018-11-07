@@ -174,7 +174,8 @@
             "counters": "Contrincantes",
             "battleParties": "$t(equiposdeCombate)",
             "account": "Mi cuenta",
-            "more": "Más"
+            "more": "Más",
+            "privacy": "Privacidad"
         }
     }
 }
