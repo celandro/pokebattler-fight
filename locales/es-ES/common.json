@@ -60,6 +60,7 @@
         "pokemon": "$t(common:pokemon)",
         "name": "$t(common:name)",
         "type": "$t(common:type)",
-        "powerups": "Incrementos de Poder"
+        "powerups": "Incrementos de Poder",
+        "stardust": "Polvos Estelares"
     }
 }
