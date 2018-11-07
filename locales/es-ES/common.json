@@ -173,7 +173,8 @@
             "translate": "Traducir",
             "counters": "Contrincantes",
             "battleParties": "$t(equiposdeCombate)",
-            "account": "Mi cuenta"
+            "account": "Mi cuenta",
+            "more": "Más"
         }
     }
 }
