@@ -64,6 +64,7 @@
         "stardust": "Polvos Estelares",
         "candy": "Caramelos",
         "tdo": "Daño (TDO)",
-        "maxCP": "Max $t(common:cp)"
+        "maxCP": "Max $t(common:cp)",
+        "level": "$t(common:level)"
     }
 }
