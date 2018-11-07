@@ -24,6 +24,7 @@
         "default": "Nunca"
     },
     "stats": {
-        "attack": "Ataque"
+        "attack": "Ataque",
+        "defense": "Defensa"
     }
 }
