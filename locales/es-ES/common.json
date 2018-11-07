@@ -30,6 +30,7 @@
     },
     "statsAbbr": {
         "attack": "Atq",
-        "defense": "Def"
+        "defense": "Def",
+        "hp": "PS"
     }
 }
