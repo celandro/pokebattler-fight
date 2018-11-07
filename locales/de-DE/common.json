@@ -172,7 +172,8 @@
             "more": "Mehr",
             "privacy": "Datenschutz",
             "pvp": "$t(pvp)",
-            "news": "Neuigkeiten"
+            "news": "Neuigkeiten",
+            "profiles": "Öffentliche Profile"
         },
         "description": {
             "gym": "Arena Kampfsimulationen, Pokedex und Ranglisten",
@@ -180,7 +181,8 @@
             "pvp": "PvP Simulationen",
             "help": "Anleitungen, Begriffe und Definitionen",
             "account": "Passe Pokebattler an, in dem du Pokemon zu deiner Pokebox und Kampfgruppen hinzufügst",
-            "more": "Neuigkeiten, Artikel, Übersetzungen, Wie du zu uns Kontakt aufnimmst und mehr"
+            "more": "Neuigkeiten, Artikel, Übersetzungen, Wie du zu uns Kontakt aufnimmst und mehr",
+            "profiles": "Finde die Pokemon aus den Pokeboxen deiner Freunde"
         },
         "tooltip": {
             "gym": "Arena Kampfsimulationen, Pokedex, Angreifer- und Verteidigerranglisten und mehr für Pokemon Go",
@@ -198,5 +200,14 @@
         "title": "Zusatztrainer",
         "description": "Die Zahl der zusätzlichen Trainer die dir helfen, den Boss zu besiegen. Du wählst die Kampfgruppen für jeden der Angreifer. Das Freundschaftslevel sollte das Maximum sein, was sie mit anderen Spielern haben und nicht mit dir."
     },
-    "friendLevels": "Freundschaftslevel"
+    "friendLevels": "Freundschaftslevel",
+    "shiny": "Schillernd",
+    "lucky": "Glück",
+    "seconds": "Sekunden",
+    "rejoin": {
+        "label": "Wiederbeitrittszeit",
+        "default": "Niemals"
+    },
+    "find": "Finde",
+    "profiles": "Profile"
 }
