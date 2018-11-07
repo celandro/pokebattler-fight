@@ -163,7 +163,8 @@
             "pokedex": "Pokedex",
             "raids": "Incursiones",
             "personal": "Personal",
-            "trainer": "Entrenador"
+            "trainer": "Entrenador",
+            "pokebox": "Pokebox"
         }
     }
 }
