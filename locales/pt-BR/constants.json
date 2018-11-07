@@ -471,7 +471,8 @@
         "MESPRIT": "Mesprit",
         "AZELF": "Azelf",
         "DIALGA": "Dialga",
-        "PALKIA": "Palkia"
+        "PALKIA": "Palkia",
+        "REGIGIGAS": "Regigigas"
     },
     "moves": {
         "ACID_FAST": "Ácido",
