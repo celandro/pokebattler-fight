@@ -56,6 +56,7 @@
         "grouped": "Agrupados",
         "single": "Simple",
         "id": "Id",
-        "cp": "$t(common:cp)"
+        "cp": "$t(common:cp)",
+        "pokemon": "$t(common:pokemon)"
     }
 }
