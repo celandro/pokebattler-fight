@@ -496,7 +496,8 @@
         "ARCEUS_ROCK_FORM": "Arceus - Pedra",
         "ARCEUS_STEEL_FORM": "Arceus - Aço",
         "ARCEUS_WATER_FORM": "Arceus - Água",
-        "GIRATINA_ALTERED_FORM": "Giratina - Alterado"
+        "GIRATINA_ALTERED_FORM": "Giratina - Alterado",
+        "GIRATINA_ORIGIN_FORM": "Giratina - Origem"
     },
     "moves": {
         "ACID_FAST": "Ácido",
