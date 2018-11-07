@@ -396,7 +396,8 @@
         "DEOXYS_DEFENSE_FORM": "Deoxys - Defesa",
         "DEOXYS_SPEED_FORM": "Deoxys - Velocidade",
         "EXEGGUTOR_ALOLA_FORM": "Exeggutor - Alola",
-        "EXEGGUTOR_NORMAL_FORM": "Exeggutor - Normal"
+        "EXEGGUTOR_NORMAL_FORM": "Exeggutor - Normal",
+        "UNOWN_A_FORM": "Unown - A"
     },
     "moves": {
         "ACID_FAST": "Ácido",
