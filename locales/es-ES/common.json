@@ -131,5 +131,8 @@
     },
     "candy": {
         "title": "Caramelos disponibles"
+    },
+    "stardust": {
+        "title": "Polvos Estelares Disponibles"
     }
 }
