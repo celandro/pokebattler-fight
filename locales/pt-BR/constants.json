@@ -411,7 +411,8 @@
         "UNOWN_L_FORM": "Unown - L",
         "UNOWN_M_FORM": "Unown - M",
         "UNOWN_N_FORM": "Unown - N",
-        "UNOWN_O_FORM": "Unown - O"
+        "UNOWN_O_FORM": "Unown - O",
+        "UNOWN_P_FORM": "Unown - P"
     },
     "moves": {
         "ACID_FAST": "Ácido",
