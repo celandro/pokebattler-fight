@@ -453,7 +453,8 @@
         "DUGTRIO_ALOLA_FORM": "Dugtrio - Alola",
         "MEOWTH_NORMAL_FORM": "Meowth - Normal",
         "MEOWTH_ALOLA_FORM": "Meowth - Alola",
-        "PERSIAN_NORMAL_FORM": "Persian - Normal"
+        "PERSIAN_NORMAL_FORM": "Persian - Normal",
+        "PERSIAN_ALOLA_FORM": "Persian - Alola"
     },
     "moves": {
         "ACID_FAST": "Ácido",
