@@ -9,5 +9,8 @@
     "pokemonListTypes": {
         "pokebox": "Mi Pokebox",
         "all": "Todos los Pokemon"
+    },
+    "relatedBattles": {
+        "title": "Batallas Relacionadas"
     }
 }
