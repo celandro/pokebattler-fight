@@ -154,7 +154,8 @@
     "menu": {
         "follow": "Síguenos!",
         "mainMenu": {
-            "gym": "$t(gimnasio)"
+            "gym": "$t(gimnasio)",
+            "articles": "Artículos"
         }
     }
 }
