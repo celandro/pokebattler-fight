@@ -77,6 +77,7 @@
     "hd": {
         "text": "$t(simulación, {'count': {{numSims}} }) realizadas para generar esta simulación de alta precisión",
         "attackers": "atacantes",
-        "defenders": "defensores"
+        "defenders": "defensores",
+        "raid": "incursión"
     }
 }
