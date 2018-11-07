@@ -10,7 +10,8 @@
     },
     "button": {
         "reddit": {
-            "title": "Discussões no Reddit"
+            "title": "Discussões no Reddit",
+            "subtitle": "Notícias e Anúncios em /r/pokebattler"
         }
     }
 }
