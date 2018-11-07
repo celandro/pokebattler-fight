@@ -25,6 +25,7 @@
     },
     "stats": {
         "attack": "Ataque",
-        "defense": "Defensa"
+        "defense": "Defensa",
+        "stamina": "Salud"
     }
 }
