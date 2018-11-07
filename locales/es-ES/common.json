@@ -165,7 +165,8 @@
             "personal": "Personal",
             "trainer": "Entrenador",
             "pokebox": "Pokebox",
-            "raidAdvice": "Sugerencia para la Incursión"
+            "raidAdvice": "Sugerencia para la Incursión",
+            "misc": "Misc."
         }
     }
 }
