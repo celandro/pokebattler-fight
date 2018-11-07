@@ -115,7 +115,8 @@
             "thanks": "Obrigado pelo seu suporte!"
         },
         "meta": {
-            "description": "Os melhores atacantes generalistas nível 35 vs. {{defender}} são {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Veja seus resultados personalizados!"
+            "description": "Os melhores atacantes generalistas nível 35 vs. {{defender}} são {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Veja seus resultados personalizados!",
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
         }
     },
     "pokebox": {
