@@ -400,7 +400,8 @@
         "UNOWN_A_FORM": "Unown - A",
         "UNOWN_B_FORM": "Unown - B",
         "UNOWN_C_FORM": "Unown - C",
-        "UNOWN_D_FORM": "Unown - D"
+        "UNOWN_D_FORM": "Unown - D",
+        "UNOWN_E_FORM": "Unown - E"
     },
     "moves": {
         "ACID_FAST": "Ácido",
