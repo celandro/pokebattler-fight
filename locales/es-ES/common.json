@@ -134,5 +134,6 @@
     },
     "stardust": {
         "title": "Polvos Estelares Disponibles"
-    }
+    },
+    "xAxis": "Axis-X"
 }
