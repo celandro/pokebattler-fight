@@ -106,6 +106,7 @@
     "gym": "Gimnasio",
     "pvp": "PvP",
     "status": {
-        "add": "Añadiendo"
+        "add": "Añadiendo",
+        "edit": "Editando"
     }
 }
