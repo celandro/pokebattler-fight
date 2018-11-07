@@ -72,5 +72,6 @@
         "about": "Acerca de"
     },
     "simulation": "una simulación fue",
-    "simulation_plural": "{{count}} simulaciones fueron"
+    "simulation_plural": "{{count}} simulaciones fueron",
+    "chooseMovesetLabel": "Seleccionar Ataques"
 }
