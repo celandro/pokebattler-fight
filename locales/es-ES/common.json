@@ -156,7 +156,8 @@
         "mainMenu": {
             "gym": "$t(gimnasio)",
             "articles": "Artículos",
-            "tools": "Herramientas"
+            "tools": "Herramientas",
+            "battle": "Combate"
         }
     }
 }
