@@ -167,7 +167,8 @@
             "pokebox": "Pokebox",
             "raidAdvice": "Sugerencia para la Incursión",
             "misc": "Misc.",
-            "help": "Ayuda"
+            "help": "Ayuda",
+            "about": "Acerca de "
         }
     }
 }
