@@ -32,5 +32,6 @@
         "attack": "Atq",
         "defense": "Def",
         "hp": "PS"
-    }
+    },
+    "level": "Nivel"
 }
