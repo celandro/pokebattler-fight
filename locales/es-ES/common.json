@@ -110,6 +110,7 @@
         "edit": "Editando",
         "update": "Actualizando",
         "delete": "Borrando",
-        "loading": "Cargando"
+        "loading": "Cargando",
+        "success": "Exito"
     }
 }
