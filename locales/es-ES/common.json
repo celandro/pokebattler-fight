@@ -172,7 +172,8 @@
             "contact": "Contáctanos",
             "translate": "Traducir",
             "counters": "Contrincantes",
-            "battleParties": "$t(equiposdeCombate)"
+            "battleParties": "$t(equiposdeCombate)",
+            "account": "Mi cuenta"
         }
     }
 }
