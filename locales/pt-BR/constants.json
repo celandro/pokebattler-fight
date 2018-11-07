@@ -445,7 +445,8 @@
         "SANDSLASH_ALOLA_FORM": "Sandslash - Alola",
         "VULPIX_NORMAL_FORM": "Vulpix - Normal",
         "VULPIX_ALOLA_FORM": "Vulpix - Alola",
-        "NINETALES_NORMAL_FORM": "Ninetails - Normal"
+        "NINETALES_NORMAL_FORM": "Ninetails - Normal",
+        "NINETALES_ALOLA_FORM": "Ninetails - Alola"
     },
     "moves": {
         "ACID_FAST": "Ácido",
