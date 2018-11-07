@@ -164,7 +164,8 @@
             "raids": "Incursiones",
             "personal": "Personal",
             "trainer": "Entrenador",
-            "pokebox": "Pokebox"
+            "pokebox": "Pokebox",
+            "raidAdvice": "Sugerencia para la Incursión"
         }
     }
 }
