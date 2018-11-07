@@ -443,7 +443,8 @@
         "SANDSHREW_ALOLA_FORM": "Sandshrew - Alola",
         "SANDSLASH_NORMAL_FORM": "Sandslash - Normal",
         "SANDSLASH_ALOLA_FORM": "Sandslash - Alola",
-        "VULPIX_NORMAL_FORM": "Vulpix - Normal"
+        "VULPIX_NORMAL_FORM": "Vulpix - Normal",
+        "VULPIX_ALOLA_FORM": "Vulpix - Alola"
     },
     "moves": {
         "ACID_FAST": "Ácido",
