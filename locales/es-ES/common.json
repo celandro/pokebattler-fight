@@ -169,7 +169,8 @@
             "misc": "Misc.",
             "help": "Ayuda",
             "about": "Acerca de",
-            "contact": "Contáctanos"
+            "contact": "Contáctanos",
+            "translate": "Traducir"
         }
     }
 }
