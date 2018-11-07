@@ -46,6 +46,7 @@
         "win": "% de Victoria",
         "deaths": "Muertes",
         "effectiveDeaths": "Muertes para Ganar",
-        "time": "Tiempo para Ganar"
+        "time": "Tiempo para Ganar",
+        "realTime": "Tiempo"
     }
 }
