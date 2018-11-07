@@ -66,5 +66,8 @@
         "tdo": "Daño (TDO)",
         "maxCP": "Max $t(common:cp)",
         "level": "$t(common:level)"
+    },
+    "sectionLinks": {
+        "help": "Sección de Ayuda"
     }
 }
