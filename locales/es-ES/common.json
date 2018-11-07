@@ -53,6 +53,7 @@
         "potions": "Pociones",
         "damage": "Daño",
         "energy": "Energía",
-        "grouped": "Agrupados"
+        "grouped": "Agrupados",
+        "single": "Simple"
     }
 }
