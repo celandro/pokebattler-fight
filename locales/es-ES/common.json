@@ -178,6 +178,9 @@
             "privacy": "Privacidad",
             "pvp": "$t(pvp)",
             "news": "Noticias"
+        },
+        "description": {
+            "gym": "Simulaciones de Batallas en Gimnasios, Pokedex y Rankings."
         }
     }
 }
