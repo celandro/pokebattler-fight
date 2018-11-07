@@ -52,6 +52,7 @@
         "dps": "DPS",
         "potions": "Pociones",
         "damage": "Daño",
-        "energy": "Energía"
+        "energy": "Energía",
+        "grouped": "Agrupados"
     }
 }
