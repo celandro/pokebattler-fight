@@ -157,7 +157,8 @@
             "gym": "$t(gimnasio)",
             "articles": "Artículos",
             "tools": "Herramientas",
-            "battle": "Combate"
+            "battle": "Combate",
+            "simulator": "Simulador"
         }
     }
 }
