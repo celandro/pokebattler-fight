@@ -122,6 +122,7 @@
         "deleteAll": "Borrando todos los Pokemon de su Pokebox",
         "update": "Actualizando sus Pokemon",
         "success": "Éxito",
-        "error": "Ups, algo salió mal. Intente de nuevo en un par de segundos."
+        "error": "Ups, algo salió mal. Intente de nuevo en un par de segundos.",
+        "newVersion": "Una nueva versión está disponible. Refresque la página de su navegador."
     }
 }
