@@ -922,6 +922,9 @@
         "FRIENDSHIP_LEVEL_3": {
             "label": "Ultra-Amizade",
             "description": "O nível máximo de amizade que você possui com alguém na reide. Amigos com Ultra-Amizade ganham um bônus de 7% de ataque e 2 bolas extras em reides. Podem trocar Pokémon não-míticos com 92% de desconto em Poeira Estelar."
+        },
+        "FRIENDSHIP_LEVEL_4": {
+            "label": "Amizade Sem Igual"
         }
     }
 }
