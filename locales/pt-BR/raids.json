@@ -111,7 +111,7 @@
         "description": "Bem-vindo ao Guia de Reide do Pokebattler para {{pokemon}}. Você pode encontrar o melhor oponente de acordo com os ataques de cada Chefe. Este guia é customizável de muitas formas diferentes. Você pode escolher o nível do ataque e estratégia de ataque que deseja usar assim como várias opções de ordenação.",
         "patreon": {
             "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores Patreon. Os usuários Patreon recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais.",
-            "link": "Veja todos os benefícios que você ganha ao se registrar.",
+            "link": "Veja todos os benefícios que você ganha ao se registrar",
             "thanks": "Obrigado pelo seu suporte!"
         },
         "meta": {
