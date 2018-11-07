@@ -70,6 +70,9 @@
             "title": "Reides 5 Futuras",
             "subtitle": "Reides Legendárias",
             "intro": "Estas reides nível 5 não estão no jogo ainda! Suas estatísticas e ataques estão ainda sujeitas a mudanças."
+        },
+        "RAID_LEVEL_6": {
+            "title": "Nível 6"
         }
     },
     "custom": {
