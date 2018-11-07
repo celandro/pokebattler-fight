@@ -487,7 +487,8 @@
         "ARCEUS_FIRE_FORM": "Arceus - Fogo",
         "ARCEUS_FLYING_FORM": "Arceus - Voador",
         "ARCEUS_GHOST_FORM": "Arceus - Fantasma",
-        "ARCEUS_GRASS_FORM": "Arceus - Planta"
+        "ARCEUS_GRASS_FORM": "Arceus - Planta",
+        "ARCEUS_GROUND_FORM": "Arceus - Terrestre"
     },
     "moves": {
         "ACID_FAST": "Ácido",
