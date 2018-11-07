@@ -912,7 +912,8 @@
             "description": "Se você não é amigo com mais ninguém na reide, você não ganha bônus de ataque. Você pode trocar apenas Pokémon comuns que ambos os jogadores já possuem."
         },
         "FRIENDSHIP_LEVEL_1": {
-            "label": "Bela Amizade"
+            "label": "Bela Amizade",
+            "description": "O nível máximo de amizade que você possui com alguém na reide. Amigos com Bela Amizade ganham um bônus de 3% de ataque e podem trocar Pokémon não-míticos."
         }
     }
 }
