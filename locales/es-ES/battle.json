@@ -19,7 +19,8 @@
     },
     "results": {
         "title": {
-            "base": "Resultado del Combate: Tu"
+            "base": "Resultado del Combate: Tu",
+            "win": "$t(results.title.base) Ganaste!"
         }
     }
 }
