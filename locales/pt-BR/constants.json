@@ -454,7 +454,8 @@
         "MEOWTH_NORMAL_FORM": "Meowth - Normal",
         "MEOWTH_ALOLA_FORM": "Meowth - Alola",
         "PERSIAN_NORMAL_FORM": "Persian - Normal",
-        "PERSIAN_ALOLA_FORM": "Persian - Alola"
+        "PERSIAN_ALOLA_FORM": "Persian - Alola",
+        "GEODUDE_NORMAL_FORM": "Geodude - Normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",
