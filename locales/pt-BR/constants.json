@@ -482,7 +482,8 @@
         "ARCEUS_DARK_FORM": "Arceus - Sombrio",
         "ARCEUS_DRAGON_FORM": "Arceus - Dragão",
         "ARCEUS_ELECTRIC_FORM": "Arceus - Elétrico",
-        "ARCEUS_FIGHTING_FORM": "Arceus - Luta"
+        "ARCEUS_FIGHTING_FORM": "Arceus - Luta",
+        "ARCEUS_FAIRY_FORM": "Arceus - Fada"
     },
     "moves": {
         "ACID_FAST": "Ácido",
