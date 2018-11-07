@@ -180,7 +180,8 @@
             "news": "Noticias"
         },
         "description": {
-            "gym": "Simulaciones de Batallas en Gimnasios, Pokedex y Rankings."
+            "gym": "Simulaciones de Batallas en Gimnasios, Pokedex y Rankings.",
+            "raids": "Principales contrincantes, simulaciones de Equipos de Combate y consejos para subir el Poder."
         }
     }
 }
