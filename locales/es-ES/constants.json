@@ -436,7 +436,8 @@
         "RATTATA_ALOLA_FORM": "Rattata - Alola",
         "RATICATE_NORMAL_FORM": "Raticate - Normal",
         "RATICATE_ALOLA_FORM": "Raticate - Alola",
-        "RAICHU_NORMAL_FORM": "Raichu - Normal"
+        "RAICHU_NORMAL_FORM": "Raichu - Normal",
+        "RAICHU_ALOLA_FORM": "Raichu - Alola"
     },
     "moves": {
         "ACID_FAST": "Ácido",
