@@ -42,6 +42,7 @@
     "properties": {
         "overall": "Total",
         "estimator": "Estimador",
-        "power": "Poder"
+        "power": "Poder",
+        "win": "% de Victoria"
     }
 }
