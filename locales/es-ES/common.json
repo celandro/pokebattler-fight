@@ -73,5 +73,8 @@
     },
     "simulation": "una simulación fue",
     "simulation_plural": "{{count}} simulaciones fueron",
-    "chooseMovesetLabel": "Seleccionar Ataques"
+    "chooseMovesetLabel": "Seleccionar Ataques",
+    "hd": {
+        "text": "$t(simulación, {'count': {{numSims}} }) realizadas para generar esta simulación de alta precisión"
+    }
 }
