@@ -159,7 +159,8 @@
             "tools": "Herramientas",
             "battle": "Combate",
             "simulator": "Simulador",
-            "rankings": "Rankings"
+            "rankings": "Rankings",
+            "pokedex": "Pokedex"
         }
     }
 }
