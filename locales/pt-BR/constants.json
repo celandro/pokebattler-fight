@@ -478,7 +478,8 @@
         "CRESSELIA": "Cresselia",
         "DARKRAI": "Darkrai",
         "ARCEUS": "Arceus",
-        "ARCEUS_BUG_FORM": "Arceus - Inseto"
+        "ARCEUS_BUG_FORM": "Arceus - Inseto",
+        "ARCEUS_DARK_FORM": "Arceus - Sombrio"
     },
     "moves": {
         "ACID_FAST": "Ácido",
