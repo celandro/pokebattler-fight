@@ -15,5 +15,6 @@
     "defenseStrategy": "Tipo de Simulación",
     "dodgeStrategy": "Estrategia de Esquivar",
     "weatherCondition": "Clima",
-    "delete": "Eliminar"
+    "delete": "Eliminar",
+    "shiny": "Variocolor"
 }
