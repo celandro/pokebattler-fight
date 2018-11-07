@@ -160,7 +160,8 @@
             "battle": "Combate",
             "simulator": "Simulador",
             "rankings": "Rankings",
-            "pokedex": "Pokedex"
+            "pokedex": "Pokedex",
+            "raids": "Incursiones"
         }
     }
 }
