@@ -79,5 +79,6 @@
         "attackers": "atacantes",
         "defenders": "defensores",
         "raid": "incursión"
-    }
+    },
+    "name": "Nombre"
 }
