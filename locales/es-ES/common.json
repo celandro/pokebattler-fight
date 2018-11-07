@@ -104,5 +104,8 @@
     "battleParties": "Equipos de Combate",
     "raids": "Incursiones",
     "gym": "Gimnasio",
-    "pvp": "PvP"
+    "pvp": "PvP",
+    "status": {
+        "add": "Añadiendo"
+    }
 }
