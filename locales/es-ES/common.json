@@ -93,5 +93,6 @@
         "level": "Por Nivel",
         "friend": "Su Pokebox"
     },
-    "pokebox": "Pokebox"
+    "pokebox": "Pokebox",
+    "advice": "Consejos de Incursión"
 }
