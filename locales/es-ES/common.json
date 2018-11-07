@@ -54,6 +54,7 @@
         "damage": "Daño",
         "energy": "Energía",
         "grouped": "Agrupados",
-        "single": "Simple"
+        "single": "Simple",
+        "id": "Id"
     }
 }
