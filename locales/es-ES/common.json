@@ -142,5 +142,8 @@
         "raid": "Buscando entre todos los posibles atacantes para encontrar los mejores contrincantes. Esto no debería demorar.",
         "pokedex": "Encontrando las mejores partidas y contrincantes. Esto no debería demorar.",
         "rankings": "Encontrando los mejores Pokemon por simulación de combate entre cada partida disponible. Esto demorará un poco."
+    },
+    "patreon": {
+        "ad1": "Pokebattler está realizando una prueba libre de publicidad. Por favor apóyanos en Patreon para mantenernos libres de publicidad, obtener más espacio en tu Pokebox, realizar simulaciones más exactas, obtener opciones extras y más!"
     }
 }
