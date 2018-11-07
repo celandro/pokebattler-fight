@@ -34,5 +34,6 @@
         "hp": "PS"
     },
     "level": "Nivel",
-    "basic": "Básico"
+    "basic": "Básico",
+    "advanced": "Avanzado"
 }
