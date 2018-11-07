@@ -107,6 +107,7 @@
     "pvp": "PvP",
     "status": {
         "add": "Añadiendo",
-        "edit": "Editando"
+        "edit": "Editando",
+        "update": "Actualizando"
     }
 }
