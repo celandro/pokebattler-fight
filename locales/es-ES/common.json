@@ -161,7 +161,8 @@
             "simulator": "Simulador",
             "rankings": "Rankings",
             "pokedex": "Pokedex",
-            "raids": "Incursiones"
+            "raids": "Incursiones",
+            "personal": "Personal"
         }
     }
 }
