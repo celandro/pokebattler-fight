@@ -140,6 +140,7 @@
         "resultLink": "Veja este resultado como um time de batalha"
     },
     "meta": {
-        "description": "Encontre os adversários da raid Pokemon Go usando clima, nível de amizade e até mesmo sua própria Pokebox. Encontre os 24 melhores atacantes com o guia de reide personalizado #1 do mundo."
+        "description": "Encontre os adversários da raid Pokemon Go usando clima, nível de amizade e até mesmo sua própria Pokebox. Encontre os 24 melhores atacantes com o guia de reide personalizado #1 do mundo.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     }
 }
