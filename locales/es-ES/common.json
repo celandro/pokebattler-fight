@@ -86,5 +86,6 @@
     "mystic": "Sabiduría",
     "valor": "Valor",
     "instinct": "Instinto",
-    "ivs": "IVs"
+    "ivs": "IVs",
+    "trainerName": "Nombre del Entrenador"
 }
