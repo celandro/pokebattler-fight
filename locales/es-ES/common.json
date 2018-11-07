@@ -155,7 +155,8 @@
         "follow": "Síguenos!",
         "mainMenu": {
             "gym": "$t(gimnasio)",
-            "articles": "Artículos"
+            "articles": "Artículos",
+            "tools": "Herramientas"
         }
     }
 }
