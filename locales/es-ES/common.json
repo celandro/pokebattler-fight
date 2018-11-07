@@ -33,5 +33,6 @@
         "defense": "Def",
         "hp": "PS"
     },
-    "level": "Nivel"
+    "level": "Nivel",
+    "basic": "Básico"
 }
