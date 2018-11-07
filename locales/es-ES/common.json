@@ -49,6 +49,7 @@
         "time": "Tiempo para Ganar",
         "realTime": "Tiempo",
         "prestige": "Prestigio",
-        "dps": "DPS"
+        "dps": "DPS",
+        "potions": "Pociones"
     }
 }
