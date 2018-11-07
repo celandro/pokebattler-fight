@@ -62,6 +62,7 @@
         "type": "$t(common:type)",
         "powerups": "Incrementos de Poder",
         "stardust": "Polvos Estelares",
-        "candy": "Caramelos"
+        "candy": "Caramelos",
+        "tdo": "Daño (TDO)"
     }
 }
