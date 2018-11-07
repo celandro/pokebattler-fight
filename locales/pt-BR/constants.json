@@ -705,7 +705,8 @@
         "PSYSTRIKE": "Golpe Psíquico",
         "QUICK_ATTACK_FAST": "Ataque Rápido",
         "FRENZY_PLANT": "Planta Mortal",
-        "HYDRO_CANNON": "Hidro Canhão"
+        "HYDRO_CANNON": "Hidro Canhão",
+        "BLAST_BURN": "Queimadura Explosiva"
     },
     "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
     "types": {
