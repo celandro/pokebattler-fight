@@ -138,6 +138,7 @@
     "xAxis": "Axis-X",
     "yAxis": "Axis-Y",
     "spinner": {
-        "battle": "Simulando resultados de combate. Esto no debería demorar."
+        "battle": "Simulando resultados de combate. Esto no debería demorar.",
+        "raid": "Buscando entre todos los posibles atacantes para encontrar los mejores contrincantes. Esto no debería demorar."
     }
 }
