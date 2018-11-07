@@ -12,6 +12,9 @@
         "reddit": {
             "title": "Discussões no Reddit",
             "subtitle": "Notícias e Anúncios em /r/pokebattler"
+        },
+        "twitter": {
+            "title": "Me mande um Tweet"
         }
     }
 }
