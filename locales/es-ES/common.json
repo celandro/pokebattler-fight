@@ -189,7 +189,8 @@
         },
         "tooltip": {
             "gym": "Simulador de batallas de gimansios, Pokedex, rankings de defensores/atacantes y más para Pokemon Go.",
-            "raids": "Encuentra los mejores atacantes, haz simulaciones completas, recibe consejos acerca de a cuál Pokemon darle más poder y mucho más para Incursiones en Pokemon Go."
+            "raids": "Encuentra los mejores atacantes, haz simulaciones completas, recibe consejos acerca de a cuál Pokemon darle más poder y mucho más para Incursiones en Pokemon Go.",
+            "pvp": "Mira lo que pasa si combates contra tus amigos."
         }
     }
 }
