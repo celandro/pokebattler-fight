@@ -450,7 +450,8 @@
         "DIGLETT_NORMAL_FORM": "Diglett - Normal",
         "DIGLETT_ALOLA_FORM": "Diglett - Alola",
         "DUGTRIO_NORMAL_FORM": "Dugtrio - Normal",
-        "DUGTRIO_ALOLA_FORM": "Dugtrio - Alola"
+        "DUGTRIO_ALOLA_FORM": "Dugtrio - Alola",
+        "MEOWTH_NORMAL_FORM": "Meowth - Normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",
