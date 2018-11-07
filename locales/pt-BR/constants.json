@@ -492,7 +492,8 @@
         "ARCEUS_ICE_FORM": "Arceus - Gelo",
         "ARCEUS_NORMAL_FORM": "Arceus - Normal",
         "ARCEUS_POISON_FORM": "Arceus - Venenoso",
-        "ARCEUS_PSYCHIC_FORM": "Arceus - Psíquico"
+        "ARCEUS_PSYCHIC_FORM": "Arceus - Psíquico",
+        "ARCEUS_ROCK_FORM": "Arceus - Pedra"
     },
     "moves": {
         "ACID_FAST": "Ácido",
