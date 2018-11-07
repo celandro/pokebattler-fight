@@ -428,7 +428,8 @@
         "SPINDA_01_FORM": "Spinda - 01",
         "SPINDA_02_FORM": "Spinda - 02",
         "SPINDA_03_FORM": "Spinda - 03",
-        "SPINDA_04_FORM": "Spinda - 04"
+        "SPINDA_04_FORM": "Spinda - 04",
+        "SPINDA_05_FORM": "Spinda - 05"
     },
     "moves": {
         "ACID_FAST": "Ácido",
