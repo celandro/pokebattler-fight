@@ -111,6 +111,7 @@
         "update": "Actualizando",
         "delete": "Borrando",
         "loading": "Cargando",
-        "success": "Exito"
+        "success": "Exito",
+        "error": "Error"
     }
 }
