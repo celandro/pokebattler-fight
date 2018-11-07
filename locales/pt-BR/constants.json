@@ -468,7 +468,8 @@
         "MAROWAK_NORMAL_FORM": "Marowak - Normal",
         "MAROWAK_ALOLA_FORM": "Marowak - Alola",
         "UXIE": "Uxie",
-        "MESPRIT": "Mesprit"
+        "MESPRIT": "Mesprit",
+        "AZELF": "Azelf"
     },
     "moves": {
         "ACID_FAST": "Ácido",
