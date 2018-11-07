@@ -73,7 +73,8 @@
         },
         "RAID_LEVEL_6": {
             "title": "Nível 6",
-            "subtitle": "Reide Legendária - Bonus Hp"
+            "subtitle": "Reide Legendária - Bonus Hp",
+            "intro": "Estas reides tem bonus hp comparadas com reide nível 5. Não se sabe se é uma mudança permanente para todo o Nível 5.  Elas normalmente são feitas com grupos de 6-10 jogadores nível 30-40. Alguns especialistas corajosos tem feito estas reides com até mesmo 2-5 jogadores."
         }
     },
     "custom": {
