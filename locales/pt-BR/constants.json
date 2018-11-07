@@ -459,7 +459,8 @@
         "GEODUDE_ALOLA_FORM": "Geodude - Alola",
         "GRAVELER_NORMAL_FORM": "Graveler - Normal",
         "GRAVELER_ALOLA_FORM": "Graveler - Alola",
-        "GOLEM_NORMAL_FORM": "Golem - Normal"
+        "GOLEM_NORMAL_FORM": "Golem - Normal",
+        "GOLEM_ALOLA_FORM": "Golem - Alola"
     },
     "moves": {
         "ACID_FAST": "Ácido",
