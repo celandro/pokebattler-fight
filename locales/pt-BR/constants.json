@@ -706,7 +706,8 @@
         "QUICK_ATTACK_FAST": "Ataque Rápido",
         "FRENZY_PLANT": "Planta Mortal",
         "HYDRO_CANNON": "Hidro Canhão",
-        "BLAST_BURN": "Queimadura Explosiva"
+        "BLAST_BURN": "Queimadura Explosiva",
+        "SMACK_DOWN_FAST": "Derrubada"
     },
     "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
     "types": {
