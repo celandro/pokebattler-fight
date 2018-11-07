@@ -176,7 +176,8 @@
             "privacy": "Privacidade",
             "pvp": "$t(pvp)",
             "news": "Notícias",
-            "rankings": "Rankings"
+            "rankings": "Rankings",
+            "raidAdvice": "Conselho de Reide"
         },
         "description": {
             "gym": "Simulações de Batalhas de Ginásios, Pokedex e Rankings",
