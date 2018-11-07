@@ -126,6 +126,7 @@
         "newVersion": "Una nueva versión está disponible. Refresque la página de su navegador."
     },
     "site": {
-        "beta": "Sitio Beta"
+        "beta": "Sitio Beta",
+        "www": "Sitio Principal"
     }
 }
