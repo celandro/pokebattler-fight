@@ -186,7 +186,8 @@
             "gym": "Simulações de Batalhas de Ginásios, Pokedex e Rankings",
             "pvp": "Simulações PvP",
             "help": "Tutoriais, Termos e Definições",
-            "more": "Notícias, Artigos, Traduções, Como nos contatar e Mais"
+            "more": "Notícias, Artigos, Traduções, Como nos contatar e Mais",
+            "raids": "Principais Oponentes, Simulações de Grupos de Batalhas de Reide e Conselho de Fortalecimento"
         },
         "tooltip": {
             "gym": "Simulações de batalhas de ginásios, Pokedex, Rankings de atacantes e defensores e mais para Pokemon Go",
