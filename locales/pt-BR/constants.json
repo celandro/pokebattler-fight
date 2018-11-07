@@ -484,7 +484,8 @@
         "ARCEUS_ELECTRIC_FORM": "Arceus - Elétrico",
         "ARCEUS_FIGHTING_FORM": "Arceus - Luta",
         "ARCEUS_FAIRY_FORM": "Arceus - Fada",
-        "ARCEUS_FIRE_FORM": "Arceus - Fogo"
+        "ARCEUS_FIRE_FORM": "Arceus - Fogo",
+        "ARCEUS_FLYING_FORM": "Arceus - Voador"
     },
     "moves": {
         "ACID_FAST": "Ácido",
