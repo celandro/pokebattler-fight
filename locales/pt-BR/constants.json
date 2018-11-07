@@ -905,5 +905,10 @@
         }
     },
     "levelVs": "Atacante nível {{attackerLevel}}  Vs. Defensor nível {{defenderLevel}}",
-    "levelVsPokebox": "Atacante Nível {{attackerLevel}}  Vs. Defensor da Pokebox {{userId}}"
+    "levelVsPokebox": "Atacante Nível {{attackerLevel}}  Vs. Defensor da Pokebox {{userId}}",
+    "friendLevels": {
+        "FRIENDSHIP_LEVEL_0": {
+            "label": "Não Amigos"
+        }
+    }
 }
