@@ -117,6 +117,7 @@
         "newVersion": "Nuevo lanzamiento"
     },
     "message": {
-        "bulk": "Importando en grupo {{num}} pokemon, esto puede tardar un poco"
+        "bulk": "Importando en grupo {{num}} pokemon, esto puede tardar un poco",
+        "delete": "Borrando {{num}} pokemon de su Pokebox"
     }
 }
