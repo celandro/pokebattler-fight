@@ -20,6 +20,7 @@
     "lucky": "Con suerte",
     "seconds": "Segundos",
     "rejoin": {
-        "label": "Tiempo para volver a la partida"
+        "label": "Tiempo para volver a la partida",
+        "default": "Nunca"
     }
 }
