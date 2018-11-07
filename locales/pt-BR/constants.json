@@ -914,6 +914,9 @@
         "FRIENDSHIP_LEVEL_1": {
             "label": "Bela Amizade",
             "description": "O nível máximo de amizade que você possui com alguém na reide. Amigos com Bela Amizade ganham um bônus de 3% de ataque e podem trocar Pokémon não-míticos."
+        },
+        "FRIENDSHIP_LEVEL_2": {
+            "label": "Grande Amizade"
         }
     }
 }
