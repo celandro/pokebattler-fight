@@ -112,6 +112,7 @@
         "delete": "Borrando",
         "loading": "Cargando",
         "success": "Exito",
-        "error": "Error"
+        "error": "Error",
+        "bulk": "Importando"
     }
 }
