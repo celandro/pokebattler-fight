@@ -55,6 +55,7 @@
         "energy": "Energía",
         "grouped": "Agrupados",
         "single": "Simple",
-        "id": "Id"
+        "id": "Id",
+        "cp": "$t(common:cp)"
     }
 }
