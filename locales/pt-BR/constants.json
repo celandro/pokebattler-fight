@@ -447,7 +447,8 @@
         "VULPIX_ALOLA_FORM": "Vulpix - Alola",
         "NINETALES_NORMAL_FORM": "Ninetails - Normal",
         "NINETALES_ALOLA_FORM": "Ninetails - Alola",
-        "DIGLETT_NORMAL_FORM": "Diglett - Normal"
+        "DIGLETT_NORMAL_FORM": "Diglett - Normal",
+        "DIGLETT_ALOLA_FORM": "Diglett - Alola"
     },
     "moves": {
         "ACID_FAST": "Ácido",
