@@ -152,6 +152,9 @@
         "ad6": "Lleva tu juego al siguiente nivel con una cuenta Patreon de Pokebattler. Regístrate ahora!"
     },
     "menu": {
-        "follow": "Síguenos!"
+        "follow": "Síguenos!",
+        "mainMenu": {
+            "gym": "$t(gimnasio)"
+        }
     }
 }
