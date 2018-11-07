@@ -171,7 +171,8 @@
             "about": "Acerca de",
             "contact": "Contáctanos",
             "translate": "Traducir",
-            "counters": "Contrincantes"
+            "counters": "Contrincantes",
+            "battleParties": "$t(equiposdeCombate)"
         }
     }
 }
