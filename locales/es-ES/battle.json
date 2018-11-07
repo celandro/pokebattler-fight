@@ -11,6 +11,7 @@
         "all": "Todos los Pokemon"
     },
     "relatedBattles": {
-        "title": "Batallas Relacionadas"
+        "title": "Batallas Relacionadas",
+        "description": "Elige el parametro que deseas cambiar debajo y da click al link para volver a correr la simulacion actual con el nuevo parametro. Los resultados son cambiados inmediatamente"
     }
 }
