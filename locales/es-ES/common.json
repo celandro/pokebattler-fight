@@ -89,6 +89,7 @@
     "ivs": "IVs",
     "trainerName": "Nombre del Entrenador",
     "attackerTypes": {
-        "pokebox": "Mi Pokebox"
+        "pokebox": "Mi Pokebox",
+        "level": "Por Nivel"
     }
 }
