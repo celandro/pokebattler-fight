@@ -479,7 +479,8 @@
         "DARKRAI": "Darkrai",
         "ARCEUS": "Arceus",
         "ARCEUS_BUG_FORM": "Arceus - Inseto",
-        "ARCEUS_DARK_FORM": "Arceus - Sombrio"
+        "ARCEUS_DARK_FORM": "Arceus - Sombrio",
+        "ARCEUS_DRAGON_FORM": "Arceus - Dragão"
     },
     "moves": {
         "ACID_FAST": "Ácido",
