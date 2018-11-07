@@ -424,7 +424,8 @@
         "UNOWN_Z_FORM": "Unown - Z",
         "UNOWN_EXCLAMATION_POINT_FORM": "Unown - !",
         "UNOWN_QUESTION_MARK_FORM": "Unown - ?",
-        "SPINDA_00_FORM": "Spinda - 00"
+        "SPINDA_00_FORM": "Spinda - 00",
+        "SPINDA_01_FORM": "Spinda - 01"
     },
     "moves": {
         "ACID_FAST": "Ácido",
