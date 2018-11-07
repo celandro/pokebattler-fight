@@ -27,5 +27,8 @@
         "attack": "Ataque",
         "defense": "Defensa",
         "stamina": "Salud"
+    },
+    "statsAbbr": {
+        "attack": "Atq"
     }
 }
