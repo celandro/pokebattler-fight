@@ -44,6 +44,7 @@
         "estimator": "Estimador",
         "power": "Poder",
         "win": "% de Victoria",
-        "deaths": "Muertes"
+        "deaths": "Muertes",
+        "effectiveDeaths": "Muertes para Ganar"
     }
 }
