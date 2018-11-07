@@ -176,7 +176,8 @@
             "account": "Mi cuenta",
             "more": "Más",
             "privacy": "Privacidad",
-            "pvp": "$t(pvp)"
+            "pvp": "$t(pvp)",
+            "news": "Noticias"
         }
     }
 }
