@@ -456,7 +456,8 @@
         "PERSIAN_NORMAL_FORM": "Persian - Normal",
         "PERSIAN_ALOLA_FORM": "Persian - Alola",
         "GEODUDE_NORMAL_FORM": "Geodude - Normal",
-        "GEODUDE_ALOLA_FORM": "Geodude - Alola"
+        "GEODUDE_ALOLA_FORM": "Geodude - Alola",
+        "GRAVELER_NORMAL_FORM": "Graveler - Normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",
