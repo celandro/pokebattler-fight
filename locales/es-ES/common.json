@@ -61,6 +61,7 @@
         "name": "$t(common:name)",
         "type": "$t(common:type)",
         "powerups": "Incrementos de Poder",
-        "stardust": "Polvos Estelares"
+        "stardust": "Polvos Estelares",
+        "candy": "Caramelos"
     }
 }
