@@ -68,6 +68,7 @@
         "level": "$t(common:level)"
     },
     "sectionLinks": {
-        "help": "Sección de Ayuda"
+        "help": "Sección de Ayuda",
+        "about": "Acerca de"
     }
 }
