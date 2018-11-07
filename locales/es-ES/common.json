@@ -47,6 +47,7 @@
         "deaths": "Muertes",
         "effectiveDeaths": "Muertes para Ganar",
         "time": "Tiempo para Ganar",
-        "realTime": "Tiempo"
+        "realTime": "Tiempo",
+        "prestige": "Prestigio"
     }
 }
