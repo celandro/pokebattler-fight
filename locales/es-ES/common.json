@@ -140,6 +140,7 @@
     "spinner": {
         "battle": "Simulando resultados de combate. Esto no debería demorar.",
         "raid": "Buscando entre todos los posibles atacantes para encontrar los mejores contrincantes. Esto no debería demorar.",
-        "pokedex": "Encontrando las mejores partidas y contrincantes. Esto no debería demorar."
+        "pokedex": "Encontrando las mejores partidas y contrincantes. Esto no debería demorar.",
+        "rankings": "Encontrando los mejores Pokemon por simulación de combate entre cada partida disponible. Esto demorará un poco."
     }
 }
