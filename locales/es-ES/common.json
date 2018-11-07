@@ -80,5 +80,6 @@
         "defenders": "defensores",
         "raid": "incursión"
     },
-    "name": "Nombre"
+    "name": "Nombre",
+    "nickname": "Mote"
 }
