@@ -490,7 +490,8 @@
         "ARCEUS_GRASS_FORM": "Arceus - Planta",
         "ARCEUS_GROUND_FORM": "Arceus - Terrestre",
         "ARCEUS_ICE_FORM": "Arceus - Gelo",
-        "ARCEUS_NORMAL_FORM": "Arceus - Normal"
+        "ARCEUS_NORMAL_FORM": "Arceus - Normal",
+        "ARCEUS_POISON_FORM": "Arceus - Venenoso"
     },
     "moves": {
         "ACID_FAST": "Ácido",
