@@ -20,7 +20,20 @@
             "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
         },
         "analysis": {
-            "title": "關於此分析"
+            "title": "關於此分析",
+            "attackers": {
+                "byLevel": "等級{{attackerLevel}}攻擊者"
+            }
         }
-    }
+    },
+    "pokeboxRequired": "Pokebattler Advice 需要你輸入寶可夢。登入並加入你最強的寶可夢到 Pokebox，我們會協助你找到最合適強化的寶可夢。",
+    "result": {
+        "summaryStart": "起始結果",
+        "summaryEnd": "強化後結果",
+        "graphTitle": "{{yAxis}} vs. {{xAxis}}",
+        "detail": "每次強化對應的結果",
+        "back": "回到 Advice 設定"
+    },
+    "raidLink": "看強化前的結果",
+    "helpLink": "看 Raid Advice 教學影片"
 }
