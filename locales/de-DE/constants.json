@@ -585,7 +585,8 @@
         "GLACEON": "Glaziola",
         "GLISCOR": "Skorgro",
         "MAMOSWINE": "Mamutel",
-        "PORYGON_Z": "Porygon-Z"
+        "PORYGON_Z": "Porygon-Z",
+        "GALLADE": "Galagladi"
     },
     "moves": {
         "undefined": " ",
