@@ -522,7 +522,8 @@
         "CRANIDOS": "Koknodon",
         "RAMPARDOS": "Rameidon",
         "SHIELDON": "Schilterus",
-        "BASTIODON": "Bollterus"
+        "BASTIODON": "Bollterus",
+        "BURMY": "Burmy"
     },
     "moves": {
         "undefined": " ",
