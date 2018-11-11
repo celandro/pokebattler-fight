@@ -501,7 +501,8 @@
         "TURTWIG": "Chelast",
         "GROTLE": "Chelcarain",
         "TORTERRA": "Chelterrar",
-        "CHIMCHAR": "Panflam"
+        "CHIMCHAR": "Panflam",
+        "MONFERNO": "Panpyro"
     },
     "moves": {
         "undefined": " ",
