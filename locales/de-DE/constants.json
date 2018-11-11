@@ -601,7 +601,8 @@
         "ROTOM_WASH_FORM": "Rotom - Wasch",
         "ROTOM_HEAT_FORM": "Rotom - Hitze",
         "WORMADAM_PLANT_FORM": "Burmadame - Pflanze",
-        "WORMADAM_SANDY_FORM": "Burmadame - Sand"
+        "WORMADAM_SANDY_FORM": "Burmadame - Sand",
+        "WORMADAM_TRASH_FORM": "Burmadame - Lumpen"
     },
     "moves": {
         "undefined": " ",
