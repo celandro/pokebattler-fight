@@ -593,7 +593,8 @@
         "ROTOM": "Rotom",
         "PHIONE": "Phione",
         "MANAPHY": "Manaphy",
-        "SHAYMIN": "Shaymin"
+        "SHAYMIN": "Shaymin",
+        "ROTOM_NORMAL_FORM": "Rotom - Normal"
     },
     "moves": {
         "undefined": " ",
