@@ -520,7 +520,8 @@
         "BUDEW": "Knospi",
         "ROSERADE": "Roserade",
         "CRANIDOS": "Koknodon",
-        "RAMPARDOS": "Rameidon"
+        "RAMPARDOS": "Rameidon",
+        "SHIELDON": "Schilterus"
     },
     "moves": {
         "undefined": " ",
