@@ -503,7 +503,8 @@
         "TORTERRA": "Chelterrar",
         "CHIMCHAR": "Panflam",
         "MONFERNO": "Panpyro",
-        "INFERNAPE": "Panferno"
+        "INFERNAPE": "Panferno",
+        "PIPLUP": "Plinfa"
     },
     "moves": {
         "undefined": " ",
