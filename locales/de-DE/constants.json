@@ -497,7 +497,8 @@
         "ARCEUS_STEEL_FORM": "Arceus - Stahl",
         "ARCEUS_WATER_FORM": "Arceus - Wasser",
         "GIRATINA_ALTERED_FORM": "Giratina - Wandelform",
-        "GIRATINA_ORIGIN_FORM": "Giratina - Urform"
+        "GIRATINA_ORIGIN_FORM": "Giratina - Urform",
+        "TURTWIG": "Chelast"
     },
     "moves": {
         "undefined": " ",
