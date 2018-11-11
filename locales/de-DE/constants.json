@@ -590,7 +590,8 @@
         "PROBOPASS": "Voluminas",
         "DUSKNOIR": "Zwirrfinst",
         "FROSLASS": "Frosdedje",
-        "ROTOM": "Rotom"
+        "ROTOM": "Rotom",
+        "PHIONE": "Phione"
     },
     "moves": {
         "undefined": " ",
