@@ -558,7 +558,8 @@
         "GABITE": "Knarksel",
         "GARCHOMP": "Knakrack",
         "MUNCHLAX": "Mampfaxo",
-        "RIOLU": "Riolu"
+        "RIOLU": "Riolu",
+        "LUCARIO": "Lucario"
     },
     "moves": {
         "undefined": " ",
