@@ -504,7 +504,8 @@
         "CHIMCHAR": "Panflam",
         "MONFERNO": "Panpyro",
         "INFERNAPE": "Panferno",
-        "PIPLUP": "Plinfa"
+        "PIPLUP": "Plinfa",
+        "PRINPLUP": "Pliprin"
     },
     "moves": {
         "undefined": " ",
