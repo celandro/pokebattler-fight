@@ -606,7 +606,8 @@
         "SHAYMIN_SKY_FORM": "Shaymin - Zenit",
         "SHAYMIN_LAND_FORM": "Shaymin - Land",
         "CHERRIM_OVERCAST_FORM": "Kinoso - Wolke",
-        "CHERRIM_SUNNY_FORM": "Kinoso - Sonne"
+        "CHERRIM_SUNNY_FORM": "Kinoso - Sonne",
+        "SHELLOS_WEST_SEA_FORM": "Schalellos - Westliches Meer"
     },
     "moves": {
         "undefined": " ",
