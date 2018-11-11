@@ -564,7 +564,8 @@
         "HIPPOWDON": "Hippoterus",
         "SKORUPI": "Pionskora",
         "DRAPION": "Piondragi",
-        "CROAGUNK": "Glibunkel"
+        "CROAGUNK": "Glibunkel",
+        "TOXICROAK": "Toxiquak"
     },
     "moves": {
         "undefined": " ",
