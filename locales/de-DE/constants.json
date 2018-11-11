@@ -605,7 +605,8 @@
         "WORMADAM_TRASH_FORM": "Burmadame - Lumpen",
         "SHAYMIN_SKY_FORM": "Shaymin - Zenit",
         "SHAYMIN_LAND_FORM": "Shaymin - Land",
-        "CHERRIM_OVERCAST_FORM": "Kinoso - Wolke"
+        "CHERRIM_OVERCAST_FORM": "Kinoso - Wolke",
+        "CHERRIM_SUNNY_FORM": "Kinoso - Sonne"
     },
     "moves": {
         "undefined": " ",
