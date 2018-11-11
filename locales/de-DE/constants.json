@@ -521,7 +521,8 @@
         "ROSERADE": "Roserade",
         "CRANIDOS": "Koknodon",
         "RAMPARDOS": "Rameidon",
-        "SHIELDON": "Schilterus"
+        "SHIELDON": "Schilterus",
+        "BASTIODON": "Bollterus"
     },
     "moves": {
         "undefined": " ",
