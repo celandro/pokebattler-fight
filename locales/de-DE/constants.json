@@ -576,7 +576,8 @@
         "MAGNEZONE": "Magnezone",
         "LICKILICKY": "Schlurplek",
         "RHYPERIOR": "Rihornior",
-        "TANGROWTH": "Tangoloss"
+        "TANGROWTH": "Tangoloss",
+        "ELECTIVIRE": "Elevoltek"
     },
     "moves": {
         "undefined": " ",
