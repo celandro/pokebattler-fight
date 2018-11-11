@@ -502,7 +502,8 @@
         "GROTLE": "Chelcarain",
         "TORTERRA": "Chelterrar",
         "CHIMCHAR": "Panflam",
-        "MONFERNO": "Panpyro"
+        "MONFERNO": "Panpyro",
+        "INFERNAPE": "Panferno"
     },
     "moves": {
         "undefined": " ",
