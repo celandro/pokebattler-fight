@@ -592,7 +592,8 @@
         "FROSLASS": "Frosdedje",
         "ROTOM": "Rotom",
         "PHIONE": "Phione",
-        "MANAPHY": "Manaphy"
+        "MANAPHY": "Manaphy",
+        "SHAYMIN": "Shaymin"
     },
     "moves": {
         "undefined": " ",
