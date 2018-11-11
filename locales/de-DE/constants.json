@@ -602,7 +602,8 @@
         "ROTOM_HEAT_FORM": "Rotom - Hitze",
         "WORMADAM_PLANT_FORM": "Burmadame - Pflanze",
         "WORMADAM_SANDY_FORM": "Burmadame - Sand",
-        "WORMADAM_TRASH_FORM": "Burmadame - Lumpen"
+        "WORMADAM_TRASH_FORM": "Burmadame - Lumpen",
+        "SHAYMIN_SKY_FORM": "Shaymin - Zenit"
     },
     "moves": {
         "undefined": " ",
