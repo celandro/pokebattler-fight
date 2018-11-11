@@ -584,7 +584,8 @@
         "LEAFEON": "Folipurba",
         "GLACEON": "Glaziola",
         "GLISCOR": "Skorgro",
-        "MAMOSWINE": "Mamutel"
+        "MAMOSWINE": "Mamutel",
+        "PORYGON_Z": "Porygon-Z"
     },
     "moves": {
         "undefined": " ",
