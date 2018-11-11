@@ -562,7 +562,8 @@
         "LUCARIO": "Lucario",
         "HIPPOPOTAS": "Hippopotas",
         "HIPPOWDON": "Hippoterus",
-        "SKORUPI": "Pionskora"
+        "SKORUPI": "Pionskora",
+        "DRAPION": "Piondragi"
     },
     "moves": {
         "undefined": " ",
