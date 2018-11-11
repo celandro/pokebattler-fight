@@ -505,7 +505,8 @@
         "MONFERNO": "Panpyro",
         "INFERNAPE": "Panferno",
         "PIPLUP": "Plinfa",
-        "PRINPLUP": "Pliprin"
+        "PRINPLUP": "Pliprin",
+        "EMPOLEON": "Impoleon"
     },
     "moves": {
         "undefined": " ",
