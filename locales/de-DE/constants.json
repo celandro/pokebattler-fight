@@ -508,7 +508,8 @@
         "PRINPLUP": "Pliprin",
         "EMPOLEON": "Impoleon",
         "STARLY": "Staralili",
-        "STARAVIA": "Staravia"
+        "STARAVIA": "Staravia",
+        "STARAPTOR": "Staraptor"
     },
     "moves": {
         "undefined": " ",
