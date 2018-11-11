@@ -597,7 +597,8 @@
         "ROTOM_NORMAL_FORM": "Rotom - Normal",
         "ROTOM_FROST_FORM": "Rotom - Frost",
         "ROTOM_FAN_FORM": "Rotom - Wirbel",
-        "ROTOM_MOW_FORM": "Rotom - Schneid"
+        "ROTOM_MOW_FORM": "Rotom - Schneid",
+        "ROTOM_WASH_FORM": "Rotom - Wasch"
     },
     "moves": {
         "undefined": " ",
