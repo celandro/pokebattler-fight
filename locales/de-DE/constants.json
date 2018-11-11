@@ -498,7 +498,8 @@
         "ARCEUS_WATER_FORM": "Arceus - Wasser",
         "GIRATINA_ALTERED_FORM": "Giratina - Wandelform",
         "GIRATINA_ORIGIN_FORM": "Giratina - Urform",
-        "TURTWIG": "Chelast"
+        "TURTWIG": "Chelast",
+        "GROTLE": "Chelcarain"
     },
     "moves": {
         "undefined": " ",
