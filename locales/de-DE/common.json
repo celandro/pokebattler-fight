@@ -172,7 +172,8 @@
             "more": "Mehr",
             "privacy": "Datenschutz",
             "pvp": "$t(pvp)",
-            "news": "Neuigkeiten"
+            "news": "Neuigkeiten",
+            "profiles": "Öffentliche Profile"
         },
         "description": {
             "gym": "Arena Kampfsimulationen, Pokedex und Ranglisten",
@@ -180,7 +181,8 @@
             "pvp": "PvP Simulationen",
             "help": "Anleitungen, Begriffe und Definitionen",
             "account": "Passe Pokebattler an, in dem du Pokemon zu deiner Pokebox und Kampfgruppen hinzufügst",
-            "more": "Neuigkeiten, Artikel, Übersetzungen, Wie du zu uns Kontakt aufnimmst und mehr"
+            "more": "Neuigkeiten, Artikel, Übersetzungen, Wie du zu uns Kontakt aufnimmst und mehr",
+            "profiles": "Finde die Pokemon aus den Pokeboxen deiner Freunde"
         },
         "tooltip": {
             "gym": "Arena Kampfsimulationen, Pokedex, Angreifer- und Verteidigerranglisten und mehr für Pokemon Go",
@@ -205,5 +207,7 @@
     "rejoin": {
         "label": "Wiederbeitrittszeit",
         "default": "Niemals"
-    }
+    },
+    "find": "Finde",
+    "profiles": "Profile"
 }

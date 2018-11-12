@@ -1,3 +1,34 @@
 {
-    "title": "Ingresar a Pokebattler"
+    "title": "Ingresar a Pokebattler",
+    "description": "Inicia sesion para accesar a tu Pokebox y simulaciones personalizadas",
+    "privacy": "Para mas informacion, revisa nuestra poliza de privacidad",
+    "loading": "Cargando datos de usuario",
+    "user": "Usuario",
+    "login": {
+        "google": "Inicia sesion con Google",
+        "facebook": "Inicia sesion con Facebook",
+        "patreon": "Inicia sesion con Patreon",
+        "patreonDescription": "Los patrocinadores de patreon tienen recompensas que incluyen: Mas Pokemon en su Pokebox, Simulaciones personalizadas de mas alta calidad y una hoja de calculo de Google con recomendaciones para excursiones",
+        "success": {
+            "title": "Sesion iniciada exitosamente",
+            "fromApi": " $t(login.success.title)! Porfavor espere un poco para continuar."
+        }
+    },
+    "details": {
+        "welcome": "Bienvenido",
+        "description": "Tu informacion de entrenador debajo será utilizada para personalizar el sitio y será mostrada otros usuarios."
+    },
+    "loggedIn": {
+        "title": "Perfil Publico"
+    },
+    "logout": {
+        "title": "Sesion Finalizada",
+        "description": "Tu sesion ha sido exitosamente finalizada. ¡Vuelve pronto en cualquier dispositivo y tu Pokebox estará ahi esperando por ti!",
+        "back": "Regresar a inicio de sesion",
+        "button": "Cerrar Sesion"
+    },
+    "roles": {
+        "title": "Informacion de cuenta",
+        "heading": "Beneficios Actuales"
+    }
 }
