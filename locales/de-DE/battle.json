@@ -62,7 +62,7 @@
             "columns": {
                 "attackerId": "ID",
                 "attackerGroup": "Gruppe",
-                "attackerOrder": "Auftrag"
+                "attackerOrder": "Sortierung"
             }
         }
     },
