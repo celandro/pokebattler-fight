@@ -68,7 +68,7 @@
                 "combatTime": "Zeit im Kampf",
                 "currentTime": "Aktuelle Zeit",
                 "damageDealt": "Schadensoutput",
-                "damageReceived": "Schadensimput"
+                "damageReceived": "Schadensinput"
             }
         }
     },
