@@ -56,7 +56,7 @@
         "estimator": "Estimador",
         "tdo": "Dano (TDO)",
         "level": "$t(common:level)",
-        "maxCP": "$t(common:cp) máximo"
+        "maxCP": "Máximo $t(common:cp)"
     },
     "sectionLinks": {
         "help": "Seção de ajuda",
@@ -178,8 +178,8 @@
             "news": "Notícias",
             "rankings": "Rankings",
             "raidAdvice": "Conselho de Reide",
-            "misc": "Diversos",
-            "translate": "Traduza",
+            "misc": "Misc.",
+            "translate": "Tradução",
             "counters": "Oponentes"
         },
         "description": {
@@ -188,7 +188,7 @@
             "help": "Tutoriais, Termos e Definições",
             "more": "Notícias, Artigos, Traduções, Como nos contatar e Mais",
             "raids": "Principais Oponentes, Simulações de Grupos de Batalhas de Reide e Conselho de Fortalecimento",
-            "account": "Personalize o Pokebattler adicionando Pokémon a sua Pokebox e Grupos de Batalhas"
+            "account": "Customize o Pokebattler Ao Adicionar Pokemon A Sua Pokebox e Grupos de Batalhas"
         },
         "tooltip": {
             "gym": "Simulações de batalhas de ginásios, Pokedex, Rankings de atacantes e defensores e mais para Pokemon Go",
@@ -202,10 +202,10 @@
     "randomAssistants": {
         "title": "Treinadores aleatórios extras",
         "default": "Automático",
-        "description": "O número de treinadores aleatórios adicionais para ajudá-lo a derrotar o Chefe. Para chefes Nível 4 e 5, 5 grupos de batalha aleatórios o auxiliam na luta por padrão."
+        "description": "O número de treinadores aleatórios adicionais para ajudá-lo a derrotar o Chefe. Para chefes Nível 4 e 5, grupo de batalha aleatório com 5 pares te auxiliam na luta por default."
     },
     "explicitAssistants": {
-        "title": "Treinadores Extras",
-        "description": "O número de treinadores adicionais para ajudá-lo a derrotar o chefe. Você escolhe o grupo de batalha para cada um desses atacantes. O nível de amizade deve ser o nível máximo que eles têm com os outros jogadores na reide, não o seu nível de amizade com eles."
+        "title": "Treinadores Extra",
+        "description": "O número de treinadores adicionais para ajudá-lo a derrotar o chefe. Você pode escolher o grupo de batalha para cada um desses atacantes. O nível de amizade deve ser o nível máximo que eles tem com os outros jogadores na reide, não o seu nível de amizade com eles."
     }
 }
