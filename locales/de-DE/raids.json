@@ -76,6 +76,11 @@
             "title": "Rang 6",
             "subtitle": "Legendärer Raid - Bonus Lp",
             "intro": "Diese Raid haben Bonus Lp verglichen mit den Rang 6 Raids. Es ist unbekannt ob das eine permanente Änderung für Rang 5 ist. Sie werden of in Gruppen von 6-10 Level 30-40 Spieler gemacht. Einige Experten haben sogar welche mit 2-5 Spielern geschafft."
+        },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Alt-Tier 6",
+            "subtitle": "Legendärer Raid - Bonus Lp",
+            "intro": "Diese Raids waren in der Vergangenheit verfügbar, aber sind nicht in den aktuellen Raid Rotationen enthalten. Sie könnten in Zukunft wiederkehren."
         }
     },
     "custom": {
