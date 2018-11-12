@@ -1,5 +1,5 @@
 {
-    "title": "Arena Kampfsimulator",
+    "title": "Arena-Kampfsimulator",
     "startButton": "Kampf",
     "attacker": "Angreifer",
     "attackerPlaceHolder": "$t(attacker) auswählen",
@@ -47,11 +47,42 @@
             "explicit": "Die Ergebnisse unten enthalten {{numExplicit}} zusätzliche Trainer. Dies ist ein Versuch einen realistischen Ausgang eines Raidkampfes zu simulieren. Die Sieg% oben zeigt die Chance zu gewinnen, bevor deine Kampfgruppe ohnmächtig wird, wenn dir diese zusätzlichen Leute helfen. Oft hilf erneutes Beitreten in diesem Szenario zu gewinnen. Die Sortierungen Stärke, Tränke und Allgemein basieren alle auf deiner Kampfgruppe von 6 und enthalten nicht die zusätzlichen Trainer. Diese Seite wird in Zukunft mehr Informationen anzeigen - Nur das Kampflog ist vollständig zu diesem Zeitpunkt. Es wird auch bessere Bedienung geben dafür, wieviele Trainer und zusätzliche Kampfgruppen dir helfen werden",
             "random": "Die Ergebnisse unten enthalten {{numRandom}} zusätzliche Kampfgruppen unterschiedlicher Level im Bereich 30 bis 40. Dies ist ein Versuch einen realistischen Ausgang eines Raidkampfes zu simulieren. Die Sieg% oben zeigt die Chance zu gewinnen, bevor deine Kampfgruppe ohnmächtig wird, wenn dir diese zusätzlichen Leute helfen. Oft hilf erneutes Beitreten in diesem Szenario zu gewinnen. Die Sortierungen Stärke, Tränke und Allgemein basieren alle auf deiner Kampfgruppe von 6 und enthalten nicht die zusätzlichen Trainer. Diese Seite wird in Zukunft mehr Informationen anzeigen - Nur das Kampflog ist vollständig zu diesem Zeitpunkt. Es wird auch bessere Bedienung geben dafür, wieviele Trainer und zusätzliche Kampfgruppen dir helfen werden ",
             "link": "Raidsimulationseite."
+        },
+        "gym": {
+            "title": "{{attacker.name}} vs. {{defender.name}} Kampf Simulation",
+            "meta": {
+                "description": "Arenakampf Ergebnisse für{{attacker.name}} mit {{attacker.quickMove}} und {{attacker.specialMove}} gegen {{defender.name}} mit {{defender.quickMove}} und {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+            }
+        },
+        "explore": {
+            "title": "Das Resultat untersuchen",
+            "subtitle": "Zieh die Spalten per Drag & Drop, um eine benutzerdefinierte Analyse durchzuführen",
+            "select": "Tabbellentyp"
         }
     },
     "runAgain": "Diese Zufallssimulation erneut durchführen",
     "runSolo": "Starte einen Einzelversuch",
-    "raidBattlePartyTitle": "Raid Kampfgruppensimulator",
+    "raidBattlePartyTitle": "Raid-Kampfgruppensimulator",
     "pvpTitle": "PvP Kampfsimulator",
-    "addBattleParty": "Speichere diese Kampfgruppe"
+    "addBattleParty": "Speichere diese Kampfgruppe",
+    "meta": {
+        "description": "Der Pokebattler Arena-Simulator liefert die weltweit genausten Kampergebnisse mit Einbezug von Wetterboni und sekundengenauen Analysen.",
+        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
+    },
+    "raid": {
+        "title": "Raid-Simulator",
+        "meta": {
+            "description": "Der Pokebattler Raid-Simulator ist die weltweit akkurateste Raid-Simulation. Hier bekommst du Ergebnisse für bis zu 20 Kampfgruppen, Freunde- und Wetterboni.",
+            "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg\n"
+        }
+    },
+    "pvp": {
+        "title": "PvP Simulator",
+        "meta": {
+            "description": "Der Pokebattler PvP-Simulator lässt dich mit dem weltweit genausten Simulator gegen deine Freunde kämpfen um zu sehen wer die Nase vorne hat.",
+            "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+        }
+    },
+    "recommended": "Empfohlen"
 }
