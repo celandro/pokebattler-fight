@@ -60,7 +60,9 @@
             "subtitle": "Zieh die Spalten per Drag & Drop, um eine benutzerdefinierte Analyse durchzuführen",
             "select": "Tabellentyp",
             "columns": {
-                "attackerId": "ID"
+                "attackerId": "ID",
+                "attackerGroup": "Gruppe",
+                "attackerOrder": "Auftrag"
             }
         }
     },
