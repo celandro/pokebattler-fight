@@ -62,7 +62,13 @@
             "columns": {
                 "attackerId": "ID",
                 "attackerGroup": "Gruppe",
-                "attackerOrder": "Sortierung"
+                "attackerOrder": "Sortierung",
+                "battlePartyUserId": "Nutzer",
+                "battlePartyTrainer": "Trainer",
+                "combatTime": "Zeit im Kampf",
+                "currentTime": "Aktuelle Zeit",
+                "damageDealt": "Schadensoutput",
+                "damageReceived": "Schadensimput"
             }
         }
     },
