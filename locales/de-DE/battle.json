@@ -58,7 +58,10 @@
         "explore": {
             "title": "Das Resultat untersuchen",
             "subtitle": "Zieh die Spalten per Drag & Drop, um eine benutzerdefinierte Analyse durchzuführen",
-            "select": "Tabbellentyp"
+            "select": "Tabellentyp",
+            "columns": {
+                "attackerId": "ID"
+            }
         }
     },
     "runAgain": "Diese Zufallssimulation erneut durchführen",
