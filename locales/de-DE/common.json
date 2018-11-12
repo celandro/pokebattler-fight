@@ -188,7 +188,9 @@
             "gym": "Arena Kampfsimulationen, Pokedex, Angreifer- und Verteidigerranglisten und mehr für Pokemon Go",
             "raids": "Finde die besten Konter, führe volle Raid Simulationen aus, bekommen Hinweise welche Pokemon du aufwerten solltest und mehr für Pokemon Go Raids",
             "pvp": "Sieh was passiert, wenn du deine Freunde herausforderst",
-            "more": "Lies Neuigkeiten und Artikel, lade Infografikten, hilf uns zu übersetzen, über uns und Datenschutzrichtlinen für Pokebatller für Pokemon Go"
+            "more": "Lies Neuigkeiten und Artikel, lade Infografikten, hilf uns zu übersetzen, über uns und Datenschutzrichtlinen für Pokebatller für Pokemon Go",
+            "help": " ",
+            "account": " "
         }
     },
     "randomAssistants": {
