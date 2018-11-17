@@ -13,7 +13,11 @@
         "zeroDescription": "If you already added Pokemon in the past, you may have logged in with a different account. Your accounts will automatically be linked if they use the same email address.",
         "zeroHelp": "If they do not have the same email address, {{link}} with the userIds of the accounts you need to link",
         "email": "email Pokebattler",
-        "showMore": "Show More"
+        "showMore": "Show More",
+        "filter": {
+            "label": "Filter pokemon",
+            "hint": "Enter comma separated Pokemon"
+        }
     },
     "add": {
         "title": "Pokebox",
