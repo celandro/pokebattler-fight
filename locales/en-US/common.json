@@ -214,5 +214,10 @@
     "explicitAssistants": {
         "title": "Extra Trainers",
         "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers. The friend level should be the maximum friend level that they have with other players at the raid, not your friend level with them."
+    },
+    "monteCarlo": {
+        "title": "Simulation Type",
+        "description": "Choose between running a single random simulation, or the average of multiple simulations"
     }
+
 }
