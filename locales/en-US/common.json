@@ -11,6 +11,7 @@
     "loss": "Loss",
     "quickMove": "Fast Move",
     "specialMove": "Charge Move",
+    "specialMove2": "Charge Move 2",
     "quickMoves": "Fast Moves",
     "specialMoves": "Charge Moves",
     "attackStrategy": "Attack Strategy",

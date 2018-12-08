@@ -829,7 +829,9 @@
         "BLAST_BURN": "Blast Burn",
         "SMACK_DOWN_FAST": "Smack Down",
         "LAST_RESORT": "Last Resort",
-        "METEOR_MASH": "Meteor Mash"
+        "METEOR_MASH": "Meteor Mash",
+        "MOVE_UNSET": "None",
+        "MOVE_NONE": "None"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
