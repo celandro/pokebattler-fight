@@ -1,0 +1,11 @@
+{
+  "rankings": {
+    "title": "BETA PvP Rankings",
+    "description": "Pokemon Go PvP Rankings of which Pokemon are the strongest.",
+    "welcome": {
+      "title": "Pvp is upon us!",
+      "paragraph1": "Pokebattler has been hard at work, attempting to add new features to support PvP. The full rankings page is not quite ready for prime time, but just in case Niantic releases today, we wanted to share some preliminary results. Many more types of rankings will be coming, including by type and matchups for every Pokemon. We also plan to have analysis tools to evaluate your battle parties for potential weaknesses and provide suggestions",
+      "paragraph2": "These results should be considered a starting point for PvP discussion. This is master league only, no dodging, no weather, both real players spamming attacks at each other. No changes have been made to support dual moves or energy mechanics.  Defender rankings are those Pokemon that do the best against their 6 worst matchups.  Despite all these limitations, it is very unlikely the Pokemon on these 2 lists will do poorly in the future. They are strong Pokemon with good type coverage or high cp or both.  Attacker rankings are based on those Pokemon that do the best against those defenders."
+    }
+  }
+}
