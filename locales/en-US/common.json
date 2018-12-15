@@ -220,6 +220,18 @@
     "monteCarlo": {
         "title": "Simulation Type",
         "description": "Choose between running a single random simulation, or the average of multiple simulations"
+    },
+    "errors": {
+        "title": "Uhoh! You found a bug",
+        "description": "Pokebattler.com tries it's best to be as bug free as possible and can use your help! There are a virtually infinite number of possible URLs on the site and we can't test them all. We rely on your reports to find and fix problems.",
+        "fix": "Usually this error will go away if you click on Pokebattler in the top left and then click reload.",
+        "autoReport": "The following information regarding this error has been reported automatically.",
+        "contactUs": "If you wish to contact us regarding the error, please send the following information to ",
+        "url": "URL",
+        "error": "Error",
+        "info": "Info",
+        "message": "Message",
+        "stack": "Stack"
     }
 
 }
