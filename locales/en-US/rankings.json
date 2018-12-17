@@ -32,10 +32,10 @@
         }
     },
     "list": {
-        "title": "Pokemon Go {{typeSelection}}",
+        "title": "Gym {{typeSelection}}",
         "meta": {
             "description": "Pokebattler's Pokemon Go {{typeSelection}} are customizable based on level of attacker, level of defender, dodging ability and more!",
-            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
+            "image": "https://static.pokebattler.com/images/og_pvp_rankings.jpg"
         },
         "descriptions": {
             "title": "About these Rankings",

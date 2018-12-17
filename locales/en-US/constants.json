@@ -1048,6 +1048,24 @@
             "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 10% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
         }
     },
+    "battlePartyTypes": {
+        "COMBAT_LEAGUE_RAIDS_GYMS": {
+            "label": "Raids & Gyms",
+            "description": "6 pokemon with no limits"
+        },
+        "COMBAT_LEAGUE_DEFAULT_GREAT": {
+            "label": "Great League",
+            "description": "3 pokemon with a maximum CP of 1500"
+        },
+        "COMBAT_LEAGUE_DEFAULT_ULTRA": {
+            "label": "Ultra League",
+            "description": "3 pokemon with a maximum CP of 2500"
+        },
+        "COMBAT_LEAGUE_DEFAULT_MASTER": {
+            "label": "Master League",
+            "description": "3 pokemon with no limits"
+        }
+    },
 
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",

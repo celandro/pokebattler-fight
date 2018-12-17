@@ -4,8 +4,57 @@
     "description": "Pokemon Go PvP Rankings of which Pokemon are the strongest.",
     "welcome": {
       "title": "Pvp is upon us!",
-      "paragraph1": "Pokebattler has been hard at work, attempting to add new features to support PvP. The full rankings page is not quite ready for prime time, but just in case Niantic releases today, we wanted to share some preliminary results. Many more types of rankings will be coming, including by type and matchups for every Pokemon. We also plan to have analysis tools to evaluate your battle parties for potential weaknesses and provide suggestions",
-      "paragraph2": "These results should be considered a starting point for PvP discussion. This is master league only, no dodging, no weather, both real players spamming attacks at each other. No changes have been made to support dual moves or energy mechanics.  Defender rankings are those Pokemon that do the best against their 6 worst matchups.  Despite all these limitations, it is very unlikely the Pokemon on these 2 lists will do poorly in the future. They are strong Pokemon with good type coverage or high cp or both.  Attacker rankings are based on those Pokemon that do the best against those defenders."
+      "paragraph1": "Pokebattler has been hard at work, adding new features to support PvP. The full rankings page is finally ready for beta! Many more types of rankings will be coming, including by type and matchups for every Pokemon. We also plan to have analysis tools to evaluate your battle parties for potential weaknesses and provide suggestions for filling out a battle party.",
+      "paragraph2": "These results should be considered a starting point for PvP discussion. The rankings do not currently consider dual charge moves or combat stopping during a charge move or shielding. Big specials like Hyper Beam are going to do a bit worse than they appear on this list as they are vulnerable to shielding."
+    },
+    "buttons": {
+      "attacker": "Attacker",
+      "defender": "Defender",
+      "gotoRankings": "Go to Ranking",
+      "defenders": {
+        "label": "Defenders",
+        "description": "Toughest Pokemon To Beat"
+      },
+      "attackers": {
+        "label": "Attackers",
+        "description": "Best Counters to the Top 24 Defenders"
+      }
+    },
+    "featured": {
+      "title": {
+        "attacker": "Avg Combat Stats Vs. Best 24 Defenders",
+        "defender": "Avg Combat Stats Vs. All Possible Pokemon"
+      },
+      "deepLink": "See more details for {{pokemon}}"
+    },
+    "list": {
+      "title": "PvP {{typeSelection}}",
+      "meta": {
+        "description": "Pokebattler's Pokemon Go PvP {{typeSelection}} finds the best PvP Pokemon in Pvp!",
+        "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
+      },
+      "descriptions": {
+        "title": "About these Rankings",
+        "text": "This pvp {{type}} ranking is based off simulating combat with {{league}} Pokemon. The ranking simulation was run with the {{strategies.attack}} attack strategy. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
+        "help1": "You can click on any of the {{type}} to see the results for different movesets or click the grouping icon second from the right in the top right to see them ungrouped. Sort order can be changed by clicking the top right sort icon and selecting the type of sort you prefer.",
+        "attackers": "attackers",
+        "defenders": "defenders",
+        "details": {
+          "attackers": "each fully evolved pokemon attacker with every possible moveset simulated against the best 24 defenders with every possible moveset. The best 24 attackers with their best moveset based on {{sort}} were kept and are displayed here.",
+          "defenders": "each possible moveset simulated against attackers with every possible moveset. The results of all possible combats were averaged and the best 24 defenders with their best moveset based on {{sort}} were kept and are displayed here."
+        }
+      },
+      "loading": "Generating {{type}} ranking results. Many millions of simulations were required to perform this analysis but the results will be soon",
+      "typeSelection": {
+        "attacker": "Attacker Rankings",
+        "defender": "Defender Rankings",
+        "attackers": "$t(rankings:list.typeSelection.attacker)",
+        "defenders": "$t(rankings:list.typeSelection.defender)"
+      },
+      "settings": {
+        "level": "Pokemon Levels"
+      }
     }
+
   }
 }
