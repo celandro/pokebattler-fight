@@ -831,7 +831,11 @@
         "LAST_RESORT": "Last Resort",
         "METEOR_MASH": "Meteor Mash",
         "MOVE_UNSET": "None",
-        "MOVE_NONE": "None"
+        "MOVE_NONE": "None",
+        "MOVE_SHIELD": "Shielded",
+        "MOVE_PASS": "No Shield",
+        "COIN_FLIP_WIN": "Coin Flip Win",
+        "COIN_FLIP_LOSE": "Coin Flip Lose"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
