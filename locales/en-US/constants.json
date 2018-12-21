@@ -888,12 +888,18 @@
                 "label": "Dodge All Weave",
                 "description": "This uses an attack pattern strategy that assumes that the worst case 1.5s delay between attacks could happen every time. This strategy should be reproducible by a human."
             },
+            "PVP" : {
+                "label": "PvP",
+                "description": "This strategy uses pvp mechanices."
+            },
             "undefined": {
                 "label": "Unknown",
                 "description": "This should not occur. Please let us know this happened!"
             }
         },
         "dodge": {
+            "label": "Dodge Strategy",
+
             "DODGE_100": {
                 "label": "Perfect Dodging",
                 "description": "Tries to dodge 100% of the time. This dodge strategy will almost never miss a dodge. You may still get hit in certain unavoidable situations such as when using a special move"
@@ -921,6 +927,21 @@
             "DODGE_90": {
                 "label": "90% Dodging",
                 "description": "Chooses to dodge 90% of the time"
+            }
+        },
+        "shield": {
+            "label": "Shield Strategy",
+            "SHIELD_0": {
+                "label": "Never Shield",
+                "description": "Never tries to shield"
+            },
+            "SHIELD_1": {
+                "label": "Shield Once",
+                "description": "Shields the first special move it can"
+            },
+            "SHIELD_2": {
+                "label": "Shield Twice",
+                "description": "Shields the first two special moves it can"
             }
         },
         "defense": {
@@ -1070,6 +1091,7 @@
             "description": "3 pokemon with no limits"
         }
     },
+
 
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
