@@ -1074,6 +1074,7 @@
         }
     },
     "battlePartyTypes": {
+        "label": "League",
         "COMBAT_LEAGUE_RAIDS_GYMS": {
             "label": "Raids & Gyms",
             "description": "6 pokemon with no limits"
