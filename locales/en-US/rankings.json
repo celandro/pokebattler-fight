@@ -60,6 +60,9 @@
         },
         "settings": {
             "level": "Pokemon Levels"
+        },
+        "featured": {
+            "title": "Rank {{rank}}"
         }
     },
     "featured": {

@@ -1,5 +1,4 @@
 {
-
     "back": "Back",
     "save": "Save",
     "cancel": "Cancel",
@@ -164,7 +163,15 @@
         "ad6": "Take your gaming to the next level with a Pokebattler Patreon account. Sign up now."
     },
     "menu": {
+        "index": "Pokebattler.com",
+        "patreon": "Support Us On Patreon",
         "follow": "Follow us!",
+        "social": {
+            "reddit": "Reddit",
+            "facebook": "Facebook",
+            "twitter": "Twitter",
+            "youtube": "Youtube"
+        },
         "mainMenu": {
             "gym": "$t(gym)",
             "articles": "Articles",
