@@ -613,9 +613,13 @@
         "ARCEUS_STEEL_FORM": "Arceus - Steel",
         "ARCEUS_WATER_FORM": "Arceus - Water",
         "GIRATINA_ALTERED_FORM": "Giratina - Altered",
+
         "GIRATINA_ORIGIN_FORM": "Giratina - Origin",
         "MELTAN": "Meltan",
-        "MELMETAL": "Melmetal"
+        "MELMETAL": "Melmetal",
+        "BURMY_PLANT_FORM": "Burmy - Plant",
+        "BURMY_SANDY_FORM": "Burmy - Sandy",
+        "BURMY_TRASH_FORM": "Burmy - Trash"
     },
     "moves": {
         "undefined": "",

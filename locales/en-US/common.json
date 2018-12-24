@@ -34,7 +34,10 @@
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
-        "stamina": "Stamina"
+        "stamina": "Stamina",
+        "individualAttack": "$t(common:stats.attack)",
+        "individualDefense": "$t(common:stats.defense)",
+        "individualStamina": "$t(common:stats.stamina)"
     },
     "statsAbbr": {
         "attack": "Att",
