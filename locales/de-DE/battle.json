@@ -1,5 +1,5 @@
 {
-    "title": "Arena Kampfsimulator",
+    "title": "Arena-Kampfsimulator",
     "startButton": "Kampf",
     "attacker": "Angreifer",
     "attackerPlaceHolder": "$t(attacker) auswählen",
@@ -36,22 +36,103 @@
         },
         "logTitle": "Kampf-Logbuch",
         "battleParty": {
-            "description": "Spieler {{attacker.userId}} mit Pokebox {{attacker.battlePartyId}} {{result}} ein {{defender.tier}} {{defender.name}} mit {{defender.cp}} WP in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie und nutze die {{strategies.dodge}} basierend auf dem {{strategies.defense}} Simulationstyp mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt um dieses Ergebnis zu erhalten."
+            "description": "Spieler {{attacker.userId}} mit der Kampfgruppe {{attacker.battlePartyId}} {{result}} ein {{defender.tier}} {{defender.name}} mit {{defender.cp}} WP in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie und nutzte die {{strategies.dodge}} basierend auf dem {{strategies.defense}} Simulationstyp mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt um dieses Ergebnis zu erhalten.",
+            "title": "{{attacker.name}} gegen {{defender.name}} Raid Simulation",
+            "meta": {
+                "description": "Raidsimulator Ergenisse für {{attacker.name}} gegen {{defender.name}} mit {{defender.quickMove}} und {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+            }
         },
         "pvp": {
-            "description": "Spieler {{attacker.userId}} mit Pokebox {{attacker.battlePartyId}} {{result}} Spieler {{defender.userId}} mit Pokebox {{defender.battlePartyId}} in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie, dabei die {{strategies.dodge}} versus der {{strategies.defense}} Angriffsstategie benutzend auf Basis des {{strategies.defenseDodge}} mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, um dieses Ergebnis zu erhalten."
+            "description": "Der Spieler {{attacker.userId}} mit der Kampfgruppe {{attacker.battlePartyId}} {{result}} Der Spieler {{defender.userId}} mit der Kampfgruppe {{defender.battlePartyId}} in dieser Kampfsimulation. Die Kampfsimulation lief mit der {{strategies.attack}} Angriffstrategie und nutze dabei die {{strategies.dodge}} gegen die {{strategies.defense}} Angriffsstategie benutzend auf Basis des {{strategies.defenseDodge}} mit {{weatherCondition}} Wetter. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, um dieses Ergebnis zu erhalten.",
+            "title": "{{attacker.name}} gegen {{defender.name}} PvP-Simulation",
+            "meta": {
+                "description": "PvP-Simulator Ergebnisse für {{attacker.name}} gegen {{defender.name}}",
+                "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+            }
         },
         "assistants": {
-            "title": "Beta Bonus Trainer Freature",
+            "title": "Das Beta-Bonus-Trainer-Freature",
             "both": "Die Ergebnisse unten enthalten {{numExplicit}} zusätzliche Trainer und {{numRandom}} zusätzliche Kampfgruppen unterschiedlicher Level im Bereich 30 bis 40. Dies ist ein Versuch einen realistischen Ausgang eines Raidkampfes zu simulieren. Die Sieg% oben zeigt die Chance zu gewinnen, bevor deine Kampfgruppe ohnmächtig wird, wenn dir diese zusätzlichen Leute helfen. Oft hilf erneutes Beitreten in diesem Szenario zu gewinnen. Die Sortierungen Stärke, Tränke und Allgemein basieren alle auf deiner Kampfgruppe von 6 und enthalten nicht die zusätzlichen Trainer. Diese Seite wird in Zukunft mehr Informationen anzeigen - Nur das Kampflog ist vollständig zu diesem Zeitpunkt. Es wird auch bessere Bedienung geben dafür, wieviele Trainer und zusätzliche Kampfgruppen dir helfen werden. ",
             "explicit": "Die Ergebnisse unten enthalten {{numExplicit}} zusätzliche Trainer. Dies ist ein Versuch einen realistischen Ausgang eines Raidkampfes zu simulieren. Die Sieg% oben zeigt die Chance zu gewinnen, bevor deine Kampfgruppe ohnmächtig wird, wenn dir diese zusätzlichen Leute helfen. Oft hilf erneutes Beitreten in diesem Szenario zu gewinnen. Die Sortierungen Stärke, Tränke und Allgemein basieren alle auf deiner Kampfgruppe von 6 und enthalten nicht die zusätzlichen Trainer. Diese Seite wird in Zukunft mehr Informationen anzeigen - Nur das Kampflog ist vollständig zu diesem Zeitpunkt. Es wird auch bessere Bedienung geben dafür, wieviele Trainer und zusätzliche Kampfgruppen dir helfen werden",
             "random": "Die Ergebnisse unten enthalten {{numRandom}} zusätzliche Kampfgruppen unterschiedlicher Level im Bereich 30 bis 40. Dies ist ein Versuch einen realistischen Ausgang eines Raidkampfes zu simulieren. Die Sieg% oben zeigt die Chance zu gewinnen, bevor deine Kampfgruppe ohnmächtig wird, wenn dir diese zusätzlichen Leute helfen. Oft hilf erneutes Beitreten in diesem Szenario zu gewinnen. Die Sortierungen Stärke, Tränke und Allgemein basieren alle auf deiner Kampfgruppe von 6 und enthalten nicht die zusätzlichen Trainer. Diese Seite wird in Zukunft mehr Informationen anzeigen - Nur das Kampflog ist vollständig zu diesem Zeitpunkt. Es wird auch bessere Bedienung geben dafür, wieviele Trainer und zusätzliche Kampfgruppen dir helfen werden ",
-            "link": "Raidsimulationseite."
+            "link": "Raidsimulationseite.",
+            "name": "Gehilfe"
+        },
+        "gym": {
+            "title": "{{attacker.name}} vs. {{defender.name}} Kampf Simulation",
+            "meta": {
+                "description": "Arenakampf Ergebnisse für{{attacker.name}} mit {{attacker.quickMove}} und {{attacker.specialMove}} gegen {{defender.name}} mit {{defender.quickMove}} und {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+            }
+        },
+        "explore": {
+            "title": "Das Resultat untersuchen",
+            "subtitle": "Zieh die Spalten per Drag & Drop, um eine benutzerdefinierte Analyse durchzuführen",
+            "select": "Tabellentyp",
+            "columns": {
+                "attackerId": "ID",
+                "attackerGroup": "Gruppe",
+                "attackerOrder": "Sortierung",
+                "battlePartyUserId": "Nutzer",
+                "battlePartyTrainer": "Trainer",
+                "combatTime": "Kampfzeit",
+                "currentTime": "Aktuelle Zeit",
+                "damageDealt": "Schadensoutput",
+                "damageReceived": "Schadensinput",
+                "energy": "Energie",
+                "move": "Attacke",
+                "moveType": "Attackentyp",
+                "attacker": "Angreifer",
+                "defender": "Verteidiger",
+                "actor": "Spieler"
+            },
+            "pivotTypes": {
+                "damageByTrainer": {
+                    "title": "Schaden vom Trainer",
+                    "description": "Der Schadensoutput von jedem aufgelisteten Spieler wird hier angezeigt."
+                },
+                "damageByPokemon": {
+                    "title": "Schaden vom Pokemon",
+                    "description": "Der Schadensoutput für jedes aufgelistete Pokemon wird hier angezeigt."
+                },
+                "dpsByPokemon": {
+                    "title": "DPS vom Pokemon",
+                    "description": "Der DPS für jedes deiner Pokemon wird hier aufgelistet."
+                },
+                "damageByGroup": {
+                    "title": "Schaden von der Gruppe",
+                    "description": "Der Schaden für jede Gruppe wird hier aufgelistet."
+                },
+                "custom": {
+                    "title": "Benutzerdefinierte Analyse",
+                    "description": "Hier kannst du erweiterte Analysen durchführen. Dies funktioniert am besten im Desktop- und Landschaftsmodus."
+                }
+            }
         }
     },
     "runAgain": "Diese Zufallssimulation erneut durchführen",
-    "runSolo": "Starte einen Einzelversuch",
-    "raidBattlePartyTitle": "Raid Kampfgruppensimulator",
+    "runSolo": "Starte als einen Einzelversuch",
+    "raidBattlePartyTitle": "Raid-Kampfgruppensimulator",
     "pvpTitle": "PvP Kampfsimulator",
-    "addBattleParty": "Speichere diese Kampfgruppe"
+    "addBattleParty": "Speichere diese Kampfgruppe",
+    "meta": {
+        "description": "Der Pokebattler Arena-Simulator liefert die weltweit genausten Kampergebnisse mit Einbezug von Wetterboni und sekundengenauen Analysen.",
+        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
+    },
+    "raid": {
+        "title": "Raid-Simulator",
+        "meta": {
+            "description": "Der Pokebattler Raid-Simulator ist die weltweit akkurateste Raid-Simulation. Hier bekommst du Ergebnisse für bis zu 20 Kampfgruppen, Freunde- und Wetterboni.",
+            "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+        }
+    },
+    "pvp": {
+        "title": "PvP-Simulator",
+        "meta": {
+            "description": "Der Pokebattler PvP-Simulator lässt dich mit dem weltweit genausten Simulator gegen deine Freunde kämpfen um zu sehen wer die Nase vorne hat.",
+            "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+        }
+    },
+    "recommended": "Empfohlen"
 }

@@ -3,7 +3,7 @@
     "meta": {
         "description": "Store your Pokemon Go Pokemon for custom raid results and more!"
     },
-    "blurb": "Add your Pokemon for custom results!  You can add your Pokemon one at a time using the blue circle in the bottom right. You also have the option of using the bulk import functionality to add Pokemon from other apps. There is a sort button in the top right to help you find your Pokemon",
+    "blurb": "Add your Pokemon for custom results!  You can add your Pokemon one at a time using the blue circle to the right. You also have the option of using the bulk import functionality to add Pokemon from other apps. There is a sort button in the top right to help you find your Pokemon",
     "pokemonList": {
         "title": "Your Custom Pokebox",
         "meta": {
@@ -13,7 +13,11 @@
         "zeroDescription": "If you already added Pokemon in the past, you may have logged in with a different account. Your accounts will automatically be linked if they use the same email address.",
         "zeroHelp": "If they do not have the same email address, {{link}} with the userIds of the accounts you need to link",
         "email": "email Pokebattler",
-        "showMore": "Show More"
+        "showMore": "Show More",
+        "filter": {
+            "label": "Filter pokemon",
+            "hint": "Enter comma separated Pokemon"
+        }
     },
     "add": {
         "title": "Pokebox",
