@@ -44,7 +44,7 @@
         "attackers": "counters",
         "defenders": "well rounded",
         "details": {
-          "attackers": "each fully evolved Pokemon with every possible moveset simulated against the top 24 well rounded Pokemon with every possible moveset. The best 24 counters with their best moveset based on {{sort}} with all Pokemon who each {{shieldStrategy}} were kept and are displayed here.",
+          "attackers": "every currently available Pokemon with every possible moveset simulated against the top 24 well rounded Pokemon with every possible moveset. The best 24 counters with their best moveset based on {{sort}} with all Pokemon who each {{shieldStrategy}} were kept and are displayed here.",
           "defenders": "each possible moveset simulated against Pokemon with every possible moveset. The results of all possible combats were averaged and the best 24 well rounded Pokemon with their best moveset based on {{sort}} with all Pokemon who each {{shieldStrategy}} were kept and are displayed here."
         }
       },
