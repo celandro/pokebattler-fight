@@ -23,7 +23,7 @@
     "bestDefense": {
         "title": "Best Defense Movesets",
         "subtitle": "By $t(common:properties.{{sort}})",
-        "rankingTitle": "Avg Combat Stats Vs. Top 5 Counters"
+        "rankingTitle": "Avg Combat Stats Vs. Top 6 Counters"
     },
     "attackMatchups": {
         "title": "Attack Matchups",
