@@ -61,6 +61,8 @@
         "realTime": "Time",
         "prestige": "Prestige",
         "dps": "DPS",
+        "dpe": "DPE",
+        "eps": "EPS",
         "potions": "Potions",
         "damage": "Damage",
         "energy": "Energy",
