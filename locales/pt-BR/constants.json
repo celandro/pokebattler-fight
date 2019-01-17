@@ -581,7 +581,8 @@
         "MAGMORTAR": "Magmortar",
         "TOGEKISS": "Togekiss",
         "YANMEGA": "Yanmega",
-        "LEAFEON": "Leafeon"
+        "LEAFEON": "Leafeon",
+        "GLACEON": "Glaceon"
     },
     "moves": {
         "ACID_FAST": "Ácido",
