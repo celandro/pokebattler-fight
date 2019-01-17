@@ -590,7 +590,8 @@
         "PROBOPASS": "Probopass",
         "DUSKNOIR": "Dusknoir",
         "FROSLASS": "Froslass",
-        "ROTOM": "Rotom"
+        "ROTOM": "Rotom",
+        "PHIONE": "Phione"
     },
     "moves": {
         "ACID_FAST": "Ácido",
