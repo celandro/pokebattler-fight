@@ -569,7 +569,8 @@
         "CARNIVINE": "Carnivine",
         "FINNEON": "Finneon",
         "LUMINEON": "Lumineon",
-        "MANTYKE": "Mantyke"
+        "MANTYKE": "Mantyke",
+        "SNOVER": "Snover"
     },
     "moves": {
         "ACID_FAST": "Ácido",
