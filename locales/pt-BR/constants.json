@@ -591,7 +591,8 @@
         "DUSKNOIR": "Dusknoir",
         "FROSLASS": "Froslass",
         "ROTOM": "Rotom",
-        "PHIONE": "Phione"
+        "PHIONE": "Phione",
+        "MANAPHY": "Manaphy"
     },
     "moves": {
         "ACID_FAST": "Ácido",
