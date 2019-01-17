@@ -531,7 +531,8 @@
         "PACHIRISU": "Pachirisu",
         "BUIZEL": "Buizel",
         "FLOATZEL": "Floatzel",
-        "CHERUBI": "Cherubi"
+        "CHERUBI": "Cherubi",
+        "CHERRIM": "Cherrim"
     },
     "moves": {
         "ACID_FAST": "Ácido",
