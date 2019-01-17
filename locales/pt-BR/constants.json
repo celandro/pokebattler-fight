@@ -533,7 +533,8 @@
         "FLOATZEL": "Floatzel",
         "CHERUBI": "Cherubi",
         "CHERRIM": "Cherrim",
-        "SHELLOS": "Shellos"
+        "SHELLOS": "Shellos",
+        "GASTRODON": "Gastrodon"
     },
     "moves": {
         "ACID_FAST": "Ácido",
