@@ -586,7 +586,8 @@
         "GLISCOR": "Gliscor",
         "MAMOSWINE": "Mamoswine",
         "PORYGON_Z": "Porygon-Z",
-        "GALLADE": "Gallade"
+        "GALLADE": "Gallade",
+        "PROBOPASS": "Probopass"
     },
     "moves": {
         "ACID_FAST": "Ácido",
