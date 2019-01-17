@@ -596,7 +596,8 @@
         "SHAYMIN": "Shaymin",
         "ROTOM_NORMAL_FORM": "Rotom - Normal",
         "ROTOM_FROST_FORM": "Rotom - Frost",
-        "ROTOM_FAN_FORM": "Rotom - Fan"
+        "ROTOM_FAN_FORM": "Rotom - Fan",
+        "ROTOM_MOW_FORM": "Rotom - Mow"
     },
     "moves": {
         "ACID_FAST": "Ácido",
