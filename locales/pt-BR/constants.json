@@ -509,7 +509,8 @@
         "EMPOLEON": "Empoleon",
         "STARLY": "Starly",
         "STARAVIA": "Staravia",
-        "STARAPTOR": "Staraptor"
+        "STARAPTOR": "Staraptor",
+        "BIDOOF": "Bidoof"
     },
     "moves": {
         "ACID_FAST": "Ácido",
