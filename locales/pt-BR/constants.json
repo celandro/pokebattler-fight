@@ -554,7 +554,8 @@
         "HAPPINY": "Happiny",
         "CHATOT": "Chatot",
         "SPIRITOMB": "Spiritomb",
-        "GIBLE": "Gible"
+        "GIBLE": "Gible",
+        "GABITE": "Gabite"
     },
     "moves": {
         "ACID_FAST": "Ácido",
