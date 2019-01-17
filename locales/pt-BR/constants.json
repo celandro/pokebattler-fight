@@ -556,7 +556,8 @@
         "SPIRITOMB": "Spiritomb",
         "GIBLE": "Gible",
         "GABITE": "Gabite",
-        "GARCHOMP": "Garchomp"
+        "GARCHOMP": "Garchomp",
+        "MUNCHLAX": "Munchlax"
     },
     "moves": {
         "ACID_FAST": "Ácido",
