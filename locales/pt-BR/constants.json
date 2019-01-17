@@ -595,7 +595,8 @@
         "MANAPHY": "Manaphy",
         "SHAYMIN": "Shaymin",
         "ROTOM_NORMAL_FORM": "Rotom - Normal",
-        "ROTOM_FROST_FORM": "Rotom - Frost"
+        "ROTOM_FROST_FORM": "Rotom - Frost",
+        "ROTOM_FAN_FORM": "Rotom - Fan"
     },
     "moves": {
         "ACID_FAST": "Ácido",
