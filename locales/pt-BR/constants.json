@@ -606,7 +606,8 @@
         "SHAYMIN_SKY_FORM": "Shaymin - Sky",
         "SHAYMIN_LAND_FORM": "Shaymin - Land",
         "CHERRIM_OVERCAST_FORM": "Cherrim - Overcast",
-        "CHERRIM_SUNNY_FORM": "Cherrim - Sunny"
+        "CHERRIM_SUNNY_FORM": "Cherrim - Sunny",
+        "SHELLOS_WEST_SEA_FORM": "Shellos - West Sea"
     },
     "moves": {
         "ACID_FAST": "Ácido",
