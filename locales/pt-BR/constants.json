@@ -821,7 +821,8 @@
         "HYDRO_CANNON": "Hidro Canhão",
         "BLAST_BURN": "Queimadura Explosiva",
         "SMACK_DOWN_FAST": "Derrubada",
-        "LAST_RESORT": "Último Recurso"
+        "LAST_RESORT": "Último Recurso",
+        "REJOIN": "Re-entrou"
     },
     "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
     "types": {
