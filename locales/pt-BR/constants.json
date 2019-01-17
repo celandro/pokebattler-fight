@@ -592,7 +592,8 @@
         "FROSLASS": "Froslass",
         "ROTOM": "Rotom",
         "PHIONE": "Phione",
-        "MANAPHY": "Manaphy"
+        "MANAPHY": "Manaphy",
+        "SHAYMIN": "Shaymin"
     },
     "moves": {
         "ACID_FAST": "Ácido",
