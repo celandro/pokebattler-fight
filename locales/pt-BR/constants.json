@@ -524,7 +524,8 @@
         "SHIELDON": "Shieldon",
         "BASTIODON": "Bastiodon",
         "BURMY": "Burmy",
-        "WORMADAM": "WORMADAM"
+        "WORMADAM": "WORMADAM",
+        "MOTHIM": "MOTHIM"
     },
     "moves": {
         "ACID_FAST": "Ácido",
