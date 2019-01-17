@@ -521,7 +521,8 @@
         "ROSERADE": "Roserade",
         "CRANIDOS": "Cranidos",
         "RAMPARDOS": "Rampardos",
-        "SHIELDON": "Shieldon"
+        "SHIELDON": "Shieldon",
+        "BASTIODON": "Bastiodon"
     },
     "moves": {
         "ACID_FAST": "Ácido",
