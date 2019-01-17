@@ -577,7 +577,8 @@
         "LICKILICKY": "Lickilicky",
         "RHYPERIOR": "Rhyperior",
         "TANGROWTH": "Tangrowth",
-        "ELECTIVIRE": "Electivire"
+        "ELECTIVIRE": "Electivire",
+        "MAGMORTAR": "Magmortar"
     },
     "moves": {
         "ACID_FAST": "Ácido",
