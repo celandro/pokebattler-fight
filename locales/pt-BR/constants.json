@@ -576,7 +576,8 @@
         "MAGNEZONE": "Magnezone",
         "LICKILICKY": "Lickilicky",
         "RHYPERIOR": "Rhyperior",
-        "TANGROWTH": "Tangrowth"
+        "TANGROWTH": "Tangrowth",
+        "ELECTIVIRE": "Electivire"
     },
     "moves": {
         "ACID_FAST": "Ácido",
