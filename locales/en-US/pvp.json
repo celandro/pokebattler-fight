@@ -16,13 +16,18 @@
       "defender": "Counters",
       "gotoRankings": "Go to Ranking",
       "defenders": {
-        "label": "Well Rounded",
+        "label": "Top 24",
         "description": "Toughest Pokemon To Beat Overall"
       },
       "attackers": {
         "label": "Counters",
-        "description": "Best Counters to the Top 24 Well Rounded Pokemon"
+        "description": "Best Counters to the Top 24"
+      },
+      "pokedex": {
+        "label": "Pokedex",
+        "description": "Matchups and Counters to every Pokemon"
       }
+
     },
     "featured": {
       "title": {
@@ -98,6 +103,31 @@
       "title": "{{defender}} Counters",
       "subtitle": "By {{sort}}",
       "text": "The best counters for {{defender}} in {{league}} are below. You will find the best counters in terms of {{sort}} at the top of this list. These Pokemon might not be great in general but they are the best for defeating {{defender}} "
+    }
+  },
+  "navigation": {
+    "leagues": {
+      "COMBAT_LEAGUE_DEFAULT_GREAT": {
+        "title": "Great League",
+        "intro": "Great League is currently the most popular PvP format. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Azumarill and Altaria"
+      },
+      "COMBAT_LEAGUE_DEFAULT_ULTRA": {
+        "title": "Ultra League",
+        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Blastoise. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+      },
+      "COMBAT_LEAGUE_DEFAULT_MASTER": {
+        "title": "Master League",
+        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge mives. This is a very expensive league to be competitive in and is not recommended for beginners"
+      },
+      "COMBAT_LEAGUE_SILPH_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
+      }
+    },
+    "pokemonCondition": {
+      "WITH_POKEMON_CP_LIMIT": "Max CP",
+      "WITH_POKEMON_TYPE": "Pokemon Types",
+      "NONE": "No Limits"
     }
   }
 }
