@@ -587,7 +587,8 @@
         "MAMOSWINE": "Mamoswine",
         "PORYGON_Z": "Porygon-Z",
         "GALLADE": "Gallade",
-        "PROBOPASS": "Probopass"
+        "PROBOPASS": "Probopass",
+        "DUSKNOIR": "Dusknoir"
     },
     "moves": {
         "ACID_FAST": "Ácido",
