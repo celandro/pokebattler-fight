@@ -605,7 +605,8 @@
         "WORMADAM_TRASH_FORM": "Wormadam - Trash",
         "SHAYMIN_SKY_FORM": "Shaymin - Sky",
         "SHAYMIN_LAND_FORM": "Shaymin - Land",
-        "CHERRIM_OVERCAST_FORM": "Cherrim - Overcast"
+        "CHERRIM_OVERCAST_FORM": "Cherrim - Overcast",
+        "CHERRIM_SUNNY_FORM": "Cherrim - Sunny"
     },
     "moves": {
         "ACID_FAST": "Ácido",
