@@ -585,7 +585,8 @@
         "GLACEON": "Glaceon",
         "GLISCOR": "Gliscor",
         "MAMOSWINE": "Mamoswine",
-        "PORYGON_Z": "Porygon-Z"
+        "PORYGON_Z": "Porygon-Z",
+        "GALLADE": "Gallade"
     },
     "moves": {
         "ACID_FAST": "Ácido",
