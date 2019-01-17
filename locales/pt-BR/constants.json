@@ -609,7 +609,8 @@
         "CHERRIM_SUNNY_FORM": "Cherrim - Sunny",
         "SHELLOS_WEST_SEA_FORM": "Shellos - West Sea",
         "SHELLOS_EAST_SEA_FORM": "Shellos - East Sea",
-        "GASTRODON_WEST_SEA_FORM": "Gastrodon - West Sea"
+        "GASTRODON_WEST_SEA_FORM": "Gastrodon - West Sea",
+        "GASTRODON_EAST_SEA_FORM": "Gastrodon - East Sea"
     },
     "moves": {
         "ACID_FAST": "Ácido",
