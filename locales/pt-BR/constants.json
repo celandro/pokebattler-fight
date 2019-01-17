@@ -512,7 +512,8 @@
         "STARAPTOR": "Staraptor",
         "BIDOOF": "Bidoof",
         "BIBAREL": "Bibarel",
-        "KRICKETOT": "Kricketot"
+        "KRICKETOT": "Kricketot",
+        "KRICKETUNE": "Kricketune"
     },
     "moves": {
         "ACID_FAST": "Ácido",
