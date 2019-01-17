@@ -520,7 +520,8 @@
         "BUDEW": "Budew",
         "ROSERADE": "Roserade",
         "CRANIDOS": "Cranidos",
-        "RAMPARDOS": "Rampardos"
+        "RAMPARDOS": "Rampardos",
+        "SHIELDON": "Shieldon"
     },
     "moves": {
         "ACID_FAST": "Ácido",
