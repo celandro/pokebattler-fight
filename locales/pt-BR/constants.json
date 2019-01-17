@@ -544,7 +544,8 @@
         "HONCHKROW": "Honchkrow",
         "GLAMEOW": "Glameow",
         "PURUGLY": "Purugly",
-        "CHINGLING": "Chingling"
+        "CHINGLING": "Chingling",
+        "STUNKY": "Stunky"
     },
     "moves": {
         "ACID_FAST": "Ácido",
