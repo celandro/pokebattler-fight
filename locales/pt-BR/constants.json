@@ -571,7 +571,8 @@
         "LUMINEON": "Lumineon",
         "MANTYKE": "Mantyke",
         "SNOVER": "Snover",
-        "ABOMASNOW": "Abomasnow"
+        "ABOMASNOW": "Abomasnow",
+        "WEAVILE": "Weavile"
     },
     "moves": {
         "ACID_FAST": "Ácido",
