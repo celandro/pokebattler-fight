@@ -558,7 +558,8 @@
         "GABITE": "Gabite",
         "GARCHOMP": "Garchomp",
         "MUNCHLAX": "Munchlax",
-        "RIOLU": "Riolu"
+        "RIOLU": "Riolu",
+        "LUCARIO": "Lucario"
     },
     "moves": {
         "ACID_FAST": "Ácido",
