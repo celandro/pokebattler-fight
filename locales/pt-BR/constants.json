@@ -564,7 +564,8 @@
         "HIPPOWDON": "Hippowdon",
         "SKORUPI": "Skorupi",
         "DRAPION": "Drapion",
-        "CROAGUNK": "Choagunk"
+        "CROAGUNK": "Choagunk",
+        "TOXICROAK": "Toxicroak"
     },
     "moves": {
         "ACID_FAST": "Ácido",
