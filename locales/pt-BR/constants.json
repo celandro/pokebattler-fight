@@ -589,7 +589,8 @@
         "GALLADE": "Gallade",
         "PROBOPASS": "Probopass",
         "DUSKNOIR": "Dusknoir",
-        "FROSLASS": "Froslass"
+        "FROSLASS": "Froslass",
+        "ROTOM": "Rotom"
     },
     "moves": {
         "ACID_FAST": "Ácido",
