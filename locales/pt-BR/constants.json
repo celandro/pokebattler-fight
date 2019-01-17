@@ -523,7 +523,8 @@
         "RAMPARDOS": "Rampardos",
         "SHIELDON": "Shieldon",
         "BASTIODON": "Bastiodon",
-        "BURMY": "Burmy"
+        "BURMY": "Burmy",
+        "WORMADAM": "WORMADAM"
     },
     "moves": {
         "ACID_FAST": "Ácido",
