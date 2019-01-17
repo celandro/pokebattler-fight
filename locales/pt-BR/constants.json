@@ -600,7 +600,8 @@
         "ROTOM_MOW_FORM": "Rotom - Mow",
         "ROTOM_WASH_FORM": "Rotom - Wash",
         "ROTOM_HEAT_FORM": "Rotom - Heat",
-        "WORMADAM_PLANT_FORM": "Wormadam - Plant"
+        "WORMADAM_PLANT_FORM": "Wormadam - Plant",
+        "WORMADAM_SANDY_FORM": "Wormadam - Sandy"
     },
     "moves": {
         "ACID_FAST": "Ácido",
