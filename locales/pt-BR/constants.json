@@ -603,7 +603,8 @@
         "WORMADAM_PLANT_FORM": "Wormadam - Plant",
         "WORMADAM_SANDY_FORM": "Wormadam - Sandy",
         "WORMADAM_TRASH_FORM": "Wormadam - Trash",
-        "SHAYMIN_SKY_FORM": "Shaymin - Sky"
+        "SHAYMIN_SKY_FORM": "Shaymin - Sky",
+        "SHAYMIN_LAND_FORM": "Shaymin - Land"
     },
     "moves": {
         "ACID_FAST": "Ácido",
