@@ -508,7 +508,8 @@
         "PRINPLUP": "Prinplup",
         "EMPOLEON": "Empoleon",
         "STARLY": "Starly",
-        "STARAVIA": "Staravia"
+        "STARAVIA": "Staravia",
+        "STARAPTOR": "Staraptor"
     },
     "moves": {
         "ACID_FAST": "Ácido",
