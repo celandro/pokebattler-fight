@@ -507,7 +507,8 @@
         "PIPLUP": "Piplup",
         "PRINPLUP": "Prinplup",
         "EMPOLEON": "Empoleon",
-        "STARLY": "Starly"
+        "STARLY": "Starly",
+        "STARAVIA": "Staravia"
     },
     "moves": {
         "ACID_FAST": "Ácido",
