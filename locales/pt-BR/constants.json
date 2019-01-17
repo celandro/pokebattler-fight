@@ -536,7 +536,8 @@
         "SHELLOS": "Shellos",
         "GASTRODON": "Gastrodon",
         "AMBIPOM": "Ambipom",
-        "DRIFLOON": "Drifloon"
+        "DRIFLOON": "Drifloon",
+        "DRIFBLIM": "Drifblim"
     },
     "moves": {
         "ACID_FAST": "Ácido",
