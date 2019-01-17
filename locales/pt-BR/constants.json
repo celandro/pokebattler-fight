@@ -517,7 +517,8 @@
         "SHINX": "Shinx",
         "LUXIO": "Luxio",
         "LUXRAY": "Luxray",
-        "BUDEW": "Budew"
+        "BUDEW": "Budew",
+        "ROSERADE": "Roserade"
     },
     "moves": {
         "ACID_FAST": "Ácido",
