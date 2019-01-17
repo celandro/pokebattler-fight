@@ -497,7 +497,16 @@
         "ARCEUS_STEEL_FORM": "Arceus - Aço",
         "ARCEUS_WATER_FORM": "Arceus - Água",
         "GIRATINA_ALTERED_FORM": "Giratina - Alterado",
-        "GIRATINA_ORIGIN_FORM": "Giratina - Origem"
+        "GIRATINA_ORIGIN_FORM": "Giratina - Origem",
+        "TURTWIG": "Turtwig",
+        "GROTLE": "Grotle",
+        "TORTERRA": "Torterra",
+        "CHIMCHAR": "Chimchar",
+        "MONFERNO": "Monferno",
+        "INFERNAPE": "Infernape",
+        "PIPLUP": "Piplup",
+        "PRINPLUP": "Prinplup",
+        "EMPOLEON": "Empoleon"
     },
     "moves": {
         "ACID_FAST": "Ácido",
