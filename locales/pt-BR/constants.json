@@ -543,7 +543,8 @@
         "MISMAGIUS": "Mismagius",
         "HONCHKROW": "Honchkrow",
         "GLAMEOW": "Glameow",
-        "PURUGLY": "Purugly"
+        "PURUGLY": "Purugly",
+        "CHINGLING": "Chingling"
     },
     "moves": {
         "ACID_FAST": "Ácido",
