@@ -60,7 +60,8 @@
                 "battlePartyTrainer": "Treinador",
                 "combatTime": "Tempo de Combate",
                 "currentTime": "Tempo Atual",
-                "damageDealt": "Dano Causado"
+                "damageDealt": "Dano Causado",
+                "damageReceived": "Dano Recebido"
             }
         }
     },
