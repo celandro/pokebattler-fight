@@ -54,5 +54,8 @@
             "description": "O Simulador de Reide do Pokebattler é o Nº1 em precisão. Obtenha resultados para mais de 20 equipes de batalhas, bônus de amizade e clima.",
             "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
         }
+    },
+    "pvp": {
+        "title": "Simulador de PvP"
     }
 }
