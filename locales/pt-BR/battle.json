@@ -56,7 +56,8 @@
                 "attackerId": "Id",
                 "attackerGroup": "Grupo",
                 "attackerOrder": "Ordem",
-                "battlePartyUserId": "Usuário"
+                "battlePartyUserId": "Usuário",
+                "battlePartyTrainer": "Treinador"
             }
         }
     },
