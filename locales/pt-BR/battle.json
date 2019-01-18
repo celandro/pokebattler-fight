@@ -58,7 +58,8 @@
     "pvp": {
         "title": "Simulador de PvP",
         "meta": {
-            "description": "O Simulador de PvP do Pokebattler deixa você batalhar os Pokémon dos seus amigos para ver quem se sairá melhor no simulador N° 1 em precisão."
+            "description": "O Simulador de PvP do Pokebattler deixa você batalhar os Pokémon dos seus amigos para ver quem se sairá melhor no simulador N° 1 em precisão.",
+            "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg\n"
         }
     }
 }
