@@ -81,6 +81,9 @@
                 "dpsByPokemon": {
                     "title": "DPS por Pokémon",
                     "description": "O DPS para cada um de seus Pokémon é mostrado aqui."
+                },
+                "damageByGroup": {
+                    "title": "Dano por Grupo"
                 }
             }
         }
