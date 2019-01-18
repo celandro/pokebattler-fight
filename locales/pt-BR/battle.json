@@ -79,7 +79,8 @@
                     "description": "O dano causado por cada um dos seus Pokémon é mostrado aqui."
                 },
                 "dpsByPokemon": {
-                    "title": "DPS por Pokémon"
+                    "title": "DPS por Pokémon",
+                    "description": "O DPS para cada um de seus Pokémon é mostrado aqui."
                 }
             }
         }
