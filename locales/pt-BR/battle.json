@@ -47,5 +47,8 @@
         "description": "O Simulador de Batalha de Ginásio do Pokebattler é o n° 1 do mundo em oferecer os resultados mais precisos para as batalhas de ginásio, incluindo fortalecimentos do bônus de clima e a análise de cada segundo.",
         "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
     },
-    "raidBattlePartyTitle": "Simulador de Equipe de Batalha de Reide"
+    "raidBattlePartyTitle": "Simulador de Equipe de Batalha de Reide",
+    "raid": {
+        "title": "Simulador de Reide"
+    }
 }
