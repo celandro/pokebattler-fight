@@ -53,7 +53,8 @@
             "subtitle": "Arraste e solte as colunas para criar sua análise personalizada.",
             "select": "Tipo de Gráfico",
             "columns": {
-                "attackerId": "Id"
+                "attackerId": "Id",
+                "attackerGroup": "Grupo"
             }
         }
     },
