@@ -62,7 +62,8 @@
                 "currentTime": "Tempo Atual",
                 "damageDealt": "Dano Causado",
                 "damageReceived": "Dano Recebido",
-                "energy": "Energia"
+                "energy": "Energia",
+                "move": "Movimento"
             }
         }
     },
