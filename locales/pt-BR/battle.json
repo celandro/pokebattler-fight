@@ -103,7 +103,8 @@
             }
         },
         "assistants": {
-            "title": "Ferramenta Beta de Treinadores Extras"
+            "title": "Ferramenta Beta de Treinadores Extras",
+            "both": "Os resultados abaixo incluem {{numExplicit}} treinadores adicionais e {{numRandom}} equipes de batalha adicionais de níveis aleatórios entre 30 e 40. Isso acontece com a intenção de simular o resultado de um combate de reide realístico com vários treinadores. A % de vitória acima mostra a chance de vitória antes que a sua equipe de batalha desmaie se você ter essas pessoas adicionais ajudando você. Frequentemente, reentrando no combate nesses cenários, garantirão a vitória para você. O poder, tempo para vencer, poções e classificações gerais, são baseados no que a sua equipe de batalha pode fazer e não inclui outras equipes. Essa página eventualmente mostrará muito mais informação - apenas o registro de batalha está completo no momento. Há também uma interface melhor para selecionar quantos treinadores e quantas equipes de batalha adicionais irão te ajudar "
         }
     },
     "runAgain": "Execute novamente esta simulação",
