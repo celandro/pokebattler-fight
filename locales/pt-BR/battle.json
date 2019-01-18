@@ -75,7 +75,8 @@
                     "description": "O dano causado por cada treinador é mostrado aqui."
                 },
                 "damageByPokemon": {
-                    "title": "Dano por Pokémon"
+                    "title": "Dano por Pokémon",
+                    "description": "O dano causado por cada um dos seus Pokémon é mostrado aqui."
                 }
             }
         }
