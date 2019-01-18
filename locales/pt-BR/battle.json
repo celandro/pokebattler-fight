@@ -71,7 +71,8 @@
             },
             "pivotTypes": {
                 "damageByTrainer": {
-                    "title": "Dano por Treinador"
+                    "title": "Dano por Treinador",
+                    "description": "O dano causado por cada treinador é mostrado aqui."
                 }
             }
         }
