@@ -51,7 +51,10 @@
         "explore": {
             "title": "Examine os resultados",
             "subtitle": "Arraste e solte as colunas para criar sua análise personalizada.",
-            "select": "Tipo de Gráfico"
+            "select": "Tipo de Gráfico",
+            "columns": {
+                "attackerId": "Id"
+            }
         }
     },
     "runAgain": "Execute novamente esta simulação",
