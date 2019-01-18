@@ -85,6 +85,9 @@
                 "damageByGroup": {
                     "title": "Dano por Grupo",
                     "description": "O dano causado por cada Grupo por Pokemon é mostrado."
+                },
+                "custom": {
+                    "title": "Análise Personalizada"
                 }
             }
         }
