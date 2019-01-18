@@ -65,7 +65,8 @@
                 "energy": "Energia",
                 "move": "Movimento",
                 "moveType": "Tipo do Movimento",
-                "attacker": "Atacante"
+                "attacker": "Atacante",
+                "defender": "Defensor"
             }
         }
     },
