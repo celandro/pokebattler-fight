@@ -87,7 +87,8 @@
                     "description": "O dano causado por cada Grupo por Pokemon é mostrado."
                 },
                 "custom": {
-                    "title": "Análise Personalizada"
+                    "title": "Análise Personalizada",
+                    "description": "Você pode fazer uma análise avançada aqui! Funciona melhor em desktops ou no modo paisagem."
                 }
             }
         }
