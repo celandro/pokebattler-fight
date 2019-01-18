@@ -1,5 +1,4 @@
 {
-
     "back": "Back",
     "save": "Save",
     "cancel": "Cancel",
@@ -11,6 +10,7 @@
     "loss": "Loss",
     "quickMove": "Fast Move",
     "specialMove": "Charge Move",
+    "specialMove2": "Charge Move 2",
     "quickMoves": "Fast Moves",
     "specialMoves": "Charge Moves",
     "attackStrategy": "Attack Strategy",
@@ -20,8 +20,10 @@
     "aggregation": "How Lucky?",
     "choosePokemon": "Choose Pokemon",
     "friendLevels": "Friend Level",
+    "shieldStrategy": "Shield Strategy",
     "shiny": "Shiny",
     "lucky": "Lucky",
+    "id": "Id",
     "seconds": "Seconds",
     "find": "Find",
     "rejoin": {
@@ -32,7 +34,10 @@
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
-        "stamina": "Stamina"
+        "stamina": "Stamina",
+        "individualAttack": "$t(common:stats.attack)",
+        "individualDefense": "$t(common:stats.defense)",
+        "individualStamina": "$t(common:stats.stamina)"
     },
     "statsAbbr": {
         "attack": "Att",
@@ -56,6 +61,8 @@
         "realTime": "Time",
         "prestige": "Prestige",
         "dps": "DPS",
+        "dpe": "DPE",
+        "eps": "EPS",
         "potions": "Potions",
         "damage": "Damage",
         "energy": "Energy",
@@ -109,6 +116,7 @@
     "pokemon": "Pokemon",
     "battleParty": "Battle Party",
     "battleParties": "Battle Parties",
+    "battlePartyType": "Battle Party Type",
     "raids": "Raids",
     "gym": "Gym",
     "pvp": "PvP",
@@ -160,7 +168,15 @@
         "ad6": "Take your gaming to the next level with a Pokebattler Patreon account. Sign up now."
     },
     "menu": {
+        "index": "Pokebattler.com",
+        "patreon": "Support Us On Patreon",
         "follow": "Follow us!",
+        "social": {
+            "reddit": "Reddit",
+            "facebook": "Facebook",
+            "twitter": "Twitter",
+            "youtube": "Youtube"
+        },
         "mainMenu": {
             "gym": "$t(gym)",
             "articles": "Articles",
@@ -214,5 +230,23 @@
     "explicitAssistants": {
         "title": "Extra Trainers",
         "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers. The friend level should be the maximum friend level that they have with other players at the raid, not your friend level with them."
+    },
+    "monteCarlo": {
+        "title": "Simulation Type",
+        "description": "Choose between running a single random simulation, or the average of multiple simulations"
+    },
+    "errors": {
+        "title": "Uhoh! You found a bug",
+        "description": "Pokebattler.com tries it's best to be as bug free as possible and can use your help! There are a virtually infinite number of possible URLs on the site and we can't test them all. We rely on your reports to find and fix problems.",
+        "fix": "Usually this error will go away if you click on Pokebattler in the top left and then click reload.",
+        "autoReport": "The following information regarding this error has been reported automatically.",
+        "contactUs": "If you wish to contact us regarding the error, please send the following information to ",
+        "small": "Usually this error will go away if you click on Pokebattler in the top left and then click reload. Information regarding this error has been reported to us",
+        "url": "URL",
+        "error": "Error",
+        "info": "Info",
+        "message": "Message",
+        "stack": "Stack"
     }
+
 }

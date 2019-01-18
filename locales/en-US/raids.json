@@ -157,5 +157,9 @@
     "battle": {
         "resultLink": "See this result as a battle party"
     },
-    "helpLink": "Watch the Raid tutorial video"
+    "helpLink": "Watch the Raid tutorial video",
+    "silph": {
+        "text": "Current raid boss list provided by",
+        "link": "The Silph Road"
+    }
 }
