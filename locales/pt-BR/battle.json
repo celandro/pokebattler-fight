@@ -68,6 +68,11 @@
                 "attacker": "Atacante",
                 "defender": "Defensor",
                 "actor": "Instituidor"
+            },
+            "pivotTypes": {
+                "damageByTrainer": {
+                    "title": "Dano por Treinador"
+                }
             }
         }
     },
