@@ -57,7 +57,8 @@
                 "attackerGroup": "Grupo",
                 "attackerOrder": "Ordem",
                 "battlePartyUserId": "Usuário",
-                "battlePartyTrainer": "Treinador"
+                "battlePartyTrainer": "Treinador",
+                "combatTime": "Tempo de Combate"
             }
         }
     },
