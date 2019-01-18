@@ -1,6 +1,6 @@
 {
     "index": {
-        "title": "Ranglisten",
+        "title": "Arena-Ranglisten",
         "welcome": {
             "title": "Willkommen zu Pokebattler Ranglisten 2.0!",
             "paragraph1": "Willkommen zum neuen, personalisierten Ranglistenbereich von Pokebattler. Anders als bei anderen Seiten kannst du bei uns genau die Einstellungen wählen, mit denen du deine eigenen angepassten Ranglisten erstellen kannst. Diese Seite ist besonders stark anpassbar, sie erlaubt dir das Angreiferlevel, das Verteidigerlevel, Angriffsstrategie, Verteidigungsstrategie, Sortierung und Gruppierungsoptionen zu wählen.",
@@ -25,10 +25,14 @@
             "attacker": "Angreifer",
             "defender": "Verteidiger",
             "gotoRankings": "Zu den Ranglisten"
+        },
+        "meta": {
+            "description": "Pokebattler's Pokemon Go Arena-Randglisten sind die weltweit genausten. Sie zeigen die besten Angreifer und Verteidiger für Arenen basierend auf deinen Einstellungen.",
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
         }
     },
     "list": {
-        "title": "Pokemon Go Kampfranglisten",
+        "title": "Pokemon Go {{typeSelection}}",
         "descriptions": {
             "title": "Über diese Rangliste",
             "text": "Diese {{type}}rangliste basiert darauf Kämpfe von Level {{levels.attacker}} Angreifern mit Level {{levels.defender}} Verteidigern zu simulieren. Die Ranglistensimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} Ausweichstrategie benutzend auf Basis des $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) Simulationstyps. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, wobei {{details}}.",
@@ -39,18 +43,24 @@
             "attackers": "Angreifer",
             "defenders": "Verteidiger",
             "details": {
-                "attackers": "jedes voll entwickelte Pokemon als Angreifer, mit jedem möglichen Attackenmuster, simuliert gegen jeden der Verteidiger unter den Top 30 nach WP, mit jedem möglichen Attackenmuster. Die Top 32 der Angreifer wurden dann mit der Monte-Carlo-Strategie jeweils mehrere hundert mal simuliert. Die besten 24 Angreifer nach {{sort}} wurden herausgefiltert und werden hier angezeigt.",
-                "defenders": "jedes mögliche Attackenmuster gegen die besten 30 WP, die besten 30 Power, die besten 30 Allgemein und die besten 30 Zeit zum Sieg Angreifer mit jedem möglichen Attackenmuster simuliert wurde. Die Top 32 Verteidiger wurden behalten und gegen ihre 15 besten Konter mit den jeweils 5 besten Attackenmustern simuliert. Zum Schluss wurden die 5 besten Konter gegen jedes Pokemon betrachtet und daraus wurden die besten 24 Verteidiger gefunden und nach {{sort}} sortiert hier angezeigt."
+                "attackers": "jedes voll entwickelte Pokemon als Angreifer, mit jedem möglichen Attackenmuster, simuliert gegen jeden der Verteidiger unter den Top 24, mit jedem möglichen Attackenmuster. Die besten 24 Angreifer nach {{sort}} wurden herausgefiltert und werden hier angezeigt.",
+                "defenders": "jedes mögliche Attackenmuster gegen die Angreifer mit jedem möglichen Attackenmuster simuliert wurde. Die schlimmsten 6 Konter für jedes Pokemon wurden betrachtet und daraus wurden die besten 24 Verteidiger gefunden und nach {{sort}} sortiert hier angezeigt."
             }
         },
         "typeSelection": {
             "attacker": "Angreiferranglisten",
-            "defender": "Verteidigerranglisten"
+            "defender": "Verteidigerranglisten",
+            "attackers": "$t(rankings:list.typeSelection.attacker)",
+            "defenders": "$t(rankings:list.typeSelection.defender)"
         },
         "settings": {
             "level": "Pokemon-Level"
         },
-        "loading": "Generiere {{type}} Ranglistenergebnisse. Viele Millionen Simulationen sind notwendig um diese Analyse auszuführen, aber die Ergebnisse werden gleich verfügbar sein"
+        "loading": "Generiere {{type}} Ranglistenergebnisse. Viele Millionen Simulationen sind notwendig um diese Analyse auszuführen, aber die Ergebnisse werden gleich verfügbar sein",
+        "meta": {
+            "description": "Pokebattler's Pokemon Go {{typeSelection}} sind anpassbar basierend auf dem Angreiferlevel, Verteidigerlevel, Ausweichfähigkeit und mehr!",
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
+        }
     },
     "featured": {
         "title": {
