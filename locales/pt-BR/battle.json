@@ -55,7 +55,8 @@
             "columns": {
                 "attackerId": "Id",
                 "attackerGroup": "Grupo",
-                "attackerOrder": "Ordem"
+                "attackerOrder": "Ordem",
+                "battlePartyUserId": "Usuário"
             }
         }
     },
