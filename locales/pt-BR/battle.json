@@ -44,7 +44,8 @@
         "gym": {
             "title": "Simulação de batalha entre {{attacker.name}} vs. {{defender.name}}",
             "meta": {
-                "description": "Resultado da batalha de ginásio entre {{attacker.name}} usando {{attacker.quickMove}} e {{attacker.specialMove}} vs. {{defender.name}} usando {{defender.quickMove}} e {{defender.specialMove}}"
+                "description": "Resultado da batalha de ginásio entre {{attacker.name}} usando {{attacker.quickMove}} e {{attacker.specialMove}} vs. {{defender.name}} usando {{defender.quickMove}} e {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
             }
         }
     },
