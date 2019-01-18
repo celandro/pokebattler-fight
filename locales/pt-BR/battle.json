@@ -101,6 +101,9 @@
                     "description": "Você pode fazer uma análise avançada aqui! Funciona melhor em desktops ou no modo paisagem."
                 }
             }
+        },
+        "assistants": {
+            "title": "Ferramenta Beta de Treinadores Extras "
         }
     },
     "runAgain": "Execute novamente esta simulação",
