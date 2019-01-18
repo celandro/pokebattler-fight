@@ -40,6 +40,9 @@
         },
         "pvp": {
             "description": "O usuário {{attacker.userId}} com o time de batalha {{attacker.battlePartyId}} {{result}} o usuário {{defender.userId}} com o time de batalha {{defender.battlePartyId}} nesta simulação de batalha.  A simulação de combate foi executada com a estratégia de ataque {{strategies.attack}} usando {{strategies.dodge}} versus a estratégia de ataque {{strategies.defense}} usando {{strategies.defenseDodge}} com clima {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) execuções para gerar este resultado de batalha."
+        },
+        "gym": {
+            "title": "Simulação de batalha entre {{attacker.name}} vs. {{defender.name}}"
         }
     },
     "runAgain": "Execute novamente esta simulação",
