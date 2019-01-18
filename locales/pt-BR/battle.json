@@ -54,7 +54,8 @@
             "select": "Tipo de Gráfico",
             "columns": {
                 "attackerId": "Id",
-                "attackerGroup": "Grupo"
+                "attackerGroup": "Grupo",
+                "attackerOrder": "Ordem"
             }
         }
     },
