@@ -64,7 +64,8 @@
                 "damageReceived": "Dano Recebido",
                 "energy": "Energia",
                 "move": "Movimento",
-                "moveType": "Tipo do Movimento"
+                "moveType": "Tipo do Movimento",
+                "attacker": "Atacante"
             }
         }
     },
