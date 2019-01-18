@@ -40,7 +40,7 @@
             "title": "Simulação de Reide entre {{attacker.name}} vs. {{defender.name}}",
             "meta": {
                 "description": "Resultados da simulação de reide entre {{attacker.name}} vs. {{defender.name}} usando {{defender.quickMove}} e {{defender.specialMove}}",
-                "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg\n"
+                "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
             }
         },
         "pvp": {
