@@ -605,11 +605,12 @@
         "WORMADAM_TRASH_FORM": "Burmadame - Lumpen",
         "SHAYMIN_SKY_FORM": "Shaymin - Zenit",
         "SHAYMIN_LAND_FORM": "Shaymin - Land",
-        "CHERRIM_OVERCAST_FORM": "Kinoso - Wolke",
+        "CHERRIM_OVERCAST_FORM": "Kinosos - Sonnenform",
         "CHERRIM_SUNNY_FORM": "Kinoso - Sonne",
         "SHELLOS_WEST_SEA_FORM": "Schalellos - Westliches Meer",
         "SHELLOS_EAST_SEA_FORM": "Schalellos - Östliches Meer",
-        "GASTRODON_WEST_SEA_FORM": "Gastrodon - Westliches Meer"
+        "GASTRODON_WEST_SEA_FORM": "Gastrodon - Westliches Meer",
+        "GASTRODON_EAST_SEA_FORM": "Gastrodon - Östliches Meer"
     },
     "moves": {
         "undefined": " ",
@@ -822,7 +823,8 @@
         "SMACK_DOWN_FAST": "Katapult",
         "HYDRO_CANNON": "Aquahaubitze",
         "REJOIN": "Wiederbeigetreten",
-        "LAST_RESORT": "Zuflucht"
+        "LAST_RESORT": "Zuflucht",
+        "METEOR_MASH": "Sternenhieb"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unbekannt",
