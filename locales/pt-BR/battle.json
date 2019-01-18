@@ -61,7 +61,8 @@
                 "combatTime": "Tempo de Combate",
                 "currentTime": "Tempo Atual",
                 "damageDealt": "Dano Causado",
-                "damageReceived": "Dano Recebido"
+                "damageReceived": "Dano Recebido",
+                "energy": "Energia"
             }
         }
     },
