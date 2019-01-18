@@ -48,7 +48,7 @@
             "title": "Simulação de PvP entre {{attacker.name}} vs. {{defender.name}}",
             "meta": {
                 "description": "Resultados da simulação de PvP entre {{attacker.name}} vs. {{defender.name}}",
-                "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg\n"
+                "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
             }
         },
         "gym": {
