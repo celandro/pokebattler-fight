@@ -58,7 +58,9 @@
                 "attackerOrder": "Ordem",
                 "battlePartyUserId": "Usuário",
                 "battlePartyTrainer": "Treinador",
-                "combatTime": "Tempo de Combate"
+                "combatTime": "Tempo de Combate",
+                "currentTime": "Tempo Atual",
+                "damageDealt": "Dano Causado"
             }
         }
     },
