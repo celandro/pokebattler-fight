@@ -63,7 +63,8 @@
                 "damageDealt": "Dano Causado",
                 "damageReceived": "Dano Recebido",
                 "energy": "Energia",
-                "move": "Movimento"
+                "move": "Movimento",
+                "moveType": "Tipo do Movimento"
             }
         }
     },
