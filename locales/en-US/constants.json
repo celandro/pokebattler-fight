@@ -613,9 +613,13 @@
         "ARCEUS_STEEL_FORM": "Arceus - Steel",
         "ARCEUS_WATER_FORM": "Arceus - Water",
         "GIRATINA_ALTERED_FORM": "Giratina - Altered",
+
         "GIRATINA_ORIGIN_FORM": "Giratina - Origin",
         "MELTAN": "Meltan",
-        "MELMETAL": "Melmetal"
+        "MELMETAL": "Melmetal",
+        "BURMY_PLANT_FORM": "Burmy - Plant",
+        "BURMY_SANDY_FORM": "Burmy - Sandy",
+        "BURMY_TRASH_FORM": "Burmy - Trash"
     },
     "moves": {
         "undefined": "",
@@ -1077,20 +1081,37 @@
         "label": "League",
         "COMBAT_LEAGUE_RAIDS_GYMS": {
             "label": "Raids & Gyms",
-            "description": "6 pokemon with no limits"
+            "description": "6 pokemon with no limits."
         },
         "COMBAT_LEAGUE_DEFAULT_GREAT": {
             "label": "Great League",
-            "description": "3 pokemon with a maximum CP of 1500"
+            "description": "3 pokemon with a maximum CP of 1500."
         },
         "COMBAT_LEAGUE_DEFAULT_ULTRA": {
             "label": "Ultra League",
-            "description": "3 pokemon with a maximum CP of 2500"
+            "description": "3 pokemon with a maximum CP of 2500."
         },
         "COMBAT_LEAGUE_DEFAULT_MASTER": {
             "label": "Master League",
-            "description": "3 pokemon with no limits"
+            "description": "3 pokemon with no limits."
+        },
+        "COMBAT_LEAGUE_SILPH_CUP": {
+            "label": "Silph Arena Cup",
+            "description": "The latest Silph Arena Cup tournament.  You may use Ground, Steel, Rock and Fighting Pokemon with a maximum CP of 1500."
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_1": {
+            "label": "Silph Arena Pre Cup 1",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_2": {
+            "label": "Silph Pre Arena Cup 2",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_3": {
+            "label": "Silph Arena Pre Cup 3",
+            "description": "TBD"
         }
+
     },
 
 

@@ -115,7 +115,7 @@
       "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseDodge}} with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
     },
     "help": {
-      "text": "You can find out more about the way that these simulations are calculated by looking at the {{helpLink}}. References to the Pokemon Go combat research can be found in the {{aboutLink}}. Pokebattler is an open source project, please feel free to file any bugs or issues at the {{repoLink}}.",
+      "text": "You can find out more about the way that these simulations are calculated by looking at the {{helpLink}}. References to the Pokemon Go combat research can be found in the {{aboutLink}}. ",
       "links": {
         "repo": "project site"
       }
