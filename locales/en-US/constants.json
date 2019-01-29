@@ -1100,8 +1100,8 @@
             "description": "The latest Silph Arena Cup tournament.  You may use Ground, Steel, Rock and Fighting Pokemon with a maximum CP of 1500."
         },
         "COMBAT_LEAGUE_SILPH_CUP_PRE_1": {
-            "label": "Silph Arena Pre Cup 1",
-            "description": "TBD"
+            "label": "Next Silph Arena Cup",
+            "description": "The next Silph Arena Cup tournament. You may use"
         },
         "COMBAT_LEAGUE_SILPH_CUP_PRE_2": {
             "label": "Silph Pre Arena Cup 2",
