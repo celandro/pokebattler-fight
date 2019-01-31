@@ -12,7 +12,7 @@
         "patreonDescription": "Chi ci supporta attraverso Patreon ottiene ricompense che includono più Pokemon nei loro Pokebox, simulazioni personalizzate di qualità migliore e un foglio Google coi consigli per i raid!",
         "success": {
             "title": "Accesso eseguito con successo",
-            "fromApi": " $t(login.success.title)! Per favore aspetta un attimo prima di continuare"
+            "fromApi": " $t(login.success.title)! Per favore aspetta un attimo prima di continuare."
         }
     },
     "details": {
