@@ -1,4 +1,29 @@
 {
     "startButton": "Batalla",
-    "attacker": "Atacante"
+    "attacker": "Atacante",
+    "title": "Simulador de batallas de gimnasio",
+    "raidBattlePartyTitle": "Simulador de Grupos de Combate para excursiones",
+    "attackerPlaceHolder": "Elige el $t(attacker)",
+    "defender": "Defensor",
+    "defenderPlaceHolder": "Elige el $t(defender)",
+    "pokemonListTypes": {
+        "pokebox": "Mi Pokebox",
+        "all": "Todos los Pokemon"
+    },
+    "relatedBattles": {
+        "title": "Batallas Relacionadas",
+        "description": "Elige el parametro que deseas cambiar debajo y da click al link para volver a correr la simulacion actual con el nuevo parametro. Los resultados son cambiados inmediatamente",
+        "modify": "Modificar",
+        "switch": "Cambia para modificar {{type}}",
+        "parameterTitle": "Cambiar parametro"
+    },
+    "results": {
+        "title": {
+            "base": "Resultado del Combate: Tu",
+            "win": "$t(results.title.base) Ganaste!",
+            "lose": "$t(results.title.base) Haz Perdido!"
+        },
+        "about": "Acerca de esta batalla",
+        "description": "Un {{attacker.name}} de nivel {{attacker.level}}  con {{attacker.cp}} PC {{result}} un  {{defender.name}} de Nivel {{defender.level}}with {{defender.cp}} PC en esta simulacion de batalla. El atacante {{attacker.name}} estaba utilizando {{attacker.quickMove}} como movimiento rapido {{attacker.specialMove}} como movimiento cargado. El defensor {{defender.name}} estaba usando {{defender.quickMove}} como movimiento rapido {{defender.specialMove}} como movimiento cargado. La simulacion de combate fue efectuada con la estrategia de ataque: {{strategies.attack}} usando {{strategies.dodge}} basado en la simulacion tipo {{strategies.defense}} con clima {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) Realizadas  para generar este resultado de batalla."
+    }
 }

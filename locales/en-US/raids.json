@@ -76,6 +76,11 @@
             "subtitle": "Legendary Raid",
             "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Legacy Tier 6",
+            "subtitle": "Legendary Raid - Bonus Hp",
+            "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
         "RAID_LEVEL_5_FUTURE": {
             "title": "Future Tier 5",
             "subtitle": "Legendary Raid",
@@ -120,7 +125,7 @@
         "description": "Welcome to the Pokebattler raid counters guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options.",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of Patreon subscribers. Patreon subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
-            "link":"See all the benefits you get for signing up",
+            "link": "See all the benefits you get for signing up",
             "thanks": "Thanks for your support!"
         }
     },
@@ -144,7 +149,7 @@
         "estimate": {
             "close": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a very close fight. Bring one more trainer if you can to be safe.",
             "almost": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. If you are very lucky, you might be able to beat it with 1 less trainer.",
-            "trivial": "Beating {{pokemon}} should take {{numPeople}} trainer with Pokemon of this strength. This fight will be over before it's begun. It's so easy you could just use the in game suggestions and win. 😉",
+            "trivial": "Beating {{pokemon}} should take {{numPeople}} trainer with Pokemon of this strength. This fight will be over before it's begun. It's so easy you could just use the in game suggestions and win.",
             "normal": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. Make sure your group is prepared before the fight.",
             "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
         }
@@ -152,5 +157,9 @@
     "battle": {
         "resultLink": "See this result as a battle party"
     },
-    "helpLink": "Watch the Raid tutorial video"
+    "helpLink": "Watch the Raid tutorial video",
+    "silph": {
+        "text": "Current raid boss list provided by",
+        "link": "The Silph Road"
+    }
 }
