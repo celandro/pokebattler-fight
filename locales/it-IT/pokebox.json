@@ -1,25 +1,34 @@
 {
     "title": "Pokebox",
-    "blurb": "Aggiungi i tuoi Pokémon per risultati personalizzati!",
+    "blurb": "Aggiungi i tuoi Pokémon per risultati personalizzati! Puoi aggiungere i tuoi Pokemon uno alla volta usando il cerchio blu in alto a destra. C'è anche un opzione per importare in massa i Pokemon direttamente  da altre APP. C'è una tasto ricerca in alto a destra per aiutarti a cercare fra i tuoi Pokemon",
     "pokemonList": {
         "zero": "Aggiungi il tuo Pokémon cliccando il riquadro a sinistra.",
         "title": "Il tuo Pokebox personale",
         "zeroDescription": "Se in passato hai già aggiunto dei Pokemon, potresti aver effettuato il login con un altro account. I tuoi account saranno automaticamente collegati se usano lo stesso indirizzo email.",
         "zeroHelp": "Se non hanno lo stesso indirizzo email, {{link}} con l'userIds degli account che vuoi collegare",
         "email": "email Pokebattler",
-        "showMore": "Mostra altro"
+        "showMore": "Mostra altro",
+        "meta": {
+            "description": "Salva i tuoi Pokemon per avere risultati su misura dei Raid e molto altro!"
+        }
     },
     "add": {
         "title": "Pokebox",
         "description": "Aggiungi un Pokemon",
         "pokemon": "Scegli un Pokemon",
-        "pokemonSelect": "Scegli un Pokemon"
+        "pokemonSelect": "Scegli un Pokemon",
+        "meta": {
+            "description": "Aggiungi un Pokemon al tuo Pokebox"
+        }
     },
     "deleteAll": {
         "button": "Cancella tutti",
         "title": "Cancella tutti",
         "confirmation": "Così cancellerai tutti i Pokemon nel tuo Pokebox, ne sei sicuro?",
-        "irreversible": "Quest'azione non è reversibile!"
+        "irreversible": "Quest'azione non è reversibile!",
+        "meta": {
+            "description": "Cancella un Pokemon dal Pokebox"
+        }
     },
     "import": {
         "button": "Importa in massa",
@@ -31,18 +40,24 @@
         "table": {
             "header": "Seleziona il Pokemon che desideri importare qui sotto",
             "selectAll": "Seleziona tutti"
+        },
+        "meta": {
+            "description": "Aggiungi Pokemon al tuo Pokebox da altre APP"
         }
     },
     "update": {
         "title": "Pokebox",
-        "description": "Modifica {{name}}"
+        "description": "Modifica {{name}}",
+        "meta": {
+            "description": "Aggionra il tuo Pokemon nel Pokebox"
+        }
     },
     "loading": "Sto caricando il tuo Pokemon",
     "backPokebox": "Torna al Pokebox",
     "powerUp": "Potenzia",
     "full": {
         "title": "Pokebox - Spazio esaurito",
-        "explanation": "Hai raggiunto il numero massimo di Pokemon nel Pokebox che puoi permetterti col tuo livello di supporto attuale. Ciò ti pone nel 5% dei maggiori fruitori di Pokebattler! Pokebattler dipende dal supporto di grandi utenti come te per offrire simulazione di alta qualità a tutti. Puoi incrementare lo spazio per i tuoi Pokemon contribuendo sul Patreon di Pokebattler."
+        "explanation": "Hai raggiunto il numero massimo di Pokemon nel Pokebox che puoi permetterti col tuo livello di supporto attuale. Questo ti pone nel 5% dei maggiori fruitori di Pokebattler! Pokebattler dipende dal supporto di grandi utenti come te per offrire simulazione di alta qualità a tutti. Puoi incrementare lo spazio per i tuoi Pokemon contribuendo sul Patreon di Pokebattler o semplicemente autenticandoti con l'opzione Patreon."
     },
     "explanation": "Il Pokebox di Pokebattler è un'eccitante nuova caratteristica che ti permette di personalizzare la tua esperienza su Pokebattler e basarla sui Pokemon che possiedi! I Pokemon che aggiungi al tuo Pokebox possono essere usati in tutto il sito. Presta attenzione all'icona del box. Un'icona verde significa che stai usando il Pokebox, una nera significa che non lo stai usando.",
     "delete": {
@@ -52,9 +67,21 @@
         "bulk": {
             "title": "Cancella",
             "toolbarTitle": "Cancella in massa",
-            "confirmation": "Questo cancellerà {{num}} Pokemon dal tuo Pokebox, ne sei sicuro?"
+            "confirmation": "Questo cancellerà {{num}} Pokemon dal tuo Pokebox, ne sei sicuro?",
+            "meta": {
+                "description": "Cancella in massa i pokemon dal Pokebox"
+            }
         },
         "irreversible": "Questa azione non è reversibile!",
-        "confirmation": "Sei sicuro di voler cancellare?"
+        "confirmation": "Sei sicuro di voler cancellare?",
+        "meta": {
+            "description": "Cancella un Pokemon dal tuo Pokedex"
+        }
+    },
+    "meta": {
+        "description": "Salva i tupi Pokemon per avere i risultati dei raid su misura e molto altro!"
+    },
+    "export": {
+        "button": "Export di massa"
     }
 }
