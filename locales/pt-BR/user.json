@@ -33,7 +33,7 @@
         "back": "Voltar ao login",
         "button": "Logout",
         "meta": {
-            "description": "Você saiu de sua conta do Pokebattler com sucesso"
+            "description": "Você saiu da sua conta com sucesso."
         }
     },
     "roles": {
