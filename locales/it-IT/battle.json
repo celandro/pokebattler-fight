@@ -1,5 +1,5 @@
 {
-    "title": "Simulatore di battaglie",
+    "title": "Simulatore di battaglie in palestra",
     "startButton": "Battaglia",
     "attacker": "Attaccante",
     "attackerPlaceHolder": "Scegli $t(attaccante)",
@@ -36,5 +36,13 @@
         },
         "logTitle": "Diario del combattimento"
     },
-    "runAgain": "Esegui questa simulazione casuale di nuovo"
+    "runAgain": "Esegui questa simulazione casuale di nuovo",
+    "meta": {
+        "description": "Pokebattler Gym Simulator da i migliori risultati delle battaglie in palestra, compreso i bonus meteo ed un analisi secondo per secondo",
+        "image": "\nhttps://static.pokebattler.com/images/og_gym_simulator.jpg\n"
+    },
+    "raidBattlePartyTitle": "Simulatore di sqaudra per battaglia Raid",
+    "raid": {
+        "title": "Simulatore di raid"
+    }
 }
