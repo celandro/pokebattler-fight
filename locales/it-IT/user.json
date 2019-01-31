@@ -12,7 +12,7 @@
         "patreonDescription": "Chi ci supporta attraverso Patreon ottiene ricompense che includono più Pokemon nei loro Pokebox, simulazioni personalizzate di qualità migliore e un foglio Google coi consigli per i raid!",
         "success": {
             "title": "Accesso eseguito con successo",
-            "fromApi": "$t(login.success.title)! Attendi un attimo prima di continuare."
+            "fromApi": " $t(login.success.title)! Per favore aspetta un attimo prima di continuare"
         }
     },
     "details": {
@@ -21,9 +21,9 @@
     },
     "loggedIn": {
         "title": "Profilo pubblico",
-        "description": "Hai correttamente effettuato il log in. Riempi le tue informazioni di allenatore qui sotto, dopo clicca su Pokebox per aggiungere i tuoi Pokemon ed avere così i risultati su misura. Poi crea le squadre per avere i risultati su misura.",
+        "description": "Accesso eseguito con successo. Inserisci le tue informazioni qua sotto, poi clicca sul Pokedex per aggiungere i tuoi Pokemon e avere risultati personalizzati. Successivamente puoi creare delle squadre da usare nei raid personalizzati.",
         "meta": {
-            "description": "Salva le informazioni sul tuo account Pokemon Go e i sui tuoi Pokemon"
+            "description": "Salva le tue informazioni e i tuoi pokemon di Pokemon Go."
         },
         "profileButton": "Il tuo profilo"
     },
@@ -33,7 +33,7 @@
         "back": "Torna indietro per connetterti",
         "button": "Logout",
         "meta": {
-            "description": "Sei uscito con successo da Pokebattler"
+            "description": "Ti sei disconnesso con successo da Pokebattler"
         }
     },
     "roles": {
@@ -58,6 +58,6 @@
         "maxBattleParties": "Limite Squadre Lotta"
     },
     "meta": {
-        "description": "Pokebattler salva i tuoi Pokemon nel suo Pokedex per avere i risultati dei raid personalizzati e molto altro!"
+        "description": "Pokebattler archivia i tuoi pokemon di Pokemon GO nel Pokedex per trovare velocemente i counters dei Raid ed altro ancora!"
     }
 }
