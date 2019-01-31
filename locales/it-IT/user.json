@@ -11,7 +11,8 @@
         "patreon": "Accedi con Patreon",
         "patreonDescription": "Chi ci supporta attraverso Patreon ottiene ricompense che includono più Pokemon nei loro Pokebox, simulazioni personalizzate di qualità migliore e un foglio Google coi consigli per i raid!",
         "success": {
-            "title": "Accesso eseguito con successo"
+            "title": "Accesso eseguito con successo",
+            "fromApi": "$t(login.success.title)! Attendi un attimo prima di continuare."
         }
     },
     "details": {
@@ -19,13 +20,21 @@
         "description": "Le tue informazioni da allenatore qui sotto saranno usate per personalizzare il sito e verranno mostrate agli altri utenti."
     },
     "loggedIn": {
-        "title": "Profilo pubblico"
+        "title": "Profilo pubblico",
+        "description": "Hai correttamente effettuato il log in. Riempi le tue informazioni di allenatore qui sotto, dopo clicca su Pokebox per aggiungere i tuoi Pokemon ed avere così i risultati su misura. Poi crea le squadre per avere i risultati su misura.",
+        "meta": {
+            "description": "Salva le informazioni sul tuo account Pokemon Go e i sui tuoi Pokemon"
+        },
+        "profileButton": "Il tuo profilo"
     },
     "logout": {
         "title": "Sconnesso",
         "description": "Ti sei sconnesso con successo. Torna più tardi su qualunque tuo dispositivo e il tuo Pokebox sarà lì ad aspettarti!",
         "back": "Torna indietro per connetterti",
-        "button": "Logout"
+        "button": "Logout",
+        "meta": {
+            "description": "Sei uscito con successo da Pokebattler"
+        }
     },
     "roles": {
         "title": "Informazioni dell'account",
@@ -47,5 +56,8 @@
             "ROLE_SUPPORTER2": "Sostenitore di Pokebattler"
         },
         "maxBattleParties": "Limite Squadre Lotta"
+    },
+    "meta": {
+        "description": "Pokebattler salva i tuoi Pokemon nel suo Pokedex per avere i risultati dei raid personalizzati e molto altro!"
     }
 }
