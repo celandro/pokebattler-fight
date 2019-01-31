@@ -38,8 +38,8 @@
     },
     "runAgain": "Esegui questa simulazione casuale di nuovo",
     "meta": {
-        "description": "Pokebattler Gym Simulator da i migliori risultati delle battaglie in palestra, compreso i bonus meteo ed un analisi secondo per secondo",
-        "image": "\nhttps://static.pokebattler.com/images/og_gym_simulator.jpg\n"
+        "description": "Pokebattler Gym Simulator da i migliori risultati delle battaglie in palestra, compreso i bonus meteo ed un analisi secondo per secondo.",
+        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
     },
     "raidBattlePartyTitle": "Simulatore di sqaudra per battaglia Raid",
     "raid": {
