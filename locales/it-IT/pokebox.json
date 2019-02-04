@@ -27,7 +27,7 @@
         "confirmation": "Così cancellerai tutti i Pokemon nel tuo Pokebox, ne sei sicuro?",
         "irreversible": "Quest'azione non è reversibile!",
         "meta": {
-            "description": "Cancella un Pokemon dal Pokebox"
+            "description": "Cancella un Pokemon dal Pokebox."
         }
     },
     "import": {
@@ -42,7 +42,7 @@
             "selectAll": "Seleziona tutti"
         },
         "meta": {
-            "description": "Aggiungi Pokemon al tuo Pokebox da altre APP"
+            "description": "Aggiungi Pokemon al tuo Pokebox da altre APP."
         }
     },
     "update": {
@@ -69,7 +69,7 @@
             "toolbarTitle": "Cancella in massa",
             "confirmation": "Questo cancellerà {{num}} Pokemon dal tuo Pokebox, ne sei sicuro?",
             "meta": {
-                "description": "Cancella in massa i pokemon dal Pokebox"
+                "description": "Cancella in massa i pokemon dal Pokebox."
             }
         },
         "irreversible": "Questa azione non è reversibile!",
