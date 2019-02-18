@@ -839,7 +839,9 @@
         "MOVE_SHIELD": "Shielded",
         "MOVE_PASS": "No Shield",
         "COIN_FLIP_WIN": "Coin Flip Win",
-        "COIN_FLIP_LOSE": "Coin Flip Lose"
+        "COIN_FLIP_LOSE": "Coin Flip Lose",
+        "ATTACK_BUFF": "Attack Buff",
+        "DEFENSE_BUFF": "Defense Buff"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
