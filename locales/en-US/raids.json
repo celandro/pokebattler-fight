@@ -105,7 +105,7 @@
             "subtitle": "Best Attackers by",
             "description": "The following analysis shows the Pokemon that are the strongest raiders in terms of {{sort}} against {{pokemon}}.",
             "moveSetOrderingDescription": "The move sets are ordered from hardest to raid against to the easiest, make sure to check multiple, the results can vary greatly!",
-            "difficultyNote": "Raid bosses are much harder than normal fight, you should consider carefully your options.",
+            "difficultyNote": "Raid bosses are much harder than a normal battle, you should consider carefully your options.",
             "chooseMovesetLabel": "Choose Moveset"
         },
         "hardestMovesets": {
