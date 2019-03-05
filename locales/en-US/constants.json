@@ -839,7 +839,9 @@
         "MOVE_SHIELD": "Shielded",
         "MOVE_PASS": "No Shield",
         "COIN_FLIP_WIN": "Coin Flip Win",
-        "COIN_FLIP_LOSE": "Coin Flip Lose"
+        "COIN_FLIP_LOSE": "Coin Flip Lose",
+        "ATTACK_BUFF": "Attack Buff",
+        "DEFENSE_BUFF": "Defense Buff"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
@@ -935,6 +937,10 @@
         },
         "shield": {
             "label": "Shield Strategy",
+            "SHIELD_RANDOM": {
+                "label": "Randomly Shield",
+                "description": "Shields once 33% of the time and twice 17% of the time"
+            },
             "SHIELD_0": {
                 "label": "Never Shield",
                 "description": "Never tries to shield"
@@ -1109,6 +1115,18 @@
         },
         "COMBAT_LEAGUE_SILPH_CUP_PRE_3": {
             "label": "Silph Arena Pre Cup 3",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_4": {
+            "label": "Silph Arena Pre Cup 4",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_5": {
+            "label": "Silph Arena Pre Cup 5",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_6": {
+            "label": "Silph Arena Pre Cup 6",
             "description": "TBD"
         }
 

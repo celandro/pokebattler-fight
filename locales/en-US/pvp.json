@@ -37,14 +37,16 @@
       "deepLink": "See more details for {{pokemon}}"
     },
     "list": {
-      "title": "PvP {{typeSelection}}",
+      "title": "PvP {{league}} Rankings - {{typeSelection}}",
+      "titleBar": "PvP {{league}} Rankings",
+      "subtitle": "Top 24 {{typeSelection}}",
       "meta": {
         "description": "See The Pokemon GO {{typeSelection}} For {{league}} PvP With Pokebattler's Custom Simulation Based PvP Rankings!",
         "image": "https://static.pokebattler.com/images/og_pvp_rankings.png"
       },
       "descriptions": {
         "title": "About these Rankings",
-        "text": "This pvp {{type}} ranking is based off simulating combat with {{league}} Pokemon. The ranking simulation was run with the {{strategies.attack}} attack strategy. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
+        "text": "This PvP {{type}} ranking is based off simulating combat with {{league}} Pokemon. The ranking simulation was run with the {{strategies.attack}} attack strategy. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
         "help1": "You can click on any of the Pokemon below to see the results for different movesets or click the grouping icon second from the right in the top right to see them ungrouped. Sort order can be changed by clicking the top right sort icon and selecting the type of sort you prefer.",
         "attackers": "counters",
         "defenders": "well rounded",
@@ -55,8 +57,9 @@
       },
       "loading": "Generating {{type}} ranking results. Many millions of simulations were required to perform this analysis but the results will be soon. Please do not reload your browser.",
       "typeSelection": {
-        "attacker": "Counters Rankings",
-        "defender": "Well Rounded Rankings",
+        "label": "Ranking Type",
+        "attacker": "Counters",
+        "defender": "Well Rounded",
         "attackers": "$t(pvp:rankings.list.typeSelection.attacker)",
         "defenders": "$t(pvp:rankings.list.typeSelection.defender)"
       },
@@ -105,6 +108,19 @@
       "text": "The best counters for {{defender}} in {{league}} are below. You will find the best counters in terms of {{sort}} at the top of this list. These Pokemon might not be great in general but they are the best for defeating {{defender}} "
     }
   },
+  "rankingTypes": {
+    "label": "Ranking Type",
+    "attackers": {
+      "label": "Counters",
+      "description": "The best counters against the top 24 well rounded Pokemon"
+    },
+    "defenders": {
+      "label":"Well Rounded",
+      "description": "The top 24 well rounded Pokemon against every possible opponent and moveset"
+
+    }
+  },
+
   "navigation": {
     "leagues": {
       "COMBAT_LEAGUE_DEFAULT_GREAT": {
