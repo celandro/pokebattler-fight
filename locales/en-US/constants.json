@@ -834,12 +834,15 @@
         "SMACK_DOWN_FAST": "Smack Down",
         "LAST_RESORT": "Last Resort",
         "METEOR_MASH": "Meteor Mash",
+        "POWER_UP_PUNCH": "Power-Up Punch",
         "MOVE_UNSET": "None",
         "MOVE_NONE": "None",
         "MOVE_SHIELD": "Shielded",
         "MOVE_PASS": "No Shield",
         "COIN_FLIP_WIN": "Coin Flip Win",
-        "COIN_FLIP_LOSE": "Coin Flip Lose"
+        "COIN_FLIP_LOSE": "Coin Flip Lose",
+        "ATTACK_BUFF": "Attack Buff",
+        "DEFENSE_BUFF": "Defense Buff"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
@@ -935,6 +938,10 @@
         },
         "shield": {
             "label": "Shield Strategy",
+            "SHIELD_RANDOM": {
+                "label": "Randomly Shield",
+                "description": "Shields once 33% of the time and twice 17% of the time"
+            },
             "SHIELD_0": {
                 "label": "Never Shield",
                 "description": "Never tries to shield"
@@ -1098,11 +1105,33 @@
         "COMBAT_LEAGUE_SILPH_CUP": {
             "label": "Silph Arena Cup",
             "description": "The latest Silph Arena Cup tournament.  You may use Ground, Steel, Rock and Fighting Pokemon with a maximum CP of 1500."
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_1": {
+            "label": "Next Silph Arena Cup",
+            "description": "The next Silph Arena Cup tournament. You may use"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_2": {
+            "label": "Silph Pre Arena Cup 2",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_3": {
+            "label": "Silph Arena Pre Cup 3",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_4": {
+            "label": "Silph Arena Pre Cup 4",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_5": {
+            "label": "Silph Arena Pre Cup 5",
+            "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_CUP_PRE_6": {
+            "label": "Silph Arena Pre Cup 6",
+            "description": "TBD"
         }
 
     },
-
-
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"

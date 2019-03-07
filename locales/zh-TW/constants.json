@@ -393,7 +393,10 @@
         "DEOXYS_NORMAL_FORM": "代歐奇希斯 - 一般型態",
         "DEOXYS_ATTACK_FORM": "代歐奇希斯 - 攻擊型態",
         "DEOXYS_DEFENSE_FORM": "代歐奇希斯 - 防禦型態",
-        "DEOXYS_SPEED_FORM": "代歐奇希斯 - 速度型態"
+        "DEOXYS_SPEED_FORM": "代歐奇希斯 - 速度型態",
+        "LUCARIO": "路卡利歐",
+        "TOXICROAK": "毒骷蛙",
+        "MAGMORTAR": "鴨嘴炎獸"
     },
     "moves": {
         "HYPER_BEAM": "破壞光線",
@@ -991,8 +994,8 @@
     "strategies": {
         "attack": {
             "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
-                "label": "快速招式與能量招式",
-                "description": "不斷使用快速招式，直到可以能量足夠使用能量招式"
+                "label": "不閃避（不斷攻擊）",
+                "description": "不斷使用快速招式，直到能量足夠使用能量招式"
             },
             "QUICK_ATTACK_ONLY": {
                 "label": "只使用快速招式",

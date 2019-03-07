@@ -71,6 +71,9 @@
             "title": "Livelli 5 Futuri",
             "subtitle": "Raid leggendari",
             "intro": "Questi raid di livello 5 non sono ancora in gioco. Le loro statistiche e mosse sono soggette a cambiamento."
+        },
+        "RAID_LEVEL_6": {
+            "title": "Livello 6"
         }
     },
     "custom": {
