@@ -120,6 +120,10 @@
 
     }
   },
+  "articles": {
+    "title": "Latest PvP News!",
+    "subtitle": "Articles and Videos From Top PvP Players"
+  },
 
   "navigation": {
     "leagues": {

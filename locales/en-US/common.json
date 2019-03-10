@@ -178,6 +178,7 @@
             "youtube": "Youtube"
         },
         "mainMenu": {
+            "home": "home",
             "gym": "$t(gym)",
             "articles": "Articles",
             "tools": "Tools",
