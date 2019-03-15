@@ -9,6 +9,14 @@
         "subtitle":"News And Research Available Nowhere Else",
         "more":"Read more articles"
     },
+    "article": {
+        "title": "{{title}}",
+        "meta": {
+            "description": "{{author}} {{format}} on the topics of {{categories}} on {{date}}. This article is about {{tags}}.",
+            "image": "{{featuredURL}}"
+        }
+    },
+
     "news": {
         "title": "Release Notes",
         "meta": {
