@@ -936,6 +936,17 @@
                 "description": "Chooses to dodge 90% of the time"
             }
         },
+        "meta": {
+            "label": "Move Meta",
+            "DUAL_MOVE": {
+                "label": "Dual Charge Moves",
+                "description": "All Pokemon use the best charge move combinations"
+            },
+            "SINGLE_MOVE": {
+                "label": "Single Charge Move",
+                "description": "All Pokemon use the best charge moves without learning a second move"
+            }
+        },
         "shield": {
             "label": "Shield Strategy",
             "SHIELD_RANDOM": {
