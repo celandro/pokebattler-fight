@@ -396,7 +396,14 @@
         "DEOXYS_SPEED_FORM": "代歐奇希斯 - 速度型態",
         "LUCARIO": "路卡利歐",
         "TOXICROAK": "毒骷蛙",
-        "MAGMORTAR": "鴨嘴炎獸"
+        "MAGMORTAR": "鴨嘴炎獸",
+        "NINETALES_ALOLA_FORM": "九尾 - 阿羅拉",
+        "RAMPARDOS": "戰槌龍",
+        "ABOMASNOW": "暴雪王",
+        "WEAVILE": "瑪狃拉",
+        "MAMOSWINE": "象牙豬",
+        "PORYGON_Z": "多邊獸Ｚ",
+        "FROSLASS": "雪妖女"
     },
     "moves": {
         "HYPER_BEAM": "破壞光線",
