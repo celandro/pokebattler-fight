@@ -1,4 +1,14 @@
 {
+  "news": {
+    "title": "Pokemon Go PvP News",
+    "description": "What's happening in Pokemon Go PvP right now. Analysis from top Pokemon Go PvP Trainers for competitive PvP. Learn from the best on how to beat your friends in head to head combat!",
+    "meta": {
+      "description": "$t(pvp:news.description)",
+      "image": "https://static.pokebattler.com/images/og_news_rankings.PNG"
+    },
+    "join":"Calling all Pokemon Go PvP influencer and aspiring influencers: Get your voice heard by featuring your videos, articles, and infographics on Pokebattler.com.",
+    "joinCTA": "Contact us for details"
+  },
   "rankings": {
     "title": "PvP Rankings",
     "description": "Pokemon Go PvP Rankings of which Pokemon are the strongest.",
@@ -119,6 +129,10 @@
       "description": "The top 24 well rounded Pokemon against every possible opponent and moveset"
 
     }
+  },
+  "articles": {
+    "title": "Latest PvP News!",
+    "subtitle": "Articles and Videos From Top PvP Players"
   },
 
   "navigation": {

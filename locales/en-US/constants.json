@@ -834,6 +834,7 @@
         "SMACK_DOWN_FAST": "Smack Down",
         "LAST_RESORT": "Last Resort",
         "METEOR_MASH": "Meteor Mash",
+        "POWER_UP_PUNCH": "Power-Up Punch",
         "MOVE_UNSET": "None",
         "MOVE_NONE": "None",
         "MOVE_SHIELD": "Shielded",
@@ -933,6 +934,17 @@
             "DODGE_90": {
                 "label": "90% Dodging",
                 "description": "Chooses to dodge 90% of the time"
+            }
+        },
+        "meta": {
+            "label": "Move Meta",
+            "DUAL_MOVE": {
+                "label": "Dual Charge Moves",
+                "description": "All Pokemon use the best charge move combinations"
+            },
+            "SINGLE_MOVE": {
+                "label": "Single Charge Move",
+                "description": "All Pokemon use the best charge moves without learning a second move"
             }
         },
         "shield": {
@@ -1131,8 +1143,6 @@
         }
 
     },
-
-
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"
