@@ -842,7 +842,9 @@
         "COIN_FLIP_WIN": "Coin Flip Win",
         "COIN_FLIP_LOSE": "Coin Flip Lose",
         "ATTACK_BUFF": "Attack Buff",
-        "DEFENSE_BUFF": "Defense Buff"
+        "DEFENSE_BUFF": "Defense Buff",
+        "ACID_SPRAY": "Acid Spray",
+        "LEAF_TORNADO": "Leaf Tornado"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
