@@ -1096,7 +1096,7 @@
         }
     },
     "levelVs": "{{attackerLevel}} 級攻擊方 Vs. {{defenderLevel}} 級防禦方",
-    "pokeboxVsLevel": "寶可夢背包{{userId}} 攻擊方 Vs. {{defenderLevel}}級 防守方",
+    "pokeboxVsLevel": "寶可夢盒子{{userId}} 攻擊方 Vs. {{defenderLevel}}級 防守方",
     "weatherConditions": {
         "NO_WEATHER": {
             "label": "極端"
@@ -1117,6 +1117,14 @@
         },
         "FRIENDSHIP_LEVEL_4": {
             "label": "正港好朋友"
+        }
+    },
+    "battlePartyTypes": {
+        "COMBAT_LEAGUE_RAIDS_GYMS": {
+            "description": "6隻寶可夢(不限CP)"
+        },
+        "COMBAT_LEAGUE_DEFAULT_GREAT": {
+            "label": "大師聯盟"
         }
     }
 }
