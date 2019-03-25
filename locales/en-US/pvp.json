@@ -9,6 +9,15 @@
     "join":"Calling all Pokemon Go PvP influencer and aspiring influencers: Get your voice heard by featuring your videos, articles, and infographics on Pokebattler.com.",
     "joinCTA": "Contact us for details"
   },
+  "matrix": {
+    "title": "Pokemon Go PvP Matrix Simulator",
+    "description": "See the results of your team of Pokemon battling an opposing team of Pokemon",
+    "meta": {
+      "description": "$t(pvp:matrix.description)",
+      "image": "https://static.pokebattler.com/images/og_pvp_rankings.PNG"
+    },
+    "submit": "Calculate"
+  },
   "rankings": {
     "title": "PvP Rankings",
     "description": "Pokemon Go PvP Rankings of which Pokemon are the strongest.",
