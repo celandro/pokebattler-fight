@@ -1,7 +1,7 @@
 {
     "title": "Entrar no Pokebattler",
     "description": "Conecte-se para acessar sua Pokebox e simulações personalizadas",
-    "explanation": "O Pokebattler não entra e nem pode entrar na sua conta Pokemon Go. Nós não conectamos nos servidores da Niantic de nenhuma forma. O Pokebattler somente usa este login para conhece-lo em todos os seus dispositivos. Você pode logar no seu celular, ou tablet ou computador e ver todos os Pokemons que você adicionou no nosso site. Nós não compartilhamos sua informação ou a usamos para fins de marketing ou de nenhuma outra forma.",
+    "explanation": "O Pokebattler não pode e não é capaz de entrar na sua conta do Pokémon Go. Nós não nos conectamos ao servidores da Niantic de modo algum. O Pokebattler usa apenas esse login para saber quem é você através dos seus dispositivos. Você pode entrar pelo seu celular, tablet, ou computador e ver todos seus Pokémon que você cadastrou no nosso site. Nós não compartilhamos suas informações, e não as usamos para propósitos financeiros ou parecidos.",
     "privacy": "Para mais informações, consulte nossa política de confidencialidade",
     "loading": "Carregando dados do usuário",
     "user": "Usuário",
@@ -11,7 +11,8 @@
         "patreon": "Logar com Patreon",
         "patreonDescription": "Suportadores do Patreon tem recompensas incluindo mais Pokemon em suas Pokebox, simulações personalizadas de maior qualidade e uma planilha do google de Recomendações de Reides!",
         "success": {
-            "title": "Logado com Sucesso"
+            "title": "Logado com Sucesso",
+            "fromApi": "$t(login.success.title)! Por favor, aguarde um momento para continuar."
         }
     },
     "details": {
@@ -19,13 +20,21 @@
         "description": "As informações abaixo do seu treinador serão usadas para customizar o site e estarão visíveis para outros usuários."
     },
     "loggedIn": {
-        "title": "Perfil Público"
+        "title": "Perfil Público",
+        "description": "Você fez o login com sucesso. Preencha suas informações de treinador abaixo, então clique na Pokebox para adicionar seus Pokémon e obter resultados personalizados. Você pode então criar Equipes de Batalha e usá-las para obter resultados de reides personalizadas.",
+        "meta": {
+            "description": "Armazene suas informações de usuário do Pokémon Go e seus Pokémon."
+        },
+        "profileButton": "Seu Perfil"
     },
     "logout": {
         "title": "Deslogado",
         "description": "Você foi deslogado com sucesso. Volte depois em qualquer dispositivo e sua Pokebox estará esperando por você!",
         "back": "Voltar ao login",
-        "button": "Logout"
+        "button": "Logout",
+        "meta": {
+            "description": "Você saiu da sua conta com sucesso."
+        }
     },
     "roles": {
         "title": "Informação da Conta",
@@ -39,10 +48,16 @@
             "ROLE_USER": "Usuário do Pokebattler",
             "ROLE_ADMIN": "Admin do Pokebattler",
             "ROLE_FAN": "Fã do Pokebattler",
-            "ROLE_SUPPORTER": "Suportador do Pokebattler",
+            "ROLE_SUPPORTER": "Apoador do Pokebattler (Legado)",
             "ROLE_PATREON": "Patreon do Pokebattler",
             "ROLE_FANATIC": "Fanático do Pokebattler",
-            "ROLE_CONTEST": "Vencedor de Concurso do Pokebattler"
-        }
+            "ROLE_CONTEST": "Vencedor de Concurso do Pokebattler",
+            "ROLE_PATREON_USER": "Usuário Patreon do Pokebattler",
+            "ROLE_SUPPORTER2": "Apoiador do Pokebattler"
+        },
+        "maxBattleParties": "Equipes de Batalha Máximas"
+    },
+    "meta": {
+        "description": "O Pokébattler guarda os seus Pokémon do Pokémon Go na nossa Pokédex para encontrar adversários nas reides e mais!"
     }
 }

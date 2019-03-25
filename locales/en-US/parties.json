@@ -1,11 +1,17 @@
 {
   "title": "Battle Parties - Beta",
+  "meta": {
+    "description": "Store your Pokemon Go battle party"
+  },
   "explanation": "Battle parties are designed to work just like they do in game. You set them up with your pokemon, and then use them when you are doing battles. Your battle parties can be used by other players to simulate raids or pvp combat.",
   "battlePartyList": {
     "title": "Your Battle Parties"
   },
   "add": {
     "title": "Battle Party",
+    "meta": {
+      "description": "Add a Pokemon Go battle party"
+    },
     "description": "Create your battle party"
   }
 }

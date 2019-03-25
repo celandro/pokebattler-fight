@@ -1,7 +1,11 @@
 {
-    "title": "Raid Guide",
-    "linkLabel": "Raid Guide",
-    "intro": "Pokemon Go Raids are here! Find out which Pokémon will beat raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
+    "title": "Raid Counters",
+    "meta": {
+        "description": "Find Pokemon Go raid counters with weather, friendship and even your own Pokebox. Get the 24 best counters with the world's #1 custom raid guide.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "linkLabel": "Raid Counters",
+    "intro": "Pokemon Go raids are here! Find out which Pokémon will counter raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
     "tierList": {
         "common": {
             "boss": "Boss",
@@ -31,6 +35,11 @@
             "title": "Tier 5",
             "subtitle": "Legendary Raid",
             "intro": "The current legendary raids are the best way to obtain strong pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
+        },
+        "RAID_LEVEL_6": {
+            "title": "Tier 6",
+            "subtitle": "Legendary Raid - Bonus Hp",
+            "intro": "These raids have bonus hp compared to Tier 5 raids. It is unknown wether this is a permanent change for all Tier 5.  They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
@@ -67,6 +76,11 @@
             "subtitle": "Legendary Raid",
             "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Legacy Tier 6",
+            "subtitle": "Legendary Raid - Bonus Hp",
+            "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
         "RAID_LEVEL_5_FUTURE": {
             "title": "Future Tier 5",
             "subtitle": "Legendary Raid",
@@ -80,14 +94,18 @@
         "attackersLabel": "Attackers"
     },
     "results": {
-        "title": "Raid Guide",
+        "title": "{{defender}} Counters",
+        "meta": {
+            "description": "The best Pokemon Go level 35 general raid counters vs. {{defender}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+        },
         "calculating": "Calculating Raid Results",
         "counters": {
             "title": "counters",
             "subtitle": "Best Attackers by",
             "description": "The following analysis shows the Pokemon that are the strongest raiders in terms of {{sort}} against {{pokemon}}.",
             "moveSetOrderingDescription": "The move sets are ordered from hardest to raid against to the easiest, make sure to check multiple, the results can vary greatly!",
-            "difficultyNote": "Raid bosses are much harder than normal fight, you should consider carefully your options.",
+            "difficultyNote": "Raid bosses are much harder than a normal battle, you should consider carefully your options.",
             "chooseMovesetLabel": "Choose Moveset"
         },
         "hardestMovesets": {
@@ -104,10 +122,10 @@
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
-        "description": "Welcome to the Pokebattler raid guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options.",
+        "description": "Welcome to the Pokebattler raid counters guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options.",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of Patreon subscribers. Patreon subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
-            "link":"See all the benefits you get for signing up",
+            "link": "See all the benefits you get for signing up",
             "thanks": "Thanks for your support!"
         }
     },
@@ -131,7 +149,7 @@
         "estimate": {
             "close": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a very close fight. Bring one more trainer if you can to be safe.",
             "almost": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. If you are very lucky, you might be able to beat it with 1 less trainer.",
-            "trivial": "Beating {{pokemon}} should take {{numPeople}} trainer with Pokemon of this strength. This fight will be over before it's begun. It's so easy you could just use the in game suggestions and win. 😉",
+            "trivial": "Beating {{pokemon}} should take {{numPeople}} trainer with Pokemon of this strength. This fight will be over before it's begun. It's so easy you could just use the in game suggestions and win.",
             "normal": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. Make sure your group is prepared before the fight.",
             "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
         }
@@ -139,5 +157,9 @@
     "battle": {
         "resultLink": "See this result as a battle party"
     },
-    "helpLink": "Watch the Raid tutorial video"
+    "helpLink": "Watch the Raid tutorial video",
+    "silph": {
+        "text": "Current raid boss list provided by",
+        "link": "The Silph Road"
+    }
 }

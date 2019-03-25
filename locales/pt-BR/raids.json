@@ -1,6 +1,6 @@
 {
-    "title": "Guia de Reide",
-    "linkLabel": "Guia de Reides",
+    "title": "Adversários da Reide",
+    "linkLabel": "Atacantes da Reide",
     "tierList": {
         "common": {
             "boss": "Chefe",
@@ -29,7 +29,7 @@
         "RAID_LEVEL_5": {
             "title": "Nível 5",
             "subtitle": "Reides Lendárias",
-            "intro": "Algumas destas reides nível 5 não estão no jogo ainda! Elas são geralmente feitas por grupos de 6-10 jogadores de nível 30-40. Alguns experts intrépidos fizeram algumas destas reides com apenas 2-5 jogadores."
+            "intro": "As atuais reides Legendárias são a melhor forma de conseguir pokemons fortes! Elas são geralmente feitas com grupos de 6-10 jogadores de nível 30-40. Alguns corajosos especialistas tem feito algumas dessas reides até mesmo com 2-5 jogadores."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Nível ?",
@@ -60,6 +60,21 @@
             "title": "Nível 4 Legado",
             "subtitle": "Reides Difíceis em Grupo",
             "intro": "Estas reides não estão atualmente nas rotações."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Nível 5 - Legacy",
+            "subtitle": "Reide Legendária",
+            "intro": "Estas reides estavam disponíveis no passado mas não estão atualmente válidas na rotação de reides. Elas podem retornar no futuro em eventos especiais."
+        },
+        "RAID_LEVEL_5_FUTURE": {
+            "title": "Reides 5 Futuras",
+            "subtitle": "Reides Legendárias",
+            "intro": "Estas reides nível 5 não estão no jogo ainda! Suas estatísticas e ataques estão ainda sujeitas a mudanças."
+        },
+        "RAID_LEVEL_6": {
+            "title": "Nível 6",
+            "subtitle": "Reide Legendária - Bonus Hp",
+            "intro": "Estas reides tem bonus hp comparadas com reide nível 5. Não se sabe se é uma mudança permanente para todo o Nível 5.  Elas normalmente são feitas com grupos de 6-10 jogadores nível 30-40. Alguns especialistas corajosos tem feito estas reides com até mesmo 2-5 jogadores."
         }
     },
     "custom": {
@@ -69,14 +84,15 @@
         "attackersLabel": "Atacantes"
     },
     "results": {
-        "title": "Guia de Reides",
+        "title": "Atacantes para {{defender}}",
         "calculating": "Calculando o Resultado da Reide",
         "counters": {
             "title": "adversários",
             "subtitle": "Melhores Atacantes por",
             "description": "A seguinte análise mostra o Pokemon que é o mais forte oponente em termos de {{sort}} contra {{pokemon}}.",
             "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
-            "chooseMovesetLabel": "Escolher Ataques"
+            "chooseMovesetLabel": "Escolher Ataques",
+            "difficultyNote": "Chefes de reide são muito mais difíceis que lutas normais, você deve considerar cuidadosamente suas opções."
         },
         "hardestMovesets": {
             "subtitle": "Para {{pokemon}} por {{sort}}",
@@ -92,7 +108,16 @@
                 "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
             }
         },
-        "description": "Bem-vindo ao Guia de Reide do Pokebattler para {{pokemon}}. Você pode encontrar o melhor oponente de acordo com os ataques de cada Chefe. Este guia é customizável de muitas formas diferentes. Você pode escolher o nível do ataque e estratégia de ataque que deseja usar assim como várias opções de ordenação."
+        "description": "Bem-vindo ao Guia de Reide do Pokebattler para {{pokemon}}. Você pode encontrar o melhor oponente de acordo com os ataques de cada Chefe. Este guia é customizável de muitas formas diferentes. Você pode escolher o nível do ataque e estratégia de ataque que deseja usar assim como várias opções de ordenação.",
+        "patreon": {
+            "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores Patreon. Os usuários Patreon recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais.",
+            "link": "Veja todos os benefícios que você ganha ao se registrar",
+            "thanks": "Obrigado pelo seu suporte!"
+        },
+        "meta": {
+            "description": "Os melhores atacantes generalistas nível 35 vs. {{defender}} são {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Veja seus resultados personalizados!",
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+        }
     },
     "pokebox": {
         "login": "O Guida de Reides do Pokebattler pode ser customizável para inclusir apenas Pokemon que você tem realmente usando sua própria Pokebox. Faça o Login, adicione seus melhores Pokemon na sua Pokebox pessoal, e então você pode trocar entre os melhores Pokemons que você tem na sua Pokebox, e os melhores oponentes gerais para planejar suas batalhas de reide.",
@@ -115,8 +140,17 @@
             "close": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha bem apertada. Traga mais um treinador se você quer ficar mais seguro.",
             "almost": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Se você der muita sorte, você talvez possa derrotá-lo com um treinador a menos.",
             "normal": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Certifique-se que seu grupo está pronto antes da batalha.",
-            "difficult": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha difícil, confira que todos estão levando seus melhores Pokemon."
+            "difficult": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha difícil, confira que todos estão levando seus melhores Pokemon.",
+            "trivial": "Ganhar de {{pokemon}} deve precisar de {{numPeople}} treinadores com Pokemons desta força. Esta luta vai terminar antes mesmo de começar. É tão fácil que você pode usar as sugestões do jogo mesmo e ganhar. "
         }
     },
-    "helpLink": "Assista o Tutorial de Reides em vídeo"
+    "helpLink": "Assista o Tutorial de Reides em vídeo",
+    "battle": {
+        "resultLink": "Veja este resultado como um time de batalha"
+    },
+    "meta": {
+        "description": "Encontre os adversários da raid Pokemon Go usando clima, nível de amizade e até mesmo sua própria Pokebox. Encontre os 24 melhores atacantes com o guia de reide personalizado #1 do mundo.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "intro": "Chegaram as reides Pokemon Go! Descubra quais os melhores Pokémon para enfrentar os chefes das reides com o guia de reides customizado do Pokemon Go mais preciso do mundo. Basta selecionar a reide abaixo e ver os melhores atacantes para cada ataque!"
 }
