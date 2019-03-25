@@ -822,7 +822,8 @@
         "BLAST_BURN": "Queimadura Explosiva",
         "SMACK_DOWN_FAST": "Derrubada",
         "LAST_RESORT": "Último Recurso",
-        "REJOIN": "Re-entrou"
+        "REJOIN": "Re-entrou",
+        "METEOR_MASH": "Meteoro Esmagador"
     },
     "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
     "types": {
@@ -956,7 +957,7 @@
             "description": "Nenhum bônus para nenhum Pokemon"
         },
         "CLEAR": {
-            "label": "Limpo",
+            "label": "Ensolarado/Limpo",
             "description": "20% de bônus para ataques Planta, Terrestre e Fogo"
         },
         "RAINY": {

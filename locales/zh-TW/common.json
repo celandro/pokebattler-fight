@@ -100,11 +100,11 @@
         "update": "更新寶可夢數據",
         "success": "成功",
         "error": "噢！發生了小問題，請稍後再嘗試",
-        "newVersion": "新版本出爐了，請重新整理瀏覽器"
+        "newVersion": "新版本出爐了，請在瀏覽器重新顯示此頁"
     },
     "site": {
         "beta": "測試版本",
-        "www": "主要網頁"
+        "www": "主網頁"
     },
     "candy": {
         "title": "可用糖果"
@@ -121,5 +121,21 @@
         "raid": "最強打手計算中，請稍候...",
         "pokedex": "最佳打手及攻擊組合計算中，請稍候...",
         "rankings": "正在計算每一隻寶可夢的對戰組合，要花一點時間，請耐心等待..."
+    },
+    "specialMove2": "第二大招",
+    "gym": "道館",
+    "menu": {
+        "patreon": "在Patreon上面支持我們",
+        "follow": "追蹤我們！",
+        "social": {
+            "facebook": "臉書"
+        },
+        "mainMenu": {
+            "raids": "頭目戰",
+            "help": "幫助",
+            "about": "關於",
+            "contact": "聯絡我們",
+            "translate": "翻譯"
+        }
     }
 }

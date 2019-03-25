@@ -393,7 +393,21 @@
         "DEOXYS_NORMAL_FORM": "代歐奇希斯 - 一般型態",
         "DEOXYS_ATTACK_FORM": "代歐奇希斯 - 攻擊型態",
         "DEOXYS_DEFENSE_FORM": "代歐奇希斯 - 防禦型態",
-        "DEOXYS_SPEED_FORM": "代歐奇希斯 - 速度型態"
+        "DEOXYS_SPEED_FORM": "代歐奇希斯 - 速度型態",
+        "LUCARIO": "路卡利歐",
+        "TOXICROAK": "毒骷蛙",
+        "MAGMORTAR": "鴨嘴炎獸",
+        "NINETALES_ALOLA_FORM": "九尾 - 阿羅拉",
+        "RAMPARDOS": "戰槌龍",
+        "ABOMASNOW": "暴雪王",
+        "WEAVILE": "瑪狃拉",
+        "MAMOSWINE": "象牙豬",
+        "PORYGON_Z": "多邊獸Ｚ",
+        "FROSLASS": "雪妖女",
+        "ROTOM": "洛托姆",
+        "DIALGA": "帝牙盧卡",
+        "PALKIA": "帕路奇亞",
+        "GIRATINA": "騎拉帝那"
     },
     "moves": {
         "HYPER_BEAM": "破壞光線",
@@ -991,8 +1005,8 @@
     "strategies": {
         "attack": {
             "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
-                "label": "快速招式與能量招式",
-                "description": "不斷使用快速招式，直到可以能量足夠使用能量招式"
+                "label": "不閃避（不斷攻擊）",
+                "description": "不斷使用快速招式，直到能量足夠使用能量招式"
             },
             "QUICK_ATTACK_ONLY": {
                 "label": "只使用快速招式",
@@ -1082,10 +1096,35 @@
         }
     },
     "levelVs": "{{attackerLevel}} 級攻擊方 Vs. {{defenderLevel}} 級防禦方",
-    "pokeboxVsLevel": "寶可夢背包{{userId}} 攻擊方 Vs. {{defenderLevel}}級 防守方",
+    "pokeboxVsLevel": "寶可夢盒子{{userId}} 攻擊方 Vs. {{defenderLevel}}級 防守方",
     "weatherConditions": {
         "NO_WEATHER": {
             "label": "極端"
+        }
+    },
+    "friendLevels": {
+        "FRIENDSHIP_LEVEL_0": {
+            "label": "非朋友"
+        },
+        "FRIENDSHIP_LEVEL_1": {
+            "label": "好朋友"
+        },
+        "FRIENDSHIP_LEVEL_2": {
+            "label": "給力好朋友"
+        },
+        "FRIENDSHIP_LEVEL_3": {
+            "label": "麻吉好朋友"
+        },
+        "FRIENDSHIP_LEVEL_4": {
+            "label": "正港好朋友"
+        }
+    },
+    "battlePartyTypes": {
+        "COMBAT_LEAGUE_RAIDS_GYMS": {
+            "description": "6隻寶可夢(不限CP)"
+        },
+        "COMBAT_LEAGUE_DEFAULT_GREAT": {
+            "label": "超級聯盟"
         }
     }
 }

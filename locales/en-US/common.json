@@ -178,6 +178,7 @@
             "youtube": "Youtube"
         },
         "mainMenu": {
+            "home": "Home",
             "gym": "$t(gym)",
             "articles": "Articles",
             "tools": "Tools",
@@ -201,13 +202,18 @@
             "more": "More",
             "privacy": "Privacy",
             "pvp": "$t(pvp)",
+            "pvprankings": "$t(pvp)",
+            "pvppokedex": "$t(pvp)",
             "news": "News",
             "profiles": "Public Profiles"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
             "raids": "Top Counters, Raid Battle Party Simulations and Power Up Advice",
-            "pvp": "Pvp Simulations",
+            "pvp": "Pvp News, Rankings, Pokedex and Simulations",
+            "pvppokedex": "$t(pvp) Counters and Matchups  for every Pokemon",
+            "pvprankings": "Top Counters and Matchups for $t(pvp) Leagues and Silph Cup",
+            "pvpsimulator": "Battle Party $t(pvp) Simulator",
             "help": "Tutorials, Terms and Definitions",
             "account": "Customize Pokebattler By Adding Pokemon To Your Pokebox and Battle Parties",
             "profiles": "Find what Pokemon your friends have in their Pokebox",
