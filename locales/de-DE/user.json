@@ -11,7 +11,8 @@
         "patreon": "Login mit Patreon",
         "patreonDescription": "Patreon-Unterstützer erhalten Belohnungen, darunter mehr Plätze für Pokemon in ihrer Pokebox, qualitativ höherwertigere personalisierte Simulationen und eine Google-Tabelle zur Raid-Beratung!",
         "success": {
-            "title": "Erfolgreich angemeldet"
+            "title": "Erfolgreich angemeldet",
+            "fromApi": " $t(login.success.title)! Bitte warte einen Moment um fortzufahren."
         }
     },
     "details": {
@@ -19,13 +20,21 @@
         "description": "Deine Trainer Informationen unten werden auf der gesamten Seite zur Anpassung benutzt und werden auch anderen Nutzern angezeigt."
     },
     "loggedIn": {
-        "title": "Öffentliches Profil"
+        "title": "Öffentliches Profil",
+        "description": "Du hast dich erfolgreich eingeloggt. Füge deine Trainer Informationen unten ein, dann klicke auf Pokebox um deine Pokemon für angepasste Ergebnisse hinzuzufügen. Anschließend kannst du Kampfgruppen erstellen um auch angepasste Raid Ergebnisse zu erhalten.",
+        "meta": {
+            "description": "Speichere deine Pokemon Go Nutzerinfos und Pokemon."
+        },
+        "profileButton": "Dein Profil"
     },
     "logout": {
         "title": "Abgemeldet",
         "description": "Du hast dich erfolgreich abgemeldet. Komme später wieder auf irgendeinem Gerät und deine Pokebox wird für dich da sein!",
         "back": "zurück zur Anmeldung",
-        "button": "Abmelden"
+        "button": "Abmelden",
+        "meta": {
+            "description": "Du hast dich erfolgreich aus Pokebattler ausgeloggt"
+        }
     },
     "roles": {
         "title": "Account Informationen",
@@ -39,11 +48,16 @@
             "ROLE_USER": "Pokebattler-Benutzer",
             "ROLE_ADMIN": "Pokebattler-Admin",
             "ROLE_FAN": "Pokebattler-Fan",
-            "ROLE_SUPPORTER": "Pokebattler-Unterstützer",
+            "ROLE_SUPPORTER": "Pokebattler-Unterstützer (Alt)",
             "ROLE_PATREON": "Pokebattler-Patreon",
             "ROLE_FANATIC": "Pokebattler-Fanatiker",
-            "ROLE_CONTEST": "Pokebattler Wettbewerb Sieger"
+            "ROLE_CONTEST": "Pokebattler Wettbewerb Sieger",
+            "ROLE_PATREON_USER": "Pokebattler Patreon Benutzer",
+            "ROLE_SUPPORTER2": "Pokebattler Unterstützer"
         },
         "maxBattleParties": "Maximale Kampfgruppen"
+    },
+    "meta": {
+        "description": "Pokebattler speichert deine Pokemon Go Pokemon in seinem Pokedex für schnelle Raid Konter und mehr!"
     }
 }

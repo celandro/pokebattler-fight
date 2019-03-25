@@ -1,15 +1,25 @@
 {
-    "title": "Advice",
+    "title": "Raid Advice",
+    "meta": {
+        "description": "Pokemon Go Raid Advice helps you find out which Pokemon to Power up to beat Raid Bosses and spend candy and stardust most efficiently",
+        "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+    },
     "linkLabel": "Raid Guide",
     "pokeboxRequired": "Pokebattler Advice requires you to enter your Pokemon into your Pokebox to work properly. Simply log in and add your strongest Pokemon to your Pokebox to help find the best pokemon to power up.",
     "intro": "Pokebattler Advice is a custom feature designed to help you optimize your Pokebox for specific raids. Simply select the raid boss you wish to find the best potential Pokemon to fight against it with, and enter the stardust and candy you have available to see how your Pokemon will look after they are powered up. This tool will help you decide which Pokemon will gain the most from that stardust and candy so you know how to spend it with maximum efficiency.",
     "intro2": "After you have run a simulation, click on any Pokemon to see how much improvement you get after each Power Up. There are often breakpoints where you can stop powering your Pokemon up after you hit them to save yourself some stardust and candy! This is different than other breakpoint tools you have seen as it empirically finds breakpoints, even ones that are not obvious.",
     "inputs": {
-        "title": "What Do You Need Advice For?"
+        "title": "Advice Settings",
+        "subtitle": "What Do You Need Advice For?"
     },
     "buttonLabel": "Power Up Pokemon",
     "results": {
-        "title": "Raid Advice",
+        "title": "Raid Advice for {{attacker}} vs {{defender}}",
+        "meta": {
+            "description": "Pokemon Go Raid Advice Results for {{attacker}} vs. {{defender}} finds the best pokemon to powerup to defeat every raid boss.",
+            "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+        },
+
         "calculating": "Calculating Raid Advice",
         "counters": {
             "title": "counters",
@@ -35,12 +45,25 @@
         "description": "Welcome to the Pokebattler raid advice for {{pokemon}}. You can find the best potential counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options. You can also choose the amount of stardust and candies you have available."
     },
     "result": {
+        "title": "Raid Advice Details for {{attacker}} vs {{defender}}",
+        "meta": {
+            "description": "Pokemon Go Raid Advice Details for {{attacker}} vs. {{defender}} shows breakpoints and stardust efficiency",
+            "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
+        },
+        "subTitle": "{{attacker}} vs. {{defender}}",
         "description": "The result of each Power Up of a {{attacker}} vs. a {{defender}} raid boss is shown below. The results will vary based on the moves of {{defender}}.",
         "summaryStart": "Starting Results",
         "summaryEnd": "Powered Up Results",
         "graphTitle": "{{yAxis}} Versus {{xAxis}}",
         "detail": "Detailed Results For Each Power Up",
-        "back": "Back to Advice Settings"
+        "back": "Back to Advice Settings",
+        "powerUpDialog": {
+            "title": "Power Up",
+            "description": "Do you want to power up {{pokemon}} {{powerUps}} times to {{cp}}?",
+            "submit": "Yes",
+            "cancel": "No"
+        }
+
     },
     "raidLink": "See this result without the Power Ups",
     "helpLink": "Watch the Raid Advice tutorial video"

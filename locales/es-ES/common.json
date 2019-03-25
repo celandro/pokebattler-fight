@@ -1,2 +1,196 @@
 {
+    "back": "Volver",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "reset": "Reiniciar",
+    "note": "Nota",
+    "cp": "PC",
+    "win": "Gana",
+    "loss": "Pierde",
+    "quickMove": "Ataque Rápido",
+    "specialMove": "Ataque Cargado",
+    "quickMoves": "Ataques Rápidos",
+    "specialMoves": "Ataques Cargados",
+    "attackStrategy": "Estrategia de Ataque",
+    "defenseStrategy": "Tipo de Simulación",
+    "dodgeStrategy": "Estrategia de Esquivar",
+    "weatherCondition": "Clima",
+    "delete": "Eliminar",
+    "shiny": "Variocolor",
+    "lucky": "Con suerte",
+    "seconds": "Segundos",
+    "rejoin": {
+        "label": "Tiempo para volver a la partida",
+        "default": "Nunca"
+    },
+    "stats": {
+        "attack": "Ataque",
+        "defense": "Defensa",
+        "stamina": "Salud"
+    },
+    "statsAbbr": {
+        "attack": "Atq",
+        "defense": "Def",
+        "hp": "PS"
+    },
+    "level": "Nivel",
+    "basic": "Básico",
+    "advanced": "Avanzado",
+    "move": "Ataque",
+    "moves": "Ataques",
+    "type": "Tipo de Pokemon",
+    "properties": {
+        "overall": "Total",
+        "estimator": "Estimador",
+        "power": "Poder",
+        "win": "% de Victoria",
+        "deaths": "Muertes",
+        "effectiveDeaths": "Muertes para Ganar",
+        "time": "Tiempo para Ganar",
+        "realTime": "Tiempo",
+        "prestige": "Prestigio",
+        "dps": "DPS",
+        "potions": "Pociones",
+        "damage": "Daño",
+        "energy": "Energía",
+        "grouped": "Agrupados",
+        "single": "Simple",
+        "id": "Id",
+        "cp": "$t(common:cp)",
+        "pokemon": "$t(common:pokemon)",
+        "name": "$t(common:name)",
+        "type": "$t(common:type)",
+        "powerups": "Incrementos de Poder",
+        "stardust": "Polvos Estelares",
+        "candy": "Caramelos",
+        "tdo": "Daño (TDO)",
+        "maxCP": "Max $t(common:cp)",
+        "level": "$t(common:level)"
+    },
+    "sectionLinks": {
+        "help": "Sección de Ayuda",
+        "about": "Acerca de"
+    },
+    "simulation": "una simulación fue",
+    "simulation_plural": "{{count}} simulaciones fueron",
+    "chooseMovesetLabel": "Seleccionar Ataques",
+    "hd": {
+        "text": "$t(simulación, {'count': {{numSims}} }) realizadas para generar esta simulación de alta precisión",
+        "attackers": "atacantes",
+        "defenders": "defensores",
+        "raid": "incursión"
+    },
+    "name": "Nombre",
+    "nickname": "Mote",
+    "faction": "Equipo",
+    "mystic": "Sabiduría",
+    "valor": "Valor",
+    "instinct": "Instinto",
+    "ivs": "IVs",
+    "trainerName": "Nombre del Entrenador",
+    "attackerTypes": {
+        "pokebox": "Mi Pokebox",
+        "level": "Por Nivel",
+        "friend": "Su Pokebox"
+    },
+    "pokebox": "Pokebox",
+    "advice": "Consejos de Incursión",
+    "login": "Iniciar Sesión",
+    "trainer": "Entrenador",
+    "trainers": "Entrenadores",
+    "more": "Más",
+    "pokemon": "Pokemon",
+    "battleParty": "Equipo de combate",
+    "battleParties": "Equipos de Combate",
+    "raids": "Incursiones",
+    "gym": "Gimnasio",
+    "pvp": "PvP",
+    "status": {
+        "add": "Añadiendo",
+        "edit": "Editando",
+        "update": "Actualizando",
+        "delete": "Borrando",
+        "loading": "Cargando",
+        "success": "Exito",
+        "error": "Error",
+        "bulk": "Importando",
+        "newVersion": "Nuevo lanzamiento"
+    },
+    "message": {
+        "bulk": "Importando en grupo {{num}} pokemon, esto puede tardar un poco",
+        "delete": "Borrando {{num}} pokemon de su Pokebox",
+        "deleteAll": "Borrando todos los Pokemon de su Pokebox",
+        "update": "Actualizando sus Pokemon",
+        "success": "Éxito",
+        "error": "Ups, algo salió mal. Intente de nuevo en un par de segundos.",
+        "newVersion": "Una nueva versión está disponible. Refresque la página de su navegador."
+    },
+    "site": {
+        "beta": "Sitio Beta",
+        "www": "Sitio Principal"
+    },
+    "candy": {
+        "title": "Caramelos disponibles"
+    },
+    "stardust": {
+        "title": "Polvos Estelares Disponibles"
+    },
+    "xAxis": "Axis-X",
+    "yAxis": "Axis-Y",
+    "spinner": {
+        "battle": "Simulando resultados de combate. Esto no debería demorar.",
+        "raid": "Buscando entre todos los posibles atacantes para encontrar los mejores contrincantes. Esto no debería demorar.",
+        "pokedex": "Encontrando las mejores partidas y contrincantes. Esto no debería demorar.",
+        "rankings": "Encontrando los mejores Pokemon por simulación de combate entre cada partida disponible. Esto demorará un poco."
+    },
+    "patreon": {
+        "ad1": "Pokebattler está realizando una prueba libre de publicidad. Por favor apóyanos en Patreon para mantenernos libres de publicidad, obtener más espacio en tu Pokebox, realizar simulaciones más exactas, obtener opciones extras y más!",
+        "ad2": "Regístra una cuenta gratuita en Patreon y recibe 25 espacios en tu Pokebox gratis. Simplemente inicia sesión usando Patreon, las donaciones no son mandatorias.",
+        "ad3": "Optimice sus Incursiones. Registrese con una cuenta Patreon para recibir resultados más exactos y funciones especiales.",
+        "ad4": "Te encanta Pokebattler? Ayudanos a continuar libres de publicidad. Regístrate hoy con una cuenta Patreon y recibe más espacio, mejores resultados, herramientas exclusivas y más.",
+        "ad5": "Pokebattler existe gracias a nuestros colaboradores en Patreon. Registrate con una cuenta gratuita Patreon y recibe 25 espacos extras en tu Pokebox.",
+        "ad6": "Lleva tu juego al siguiente nivel con una cuenta Patreon de Pokebattler. Regístrate ahora!"
+    },
+    "menu": {
+        "follow": "Síguenos!",
+        "mainMenu": {
+            "gym": "$t(gimnasio)",
+            "articles": "Artículos",
+            "tools": "Herramientas",
+            "battle": "Batalla",
+            "simulator": "Simulador",
+            "rankings": "Rankings",
+            "pokedex": "Pokedex",
+            "raids": "Incursiones",
+            "personal": "Personal",
+            "trainer": "Entrenador",
+            "pokebox": "Pokebox",
+            "raidAdvice": "Sugerencia para la Incursión",
+            "misc": "Misc.",
+            "help": "Ayuda",
+            "about": "Acerca de",
+            "contact": "Contáctanos",
+            "translate": "Traducir",
+            "counters": "Contrincantes",
+            "battleParties": "$t(equiposdeCombate)",
+            "account": "Mi cuenta",
+            "more": "Más",
+            "privacy": "Privacidad",
+            "pvp": "$t(pvp)",
+            "news": "Noticias"
+        },
+        "description": {
+            "gym": "Simulaciones de Batallas en Gimnasios, Pokedex y Rankings.",
+            "raids": "Principales contrincantes, simulaciones de Equipos de Combate y consejos para subir el Poder.",
+            "pvp": "Simulaciones PvP",
+            "help": "Tutoriales, Términos y Definiciones",
+            "account": "Personaliza PokeBattler añadiendo Pokemon a tu Pokebox y Equipos de Combate.",
+            "more": "Noticias, Artículos, Traducciones, Cómo Contactarnos y más!"
+        },
+        "tooltip": {
+            "gym": "Simulador de batallas de gimansios, rankings de defensores/atacantes y más para Pokemon Go.",
+            "raids": "Encuentra los mejores atacantes, haz simulaciones completas, recibe consejos acerca de a cuál Pokemon darle más poder y mucho más para Incursiones en Pokemon Go.",
+            "pvp": "Mira lo que pasa si combates con tus amigos."
+        }
+    }
 }
