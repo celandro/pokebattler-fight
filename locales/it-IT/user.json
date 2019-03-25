@@ -11,7 +11,8 @@
         "patreon": "Accedi con Patreon",
         "patreonDescription": "Chi ci supporta attraverso Patreon ottiene ricompense che includono più Pokemon nei loro Pokebox, simulazioni personalizzate di qualità migliore e un foglio Google coi consigli per i raid!",
         "success": {
-            "title": "Accesso eseguito con successo"
+            "title": "Accesso eseguito con successo",
+            "fromApi": " $t(login.success.title)! Per favore aspetta un attimo prima di continuare."
         }
     },
     "details": {
@@ -19,13 +20,21 @@
         "description": "Le tue informazioni da allenatore qui sotto saranno usate per personalizzare il sito e verranno mostrate agli altri utenti."
     },
     "loggedIn": {
-        "title": "Profilo pubblico"
+        "title": "Profilo pubblico",
+        "description": "Accesso eseguito con successo. Inserisci le tue informazioni qua sotto, poi clicca sul Pokedex per aggiungere i tuoi Pokemon e avere risultati personalizzati. Successivamente puoi creare delle squadre da usare nei raid personalizzati.",
+        "meta": {
+            "description": "Salva le tue informazioni e i tuoi pokemon di Pokemon Go."
+        },
+        "profileButton": "Il tuo profilo"
     },
     "logout": {
         "title": "Sconnesso",
         "description": "Ti sei sconnesso con successo. Torna più tardi su qualunque tuo dispositivo e il tuo Pokebox sarà lì ad aspettarti!",
         "back": "Torna indietro per connetterti",
-        "button": "Logout"
+        "button": "Logout",
+        "meta": {
+            "description": "Ti sei disconnesso con successo da Pokebattler"
+        }
     },
     "roles": {
         "title": "Informazioni dell'account",
@@ -39,11 +48,16 @@
             "ROLE_USER": "Utente di Pokebattler",
             "ROLE_ADMIN": "Admin di Pokebattler",
             "ROLE_FAN": "Fan di Pokebattler",
-            "ROLE_SUPPORTER": "Sostenitore di Pokebattler",
+            "ROLE_SUPPORTER": "Sostenitore di Pokebattler (Legacy)",
             "ROLE_PATREON": "Patreon di Pokebattler",
             "ROLE_FANATIC": "Fanatico di Pokebattler",
-            "ROLE_CONTEST": "Vincitore di un concorso di Pokebattler"
+            "ROLE_CONTEST": "Vincitore di un concorso di Pokebattler",
+            "ROLE_PATREON_USER": "Utente Patreon di Pokebattler",
+            "ROLE_SUPPORTER2": "Sostenitore di Pokebattler"
         },
         "maxBattleParties": "Limite Squadre Lotta"
+    },
+    "meta": {
+        "description": "Pokebattler archivia i tuoi pokemon di Pokemon GO nel Pokedex per trovare velocemente i counters dei Raid ed altro ancora!"
     }
 }

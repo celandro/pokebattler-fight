@@ -1,5 +1,4 @@
 {
-
     "back": "Back",
     "save": "Save",
     "cancel": "Cancel",
@@ -11,6 +10,7 @@
     "loss": "Loss",
     "quickMove": "Fast Move",
     "specialMove": "Charge Move",
+    "specialMove2": "Charge Move 2",
     "quickMoves": "Fast Moves",
     "specialMoves": "Charge Moves",
     "attackStrategy": "Attack Strategy",
@@ -20,10 +20,24 @@
     "aggregation": "How Lucky?",
     "choosePokemon": "Choose Pokemon",
     "friendLevels": "Friend Level",
+    "shieldStrategy": "Shield Strategy",
+    "shiny": "Shiny",
+    "lucky": "Lucky",
+    "id": "Id",
+    "seconds": "Seconds",
+    "find": "Find",
+    "rejoin": {
+        "label":"Rejoin Time",
+        "default": "Never"
+    },
+
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
-        "stamina": "Stamina"
+        "stamina": "Stamina",
+        "individualAttack": "$t(common:stats.attack)",
+        "individualDefense": "$t(common:stats.defense)",
+        "individualStamina": "$t(common:stats.stamina)"
     },
     "statsAbbr": {
         "attack": "Att",
@@ -38,6 +52,7 @@
     "type": "Pokemon Type",
     "properties": {
         "overall": "Overall",
+        "estimator": "Estimator",
         "power": "Power",
         "win": "Win %",
         "deaths": "Deaths",
@@ -46,6 +61,8 @@
         "realTime": "Time",
         "prestige": "Prestige",
         "dps": "DPS",
+        "dpe": "DPE",
+        "eps": "EPS",
         "potions": "Potions",
         "damage": "Damage",
         "energy": "Energy",
@@ -60,7 +77,9 @@
         "stardust": "Stardust",
         "candy": "Candy",
         "tdo": "Damage (TDO)",
-        "maxCP": "Max $t(common:cp)"
+        "maxCP": "Max $t(common:cp)",
+        "level": "$t(common:level)"
+
     },
     "sectionLinks": {
         "help": "Help section",
@@ -97,9 +116,11 @@
     "pokemon": "Pokemon",
     "battleParty": "Battle Party",
     "battleParties": "Battle Parties",
+    "battlePartyType": "Battle Party Type",
     "raids": "Raids",
     "gym": "Gym",
     "pvp": "PvP",
+    "profiles": "Profiles",
     "status": {
         "add": "Adding",
         "edit": "Editing",
@@ -147,8 +168,17 @@
         "ad6": "Take your gaming to the next level with a Pokebattler Patreon account. Sign up now."
     },
     "menu": {
+        "index": "Pokebattler.com",
+        "patreon": "Support Us On Patreon",
         "follow": "Follow us!",
+        "social": {
+            "reddit": "Reddit",
+            "facebook": "Facebook",
+            "twitter": "Twitter",
+            "youtube": "Youtube"
+        },
         "mainMenu": {
+            "home": "Home",
             "gym": "$t(gym)",
             "articles": "Articles",
             "tools": "Tools",
@@ -172,14 +202,21 @@
             "more": "More",
             "privacy": "Privacy",
             "pvp": "$t(pvp)",
-            "news": "News"
+            "pvprankings": "$t(pvp)",
+            "pvppokedex": "$t(pvp)",
+            "news": "News",
+            "profiles": "Public Profiles"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
             "raids": "Top Counters, Raid Battle Party Simulations and Power Up Advice",
-            "pvp": "Pvp Simulations",
+            "pvp": "Pvp News, Rankings, Pokedex and Simulations",
+            "pvppokedex": "$t(pvp) Counters and Matchups  for every Pokemon",
+            "pvprankings": "Top Counters and Matchups for $t(pvp) Leagues and Silph Cup",
+            "pvpsimulator": "Battle Party $t(pvp) Simulator",
             "help": "Tutorials, Terms and Definitions",
             "account": "Customize Pokebattler By Adding Pokemon To Your Pokebox and Battle Parties",
+            "profiles": "Find what Pokemon your friends have in their Pokebox",
             "more": "News, Articles, Translations, How To Contact Us and More"
         },
         "tooltip": {
@@ -199,5 +236,23 @@
     "explicitAssistants": {
         "title": "Extra Trainers",
         "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers. The friend level should be the maximum friend level that they have with other players at the raid, not your friend level with them."
+    },
+    "monteCarlo": {
+        "title": "Simulation Type",
+        "description": "Choose between running a single random simulation, or the average of multiple simulations"
+    },
+    "errors": {
+        "title": "Uhoh! You found a bug",
+        "description": "Pokebattler.com tries it's best to be as bug free as possible and can use your help! There are a virtually infinite number of possible URLs on the site and we can't test them all. We rely on your reports to find and fix problems.",
+        "fix": "Usually this error will go away if you click on Pokebattler in the top left and then click reload.",
+        "autoReport": "The following information regarding this error has been reported automatically.",
+        "contactUs": "If you wish to contact us regarding the error, please send the following information to ",
+        "small": "Usually this error will go away if you click on Pokebattler in the top left and then click reload. Information regarding this error has been reported to us",
+        "url": "URL",
+        "error": "Error",
+        "info": "Info",
+        "message": "Message",
+        "stack": "Stack"
     }
+
 }
