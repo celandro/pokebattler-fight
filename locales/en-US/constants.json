@@ -1007,6 +1007,37 @@
             }
         }
     },
+    "sorts": {
+        "OVERALL":{
+            "label": "$t(common:properties.overall}",
+            "description": "A weighted strength score"
+        },
+        "POWER": {
+            "label": "$t(common:properties.power}",
+            "description": "The percent of opponents health removed within the time limit"
+        }, 
+        "WIN":{
+            "label": "$t(common:properties.win}",
+            "description": "Chance of victory"
+        },
+        "TIME":{
+            "label": "$t(common:properties.time}",
+            "description": "Time to win assuming infinite number of Pokemon"
+        },
+        "POTIONS":{
+            "label": "$t(common:properties.potions}",
+            "description": "1 point for each potion and 5 points for each revive"
+        },
+        "TDO":{
+            "label": "$t(common:properties.tdo}",
+            "description": "Damage done per Pokemon"
+        },
+        "ESTIMATOR":{
+            "label": "$t(common:properties.estimator}",
+            "description": "Approximate number of players required to win"
+        }
+    },
+    
     "weatherConditions": {
         "NO_WEATHER": {
             "label": "Extreme",
