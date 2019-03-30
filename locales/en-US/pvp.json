@@ -12,11 +12,32 @@
   "matrix": {
     "title": "Pokemon Go PvP Matrix Simulator",
     "description": "See the results of your team of Pokemon battling an opposing team of Pokemon",
+    "loggedOut": "This feature is for logged in users only for performance reasons. It allows you to investigate every possible combination of results of two sets of pokemon. Create a free account in seconds.",
     "meta": {
       "description": "$t(pvp:matrix.description)",
       "image": "https://static.pokebattler.com/images/og_pvp_rankings.PNG"
     },
-    "submit": "Calculate"
+    "submit": "Calculate",
+    "params": {
+      "addPokemon": "Add Pokemon",
+      "attackerLeague": {
+        "title": "Choose Attackers",
+        "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+        "pokemonCategory": {
+          "title": "Custom Attacker List",
+          "subtitle": "Choose Your Pokemon"
+        }
+      },
+      "defenderLeague": {
+        "title":"Choose Defenders",
+        "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+        "pokemonCategory": {
+          "title": "Custom Defender List",
+          "subtitle": "Choose Their Pokemon"
+        }
+
+      }
+    }
   },
   "rankings": {
     "title": "PvP Rankings",
