@@ -941,12 +941,28 @@
         "meta": {
             "label": "Move Meta",
             "DUAL_MOVE": {
-                "label": "Dual Charge Moves",
-                "description": "All Pokemon use the best charge move combinations"
+                "label": "All Dual Charge Moves",
+                "description": "All Pokemon use the best charge move combinations. Up to 24 movesets are returned."
             },
             "SINGLE_MOVE": {
-                "label": "Single Charge Move",
-                "description": "All Pokemon use the best charge moves without learning a second move"
+                "label": "All Single Charge Moves",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 12 movesets are returned."
+            },
+            "DUAL_MOVE_3": {
+                "label": "Dual Charge Moves - Best 3",
+                "description": "All Pokemon use the best charge move combinations. Up to 3 movesets are considered"
+            },
+            "SINGLE_MOVE_3": {
+                "label": "Single Charge Move - Best 3 ",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 3 movesets are considered"
+            },
+            "DUAL_MOVE_1": {
+                "label": "Best Dual Charge Moves",
+                "description": "All Pokemon use the best charge move combinations. Only the best moveset is considered"
+            },
+            "SINGLE_MOVE_1": {
+                "label": "Best Single Charge Move",
+                "description": "All Pokemon use the best charge moves without learning a second move. Only the best moveset is considered"
             }
         },
         "shield": {
