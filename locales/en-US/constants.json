@@ -844,7 +844,11 @@
         "ATTACK_BUFF": "Attack Buff",
         "DEFENSE_BUFF": "Defense Buff",
         "ACID_SPRAY": "Acid Spray",
-        "LEAF_TORNADO": "Leaf Tornado"
+        "LEAF_TORNADO": "Leaf Tornado",
+        "WEATHER_BALL_FIRE": "Weather Ball",
+        "WEATHER_BALL_ICE": "Weather Ball",
+        "WEATHER_BALL_ROCK": "Weather Ball",
+        "WEATHER_BALL_WATER": "Weather Ball"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
