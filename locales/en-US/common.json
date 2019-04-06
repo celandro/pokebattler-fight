@@ -206,7 +206,8 @@
             "pvprankings": "$t(pvp)",
             "pvppokedex": "$t(pvp)",
             "news": "News",
-            "profiles": "Public Profiles"
+            "profiles": "Public Profiles",
+            "matrix": "Matrix"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
@@ -215,6 +216,7 @@
             "pvppokedex": "$t(pvp) Counters and Matchups  for every Pokemon",
             "pvprankings": "Top Counters and Matchups for $t(pvp) Leagues and Silph Cup",
             "pvpsimulator": "Battle Party $t(pvp) Simulator",
+            "pvpmatrix": "Custom Results Of Your Pokemon Vs. Their Pokemon",
             "help": "Tutorials, Terms and Definitions",
             "account": "Customize Pokebattler By Adding Pokemon To Your Pokebox and Battle Parties",
             "profiles": "Find what Pokemon your friends have in their Pokebox",
