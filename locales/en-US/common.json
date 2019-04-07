@@ -256,6 +256,10 @@
         "info": "Info",
         "message": "Message",
         "stack": "Stack"
+    },
+    "loading": {
+        "wait": "Loading...",
+        "error": "Sorry, there was a problem loading the page. Check your connection"
     }
 
 }
