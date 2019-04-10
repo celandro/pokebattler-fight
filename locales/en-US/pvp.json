@@ -182,11 +182,11 @@
       },
       "COMBAT_LEAGUE_DEFAULT_ULTRA": {
         "title": "Ultra League",
-        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Blastoise. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
       },
       "COMBAT_LEAGUE_DEFAULT_MASTER": {
         "title": "Master League",
-        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge mives. This is a very expensive league to be competitive in and is not recommended for beginners"
+        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
       },
       "COMBAT_LEAGUE_SILPH_CUP": {
         "title": "{{title}}",
