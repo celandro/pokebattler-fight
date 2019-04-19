@@ -10,13 +10,43 @@
     "joinCTA": "Contact us for details"
   },
   "matrix": {
-    "title": "Pokemon Go PvP Matrix Simulator",
+    "title": "PvP Matrix Simulator",
     "description": "See the results of your team of Pokemon battling an opposing team of Pokemon",
+    "loggedOut": "This feature is for logged in users only for performance reasons. It allows you to investigate every possible combination of results of two sets of pokemon. Create a free account in seconds to try this exciting new feature!",
+    "benefits": "Subscribers are able to run matrix simulations on a larger number of Pokemon and combinations of moves among other benefits.",
     "meta": {
       "description": "$t(pvp:matrix.description)",
-      "image": "https://static.pokebattler.com/images/og_pvp_rankings.PNG"
+      "image": "https://static.pokebattler.com/images/og_pvp_matrix.PNG"
     },
-    "submit": "Calculate"
+    "submit": "Calculate",
+    "results" : {
+      "description": "The attackers you have chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
+      "error": {
+        "title": "No Results Returned",
+        "description": "No pokemon matched your result. Only relavant Pokemon are covered by this tool. You likely need to change your League type or pick Pokemon closer to the maximum CP for this league."
+      }
+
+    },
+    "params": {
+      "addPokemon": "Add Pokemon",
+      "attackerLeague": {
+        "title": "Choose Attackers",
+        "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+        "pokemonCategory": {
+          "title": "Custom Attacker List",
+          "subtitle": "Choose Your Pokemon"
+        }
+      },
+      "defenderLeague": {
+        "title":"Choose Defenders",
+        "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+        "pokemonCategory": {
+          "title": "Custom Defender List",
+          "subtitle": "Choose Their Pokemon"
+        }
+
+      }
+    }
   },
   "rankings": {
     "title": "PvP Rankings",
@@ -152,11 +182,11 @@
       },
       "COMBAT_LEAGUE_DEFAULT_ULTRA": {
         "title": "Ultra League",
-        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Blastoise. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
       },
       "COMBAT_LEAGUE_DEFAULT_MASTER": {
         "title": "Master League",
-        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge mives. This is a very expensive league to be competitive in and is not recommended for beginners"
+        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
       },
       "COMBAT_LEAGUE_SILPH_CUP": {
         "title": "{{title}}",

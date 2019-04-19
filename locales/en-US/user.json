@@ -48,6 +48,9 @@
         "quality": "Simulation Quality",
         "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated.",
         "support": "Support Pokebattler",
+        "matrixMaxPokemon": "Max Pokemon for Matrix Simulations",
+        "matrixMaxType": "Max Types for Matrix Simulations",
+        "matrixMetaTypes": "Meta Types for Matrix Simulations",
         "role": {
             "ROLE_USER": "Pokebattler User",
             "ROLE_ADMIN": "Pokebattler Admin",
