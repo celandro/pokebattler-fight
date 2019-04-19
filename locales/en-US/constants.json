@@ -1194,6 +1194,10 @@
         "COMBAT_LEAGUE_SILPH_CUP_PRE_6": {
             "label": "Silph Arena Pre Cup 6",
             "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
+            "label": "Next Silph Arena Cup",
+            "description": "The next Silph Arena Cup tournament."
         }
 
     },

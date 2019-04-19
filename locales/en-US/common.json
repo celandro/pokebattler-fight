@@ -143,6 +143,7 @@
         "newVersion": "A new version is available, reload your browser"
     },
     "site": {
+        "alpha": "Alpha Site",
         "beta": "Beta Site",
         "www": "Main Site"
     },
@@ -177,7 +178,8 @@
             "reddit": "Reddit",
             "facebook": "Facebook",
             "twitter": "Twitter",
-            "youtube": "Youtube"
+            "youtube": "Youtube",
+            "instagram": "Instagram"
         },
         "mainMenu": {
             "home": "Home",
