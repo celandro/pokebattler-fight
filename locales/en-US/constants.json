@@ -533,7 +533,7 @@
         "HIPPOWDON": "Hippowdon",
         "SKORUPI": "Skorupi",
         "DRAPION": "Drapion",
-        "CROAGUNK": "Choagunk",
+        "CROAGUNK": "Croagunk",
         "TOXICROAK": "Toxicroak",
         "CARNIVINE": "Carnivine",
         "FINNEON": "Finneon",
@@ -1205,3 +1205,4 @@
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"
 }
+
