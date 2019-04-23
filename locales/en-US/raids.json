@@ -6,6 +6,11 @@
     },
     "linkLabel": "Raid Counters",
     "intro": "Pokemon Go raids are here! Find out which Pokémon will counter raid bosses the best with the world’s most accurate custom Pokemon Go Raid Guide. Just select the raid below to see the best counters for each moveset!",
+    "breakingNews": {
+        "title": "Breaking News",
+        "subtitle": "Popular Raids In Pokemon Go",
+        "header": "Interactive $t(constants:pokemon.{{pokemonId}}) Counters"
+    },
     "tierList": {
         "common": {
             "boss": "Boss",
