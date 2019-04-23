@@ -39,6 +39,20 @@
         "back": "Back to login",
         "button": "Logout"
     },
+    "subscription": {
+        "title": "Subscribe to Pokebattler",
+        "meta": {
+            "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!"
+        },
+        "confirmation": {
+            "description": "Choose Your Subscription Level",
+            "button": "Subscribe"
+        },
+        "stripe": {
+            "description": "Your credit card information is handled by Stripe and never sent to Pokebattler.com"
+        }
+    },
+
     "roles": {
         "title": "Account Information",
         "heading": "Current Benefits",
@@ -48,6 +62,9 @@
         "quality": "Simulation Quality",
         "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated.",
         "support": "Support Pokebattler",
+        "matrixMaxPokemon": "Max Pokemon for Matrix Simulations",
+        "matrixMaxType": "Max Types for Matrix Simulations",
+        "matrixMetaTypes": "Meta Types for Matrix Simulations",
         "role": {
             "ROLE_USER": "Pokebattler User",
             "ROLE_ADMIN": "Pokebattler Admin",
