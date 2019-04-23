@@ -533,7 +533,7 @@
         "HIPPOWDON": "Hippowdon",
         "SKORUPI": "Skorupi",
         "DRAPION": "Drapion",
-        "CROAGUNK": "Choagunk",
+        "CROAGUNK": "Croagunk",
         "TOXICROAK": "Toxicroak",
         "CARNIVINE": "Carnivine",
         "FINNEON": "Finneon",
@@ -622,7 +622,7 @@
         "BURMY_TRASH_FORM": "Burmy - Trash"
     },
     "moves": {
-        "undefined": "",
+        "undefined": "Undefined",
         "ACID_FAST": "Acid",
         "AERIAL_ACE": "Aerial Ace",
         "AIR_CUTTER": "Air Cutter",
@@ -835,7 +835,7 @@
         "LAST_RESORT": "Last Resort",
         "METEOR_MASH": "Meteor Mash",
         "POWER_UP_PUNCH": "Power-Up Punch",
-        "MOVE_UNSET": "None",
+        "MOVE_UNSET": "Unset",
         "MOVE_NONE": "None",
         "MOVE_SHIELD": "Shielded",
         "MOVE_PASS": "No Shield",
@@ -844,7 +844,11 @@
         "ATTACK_BUFF": "Attack Buff",
         "DEFENSE_BUFF": "Defense Buff",
         "ACID_SPRAY": "Acid Spray",
-        "LEAF_TORNADO": "Leaf Tornado"
+        "LEAF_TORNADO": "Leaf Tornado",
+        "WEATHER_BALL_FIRE": "Weather Ball",
+        "WEATHER_BALL_ICE": "Weather Ball",
+        "WEATHER_BALL_ROCK": "Weather Ball",
+        "WEATHER_BALL_WATER": "Weather Ball"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
@@ -941,12 +945,28 @@
         "meta": {
             "label": "Move Meta",
             "DUAL_MOVE": {
-                "label": "Dual Charge Moves",
-                "description": "All Pokemon use the best charge move combinations"
+                "label": "All Dual Charge Moves",
+                "description": "All Pokemon use the best charge move combinations. Up to 24 movesets are returned."
             },
             "SINGLE_MOVE": {
-                "label": "Single Charge Move",
-                "description": "All Pokemon use the best charge moves without learning a second move"
+                "label": "All Single Charge Moves",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 12 movesets are returned."
+            },
+            "DUAL_MOVE_3": {
+                "label": "Dual Charge Moves - Best 3",
+                "description": "All Pokemon use the best charge move combinations. Up to 3 movesets are considered"
+            },
+            "SINGLE_MOVE_3": {
+                "label": "Single Charge Move - Best 3 ",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 3 movesets are considered"
+            },
+            "DUAL_MOVE_1": {
+                "label": "Best Dual Charge Moves",
+                "description": "All Pokemon use the best charge move combinations. Only the best moveset is considered"
+            },
+            "SINGLE_MOVE_1": {
+                "label": "Best Single Charge Move",
+                "description": "All Pokemon use the best charge moves without learning a second move. Only the best moveset is considered"
             }
         },
         "shield": {
@@ -1149,11 +1169,11 @@
         },
         "COMBAT_LEAGUE_SILPH_CUP": {
             "label": "Silph Arena Cup",
-            "description": "The latest Silph Arena Cup tournament.  You may use Ground, Steel, Rock and Fighting Pokemon with a maximum CP of 1500."
+            "description": "The latest Silph Arena Cup tournament."
         },
         "COMBAT_LEAGUE_SILPH_CUP_PRE_1": {
             "label": "Next Silph Arena Cup",
-            "description": "The next Silph Arena Cup tournament. You may use"
+            "description": "The next Silph Arena Cup tournament."
         },
         "COMBAT_LEAGUE_SILPH_CUP_PRE_2": {
             "label": "Silph Pre Arena Cup 2",
@@ -1174,6 +1194,10 @@
         "COMBAT_LEAGUE_SILPH_CUP_PRE_6": {
             "label": "Silph Arena Pre Cup 6",
             "description": "TBD"
+        },
+        "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
+            "label": "Next Silph Arena Cup",
+            "description": "The next Silph Arena Cup tournament."
         }
 
     },
@@ -1181,3 +1205,4 @@
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"
 }
+
