@@ -675,7 +675,8 @@
         "RANDOM": "Sconosciuto",
         "FRENZY_PLANT": "Radicalbero",
         "BLAST_BURN": "Incendio",
-        "SMACK_DOWN_FAST": "Abbattimento"
+        "SMACK_DOWN_FAST": "Abbattimento",
+        "METEOR_MASH": "Meteorpugno"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Sconosciuto",

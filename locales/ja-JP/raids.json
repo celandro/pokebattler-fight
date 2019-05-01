@@ -1,2 +1,7 @@
 {
+    "tierList": {
+        "common": {
+            "boss": "頭目"
+        }
+    }
 }
