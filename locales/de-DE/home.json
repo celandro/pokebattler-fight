@@ -4,5 +4,20 @@
         "title": "Ausführliche Pokemon Go Artikel",
         "subtitle": "Neuigkeiten und Forschung nirgendwo sonst verfügbar",
         "more": "Lies mehr Artikel"
+    },
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_home.png"
+    },
+    "article": {
+        "title": "{{title}}",
+        "meta": {
+            "image": "{{featuredURL}}"
+        }
+    },
+    "news": {
+        "title": "Releaseinformationen",
+        "meta": {
+            "image": "https://static.pokebattler.com/images/og_more_news.jpg"
+        }
     }
 }
