@@ -145,7 +145,8 @@
     "site": {
         "alpha": "Alpha Site",
         "beta": "Beta Site",
-        "www": "Main Site"
+        "www": "Main Site",
+        "store": "Official Apparel"
     },
     "candy": {
         "title": "Candy Available"
