@@ -11,7 +11,7 @@
             "fromApi": "$t(login.success.title)! 請稍等片刻再繼續."
         },
         "patreon": "使用Patreon賬號登入",
-        "patreonDescription": "Patreon支持者可以獲得更大的寶可夢盒子空間，更好的個性化模擬和團戰建議"
+        "patreonDescription": "Patreon支持者可以獲得更大的寶可夢盒子空間，更好的個性化模擬和團戰建議!"
     },
     "details": {
         "welcome": "歡迎",
