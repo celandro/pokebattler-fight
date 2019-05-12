@@ -6,6 +6,12 @@
     },
     "add": {
         "title": "Kampfgruppe",
-        "description": "Erstelle deine Kampfgruppe"
+        "description": "Erstelle deine Kampfgruppe",
+        "meta": {
+            "description": "Eine Pokemon Go Kampf Gruppe hinzufügen"
+        }
+    },
+    "meta": {
+        "description": "Lager deine Pokemon Go Kampf Gruppe"
     }
 }
