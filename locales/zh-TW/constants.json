@@ -1121,7 +1121,7 @@
     },
     "battlePartyTypes": {
         "COMBAT_LEAGUE_RAIDS_GYMS": {
-            "description": "6隻寶可夢(不限CP)"
+            "description": "6隻寶可夢(不限CP)。"
         },
         "COMBAT_LEAGUE_DEFAULT_GREAT": {
             "label": "超級聯盟"

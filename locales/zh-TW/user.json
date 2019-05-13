@@ -7,11 +7,15 @@
         "google": "使用Google帳號登入",
         "facebook": "使用Facebook帳號登入",
         "success": {
-            "title": "登入成功"
-        }
+            "title": "登入成功",
+            "fromApi": "$t(login.success.title)! 請稍等片刻再繼續."
+        },
+        "patreon": "使用Patreon賬號登入",
+        "patreonDescription": "Patreon支持者可以獲得更大的寶可夢盒子空間，更好的個性化模擬和團戰建議!"
     },
     "details": {
-        "welcome": "歡迎"
+        "welcome": "歡迎",
+        "description": "以下您的訓練師信息會被用於個性化站點並且會展示給其他用戶."
     },
     "description": "登入來使用寶可夢盒子與個人化模擬器",
     "explanation": "Pokebattler 不會也無法登入您的寶可夢遊戲中，我們不會與Niantic官方伺服器進行任何聯繫，我們只利用登入來確認各裝置的身份。你可以透過手機、平板、電腦登入後，看到你輸入至網頁的所有寶可夢。我們不會將您的資訊外洩、作為商業或其他用途。",
@@ -23,5 +27,11 @@
     },
     "roles": {
         "title": "帳號資訊"
+    },
+    "meta": {
+        "description": "Pokebattler存儲您寶可夢 Go裡的寶可夢到寶可夢圖鑒中來快速提供團體戰指南和更多資訊！"
+    },
+    "loggedIn": {
+        "title": "公開資料"
     }
 }
