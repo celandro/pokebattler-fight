@@ -19,7 +19,7 @@
     "bestDefense": {
         "title": "Beste Verteidigungsmuster",
         "subtitle": "Nach $t(common:properties.{{sort}})",
-        "rankingTitle": "Durchschn. Kampfstatistiken gegen Top 5 Konter"
+        "rankingTitle": "Durchschn. Kampfstatistiken gegen Top 6 Konter"
     },
     "attackMatchups": {
         "title": "Angriffbegegnungen",
