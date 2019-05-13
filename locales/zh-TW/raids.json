@@ -1,5 +1,5 @@
 {
-    "linkLabel": "團體戰導引",
+    "linkLabel": "團體戰應對指南",
     "results": {
         "counters": {
             "title": "剋星",
@@ -18,13 +18,24 @@
         "analysis": {
             "title": "關於此分析",
             "attackers": {
-                "byLevel": "等級{{attackerLevel}}攻擊者"
-            }
+                "byLevel": "等級{{attackerLevel}}攻擊者",
+                "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
+            },
+            "description": "該團體戰分析是關於{{defender.cp}} CP的防禦方{{defender.pokemon}}和攻擊方 {{attackers}}的模擬結果。模擬是根據{{attackStrategy}}攻擊策略和{{defenseStrategy}}防禦策略執行的。針對防禦方{{defender.pokemon}}的所有技能組合和所有寶可夢的所有技能組合總計進行了{{numSims}}次模擬。最好的20個進攻方已經依據 {{sort}}排序並展示如下。您可以點擊任意一個攻擊方查看模擬情況並嘗試不同的技能組合。"
         },
         "title": "團戰建議",
-        "calculating": "團戰模擬中"
+        "calculating": "團戰模擬中",
+        "meta": {
+            "description": "針對{{defender}}最好的35級應對陣容是{{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}。查看自定義結果獲取更多信息!"
+        },
+        "patreon": {
+            "thanks": "感謝您的支持！",
+            "description": "Patreon訂閱者的支持讓我們得以提供更準確的針對未知技能組合的模擬結果。Patreon訂閱者可以獲得額外的寶可夢盒空間，更加準確的模擬結果等多項特權。",
+            "link": "查看注冊可以獲得的所有獎勵"
+        },
+        "description": "歡迎來到Pokebattler{{pokemon}}團體戰應對指南。你可以通過頭目的不同技能組合尋找出最佳打手。這份團體戰應對指南是可調整的。你可以選擇你想要的不同的攻擊者等級和攻擊策略並且支持多種排列順序。"
     },
-    "title": "團體戰指南",
+    "title": "團體戰應對指南",
     "tierList": {
         "common": {
             "boss": "頭目",
@@ -97,10 +108,16 @@
         },
         "RAID_LEVEL_6": {
             "title": "六星級頭目",
-            "subtitle": "傳說級寶可夢團戰(HP加成，血量更厚!)"
+            "subtitle": "傳說級寶可夢團戰(HP加成，血量更厚!)",
+            "intro": "這些團戰和五星團戰相比擁有HP加成。沒有確切的消息顯示這些改動是否是永久的。通常需要6-10個30級以上玩家組隊。有些神人級的玩家可以2~5人組隊就能獲勝。"
+        },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "六星級傳說頭目",
+            "subtitle": "傳說級寶可夢團戰（HP加成）",
+            "intro": "這些是之前出現過但是目前已經下架的團體戰頭目。未來還是有可能在某些活動中回歸。"
         }
     },
-    "intro": "寶可夢頭目團戰模擬功能上線了!使用最準確的頭目團戰計算模擬找出你手上最佳的戰鬥陣容。選擇想挑戰的寶可夢頭目看看各種頭目招式組合的最佳攻擊手。",
+    "intro": "寶可夢頭目團戰模擬功能上線了!使用最準確的頭目團戰計算模擬找出你手上最佳的戰鬥陣容。選擇想挑戰的寶可夢頭目看看各種頭目招式組合的最佳攻擊手!",
     "battle": {
         "resultLink": "模擬這個戰鬥小隊的對戰結果"
     },
@@ -110,5 +127,38 @@
         "levelsLabel": "攻擊方等級",
         "buttonLabel": "計算最佳打手",
         "attackersLabel": "攻擊方"
+    },
+    "meta": {
+        "description": "提供天氣，友情加成和你的寶可夢陣容，獲取最棒的24種應對陣容和世界第一的專屬團體戰指南."
+    },
+    "people": {
+        "estimate": {
+            "close": "擊敗{{pokemon}} 需要 {{numPeople}} 個擁有強力寶可夢的訓練師。這場戰鬥的勝負帶有一些隨機性，出於保險考慮建議額外多找一些訓練師。",
+            "normal": "擊敗 {{pokemon}} 需要 {{numPeople}} 個擁有強力寶可夢的训练家。請務必在交戰之前做好充分的準備。",
+            "difficult": "擊敗 {{pokemon}} 需要 {{numPeople}} 個擁有強力寶可夢的训练家。這會是一場艱苦的戰鬥，請每個人務必派出自己的最強陣容。",
+            "almost": "擊敗 {{pokemon}} 需要 {{numPeople}} 個擁有強力寶可夢的训练家。如果你運氣很好,你也許能在少一個訓練家的情況下擊敗它。",
+            "trivial": "擊敗 {{pokemon}} 需要 {{numPeople}} 個擁有強力寶可夢的训练家。這場戰鬥應該非常容易，你只需要照搬推薦的陣容就能獲得勝利。"
+        },
+        "difficultyRating": "難度等級：{{rating}}"
+    },
+    "silph": {
+        "text": "当前團體戰頭目列表的提供者是"
+    },
+    "breakingNews": {
+        "title": "快訊",
+        "subtitle": "熱門團體戰"
+    },
+    "pokebox": {
+        "login": "Pokebattler團體戰指南可以只針對你寶可夢盒子中有的寶可夢來進行分析。登陸，添加你的寶可夢到寶可夢盒子，然後你就可以在你擁有的最佳寶可夢打手和全局最佳打手中切換了。",
+        "enabled": "顯示根據你的寶可夢盒子得出的結果。最佳的24個打手排列如下。",
+        "disabled": "顯示等級 {{level}} 的打手的結果。最佳的24個打手排列如下。",
+        "friend": "顯示根據用戶 {{userId}} 得出的結果。最佳的24個打手排列如下。",
+        "switchLevel": "切換到 $t(common:attackerTypes.level)",
+        "switchPokebox": "切換到 $t(common:attackerTypes.level)"
+    },
+    "emptyResults": {
+        "LEVEL": "這次計算沒有返回結果。伺服器可能存在問題。",
+        "POKEBOX": "這次計算沒有返回結果。是不是您的寶可夢盒子裏還沒有添加任何寶可夢？",
+        "FRIEND": "這次計算沒有返回結果。是不是您的朋友還沒有添加任何寶可夢到他的寶可夢盒子？不如換一個訓練家試試？"
     }
 }

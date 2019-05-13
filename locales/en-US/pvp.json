@@ -203,6 +203,10 @@
       "COMBAT_LEAGUE_SILPH_CUP_PRE_3": {
         "title": "{{title}}",
         "intro": "This is a future cup for the Silph Arena monthly competition.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
+        "title": "{{title}}",
+        "intro": "Silph Season 1 Regional Tournament competition. This is a second round of tournaments for the Silph Arena monthly competition.   For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {
