@@ -44,29 +44,46 @@
         "meta": {
             "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!"
         },
-        "confirmation": {
-            "description": "Choose Your Subscription Level",
-            "button": "Subscribe"
-        },
-        "stripe": {
-            "description": "Your credit card information is handled by Stripe and never sent to Pokebattler.com"
+        "chooseProduct": "Choose Your Level",
+        "choosePlan": "Choose Your Plan",
+        "purchase": "Start Your Free {{product}} Trial!",
+        "creditCard": "Enter your credit card information",
+        "description": "Your credit card information is handled by Stripe and never sent to Pokebattler.com",
+        "multiMonth": "Save with a multi month plan!",
+        "confirmation": "Subscribe",
+        "plans": {
+            "1month": {
+                "title": "1 month - ${{intervalCost}}/mo",
+                "subtitle": "You will be charged ${{cost}} each month after your {{trialPeriodDays}} day free trial.",
+                "discount": "Save by selecting a multi month plan"
+            },
+            "3month": {
+                "title": "3 months - ${{intervalCost}}/mo",
+                "subtitle": "You will be charged ${{cost}} every 3 months after your {{trialPeriodDays}} day free trial.",
+                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
+            },
+            "6month": {
+                "title": "6 month - ${{intervalCost}}/mo",
+                "subtitle": "You will be charged ${{cost}} every 6 months after your {{trialPeriodDays}} day free trial.",
+                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
+            }
         },
         "products": {
             "ROLE_BASIC": {
-                "title": "Basic Subscription",
-                "subtitle": "An affordable subscription level that provides great value"
+                "title": "Basic",
+                "subtitle": "An affordable subscription that provides great value"
             },
             "ROLE_STANDARD":  {
-                "title": "Standard Subscription",
-                "subtitle": "Recommended subscription level for most players. Pokebattler is designed around this subscription level"
+                "title": "Standard",
+                "subtitle": "Recommended subscription level for most players."
             },
-            "ROLE_DUELIST":  {
-                "title": "Duelist Subscription",
-                "subtitle": "A higher tier of subscription level for players who want more analytical options"
+            "ROLE_BATTLER":  {
+                "title": "Battler",
+                "subtitle": "A higher tier for more analytical players"
             },
             "ROLE_FANATIC":  {
-                "title": "Fanatic Subscription",
-                "subtitle": "The best subscription level for the hard core, analytical minded player."
+                "title": "Fanatic",
+                "subtitle": "The best subscription level for the hard core player."
             }
         }
 
@@ -81,9 +98,9 @@
         "quality": "Simulation Quality",
         "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated.",
         "support": "Support Pokebattler",
-        "matrixMaxPokemon": "Max Pokemon for Matrix Simulations",
-        "matrixMaxType": "Max Types for Matrix Simulations",
-        "matrixMetaTypes": "Meta Types for Matrix Simulations",
+        "matrixMaxPokemon": "Matrix - Max Pokemon",
+        "matrixMaxType": "Matrix - Max Types",
+        "matrixMetaTypes": "Matrix - Meta Types",
         "hideAds": "Ad Free Experience",
         "role": {
             "ROLE_USER": "Pokebattler User",

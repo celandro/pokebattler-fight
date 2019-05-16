@@ -86,7 +86,7 @@
         "about": "About section"
     },
     "simulation": "one simulation was",
-    "simulation_plural": "{{count}} simulations were",
+    "simulation_plural": "{{count, commas}} simulations were",
     "chooseMovesetLabel": "Choose Moveset",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) performed to generate this high quality simulation",
