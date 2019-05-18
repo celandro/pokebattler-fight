@@ -1211,13 +1211,18 @@
             "description": "TBD"
         },
         "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
-            "label": "Next Silph Arena Cup",
-            "description": "The next Silph Arena Cup tournament."
+            "label": "Silph Arena Nightmare Cup",
+            "description": "The latest Silph Arena Cup tournament."
         },
         "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
             "label": "Silph Arena Regional Tournament",
             "description": "Season 1 Regional Tournament for the Silph Arena Cup."
+        },
+        "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
+            "label": "Silph Arena Rainbow Cup",
+            "description": "The next Silph Arena Cup tournament."
         }
+
 
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",

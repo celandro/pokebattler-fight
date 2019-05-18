@@ -131,6 +131,7 @@
         "success": "Success",
         "error": "Error",
         "bulk": "Importing",
+        "subscription": "Subscription",
         "newVersion": "New Release"
     },
     "message": {
@@ -140,7 +141,11 @@
         "update": "Updating your pokemon",
         "success": "Success",
         "error": "Oops, something went wrong. Try again in a couple seconds",
-        "newVersion": "A new version is available, reload your browser"
+        "newVersion": "A new version is available, reload your browser",
+        "subscriptionStripe": "Verifying credentials",
+        "subscriptionPokebattler": "Purchasing subscription",
+        "subscriptionStripeFailure": "Stripe rejected your credentials",
+        "subscriptionPokebattlerFailure": "Could not purchase subscription"
     },
     "site": {
         "alpha": "Alpha Site",
