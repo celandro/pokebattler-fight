@@ -81,8 +81,8 @@
                 "title": "Battler",
                 "subtitle": "A higher tier for more analytical players"
             },
-            "ROLE_FANATIC":  {
-                "title": "Fanatic",
+            "ROLE_CHAMPION":  {
+                "title": "Champion",
                 "subtitle": "The best subscription level for the hard core player."
             }
         }
@@ -111,7 +111,12 @@
             "ROLE_FANATIC": "Pokebattler Fanatic",
             "ROLE_CONTEST": "Pokebattler Contest Winner",
             "ROLE_PATREON_USER": "Pokebattler Patreon User",
-            "ROLE_SUPPORTER2": "Pokebattler Supporter"
+            "ROLE_SUPPORTER2": "Pokebattler Supporter",
+            "ROLE_BASIC": "Basic",
+            "ROLE_STANDARD": "Standard",
+            "ROLE_BATTLER": "Battler",
+            "ROLE_CHAMPION": "Champion"
+
         }
     }
 }

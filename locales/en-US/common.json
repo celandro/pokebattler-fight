@@ -144,6 +144,7 @@
         "newVersion": "A new version is available, reload your browser",
         "subscriptionStripe": "Verifying credentials",
         "subscriptionPokebattler": "Purchasing subscription",
+        "subscriptionSuccess": "Successfully purchased subscription",
         "subscriptionStripeFailure": "Stripe rejected your credentials",
         "subscriptionPokebattlerFailure": "Could not purchase subscription"
     },
