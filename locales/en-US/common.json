@@ -146,7 +146,12 @@
         "subscriptionPokebattler": "Purchasing subscription",
         "subscriptionSuccess": "Successfully purchased subscription",
         "subscriptionStripeFailure": "Stripe rejected your credentials",
-        "subscriptionPokebattlerFailure": "Could not purchase subscription"
+        "subscriptionPokebattlerFailure": "Could not purchase subscription",
+        "subscriptionCancel": "Canceling subscription",
+        "subscriptionRenew": "Renewing subscription",
+        "subscriptionCardUpdate": "Updating payment information",
+        "subscriptionCardUpdateSuccess": "Successfully updated payment information",
+        "subscriptionCardUpdateFailure": "Could not update payment information"
     },
     "site": {
         "alpha": "Alpha Site",

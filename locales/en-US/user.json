@@ -39,18 +39,50 @@
         "back": "Back to login",
         "button": "Logout"
     },
+    "subscribed": {
+        "title": "Thank You For Your Support",
+        "meta": {
+            "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Your subscription disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!"
+        },
+        "chooseProduct": "Change Your Subscription",
+        "currentSubscription": "Current Subscription Information",
+        "choosePlan": "Choose Your Plan",
+        "purchase": "Update Your Duration",
+        "currentPlan": "Current Plan",
+        "chargeAmount": "Your subscription will upgrade immediately. You will be charged ${{chargeAmount}}.",
+        "duringTrial": {
+            "button": "Change Subscription",
+            "description": "During your trial, you may change your subscription freely"
+        },
+        "upgradeSubscription": {
+            "button": "Upgrade Subscription",
+            "description": "Upgrade your subscription immediately. You will be charged a prorated amount of {{prorate}}"
+        },
+        "downgradeSubscription": {
+            "button": "Downgrade Subscription",
+            "description": "Downgrade your subscription at the end of your current subscription."
+        },
+        "changeCreditCard": {
+            "title": "Change Your Payment Information",
+            "button": "Update Information"
+        }
+
+    },
     "subscription": {
         "title": "Subscribe to Pokebattler",
         "meta": {
             "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!"
         },
-        "chooseProduct": "Choose Your Level",
-        "choosePlan": "Choose Your Plan",
-        "purchase": "Start Your Free {{product}} Trial!",
+        "currentProduct": "Current Benefits",
+        "chooseProduct": "Choose Your Plan",
+        "choosePlan": "Choose Your Duration",
+        "purchase": "Start Your Free Trial!",
         "creditCard": "Enter your credit card information",
-        "description": "Your credit card information is handled by Stripe and never sent to Pokebattler.com",
+        "description": "Your credit card information is securely handled by Stripe and never sent to Pokebattler. Stripe processes your subscriptions and informs Pokebattler of your subscription status.",
         "multiMonth": "Save with a multi month plan!",
-        "confirmation": "Subscribe",
+        "confirmation": {
+            "button": "Subscribe"
+        },
         "plans": {
             "1month": {
                 "title": "1 month - ${{intervalCost}}/mo",
@@ -70,20 +102,56 @@
         },
         "products": {
             "ROLE_BASIC": {
-                "title": "Basic",
+                "title": "Basic Plan",
                 "subtitle": "An affordable subscription that provides great value"
             },
             "ROLE_STANDARD":  {
-                "title": "Standard",
-                "subtitle": "Recommended subscription level for most players."
+                "title": "Standard Plan",
+                "subtitle": "Recommended subscription level for most players"
             },
             "ROLE_BATTLER":  {
-                "title": "Battler",
+                "title": "Battler Plan",
                 "subtitle": "A higher tier for more analytical players"
             },
             "ROLE_CHAMPION":  {
-                "title": "Champion",
-                "subtitle": "The best subscription level for the hard core player."
+                "title": "Champion Plan",
+                "subtitle": "The best subscription level for the hard core player"
+            },
+            "ROLE_USER": {
+                "title": "Non-Subscriber",
+                "subtitle": "Free benefits for all users"
+            },
+            "ROLE_ADMIN": {
+                "title": "Pokebattler Admin",
+                "subtitle": "You could subscribe but it would be a downgrade"
+            },
+            "ROLE_FAN": {
+                "title": "Patreon Fan",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
+            },
+            "ROLE_SUPPORTER": {
+                "title": "Patreon Supporter",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
+            },
+            "ROLE_PATREON": {
+                "title": "Patreon Patreon",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
+            },
+            "ROLE_FANATIC": {
+                "title": "Patreon Fanatic",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
+            },
+            "ROLE_CONTEST": {
+                "title": "Contest Winner",
+                "subtitle": "Equivalent to a Champion plan below"
+            },
+            "ROLE_PATREON_USER": {
+                "title": "Patreon User",
+                "subtitle": "Notice: Your level will revert to a non-subscriber soon"
+            },
+            "ROLE_SUPPORTER2": {
+                "title": "Patreon Supporter",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
             }
         }
 
@@ -116,6 +184,68 @@
             "ROLE_STANDARD": "Standard",
             "ROLE_BATTLER": "Battler",
             "ROLE_CHAMPION": "Champion"
+
+        }
+    },
+    "userSubscription": {
+        "createdAt": {
+            "label": "Created At",
+            "value": "{{createdAt,shortdate}}"
+        },
+        "endedAt": {
+            "label": "Ended At",
+            "value": "{{endedAt,shortdate}}"
+        },
+        "currentPeriodStart": {
+            "label": "Current Period Start",
+            "value": "{{currentPeriodStart,shortdate}}"
+        },
+        "currentPeriodEnd": {
+            "label": "Current Period End",
+            "value": "{{currentPeriodEnd,shortdate}}"
+        },
+        "trialStart": {
+            "label": "Trial Start",
+            "value": "{{trialStart,shortdate}}"
+        },
+        "trialEnd": {
+            "label": "Trial End",
+            "value": "{{trialEnd,shortdate}}"
+        },
+        "lastUpdate": {
+            "label": "Last Update",
+            "value": "{{lastUpdate,shortdate}}"
+        },
+        "planId": "Plan Id",
+        "cancel": "Cancel Your Subscription",
+        "renew": "Renew Your Subscription",
+        "statuses": {
+            "trialing": {
+                "title": "Free Trial Period",
+                "description": "Your Pokebattler subscription comes with a trial period to allow you the option to cancel with no charge if you are not happy with the service."
+            },
+            "active": {
+                "title": "Active Membership",
+                "description": "Your Pokebattler membership is started.  Your membership is set to renew at {{currentPeriodEnd}}"
+            },
+            "incomplete": {
+                "title": "Incomplete Membership",
+                "description": "Your Pokebattler membership requires action by you to complete.  You need to confirm your subscription with your payment provider."
+            },
+            "incomplete_expired": {
+                "title": "Incomplete Membership",
+                "description": "Your Pokebattler membership required action by you to complete but that time has passed. You will need to subscribe again."
+            },
+            "past_due": {
+                "title": "Past Due Membership",
+                "description": "Your Pokebattler membership did not go through.  You will need to update your payment information and subscribe again"
+            },
+            "canceled": {
+                "title": "Canceled Membership",
+                "description": "Your Pokebattler membership was canceled.  Your last membership date was {{currentPeriodEnd}}."
+            }
+
+
 
         }
     }
