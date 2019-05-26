@@ -1030,7 +1030,7 @@
             },
             "DEFENSE_RANDOM_MC_EX": {
                 "label": "Monte Carlo - Platinum",
-                "description": "A special benefit for Fanatics on Patreon. An excessively accurate result. 500 random simulations are run and combined together to make one overall result based on your aggregation choice. Most useful when looking at percentiles"
+                "description": "A special benefit for Fanatics and Champions. An excessively accurate result. 500 random simulations are run and combined together to make one overall result based on your aggregation choice. Most useful when looking at percentiles"
             },
             "DEFENSE_PATTERN": {
                 "label": "Defense Pattern - RNG",

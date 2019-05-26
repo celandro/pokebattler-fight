@@ -9,10 +9,11 @@
     "loading": "Loading User Data",
     "user": "User",
     "login": {
+        "autoCreate": "Authenticating will automatically create your Pokebattler account and log you in",
         "google": "Login using Google",
         "facebook": "Login using Facebook",
         "patreon": "Login using Patreon",
-        "patreonDescription": "Patreon supporters have rewards including more Pokemon in their Pokebox, higher quality personalized simulations and a Raid Advice google sheet!",
+        "patreonDescription": "Pokebattler now supports direct Stripe subscriptions! We highly encourage current Patreon subscribers to migrate to the new subscription plans",
         "success": {
             "title": "Logged in Successfully",
             "fromApi": "$t(login.success.title)! Please wait a moment to continue."
@@ -71,7 +72,8 @@
     "subscription": {
         "title": "Subscribe to Pokebattler",
         "meta": {
-            "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!"
+            "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!",
+            "image": "https://static.pokebattler.com/images/og_user_subscription.png"
         },
         "currentProduct": "Current Benefits",
         "chooseProduct": "Choose Your Plan",
@@ -80,6 +82,7 @@
         "creditCard": "Enter your credit card information",
         "description": "Your credit card information is securely handled by Stripe and never sent to Pokebattler. Stripe processes your subscriptions and informs Pokebattler of your subscription status.",
         "multiMonth": "Save with a multi month plan!",
+        "requiresLogin": "You Must Log In To Subscribe",
         "confirmation": {
             "button": "Subscribe"
         },

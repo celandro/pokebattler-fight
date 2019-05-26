@@ -174,17 +174,18 @@
         "rankings": "Finding the best Pokemon by simulating combat between every single Pokemon matchup available. This will take a bit."
     },
     "patreon": {
-        "ad1": "Pokebattler is doing an ad free trial. Please support us on Patreon to keep us ad free, get more Pokebox space, run more accurate sims, get more features and more!",
-        "ad2": "Sign up for a free Patreon account and get 25 Pokebox spaces free. Simply log in using Patreon, no donation required.",
-        "ad3": "Optimize your Raids. Sign up for Patreon for more accurate results and special features.",
-        "ad4": "Love Pokebattler? Keep us going and ad free. Sign up for Patreon today and get more space, better results, exclusive tools and more.",
-        "ad5": "Pokebattler is made possible by our Patreon supporters. Sign up for your free account today for 25 extra Pokebox slots.",
-        "ad6": "Take your gaming to the next level with a Pokebattler Patreon account. Sign up now.",
+        "ad1": "Please subscribe for an ad free experience, get more Pokebox space, run more accurate sims, get more features and more!",
+        "ad2": "Multi month Pokebattler subscriptions are a great value",
+        "ad3": "Optimize your Raids. Sign up for Pokebattler Standard Plan for more accurate results and special features.",
+        "ad4": "Love Pokebattler? Subscribe today and get more space, better results, exclusive tools and more.",
+        "ad5": "Pokebattler is made possible by our supporters.",
+        "ad6": "Take your gaming to the next level with a Pokebattler Subscription. Sign up now.",
         "shortAd": "Dislike ads? Subscribe today"
     },
     "menu": {
         "index": "Pokebattler.com",
         "patreon": "Support Us On Patreon",
+        "subscription": "Support Pokebattler By Subscribing",
         "follow": "Follow us!",
         "social": {
             "reddit": "Reddit",
@@ -222,7 +223,8 @@
             "pvppokedex": "$t(pvp)",
             "news": "News",
             "profiles": "Public Profiles",
-            "matrix": "Matrix"
+            "matrix": "Matrix",
+            "subscription": "Subscription"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
