@@ -13,7 +13,7 @@
         "google": "Login using Google",
         "facebook": "Login using Facebook",
         "patreon": "Login using Patreon",
-        "patreonDescription": "Pokebattler now supports direct Stripe subscriptions! We highly encourage current Patreon subscribers to migrate to the new subscription plans",
+        "patreonDescription": "Pokebattler now supports direct Stripe subscriptions! We highly encourage current Patreon subscribers to migrate to the new subscription plans. Users from countries that Stripe does not support such as Brazil and Mexico as well as users who want to pay through Paypal should continue to use Patreon.",
         "success": {
             "title": "Logged in Successfully",
             "fromApi": "$t(login.success.title)! Please wait a moment to continue."
@@ -45,19 +45,20 @@
         "meta": {
             "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Your subscription disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!"
         },
+        "patreon": "Patreon subscribers are encouraged to switch to the Stripe based options below for lower prices and better support.  You may email admin@pokebattler.com to receive a coupon applied to your subscription when you switch. Coupon amount will be based on your remaining Patreon subscription. Users in countries Stripe does not support such as Brazil and Mexico as well as users who wish to pay using Paypal should continue using Patreon.",
         "chooseProduct": "Change Your Subscription",
         "currentSubscription": "Current Subscription Information",
         "choosePlan": "Choose Your Plan",
         "purchase": "Update Your Duration",
         "currentPlan": "Current Plan",
-        "chargeAmount": "Your subscription will upgrade immediately. You will be charged ${{chargeAmount}}.",
+        "chargeAmount": "You will be immediately charged a prorated amount of ${{chargeAmount}} immediately. The full amount will be charged at the beginning of each billing cycle.",
         "duringTrial": {
             "button": "Change Subscription",
             "description": "During your trial, you may change your subscription freely"
         },
         "upgradeSubscription": {
             "button": "Upgrade Subscription",
-            "description": "Upgrade your subscription immediately. You will be charged a prorated amount of {{prorate}}"
+            "description": "Upgrade your subscription immediately."
         },
         "downgradeSubscription": {
             "button": "Downgrade Subscription",
@@ -75,14 +76,32 @@
             "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!",
             "image": "https://static.pokebattler.com/images/og_user_subscription.png"
         },
+        "paymentRequest": "One Click Subscribe",
+        "paymentRequestDescription": "One Click Subscribe is supported on most mobile devices. You can also choose to enter in your information below instead",
         "currentProduct": "Current Benefits",
         "chooseProduct": "Choose Your Plan",
         "choosePlan": "Choose Your Duration",
         "purchase": "Start Your Free Trial!",
         "creditCard": "Enter your credit card information",
+        "paymentType": "Payment Type",
+        "name": "First and Last Name",
+        "email": "Email",
+        "line1": "Address Line 1",
+        "line2": "Address Line 2",
+        "city": "City",
+        "state": "State",
+        "country": "Country",
+        "idealBank": "iDEAL Bank",
         "description": "Your credit card information is securely handled by Stripe and never sent to Pokebattler. Stripe processes your subscriptions and informs Pokebattler of your subscription status.",
         "multiMonth": "Save with a multi month plan!",
         "requiresLogin": "You Must Log In To Subscribe",
+        "ibanDescription":"By providing your IBAN and confirming this payment, you are authorizing Pokebattler.com and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.",
+        "notNeccessary": "The following fields are usually not required. You only need to fill these out if your payment is declined.",
+        "paymentTypes": {
+            "creditCard": "Credit Card",
+            "iban": "IBAN",
+            "ideal": "IDEAL"
+        },
         "confirmation": {
             "button": "Subscribe"
         },
@@ -251,5 +270,29 @@
 
 
         }
+    },
+    "countryCodes": {
+        "AU": "Australia",
+        "AT": "Austria",
+        "BE": "Belgium",
+        "CA": "Canada",
+        "DK": "Denmark",
+        "FI": "Finland",
+        "FR": "France",
+        "DE": "Germany",
+        "HK": "Hong Kong",
+        "IE": "Ireland",
+        "IT": "Italy",
+        "JP": "Japan",
+        "LU": "Luxembourg",
+        "NL": "Netherlands",
+        "NZ": "New Zealand",
+        "NO": "Norway",
+        "PT": "Portugal",
+        "ES": "Spain",
+        "SE": "Sweden",
+        "CH": "Switzerland",
+        "GB": "United Kingdom",
+        "US": "United States"
     }
 }

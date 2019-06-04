@@ -1220,7 +1220,19 @@
         },
         "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
             "label": "Silph Arena Rainbow Cup",
-            "description": "The next Silph Arena Cup tournament."
+            "description": "The latest Silph Arena Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
+            "label": "Silph Arena Championship",
+            "description": "The Silph Arena Championship for Season 1"
+        },
+        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_LIMITED": {
+            "label": "Silph Arena Championship (Limited)",
+            "description": "The Silph Arena Championship's restricted Pokemon"
+        },
+        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_UNLIMITED": {
+            "label": "Silph Arena Championship (Unlimited)",
+            "description": "The Silph Arena Championship's unrestricted Pokemon"
         }
 
 
