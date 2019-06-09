@@ -29,12 +29,17 @@
     },
     "params": {
       "addPokemon": "Add Pokemon",
+      "addType": "Add Type",
       "attackerLeague": {
         "title": "Choose Attackers",
         "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
         "pokemonCategory": {
           "title": "Custom Attacker List",
           "subtitle": "Choose Your Pokemon"
+        },
+        "pokemonType": {
+          "title": "Custom Attackers By Type",
+          "subtitle": "Choose Your Types"
         }
       },
       "defenderLeague": {
@@ -43,6 +48,10 @@
         "pokemonCategory": {
           "title": "Custom Defender List",
           "subtitle": "Choose Their Pokemon"
+        },
+        "pokemonType": {
+          "title": "Custom Defenders By Type",
+          "subtitle": "Choose Their Types"
         }
 
       }

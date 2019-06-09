@@ -10,9 +10,9 @@
     "user": "User",
     "login": {
         "autoCreate": "Authenticating will automatically create your Pokebattler account and log you in",
-        "google": "Login using Google",
-        "facebook": "Login using Facebook",
-        "patreon": "Login using Patreon",
+        "google": "Sign in with Google",
+        "facebook": "Continue with Facebook",
+        "patreon": "Log in with Patreon",
         "patreonDescription": "Pokebattler now supports direct Stripe subscriptions! We highly encourage current Patreon subscribers to migrate to the new subscription plans. Users from countries that Stripe does not support such as Brazil and Mexico as well as users who want to pay through Paypal should continue to use Patreon.",
         "success": {
             "title": "Logged in Successfully",
