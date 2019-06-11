@@ -14,6 +14,7 @@
     "description": "See the results of your team of Pokemon battling an opposing team of Pokemon",
     "loggedOut": "This feature is for logged in users only for performance reasons. It allows you to investigate every possible combination of results of two sets of pokemon. Create a free account in seconds to try this exciting new feature!",
     "benefits": "Subscribers are able to run matrix simulations on a larger number of Pokemon and combinations of moves among other benefits.",
+    "zeroTypes": "Your subscription level does not allow for Matrix simulations by type. Upgrade today!",
     "meta": {
       "description": "$t(pvp:matrix.description)",
       "image": "https://static.pokebattler.com/images/og_pvp_matrix.PNG"
@@ -29,29 +30,38 @@
     },
     "params": {
       "addPokemon": "Add Pokemon",
-      "addType": "Add Type",
+      "showMoveTypes": "Show Move Types",
+      "showPokemonTypes": "Show Pokemon Types",
+      "requiresSubscription": {
+        "title":  "Maximum Matrix Size Reached",
+        "description": "Support Pokebattler for higher limits"
+      },
       "attackerLeague": {
         "title": "Choose Attackers",
-        "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+        "subtitle": "Matrix limits are based on your subscription",
         "pokemonCategory": {
-          "title": "Custom Attacker List",
-          "subtitle": "Choose Your Pokemon"
+          "title": "Choose Your Pokemon",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+          "description": "Touch a Pokemon to customize the moves or stats."
         },
         "pokemonType": {
-          "title": "Custom Attackers By Type",
-          "subtitle": "Choose Your Types"
+          "title": "Choose Your Types",
+          "subtitle": "{{numTypes}}/{{maxTypes}} Types",
+          "description": "Add all Pokemon of these types to your attackers."
         }
       },
       "defenderLeague": {
         "title":"Choose Defenders",
-        "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+        "subtitle": "Upgrade for larger matrix sims",
         "pokemonCategory": {
-          "title": "Custom Defender List",
-          "subtitle": "Choose Their Pokemon"
+          "title": "Choose Their Pokemon",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+          "description": "Touch a Pokemon to customize the moves or stats."
         },
         "pokemonType": {
-          "title": "Custom Defenders By Type",
-          "subtitle": "Choose Their Types"
+          "title": "Choose Their Types",
+          "subtitle": "{{numTypes}}/{{maxTypes}} Types",
+          "description": "Add all Pokemon of these types to your defenders."
         }
 
       }

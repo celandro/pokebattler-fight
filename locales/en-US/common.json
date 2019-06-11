@@ -154,6 +154,10 @@
         "subscriptionCardUpdateSuccess": "Successfully updated payment information",
         "subscriptionCardUpdateFailure": "Could not update payment information"
     },
+    "genericError": {
+        "title": "$t(common:status.error)",
+        "description": "$t(common:message.error)"
+    },
     "site": {
         "alpha": "Alpha Site",
         "beta": "Beta Site",
