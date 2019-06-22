@@ -863,7 +863,9 @@
         "WEATHER_BALL_FIRE": "Weather Ball",
         "WEATHER_BALL_ICE": "Weather Ball",
         "WEATHER_BALL_ROCK": "Weather Ball",
-        "WEATHER_BALL_WATER": "Weather Ball"
+        "WEATHER_BALL_WATER": "Weather Ball",
+        "CHARM_FAST": "Charm",
+        "GIGA_IMPACT": "Giga Impact"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
@@ -1233,9 +1235,11 @@
         "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_UNLIMITED": {
             "label": "Silph Arena Championship (Unlimited)",
             "description": "The Silph Arena Championship's unrestricted Pokemon"
+        },
+        "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
+            "label": "Silph Arena Jungle Cup",
+            "description": "The July Silph Arena Cup tournament."
         }
-
-
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",

@@ -242,8 +242,11 @@
       "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_UNLIMITED": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season One Championship unlimited Pokemon ranked without the limited Pokemon."
+      },
+      "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena cup for July. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
-
     },
     "pokemonCondition": {
       "WITH_POKEMON_CP_LIMIT": "Max CP",

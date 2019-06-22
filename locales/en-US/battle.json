@@ -53,7 +53,7 @@
         },
         "explore": {
             "title": "Explore this result",
-            "subtitle": "Drag and drop columns to perform custom analysis",
+            "subtitle": "Click to load your breakdown",
             "select": "Chart Type",
             "columns": {
                 "attackerId": "Id",
