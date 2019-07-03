@@ -16,7 +16,7 @@
         "showMore": "Show More",
         "filter": {
             "label": "Filter pokemon",
-            "hint": "Enter comma separated Pokemon"
+            "hint": "Enter comma separated Pokemon or Types"
         }
     },
     "add": {
