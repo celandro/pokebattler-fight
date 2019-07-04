@@ -836,7 +836,8 @@
         "MOVE_SHIELD": "abgewehrt",
         "MOVE_PASS": "kein Schild",
         "ACID_SPRAY": "Säurespeier",
-        "LEAF_TORNADO": "Grasmixer"
+        "LEAF_TORNADO": "Grasmixer",
+        "ATTACK_BUFF": "Angriffs-Erhöhung"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unbekannt",
