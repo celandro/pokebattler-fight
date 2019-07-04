@@ -1,140 +1,137 @@
 {
-  "title": "Gym Battle Simulator",
-  "meta": {
-    "description": "Pokebattler Gym Simulator gives the World's #1 most accurate results for gym battles including weather bonuses and second by second analysis.",
-    "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
-  },
-  "raidBattlePartyTitle": "Raid Battle Party Simulator",
-  "raid": {
-    "title": "Raid Simulator",
+    "title": "Gym Battle Simulator",
     "meta": {
-      "description": "Pokebattler Raid Simulator is the World's #1 most accurate. Get results for up to 20 battle parties, friends bonuses and weather bonuses.",
-      "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
-    }
-  },
-  "pvp" : {
-    "title": "PvP Simulator",
-    "meta": {
-      "description": "Pokebattler PvP Simulator lets you battle your friends Pokemon to see how comes out on top with the World's #1 Most accurate simulator.",
-      "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
-    }
-  },
-  "recommended": "Recommended",
-  "startButton": "Battle",
-  "attacker": "Attacker",
-  "attackerPlaceHolder": "Choose $t(attacker)",
-  "defender": "Defender",
-  "defenderPlaceHolder": "Choose $t(defender)",
-  "pokemonListTypes": {
-    "pokebox": "My Pokebox",
-    "all": "All Pokemon"
-  },
-  "relatedBattles": {
-    "title": "Related Battles",
-    "description": "Choose the parameter you wish to change below and click the link to rerun the current simulation with the new parameter. Results are changed immediately.",
-    "modify": "Modify",
-    "switch": "Switch to modify {{type}}",
-    "parameterTitle": "Change Parameter"
-  },
-  "results": {
-
-    "title": {
-      "base": "Battle Result: You",
-      "win": "$t(results.title.base) win!",
-      "lose": "$t(results.title.base) lose!"
+        "description": "Pokebattler Gym Simulator gives the World's #1 most accurate results for gym battles including weather bonuses and second by second analysis.",
+        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
     },
-    "about": "About this Battle",
-    "description": "A level {{attacker.level}} {{attacker.name}} with {{attacker.cp}} CP {{result}} a level {{defender.level}} {{defender.name}} with {{defender.cp}} CP in this battle simulation. The attacking {{attacker.name}} was using {{attacker.quickMove}} as its quick and {{attacker.specialMove}} as its special move. The defending {{defender.name}} was using {{defender.quickMove}} as its quick and {{defender.specialMove}} as its special move. The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the {{strategies.defense}} simulation type with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
-    "gym": {
-      "title": "{{attacker.name}} vs. {{defender.name}} Battle Simulation",
-      "meta": {
-        "description": "Gym battle results for {{attacker.name}} with {{attacker.quickMove}} and {{attacker.specialMove}} vs. {{defender.name}} with {{defender.quickMove}} and {{defender.specialMove}}",
-        "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
-      }
-    },
-    "explore": {
-      "title": "Explore this result",
-      "subtitle": "Drag and drop columns to perform custom analysis",
-      "select": "Chart Type",
-      "columns": {
-        "attackerId": "Id",
-        "attackerGroup": "Group",
-        "attackerOrder": "Order",
-        "battlePartyUserId": "User",
-        "battlePartyTrainer": "Trainer",
-        "combatTime": "Combat Time",
-        "currentTime": "Current Time",
-        "damageDealt": "Damage Out",
-        "damageReceived": "Damage In",
-        "energy": "Energy",
-        "move": "Move",
-        "moveType": "Move Type",
-        "attacker": "Attacker",
-        "defender": "Defender",
-        "actor": "Actor"
-
-      },
-      "pivotTypes": {
-        "damageByTrainer": {
-          "title": "Damage by Trainer",
-          "description": "Damage output by each trainer is shown here."
-        },
-        "damageByPokemon": {
-          "title": "Damage by Pokemon",
-          "description": "Damage output for each of your Pokemon is shown here."
-        },
-        "dpsByPokemon": {
-          "title": "DPS by Pokemon",
-          "description": "DPS for each of your Pokemon is shown here."
-        },
-        "damageByGroup": {
-          "title": "Damage by Group",
-          "description": "Damage output for each Group by Pokemon is shown."
-        },
-        "custom": {
-          "title":"Custom Analysis",
-          "description":"You can perform advanced analysis here! This works best on desktop or in landscape mode."
+    "raidBattlePartyTitle": "Raid Battle Party Simulator",
+    "raid": {
+        "title": "Raid Simulator",
+        "meta": {
+            "description": "Pokebattler Raid Simulator is the World's #1 most accurate. Get results for up to 20 battle parties, friends bonuses and weather bonuses.",
+            "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
         }
-      }
     },
-
-    "battleParty": {
-      "title": "{{attacker.name}} vs. {{defender.name}} Raid Simulation",
-      "meta": {
-        "description": "Raid simulator results for {{attacker.name}} vs. {{defender.name}} with {{defender.quickMove}} and {{defender.specialMove}}",
-        "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
-      },
-      "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} a {{defender.tier}} {{defender.name}} with {{defender.cp}} CP in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the {{strategies.defense}} simulation type with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
+    "pvp": {
+        "title": "PvP Simulator",
+        "meta": {
+            "description": "Pokebattler PvP Simulator lets you battle your friends Pokemon to see how comes out on top with the World's #1 Most accurate simulator.",
+            "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+        }
     },
-    "pvp" : {
-      "title": "{{attacker.name}} vs. {{defender.name}} PvP Simulation",
-      "meta": {
-        "description": "PvP simulator results for {{attacker.name}} vs. {{defender.name}}",
-        "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
-      },
-      "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseDodge}} with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
+    "recommended": "Recommended",
+    "startButton": "Battle",
+    "attacker": "Attacker",
+    "attackerPlaceHolder": "Choose $t(attacker)",
+    "defender": "Defender",
+    "defenderPlaceHolder": "Choose $t(defender)",
+    "pokemonListTypes": {
+        "pokebox": "My Pokebox",
+        "all": "All Pokemon"
     },
-    "help": {
-      "text": "You can find out more about the way that these simulations are calculated by looking at the {{helpLink}}. References to the Pokemon Go combat research can be found in the {{aboutLink}}. ",
-      "links": {
-        "repo": "project site"
-      }
+    "relatedBattles": {
+        "title": "Related Battles",
+        "description": "Choose the parameter you wish to change below and click the link to rerun the current simulation with the new parameter. Results are changed immediately.",
+        "modify": "Modify",
+        "switch": "Switch to modify {{type}}",
+        "parameterTitle": "Change Parameter"
     },
-    "result": {
-      "win": "defeats",
-      "lose": "is defeated by"
+    "results": {
+        "title": {
+            "base": "Battle Result: You",
+            "win": "$t(results.title.base) win!",
+            "lose": "$t(results.title.base) lose!"
+        },
+        "about": "About this Battle",
+        "description": "A level {{attacker.level}} {{attacker.name}} with {{attacker.cp}} CP {{result}} a level {{defender.level}} {{defender.name}} with {{defender.cp}} CP in this battle simulation. The attacking {{attacker.name}} was using {{attacker.quickMove}} as its quick and {{attacker.specialMove}} as its special move. The defending {{defender.name}} was using {{defender.quickMove}} as its quick and {{defender.specialMove}} as its special move. The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the {{strategies.defense}} simulation type with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
+        "gym": {
+            "title": "{{attacker.name}} vs. {{defender.name}} Battle Simulation",
+            "meta": {
+                "description": "Gym battle results for {{attacker.name}} with {{attacker.quickMove}} and {{attacker.specialMove}} vs. {{defender.name}} with {{defender.quickMove}} and {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+            }
+        },
+        "explore": {
+            "title": "Explore this result",
+            "subtitle": "Click to load your breakdown",
+            "select": "Chart Type",
+            "columns": {
+                "attackerId": "Id",
+                "attackerGroup": "Group",
+                "attackerOrder": "Order",
+                "battlePartyUserId": "User",
+                "battlePartyTrainer": "Trainer",
+                "combatTime": "Combat Time",
+                "currentTime": "Current Time",
+                "damageDealt": "Damage Out",
+                "damageReceived": "Damage In",
+                "energy": "Energy",
+                "move": "Move",
+                "moveType": "Move Type",
+                "attacker": "Attacker",
+                "defender": "Defender",
+                "actor": "Actor"
+            },
+            "pivotTypes": {
+                "damageByTrainer": {
+                    "title": "Damage by Trainer",
+                    "description": "Damage output by each trainer is shown here."
+                },
+                "damageByPokemon": {
+                    "title": "Damage by Pokemon",
+                    "description": "Damage output for each of your Pokemon is shown here."
+                },
+                "dpsByPokemon": {
+                    "title": "DPS by Pokemon",
+                    "description": "DPS for each of your Pokemon is shown here."
+                },
+                "damageByGroup": {
+                    "title": "Damage by Group",
+                    "description": "Damage output for each Group by Pokemon is shown."
+                },
+                "custom": {
+                    "title": "Custom Analysis",
+                    "description": "You can perform advanced analysis here! This works best on desktop or in landscape mode."
+                }
+            }
+        },
+        "battleParty": {
+            "title": "{{attacker.name}} vs. {{defender.name}} Raid Simulation",
+            "meta": {
+                "description": "Raid simulator results for {{attacker.name}} vs. {{defender.name}} with {{defender.quickMove}} and {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+            },
+            "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} a {{defender.tier}} {{defender.name}} with {{defender.cp}} CP in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the {{strategies.defense}} simulation type with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
+        },
+        "pvp": {
+            "title": "{{attacker.name}} vs. {{defender.name}} PvP Simulation",
+            "meta": {
+                "description": "PvP simulator results for {{attacker.name}} vs. {{defender.name}}",
+                "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+            },
+            "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseDodge}} with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
+        },
+        "help": {
+            "text": "You can find out more about the way that these simulations are calculated by looking at the {{helpLink}}. References to the Pokemon Go combat research can be found in the {{aboutLink}}. ",
+            "links": {
+                "repo": "project site"
+            }
+        },
+        "result": {
+            "win": "defeats",
+            "lose": "is defeated by"
+        },
+        "assistants": {
+            "title": "Extra Trainers Feature",
+            "both": "The results below include {{numExplicit}} additional trainers and {{numRandom}} random level additional battle parties level 30-40.  This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. There is also be a better interface for selecting how many trainers and additional battle parties helping you on the ",
+            "explicit": "The results below include {{numExplicit}} additional trainers.  This is intended to simulate a realistic actual combat scenario.  The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will make you win. The power, time to win, potions and overall rating are all based on what your entire battle party of 6 can do. This page will eventually show much more information only the combat log is complete at this time. There is also be a better UI for selecting how many and which battle parties are helping you on the",
+            "random": "The results below include {{numRandom}} random additional battle parties between levels 30-40. This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. ",
+            "link": "raid simulation page.",
+            "name": "Assistant"
+        },
+        "logTitle": "Combat Log"
     },
-    "assistants": {
-      "title": "Beta Extra Trainers Feature",
-      "both": "The results below include {{numExplicit}} additional trainers and {{numRandom}} random level additional battle parties level 30-40.  This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. There is also be a better interface for selecting how many trainers and additional battle parties helping you on the ",
-      "explicit": "The results below include {{numExplicit}} additional trainers.  This is intended to simulate a realistic actual combat scenario.  The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will make you win. The power, time to win, potions and overall rating are all based on what your entire battle party of 6 can do. This page will eventually show much more information only the combat log is complete at this time. There is also be a better UI for selecting how many and which battle parties are helping you on the",
-      "random": "The results below include {{numRandom}} random additional battle parties level 30-40 extra.  This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. There is also be a better interface for selecting how many trainers and additional battle parties helping you on the ",
-      "link": "raid simulation page.",
-      "name": "Assistant"
-    },
-    "logTitle": "Combat Log"
-  },
-  "runAgain": "Run this random simulation again",
-  "runSolo": "Run as solo attempt",
-  "addBattleParty": "Save this battle party"
+    "runAgain": "Run this random simulation again",
+    "runSolo": "Run as solo attempt",
+    "addBattleParty": "Save this battle party"
 }

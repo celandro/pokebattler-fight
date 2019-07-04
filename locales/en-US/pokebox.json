@@ -16,7 +16,7 @@
         "showMore": "Show More",
         "filter": {
             "label": "Filter pokemon",
-            "hint": "Enter comma separated Pokemon"
+            "hint": "Enter comma separated Pokemon or Types"
         }
     },
     "add": {
@@ -66,12 +66,14 @@
     "backPokebox": "Back to Pokebox",
     "powerUp": "Power Up",
     "full": {
-        "title": "Pokebox - Out of space",
-        "explanation": "You have reached the maximum number of Pokemon for your Pokebox at your current support level. This puts you in the top 5% of Pokebattler accounts and top 0.1% of Pokebattler users! Pokebattler depends on the support of heavy users like yourself to serve high quality simulations to everyone. You can increase your Pokemon storage by contributing to Pokebattler's Patreon or simply logging in using the Patreon option."
+        "title": "Pokebox Full",
+        "subtitle": "Out of Space",
+        "explanation": "You have reached the maximum number of Pokemon for your Pokebox at your current membership level. This puts you in the top 5% of Pokebattler accounts and top 0.1% of Pokebattler users! Pokebattler depends on the support of heavy users like yourself to serve high quality simulations to everyone. You can increase your Pokemon storage by subscribing to a higher level plan."
     },
     "upgrade": {
         "title": "$t(common:upgrade)",
-        "explanation": "Pokebattler is kept alive by just 0.1% of site visitors like yourself. Upgrade your account to keep Pokebattler going and to get more out of Pokebattler! Exclusive features, enhanced analysis, a larger Pokebox and more await. Currently subscriptions are handled with Patreon, but more options are coming soon!"
+        "subtitle": "This feature requires a higher subscription level",
+        "explanation": "Pokebattler is kept alive by just 0.1% of site visitors like yourself. Upgrade your account to keep Pokebattler going and to get more out of Pokebattler! Exclusive features, enhanced analysis, a larger Pokebox and more await!"
     },
 
     "explanation": "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not.",
