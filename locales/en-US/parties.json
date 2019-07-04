@@ -12,6 +12,7 @@
     "meta": {
       "description": "Add a Pokemon Go battle party"
     },
-    "description": "Create your battle party"
+    "description": "Create your battle party",
+    "full": "Your party is full"
   }
 }
