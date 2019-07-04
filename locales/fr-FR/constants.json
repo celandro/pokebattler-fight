@@ -465,7 +465,9 @@
         "MUK_NORMAL_FORM": "Grotadmorv - Normal",
         "MUK_ALOLA_FORM": "Grotadmorv - Alola",
         "MAROWAK_NORMAL_FORM": "Ossatueur - Normal",
-        "MAROWAK_ALOLA_FORM": "Ossatueur - Alola"
+        "MAROWAK_ALOLA_FORM": "Ossatueur - Alola",
+        "TURTWIG": "Tortipouss",
+        "GROTLE": "Boskara"
     },
     "moves": {
         "ACID_FAST": "Acide",
