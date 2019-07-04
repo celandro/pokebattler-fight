@@ -9,14 +9,18 @@
     "loading": "Loading User Data",
     "user": "User",
     "login": {
-        "google": "Login using Google",
-        "facebook": "Login using Facebook",
-        "patreon": "Login using Patreon",
-        "patreonDescription": "Patreon supporters have rewards including more Pokemon in their Pokebox, higher quality personalized simulations and a Raid Advice google sheet!",
+        "autoCreate": "Authenticating will automatically create your Pokebattler account and log you in",
+        "google": "Sign in with Google",
+        "facebook": "Continue with Facebook",
+        "patreon": "Log in with Patreon",
+        "patreonDescription": "Pokebattler now supports direct Stripe subscriptions! We highly encourage current Patreon subscribers to migrate to the new subscription plans. Users from countries that Stripe does not support such as Brazil and Mexico as well as users who want to pay through Paypal should continue to use Patreon.",
         "success": {
             "title": "Logged in Successfully",
             "fromApi": "$t(login.success.title)! Please wait a moment to continue."
         }
+    },
+    "settings": {
+        "showListImages": "Show Images"
     },
     "details": {
         "welcome": "Welcome",
@@ -39,34 +43,140 @@
         "back": "Back to login",
         "button": "Logout"
     },
+    "subscribed": {
+        "title": "Thank You For Your Support",
+        "meta": {
+            "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Your subscription disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!"
+        },
+        "patreon": "Patreon subscribers are encouraged to switch to the Stripe based options below for lower prices and better support.  You may email admin@pokebattler.com to receive a coupon applied to your subscription when you switch. Coupon amount will be based on your remaining Patreon subscription. Users in countries Stripe does not support such as Brazil and Mexico as well as users who wish to pay using Paypal should continue using Patreon.",
+        "chooseProduct": "Change Your Subscription",
+        "currentSubscription": "Current Subscription Information",
+        "choosePlan": "Choose Your Plan",
+        "purchase": "Update Your Duration",
+        "currentPlan": "Current Plan",
+        "chargeAmount": "You will be immediately charged a prorated amount of ${{chargeAmount}} immediately. The full amount will be charged at the beginning of each billing cycle.",
+        "duringTrial": {
+            "button": "Change Subscription",
+            "description": "During your trial, you may change your subscription freely"
+        },
+        "upgradeSubscription": {
+            "button": "Upgrade Subscription",
+            "description": "Upgrade your subscription immediately."
+        },
+        "downgradeSubscription": {
+            "button": "Downgrade Subscription",
+            "description": "Downgrade your subscription at the end of your current subscription."
+        },
+        "changeCreditCard": {
+            "title": "Change Your Payment Information",
+            "button": "Update Information"
+        }
+
+    },
     "subscription": {
         "title": "Subscribe to Pokebattler",
         "meta": {
-            "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!"
+            "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!",
+            "image": "https://static.pokebattler.com/images/og_user_subscription.png"
+        },
+        "paymentRequest": "One Click Subscribe",
+        "paymentRequestDescription": "One Click Subscribe is supported on most mobile devices. You can also choose to enter in your information below instead",
+        "currentProduct": "Current Benefits",
+        "chooseProduct": "Choose Your Plan",
+        "choosePlan": "Choose Your Duration",
+        "purchase": "Start Your Free Trial!",
+        "creditCard": "Enter your credit card information",
+        "paymentType": "Payment Type",
+        "name": "First and Last Name",
+        "email": "Email",
+        "line1": "Address Line 1",
+        "line2": "Address Line 2",
+        "city": "City",
+        "state": "State",
+        "country": "Country",
+        "idealBank": "iDEAL Bank",
+        "description": "Your credit card information is securely handled by Stripe and never sent to Pokebattler. Stripe processes your subscriptions and informs Pokebattler of your subscription status.",
+        "multiMonth": "Save with a multi month plan!",
+        "requiresLogin": "You Must Log In To Subscribe",
+        "ibanDescription":"By providing your IBAN and confirming this payment, you are authorizing Pokebattler.com and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.",
+        "notNeccessary": "The following fields are usually not required. You only need to fill these out if your payment is declined.",
+        "paymentTypes": {
+            "creditCard": "Credit Card",
+            "iban": "IBAN",
+            "ideal": "IDEAL"
         },
         "confirmation": {
-            "description": "Choose Your Subscription Level",
             "button": "Subscribe"
         },
-        "stripe": {
-            "description": "Your credit card information is handled by Stripe and never sent to Pokebattler.com"
+        "plans": {
+            "1month": {
+                "title": "1 month - ${{intervalCost}}/mo",
+                "subtitle": "You will be charged ${{cost}} each month after your {{trialPeriodDays}} day free trial.",
+                "discount": "Save by selecting a multi month plan"
+            },
+            "3month": {
+                "title": "3 months - ${{intervalCost}}/mo",
+                "subtitle": "You will be charged ${{cost}} every 3 months after your {{trialPeriodDays}} day free trial.",
+                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
+            },
+            "6month": {
+                "title": "6 month - ${{intervalCost}}/mo",
+                "subtitle": "You will be charged ${{cost}} every 6 months after your {{trialPeriodDays}} day free trial.",
+                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
+            }
         },
         "products": {
             "ROLE_BASIC": {
-                "title": "Basic Subscription",
-                "subtitle": "An affordable subscription level that provides great value"
+                "title": "Basic Plan",
+                "subtitle": "An affordable subscription that provides great value"
             },
             "ROLE_STANDARD":  {
-                "title": "Standard Subscription",
-                "subtitle": "Recommended subscription level for most players. Pokebattler is designed around this subscription level"
+                "title": "Standard Plan",
+                "subtitle": "Recommended subscription level for most players"
             },
-            "ROLE_DUELIST":  {
-                "title": "Duelist Subscription",
-                "subtitle": "A higher tier of subscription level for players who want more analytical options"
+            "ROLE_BATTLER":  {
+                "title": "Battler Plan",
+                "subtitle": "A higher tier for more analytical players"
             },
-            "ROLE_FANATIC":  {
-                "title": "Fanatic Subscription",
-                "subtitle": "The best subscription level for the hard core, analytical minded player."
+            "ROLE_CHAMPION":  {
+                "title": "Champion Plan",
+                "subtitle": "The best subscription level for the hard core player"
+            },
+            "ROLE_USER": {
+                "title": "Non-Subscriber",
+                "subtitle": "Free benefits for all users"
+            },
+            "ROLE_ADMIN": {
+                "title": "Pokebattler Admin",
+                "subtitle": "You could subscribe but it would be a downgrade"
+            },
+            "ROLE_FAN": {
+                "title": "Patreon Fan",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
+            },
+            "ROLE_SUPPORTER": {
+                "title": "Patreon Supporter",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
+            },
+            "ROLE_PATREON": {
+                "title": "Patreon Patreon",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
+            },
+            "ROLE_FANATIC": {
+                "title": "Patreon Fanatic",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
+            },
+            "ROLE_CONTEST": {
+                "title": "Contest Winner",
+                "subtitle": "Equivalent to a Champion plan below"
+            },
+            "ROLE_PATREON_USER": {
+                "title": "Patreon User",
+                "subtitle": "Notice: Your level will revert to a non-subscriber soon"
+            },
+            "ROLE_SUPPORTER2": {
+                "title": "Patreon Supporter",
+                "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
             }
         }
 
@@ -75,15 +185,15 @@
     "roles": {
         "title": "Account Information",
         "heading": "Current Benefits",
-        "description": "Contribute to Pokebattler's {{link}} for premium benefits. Pokebattler is made possible by supporters contributing to the increasing server costs of hosting this site.",
+        "description": "Contribute to Pokebattler for premium benefits including a larger Pokebox and an ad free experience. Pokebattler is only possible by the generous support of people just like you, contributing to the increasing server costs of hosting this site.",
         "maxPokemon": "Max Pokemon",
         "maxBattleParties": "Max Battle Parties",
         "quality": "Simulation Quality",
         "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated.",
         "support": "Support Pokebattler",
-        "matrixMaxPokemon": "Max Pokemon for Matrix Simulations",
-        "matrixMaxType": "Max Types for Matrix Simulations",
-        "matrixMetaTypes": "Meta Types for Matrix Simulations",
+        "matrixMaxPokemon": "Matrix - Max Pokemon",
+        "matrixMaxType": "Matrix - Max Types",
+        "matrixMetaTypes": "Matrix - Meta Types",
         "hideAds": "Ad Free Experience",
         "role": {
             "ROLE_USER": "Pokebattler User",
@@ -94,7 +204,98 @@
             "ROLE_FANATIC": "Pokebattler Fanatic",
             "ROLE_CONTEST": "Pokebattler Contest Winner",
             "ROLE_PATREON_USER": "Pokebattler Patreon User",
-            "ROLE_SUPPORTER2": "Pokebattler Supporter"
+            "ROLE_SUPPORTER2": "Pokebattler Supporter",
+            "ROLE_BASIC": "Basic",
+            "ROLE_STANDARD": "Standard",
+            "ROLE_BATTLER": "Battler",
+            "ROLE_CHAMPION": "Champion"
+
         }
+    },
+    "userSubscription": {
+        "createdAt": {
+            "label": "Created At",
+            "value": "{{createdAt,shortdate}}"
+        },
+        "endedAt": {
+            "label": "Ended At",
+            "value": "{{endedAt,shortdate}}"
+        },
+        "currentPeriodStart": {
+            "label": "Current Period Start",
+            "value": "{{currentPeriodStart,shortdate}}"
+        },
+        "currentPeriodEnd": {
+            "label": "Current Period End",
+            "value": "{{currentPeriodEnd,shortdate}}"
+        },
+        "trialStart": {
+            "label": "Trial Start",
+            "value": "{{trialStart,shortdate}}"
+        },
+        "trialEnd": {
+            "label": "Trial End",
+            "value": "{{trialEnd,shortdate}}"
+        },
+        "lastUpdate": {
+            "label": "Last Update",
+            "value": "{{lastUpdate,shortdate}}"
+        },
+        "planId": "Plan Id",
+        "cancel": "Cancel Your Subscription",
+        "renew": "Renew Your Subscription",
+        "statuses": {
+            "trialing": {
+                "title": "Free Trial Period",
+                "description": "Your Pokebattler subscription comes with a trial period to allow you the option to cancel with no charge if you are not happy with the service."
+            },
+            "active": {
+                "title": "Active Membership",
+                "description": "Your Pokebattler membership is started.  Your membership is set to renew at {{currentPeriodEnd}}"
+            },
+            "incomplete": {
+                "title": "Incomplete Membership",
+                "description": "Your Pokebattler membership requires action by you to complete.  You need to confirm your subscription with your payment provider."
+            },
+            "incomplete_expired": {
+                "title": "Incomplete Membership",
+                "description": "Your Pokebattler membership required action by you to complete but that time has passed. You will need to subscribe again."
+            },
+            "past_due": {
+                "title": "Past Due Membership",
+                "description": "Your Pokebattler membership did not go through.  You will need to update your payment information and subscribe again"
+            },
+            "canceled": {
+                "title": "Canceled Membership",
+                "description": "Your Pokebattler membership was canceled.  Your last membership date was {{currentPeriodEnd}}."
+            }
+
+
+
+        }
+    },
+    "countryCodes": {
+        "AU": "Australia",
+        "AT": "Austria",
+        "BE": "Belgium",
+        "CA": "Canada",
+        "DK": "Denmark",
+        "FI": "Finland",
+        "FR": "France",
+        "DE": "Germany",
+        "HK": "Hong Kong",
+        "IE": "Ireland",
+        "IT": "Italy",
+        "JP": "Japan",
+        "LU": "Luxembourg",
+        "NL": "Netherlands",
+        "NZ": "New Zealand",
+        "NO": "Norway",
+        "PT": "Portugal",
+        "ES": "Spain",
+        "SE": "Sweden",
+        "CH": "Switzerland",
+        "GB": "United Kingdom",
+        "US": "United States"
     }
 }
