@@ -220,7 +220,7 @@
             "contact": "Contact Us",
             "translate": "Translate",
             "counters": "Counters",
-            "battleParties": "$t(battleParties)",
+            "battleParties": "$t(common:battleParties)",
             "account": "My Account",
             "more": "More",
             "privacy": "Privacy",
@@ -253,6 +253,13 @@
             "account": "",
             "more": "Read News and articles, download  infographics, help translate for us, about us, and privacy policy for Pokebattler for Pokemon Go"
         }
+    },
+    "battlePartiesSelect": {
+        "label": "Choose Your $t(common:battleParty)",
+        "emptyName": "$t(common:battleParty) {{value}}",
+        "noneFound": "No $t(common:battleParties) found for this league",
+        "create": "Create $t(common:battleParty)",
+        "edit": "Edit"
     },
     "randomAssistants": {
         "title": "Extra Random Trainers",

@@ -20,6 +20,8 @@
       "image": "https://static.pokebattler.com/images/og_pvp_matrix.PNG"
     },
     "submit": "Calculate",
+    "swap": "Swap",
+    "copy": "Copy",
     "results" : {
       "description": "The attackers you have chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
       "error": {
@@ -32,6 +34,7 @@
       "addPokemon": "Add Pokemon",
       "showMoveTypes": "Show Move Types",
       "showPokemonTypes": "Show Pokemon Types",
+      "chooseParty": "Choose Battle Party",
       "requiresSubscription": {
         "title":  "Maximum Matrix Size Reached",
         "description": "Support Pokebattler for higher limits"
