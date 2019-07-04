@@ -1,10 +1,10 @@
 {
-    "title": "戰鬥模擬器",
+    "title": "道館對戰模擬器",
     "startButton": "對戰",
     "attacker": "攻擊方",
-    "attackerPlaceHolder": "選擇攻擊方",
+    "attackerPlaceHolder": "選擇 $t(attacker)",
     "defender": "防守方",
-    "defenderPlaceHolder": "選擇防守方",
+    "defenderPlaceHolder": "選擇 $t(defender)",
     "relatedBattles": {
         "title": "相關戰役",
         "description": "選擇下方你想更改的參數，點擊連結以使用新參數重新開始模擬。模擬結果將立即更改。",
@@ -36,11 +36,52 @@
             "links": {
                 "repo": "開放原始碼軟體專案網站"
             },
-            "text": "{{helpLink}}中對於戰鬥模擬是如何計算有詳細的說明。如果你想多了解本遊戲的戰鬥相關研究資料，請參閱{{aboutLink}}。本網站(Pokebattler)是一個開放原始碼的軟體專案，如果您發現任何程式錯誤或您認為有問題的地方，歡迎到{{repoLink}}回報給我們。"
+            "text": "{{helpLink}}中對於戰鬥模擬是如何計算有詳細的說明。如果你想多了解本遊戲的戰鬥相關研究資料，請參閱{{aboutLink}}。"
         },
         "pvp": {
             "description": "模擬結果為玩家{{attacker.userId}}使用戰鬥小組「{{attacker.battlePartyId}}」 {{result}} 防守方{{attacker.userId}}的戰鬥小組「{{attacker.battlePartyId}}」。本次模擬進攻方採用的攻擊策略為 {{strategies.attack}} 閃躲策略{{strategies.dodge}} ，而防守方的防守策略{{strategies.defense}}攻擊策略為{{strategies.defenseDodge}} ，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。"
+        },
+        "gym": {
+            "title": "{{attacker.name}} vs. {{defender.name}} 戰鬥模擬",
+            "meta": {
+                "description": "進攻方  {{attacker.name}} 技能 {{attacker.quickMove}} 和 {{attacker.specialMove}} vs 防守方 {{defender.name}} 技能 {{defender.quickMove}} 和 {{defender.specialMove}} 的道館對戰結果",
+                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+            }
+        },
+        "explore": {
+            "title": "瀏覽結果",
+            "subtitle": "拖拽列來進行個性化分析",
+            "columns": {
+                "attackerId": "ID",
+                "attackerGroup": "組",
+                "attackerOrder": "順序",
+                "battlePartyUserId": "用戶",
+                "battlePartyTrainer": "訓練家",
+                "combatTime": "戰鬥時間",
+                "currentTime": "當前時間",
+                "damageDealt": "傷害輸出",
+                "damageReceived": "承受傷害",
+                "energy": "能量",
+                "move": "技能",
+                "moveType": "技能類型",
+                "attacker": "攻擊方",
+                "defender": "防守方"
+            }
         }
     },
-    "runAgain": "重新模擬"
+    "runAgain": "重新模擬",
+    "meta": {
+        "description": "Pokebattler 道館戰鬥模擬器通過包含天氣加成的逐秒模擬，爲您提供世界上最精確的道館戰鬥結果。"
+    },
+    "raidBattlePartyTitle": "團體戰戰鬥小隊模擬器",
+    "raid": {
+        "title": "團體戰模擬器",
+        "meta": {
+            "description": "Pokebattler 團體戰模擬器通過分析至多20個戰鬥小隊，好友團體戰獎勵和天氣加成，爲您提供世界上最精確的團體戰結果。"
+        }
+    },
+    "pvp": {
+        "title": "PVP模擬器"
+    },
+    "recommended": "推薦"
 }
