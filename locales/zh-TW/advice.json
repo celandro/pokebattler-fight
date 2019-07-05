@@ -22,7 +22,8 @@
         "analysis": {
             "title": "關於此分析",
             "attackers": {
-                "byLevel": "等級{{attackerLevel}}攻擊者"
+                "byLevel": "等級{{attackerLevel}}攻擊者",
+                "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
             }
         }
     },

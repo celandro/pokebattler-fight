@@ -610,7 +610,12 @@
         "SHELLOS_WEST_SEA_FORM": "Schalellos - Westliches Meer",
         "SHELLOS_EAST_SEA_FORM": "Schalellos - Östliches Meer",
         "GASTRODON_WEST_SEA_FORM": "Gastrodon - Westliches Meer",
-        "GASTRODON_EAST_SEA_FORM": "Gastrodon - Östliches Meer"
+        "GASTRODON_EAST_SEA_FORM": "Gastrodon - Östliches Meer",
+        "MELTAN": "Meltan",
+        "MELMETAL": "Melmetal",
+        "BURMY_PLANT_FORM": "Burmy - Pflanze",
+        "BURMY_SANDY_FORM": "Burmy - Sand",
+        "BURMY_TRASH_FORM": "Burmy - Lumpen"
     },
     "moves": {
         "undefined": " ",
@@ -824,7 +829,15 @@
         "HYDRO_CANNON": "Aquahaubitze",
         "REJOIN": "Wiederbeigetreten",
         "LAST_RESORT": "Zuflucht",
-        "METEOR_MASH": "Sternenhieb"
+        "METEOR_MASH": "Sternenhieb",
+        "POWER_UP_PUNCH": "Steigerungshieb",
+        "MOVE_UNSET": "unbekannt",
+        "MOVE_NONE": "keiner",
+        "MOVE_SHIELD": "abgewehrt",
+        "MOVE_PASS": "kein Schild",
+        "ACID_SPRAY": "Säurespeier",
+        "LEAF_TORNADO": "Grasmixer",
+        "ATTACK_BUFF": "Angriffs-Erhöhung"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unbekannt",
@@ -880,6 +893,9 @@
             "undefined": {
                 "label": "Unbekannt",
                 "description": "Das sollte nicht passieren, bitte lasse uns wissen, wenn doch!"
+            },
+            "PVP": {
+                "label": "Trainerkampf"
             }
         },
         "dodge": {
@@ -910,7 +926,8 @@
             "DODGE_90": {
                 "label": "90% Ausweichen",
                 "description": "Weicht zu 90% aus"
-            }
+            },
+            "label": "Ausweich-Strategie"
         },
         "defense": {
             "DEFENSE": {
@@ -948,6 +965,19 @@
             "DEFENSE_PATTERN2": {
                 "label": "Verteidigungsmuster",
                 "description": "Ein Muster von Verzögerungen und Attacken wird für diese Einzelsimulation benutzt. Dies wird intern für die Optimierung von Monte Carlo Simulationen ohne Ausweichen benutzt"
+            }
+        },
+        "meta": {
+            "DUAL_MOVE": {
+                "description": "Alle Pokémon verwenden die beste Ladeattacken-Kombination."
+            },
+            "SINGLE_MOVE": {
+                "description": "Alle Pokémon verwenden die besten Ladeattacken ohne zweite Attacke."
+            }
+        },
+        "shield": {
+            "SHIELD_RANDOM": {
+                "description": "Wehrt in 33% der Fälle ein Mal und in 17% zwei Mal ab"
             }
         }
     },
@@ -1046,5 +1076,11 @@
     },
     "battlePartyTypes": {
         "label": "Liga"
+    },
+    "sorts": {
+        "label": "Sortierreihenfolge",
+        "WIN": {
+            "description": "Siegeschance"
+        }
     }
 }
