@@ -81,7 +81,7 @@
     "pokebox": "寶可夢盒子",
     "advice": "團體戰建議",
     "login": "登入",
-    "trainer": "訓練師",
+    "trainer": "訓練家",
     "more": "更多",
     "pokemon": "寶可夢",
     "status": {
@@ -137,5 +137,12 @@
             "contact": "聯絡我們",
             "translate": "翻譯"
         }
-    }
+    },
+    "choosePokemon": "選擇寶可夢",
+    "friendLevels": "友誼等級",
+    "shieldStrategy": "防御網使用策略",
+    "shiny": "異色",
+    "lucky": "亮晶晶",
+    "id": "ID",
+    "seconds": "秒"
 }

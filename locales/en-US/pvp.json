@@ -10,13 +10,65 @@
     "joinCTA": "Contact us for details"
   },
   "matrix": {
-    "title": "Pokemon Go PvP Matrix Simulator",
+    "title": "PvP Matrix Simulator",
     "description": "See the results of your team of Pokemon battling an opposing team of Pokemon",
+    "loggedOut": "This feature is for logged in users only for performance reasons. It allows you to investigate every possible combination of results of two sets of pokemon. Create a free account in seconds to try this exciting new feature!",
+    "benefits": "Subscribers are able to run matrix simulations on a larger number of Pokemon and combinations of moves among other benefits.",
+    "zeroTypes": "Your subscription level does not allow for Matrix simulations by type. Upgrade today!",
     "meta": {
       "description": "$t(pvp:matrix.description)",
-      "image": "https://static.pokebattler.com/images/og_pvp_rankings.PNG"
+      "image": "https://static.pokebattler.com/images/og_pvp_matrix.PNG"
     },
-    "submit": "Calculate"
+    "submit": "Calculate",
+    "swap": "Swap",
+    "copy": "Copy",
+    "results" : {
+      "description": "The attackers you have chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
+      "error": {
+        "title": "No Results Returned",
+        "description": "No pokemon matched your result. Only relavant Pokemon are covered by this tool. You likely need to change your League type or pick Pokemon closer to the maximum CP for this league."
+      }
+
+    },
+    "params": {
+      "addPokemon": "Add Pokemon",
+      "showMoveTypes": "Show Move Types",
+      "showPokemonTypes": "Show Pokemon Types",
+      "chooseParty": "Choose Battle Party",
+      "requiresSubscription": {
+        "title":  "Maximum Matrix Size Reached",
+        "description": "Support Pokebattler for higher limits"
+      },
+      "attackerLeague": {
+        "title": "Choose Attackers",
+        "subtitle": "Matrix limits are based on your subscription",
+        "pokemonCategory": {
+          "title": "Choose Your Pokemon",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+          "description": "Touch a Pokemon to customize the moves or stats."
+        },
+        "pokemonType": {
+          "title": "Choose Your Types",
+          "subtitle": "{{numTypes}}/{{maxTypes}} Types",
+          "description": "Add all Pokemon of these types to your attackers."
+        }
+      },
+      "defenderLeague": {
+        "title":"Choose Defenders",
+        "subtitle": "Upgrade for larger matrix sims",
+        "pokemonCategory": {
+          "title": "Choose Their Pokemon",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+          "description": "Touch a Pokemon to customize the moves or stats."
+        },
+        "pokemonType": {
+          "title": "Choose Their Types",
+          "subtitle": "{{numTypes}}/{{maxTypes}} Types",
+          "description": "Add all Pokemon of these types to your defenders."
+        }
+
+      }
+    }
   },
   "rankings": {
     "title": "PvP Rankings",
@@ -152,11 +204,11 @@
       },
       "COMBAT_LEAGUE_DEFAULT_ULTRA": {
         "title": "Ultra League",
-        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Blastoise. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
       },
       "COMBAT_LEAGUE_DEFAULT_MASTER": {
         "title": "Master League",
-        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge mives. This is a very expensive league to be competitive in and is not recommended for beginners"
+        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
       },
       "COMBAT_LEAGUE_SILPH_CUP": {
         "title": "{{title}}",
@@ -173,11 +225,36 @@
       "COMBAT_LEAGUE_SILPH_CUP_PRE_3": {
         "title": "{{title}}",
         "intro": "This is a future cup for the Silph Arena monthly competition.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
+        "title": "{{title}}",
+        "intro": "Silph Season 1 Regional Tournament competition. This is a second round of tournaments for the Silph Arena monthly competition.   For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season One Championship is the final tournament of the season. Mythicals and Legendaries are banned. Altaria, Azumarill, Bastiodon, Lucario, Medicham, Meganium, Probopass, Skarmory, Tropius, and Venusaur are restricted to a total of 2 per team of 6. For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_LIMITED": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season One Championship limited Pokemon ranked against themselves."
+      },
+      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_UNLIMITED": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season One Championship unlimited Pokemon ranked without the limited Pokemon."
+      },
+      "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena cup for July. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {
       "WITH_POKEMON_CP_LIMIT": "Max CP",
       "WITH_POKEMON_TYPE": "Pokemon Types",
+      "WITH_POKEMON_CATEGORY": "Category",
       "NONE": "No Limits"
     }
   }
