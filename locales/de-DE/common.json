@@ -16,7 +16,10 @@
     "stats": {
         "attack": "Angriff",
         "defense": "Verteidigung",
-        "stamina": "Ausdauer"
+        "stamina": "Ausdauer",
+        "individualAttack": "$t/common:stats.attack)",
+        "individualDefense": "$t(common:stats.defense)",
+        "individualStamina": "$t(common:stats.stamina)"
     },
     "statsAbbr": {
         "attack": "Ang",
@@ -38,7 +41,7 @@
         "time": "Zeit zum Sieg",
         "realTime": "Zeit",
         "prestige": "Prestige",
-        "dps": "SPS",
+        "dps": "DPS",
         "potions": "Tränke",
         "damage": "Schaden",
         "energy": "Energie",
@@ -211,5 +214,7 @@
         "default": "Niemals"
     },
     "find": "Finde",
-    "profiles": "Profile"
+    "profiles": "Profile",
+    "specialMove2": "Ladeattacke 2",
+    "id": "Id"
 }
