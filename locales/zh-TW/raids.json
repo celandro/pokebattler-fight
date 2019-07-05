@@ -23,7 +23,7 @@
             },
             "description": "該團體戰分析是關於{{defender.cp}} CP的防禦方{{defender.pokemon}}和攻擊方 {{attackers}}的模擬結果。模擬是根據{{attackStrategy}}攻擊策略和{{defenseStrategy}}防禦策略執行的。針對防禦方{{defender.pokemon}}的所有技能組合和所有寶可夢的所有技能組合總計進行了{{numSims}}次模擬。最好的20個進攻方已經依據 {{sort}}排序並展示如下。您可以點擊任意一個攻擊方查看模擬情況並嘗試不同的技能組合。"
         },
-        "title": "團戰建議",
+        "title": "{{defender}} 打手",
         "calculating": "團戰模擬中",
         "meta": {
             "description": "針對{{defender}}最好的35級應對陣容是{{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}。查看自定義結果獲取更多信息!"
@@ -139,10 +139,13 @@
             "almost": "擊敗 {{pokemon}} 需要 {{numPeople}} 個擁有強力寶可夢的训练家。如果你運氣很好,你也許能在少一個訓練家的情況下擊敗它。",
             "trivial": "擊敗 {{pokemon}} 需要 {{numPeople}} 個擁有強力寶可夢的训练家。這場戰鬥應該非常容易，你只需要照搬推薦的陣容就能獲得勝利。"
         },
-        "difficultyRating": "難度等級：{{rating}}"
+        "difficultyRating": "難度等級：{{rating}}",
+        "title": "Pokebattler 預估結果",
+        "adviceLink": "看看如果升級之後會有什麼變化"
     },
     "silph": {
-        "text": "当前團體戰頭目列表的提供者是"
+        "text": "当前團體戰頭目列表的提供者是",
+        "link": "The Silph Road"
     },
     "breakingNews": {
         "title": "快訊",
@@ -159,6 +162,6 @@
     "emptyResults": {
         "LEVEL": "這次計算沒有返回結果。伺服器可能存在問題。",
         "POKEBOX": "這次計算沒有返回結果。是不是您的寶可夢盒子裏還沒有添加任何寶可夢？",
-        "FRIEND": "這次計算沒有返回結果。是不是您的朋友還沒有添加任何寶可夢到他的寶可夢盒子？不如換一個訓練家試試？"
+        "FRIEND": "這次計算沒有返回結果。是不是您的朋友還沒有添加任何寶可夢到他的寶可夢盒子？不如換一個訓練家試試。"
     }
 }

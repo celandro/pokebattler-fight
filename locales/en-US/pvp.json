@@ -14,11 +14,14 @@
     "description": "See the results of your team of Pokemon battling an opposing team of Pokemon",
     "loggedOut": "This feature is for logged in users only for performance reasons. It allows you to investigate every possible combination of results of two sets of pokemon. Create a free account in seconds to try this exciting new feature!",
     "benefits": "Subscribers are able to run matrix simulations on a larger number of Pokemon and combinations of moves among other benefits.",
+    "zeroTypes": "Your subscription level does not allow for Matrix simulations by type. Upgrade today!",
     "meta": {
       "description": "$t(pvp:matrix.description)",
       "image": "https://static.pokebattler.com/images/og_pvp_matrix.PNG"
     },
     "submit": "Calculate",
+    "swap": "Swap",
+    "copy": "Copy",
     "results" : {
       "description": "The attackers you have chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
       "error": {
@@ -29,20 +32,39 @@
     },
     "params": {
       "addPokemon": "Add Pokemon",
+      "showMoveTypes": "Show Move Types",
+      "showPokemonTypes": "Show Pokemon Types",
+      "chooseParty": "Choose Battle Party",
+      "requiresSubscription": {
+        "title":  "Maximum Matrix Size Reached",
+        "description": "Support Pokebattler for higher limits"
+      },
       "attackerLeague": {
         "title": "Choose Attackers",
-        "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+        "subtitle": "Matrix limits are based on your subscription",
         "pokemonCategory": {
-          "title": "Custom Attacker List",
-          "subtitle": "Choose Your Pokemon"
+          "title": "Choose Your Pokemon",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+          "description": "Touch a Pokemon to customize the moves or stats."
+        },
+        "pokemonType": {
+          "title": "Choose Your Types",
+          "subtitle": "{{numTypes}}/{{maxTypes}} Types",
+          "description": "Add all Pokemon of these types to your attackers."
         }
       },
       "defenderLeague": {
         "title":"Choose Defenders",
-        "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+        "subtitle": "Upgrade for larger matrix sims",
         "pokemonCategory": {
-          "title": "Custom Defender List",
-          "subtitle": "Choose Their Pokemon"
+          "title": "Choose Their Pokemon",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokemon",
+          "description": "Touch a Pokemon to customize the moves or stats."
+        },
+        "pokemonType": {
+          "title": "Choose Their Types",
+          "subtitle": "{{numTypes}}/{{maxTypes}} Types",
+          "description": "Add all Pokemon of these types to your defenders."
         }
 
       }
@@ -207,11 +229,32 @@
       "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
         "title": "{{title}}",
         "intro": "Silph Season 1 Regional Tournament competition. This is a second round of tournaments for the Silph Arena monthly competition.   For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season One Championship is the final tournament of the season. Mythicals and Legendaries are banned. Altaria, Azumarill, Bastiodon, Lucario, Medicham, Meganium, Probopass, Skarmory, Tropius, and Venusaur are restricted to a total of 2 per team of 6. For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_LIMITED": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season One Championship limited Pokemon ranked against themselves."
+      },
+      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_UNLIMITED": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season One Championship unlimited Pokemon ranked without the limited Pokemon."
+      },
+      "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena cup for July. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {
       "WITH_POKEMON_CP_LIMIT": "Max CP",
       "WITH_POKEMON_TYPE": "Pokemon Types",
+      "WITH_POKEMON_CATEGORY": "Category",
       "NONE": "No Limits"
     }
   }

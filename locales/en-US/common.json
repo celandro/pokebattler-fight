@@ -2,6 +2,7 @@
     "back": "Back",
     "save": "Save",
     "cancel": "Cancel",
+    "clear": "Clear",
     "delete": "Delete",
     "reset": "Reset",
     "note": "Note",
@@ -86,7 +87,7 @@
         "about": "About section"
     },
     "simulation": "one simulation was",
-    "simulation_plural": "{{count}} simulations were",
+    "simulation_plural": "{{count, commas}} simulations were",
     "chooseMovesetLabel": "Choose Moveset",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) performed to generate this high quality simulation",
@@ -131,6 +132,7 @@
         "success": "Success",
         "error": "Error",
         "bulk": "Importing",
+        "subscription": "Subscription",
         "newVersion": "New Release"
     },
     "message": {
@@ -140,7 +142,21 @@
         "update": "Updating your pokemon",
         "success": "Success",
         "error": "Oops, something went wrong. Try again in a couple seconds",
-        "newVersion": "A new version is available, reload your browser"
+        "newVersion": "A new version is available, reload your browser",
+        "subscriptionStripe": "Verifying credentials",
+        "subscriptionPokebattler": "Purchasing subscription",
+        "subscriptionSuccess": "Successfully purchased subscription",
+        "subscriptionStripeFailure": "Stripe rejected your credentials",
+        "subscriptionPokebattlerFailure": "Could not purchase subscription",
+        "subscriptionCancel": "Canceling subscription",
+        "subscriptionRenew": "Renewing subscription",
+        "subscriptionCardUpdate": "Updating payment information",
+        "subscriptionCardUpdateSuccess": "Successfully updated payment information",
+        "subscriptionCardUpdateFailure": "Could not update payment information"
+    },
+    "genericError": {
+        "title": "$t(common:status.error)",
+        "description": "$t(common:message.error)"
     },
     "site": {
         "alpha": "Alpha Site",
@@ -163,17 +179,19 @@
         "rankings": "Finding the best Pokemon by simulating combat between every single Pokemon matchup available. This will take a bit."
     },
     "patreon": {
-        "ad1": "Pokebattler is doing an ad free trial. Please support us on Patreon to keep us ad free, get more Pokebox space, run more accurate sims, get more features and more!",
-        "ad2": "Sign up for a free Patreon account and get 25 Pokebox spaces free. Simply log in using Patreon, no donation required.",
-        "ad3": "Optimize your Raids. Sign up for Patreon for more accurate results and special features.",
-        "ad4": "Love Pokebattler? Keep us going and ad free. Sign up for Patreon today and get more space, better results, exclusive tools and more.",
-        "ad5": "Pokebattler is made possible by our Patreon supporters. Sign up for your free account today for 25 extra Pokebox slots.",
-        "ad6": "Take your gaming to the next level with a Pokebattler Patreon account. Sign up now.",
+        "ad1": "Please subscribe for an ad free experience, get more Pokebox space, run more accurate sims, get more features and more!",
+        "ad2": "Multi month Pokebattler subscriptions are a great value",
+        "ad3": "Optimize your Raids. Sign up for Pokebattler Standard Plan for more accurate results and special features.",
+        "ad4": "Love Pokebattler? Subscribe today and get more space, better results, exclusive tools and more.",
+        "ad5": "Pokebattler is made possible by our supporters.",
+        "ad6": "Take your gaming to the next level with a Pokebattler Subscription. Sign up now.",
         "shortAd": "Dislike ads? Subscribe today"
     },
     "menu": {
+        "menu": "Menu",
         "index": "Pokebattler.com",
         "patreon": "Support Us On Patreon",
+        "subscription": "Support Pokebattler By Subscribing",
         "follow": "Follow us!",
         "social": {
             "reddit": "Reddit",
@@ -202,7 +220,7 @@
             "contact": "Contact Us",
             "translate": "Translate",
             "counters": "Counters",
-            "battleParties": "$t(battleParties)",
+            "battleParties": "$t(common:battleParties)",
             "account": "My Account",
             "more": "More",
             "privacy": "Privacy",
@@ -211,7 +229,8 @@
             "pvppokedex": "$t(pvp)",
             "news": "News",
             "profiles": "Public Profiles",
-            "matrix": "Matrix"
+            "matrix": "Matrix",
+            "subscription": "Subscription"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
@@ -234,6 +253,13 @@
             "account": "",
             "more": "Read News and articles, download  infographics, help translate for us, about us, and privacy policy for Pokebattler for Pokemon Go"
         }
+    },
+    "battlePartiesSelect": {
+        "label": "Choose Your $t(common:battleParty)",
+        "emptyName": "$t(common:battleParty) {{value}}",
+        "noneFound": "No $t(common:battleParties) found for this league",
+        "create": "Create $t(common:battleParty)",
+        "edit": "Edit"
     },
     "randomAssistants": {
         "title": "Extra Random Trainers",
@@ -263,7 +289,9 @@
     },
     "loading": {
         "wait": "Loading...",
-        "error": "Sorry, there was a problem loading the page. Check your connection"
+        "timeout": "Taking a long time...",
+        "error": "Sorry, there was a problem loading the page. Check your connection",
+        "retry": "Retry"
     }
 
 }

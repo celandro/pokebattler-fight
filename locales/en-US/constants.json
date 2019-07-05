@@ -845,10 +845,27 @@
         "DEFENSE_BUFF": "Defense Buff",
         "ACID_SPRAY": "Acid Spray",
         "LEAF_TORNADO": "Leaf Tornado",
+        "SKULL_BASH":"Skull Bash",
+        "EARTH_POWER":"Earth Power",
+        "CRABHAMMER":"Crabhammer",
+        "LUNGE":"Lunge",
+        "CRUSH_CLAW":"Crush Claw",
+        "OCTAZOOKA":"Octazooka",
+        "MIRROR_SHOT":"Mirror Shot",
+        "SUPER_POWER":"Super Power",
+        "FELL_STINGER":"Fell Stinger",
+        "LEECH_LIFE":"Leech Life",
+        "DRAIN_PUNCH":"Drain Punch",
+        "SHADOW_BONE":"Shadow Bone",
+        "MUDDY_WATER":"Muddy Water",
+        "BLAZE_KICK":"Blaze Kick",
+        "RAZOR_SHELL":"Razor Shell",
         "WEATHER_BALL_FIRE": "Weather Ball",
         "WEATHER_BALL_ICE": "Weather Ball",
         "WEATHER_BALL_ROCK": "Weather Ball",
-        "WEATHER_BALL_WATER": "Weather Ball"
+        "WEATHER_BALL_WATER": "Weather Ball",
+        "CHARM_FAST": "Charm",
+        "GIGA_IMPACT": "Giga Impact"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
@@ -1015,7 +1032,7 @@
             },
             "DEFENSE_RANDOM_MC_EX": {
                 "label": "Monte Carlo - Platinum",
-                "description": "A special benefit for Fanatics on Patreon. An excessively accurate result. 500 random simulations are run and combined together to make one overall result based on your aggregation choice. Most useful when looking at percentiles"
+                "description": "A special benefit for Fanatics and Champions. An excessively accurate result. 500 random simulations are run and combined together to make one overall result based on your aggregation choice. Most useful when looking at percentiles"
             },
             "DEFENSE_PATTERN": {
                 "label": "Defense Pattern - RNG",
@@ -1196,14 +1213,33 @@
             "description": "TBD"
         },
         "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
-            "label": "Next Silph Arena Cup",
-            "description": "The next Silph Arena Cup tournament."
+            "label": "Silph Arena Nightmare Cup",
+            "description": "The latest Silph Arena Cup tournament."
         },
         "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
             "label": "Silph Arena Regional Tournament",
             "description": "Season 1 Regional Tournament for the Silph Arena Cup."
+        },
+        "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
+            "label": "Silph Arena Rainbow Cup",
+            "description": "The latest Silph Arena Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
+            "label": "Silph Arena Championship",
+            "description": "The Silph Arena Championship for Season 1"
+        },
+        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_LIMITED": {
+            "label": "Silph Arena Championship (Limited)",
+            "description": "The Silph Arena Championship's restricted Pokemon"
+        },
+        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_UNLIMITED": {
+            "label": "Silph Arena Championship (Unlimited)",
+            "description": "The Silph Arena Championship's unrestricted Pokemon"
+        },
+        "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
+            "label": "Silph Arena Jungle Cup",
+            "description": "The July Silph Arena Cup tournament."
         }
-
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
