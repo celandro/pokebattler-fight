@@ -11,7 +11,7 @@
             "fromApi": "$t(login.success.title)! 請稍等片刻再繼續."
         },
         "patreon": "使用Patreon賬號登入",
-        "patreonDescription": "Patreon支持者可以獲得更大的寶可夢盒子空間，更好的個性化模擬和團戰建議!"
+        "patreonDescription": "Pokebattler现在支持 Stripe订阅啦！我們強烈建議Patreon訂閱者遷移到新的訂閱計劃來。所在國家不支持Stripe或是希望通過Paypal付款的用戶可以繼續使用Patreon。"
     },
     "details": {
         "welcome": "歡迎",
