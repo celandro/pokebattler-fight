@@ -619,7 +619,10 @@
         "MELMETAL": "Melmetal",
         "BURMY_PLANT_FORM": "Burmy - Plant",
         "BURMY_SANDY_FORM": "Burmy - Sandy",
-        "BURMY_TRASH_FORM": "Burmy - Trash"
+        "BURMY_TRASH_FORM": "Burmy - Trash",
+        "MEWTWO_A_FORM": "Mewtwo - Armored",
+        "MEWTWO_A_INTRO_FORM": "Mewtwo - Armored (Intro)",
+        "MEWTWO_NORMAL_FORM": "Mewtwo - Normal"
     },
     "moves": {
         "undefined": "Undefined",
