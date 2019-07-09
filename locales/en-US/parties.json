@@ -1,5 +1,5 @@
 {
-  "title": "Battle Parties - Beta",
+  "title": "Battle Parties",
   "meta": {
     "description": "Store your Pokemon Go battle party"
   },
@@ -7,12 +7,30 @@
   "battlePartyList": {
     "title": "Your Battle Parties"
   },
+  "full": {
+    "title": "Party Full",
+    "description": "You have reached the party size limit for this league"
+  },
+  "empty": {
+    "title": "Party Empty",
+    "description": "You have not added any Pokemon from your Pokebox to this Party"
+  },
   "add": {
     "title": "Battle Party",
     "meta": {
-      "description": "Add a Pokemon Go battle party"
+      "description": "Create your battle party"
     },
-    "description": "Create your battle party",
-    "full": "Your party is full"
+    "description": "Choose a name for your Battle Party below in the box. Then add the party members by clicking on the 'add pokemon from your pokebox' button. Finally adjust the stats of your Pokemon by clicking on it",
+    "modify": "Add Pokemon From Your Pokebox"
+  },
+
+  "edit": {
+    "title": "Battle Party Edit",
+    "meta": {
+      "description": "Edit Your Battle Party"
+    },
+    "description": "Update the name of your Battle Party below in the text box. You can also change the league with the drop down. Then change the party members by clicking the 'change your battle party members' button. Finally, modify the stats of each Pokemon by clicking on it!",
+    "modify": "Change Your Battle Party Members"
+
   }
 }
