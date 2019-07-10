@@ -868,7 +868,10 @@
         "WEATHER_BALL_ROCK": "Weather Ball",
         "WEATHER_BALL_WATER": "Weather Ball",
         "CHARM_FAST": "Charm",
-        "GIGA_IMPACT": "Giga Impact"
+        "GIGA_IMPACT": "Giga Impact",
+        "FRUSTRATION": "Frustration",
+        "RETURN": "Return",
+        "SYNCHRONOISE": "Synchronoise"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
