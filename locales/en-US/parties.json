@@ -1,5 +1,15 @@
 {
   "title": "Battle Parties",
+  "select": {
+    "label": "Choose Your $t(common:battleParty)",
+    "emptyName": "$t(common:battleParty) {{value}}",
+    "noneFound": "No $t(common:battleParties) found for this league",
+    "create": "Create $t(common:battleParty)",
+    "edit": "Edit",
+    "title": "Choose A Battle Party",
+    "open": "Choose  $t(common:battleParty)",
+    "close": "Select"
+  },
   "meta": {
     "description": "Store your Pokemon Go battle party"
   },
