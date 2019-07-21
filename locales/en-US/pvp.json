@@ -232,7 +232,7 @@
       },
       "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
         "title": "{{title}}",
-        "intro": "The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
+        "intro": "The Silph Arena Cup for June using Bug, Fire, Water, Grass and Electric Pokemon from Gen 1 and Gen 2. The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
       },
       "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
         "title": "{{title}}",
@@ -249,7 +249,29 @@
       "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena cup for July. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_BOULDER_CUP": {
+        "title": "{{title}}",
+        "intro": "The first Silph Arena cup ever using Ground, Steel, Rock and Fighting Pokemon, duplicates allowed! The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_TWILIGHT_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena cup from February using Poison, Fairy, Dark and Ghost Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_TEMPEST_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena cup from March using Flying, Ice, Ground and Electric Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_KINGDOM_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena cup from April using Fire, Ice, Dragon and Steel Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena cup from May using Fighting, Dark and Psychic Pokemon with banws on Medicham, Sableye, Legendary and Mythical Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
+
+
     },
     "pokemonCondition": {
       "WITH_POKEMON_CP_LIMIT": "Max CP",

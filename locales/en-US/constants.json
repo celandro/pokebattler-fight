@@ -620,7 +620,7 @@
         "BURMY_PLANT_FORM": "Burmy - Plant",
         "BURMY_SANDY_FORM": "Burmy - Sandy",
         "BURMY_TRASH_FORM": "Burmy - Trash",
-        "MEWTWO_A_FORM": "Mewtwo - Armored",
+        "MEWTWO_A_FORM": "Armored Mewtwo",
         "MEWTWO_A_INTRO_FORM": "Mewtwo - Armored (Intro)",
         "MEWTWO_NORMAL_FORM": "Mewtwo - Normal"
     },
@@ -1218,9 +1218,26 @@
             "label": "Silph Arena Pre Cup 6",
             "description": "TBD"
         },
+        "COMBAT_LEAGUE_SILPH_BOULDER_CUP": {
+            "label": "Silph Arena Boulder Cup",
+            "description": "The First Silph Arena Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_TWILIGHT_CUP": {
+            "label": "Silph Arena Twilight Cup",
+            "description": "The MarchSilph Arena Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_TEMPEST_CUP": {
+            "label": "Silph Arena Tempest Cup",
+            "description": "The April Silph Arena Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_KINGDOM_CUP": {
+            "label": "Silph Arena Kingdom Cup",
+            "description": "The May Silph Arena Cup tournament."
+        },
+
         "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
             "label": "Silph Arena Nightmare Cup",
-            "description": "The latest Silph Arena Cup tournament."
+            "description": "The June Silph Arena Cup tournament."
         },
         "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
             "label": "Silph Arena Regional Tournament",
