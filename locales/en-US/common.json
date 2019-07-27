@@ -36,6 +36,7 @@
         "attack": "Attack",
         "defense": "Defense",
         "stamina": "Stamina",
+        "hp": "Hit Points",
         "individualAttack": "$t(common:stats.attack)",
         "individualDefense": "$t(common:stats.defense)",
         "individualStamina": "$t(common:stats.stamina)"
@@ -43,6 +44,7 @@
     "statsAbbr": {
         "attack": "Att",
         "defense": "Def",
+        "stamina": "Sta",
         "hp": "HP"
     },
     "level": "Level",
@@ -213,6 +215,7 @@
             "personal": "Personal",
             "trainer": "Trainer",
             "pokebox": "Pokebox",
+            "rocket": "Rocket",
             "raidAdvice": "Raid Advice",
             "misc": "Misc.",
             "help": "Help",
@@ -235,6 +238,7 @@
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
             "raids": "Top Counters, Raid Battle Party Simulations and Power Up Advice",
+            "rocket": "Accurate Team Rocket Counters",
             "pvp": "Pvp News, Rankings, Pokedex and Simulations",
             "pvppokedex": "$t(pvp) Counters and Matchups  for every Pokemon",
             "pvprankings": "Top Counters and Matchups for $t(pvp) Leagues and Silph Cup",
