@@ -1,15 +1,15 @@
 {
     "title": "Team Rocket Counters",
     "meta": {
-        "description": "Find Pokemon Go Ream Rocket counters. Get the 24 best counters with the world's #1 custom Team Rocket counter guide.",
+        "description": "Find Pokemon Go Team Rocket counters. Get the 24 best counters with the world's #1 custom Team Rocket counter guide.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "linkLabel": "Team Rocket Counters",
     "intro": "Team Rocket has invaded Pokemon Go and Pokebattler is here to help you fight them off! Battles are 3v3 with you facing your 3 Pokemon off against Team Rocket's boosted Pokemon. These battles can be extremely challenging so make sure you prepare before you challenge them!",
     "breakingNews": {
         "title": "Breaking News",
-        "subtitle": "Popular Raids In Pokemon Go",
-        "header": "Interactive $t(constants:pokemon.{{pokemonId}}) Counters"
+        "subtitle": "Team Rocket Invasions In Pokemon Go",
+        "header": "$t(constants:pokemon.{{pokemonId}}) Rocket Counters"
     },
     "articles": {
         "title": "Latest Team Rocket News!",
@@ -95,70 +95,38 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "The best Pokemon Go level 35 general raid counters vs. {{defender}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
+            "description": "The best Pokemon Go {{defender}} Counters  are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
             "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
         },
-        "calculating": "Calculating Raid Results",
+        "calculating": "Analyzing Team Rocket Defenses",
         "counters": {
             "title": "counters",
             "subtitle": "Best Attackers by",
-            "description": "The following analysis shows the Pokemon that are the strongest raiders in terms of {{sort}} against {{pokemon}}.",
-            "moveSetOrderingDescription": "The move sets are ordered from hardest to raid against to the easiest, make sure to check multiple, the results can vary greatly!",
-            "difficultyNote": "Raid bosses are much harder than a normal battle, you should consider carefully your options.",
+            "description": "The following analysis shows the Pokemon that are the strongest counters in terms of {{sort}} against {{pokemon}}.",
+            "moveSetOrderingDescription": "The move sets are ordered from hardest to battle against to the easiest, make sure to check multiple, the results can vary greatly!",
+            "difficultyNote": "Team Rocket Invasion Shadow Pokemon are much harder than a normal battle, you should consider carefully your options.",
             "chooseMovesetLabel": "Choose Moveset"
         },
         "hardestMovesets": {
             "title": "Most Difficult Raids",
             "subtitle": "For {{pokemon}} by {{sort}}",
-            "tableTitle": "Hardest movesets to raid against",
-            "description": "Raid difficulty can vary greatly based on the moveset of the defending pokemon!"
+            "tableTitle": "Hardest movesets to battle against",
+            "description": "Team Rocket Battle difficulty can vary greatly based on the moveset of the defending pokemon!"
         },
         "analysis": {
             "title": "About This Analysis",
-            "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 20 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
+            "description": "This Team Rocket Battle analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with a Team Rocket Invasion simulator. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 24 attackers with their best moveset based on {{sort}} were kept and are displayed here. ",
             "attackers": {
                 "byLevel": "level {{attackerLevel}} attackers",
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
-        "description": "Welcome to the Pokebattler raid counters guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options.",
+        "description": "Welcome to the Pokebattler Team Rocket counters guide for {{pokemon}}. You can find the best counters based on the moveset of each shadow Pokemon. This guide is customizable in several different ways. You can log in and enter your Pokemon into your Pokebox for the highest accuracy result as view these general results using various sort options.",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
             "link": "See all the benefits you get for signing up",
             "thanks": "Thanks for your support!"
         }
-    },
-    "pokebox": {
-        "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
-        "enabled": "Showing custom results for your Pokebox. The 24 best counters that you own are shown below.",
-        "disabled": "Showing results for level {{level}} attackers. The best 24 counters at that level are shown below.",
-        "friend": "Showing results for user {{userId}}. Their best 24 counters are shown below.",
-        "switchLevel": "Switch To $t(common:attackerTypes.level)",
-        "switchPokebox": "Switch To $t(common:attackerTypes.pokebox)"
-    },
-    "emptyResults": {
-        "LEVEL": "There were no results returned for this calculation. The server may be having issues.",
-        "POKEBOX": "There were no results returned for this calculation. Perhaps you have not entered any pokemon in your pokebox yet?",
-        "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any Pokemon in their pokebox yet? Try a different trainer."
-    },
-    "people": {
-        "title": "Pokebattler Estimator",
-        "difficultyRating": "Difficulty rating: {{rating}}",
-        "adviceLink": "See what happens if you power up",
-        "estimate": {
-            "close": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a very close fight. Bring one more trainer if you can to be safe.",
-            "almost": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. If you are very lucky, you might be able to beat it with 1 less trainer.",
-            "trivial": "Beating {{pokemon}} should take {{numPeople}} trainer with Pokemon of this strength. This fight will be over before it's begun. It's so easy you could just use the in game suggestions and win.",
-            "normal": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. Make sure your group is prepared before the fight.",
-            "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
-        }
-    },
-    "battle": {
-        "resultLink": "See this result as a battle party"
-    },
-    "helpLink": "Watch the Raid tutorial video",
-    "silph": {
-        "text": "Current raid boss list provided by",
-        "link": "The Silph Road"
     }
+
 }
