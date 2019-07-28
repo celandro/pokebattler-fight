@@ -87,9 +87,9 @@
         }
     },
     "custom": {
-        "title": "Custom Raid",
+        "title": "Custom Team Rocket Counters",
         "levelsLabel": "Attacker Levels",
-        "buttonLabel": "Find best raider",
+        "buttonLabel": "Find best counters",
         "attackersLabel": "Attackers"
     },
     "results": {
@@ -108,7 +108,7 @@
             "chooseMovesetLabel": "Choose Moveset"
         },
         "hardestMovesets": {
-            "title": "Most Difficult Raids",
+            "title": "Most Difficult Battles",
             "subtitle": "For {{pokemon}} by {{sort}}",
             "tableTitle": "Hardest movesets to battle against",
             "description": "Team Rocket Battle difficulty can vary greatly based on the moveset of the defending pokemon!"
