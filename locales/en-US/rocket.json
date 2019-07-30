@@ -15,6 +15,10 @@
         "title": "Latest Team Rocket News!",
         "subtitle": "Articles and Videos About Team Rocket From Top Players And Researchers"
     },
+    "note": {
+        "default": "Note: Research is still on going as to the exact mechanics of Team Rocket Pokemon. Actual battle should be easier than suggested here.",
+        "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team Rocket Pokemon but player level is a factor. Actual battle should be easier than suggested here."
+    },
     "tierList": {
         "common": {
             "boss": "Shadow Invasion",
