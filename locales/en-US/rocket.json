@@ -29,10 +29,30 @@
             "subtitle": "Common Shadow Battles",
             "intro": "Rocket Tier 1 battles are easier and should be beatable by anyone using appropriate counters. These battles are against boosted level 27 Pokemon for level 40 players. Lower level players will face easier Pokemon"
         },
+        "RAID_LEVEL_1_FUTURE": {
+            "title": "Future Rocket Tier 1",
+            "subtitle": "Common Shadow Battles",
+            "intro": "Our best guess of future Tier 1 Team Rocket Invasions"
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Legacy Rocket Tier 1",
+            "subtitle": "Common Shadow Battles",
+            "intro": "Past Tier 1 Team Rocket Invasions may return again"
+        },
         "RAID_LEVEL_2": {
             "title": "Rocket Tier 2",
             "subtitle": "Rare Shadow Battles",
             "intro": "Rocket Tier 2 battles are difficult but should be beatable by anyone using powered up appropriate counters. These battles are against boosted level 30 Pokemon for level 40 players. Lower level players will face easier Pokemon"
+        },
+        "RAID_LEVEL_2_FUTURE": {
+            "title": "Future Rocket Tier 2",
+            "subtitle": "Rare Shadow Battles",
+            "intro": "Our best guess of future Tier 2 Team Rocket Invasions"
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Legacy Rocket Tier 2",
+            "subtitle": "Common Shadow Battles",
+            "intro": "Past Tier 2 Team Rocket Invasions may return again"
         },
         "RAID_LEVEL_3": {
             "title": "Rocket Tier 3",
