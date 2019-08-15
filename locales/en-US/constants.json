@@ -1387,7 +1387,7 @@
             "label": "Move Meta",
             "DUAL_MOVE": {
                 "label": "All Dual Charge Moves",
-                "description": "All Pokemon use the best charge move combinations. Up to 24 movesets are returned."
+                "description": "All Pokemon use the best charge move combinations. Up to 30 movesets are returned."
             },
             "SINGLE_MOVE": {
                 "label": "All Single Charge Moves",

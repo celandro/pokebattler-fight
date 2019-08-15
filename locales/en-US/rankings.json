@@ -47,8 +47,8 @@
             "attackers": "attackers",
             "defenders": "defenders",
             "details": {
-                "attackers": "each fully evolved pokemon attacker with every possible moveset simulated against the best 24 defenders with every possible moveset with the Expected strategy. The best 24 attackers with their best moveset based on {{sort}} were kept and are displayed here.",
-                "defenders": "each possible moveset simulated against attackers with every possible moveset with the expected strategy. The worst 6 counters for each pokemon were found and used to determine the best 24 defenders with their best moveset based on {{sort}} were kept and are displayed here."
+                "attackers": "each fully evolved pokemon attacker with every possible moveset simulated against the best 30 defenders with every possible moveset with the Expected strategy. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here.",
+                "defenders": "each possible moveset simulated against attackers with every possible moveset with the expected strategy. The worst 6 counters for each pokemon were found and used to determine the best 30 defenders with their best moveset based on {{sort}} were kept and are displayed here."
             }
         },
         "loading": "Generating {{type}} ranking results. Many millions of simulations were required to perform this analysis but the results will be soon",
@@ -67,7 +67,7 @@
     },
     "featured": {
         "title": {
-            "attacker": "Avg Combat Stats Vs. Best 24 Defenders",
+            "attacker": "Avg Combat Stats Vs. Best 30 Defenders",
             "defender": "Avg Combat Stats Vs. Worst 6 Matchups"
         },
         "deepLink": "See more details for {{pokemon}}"

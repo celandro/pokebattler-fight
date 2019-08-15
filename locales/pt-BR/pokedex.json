@@ -8,7 +8,7 @@
     "loading": "Gerando análises de batalha detalhadas para $t(constants:pokemon.{{pokemon}}). Mais de um milhão de simulações são necessárias para gerar esta página. Mas não vai demorar muito.",
     "about": {
         "title": "Sobre esta Análise de Batalha",
-        "text1": "Esta análise para {{pokemon}} é baseada em simulação de combate com atacantes nível {{attackerLevel}} enfrentando defensores nível {{defenderLevel}}. O ranking da simulação rodou com a estratégia de ataque {{attackStrategy}} usando {{dodgeStrategy}} baseada no tipo de simulação Monte Carlo. Primeiro os 32 melhores oponentes e 32 piores confrontos são encontrados usando a estratégia esperada comparando cada pokemon totalmente evoluído com todas as combinações de ataque tanto do atacante quanto defensor vs. {{pokemon}}. Centenas de simulações monte carlo são executadas contra cada um dos 5 melhores ataques para estes 32 adversários/confrontos num total de {{simulationCount}} simulações. Os melhores 24 oponentes assim como os piores 24 confrontos com seus melhores ataques baseados em {{sort}} são mantidos e mostrados aqui.",
+        "text1": "Esta análise para {{pokemon}} é baseada em simulação de combate com atacantes nível {{attackerLevel}} enfrentando defensores nível {{defenderLevel}}. O ranking da simulação rodou com a estratégia de ataque {{attackStrategy}} usando {{dodgeStrategy}} baseada no tipo de simulação Monte Carlo. Primeiro os 32 melhores oponentes e 32 piores confrontos são encontrados usando a estratégia esperada comparando cada pokemon totalmente evoluído com todas as combinações de ataque tanto do atacante quanto defensor vs. {{pokemon}}. Centenas de simulações monte carlo são executadas contra cada um dos 5 melhores ataques para estes 32 adversários/confrontos num total de {{simulationCount}} simulações. Os melhores 30 oponentes assim como os piores 30 confrontos com seus melhores ataques baseados em {{sort}} são mantidos e mostrados aqui.",
         "text2": "Você pode clicar em qualquer atacante para ver os resultados para aquela simulação particular. A ordem de ordenação pode ser alterada clicando o ícone de ordenação no lado direito superior de cada resultado e selecionar que ordenação você prefere",
         "text3": {
             "text": "Informações adicionais podem ser encontradas no link {{link}}",
@@ -18,7 +18,7 @@
     "bestAttack": {
         "title": "Melhores Movimentos para Ataque",
         "subtitle": "Por $t(common:properties.{{sort}})",
-        "rankingTitle": "Estatísticas Média de Combate Vs. Piores 24 Confrontos"
+        "rankingTitle": "Estatísticas Média de Combate Vs. Piores 30 Confrontos"
     },
     "bestDefense": {
         "title": "Melhores Movimentos de Defesa",

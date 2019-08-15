@@ -1,7 +1,7 @@
 {
     "title": "Team Rocket Counters",
     "meta": {
-        "description": "Find Pokemon Go Team Rocket counters. Get the 24 best counters with the world's #1 custom Team Rocket counter guide.",
+        "description": "Find Pokemon Go Team Rocket counters. Get the 30 best counters with the world's #1 custom Team Rocket counter guide.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "linkLabel": "Team Rocket Counters",
@@ -16,8 +16,8 @@
         "subtitle": "Articles and Videos About Team Rocket From Top Players And Researchers"
     },
     "note": {
-        "default": "Note: Research is still on going as to the exact mechanics of Team Rocket Pokemon. Actual battle should be easier than suggested here.",
-        "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team Rocket Pokemon but player level is a factor. Actual battle should be easier than suggested here."
+        "default": "Team Rocket Pokemon are no longer as powerful as they once were. As long as your Pokemon can resist the quick attack and you use shields on the final boss, the fights should be much easier",
+        "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team Rocket Pokemon but player level is a factor. Team Rocket Pokemon are no longer as powerful as they once were, make sure to check your custom counters again"
     },
     "tierList": {
         "common": {
@@ -139,7 +139,7 @@
         },
         "analysis": {
             "title": "About This Analysis",
-            "description": "This Team Rocket Battle analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with a Team Rocket Invasion simulator. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 24 attackers with their best moveset based on {{sort}} were kept and are displayed here. ",
+            "description": "This Team Rocket Battle analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with a Team Rocket Invasion simulator. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here. ",
             "attackers": {
                 "byLevel": "level {{attackerLevel}} attackers",
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"

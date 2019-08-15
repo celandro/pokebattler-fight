@@ -1,7 +1,7 @@
 {
     "title": "Raid Counters",
     "meta": {
-        "description": "Find Pokemon Go raid counters with weather, friendship and even your own Pokebox. Get the 24 best counters with the world's #1 custom raid guide.",
+        "description": "Find Pokemon Go raid counters with weather, friendship and even your own Pokebox. Get the 30 best counters with the world's #1 custom raid guide.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "linkLabel": "Raid Counters",
@@ -146,9 +146,9 @@
     },
     "pokebox": {
         "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
-        "enabled": "Showing custom results for your Pokebox. The 24 best counters that you own are shown below.",
-        "disabled": "Showing results for level {{level}} attackers. The best 24 counters at that level are shown below.",
-        "friend": "Showing results for user {{userId}}. Their best 24 counters are shown below.",
+        "enabled": "Showing custom results for your Pokebox. The 30 best counters that you own are shown below.",
+        "disabled": "Showing results for level {{level}} attackers. The best 30 counters at that level are shown below.",
+        "friend": "Showing results for user {{userId}}. Their best 30 counters are shown below.",
         "switchLevel": "Switch To $t(common:attackerTypes.level)",
         "switchPokebox": "Switch To $t(common:attackerTypes.pokebox)"
     },
