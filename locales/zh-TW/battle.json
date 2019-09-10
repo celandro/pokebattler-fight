@@ -50,7 +50,7 @@
         },
         "explore": {
             "title": "瀏覽結果",
-            "subtitle": "拖拽列來進行個性化分析",
+            "subtitle": "點擊查看明細",
             "columns": {
                 "attackerId": "ID",
                 "attackerGroup": "組",
