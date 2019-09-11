@@ -1,1 +1,22 @@
-{}
+{
+    "results": {
+        "counters": {
+            "title": "카운터",
+            "moveSetOrderingDescription": "이 기술조합은 어려운것부터 쉬운것 순서대로 정렬되어 있습니다. 기술조합에 따라 결과가 크게 달라질 수 있으니 여러개를 확인하세요!",
+            "chooseMovesetLabel": "기술조합 선택"
+        },
+        "hardestMovesets": {
+            "title": "가장 어려운 레이드",
+            "subtitle": "{{sort}} 기준으로 {{pokemon}} 상대로",
+            "tableTitle": "상대하기에 가장 어려운 기술조합",
+            "description": "레이드 난이도는 방어 포켓몬의 기술조합에 따라 크게 달라질 수 있습니다!"
+        },
+        "analysis": {
+            "title": "이 분석에 대해서",
+            "attackers": {
+                "byLevel": "{{attackerLevel}} 레벨 공격자",
+                "pokebox": "사용자 #{{userId}}의 포케박스의 맞춤 포켓몬"
+            }
+        }
+    }
+}
