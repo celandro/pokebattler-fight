@@ -39,8 +39,8 @@
             "attackers": "atacantes",
             "defenders": "defensores",
             "details": {
-                "attackers": "cada atacante totalmente evoluído com cada ataque possível simulados contra os 30 defensores de maior PC com todos os ataques possíveis com a estratégia Esperada. Os melhores 32 atacantes são então executados com a estratégia Monte Carlo centenas de vezes cada. Os melhores 24 atacantes com seus melhores ataques de acordo com {{sort}} são mantidos e mostrados aqui.",
-                "defenders": "cada possível combinação de ataques simuladas contra os 30 atacantes de melhor PC, 30 melhores potência, 30 melhores gerais e 30 melhores tempo para vencer com todas as possíveis combinações de ataque com a estratégia esperada. Os melhores 32 defensores foram mantidos e simulados contra seus 15 melhores adversários com suas 5 melhores combinações de ataque 300 vezes cada. Finalmente os 5 piores adversários para cada pokemon foram considerados e usados para encontrar os melhores 24 defensores com suas melhores combinações de ataque de acordo com {{sort}} foram mantidos e são mostrados aqui."
+                "attackers": "cada atacante totalmente evoluído com cada ataque possível simulados contra os 30 defensores de maior PC com todos os ataques possíveis com a estratégia Esperada. Os melhores 32 atacantes são então executados com a estratégia Monte Carlo centenas de vezes cada. Os melhores 30 atacantes com seus melhores ataques de acordo com {{sort}} são mantidos e mostrados aqui.",
+                "defenders": "cada possível combinação de ataques simuladas contra os 30 atacantes de melhor PC, 30 melhores potência, 30 melhores gerais e 30 melhores tempo para vencer com todas as possíveis combinações de ataque com a estratégia esperada. Os melhores 32 defensores foram mantidos e simulados contra seus 15 melhores adversários com suas 5 melhores combinações de ataque 300 vezes cada. Finalmente os 5 piores adversários para cada pokemon foram considerados e usados para encontrar os melhores 30 defensores com suas melhores combinações de ataque de acordo com {{sort}} foram mantidos e são mostrados aqui."
             }
         },
         "typeSelection": {
@@ -54,7 +54,7 @@
     },
     "featured": {
         "title": {
-            "attacker": "Estatísticas Médias de Combate Vs. 24 Melhores Defensores",
+            "attacker": "Estatísticas Médias de Combate Vs. 30 Melhores Defensores",
             "defender": "Estatísticas Médias de Combate Vs. 6 Piores Confrontos"
         },
         "deepLink": "Mais detalhes para {{pokemon}}"
