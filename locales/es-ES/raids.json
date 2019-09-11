@@ -78,7 +78,7 @@
             "intro": "Estos jefes de incursión tienen mayor PS comparados con las incursiones de nivel 5. Se desconoce si este es un cambio permanente para todas las incursiones de nivel 5. Usualmente son completadas de a 6 a 10 jugadores de nivel 30 o más. Avezados entrenadores han podido superar estas incursiones con 5 o menos jugadores."
         },
         "RAID_LEVEL_6_LEGACY": {
-            "title": "Nivel 6 - No disponible actualmente",
+            "title": "Nivel 6 - descontinuada",
             "subtitle": "Incursión legendaria con PS adicionales",
             "intro": "Estas incursiones han estado disponible anteriormente, pero no fueron incluidas en la rotación actual. Eventualmente podrían regresar en el futuro para eventos especiales."
         }
@@ -142,7 +142,7 @@
     },
     "helpLink": "Ve el video tutorial sobre incursiones",
     "breakingNews": {
-        "title": "Ultimo Minuto",
+        "title": "Último minuto!",
         "subtitle": "Incursiones de moda en Pokémon GO",
         "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}}) "
     },
