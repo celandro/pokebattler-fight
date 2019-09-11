@@ -1,43 +1,131 @@
 {
     "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg\n"
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg\n",
+        "description": "포켓몬고 로켓단 카운터를 찾으세요. 세계 1위 맞춤 로켓단 카운터에서 상위 24개 카운터를 얻으세요."
     },
     "breakingNews": {
-        "title": "뉴스 속보"
+        "title": "뉴스 속보",
+        "subtitle": "포켓몬고의 로켓단 침공",
+        "header": "$t(constants:pokemon.{{pokemonId}}) 로켓단 카운터"
     },
     "tierList": {
         "RAID_LEVEL_6_LEGACY": {
-            "title": "과거 6티어"
+            "title": "과거 6티어",
+            "subtitle": "어려운 환상 그림자 배틀",
+            "intro": "이 전투들은 현재 로켓단 로테이션에 들어있지 않습니다."
+        },
+        "common": {
+            "boss": "그림자 침공",
+            "raidTier": "그림자 티어"
+        },
+        "RAID_LEVEL_1": {
+            "title": "로켓단 1 티어",
+            "subtitle": "흔한 그림자 배틀",
+            "intro": "로켓단 1티어 전투는 쉽고 적절한 카운터를 사용하는 누구라도 깰 수 있습니다. 이 전투들은 40레벨 플레이어에게 부스트된 27레벨 포켓몬을 상대해야 됩니다. 저레벨 플레이어는 더 쉬운 포켓몬을 상대하게될 것입니다."
+        },
+        "RAID_LEVEL_2": {
+            "title": "로켓단 2 티어",
+            "subtitle": "희귀한 그림자 배틀",
+            "intro": "로켓단 2티어 전투는 어렵지만 강화된 적절한 카운터를 사용하는 누구나 깰 수 있을 것입니다. 40레벨 플레이어들은 부스트된 30렙 포켓몬을 상대하게 됩니다. 저레벨 플레이어들은 더 쉬운 포켓몬을 상대하게 될 것입니다."
+        },
+        "RAID_LEVEL_3": {
+            "title": "로켓단 3티어",
+            "subtitle": "전설 그림자 배틀",
+            "intro": "로켓단 3티어 전투는 현재 존재하지 않습니다."
+        },
+        "RAID_LEVEL_4": {
+            "title": "로켓단 4티어",
+            "subtitle": "어려운 전설 그림자 배틀",
+            "intro": "로켓단 4티어는 현재 존재하지 않습니다."
+        },
+        "RAID_LEVEL_5": {
+            "title": "로켓단 5티어",
+            "subtitle": "환상 그림자 배틀",
+            "intro": "로켓단 5티어 전투는 현재 존재하지 않습니다."
+        },
+        "RAID_LEVEL_6": {
+            "title": "로켓단 3티어",
+            "subtitle": "어려운 환상 그림자 배틀",
+            "intro": "로켓단 3티어 전투는 현재 존재하지 않습니다."
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "로켓단 ?티어",
+            "subtitle": "미상 그림자 배틀",
+            "intro": "이 그림자 포켓몬들은 미래의 로켓단 침공의 일부가 될 것입니다. 새로운 침공이 나오고 이 사이트가 아직 업데이트 되지 않았다면 이 기능을 사용하세요. 또한 이 기능을 사용해서 여러분은 전설 그림자 꼬부기 팀이 침공한다면 어떻게 될지도 볼 수 있습니다!"
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "과거 로켓단 1티어",
+            "subtitle": "흔한 그림자 배틀",
+            "intro": "이 전투들은 현재 로켓단 로테이션에 들어있지 않습니다"
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "과거 로켓단 2티어",
+            "subtitle": "희귀한 그림자 배틀",
+            "intro": "이 전투들은 현재 로켓단 로테이션에 들어있지 않습니다."
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "과거 로켓단 3티어",
+            "subtitle": "전설 그림자 배틀",
+            "intro": "이 전투들은 현재 로켓단 로테이션에 들어있지 않습니다."
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "과거 로켓단 4티어",
+            "subtitle": "어려운 전설 그림자 배틀",
+            "intro": "이 전투들은 현재 로켓단 로테이션에 들어있지 않습니다."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "과거 로켓단 5티어",
+            "subtitle": "환상 그림자 배틀",
+            "intro": "이 전투들은 현재 로켓단 로케이션에 들어있지 않습니다."
         }
     },
     "custom": {
         "levelsLabel": "공격자 레벨",
-        "attackersLabel": "공격자"
+        "attackersLabel": "공격자",
+        "title": "맞춤 로켓단 카운터",
+        "buttonLabel": "최고 카운터 찾기"
     },
     "results": {
         "title": "{{defender}} 카운터",
         "meta": {
-            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png\n"
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png\n",
+            "description": "최고의 포켓몬고 {{defender}} 카운터는  {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}} 입니다. 맞춤 결과를 확인하세요!"
         },
         "counters": {
             "title": "카운터",
             "subtitle": "최고 공격수",
-            "chooseMovesetLabel": "기술조합 선택"
+            "chooseMovesetLabel": "기술조합 선택",
+            "description": "다음 분석은 {{pokemon}} 대상으로 {{sort}} 기준 가장 강력한 카운터를 보여줍니다.",
+            "moveSetOrderingDescription": "기술조합은 어려운 것부터 쉬운것 순으로 정렬되어 있습니다. 결과가 크게 달라질 수 있기 때문에, 여러가지를 확인하세요!",
+            "difficultyNote": "로켓단 침공 그림자 포켓몬은 일반 전투보다 더 어렵기 때문에, 여러분의 선택지를 주의깊게 고려해야합니다."
         },
         "hardestMovesets": {
-            "subtitle": "{{sort}} 기준으로 {{pokemon}} 상대로"
+            "subtitle": "{{sort}} 기준으로 {{pokemon}} 상대로",
+            "title": "가장 어려운 배틀",
+            "tableTitle": "상대하기 가장 어려운 기술조합",
+            "description": "로켓단 배틀 난이도는 방어 포켓몬의 기술조합에 따라 크게 달라질 수 있습니다!"
         },
         "analysis": {
             "title": "이 분석에 대해서",
             "attackers": {
                 "byLevel": "{{attackerLevel}} 레벨 공격자",
                 "pokebox": "사용자 #{{userId}}의 포케박스의 맞춤 포켓몬"
-            }
+            },
+            "description": "이 로켓단 배틀 분석은 CP {{defender.cp}} 의 {{defender.pokemon}}과 {{attackers}} 간의 전투 시뮬레이션에 기초합니다. 시뮬레이션은 로켓단 침공 시뮬레이터로 행해졌습니다. {{defender.pokemon}}의 각 가능한 기술조합 상대로 모든 포켓몬의 모든 가능한 기술조합이 {{numSims}} 번 시뮬레이션 행해졌습니다. {{sort}} 기준에 따른 상위 24 공격자와 그들의 최고 기술조합이 저장되어 여기 표시됩니다."
         },
         "patreon": {
             "description": "구독자분들의 후원으로 알려지지 않은 기술조합에 대한 결과가 가능합니다. 구독자분들은 더 많은 포케박스 공간과, 더 정확한 정확도의 결과를 받아보실 수 있습니다.",
             "link": "가입해서 얻을 수 있는 모든 혜택 확인",
             "thanks": "후원해주셔서 감사합니다!"
-        }
+        },
+        "calculating": "로켓단 방어 분석중",
+        "description": "{{pokemon}}의 포케배틀러 로켓단 카운터 가이드에 오신 것을 환영합니다. 여러분은 각 그림자 포켓몬의 기술조합에 기초한 최고의 카운터를 찾으실 수 있습니다. 이 가이드는 여러가지 다른 방법으로 커스터마이즈 가능합니다. 다양한 정렬 옵션을 사용할 수도 있고 로그인 하고 포케박스에 포켓몬을 입력하면 높은 정확도의 결과를 볼 수 있습니다."
+    },
+    "title": "로켓단 카운터",
+    "linkLabel": "로켓단 카운터",
+    "intro": "로켓단이 포켓몬고를 침공했고 포케배틀러는 여러분이 그들에게 싸우는 것을 도와줄 수 있습니다! 배틀은 3대3이고 여러분의 포켓몬 세 마리가 로켓단의 부스트된 포켓몬 상대로 싸웁니다. 이 전투들은 극도로 어려울 수 있으므로 도전하기 전에 준비되어있는지 확인하세요!",
+    "articles": {
+        "title": "최신 로켓단 뉴스!",
+        "subtitle": "최고의 플레이어들과 연구자들에 의한 로켓단 기사와 비디오"
     }
 }
