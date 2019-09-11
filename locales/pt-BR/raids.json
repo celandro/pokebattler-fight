@@ -121,9 +121,9 @@
     },
     "pokebox": {
         "login": "O Guida de Reides do Pokebattler pode ser customizável para inclusir apenas Pokemon que você tem realmente usando sua própria Pokebox. Faça o Login, adicione seus melhores Pokemon na sua Pokebox pessoal, e então você pode trocar entre os melhores Pokemons que você tem na sua Pokebox, e os melhores oponentes gerais para planejar suas batalhas de reide.",
-        "enabled": "Mostrando resultados customizados para sua Pokebox. Os 24 melhores adversários que você tem são mostrados abaixo.",
-        "disabled": "Mostrando resultados para atacantes nível {{level}}. Os melhores 24 oponentes deste nível são mostrados abaixo.",
-        "friend": "Mostrando resultados para o usuário {{userId}}. Os seus 24 melhores oponentes são mostrados abaixo.",
+        "enabled": "Mostrando resultados customizados para sua Pokebox. Os 30 melhores adversários que você tem são mostrados abaixo.",
+        "disabled": "Mostrando resultados para atacantes nível {{level}}. Os melhores 30 oponentes deste nível são mostrados abaixo.",
+        "friend": "Mostrando resultados para o usuário {{userId}}. Os seus 30 melhores oponentes são mostrados abaixo.",
         "switchLevel": "Trocar para $t(common:attackerTypes.level)",
         "switchPokebox": "Trocar para $t(common:attackerTypes.pokebox)"
     },
@@ -149,7 +149,7 @@
         "resultLink": "Veja este resultado como um time de batalha"
     },
     "meta": {
-        "description": "Encontre os adversários da raid Pokemon Go usando clima, nível de amizade e até mesmo sua própria Pokebox. Encontre os 24 melhores atacantes com o guia de reide personalizado #1 do mundo.",
+        "description": "Encontre os adversários da raid Pokemon Go usando clima, nível de amizade e até mesmo sua própria Pokebox. Encontre os 30 melhores atacantes com o guia de reide personalizado #1 do mundo.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "intro": "Chegaram as reides Pokemon Go! Descubra quais os melhores Pokémon para enfrentar os chefes das reides com o guia de reides customizado do Pokemon Go mais preciso do mundo. Basta selecionar a reide abaixo e ver os melhores atacantes para cada ataque!"
