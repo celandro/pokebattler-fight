@@ -3,7 +3,9 @@
         "counters": {
             "title": "카운터",
             "moveSetOrderingDescription": "이 기술조합은 어려운것부터 쉬운것 순서대로 정렬되어 있습니다. 기술조합에 따라 결과가 크게 달라질 수 있으니 여러개를 확인하세요!",
-            "chooseMovesetLabel": "기술조합 선택"
+            "chooseMovesetLabel": "기술조합 선택",
+            "subtitle": "최고의 강화된 공격수",
+            "description": "다음 분석은 {{pokemon}} 대상으로 {{sort}} 기준 가장 강력한 잠재력을 가진 포켓몬을 보여줍니다."
         },
         "hardestMovesets": {
             "title": "가장 어려운 레이드",
@@ -16,7 +18,51 @@
             "attackers": {
                 "byLevel": "{{attackerLevel}} 레벨 공격자",
                 "pokebox": "사용자 #{{userId}}의 포케박스의 맞춤 포켓몬"
-            }
+            },
+            "description": "이 레이드 조언은 CP {{defender.cp}}의 방어자 {{defender.pokemon}}과 {{attackers}} 간의 전투 시뮬레이션에 기초합니다. 시뮬레이션은 {{attackStrategy}} 공격 전략과 {{defenseStrategy}} 시뮬레이션 타입에 기초해서 행해졌습니다. {{defender.pokemon}}의 모든 가능한 기술조합을 상대로 모든 단일 포켓몬의 모든 가능한 기술조합에 대해 {{numSims}} 번 시뮬레이션이 행해졌습니다. {{sort}} 기준에 따른 상위 20 공격자와 그들의 최고 기술조합이 표시됩니다. 여러분은 공격자를 클릭해서 시행된 시뮬레이션 결과를 보거나 다른 기술조합을 시도해 볼 수 있습니다."
+        },
+        "title": "{{attacker}} vs {{defender}} 에 대한 레이드 조언",
+        "meta": {
+            "description": "{{attacker}} vs. {{defender}} 에 대한 레이드 조언은 각 레이드 보스를 깨기 위해 강화해야할 최고의 포켓몬을 찾아줍니다.",
+            "image": "https://static.pokebattler.com/images/og_raid_advice.jpg\n"
+        },
+        "calculating": "레이드 조언 계산 중",
+        "description": "{{pokemon}}에 대한 포케배틀러 레이드 조언에 오신 것을 환영합니다. 여러분은 각 보스의 기술조합에 기초한 최고의 잠재적 카운터를 찾을 수 있습니다. 이 가이드는 여러가지 방법으로 커스터마이즈 가능합니다. 여러분은 공격자 레벨이나 공격 전략을 선택할 수 있고 다양한 정렬 옵션을 사용할 수도 있습니다. 또한 가지고 있는 별의모래와 사탕의 양을 고를 수도 있습니다."
+    },
+    "title": "레이드 조언",
+    "meta": {
+        "description": "포켓몬고 레이드 조언은 여러분이 레이드 보스를 깨기 위해 어떤 포켓몬을 강화해야하는지, 그리고 사탕과 별의 모래를 어떻게 가장 효율적으로 사용하는지 알려줍니다.",
+        "image": "https://static.pokebattler.com/images/og_raid_advice.jpg\n"
+    },
+    "linkLabel": "레이드 가이드",
+    "pokeboxRequired": "포케배틀러 조언은 작동을 위해 여러분이 포켓몬을 포케박스에 입력하기를 요구합니다. 로그인 하셔서 강력한 포켓몬을 포케박스에 등록해 강화해야할 최고의 포켓몬을 찾으세요.",
+    "intro": "포케배틀러 조언은 특정 레이드를 위해 여러분의 포케박스를 최적화시키는 것을 도와주기 위한 맞춤형 기능입니다. 레이드 보스를 고르고, 가지고 있는 별의모래와 사탕을 입력하면 강화 후 포켓몬들이 어떨지 볼 수 있습니다. 이 도구는 여러분이 어떤 포켓몬이 가장 별의모래와 사탕으로부터 최고의 효율을 얻을지 결정하는 것을 도와주고 따라서 모래와 사탕을 최고의 효율로 사용하게 해줍니다.",
+    "intro2": "시뮬레이션을 돌린 후에, 각 강화마다 얼마나 이득을 볼수 있는지 보기 위해 각 포켓몬을 클릭하세요. 종종 브레이크포인트라는게 있어서, 브레이크포인트에 도달하면 더 이상 강화할 필요가 없이 별의모래와 사탕을 아낄 수 있습니다. 이것은 경험적으로 브레이크포인트를 찾기때문에 다른 브레이크포인트 도구들과 다릅니다.",
+    "inputs": {
+        "title": "조언 설정",
+        "subtitle": "어떤 조언을 필요로 하시나요?"
+    },
+    "buttonLabel": "포켓몬 강화",
+    "result": {
+        "title": "{{attacker}} vs {{defender}} 에 대한 레이드 조언 상세",
+        "meta": {
+            "description": "{{attacker}} vs. {defender}} 에 대한 포케몬고 레이드 조언 상세는 브레이크포인트와 별의모래 효율을 보여줍니다.",
+            "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg\n"
+        },
+        "subTitle": "{{attacker}} vs. {{defender}}",
+        "description": "{{attacker}} vs. {{defender}} 레이드 보스 전투에서 각 강화의 결과가 밑에 보여집니다. 결과는 {{defender}}의 기술에 따라서 달라질 수 있습니다.",
+        "summaryStart": "초기 결과",
+        "summaryEnd": "강화 결과",
+        "graphTitle": "{{yAxis}} 대 {{xAxis}}",
+        "detail": "각 강화에 대한 자세한 결과",
+        "back": "조언 설정으로 되돌아가기",
+        "powerUpDialog": {
+            "title": "강화",
+            "description": "{{pokemon}}을 {{powerUps}} 번 강화해서 cp {{cp}}로 만드시겠습니까?",
+            "submit": "네",
+            "cancel": "아니오"
         }
-    }
+    },
+    "raidLink": "강화 없는 결과를 확인하세요",
+    "helpLink": "레이즈 조언 튜토리얼 비디오를 시청하세요"
 }
