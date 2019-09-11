@@ -143,7 +143,7 @@
     "helpLink": "Ve el video tutorial sobre incursiones",
     "breakingNews": {
         "title": "Último minuto!",
-        "subtitle": "Incursiones de moda en Pokémon GO",
+        "subtitle": "Incursiones de moda en Pokémon GO.",
         "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}}) "
     },
     "silph": {
