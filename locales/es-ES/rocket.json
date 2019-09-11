@@ -1,2 +1,10 @@
 {
+    "breakingNews": {
+        "title": "Ultimo Minuto"
+    },
+    "tierList": {
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Nivel 6 - No disponible actualmente"
+        }
+    }
 }
