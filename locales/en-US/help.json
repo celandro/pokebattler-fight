@@ -39,11 +39,17 @@
             "link": "/help/raid-advice",
             "description": "Discover which Pokemon to power up to beat a raid boss"
         },
+        "pvpMatrix": {
+            "title": "PVP Matrix",
+            "link": "/help/pvp-matrix-help-guide",
+            "description": "Discover how to create custom rankings for pvp"
+        },
         "simulations": {
             "title": "Simulations",
             "link": "/help/simulations",
             "description": "Definitions for all Pokebattler simulation types"
         },
+
         "attackStrategies": {
             "title": "Attack Strategies",
             "link": "/help/attack-strategies",

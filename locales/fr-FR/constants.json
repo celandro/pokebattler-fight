@@ -585,7 +585,9 @@
         "GIRATINA_ORIGIN_FORM": "Giratina - Originelle",
         "BURMY_PLANT_FORM": "Cheniti - Plante",
         "BURMY_SANDY_FORM": "Cheniti - Sable",
-        "BURMY_TRASH_FORM": "Cheniti - Déchet"
+        "BURMY_TRASH_FORM": "Cheniti - Déchet",
+        "MEWTWO_A_FORM": "Mewtwo - Armure",
+        "MEWTWO_A_INTRO_FORM": "Mewtwo - Armure (Intro)"
     },
     "moves": {
         "ACID_FAST": "Acide",
@@ -804,7 +806,22 @@
         "WEATHER_BALL_FIRE": "Ball'Météo",
         "WEATHER_BALL_ICE": "Ball'Météo",
         "WEATHER_BALL_ROCK": "Ball'Météo",
-        "WEATHER_BALL_WATER": "Ball'Météo"
+        "WEATHER_BALL_WATER": "Ball'Météo",
+        "SKULL_BASH": "Coud'Krâne",
+        "EARTH_POWER": "Telluriforce",
+        "CRABHAMMER": "Pince-Masse",
+        "LUNGE": "Furie-Bond",
+        "CRUSH_CLAW": "Éclate Griffe",
+        "MIRROR_SHOT": "Miroi-Tir",
+        "SUPER_POWER": "Surpuissance",
+        "FELL_STINGER": "Dard Mortel",
+        "LEECH_LIFE": "Vampirisme",
+        "DRAIN_PUNCH": "Vampipoing",
+        "SHADOW_BONE": "Os'Ombre",
+        "MUDDY_WATER": "Ocroupi",
+        "BLAZE_KICK": "Pied Brûleur",
+        "RAZOR_SHELL": "Coquilame",
+        "CHARM_FAST": "Charme"
     },
     "types": {
         "POKEMON_TYPE_NORMAL": "Normal",
