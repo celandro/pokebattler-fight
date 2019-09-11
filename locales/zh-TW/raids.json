@@ -129,7 +129,7 @@
         "attackersLabel": "攻擊方"
     },
     "meta": {
-        "description": "提供天氣，友情加成和你的寶可夢陣容，獲取最棒的24種應對陣容和世界第一的專屬團體戰指南."
+        "description": "提供天氣，友情加成和你的寶可夢陣容，獲取最棒的30種應對陣容和世界第一的專屬團體戰指南."
     },
     "people": {
         "estimate": {
@@ -153,9 +153,9 @@
     },
     "pokebox": {
         "login": "Pokebattler團體戰指南可以只針對你寶可夢盒子中有的寶可夢來進行分析。登陸，添加你的寶可夢到寶可夢盒子，然後你就可以在你擁有的最佳寶可夢打手和全局最佳打手中切換了。",
-        "enabled": "顯示根據你的寶可夢盒子得出的結果。最佳的24個打手排列如下。",
-        "disabled": "顯示等級 {{level}} 的打手的結果。最佳的24個打手排列如下。",
-        "friend": "顯示根據用戶 {{userId}} 得出的結果。最佳的24個打手排列如下。",
+        "enabled": "顯示根據你的寶可夢盒子得出的結果。最佳的30個打手排列如下。",
+        "disabled": "顯示等級 {{level}} 的打手的結果。最佳的30個打手排列如下。",
+        "friend": "顯示根據用戶 {{userId}} 得出的結果。最佳的30個打手排列如下。",
         "switchLevel": "切換到 $t(common:attackerTypes.level)",
         "switchPokebox": "切換到 $t(common:attackerTypes.level)"
     },
