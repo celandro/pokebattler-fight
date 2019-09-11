@@ -106,9 +106,9 @@
     },
     "pokebox": {
         "login": "La guía de incursiones de Pokebattler puede ser personalizada solo para incluir Pokémon que posees usando tu propia caja de Pokémon. Ingresa, añade tus mejores Pokémon, a luego puedes alternar entre los mejores Pokémon que hay en tu colección y los mejores oponentes en general para planear tus peleas de incursión.",
-        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 24 mejores contendores que posees se muestran debajo.",
-        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 24 mejores contendores a ese nivel son mostrados debajo.",
-        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 24 contendores se muestran debajo.",
+        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 30 mejores contendores que posees se muestran debajo.",
+        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 30 mejores contendores a ese nivel son mostrados debajo.",
+        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 30 contendores se muestran debajo.",
         "switchLevel": "Cambiar a $t(common:attackerTypes.level)",
         "switchPokebox": "Cambiar a $t(common:attackerTypes.pokebox)"
     },
