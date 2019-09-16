@@ -1033,7 +1033,66 @@
         "MAWILE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.MAWILE)\n",
         "MOLTRES_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.MOLTRES)\n",
         "MOLTRES_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.MOLTRES)\n",
-        "MOLTRES_PURIFIED_FORM": "$t(constants:pokemon.MOLTRES)$t(constants:pokemon.PURIFIED_FORM)\n"
+        "MOLTRES_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.MOLTRES)\n\n",
+        "KANGASKHAN_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.KANGASKHAN)\n",
+        "KANGASKHAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KANGASKHAN)\n",
+        "KANGASKHAN_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.KANGASKHAN)\n",
+        "DIGLETT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DIGLETT)\n",
+        "DIGLETT_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.DIGLETT)\n",
+        "DUGTRIO_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DUGTRIO)\n",
+        "DUGTRIO_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.DUGTRIO)\n",
+        "RHYHORN_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.RHYHORN)\n",
+        "RHYHORN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RHYHORN)\n",
+        "RHYHORN_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.RHYHORN)\n",
+        "RHYDON_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.RHYDON)\n",
+        "RHYDON_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RHYDON)\n",
+        "RHYDON_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.RHYDON)\n",
+        "RHYPERIOR_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.RHYPERIOR)\n",
+        "RHYPERIOR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RHYPERIOR)\n",
+        "RHYPERIOR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.RHYPERIOR)\n",
+        "MURKROW_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.MURKROW)\n",
+        "MURKROW_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.MURKROW)\n",
+        "MURKROW_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.MURKROW)\n",
+        "HONCHKROW_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.HONCHKROW)\n",
+        "HONCHKROW_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HONCHKROW)\n",
+        "HONCHKROW_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.HONCHKROW)\n",
+        "GIBLE_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.GIBLE)\n",
+        "GIBLE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GIBLE)\n",
+        "GIBLE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.GIBLE)\n",
+        "GABITE_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.GABITE)\n",
+        "GABITE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GABITE)\n",
+        "GABITE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.GABITE)\n",
+        "GARCHOMP_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.GARCHOMP)\n",
+        "GARCHOMP_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GARCHOMP)\n",
+        "GARCHOMP_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.GARCHOMP)\n",
+        "KRABBY_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.KRABBY)\n",
+        "KRABBY_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KRABBY)\n",
+        "KRABBY_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.KRABBY)\n",
+        "KINGLER_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.KINGLER)\n",
+        "KINGLER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KINGLER)\n",
+        "KINGLER_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.KINGLER)\n",
+        "SHELLDER_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.SHELLDER)\n",
+        "SHELLDER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SHELLDER)\n",
+        "SHELLDER_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SHELLDER)\n",
+        "CLOYSTER_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.CLOYSTER)\n",
+        "CLOYSTER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CLOYSTER)\n",
+        "CLOYSTER_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.CLOYSTER)\n",
+        "GEODUDE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GEODUDE)\n",
+        "GEODUDE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.GEODUDE)\n",
+        "GRAVELER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GRAVELER)\n",
+        "GRAVELER_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.GRAVELER)\n",
+        "GOLEM_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GOLEM)\n",
+        "GOLEM_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.GOLEM)\n",
+        "HIPPOPOTAS_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.HIPPOPOTAS)\n",
+        "HIPPOPOTAS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HIPPOPOTAS)\n",
+        "HIPPOPOTAS_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.HIPPOPOTAS)\n",
+        "HIPPOWDON_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.HIPPOWDON)\n",
+        "HIPPOWDON_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HIPPOWDON)\n",
+        "HIPPOWDON_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.HIPPOWDON)\n",
+        "PIKACHU_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.PIKACHU)\n",
+        "SQUIRTLE_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.SQUIRTLE)\n",
+        "CHARMANDER_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.CHARMANDER)\n",
+        "BULBASAUR_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.BULBASAUR)\n"
     },
     "moves": {
         "ACID_FAST": "용해액",
@@ -1309,7 +1368,7 @@
         "attack": {
             "CINEMATIC_ATTACK_WHEN_POSSIBLE": {
                 "label": "회피 없음",
-                "description": "스페셜 어택을 쓸 수 있을때까지 노말어택을 가능한 한 빨리 사용한다."
+                "description": "스페셜 어택을 쓸 수 있을때까지 노말어택을 가능한 한 빨리 사용합니다"
             },
             "QUICK_ATTACK_ONLY": {
                 "label": "빠른 공격만",
@@ -1348,7 +1407,7 @@
             "label": "회피 전략",
             "DODGE_100": {
                 "label": "완벽 회피",
-                "description": "100% 회피를 시도합니다. 이 회피 전략은 거의 항상 회피에 성공할 것입니다. 스페셜 어택을 쓰는 상황같은 피할 수 없는 상황에서는 맞게 됩니다."
+                "description": "100% 회피를 시도합니다. 이 회피 전략은 거의 항상 회피에 성공할 것입니다. 스페셜 어택을 쓰는 상황같은 피할 수 없는 상황에서는 맞게 됩니다"
             },
             "DODGE_REACTION_TIME": {
                 "label": "현실적 회피",
@@ -1360,26 +1419,26 @@
             },
             "DODGE_25": {
                 "label": "25% 회피",
-                "description": "25% 확률로 회피를 시도합니다."
+                "description": "25% 확률로 회피를 시도합니다"
             },
             "DODGE_50": {
                 "label": "50% 회피",
-                "description": "50% 확률로 회피를 시도합니다."
+                "description": "50% 확률로 회피를 시도합니다"
             },
             "DODGE_75": {
                 "label": "75% 회피",
-                "description": "75% 확률로 회피를 시도합니다."
+                "description": "75% 확률로 회피를 시도합니다"
             },
             "DODGE_90": {
                 "label": "90% 회피",
-                "description": "90% 확률로 회피를 시도합니다."
+                "description": "90% 확률로 회피를 시도합니다"
             }
         },
         "meta": {
             "label": "어택 메타",
             "DUAL_MOVE": {
                 "label": "전부 두 개의 스페셜 어택",
-                "description": "모든 포켓몬이 최고의 스페셜 어택 조합을 사용합니다. 24개까지의 기술조합이 반환됩니다."
+                "description": "모든 포켓몬이 최고의 스페셜 어택 조합을 사용합니다. 30개까지의 기술조합이 반환됩니다."
             },
             "SINGLE_MOVE": {
                 "label": "모두 단일 스페셜 어택",
@@ -1387,38 +1446,38 @@
             },
             "DUAL_MOVE_3": {
                 "label": "이중 스페셜 어택 - 베스트 3",
-                "description": "모든 포켓몬이 최고의 스페셜 어택 조합을 사용합니다. 3개까지 기술조합이 고려됩니다."
+                "description": "모든 포켓몬이 최고의 스페셜 어택 조합을 사용합니다. 3개까지 기술조합이 고려됩니다"
             },
             "SINGLE_MOVE_3": {
                 "label": "단일 스페셜 어택 - 베스트 3",
-                "description": "모든 포켓몬이 해방 없이 최고의 스페셜 어택을 사용합니다. 3개까지 기술조합이 고려됩니다."
+                "description": "모든 포켓몬이 해방 없이 최고의 스페셜 어택을 사용합니다. 3개까지 기술조합이 고려됩니다"
             },
             "DUAL_MOVE_1": {
                 "label": "최고 이중 스페셜 어택",
-                "description": "모든 포켓몬이 최고의 스페셜 어택 조합을 사용합니다. 최고의 기술조합만이 고려됩니다."
+                "description": "모든 포켓몬이 최고의 스페셜 어택 조합을 사용합니다. 최고의 기술조합만이 고려됩니다"
             },
             "SINGLE_MOVE_1": {
                 "label": "최고 단일 스페셜 어택",
-                "description": "모든 포켓몬이 해방 없이 최고의 스페셜 어택을 사용합니다. 최고의 기술조합만이 고려됩니다."
+                "description": "모든 포켓몬이 해방 없이 최고의 스페셜 어택을 사용합니다. 최고의 기술조합만이 고려됩니다"
             }
         },
         "shield": {
             "label": "실드 전략",
             "SHIELD_RANDOM": {
                 "label": "랜덤 실드",
-                "description": "33% 확률로 한번 실드를 쓰고 17% 확률로 두번 사용합니다."
+                "description": "33% 확률로 한번 실드를 쓰고 17% 확률로 두번 사용합니다"
             },
             "SHIELD_0": {
                 "label": "실드 미사용",
-                "description": "실드를 사용하지 않습니다."
+                "description": "실드를 사용하지 않습니다"
             },
             "SHIELD_1": {
                 "label": "한번 실드",
-                "description": "첫번째 스페셜 어택을 실드합니다."
+                "description": "첫번째 스페셜 어택을 실드합니다"
             },
             "SHIELD_2": {
                 "label": "두번 실드",
-                "description": "처음 두번의 스페셜 어택을 실드합니다."
+                "description": "처음 두번의 스페셜 어택을 실드합니다"
             }
         },
         "defense": {
@@ -1428,11 +1487,11 @@
             },
             "DEFENSE_LUCKY": {
                 "label": "운 좋은 방어자",
-                "description": "최악의 상황을 가정합니다. 공격은 매 1.95초마다 오고 스페셜 어택은 가능한한 빨리 옵니다."
+                "description": "최악의 상황을 가정합니다. 공격은 매 1.95초마다 오고 스페셜 어택은 가능한한 빨리 옵니다"
             },
             "DEFENSE_RANDOM": {
                 "label": "랜덤",
-                "description": "완벽한 랜덤 시뮬레이션! 공격은 1.5에서 2.5초 사이에 옵니다. 스페셜 어택은 방어자가 충분한 에너지를 가지고 있다면 50% 확률로 사용됩니다."
+                "description": "완벽한 랜덤 시뮬레이션! 공격은 1.5에서 2.5초 사이에 옵니다. 스페셜 어택은 방어자가 충분한 에너지를 가지고 있다면 50% 확률로 사용됩니다"
             },
             "DEFENSE_RANDOM_MC_FAST": {
                 "label": "몬테카를로 - 동",
@@ -1448,15 +1507,15 @@
             },
             "DEFENSE_RANDOM_MC_EX": {
                 "label": "몬테카를로 - 백금",
-                "description": "파나틱과 챔피언을 위한 특별한 혜택입니다. 극도로 정확한 결과를 제공합니다. 500번의 랜덤 시뮬레이션이 행해지고 합해져 하나의 전반적 결과를 제공합니다. 백분위를 볼때 유용합니다."
+                "description": "파나틱과 챔피언을 위한 특별한 혜택입니다. 극도로 정확한 결과를 제공합니다. 500번의 랜덤 시뮬레이션이 행해지고 합해져 하나의 전반적 결과를 제공합니다. 백분위를 볼때 유용합니다"
             },
             "DEFENSE_PATTERN": {
                 "label": "랜덤 방어 패턴",
-                "description": "극도로 예측가능한 난수발생기가 이 단일 시뮬레이션을 위해 사용됩니다. 이것은 포케배틀러에 의해서 임의 회피 몬테카를로 시뮬레이션을 최적화하기 위해 사용됩니다."
+                "description": "극도로 예측가능한 난수발생기가 이 단일 시뮬레이션을 위해 사용됩니다. 이것은 포케배틀러에 의해서 임의 회피 몬테카를로 시뮬레이션을 최적화하기 위해 사용됩니다"
             },
             "DEFENSE_PATTERN2": {
                 "label": "방어 패턴",
-                "description": "딜레이와 공격 패턴이 이 단일 시뮬레이션을 위해 사용됩니다. 이것은 포케배틀러에 의해 회피 없는 몬테카를로 시뮬레이션을 최적화하기 위해 사용됩니다."
+                "description": "딜레이와 공격 패턴이 이 단일 시뮬레이션을 위해 사용됩니다. 이것은 포케배틀러에 의해 회피 없는 몬테카를로 시뮬레이션을 최적화하기 위해 사용됩니다"
             }
         }
     },
@@ -1528,7 +1587,7 @@
     "aggregations": {
         "AVERAGE": {
             "label": "평균",
-            "description": "몬테카를로 시뮬레이션의 결과를 평균냅니다. 주의: 전투기록과 상세 데미지 보고서는 중위값에 기반합니다."
+            "description": "몬테카를로 시뮬레이션의 결과를 평균냅니다. 주의: 전투기록과 상세 데미지 보고서는 중위값에 기반합니다"
         },
         "MEDIAN": {
             "label": "기댓값 - 50%",
@@ -1585,27 +1644,27 @@
         "label": "리그",
         "COMBAT_LEAGUE_RAIDS_GYMS": {
             "label": "레이드 & 체육관",
-            "description": "제한 없는 6마리의 포켓몬"
+            "description": "제한 없는 6마리의 포켓몬."
         },
         "COMBAT_LEAGUE_DEFAULT_GREAT": {
             "label": "슈퍼리그",
-            "description": "최고 CP 1500의 포켓몬 3마리"
+            "description": "최고 CP 1500의 포켓몬 3마리."
         },
         "COMBAT_LEAGUE_DEFAULT_ULTRA": {
             "label": "하이퍼리그",
-            "description": "최고 CP 2500의 포켓몬 3마리"
+            "description": "최고 CP 2500의 포켓몬 3마리."
         },
         "COMBAT_LEAGUE_DEFAULT_MASTER": {
             "label": "마스터리그",
-            "description": "제한 없는 포켓몬 3마리"
+            "description": "제한 없는 포켓몬 3마리."
         },
         "COMBAT_LEAGUE_SILPH_CUP": {
             "label": "실프 아레나 컵",
-            "description": "최신 실프 아레나 컵 대회"
+            "description": "최신 실프 아레나 컵 대회."
         },
         "COMBAT_LEAGUE_SILPH_CUP_PRE_1": {
             "label": "다음 실프 아레나 컵",
-            "description": "다음 실프 아레나 컵 대회"
+            "description": "다음 실프 아레나 컵 대회."
         },
         "COMBAT_LEAGUE_SILPH_CUP_PRE_2": {
             "label": "실프 아레나 예비 컵 2",
@@ -1629,31 +1688,31 @@
         },
         "COMBAT_LEAGUE_SILPH_BOULDER_CUP": {
             "label": "실프 아레나 볼더 컵",
-            "description": "최초의 실프 아레나 컵 대회"
+            "description": "최초의 실프 아레나 컵 대회."
         },
         "COMBAT_LEAGUE_SILPH_TWILIGHT_CUP": {
             "label": "실프 아레나 트와일라잇 컵",
-            "description": "3월의 실프 아레나 컵 대회"
+            "description": "3월의 실프 아레나 컵 대회."
         },
         "COMBAT_LEAGUE_SILPH_TEMPEST_CUP": {
             "label": "실프 아레나 템피스트 컵",
-            "description": "4월의 실프 아레나 컵 대회"
+            "description": "4월의 실프 아레나 컵 대회."
         },
         "COMBAT_LEAGUE_SILPH_KINGDOM_CUP": {
             "label": "실프 아레나 킹덤 컵",
-            "description": "5월의 실프 아레나 컵 대회"
+            "description": "5월의 실프 아레나 컵 대회."
         },
         "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
             "label": "실프 아레나 나이트메어 컵",
-            "description": "6월의 실프 아레나 컵 대회"
+            "description": "6월의 실프 아레나 컵 대회."
         },
         "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
             "label": "실프 아레나 리저널 대회",
-            "description": "실프 아레나 컵 시즌1 리저널 대회"
+            "description": "실프 아레나 컵 시즌1 리저널 대회."
         },
         "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
             "label": "실프 아레나 레인보우 컵",
-            "description": "최신 실프 아레나 컵 대회"
+            "description": "최신 실프 아레나 컵 대회."
         },
         "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
             "label": "실프 아레나 챔피언십",
@@ -1669,7 +1728,7 @@
         },
         "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
             "label": "실프 아레나 정글 컵",
-            "description": "7월 실프 아레나 컵 대회"
+            "description": "7월 실프 아레나 컵 대회."
         }
     },
     "levelVs": "{{공격자레벨}} 레벨 공격자 Vs. {{방어자 레벨}} 레벨 방어자",
