@@ -28,10 +28,9 @@
     "seconds": "Seconds",
     "find": "Find",
     "rejoin": {
-        "label":"Rejoin Time",
+        "label": "Rejoin Time",
         "default": "Never"
     },
-
     "stats": {
         "attack": "Attack",
         "defense": "Defense",
@@ -82,7 +81,6 @@
         "tdo": "Damage (TDO)",
         "maxCP": "Max $t(common:cp)",
         "level": "$t(common:level)"
-
     },
     "sectionLinks": {
         "help": "Help section",
@@ -143,8 +141,8 @@
         "deleteAll": "Removing all Pokemon from your Pokebox",
         "update": "Updating your pokemon",
         "success": "Success",
-        "error": "Oops, something went wrong. Try again in a couple seconds",
-        "newVersion": "A new version is available, reload your browser",
+        "error": "Oops, something went wrong. Try again in a couple seconds.",
+        "newVersion": "A new version is available, reload your browser.",
         "subscriptionStripe": "Verifying credentials",
         "subscriptionPokebattler": "Purchasing subscription",
         "subscriptionSuccess": "Successfully purchased subscription",
@@ -164,7 +162,6 @@
         "alpha": "Alpha Site",
         "beta": "Beta Site",
         "www": "Main Site",
-        "admin": "Admin Site",
         "store": "Official Apparel"
     },
     "candy": {
@@ -259,7 +256,6 @@
             "more": "Read News and articles, download  infographics, help translate for us, about us, and privacy policy for Pokebattler for Pokemon Go"
         }
     },
-
     "randomAssistants": {
         "title": "Extra Random Trainers",
         "default": "Auto",
@@ -292,5 +288,4 @@
         "error": "Sorry, there was a problem loading the page. Check your connection",
         "retry": "Retry"
     }
-
 }
