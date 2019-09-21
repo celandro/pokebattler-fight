@@ -1092,7 +1092,19 @@
         "PIKACHU_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.PIKACHU)\n",
         "SQUIRTLE_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.SQUIRTLE)\n",
         "CHARMANDER_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.CHARMANDER)\n",
-        "BULBASAUR_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.BULBASAUR)\n"
+        "BULBASAUR_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.BULBASAUR)\n",
+        "SPINDA_08_FORM": "얼루기 - 08",
+        "SPINDA_09_FORM": "얼루기 - 09",
+        "SPINDA_10_FORM": "얼루기 - 10",
+        "SPINDA_11_FORM": "얼루기 - 11",
+        "SPINDA_12_FORM": "얼루기 - 12",
+        "SPINDA_13_FORM": "얼루기 - 13",
+        "SPINDA_14_FORM": "얼루기 - 14",
+        "SPINDA_15_FORM": "얼루기 - 15",
+        "SPINDA_16_FORM": "얼루기 - 16",
+        "SPINDA_17_FORM": "얼루기 - 17",
+        "SPINDA_18_FORM": "얼루기 - 18",
+        "SPINDA_19_FORM": "얼루기 - 19"
     },
     "moves": {
         "ACID_FAST": "용해액",
