@@ -979,7 +979,7 @@
         "SPINDA_16_FORM": "얼루기 - 16",
         "SPINDA_17_FORM": "얼루기 - 17",
         "SPINDA_18_FORM": "얼루기 - 18",
-        "SPINDA_19_FORM": "얼루기 - 19"
+        "SPINDA_19_FORM": "얼루기 - 19",
         "ZAPDOS_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ZAPDOS)",
         "ZAPDOS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ZAPDOS)",
         "ZAPDOS_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.ZAPDOS)",
