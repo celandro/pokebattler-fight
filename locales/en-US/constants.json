@@ -1557,7 +1557,10 @@
         "GIGA_IMPACT": "Giga Impact",
         "FRUSTRATION": "Frustration",
         "RETURN": "Return",
-        "SYNCHRONOISE": "Synchronoise"
+        "SYNCHRONOISE": "Synchronoise",
+        "LOCK_ON_FAST": "Lock On",
+        "THUNDER_FANG_FAST": "Thunder Fang",
+        "ICE_FANG_FAST": "Ice Fang"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
