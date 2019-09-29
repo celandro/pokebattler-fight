@@ -1765,9 +1765,28 @@
         "ESTIMATOR":{
             "label": "$t(common:properties.estimator)",
             "description": "Approximate number of players required to win"
+        },
+        "WEATHER":{
+            "label": "Weather",
+            "description": "Best in weather"
+        },
+        "DODGE_SPECIALS":{
+            "label": "Dodge Specials",
+            "description": "Best when dodging"
+        },
+        "40+W+F": {
+            "label": "40 + Boosts",
+            "description": "Level 40, Weather, Best Friends"
         }
     },
-    
+    "levels": {
+        "20": "Level 20",
+        "25": "Level 25",
+        "30": "Level 30",
+        "35": "Level 35",
+        "40": "Level 40",
+        "40+W+F": "40 + Boosts"
+    },
     "weatherConditions": {
         "NO_WEATHER": {
             "label": "Extreme",
@@ -1948,6 +1967,10 @@
         "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
             "label": "Silph Arena Jungle Cup",
             "description": "The July Silph Arena Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_SINISTER_CUP": {
+            "label": "Silph Arena Sinister Cup",
+            "description": "The October Silph Arena Season 2 Cup tournament."
         }
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
