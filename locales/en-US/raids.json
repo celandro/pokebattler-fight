@@ -111,7 +111,7 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "The best Pokemon Go level 35 general raid counters vs. {{defender}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
+            "description": "The best Pokemon Go {{defender}} counters are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Login to see your custom results!",
             "image": "{{infographicShareURL}}"
         },
         "calculating": "Calculating Raid Results",
@@ -137,7 +137,7 @@
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
-        "description": "Welcome to the Pokebattler raid counters guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options.",
+        "description": "The best Pokemon Go {{defender}} counters are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Pokebattler's {{pokemon}} raid counters guide is designed to help you beat {{pokemon}} with your best counters. You can find the best counters overall to defeat {{pokemon}} in the infographic and article and use our customizable tool form for custom results showing generic Pokemon, or your own Pokemon. This guide is customizable by changing the attack level, attack strategy and sort options. You can find the best Pokemon that you own to beat {{pokemon}} if you add your Pokemon into your personal Pokebox.",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
             "link": "See all the benefits you get for signing up",
