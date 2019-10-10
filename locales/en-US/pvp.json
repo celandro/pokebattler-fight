@@ -23,10 +23,22 @@
     "swap": "Swap",
     "copy": "Copy",
     "results" : {
-      "description": "The attackers you have chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
+      "description": "The attackers that were chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
       "error": {
         "title": "No Results Returned",
         "description": "No pokemon matched your result. Only relavant Pokemon are covered by this tool. You likely need to change your League type or pick Pokemon closer to the maximum CP for this league."
+      },
+      "shared": {
+        "title": "Custom Matrix Result",
+        "subtitle": "Created on {{date}}",
+        "description": "This result was created by user #{{userId}}. You can check out different matchups by running your own free matrix simulations!",
+        "params": "Below were the parameters used to create this result. You can create your own result by logging in and running a matrix simulation"
+      },
+      "share": {
+        "title": "Your Custom Matrix Result",
+        "subtitle": "Created on {{date}}",
+        "description": "This result was created by you. You can share this result with your friends who don't have Pokebattler accounts!",
+        "params": "Modify your simulation settings below to see other matchups"
       }
 
     },
