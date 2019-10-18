@@ -1974,6 +1974,10 @@
         "COMBAT_LEAGUE_SILPH_SINISTER_CUP": {
             "label": "Silph Arena Sinister Cup",
             "description": "The October Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_FEROCIOUS_CUP": {
+            "label": "Silph Arena Ferocious Cup",
+            "description": "The November Silph Arena Season 2 Cup tournament."
         }
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
