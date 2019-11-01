@@ -11,7 +11,7 @@
     "pages": {
         "raids": {
             "title": "Raids",
-            "link": "/help/raids",
+            "link": "/help/raid-counter",
             "description": "Pick the best counters for any boss with our customizable raid guide"
         },
         "battleSimulator": {
