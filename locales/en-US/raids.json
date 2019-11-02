@@ -46,6 +46,11 @@
             "subtitle": "Hard Group Raid",
             "intro": "Tier 4 raids are targetted at groups of 5-6 level 30-40 players. Reports have come in of these Pokemon being beaten by max level players with 3-4 of the perfect counters."
         },
+        "RAID_LEVEL_4_5": {
+            "title": "Tier 4.5",
+            "subtitle": "Easy Legendary Raid",
+            "intro": "Tier 4.5 raids are easier versions of legendary bosses intended at groups of 2-4 level 30-40 players. They are typically seen during short duration events."
+        },
         "RAID_LEVEL_5": {
             "title": "Tier 5",
             "subtitle": "Legendary Raid",
@@ -86,6 +91,11 @@
             "subtitle": "Hard Group Raid",
             "intro": "These raids are not currently in the raid rotations."
         },
+        "RAID_LEVEL_4_5_LEGACY": {
+            "title": "Legacy Tier 4.5",
+            "subtitle": "Easy Legendary Raid",
+            "intro": "These are previously seen easy legendary raid bosses."
+        },
         "RAID_LEVEL_5_LEGACY": {
             "title": "Legacy Tier 5",
             "subtitle": "Legendary Raid",
@@ -95,6 +105,11 @@
             "title": "Legacy Tier 6",
             "subtitle": "Legendary Raid - Bonus Hp",
             "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_4_5_FUTURE": {
+            "title": "Future Tier 4.5",
+            "subtitle": "Easy Legendary Raid",
+            "intro": "These are  easy legendary raid bosses that are not in the game yet. Their stats and moves are still subject to change"
         },
         "RAID_LEVEL_5_FUTURE": {
             "title": "Future Tier 5",
