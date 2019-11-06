@@ -108,7 +108,31 @@
             "title": "Legacy Tier 6",
             "subtitle": "Hard Mythical Shadow Battles",
             "intro": "These battles are not currently in the team rocket rotations"
+        },
+        "CHARACTER_EXECUTIVE_CLIFF": {
+            "title": "Executive Cliff",
+            "subtitle": "Team Rocket Leader ",
+            "intro": "Blanche. You overthink.  overcalculate.  overcomplicate. But can’t you see? It’s pretty simple. Your time as a leader is OVER!!!"
+        },
+        "CHARACTER_EXECUTIVE_SIERRA": {
+            "title": "Executive Sierra",
+            "subtitle": "Team Rocket Leader",
+            "intro": "Spark. Your naïve positivity is laughable and will be your undoing.\nThe world is so very cruel.\nI’ll make sure to remind you soon."
+        },
+        "CHARACTER_EXECUTIVE_ARLO": {
+            "title": "Executive Arlo",
+            "subtitle": "Team Rocket Leader",
+            "intro": "Candela. After all this time, you still haven’t changed. Tsk. Remember, fire is a fickle thing. When controlled, it provides warmth, but in the wrong hands, it burns. You will regret the day you took what was rightfully mine."
         }
+
+    },
+    "executives": {
+        "title": "Team Rocket Exectutives",
+        "description": "Team Rocket executives feature more difficult fights including shielding! Make sure you are prepared for all Team Rocket has in store for you!"
+    },
+    "grunts": {
+        "title": "Team Rocket Grunts",
+        "description": "Team Rocket grunts are easier fights with no shields."
     },
     "custom": {
         "title": "Custom Team Rocket Counters",
