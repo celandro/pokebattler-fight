@@ -23,10 +23,22 @@
     "swap": "Swap",
     "copy": "Copy",
     "results" : {
-      "description": "The attackers you have chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
+      "description": "The attackers that were chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
       "error": {
         "title": "No Results Returned",
         "description": "No pokemon matched your result. Only relavant Pokemon are covered by this tool. You likely need to change your League type or pick Pokemon closer to the maximum CP for this league."
+      },
+      "shared": {
+        "title": "Custom Matrix Result",
+        "subtitle": "Created on {{date}}",
+        "description": "This result was created by user #{{userId}}. You can check out different matchups by running your own free matrix simulations!",
+        "params": "Below were the parameters used to create this result. You can create your own result by logging in and running a matrix simulation"
+      },
+      "share": {
+        "title": "Your Custom Matrix Result",
+        "subtitle": "Created on {{date}}",
+        "description": "This result was created by you. You can share this result with your friends who don't have Pokebattler accounts!",
+        "params": "Modify your simulation settings below to see other matchups"
       }
 
     },
@@ -86,6 +98,10 @@
       "attacker": "Well Rounded",
       "defender": "Counters",
       "gotoRankings": "Go to Ranking",
+      "predicted": {
+        "label": "Predicted Meta",
+        "description": "Matrix Analysis of the Top Tier Pokemon "
+      },
       "defenders": {
         "label": "Top 30",
         "description": "Toughest Pokemon To Beat Overall"
@@ -231,7 +247,7 @@
       },
       "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
         "title": "{{title}}",
-        "intro": "The Silph Arena Cup for June using Bug, Fire, Water, Grass and Electric Pokemon from Gen 1 and Gen 2. The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
+        "intro": "The Silph Arena Crom for June using Bug, Fire, Water, Grass and Electric Pokemon from Gen 1 and Gen 2. The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
       },
       "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
         "title": "{{title}}",
@@ -247,7 +263,7 @@
       },
       "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
         "title": "{{title}}",
-        "intro": "The Silph Arena cup for July. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+        "intro": "The Silph Arena cup from July. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       },
       "COMBAT_LEAGUE_SILPH_BOULDER_CUP": {
         "title": "{{title}}",
@@ -267,10 +283,16 @@
       },
       "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
         "title": "{{title}}",
-        "intro": "The Silph Arena cup from May using Fighting, Dark and Psychic Pokemon with banws on Medicham, Sableye, Legendary and Mythical Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+        "intro": "The Silph Arena cup from May using Fighting, Dark and Psychic Pokemon with bans on Medicham, Sableye, Legendary and Mythical Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_SINISTER_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season 2 cup for October using Ghost, Psychic, Steel and Fighting Pokemon with bans on Skarmory, Hypno, Dual Dark Types, and Mythical Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_FEROCIOUS_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season 2 cup for November using beast types with numerous bans. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
-
-
     },
     "pokemonCondition": {
       "WITH_POKEMON_CP_LIMIT": "Max CP",
