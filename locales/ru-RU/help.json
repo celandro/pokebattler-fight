@@ -11,7 +11,7 @@
     "pages": {
         "raids": {
             "title": "Рейды",
-            "link": "/help/raids",
+            "link": "/help/raid-counter",
             "description": "Найдите лучших противников для боссов с помощью нашего гида по рейдам"
         },
         "battleSimulator": {
