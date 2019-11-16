@@ -1,7 +1,7 @@
 {
   "pages": {
     "raids": {
-      "link": "/help/raids"
+      "link": "/help/raid-counter"
     },
     "battleSimulator": {
       "link": "/help/battle-simulator"

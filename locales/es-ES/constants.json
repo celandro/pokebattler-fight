@@ -437,7 +437,20 @@
         "RATICATE_NORMAL_FORM": "Raticate - Normal",
         "RATICATE_ALOLA_FORM": "Raticate - Alola",
         "RAICHU_NORMAL_FORM": "Raichu - Normal",
-        "RAICHU_ALOLA_FORM": "Raichu - Alola"
+        "RAICHU_ALOLA_FORM": "Raichu - Alola",
+        "SANDSHREW_NORMAL_FORM": "Sandshrew - Normal",
+        "SANDSHREW_ALOLA_FORM": "Sandshrew de Alola",
+        "SANDSLASH_NORMAL_FORM": "Sandslash normal",
+        "SANDSLASH_ALOLA_FORM": "Sandslash de Alola",
+        "VULPIX_NORMAL_FORM": "Vulpix normal",
+        "VULPIX_ALOLA_FORM": "Vulpix de Alola",
+        "NINETALES_NORMAL_FORM": "Ninetales normal",
+        "NINETALES_ALOLA_FORM": "Ninetales de Alola",
+        "DIGLETT_NORMAL_FORM": "Diglett normal",
+        "DIGLETT_ALOLA_FORM": "Diglett de Alola",
+        "DUGTRIO_NORMAL_FORM": "Dugtrio normal",
+        "DUGTRIO_ALOLA_FORM": "Dugtrio de Alola",
+        "MEOWTH_NORMAL_FORM": "Meowth normal"
     },
     "moves": {
         "ACID_FAST": "Ácido",

@@ -1,2 +1,76 @@
 {
+    "index": {
+        "title": "체육관 랭킹",
+        "meta": {
+            "description": "포케배틀러의 포켓몬고 체육관 랭킹은 세계에서 가장 정확하고, 여러분의 선호도에 기초해서 최고의 공격자와 방어자를 보여줍니다.",
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg\n"
+        },
+        "welcome": {
+            "title": "포케배틀러 랭킹 2.0에 오신 것을 환영합니다!",
+            "paragraph1": "포케배틀러의 새롭고, 최신 랭킹 섹션에 오신 것을 환영합니다. ㄷ른 사이트와 달리, 여러분은 커스터마이즈 된 랭킹을 만들기 위한 정확한 조합을 고를 수 있습니다. 이 사이트는 극도로 커스터마이즈가 가능해서, 여러분의 공격자 레벨, 방어자 레벨, 공격 전략, 회피 전략, 정렬과 그룹 옵션을 고를 수 있습니다.",
+            "paragraph2": "이 페이지는 각 랭킹 설정마다 30,000,000 번이 넘는 전투 시뮬레이션으로 행해집니다. 이것은 선택된 설정에 따라 공격자, 공격자 기술, 방어자, 방어자 기술의 모든 가능한 조합을 커버합니다. 공격자와 방어자 랭킹 모두에, 수백만의 다른 설정 조합이 있습니다. 여러분이 원하는 것을 얻을때까지 다른 것을 시도해보세요."
+        },
+        "recommendations": {
+            "title": "설정 추천",
+            "paragraph1": {
+                "text": "대부분의 플레이어에게 좋은 시작점은 {{link1}}입니다. 그것은 25레벨 공격자가 30레벨 체육관을 공격하는 것을 가정합니다. 공격을 가능한한 빨리 쓰고 스페셜어택을 피하려고 시도합니다. 결과는 여러분을 놀래킬수 있습니다. {{link2}}나 {{link3}}같은 재미있는 것도 시도해 보실 수 있습니다.",
+                "link1": "기본 공격자 랭킹",
+                "link2": "저레벨 회피 공격자",
+                "link3": "40렙 배틀"
+            },
+            "paragraph2": {
+                "text": "저레벨의 어떤 방어자가 깨기 어려운지 알고 싶으면 {{link1}}을 시도해보세요. 그것은 25레벨 공격자와 30레벨 방어자를 시뮬레이션합니다. 여러분은 {{link2}}나 {{link3}}같은 더 공정한 것을 시도해볼 수 있습니다.",
+                "link1": "기본 방어자 랭킹",
+                "link2": "모두 회피 30레벨 방어자 랭킹",
+                "link3": "고레벨 전투"
+            }
+        },
+        "buttons": {
+            "attacker": "공격자",
+            "defender": "방어자",
+            "gotoRankings": "랭킹으로 가기"
+        }
+    },
+    "list": {
+        "title": "{{typeSelection}} 체육관",
+        "meta": {
+            "description": "포케배틀러의 포켓몬고 {{typeSelection}}은 공격자 레벨, 방어자 레벨, 회피 능력 등으로 커스터마이즈 할 수 있습니다!",
+            "image": "https://static.pokebattler.com/images/og_pvp_rankings.jpg\n"
+        },
+        "descriptions": {
+            "title": "이 랭킹에 대해서",
+            "text": "이 {{type}}랭킹은 {{levels.attacker}}레벨의 공격자와 {{level.defender}}레벨의 방어자 전투의 시뮬레이션에 기초합니다. 랭킹 시뮬레이션은 {{strategies.attack}} 공격 전략과 {{strategies.dodge}} 회피전략을 사용하고 $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 시뮬레이션 타입에 기초합니다. $t(common:simulation, {'count': {{numSims}}}번의 시뮬레이션이 행해졌습니다. {{details}}",
+            "textPokeboxAttackers": "이 {{type}} 랭킹은 {{userId}} 트레이너의 공격자와 {{levels.defender}} 레벨의 방어자간의 전투 시뮬레이션에 기초합니다. 랭킹 시뮬레이션은 {{strategies.attack}} 공격 전략과 {{strategies.dodge}} 회피전략, $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 시뮬레이션 타입에 기초해서 실행되었습니다. $t(common:simulation, {'count': {{numSims}}})번의 시뮬레이션이 행해졌습니다.  {{details}}",
+            "textPokeboxDefenders": "이 {{type}} 랭킹은 {{levels.attacker}}레벨의 공격자와 {{userId}} 트레이너의 방어자간 전투 시뮬레이션에 기초합니다. 이 랭킹 시뮬레이션은 {{strategies.attack}} 공격전략과 {{strategies.dodge}} 회피전략, $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 시뮬레이션 타입에 기초합니다. $t(common:simulation, {'count': {{numSims}}})번의 시뮬레이션이 행해졌습니다. {{details}}",
+            "help1": "여러분은 어떤 {{type}}을 눌러서 다른 기술조합에 대한 결과를 볼수 있고 우측 상단의 우측 두번째 그룹아이콘을 눌러서 그룹되지 않은 결과를 볼 수 있습니다. 우측 상단의 정렬아이콘을 누르고 원하는 정렬조건을 선택하면 정렬 순서가 바뀝니다.",
+            "help2": "이런 고급 랭킹시뮬레이션대 대한 더 많은 정보는 {{link}}에서 찾으실 수 있습니다.",
+            "attackers": "공격자",
+            "defenders": "방어자",
+            "details": {
+                "attackers": "각 최종진화형의 모든 기술조합이 상위 30개 방어자의 모든 기술조합 대상으로 시뮬레이션 되었습니다. {{sort}} 기준에 따른 상위 30개 공격자와 그들의 최고 기술조합이 여기 표시됩니다.",
+                "defenders": "각 가능한 기술조합이 공격자의 모든 가능한 기술조합 대상으로 시뮬레이션 되었습니다. 각 포켓몬에 대한 최악의 6 카운터가 찾아졌고 {{sort}} 기준으로 상위 30개의 방어자와 그들의 최고 기술조합을 결정하기 위해 사용되었으며, 여기 표시됩니다."
+            }
+        },
+        "loading": "{{type}} 랭킹 결과를 생성중입니다. 수백만번의 시뮬레이션이 이 분석을 행하기 위해 필요하지만 결과는 곧 나올 것입니다.",
+        "typeSelection": {
+            "attacker": "공격자 랭킹",
+            "defender": "방어자 랭킹",
+            "attackers": "$t(rankings:list.typeSelection.attacker)\n",
+            "defenders": "$t(rankings:list.typeSelection.defender)\n"
+        },
+        "settings": {
+            "level": "포켓몬 레벨"
+        },
+        "featured": {
+            "title": "랭크 {{rank}}"
+        }
+    },
+    "featured": {
+        "title": {
+            "attacker": "평균 전투 스탯 Vs. 상위 30개 방어자",
+            "defender": "평균 전투 스탯 Vs. 최악 6개 매치업",
+            "raid": "평균 전투 스탯 Vs. {{pokemon}}"
+        },
+        "deepLink": "{{pokemon}}에 대한 상세보기"
+    }
 }
