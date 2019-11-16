@@ -123,6 +123,11 @@
             "title": "Executive Arlo",
             "subtitle": "Team Rocket Leader",
             "intro": "Candela. After all this time, you still haven’t changed. Tsk. Remember, fire is a fickle thing. When controlled, it provides warmth, but in the wrong hands, it burns. You will regret the day you took what was rightfully mine."
+        },
+        "CHARACTER_GIOVANNI": {
+            "title": "Giovanni",
+            "subtitle": "Team Rocket Leader",
+            "intro": "Head of Team Rocket. Uses Legendary Pokemon for his own evil ends."
         }
 
     },
