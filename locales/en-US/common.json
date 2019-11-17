@@ -133,7 +133,9 @@
         "error": "Error",
         "bulk": "Importing",
         "subscription": "Subscription",
-        "newVersion": "New Release"
+        "newVersion": "New Release",
+        "calculating": "Calculating",
+        "share": "Share"
     },
     "message": {
         "bulk": "Bulk importing {{num}} pokemon, this may take a bit",
@@ -152,7 +154,14 @@
         "subscriptionRenew": "Renewing subscription",
         "subscriptionCardUpdate": "Updating payment information",
         "subscriptionCardUpdateSuccess": "Successfully updated payment information",
-        "subscriptionCardUpdateFailure": "Could not update payment information"
+        "subscriptionCardUpdateFailure": "Could not update payment information",
+        "calculating": "Still calculating. {{elapsed}} seconds so far.",
+        "clipboard": "Copied! Ready For Paste",
+        "share": "Share With Your Friends"
+    },
+    "share": {
+        "title": "Check this Pokebattler page out! ",
+        "url": "Share this page"
     },
     "genericError": {
         "title": "$t(common:status.error)",
@@ -162,6 +171,7 @@
         "alpha": "Alpha Site",
         "beta": "Beta Site",
         "www": "Main Site",
+        "admin": "Admin Site",
         "store": "Official Apparel"
     },
     "candy": {
