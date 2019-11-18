@@ -1,7 +1,7 @@
 {
     "title": "레이드 카운터",
     "meta": {
-        "description": "날씨, 친구레벨을 고려해서 포켓몬 고 레이드 카운터를 찾으세요. 여러분의 포케박스에서 찾을 수도 있습니다. 세계 1위 레이드 가이드에서 24개의 최고 카운터를 얻으세요.",
+        "description": "날씨, 친구레벨을 고려해서 포켓몬 고 레이드 카운터를 찾으세요. 여러분의 포케박스에서 찾을 수도 있습니다. 세계 1위 레이드 가이드에서 30개의 최고 카운터를 얻으세요.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg\n"
     },
     "linkLabel": "레이드 카운터",
@@ -102,7 +102,7 @@
         "title": "{{defender}} 카운터",
         "meta": {
             "description": "{{defender}} 상대로 최고의 포켓몬고 35레벨 레이드 카운터는 {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}} 입니다. 여러분의 맞춤 결과를 확인하세요!",
-            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png\n"
+            "image": "{{infographicShareURL}}\n"
         },
         "calculating": "레이드 결과 계산 중",
         "counters": {
@@ -136,9 +136,9 @@
     },
     "pokebox": {
         "login": "포케배틀러 레이드 가이드는 여러분이 실제로 소유한 포켓몬만 포함하도록 커스터마이즈 될 수 있습니다. 로그인하셔서, 개인 포케박스에 최고의 포켓몬을 추가하시면, 여러분은 여러분의 포켓박스 안에서 최고의 카운터와, 전반적인 최고 카운터를 번갈아가면서 볼 수 있엉서, 레이드 배틀을 계획할 수 있습니다.",
-        "enabled": "여러분의 포케박스에 맞춤 결과를 보여줍니다. 여러분이 소유한 최고 24개의 카운터가 밑에 표시됩니다.",
-        "disabled": "{{level}}레벨 공격자의 결과를 보여줍니다. 해당 레벨의 최고 24개의 카운터가 밑에 표시됩니다.",
-        "friend": "사용자 {{userId}}의 결과를 보여줍니다. 최고 24 카운터가 밑에 표시됩니다.",
+        "enabled": "여러분의 포케박스에 맞춤 결과를 보여줍니다. 여러분이 소유한 최고 30개의 카운터가 밑에 표시됩니다.",
+        "disabled": "{{level}}레벨 공격자의 결과를 보여줍니다. 해당 레벨의 최고 30개의 카운터가 밑에 표시됩니다.",
+        "friend": "사용자 {{userId}}의 결과를 보여줍니다. 최고 30 카운터가 밑에 표시됩니다.",
         "switchLevel": "$t(common:attackerTypes.level)로 전환",
         "switchPokebox": " $t(common:attackerTypes.pokebox)로 전환"
     },
@@ -166,5 +166,15 @@
     "silph": {
         "text": "현재 레이드 보스 목록은 다음에 의해 제공됩니다:",
         "link": "The Silph Road"
+    },
+    "articles": {
+        "title": "최신 레이드 뉴스!",
+        "subtitle": "최고의 플레이어들과 연구자들에 의한 포켓몬고 레이드 기사와 비디오"
+    },
+    "guide": {
+        "title": "포케배틀러 $t(constants:pokemon.{{pokemonId}}) 레이드 카운터 가이드",
+        "subtitle": "포켓몬고에서 $t(constants:pokemon.{{pokemonId}}) 를 이기는 방법",
+        "infographicDownload": "$t(constants:pokemon.{{pokemonId}}) 정보 그림을 다운받으세요.",
+        "article": "하단의 $t(constants:pokemon.{{pokemonId}}) 에 대한 완전 레이드 카운터 가이드를 읽어보세요"
     }
 }

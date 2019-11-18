@@ -1,7 +1,7 @@
 {
     "pages": {
         "raids": {
-            "link": "/help/raids",
+            "link": "/help/raid-counter",
             "title": "Reides",
             "description": "Escolha os melhores adversários para qualquer chefe de reide com nosso guia customizado de reide"
         },

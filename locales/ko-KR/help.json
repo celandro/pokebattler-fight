@@ -1,7 +1,7 @@
 {
     "pages": {
         "raids": {
-            "link": "/help/raids",
+            "link": "/help/raid-counter",
             "title": "레이드",
             "description": "우리의 커스터마이즈 가능한 레이드 가이드로 보스에게 맞는 최고의 카운터를 고르세요"
         },
