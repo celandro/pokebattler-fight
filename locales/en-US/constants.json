@@ -830,6 +830,7 @@
         "NORMAL_FORM": "Normal",
         "SHADOW_FORM": "Shadow",
         "PURIFIED_FORM": "Purified",
+        "GALARIAN_FORM": "Galarian",
         "FALL_FORM": "Fall",
         "RATTATA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RATTATA)",
         "RATTATA_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.RATTATA)",
@@ -1300,15 +1301,65 @@
         "HIPPOWDON_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.HIPPOWDON)",
         "HIPPOWDON_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HIPPOWDON)",
         "HIPPOWDON_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.HIPPOWDON)",
-        "PIKACHU_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.PIKACHU)",
-        "SQUIRTLE_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.SQUIRTLE)",
-        "CHARMANDER_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.CHARMANDER)",
-        "BULBASAUR_FALL_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.BULBASAUR)",
+        "PIKACHU_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.PIKACHU)",
+        "SQUIRTLE_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.SQUIRTLE)",
+        "CHARMANDER_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.CHARMANDER)",
+        "BULBASAUR_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.BULBASAUR)",
       "PINSIR_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.PINSIR)",
       "PINSIR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PINSIR)",
-      "PINSIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.PINSIR)"
-
-
+      "PINSIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.PINSIR)",
+        "PIKACHU_VS_FORM": "Pikachu Vs",
+        "ONIX_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ONIX)",
+        "ONIX_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ONIX)",
+        "ONIX_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.ONIX)",
+        "STEELIX_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.STEELIX)",
+        "STEELIX_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.STEELIX)",
+        "STEELIX_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.STEELIX)",
+        "SHUPPET_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.SHUPPET)",
+        "SHUPPET_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SHUPPET)",
+        "SHUPPET_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SHUPPET)",
+        "BANETTE_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.BANETTE)",
+        "BANETTE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.BANETTE)",
+        "BANETTE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.BANETTE)",
+        "DUSKULL_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.DUSKULL)",
+        "DUSKULL_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DUSKULL)",
+        "DUSKULL_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.DUSKULL)",
+        "DUSCLOPS_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.DUSCLOPS)",
+        "DUSCLOPS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DUSCLOPS)",
+        "DUSCLOPS_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.DUSCLOPS)",
+        "DUSKNOIR_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.DUSKNOIR)",
+        "DUSKNOIR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DUSKNOIR)",
+        "DUSKNOIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.DUSKNOIR)",
+        "SABLEYE_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.SABLEYE)",
+        "SABLEYE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SABLEYE)",
+        "SABLEYE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SABLEYE)",
+        "SNORUNT_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.SNORUNT)",
+        "SNORUNT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SNORUNT)",
+        "SNORUNT_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SNORUNT)",
+        "GLALIE_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.GLALIE)",
+        "GLALIE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GLALIE)",
+        "GLALIE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.GLALIE)",
+        "SNOVER_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.SNOVER)",
+        "SNOVER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SNOVER)",
+        "SNOVER_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SNOVER)",
+        "ABOMASNOW_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ABOMASNOW)",
+        "ABOMASNOW_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ABOMASNOW)",
+        "ABOMASNOW_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.ABOMASNOW)",
+        "DELIBIRD_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.DELIBIRD)",
+        "DELIBIRD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DELIBIRD)",
+        "DELIBIRD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.DELIBIRD)",
+        "STANTLER_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.STANTLER)",
+        "STANTLER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.STANTLER)",
+        "STANTLER_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.STANTLER)",
+        "WEEZING_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.WEEZING)",
+        "ZIGZAGOON_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ZIGZAGOON)",
+        "ZIGZAGOON_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ZIGZAGOON)",
+        "LINOONE_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.LINOONE)",
+        "LINOONE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
+        "PIKACHU_COPY_2019_FORM": "2019 $t(constants:pokemon.PIKACHU)",
+        "VENUSAUR_COPY_2019_FORM": "2019 $t(constants:pokemon.VENUSAUR)",
+        "CHARIZARD_COPY_2019_FORM" : "2019 $t(constants:pokemon.CHARIZARD)",
+        "BLASTOISE_COPY_2019_FORM" : "2019 $t(constants:pokemon.BLASTOISE)"
     },
     "moves": {
         "undefined": "Undefined",
@@ -1557,7 +1608,10 @@
         "GIGA_IMPACT": "Giga Impact",
         "FRUSTRATION": "Frustration",
         "RETURN": "Return",
-        "SYNCHRONOISE": "Synchronoise"
+        "SYNCHRONOISE": "Synchronoise",
+        "LOCK_ON_FAST": "Lock On",
+        "THUNDER_FANG_FAST": "Thunder Fang",
+        "ICE_FANG_FAST": "Ice Fang"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
@@ -1765,9 +1819,28 @@
         "ESTIMATOR":{
             "label": "$t(common:properties.estimator)",
             "description": "Approximate number of players required to win"
+        },
+        "WEATHER":{
+            "label": "Weather",
+            "description": "Best in weather"
+        },
+        "DODGE_SPECIALS":{
+            "label": "Dodge Specials",
+            "description": "Best when dodging"
+        },
+        "40+W+F": {
+            "label": "40 + Boosts",
+            "description": "Level 40, Weather, Best Friends"
         }
     },
-    
+    "levels": {
+        "20": "Level 20",
+        "25": "Level 25",
+        "30": "Level 30",
+        "35": "Level 35",
+        "40": "Level 40",
+        "40+W+F": "40 + Boosts"
+    },
     "weatherConditions": {
         "NO_WEATHER": {
             "label": "Extreme",
@@ -1948,6 +2021,18 @@
         "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
             "label": "Silph Arena Jungle Cup",
             "description": "The July Silph Arena Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_SINISTER_CUP": {
+            "label": "Silph Arena Sinister Cup",
+            "description": "The October Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_FEROCIOUS_CUP": {
+            "label": "Silph Arena Ferocious Cup",
+            "description": "The November Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_TIMELESS_CUP": {
+            "label": "Silph Arena Timeless Cup",
+            "description": "The December Silph Arena Season 2 Cup tournament."
         }
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",

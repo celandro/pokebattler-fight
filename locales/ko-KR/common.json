@@ -37,12 +37,14 @@
         "stamina": "체력",
         "individualAttack": "$t(common:stats.attack)",
         "individualDefense": "$t(common:stats.attack)",
-        "individualStamina": "$t(common:stats.stamina)"
+        "individualStamina": "$t(common:stats.stamina)",
+        "hp": "HP"
     },
     "statsAbbr": {
         "attack": "공",
         "defense": "방",
-        "hp": "체"
+        "hp": "체",
+        "stamina": "체력"
     },
     "level": "레벨",
     "basic": "기본",
@@ -112,7 +114,7 @@
     "upgrade": "계정을 업그레이드",
     "trainer": "트레이너",
     "trainers": "트레이너",
-    "more": "더",
+    "more": "더 보기",
     "pokemon": "포켓몬",
     "battleParty": "배틀 파티",
     "battleParties": "배틀 파티",
@@ -139,7 +141,7 @@
         "deleteAll": "포케박스에서 모든 포켓몬을 제거하는 중",
         "update": "포켓몬 업데이트 중",
         "success": "성공",
-        "error": "이런, 뭔가 잘못되었습니다. 몇초 후 재시도해주세요.",
+        "error": "이런, 뭔가 잘못되었습니다. 몇 초 후 재시도해주세요.",
         "newVersion": "새 버전을 사용할 수 있습니다, 브라우저를 새로고침해주세요.",
         "subscriptionStripe": "사용자 정보 확인 중",
         "subscriptionPokebattler": "구독권 구매중",
@@ -228,7 +230,8 @@
             "news": "뉴스",
             "profiles": "공공 프로필",
             "matrix": "행렬",
-            "subscription": "구독"
+            "subscription": "구독",
+            "rocket": "로켓단"
         },
         "description": {
             "gym": "체육관 배틀 시뮬레이션, 도감과 랭킹",
@@ -241,7 +244,8 @@
             "help": "튜토리얼, 용어와 정의",
             "account": "포켓몬을 여러분의 포케박스와 배틀 파티에 추가해서 포케배틀러를 커스터마이즈하세요",
             "profiles": "친구들이 그들의 포케박스에 뭘 가지고 있는지 알아보세요",
-            "more": "뉴스, 기사, 번역, 연락처 등"
+            "more": "뉴스, 기사, 번역, 연락처 등",
+            "rocket": "정확한 로켓단 카운터"
         },
         "tooltip": {
             "gym": "체육관 배틀 시뮬레이션, 도감, 공격자와 방어자 랭킹 등",

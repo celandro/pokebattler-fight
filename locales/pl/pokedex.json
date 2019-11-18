@@ -1,0 +1,38 @@
+{
+    "title": "{{defender}} Kontry i Najłatwiejsze Wygrane w Ataku",
+    "meta": {
+        "description": "Pokemon GO Pokedex dla {{defender}} jest konfigurowalnym poradnikiem, który pokazuje jakie Pokemony najlepiej kontrują {{defender}} oraz jakie są przez {{defender}} najłatwiejsze do pokonania.",
+        "image": "https://static.pokebattler.com/images/og_gym_pokedex.jpg"
+    },
+    "intro": "Witaj w Pokedexie Pokebattlera dla $t(constants:pokemon.{{pokemon}}). Możesz znaleźć najlepsze zestawy ruchów do ataku, jak i obrony {{pokemon}}) oraz najtrudniejszych do pokonania przeciwników i najlepsze kontry gdy Pokemon ten jest w obronie. W ten sposób możesz się dowiedzieć, których Pokemonów należy unikać w walce i jak pokonać upierdliwych obrońców. Nie krępuj się zmieniać opcji poniżej, by zobaczyć efekt innych symulacji walk, lub żeby zmienić kolejność na taką jaką lubisz. Jak zawsze, wyniki na tej stronie wygenerowane są przez Symulator Walki Pokebattlera dla Pokemon GO. Możesz drążyć dowolne indywidualne symulacje poprzez kliknięcie na portret Pokemona przeciwnika",
+    "loading": "Tworzenie szczegółowej analizy walki dla $t(constants:pokemon.{{pokemon}}). Więcej niż milion symulacji koniecznych jest do wygenerowania tej strony. To nie potrwa jednak długo.",
+    "about": {
+        "title": "Więcej o tej Analizie Walki",
+        "text1": "Ta analiza dla {{pokemon}} jest bazowana na symulacji walki z poziomem {{attackerLevel}} atakującego, walczącego z poziomem {{defenderLevel}} obrońcą. Ranking symulacji został przeprowadzony z użyciem {{attackStrategy}} strategii ataku oraz {{dodgeStrategy}} bazując na systemie symulacji Monte Carlo. Pierwszych 32 najlepszych kontr oraz 32 najtrudniejszych przeciwników znaleziono używając przewidywanej strategii porównując w pełni ewoluowane Pokemony z każdym możliwym zestawem ruchów zarówno jako atakujący oraz jako broniący przeciw {{pokemon}}. Setki symulacji Monte Catlo zostało wykonanych przeciwko 5 najlepszym zestawom ataków dla tych 32 kontr/przeciwników co dało łącznie {{simulationCount}} symulacji. 30 najlepszych kontr i 30 najtrudniejszych przeciwników z ich najlepszymi zestawami ataków ze względu na {{sort}} zostało zapisanych i przedstawionych poniżej.",
+        "text2": "Możesz nacisnąć dowolnego atakującego, by zobaczyć wyniki dla tej konkretnej symulacji. Kolejność sortowania dla każdego wyniku może zostać zmieniana na taką jaką preferujesz poprzez kliknięcie ikonki sortowania w górnym prawym rogu",
+        "text3": {
+            "text": "Dodatkowe informacje możesz znaleźć w {{link}}",
+            "link": "sekcja pomocy"
+        }
+    },
+    "bestAttack": {
+        "title": "Najlepsze Ofensywne Zestawy Ataków",
+        "subtitle": "Ze względu na $t(common:properties.{{sort}})",
+        "rankingTitle": "Średnie statystyki walki Vs. 30 Najtrudniejszym Przeciwnikom"
+    },
+    "bestDefense": {
+        "title": "Najlepsze Defensywne Zestawy Ataków",
+        "subtitle": "Ze względu na $t(common:properties.{{sort}})",
+        "rankingTitle": "Średnie statystyki walki Vs. Najlepszym 6 Kontrom"
+    },
+    "attackMatchups": {
+        "title": "Najłatwiejsi Przeciwnicy",
+        "subtitle": "Ze względu na $t(common:properties.{{sort}})",
+        "text": "Poniższa analiza pokazuje wyniki przeciw najtrudniejszym {{defenderLevel} obrońcom dla $t(constants:pokemon.{{pokemon}}) poziomu {{attackerLevel}}. Ranking ten uwzględnia to, jak wszyscy atakujący radzą sobie z obrońcami pod względem $t(common:properties.{{sort}}). W skrócie, używaj $t(constants:pokemon.{{pokemon}}) przeciwko Pokemonom na szczycie tej listy!"
+    },
+    "bestCounters": {
+        "title": "Najlepsze Kontry",
+        "subtitle": "Ze względu na $t(common:properties.{{sort}})",
+        "text": "Poniższa analiza pokazuje Pokemony {{attackerLevel}} poziomu, które są najlepsze pod względem $t(common:properties.{{sort}}) przeciwko $t(constants:pokemon.{{pokemon}}) poziomu {{defenderLevel}}. To są najlepsze Pokemony, jakie możesz użyć jeśli $t(constants:pokemon.{{pokemon}}) broni areny."
+    }
+}
