@@ -1751,6 +1751,26 @@
                 "description": "Shields the first two special moves it can"
             }
         },
+        "defenderShield": {
+            "label": "Defender Shield Strategy",
+            "SHIELD_RANDOM": {
+                "label": "$t(strategies.shield.SHIELD_RANDOM.label)",
+                "description": "$t(strategies.shield.SHIELD_RANDOM.description)"
+            },
+            "SHIELD_0": {
+                "label": "$t(strategies.shield.SHIELD_0.label)",
+                "description": "$t(strategies.shield.SHIELD_0.description)"
+            },
+            "SHIELD_1": {
+                "label": "$t(strategies.shield.SHIELD_1.label)",
+                "description": "$t(strategies.shield.SHIELD_1.description)"
+            },
+            "SHIELD_2": {
+                "label": "$t(strategies.shield.SHIELD_2.label)",
+                "description": "$t(strategies.shield.SHIELD_2.description)"
+            }
+
+        },
         "defense": {
             "DEFENSE": {
                 "label": "Expected Defender",
