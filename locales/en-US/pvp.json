@@ -292,6 +292,10 @@
       "COMBAT_LEAGUE_SILPH_FEROCIOUS_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season 2 cup for November using beast types with numerous bans. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_TIMELESS_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season 2 cup for December. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {
