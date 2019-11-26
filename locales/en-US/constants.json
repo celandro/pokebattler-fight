@@ -830,6 +830,7 @@
         "NORMAL_FORM": "Normal",
         "SHADOW_FORM": "Shadow",
         "PURIFIED_FORM": "Purified",
+        "GALARIAN_FORM": "Galarian",
         "FALL_FORM": "Fall",
         "RATTATA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RATTATA)",
         "RATTATA_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.RATTATA)",
@@ -1354,9 +1355,11 @@
         "ZIGZAGOON_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ZIGZAGOON)",
         "ZIGZAGOON_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ZIGZAGOON)",
         "LINOONE_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.LINOONE)",
-        "LINOONE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)"
-
-
+        "LINOONE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
+        "PIKACHU_COPY_2019_FORM": "2019 $t(constants:pokemon.PIKACHU)",
+        "VENUSAUR_COPY_2019_FORM": "2019 $t(constants:pokemon.VENUSAUR)",
+        "CHARIZARD_COPY_2019_FORM" : "2019 $t(constants:pokemon.CHARIZARD)",
+        "BLASTOISE_COPY_2019_FORM" : "2019 $t(constants:pokemon.BLASTOISE)"
     },
     "moves": {
         "undefined": "Undefined",
@@ -1748,6 +1751,26 @@
                 "description": "Shields the first two special moves it can"
             }
         },
+        "defenderShield": {
+            "label": "Defender Shield Strategy",
+            "SHIELD_RANDOM": {
+                "label": "$t(strategies.shield.SHIELD_RANDOM.label)",
+                "description": "$t(strategies.shield.SHIELD_RANDOM.description)"
+            },
+            "SHIELD_0": {
+                "label": "$t(strategies.shield.SHIELD_0.label)",
+                "description": "$t(strategies.shield.SHIELD_0.description)"
+            },
+            "SHIELD_1": {
+                "label": "$t(strategies.shield.SHIELD_1.label)",
+                "description": "$t(strategies.shield.SHIELD_1.description)"
+            },
+            "SHIELD_2": {
+                "label": "$t(strategies.shield.SHIELD_2.label)",
+                "description": "$t(strategies.shield.SHIELD_2.description)"
+            }
+
+        },
         "defense": {
             "DEFENSE": {
                 "label": "Expected Defender",
@@ -2026,6 +2049,10 @@
         "COMBAT_LEAGUE_SILPH_FEROCIOUS_CUP": {
             "label": "Silph Arena Ferocious Cup",
             "description": "The November Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_TIMELESS_CUP": {
+            "label": "Silph Arena Timeless Cup",
+            "description": "The December Silph Arena Season 2 Cup tournament."
         }
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
