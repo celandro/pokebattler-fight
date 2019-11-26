@@ -148,7 +148,7 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "The best Pokemon Go {{defender}} Counters  are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
+            "description": "The best Team Rocket {{defender}} Counters with configurable levels and shielding",
             "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
         },
         "calculating": "Analyzing Team Rocket Defenses",
