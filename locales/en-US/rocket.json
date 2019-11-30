@@ -16,7 +16,7 @@
         "subtitle": "Articles and Videos About Team Rocket From Top Players And Researchers"
     },
     "note": {
-        "default": "Team Rocket Pokemon are no longer as powerful as they once were. As long as your Pokemon can resist the quick attack and you use shields on the final boss, the fights should be much easier",
+        "default": "Team Rocket Grunts are not very difficult as they do not shield. Team Rocket Executives and Giovanni have higher stats and will shield the first two specials used. Resisting the quick attack and using Pokemon that can force the shadow Pokemon to use their shields is the best way to beat these tough foes!",
         "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team Rocket Pokemon but player level is a factor. Team Rocket Pokemon are no longer as powerful as they once were, make sure to check your custom counters again"
     },
     "tierList": {
@@ -148,7 +148,7 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "The best Pokemon Go {{defender}} Counters  are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
+            "description": "The best Team Rocket {{defender}} Counters with configurable levels and shielding",
             "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
         },
         "calculating": "Analyzing Team Rocket Defenses",
