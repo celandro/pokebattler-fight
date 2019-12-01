@@ -1,1 +1,40 @@
-{}
+{
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "breakingNews": {
+        "title": "Z Ostatniej Chwili"
+    },
+    "tierList": {
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Legacy Poziom 6"
+        }
+    },
+    "custom": {
+        "levelsLabel": "Poziomy Atakujących",
+        "attackersLabel": "Atakujący"
+    },
+    "results": {
+        "title": "{{defender}} Kontry",
+        "counters": {
+            "title": "kontry",
+            "subtitle": "Najlepsi Atakujący ze względu na",
+            "chooseMovesetLabel": "Wybierz Zestaw Ataków"
+        },
+        "hardestMovesets": {
+            "subtitle": "Dla {{pokemon}} ze względu na {{sort}}"
+        },
+        "analysis": {
+            "title": "Więcej o Tej Analizie",
+            "attackers": {
+                "byLevel": "{{attackerLevel}} poziomy atakujących",
+                "pokebox": "własny Pokemon z Pokeboxa #{{userId}} użytkownika"
+            }
+        },
+        "patreon": {
+            "description": "Dokładniejsze wyniki dla niewiadomych zestawów ataków dostarczone zostały dzięki pomocy subskrybentów. Subskrybenci dostaję więcej miejsca w Pokeboxie, jeszcze bardziej precyzyjne wyniki dla wszystkich zestawów ataków a także więcej innych korzyści.",
+            "link": "Zobacz wszystkie korzyści, jakie możesz zyskać po zalogowaniu się",
+            "thanks": "Dziękujemy za wsparcie!"
+        }
+    }
+}
