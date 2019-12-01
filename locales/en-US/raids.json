@@ -126,7 +126,7 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "The best Pokemon Go {{defender}} counters are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Login to see your custom results!",
+            "description": "Pokebattler is the premier source for {{defender}} raid counters! The best Pokemon Go raid {{defender}} counter is {{counter}} with {{move1}} and {{move2}} requiring {{estimator}} players in {{time}} seconds at level 35 without weather or friend boosts. This guide is customizable by changing the attack level, attack strategy, sort options or entering your own Pokemon. ",
             "image": "{{infographicShareURL}}"
         },
         "calculating": "Calculating Raid Results",
@@ -146,13 +146,13 @@
         },
         "analysis": {
             "title": "About This Analysis",
-            "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 20 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
+            "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
             "attackers": {
                 "byLevel": "level {{attackerLevel}} attackers",
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
-        "description": "The best Pokemon Go {{defender}} counters are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Pokebattler's {{pokemon}} raid counters guide is designed to help you beat {{pokemon}} with your best counters. You can find the best counters overall to defeat {{pokemon}} in the infographic and article and use our customizable tool form for custom results showing generic Pokemon, or your own Pokemon. This guide is customizable by changing the attack level, attack strategy and sort options. You can find the best Pokemon that you own to beat {{pokemon}} if you add your Pokemon into your personal Pokebox.",
+        "description": "Pokebattler's {{pokemon}} raid counters guide is designed to help you beat {{pokemon}} with your best counters. You can find the best counters overall to defeat {{pokemon}} in the infographic and article and use our customizable tool for results from millions of simulations of Pokemon, or your own Pokebox full of Pokemon for a truly personalized experience. ",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
             "link": "See all the benefits you get for signing up",
