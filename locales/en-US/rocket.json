@@ -111,25 +111,118 @@
         },
         "CHARACTER_EXECUTIVE_CLIFF": {
             "title": "Executive Cliff",
-            "subtitle": "Team Rocket Leader ",
+            "subtitle": "Team GO Rocket Leader ",
             "intro": "Blanche. You overthink.  overcalculate.  overcomplicate. But can’t you see? It’s pretty simple. Your time as a leader is OVER!!!"
         },
         "CHARACTER_EXECUTIVE_SIERRA": {
             "title": "Executive Sierra",
-            "subtitle": "Team Rocket Leader",
+            "subtitle": "Team GO Rocket Leader",
             "intro": "Spark. Your naïve positivity is laughable and will be your undoing.\nThe world is so very cruel.\nI’ll make sure to remind you soon."
         },
         "CHARACTER_EXECUTIVE_ARLO": {
             "title": "Executive Arlo",
-            "subtitle": "Team Rocket Leader",
+            "subtitle": "Team GO Rocket Leader",
             "intro": "Candela. After all this time, you still haven’t changed. Tsk. Remember, fire is a fickle thing. When controlled, it provides warmth, but in the wrong hands, it burns. You will regret the day you took what was rightfully mine."
         },
         "CHARACTER_GIOVANNI": {
             "title": "Giovanni",
-            "subtitle": "Team Rocket Leader",
+            "subtitle": "The Boss",
             "intro": "Head of Team Rocket. Uses Legendary Pokemon for his own evil ends."
+        },
+        "CHARACTER_NORMAL_GRUNT_MALE": {
+            "title": "Male Normal Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Normal does not mean weak."
+        },
+        "CHARACTER_FIGHTING_GRUNT_FEMALE": {
+            "title": "Female Fighting Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "This buff physique isn't just for show!"
+        },
+        "CHARACTER_FLYING_GRUNT_FEMALE": {
+            "title": "Female Flying Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Battle against my Flying-type Pokemon!"
+        },
+        "CHARACTER_POISON_GRUNT_FEMALE": {
+            "title": "Female Poison Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Coiled and ready to strike!"
+        },
+        "CHARACTER_GROUND_GRUNT_MALE": {
+            "title": "Male Ground Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "You'll be defeated into the ground"
+        },
+        "CHARACTER_ROCK_GRUNT_MALE": {
+            "title": "Male Rock Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Let's rock and roll!"
+        },
+        "CHARACTER_BUG_GRUNT_MALE": {
+            "title": "Male Bug Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Go, my super bug Pokemon!"
+        },
+        "CHARACTER_GHOST_GRUNT_MALE": {
+            "title": "Male Ghost Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Ke... ke... ke... ke... ke... ke!"
+        },
+        "CHARACTER_FIRE_GRUNT_FEMALE": {
+            "title": "Female Fire Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Do you know how hot Pokemon fire breath can get?"
+        },
+        "CHARACTER_WATER_GRUNT_MALE": {
+            "title": "Male Water Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "These waters are treacherous!"
+        },
+        "CHARACTER_WATER_GRUNT_FEMALE": {
+            "title": "Female Water Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "These waters are treacherous!"
+        },
+        "CHARACTER_GRASS_GRUNT_MALE": {
+            "title": "Male Grass Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Don't tangle with us!"
+        },
+        "CHARACTER_ELECTRIC_GRUNT_FEMALE": {
+            "title": "Female Electric Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Get ready to be shocked!"
+        },
+        "CHARACTER_PSYCHIC_GRUNT_MALE": {
+            "title": "Male Psychic Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Are you scared of psychics that use unseen power?"
+        },
+        "CHARACTER_DRAGON_GRUNT_FEMALE": {
+            "title": "Female Dragon Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "ROAR! ...How'd that sound?"
+        },
+        "CHARACTER_GRUNT_MALE": {
+            "title": "Starter Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Don't bother - I've already won",
+            "intro2": "Get ready to be defeated",
+            "intro3": "Winning is for winners"
+        },
+        "CHARACTER_GRUNT_FEMALE": {
+            "title": "Hard Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": "Don't bother - I've already won",
+            "intro2": "Get ready to be defeated",
+            "intro3": "Winning is for winners"
+        },
+        "CHARACTER_DECOY_GRUNT_FEMALE": {
+            "title": "Decoy Grunt",
+            "subtitle": "Team GO Rocket",
+            "intro": ""
         }
-
     },
     "executives": {
         "title": "Team Rocket Exectutives",
