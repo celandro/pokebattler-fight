@@ -1,1 +1,12 @@
-{}
+{
+    "title": "Polityka Prywatności",
+    "meta": {
+        "description": "Pokebattler traktuje twoją prywatność bardzo poważnie i nie udostępnia żadnych danych osobowych użytkownika poza stronę.",
+        "image": "https://static.pokebattler.com/images/og_more_privacy.jpg"
+    },
+    "policy": "Pokebattler.com dba o twoją prywatność. Nie udostępniamy twoich informacji osobistych żadnym osobom trzecim ani nie przechowujemy żadnych informacji o twoich odwiedzinach na tej stronie, które nie byłyby związane z analizą i ulepszaniem jakości twojego użytkowania tej strony poprzez używanie ciasteczek i pamięci podręcznej. Pamieć podręczna jest używana wyłącznie dla twojej wygody do przechowywania informacji na temat twoich personalizowanych ustawień.",
+    "pokebox": "Pokebattler nie ma żadnego kontaktu z serwerami Niantic. Pokebox, informacje trenera oraz inne opcje personalizacji używają pojedynczego logowania poprzez Google lub Facebooka i wykorzystywane są do zapewnienia prywatności użytkowania wszystkich narzędzi. Żadne informacje personalne poza numerem identyfikacyjnym oraz adresem email, które używane są do celów logowania nie są odzyskiwane, ani przechowywanie. Informacje te nie są używane do celów marketingowych ani innych powiązanych celów w żaden sposób. Używanie zawartości strony jest opcjonalne i ukierunkowane wyłącznie na twoją korzyść. Informacje takie jak imię trenera oraz zawartość pokeboxa są używane do wspierania w udostępnianiu linków URL, znajdowaniu twoich przyjaciół i innych narzędziach strony. Jeśli mimo wszystko martwisz się o swoją prywatność, rozważ nie wprowadzania swojego imienia trenera oraz imion swoich Pokemonów.",
+    "browserSettings": "Możesz wyłączyć używanie ciasteczek oraz pamięci podręcznej kiedy tylko chcesz poprzez zmienianie właściwych ustawień na swojej przeglądarce.",
+    "changeNote": "Nasza polityka prywatności może ulec zmianie bez powiadomień. Ostatnia aktualizacja miała miejsce {{changed_date}}. Jeśli masz jakieś pytania, lub jeśli życzysz sobie byśmy usunęli wszystkie twoje dane ze strony, skontaktuj się z nami poprzez {{contactLink}}",
+    "contactLink": "Skontaktuj się z nami."
+}
