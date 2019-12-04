@@ -1,1 +1,97 @@
-{}
+{
+    "title": "Pokebox",
+    "meta": {
+        "description": "Przechowuj swoje Pokemony z Pokemon GO dla spersonalizowanych wyników Raidów i nie tylko!"
+    },
+    "blurb": "Dodaj swoje Pokemony dla spersonalizowanych wyników! Możesz dodawać swoje Pokemony pojedynczo używając niebieskiego kółka po prawej. Możesz również skorzystać z opcji zbiorowego importu, aby dodać Pokemony z innych aplikacji. W prawym górnym rogu znajdziesz narzędzie sortowania, które pomoże ci znajdować twoje Pokemony.",
+    "pokemonList": {
+        "title": "Twój Własny Pokebox",
+        "meta": {
+            "description": "Przechowuj swoje Pokemony z Pokemon GO dla spersonalizowanych wyników Raidów i nie tylko!"
+        },
+        "zero": "Dodaj swoje Pokemony poprzez kliknięcie pudełka po lewej.",
+        "zeroDescription": "Jeśli już dodałeś Pokemony w przeszłości, możliwe że zalogowałeś się na inne konto. Twoje konta zostaną automatycznie połączone jeśli są zarejestrowane na ten sam adres email.",
+        "zeroHelp": "Jeśli nie są zarejestrowane na ten sam adres email, {{link}} z ID użytkownika konta które musisz połączyć",
+        "email": "Pokebattler email",
+        "showMore": "Pokaż Więcej",
+        "filter": {
+            "label": "Filtruj Pokemony",
+            "hint": "Wprowadź Pokemony lub Typy rozdzielone przecinkiem"
+        }
+    },
+    "add": {
+        "title": "Pokebox",
+        "meta": {
+            "description": "Dodaj Pokemona do swojego Pokeboxa"
+        },
+        "description": "Dodaj Pokemona",
+        "pokemon": "Wybierz Pokemona",
+        "pokemonSelect": "Wybierz Pokemona"
+    },
+    "deleteAll": {
+        "button": "Usuń Wszystko",
+        "title": "Usuń Wszystko",
+        "meta": {
+            "description": "Usuń Pokemona ze swojego Pokeboxa"
+        },
+        "confirmation": "Wszystkie Pokemony z twojego Pokeboxa zostaną usunięte, jesteś pewny że chcesz to zrobić?",
+        "irreversible": "Nie da się odwrócić tego procesu!"
+    },
+    "export": {
+        "button": "Zbiorowy Export"
+    },
+    "import": {
+        "button": "Zbiorowy Import",
+        "title": "Import Pokeboxa",
+        "meta": {
+            "description": "Dodaj Pokemony do swojego Pokeboxa z programów trzecich."
+        },
+        "description": "Importuj Pokemony",
+        "parse": "Rozpocznij Import",
+        "hintText": "Wiele formatów jest wspieranych. Upewnij się, że zawarłeś wiersz nagłówka.",
+        "floatingLabel": "Skopiuj i wklej swoje Pokemony tutaj",
+        "table": {
+            "header": "Wybierz Pokemona, którego chcesz przenieść poniżej",
+            "selectAll": "Wybierz Wszystkie"
+        }
+    },
+    "update": {
+        "title": "Pokebox",
+        "meta": {
+            "description": "Zaktualizuj Pokemona w swoim Pokeboxie"
+        },
+        "description": "Modyfikuj {{name}}"
+    },
+    "loading": "Ładowanie twojego Pokemona",
+    "backPokebox": "Wróć do Pokeboxa",
+    "powerUp": "Wzmocnienie",
+    "full": {
+        "title": "Pokebox Jest Pełny",
+        "subtitle": "Brak Miejsca",
+        "explanation": "Osiągnąłeś maxymalną liczbę Pokemonów w swoim Pokeboxie dla twojego obecnego poziomu członkowstwa. To umieszcza cię pośród top 5% kont Pokebattlera oraz top 0.1% użytkowników Pokebattlera! Pokebattler liczy na wsparcie zagorzałych użytkowników jak ty, po to by serwować symulacje wysokiej jakości dla każdego. Możesz zwiększyć pojemność swojego Pokeboxa poprzez subskrypcję lepszego planu."
+    },
+    "upgrade": {
+        "title": "$t(common:upgrade)",
+        "subtitle": "To narzędzie wymaga subskrypcji wyższego poziomu",
+        "explanation": "Pokebattler jest utrzymywany przy życiu przez zaledwie 0.1% ludzi odwiedzających stronę, takich jak Ty. Ulepsz swoje konto by pomóc utrzymywać oraz rozwijać się Pokebattlerowi, a także zyskać więcej korzyści! Ekskluzywne narzędzia, doskonalsze analizy, większy Pokebox - to wszystko czeka na ciebie! "
+    },
+    "explanation": "Pokebox Pokebattlera jest ekscytującym dodatkiem, który pozwala Ci spersonalizować twoje użytkowanie Pokebattlera bazując na Pokemonach, które sam posiadasz! Pokemony, które dodasz do Pokeboxa mogą być używane w symulacjach na całej stronie. Rozglądaj się za ikonką boxa. Zielona ikonka oznacza, że używasz swojego Pokeboxa, czarna oznacza, że nie.",
+    "delete": {
+        "title": "Usuń",
+        "meta": {
+            "description": "Usuń Pokemona ze swojego Pokeboxa"
+        },
+        "blurb": "Możesz szybko usunąć kilka Pokemonów za jednym razem tutaj. Pozwoli ci to na szybsze wyczyszczenie większej ilości miejsca w twoim Pokeboxie. Po prostu wybierz te Pokemony, które chcesz usunąć. Gdy już skończysz, przewiń na sam dół i kliknij przycisk Usuń.",
+        "button": "Usuwanie Zbiorowe",
+        "bulk": {
+            "title": "Usuń",
+            "meta": {
+                "description": "Usuń Zbiór Pokemonów z twojego Pokeboxa."
+            },
+            "toolbarTitle": "Usuwanie Zbiorowe",
+            "confirmation": "To polecenie usunie {{num}} Pokemonów z twojego Pokeboxa, jesteś pewny że chcesz to zrobić?"
+        },
+        "confirmation": "Jesteś pewny, że chcesz usunąć?",
+        "irreversible": "Nie da się odwrócić tego procesu!"
+    }
+}
