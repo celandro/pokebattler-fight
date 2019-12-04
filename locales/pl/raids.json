@@ -7,7 +7,7 @@
     "linkLabel": "Kontry Raidów",
     "intro": "Raidy w Pokemon GO nadeszły! Dowiedz się, który Pokemon najlepiej sprawdzi się w walce przeciw Raid bossom dzięki najlepszemu na świecie poradnikowi o Raidach w Pokemon GO. Po prostu wybierz Raid z poniższej listy, by zobaczyć najlepsze kontry dla każdego zestawu ataków bossa!",
     "breakingNews": {
-        "title": "Z Ostatniej Chwili",
+        "title": "Wiadomości z Ostatniej Chwili",
         "subtitle": "Popularne Raidy w Pokemon GO",
         "header": "Interaktywne $t(constants:pokemon.{{pokemonId}}) Kontry"
     },
