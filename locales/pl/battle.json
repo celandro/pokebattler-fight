@@ -1,0 +1,137 @@
+{
+    "title": "Symulator Walk na Arenie",
+    "meta": {
+        "description": "Symulator Walk na Arenie Pokebattler daje najdokładniejsze na świecie wyniki walk na arenie uwzględniając bonusy pogodowe oraz analizy z sekundy na sekundę.",
+        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
+    },
+    "raidBattlePartyTitle": "Symulator Drużyny Raidu",
+    "raid": {
+        "title": "Symulator Raidu",
+        "meta": {
+            "description": "Symulator Raidu Pokebattler jest najdokładniejszy na świecie. Zobacz wyniki dla aż do 20 drużyn uwzględniając bonusy przyjaźni oraz bonusy pogodowe.",
+            "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+        }
+    },
+    "pvp": {
+        "title": "Symulator PvP",
+        "meta": {
+            "description": "Symulator PvP Pokebattlera pozwala ci na walkę z twoimi przyjaciółmi by zobaczyć kto będzie górą w najdokładniejszym na świecie symulatorze.",
+            "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+        }
+    },
+    "recommended": "Zalecane",
+    "startButton": "Walka",
+    "attacker": "Atakujący",
+    "attackerPlaceHolder": "Wybierz $t(attacker)",
+    "defender": "Obrońca",
+    "defenderPlaceHolder": "Wybierz $t(defender)",
+    "pokemonListTypes": {
+        "pokebox": "Mój Pokebox",
+        "all": "Wszystkie Pokemony"
+    },
+    "relatedBattles": {
+        "title": "Powiązane Walki",
+        "description": "Wybierz parametr jaki chcesz zmienić poniżej, następnie kliknij w link, który odświeży obecną symulację z nowym parametrem. Wyniki zostają zaktualizowane natychmiastowo.",
+        "modify": "Modyfikuj",
+        "switch": "Zmień na modyfikację {{type}}",
+        "parameterTitle": "Zmień Parametr"
+    },
+    "results": {
+        "title": {
+            "base": "Wynik Walki: Ty",
+            "win": "$t(results.title.base) zwycięstwo!",
+            "lose": "$t(results.title.base) porażka!"
+        },
+        "about": "Więcej o tej Walce",
+        "description": "Atakujący {{attacker.name}} poziomu {{attacker.level}} z {{attacker.cp}} CP {{result}} z obrońcą {{defender.name}} poziomu {{defender.level}} z {{defender.cp}} w tej sytuacji. Atakujący {{attacker.name}} używał {{attacker.quickMove}} jako swojego szybkiego ataku oraz {{attacker.specialMove}} jako ataku specjalnego. Obrońca {{defender.name}} używał {{defender.quickMove}} jako swojego szybkiego ataku oraz {{defender.specialMove}} jako ataku specjalnego. Symulacja walki została przeprowadzona z {{strategies.attack}} strategią ataku używając {{strategies.dodge}} bazującej na {{strategies.defense}} typie symulacji, w czasie pogody {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) zostało przeprowadzonych do uzyskania wyniku tej walki.",
+        "gym": {
+            "title": "{{attacker.name}} vs. {{defender.name}} Symulacja Walki",
+            "meta": {
+                "description": "Wynik walki na arenie dla {{attacker.name}} z {{attacker.quickMove}} i {{attacker.specialMove}} vs. {{defender.name}} z {{defender.quickMove}} i {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+            }
+        },
+        "explore": {
+            "title": "Zbadaj ten wynik",
+            "subtitle": "Naciśnij by załadować twoją rozpiskę",
+            "select": "Rodzaj Wykresu",
+            "columns": {
+                "attackerId": "ID",
+                "attackerGroup": "Grupa",
+                "attackerOrder": "Kolejność",
+                "battlePartyUserId": "Użytkownik",
+                "battlePartyTrainer": "Trener",
+                "combatTime": "Czas Walki",
+                "currentTime": "Obecny Czas",
+                "damageDealt": "Zadane Obrażenia",
+                "damageReceived": "Otrzymane Obrażenia",
+                "energy": "Energia",
+                "move": "Atak",
+                "moveType": "Rodzaj Ataku",
+                "attacker": "Atakujący",
+                "defender": "Obrońca",
+                "actor": "Zawodnik"
+            },
+            "pivotTypes": {
+                "damageByTrainer": {
+                    "title": "Obrażenia zadane przez Trenera",
+                    "description": "Obrażenia zadane przez każdego trenera są pokazane tutaj."
+                },
+                "damageByPokemon": {
+                    "title": "Obrażenia zadane przez Pokemona",
+                    "description": "Obrażenia zadane przez każdego Pokemona są pokazane tutaj."
+                },
+                "dpsByPokemon": {
+                    "title": "DPS Pokemonów",
+                    "description": "DPS (Obrażenia Na Sekundę) każdego Pokemona są pokazane tutaj."
+                },
+                "damageByGroup": {
+                    "title": "Obrażenia Grupy",
+                    "description": "Obrażenia zadane przez każdą grupę pokemonów są pokazane tutaj."
+                },
+                "custom": {
+                    "title": "Spersonalizowana Analiza",
+                    "description": "Możesz tutaj przeprowadzić zaawansowane analizy! Opcja ta działa najlepiej w trybie stacjonarnym."
+                }
+            }
+        },
+        "battleParty": {
+            "title": "{{attacker.name}} vs. {{defender.name}} Symulacja Raidu",
+            "meta": {
+                "description": "Wynik Symulacji Raidu dla {{attacker.name}} vs. {{defender.name}} z {{defender.quickMove}} i {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+            },
+            "description": "Użytkownik {{attacker.userId}} wraz z drużyną {{attacker.battlePartyId}} {{result}} z {{defender.tier}} {{defender.name}} z {{defender.cp}} CP w tej symulacji walki. Symulacja walki została przeprowadzona z {{strategies.attack}} strategią ataku używając {{strategies.dodge}} bazującej na {{strategies.defense}} typie symulacji, w czasie pogody {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) zostało przeprowadzonych do uzyskania wyniku tej walki."
+        },
+        "pvp": {
+            "title": "{{attacker.name}} vs. {{defender.name}} Symulacja PvP",
+            "meta": {
+                "description": "Wyniki Symulacji PvP dla {{attacker.name}} vs. {{defender.name}}",
+                "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+            },
+            "description": "Użytkownik {{attacker.userId}} wraz z drużyną {{attacker.battlePartyId}} {{result}} z użytkownikiem {{defender.userId}} używającym drużyny {{defender.battlePartyId}} w tej symulacji walki. Symulacja walki została przeprowadzona z {{strategies.attack}} strategią ataku oraz {{strategies.dodge}} przeciwko {{strategies.defense}} strategii ataku oraz {{strategies.defenseDodge}}, w czasie pogody {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) zostało przeprowadzonych do uzyskania wyniku tej walki."
+        },
+        "help": {
+            "text": "Możesz znaleźć więcej informacji na temat tego, jak przeprowadzane są te symulacje poprzez sprawdzenie {{helpLink}}. Odnośniki do badań na temat walk w Pokemon GO możesz znaleźć tu: {{aboutLink}}.",
+            "links": {
+                "repo": "strona projektu"
+            }
+        },
+        "result": {
+            "win": "wygrał",
+            "lose": "przegrał"
+        },
+        "assistants": {
+            "title": "Dodatkowe Cechy Trenerskie",
+            "both": "Wynik poniżej uwzględnia {{numExplicit}} dodatkowych trenerów oraz {{numRandom}} losowych drużyn poziomu 30-40. Ma to pomóc w przeprowadzeniu realistycznej symulacji Raidu, oraz jego rezultatu z większą ilością trenerów. % Szansa na zwycięstwo powyżej określa szansę na zwycięstwo zanim cała twoja drużyna padnie, pod warunkiem że ta liczba dodatkowych trenerów ci pomaga. W tym scenariuszu często ponowne dołączenie pozwoli ci wygrać. Siła, czas do zwycięstwa, mikstury oraz ogólne oceny bazowane są na tym, co twoja drużyna 6 pokemonów może zrobić i nie uwzględnia drużyn innych trenerów. Strona ta zazwyczaj będzie pokazywała dużo więcej informacji - tylko ten wynik walki jest póki co gotowy. Istnieje również lepszy interfejs pozwalający ci wybrać ilu trenerów i dodatkowych drużyn pomaga ci w Raidzie.",
+            "explicit": "Wynik poniżej uwzględnia {{numExplicit}} dodatkowych trenerów. Ma to pomóc w przeprowadzeniu realistycznej symulacji walki. % Szansa na zwycięstwo powyżej określa szansę na zwycięstwo zanim cała twoja drużyna padnie, pod warunkiem że ta liczba dodatkowych trenerów ci pomaga. W tym scenariuszu często ponowne dołączenie pozwoli ci wygrać. Siła, czas do zwycięstwa, mikstury oraz ogólne oceny bazowane są na tym, co twoja drużyna 6 pokemonów może zrobić i nie uwzględnia drużyn innych trenerów. Strona ta zazwyczaj będzie pokazywała dużo więcej informacji - tylko ten wynik walki jest póki co gotowy. Istnieje również lepszy interfejs pozwalający ci wybrać ile i jakich dodatkowych drużyn pomaga ci w walce.",
+            "random": "Wynik poniżej uwzględnia {{numRandom}} dodatkowych losowych drużyn poziomu 30-40. Ma to pomóc w przeprowadzeniu realistycznej symulacji Raidu, oraz jego rezultatu z większą ilością trenerów. % Szansa na zwycięstwo powyżej określa szansę na zwycięstwo zanim cała twoja drużyna padnie, pod warunkiem że ta liczba dodatkowych trenerów ci pomaga. W tym scenariuszu często ponowne dołączenie pozwoli ci wygrać. Siła, czas do zwycięstwa, mikstury oraz ogólne oceny bazowane są na tym, co twoja drużyna 6 pokemonów może zrobić i nie uwzględnia drużyn innych trenerów. Strona ta zazwyczaj będzie pokazywała dużo więcej informacji - tylko ten wynik walki jest póki co gotowy.",
+            "link": "strona symulacji raidu",
+            "name": "Asystent"
+        },
+        "logTitle": "Rejestr Walki"
+    },
+    "runAgain": "Uruchom tą losową symulację jeszcze raz ",
+    "runSolo": "Uruchom jako próbę solo",
+    "addBattleParty": "Zachowaj tą drużynę"
+}
