@@ -175,6 +175,21 @@
     "people": {
         "title": "Pokebattler Estimator",
         "difficultyRating": "Poziom trudności: {{rating}}",
-        "adviceLink": "Zobacz co się stanie gdy wzmocnisz"
+        "adviceLink": "Zobacz co się stanie gdy wzmocnisz",
+        "estimate": {
+            "close": "Do pokonania {{pokemon}} powinno wystarczyć {{numPeople}} trenerów z Pokemonami o tej sile. To będzie bardzo ciężka walka. Jeśli możesz sprowadź jeszcze jednego trenera by się zabezpieczyć.",
+            "almost": "Do pokonania {{pokemon}} powinno wystarczyć {{numPeople}} trenerów z Pokemonami o tej sile. Jeśli Ci się poszczęści, może uda Ci się wygrać z 1 trenerem mniej.",
+            "trivial": "Do pokonania {{pokemon}} powinno wystarczyć {{numPeople}} trenerów z Pokemonami o tej sile. Ta walka skończy się zanim się zacznie. Będzie tak łatwa, że do wygrania możesz użyć drużyny sugerowanej w grze.",
+            "normal": "Do pokonania {{pokemon}} powinno wystarczyć {{numPeople}} trenerów z Pokemonami o tej sile. Upewnij się, że twoja grupa jest odpowiednio przygotowana do tej walki.",
+            "difficult": "Do pokonania {{pokemon}} powinno wystarczyć {{numPeople}} trenerów z Pokemonami o tej sile. To będzie ciężka walka, upewnij się, że każdy użyje swoich najlepszych Pokemonów."
+        }
+    },
+    "battle": {
+        "resultLink": "Zobacz wynik drużyny"
+    },
+    "helpLink": "Obejrzyj video-poradnik o Raidach",
+    "silph": {
+        "text": "Obecna lista Raid bossów została dostarczona przez",
+        "link": "The Silph Road"
     }
 }
