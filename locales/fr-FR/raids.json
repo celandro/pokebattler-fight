@@ -113,9 +113,9 @@
     },
     "pokebox": {
         "login": "Le Guide de Raid Pokebattler peut être personnalisé pour n'inclure que les Pokémon que vous possédez, en utilisant votre Pokébox personnelle. Connectez-vous, ajoutez vos meilleurs Pokémon à votre Pokébox, et vous pourrez alterner entre ne voir que les meilleurs Pokémon que vous avez dans votre Pokébox, et voir tous les meilleurs Pokémon afin de mieux prévoir vos combats de Raid.",
-        "enabled": "Résultats personnalisés pour votre Pokébox. Les 24 meilleurs contres que vous possédez sont affichés ci-dessous.",
-        "disabled": "Résultats pour des attaquants de niveau {{level}}. Les 24 meilleurs contres à ce niveau sont affichés ci-dessous.",
-        "friend": "Résultats pour l'utilisateur #{{userId}}. Leurs 24 meilleurs contres sont affichés ci-dessous."
+        "enabled": "Résultats personnalisés pour votre Pokébox. Les 30 meilleurs contres que vous possédez sont affichés ci-dessous.",
+        "disabled": "Résultats pour des attaquants de niveau {{level}}. Les 30 meilleurs contres à ce niveau sont affichés ci-dessous.",
+        "friend": "Résultats pour l'utilisateur #{{userId}}. Leurs 30 meilleurs contres sont affichés ci-dessous."
     },
     "emptyResults": {
         "LEVEL": "Aucun résultat n'a été renvoyé pour ce calcul. Il est possible que le serveur ait rencontré un problème.",

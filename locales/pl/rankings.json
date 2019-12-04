@@ -1,0 +1,76 @@
+{
+    "index": {
+        "title": "Arenowe Rankingi",
+        "meta": {
+            "description": "Arenowe Rankingi Pokebattlera dla Pokemon GO są najdokładniejsze na świecie, pokazują najlepszych atakujących i obrońców aren zależnie od twoich preferencji.",
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
+        },
+        "welcome": {
+            "title": "Witaj w Rankingach Pokebattlera wersji 2.0!",
+            "paragraph1": "Witaj na najnowocześniejszej sekcji spersonalizowanych rankingów Pokebattlera. W odróżnieniu od innych stron, możesz wybrać dokładną kombinację ustawień, jakiej chcesz użyć do budowy twoich własnych spersonalizowanych rankingów! Ta strona jest niezwykle konfigurowalna, pozwalając ci na wybranie poziomu atakującego i obrońcy, strategii ataku oraz uników a także sortowanie i grupowanie.",
+            "paragraph2": "Ta strona działa poprzez wykonywanie ponad 30,000,000 symulacji walk dla każdego ustawienia rankingu! Pokrywa to każdą możliwą kombinację atakującego, jego zestawu ataków, obrońcę i jego zestawu ataków dla wybranych przez ciebie ustawień. Istnieje setki tysięcy możliwych kombinacji ustawień do wyboru, dla obu rankingów - atakującego i obrońcy! Korzystaj do woli z różnych kombinacji, aż zyskasz taką której potrzebujesz."
+        },
+        "recommendations": {
+            "title": "Zalecane Ustawienia",
+            "paragraph1": {
+                "text": "Dobry punkt startowy dla większość graczy to {{link1}}. Uwzględnia to atakujących 25 poziomu i symuluje atakowanie trudnych 30 poziomowych aren. Bierze pod uwagę używanie ataków tak szybko jak to możliwe oraz próby unikania specjalnych ataków. Wyniki mogą cię zaskoczyć. Możesz również spróbować takich zabawnych rzeczy jak {{link2}} lub {{link3}}.",
+                "link1": "domyślne rankingi atakujących",
+                "link2": "atakujący z niskim poziomem uników",
+                "link3": "walki 40 poziomu"
+            },
+            "paragraph2": {
+                "text": "Dla tych, którzy szukają jacy obrońcy z atakującym niższego poziomu są trudni do pokonania spróbuj {{link1}}. Opiera się on na symulacji walki pomiędzy atakującym 25 poziomu a obrońcą poziomu 30. Możesz też spróbować przeprowadzić walkę bardziej fair korzystając z {{link2}} lub {{link3}}.",
+                "link1": "domyślne rankingi obrońców",
+                "link2": "obrońca unikający wszystkiego 30 poziomu",
+                "link3": "wysokopoziomowa walka"
+            }
+        },
+        "buttons": {
+            "attacker": "Atakujący",
+            "defender": "Obrońca",
+            "gotoRankings": "Idź do Rankingu"
+        }
+    },
+    "list": {
+        "title": "Arena {{typeSelection}}",
+        "meta": {
+            "description": "{{typeSelection}} Pokebattlera dla Pokemon Go mogą być konfigurowalne ze względu na poziom atakującego oraz obrońcy, umiejętność unikania i nie tylko!",
+            "image": "https://static.pokebattler.com/images/og_pvp_rankings.jpg"
+        },
+        "descriptions": {
+            "title": "Więcej o tych Rankingach",
+            "text": "Ten {{type}} ranking bazowany jest na symulacji walki atakującego {{levels.attacker}} poziomu przeciw obrońcy {{levels.defender}} poziomu. Symulacja rankingu przeprowadzona była używając {{strategies.attack}} strategii ataku oraz {{strategies.dodge}} bazującej na $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) typie symulacji. $t(common:simulation, {'count': {{numSims}}}) przeprowadzonych z {{details}}.",
+            "textPokeboxAttackers": "Ten {{type}} ranking bazowany jest na symulacji walki atakującego trenera {{userId}} przeciw obrońcy {{levels.defender}} poziomu. Symulacja rankingu przeprowadzona była używając {{strategies.attack}} strategii ataku oraz {{strategies.dodge}} bazującej na $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) typie symulacji. $t(common:simulation, {'count': {{numSims}}}) przeprowadzonych z {{details}}.",
+            "textPokeboxDefenders": "Ten {{type}} ranking bazowany jest na symulacji walki atakującego {{levels.attacker}} poziomu przeciw trenerowi {{userId}}. Symulacja rankingu przeprowadzona była używając {{strategies.attack}} strategii ataku oraz {{strategies.dodge}} bazującej na $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) typie symulacji. $t(common:simulation, {'count': {{numSims}}}) przeprowadzonych z {{details}}.",
+            "help1": "Możesz kliknąć na dowolny {{type}}  żeby zobaczyć wyniki innych zestawów ataków, lub kliknąć na ikonkę grupowania (druga od prawej w  górnym prawym rogu) żeby zobaczyć je rozgrupowane. Kolejność sortowania może zostać zmieniona poprzez kliknięcie w ikonkę sortowania w górnym prawu rogu i wybranie typu jaki preferujesz.",
+            "help2": "Dodatkowe informacje dotyczące tych zaawansowanych symulacji rankingowych możesz znaleźć pod {{link}}.",
+            "attackers": "atakujący",
+            "defenders": "obrońcy",
+            "details": {
+                "attackers": "symulowana walka każdego w pełni ewoluowanego atakującego Pokemona ze wszystkimi możliwymi zestawami ataków przeciw 30 najlepszym obrońcom z każdym możliwym zestawem ataków z użyciem przewidywanej strategii. 30 najlepszych atakujących z ich najlepszymi zestawami ataków ze względu na {{sort}} zostało zachowanych i przedstawionych poniżej.",
+                "defenders": "symulowana walka każdego możliwego zestawu ataków przeciw atakującym z każdym możliwym zestawem ataków z użyciem przewidywanej strategii. 6 najgorszych kontr dla każdego Pokemona zostało odnalezionych i użytych by określić 30 najlepszych obrońców z ich najlepszymi zestawami ataków ze względu na {{sort}}, zostali oni zachowani i przedstawieni poniżej."
+            }
+        },
+        "loading": "Generowanie {{type}} wyników rankingu. Wiele milionów symulacji musi zostać przeprowadzone by uzyskać wynik tej analizy, lecz nie powinno to potrwać zbyt długo",
+        "typeSelection": {
+            "attacker": "Rankingi Atakujących",
+            "defender": "Rankingi Obrońców",
+            "attackers": "$t(rankings:list.typeSelection.attacker)",
+            "defenders": "$t(rankings:list.typeSelection.defender)"
+        },
+        "settings": {
+            "level": "Poziomy Pokemonów"
+        },
+        "featured": {
+            "title": "Ranga {{rank}}"
+        }
+    },
+    "featured": {
+        "title": {
+            "attacker": "Średnie statystyki walki przeciw 30 Najlepszym Obrońcom",
+            "defender": "Średnie statystyki walki przeciw 6 Najtrudniejszym Przeciwnikom",
+            "raid": "Średnie statystyki walki przeciw {{pokemon}}"
+        },
+        "deepLink": "Zobacz więcej szczegółów dla {{pokemon}}"
+    }
+}
