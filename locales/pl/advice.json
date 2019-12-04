@@ -1,1 +1,67 @@
-{}
+{
+    "title": "Porady do Raidów",
+    "meta": {
+        "description": "Porady do Raidów Pokemon GO pomogą Ci znaleźć Pokemony, które należy ulepszać by pokonywać Raid bossy i jak wydawać cukierki i gwiezdny pył w najbardziej wydajny sposób."
+    },
+    "linkLabel": "Poradnik Raidów",
+    "pokeboxRequired": "Aby rady Pokebattlera działały poprawnie, wymagane jest byś wprowadził swoje Pokemony do swojego Pokeboxa. Po prostu zaloguj się, a następnie dodaj swoje najsilniejsze Pokemony do Pokeboxa. Pomoże ci to znaleźć Pokemony, które ulepszać opłaca się najbardziej.",
+    "intro": "Rady Pokebattlera są narzędziem stworzonym do udzielenia ci pomocy w optymalizacji twojego Pokeboxa w konkretnych Raidach. Po prostu wybierz bossa Raidu, na temat którego chcesz się dowiedzieć więcej, wprowadź posiadaną ilość gwiezdnego pyłu oraz cukierków i sprawdź jak twoje Pokemony wyglądałyby po przeprowadzonych wzmocnieniach. Narzędzie to pomoże ci zdecydować, który Pokemon zyska najwięcej poprzez wydanie twojego gwiezdnego pyłu i cukierków, dzięki czemu dowiesz się jak wydajnie rozdysponować te zasoby.",
+    "intro2": "Gdy odpalisz symulację, możesz kliknąć na dowolnego Pokemona by zobaczyć jak dużo zyska po każdym wzmocnieniu. Istnieją martwe punkty, po osiągnięciu których możesz przestać ulepszać swojego Pokemona by zaoszczędzić gwiezdny pył i cukierki! Narzędzie to różni się od innych znajdujących martwe punkty, ponieważ dopasowuje się do każdego Pokemona indywidualnie, co pomaga znajdować nawet te mało oczywiste punkty.",
+    "inputs": {
+        "title": "Ustawienia Porad",
+        "subtitle": "Jakiej Porady Potrzebujesz?"
+    },
+    "buttonLabel": "Ulepszanie Pokemonów",
+    "results": {
+        "title": "Porady do Raidów dla {{attacker}} vs {{defender}}",
+        "meta": {
+            "description": "Wyniki Porad do Raidów Pokemon GO dla {{attacker}} vs. {{defender}} znajdują najlepsze Pokemony, jakie należy wzmacniać by pokonać każdego Raid bossa.",
+            "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+        },
+        "calculating": "Obliczanie Porady do Raidu",
+        "counters": {
+            "subtitle": "Najlepsze Wzmocnienia Posortowane Według",
+            "description": "Poniższa analiza przedstawia Pokemony, które mają potencjał by być najlepszymi atakującymi pod względem {{sort}} przeciwko {{pokemon}}.",
+            "title": "kontry",
+            "moveSetOrderingDescription": "Zestawy ataków bossa są uporządkowane od najtrudniejszych do najłatwiejszych, upewnij się że sprawdziłeś kilkukrotnie, wyniki mogą się znacznie różnić!",
+            "chooseMovesetLabel": "Wybierz Zestaw Ataków"
+        },
+        "analysis": {
+            "description": "Ta analiza Raidu jest bazowana na symulacjach walki przeciw {{defender.pokemon}} z {{defender.cp}} CP i {{attackers}}. Symulacja została przeprowadzona przy użyciu {{attackStrategy}} strategii ataku bazując na {{defenseStrategy}} typie symulacji. {{numSims}} symulacji zostało przeprowadzonych z każdym możliwym zestawem ataków {{defender.pokemon}} używanym przeciwko każdemu Pokemonowi z każdym możliwym zestawem ataków. 20 najlepszych atakujących wraz z ich najlepszymi zestawami ataków opartych na {{sort}} zostało zachowanych i przedstawionych tutaj. Możesz kliknąć na każdym z atakujących aby zobaczyć przeprowadzoną symulację i spróbować innych zestawów ataków.",
+            "title": "Więcej o Tej Analizie",
+            "attackers": {
+                "byLevel": "{{attackerLevel}} poziomy atakujących",
+                "pokebox": "własny Pokemon z Pokeboxa #{{userId}} użytkownika"
+            }
+        },
+        "description": "Witaj w Poradach o Raidzie dla {{pokemon}}. Możesz tutaj znaleźć najlepsze potencjalne kontry ze względu na zestaw ataków każdego z bossa. Poradnik ten może być konfigurowany na wiele różnych sposobów. Możesz wybrać poziom atakujących pokemonów oraz strategię ataku jaką chcesz użyć, a także wiele innych opcji. Możesz również wprowadzić ilość dostępnych cukierków i gwiezdnego pyłu jaką posiadasz.",
+        "hardestMovesets": {
+            "title": "Najtrudniejsze Raidy",
+            "subtitle": "Dla {{pokemon}} ze względu na {{sort}}",
+            "tableTitle": "Najtrudniejsze zestawy ataków u bossów w Raidach",
+            "description": "Trudność Raidu może znacznie się różnić zależnie od zestawu ataków broniącego Pokemona!"
+        }
+    },
+    "result": {
+        "title": "Szczegóły Porad do Raidu {{attacker}} vs {{defender}}",
+        "meta": {
+            "description": "Szczegóły Porad do Raidów Pokemon GO dla {{attacker}} vs. {{defender}} pokazują martwe punkty oraz wydajność gwiezdnego pyłu.",
+            "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
+        },
+        "subTitle": "{{attacker}} vs. {{defender}}",
+        "description": "Rezultat każdego wzmocnienia {{attacker}} walczącego z {{defender}} Raid bossem pokazano poniżej. Wyniki będą się różnić zależnie od zestawu ataków {{defender}}.",
+        "summaryStart": "Początkowy Rezultat",
+        "summaryEnd": "Rezultaty Po Wzmocnieniach",
+        "graphTitle": "{{yAxis}} Versus {{xAxis}}",
+        "detail": "Szczegółowe Rezultaty Dla Każdego Wzmocnienia",
+        "back": "Powrót do Ustawień Porad",
+        "powerUpDialog": {
+            "title": "Wzmocnienie",
+            "description": "Czy chcesz wzmocnić {{pokemon}} {{powerUps}} aż do {{cp}}?",
+            "submit": "Tak",
+            "cancel": "Nie"
+        }
+    },
+    "raidLink": "Zobacz ten rezultat bez Wzmocnień",
+    "helpLink": "Obejrzyj video-poradnik o Raidach"
+}
