@@ -1,0 +1,294 @@
+{
+    "title": "Zaloguj się do Pokebattler",
+    "meta": {
+        "description": "Pokebattler magazynuje twoje Pokemony z Pokemon GO w swoim Pokedexie dla szybkich kontr raidów i nie tylko!"
+    },
+    "description": "Zaloguj się aby uzyskać dostęp do prywatnego Pokeboxa i spersonalizowanych symulacji",
+    "explanation": "Pokebattler nie może i nie będzie logował się na twoje konto Pokemon GO. Nie posiadamy żadnego rodzaju połączenia z serwerami Niantic. Pokebattler używa tego loginu tylko do tego, by wiedzieć kim jesteś na innych urządzeniach. Możesz zalogować się na telefonie, tablecie czy komputerze i zobaczyć wszystkie Pokemony jakie wprowadziłeś na naszą stronę. Nie udostępniamy nigdzie twoich danych i nie używamy ich w celach marketingowych, ani żadnych innych.",
+    "privacy": "Po więcej informacji, zajrzyj na naszą politykę prywatności",
+    "loading": "Ładowanie Danych Użytkownika",
+    "user": "Użytkownik",
+    "login": {
+        "autoCreate": "Uwierzytelnienie automatycznie utworzy twoje konto i zaloguje Cię do Pokebattler",
+        "google": "Zaloguj się za pomocą Google",
+        "facebook": "Kontynuuj poprzez Facebook",
+        "patreon": "Zaloguj się za pomocą Patreon",
+        "patreonDescription": "Pokebattler od teraz wspiera bezpośrednie subskrypcje! Gorąco zachęcamy obecnych subskrybentów Patreonu do migracji na nowe plany subskrypcji. Użytkownicy z krajów, gdzie nie są wspierane bezpośrednie subskrypcje (jak Brazylia, czy Meksyk), ale także użytkownicy, którzy chcą płacić za pomocą Paypala powinni kontynuować używanie Patreonu.",
+        "success": {
+            "title": "Zalogowano",
+            "fromApi": "$t(login.success.title)! Poczekaj chwilę by kontynuować."
+        }
+    },
+    "settings": {
+        "showListImages": "Pokaż Obrazy"
+    },
+    "details": {
+        "welcome": "Witaj!",
+        "description": "Twoje poniższe informacje trenera zostaną użyte do spersonalizowania strony, oraz będą pokazywane pozostałym użytkownikom."
+    },
+    "loggedIn": {
+        "title": "Profil Publiczny",
+        "description": "Udało się poprawnie zalogować. Uzupełnij swoje informacje trenera poniżej, następnie wybierz Pokebox i dodaj swoje Pokemony dla osiągnięcia spersonalizowanych wyników. Możesz też stworzyć Drużyny, żeby użyć ich do szybszych symulacji Raidów.",
+        "meta": {
+            "description": "Przechowuj swoje informacje użytkownika i Pokemony z Pokemon GO."
+        },
+        "profileButton": "Twój Profil"
+    },
+    "logout": {
+        "title": "Wylogowano",
+        "meta": {
+            "description": "Udało się poprawnie wylogować z Pokebattlera."
+        },
+        "description": "Udało się wylogować. Wróć później na jakimkolwiek urządzeniu a Twój Pokebox będzie czekał na Ciebie!",
+        "back": "Wróć do logowania",
+        "button": "Wyloguj"
+    },
+    "subscribed": {
+        "title": "Dziękujemy Za Wsparcie",
+        "meta": {
+            "description": "Pokebattler jest darmowy do użytkowania dzięki hojnym subskrypcjom ludzi takich jak Ty! Twoja subskrypcja wyłącza reklamy na stronie i umożliwia ci korzystanie z przydatnych narzędzi, które znacznie pomogą ci w pokonaniu Raid bossów lub twoich przyjaciół w walkach pvp!"
+        },
+        "patreon": "Subskrybenci Patreonu zachęcani są do zmiany subskrypcji na bezpośrednią (dostępne poniżej) za niższą cenę i lepszym wsparciem. Możesz skontaktować się na email admin@pokebattler.com żeby otrzymać kupon do twojej subskrypcji gdy zdecydujesz się na zmianę. Wartość kuponu będzie zależna od Twojej pozostałości subskrypcji Patreon. Użytkownicy z krajów, gdzie nie są wspierane bezpośrednie subskrypcje (jak Brazylia, czy Meksyk), ale także użytkownicy, którzy chcą płacić za pomocą Paypala powinni kontynuować używanie Patreonu.",
+        "chooseProduct": "Zmień Swoją Subskrypcję",
+        "currentSubscription": "Informacje Dotyczące Bieżącej Subskrypcji",
+        "choosePlan": "Wybierz Swój Plan",
+        "purchase": "Zaktualizuj Czas Trwania",
+        "currentPlan": "Obecny Plan",
+        "chargeAmount": "Zostaniesz obciążony całością odpowiedniej kwoty ${{chargeAmount}} natychmiastowo. Całość kwoty zostaje naliczana na początku każdego opłacanego okresu.",
+        "duringTrial": {
+            "button": "Zmień Subskrypcję",
+            "description": "Podczas okresu próbnego, możesz dowolnie zmieniać swoją subskrypcję"
+        },
+        "upgradeSubscription": {
+            "button": "Ulepsz Subskrypcję",
+            "description": "Ulepsza twoją subskrypcję natychmiastowo."
+        },
+        "downgradeSubscription": {
+            "button": "Pogorsz Subskrypcję",
+            "description": "Pogarsza twoją subskrypcję na końcu obecnie trwającej subskrypcji."
+        },
+        "changeCreditCard": {
+            "title": "Zmień Swoje Informacje Na Temat Płatności",
+            "button": "Zaktualizuj Informacje"
+        }
+    },
+    "subscription": {
+        "title": "Zasubskrybuj Pokebattler",
+        "meta": {
+            "description": "Pokebattler jest darmowy do użytkowania dla wszystkich dzięki hojnym subskrypcjom ludzi takich jak Ty! Subskrypcja wyłącza reklamy na stronie i umożliwia ci korzystanie z przydatnych narzędzi, które znacznie pomogą ci w pokonaniu Raid bossów lub twoich przyjaciół w walkach pvp!",
+            "image": "https://static.pokebattler.com/images/og_user_subscription.png"
+        },
+        "paymentRequest": "Zasubskrybuj Jednym Kliknięciem",
+        "paymentRequestDescription": "Opcja Subskrybcji Jednym Kliknięciem jest wspierana na większości telefonów. Możesz też zamiast tego wybrać umieszczenie swoich informacji poniżej.",
+        "currentProduct": "Obecne Korzyści",
+        "chooseProduct": "Wybierz Swój Plan",
+        "choosePlan": "Wybierz Okres Trwania",
+        "purchase": "Rozpocznij Okres Próbny!",
+        "creditCard": "Wprowadź informacje swojej karty kredytowej",
+        "paymentType": "Sposób Płatności",
+        "name": "Imię i Nazwisko",
+        "email": "Email",
+        "line1": "Adres, Linia 1",
+        "line2": "Adres, Linia 2",
+        "city": "Miasto",
+        "state": "Województwo",
+        "country": "Kraj",
+        "idealBank": "iDEAL Bank",
+        "description": "Informacje o Twojej karcie kredytowej są bezpiecznie przechowywane przez wewnętrzny system Stripa i nigdy nie wysyłane do Pokebattlera. Stripe zajmuje się subskrypcjami i przekazuje informacje na temat jej statusu do Pokebattlera.",
+        "multiMonth": "Oszczędzaj dzięki wielomiesięcznemu planowi!",
+        "requiresLogin": "Musisz się zalogować, by zasubskrybować",
+        "ibanDescription": "Poprzez dostarczenie twojego IBAN i potwierdzenie tej płatności, uprawniasz Pokebattler.com oraz Stripe, nasz serwis płatności do wysyłania instrukcji do twojego banku i obciążenia twojego konta zgodnie z instrukcjami. Jesteś uprawniony do uzyskania zwrotu na zasadach regulowanych przez twój bank. Zwrot musi zostać zgłoszony w ciągu 8 tygodni od momentu obciążenia twojego konta.",
+        "notNeccessary": "Poniższe pola zazwyczaj nie są wymagane. Musisz wypełnić je tylko wtedy gdy twoja płatność została odrzucona.",
+        "paymentTypes": {
+            "creditCard": "Karta Kredytowa",
+            "iban": "IBAN",
+            "ideal": "IDEAL"
+        },
+        "confirmation": {
+            "button": "Subskrypcja"
+        },
+        "plans": {
+            "1month": {
+                "title": "1 miesiąc - ${{intervalCost}}/miesiąc",
+                "subtitle": "Zostaniesz obciążony ${{cost}} każdego miesiąca po twoim darmowym okresie próbnym trwającym {{trialPeriodDays}} dni.",
+                "discount": "Oszczędzaj poprzez wybranie kilkumiesięcznego planu"
+            },
+            "3month": {
+                "title": "3 miesiące - ${{intervalCost}}/miesiąc",
+                "subtitle": "Zostaniesz obciążony ${{cost}} co 3 miesiące po twoim darmowym okresie próbnym trwającym {{trialPeriodDays}} dni.",
+                "discount": "Oszczędź {{discount}}% - {{trialPeriodDays}} Darmowy Okres Próbny"
+            },
+            "6month": {
+                "title": "6 miesięcy - ${{intervalCost}}/miesiąc",
+                "subtitle": "Zostaniesz obciążony ${{cost}} co 6 miesięcy po twoim darmowym okresie próbnym trwającym {{trialPeriodDays}} dni.",
+                "discount": "Oszczędź {{discount}}% - {{trialPeriodDays}} Darmowy Okres Próbny"
+            }
+        },
+        "products": {
+            "ROLE_BASIC": {
+                "title": "Plan Podstawowy",
+                "subtitle": "Niedroga subskrypcja, która daje dużo korzyści"
+            },
+            "ROLE_STANDARD": {
+                "title": "Plan Standardowy",
+                "subtitle": "Zalecany poziom subskrypcji dla większości graczy"
+            },
+            "ROLE_BATTLER": {
+                "title": "Plan Wojownika",
+                "subtitle": "Wyższy poziom dla bardziej analitycznych graczy"
+            },
+            "ROLE_CHAMPION": {
+                "title": "Plan Czempiona",
+                "subtitle": "Najlepsza subskrypcja dla hardcorowych graczy"
+            },
+            "ROLE_USER": {
+                "title": "Brak Subskrypcji",
+                "subtitle": "Darmowe korzyści dla wszystkich użytkowników"
+            },
+            "ROLE_ADMIN": {
+                "title": "Admin Pokebattlera",
+                "subtitle": "Możesz zasubskrybować, ale to będzie pogorszenie sytuacji"
+            },
+            "ROLE_FAN": {
+                "title": "Patreon Fan",
+                "subtitle": "Jeśli zasubskrybujesz metodą poniżej, pamiętaj o anulowaniu swoich dotacji poprzez Patreon"
+            },
+            "ROLE_SUPPORTER": {
+                "title": "Wspierający Patreon",
+                "subtitle": "Jeśli zasubskrybujesz metodą poniżej, pamiętaj o anulowaniu swoich dotacji poprzez Patreon"
+            },
+            "ROLE_PATREON": {
+                "title": "Patreon Patreon",
+                "subtitle": "Jeśli zasubskrybujesz metodą poniżej, pamiętaj o anulowaniu swoich dotacji poprzez Patreon"
+            },
+            "ROLE_FANATIC": {
+                "title": "Patreon Fanatic",
+                "subtitle": "Jeśli zasubskrybujesz metodą poniżej, pamiętaj o anulowaniu swoich dotacji poprzez Patreon"
+            },
+            "ROLE_CONTEST": {
+                "title": "Zwycięzca Konkursu",
+                "subtitle": "Odpowiednik Planu Czempiona"
+            },
+            "ROLE_PATREON_USER": {
+                "title": "Użytkownik Patreonu",
+                "subtitle": "Twój poziom odwróci się wkrótce do statusu braku subskrypcji"
+            },
+            "ROLE_SUPPORTER2": {
+                "title": "Wspierający Patreon",
+                "subtitle": "Jeśli zasubskrybujesz metodą poniżej, pamiętaj o anulowaniu swoich dotacji poprzez Patreon"
+            }
+        }
+    },
+    "roles": {
+        "title": "Informacje o Koncie",
+        "heading": "Obecne Korzyści",
+        "description": "Współpracuj z Pokebattler dla korzyści premium wliczając większy Pokebox oraz użytkowanie wolne od reklam. Działanie Pokebattlera jest możliwe tylko dzięki hojnemu wsparciu ludzi takich jak ty, którzy pomagają w opłacaniu rosnącego kosztu utrzymania serwerów tej strony.",
+        "maxPokemon": "Max Pokemonów",
+        "maxBattleParties": "Max Drużyn",
+        "quality": "Jakość Symulacji",
+        "thanks": "Dzięki za wspieranie Pokebattler! Twój wkład jest wielce doceniany.",
+        "support": "Wspieraj Pokebattler",
+        "matrixMaxPokemon": "Matrix - Max Pokemonów",
+        "matrixMaxType": "Matrix - Max Typów",
+        "matrixMetaTypes": "Matrix - Meta Typy",
+        "hideAds": "Użytkowanie Wolne od Reklam",
+        "role": {
+            "ROLE_USER": "Użytkownik Pokebattlera",
+            "ROLE_ADMIN": "Administrator Pokebattlera",
+            "ROLE_FAN": "Fan Pokebattlera",
+            "ROLE_SUPPORTER": "Wspierający Pokebattlera (Oryginalny)",
+            "ROLE_PATREON": "Pokebattler Patreon",
+            "ROLE_FANATIC": "Fanatyk Pokebattlera",
+            "ROLE_CONTEST": "Zwycięzca Konkursu Pokebattler",
+            "ROLE_PATREON_USER": "Użytkownik Patreon Pokebattler",
+            "ROLE_SUPPORTER2": "Wspierający Pokebattler",
+            "ROLE_BASIC": "Podstawowy",
+            "ROLE_STANDARD": "Standardowy",
+            "ROLE_BATTLER": "Wojownik",
+            "ROLE_CHAMPION": "Czempion"
+        }
+    },
+    "userSubscription": {
+        "createdAt": {
+            "label": "Utworzono W",
+            "value": "{{createdAt,shortdate}}"
+        },
+        "endedAt": {
+            "label": "Zakończono W",
+            "value": "{{endedAt,shortdate}}"
+        },
+        "currentPeriodStart": {
+            "label": "Początek Bieżącego Okresu",
+            "value": "{{currentPeriodStart,shortdate}}"
+        },
+        "currentPeriodEnd": {
+            "label": "Koniec Bieżącego Okresu",
+            "value": "{{currentPeriodEnd,shortdate}}"
+        },
+        "trialStart": {
+            "label": "Start Okresu Próbnego",
+            "value": "{{trialStart,shortdate}}"
+        },
+        "trialEnd": {
+            "label": "Koniec Okresu Próbnego",
+            "value": "{{trialEnd,shortdate}}"
+        },
+        "lastUpdate": {
+            "label": "Ostatnia Aktualizacja",
+            "value": "{{lastUpdate,shortdate}}"
+        },
+        "planId": "ID Planu",
+        "cancel": "Anuluj Subskrypcję",
+        "renew": "Odnów Subskrypcję",
+        "statuses": {
+            "trialing": {
+                "title": "Czas Trwania Okresu Próbnego",
+                "description": "Twoja subskrypcja Pokebattler wiąże się z okresem próbnym, który pozwoli Ci anulować bez żadnych kosztów jeśli nie będziesz zadowolony z usług."
+            },
+            "active": {
+                "title": "Aktywne Członkowstwo",
+                "description": "Twoje członkowstwo w Pokebattler rozpoczęło się. Twoje członkowstwo odnowi się {{currentPeriodEnd}}"
+            },
+            "incomplete": {
+                "title": "Członkowstwo Niekompletne",
+                "description": "Twoje członkowstwo w Pokebattler wymaga akcji do ukończenia. Musisz potwierdzić swoją subskrypcję ze swoim dostawcą płatności (bankiem)."
+            },
+            "incomplete_expired": {
+                "title": "Członkowstwo Niekompletne",
+                "description": "Twoje członkowstwo w Pokebattler wymagało akcji do ukończenia, ale jej czas upłynął. Będziesz musiał zasubskrybować ponownie. "
+            },
+            "past_due": {
+                "title": "Przekroczony Termin Członkowstwa",
+                "description": "Twoje członkowstwo w Pokebattler nie powiodło się. Musisz aktualizować swoje informacje na temat płatności i zasubskrybować ponownie."
+            },
+            "canceled": {
+                "title": "Członkowstwo Anulowane",
+                "description": "Twoje członkowstwo w Pokebattler zostało anulowane. Twoje ostatnie członkowstwo miało miejsce {{currentPeriodEnd}}."
+            }
+        }
+    },
+    "countryCodes": {
+        "AU": "Australia",
+        "AT": "Austria",
+        "BE": "Belgia",
+        "CA": "Kanada",
+        "DK": "Dania",
+        "FI": "Finlandia",
+        "FR": "Francja",
+        "DE": "Niemcy",
+        "HK": "Hong Kong",
+        "IE": "Irlandia",
+        "IT": "Włochy",
+        "JP": "Japonia",
+        "LU": "Luxemburg",
+        "NL": "Holandia",
+        "NZ": "Nowa Zelandia",
+        "NO": "Norwegia",
+        "PT": "Portugalia",
+        "ES": "Hiszpania",
+        "SE": "Szwecja",
+        "CH": "Szwajcaria",
+        "GB": "Wielka Brytania",
+        "US": "Stany Zjednoczone"
+    }
+}

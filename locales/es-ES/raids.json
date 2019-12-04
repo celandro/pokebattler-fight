@@ -30,7 +30,7 @@
         "RAID_LEVEL_5": {
             "title": "Nivel 5",
             "subtitle": "Incursión legendaria",
-            "intro": "Algunas de estas incursiones de nivel 5 no están en el juego aún. Estas son normalmente hechas por grupos de 6 a 10 jugadores de niveles 30 a 40. Algunos intrépidos expertos han hecho estas incursiones con tan poco como 2 a 5 jugadores."
+            "intro": "Las incursiones actuales son la mejor manera de obtener Pokémon poderosos. Usualmente pueden completarse con grupos de 6 a 10 jugadores de nivel 30 o más. Avezados entrenadores pueden superar estas incursiones con 5, o incluso menos jugadores."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Nivel ¿?",
@@ -68,7 +68,19 @@
             "intro": "Estas incursiones estuvieron disponibles previamente, pero ya no forman parte de la rotación actual de incursiones. Podrían regresar en el futuro como parte de eventos especiales."
         },
         "RAID_LEVEL_5_FUTURE": {
-            "intro": "Estas incursiones de nivel 5 aún no han sido lanzadas en el juego. Sus estadísticas y movimientos podrían cambiar."
+            "intro": "Estas incursiones de nivel 5 aún no han sido lanzadas en el juego. Sus estadísticas y movimientos podrían cambiar.",
+            "title": "Nivel 5 por venir",
+            "subtitle": "Incursión legendaria"
+        },
+        "RAID_LEVEL_6": {
+            "title": "Nivel 6",
+            "subtitle": "Incursión legendaria con PS adicionales.",
+            "intro": "Estos jefes de incursión tienen mayor PS comparados con las incursiones de nivel 5. Se desconoce si este es un cambio permanente para todas las incursiones de nivel 5. Usualmente son completadas de a 6 a 10 jugadores de nivel 30 o más. Avezados entrenadores han podido superar estas incursiones con 5 o menos jugadores."
+        },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Nivel 6 - descontinuada",
+            "subtitle": "Incursión legendaria con PS adicionales",
+            "intro": "Estas incursiones han estado disponible anteriormente, pero no fueron incluidas en la rotación actual. Eventualmente podrían regresar en el futuro para eventos especiales."
         }
     },
     "custom": {
@@ -106,9 +118,9 @@
     },
     "pokebox": {
         "login": "La guía de incursiones de Pokebattler puede ser personalizada solo para incluir Pokémon que posees usando tu propia caja de Pokémon. Ingresa, añade tus mejores Pokémon, a luego puedes alternar entre los mejores Pokémon que hay en tu colección y los mejores oponentes en general para planear tus peleas de incursión.",
-        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 24 mejores contendores que posees se muestran debajo.",
-        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 24 mejores contendores a ese nivel son mostrados debajo.",
-        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 24 contendores se muestran debajo.",
+        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 30 mejores contendores que posees se muestran debajo.",
+        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 30 mejores contendores a ese nivel son mostrados debajo.",
+        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 30 contendores se muestran debajo.",
         "switchLevel": "Cambiar a $t(common:attackerTypes.level)",
         "switchPokebox": "Cambiar a $t(common:attackerTypes.pokebox)"
     },
@@ -128,5 +140,14 @@
             "difficult": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla difícil, asegúrate que todos usen sus mejores Pokémon."
         }
     },
-    "helpLink": "Ve el video tutorial sobre incursiones"
+    "helpLink": "Ve el video tutorial sobre incursiones",
+    "breakingNews": {
+        "title": "Último minuto!",
+        "subtitle": "Incursiones de moda en Pokémon GO.",
+        "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}}) "
+    },
+    "silph": {
+        "text": "Lista de incursiones actualizada proporcionada por",
+        "link": "The Silph Road\n"
+    }
 }

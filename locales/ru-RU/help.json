@@ -11,7 +11,7 @@
     "pages": {
         "raids": {
             "title": "Рейды",
-            "link": "/help/raids",
+            "link": "/help/raid-counter",
             "description": "Найдите лучших противников для боссов с помощью нашего гида по рейдам"
         },
         "battleSimulator": {
@@ -68,6 +68,11 @@
             "title": "FAQs",
             "link": "/help/faqs",
             "description": "У нас появляется много вопросов. Иногда у нас появляются одни и те же вопросы. Эти вопросы и ответы на них Вы можете найти здесь"
+        },
+        "pvpMatrix": {
+            "title": "Матрица PvP",
+            "link": "/help/pvp-matrix-help-guide",
+            "description": "Откройте для себя настраиваемые ранги PvP"
         }
     },
     "sections": {

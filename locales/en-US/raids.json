@@ -1,7 +1,7 @@
 {
     "title": "Raid Counters",
     "meta": {
-        "description": "Find Pokemon Go raid counters with weather, friendship and even your own Pokebox. Get the 24 best counters with the world's #1 custom raid guide.",
+        "description": "Find Pokemon Go raid counters with weather, friendship and even your own Pokebox. Get the 30 best counters with the world's #1 custom raid guide.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "linkLabel": "Raid Counters",
@@ -10,6 +10,16 @@
         "title": "Breaking News",
         "subtitle": "Popular Raids In Pokemon Go",
         "header": "Interactive $t(constants:pokemon.{{pokemonId}}) Counters"
+    },
+    "articles": {
+        "title": "Latest Raid News!",
+        "subtitle": "Articles and Videos About Pokemon Go Raids From Top Players And Researchers"
+    },
+    "guide": {
+        "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Raid Counter Guides",
+        "subtitle": "How To Defeat $t(constants:pokemon.{{pokemonId}}) in Pokemon Go",
+        "infographicDownload": "Download $t(constants:pokemon.{{pokemonId}}) Infographic",
+        "article": "Read The Full $t(constants:pokemon.{{pokemonId}}) Raid Counter Guide Below"
     },
     "tierList": {
         "common": {
@@ -36,6 +46,11 @@
             "subtitle": "Hard Group Raid",
             "intro": "Tier 4 raids are targetted at groups of 5-6 level 30-40 players. Reports have come in of these Pokemon being beaten by max level players with 3-4 of the perfect counters."
         },
+        "RAID_LEVEL_4_5": {
+            "title": "Tier 4.5",
+            "subtitle": "Easy Legendary Raid",
+            "intro": "Tier 4.5 raids are easier versions of legendary bosses intended at groups of 2-4 level 30-40 players. They are typically seen during short duration events."
+        },
         "RAID_LEVEL_5": {
             "title": "Tier 5",
             "subtitle": "Legendary Raid",
@@ -44,7 +59,7 @@
         "RAID_LEVEL_6": {
             "title": "Tier 6",
             "subtitle": "Legendary Raid - Bonus Hp",
-            "intro": "These raids have bonus hp compared to Tier 5 raids. It is unknown wether this is a permanent change for all Tier 5.  They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
+            "intro": "These raids have bonus hp compared to Tier 5 raids. It is unknown wether this is a permanent change for all Tier 5.  They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 3-5 players."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
@@ -76,6 +91,11 @@
             "subtitle": "Hard Group Raid",
             "intro": "These raids are not currently in the raid rotations."
         },
+        "RAID_LEVEL_4_5_LEGACY": {
+            "title": "Legacy Tier 4.5",
+            "subtitle": "Easy Legendary Raid",
+            "intro": "These are previously seen easy legendary raid bosses."
+        },
         "RAID_LEVEL_5_LEGACY": {
             "title": "Legacy Tier 5",
             "subtitle": "Legendary Raid",
@@ -85,6 +105,11 @@
             "title": "Legacy Tier 6",
             "subtitle": "Legendary Raid - Bonus Hp",
             "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_4_5_FUTURE": {
+            "title": "Future Tier 4.5",
+            "subtitle": "Easy Legendary Raid",
+            "intro": "These are  easy legendary raid bosses that are not in the game yet. Their stats and moves are still subject to change"
         },
         "RAID_LEVEL_5_FUTURE": {
             "title": "Future Tier 5",
@@ -101,8 +126,8 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "The best Pokemon Go level 35 general raid counters vs. {{defender}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. See your custom results!",
-            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+            "description": "The best Pokemon Go {{defender}} counters are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Login to see your custom results!",
+            "image": "{{infographicShareURL}}"
         },
         "calculating": "Calculating Raid Results",
         "counters": {
@@ -121,13 +146,13 @@
         },
         "analysis": {
             "title": "About This Analysis",
-            "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 20 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
+            "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
             "attackers": {
                 "byLevel": "level {{attackerLevel}} attackers",
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
-        "description": "Welcome to the Pokebattler raid counters guide for {{pokemon}}. You can find the best counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options.",
+        "description": "Pokebattler's {{pokemon}} raid counters guide is designed to help you beat {{pokemon}} with your best counters. You can find the best counters overall to defeat {{pokemon}} in the infographic and article and use our customizable tool for results from millions of simulations of Pokemon, or your own Pokebox full of Pokemon for a truly personalized experience. ",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
             "link": "See all the benefits you get for signing up",
@@ -136,9 +161,9 @@
     },
     "pokebox": {
         "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
-        "enabled": "Showing custom results for your Pokebox. The 24 best counters that you own are shown below.",
-        "disabled": "Showing results for level {{level}} attackers. The best 24 counters at that level are shown below.",
-        "friend": "Showing results for user {{userId}}. Their best 24 counters are shown below.",
+        "enabled": "Showing custom results for your Pokebox. The 30 best counters that you own are shown below.",
+        "disabled": "Showing results for level {{level}} attackers. The best 30 counters at that level are shown below.",
+        "friend": "Showing results for user {{userId}}. Their best 30 counters are shown below.",
         "switchLevel": "Switch To $t(common:attackerTypes.level)",
         "switchPokebox": "Switch To $t(common:attackerTypes.pokebox)"
     },

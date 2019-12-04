@@ -43,8 +43,8 @@
             "attackers": "Angreifer",
             "defenders": "Verteidiger",
             "details": {
-                "attackers": "jedes voll entwickelte Pokemon als Angreifer, mit jedem möglichen Attackenmuster, simuliert gegen jeden der Verteidiger unter den Top 24, mit jedem möglichen Attackenmuster. Die besten 24 Angreifer nach {{sort}} wurden herausgefiltert und werden hier angezeigt.",
-                "defenders": "jedes mögliche Attackenmuster gegen die Angreifer mit jedem möglichen Attackenmuster simuliert wurde. Die schlimmsten 6 Konter für jedes Pokemon wurden betrachtet und daraus wurden die besten 24 Verteidiger gefunden und nach {{sort}} sortiert hier angezeigt."
+                "attackers": "jedes voll entwickelte Pokemon als Angreifer, mit jedem möglichen Attackenmuster, simuliert gegen jeden der Verteidiger unter den Top 30, mit jedem möglichen Attackenmuster. Die besten 30 Angreifer nach {{sort}} wurden herausgefiltert und werden hier angezeigt.",
+                "defenders": "jedes mögliche Attackenmuster gegen die Angreifer mit jedem möglichen Attackenmuster simuliert wurde. Die schlimmsten 6 Konter für jedes Pokemon wurden betrachtet und daraus wurden die besten 30 Verteidiger gefunden und nach {{sort}} sortiert hier angezeigt."
             }
         },
         "typeSelection": {
@@ -64,7 +64,7 @@
     },
     "featured": {
         "title": {
-            "attacker": "Durchschnittliche Kampfstatistiken gegen die 24 besten Verteidiger",
+            "attacker": "Durchschnittliche Kampfstatistiken gegen die 30 besten Verteidiger",
             "defender": "Gemittelte Kampfstatistiken gegen die 6 schlechtesten Herausforderer"
         },
         "deepLink": "Mehr Details für {{pokemon}}"
