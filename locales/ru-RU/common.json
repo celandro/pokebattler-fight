@@ -19,7 +19,10 @@
         "attack": "Атака",
         "defense": "Защита",
         "stamina": "Выносливость",
-        "hp": "Очки здоровья"
+        "hp": "Очки здоровья",
+        "individualAttack": "$t(common:stats.attack)",
+        "individualDefense": "$t(common:stats.defense)",
+        "individualStamina": "$t(common:stats.stamina)"
     },
     "statsAbbr": {
         "attack": "Att",
