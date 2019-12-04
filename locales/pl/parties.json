@@ -14,5 +14,8 @@
         },
         "description": "Stwórz swoją drużynę",
         "full": "Twoja drużyna jest pełna"
+    },
+    "select": {
+        "emptyName": "$t(common:battleParty) {{value}}"
     }
 }
