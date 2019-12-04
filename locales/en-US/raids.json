@@ -126,7 +126,7 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "Pokebattler is the premier source for {{defender}} raid counters! The best Pokemon Go raid {{defender}} counter is {{counter}} with {{move1}} and {{move2}} requiring {{estimator}} players in {{time}} seconds at level 35 without weather or friend boosts. This guide is customizable by changing the attack level, attack strategy, sort options or entering your own Pokemon. ",
+            "description": "The best Pokemon Go {{defender}} counters are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Login to see your custom results!",
             "image": "{{infographicShareURL}}"
         },
         "calculating": "Calculating Raid Results",
