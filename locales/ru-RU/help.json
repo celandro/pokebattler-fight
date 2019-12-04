@@ -71,7 +71,8 @@
         },
         "pvpMatrix": {
             "title": "Матрица PvP",
-            "link": "/help/pvp-matrix-help-guide"
+            "link": "/help/pvp-matrix-help-guide",
+            "description": "Откройте для себя настраиваемые ранги PvP"
         }
     },
     "sections": {
