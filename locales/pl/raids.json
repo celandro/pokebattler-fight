@@ -1,1 +1,180 @@
-{}
+{
+    "title": "Kontry Raidów",
+    "meta": {
+        "description": "Znajdź kontry Raidów w Pokemon GO zależnie od pogody, poziomu przyjaźni a nawet uwzględniając Twoje własne Pokemony. Poznaj 30 najlepszych kontr z #1 na świecie poradnika dotyczącego Raidów.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "linkLabel": "Kontry Raidów",
+    "intro": "Raidy w Pokemon GO nadeszły! Dowiedz się, który Pokemon najlepiej sprawdzi się w walce przeciw Raid bossom dzięki najlepszemu na świecie poradnikowi o Raidach w Pokemon GO. Po prostu wybierz Raid z poniższej listy, by zobaczyć najlepsze kontry dla każdego zestawu ataków bossa!",
+    "breakingNews": {
+        "title": "Z Ostatniej Chwili",
+        "subtitle": "Popularne Raidy w Pokemon GO",
+        "header": "Interaktywne $t(constants:pokemon.{{pokemonId}}) Kontry"
+    },
+    "articles": {
+        "title": "Najnowsze Wieści o Raidach!",
+        "subtitle": "Artykuły oraz filmy na temat Raidów w Pokemon Go od najlepszych graczy i odkrywców"
+    },
+    "guide": {
+        "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Poradniki o Kontrach Raidów",
+        "subtitle": "Jak Pokonać $t(constants:pokemon.{{pokemonId}}) w Pokemon Go",
+        "infographicDownload": "Pobierz $t(constants:pokemon.{{pokemonId}}) Infografikę",
+        "article": "Przeczytaj Cały $t(constants:pokemon.{{pokemonId}}) Poradnik o Kontrach Raidów Poniżej"
+    },
+    "tierList": {
+        "common": {
+            "boss": "Boss",
+            "raidTier": "Poziom Raidu"
+        },
+        "RAID_LEVEL_1": {
+            "title": "Poziom 1",
+            "subtitle": "Łatwy Solo Raid",
+            "intro": "Raidy poziomu 1 są dość łatwe do wygrania w pojedynkę. Gracze 20 poziomu z przeciętnymi pokemonami powinni być w stanie pokonać te Raidy samemu. Te Raidy są dobrym sposobem do gromadzenia cukierków dla pokemonów, które nie są zbyt powszechne w Twojej okolicy."
+        },
+        "RAID_LEVEL_2": {
+            "title": "Poziom 2",
+            "subtitle": "Trudny Solo Raid",
+            "intro": "Poziom 2 Raidów jest ukierunkowany na graczy z 30-40 poziomem, którzy mogą dość łatwo pokonać te Pokemony w pojedynkę. Gracze niższych poziomów powinni poszukać drużyny do pokonania tych bossów."
+        },
+        "RAID_LEVEL_3": {
+            "title": "Poziom 3",
+            "subtitle": "Łatwy Grupowy Raid",
+            "intro": "Poziom 3 Raidów jest kierunkowany dla grup min. 2 graczy w przedziale 30-40 poziomu. Mogą zostać również pokonane przez pojedynczego gracza 40 poziomu z odrobiną szczęścia, perfekcyjnym stylem gry oraz potężnymi Pokemonami."
+        },
+        "RAID_LEVEL_4": {
+            "title": "Poziom 4",
+            "subtitle": "Trudny Grupowy Raid",
+            "intro": "Raidy poziomu 4 ukierunkowane są dla grup 5-6 graczy o poziomach 30-40. Istnieją raporty mówiące, że Raidy te zostały pokonywane przez 3-4 graczy z 40 poziomem i perfekcyjnymi kontrami."
+        },
+        "RAID_LEVEL_4_5": {
+            "title": "Poziom 4.5",
+            "subtitle": "Łatwy Legendarny Raid",
+            "intro": "Poziomy 4.5 Raidów są łatwiejszą wersją legendarnych bossów ukierunkowaną dla grupy 2-4 graczy z poziomami 30-40. Są zazwyczaj widoczne podczas krótko trwających eventów."
+        },
+        "RAID_LEVEL_5": {
+            "title": "Poziom 5",
+            "subtitle": "Raid Legendarny",
+            "intro": "Obecnie Raidy legendarne są najlepszym sposobem do zdobycia naprawdę silnych Pokemonów! Często są pokonywane przez grupę 6-10 graczy z poziomami 30-40. Kilku nieustraszonych expertów było w stanie pokonać te Raidy zaledwie w 2-5 graczy."
+        },
+        "RAID_LEVEL_6": {
+            "title": "Poziom 6",
+            "subtitle": "Raid Legendarny - Bonusowe Punkty Życia",
+            "intro": "Bossy w tych Raidach mają podwyższone HP w porównaniu do tych z Raidów Poziomu 5. Nie wiadomo czy jest to trwała zmiana dla wszystkich Raidów Poziomu 5. Często robione są przez grupę 6-10 graczy z 30-40 poziomami. Kilku nieustraszonych expertów było w stanie pokonać te Raidy zaledwie w 3-5 graczy."
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "Poziom ?",
+            "subtitle": "Nieznany Raid",
+            "intro": "Te Pokemony mogą być częścią przyszłych Raidów. Możesz użyć tego narzędzia gdy w grze pojawił się nowy Raid a strona nie została jeszcze zaktualizowana. Możesz również użyć tej sekcji do analizy co by się wydarzyło gdybyśmy mieli Raid Legendarny dla Magikarpia!"
+        },
+        "RAID_LEVEL_4_EVENTS": {
+            "title": "Specjalny Poziom 4",
+            "subtitle": "Raidy Eventów Specjalnych",
+            "intro": "Te Pokemony były bossami w Raidach w przeszłych eventach, jak np. w Yokohamie. Mogą one kiedyś niezapowiedzianie wrócić."
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Legacy Poziom 1",
+            "subtitle": "Łatwy Solo Raid",
+            "intro": "Te Raidy nie są obecnie w rotacji Raidów."
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Legacy Poziom 2",
+            "subtitle": "Trudny Solo Raid",
+            "intro": "Te Raidy nie są obecnie w rotacji Raidów."
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "Legacy Poziom 3",
+            "subtitle": "Łatwy Grupowy Raid",
+            "intro": "Te Raidy nie są obecnie w rotacji Raidów."
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "Legacy Poziom 4",
+            "subtitle": "Trudny Grupowy Raid",
+            "intro": "Te Raidy nie są obecnie w rotacji Raidów."
+        },
+        "RAID_LEVEL_4_5_LEGACY": {
+            "title": "Legacy Poziom 4.5",
+            "subtitle": "Łatwy Legendarny Raid",
+            "intro": "To są wcześniej dostępni łatwi legendarni Raid bossowie."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Legacy Poziom 5",
+            "subtitle": "Raid Legendarny",
+            "intro": "Te Raidy były dostępne w przeszłości, ale obecnie nie są w rotacji Raidów. Mogą one powrócić w przyszłości w specjalnych eventach."
+        },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Legacy Poziom 6",
+            "subtitle": "Raid Legendarny - Bonusowe Punkty Życia",
+            "intro": "Te Raidy były dostępne w przeszłości, ale obecnie nie są w rotacji Raidów. Mogą one powrócić w przyszłości w specjalnych eventach."
+        },
+        "RAID_LEVEL_4_5_FUTURE": {
+            "title": "Przyszły Poziom 4.5",
+            "subtitle": "Łatwy Legendarny Raid",
+            "intro": "To są łatwe legendarne Raid bossy, które nie są jeszcze w grze. Ich statystyki oraz ataki wciąż się mogą zmienić"
+        },
+        "RAID_LEVEL_5_FUTURE": {
+            "title": "Przyszły Poziom 5",
+            "subtitle": "Raid Legendarny",
+            "intro": "Te Raidy poziomu 5 nie są jeszcze w grze! Ich statystyki oraz ataki mogą się wciąż zmienić."
+        }
+    },
+    "custom": {
+        "title": "Własny Raid",
+        "levelsLabel": "Poziomy Atakujących",
+        "buttonLabel": "Znajdź najlepszego atakującego",
+        "attackersLabel": "Atakujący"
+    },
+    "results": {
+        "title": "{{defender}} Kontry",
+        "meta": {
+            "description": "Najlepsze kontry dla {{defender}} w Pokemon GO to {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Zaloguj się, żeby zobaczyć twoje własne wyniki!",
+            "image": "{{infographicShareURL}}"
+        },
+        "calculating": "Obliczanie Wyników Raidu",
+        "counters": {
+            "title": "kontry",
+            "subtitle": "Najlepsi Atakujący ze względu na",
+            "description": "Poniższa analiza przedstawia Pokemony, które są najlepszymi atakującymi pod względem {{sort}} przeciwko {{pokemon}}.",
+            "moveSetOrderingDescription": "Zestawy ataków bossa są uporządkowane od najtrudniejszych do najłatwiejszych, upewnij się że sprawdziłeś kilkukrotnie, wyniki mogą się znacznie różnić!",
+            "difficultyNote": "Raid bossowie są dużo trudniejszym przeciwnikiem niż normalna walka, powinieneś uważnie przemyśleć wszystkie opcje.",
+            "chooseMovesetLabel": "Wybierz Zestaw Ataków"
+        },
+        "hardestMovesets": {
+            "title": "Najtrudniejsze Raidy",
+            "subtitle": "Dla {{pokemon}} ze względu na {{sort}}",
+            "tableTitle": "Najtrudniejsze zestawy ataków u bossów w Raidach",
+            "description": "Trudność Raidu może znacznie się różnić zależnie od zestawu ataków broniącego Pokemona!"
+        },
+        "analysis": {
+            "title": "Więcej o Tej Analizie",
+            "description": "Ta analiza Raidu jest bazowana na symulacjach walki przeciw {{defender.pokemon}} z {{defender.cp}} CP i {{attackers}}. Symulacja została przeprowadzona przy użyciu {{attackStrategy}} strategii ataku bazując na {{defenseStrategy}} typie symulacji. {{numSims}} symulacji zostało przeprowadzonych z każdym możliwym zestawem ataków {{defender.pokemon}} używanym przeciwko każdemu Pokemonowi z każdym możliwym zestawem ataków. 20 najlepszych atakujących wraz z ich najlepszymi zestawami ataków opartych na {{sort}} zostało zachowanych i przedstawionych tutaj. Możesz kliknąć na każdym z atakujących aby zobaczyć przeprowadzoną symulację i spróbować innych zestawów ataków.",
+            "attackers": {
+                "byLevel": "{{attackerLevel}} poziomy atakujących",
+                "pokebox": "własny Pokemon z Pokeboxa #{{userId}} użytkownika"
+            }
+        },
+        "description": "Najlepsze kontry {{defender}} w Pokemon GO to {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Poradnik Kontr Raidów Pokebattlera o {{pokemon}} stworzony został, by pomóc Ci pokonać {{pokemon}} używając najlepszych kontr. Znaleźć tutaj możesz najlepsze ogólne kontry do pokonania {{pokemon}} na infografice i w artykule. Możesz też użyć narzędzia konfiguracji żeby zobaczyć spersonalizowane wyniki pokazujące ogólne Pokemony, lub twoje własne Pokemony. Poradnik ten można konfigurować poprzez zmienianie poziomu atakujących pokemonów, strategię ataku oraz inne opcje sortowania. Możesz znaleźć najlepsze kontry na {{pokemon}} pośród Pokemonów posiadanych przez Ciebie jeśli dodasz swoje Pokemony do swojego własnego Pokeboxa.",
+        "patreon": {
+            "description": "Dokładniejsze wyniki dla niewiadomych zestawów ataków dostarczone zostały dzięki pomocy subskrybentów. Subskrybenci dostaję więcej miejsca w Pokeboxie, jeszcze bardziej precyzyjne wyniki dla wszystkich zestawów ataków a także więcej innych korzyści.",
+            "link": "Zobacz wszystkie korzyści, jakie możesz zyskać po zalogowaniu się",
+            "thanks": "Dziękujemy za wsparcie!"
+        }
+    },
+    "pokebox": {
+        "login": "Poradnik Kontr Raidów Pokebattler może zostać skonfigurowany w taki sposób, by dzięki twojemu własnemu Pokeboxowi przedstawiał tylko Pokemony aktualnie przez Ciebie posiadane. Zaloguj się, dodaj swoje najlepsze Pokemony do osobistego Pokeboxa, i wtedy będziesz mógł przełączać wszelkie symulacje pomiędzy twoimi Pokemonami a ogólnie najlepszymi możliwymi Pokemonami. Pozwoli Ci to lepiej zaplanować twoje Raidy.",
+        "enabled": "Pokazywanie wyników dla twojego własnego Pokeboxa. 30 najlepszych kontr, jakie posiadasz przedstawiono poniżej.",
+        "disabled": "Pokazywanie wyników dla {{level}} poziomu atakujących . 30 najlepszych na tym poziomie kontr przedstawiono poniżej.",
+        "friend": "Pokazywanie wyników dla użytkownika {{userId}}. Jego 30 najlepszych kontr przedstawiono poniżej.",
+        "switchLevel": "Zamień Na $t(common:attackerTypes.level)",
+        "switchPokebox": "Zamień Na $t(common:attackerTypes.pokebox)"
+    },
+    "emptyResults": {
+        "LEVEL": "Nie wykryto wyników dla tej kalkulacji. Możliwe, że serwer ma problemy.",
+        "POKEBOX": "Nie wykryto wyników dla tej kalkulacji. Może jeszcze nie dodałeś żadnego Pokemona do swojego Pokeboxa?",
+        "FRIEND": "Nie wykryto wyników dla tej kalkulacji. Może twój przyjaciel nie dodał jeszcze żadnego Pokemona do swojego Pokeboxa? Spróbuj sprawdzić innego trenera."
+    },
+    "people": {
+        "title": "Pokebattler Estimator",
+        "difficultyRating": "Poziom trudności: {{rating}}",
+        "adviceLink": "Zobacz co się stanie gdy wzmocnisz"
+    }
+}
