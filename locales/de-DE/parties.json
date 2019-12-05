@@ -1,3 +1,17 @@
 {
-
+    "title": "Kampfgruppen - Beta",
+    "explanation": "Kampfgruppen sind dafür geschaffen wie im Spiel zu funktionieren. Du erstellst sie mit deinen Pokemon und dann benutzt du sie im Kampf. Deine Kampfgruppen können auch von anderen Spielern genutzt werden um Raids oder PVP Kämpfe zu simulieren.",
+    "battlePartyList": {
+        "title": "Deine Kampfgruppen"
+    },
+    "add": {
+        "title": "Kampfgruppe",
+        "description": "Erstelle deine Kampfgruppe",
+        "meta": {
+            "description": "Eine Pokemon Go Kampf Gruppe hinzufügen"
+        }
+    },
+    "meta": {
+        "description": "Lager deine Pokemon Go Kampf Gruppe"
+    }
 }

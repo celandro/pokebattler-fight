@@ -1,2 +1,6 @@
 {
+    "title": "Aiuta a Tradurre Pokebattler",
+    "info": "Questo sito è stato preparato per essere tradotto in diverse lingue! Puoi aiutarci a rendere questo sito più facile da usare per i tuoi amici che non parlano l'Inglese.",
+    "how": "La traduzione è fatta attraverso uno strumento online chiamato Weblate e si può trovare qui: {{link}}. Devi creare un account, scegliere le lingue e fare suggerimenti per le traduzioni. Queste traduzioni saranno revisionate e in generale automaticamente accettate.",
+    "rewards": "Premi speciali normalmente disponibili solo per i sostenitori Patreon saranno disponibili per i traduttori che daranno un contributo significativo. Questi includono più Pokemon nel tuo Pokebox e maggiore precisione nelle simulazioni personalizzate."
 }
