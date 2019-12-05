@@ -1,3 +1,11 @@
 {
-
+    "title": "Squadre da Battaglia - Beta",
+    "explanation": "Le squadre da battaglia sono progettate per funzionare esattamente come nel gioco. Le costruisci coi tuoi pokemon, e in seguito le usi nelle battaglie sul sito. Le tue squadre da battaglia possono essere usate dagli altri giocatori per simulare i raid o combattimenti pvp (lotte tra giocatori).",
+    "battlePartyList": {
+        "title": "Le tue squadre da battaglia"
+    },
+    "add": {
+        "title": "Squadra da battaglia",
+        "description": "Crea la tua squadra da battaglia"
+    }
 }
