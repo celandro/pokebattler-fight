@@ -1,1 +1,21 @@
-{}
+{
+    "title": "Drużyny - Beta",
+    "meta": {
+        "description": "Zachowaj swoje drużyny z Pokemon GO"
+    },
+    "explanation": "Drużyny stworzone są by działać tak jak w grze. Ustawiasz je używając swoich Pokemonów, a następnie możesz użyć podczas projektowania symulacji walk. Twoje drużyny mogą zostać użyte przez innych graczy do symulowania Raidów oraz walk pvp.",
+    "battlePartyList": {
+        "title": "Twoje Drużyny"
+    },
+    "add": {
+        "title": "Drużyna",
+        "meta": {
+            "description": "Dodaj Drużynę Pokemon GO"
+        },
+        "description": "Stwórz swoją drużynę",
+        "full": "Twoja drużyna jest pełna"
+    },
+    "select": {
+        "emptyName": "$t(common:battleParty) {{value}}"
+    }
+}
