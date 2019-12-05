@@ -6,14 +6,15 @@
     "loading": "Carregando dados do usuário",
     "user": "Usuário",
     "login": {
-        "google": "Logar com Google",
-        "facebook": "Logar com Facebook",
-        "patreon": "Logar com Patreon",
-        "patreonDescription": "Suportadores do Patreon tem recompensas incluindo mais Pokemon em suas Pokebox, simulações personalizadas de maior qualidade e uma planilha do google de Recomendações de Reides!",
+        "google": "Entrar com Google",
+        "facebook": "continuar com Facebook",
+        "patreon": "Entrar com Patreon",
+        "patreonDescription": "O Pokebattler agora suporta assinaturas diretas do Stripe! É altamente recomendável que os assinantes atuais do Patreon migrem para os novos planos de assinatura. Usuários de países que o Stripe não tem suporte, como Brasil e México, bem como usuários que desejam pagar através do Paypal, devem continuar usando o Patreon.",
         "success": {
             "title": "Logado com Sucesso",
             "fromApi": "$t(login.success.title)! Por favor, aguarde um momento para continuar."
-        }
+        },
+        "autoCreate": "A autenticação criará automaticamente sua conta Pokebattler e fará o login"
     },
     "details": {
         "welcome": "Bem-Vindo",
@@ -59,5 +60,63 @@
     },
     "meta": {
         "description": "O Pokébattler guarda os seus Pokémon do Pokémon Go na nossa Pokédex para encontrar adversários nas reides e mais!"
+    },
+    "settings": {
+        "showListImages": "Mostrar Imagens"
+    },
+    "subscribed": {
+        "title": "Obrigado pelo seu apoio",
+        "meta": {
+            "description": "O Pokebattler é gratuito para usar em todas as assinaturas generosas de pessoas como você! Sua assinatura desativa anúncios e desbloqueia recursos poderosos para ajudá-lo a vencer o chefe da raid ou seus amigos em pvp!"
+        },
+        "patreon": "Os assinantes do Patreon são incentivados a mudar para as opções baseadas em Stripe, para obter preços mais baixos e melhor suporte. Você pode enviar um email para admin@pokebattler.com para receber um cupom aplicado à sua assinatura quando você alternar. O valor do cupom será baseado na sua assinatura restante no Patreon. Usuários em países que o Stripe não tem suporte, como Brasil e México, assim como usuários que desejam pagar usando o Paypal devem continuar usando o Patreon.",
+        "chooseProduct": "Alterar sua assinatura",
+        "currentSubscription": "Informações atuais sobre sua assinatura",
+        "choosePlan": "Escolha seu plano",
+        "purchase": "Atualize a duração",
+        "currentPlan": "Plano atual",
+        "chargeAmount": "Será cobrado um valor proporcional de ${{chargeAmount}} imediatamente. O valor total será cobrado no início de cada ciclo de cobrança.",
+        "duringTrial": {
+            "button": "Alterar assinatura",
+            "description": "Durante o período de teste, você pode alterar sua assinatura livremente"
+        },
+        "upgradeSubscription": {
+            "button": "Atualizar assinatura",
+            "description": "Atualize sua assinatura imediatamente."
+        },
+        "downgradeSubscription": {
+            "button": "Diminua sua assinatura",
+            "description": "Diminua da sua assinatura no final da sua assinatura atual."
+        },
+        "changeCreditCard": {
+            "title": "Alterar suas informações de pagamento",
+            "button": "Atualizar informação"
+        }
+    },
+    "subscription": {
+        "title": "Assine Pokebattler",
+        "meta": {
+            "image": "https://static.pokebattler.com/images/og_user_subscription.png"
+        },
+        "paymentRequest": "Assine com um Clique",
+        "paymentRequestDescription": "A assinatura com um clique é suportada na maioria dos dispositivos móveis. Você também pode optar por inserir suas informações abaixo",
+        "currentProduct": "Benefícios atuais",
+        "chooseProduct": "Escolha seu plano",
+        "choosePlan": "Escolha a sua duração",
+        "purchase": "Inicie o seu teste gratuito!",
+        "creditCard": "Insira as informações do seu cartão de crédito",
+        "paymentType": "Tipo de pagamento",
+        "name": "Primeiro e último nome",
+        "email": "Email",
+        "line1": "Endereço Linha 1",
+        "line2": "Endereço Linha 2",
+        "city": "Cidade",
+        "state": "Estado",
+        "country": "País",
+        "idealBank": "iDEAL Bank",
+        "description": "As informações do seu cartão de crédito são tratadas com segurança pelo Stripe e nunca são enviadas para o Pokebattler. Stripe processa suas assinaturas e informa Pokebattler do seu status de assinatura.",
+        "multiMonth": "Economize com um plano de vários meses!",
+        "requiresLogin": "Você deve fazer login para se inscrever",
+        "ibanDescription": "Ao fornecer seu IBAN e confirmar esse pagamento, você está autorizando Pokebattler.com e Stripe, nosso provedor de serviços de pagamento, a enviar instruções ao seu banco para debitar sua conta e seu banco para debitar sua conta de acordo com essas instruções. Você tem direito a um reembolso do seu banco nos termos e condições do seu contrato com o seu banco. Um reembolso deve ser reivindicado dentro de 8 semanas a partir da data em que sua conta foi debitada."
     }
 }

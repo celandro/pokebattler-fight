@@ -75,6 +75,11 @@
             "title": "Nível 6",
             "subtitle": "Reide Legendária - Bonus Hp",
             "intro": "Estas reides tem bonus hp comparadas com reide nível 5. Não se sabe se é uma mudança permanente para todo o Nível 5.  Elas normalmente são feitas com grupos de 6-10 jogadores nível 30-40. Alguns especialistas corajosos tem feito estas reides com até mesmo 2-5 jogadores."
+        },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Nivel 6 - herdado",
+            "subtitle": "Raid Lendária - Bônus de HP",
+            "intro": "Esses Raid já estavam disponíveis no passado, mas não estão atualmente nas rotações atuais. Eles podem retornar no futuro para eventos especiais."
         }
     },
     "custom": {
@@ -92,7 +97,7 @@
             "description": "A seguinte análise mostra o Pokemon que é o mais forte oponente em termos de {{sort}} contra {{pokemon}}.",
             "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
             "chooseMovesetLabel": "Escolher Ataques",
-            "difficultyNote": "Chefes de reide são muito mais difíceis que lutas normais, você deve considerar cuidadosamente suas opções."
+            "difficultyNote": "Chefes de raid são muito mais difíceis que lutas normais, você deve considerar cuidadosamente suas opções."
         },
         "hardestMovesets": {
             "subtitle": "Para {{pokemon}} por {{sort}}",
@@ -110,13 +115,13 @@
         },
         "description": "Bem-vindo ao Guia de Reide do Pokebattler para {{pokemon}}. Você pode encontrar o melhor oponente de acordo com os ataques de cada Chefe. Este guia é customizável de muitas formas diferentes. Você pode escolher o nível do ataque e estratégia de ataque que deseja usar assim como várias opções de ordenação.",
         "patreon": {
-            "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores Patreon. Os usuários Patreon recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais.",
+            "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores. Os usuários recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais.",
             "link": "Veja todos os benefícios que você ganha ao se registrar",
             "thanks": "Obrigado pelo seu suporte!"
         },
         "meta": {
             "description": "Os melhores atacantes generalistas nível 35 vs. {{defender}} são {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Veja seus resultados personalizados!",
-            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+            "image": "{{infographicShareURL}}"
         }
     },
     "pokebox": {
@@ -152,5 +157,23 @@
         "description": "Encontre os adversários da raid Pokemon Go usando clima, nível de amizade e até mesmo sua própria Pokebox. Encontre os 30 melhores atacantes com o guia de reide personalizado #1 do mundo.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
-    "intro": "Chegaram as reides Pokemon Go! Descubra quais os melhores Pokémon para enfrentar os chefes das reides com o guia de reides customizado do Pokemon Go mais preciso do mundo. Basta selecionar a reide abaixo e ver os melhores atacantes para cada ataque!"
+    "intro": "Chegaram as reides Pokemon Go! Descubra quais os melhores Pokémon para enfrentar os chefes das reides com o guia de reides customizado do Pokemon Go mais preciso do mundo. Basta selecionar a reide abaixo e ver os melhores atacantes para cada ataque!",
+    "breakingNews": {
+        "title": "último minuto",
+        "subtitle": "Raids populares em Pokemon Go",
+        "header": "Interativo $t(constants:pokemon.{{pokemonId}}) Counters"
+    },
+    "articles": {
+        "title": "Últimas Notícias sobre Raid!",
+        "subtitle": "Artigos e vídeos sobre Raids em Pokemon Go Raids, principais jogadores e pesquisadores"
+    },
+    "guide": {
+        "title": "Pokebattler $t(constantes:pokemon.{{PokemonId}}) Guias de counter de raides",
+        "subtitle": "Como derrotar $t(constants:pokemon.{{pokemonId}}) no Pokemon Go",
+        "infographicDownload": "Baixar $t(constants:pokemon.{{pokemonId}}) Infográfico"
+    },
+    "silph": {
+        "text": "Lista atual de chefes de raid fornecida por",
+        "link": "The Silph Road"
+    }
 }
