@@ -1611,7 +1611,12 @@
         "SYNCHRONOISE": "Synchronoise",
         "LOCK_ON_FAST": "Lock On",
         "THUNDER_FANG_FAST": "Thunder Fang",
-        "ICE_FANG_FAST": "Ice Fang"
+        "ICE_FANG_FAST": "Ice Fang",
+        "HORN_DRILL": "Horn Drill",
+        "FISSURE": "Fissure",
+        "SACRED_SWORD": "Sacred Sword",
+        "FLYING_PRESS": "Flying Press",
+        "AURA_SPHERE": "Aura Sphere"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
