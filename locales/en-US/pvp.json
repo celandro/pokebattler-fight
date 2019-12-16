@@ -102,6 +102,10 @@
         "label": "Predicted Meta",
         "description": "Matrix Analysis of the Top Tier Pokemon "
       },
+      "current": {
+        "label": "Current Meta",
+        "description": "Matrix Analysis of the Top Tier Pokemon "
+      },
       "defenders": {
         "label": "Top 30",
         "description": "Toughest Pokemon To Beat Overall"
