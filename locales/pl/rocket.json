@@ -1,0 +1,131 @@
+{
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
+        "description": "Znajdź Kontry Zespołu R dla Pokemon GO. Sprawdź 24 najlepszych kontr z najlepszym na świecie poradnikiem dotyczącym kontr Zespołu R."
+    },
+    "breakingNews": {
+        "title": "Wiadomości z Ostatniej Chwili",
+        "subtitle": "Inwazja Zespołu R Na Pokemon GO",
+        "header": "$t(constants:pokemon.{{pokemonId}}) Kontry Zespołu R"
+    },
+    "tierList": {
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Legacy Poziom 6",
+            "subtitle": "Trudne Mityczne Walki Cienia",
+            "intro": "Te walki nie są obecnie w rotacji zespołu R."
+        },
+        "common": {
+            "boss": "Inwazja Cieni",
+            "raidTier": "Poziom Cienia"
+        },
+        "RAID_LEVEL_1": {
+            "title": "Zespół R Poziom 1",
+            "subtitle": "Zwykłe Walki Cienia",
+            "intro": "Walki z Zespołem R Poziomu 1 są łatwiejsze i powinny być łatwe do wygrania przez każdego, kto używa odpowiednich kontr. Walki te są przeciw wzmocnionym Pokemonom 27 poziomu dla 40 poziomowych graczy. Gracze niższych poziomów będą mierzyć się z łatwiejszymi Pokemonami"
+        },
+        "RAID_LEVEL_2": {
+            "title": "Zespół R Poziom 2",
+            "subtitle": "Rzadkie Walki Cienia",
+            "intro": "Walki z Zespołem R Poziomu 2 są trudne, ale powinne być wygrywane przez każdego, kto używa wzmocnionych odpowiednich kontr. Walki te są przeciw wzmocnionym Pokemonom 30 poziomu dla 40 poziomowych graczy. Gracze niższych poziomów będą mierzyć się z łatwiejszymi Pokemonami"
+        },
+        "RAID_LEVEL_3": {
+            "title": "Zespół R Poziom 3",
+            "subtitle": "Legendarne Walki Cienia",
+            "intro": "Walki z Zespołem R Poziomu 3 obecnie nie istnieją"
+        },
+        "RAID_LEVEL_4": {
+            "title": "Zespół R Poziomu 4",
+            "subtitle": "Trudne Legendarne Walki Cienia",
+            "intro": "Walki z Zespołem R Poziomu 4 obecnie nie istnieją"
+        },
+        "RAID_LEVEL_5": {
+            "title": "Zespół R Poziomu 5",
+            "subtitle": "Mityczne Walki Cienia",
+            "intro": "Walki z Zespołem R Poziomu 5 obecnie nie istnieją"
+        },
+        "RAID_LEVEL_6": {
+            "title": "Zespół R Poziom 3",
+            "subtitle": "Trudne Mityczne Walki Cienia",
+            "intro": "Walki z Zespołem R Poziomu 3 obecnie nie istnieją"
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "Zespół R Poziom ?",
+            "subtitle": "Nieznane Walki Cienia",
+            "intro": "Te Pokemony Cienia będą częścią przyszłych inwazji Zespołu R. Użyj tego jeśli nowa inwazja nawiedziła Pokemon GO a strona nie została jeszcze zaktualizowana. Możesz też użyć tej sekcji do prowadzenia analiz, jak np. co by się stało gdyby miejsce miała inwazja legendarnych Squirtli zespołu R!"
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Legacy Zespół R Poziomu 1",
+            "subtitle": "Zwykłe Walki Cienia",
+            "intro": "Te walki nie są obecnie w rotacji zespołu R."
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Legacy Zespół R Poziom 2",
+            "subtitle": "Rzadkie Walki Cienia",
+            "intro": "Te walki nie są obecnie w rotacji zespołu R."
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "Legacy Zespół R Poziom 3",
+            "subtitle": "Legendarne Walki Cienia",
+            "intro": "Te walki nie są obecnie w rotacji zespołu R."
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "Legacy Zespół R Poziom 4",
+            "subtitle": "Trudne Legendarne Walki Cienia",
+            "intro": "Te walki nie są obecnie w rotacji zespołu R."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Legacy Zespół R Poziom 5",
+            "subtitle": "Mityczne Walki Cienia",
+            "intro": "Te walki nie są obecnie w rotacji zespołu R."
+        }
+    },
+    "custom": {
+        "levelsLabel": "Poziomy Atakujących",
+        "attackersLabel": "Atakujący",
+        "title": "Zwyczajne Kontry Zespołu R",
+        "buttonLabel": "Znajdź najlepsze kontry"
+    },
+    "results": {
+        "title": "{{defender}} Kontry",
+        "counters": {
+            "title": "kontry",
+            "subtitle": "Najlepsi Atakujący ze względu na",
+            "chooseMovesetLabel": "Wybierz Zestaw Ataków",
+            "description": "Poniższa analiza pokazuje Pokemony, które są najlepszymi kontrami ze względu na {{sort}} przeciw {{pokemon}}.",
+            "moveSetOrderingDescription": "Zestawy ataków są uporządkowane w kolejności od najtrudniejszych do walki do najłatwiejszych, upewnij się że sprawdziłeś kilkukrotnie. Wyniki mogą się bardzo różnić!",
+            "difficultyNote": "Pokemony Cienia z Inwazji Zespołu R są znacznie trudniejszym przeciwnikiem niż normalna walka, powinieneś uważnie przemyśleć swoje opcje."
+        },
+        "hardestMovesets": {
+            "subtitle": "Dla {{pokemon}} ze względu na {{sort}}",
+            "title": "Najtrudniejsze Walki",
+            "tableTitle": "Najtrudniejsze zestawy ataków do walczenia przeciw",
+            "description": "Poziom trudności walk z Zespołem R może się znacznie różnić zależnie od zestawu ataków broniącego Pokemona!"
+        },
+        "analysis": {
+            "title": "Więcej o Tej Analizie",
+            "attackers": {
+                "byLevel": "{{attackerLevel}} poziomy atakujących",
+                "pokebox": "własny Pokemon z Pokeboxa #{{userId}} użytkownika"
+            },
+            "description": "Ta Analiza Walki z Zespołem R jest bazowana na symulacji walki broniącego {{defender.pokemon}} z {{defender.cp}} CP oraz {{attackers}}. Symulacja przeprowadzona została przy użyciu symulatora Inwazji Zespołu R. {{numSims}} symulacji zostało przeprowadzonych z każdym możliwym zestawem ataków {{defender.pokemon}} użytych przeciw każdemu Pokemonowi z każdym możliwym zestawem ataków. 24 najlepsze kontry z ich najlepszymi zestawami ataków ze względu na {{sort}} zostały zapisane i przedstawione poniżej."
+        },
+        "patreon": {
+            "description": "Dokładniejsze wyniki dla niewiadomych zestawów ataków dostarczone zostały dzięki pomocy subskrybentów. Subskrybenci dostaję więcej miejsca w Pokeboxie, jeszcze bardziej precyzyjne wyniki dla wszystkich zestawów ataków a także więcej innych korzyści.",
+            "link": "Zobacz wszystkie korzyści, jakie możesz zyskać po zalogowaniu się",
+            "thanks": "Dziękujemy za wsparcie!"
+        },
+        "meta": {
+            "description": "Najlepsze Kontry {{defender}} w Pokemon GO to {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Sprawdź ich wyniki!",
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+        },
+        "calculating": "Analizowanie Obrony Zespołu R",
+        "description": "Witaj w poradniku na temat kontr Zespołu R Pokebattlera dla {{pokemon}}. Możesz znaleźć najlepsze kontry ze względu na zestaw ataków każdego z Pokemonów cienia. Poradnik ten jest konfigurowalny na wiele sposobów. Możesz zalogować się i wprowadzić swoje Pokemony do swojego Pokeboxa, co pomoże Ci w uzyskaniu najdokładniejszych wyników. Możesz też przeglądać te ogólne wyniki używając wielu opcji sortowania."
+    },
+    "title": "Kontry Zespołu R",
+    "linkLabel": "Kontry Zespołu R",
+    "intro": "Zespół R najechał Pokemon GO i Pokebattler jest tutaj by pomóc ci go zwalczyć! Walki są na zasadzie 3v3, gdzie Ty oraz 3 twoje Pokemony walczą z wzmocnionymi Pokemonami Zespołu R. Te walki mogą być ekstremalnie trudne, więc upewnij się że jesteś odpowiednio przygotowany przed walką z nimi!",
+    "articles": {
+        "title": "Najświeższe Aktualności o Zespole R!",
+        "subtitle": "Artykuły oraz Filmy o Zespole R stworzone przez Najlepszych Graczy i Badaczy"
+    }
+}

@@ -300,6 +300,10 @@
       "COMBAT_LEAGUE_SILPH_TIMELESS_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season 2 cup for December. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_FUSION_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season 2 cup for January featuring Pokemon that have multiple types and cost 50K or less for a second move. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {

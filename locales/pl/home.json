@@ -1,0 +1,26 @@
+{
+    "title": "Symulatory i Rankingi Pokemon GO",
+    "meta": {
+        "description": "Najlepsze na świecie źródło szczegółowych analiz Pokemon GO. Najlepsze symulacje, personalizowane rankingi i najbardziej dokładne kontry Raidów!",
+        "image": "https://static.pokebattler.com/images/og_home.png"
+    },
+    "articles": {
+        "title": "Zgłębiające Artykuły Pokemon GO",
+        "subtitle": "Wiadomości Oraz Badania Niedostępne Nigdzie Indziej",
+        "more": "Czytaj więcej artykułów"
+    },
+    "article": {
+        "title": "{{title}}",
+        "meta": {
+            "description": "{{author}} {{format}} na temat{{categories}} z {{date}}. Ten artykuł jest o {{tags}}.",
+            "image": "{{featuredURL}}"
+        }
+    },
+    "news": {
+        "title": "Informacje o Wydaniu",
+        "meta": {
+            "description": "Najświeższe informacje o wydaniu Pokebattlera dla najdokładniejszego w świecie Symulatora Pokemon GO. ",
+            "image": "https://static.pokebattler.com/images/og_more_news.jpg"
+        }
+    }
+}
