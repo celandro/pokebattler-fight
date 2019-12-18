@@ -1,2 +1,10 @@
 {
+    "breakingNews": {
+        "title": "Último minuto!"
+    },
+    "tierList": {
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Nivel 6 - descontinuada"
+        }
+    }
 }
