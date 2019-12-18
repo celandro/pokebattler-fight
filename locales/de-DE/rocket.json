@@ -11,7 +11,9 @@
             "chooseMovesetLabel": "Attacke auswählen"
         },
         "hardestMovesets": {
-            "subtitle": "Für {{pokemon}} nach {{sort}}"
+            "subtitle": "Für {{pokemon}} nach {{sort}}",
+            "title": "Schwierigste Raids",
+            "tableTitle": "Schwerstes Angriffsmuster"
         },
         "analysis": {
             "title": "Über diese Analyse"
