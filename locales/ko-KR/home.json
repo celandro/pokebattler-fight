@@ -1,3 +1,26 @@
 {
-    
+    "title": "포켓몬고 시뮬레이터와 랭킹",
+    "meta": {
+        "description": "상세한 포켓몬고 분석에 있어서 세계 최고의 사이트입니다. 최고의 시뮬레이션, 커스터마이징 가능한 랭킹과 가장 정확한 레이드 카운터를 제공합니다!",
+        "image": "https://static.pokebattler.com/images/og_home.png"
+    },
+    "articles": {
+        "title": "심도있는 포켓몬고 기사",
+        "subtitle": "다른 어느 곳에서도 볼 수 없는 뉴스와 연구",
+        "more": "더 많은 기사 보기"
+    },
+    "article": {
+        "title": "{{title}}",
+        "meta": {
+            "description": "{{author}}{{format}}이 {{date}}에 {{categories}}에 대해 쓴 글. 이 기사는 {{tags}}에 대한 글입니다.",
+            "image": "{{featuredURL}}"
+        }
+    },
+    "news": {
+        "title": "릴리즈 노트",
+        "meta": {
+            "description": "포케배틀러 뉴스는 세계에서 가장 정확한 포켓몬 고 시뮬레이터에 대한 최신 릴리즈 노트입니다. ",
+            "image": "https://static.pokebattler.com/images/og_more_news.jpg"
+        }
+    }
 }
