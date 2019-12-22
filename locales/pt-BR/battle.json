@@ -25,7 +25,7 @@
         "about": "Sobre esta Batalha",
         "description": "Um {{attacker.name}} de nível {{attacker.level}} com {{attacker.cp}} PC {{result}} um {{defender.name}} de nível {{defender.level}} com {{defender.cp}} PC nesta simulação de batalha. O {{attacker.name}} atacante usou {{attacker.quickMove}} como ataque rápido e {{attacker.specialMove}} como ataque carregado. O {{defender.name}} defensor usou {{defender.quickMove}} como ataque rápido e {{defender.specialMove}} como ataque carregado. A simulação de combate foi realizada com a estratégia de ataque {{strategies.attack}} usando {{strategies.dodge}} baseada numa simulação de tipo {{strategies.defense}} com clima {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) foram feitas para obter este resultado.",
         "help": {
-            "text": "Você pode encontrar mais informações em como estas simulações são calculadas visitando {{helpLink}}. As fontes de pesquisa sobre as batalhas de Pokémon GO podem ser encontradas em {{aboutLink}}. Pokebattler é um projeto de código aberto, fique a vontade em reportar erros ou problemas pela página {{repoLink}}.",
+            "text": "Você pode encontrar mais informações de como estas simulações são calculadas visitando {{helpLink}}. As fontes de pesquisa sobre as batalhas de Pokémon GO podem ser encontradas em {{aboutLink}}. Pokebattler é um projeto de código aberto, fique a vontade em reportar erros ou problemas pela página {{repoLink}}.",
             "links": {
                 "repo": "Página do Projeto"
             }
@@ -60,7 +60,7 @@
         },
         "explore": {
             "title": "Examine os resultados",
-            "subtitle": "Arraste e solte as colunas para criar sua análise personalizada.",
+            "subtitle": "Clique para carregar seu detalhamento",
             "select": "Tipo de Gráfico",
             "columns": {
                 "attackerId": "Id",
@@ -103,8 +103,12 @@
             }
         },
         "assistants": {
-            "title": "Ferramenta Beta de Treinadores Extras",
-            "both": "Os resultados abaixo incluem {{numExplicit}} treinadores adicionais e {{numRandom}} equipes de batalha adicionais de níveis aleatórios entre 30 e 40. Isso acontece com a intenção de simular o resultado de um combate de reide realístico com vários treinadores. A % de vitória acima mostra a chance de vitória antes que a sua equipe de batalha desmaie se você ter essas pessoas adicionais ajudando você. Frequentemente, reentrando no combate nesses cenários, garantirão a vitória para você. O poder, tempo para vencer, poções e classificações gerais, são baseados no que a sua equipe de batalha pode fazer e não inclui outras equipes. Essa página eventualmente mostrará muito mais informação - apenas o registro de batalha está completo no momento. Há também uma interface melhor para selecionar quantos treinadores e quantas equipes de batalha adicionais irão te ajudar "
+            "title": "Recursos extras para treinadores",
+            "both": "Os resultados abaixo incluem {{numExplicit}} treinadores adicionais e {{numRandom}} equipes de batalha adicionais de níveis aleatórios entre 30 e 40. Isso acontece com a intenção de simular o resultado de um combate de reide realístico com vários treinadores. A % de vitória acima mostra a chance de vitória antes que a sua equipe de batalha desmaie se você ter essas pessoas adicionais ajudando você. Frequentemente, reentrando no combate nesses cenários, garantirão a vitória para você. O poder, tempo para vencer, poções e classificações gerais, são baseados no que a sua equipe de batalha pode fazer e não inclui outras equipes. Essa página eventualmente mostrará muito mais informação - apenas o registro de batalha está completo no momento. Há também uma interface melhor para selecionar quantos treinadores e quantas equipes de batalha adicionais irão te ajudar ",
+            "explicit": "Os resultados abaixo incluem {{numExplicit}} treinadores adicionais. O objetivo é simular um cenário de combate real e realista. A porcentagem de vitórias acima mostra a chance de ganhar antes que seu grupo de batalha desmaie, se você tiver essas pessoas adicionais ajudando. Muitas vezes, voltar a entrar nesse cenário fará você vencer. O poder, o tempo para vencer, as poções e a classificação geral são todos baseados no que todo o seu grupo de 6 jogadores pode fazer. Esta página acabará mostrando muito mais informações, apenas o registro de combate está completo no momento. Também existe uma interface de usuário melhor para selecionar quantas e quais grupos de batalha estão ajudando você na",
+            "random": "Os resultados abaixo incluem {{numRandom}} grupos adicionais aleatórios de batalha entre os níveis 30 e 40. O objetivo é simular um resultado realista de combate de ataques com vários treinadores. A porcentagem de vitórias acima mostra a chance de ganhar antes que seu grupo de batalha desmaie, se você tiver essas pessoas adicionais ajudando. Muitas vezes, voltar a entrar nesse cenário permitirá que você ganhe. O poder, o tempo para vencer, as poções e a classificação geral são todos baseados no que o seu próprio grupo de batalha de 6 pode fazer e não inclui os outros grupos de batalha. Esta página acabará mostrando muito mais informações - somente o registro de combate está completo no momento.",
+            "link": "página de simulação de raid.",
+            "name": "Assistente"
         }
     },
     "runAgain": "Execute novamente esta simulação",
@@ -127,5 +131,7 @@
             "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
         }
     },
-    "recommended": "Recomendado"
+    "recommended": "Recomendado",
+    "runSolo": "Executar como tentativa individual",
+    "addBattleParty": "Salve esta batalha"
 }

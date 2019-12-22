@@ -149,5 +149,16 @@
     "silph": {
         "text": "Lista de incursiones actualizada proporcionada por",
         "link": "The Silph Road\n"
+    },
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "articles": {
+        "title": "Últimas noticias de incursiones",
+        "subtitle": "Artículos y vídeos sobre incursiones de Pokemon Go de jugadores top e investigadores"
+    },
+    "guide": {
+        "subtitle": "Como derrotar a $t(constants:pokemon.{{pokemonId}}) en Pokemon Go",
+        "infographicDownload": "Descargar $t(constants:pokemon.{{pokemonId}}) infografía"
     }
 }
