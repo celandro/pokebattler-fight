@@ -21,19 +21,19 @@
                 "byLevel": "等級{{attackerLevel}}攻擊者",
                 "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
             },
-            "description": "該團體戰分析是關於{{defender.cp}} CP的防禦方{{defender.pokemon}}和攻擊方 {{attackers}}的模擬結果。模擬是根據{{attackStrategy}}攻擊策略和{{defenseStrategy}}防禦策略執行的。針對防禦方{{defender.pokemon}}的所有技能組合和所有寶可夢的所有技能組合總計進行了{{numSims}}次模擬。最好的20個進攻方已經依據 {{sort}}排序並展示如下。您可以點擊任意一個攻擊方查看模擬情況並嘗試不同的技能組合。"
+            "description": "該團體戰分析是關於{{defender.cp}} CP的防禦方{{defender.pokemon}}和攻擊方 {{attackers}}的模擬結果。模擬是根據{{attackStrategy}}攻擊策略和{{defenseStrategy}}防禦策略執行的。針對防禦方{{defender.pokemon}}的所有技能組合和所有寶可夢的所有技能組合總計進行了{{numSims}}次模擬。最好的30個進攻方已經依據 {{sort}}排序並展示如下。您可以點擊任意一個攻擊方查看模擬情況並嘗試不同的技能組合。"
         },
         "title": "{{defender}} 打手",
         "calculating": "團戰模擬中",
         "meta": {
-            "description": "針對{{defender}}最好的35級應對陣容是{{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}。查看自定義結果獲取更多信息!"
+            "description": "針對{{defender}}最好的應對陣容是{{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}。登陸獲取自定義結果!"
         },
         "patreon": {
             "thanks": "感謝您的支持！",
             "description": "訂閱者的支持讓我們得以提供更準確的針對未知技能組合的模擬結果。訂閱者可以獲得額外的寶可夢盒空間，更加準確的模擬結果等多項特權。",
             "link": "查看注冊可以獲得的所有獎勵"
         },
-        "description": "歡迎來到Pokebattler{{pokemon}}團體戰應對指南。你可以通過頭目的不同技能組合尋找出最佳打手。這份團體戰應對指南是可調整的。你可以選擇你想要的不同的攻擊者等級和攻擊策略並且支持多種排列順序。"
+        "description": "Pokebattler的{{pokemon}}團體戰應對指南旨在幫你選擇你最好的打手擊敗 {{pokemon}}。你可以通過信息圖表和攻略文章來選擇總體上最好的打手來擊敗{{pokemon}}。你也可以使用自定義工具選擇所有的寶可夢進行模擬或者使用你寶可夢盒子裏的寶可夢進行模擬來獲得只爲你專屬定制的模擬結果。"
     },
     "title": "團體戰應對指南",
     "tierList": {
@@ -109,7 +109,7 @@
         "RAID_LEVEL_6": {
             "title": "六星級頭目",
             "subtitle": "傳說級寶可夢團戰(HP加成，血量更厚!)",
-            "intro": "這些團戰和五星團戰相比擁有HP加成。沒有確切的消息顯示這些改動是否是永久的。通常需要6-10個30級以上玩家組隊。有些神人級的玩家可以2~5人組隊就能獲勝。"
+            "intro": "這些團戰和五星團戰相比擁有HP加成。沒有確切的消息顯示這些改動是否是永久的。通常需要6-10個30級以上玩家組隊。有些神人級的玩家可以3~5人組隊就能獲勝。"
         },
         "RAID_LEVEL_6_LEGACY": {
             "title": "六星級傳說頭目",
