@@ -93,12 +93,12 @@
         "title": "{{defender}} Konter",
         "calculating": "Berechne Raid Ergebnisse",
         "counters": {
-            "title": " Konter",
+            "title": "Konter",
             "subtitle": "Die besten Angreifer nach",
             "description": "Die folgende Analyse zeigt die Pokemon, die die stärksten Angreifer hinsichtlich {{sort}} gegen {{pokemon}} sind.",
             "moveSetOrderingDescription": "Die Angriffsmuster sind von schwer nach leicht sortiert. Schau dir auf jeden Fall mehrere an, die Ergebnisse können sehr unterschiedlich ausfallen!",
             "difficultyNote": "Raid Bosse sind sehr viel schwerer als normale kämpfe, also solltest du deine Möglichkeiten sorgfältig abwägen.",
-            "chooseMovesetLabel": "Angriffsmuster auswählen"
+            "chooseMovesetLabel": "Attacke auswählen"
         },
         "hardestMovesets": {
             "title": "Schwierigste Raids",

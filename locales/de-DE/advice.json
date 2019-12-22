@@ -3,9 +3,9 @@
     "intro": "Die Pokebattler-Beratung ist ein Feature, das dir dabei hilft, deine Pokebox passgenau für einzelne Raids zu verbessern. Wähl einfach den Raid-Boss aus, gegen den du deine besten möglichen Kandidaten zum Angreifen finden willst, und gib den Sternenstaub und die Bonbons ein, die du zur Verfügung hast, damit du sehen kannst, wie sich deine Pokemon nach ein paar Power-Ups verhalten. Dieses Tool hilft dir bei der Beurteilung, welche Pokemon am meisten von Sternenstaub und Bonbons profitieren, damit du weißt, wie du deine Ressourcen mit maximaler Effizienz einsetzen kannst.",
     "results": {
         "counters": {
-            "title": " Konter",
+            "title": "Konter",
             "moveSetOrderingDescription": "Die Angriffsmuster sind von schwer nach leicht sortiert. Schau dir auf jeden Fall mehrere an, die Ergebnisse können sehr unterschiedlich ausfallen!",
-            "chooseMovesetLabel": "Angriffsmuster auswählen",
+            "chooseMovesetLabel": "Attacke auswählen",
             "subtitle": "Die besten Angreifer nach Power-Ups sortiert nach",
             "description": "Die folgende Analyse zeigt die Pokemon, die das Potential haben, die stärksten Angreifer hinsichtlich {{sort}} gegen {{pokemon}} zu sein."
         },
