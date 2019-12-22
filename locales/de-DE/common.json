@@ -19,12 +19,14 @@
         "stamina": "Ausdauer",
         "individualAttack": "$t/common:stats.attack)",
         "individualDefense": "$t(common:stats.defense)",
-        "individualStamina": "$t(common:stats.stamina)"
+        "individualStamina": "$t(common:stats.stamina)",
+        "hp": "Kampfpunkte"
     },
     "statsAbbr": {
         "attack": "Ang",
         "defense": "Ver",
-        "hp": "KP"
+        "hp": "KP",
+        "stamina": "Aus"
     },
     "level": "Level",
     "basic": "Standard",
@@ -66,7 +68,7 @@
     },
     "simulation": "Eine Simulation wurde",
     "simulation_plural": "{{count}} Simulationen wurden",
-    "chooseMovesetLabel": "Wähle Attackenmuster",
+    "chooseMovesetLabel": "Attackenmuster auswählen",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) wurden ausgeführt um diese hochqualitative Simulation",
         "attackers": "Angreifer",
@@ -215,6 +217,6 @@
     },
     "find": "Finde",
     "profiles": "Profile",
-    "specialMove2": "Ladeattacke 2",
+    "specialMove2": "Spezialangriff 2",
     "id": "Id"
 }
