@@ -23,7 +23,7 @@
     "bestDefense": {
         "title": "Melhores Movimentos de Defesa",
         "subtitle": "Por $t(common:properties.{{sort}})",
-        "rankingTitle": "Estatísticas Média Combate Vs. 5 Melhores Oponentes"
+        "rankingTitle": "Estatísticas Média Combate Vs. 6 Melhores Oponentes"
     },
     "attackMatchups": {
         "title": "Combinações de Ataque",
