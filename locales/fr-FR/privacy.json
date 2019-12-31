@@ -6,6 +6,7 @@
     "changeNote": "Cette politique de confidentialité est sujette à changement sans préavis et a été mise à jour le {{changed_date}}. Si vous avez des questions {{contactLink}}",
     "contactLink": "contactez nous.",
     "meta": {
-        "description": "Envoyez-nous un message ou suivez-nous sur les réseaux sociaux pour connaître les dernières mises à jour du Simulateur de Pokémon Go le plus précis au monde"
+        "description": "Pokebattler traite votre vie privée sérieusement et ne partage aucune donnée utilisateur de quelconque nature en dehors de ce site.",
+        "image": "https://static.pokebattler.com/images/og_more_privacy.jpg"
     }
 }
