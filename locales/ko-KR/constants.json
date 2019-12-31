@@ -1464,7 +1464,7 @@
                 "description": "모든 포켓몬이 최고의 스페셜 어택 조합을 사용합니다. 3개까지 기술조합이 고려됩니다"
             },
             "SINGLE_MOVE_3": {
-                "label": "단일 스페셜 어택 - 베스트 3",
+                "label": "단일 스페셜 어택 - 베스트 3 ",
                 "description": "모든 포켓몬이 해방 없이 최고의 스페셜 어택을 사용합니다. 3개까지 기술조합이 고려됩니다"
             },
             "DUAL_MOVE_1": {
@@ -1537,31 +1537,31 @@
     "sorts": {
         "label": "정렬 순서",
         "OVERALL": {
-            "label": "$t(common:properties.overall)\n",
+            "label": "$t(common:properties.overall)",
             "description": "가중치를 둔 능력 점수"
         },
         "POWER": {
-            "label": "$t(common:properties.power)\n",
+            "label": "$t(common:properties.power)",
             "description": "시간 제한 안에 딜한 상대 체력의 백분율"
         },
         "WIN": {
-            "label": "$t(common:properties.win)\n",
+            "label": "$t(common:properties.win)",
             "description": "승리확률"
         },
         "TIME": {
-            "label": "$t(common:properties.time)\n",
+            "label": "$t(common:properties.time)",
             "description": "무한한 숫자의 포켓몬을 가정시 승리에 필요한 시간"
         },
         "POTIONS": {
-            "label": "$t(common:properties.potions)\n",
+            "label": "$t(common:properties.potions)",
             "description": "각 상처약당 1점, 각 기력의 조각당 5점"
         },
         "TDO": {
-            "label": "$t(common:properties.tdo)\n",
+            "label": "$t(common:properties.tdo)",
             "description": "포켓몬당 딜한 데미지"
         },
         "ESTIMATOR": {
-            "label": "$t(common:properties.estimator)\n",
+            "label": "$t(common:properties.estimator)",
             "description": "승리에 필요한 대략적인 플레이어 수"
         }
     },
