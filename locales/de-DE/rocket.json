@@ -16,10 +16,23 @@
             "tableTitle": "Schwerstes Angriffsmuster"
         },
         "analysis": {
-            "title": "Über diese Analyse"
+            "title": "Über diese Analyse",
+            "attackers": {
+                "byLevel": "Level {{attackerLevel}} Angreifern",
+                "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
+            }
         },
         "patreon": {
-            "thanks": "Danke für deine Unterstützung!"
-        }
+            "thanks": "Danke für deine Unterstützung!",
+            "link": "Sieh dir alle Vorteile an, die du fürs anmelden erhälst"
+        },
+        "title": "{{defender}} Konter"
+    },
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "custom": {
+        "levelsLabel": "Angreifer-Level",
+        "attackersLabel": "Angreifer"
     }
 }
