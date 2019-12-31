@@ -4,5 +4,8 @@
     "pokebox": "Pokebattler ne se connecte en aucun cas aux serveurs Niantic. La pokebox et les options de personnalisation utilisent la fonctionnalité de connexion unique de Google et Facebook et sont utilisées pour offrir une expérience personnalisée sur tous les appareils. Aucune information personnelle n'est récupérée ou stockée à l'exception d'un numéro d'identification et d'une adresse mail qui ne sont utilisés qu'à des fins de connexion et de dépannage de compte. Ces données ne sont en cas utilisées à des fins de marketing ou d'affiliation. L'utilisation de ces fonctionnalités est facultative et est uniquement destinée à votre bénéfice.",
     "browserSettings": "Vous pouvez désactiver l'utilisation des cookies et du stockage local à tout moment en modifiant les paramètres de votre navigateur.",
     "changeNote": "Cette politique de confidentialité est sujette à changement sans préavis et a été mise à jour le {{changed_date}}. Si vous avez des questions {{contactLink}}",
-    "contactLink": "contactez nous."
+    "contactLink": "contactez nous.",
+    "meta": {
+        "description": "Envoyez-nous un message ou suivez-nous sur les réseaux sociaux pour connaître les dernières mises à jour du Simulateur de Pokémon Go le plus précis au monde"
+    }
 }
