@@ -190,6 +190,11 @@
             "subtitle": "Team GO Rocket",
             "intro": "Do you know how hot Pokemon fire breath can get?"
         },
+        "CHARACTER_ICE_GRUNT_FEMALE": {
+            "title": "Ice Grunt ♀",
+            "subtitle": "Team GO Rocket",
+            "intro": "You're gonna be frozen in your tracks"
+        },
         "CHARACTER_WATER_GRUNT_MALE": {
             "title": "Water Grunt ♂",
             "subtitle": "Team GO Rocket",
