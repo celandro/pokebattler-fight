@@ -1,2 +1,72 @@
 {
+    "breakingNews": {
+        "title": "快訊",
+        "subtitle": "火箭隊入侵Pokemon Go",
+        "header": "$t(constants:pokemon.{{pokemonId}}) 火箭隊打手"
+    },
+    "title": "火箭隊打手",
+    "linkLabel": "火箭隊打手",
+    "intro": "火箭隊已經入侵Pokemon Go，Pokebattler可以幫助你擊敗他們！戰鬥將通過3v3的模式在你和火箭隊強化過的寶可夢間進行。戰鬥可能會極其艱苦請在挑戰前做好準備！",
+    "articles": {
+        "title": "最新的火箭隊消息！",
+        "subtitle": "來自頂級玩家和研究者的關於火箭隊的文章和視頻"
+    },
+    "tierList": {
+        "common": {
+            "boss": "暗影入侵",
+            "raidTier": "暗影難度"
+        },
+        "RAID_LEVEL_1": {
+            "title": "一星火箭隊",
+            "subtitle": "常見暗影對戰",
+            "intro": "一星火箭隊對戰比較簡單，任何人選擇正確的打手應該都能擊敗。對於40級的玩家而言對手是增強過的27級寶可夢。低等級的玩家會面對更簡單的寶可夢"
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "一星火箭隊(已下架)",
+            "subtitle": "常見暗影對戰"
+        },
+        "RAID_LEVEL_2": {
+            "title": "二星火箭隊",
+            "subtitle": "稀有暗影對戰",
+            "intro": "二星火箭隊對戰有一些難度，任何人選用正確的強化過的打手該都能擊敗。對於40級的玩家而言對手是增強過的30級寶可夢。低等級的玩家會面對更簡單的寶可夢"
+        },
+        "RAID_LEVEL_3": {
+            "title": "三星火箭隊",
+            "subtitle": "傳說暗影對戰",
+            "intro": "三星火箭隊對戰尚未推出"
+        },
+        "RAID_LEVEL_4": {
+            "title": "四星火箭隊",
+            "subtitle": "高難度傳說暗影對戰",
+            "intro": "四星火箭隊對戰尚未推出"
+        },
+        "RAID_LEVEL_5": {
+            "title": "五星火箭隊",
+            "subtitle": "幻獸暗影對戰",
+            "intro": "五星火箭隊對戰尚未推出"
+        },
+        "RAID_LEVEL_6": {
+            "title": "三星火箭隊",
+            "subtitle": "高難度幻獸暗影對戰",
+            "intro": "三星火箭隊對戰尚未推出"
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "？星火箭隊",
+            "subtitle": "未知暗影對戰"
+        },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "六星級傳說頭目",
+            "subtitle": "高難度幻獸暗影對戰",
+            "intro": "這些戰鬥暫時不在當前的火箭隊輪轉陣容中"
+        },
+        "CHARACTER_EXECUTIVE_CLIFF": {
+            "title": "幹部 克里夫"
+        },
+        "CHARACTER_EXECUTIVE_SIERRA": {
+            "title": "幹部 希爾拉"
+        },
+        "CHARACTER_EXECUTIVE_ARLO": {
+            "title": "幹部 亞洛"
+        }
+    }
 }

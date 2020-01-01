@@ -1,6 +1,6 @@
 {
     "index": {
-        "title": "Rankings",
+        "title": "Ranking de Ginásios",
         "welcome": {
             "title": "Bem-vindo ao Pokebattler Rankings 2.0!",
             "paragraph1": "Bem-vindo à nova seção dos rankings personalizados estado-da-arte do Pokebattler. Ao contrário de outros sites, você pode escolher exatamente quais combinações de configurações você quer em seus rankings customizados! Este site é extremamente customizável, permitindo que você escolha o nível do seu atacante, o nível do seu defensor, sua estratégia de ataque, sua estratégia de esquiva, suas opções de ordenação e agrupamento.",
@@ -25,10 +25,14 @@
             "attacker": "Atacante",
             "defender": "Defensor",
             "gotoRankings": "Vá ao Ranking"
+        },
+        "meta": {
+            "description": "Os Rankings de Pokemon Go na Pokebattler são os mais precisos do mundo, mostrando os melhores atacantes e defensores de ginásios com base em suas preferências.",
+            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
         }
     },
     "list": {
-        "title": "Rankings de Batalha Pokemon Go",
+        "title": "Ginásio {{typeSelection}}",
         "descriptions": {
             "title": "Sobre estes Rankings",
             "text": "Este ranking {{type}} é baseado em simulações de combate com atacantes nível {{levels.attacker}} batalhando defensores nível {{levels.defender}}. A simulação de ranking rodou com estratégia de ataque {{strategies.attack}} usando {{strategies.dodge}} baseada simulação tipo $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label). $t(common:simulation, {'count': {{numSims}}}) executadas com {{details}}.",
@@ -45,17 +49,27 @@
         },
         "typeSelection": {
             "attacker": "Rankings de Atacantes",
-            "defender": "Rankings de Defensores"
+            "defender": "Rankings de Defensores",
+            "attackers": "$t(rankings:list.typeSelection.attacker)",
+            "defenders": "$t(rankings:list.typeSelection.defender)"
         },
         "settings": {
             "level": "Níveis de Pokemons"
         },
-        "loading": "Gerando resultados de ranking {{type}}. Muitas milhões de simulações foram necessárias para gerar esta análise mas os resultados sairão logo"
+        "loading": "Gerando resultados de ranking {{type}}. Muitas milhões de simulações foram necessárias para gerar esta análise mas os resultados sairão logo",
+        "meta": {
+            "description": "O Pokemon Go do Pokebattler {{typeSelection}} é customizável com base no nível de atacante, nível de defensor, capacidade de esquivar e muito mais!",
+            "image": "https://static.pokebattler.com/images/og_pvp_rankings.jpg"
+        },
+        "featured": {
+            "title": "Rank {{rank}}"
+        }
     },
     "featured": {
         "title": {
             "attacker": "Estatísticas Médias de Combate Vs. 30 Melhores Defensores",
-            "defender": "Estatísticas Médias de Combate Vs. 6 Piores Confrontos"
+            "defender": "Estatísticas Médias de Combate Vs. 6 Piores Confrontos",
+            "raid": "Médias de combate"
         },
         "deepLink": "Mais detalhes para {{pokemon}}"
     }
