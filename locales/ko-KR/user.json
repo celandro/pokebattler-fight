@@ -76,7 +76,7 @@
         "title": "포케배틀러 구독",
         "meta": {
             "description": "포케배틀러는 여러분 같은 관대한 구독자분들에 의해서 무료 운영이 가능합니다! 구독하시면 광고가 없어지고 레이드보스를 이기고 pvp에서 친구들을 이길 수 있게 해주는 강력한 요소들이 사용가능해집니다!",
-            "image": "https://static.pokebattler.com/images/og_user_subscription.png\n"
+            "image": "https://static.pokebattler.com/images/og_user_subscription.png"
         },
         "paymentRequest": "원클릭 구독",
         "paymentRequestDescription": "원클릭 구독은 대부분의 모바일 기기에서 지원됩니다. 여러분은 대신 하단에 여러분의 정보를 입력할 수도 있습니다.",
@@ -219,23 +219,23 @@
         },
         "currentPeriodStart": {
             "label": "현재 구독기간 시작",
-            "value": "{{currentPeriodStart,shortdate}}\n"
+            "value": "{{currentPeriodStart,shortdate}}"
         },
         "currentPeriodEnd": {
             "label": "현재 구독기간 끝",
-            "value": "{{currentPeriodEnd,shortdate}}\n"
+            "value": "{{currentPeriodEnd,shortdate}}"
         },
         "trialStart": {
             "label": "체험기간 시작",
-            "value": "{{trialStart,shortdate}}\n"
+            "value": "{{trialStart,shortdate}}"
         },
         "trialEnd": {
             "label": "체험기간 끝",
-            "value": "{{trialEnd,shortdate}}\n"
+            "value": "{{trialEnd,shortdate}}"
         },
         "lastUpdate": {
             "label": "마지막 업데이트",
-            "value": "{{lastUpdate,shortdate}}\n"
+            "value": "{{lastUpdate,shortdate}}"
         },
         "planId": "플랜 Id",
         "cancel": "구독권 취소",
