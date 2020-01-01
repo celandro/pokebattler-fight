@@ -1,2 +1,25 @@
 {
+    "tierList": {
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Alt-Tier 6"
+        }
+    },
+    "results": {
+        "counters": {
+            "title": "Konter",
+            "subtitle": "Die besten Angreifer nach",
+            "chooseMovesetLabel": "Attacke auswählen"
+        },
+        "hardestMovesets": {
+            "subtitle": "Für {{pokemon}} nach {{sort}}",
+            "title": "Schwierigste Raids",
+            "tableTitle": "Schwerstes Angriffsmuster"
+        },
+        "analysis": {
+            "title": "Über diese Analyse"
+        },
+        "patreon": {
+            "thanks": "Danke für deine Unterstützung!"
+        }
+    }
 }

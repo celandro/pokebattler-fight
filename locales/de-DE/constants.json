@@ -615,7 +615,16 @@
         "MELMETAL": "Melmetal",
         "BURMY_PLANT_FORM": "Burmy - Pflanze",
         "BURMY_SANDY_FORM": "Burmy - Sand",
-        "BURMY_TRASH_FORM": "Burmy - Lumpen"
+        "BURMY_TRASH_FORM": "Burmy - Lumpen",
+        "TORNADUS_INCARNATE_FORM": "Boreos Inkarnationsform",
+        "TORNADUS_THERIAN_FORM": "Boreos Tiergeistform",
+        "THUNDURUS_INCARNATE_FORM": "Voltolos Inkarnationsform",
+        "THUNDURUS_THERIAN_FORM": "Voltolos Tiergeistform",
+        "LANDORUS_INCARNATE_FORM": "Demeteros Inkarnationsform",
+        "LANDORUS_THERIAN_FORM": "Demeteros Tiergeistform",
+        "KYUREM_NORMAL_FORM": "Kyurem Normalform",
+        "KYUREM_BLACK_FORM": "Schwarzes Kyurem",
+        "KYUREM_WHITE_FORM": "Weißes Kyurem"
     },
     "moves": {
         "undefined": " ",

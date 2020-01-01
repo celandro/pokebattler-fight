@@ -12,8 +12,9 @@
         "patreonDescription": "Patreon-Unterstützer erhalten Belohnungen, darunter mehr Plätze für Pokemon in ihrer Pokebox, qualitativ höherwertigere personalisierte Simulationen und eine Google-Tabelle zur Raid-Beratung!",
         "success": {
             "title": "Erfolgreich angemeldet",
-            "fromApi": " $t(login.success.title)! Bitte warte einen Moment um fortzufahren."
-        }
+            "fromApi": "$t(login.success.title)! Bitte warte einen Moment, um fortzufahren."
+        },
+        "autoCreate": "Die Authentifizierung erstellt automatisch euren Pokebattler Account und loggt euch ein."
     },
     "details": {
         "welcome": "Willkommen",
@@ -59,5 +60,14 @@
     },
     "meta": {
         "description": "Pokebattler speichert deine Pokemon Go Pokemon in seinem Pokedex für schnelle Raid Konter und mehr!"
+    },
+    "settings": {
+        "showListImages": "Zeige Bilder"
+    },
+    "subscribed": {
+        "title": "Danke für deine Unterstützung!",
+        "meta": {
+            "description": "Pokebattler ist kostenlos für alle dank der großzügigen Spenden von Leuten wie dir. Dein Abo entfernt Werbung und schaltet verschiedene nützliche Features frei, die dir helfen Raodbosse in Raids oder auch deine Freunde im PvP zu besiegen!"
+        }
     }
 }
