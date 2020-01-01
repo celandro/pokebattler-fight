@@ -1,2 +1,23 @@
 {
+    "breakingNews": {
+        "title": "último minuto"
+    },
+    "tierList": {
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Nivel 6 - herdado"
+        }
+    },
+    "results": {
+        "patreon": {
+            "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores. Os usuários recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais."
+        },
+        "title": "Atacantes para {{defender}}"
+    },
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "custom": {
+        "levelsLabel": "Níveis dos Atacantes",
+        "attackersLabel": "Atacantes"
+    }
 }

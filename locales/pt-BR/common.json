@@ -17,7 +17,8 @@
     "stats": {
         "attack": "Ataque",
         "defense": "Defesa",
-        "stamina": "Resistência"
+        "stamina": "Resistência",
+        "hp": "Pontos de Vida"
     },
     "statsAbbr": {
         "attack": "Atk",
@@ -207,5 +208,9 @@
     "explicitAssistants": {
         "title": "Treinadores Extra",
         "description": "O número de treinadores adicionais para ajudá-lo a derrotar o chefe. Você pode escolher o grupo de batalha para cada um desses atacantes. O nível de amizade deve ser o nível máximo que eles tem com os outros jogadores na reide, não o seu nível de amizade com eles."
-    }
+    },
+    "clear": "Limpar",
+    "specialMove2": "Ataque Carregado 2",
+    "shieldStrategy": "Uso de Escudos",
+    "find": "Encontrar"
 }

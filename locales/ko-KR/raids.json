@@ -2,7 +2,7 @@
     "title": "레이드 카운터",
     "meta": {
         "description": "날씨, 친구레벨을 고려해서 포켓몬 고 레이드 카운터를 찾으세요. 여러분의 포케박스에서 찾을 수도 있습니다. 세계 1위 레이드 가이드에서 30개의 최고 카운터를 얻으세요.",
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg\n"
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "linkLabel": "레이드 카운터",
     "intro": "포켓몬 고 레이드가 여기있습니다! 세계에서 가장 정확한 포켓몬 고 레이드 가이드로 어떤 포켓몬이 레이드 보스를 제일 잘 카운터할지 찾아보세요. 밑에 레이드를 고르셔서 각 기술조합에 맞는 최고의 카운터를 확인하세요!",
@@ -102,7 +102,7 @@
         "title": "{{defender}} 카운터",
         "meta": {
             "description": "{{defender}} 상대로 최고의 포켓몬고 35레벨 레이드 카운터는 {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}} 입니다. 여러분의 맞춤 결과를 확인하세요!",
-            "image": "{{infographicShareURL}}\n"
+            "image": "{{infographicShareURL}}"
         },
         "calculating": "레이드 결과 계산 중",
         "counters": {
@@ -140,7 +140,7 @@
         "disabled": "{{level}}레벨 공격자의 결과를 보여줍니다. 해당 레벨의 최고 30개의 카운터가 밑에 표시됩니다.",
         "friend": "사용자 {{userId}}의 결과를 보여줍니다. 최고 30 카운터가 밑에 표시됩니다.",
         "switchLevel": "$t(common:attackerTypes.level)로 전환",
-        "switchPokebox": " $t(common:attackerTypes.pokebox)로 전환"
+        "switchPokebox": "$t(common:attackerTypes.pokebox)로 전환"
     },
     "emptyResults": {
         "LEVEL": "이 계산에서는 아무런 결과가 반환되지 않았습니다. 서버에 이상이 있을 수 있습니다.",
