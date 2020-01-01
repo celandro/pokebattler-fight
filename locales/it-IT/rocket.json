@@ -1,2 +1,23 @@
 {
+    "custom": {
+        "levelsLabel": "Livello Attaccante",
+        "attackersLabel": "Attaccanti"
+    },
+    "results": {
+        "counters": {
+            "title": "counter",
+            "subtitle": "Migliori Attaccanti per",
+            "chooseMovesetLabel": "Scegli Moveset"
+        },
+        "hardestMovesets": {
+            "subtitle": "Per {{pokemon}} in base a {{sort}}"
+        },
+        "analysis": {
+            "title": "Riguardo questa Analisi"
+        },
+        "patreon": {
+            "link": "Guarda tutti i benefici che avrai registrandoti",
+            "thanks": "Grazie per il tuo supporto!"
+        }
+    }
 }

@@ -144,11 +144,11 @@
     "breakingNews": {
         "title": "Último minuto!",
         "subtitle": "Incursiones de moda en Pokémon GO.",
-        "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}}) "
+        "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}})"
     },
     "silph": {
         "text": "Lista de incursiones actualizada proporcionada por",
-        "link": "The Silph Road\n"
+        "link": "The Silph Road"
     },
     "meta": {
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"

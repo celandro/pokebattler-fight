@@ -1,2 +1,38 @@
 {
+    "tierList": {
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Alt-Tier 6"
+        }
+    },
+    "results": {
+        "counters": {
+            "title": "Konter",
+            "subtitle": "Die besten Angreifer nach",
+            "chooseMovesetLabel": "Attacke auswählen"
+        },
+        "hardestMovesets": {
+            "subtitle": "Für {{pokemon}} nach {{sort}}",
+            "title": "Schwierigste Raids",
+            "tableTitle": "Schwerstes Angriffsmuster"
+        },
+        "analysis": {
+            "title": "Über diese Analyse",
+            "attackers": {
+                "byLevel": "Level {{attackerLevel}} Angreifern",
+                "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
+            }
+        },
+        "patreon": {
+            "thanks": "Danke für deine Unterstützung!",
+            "link": "Sieh dir alle Vorteile an, die du fürs anmelden erhälst"
+        },
+        "title": "{{defender}} Konter"
+    },
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "custom": {
+        "levelsLabel": "Angreifer-Level",
+        "attackersLabel": "Angreifer"
+    }
 }

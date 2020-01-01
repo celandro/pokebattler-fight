@@ -1,6 +1,6 @@
 {
     "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg\n",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
         "description": "포켓몬고 로켓단 카운터를 찾으세요. 세계 1위 맞춤 로켓단 카운터에서 상위 24개 카운터를 얻으세요."
     },
     "breakingNews": {
@@ -88,7 +88,7 @@
     "results": {
         "title": "{{defender}} 카운터",
         "meta": {
-            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png\n",
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png",
             "description": "최고의 포켓몬고 {{defender}} 카운터는  {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}} 입니다. 맞춤 결과를 확인하세요!"
         },
         "counters": {
