@@ -146,7 +146,7 @@
             "almost": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Se você der muita sorte, você talvez possa derrotá-lo com um treinador a menos.",
             "normal": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Certifique-se que seu grupo está pronto antes da batalha.",
             "difficult": "Derrotar {{pokemon}} requer {{numPeople}} treinadores com Pokemons dessa força. Vai ser uma batalha difícil, confira que todos estão levando seus melhores Pokemon.",
-            "trivial": "Ganhar de {{pokemon}} deve precisar de {{numPeople}} treinadores com Pokemons desta força. Esta luta vai terminar antes mesmo de começar. É tão fácil que você pode usar as sugestões do jogo mesmo e ganhar. "
+            "trivial": "Ganhar de {{pokemon}} deve precisar de {{numPeople}} treinadores com Pokemons desta força. Esta luta vai terminar antes mesmo de começar. É tão fácil que você pode usar as sugestões do jogo mesmo e ganhar."
         }
     },
     "helpLink": "Assista o Tutorial de Reides em vídeo",
