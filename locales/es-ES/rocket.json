@@ -6,5 +6,8 @@
         "RAID_LEVEL_6_LEGACY": {
             "title": "Nivel 6 - descontinuada"
         }
+    },
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     }
 }
