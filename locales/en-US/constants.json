@@ -2062,6 +2062,10 @@
         "COMBAT_LEAGUE_SILPH_FUSION_CUP": {
             "label": "Silph Arena Fusion Cup",
             "description": "The January Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_ROSE_CUP": {
+            "label": "Silph Arena Rose Cup",
+            "description": "The February Silph Arena Season 2 Cup tournament."
         }
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
