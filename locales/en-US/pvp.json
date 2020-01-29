@@ -9,7 +9,6 @@
     "join":"Calling all Pokemon GO Battle League PvP influencers and aspiring influencers: Get your voice heard by featuring your videos, articles, and infographics on Pokebattler.com.",
     "joinCTA": "Contact us for details"
   },
-  "matrix": {
     "title": "PvP Matrix Simulator",
     "description": "See the results of your team of Pokemon battling an opposing team of Pokemon",
     "loggedOut": "This feature is for logged in users only for performance reasons. It allows you to investigate every possible combination of results of two sets of pokemon. Create a free account in seconds to try this exciting new feature!",
@@ -219,15 +218,15 @@
     "leagues": {
       "COMBAT_LEAGUE_DEFAULT_GREAT": {
         "title": "Great League",
-        "intro": "Great League is currently the most popular PvP format. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Azumarill and Altaria"
+        "intro": "Pokemon GO Battle League is currently featuring Great League. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Registeel and Azumarill"
       },
       "COMBAT_LEAGUE_DEFAULT_ULTRA": {
         "title": "Ultra League",
-        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+        "intro": "Pokemon GO Battle League will add Ultra League next. Ultra league is a Pokemon Go PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
       },
       "COMBAT_LEAGUE_DEFAULT_MASTER": {
         "title": "Master League",
-        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
+        "intro": "Pokemon GO Battle League will finally add Master League. Master League is a Pokemon Go PvP format without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
       },
       "COMBAT_LEAGUE_SILPH_CUP": {
         "title": "{{title}}",
