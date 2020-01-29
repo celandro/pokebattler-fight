@@ -9,6 +9,7 @@
     "join":"Calling all Pokemon GO Battle League PvP influencers and aspiring influencers: Get your voice heard by featuring your videos, articles, and infographics on Pokebattler.com.",
     "joinCTA": "Contact us for details"
   },
+  "matrix": {
     "title": "PvP Matrix Simulator",
     "description": "See the results of your team of Pokemon battling an opposing team of Pokemon",
     "loggedOut": "This feature is for logged in users only for performance reasons. It allows you to investigate every possible combination of results of two sets of pokemon. Create a free account in seconds to try this exciting new feature!",
