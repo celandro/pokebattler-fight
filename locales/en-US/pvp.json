@@ -92,7 +92,16 @@
     "welcome": {
       "title": "Pokemon GO Battle League PvP is upon us!",
       "paragraph1": "Pokebattler supports both GO Battle League and Silph Arena Cups. Our Random Shield settings are a great way to quickly analyze which Pokemon have the advantage over others. But dive in to see all the different shield scenarios. ",
-      "paragraph2": "The Top 30 rankings give you an idea of what wins against the general field. The Counters rankings lets you know which Pokemon beat the Top 30 mons.  Finally, current meta and predicted meta matrix links allow you to see how the top 24 most popular Pokemon fair against a short list of meta Pokemon.  Pokemon GO Battle League PVP is very complex but these rankings should get you started!"
+      "paragraph2": "The Top 30 rankings give you an idea of what wins against the general field. The Counters rankings lets you know which Pokemon beat the Top 30 mons.  Finally, current meta and predicted meta matrix links allow you to see how the top 24 most popular Pokemon fair against a short list of meta Pokemon.  Pokemon GO Battle League PVP is very complex but these rankings should get you started!",
+      "closing": "We hope you are as excited as we are about what PvP brings to Pokemon Go. We hope these lists help guide you to building a strong team. Pokebattler will continue working on providing more refined lists and additional PvP features as time goes on.",
+      "link": "Older Silph Cup Rankings"
+    },
+    "old": {
+      "title": "Old Silph Cups!",
+      "paragraph1": "Silph Leagues are in person Pokemon Go PvP tournaments with rules that rotate each season. They have different rules each month and the Pokemon that are the best changes quite a bit month to month!",
+      "paragraph2": "Below are the older Silph Leagues that Pokebattler still supports",
+      "closing": "Silph Leagues are a lot of fun! Hope these old Silph Cup rankings help you see what types of Pokemon can be the best given different rules",
+      "link": "Current Pokemon GO Pvp Rankings"
     },
     "buttons": {
       "attacker": "Well Rounded",
