@@ -2883,6 +2883,34 @@
             "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 10% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
         }
     },
+    "autoBattlePartyTypes": {
+        "label": "Auto Raid Party (Coming Soon)",
+        "BATTLE_PARTY_POKEBOX": {
+            "label": "Pokebox",
+            "description": "Use the best Pokemon from your Pokebox"
+        },
+        "BATTLE_PARTY_LEVEL_20": {
+            "label": "Level 20",
+            "description": "Use the best level 20 Pokemon"
+        },
+        "BATTLE_PARTY_LEVEL_25": {
+            "label": "Level 25",
+            "description": "Use the best level 25 Pokemon"
+        },
+        "BATTLE_PARTY_LEVEL_30": {
+            "label": "Level 30",
+            "description": "Use the best level 30 Pokemon"
+        },
+        "BATTLE_PARTY_LEVEL_35": {
+            "label": "Level 35",
+            "description": "Use the best level 35 Pokemon"
+        },
+        "BATTLE_PARTY_LEVEL_40": {
+            "label": "Level 40",
+            "description": "Use the best level 40 Pokemon"
+        }
+    },
+
     "battlePartyTypes": {
         "label": "League",
         "COMBAT_LEAGUE_RAIDS_GYMS": {
