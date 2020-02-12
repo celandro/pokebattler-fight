@@ -516,7 +516,20 @@
         "SHELLOS": "無殼海兔",
         "GASTRODON": "海兔獸",
         "AMBIPOM": "雙尾怪手",
-        "DRIFLOON": "飄飄球"
+        "DRIFLOON": "飄飄球",
+        "NIDORAN": "尼多朗",
+        "SPINDA_08_FORM": "晃晃斑 - 08",
+        "SPINDA_09_FORM": "晃晃斑 - 09",
+        "SPINDA_10_FORM": "晃晃斑 - 10",
+        "SPINDA_11_FORM": "晃晃斑 - 11",
+        "GENESECT_NORMAL_FORM": "蓋諾賽克特",
+        "DRIFBLIM": "隨風球",
+        "BUNEARY": "捲捲耳",
+        "LOPUNNY": "長耳兔",
+        "MISMAGIUS": "夢妖魔",
+        "HONCHKROW": "烏鴉頭頭",
+        "GLAMEOW": "魅力喵",
+        "PURUGLY": "東施喵"
     },
     "moves": {
         "HYPER_BEAM": "破壞光線",
