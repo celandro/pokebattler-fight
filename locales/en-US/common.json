@@ -103,6 +103,7 @@
     "instinct": "Instinct",
     "ivs": "IVs",
     "trainerName": "Trainer Name",
+    "discordName": "Discord Username",
     "attackerTypes": {
         "pokebox": "My Pokebox",
         "level": "By Level",
