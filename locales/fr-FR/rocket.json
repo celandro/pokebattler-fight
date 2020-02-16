@@ -1,2 +1,27 @@
 {
+    "custom": {
+        "levelsLabel": "Niveaux des Attaquants",
+        "attackersLabel": "Attaquants"
+    },
+    "results": {
+        "counters": {
+            "title": "Les contres",
+            "subtitle": "Meilleurs Attaquants par",
+            "chooseMovesetLabel": "Choisissez la combinaison d'attaques"
+        },
+        "hardestMovesets": {
+            "subtitle": "Pour {{pokemon}} par {{sort}}"
+        },
+        "analysis": {
+            "title": "À propos de cette analyse",
+            "attackers": {
+                "byLevel": "attaquants de niveau {{attackerLevel}}",
+                "pokebox": "le Pokémon personnalisé de la Pokébox de l'utilisateur #{{userId}}"
+            }
+        },
+        "patreon": {
+            "link": "Consulter tous les avantages réservés aux abonnés",
+            "thanks": "Merci pour votre soutien !"
+        }
+    }
 }

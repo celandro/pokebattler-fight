@@ -2,21 +2,21 @@
     "title": "체육관 배틀 시뮬레이터",
     "meta": {
         "description": "포케배틀러 체육관 시뮬레이터는 체육관배틀에 대해 세계에서 가장 정확한 결과를 보여주고, 날씨 보너스나 매초 분석을 포함합니다.",
-        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg\n"
+        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
     },
     "raidBattlePartyTitle": "레이드 배틀 파티 시뮬레이터",
     "raid": {
         "title": "레이드 시뮬레이터",
         "meta": {
             "description": "포케배틀러 레이드 시뮬레이터는 세계에서 가장 정확합니다. 친구레벨과 날씨 보너스를 고려한 20개의 배틀 파티에 대한 결과를 얻으세요.",
-            "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg\n"
+            "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
         }
     },
     "pvp": {
         "title": "트레이너 배틀 시뮬레이터",
         "meta": {
             "description": "포케배틀러 PvP 시뮬레이터는 여러분이 친구와 배틀 했을때 결과가 어떻게 나올지 보여줍니다.",
-            "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg\n"
+            "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
         }
     },
     "recommended": "추천",
@@ -48,7 +48,7 @@
             "title": "{{attacker.name}} vs. {{defender.name}} 전투 시뮬레이션",
             "meta": {
                 "description": "{{attacker.quickMove}}와 {{attacker.specialMove}}를 사용하는 {{attacker.name}}과 {{defender.quickMove}}와 {{defender.specialMove}}를 사용하는 {{defender.name}}의 체육관 배틀 결과",
-                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png\n"
+                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
             }
         },
         "explore": {
@@ -99,7 +99,7 @@
             "title": "{{attacker.name}} vs. {{defender.name}} 레이드 시뮬레이션",
             "meta": {
                 "description": "{{attacker.name}} vs. {{defender.quickMove}} 와 {{defender.specialMove}}를 쓰는 {{defender.name}} 의 레이드 시뮬레이션 결과",
-                "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg\n"
+                "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
             },
             "description": "사용자 {{attacker.userId}}의 배틀파티 {{attacker.battlePartyId}} 는 CP {{defender.cp}}의 {{defender.tier}} {{defender.name}} 상대로 시뮬레이션 결과 {{result}} 했습니다. 전투 시뮬레이션은 {{strategies.attack}} 공격 전략과 {{strategies.dodge}} 회피전략을 사용하였고 {{weatherCondition}} 날씨에서 {{strategies.defense}} 시뮬레이션 타입으로 행해졌습니다.  $t(common:simulation, {'count': {{numSims}}}) 가 이 전투 결과를 생성하기 위해 행해졌습니다."
         },
@@ -107,7 +107,7 @@
             "title": "{{attacker.name}} vs. {{defender.name}} 트레이너배틀 시뮬레이션",
             "meta": {
                 "description": "{{attacker.name}} vs. {{defender.name}} 의 트레이너 배틀 시뮬레이터 결과",
-                "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg\n"
+                "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
             },
             "description": "사용자 {{attacker.userId}}의 배틀파티 {{attacker.battlePartyId}} 가 사용자 {{defender.userId}} 의 배틀파티 {{defender.battlePartyId}} 를 상대로 이 전투 시뮬레이션에서 {{result}}했습니다. 이 전투 시뮬레이션은 {{strategies.attack}} 공격 전략과 {{strategies.dodge}} 대 {{strategies.defense}} 공격전략과 {{strategies.defenseDodge}}로 {{weatherCondition}} 날씨에서 행해졌습니다. $t(common:simulation, {'count': {{numSims}}}) 가 이 전투 결과를 생성하기 위해 행해졌습니다."
         },
@@ -123,9 +123,9 @@
         },
         "assistants": {
             "title": "추가 트레이너 기능",
-            "both": "하단의 결과는 {{numExplicit}} 명의 추가 트레이너와 {{numRandom}} 개의 30-40 랜덤 레벨 추가 배틀파티를 포함합니다. 이것은 다수 트레이너와 행해지는 실제의 레이드 전투를 시뮬레이션하기 위해서 의도되었습니다. 위의 승률%는 여러분을 도와주는 사람이 있을 경우 여러분의 배틀 파티가 기절하기 전에 승리할 확률을 보여줍니다. 때때로 재진입을 해야 승리할 수 있습니다. 파워, 승리하는데 걸리는 시간, 물약관 종합 레이팅은 모두 여러분의 6마리 배틀파티에만 의존하며 다른 배틀파티를 포함하지 않습니다. 이 페이지는 추후에 더 많은 정보를 보여줄 것입니다. 현재는 전투 로그만 완성되었습니다. 또한 얼마나 많은 트레이너와 배틀파티를 추가할지 고를 수 있게 될 것입니다.",
+            "both": "하단의 결과는 {{numExplicit}} 명의 추가 트레이너와 {{numRandom}} 개의 30-40 랜덤 레벨 추가 배틀파티를 포함합니다. 이것은 다수 트레이너와 행해지는 실제의 레이드 전투를 시뮬레이션하기 위해서 의도되었습니다. 위의 승률%는 여러분을 도와주는 사람이 있을 경우 여러분의 배틀 파티가 기절하기 전에 승리할 확률을 보여줍니다. 때때로 재진입을 해야 승리할 수 있습니다. 파워, 승리하는데 걸리는 시간, 물약관 종합 레이팅은 모두 여러분의 6마리 배틀파티에만 의존하며 다른 배틀파티를 포함하지 않습니다. 이 페이지는 추후에 더 많은 정보를 보여줄 것입니다. 현재는 전투 로그만 완성되었습니다. 또한 얼마나 많은 트레이너와 배틀파티를 추가할지 고를 수 있게 될 것입니다. ",
             "explicit": "하단의 결과는 {{numExplicit}} 명의 추가 트레이너를 포함합니다. 이것은 다수 트레이너와 행해지는 실제의 레이드 전투를 시뮬레이션하기 위해서 의도되었습니다. 위의 승률%는 여러분을 도와주는 사람이 있을 경우 여러분의 배틀 파티가 기절하기 전에 승리할 확률을 보여줍니다. 때때로 재진입을 해야 승리할 수 있습니다. 파워, 승리하는데 걸리는 시간, 물약관 종합 레이팅은 모두 여러분의 6마리 배틀파티에만 의존합니다. 이 페이지는 추후에 더 많은 정보를 보여줄 것입니다. 현재는 전투 로그만 완성되었습니다. 또한 얼마나 많은 트레이너와 배틀파티가 도와주고 있는지 보여주도록 UI가 개선될 것입니다.",
-            "random": "하단의 결과는 {{numRandom}} 개의 추가 배틀파티를 포함합니다. 이것은 다수 트레이너와 행해지는 실제의 레이드 전투를 시뮬레이션하기 위해서 의도되었습니다. 위의 승률%는 여러분을 도와주는 사람이 있을 경우 여러분의 배틀 파티가 기절하기 전에 승리할 확률을 보여줍니다. 때때로 재진입을 해야 승리할 수 있습니다. 파워, 승리하는데 걸리는 시간, 물약관 종합 레이팅은 모두 여러분의 6마리 배틀파티에만 의존하고 다른 배틀파티를 포함하지 않습니다. 이 페이지는 추후에 더 많은 정보를 보여줄 것입니다. 현재는 전투 로그만 완성되었습니다. \n",
+            "random": "하단의 결과는 {{numRandom}} 개의 추가 배틀파티를 포함합니다. 이것은 다수 트레이너와 행해지는 실제의 레이드 전투를 시뮬레이션하기 위해서 의도되었습니다. 위의 승률%는 여러분을 도와주는 사람이 있을 경우 여러분의 배틀 파티가 기절하기 전에 승리할 확률을 보여줍니다. 때때로 재진입을 해야 승리할 수 있습니다. 파워, 승리하는데 걸리는 시간, 물약관 종합 레이팅은 모두 여러분의 6마리 배틀파티에만 의존하고 다른 배틀파티를 포함하지 않습니다. 이 페이지는 추후에 더 많은 정보를 보여줄 것입니다. 현재는 전투 로그만 완성되었습니다. ",
             "link": "레이드 시뮬레이션 페이지",
             "name": "조수"
         },

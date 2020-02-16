@@ -3,7 +3,7 @@
     "meta": {
         "description": "Pokebattler stores your Pokemon Go Pokemon in its Pokedex for fast raid counters and more!"
     },
-    "description": "Log in to access your Pokebox and personalized simulations",
+    "description": "Create a free account to access your Pokebox and get free personalized counters!",
     "explanation": "Pokebattler does not and can not log in to your Pokemon Go account. We do not connect to Niantic servers in any way. Pokebattler only uses this login to know who you are across all your devices. You can login on your phone or tablet or computer and see all the Pokemon that you have entered into our site. We do not share your information or use it for marketing purposes or any other way.",
     "privacy": "For more information, see our privacy policy",
     "loading": "Loading User Data",
@@ -12,6 +12,7 @@
         "autoCreate": "Authenticating will automatically create your Pokebattler account and log you in",
         "google": "Sign in with Google",
         "facebook": "Continue with Facebook",
+        "discord": "Log in with Discord",
         "patreon": "Log in with Patreon",
         "patreonDescription": "Pokebattler now supports direct Stripe subscriptions! We highly encourage current Patreon subscribers to migrate to the new subscription plans. Users from countries that Stripe does not support such as Brazil and Mexico as well as users who want to pay through Paypal should continue to use Patreon.",
         "success": {
@@ -32,7 +33,11 @@
         "meta": {
             "description": "Store your Pokemon Go User Info and Pokemon."
         },
-        "profileButton": "Your Profile"
+        "profileButton": "Your Profile",
+        "discordLink": {
+            "instructions": "To link your discord account, log out and log back in using the discord login option and the email address tied to this account.",
+            "error": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids."
+        }
     },
     "logout": {
         "title": "Logged out",

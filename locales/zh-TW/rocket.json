@@ -68,5 +68,32 @@
         "CHARACTER_EXECUTIVE_ARLO": {
             "title": "幹部 亞洛"
         }
+    },
+    "custom": {
+        "levelsLabel": "攻擊方等級",
+        "attackersLabel": "攻擊方"
+    },
+    "results": {
+        "title": "{{defender}} 打手",
+        "counters": {
+            "title": "剋星",
+            "subtitle": "排名順序依照",
+            "chooseMovesetLabel": "頭目的配招"
+        },
+        "hardestMovesets": {
+            "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
+        },
+        "analysis": {
+            "title": "關於此分析",
+            "attackers": {
+                "byLevel": "等級{{attackerLevel}}攻擊者",
+                "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
+            }
+        },
+        "patreon": {
+            "description": "訂閱者的支持讓我們得以提供更準確的針對未知技能組合的模擬結果。訂閱者可以獲得額外的寶可夢盒空間，更加準確的模擬結果等多項特權。",
+            "link": "查看注冊可以獲得的所有獎勵",
+            "thanks": "感謝您的支持！"
+        }
     }
 }
