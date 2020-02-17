@@ -529,7 +529,7 @@
         "MISMAGIUS": "夢妖魔",
         "HONCHKROW": "烏鴉頭頭",
         "GLAMEOW": "魅力喵",
-        "PURUGLY": "東施喵"
+        "PURUGLY": "東施喵",
         "RATTATA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RATTATA)",
         "RATTATA_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.RATTATA)",
         "RATICATE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RATICATE)",
