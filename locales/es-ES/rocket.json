@@ -9,5 +9,26 @@
     },
     "meta": {
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "custom": {
+        "levelsLabel": "Niveles de atacantes",
+        "attackersLabel": "Atacantes"
+    },
+    "results": {
+        "counters": {
+            "title": "Rivales óptimos",
+            "subtitle": "Mejores atacantes por",
+            "chooseMovesetLabel": "Elegir movimientos"
+        },
+        "hardestMovesets": {
+            "subtitle": "Para {{Pokémon}} por {{ordenar}}"
+        },
+        "analysis": {
+            "title": "Acerca de este análisis",
+            "attackers": {
+                "byLevel": "Atacantes nivel {{attackerLevel}}",
+                "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
+            }
+        }
     }
 }

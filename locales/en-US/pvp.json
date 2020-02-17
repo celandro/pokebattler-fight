@@ -1,12 +1,12 @@
 {
   "news": {
-    "title": "Pokemon Go PvP News",
-    "description": "What's happening in Pokemon Go PvP right now. Analysis from top Pokemon Go PvP Trainers for competitive PvP. Learn from the best on how to beat your friends in head to head combat!",
+    "title": "Pokemon GO Battle League PvP News",
+    "description": "What's happening in Pokemon Go PvP right now. GO Battle League and Silph Cups are the most popular way to pvp. Pokebattler has analysis from top Pokemon Go PvP Trainers for competitive PvP. Learn from the best on how to beat your friends in head to head combat!",
     "meta": {
       "description": "$t(pvp:news.description)",
       "image": "https://static.pokebattler.com/images/og_news_rankings.PNG"
     },
-    "join":"Calling all Pokemon Go PvP influencer and aspiring influencers: Get your voice heard by featuring your videos, articles, and infographics on Pokebattler.com.",
+    "join":"Calling all Pokemon GO Battle League PvP influencers and aspiring influencers: Get your voice heard by featuring your videos, articles, and infographics on Pokebattler.com.",
     "joinCTA": "Contact us for details"
   },
   "matrix": {
@@ -23,7 +23,7 @@
     "swap": "Swap",
     "copy": "Copy",
     "results" : {
-      "description": "The attackers that were chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being a matchup",
+      "description": "The attackers that were chosen are shown on the left in order of {{sort}}. The matchups for each of the attackers then follow, with the best matchups first and the worst matchups last.  The numbers in the ovals are the {{sort}} for the matchup, with blue being favorable, red being unfavorable and white being an even matchup",
       "error": {
         "title": "No Results Returned",
         "description": "No pokemon matched your result. Only relavant Pokemon are covered by this tool. You likely need to change your League type or pick Pokemon closer to the maximum CP for this league."
@@ -84,15 +84,24 @@
   },
   "rankings": {
     "title": "PvP Rankings",
-    "description": "Pokemon Go PvP Rankings of which Pokemon are the strongest.",
+    "description": "Pokemon GO Battle League PvP Rankings of which Pokemon are the strongest.",
     "meta": {
-      "description": "Pokebattler's Pokemon Go PvP rankings finds the best PvP Pokemon in Pvp! Find out who is strongest in Great League, Master League and Ultra League!",
+      "description": "Pokebattler's Pokemon GO Battle League PvP rankings finds the best PvP Pokemon in Pvp! Find out who is strongest in Great League, Master League, Ultra League and all the Silph Cups!",
       "image": "https://static.pokebattler.com/images/og_pvp_rankings.PNG"
     },
     "welcome": {
-      "title": "Pvp is upon us!",
-      "paragraph1": "Pokebattler has been hard at work, adding new features to support PvP. The full rankings page is finally ready for prime time! Many more types of rankings will be coming, including by type and matchups for every Pokemon. We also plan to have analysis tools to evaluate your battle parties for potential weaknesses and provide suggestions for filling out a battle party.",
-      "paragraph2": "These results should be considered a starting point for PvP discussion. The rankings do not currently consider dual charge moves or switching Pokemon."
+      "title": "Pokemon GO Battle League PvP is upon us!",
+      "paragraph1": "Pokebattler supports both GO Battle League and Silph Arena Cups. Our Random Shield settings are a great way to quickly analyze which Pokemon have the advantage over others. But dive in to see all the different shield scenarios. ",
+      "paragraph2": "The Top 30 rankings give you an idea of what wins against the general field. The Counters rankings lets you know which Pokemon beat the Top 30 mons.  Finally, current meta and predicted meta matrix links allow you to see how the top 24 most popular Pokemon fair against a short list of meta Pokemon.  Pokemon GO Battle League PVP is very complex but these rankings should get you started!",
+      "closing": "We hope you are as excited as we are about what PvP brings to Pokemon Go. We hope these lists help guide you to building a strong team. Pokebattler will continue working on providing more refined lists and additional PvP features as time goes on.",
+      "link": "Older Silph Cup Rankings"
+    },
+    "old": {
+      "title": "Old Silph Cups!",
+      "paragraph1": "Silph Leagues are in person Pokemon Go PvP tournaments with rules that rotate each season. They have different rules each month and the Pokemon that are the best changes quite a bit month to month!",
+      "paragraph2": "Below are the older Silph Leagues that Pokebattler still supports",
+      "closing": "Silph Leagues are a lot of fun! Hope these old Silph Cup rankings help you see what types of Pokemon can be the best given different rules",
+      "link": "Current Pokemon GO Pvp Rankings"
     },
     "buttons": {
       "attacker": "Well Rounded",
@@ -163,14 +172,14 @@
   "pokedex": {
     "title": "{{league}} Pokedex",
     "meta": {
-      "description": "Pokemon Go {{league}} Pokedex is a customizable guide to what Pokemon counter {{defender}} and what Pokemon {{defender}} has the best attack matchups against in PVP.",
+      "description": "Pokemon GO Battle League {{league}} Pokedex is a customizable guide to what Pokemon counter {{defender}} and what Pokemon {{defender}} has the best attack matchups against in PVP.",
       "image": "https://static.pokebattler.com/images/og_pvp_pokedex.jpg"
     },
-    "intro": "Welcome to the Pokebattler PvP Pokedex for {{defender}}. You can find {{defender}}'s best PvP movesets as well as their matchups against the most common defenders in {{league}}. You can also find the best counters to {{defender}} as well as the moves that help defend best against those counters. Feel free to change the options below to see the effect of different combat situations or to change the ordering to your liking. As always, the results on this page are generated by the Pokebattler Pokemon Go PvP Simulator. You can drill down to any individual simulation by simply clicking on the image of the pokemon opponent",
+    "intro": "Welcome to the Pokebattler Pokemon Go Battle League PvP Pokedex for {{defender}}. You can find {{defender}}'s best PvP movesets as well as their matchups against the most common defenders in {{league}}. You can also find the best counters to {{defender}} as well as the moves that help defend best against those counters. Feel free to change the options below to see the effect of different combat situations or to change the ordering to your liking. As always, the results on this page are generated by the Pokebattler Pokemon Go PvP Simulator. You can drill down to any individual simulation by simply clicking on the image of the pokemon opponent",
     "loading": "Generating detailed PvP analysis for {{defender}}. More than a million simulations are required to generate this page. It won't take long though.",
     "invalid": "{{defender}} is not considered part of {{league}} by Pokebattler. Either its CP is too low to be useful or it is not possible to obtain one that has a low enough CP to qualify or it is in the ban list. The results below are for entertainment value only.",
     "about": {
-      "title": "About this PvP {{league}} Analysis",
+      "title": "About this Pokemon GO Battle League PvP {{league}} Analysis",
       "text1": "This analysis for {{pokemon}} is based off simulating {{league}} PvP combat. The ranking simulation was run using {{shieldStrategy}} based on the Monte Carlo simulation type. Every possible Pokemon with every possible moveset was considered to find the best counters to beat {{defender}}. Up to 10 simulations were performed against each of the best movesets for those counters/matchups for a total of {{simulationCount}} simulations. The best 30 counters as well as the results of the matchups against the {{league}} well rounded defenders is shown here based on {{sort}} are displayed here.",
       "text2": "You can click on any of the attackers to see the results of additional movesets. Sort order can be changed by clicking the sort icon in the top right of each result and selecting the type of sort you prefer",
       "text3": {
@@ -219,15 +228,15 @@
     "leagues": {
       "COMBAT_LEAGUE_DEFAULT_GREAT": {
         "title": "Great League",
-        "intro": "Great League is currently the most popular PvP format. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Azumarill and Altaria"
+        "intro": "Pokemon GO Battle League is currently featuring Great League. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Registeel and Azumarill"
       },
       "COMBAT_LEAGUE_DEFAULT_ULTRA": {
         "title": "Ultra League",
-        "intro": "Ultra League is PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+        "intro": "Pokemon GO Battle League will add Ultra League next. Ultra league is a Pokemon Go PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
       },
       "COMBAT_LEAGUE_DEFAULT_MASTER": {
         "title": "Master League",
-        "intro": "Master League is a league without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
+        "intro": "Pokemon GO Battle League will finally add Master League. Master League is a Pokemon Go PvP format without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
       },
       "COMBAT_LEAGUE_SILPH_CUP": {
         "title": "{{title}}",
@@ -304,6 +313,10 @@
       "COMBAT_LEAGUE_SILPH_FUSION_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season 2 cup for January featuring Pokemon that have multiple types and cost 50K or less for a second move. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_ROSE_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season 2 cup for February featuring Pokemon that are pink, red, purple and gray. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {

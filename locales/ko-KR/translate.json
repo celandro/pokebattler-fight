@@ -2,7 +2,7 @@
     "title": "포케배틀러 번역을 도와주세요",
     "meta": {
         "description": "포케배틀러 번역은 사용자들이 사이트를 번역해서 모든 사람들이 세계에서 가장 정확한 포켓몬고 시뮬레이터를 사용하도록 도와줍니다.",
-        "image": "https://static.pokebattler.com/images/og_more_translate.jpg\n"
+        "image": "https://static.pokebattler.com/images/og_more_translate.jpg"
     },
     "info": "이 사이트는 다양한 언어로 번역되도록 만들어졌습니다! 여러분은 영어를 하지 못하는 친구들이 사용하기 편하도록 사이트를 쉽게 만들어 줄 수 있습니다.",
     "how": "번역은 Weblate라는 웹 도구를 사용해서 행해지고 {{link}}에서 찾으실 수 있습니다. 여러분은 계정을 생성하고, 언어를 선택한후 번역을 제안하실 수 있습니다. 그 번역들은 검토되고 일반적으로 자동으로 받아들여질 것입니다.",

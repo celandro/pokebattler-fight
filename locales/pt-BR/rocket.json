@@ -9,9 +9,16 @@
     },
     "results": {
         "patreon": {
-            "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores. Os usuários recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais."
+            "description": "Resultados mais precisos para ataques desconhecidos são fornecidos graças ao suporte dos apoiadores. Os usuários recebem espaço adicional na pokebox, resultados ainda mais precisos para todos os ataques e mais.",
+            "link": "Veja todos os benefícios que você ganha ao se registrar",
+            "thanks": "Obrigado pelo seu suporte!"
         },
-        "title": "Atacantes para {{defender}}"
+        "title": "Atacantes para {{defender}}",
+        "analysis": {
+            "attackers": {
+                "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
+            }
+        }
     },
     "meta": {
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
