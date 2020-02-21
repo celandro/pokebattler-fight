@@ -216,6 +216,7 @@
             "gym": "$t(gym)",
             "articles": "Articles",
             "tools": "Tools",
+            "terms": "Terms",
             "battle": "Battle",
             "simulator": "Simulator",
             "rankings": "Rankings",
