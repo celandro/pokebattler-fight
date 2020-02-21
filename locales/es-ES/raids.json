@@ -89,7 +89,8 @@
         },
         "RAID_LEVEL_4_5_LEGACY": {
             "title": "Antigua Nivel 4.5",
-            "subtitle": "Incursión Legendaria Sencilla"
+            "subtitle": "Incursión Legendaria Sencilla",
+            "intro": "Estos son jefes de incursiones legendarias sencillas previamente vistos."
         }
     },
     "custom": {

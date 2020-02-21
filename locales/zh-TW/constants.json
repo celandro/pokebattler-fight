@@ -1981,7 +1981,15 @@
         "WOBBUFFET_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.WOBBUFFET_SPRING)",
         "RATICATE_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.RATICATE_SPRING)",
         "FRILLISH_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.FRILLISH)",
-        "JELLICENT_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.JELLICENT)"
+        "JELLICENT_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.JELLICENT)",
+        "SPINDA_12_FORM": "晃晃斑 - 12",
+        "SPINDA_13_FORM": "晃晃斑 - 13",
+        "SPINDA_14_FORM": "晃晃斑 - 14",
+        "SPINDA_15_FORM": "晃晃斑 - 15",
+        "SPINDA_16_FORM": "晃晃斑 - 16",
+        "SPINDA_17_FORM": "晃晃斑 - 17",
+        "SPINDA_18_FORM": "晃晃斑 - 18",
+        "SPINDA_19_FORM": "晃晃斑 - 19"
     },
     "moves": {
         "HYPER_BEAM": "破壞光線",
