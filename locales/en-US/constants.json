@@ -2543,7 +2543,9 @@
         "FISSURE": "Fissure",
         "SACRED_SWORD": "Sacred Sword",
         "FLYING_PRESS": "Flying Press",
-        "AURA_SPHERE": "Aura Sphere"
+        "AURA_SPHERE": "Aura Sphere",
+        "PAYBACK": "Payback",
+        "ROCK_WRECKER": "Rock Wrecker"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unknown",
@@ -3021,7 +3023,12 @@
         "COMBAT_LEAGUE_SILPH_ROSE_CUP": {
             "label": "Silph Arena Rose Cup",
             "description": "The February Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_TOXIC_CUP": {
+            "label": "Silph Arena Toxic Cup",
+            "description": "The March Silph Arena Season 2 Cup tournament."
         }
+
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
