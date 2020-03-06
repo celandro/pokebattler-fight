@@ -1,4 +1,29 @@
 {
+    "languageSupport": {
+        "self": "English",
+        "en": "English",
+        "es": "Spanish",
+        "de": "German",
+        "jp": "Japanese",
+        "fr": "French",
+        "it": "Italian",
+        "pl": "Polish",
+        "ja": "Japanese",
+        "ko": "Korean",
+        "pt": "Portuguese",
+        "ru": "Russian",
+        "zh": "Chinese"
+    },
+    "buttons": {
+        "okay": "Okay",
+        "create": "Create"
+    },
+    "placeholders": {
+        "dropdown": {
+            "required": "Please Choose",
+            "optional": "Optional"
+        }
+    },
     "back": "Back",
     "save": "Save",
     "cancel": "Cancel",
