@@ -2548,6 +2548,7 @@
         "ROCK_WRECKER": "Rock Wrecker"
     },
     "types": {
+        "POKEMON_TYPE_ALL": "All",
         "POKEMON_TYPE_NONE": "Unknown",
         "POKEMON_TYPE_NORMAL": "Normal",
         "POKEMON_TYPE_FIGHTING": "Fighting",
