@@ -183,6 +183,9 @@
                 "title": "Patreon Supporter",
                 "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
             }
+        },
+        "upsell": {
+            "rankingByType": "Subscribers have access to ranking features that are too expensive to give to everyone including ranking by type!"
         }
 
     },
@@ -200,6 +203,9 @@
         "matrixMaxType": "Matrix - Max Types",
         "matrixMetaTypes": "Matrix - Meta Types",
         "hideAds": "Ad Free Experience",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "rankingByType": "Ranking Filter By Types",
         "role": {
             "ROLE_USER": "Pokebattler User",
             "ROLE_ADMIN": "Pokebattler Admin",
