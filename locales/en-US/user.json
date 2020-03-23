@@ -27,6 +27,10 @@
         "welcome": "Welcome",
         "description": "Your trainer information below will be used to customize the site and will be displayed to other users."
     },
+    "raidParty": {
+        "title": "Raid Party Settings",
+        "description": "Settings for the Pokebattler Raid Party App closed beta."
+    },
     "loggedIn": {
         "title": "Public Profile",
         "description": "You have successfully logged in. Fill out your trainer information below, then click on the Pokebox to add your Pokemon for custom results. Then create Battle Parties for use for custom raid results.",

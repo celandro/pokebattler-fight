@@ -2887,7 +2887,7 @@
         }
     },
     "autoBattlePartyTypes": {
-        "label": "Auto Raid Party (Coming Soon)",
+        "label": "Auto Raid Party",
         "BATTLE_PARTY_POKEBOX": {
             "label": "Pokebox",
             "description": "Use the best Pokemon from your Pokebox"
