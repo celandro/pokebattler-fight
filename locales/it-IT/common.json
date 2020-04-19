@@ -11,7 +11,8 @@
     "stats": {
         "attack": "Attacco",
         "defense": "Difesa",
-        "stamina": "Salute"
+        "stamina": "Salute",
+        "hp": "Punti Vita"
     },
     "statsAbbr": {
         "attack": "Att",
@@ -46,7 +47,10 @@
         "name": "$t(common:name)",
         "type": "$t(common:type)",
         "maxCP": "Massimi $t(common:cp)",
-        "level": "$t(common:level)"
+        "level": "$t(common:level)",
+        "estimator": "Stimatore",
+        "dpe": "DPE",
+        "eps": "EPS"
     },
     "simulation": "una simulazione era",
     "simulation_plural": "simulazioni erano",
@@ -197,5 +201,17 @@
     "explicitAssistants": {
         "title": "Allenatori Extra",
         "description": "Il numero di allenatori ulteriori che ti aiuteranno a combattere il boss. Tu scegli i gruppi di pokemon per ciascuno di questi allenatori."
+    },
+    "clear": "Chiaro",
+    "specialMove2": "Attacco Caricato 2",
+    "shieldStrategy": "Strategia di Scudo",
+    "shiny": "Luccicante",
+    "lucky": "Fortunato",
+    "id": "Id",
+    "seconds": "Secondi",
+    "find": "Trova",
+    "rejoin": {
+        "label": "Tempo per Riunirsi",
+        "default": "Mai"
     }
 }
