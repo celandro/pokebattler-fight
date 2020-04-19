@@ -1310,7 +1310,7 @@
       "PINSIR_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.PINSIR)",
       "PINSIR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PINSIR)",
       "PINSIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.PINSIR)",
-        "PIKACHU_VS_FORM": "Pikachu Vs",
+        "PIKACHU_VS_2019_FORM": "Libre $t(constants:pokemon.PIKACHU)",
         "ONIX_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ONIX)",
         "ONIX_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ONIX)",
         "ONIX_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.ONIX)",
@@ -2543,9 +2543,12 @@
         "FISSURE": "Fissure",
         "SACRED_SWORD": "Sacred Sword",
         "FLYING_PRESS": "Flying Press",
-        "AURA_SPHERE": "Aura Sphere"
+        "AURA_SPHERE": "Aura Sphere",
+        "PAYBACK": "Payback",
+        "ROCK_WRECKER": "Rock Wrecker"
     },
     "types": {
+        "POKEMON_TYPE_ALL": "All",
         "POKEMON_TYPE_NONE": "Unknown",
         "POKEMON_TYPE_NORMAL": "Normal",
         "POKEMON_TYPE_FIGHTING": "Fighting",
@@ -2884,7 +2887,7 @@
         }
     },
     "autoBattlePartyTypes": {
-        "label": "Auto Raid Party (Coming Soon)",
+        "label": "Auto Raid Party",
         "BATTLE_PARTY_POKEBOX": {
             "label": "Pokebox",
             "description": "Use the best Pokemon from your Pokebox"
@@ -3021,7 +3024,12 @@
         "COMBAT_LEAGUE_SILPH_ROSE_CUP": {
             "label": "Silph Arena Rose Cup",
             "description": "The February Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_TOXIC_CUP": {
+            "label": "Silph Arena Toxic Cup",
+            "description": "The March Silph Arena Season 2 Cup tournament."
         }
+
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",

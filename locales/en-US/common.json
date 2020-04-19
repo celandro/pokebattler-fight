@@ -1,4 +1,29 @@
 {
+    "languageSupport": {
+        "self": "English",
+        "en": "English",
+        "es": "Spanish",
+        "de": "German",
+        "jp": "Japanese",
+        "fr": "French",
+        "it": "Italian",
+        "pl": "Polish",
+        "ja": "Japanese",
+        "ko": "Korean",
+        "pt": "Portuguese",
+        "ru": "Russian",
+        "zh": "Chinese"
+    },
+    "buttons": {
+        "okay": "Okay",
+        "create": "Create"
+    },
+    "placeholders": {
+        "dropdown": {
+            "required": "Please Choose",
+            "optional": "Optional"
+        }
+    },
     "back": "Back",
     "save": "Save",
     "cancel": "Cancel",
@@ -52,6 +77,9 @@
     "move": "Move",
     "moves": "Moves",
     "type": "Pokemon Type",
+    "includeShadow": "Show Shadow Pokemon",
+    "includeLegendary": "Show Legendary Pokemon",
+    "includeTypes": "Show By Pokemon Type",
     "properties": {
         "overall": "Overall",
         "estimator": "Estimator",
@@ -62,6 +90,7 @@
         "time": "Time to Win",
         "realTime": "Time",
         "prestige": "Prestige",
+        "recent": "Recent",
         "dps": "DPS",
         "dpe": "DPE",
         "eps": "EPS",
@@ -216,6 +245,7 @@
             "gym": "$t(gym)",
             "articles": "Articles",
             "tools": "Tools",
+            "terms": "Terms",
             "battle": "Battle",
             "simulator": "Simulator",
             "rankings": "Rankings",

@@ -27,6 +27,10 @@
         "welcome": "Welcome",
         "description": "Your trainer information below will be used to customize the site and will be displayed to other users."
     },
+    "raidParty": {
+        "title": "Raid Party Settings",
+        "description": "Settings for the Pokebattler Raid Party App closed beta."
+    },
     "loggedIn": {
         "title": "Public Profile",
         "description": "You have successfully logged in. Fill out your trainer information below, then click on the Pokebox to add your Pokemon for custom results. Then create Battle Parties for use for custom raid results.",
@@ -183,6 +187,9 @@
                 "title": "Patreon Supporter",
                 "subtitle": "If you subscribe below, please remember to cancel your Patreon donations"
             }
+        },
+        "upsell": {
+            "rankingByType": "Subscribers have access to ranking features that are too expensive to give to everyone including ranking by type!"
         }
 
     },
@@ -200,6 +207,9 @@
         "matrixMaxType": "Matrix - Max Types",
         "matrixMetaTypes": "Matrix - Meta Types",
         "hideAds": "Ad Free Experience",
+        "enabled": "Enabled",
+        "disabled": "Disabled",
+        "rankingByType": "Ranking Filter By Types",
         "role": {
             "ROLE_USER": "Pokebattler User",
             "ROLE_ADMIN": "Pokebattler Admin",
