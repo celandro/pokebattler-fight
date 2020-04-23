@@ -2745,6 +2745,33 @@
             }
         }
     },
+    "generations": {
+        "label": "Generations",
+        "GEN_1": {
+            "label": "Gen 1"
+        },
+        "GEN_2": {
+            "label": "Gen 2"
+        },
+        "GEN_3": {
+            "label": "Gen 3"
+        },
+        "GEN_4": {
+            "label": "Gen 4"
+        },
+        "GEN_5": {
+            "label": "Gen 5"
+        },
+        "GEN_6": {
+            "label": "Gen 6"
+        },
+        "GEN_7": {
+            "label": "Gen 7"
+        },
+        "GEN_8": {
+            "label": "Gen 8"
+        }
+    },
     "sorts": {
         "label": "Sort Order",
         "OVERALL":{
@@ -3028,6 +3055,10 @@
         "COMBAT_LEAGUE_SILPH_TOXIC_CUP": {
             "label": "Silph Arena Toxic Cup",
             "description": "The March Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_FOREST_CUP": {
+            "label": "Silph Arena Forest Cup",
+            "description": "The May Silph Arena Season 2 Cup tournament."
         }
 
     },

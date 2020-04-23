@@ -321,12 +321,17 @@
       "COMBAT_LEAGUE_SILPH_TOXIC_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season 2 cup for March featuring Pokemon that are Normal, Poison, Ground, Bug or Grass types. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_FOREST_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season 2 cup for May featuring Pokemon that are Fire, Water, Grass, Bug or Electric types of Generation 2-5. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {
       "WITH_POKEMON_CP_LIMIT": "Max CP",
       "WITH_POKEMON_TYPE": "Pokemon Types",
       "WITH_POKEMON_CATEGORY": "Category",
+      "WITH_POKEDEX_GENERATION": "Generations",
       "NONE": "No Limits"
     }
   }
