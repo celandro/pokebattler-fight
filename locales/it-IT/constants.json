@@ -880,7 +880,6 @@
         "MOLTRES_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.MOLTRES)",
         "MOLTRES_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.MOLTRES)",
         "MOLTRES_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.MOLTRES)",
-
         "KANGASKHAN_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.KANGASKHAN)",
         "KANGASKHAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KANGASKHAN)",
         "KANGASKHAN_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.KANGASKHAN)",
@@ -993,8 +992,8 @@
         "LINOONE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
         "PIKACHU_COPY_2019_FORM": "2019 $t(constants:pokemon.PIKACHU)",
         "VENUSAUR_COPY_2019_FORM": "2019 $t(constants:pokemon.VENUSAUR)",
-        "CHARIZARD_COPY_2019_FORM" : "2019 $t(constants:pokemon.CHARIZARD)",
-        "BLASTOISE_COPY_2019_FORM" : "2019 $t(constants:pokemon.BLASTOISE)",
+        "CHARIZARD_COPY_2019_FORM": "2019 $t(constants:pokemon.CHARIZARD)",
+        "BLASTOISE_COPY_2019_FORM": "2019 $t(constants:pokemon.BLASTOISE)",
         "CATERPIE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CATERPIE)",
         "CATERPIE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.CATERPIE)",
         "METAPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.METAPOD)",
@@ -1919,8 +1918,9 @@
         "WOBBUFFET_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.WOBBUFFET_SPRING)",
         "RATICATE_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.RATICATE_SPRING)",
         "FRILLISH_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.FRILLISH)",
-        "JELLICENT_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.JELLICENT)"
-
+        "JELLICENT_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.JELLICENT)",
+        "NIDORAN": "Nidoran",
+        "NORMAL_FORM": "Normale"
     },
     "moves": {
         "ACID_FAST": "Acido",
