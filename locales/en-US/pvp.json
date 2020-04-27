@@ -148,6 +148,7 @@
         "title": "About these Rankings",
         "text": "This PvP {{type}} ranking is based off simulating combat with {{league}} Pokemon. The ranking simulation was run with the {{strategies.attack}} attack strategy. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
         "help1": "You can click on any of the Pokemon below to see the results for different movesets or click the grouping icon second from the right in the top right to see them ungrouped. Sort order can be changed by clicking the top right sort icon and selecting the type of sort you prefer.",
+        "helpAlert": "Looking for non-legacy or non-tm rankings, change the Move Meta above!",
         "attackers": "counters",
         "defenders": "well rounded",
         "details": {
