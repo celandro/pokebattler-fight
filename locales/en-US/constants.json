@@ -2519,7 +2519,7 @@
         "CRUSH_CLAW":"Crush Claw",
         "OCTAZOOKA":"Octazooka",
         "MIRROR_SHOT":"Mirror Shot",
-        "SUPER_POWER":"Super Power",
+        "SUPER_POWER":"Superpower",
         "FELL_STINGER":"Fell Stinger",
         "LEECH_LIFE":"Leech Life",
         "DRAIN_PUNCH":"Drain Punch",
@@ -2536,7 +2536,7 @@
         "FRUSTRATION": "Frustration",
         "RETURN": "Return",
         "SYNCHRONOISE": "Synchronoise",
-        "LOCK_ON_FAST": "Lock On",
+        "LOCK_ON_FAST": "Lock-On",
         "THUNDER_FANG_FAST": "Thunder Fang",
         "ICE_FANG_FAST": "Ice Fang",
         "HORN_DRILL": "Horn Drill",
@@ -2650,21 +2650,61 @@
                 "label": "All Single Charge Moves",
                 "description": "All Pokemon use the best charge moves without learning a second move. Up to 12 movesets are returned."
             },
+            "DUAL_MOVE_6": {
+                "label": "Dual Charge Moves - Top 6",
+                "description": "All Pokemon use the best charge move combinations. Up to 6 movesets are considered"
+            },
+            "SINGLE_MOVE_6": {
+                "label": "Single Charge Move - Top 6 ",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 6 movesets are considered"
+            },
             "DUAL_MOVE_3": {
-                "label": "Dual Charge Moves - Best 3",
+                "label": "Dual Charge Moves - Top 3",
                 "description": "All Pokemon use the best charge move combinations. Up to 3 movesets are considered"
             },
             "SINGLE_MOVE_3": {
-                "label": "Single Charge Move - Best 3 ",
+                "label": "Single Charge Move - Top 3 ",
                 "description": "All Pokemon use the best charge moves without learning a second move. Up to 3 movesets are considered"
             },
             "DUAL_MOVE_1": {
-                "label": "Best Dual Charge Moves",
+                "label": "Top Dual Charge Moves",
                 "description": "All Pokemon use the best charge move combinations. Only the best moveset is considered"
             },
             "SINGLE_MOVE_1": {
                 "label": "Best Single Charge Move",
                 "description": "All Pokemon use the best charge moves without learning a second move. Only the best moveset is considered"
+            },
+            "CURRENT_DUAL_MOVE": {
+                "label": "Current Dual Charge Moves",
+                "description": "All Pokemon use the best charge move combinations. Up to 30 currently available movesets are returned."
+            },
+            "CURRENT_SINGLE_MOVE": {
+                "label": "Current Single Charge Moves",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 12 currently available movesets are returned."
+            },
+            "CURRENT_DUAL_MOVE_6": {
+                "label": "Dual Charge Moves - Current 6",
+                "description": "All Pokemon use the best charge move combinations. Up to 6currently available  movesets are considered"
+            },
+            "CURRENT_SINGLE_MOVE_6": {
+                "label": "Single Charge Move - Current 6 ",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 6 currently available movesets are considered"
+            },
+            "CURRENT_DUAL_MOVE_3": {
+                "label": "Dual Charge Moves - Current 3",
+                "description": "All Pokemon use the best charge move combinations. Up to 3 currently available movesets are considered"
+            },
+            "SINGLE_MOVE_3": {
+                "label": "Single Charge Move - Current 3 ",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 3 currently available movesets are considered"
+            },
+            "CURRENT_DUAL_MOVE_1": {
+                "label": "Top Current Dual Charge Moves",
+                "description": "All Pokemon use the best charge move combinations. Only the best moveset currently available is considered"
+            },
+            "CURRENT_SINGLE_MOVE_1": {
+                "label": "Top Current Single Charge Move",
+                "description": "All Pokemon use the best charge moves without learning a second move. Only the best moveset currently available is considered"
             }
         },
         "shield": {
@@ -2743,6 +2783,33 @@
                 "label": "Defense Pattern",
                 "description": "A pattern of delays and attacks is used for this single simulation. This is used internally by Pokebattler for optimizing Monte-Carlo simulations without dodging"
             }
+        }
+    },
+    "generations": {
+        "label": "Generations",
+        "GEN_1": {
+            "label": "Gen 1"
+        },
+        "GEN_2": {
+            "label": "Gen 2"
+        },
+        "GEN_3": {
+            "label": "Gen 3"
+        },
+        "GEN_4": {
+            "label": "Gen 4"
+        },
+        "GEN_5": {
+            "label": "Gen 5"
+        },
+        "GEN_6": {
+            "label": "Gen 6"
+        },
+        "GEN_7": {
+            "label": "Gen 7"
+        },
+        "GEN_8": {
+            "label": "Gen 8"
         }
     },
     "sorts": {
@@ -3028,6 +3095,10 @@
         "COMBAT_LEAGUE_SILPH_TOXIC_CUP": {
             "label": "Silph Arena Toxic Cup",
             "description": "The March Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_FOREST_CUP": {
+            "label": "Silph Arena Forest Cup",
+            "description": "The May Silph Arena Season 2 Cup tournament."
         }
 
     },
