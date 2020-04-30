@@ -2090,7 +2090,10 @@
         "SPINDA_17_FORM": "Pandir - 17",
         "SPINDA_18_FORM": "Pandir - 18",
         "SPINDA_19_FORM": "Pandir - 19",
-        "DEERLING_SPRING_FORM": "Frühlings-Sesokitz"
+        "DEERLING_SPRING_FORM": "Frühlings-Sesokitz",
+        "DEERLING_SUMMER_FORM": "Sommer-Sesokitz",
+        "DEERLING_AUTUMN_FORM": "Herbst-Sesokitz",
+        "DEERLING_WINTER_FORM": "Winter-Sesokitz"
     },
     "moves": {
         "undefined": " ",
