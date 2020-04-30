@@ -769,7 +769,7 @@
         "ACCELGOR": "Accelgor",
         "STUNFISK": "Stunfisk",
         "MIENFOO": "Mienfoo",
-        "MIENSHAO": "MIienshao",
+        "MIENSHAO": "Mienshao",
         "DRUDDIGON": "Druddigon",
         "GOLETT": "Golett",
         "GOLURK": "Golurk",
@@ -2989,15 +2989,19 @@
         },
         "COMBAT_LEAGUE_DEFAULT_GREAT": {
             "label": "Great League",
-            "description": "3 pokemon with a maximum CP of 1500."
+            "description": "3 Pokemon with a maximum CP of 1500."
         },
         "COMBAT_LEAGUE_DEFAULT_ULTRA": {
             "label": "Ultra League",
-            "description": "3 pokemon with a maximum CP of 2500."
+            "description": "3 Pokemon with a maximum CP of 2500."
         },
         "COMBAT_LEAGUE_DEFAULT_MASTER": {
             "label": "Master League",
-            "description": "3 pokemon with no limits."
+            "description": "3 Pokemon with no limits."
+        },
+        "COMBAT_LEAGUE_PREMIER_CUP": {
+            "label": "Premier Cup",
+            "description": "3 non-legendary, non-mythical Pokemon."
         },
         "COMBAT_LEAGUE_SILPH_CUP": {
             "label": "Silph Arena Cup",
