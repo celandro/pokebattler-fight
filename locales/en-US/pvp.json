@@ -229,16 +229,21 @@
     "leagues": {
       "COMBAT_LEAGUE_DEFAULT_GREAT": {
         "title": "Great League",
-        "intro": "Pokemon GO Battle League is currently featuring Great League. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Registeel and Azumarill"
+        "intro": "Pokemon GO Battle League begins each season with Great League. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Registeel and Azumarill"
       },
       "COMBAT_LEAGUE_DEFAULT_ULTRA": {
         "title": "Ultra League",
-        "intro": "Pokemon GO Battle League will add Ultra League next. Ultra league is a Pokemon Go PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+        "intro": "Pokemon GO Battle League continues with Ultra League second in each season. Ultra league is a Pokemon Go PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
       },
       "COMBAT_LEAGUE_DEFAULT_MASTER": {
         "title": "Master League",
-        "intro": "Pokemon GO Battle League will finally add Master League. Master League is a Pokemon Go PvP format without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
+        "intro": "Pokemon GO Battle League will then have Master League third in each season. Master League is a Pokemon Go PvP format without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
       },
+      "COMBAT_LEAGUE_PREMIER_CUP": {
+        "title": "Premier Cup",
+        "intro": "Pokemon GO Battle League has added Premier Cup to run at the same time as Master League. Premier Cup is like Master League but does not allow Mythical or Legendary Pokemon. It  is dominated by level 40 pseudo-legendaries with dual charge moves. This is a slightly more affordable league than Master league but is also not recommended for beginners"
+      },
+
       "COMBAT_LEAGUE_SILPH_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
