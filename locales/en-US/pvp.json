@@ -148,6 +148,7 @@
         "title": "About these Rankings",
         "text": "This PvP {{type}} ranking is based off simulating combat with {{league}} Pokemon. The ranking simulation was run with the {{strategies.attack}} attack strategy. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
         "help1": "You can click on any of the Pokemon below to see the results for different movesets or click the grouping icon second from the right in the top right to see them ungrouped. Sort order can be changed by clicking the top right sort icon and selecting the type of sort you prefer.",
+        "helpAlert": "Don't have all these moves? Change the Move Meta above to see non-dual and non-tm rankings!",
         "attackers": "counters",
         "defenders": "well rounded",
         "details": {
@@ -228,16 +229,21 @@
     "leagues": {
       "COMBAT_LEAGUE_DEFAULT_GREAT": {
         "title": "Great League",
-        "intro": "Pokemon GO Battle League is currently featuring Great League. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Registeel and Azumarill"
+        "intro": "Pokemon GO Battle League begins each season with Great League. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Registeel and Azumarill"
       },
       "COMBAT_LEAGUE_DEFAULT_ULTRA": {
         "title": "Ultra League",
-        "intro": "Pokemon GO Battle League will add Ultra League next. Ultra league is a Pokemon Go PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+        "intro": "Pokemon GO Battle League continues with Ultra League second in each season. Ultra league is a Pokemon Go PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
       },
       "COMBAT_LEAGUE_DEFAULT_MASTER": {
         "title": "Master League",
-        "intro": "Pokemon GO Battle League will finally add Master League. Master League is a Pokemon Go PvP format without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
+        "intro": "Pokemon GO Battle League will then have Master League third in each season. Master League is a Pokemon Go PvP format without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
       },
+      "COMBAT_LEAGUE_PREMIER_CUP": {
+        "title": "Premier Cup",
+        "intro": "Pokemon GO Battle League has added Premier Cup to run at the same time as Master League. Premier Cup is like Master League but does not allow Mythical or Legendary Pokemon. It  is dominated by level 40 pseudo-legendaries with dual charge moves. This is a slightly more affordable league than Master league but is also not recommended for beginners"
+      },
+
       "COMBAT_LEAGUE_SILPH_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
@@ -321,12 +327,17 @@
       "COMBAT_LEAGUE_SILPH_TOXIC_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season 2 cup for March featuring Pokemon that are Normal, Poison, Ground, Bug or Grass types. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_FOREST_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season 2 cup for May featuring Pokemon that are Fire, Water, Grass, Bug or Electric types of Generation 2-5. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {
       "WITH_POKEMON_CP_LIMIT": "Max CP",
       "WITH_POKEMON_TYPE": "Pokemon Types",
       "WITH_POKEMON_CATEGORY": "Category",
+      "WITH_POKEDEX_GENERATION": "Generations",
       "NONE": "No Limits"
     }
   }
