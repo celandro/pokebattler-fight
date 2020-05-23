@@ -3103,6 +3103,10 @@
         "COMBAT_LEAGUE_SILPH_FOREST_CUP": {
             "label": "Silph Arena Forest Cup",
             "description": "The May Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_SORCEROUS_CUP": {
+            "label": "Silph Arena Sorcerous Cup",
+            "description": "The June Silph Arena Season 2 Cup tournament."
         }
 
     },
