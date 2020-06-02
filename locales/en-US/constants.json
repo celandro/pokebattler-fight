@@ -2286,7 +2286,19 @@
         "WOBBUFFET_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.WOBBUFFET_SPRING)",
         "RATICATE_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.RATICATE_SPRING)",
         "FRILLISH_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.FRILLISH)",
-        "JELLICENT_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.JELLICENT)"
+        "JELLICENT_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.JELLICENT)",
+        "MEOWTH_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.MEOWTH)",
+        "FARFETCHD_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.FARFETCHD)",
+        "DARUMAKA_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.DARUMAKA)",
+        "DARMANITAN_GALARIAN_STANDARD_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.DARMANITAN)",
+        "DARMANITAN_GALARIAN_ZEN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.DARMANITAN_ZEN_FORM)",
+        "STUNFISK_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.STUNFISK)",
+        "OBSTAGOON_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING)",
+        "OBSTAGOON_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.WEEZING)",
+        "PERRSERKER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING)",
+        "PERRSERKER_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.WEEZING)",
+        "SIRFETCHD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING)",
+        "SIRFETCHD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.WEEZING)"
     },
     "moves": {
         "undefined": "Undefined",
