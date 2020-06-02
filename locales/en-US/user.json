@@ -88,6 +88,11 @@
             "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!",
             "image": "https://static.pokebattler.com/images/og_user_subscription.png"
         },
+        "app": {
+            "description": "Pokebattler subscriptions provide enhanced functionality and more detailed analytics to enhance your experience. Subscriptions work across all your devices, app, mobile web and desktop.",
+            "allDevices": "Features",
+            "desktopOnly": "Desktop Only Features"
+        },
         "paymentRequest": "One Click Subscribe",
         "paymentRequestDescription": "One Click Subscribe is supported on most mobile devices. You can also choose to enter in your information below instead",
         "currentProduct": "Current Benefits",
@@ -96,6 +101,7 @@
         "purchase": "Start Your Free Trial!",
         "creditCard": "Enter your credit card information",
         "paymentType": "Payment Type",
+        "freeTrial": "{{trialPeriodDays}} Day Free Trial",
         "name": "First and Last Name",
         "email": "Email",
         "line1": "Address Line 1",
@@ -121,16 +127,24 @@
             "1month": {
                 "title": "1 month - ${{intervalCost}}/mo",
                 "subtitle": "You will be charged ${{cost}} each month after your {{trialPeriodDays}} day free trial.",
+                "shortTitle": "1 Month",
+                "monthlyPrice": "Save by selecting a multi month plan",
                 "discount": "Save by selecting a multi month plan"
             },
             "3month": {
                 "title": "3 months - ${{intervalCost}}/mo",
                 "subtitle": "You will be charged ${{cost}} every 3 months after your {{trialPeriodDays}} day free trial.",
+                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial",
+                "shortTitle": "3 Month",
+                "shortDiscount": "-{{discount}}%",
                 "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
             },
             "6month": {
-                "title": "6 month - ${{intervalCost}}/mo",
+                "title": "6 months - ${{intervalCost}}/mo",
                 "subtitle": "You will be charged ${{cost}} every 6 months after your {{trialPeriodDays}} day free trial.",
+                "shortTitle": "6 Month",
+                "shortDiscount": "-{{discount}}%",
+                "monthlyPrice":"{{currency}}{{intervalCost}}/mo ",
                 "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
             }
         },
@@ -190,8 +204,19 @@
         },
         "upsell": {
             "rankingByType": "Subscribers have access to ranking features that are too expensive to give to everyone including ranking by type!"
+        },
+        "transaction": {
+            "start": "Processing subscription",
+            "verify": "Upgrading your account",
+            "confirm": "Account successfully upgraded",
+            "complete": "Thank you for your support"
+        },
+        "error": {
+            "unknown": "Could not complete transaction! Please contact admin@pokebattler.com",
+            "cancelled": "Subscription cancelled",
+            "verification": "Could not verify transaction! Please contact admin@pokebattler.com",
+            "store": "Error connecting to store"
         }
-
     },
 
     "roles": {

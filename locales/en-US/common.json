@@ -52,6 +52,7 @@
     "id": "Id",
     "seconds": "Seconds",
     "find": "Find",
+    "version": "Version {{version}}",
     "rejoin": {
         "label": "Rejoin Time",
         "default": "Never"
@@ -72,6 +73,7 @@
         "hp": "HP"
     },
     "level": "Level",
+    "auto": "Auto",
     "basic": "Basic",
     "advanced": "Advanced",
     "move": "Move",
