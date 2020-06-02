@@ -101,7 +101,6 @@
         "purchase": "Start Your Free Trial!",
         "creditCard": "Enter your credit card information",
         "paymentType": "Payment Type",
-        "freeTrial": "{{trialPeriodDays}} Day Free Trial",
         "name": "First and Last Name",
         "email": "Email",
         "line1": "Address Line 1",
@@ -115,6 +114,7 @@
         "requiresLogin": "You Must Log In To Subscribe",
         "ibanDescription":"By providing your IBAN and confirming this payment, you are authorizing Pokebattler.com and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.",
         "notNeccessary": "The following fields are usually not required. You only need to fill these out if your payment is declined.",
+        "freeTrial": "{{trialPeriodDays}} Day Free Trial",
         "paymentTypes": {
             "creditCard": "Credit Card",
             "iban": "IBAN",
@@ -137,15 +137,15 @@
                 "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial",
                 "shortTitle": "3 Month",
                 "shortDiscount": "-{{discount}}%",
-                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
+                "monthlyPrice":"{{currency}}{{intervalCost}}/mo"
             },
             "6month": {
                 "title": "6 months - ${{intervalCost}}/mo",
                 "subtitle": "You will be charged ${{cost}} every 6 months after your {{trialPeriodDays}} day free trial.",
+                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial",
                 "shortTitle": "6 Month",
                 "shortDiscount": "-{{discount}}%",
-                "monthlyPrice":"{{currency}}{{intervalCost}}/mo ",
-                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
+                "monthlyPrice":"{{currency}}{{intervalCost}}/mo"
             }
         },
         "products": {
