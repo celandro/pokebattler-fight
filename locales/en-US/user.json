@@ -284,6 +284,28 @@
         "planId": "Plan Id",
         "cancel": "Cancel Your Subscription",
         "renew": "Renew Your Subscription",
+        "platform": {
+            "ios": {
+                "manageSubscription": "Manage this App Store subscription ",
+                "platformLink": "itms-apps://apps.apple.com/account/subscriptions",
+                "link": "https://apps.apple.com/account/subscriptions"
+            },
+            "android": {
+                "manageSubscription": "Manage this Play Store subscription",
+                "platformLink": "https://play.google.com/store/account/subscriptions",
+                "link": "https://play.google.com/store/account/subscriptions"
+            },
+            "stripe": {
+                "manageSubscription": "Manage this Stripe subscription on the website.",
+                "platformLink": "https://www.pokebattler.com/user/subscription",
+                "link": "https://www.pokebattler.com/user/subscription"
+            },
+            "patreon": {
+                "manageSubscription": "Manage this Patreon subscription",
+                "platformLink": "https://www.patreon.com/pokebattler",
+                "link": "https://www.patreon.com/pokebattler"
+            }
+        },
         "statuses": {
             "trialing": {
                 "title": "Free Trial Period",
