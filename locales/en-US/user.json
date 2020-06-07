@@ -330,6 +330,10 @@
             "canceled": {
                 "title": "Canceled Membership",
                 "description": "Your Pokebattler membership was canceled.  Your last membership date was {{currentPeriodEnd}}."
+            },
+            "cancelled": {
+                "title": "t(userSubscription.statuses.canceled.title)",
+                "description": "t(userSubscription.statuses.canceled.description)"
             }
 
 
