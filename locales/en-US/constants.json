@@ -459,7 +459,6 @@
         "GENESECT_BURN_FORM": "Burn Genesect",
         "GENESECT_CHILL_FORM": "Chill Genesect",
         "GENESECT_DOUSE_FORM": "Douse Genesect",
-      
         "RATTATA_NORMAL_FORM": "Rattata - Normal",
         "RATTATA_ALOLA_FORM": "Rattata - Alola",
         "RATICATE_NORMAL_FORM": "Raticate - Normal",
@@ -522,7 +521,7 @@
         "BURMY": "Burmy",
         "WORMADAM": "Wormadam",
         "MOTHIM": "Mothim",
-        "COMBEE": "Combbee",
+        "COMBEE": "Combee",
         "VESPIQUEN": "Vespiquen",
         "PACHIRISU": "Pachirisu",
         "BUIZEL": "Buizel",
@@ -601,9 +600,6 @@
         "DARKRAI": "Darkrai",
         "SHAYMIN": "Shaymin",
         "ARCEUS": "Arceus",
-
-
-
         "ROTOM_NORMAL_FORM": "Rotom - Normal",
         "ROTOM_FROST_FORM": "Rotom - Frost",
         "ROTOM_FAN_FORM": "Rotom - Fan",
@@ -640,9 +636,7 @@
         "ARCEUS_STEEL_FORM": "Arceus - Steel",
         "ARCEUS_WATER_FORM": "Arceus - Water",
         "GIRATINA_ALTERED_FORM": "Giratina Altered",
-
         "GIRATINA_ORIGIN_FORM": "Giratina Origin",
-
         "VICTINI": "Victini",
         "SNIVY": "Snivy",
         "SERVINE": "Servine",
@@ -743,7 +737,7 @@
         "AMOONGUSS": "Amoonguss",
         "FRILLISH": "Frillish",
         "JELLICENT": "Jellicent",
-        "ALOMOMOLA": "Alomomla",
+        "ALOMOMOLA": "Alomomola",
         "JOLTIK": "Joltik",
         "GALVANTULA": "Galvantula",
         "FERROSEED": "Ferroseed",
@@ -816,8 +810,6 @@
         "KELDEO_RESOLUTE_FORM": "Resolute Keldeo",
         "MELOETTA_ARIA_FORM": "Aria Meloetta",
         "MELOETTA_PIROUETTE_FORM": "Pirouette Meloetta",
-
-      
         "MELTAN": "Meltan",
         "MELMETAL": "Melmetal",
         "BURMY_PLANT_FORM": "Burmy - Plant",
@@ -826,7 +818,6 @@
         "MEWTWO_A_FORM": "Armored Mewtwo",
         "MEWTWO_A_INTRO_FORM": "Armored Mewtwo (Intro)",
         "MEWTWO_NORMAL_FORM": "Mewtwo - Normal",
-
         "NORMAL_FORM": "Normal",
         "SHADOW_FORM": "Shadow",
         "PURIFIED_FORM": "Purified",
@@ -1247,7 +1238,6 @@
         "MOLTRES_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.MOLTRES)",
         "MOLTRES_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.MOLTRES)",
         "MOLTRES_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.MOLTRES)",
-
         "KANGASKHAN_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.KANGASKHAN)",
         "KANGASKHAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KANGASKHAN)",
         "KANGASKHAN_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.KANGASKHAN)",
@@ -1307,9 +1297,9 @@
         "SQUIRTLE_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.SQUIRTLE)",
         "CHARMANDER_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.CHARMANDER)",
         "BULBASAUR_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.BULBASAUR)",
-      "PINSIR_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.PINSIR)",
-      "PINSIR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PINSIR)",
-      "PINSIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.PINSIR)",
+        "PINSIR_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.PINSIR)",
+        "PINSIR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PINSIR)",
+        "PINSIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.PINSIR)",
         "PIKACHU_VS_2019_FORM": "Libre $t(constants:pokemon.PIKACHU)",
         "ONIX_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ONIX)",
         "ONIX_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ONIX)",
@@ -1360,8 +1350,8 @@
         "LINOONE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
         "PIKACHU_COPY_2019_FORM": "2019 $t(constants:pokemon.PIKACHU)",
         "VENUSAUR_COPY_2019_FORM": "2019 $t(constants:pokemon.VENUSAUR)",
-        "CHARIZARD_COPY_2019_FORM" : "2019 $t(constants:pokemon.CHARIZARD)",
-        "BLASTOISE_COPY_2019_FORM" : "2019 $t(constants:pokemon.BLASTOISE)",
+        "CHARIZARD_COPY_2019_FORM": "2019 $t(constants:pokemon.CHARIZARD)",
+        "BLASTOISE_COPY_2019_FORM": "2019 $t(constants:pokemon.BLASTOISE)",
         "CATERPIE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CATERPIE)",
         "CATERPIE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.CATERPIE)",
         "METAPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.METAPOD)",
@@ -2512,21 +2502,21 @@
         "DEFENSE_BUFF": "Defense Buff",
         "ACID_SPRAY": "Acid Spray",
         "LEAF_TORNADO": "Leaf Tornado",
-        "SKULL_BASH":"Skull Bash",
-        "EARTH_POWER":"Earth Power",
-        "CRABHAMMER":"Crabhammer",
-        "LUNGE":"Lunge",
-        "CRUSH_CLAW":"Crush Claw",
-        "OCTAZOOKA":"Octazooka",
-        "MIRROR_SHOT":"Mirror Shot",
-        "SUPER_POWER":"Superpower",
-        "FELL_STINGER":"Fell Stinger",
-        "LEECH_LIFE":"Leech Life",
-        "DRAIN_PUNCH":"Drain Punch",
-        "SHADOW_BONE":"Shadow Bone",
-        "MUDDY_WATER":"Muddy Water",
-        "BLAZE_KICK":"Blaze Kick",
-        "RAZOR_SHELL":"Razor Shell",
+        "SKULL_BASH": "Skull Bash",
+        "EARTH_POWER": "Earth Power",
+        "CRABHAMMER": "Crabhammer",
+        "LUNGE": "Lunge",
+        "CRUSH_CLAW": "Crush Claw",
+        "OCTAZOOKA": "Octazooka",
+        "MIRROR_SHOT": "Mirror Shot",
+        "SUPER_POWER": "Superpower",
+        "FELL_STINGER": "Fell Stinger",
+        "LEECH_LIFE": "Leech Life",
+        "DRAIN_PUNCH": "Drain Punch",
+        "SHADOW_BONE": "Shadow Bone",
+        "MUDDY_WATER": "Muddy Water",
+        "BLAZE_KICK": "Blaze Kick",
+        "RAZOR_SHELL": "Razor Shell",
         "WEATHER_BALL_FIRE": "Weather Ball",
         "WEATHER_BALL_ICE": "Weather Ball",
         "WEATHER_BALL_ROCK": "Weather Ball",
@@ -2599,7 +2589,7 @@
                 "label": "Dodge All Weave",
                 "description": "This uses an attack pattern strategy that assumes that the worst case 1.5s delay between attacks could happen every time. This strategy should be reproducible by a human."
             },
-            "PVP" : {
+            "PVP": {
                 "label": "PvP",
                 "description": "This strategy uses pvp mechanices."
             },
@@ -2610,7 +2600,6 @@
         },
         "dodge": {
             "label": "Dodge Strategy",
-
             "DODGE_100": {
                 "label": "Perfect Dodging",
                 "description": "Tries to dodge 100% of the time. This dodge strategy will almost never miss a dodge. You may still get hit in certain unavoidable situations such as when using a special move"
@@ -2663,8 +2652,8 @@
                 "description": "All Pokemon use the best charge move combinations. Up to 3 movesets are considered"
             },
             "SINGLE_MOVE_3": {
-                "label": "Single Charge Move - Top 3 ",
-                "description": "All Pokemon use the best charge moves without learning a second move. Up to 3 movesets are considered"
+                "label": "Single Charge Move - Current 3 ",
+                "description": "All Pokemon use the best charge moves without learning a second move. Up to 3 currently available movesets are considered"
             },
             "DUAL_MOVE_1": {
                 "label": "Top Dual Charge Moves",
@@ -2693,10 +2682,6 @@
             "CURRENT_DUAL_MOVE_3": {
                 "label": "Dual Charge Moves - Current 3",
                 "description": "All Pokemon use the best charge move combinations. Up to 3 currently available movesets are considered"
-            },
-            "SINGLE_MOVE_3": {
-                "label": "Single Charge Move - Current 3 ",
-                "description": "All Pokemon use the best charge moves without learning a second move. Up to 3 currently available movesets are considered"
             },
             "CURRENT_DUAL_MOVE_1": {
                 "label": "Top Current Dual Charge Moves",
@@ -2744,7 +2729,6 @@
                 "label": "$t(strategies.shield.SHIELD_2.label)",
                 "description": "$t(strategies.shield.SHIELD_2.description)"
             }
-
         },
         "defense": {
             "DEFENSE": {
@@ -2814,39 +2798,39 @@
     },
     "sorts": {
         "label": "Sort Order",
-        "OVERALL":{
+        "OVERALL": {
             "label": "$t(common:properties.overall)",
             "description": "A weighted strength score"
         },
         "POWER": {
             "label": "$t(common:properties.power)",
             "description": "The percent of opponents health removed within the time limit"
-        }, 
-        "WIN":{
+        },
+        "WIN": {
             "label": "$t(common:properties.win)",
             "description": "Chance of victory"
         },
-        "TIME":{
+        "TIME": {
             "label": "$t(common:properties.time)",
             "description": "Time to win assuming infinite number of Pokemon"
         },
-        "POTIONS":{
+        "POTIONS": {
             "label": "$t(common:properties.potions)",
             "description": "1 point for each potion and 5 points for each revive"
         },
-        "TDO":{
+        "TDO": {
             "label": "$t(common:properties.tdo)",
             "description": "Damage done per Pokemon"
         },
-        "ESTIMATOR":{
+        "ESTIMATOR": {
             "label": "$t(common:properties.estimator)",
             "description": "Approximate number of players required to win"
         },
-        "WEATHER":{
+        "WEATHER": {
             "label": "Weather",
             "description": "Best in weather"
         },
-        "DODGE_SPECIALS":{
+        "DODGE_SPECIALS": {
             "label": "Dodge Specials",
             "description": "Best when dodging"
         },
@@ -2980,7 +2964,6 @@
             "description": "Use the best level 40 Pokemon"
         }
     },
-
     "battlePartyTypes": {
         "label": "League",
         "COMBAT_LEAGUE_RAIDS_GYMS": {
@@ -3047,7 +3030,6 @@
             "label": "Silph Arena Kingdom Cup",
             "description": "The May Silph Arena Cup tournament."
         },
-
         "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
             "label": "Silph Arena Nightmare Cup",
             "description": "The June Silph Arena Cup tournament."
@@ -3104,10 +3086,8 @@
             "label": "Silph Arena Forest Cup",
             "description": "The May Silph Arena Season 2 Cup tournament."
         }
-
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"
 }
-
