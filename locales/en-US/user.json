@@ -286,24 +286,32 @@
         "renew": "Renew Your Subscription",
         "platform": {
             "ios": {
+                "title": "App Store Subscription",
                 "manageSubscription": "Manage this App Store subscription ",
                 "platformLink": "itms-apps://apps.apple.com/account/subscriptions",
-                "link": "https://apps.apple.com/account/subscriptions"
+                "link": "https://apps.apple.com/account/subscriptions",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
             },
             "android": {
+                "title": "Play Store Subscription",
                 "manageSubscription": "Manage this Play Store subscription",
                 "platformLink": "https://play.google.com/store/account/subscriptions",
-                "link": "https://play.google.com/store/account/subscriptions"
+                "link": "https://play.google.com/store/account/subscriptions",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
             },
             "stripe": {
+                "title": "Website Subscription",
                 "manageSubscription": "Manage this Stripe subscription on the website.",
                 "platformLink": "https://www.pokebattler.com/user/subscription",
-                "link": "https://www.pokebattler.com/user/subscription"
+                "link": "https://www.pokebattler.com/user/subscription",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
             },
             "patreon": {
+                "title": "Patreon Subscription",
                 "manageSubscription": "Manage this Patreon subscription",
                 "platformLink": "https://www.patreon.com/pokebattler",
-                "link": "https://www.patreon.com/pokebattler"
+                "link": "https://www.patreon.com/pokebattler",
+                "icon": "https://static.pokebattler.com/images/pokebattler_square.png"
             }
         },
         "statuses": {
@@ -332,8 +340,8 @@
                 "description": "Your Pokebattler membership was canceled.  Your last membership date was {{currentPeriodEnd}}."
             },
             "cancelled": {
-                "title": "t(userSubscription.statuses.canceled.title)",
-                "description": "t(userSubscription.statuses.canceled.description)"
+                "title": "$t(userSubscription.statuses.canceled.title)",
+                "description": "$t(userSubscription.statuses.canceled.description)"
             }
 
 
