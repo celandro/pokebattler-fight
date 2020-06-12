@@ -2243,7 +2243,9 @@
         "KYUREM": "Kyurem",
         "KELDEO": "Keldeo",
         "MELOETTA": "Meloetta",
-        "GENESECT": "Genesect"
+        "GENESECT": "Genesect",
+        "KYUREM_BLACK_FORM": "Kyurem Negro",
+        "KYUREM_WHITE_FORM": "Kyurem Blanco"
     },
     "moves": {
         "ACID_FAST": "Ácido",
