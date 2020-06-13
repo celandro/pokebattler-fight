@@ -2576,6 +2576,29 @@
                 "label": "Patron defensivo",
                 "description": "Se utiliza un patrón de intervalos y ataques para esta simulación única. Esto es usado internamente por Pokebattler para optimizar las simulaciones de Monte Carlo sin evasión"
             }
+        },
+        "shield": {
+            "SHIELD_2": {
+                "label": ""
+            }
+        },
+        "defenderShield": {
+            "SHIELD_RANDOM": {
+                "label": "$t(strategies.shield.SHIELD_RANDOM.label)",
+                "description": "$t(strategies.shield.SHIELD_RANDOM.description)"
+            },
+            "SHIELD_0": {
+                "label": "$t(strategies.shield.SHIELD_0.label)",
+                "description": "$t(strategies.shield.SHIELD_0.description)"
+            },
+            "SHIELD_1": {
+                "label": "$t(strategies.shield.SHIELD_1.label)",
+                "description": "$t(strategies.shield.SHIELD_1.description)"
+            },
+            "SHIELD_2": {
+                "label": "$t(strategies.shield.SHIELD_2.label)",
+                "description": "$t(strategies.shield.SHIELD_2.description)"
+            }
         }
     },
     "weatherConditions": {
@@ -2638,5 +2661,32 @@
     },
     "levelVs": "Atacante de nivel {{attackerLevel}} Vs. Defensor de nivel {{defenderLevel}}",
     "levelVsPokebox": "Atacante de Nivel{{attackerLevel}} Vs. Defensores de Pokebox número {{userId}}",
-    "pokeboxVsLevel": "Atacantes de Pokebox número {{userId}} Vs. Defensores nivel {{defenderLevel}}"
+    "pokeboxVsLevel": "Atacantes de Pokebox número {{userId}} Vs. Defensores nivel {{defenderLevel}}",
+    "generations": {
+        "label": "Generaciones",
+        "GEN_1": {
+            "label": "Gen 1"
+        },
+        "GEN_2": {
+            "label": "Gen 2"
+        },
+        "GEN_3": {
+            "label": "Gen 3"
+        },
+        "GEN_4": {
+            "label": "Gen 4"
+        },
+        "GEN_5": {
+            "label": "Gen 5"
+        },
+        "GEN_6": {
+            "label": "Gen 6"
+        },
+        "GEN_7": {
+            "label": "Gen 7"
+        },
+        "GEN_8": {
+            "label": "Gen 8"
+        }
+    }
 }
