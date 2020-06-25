@@ -160,14 +160,14 @@
         }
     },
     "raidParty": {
-        "title": "Pokebattler Raid Party Beta",
+        "title": "Pokebattler Raid Party",
         "meta": {
-            "description": "Pokebattler Raid Party is in open beta!  Designed to help you find your best Pokemon Go raid boss counters and know whether your party will win",
+            "description": "Pokebattler Raid Party v1.0 is here!  Designed to help you raid with confidence and minimal effort to defeat those raid bosses the first try. Pokebattler Raid Party App was created by Pokebattler.com to help organize and promote Pokemon Go raids by providing key features that are not provided by the game.",
             "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
         },
         "result": {
             "title": "Pokebattler Raid Party #{{raidPartyId}}",
-            "info": "Pokebattler Raid Party is currently only available in app form as an open beta. Website and final release coming soon! To see this raid party, simply download the open beta, login and reload this page.",
+            "info": "Pokebattler Raid Party is currently only available in app form. Website version coming soon! To see this raid party, simply download the app, login and reload this page.",
             "deepLink": "If you have the app installed, this page should automatically open the app. On IOS, you may need to open this link in Safari and pull down the page for the open in Pokebattler Raid Party to appear.",
             "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}."
         },
