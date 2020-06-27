@@ -172,19 +172,19 @@
             "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}."
         },
         "download": {
-            "installation": "Installation Instructions",
+            "installation": "Download the Pokebattler Raid Party App for your device",
             "android": {
-                "title":"Android Open Beta",
-                "subtitle": "Click and Accept the Invite Then Download from the Play Store in the 'My Apps & Games' Beta Tab"
+                "title":"Android",
+                "subtitle": "Download from the Play Store"
             },
             "ios": {
-                "title": "iOS Open Beta",
-                "subtitle": "Install TestFlight from the App Store, then Click to Install"
+                "title": "iOS",
+                "subtitle": "Download from the Apple App Store"
             }
         },
         "screenshots": {
-            "title": "Screenshots from the release candidate",
-            "description": "A peek at what you will find in the Pokebattler Raid Party App. Additional functionality is being added rapidly, download the app to see the newest features"
+            "title": "Prepare for remote raids with friends",
+            "description": "Here are just a few of the features in the Pokebattler Raid Party App. Additional functionality is being added rapidly, download the app to see the newest features"
         }
     },
     "pokebox": {
