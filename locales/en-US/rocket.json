@@ -243,6 +243,11 @@
             "subtitle": "Team GO Rocket",
             "intro": "ROAR! ...How'd that sound?"
         },
+        "CHARACTER_DARK_GRUNT_FEMALE": {
+            "title": "Dark Grunt ♀",
+            "subtitle": "Team GO Rocket",
+            "intro": "Wherever there is light, there is also shadow."
+        },
         "CHARACTER_GRUNT_MALE": {
             "title": "Starter Grunt",
             "subtitle": "Team GO Rocket",
