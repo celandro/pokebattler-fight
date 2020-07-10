@@ -54,6 +54,7 @@
         },
         "description": "You have been successfully logged out. Come back later on any device and your Pokebox will be there waiting for you!",
         "back": "Back to login",
+        "connectAccount": "Connect Account",
         "button": "Logout"
     },
     "subscribed": {
@@ -143,7 +144,8 @@
                 "subtitle": "You will be charged ${{cost}} each month after your {{trialPeriodDays}} day free trial.",
                 "discount": "Save by selecting a multi month plan",
                 "shortTitle": "1 Month",
-                "monthlyPrice": "Buy a single month. Save by selecting a multi month plan!"            },
+                "monthlyPrice": "Buy a single month. Save by selecting a multi month plan!"
+            },
             "3month": {
                 "title": "3 months - ${{intervalCost}}/mo",
                 "subtitle": "You will be charged ${{cost}} every 3 months after your {{trialPeriodDays}} day free trial.",
