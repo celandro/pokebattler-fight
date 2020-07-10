@@ -2303,7 +2303,10 @@
         "PERRSERKER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING)",
         "PERRSERKER_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.WEEZING)",
         "SIRFETCHD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING)",
-        "SIRFETCHD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.WEEZING)"
+        "SIRFETCHD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.WEEZING)",
+        "PIKACHU_COSTUME_2020_FORM": "Flying Pikachu",
+        "DRAGONITE_COSTUME_2020_FORM": "2020 Event Dragonite",
+        "ONIX_COSTUME_2020_FORM": "2020 Event Onix"
     },
     "moves": {
         "undefined": "Undefined",
@@ -2477,7 +2480,7 @@
         "THUNDER_SHOCK_FAST": "Thunder Shock",
         "TRANSFORM_FAST": "Transform",
         "TWISTER": "Twister",
-        "VICE_GRIP": "Vice Grip",
+        "VICE_GRIP": "Vise Grip",
         "VINE_WHIP_FAST": "Vine Whip",
         "VOLT_SWITCH_FAST": "Volt Switch",
         "WATERFALL_FAST": "Waterfall",
@@ -2562,7 +2565,14 @@
         "FLYING_PRESS": "Flying Press",
         "AURA_SPHERE": "Aura Sphere",
         "PAYBACK": "Payback",
-        "ROCK_WRECKER": "Rock Wrecker"
+        "ROCK_WRECKER": "Rock Wrecker",
+        "AEROBLAST": "Aeroblast",
+        "TECHNO_BLAST_NORMAL": "Techno Blast",
+        "TECHNO_BLAST_BURN": "Techno Blast Burn",
+        "TECHNO_BLAST_CHILL":"Techno Blast Chill",
+        "TECHNO_BLAST_WATER":"Techno Blast Water",
+        "TECHNO_BLAST_SHOCK":"Techno Blast Shock",
+        "FLY": "Fly"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",

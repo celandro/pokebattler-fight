@@ -145,6 +145,25 @@
             "intro4": "You’ve made it this far. Let me see just how strong you are.",
             "intro5": "You will never defeat Team GO Rocket."
         },
+        "CHARACTER_GRUNTB_MALE": {
+            "title": "James",
+            "subtitle": "Team GO Rocket Balloon",
+            "intro": "To unite all people within our nation!",
+            "intro2": "",
+            "intro3": "",
+            "intro4": "",
+            "intro5": ""
+        },
+        "CHARACTER_GRUNTB_FEMALE": {
+            "title": "Jessie",
+            "subtitle": "Team GO Rocket Balloon",
+            "intro": "To protect the world from devastation!",
+            "intro2": "",
+            "intro3": "",
+            "intro4": "",
+            "intro5": ""
+        },
+
         "CHARACTER_NORMAL_GRUNT_MALE": {
             "title": "Normal Grunt ♂",
             "subtitle": "Team GO Rocket",
@@ -246,8 +265,8 @@
             "intro2": "I can’t believe you fell for it!",
             "intro3": "In the name of the boss, I’ll destroy you!",
             "intro4": "You’ll never get to him!",
-            "intro5": "It feels good to see you disappointed."        },
-
+            "intro5": "It feels good to see you disappointed."
+        },
         "CHARACTER_DECOY_GRUNT_FEMALE": {
             "title": "Decoy Grunt ♀",
             "subtitle": "Boss Decoy",
