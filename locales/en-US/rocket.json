@@ -149,19 +149,19 @@
             "title": "James",
             "subtitle": "Team GO Rocket Balloon",
             "intro": "To unite all people within our nation!",
-            "intro2": "",
-            "intro3": "",
-            "intro4": "",
-            "intro5": ""
+            "intro2": "To extend our reach to the stars above!",
+            "intro3": "Hey, would you like to join Team Rocket?",
+            "intro4": "You’ll regret this!",
+            "intro5": "Surrender now, or prepare to fight!"
         },
         "CHARACTER_GRUNTB_FEMALE": {
             "title": "Jessie",
             "subtitle": "Team GO Rocket Balloon",
             "intro": "To protect the world from devastation!",
-            "intro2": "",
-            "intro3": "",
-            "intro4": "",
-            "intro5": ""
+            "intro2": "To denounce the evils of truth and love!",
+            "intro3": "Hey, do you want to join Team Rocket?",
+            "intro4": "The Boss’s Persian is so elegant...",
+            "intro5": "Who are these Team GO Rocket Leaders, anyway?"
         },
 
         "CHARACTER_NORMAL_GRUNT_MALE": {
