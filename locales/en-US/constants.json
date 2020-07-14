@@ -2309,7 +2309,12 @@
         "SIRFETCHD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.WEEZING)",
         "PIKACHU_COSTUME_2020_FORM": "Flying Pikachu",
         "DRAGONITE_COSTUME_2020_FORM": "2020 Event Dragonite",
-        "ONIX_COSTUME_2020_FORM": "2020 Event Onix"
+        "ONIX_COSTUME_2020_FORM": "2020 Event Onix",
+        "NOEVOLVE_FORM": "No Evolve",
+        "MISSINGNO": "MissingNo",
+        "RATICATE_SPRING": "Spring Raticate",
+        "WOBBUFFET_SPRING": "Spring Wobbuffet",
+        "WURMPLE_SPRING": "Spring Wurmple"
     },
     "moves": {
         "undefined": "Undefined",
