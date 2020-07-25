@@ -179,6 +179,7 @@
         "update": "Updating your pokemon",
         "success": "Success",
         "network": "Network error. Network connection is required for this app.",
+        "serverDown": "Pokebattler servers are down. They will be back shortly",
         "appUpdate": "Minor app update failed. Will try again next time you open the app",
         "error": "Oops, something went wrong. Try again in a couple seconds.",
         "newVersion": "A new version is available, reload your browser.",
