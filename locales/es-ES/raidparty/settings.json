@@ -1,0 +1,34 @@
+{
+    "title": "Preferencias",
+    "form": {
+        "basics": "Información Básica",
+        "playerName": "Nombre Entrenador",
+        "playerLevel": "Nivel",
+        "playerFaction": "Facción",
+        "autoRaidParty": "Grupo de Incursión Automático",
+        "includeShadow": "Oscuros",
+        "includeLegendary": "Legendarios",
+        "weather": "Clima",
+        "sort": "Ordenar",
+        "friendLevel": "Nivel de Amistad",
+        "discordUsername": "Usuario Discord",
+        "language": "Idioma",
+        "disclaimerText": "Problemas para enlazarse? Envie un email a admin@pokebattler.com con ambos identificadores de usuario de Pokebattler",
+        "raidCounterSettings": "Configuración de Atacantes de Incursión"
+    },
+    "autoRaidPartyOptions": {
+        "BATTLE_PARTY_POKEBOX": "Pokebox",
+        "BATTLE_PARTY_LEVEL_20": "Nivel 20",
+        "BATTLE_PARTY_LEVEL_25": "Nivel 25",
+        "BATTLE_PARTY_LEVEL_30": "Nivel 30",
+        "BATTLE_PARTY_LEVEL_35": "Nivel 35",
+        "BATTLE_PARTY_LEVEL_40": "Nivel 40"
+    },
+    "updateSetting": {
+        "success": "Preferencias de usuario actualizadas correctamente",
+        "autoBattleParty": "Contadores de brujas a tu Pokebox",
+        "errors": {
+            "updateSettingGeneral": "Ocurrió un error actualizando tus preferencias"
+        }
+    }
+}

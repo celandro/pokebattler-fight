@@ -1,0 +1,73 @@
+{
+    "title": "Pokebox",
+    "errors": {
+      "failed": "No se pudo cargar la Pokebox"
+    },
+    "add": {
+      "title": "Nuevo Pokemon",
+      "failed": "La adición de este Pokemon falló",
+      "autocomplete": "Ingrese Nombre de Pokemon o Tipo"
+    },
+    "edit": {
+      "title": "Editar Pokemon",
+      "failed": "La edición de este Pokemon falló"
+    },
+    "delete": {
+      "title": "Eliminar Pokemon",
+      "failed": "La remoción de este Pokemon falló"
+    },
+    "pokeform": {
+      "cp": {
+        "label": "PC"
+      },
+      "nickname": {
+        "label": "Alias"
+      },
+      "quickMove": {
+        "label": "Ataque Rápido",
+        "placeholder": "$t(common:placeholders.dropdown.required)"
+      },
+      "cinematicMove": {
+        "label": "Ataque Cargado",
+        "placeholder": "$t(common:placeholders.dropdown.required)"
+      },
+      "cinematicMove2": {
+        "label": "Segundo Ataque Cargado",
+        "placeholder": "$t(common:placeholders.dropdown.optional)"
+      },
+      "individualAttack": {
+        "label": "Ataque",
+        "placeholder": "$t(common:placeholders.dropdown.optional)"
+      },
+      "individualDefense": {
+        "label": "Defensa",
+        "placeholder": "$t(common:placeholders.dropdown.optional)"
+      },
+      "individualStamina": {
+        "label": "Salud",
+        "placeholder": "$t(common:placeholders.dropdown.optional)"
+      },
+      "level": {
+        "label": "Nivel",
+        "placeholder": "$t(common:placeholders.dropdown.optional)"
+      },
+  
+      "submit": {
+        "label": "$t(common:buttons.create)"
+      },
+      "edit": {
+        "label": "$t(common:save)"
+      }
+    },
+    "poketile": {
+      "cp": "$t(cp)",
+      "temporary": "Guardando al servidor"
+    },
+    "noPokemon": {
+      "title": "No se encontraron Pokemon",
+      "clearFilter": "Limpiar filtro de búsqueda",
+      "description": "Pokebattler Raid Party requiere que agregues tus mejores Pokemon de forma de encontrar los mejores atacantes! Mientras más agregues, más precisas serán las sugerencias de los equipos de incursiones!",
+      "addPokemon": "Agrega Pokemon clickeando en el botón Agregar en la esquina inferior derecha."
+    }
+  }
+  

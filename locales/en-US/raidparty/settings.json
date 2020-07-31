@@ -1,0 +1,71 @@
+{
+    "title": "Settings",
+    "form": {
+        "basics": "Basics",
+        "playerName": "Trainer Name",
+        "playerLevel": "Level",
+        "playerFaction": "Faction",
+        "autoRaidParty": "Counters",
+        "includeShadow": "Shadow",
+        "includeLegendary": "Legendary",
+        "weather": "Weather",
+        "sort": "Sort",
+        "friendLevel": "Friendship",
+        "discordUsername": "Discord Username",
+        "language": "Language",
+        "disclaimerText": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids",
+        "raidCounterSettings": "Raid Counter Settings",
+        "friendCode": "Friend Code"
+    },
+    "autoRaidPartyOptions": {
+        "BATTLE_PARTY_POKEBOX": "Pokebox",
+        "BATTLE_PARTY_LEVEL_20": "Level 20",
+        "BATTLE_PARTY_LEVEL_25": "Level 25",
+        "BATTLE_PARTY_LEVEL_30": "Level 30",
+        "BATTLE_PARTY_LEVEL_35": "Level 35",
+        "BATTLE_PARTY_LEVEL_40": "Level 40"
+    },
+    "updateSetting": {
+        "success": "User settings updated correctly",
+        "autoBattleParty": "Switching counters to your Pokebox",
+        "errors": {
+            "updateSettingGeneral": "There was an error updating your settings",
+            "friendCodeLength": "Friend code must be exactly 12 numbers long"
+        }
+    },
+    "notifications": {
+        "groups": {
+            "raidParty": {
+                "name": "Raid party",
+                "description": "Informs you of raids you are interested in"
+            }
+        },
+        "channels": {
+            "create": {
+                "name": "Create raid party",
+                "description": "Raid party creation by your friends."
+            },
+            "update": {
+                "name": "Update raid party",
+                "description": "Setting changes for your Raid Parties."
+            },
+            "delete": {
+                "name": "Cancel raid party",
+                "description": "Raid party cancelled."
+            },
+            "addUser": {
+                "name": "User joined party",
+                "description": "User joined  your raid party."
+            },
+            "removeUser": {
+                "name": "User left party",
+                "description": "User left your raid party."
+            },
+            "updateUser": {
+                "name": "User updated party",
+                "description": "User in your party updated their settings."
+            }
+        }
+
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "title": "Settings",
+    "form": {
+        "playerName": "Trainer Name",
+        "playerLevel": "Level",
+        "playerFaction": "Faction",
+        "autoRaidParty": "Auto Raid Party",
+        "discordUsername": "Discord Username",
+        "language": "Language"
+    },
+    "autoRaidPartyOptions": {
+        "BATTLE_PARTY_POKEBOX": "Pokebox",
+        "BATTLE_PARTY_LEVEL_20": "Level 20",
+        "BATTLE_PARTY_LEVEL_25": "Level 25",
+        "BATTLE_PARTY_LEVEL_30": "Level 30",
+        "BATTLE_PARTY_LEVEL_35": "Level 35",
+        "BATTLE_PARTY_LEVEL_40": "Level 40"
+    },
+    "updateSetting": {
+        "success": "User settings updated correctly",
+        "errors": {
+            "updateSettingGeneral": "There was an error updating your settings"
+        }
+    }
+}
