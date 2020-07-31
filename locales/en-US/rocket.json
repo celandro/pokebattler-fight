@@ -145,6 +145,24 @@
             "intro4": "You’ve made it this far. Let me see just how strong you are.",
             "intro5": "You will never defeat Team GO Rocket."
         },
+        "CHARACTER_GRUNTB_MALE": {
+            "title": "James",
+            "subtitle": "Team GO Rocket Balloon",
+            "intro": "To unite all people within our nation!",
+            "intro2": "To extend our reach to the stars above!",
+            "intro3": "Hey, would you like to join Team Rocket?",
+            "intro4": "You’ll regret this!",
+            "intro5": "Surrender now, or prepare to fight!"
+        },
+        "CHARACTER_GRUNTB_FEMALE": {
+            "title": "Jessie",
+            "subtitle": "Team GO Rocket Balloon",
+            "intro": "To protect the world from devastation!",
+            "intro2": "To denounce the evils of truth and love!",
+            "intro3": "Hey, do you want to join Team Rocket?",
+            "intro4": "The Boss's Persian is so elegant...",
+            "intro5": "Who are these Team GO Rocket Leaders, anyway?"
+        },
         "CHARACTER_NORMAL_GRUNT_MALE": {
             "title": "Normal Grunt ♂",
             "subtitle": "Team GO Rocket",
@@ -225,6 +243,11 @@
             "subtitle": "Team GO Rocket",
             "intro": "ROAR! ...How'd that sound?"
         },
+        "CHARACTER_DARK_GRUNT_FEMALE": {
+            "title": "Dark Grunt ♀",
+            "subtitle": "Team GO Rocket",
+            "intro": "Wherever there is light, there is also shadow."
+        },
         "CHARACTER_GRUNT_MALE": {
             "title": "Starter Grunt",
             "subtitle": "Team GO Rocket",
@@ -246,8 +269,8 @@
             "intro2": "I can’t believe you fell for it!",
             "intro3": "In the name of the boss, I’ll destroy you!",
             "intro4": "You’ll never get to him!",
-            "intro5": "It feels good to see you disappointed."        },
-
+            "intro5": "It feels good to see you disappointed."
+        },
         "CHARACTER_DECOY_GRUNT_FEMALE": {
             "title": "Decoy Grunt ♀",
             "subtitle": "Boss Decoy",

@@ -1,0 +1,30 @@
+{
+  "title": "Pokebox",
+  "errors": {
+    "failed": "Konnte Pokebox nicht laden"
+  },
+  "add": {
+    "title": "Neues Pokemon",
+    "failed": "Leider hat das Hinzufügen des Pokemons nicht geklappt"
+  },
+  "pokeform": {
+    "cp": {
+      "label": "WP"
+    },
+    "nickname": {
+      "label": "Spitzname"
+    },
+    "quickMove": {
+      "label": "Schnellattacke"
+    },
+    "cinematicMove": {
+      "label": "Ladeattacke"
+    },
+    "cinematicMove2": {
+      "label": "Zweite Ladeattacke"
+    }
+  },
+  "poketile": {
+    "temporary": "Speichere auf dem Server"
+  }
+}

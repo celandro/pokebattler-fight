@@ -1,0 +1,90 @@
+{
+  "title": "Pokebox",
+  "errors": {
+    "failed": "Couldn't load Pokebox"
+  },
+  "add": {
+    "title": "New Pokemon",
+    "failed": "Could not add this pokemon",
+    "full": "Your pokebox is full. Subscribe for more server storage",
+    "autocomplete": "Enter Pokemon Name Or Type"
+  },
+  "edit": {
+    "title": "Edit Pokemon",
+    "full": "Your pokebox is overflowing. Resubscribe or delete excess Pokemon",
+    "failed": "Sadly editing this pokemon failed"
+  },
+  "delete": {
+    "title": "Delete Pokemon",
+    "failed": "Sadly deleting this pokemon failed"
+  },
+  "bulkImport": {
+    "title": "Bulk Import Pokemon",
+    "failed": "Sadly bulk importing pokemon failed",
+    "selectAll":"Select All",
+    "clearSelection": "Clear Selection",
+    "importNPokemon": "Import {{count}}/{{total}}",
+    "beginImport": "Begin Import",
+    "paste": "Paste"
+  },
+  "bulkDelete": {
+    "title": "Bulk Delete Pokemon",
+    "failed": "Sadly bulk deleting pokemon failed",
+    "selectAll": "Select All",
+    "clearSelection": "Clear Selection",
+    "deleteNPokemon": "Delete {{count}} pokemon"
+  },
+
+  "pokeform": {
+    "cp": {
+      "label": "Cp"
+    },
+    "nickname": {
+      "label": "Nickname"
+    },
+    "quickMove": {
+      "label": "Quick Move",
+      "placeholder": "$t(common:placeholders.dropdown.required)"
+    },
+    "cinematicMove": {
+      "label": "Charge Move",
+      "placeholder": "$t(common:placeholders.dropdown.required)"
+    },
+    "cinematicMove2": {
+      "label": "Second Charge Move",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualAttack": {
+      "label": "Attack",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualDefense": {
+      "label": "Defense",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualStamina": {
+      "label": "Stamina",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "level": {
+      "label": "Level",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "submit": {
+      "label": "$t(common:buttons.create)"
+    },
+    "edit": {
+      "label": "$t(common:save)"
+    }
+  },
+  "poketile": {
+    "cp": "$t(cp)",
+    "temporary": "Saving to server"
+  },
+  "noPokemon": {
+    "title": "No Pokemon Found",
+    "clearFilter": "Clear Search Filter",
+    "description": "Pokebattler Raid Party requires you to add your best Pokemon in order to find the best counters! The more you add, the more accurate the raid party suggestions will be!",
+    "addPokemon": "Add pokemon by clicking on the add button in the bottom right."
+  }
+}

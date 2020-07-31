@@ -1,0 +1,85 @@
+{
+    "title": "Jefes de Incursiones",
+    "selectWeather": "Elige Clima",
+    "countersTitle": "Tus Atacantes",
+    "createParty": "Crear Equipo",
+    "loadParty": "Ver Equipo de Incursión #{{id}}",
+    "joinParty": "Unirse a Equipo",
+    "viewParty": "Ver Equipo",
+    "actionButtonsDescription": "Simula tu grupo de incursión",
+    "quickSettings": {
+        "title": "Configuración Rápida"
+    },
+    "counters": {
+        "title": "{{defender}} - Atacantes",
+        "description": "Estos son tus mejores 6 atacantes para derrotar al jefe de incursiones {{tier}} {{defender}}. Clickea Crear Equipo o Unirse a Equipo para obtener ayuda en derrotar a este jefe!",
+        "rejoin": "Reunido en {{rejoinSeconds}}s",
+        "settings": {
+            "suggestPokebox": "Una vez que te acostumbres a esto, deberías ajustar tus configuraciones para utilizar tu Pokebox, la que puedes completar rápidamente desde la pestaña Alternativas",
+            "BATTLE_PARTY_LEVEL_20": "Utilizando los mejores atacantes de nivel 20. Esta es una gran configuración por defecto para iniciar.   $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_25": "Utilizando los mejores atacantes de nivel 25.  $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_30": "Utilizando los mejores atacantes de nivel 30.  $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_35": "Utilizando los mejores atacantes de nivel 35.  $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_40": "Utilizando los mejores atacantes de nivel 40.  $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox la que puedes completar rápidamente desde la pestaña Alternativas."
+        },
+        "details": {
+            "title": "Detalles de Combate",
+            "description" :"Pokebattler realizó 200 simulaciones de combate de incursión para cada posible atacante para elegir cuáles Pokemon usar. Los 6 primeros fueron ejecutados en 200 simulaciones. Lo siguiente son los detalles de combate salidos de un resultado típico."
+        }
+    },
+    "alternatives": {
+        "description": "Estos son tus 6 mejores atacantes para derrotar a un jefe de incursión {{tier}} {{defender}}. Agrega Pokemon alternativos a tu equipo abajo!"
+    },
+    "joinPartyDialog": {
+        "title": "Unirse a Equipo",
+        "description": "Ingresa el identificador del equipo de tu amigo para ver tus resultados del equipo de incursión",
+        "partyIdPlaceholder": "Pokebattler Raid Party #",
+        "join": "Unirse",
+        "cancel": "Cancelar",
+        "fetch": "Obtener",
+        "errors": {
+            "pokemonMismatch": "Equipo de Incursión {{id}} es para {{raidPartyPokemon}}, no {{pokemon}}."
+        }
+    },
+    "multiParty": {
+        "title": "#{{id}} {{defender}}"
+    },    
+    "raidPartyCard": {
+        "title": "Equipo de {{ownerName}}",
+        "id": "#{{id}}",
+        "sumamry": "{{players}} jugadores se unieron. Creada el {{createdAt}}"
+    },
+    "raidPartyPlayer": {
+        "title": "{{name}}",
+        "id": "#{{id}}"
+    },
+    "raidPartyActions": {
+        "errors": {
+            "createRaidPartyGeneral": "El Equipo de incursión no pudo ser creado para {{raidPartyPokemon}}",
+            "updateRaidPartyGeneral": "El Equipo de incursión no pudo ser actualizado para {{raidPartyPokemon}}",
+            "fetchRaidPartyGeneral": "El Equipo de incursión no pudo ser encontrado para {{raidPartyPokemon}}",
+            "getRaidResultsGeneral": "Los resultados de la incursión para el equipo {{raidPartyId}} no pudieron ser obtenidos",
+            "removeUserFromRaidPartyGeneral": "No pudo abandonar el equipo {{raidPartyId}}",
+            "addUserToRaidPartyGeneral": "No pudo unirse al equipo {{raidPartyId}}"
+        }
+    },
+    "errors": {
+        "failed": "Falló al cargar jefes de incursiones!",
+        "party": "Falló al encontrar un equipo óptimo",
+        "rankings": "Falló al obtener clasificaciones de atacantes"
+    },
+    "chips" : {
+        "estimator": "Jugadores Req.",
+        "power": "Daño de Grupo",
+        "deaths": "Pokemon Debilit.",
+        "tdo": "Daño Inflingido",
+        "win": "Oportunidad de Victoria",
+        "time": "Tiempo de Combate"
+   },
+   "breakingNews": {
+       "from": "Desde",
+       "until": "Hasta",
+       "localTime": "HORA LOCAL"
+   }
+}

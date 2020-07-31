@@ -1,0 +1,38 @@
+{
+    "title": "Raid Parties",
+    "result": {
+        "title": "#{{id}} {{defender}}"
+    },
+    "raidPartyCard": {
+        "title": "{{ownerName}}'s Party",
+        "id": "#{{id}}",
+        "sumamry": "{{players}} players have joined. Created at {{createdAt}}"
+    },
+    "raidPartyPlayer": {
+        "title": "{{name}}",
+        "id": "#{{id}}"
+    },
+    "raidPartyActions": {
+        "errors": {
+            "createRaidPartyGeneral": "Raid party could not be created for {{raidPartyPokemon}}",
+            "updateRaidPartyGeneral": "Raid party could not be updated for {{raidPartyPokemon}}",
+            "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyPokemon}}",
+            "getRaidResultsGeneral": "Raid results from party {{raidPartyId}} could not be retrieved",
+            "removeUserFromRaidPartyGeneral": "You could not leave the party {{raidPartyId}}",
+            "addUserToRaidPartyGeneral": "You could not join to party {{raidPartyId}}"
+        }
+    },
+    "share": {
+        "title": "{{name}} #{{id}}",
+        "message": "Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
+        "friendMessage": "{{friendCode}} (Pastable Friend Code) - Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
+        "error": "Error sharing raid party"
+    },
+    "noRaidParty": {
+        "title": "No Raid Parties Created",
+        "description": "Pokebattler Raid Parties are a quick and easy way to know whether you will beat a raid boss with your friends. To get started, click on a raid and click Join Raid Party",
+        "addRaidParty": "Current Raids"
+    },
+    "refresh": "Refresh",
+    "placeholder": "Enter custom boss to simulate"
+}

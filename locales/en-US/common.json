@@ -24,9 +24,11 @@
             "optional": "Optional"
         }
     },
+    "search": "Search",
     "back": "Back",
     "save": "Save",
     "cancel": "Cancel",
+    "update": "Update",
     "clear": "Clear",
     "delete": "Delete",
     "reset": "Reset",
@@ -52,6 +54,7 @@
     "id": "Id",
     "seconds": "Seconds",
     "find": "Find",
+    "version": "Version {{version}}",
     "rejoin": {
         "label": "Rejoin Time",
         "default": "Never"
@@ -72,6 +75,7 @@
         "hp": "HP"
     },
     "level": "Level",
+    "auto": "Auto",
     "basic": "Basic",
     "advanced": "Advanced",
     "move": "Move",
@@ -129,6 +133,7 @@
     "faction": "Faction",
     "mystic": "Mystic",
     "valor": "Valor",
+    "harmony": "Harmony",
     "instinct": "Instinct",
     "ivs": "IVs",
     "trainerName": "Trainer Name",
@@ -173,8 +178,12 @@
         "deleteAll": "Removing all Pokemon from your Pokebox",
         "update": "Updating your pokemon",
         "success": "Success",
+        "network": "Network error. Network connection is required for this app.",
+        "serverDown": "Pokebattler servers are down. They will be back shortly",
+        "appUpdate": "Minor app update failed. Will try again next time you open the app",
         "error": "Oops, something went wrong. Try again in a couple seconds.",
         "newVersion": "A new version is available, reload your browser.",
+        "newAppVersion": "A new version is available",
         "subscriptionStripe": "Verifying credentials",
         "subscriptionPokebattler": "Purchasing subscription",
         "subscriptionSuccess": "Successfully purchased subscription",

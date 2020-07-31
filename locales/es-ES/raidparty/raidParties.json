@@ -1,0 +1,36 @@
+{
+    "title": "Equipos de Incursión",
+    "result": {
+        "title": "#{{id}} {{defender}}"
+    },
+    "raidPartyCard": {
+        "title": "Equipo de {{ownerName}}",
+        "id": "#{{id}}",
+        "sumamry": "{{players}} jugadores se han unido. Creada el {{createdAt}}"
+    },
+    "raidPartyPlayer": {
+        "title": "{{name}}",
+        "id": "#{{id}}"
+    },
+    "raidPartyActions": {
+        "errors": {
+            "createRaidPartyGeneral": "El Equipo de incursión no pudo ser creado para {{raidPartyPokemon}}",
+            "updateRaidPartyGeneral": "El Equipo de incursión no pudo ser actualizado para {{raidPartyPokemon}}",
+            "fetchRaidPartyGeneral": "El Equipo de incursión no pudo ser encontrado para {{raidPartyPokemon}}",
+            "getRaidResultsGeneral": "Los resultados de la incursión para el equipo {{raidPartyId}} no pudieron ser obtenidos",
+            "removeUserFromRaidPartyGeneral": "No pudo abandonar el equipo {{raidPartyId}}",
+            "addUserToRaidPartyGeneral": "No pudo unirse al equipo {{raidPartyId}}"
+        }
+    },
+    "share": {
+        "title": "{{name}} #{{id}}",
+        "message": "Únete al equipo de incursión #{{id}} para $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) ",
+        "error": "Error al compartir el equipo de incursión"
+    },
+    "noRaidParty": {
+        "title": "No hay Equipos de incursión creados",
+        "description": "Los Equipos de Incursión de Pokebattler son una forma rápida y sencilla para averiguar si vas a derrotar a un jefe de incursión con tus amigos. Para iniciar, clickea en una incursión y luego en Unirse a Equipo",
+        "addRaidParty": "Incursiones actuales"
+    },
+    "refresh": "Actualizar"
+}

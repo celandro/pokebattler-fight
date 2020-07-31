@@ -1,4 +1,5 @@
 {
+    "search": "Buscar",
     "back": "Volver",
     "save": "Guardar",
     "cancel": "Cancelar",
@@ -49,7 +50,10 @@
         "time": "Tiempo para Ganar",
         "realTime": "Tiempo",
         "prestige": "Prestigio",
+        "recent": "Reciente",
         "dps": "DPS",
+        "dpe": "DPE",
+        "eps": "EPS",
         "potions": "Pociones",
         "damage": "Daño",
         "energy": "Energía",
@@ -64,7 +68,7 @@
         "stardust": "Polvos Estelares",
         "candy": "Caramelos",
         "tdo": "Daño (TDO)",
-        "maxCP": "Max $t(common:cp)",
+        "maxCP": "Máx $t(common:cp)",
         "level": "$t(common:level)"
     },
     "sectionLinks": {
@@ -85,6 +89,7 @@
     "faction": "Equipo",
     "mystic": "Sabiduría",
     "valor": "Valor",
+    "harmony": "Armonía",
     "instinct": "Instinto",
     "ivs": "IVs",
     "trainerName": "Nombre del Entrenador",

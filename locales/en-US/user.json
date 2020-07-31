@@ -6,15 +6,19 @@
     "description": "Create a free account to access your Pokebox and get free personalized counters!",
     "explanation": "Pokebattler does not and can not log in to your Pokemon Go account. We do not connect to Niantic servers in any way. Pokebattler only uses this login to know who you are across all your devices. You can login on your phone or tablet or computer and see all the Pokemon that you have entered into our site. We do not share your information or use it for marketing purposes or any other way.",
     "privacy": "For more information, see our privacy policy",
-    "loading": "Loading User Data",
+    "loading": "Fetching Pokebattler Data",
     "user": "User",
     "login": {
+        "connect": "Connect Your Account",
         "autoCreate": "Authenticating will automatically create your Pokebattler account and log you in",
         "google": "Sign in with Google",
         "facebook": "Continue with Facebook",
         "discord": "Log in with Discord",
         "patreon": "Log in with Patreon",
         "patreonDescription": "Pokebattler now supports direct Stripe subscriptions! We highly encourage current Patreon subscribers to migrate to the new subscription plans. Users from countries that Stripe does not support such as Brazil and Mexico as well as users who want to pay through Paypal should continue to use Patreon.",
+        "device": "Skip",
+        "loginReason": "Log in to enable cross device and platform functionality for your account on the Pokebattler.com website and with third party apps such as discord bots",
+        "emailReason": "Pokebattler uses your email address for account linking and customer support purposes only.",
         "success": {
             "title": "Logged in Successfully",
             "fromApi": "$t(login.success.title)! Please wait a moment to continue."
@@ -50,6 +54,7 @@
         },
         "description": "You have been successfully logged out. Come back later on any device and your Pokebox will be there waiting for you!",
         "back": "Back to login",
+        "connectAccount": "Connect Account",
         "button": "Logout"
     },
     "subscribed": {
@@ -88,6 +93,21 @@
             "description": "Pokebattler is made free to use for all through the generous subscriptions of people just like you! Subscribing disables advertisements and unlocks powerful features to help you beat that raid boss or your friends in pvp!",
             "image": "https://static.pokebattler.com/images/og_user_subscription.png"
         },
+        "app": {
+            "description": "Pokebattler subscriptions provide enhanced functionality and more detailed analytics to enhance your experience. Subscriptions work across all your devices, app, mobile web and desktop. Pokebattler subscriptions are connected to the account you are logged in with.",
+            "allDevices": "Features",
+            "desktopOnly": "Desktop Only Features",
+            "support": {
+                "description": "Having problems with your subscription?  Pokebattler subscriptions are connected to the account you were logged in with at purchase time. Contact support with your old and new Pokebattler ids to merge your accounts",
+                "restorePurchases": "Restore Purchases",
+                "contactSupport": "Contact Support"
+            },
+            "restore": {
+                "begin": "Reprocessing transactions",
+                "complete": "Reprocessing complete",
+                "noneFound": "No prior purchases on this Apple Id"
+            }
+        },
         "paymentRequest": "One Click Subscribe",
         "paymentRequestDescription": "One Click Subscribe is supported on most mobile devices. You can also choose to enter in your information below instead",
         "currentProduct": "Current Benefits",
@@ -109,6 +129,7 @@
         "requiresLogin": "You Must Log In To Subscribe",
         "ibanDescription":"By providing your IBAN and confirming this payment, you are authorizing Pokebattler.com and Stripe, our payment service provider, to send instructions to your bank to debit your account and your bank to debit your account in accordance with those instructions. You are entitled to a refund from your bank under the terms and conditions of your agreement with your bank. A refund must be claimed within 8 weeks starting from the date on which your account was debited.",
         "notNeccessary": "The following fields are usually not required. You only need to fill these out if your payment is declined.",
+        "freeTrial": "{{trialPeriodDays}} Day Free Trial",
         "paymentTypes": {
             "creditCard": "Credit Card",
             "iban": "IBAN",
@@ -121,17 +142,25 @@
             "1month": {
                 "title": "1 month - ${{intervalCost}}/mo",
                 "subtitle": "You will be charged ${{cost}} each month after your {{trialPeriodDays}} day free trial.",
-                "discount": "Save by selecting a multi month plan"
+                "discount": "Save by selecting a multi month plan",
+                "shortTitle": "1 Month",
+                "monthlyPrice": "Buy a single month. Save by selecting a multi month plan!"
             },
             "3month": {
                 "title": "3 months - ${{intervalCost}}/mo",
                 "subtitle": "You will be charged ${{cost}} every 3 months after your {{trialPeriodDays}} day free trial.",
-                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
+                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial",
+                "shortTitle": "3 Month",
+                "shortDiscount": "-{{discount}}%",
+                "monthlyPrice":"Buy 3 months upfront for {{currency}}{{intervalCost}} per month."
             },
             "6month": {
-                "title": "6 month - ${{intervalCost}}/mo",
+                "title": "6 months - ${{intervalCost}}/mo",
                 "subtitle": "You will be charged ${{cost}} every 6 months after your {{trialPeriodDays}} day free trial.",
-                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial"
+                "discount": "Save {{discount}}% - {{trialPeriodDays}} Day Free Trial",
+                "shortTitle": "6 Month",
+                "shortDiscount": "-{{discount}}%",
+                "monthlyPrice":"Buy 6 months upfront for {{currency}}{{intervalCost}} per month."
             }
         },
         "products": {
@@ -190,8 +219,23 @@
         },
         "upsell": {
             "rankingByType": "Subscribers have access to ranking features that are too expensive to give to everyone including ranking by type!"
+        },
+        "transaction": {
+            "start": "Processing subscription",
+            "verify": "Upgrading your account",
+            "confirm": "Account successfully upgraded",
+            "complete": "Thank you for your support",
+            "restore": "Restoring your subscriptions. This may take some time"
+        },
+        "error": {
+            "playLogin":"Could not complete transaction. Please log in to Google Play and try again",
+            "unknown": "Could not complete transaction! Please contact admin@pokebattler.com",
+            "cancelled": "Subscription cancelled",
+            "verification": "Could not verify transaction! Please contact admin@pokebattler.com",
+            "store": "Error connecting to store",
+            "restore": "Could not restore transactions! Please contact admin@pokebattler.com",
+            "transactionRestore": "Can not apply transaction. Please log in on original account or contact admin@pokebattler.com"
         }
-
     },
 
     "roles": {
@@ -259,6 +303,36 @@
         "planId": "Plan Id",
         "cancel": "Cancel Your Subscription",
         "renew": "Renew Your Subscription",
+        "platform": {
+            "ios": {
+                "title": "App Store Subscription",
+                "manageSubscription": "Manage this App Store subscription ",
+                "platformLink": "itms-apps://apps.apple.com/account/subscriptions",
+                "link": "https://apps.apple.com/account/subscriptions",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+            },
+            "android": {
+                "title": "Play Store Subscription",
+                "manageSubscription": "Manage this Play Store subscription",
+                "platformLink": "https://play.google.com/store/account/subscriptions",
+                "link": "https://play.google.com/store/account/subscriptions",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+            },
+            "stripe": {
+                "title": "Website Subscription",
+                "manageSubscription": "Manage this Stripe subscription on the website.",
+                "platformLink": "https://www.pokebattler.com/user/subscription",
+                "link": "https://www.pokebattler.com/user/subscription",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+            },
+            "patreon": {
+                "title": "Patreon Subscription",
+                "manageSubscription": "Manage this Patreon subscription",
+                "platformLink": "https://www.patreon.com/pokebattler",
+                "link": "https://www.patreon.com/pokebattler",
+                "icon": "https://static.pokebattler.com/images/pokebattler_square.png"
+            }
+        },
         "statuses": {
             "trialing": {
                 "title": "Free Trial Period",
@@ -283,6 +357,10 @@
             "canceled": {
                 "title": "Canceled Membership",
                 "description": "Your Pokebattler membership was canceled.  Your last membership date was {{currentPeriodEnd}}."
+            },
+            "cancelled": {
+                "title": "$t(userSubscription.statuses.canceled.title)",
+                "description": "$t(userSubscription.statuses.canceled.description)"
             }
 
 
