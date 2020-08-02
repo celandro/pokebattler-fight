@@ -8,6 +8,7 @@
     "privacy": "For more information, see our privacy policy",
     "loading": "Fetching Pokebattler Data",
     "user": "User",
+    "defaultName": "$t(user:user) #{{userId}}",
     "login": {
         "connect": "Connect Your Account",
         "autoCreate": "Authenticating will automatically create your Pokebattler account and log you in",

@@ -15,6 +15,7 @@
         "language": "Language",
         "disclaimerText": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids",
         "raidCounterSettings": "Raid Counter Settings",
+        "pushNotificationSettings": "Push Notification Settings",
         "friendCode": "Friend Code"
     },
     "autoRaidPartyOptions": {
