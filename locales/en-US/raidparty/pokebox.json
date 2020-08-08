@@ -25,7 +25,18 @@
     "clearSelection": "Clear Selection",
     "importNPokemon": "Import {{count}}/{{total}}",
     "beginImport": "Begin Import",
-    "paste": "Paste"
+    "paste": "Paste",
+    "errors": {
+      "pokemonId":"$t(common:pokemon) is not valid.",
+      "quickMove":"$t(pokeform.quickMove.label) is not valid.",
+      "cinematicMove":"$t(pokeform.cinematicMove.label) is not valid.",
+      "cinematicMove2":"$t(pokeform.cinematicMove2.label) is not valid.",
+      "level":"$t(pokeform.level.label) is not  is not a number between 1 and 41",
+      "individualAttack":"$t(pokeform.individualAttack.label) is not a number between 0 and 15.",
+      "individualDefense":"$t(pokeform.individualDefense.label) is not a number between 0 and 15",
+      "individualStamina":"$t(pokeform.individualStamina.label) is not a number between 0 and 15",
+      "cp":"$t(pokeform.cp.label) is not a number"
+    }
   },
   "bulkDelete": {
     "title": "Bulk Delete Pokemon",
