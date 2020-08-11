@@ -243,7 +243,10 @@
         "title": "Premier Cup",
         "intro": "Pokemon GO Battle League has added Premier Cup to run at the same time as Master League. Premier Cup is like Master League but does not allow Mythical or Legendary Pokemon. It  is dominated by level 40 pseudo-legendaries with dual charge moves. This is a slightly more affordable league than Master league but is also not recommended for beginners"
       },
-
+      "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
+        "title": "Ultra Premier Cup",
+        "intro": "Pokemon GO Battle League has added an Ultra League version of Premier Cup to run at the same time as Ultra League. Ultra Premier Cup is like Ultra League but does not allow Mythical or Legendary Pokemon.  It is dominated by community day Pokemon with powerful legacy moves that are not available without elite TMs."
+      },
       "COMBAT_LEAGUE_SILPH_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"

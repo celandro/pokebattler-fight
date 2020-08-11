@@ -3045,6 +3045,10 @@
             "label": "Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon."
         },
+        "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
+            "label": "Ultra Premier Cup",
+            "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+        },
         "COMBAT_LEAGUE_SILPH_CUP": {
             "label": "Silph Arena Cup",
             "description": "The latest Silph Arena Cup tournament."
