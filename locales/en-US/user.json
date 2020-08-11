@@ -95,7 +95,7 @@
             "image": "https://static.pokebattler.com/images/og_user_subscription.png"
         },
         "app": {
-            "description": "Pokebattler subscriptions provide enhanced functionality and more detailed analytics to enhance your experience. Subscriptions work across all your devices, app, mobile web and desktop. Pokebattler subscriptions are connected to the account you are logged in with.",
+            "description": "Pokebattler subscriptions are connected to your account and provide enhanced functionality and more detailed analytics across all your devices, app, mobile web and desktop.",
             "allDevices": "Features",
             "desktopOnly": "Desktop Only Features",
             "support": {
