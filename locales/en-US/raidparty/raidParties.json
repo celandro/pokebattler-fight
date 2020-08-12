@@ -29,9 +29,16 @@
         "error": "Error sharing raid party"
     },
     "noRaidParty": {
-        "title": "No Raid Parties Created",
+        "title": "No Raid Parties Found",
         "description": "Pokebattler Raid Parties are a quick and easy way to know whether you will beat a raid boss with your friends. You can create a raid party by selecting the blue plus button or from the raid counters by clicking on a raid and then clicking Join Raid Party",
-        "addRaidParty": "Current Raids"
+        "link": "Current Raids",
+        "linkTo": "RaidBosses"
+    },
+    "noFriendRaidParty": {
+        "title": "No Friend Raid Parties Found",
+        "description": "Add your friends to Pokebattler Raid Party to know when your friends are raiding and quickly join their parties. Friends can be added on the Friend List or in raid party results.",
+        "link": "Friend List",
+        "linkTo": "Friends"
     },
     "refresh": "Refresh",
     "placeholder": "Enter custom boss to simulate"
