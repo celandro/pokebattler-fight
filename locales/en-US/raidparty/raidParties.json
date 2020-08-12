@@ -30,7 +30,7 @@
     },
     "noRaidParty": {
         "title": "No Raid Parties Created",
-        "description": "Pokebattler Raid Parties are a quick and easy way to know whether you will beat a raid boss with your friends. To get started, click on a raid and click Join Raid Party",
+        "description": "Pokebattler Raid Parties are a quick and easy way to know whether you will beat a raid boss with your friends. You can create a raid party by selecting the blue plus button or from the raid counters by clicking on a raid and then clicking Join Raid Party",
         "addRaidParty": "Current Raids"
     },
     "refresh": "Refresh",
