@@ -8,15 +8,15 @@
         "FRIENDSHIP_LEVEL_4": "Best friends"
     },
     "add": {
-        "friendId": "Friend ID",
-        "addFriend": "Add Friend",
+        "friendId": "Pokebattler ID",
+        "addFriend": "Add Pokebattler Friend",
         "friendLevel": "Friend Level",
         "cancelAddFriend": "Cancel"
     },
     "noFriend": {
-        "title": "No Friends Found",
-        "description": "Adding friends lets you do some stuff",
-        "addPokemon": "Add friends by clicking on the add button in the bottom right."
+        "title": "Add your friends to Pokebattler!",
+        "description": "Adding friends will send you notifications when they are creating raid parties and allow you to see raid parties they have created recently.  Make sure to set the correct friend level so that your friendship level will be automatically set in raid party simulations",
+        "addFriend": "Add friends by clicking on the add button in the bottom right.",
     },
     "errors": {
         "add": "Adding friend failed",
