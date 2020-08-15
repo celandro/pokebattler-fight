@@ -11,11 +11,16 @@
         "friendId": "Pokebattler ID",
         "addFriend": "Add Pokebattler Friend",
         "friendLevel": "Friend Level",
-        "cancelAddFriend": "Cancel"
+        "cancelAddFriend": "Cancel",
+        "searchPlaceholder": "Name, Code or Id",
+        "supportedSearches": "Enter the Friend Code, Trainer Name, Discord Name or Pokebattler Id in the search bar and set your friend level.",
+        "noSearchResults": "No friends found, try again!",
+        "noSearchText": "Find your friends"
+
     },
     "noFriend": {
         "title": "Add your friends to Pokebattler!",
-        "description": "Adding friends will send you notifications when they are creating raid parties and allow you to see raid parties they have created recently.  Make sure to set the correct friend level so that your friendship level will be automatically set in raid party simulations",
+        "description": "Adding friends will send you notifications when they are creating raid parties and allow you to see raid parties they have created recently.  Make sure to set the correct friend level so that your friendship level will be automatically set in raid party simulations.",
         "addFriend": "Add friends by clicking on the add button in the bottom right."
     },
     "errors": {
