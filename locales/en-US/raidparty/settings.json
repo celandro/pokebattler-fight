@@ -42,15 +42,15 @@
             }
         },
         "channels": {
-            "create": {
+            "createParty": {
                 "name": "Create raid party",
                 "description": "Raid party creation by your friends."
             },
-            "update": {
+            "updateParty": {
                 "name": "Update raid party",
                 "description": "Setting changes for your Raid Parties."
             },
-            "delete": {
+            "deleteParty": {
                 "name": "Cancel raid party",
                 "description": "Raid party cancelled."
             },
