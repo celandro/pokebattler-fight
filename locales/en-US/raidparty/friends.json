@@ -15,8 +15,8 @@
         "searchPlaceholder": "Name, Code or Id",
         "supportedSearches": "Enter the Friend Code, Trainer Name, Discord Name or Pokebattler Id in the search bar and set your friend level.",
         "noSearchResults": "No friends found, try again!",
-        "noSearchText": "Find your friends"
-
+        "noSearchText": "Find your friends",
+        "clearSearch": "Clear"
     },
     "noFriend": {
         "title": "Add your friends to Pokebattler!",
