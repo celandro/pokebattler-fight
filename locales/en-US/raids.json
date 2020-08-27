@@ -56,6 +56,11 @@
             "subtitle": "Legendary Raid",
             "intro": "The current legendary raids are the best way to obtain strong pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
         },
+        "RAID_LEVEL_MEGA": {
+            "title": "Mega Tier",
+            "subtitle": "Mega Raid",
+            "intro": "The current mega raids are the best way to obtain mega energy to power up the strongest pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
+        },
         "RAID_LEVEL_6": {
             "title": "Tier 6",
             "subtitle": "Legendary Raid - Bonus Hp",
@@ -101,6 +106,11 @@
             "subtitle": "Legendary Raid",
             "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
+        "RAID_LEVEL_MEGA_LEGACY": {
+            "title": "Legacy Mega Tier",
+            "subtitle": "Legacy Mega Raid",
+            "intro": "These mega raids are no longer available in raids."
+        },
         "RAID_LEVEL_6_LEGACY": {
             "title": "Legacy Tier 6",
             "subtitle": "Legendary Raid - Bonus Hp",
@@ -115,6 +125,11 @@
             "title": "Future Tier 5",
             "subtitle": "Legendary Raid",
             "intro": "These tier 5 raids are not in the game yet! Their stats and moves are still subject to change."
+        },
+        "RAID_LEVEL_MEGA_FUTURE": {
+            "title": "Future Mega Tier",
+            "subtitle": "Future Mega Raid",
+            "intro": "These mega raids are not in the game yet."
         }
     },
     "custom": {
