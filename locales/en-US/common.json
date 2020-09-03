@@ -149,6 +149,8 @@
     "upgrade": "Upgrade Your Account",
     "trainer": "Trainer",
     "trainers": "Trainers",
+    "mega": "Mega",
+    "megas": "Megas",
     "more": "More",
     "pokemon": "Pokemon",
     "battleParty": "Battle Party",
@@ -312,6 +314,11 @@
         "default": "Auto",
         "description": "The number of additional random trainers to help you beat the boss. For tier 4 and 5 raid bosses, 5 random battle parties assist you with the fight by default."
     },
+    "numMegas": {
+        "title": "Additional Megas",
+        "description": "The number of additional megas brought by other players. Megas will be staggered to increase the uptime of the mega buff."
+    },
+
     "explicitAssistants": {
         "title": "Extra Trainers",
         "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers. The friend level should be the maximum friend level that they have with other players at the raid, not your friend level with them."
