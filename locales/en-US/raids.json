@@ -210,7 +210,8 @@
         },
         "info": "Pokebattler Raid Party is currently only available in app form. Website version coming soon! To see this raid party, simply download the app, login and reload this page.",
         "deepLink": "If you have the app installed, this page should automatically open the app. On IOS, you may need to open this link in Safari and pull down the page for the open in Pokebattler Raid Party to appear.",
-        "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}."
+        "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}.",
+        "customLink": "Open in App"
     },
     "pokebox": {
         "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
