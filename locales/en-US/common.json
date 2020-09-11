@@ -83,6 +83,7 @@
     "type": "Pokemon Type",
     "includeShadow": "Show Shadow Pokemon",
     "includeLegendary": "Show Legendary Pokemon",
+    "includeMegas": "Show Mega Pokemon",
     "includeTypes": "Show By Pokemon Type",
     "properties": {
         "overall": "Overall",
