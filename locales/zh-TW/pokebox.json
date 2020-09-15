@@ -35,5 +35,8 @@
     "powerUp": "強化",
     "full": {
         "title": "寶可夢盒子滿了"
+    },
+    "meta": {
+        "description": "存储您的Pokemon Go Pokemon，以获得自定义的突袭结果以及更多！"
     }
 }
