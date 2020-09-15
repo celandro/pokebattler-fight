@@ -341,7 +341,8 @@
             },
             "active": {
                 "title": "Active Membership",
-                "description": "Your Pokebattler membership is started.  Your membership is set to renew at {{currentPeriodEnd}}"
+                "description": "Your Pokebattler membership is started.  Your membership is set to renew at {{currentPeriodEnd}}",
+                "cancelled": "Your Pokebattler membership will cancel as of {{currentPeriodEnd}}. Please continue to enjoy your subscription until then!"
             },
             "incomplete": {
                 "title": "Incomplete Membership",
