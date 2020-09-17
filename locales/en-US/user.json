@@ -369,6 +369,48 @@
 
         }
     },
+    "sponsor": {
+        "title": "Support {{app}}",
+        "description": "Pokebattler now offers a way to sponsor selected Pokebattler partners who provide valuable services for the community. Pokebattler hopes you consider supporting these creators to help keep the community alive and thriving",
+        "cancel": "Cancel Sponsorship",
+        "how": {
+            "title": "How it works",
+            "description":"If you choose to sponsor a creator, they will receive a percentage of your subscription before any taxes, fees or discounts.  The higher your subscription level, the higher the percentage.  At the beginning of each month, Pokebattler cuts a check to each creator based on the active subscriptions for the month.  The creators are provided a list of sponsors along with a portion of their public profile information and subscription level.",
+            "description2": "This sponsorship does not cost anything extra and  does not change the terms of your Pokebattler subscription in any way."
+        },
+        "legal" : {
+            "title": "Legal",
+            "description": "Sponsoring a 3rd party authorizes Pokebattler to share public profile data with that third party including user id, trainer name and discord name as well as non-public data regarding subscription dates and levels. Email address and account ids are not shared with sponsored creators. Sponsorship applies to Stripe, Apple and Google subscriptions only, Patreon subscriptions are not included."
+        },
+        "button": {
+            "title": "Sponsor {{name}}"
+        },
+        "currentSponsored": "Currently Sponsoring {{name}} ({{app}})",
+        "notSubscribed": "You are not currently subscribed to Pokebattler. You will need to subscribe in order to support {{app}}",
+        "sponsored": {
+            "pokeNav": {
+                "description":"PokeNav Bot is a Pokemon Go Discord Bot for raiding, trading and more. It provides Pokebattler counters and raid parties to Discord servers",
+                "quote": "",
+                "thanks": "",
+                "name": "IvPips",
+                "app": "Pokenav - Discord Bot"
+            },
+            "clembotDark": {
+                "description": "Clembot Dark is a Pokemon Go Discord Bot for raiding",
+                "quote": "",
+                "thanks": "",
+                "name": "B!",
+                "app": "Clembot Dark"
+            },
+            "pvpoke": {
+                "description": "Pvpoke is open-source tool for simulating, ranking, and building teams for Pokemon GO PvP (player versus player) battles",
+                "quote": "I'm very excited to partner with Pokebattler to help bring the best of battle simulation! With a Pokebattler subscription, you'll be able to store hundreds of your PvP Pokemon to analyze on Pokebattler and PvPoke.com.",
+                "thanks": "Thanks so much for subscribing and for your support for PvPoke! I'll see you in the arena!",
+                "name": "Matt",
+                "app": "PvPoke.com"
+            }
+        }
+    },
     "countryCodes": {
         "AU": "Australia",
         "AT": "Austria",
