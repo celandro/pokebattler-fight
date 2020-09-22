@@ -3211,8 +3211,11 @@
         "COMBAT_LEAGUE_SILPH_CATACOMB_CUP": {
             "label": "Silph Arena Catacomb Cup",
             "description": "The July Silph Arena Season 2 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
+            "label": "Silph Arena Sunrise Cup",
+            "description": "The October Silph Arena Season 3 Cup tournament."
         }
-
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",

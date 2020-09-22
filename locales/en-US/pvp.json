@@ -342,6 +342,10 @@
       "COMBAT_LEAGUE_SILPH_CATACOMB_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season 2 cup for June featuring Pokemon that are Dark, Grass, Ice, Rock or Bug types that are not steel types, legendaries, mythical, shadows, regionals or overpowered. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
+        "title": "{{title}}",
+        "intro": "The Silph Arena Season 3 cup for October featuring Pokemon that are Flying, Grass, Fire, Ground or Normal types that are not Rock types, or Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
       }
     },
     "pokemonCondition": {
