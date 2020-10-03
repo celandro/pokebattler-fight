@@ -2790,7 +2790,7 @@
                 "label": "Dual Charge Moves - Current 3",
                 "description": "All Pokemon use the best charge move combinations. Up to 3 currently available movesets are considered"
             },
-            "SINGLE_MOVE_3": {
+            "CURRENT_SINGLE_MOVE_3": {
                 "label": "Single Charge Move - Current 3 ",
                 "description": "All Pokemon use the best charge moves without learning a second move. Up to 3 currently available movesets are considered"
             },

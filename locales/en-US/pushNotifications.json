@@ -1,0 +1,50 @@
+{
+	"CREATE_PARTY": {
+		"title": "{{name}} created {{tier}} {{defender}} raid party",
+		"subtitle": "Raid Party #{{raidPartyId}}",
+		"line1": "$t(pushNotifications:defaultBody.line1)",
+		"line2": "$t(pushNotifications:defaultBody.line2)",
+		"line3": "$t(pushNotifications:defaultBody.line3)",
+		"line4": "$t(pushNotifications:defaultBody.line4)"
+	},	
+	"ADD_USER": {
+		"title": "{{name}} joined {{tier}} {{defender}} raid party",
+		"subtitle": "Raid Party #{{raidPartyId}}",
+		"line1": "$t(pushNotifications:defaultBody.line1)",
+		"line2": "$t(pushNotifications:defaultBody.line2)",
+		"line3": "$t(pushNotifications:defaultBody.line3)",
+		"line4": "$t(pushNotifications:defaultBody.line4)"
+	},	
+	"REMOVE_USER": {
+		"title": "{{name}} left {{tier}} {{defender}} raid party",
+		"subtitle": "Raid Party #{{raidPartyId}}",
+		"line1": "$t(pushNotifications:defaultBody.line1)",
+		"line2": "$t(pushNotifications:defaultBody.line2)",
+		"line3": "$t(pushNotifications:defaultBody.line3)",
+		"line4": "$t(pushNotifications:defaultBody.line4)"
+	},	
+	"UPDATE_USER": {
+		"title": "{{name}} changed their settings for {{tier}} {{defender}}",
+		"subtitle": "Raid Party #{{raidPartyId}}",
+		"line1": "$t(pushNotifications:defaultBody.line1)",
+		"line2": "$t(pushNotifications:defaultBody.line2)",
+		"line3": "$t(pushNotifications:defaultBody.line3)",
+		"line4": "$t(pushNotifications:defaultBody.line4)"
+	},	
+	"UPDATE_PARTY": {
+		"title": "{{name}} updated raid settings for {{tier}} {{defender}}",
+		"subtitle": "Raid Party #{{raidPartyId}}",
+		"line1": "$t(pushNotifications:defaultBody.line1)",
+		"line2": "$t(pushNotifications:defaultBody.line2)",
+		"line3": "$t(pushNotifications:defaultBody.line3)",
+		"line4": "$t(pushNotifications:defaultBody.line4)"
+	},	
+	"defaultBody" : {
+		"line1": "{{numPlayers}} Players",
+		"line2": "{{winPercent}}% Chance to Win",
+		"line3": "{{powerPercent}}% Group Damage",
+		"line4": "{{estimator}} Players Needed"
+	},
+	"discordLine" : "#{{discordChannel}} - {{discordServerName}}"
+	
+}
