@@ -1,0 +1,29 @@
+{
+	"CREATE_PARTY": {
+		"title": "{{name}} creó {{tier}} {{defender}} grupo de incursión",
+		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
+	},	
+	"ADD_USER": {
+		"title": "{{name}} se unió al grupo de incursión de {{tier}} {{defender}}",
+		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
+	},	
+	"REMOVE_USER": {
+		"title": "{{name}} izquierda {{tier}} {{defender}} grupo de incursión",
+		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
+	},	
+	"UPDATE_USER": {
+		"title": "{{name}} cambió su configuración para {{tier}} {{defender}}",
+		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
+	},	
+	"UPDATE_PARTY": {
+		"title": "{{name}} actualizó la configuración de incursión para {{tier}} {{defender}}",
+		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
+	},	
+	"defaultBody" : {
+		"line1": "{{numPlayers}} Jugadores",
+		"line2": "{{winPercent}}% Oportunidad de Ganar",
+		"line3": "{{powerPercent}}% de Daño Ggrupal",
+		"line4": "{{estimator}} Jugadores Necesarios"
+	}
+	
+}
