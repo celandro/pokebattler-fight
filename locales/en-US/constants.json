@@ -3095,6 +3095,10 @@
             "label": "Master League",
             "description": "3 Pokemon with no limits."
         },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
+            "label": "Flying Cup",
+            "description": "3 Flying Pokemon with a maximum CP of 1500."
+        },
         "COMBAT_LEAGUE_PREMIER_CUP": {
             "label": "Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon."

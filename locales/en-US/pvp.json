@@ -346,6 +346,10 @@
       "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season 3 cup for October featuring Pokemon that are Flying, Grass, Fire, Ground or Normal types that are not Rock types, or Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
+        "title": "{{title}}",
+        "intro": "The Great League Flying Cup is the first official typed cup from Niantic. Only Pokemon that can fly are allowed It will be held on November 5th from 6pm til midnight."
       }
     },
     "pokemonCondition": {
