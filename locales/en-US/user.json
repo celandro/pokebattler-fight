@@ -371,6 +371,9 @@
     },
     "sponsor": {
         "title": "Support {{app}}",
+        "meta": {
+            "description": "Assign a percentage of your Pokebattler membership to {{app}}"
+        },
         "description": "Pokebattler now offers a way to sponsor selected Pokebattler partners who provide valuable services for the community. Pokebattler hopes you consider supporting these creators to help keep the community alive and thriving",
         "cancel": "Cancel Sponsorship",
         "how": {
