@@ -391,14 +391,14 @@
         "currentSponsored": "Currently Sponsoring {{name}} ({{app}})",
         "notSubscribed": "You are not currently subscribed to Pokebattler. You will need to subscribe in order to support {{app}}",
         "sponsored": {
-            "pokeNav": {
+            "pokenav": {
                 "description":"PokeNav Bot is a Pokemon Go Discord Bot for raiding, trading and more. It provides Pokebattler counters and raid parties to Discord servers",
-                "quote": "",
-                "thanks": "",
+                "quote": "Sponsoring PokeNav helps support its development and cover it’s ongoing costs",
+                "thanks": "Thank you for sponsoring PokeNav! Your contribution helps cover its ongoing costs and development.",
                 "name": "IvPips",
                 "app": "Pokenav - Discord Bot"
             },
-            "clembotDark": {
+            "clembotdark": {
                 "description": "Clembot Dark is a Pokemon Go Discord Bot for raiding",
                 "quote": "Pokebattler is an amazing resource to all your answers related to raiding (customizable per user). Pokebattler integration with Clembot is aimed to bring all that information on discord servers as well, so excited!",
                 "thanks": "Thank you so much for supporting Clembot.",
