@@ -3229,6 +3229,10 @@
         "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
             "label": "Silph Arena Sunrise Cup",
             "description": "The October Silph Arena Season 3 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
+            "label": "Silph Arena Marsh Cup",
+            "description": "The November Silph Arena Season 3 Cup tournament."
         }
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
