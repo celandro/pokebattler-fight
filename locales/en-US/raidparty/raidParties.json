@@ -41,5 +41,10 @@
         "linkTo": "Friends"
     },
     "refresh": "Refresh",
-    "placeholder": "Enter custom boss to simulate"
+    "placeholder": "Enter custom boss to simulate",
+    "discord": {
+        "joinServer": "Join Server",
+        "privateServer": "Private Server",
+        "joinChat": "Join Chat"
+    }
 }
