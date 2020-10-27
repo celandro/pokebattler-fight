@@ -24,13 +24,23 @@
     },
     "share": {
         "title": "{{name}} #{{id}}",
-        "message": "Únete al equipo de incursión #{{id}} para $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) ",
-        "error": "Error al compartir el equipo de incursión"
+        "message": "Únete al equipo de incursión #{{id}} para $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}).",
+        "error": "Error al compartir el equipo de incursión",
+        "friendMessage": "{{friendCode}} (Código de amigo compartible) - Únete al Equipo de Incursión de $t(constants:pokemon.{{defender}}) - $t(raids:tierList.{{tier}}.title) #{{id}}."
     },
     "noRaidParty": {
         "title": "No hay Equipos de incursión creados",
         "description": "Los Equipos de Incursión de Pokebattler son una forma rápida y sencilla para averiguar si vas a derrotar a un jefe de incursión con tus amigos. Para iniciar, clickea en una incursión y luego en Unirse a Equipo",
-        "addRaidParty": "Incursiones actuales"
+        "addRaidParty": "Incursiones actuales",
+        "link": "Incursiones Actuales",
+        "linkTo": "RaidBosses"
     },
-    "refresh": "Actualizar"
+    "refresh": "Actualizar",
+    "noFriendRaidParty": {
+        "title": "No se encontraron Equipos de Incursión de amigos",
+        "description": "Agrega a tus amigos a Pokebattler Raid Party para saber cuándo tus amigos están haciendo incursiones y unirte rápidamente a sus equipos. Tus amigos pueden ser agregados en la Lista de Amigos o en los resultados del equipo de incursión.",
+        "link": "Lista de Amigos",
+        "linkTo": "Friends"
+    },
+    "placeholder": "Ingresa a un jefe personalizado para simular"
 }
