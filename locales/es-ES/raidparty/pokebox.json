@@ -1,73 +1,100 @@
 {
     "title": "Pokebox",
     "errors": {
-      "failed": "No se pudo cargar la Pokebox"
+        "failed": "No se pudo cargar la Pokebox"
     },
     "add": {
-      "title": "Nuevo Pokemon",
-      "failed": "La adición de este Pokemon falló",
-      "autocomplete": "Ingrese Nombre de Pokemon o Tipo"
+        "title": "Nuevo Pokemon",
+        "failed": "La adición de este Pokemon falló",
+        "autocomplete": "Ingrese Nombre de Pokemon o Tipo",
+        "full": "Tu Pokebox está completa. Suscríbete para mayor almacenamiento en servidor"
     },
     "edit": {
-      "title": "Editar Pokemon",
-      "failed": "La edición de este Pokemon falló"
+        "title": "Editar Pokemon",
+        "failed": "La edición de este Pokemon falló",
+        "full": "Tu Pokebox se está desbordando! Vuelve a suscribirte o elimina Pokemon sobrantes"
     },
     "delete": {
-      "title": "Eliminar Pokemon",
-      "failed": "La remoción de este Pokemon falló"
+        "title": "Eliminar Pokemon",
+        "failed": "La remoción de este Pokemon falló"
     },
     "pokeform": {
-      "cp": {
-        "label": "PC"
-      },
-      "nickname": {
-        "label": "Alias"
-      },
-      "quickMove": {
-        "label": "Ataque Rápido",
-        "placeholder": "$t(common:placeholders.dropdown.required)"
-      },
-      "cinematicMove": {
-        "label": "Ataque Cargado",
-        "placeholder": "$t(common:placeholders.dropdown.required)"
-      },
-      "cinematicMove2": {
-        "label": "Segundo Ataque Cargado",
-        "placeholder": "$t(common:placeholders.dropdown.optional)"
-      },
-      "individualAttack": {
-        "label": "Ataque",
-        "placeholder": "$t(common:placeholders.dropdown.optional)"
-      },
-      "individualDefense": {
-        "label": "Defensa",
-        "placeholder": "$t(common:placeholders.dropdown.optional)"
-      },
-      "individualStamina": {
-        "label": "Salud",
-        "placeholder": "$t(common:placeholders.dropdown.optional)"
-      },
-      "level": {
-        "label": "Nivel",
-        "placeholder": "$t(common:placeholders.dropdown.optional)"
-      },
-  
-      "submit": {
-        "label": "$t(common:buttons.create)"
-      },
-      "edit": {
-        "label": "$t(common:save)"
-      }
+        "cp": {
+            "label": "PC"
+        },
+        "nickname": {
+            "label": "Alias"
+        },
+        "quickMove": {
+            "label": "Ataque Rápido",
+            "placeholder": "$t(common:placeholders.dropdown.required)"
+        },
+        "cinematicMove": {
+            "label": "Ataque Cargado",
+            "placeholder": "$t(common:placeholders.dropdown.required)"
+        },
+        "cinematicMove2": {
+            "label": "Segundo Ataque Cargado",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "individualAttack": {
+            "label": "Ataque",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "individualDefense": {
+            "label": "Defensa",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "individualStamina": {
+            "label": "Salud",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "level": {
+            "label": "Nivel",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "submit": {
+            "label": "$t(common:buttons.create)"
+        },
+        "edit": {
+            "label": "$t(common:save)"
+        }
     },
     "poketile": {
-      "cp": "$t(cp)",
-      "temporary": "Guardando al servidor"
+        "cp": "$t(cp)",
+        "temporary": "Guardando al servidor"
     },
     "noPokemon": {
-      "title": "No se encontraron Pokemon",
-      "clearFilter": "Limpiar filtro de búsqueda",
-      "description": "Pokebattler Raid Party requiere que agregues tus mejores Pokemon de forma de encontrar los mejores atacantes! Mientras más agregues, más precisas serán las sugerencias de los equipos de incursiones!",
-      "addPokemon": "Agrega Pokemon clickeando en el botón Agregar en la esquina inferior derecha."
+        "title": "No se encontraron Pokemon",
+        "clearFilter": "Limpiar filtro de búsqueda",
+        "description": "Pokebattler Raid Party requiere que agregues tus mejores Pokemon de forma de encontrar los mejores atacantes! Mientras más agregues, más precisas serán las sugerencias de los equipos de incursiones!",
+        "addPokemon": "Agrega Pokemon clickeando en el botón Agregar en la esquina inferior derecha."
+    },
+    "bulkImport": {
+        "title": "Importación Masiva de Pokemon",
+        "failed": "Desgraciadamente, la importación masiva de Pokemon falló",
+        "selectAll": "Selecciona todos",
+        "clearSelection": "Limpiar selección",
+        "importNPokemon": "Importar {{count}}/{{total}}",
+        "beginImport": "Comenzar importación",
+        "paste": "Pegar",
+        "errors": {
+            "pokemonId": "$t(common:pokemon) no es válido.",
+            "quickMove": "$t(pokeform.quickMove.label) no es válido.",
+            "cinematicMove": "$t(pokeform.cinematicMove.label) no es válido.",
+            "cinematicMove2": "$t(pokeform.cinematicMove2.label) no es válido.",
+            "level": "$t(pokeform.level.label) debe ser un número entre 1 y 41",
+            "individualAttack": "$t(pokeform.individualAttack.label) debe ser un número entre 0 y 15.",
+            "individualDefense": "$t(pokeform.individualDefense.label) debe ser un número entre 0 y 15",
+            "individualStamina": "$t(pokeform.individualStamina.label) debe ser un número entre 0 y 15",
+            "cp": "$t(pokeform.cp.label) no es un número"
+        }
+    },
+    "bulkDelete": {
+        "title": "Eliminación Masiva de Pokemon",
+        "failed": "Desgraciadamente, la eliminación masiva de Pokemon falló",
+        "selectAll": "Seleccionar todos",
+        "clearSelection": "Limpiar selección",
+        "deleteNPokemon": "Elimina {{count}} Pokemon"
     }
-  }
-  
+}

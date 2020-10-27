@@ -21,12 +21,13 @@
             "BATTLE_PARTY_LEVEL_30": "Utilizando los mejores atacantes de nivel 30.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_35": "Utilizando los mejores atacantes de nivel 35.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_40": "Utilizando los mejores atacantes de nivel 40.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox la que puedes completar rápidamente desde la pestaña Alternativas."
+            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox, a la que puedes completar rápidamente desde la pestaña Alternativas"
         },
         "details": {
             "title": "Detalles de Combate",
-            "description" :"Pokebattler realizó 200 simulaciones de combate de incursión para cada posible atacante para elegir cuáles Pokemon usar. Los 6 primeros fueron ejecutados en 200 simulaciones. Lo siguiente son los detalles de combate salidos de un resultado típico."
-        }
+            "description": "Pokebattler realizó 200 simulaciones de combate de incursión para cada posible atacante para elegir cuáles Pokemon usar. Los 6 primeros fueron ejecutados en 200 simulaciones. Lo siguiente son los detalles de combate salidos de un resultado típico."
+        },
+        "emptyPokebox": "Los resultados personalizados estarán aquí luego que agregues tus Pokemon a tu Pokebox. Intenta agregar los Pokemon que tienes en la 3era pestaña."
     },
     "alternatives": {
         "description": "Estos son tus 6 mejores atacantes para derrotar a un jefe de incursión {{tier}} {{defender}}. Agrega Pokemon alternativos a tu equipo abajo!"
@@ -44,15 +45,18 @@
     },
     "multiParty": {
         "title": "#{{id}} {{defender}}"
-    },    
+    },
     "raidPartyCard": {
         "title": "Equipo de {{ownerName}}",
         "id": "#{{id}}",
-        "sumamry": "{{players}} jugadores se unieron. Creada el {{createdAt}}"
+        "sumamry": "{{players}} jugadores se unieron. Creada el {{createdAt}}",
+        "emptyPokebox": "Pokebox vacía, utilizando predeterminados",
+        "egg": "Huevo"
     },
     "raidPartyPlayer": {
         "title": "{{name}}",
-        "id": "#{{id}}"
+        "id": "#{{id}}",
+        "addFriendCode": "Agregar Código de amigo"
     },
     "raidPartyActions": {
         "errors": {
@@ -61,7 +65,8 @@
             "fetchRaidPartyGeneral": "El Equipo de incursión no pudo ser encontrado para {{raidPartyPokemon}}",
             "getRaidResultsGeneral": "Los resultados de la incursión para el equipo {{raidPartyId}} no pudieron ser obtenidos",
             "removeUserFromRaidPartyGeneral": "No pudo abandonar el equipo {{raidPartyId}}",
-            "addUserToRaidPartyGeneral": "No pudo unirse al equipo {{raidPartyId}}"
+            "addUserToRaidPartyGeneral": "No pudo unirse al equipo {{raidPartyId}}",
+            "getUserRaidPartiesGeneral": "No se pudieron obtener equipos de incursión"
         }
     },
     "errors": {
@@ -69,17 +74,20 @@
         "party": "Falló al encontrar un equipo óptimo",
         "rankings": "Falló al obtener clasificaciones de atacantes"
     },
-    "chips" : {
+    "chips": {
         "estimator": "Jugadores Req.",
         "power": "Daño de Grupo",
         "deaths": "Pokemon Debilit.",
         "tdo": "Daño Inflingido",
         "win": "Oportunidad de Victoria",
         "time": "Tiempo de Combate"
-   },
-   "breakingNews": {
-       "from": "Desde",
-       "until": "Hasta",
-       "localTime": "HORA LOCAL"
-   }
+    },
+    "breakingNews": {
+        "from": "Desde",
+        "until": "Hasta",
+        "localTime": "HORA LOCAL"
+    },
+    "leaveParty": "Abandonar Equipo",
+    "customBoss": "Personalizar",
+    "autocomplete": "Elige Jefe de Incursión personalizado"
 }
