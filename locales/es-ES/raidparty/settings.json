@@ -14,7 +14,10 @@
         "discordUsername": "Usuario Discord",
         "language": "Idioma",
         "disclaimerText": "Problemas para enlazarse? Envie un email a admin@pokebattler.com con ambos identificadores de usuario de Pokebattler",
-        "raidCounterSettings": "Configuración de Atacantes de Incursión"
+        "raidCounterSettings": "Configuración de Atacantes de Incursión",
+        "includeMegas": "Megas",
+        "pushNotificationSettings": "Configuración de Notificaciones push",
+        "friendCode": "Código de amigo"
     },
     "autoRaidPartyOptions": {
         "BATTLE_PARTY_POKEBOX": "Pokebox",
@@ -28,7 +31,42 @@
         "success": "Preferencias de usuario actualizadas correctamente",
         "autoBattleParty": "Contadores de brujas a tu Pokebox",
         "errors": {
-            "updateSettingGeneral": "Ocurrió un error actualizando tus preferencias"
+            "updateSettingGeneral": "Ocurrió un error actualizando tus preferencias",
+            "friendCodeLength": "El código de amigo debe tener exactamente 12 números de largo"
+        }
+    },
+    "notifications": {
+        "groups": {
+            "raidParty": {
+                "name": "Equipo de incursión",
+                "description": "Avisar de incursiones en que estás interesado"
+            }
+        },
+        "channels": {
+            "createParty": {
+                "name": "Crear equipo de incursión",
+                "description": "Creación de equipos de incursión por tus amigos."
+            },
+            "updateParty": {
+                "name": "Actualizar equipo de incursión",
+                "description": "Cambios en los ajustes para tus Equipos de incursión."
+            },
+            "deleteParty": {
+                "name": "Cancelar equipo de incursión",
+                "description": "Equipo de incursión cancelado."
+            },
+            "addUser": {
+                "name": "Usuario se unió al equipo",
+                "description": "Usuario se unió a tu equipo de incursión."
+            },
+            "removeUser": {
+                "name": "Usuario abandonó equipo",
+                "description": "Usuario abandonó tu equipo de incursión."
+            },
+            "updateUser": {
+                "name": "Usuario actualizó equipo",
+                "description": "Usuario en tu equipo actualizó sus ajustes."
+            }
         }
     }
 }
