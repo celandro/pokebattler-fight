@@ -3109,6 +3109,11 @@
             "label": "Flying Cup",
             "description": "3 Flying Pokemon with a maximum CP of 1500."
         },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
+            "label": "Halloween Cup",
+            "description": "3 Pokemon of Poison, Bug, Ghost, Dark or Fairy types with a maximum CP of 1500."
+        },
+
         "COMBAT_LEAGUE_PREMIER_CUP": {
             "label": "Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon."
