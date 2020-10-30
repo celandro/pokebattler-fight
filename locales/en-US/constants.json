@@ -2651,7 +2651,10 @@
         "TECHNO_BLAST_WATER":"Techno Blast Water",
         "TECHNO_BLAST_SHOCK":"Techno Blast Shock",
         "FLY": "Fly",
-        "V_CREATE": "V Create"
+        "V_CREATE": "V Create",
+        "LEAF_STORM": "Leaf Storm",
+        "TRI_ATTACK": "Tri Attack",
+        "GUST_FAST": "Gust"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
