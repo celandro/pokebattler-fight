@@ -1,6 +1,6 @@
 {
 	"CREATE_PARTY": {
-		"title": "{{name}} created {{tier}} {{defender}} raid party",
+		"title": "{{name}} created a {{tier}} {{defender}} raid party",
 		"subtitle": "Raid Party #{{raidPartyId}}",
 		"line1": "$t(pushNotifications:defaultBody.line1)",
 		"line2": "$t(pushNotifications:defaultBody.line2)",
@@ -8,7 +8,7 @@
 		"line4": "$t(pushNotifications:defaultBody.line4)"
 	},	
 	"ADD_USER": {
-		"title": "{{name}} joined {{tier}} {{defender}} raid party",
+		"title": "{{name}} joined a {{tier}} {{defender}} raid party",
 		"subtitle": "Raid Party #{{raidPartyId}}",
 		"line1": "$t(pushNotifications:defaultBody.line1)",
 		"line2": "$t(pushNotifications:defaultBody.line2)",
@@ -16,7 +16,7 @@
 		"line4": "$t(pushNotifications:defaultBody.line4)"
 	},	
 	"REMOVE_USER": {
-		"title": "{{name}} left {{tier}} {{defender}} raid party",
+		"title": "{{name}} left a {{tier}} {{defender}} raid party",
 		"subtitle": "Raid Party #{{raidPartyId}}",
 		"line1": "$t(pushNotifications:defaultBody.line1)",
 		"line2": "$t(pushNotifications:defaultBody.line2)",
@@ -45,6 +45,31 @@
 		"line3": "{{powerPercent}}% Group Damage",
 		"line4": "{{estimator}} Players Needed"
 	},
-	"discordLine" : "#{{discordChannel}} - {{discordServerName}}"
+	"discordLine" : "#{{discordChannel}} - {{discordServerName}}",
+	"globalRaidNetwork": {
+		"avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
+		"username": "Pokebattler Raid Network",
+		"title": "**{{defender}}** - {{tier}}",
+        "description": "{{remoteSlotsEmoji}} players needed for {{tier}} **{{defender}}** raid - #{{raidPartyId}}\n\n>>> Join using the [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}) or by joining the Discord server and interacting with the {{botName}} Discord Raid Link.\n",
+        "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
+        "field1": {
+			 "name":"Join Discord Server", 
+			 "value":"[{{discordGuildName}}]({{discordGuildInviteUrl}})"       
+        },
+        "field2": {
+			"name":"Discord Raid Link", 
+			"value":"[via {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"        
+        },
+        "field1NonDiscord":{
+			 "name":"Only available in app", 
+			 "value":"[Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}})"       
+        },
+        "thumbnail":"{{pokemonIcon}}",
+        "author": {
+            "name": "{{botName}}",
+            "icon_url": "{{botIcon}}"
+        },
+        "footer": "$t(pushNotifications:defaultBody.line1) - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)" 
+    }
 	
 }

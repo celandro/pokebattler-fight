@@ -337,7 +337,8 @@
         "statuses": {
             "trialing": {
                 "title": "Free Trial Period",
-                "description": "Your Pokebattler subscription comes with a trial period to allow you the option to cancel with no charge if you are not happy with the service."
+                "description": "Your Pokebattler subscription comes with a trial period to allow you the option to cancel with no charge if you are not happy with the service.",
+                "cancelled": "Your Pokebattler subscription was cancelled. Why not try us again?"
             },
             "active": {
                 "title": "Active Membership",
@@ -358,11 +359,13 @@
             },
             "canceled": {
                 "title": "Canceled Membership",
-                "description": "Your Pokebattler membership was canceled.  Your last membership date was {{currentPeriodEnd}}."
+                "description": "Your Pokebattler membership was canceled.  Your last membership date was {{currentPeriodEnd}}.",
+                "cancelled": "$t(userSubscription.statuses.canceled.description)"
             },
             "cancelled": {
                 "title": "$t(userSubscription.statuses.canceled.title)",
-                "description": "$t(userSubscription.statuses.canceled.description)"
+                "description": "$t(userSubscription.statuses.canceled.description)",
+                "cancelled": "$t(userSubscription.statuses.canceled.description)"
             }
 
 
@@ -392,25 +395,28 @@
         "notSubscribed": "You are not currently subscribed to Pokebattler. You will need to subscribe in order to support {{app}}",
         "sponsored": {
             "pokenav": {
-                "description":"PokeNav Bot is a Pokemon Go Discord Bot for raiding, trading and more. It provides Pokebattler counters and raid parties to Discord servers",
+                "description":"PokeNav is a Pokemon Go Discord Bot for raiding, trading and more. It provides Pokebattler counters and raid parties to Discord servers",
                 "quote": "Sponsoring PokeNav helps support its development and cover it’s ongoing costs",
                 "thanks": "Thank you for sponsoring PokeNav! Your contribution helps cover its ongoing costs and development.",
                 "name": "IVpips",
-                "app": "Pokenav - Discord Bot"
+                "app": "Pokenav",
+                "iconUrl":"https://pokenavbot.com/assets/images/logo.png"
             },
             "clembotdark": {
                 "description": "Clembot Dark is a Pokemon Go Discord Bot for raiding",
                 "quote": "Pokebattler is an amazing resource to all your answers related to raiding (customizable per user). Pokebattler integration with Clembot is aimed to bring all that information on discord servers as well, so excited!",
                 "thanks": "Thank you so much for supporting Clembot.",
                 "name": "B!",
-                "app": "Clembot Dark"
+                "app": "Clembot Dark",
+                "iconUrl":"https://cdn.discordapp.com/app-icons/363917328880107522/2f4e04668ff5ef15d309faaec40f9418.png?size=256"
             },
             "pvpoke": {
                 "description": "Pvpoke is open-source tool for simulating, ranking, and building teams for Pokemon GO PvP (player versus player) battles",
                 "quote": "I'm very excited to partner with Pokebattler to help bring the best of battle simulation! With a Pokebattler subscription, you'll be able to store hundreds of your PvP Pokemon to analyze on Pokebattler and PvPoke.com.",
                 "thanks": "Thanks so much for subscribing and for your support for PvPoke! I'll see you in the arena!",
                 "name": "Matt",
-                "app": "PvPoke.com"
+                "app": "PvPoke.com",
+                "iconUrl":"https://pvpoke.com/img/app_192.png"
             }
         }
     },
