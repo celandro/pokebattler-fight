@@ -1,1 +1,9 @@
-{}
+{
+    "CREATE_PARTY": {
+        "title": "{{име}} създай {{ниво}} {{пазител}} raid party",
+        "subtitle": "Рейд Парти #{{raidPartyId}}"
+    },
+    "ADD_USER": {
+        "title": "{{име}} присъедини се {{ниво}} {{защитник}} raid party"
+    }
+}
