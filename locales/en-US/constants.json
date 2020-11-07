@@ -2654,7 +2654,8 @@
         "V_CREATE": "V Create",
         "LEAF_STORM": "Leaf Storm",
         "TRI_ATTACK": "Tri Attack",
-        "GUST_FAST": "Gust"
+        "GUST_FAST": "Gust",
+        "INCINERATE_FAST": "Incinerate"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
