@@ -3117,7 +3117,10 @@
             "label": "Halloween Cup",
             "description": "3 Pokemon of Poison, Bug, Ghost, Dark or Fairy types with a maximum CP of 1500."
         },
-
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
+            "label": "Kanto Cup",
+            "description": "3 Pokemon from Gen 1 with a maximum CP of 1500."
+        },
         "COMBAT_LEAGUE_PREMIER_CUP": {
             "label": "Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon."
@@ -3125,115 +3128,6 @@
         "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
             "label": "Ultra Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
-        },
-        "COMBAT_LEAGUE_SILPH_CUP": {
-            "label": "Silph Arena Cup",
-            "description": "The latest Silph Arena Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_CUP_PRE_1": {
-            "label": "Next Silph Arena Cup",
-            "description": "The next Silph Arena Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_CUP_PRE_2": {
-            "label": "Silph Pre Arena Cup 2",
-            "description": "TBD"
-        },
-        "COMBAT_LEAGUE_SILPH_CUP_PRE_3": {
-            "label": "Silph Arena Pre Cup 3",
-            "description": "TBD"
-        },
-        "COMBAT_LEAGUE_SILPH_CUP_PRE_4": {
-            "label": "Silph Arena Pre Cup 4",
-            "description": "TBD"
-        },
-        "COMBAT_LEAGUE_SILPH_CUP_PRE_5": {
-            "label": "Silph Arena Pre Cup 5",
-            "description": "TBD"
-        },
-        "COMBAT_LEAGUE_SILPH_CUP_PRE_6": {
-            "label": "Silph Arena Pre Cup 6",
-            "description": "TBD"
-        },
-        "COMBAT_LEAGUE_SILPH_BOULDER_CUP": {
-            "label": "Silph Arena Boulder Cup",
-            "description": "The First Silph Arena Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_TWILIGHT_CUP": {
-            "label": "Silph Arena Twilight Cup",
-            "description": "The MarchSilph Arena Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_TEMPEST_CUP": {
-            "label": "Silph Arena Tempest Cup",
-            "description": "The April Silph Arena Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_KINGDOM_CUP": {
-            "label": "Silph Arena Kingdom Cup",
-            "description": "The May Silph Arena Cup tournament."
-        },
-
-        "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
-            "label": "Silph Arena Nightmare Cup",
-            "description": "The June Silph Arena Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
-            "label": "Silph Arena Regional Tournament",
-            "description": "Season 1 Regional Tournament for the Silph Arena Cup."
-        },
-        "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
-            "label": "Silph Arena Rainbow Cup",
-            "description": "The latest Silph Arena Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
-            "label": "Silph Arena Championship",
-            "description": "The Silph Arena Championship for Season 1"
-        },
-        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_LIMITED": {
-            "label": "Silph Arena Championship (Limited)",
-            "description": "The Silph Arena Championship's restricted Pokemon"
-        },
-        "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_UNLIMITED": {
-            "label": "Silph Arena Championship (Unlimited)",
-            "description": "The Silph Arena Championship's unrestricted Pokemon"
-        },
-        "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
-            "label": "Silph Arena Jungle Cup",
-            "description": "The July Silph Arena Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_SINISTER_CUP": {
-            "label": "Silph Arena Sinister Cup",
-            "description": "The October Silph Arena Season 2 Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_FEROCIOUS_CUP": {
-            "label": "Silph Arena Ferocious Cup",
-            "description": "The November Silph Arena Season 2 Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_TIMELESS_CUP": {
-            "label": "Silph Arena Timeless Cup",
-            "description": "The December Silph Arena Season 2 Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_FUSION_CUP": {
-            "label": "Silph Arena Fusion Cup",
-            "description": "The January Silph Arena Season 2 Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_ROSE_CUP": {
-            "label": "Silph Arena Rose Cup",
-            "description": "The February Silph Arena Season 2 Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_TOXIC_CUP": {
-            "label": "Silph Arena Toxic Cup",
-            "description": "The March Silph Arena Season 2 Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_FOREST_CUP": {
-            "label": "Silph Arena Forest Cup",
-            "description": "The May Silph Arena Season 2 Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_SORCEROUS_CUP": {
-            "label": "Silph Arena Sorcerous Cup",
-            "description": "The June Silph Arena Season 2 Cup tournament."
-        },
-        "COMBAT_LEAGUE_SILPH_CATACOMB_CUP": {
-            "label": "Silph Arena Catacomb Cup",
-            "description": "The July Silph Arena Season 2 Cup tournament."
         },
         "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
             "label": "Silph Arena Sunrise Cup",

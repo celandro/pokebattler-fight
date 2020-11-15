@@ -229,127 +229,31 @@
     "leagues": {
       "COMBAT_LEAGUE_DEFAULT_GREAT": {
         "title": "Great League",
-        "intro": "Pokemon GO Battle League begins each season with Great League. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Registeel and Azumarill"
+        "intro": "Pokemon GO Battle League begins each season with Great League. It is mostly free of legendaries and has a wide array of possible Pokemon. It is dominated by low attack defensive Pokemon like Galarian Stunfisk and Azumarill."
       },
       "COMBAT_LEAGUE_DEFAULT_ULTRA": {
         "title": "Ultra League",
-        "intro": "Pokemon GO Battle League continues with Ultra League second in each season. Ultra league is a Pokemon Go PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options"
+        "intro": "Pokemon GO Battle League continues with Ultra League second in each season. Ultra league is a Pokemon Go PvP format that favors defensive heavy hitters such as Giratina and Cresselia. Most competitive Pokemon are expensive to power up but there are some lower stardust options."
       },
       "COMBAT_LEAGUE_DEFAULT_MASTER": {
         "title": "Master League",
-        "intro": "Pokemon GO Battle League will then have Master League third in each season. Master League is a Pokemon Go PvP format without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners"
+        "intro": "Pokemon GO Battle League will then have Master League third in each season. Master League is a Pokemon Go PvP format without any limits and is dominated by level 40 defensive Legendaries and dragon types with dual charge moves. This is a very expensive league to be competitive in and is not recommended for beginners."
       },
       "COMBAT_LEAGUE_PREMIER_CUP": {
         "title": "Premier Cup",
-        "intro": "Pokemon GO Battle League has added Premier Cup to run at the same time as Master League. Premier Cup is like Master League but does not allow Mythical or Legendary Pokemon. It  is dominated by level 40 pseudo-legendaries with dual charge moves. This is a slightly more affordable league than Master league but is also not recommended for beginners"
+        "intro": "Pokemon GO Battle League has added Premier Cup to run at the same time as Master League. Premier Cup is like Master League but does not allow Mythical or Legendary Pokemon. It  is dominated by level 40 pseudo-legendaries with dual charge moves. This is a slightly more affordable league than Master league but is also not recommended for beginners."
       },
       "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
         "title": "Ultra Premier Cup",
         "intro": "Pokemon GO Battle League has added an Ultra League version of Premier Cup to run at the same time as Ultra League. Ultra Premier Cup is like Ultra League but does not allow Mythical or Legendary Pokemon.  It is dominated by community day Pokemon with powerful legacy moves that are not available without elite TMs."
       },
-      "COMBAT_LEAGUE_SILPH_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_CUP_PRE_1": {
-        "title": "{{title}}",
-        "intro": "This is a future cup for the Silph Arena monthly competition.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_CUP_PRE_2": {
-        "title": "{{title}}",
-        "intro": "This is a future cup for the Silph Arena monthly competition.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_CUP_PRE_3": {
-        "title": "{{title}}",
-        "intro": "This is a future cup for the Silph Arena monthly competition.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_SEASON_1_REGIONAL": {
-        "title": "{{title}}",
-        "intro": "Silph Season 1 Regional Tournament competition. This is a second round of tournaments for the Silph Arena monthly competition.   For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_RAINBOW_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Crom for June using Bug, Fire, Water, Grass and Electric Pokemon from Gen 1 and Gen 2. The Silph Arena is a monthly competition that has different rules each month.  It is popular for community tournaments.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season One Championship is the final tournament of the season. Mythicals and Legendaries are banned. Altaria, Azumarill, Bastiodon, Lucario, Medicham, Meganium, Probopass, Skarmory, Tropius, and Venusaur are restricted to a total of 2 per team of 6. For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_LIMITED": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season One Championship limited Pokemon ranked against themselves."
-      },
-      "COMBAT_LEAGUE_SILPH_CHAMPIONSHIP_UNLIMITED": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season One Championship unlimited Pokemon ranked without the limited Pokemon."
-      },
-      "COMBAT_LEAGUE_SILPH_JUNGLE_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena cup from July. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_BOULDER_CUP": {
-        "title": "{{title}}",
-        "intro": "The first Silph Arena cup ever using Ground, Steel, Rock and Fighting Pokemon, duplicates allowed! The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_TWILIGHT_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena cup from February using Poison, Fairy, Dark and Ghost Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_TEMPEST_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena cup from March using Flying, Ice, Ground and Electric Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_KINGDOM_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena cup from April using Fire, Ice, Dragon and Steel Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_NIGHTMARE_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena cup from May using Fighting, Dark and Psychic Pokemon with bans on Medicham, Sableye, Legendary and Mythical Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_SINISTER_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for October using Ghost, Psychic, Steel and Fighting Pokemon with bans on Skarmory, Hypno, Dual Dark Types, and Mythical Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_FEROCIOUS_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for November using beast types with numerous bans. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_TIMELESS_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for December. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_FUSION_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for January featuring Pokemon that have multiple types and cost 50K or less for a second move. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_ROSE_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for February featuring Pokemon that are pink, red, purple and gray. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_TOXIC_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for March featuring Pokemon that are Normal, Poison, Ground, Bug or Grass types. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_FOREST_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for May featuring Pokemon that are Fire, Water, Grass, Bug or Electric types of Generation 2-5. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_SORCEROUS_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for June featuring Pokemon that are Ice, Poison, Fairy, Psychic or Normal types with second moves that cost less than 75,000. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
-      "COMBAT_LEAGUE_SILPH_CATACOMB_CUP": {
-        "title": "{{title}}",
-        "intro": "The Silph Arena Season 2 cup for June featuring Pokemon that are Dark, Grass, Ice, Rock or Bug types that are not steel types, legendaries, mythical, shadows, regionals or overpowered. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
-      },
       "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
         "title": "{{title}}",
-        "intro": "The Silph Arena Season 3 cup for October featuring Pokemon that are Flying, Grass, Fire, Ground or Normal types that are not Rock types, or Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+        "intro": "The Silph Arena Season 3 cup for October featuring Pokemon that are Flying, Grass, Fire, Ground or Normal types that are not Rock types, or Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/."
       },
       "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
         "title": "{{title}}",
-        "intro": "The Silph Arena Season 3 cup for November featuring Pokemon that are Poison, Ghost, Bug, Grass or Water types except for Tropius, Abomasnow and Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/"
+        "intro": "The Silph Arena Season 3 cup for November featuring Pokemon that are Poison, Ghost, Bug, Grass or Water types except for Tropius, Abomasnow and Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/."
      },
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
         "title": "{{title}}",
@@ -358,7 +262,12 @@
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
         "title": "{{title}}",
         "intro": "The Great League Flying Cup is the second official typed cup from Niantic. Only Pokemon that can fly are allowed It will be held on November 5th from 6pm til midnight."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
+        "title": "{{title}}",
+        "intro": "The Great League Kanto Cup is an official typed cup from Niantic from November 16 to November 23. Only Kanto region Pokemon with pokedex numbers between 1 and 151 are eligible."
       }
+
     },
     "pokemonCondition": {
       "WITH_POKEMON_CP_LIMIT": "Max CP",
