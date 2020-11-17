@@ -25,6 +25,18 @@
             "fromApi": "$t(login.success.title)! Please wait a moment to continue."
         }
     },
+    "link": {
+        "title": "Connect With Other Providers",
+        "description": "You can link your Pokebattler account with multiple login methods. When you perform this action, the account you attempt to link to will be merged into the current account. Make sure you are logged in with the account you wish to keep!",
+        "google": "Connect Google account",
+        "facebook": "Connect Facebook account",
+        "discord": "Connect Discord account",
+        "patreon": "Connect Patreon account",
+        "allLinked": "Wow! You have linked all your accounts. Congratulations on becoming a Pokebattler Account Master!",
+        "success": {
+            "title": "Account Linked Successfully"
+        }
+    },
     "settings": {
         "showListImages": "Show Images"
     },
@@ -34,7 +46,7 @@
     },
     "raidParty": {
         "title": "Raid Party Settings",
-        "description": "Settings for the Pokebattler Raid Party App closed beta."
+        "description": "Settings for the Pokebattler Raid Party App."
     },
     "loggedIn": {
         "title": "Public Profile",
@@ -45,6 +57,7 @@
         "profileButton": "Your Profile",
         "discordLink": {
             "instructions": "To link your discord account, log out and log back in using the discord login option and the email address tied to this account.",
+            "linkAccounts": "Link your Discord account to this Pokebattler account to enable the Pokebattler Raid Network",
             "error": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids."
         }
     },
