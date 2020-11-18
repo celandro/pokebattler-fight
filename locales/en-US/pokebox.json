@@ -65,6 +65,7 @@
     "loading": "Loading your Pokemon",
     "backPokebox": "Back to Pokebox",
     "powerUp": "Power Up",
+    "powerDown": "Power Down",
     "full": {
         "title": "Pokebox Full",
         "subtitle": "Out of Space",
