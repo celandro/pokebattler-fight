@@ -25,7 +25,9 @@
         "BATTLE_PARTY_LEVEL_25": "Level 25",
         "BATTLE_PARTY_LEVEL_30": "Level 30",
         "BATTLE_PARTY_LEVEL_35": "Level 35",
-        "BATTLE_PARTY_LEVEL_40": "Level 40"
+        "BATTLE_PARTY_LEVEL_40": "Level 40",
+        "BATTLE_PARTY_LEVEL_45": "Level 45",
+        "BATTLE_PARTY_LEVEL_50": "Level 50"
     },
     "updateSetting": {
         "success": "User settings updated correctly",

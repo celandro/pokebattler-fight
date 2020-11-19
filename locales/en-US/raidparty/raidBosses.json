@@ -23,6 +23,8 @@
             "BATTLE_PARTY_LEVEL_30": "Using best level 30 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_35": "Using best level 35 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_40": "Using best level 40 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_45": "Using best level 45 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_50": "Using best level 50 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_POKEBOX": "Using your best counters. Don't see what you have here? Add Pokemon in your Pokebox which you can quickly fill on the alternative tab"
         },
         "details": {

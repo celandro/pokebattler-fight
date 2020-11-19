@@ -3088,6 +3088,14 @@
         "BATTLE_PARTY_LEVEL_40": {
             "label": "Level 40",
             "description": "Use the best level 40 Pokemon"
+        },
+        "BATTLE_PARTY_LEVEL_45": {
+            "label": "Level 45",
+            "description": "Use the best level 45 Pokemon"
+        },
+        "BATTLE_PARTY_LEVEL_50": {
+            "label": "Level 50",
+            "description": "Use the best level 50 Pokemon"
         }
     },
 
