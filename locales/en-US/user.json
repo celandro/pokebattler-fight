@@ -26,12 +26,13 @@
         }
     },
     "link": {
-        "title": "Connect With Other Providers",
+        "shortTitle": "Connect Accounts",
+        "title": "Connect Your Social Logins",
         "description": "You can link your Pokebattler account with multiple login methods. When you perform this action, the account you attempt to link to will be merged into the current account. Make sure you are logged in with the account you wish to keep!",
-        "google": "Connect Google account",
-        "facebook": "Connect Facebook account",
-        "discord": "Connect Discord account",
-        "patreon": "Connect Patreon account",
+        "google": "Connect Google Account",
+        "facebook": "Connect Facebook Account",
+        "discord": "Connect Discord Account",
+        "patreon": "Connect Patreon Account",
         "allLinked": "Wow! You have linked all your accounts. Congratulations on becoming a Pokebattler Account Master!",
         "success": {
             "title": "Account Linked Successfully"
