@@ -45,6 +45,7 @@
     "discord": {
         "joinServer": "Join Server",
         "privateServer": "Private Server",
-        "joinChat": "Join Chat"
+        "joinChat": "Join Chat",
+        "oneClickJoin": "Instant Join"
     }
 }
