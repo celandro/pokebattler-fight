@@ -1,15 +1,19 @@
 {
     "languageSupport": {
         "self": "English",
+        "be": "Bengali",
+        "bg": "Bulgarian",
         "en": "English",
         "es": "Spanish",
         "de": "German",
+        "hu": "Hungarian",
         "jp": "Japanese",
         "fr": "French",
         "it": "Italian",
-        "pl": "Polish",
         "ja": "Japanese",
         "ko": "Korean",
+        "nl": "Dutch",
+        "pl": "Polish",
         "pt": "Portuguese",
         "ru": "Russian",
         "zh": "Chinese"
