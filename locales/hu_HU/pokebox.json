@@ -6,7 +6,7 @@
     "blurb": "￼Adja hozzá Pokemonját az egyéni eredmények érdekében!  A jobb oldali kék kör segítségével egyesével hozzáadhatja Pokemonját.  Arra is lehetősége van, hogy a tömeges importálás használatával más alkalmazásokból is hozzáadhassa a Pokemont.  A jobb felső sarokban található egy rendezés gomb, amely segít megtalálni Pokemonját",
     "pokemonList": {
         "title": "Saját Pokéboxod",
-        "zero": "Adja hozzá Pokemonját a bal oldali mezőre kattintva",
-        "zeroDescription": "Ha korábban már hozzáadta a Pokemont, akkor valószínűleg másik fiókkal jelentkezett be.  A fiókok automatikusan összekapcsolódnak, ha ugyanazt az e-mail címet használja."
+        "zero": "Adja hozzá Pokemonját a bal oldali mezőre kattintva.",
+        "zeroDescription": "Ha korábban már hozzáadta a Pokemont, akkor valószínűleg másik fiókkal jelentkezett be. A fiókok automatikusan összekapcsolódnak, ha ugyanazt az e-mail címet használja."
     }
 }
