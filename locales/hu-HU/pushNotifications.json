@@ -1,12 +1,4 @@
 {
-    "ADD_USER": {
-        "subtitle": "Raid Party #{{raidPartyId}}",
-        "line4": "$t(pushNotifications:defaultBody.line4)",
-        "line2": "$t(pushNotifications:defaultBody.line2)",
-        "line1": "$t(pushNotifications:defaultBody.line1)",
-        "line3": "$t(pushNotifications:defaultBody.line3)",
-        "title": "{{name}} csatlakozott egy {{tier}} {{defender}} raid partihoz"
-    },
     "globalRaidNetwork": {
         "field1": {
             "value": "[{{discordGuildName}}]({{discordGuildInviteUrl}})",
@@ -29,7 +21,7 @@
         "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
         "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
         "title": "**{{defender}}** - {{tier}}",
-        "description": "{{remoteSlotsEmoji}} játékos szükséges a {{tier}} ** {{defender}} ** raidhez - # {{raidPartyId}}\n\n>>> Csatlakozzon a [Pokebattler Raid Party App] (https://www.pokebattler.com/raidParty/ {{raidPartyId}}) használatával, vagy csatlakozzon a Discord szerverhez és lépjen kapcsolatba a {{botName}} Discord Raid Linkkel.\n",
+        "description": "{{remoteSlotsEmoji}} játékos szükséges a {{tier}} ** {{defender}} ** raidhez - # {{raidPartyId}}\n\n>>> Csatlakozzon a [Pokebattler Raid Party App] (https://www.pokebattler.com/raidParty/ {{raidPartyId}}) használatával, vagy csatlakozzon a Discord szerverhez és lépjen kapcsolatba a {{botName}} Discord Raid Linkkel.\nA [Pokémon Magyarország Official](https://discord.gg/Un9cXNA) Discord szervere.\n",
         "field1NonDiscord": {
             "name": "Csak az alkalmazásban érhető el",
             "value": "[Pokebattler Raid Party Alkalmazás](https://www.pokebattler.com/raidParty/{{raidPartyId}}/discord)"
@@ -48,7 +40,7 @@
     "defaultBody": {
         "line3": "{{powerPercent}}% - os csoportos sebzés",
         "line2": "{{winPercent}}% esély a győzelemre",
-        "line4": "{{becslő}}Játékosokra van szükség",
+        "line4": "{{estimator}}Játékosokra van szükség",
         "line1": "{{numPlayers}} db játékos"
     },
     "REMOVE_USER": {
