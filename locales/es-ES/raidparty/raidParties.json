@@ -42,5 +42,11 @@
         "link": "Lista de Amigos",
         "linkTo": "Friends"
     },
-    "placeholder": "Ingresa a un jefe personalizado para simular"
+    "placeholder": "Ingresa a un jefe personalizado para simular",
+    "discord": {
+        "joinServer": "Unirse al Servidor",
+        "privateServer": "Servidor Privado",
+        "joinChat": "Unirse al Chat",
+        "oneClickJoin": "Únete al Instante"
+    }
 }
