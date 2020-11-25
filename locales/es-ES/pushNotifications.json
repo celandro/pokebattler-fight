@@ -1,29 +1,63 @@
 {
-	"CREATE_PARTY": {
-		"title": "{{name}} creó {{tier}} {{defender}} grupo de incursión",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},	
-	"ADD_USER": {
-		"title": "{{name}} se unió al grupo de incursión de {{tier}} {{defender}}",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},	
-	"REMOVE_USER": {
-		"title": "{{name}} izquierda {{tier}} {{defender}} grupo de incursión",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},	
-	"UPDATE_USER": {
-		"title": "{{name}} cambió su configuración para {{tier}} {{defender}}",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},	
-	"UPDATE_PARTY": {
-		"title": "{{name}} actualizó la configuración de incursión para {{tier}} {{defender}}",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},
-	"defaultBody" : {
-		"line1": "{{numPlayers}} Jugadores",
-		"line2": "{{winPercent}}% Oportunidad de Ganar",
-		"line3": "{{powerPercent}}% de Daño Ggrupal",
-		"line4": "{{estimator}} Jugadores Necesarios"
-	}
-	
+    "CREATE_PARTY": {
+        "title": "{{name}} creó {{tier}} {{defender}} grupo de incursión",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "ADD_USER": {
+        "title": "{{name}} se unió al grupo de incursión de {{tier}} {{defender}}",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "REMOVE_USER": {
+        "title": "{{name}} izquierda {{tier}} {{defender}} grupo de incursión",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "UPDATE_USER": {
+        "title": "{{name}} cambió su configuración para {{tier}} {{defender}}",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "UPDATE_PARTY": {
+        "title": "{{name}} actualizó la configuración de incursión para {{tier}} {{defender}}",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "defaultBody": {
+        "line1": "{{numPlayers}} Jugadores",
+        "line2": "{{winPercent}}% Oportunidad de Ganar",
+        "line3": "{{powerPercent}}% de Daño Ggrupal",
+        "line4": "{{estimator}} Jugadores Necesarios"
+    },
+    "discordLine": "#{{discordChannel}} - {{discordServerName}}",
+    "globalRaidNetwork": {
+        "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
+        "title": "**{{defender}}** - {{tier}}",
+        "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
+        "field1": {
+            "value": "[{{discordGuildName}}]({{discordGuildInviteUrl}})"
+        },
+        "thumbnail": "{{pokemonIcon}}",
+        "author": {
+            "name": "{{botName}}",
+            "icon_url": "{{botIcon}}"
+        },
+        "footer": "$t(pushNotifications:defaultBody.line1) - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)"
+    }
 }
