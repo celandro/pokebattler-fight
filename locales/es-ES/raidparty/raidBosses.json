@@ -21,7 +21,9 @@
             "BATTLE_PARTY_LEVEL_30": "Utilizando los mejores atacantes de nivel 30.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_35": "Utilizando los mejores atacantes de nivel 35.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_40": "Utilizando los mejores atacantes de nivel 40.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox, a la que puedes completar rápidamente desde la pestaña Alternativas"
+            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox, a la que puedes completar rápidamente desde la pestaña Alternativas",
+            "BATTLE_PARTY_LEVEL_45": "Utilizando los mejores atacantes de nivel 45.  $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_50": "Utilizando los mejores atacantes de nivel 50. $t(raidBosses:counters.settings.suggestPokebox)"
         },
         "details": {
             "title": "Detalles de Combate",
