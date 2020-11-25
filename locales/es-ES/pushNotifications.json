@@ -61,7 +61,7 @@
         },
         "footer": "$t(pushNotifications:defaultBody.line1) - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)",
         "username": "Red de incursiones Pokebattler",
-        "description": "{{remoteSlotsEmoji}} Se necesitan jugadores  para incursión de {{tier}} **{{defender}}** - #{{raidPartyId}}\n\n>>> Únete usando [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}) o uniéndote al servidor de Discord e interactuando con  {{botName}} Enlace de incursión en Discord.",
+        "description": "{{remoteSlotsEmoji}} Se necesitan jugadores para incursión de {{tier}} **{{defender}}** - #{{raidPartyId}}\n\n>>> Únete usando [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}) o uniéndote al servidor de Discord e interactuando con  {{botName}} Enlace de incursión en Discord.\n",
         "field2": {
             "name": "Enlace de incursión en Discord",
             "value": "[de {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"
