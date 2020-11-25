@@ -48,7 +48,7 @@
     "discordLine": "#{{discordChannel}} - {{discordServerName}}",
     "globalRaidNetwork": {
         "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
-        "title": "**{{defender}}** - {{tier}}",
+        "title": "{{discordFlag}} **{{defender}}** - {{tier}} ({{discordLanguage}})",
         "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
         "field1": {
             "value": "[{{discordGuildName}}]({{discordGuildInviteUrl}})",
@@ -63,13 +63,16 @@
         "username": "Red de incursiones Pokebattler",
         "description": "{{remoteSlotsEmoji}} Se necesitan jugadores  para incursión de {{tier}} **{{defender}}** - #{{raidPartyId}}\n\n>>> Únete usando [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}) o uniéndote al servidor de Discord e interactuando con  {{botName}} Enlace de incursión en Discord.",
         "field2": {
-            "name": "Enlace de incursión en Discord"
+            "name": "Enlace de incursión en Discord",
+            "value": "[de {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"
         },
         "field1NonDiscord": {
-            "name": "Solo disponible en la aplicación"
+            "name": "Solo disponible en la aplicación",
+            "value": "[Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/discord)"
         },
         "field3": {
-            "name": "Únete con un click"
+            "name": "Únete con un click",
+            "value": "[desde Pokebattler Raid Network](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
         }
     }
 }
