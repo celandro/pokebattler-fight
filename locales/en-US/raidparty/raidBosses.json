@@ -6,6 +6,7 @@
     "loadParty": "View Raid Party #{{id}}",
     "joinParty": "Join Party",
     "leaveParty": "Leave Party",
+    "copyTrainers": "Copy Trainers",
     "viewParty": "View Party",
     "customBoss": "Customize",
     "actionButtonsDescription": "Simulate your raid party group",
