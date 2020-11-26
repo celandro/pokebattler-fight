@@ -167,6 +167,9 @@
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
+        "related": {
+            "title": "Related Counters"
+        },
         "description": "Pokebattler's {{pokemon}} raid counters guide is designed to help you beat {{pokemon}} with your best counters. You can find the best counters overall to defeat {{pokemon}} in the infographic and article and use our customizable tool for results from millions of simulations of Pokemon, or your own Pokebox full of Pokemon for a truly personalized experience. ",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
