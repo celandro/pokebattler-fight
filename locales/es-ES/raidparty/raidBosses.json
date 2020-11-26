@@ -5,7 +5,12 @@
     "createParty": "Crear Equipo",
     "loadParty": "Ver Equipo de Incursión #{{id}}",
     "joinParty": "Unirse a Equipo",
+    "leaveParty": "Abandonar Equipo",
     "viewParty": "Ver Equipo",
+    "copyTrainers": "Copiar Entrenadores",
+    "remote": "Remoto",
+    "ready": "Listo",
+    "customBoss": "Personalizar",
     "actionButtonsDescription": "Simula tu grupo de incursión",
     "quickSettings": {
         "title": "Configuración Rápida"
@@ -89,7 +94,5 @@
         "until": "Hasta",
         "localTime": "HORA LOCAL"
     },
-    "leaveParty": "Abandonar Equipo",
-    "customBoss": "Personalizar",
     "autocomplete": "Elige Jefe de Incursión personalizado"
 }

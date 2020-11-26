@@ -44,9 +44,19 @@
     },
     "placeholder": "Ingresa a un jefe personalizado para simular",
     "discord": {
-        "joinServer": "Unirse al Servidor",
+        "joinServer": "Unirse al Servidor'",
         "privateServer": "Servidor Privado",
         "joinChat": "Unirse al Chat",
-        "oneClickJoin": "Únete al Instante"
+        "oneClickJoin": "Únete al Instante",
+        "joinToServerInfo": "Esta incursión requiere que te unas en Discord. Por favor, únete al server, sigue las instrucciones de bienvenida, luego únete a la incursión con los íconos provistos en el bot.",
+        "coordinateInChannel": "Esta incursión es coordinada en Discord. Por favor comunícate en el canal."
+    },
+    "raidStartingIn": "Inicia la incursión:",
+    "noTimeSpecified": "No hay una hora especificada",
+    "startingTime": {
+        "default": "Selecciona tiempo de inicio",
+        "30": "30 segundos",
+        "120": "2 minutos",
+        "300": "5 minutos"
     }
 }
