@@ -46,6 +46,16 @@
         "joinServer": "Join Server",
         "privateServer": "Private Server",
         "joinChat": "Join Chat",
-        "oneClickJoin": "Instant Join"
+        "oneClickJoin": "Instant Join",
+        "joinToServerInfo": "This raid requires you to join within discord. Please join the server, follow the welcome messages, then join the raid via the icons provided on the bot",
+        "coordinateInChannel": "This raid is coordinated in discord. Please communicate in the channel"
+    },
+    "raidStartingIn": "Raid starting in:",
+    "noTimeSpecified": "No time specified",
+    "startingTime": {
+        "default": "Select starting time",
+        "30": "30 seconds",
+        "120": "2 minutes",
+        "300": "5 minutes"
     }
 }
