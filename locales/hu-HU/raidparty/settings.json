@@ -1,2 +1,74 @@
 {
+    "notifications": {
+        "channels": {
+            "deleteParty": {
+                "description": "Raid parti lemondása.",
+                "name": "Raid parti megszakítása"
+            },
+            "updateParty": {
+                "name": "Raid parti frissítése",
+                "description": "Változások beállítása a Raid Party-k számára."
+            },
+            "removeUser": {
+                "description": "A felhasználó elhagyta a raid partit.",
+                "name": "Felhasználó kilépett a partiból"
+            },
+            "updateUser": {
+                "description": "A partid felhasználója frissítette a beállításait.",
+                "name": "Felhasználó frissített a partit"
+            },
+            "addUser": {
+                "description": "Felhasználó csatlakozott a raid partihoz.",
+                "name": "Felhasználó csatlakozott a partihoz"
+            },
+            "createParty": {
+                "name": "Hozzon létre raid partit",
+                "description": "Raid party készítés barátoknak."
+            }
+        },
+        "groups": {
+            "raidParty": {
+                "description": "Tájékoztatja a razziákról, amelyek érdekelheti.",
+                "name": "Raid parti"
+            }
+        }
+    },
+    "form": {
+        "friendCode": "Barát kód",
+        "language": "Nyelv",
+        "sort": "Fajta",
+        "playerLevel": "Szint",
+        "includeShadow": "Árnyék",
+        "playerName": "Edző neve",
+        "raidCounterSettings": "Raid Counter beállításai",
+        "basics": "Alapok",
+        "playerFaction": "Csapat",
+        "friendLevel": "Barátság",
+        "discordUsername": "Discord felhasználónév",
+        "disclaimerText": "Problémái vannak az összekapcsolással? E-mailben küldje el az admin@pokebattler.com mindkét Pokebattler felhasználói azonosítóját",
+        "includeLegendary": "Legendás",
+        "pushNotificationSettings": "Nyomja meg az Értesítési beállítások lehetőséget",
+        "includeMegas": "Mega",
+        "autoRaidParty": "Counterek",
+        "weather": "Időjárás"
+    },
+    "updateSetting": {
+        "autoBattleParty": "Counterek váltása a Pokeboxban",
+        "errors": {
+            "friendCodeLength": "A barátkódnak pontosan 12 szám hosszúnak kell lennie",
+            "updateSettingGeneral": "Hiba történt a beállítások frissítésekor"
+        },
+        "success": "A felhasználói beállítások helyesen frissültek"
+    },
+    "autoRaidPartyOptions": {
+        "BATTLE_PARTY_LEVEL_50": "50. szint",
+        "BATTLE_PARTY_LEVEL_30": "30. szint",
+        "BATTLE_PARTY_LEVEL_45": "45. szint",
+        "BATTLE_PARTY_LEVEL_20": "20. szint",
+        "BATTLE_PARTY_POKEBOX": "Pokebox",
+        "BATTLE_PARTY_LEVEL_35": "35. szint",
+        "BATTLE_PARTY_LEVEL_40": "40. szint",
+        "BATTLE_PARTY_LEVEL_25": "25. szint"
+    },
+    "title": "Beállítások"
 }
