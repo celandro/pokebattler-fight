@@ -18,8 +18,11 @@
             "updateRaidPartyGeneral": "Raid party could not be updated for {{raidPartyPokemon}}",
             "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyPokemon}}",
             "getRaidResultsGeneral": "Raid results from party {{raidPartyId}} could not be retrieved",
-            "removeUserFromRaidPartyGeneral": "You could not leave the party {{raidPartyId}}",
-            "addUserToRaidPartyGeneral": "You could not join to party {{raidPartyId}}"
+            "removeUserFromRaidPartyGeneral": "You could not leave party #{{raidPartyId}}",
+            "addUserToRaidPartyGeneral": "You could not join party #{{raidPartyId}}",
+            "getUserRaidPartiesGeneral": "Could not fetch raid parties",
+            "addUserToRaidPartyGone": "Raid party #{{raidPartyId}} no longer exists",
+            "addUserToRaidPartyFull": "Raid party #{{raidPartyId}} is now full"
         }
     },
     "share": {

@@ -65,17 +65,6 @@
         "id": "#{{id}}",
         "addFriendCode": "Agregar Código de amigo"
     },
-    "raidPartyActions": {
-        "errors": {
-            "createRaidPartyGeneral": "El Equipo de incursión no pudo ser creado para {{raidPartyPokemon}}",
-            "updateRaidPartyGeneral": "El Equipo de incursión no pudo ser actualizado para {{raidPartyPokemon}}",
-            "fetchRaidPartyGeneral": "El Equipo de incursión no pudo ser encontrado para {{raidPartyPokemon}}",
-            "getRaidResultsGeneral": "Los resultados de la incursión para el equipo {{raidPartyId}} no pudieron ser obtenidos",
-            "removeUserFromRaidPartyGeneral": "No pudo abandonar el equipo {{raidPartyId}}",
-            "addUserToRaidPartyGeneral": "No pudo unirse al equipo {{raidPartyId}}",
-            "getUserRaidPartiesGeneral": "No se pudieron obtener equipos de incursión"
-        }
-    },
     "errors": {
         "failed": "Falló al cargar jefes de incursiones!",
         "party": "Falló al encontrar un equipo óptimo",
