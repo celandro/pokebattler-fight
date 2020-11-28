@@ -1,9 +1,29 @@
 {
     "noFriend": {
-        "addFriend": "Agrega amigos clickeando en el botón \"Agregar\" ubicado debajo a la derecha."
+        "addFriend": "Agrega amigos clickeando en el botón \"Agregar\" ubicado debajo a la derecha.",
+        "description": "Al agregar amigos recibirás notificaciones cuando estén creando incursiones y te permitirá ver las incursiones que han creado recientemente.  Asegúrate de establecer el nivel correcto de amistad ya que se usará automáticamente en las simulaciones de incursión.",
+        "title": "Agrega tus amigos a Pokebattler!"
     },
     "title": "Amigos",
     "errors": {
-        "add": "Falló al agregar amigo"
+        "add": "Falló al agregar amigo",
+        "failed": "No se puede recuperar la lista de amigos",
+        "update": "Error al actualizar amigo",
+        "delete": "Error al eliminar amigo"
+    },
+    "add": {
+        "clearSearch": "Limpiar",
+        "searchPlaceholder": "Nombre, Código o ID",
+        "cancelAddFriend": "Cancelar",
+        "supportedSearches": "Ingrese el Codigo de Amistad, Nombre de Entrenador, Nombre en Discord o ID Pokebattler en la barra de búsqueda y establezca su nivel de amistad",
+        "addFriend": "Agregar Amigo Pokebattler",
+        "friendId": "ID Pokebattler",
+        "noSearchText": "Encuentra a tus amigos",
+        "friendLevel": "Nivel de amistad",
+        "noSearchResults": "No se encontraron amigos, inténtelo de nuevo!"
+    },
+    "levels": {
+        "FRIENDSHIP_LEVEL": "Sin amistad",
+        "FRIENDSHIP_LEVEL_plural": "Buena amistad, Gran amistad, Ultraamistad, Amistad sin igual"
     }
 }
