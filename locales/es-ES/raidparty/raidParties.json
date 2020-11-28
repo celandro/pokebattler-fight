@@ -18,9 +18,11 @@
             "updateRaidPartyGeneral": "El Equipo de incursión no pudo ser actualizado para {{raidPartyPokemon}}",
             "fetchRaidPartyGeneral": "El Equipo de incursión no pudo ser encontrado para {{raidPartyPokemon}}",
             "getRaidResultsGeneral": "Los resultados de la incursión para el equipo {{raidPartyId}} no pudieron ser obtenidos",
-            "removeUserFromRaidPartyGeneral": "No pudo abandonar el equipo {{raidPartyId}}",
-            "addUserToRaidPartyGeneral": "No pudo unirse al equipo {{raidPartyId}}",
-            "getUserRaidPartiesGeneral": "No se pudieron obtener equipos de incursión"
+            "removeUserFromRaidPartyGeneral": "No pudo abandonar el equipo #{{raidPartyId}}",
+            "addUserToRaidPartyGeneral": "No pudo unirse al equipo #{{raidPartyId}}",
+            "getUserRaidPartiesGeneral": "No se pudieron obtener equipos de incursión",
+            "addUserToRaidPartyGone": "El equipo de incursión #{{raidPartyId}} ya no existe",
+            "addUserToRaidPartyFull": "El equipo de incursión #{{raidPartyId}} está lleno"
         }
     },
     "share": {
@@ -49,8 +51,8 @@
         "privateServer": "Servidor Privado",
         "joinChat": "Unirse al Chat",
         "oneClickJoin": "Únete al Instante",
-        "joinToServerInfo": "Esta incursión requiere que te unas en Discord. Por favor, únete al server, sigue las instrucciones de bienvenida, luego únete a la incursión con los íconos provistos en el bot.",
-        "coordinateInChannel": "Esta incursión es coordinada en Discord. Por favor comunícate en el canal."
+        "joinToServerInfo": "Esta incursión requiere que te unas en Discord. Por favor, únete al server, sigue las instrucciones de bienvenida, luego únete a la incursión con los íconos provistos en el bot",
+        "coordinateInChannel": "Esta incursión es coordinada en Discord. Por favor comunícate en el canal"
     },
     "raidStartingIn": "Inicia la incursión:",
     "noTimeSpecified": "No hay una hora especificada",
