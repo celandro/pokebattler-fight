@@ -1,2 +1,9 @@
 {
+    "noFriend": {
+        "addFriend": "Agrega amigos clickeando en el botón \"Agregar\" ubicado debajo a la derecha."
+    },
+    "title": "Amigos",
+    "errors": {
+        "add": "Falló al agregar amigo"
+    }
 }
