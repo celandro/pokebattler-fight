@@ -56,7 +56,7 @@
     "raidPartyCard": {
         "title": "{{defender}}",
         "id": "$t(raidBosses:joinParty) #{{id}}",
-        "sumamry": "{{players}} jugadores se unieron. Creada el {{createdAt}}",
+        "sumamry": "{{players}} jugadores se unieron. El grupo de {{ownerName}} fue creado el {{createdAt}}",
         "emptyPokebox": "Pokebox vacía, utilizando predeterminados",
         "egg": "Huevo"
     },
