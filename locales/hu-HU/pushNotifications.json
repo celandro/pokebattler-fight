@@ -21,7 +21,7 @@
         "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
         "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
         "title": "{{discordFlag}}**{{defender}}** - {{tier}} ({{discordLanguage}})",
-        "description": "{{remoteSlotsEmoji}} db játékosra van szükséges a {{tier}} ** {{defender}} ** raidhez - # {{raidPartyId}}\n\n>>> Csatlakozzon a [Pokebattler Raid Party App] (https://www.pokebattler.com/raidParty/{{raidPartyId}}) használatával, vagy csatlakozzon a Discord szerverhez és lépjen kapcsolatba a {{botName}} Discord Raid Linkkel.\n\nA [Pokémon Magyarország Official](https://discord.gg/Un9cXNA) fordítása.\n",
+        "description": "{{remoteSlotsEmoji}} db játékosra van szükséges a {{tier}} ** {{defender}} ** raidhez - # {{raidPartyId}}\n\n>>> Csatlakozzon a [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}) használatával, vagy csatlakozzon a Discord szerverhez és lépjen kapcsolatba a {{botName}} Discord Raid Linkkel.\n\nA [Pokémon Magyarország Official](https://discord.gg/Un9cXNA) fordítása.\n",
         "field1NonDiscord": {
             "name": "Csak az alkalmazásban érhető el",
             "value": "[Pokebattler Raid Party Alkalmazás](https://www.pokebattler.com/raidParty/{{raidPartyId}}/discord)"
