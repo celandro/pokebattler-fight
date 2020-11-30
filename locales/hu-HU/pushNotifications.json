@@ -34,13 +34,13 @@
         "line1": "$t(pushNotifications: defaultBody.line1)",
         "line4": "$t(pushNotifications: defaultBody.line4)",
         "line2": "$t(pushNotifications: defaultBody.line2)",
-        "subtitle": "Raid Party # {{raidPartyId}}"
+        "subtitle": "Raid Party #{{raidPartyId}}"
     },
     "discordLine": "#{{discordChannel}} - {{discordServerName}}",
     "defaultBody": {
         "line3": "{{powerPercent}}%-os a csoportos sebzés",
         "line2": "{{winPercent}}% esély a győzelemre",
-        "line4": "{{estimator}} db játékosokra van szükség",
+        "line4": "{{estimator}} db játékosokra van szükség a raid legyőzéséhez",
         "line1": "{{numPlayers}} db játékos"
     },
     "REMOVE_USER": {
@@ -49,7 +49,7 @@
         "line2": "$t(pushNotifications:defaultBody.line2)",
         "line3": "$t(pushNotifications: defaultBody.line3)",
         "subtitle": "Raid Party #{{raidPartyId}}",
-        "title": "{{name}} kilépett egy {{tier}} {{defender}} raid partiból"
+        "title": "{{name}} kilépett a raid partiból"
     },
     "UPDATE_PARTY": {
         "subtitle": "Raid Party #{{raidPartyId}}",
