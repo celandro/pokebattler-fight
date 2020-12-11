@@ -119,7 +119,9 @@
         "candy": "Candy",
         "tdo": "Damage (TDO)",
         "maxCP": "Max $t(common:cp)",
-        "level": "$t(common:level)"
+        "level": "$t(common:level)",
+        "rank": "Rank",
+        "points": "Points"
     },
     "sectionLinks": {
         "help": "Help section",
@@ -290,7 +292,8 @@
             "news": "News",
             "profiles": "Public Profiles",
             "matrix": "Matrix",
-            "subscription": "Subscription"
+            "subscription": "Subscription",
+            "attackers": "Attackers"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
