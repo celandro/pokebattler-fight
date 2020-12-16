@@ -3273,6 +3273,10 @@
             "label": "Kanto Cup",
             "description": "3 Pokemon from Gen 1 with a maximum CP of 1500."
         },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
+            "label": "Holiday Cup",
+            "description": "3 Pokemon of Normal, Grass, Electric, Ice, Flying, or Ghost types with a maximum CP of 1500."
+        },
         "COMBAT_LEAGUE_PREMIER_CUP": {
             "label": "Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon."
