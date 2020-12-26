@@ -431,7 +431,15 @@
                 "name": "Matt",
                 "app": "PvPoke.com",
                 "iconUrl":"https://pvpoke.com/img/app_192.png"
-            }
+            },
+            "nexus": {
+                "description":"TODO",
+                "quote": "TODO",
+                "thanks": "TODO",
+                "name": "10Criz",
+                "app": "Nexus",
+                "iconUrl":"https://cdn.discordapp.com/icons/733079996721135767/3920c9a0cabc7802defd93661bfa19e2.png?size=256"
+            }           
         }
     },
     "countryCodes": {
