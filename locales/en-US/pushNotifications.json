@@ -1,6 +1,6 @@
 {
   "CREATE_PARTY": {
-    "title": "{{name}} created a {{tier}} {{defender}} raid party",
+    "title": "{{attackerName}} created a {{tier}} {{defender}} raid party",
     "subtitle": "Raid Party #{{raidPartyId}}",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -8,7 +8,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "ADD_USER": {
-    "title": "{{name}} joined a {{tier}} {{defender}} raid party",
+    "title": "{{attackerName}} joined a {{tier}} {{defender}} raid party",
     "subtitle": "Raid Party #{{raidPartyId}}",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -16,7 +16,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "REMOVE_USER": {
-    "title": "{{name}} left a {{tier}} {{defender}} raid party",
+    "title": "{{attackerName}} left a {{tier}} {{defender}} raid party",
     "subtitle": "Raid Party #{{raidPartyId}}",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -24,7 +24,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "UPDATE_USER": {
-    "title": "{{name}} changed their settings for {{tier}} {{defender}}",
+    "title": "{{attackerName}} changed their settings for {{tier}} {{defender}}",
     "subtitle": "Raid Party #{{raidPartyId}}",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -32,7 +32,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "UPDATE_PARTY": {
-    "title": "{{name}} updated raid settings for {{tier}} {{defender}}",
+    "title": "{{attackerName}} updated raid settings for {{tier}} {{defender}}",
     "subtitle": "Raid Party #{{raidPartyId}}",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -40,7 +40,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "defaultBody": {
-    "line1": "{{numPlayers}} Players",
+    "line1": "{{numAttackers}} Players",
     "line2": "{{winPercent}}% Chance to Win",
     "line3": "{{powerPercent}}% Group Damage",
     "line4": "{{estimator}} Players Needed"
@@ -50,7 +50,7 @@
     "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
     "username": "Pokebattler Raid Network",
     "title": "{{discordFlag}}**{{defender}}** - {{tier}} ({{discordLanguage}})",
-    "description": "{{remoteSlotsEmoji}} players needed for {{tier}} **{{defender}}** raid - #{{raidPartyId}}\n\n>>> Join using the [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}) or by joining the Discord server and interacting with the {{botName}} Discord Raid Link.\n",
+    "description": "{{remoteSlotsEmoji}} players needed for {{tier}} **{{defender}}** raid - #{{raidPartyId}}\n\n>>> 1-Click Join using the [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join) or by permantently joining the remote server and interacting with {{botName}}.\n",
     "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
     "field1": {
       "name": "Join Discord Server",
@@ -61,17 +61,21 @@
       "value": "[via {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"
     },
     "field3": {
-      "name": "One Click Join",
+      "name": "1-Click Join",
       "value": "[via Pokebattler Raid Network](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
     },
     "field1NonDiscord": {
       "name": "Only available in app",
-      "value": "[Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/discord)"
+      "value": "[Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
     },
     "thumbnail": "{{pokemonIcon}}",
     "author": {
       "name": "{{botName}}",
       "icon_url": "{{botIcon}}"
+    },
+    "appAuthor" : {
+      "name": "Pokebattler Raid Party App",
+      "icon_url": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png"
     },
     "footer": "$t(pushNotifications:defaultBody.line1) - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)"
   }
