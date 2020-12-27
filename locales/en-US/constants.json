@@ -1449,6 +1449,7 @@
       "PINSIR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PINSIR)",
       "PINSIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.PINSIR)",
         "PIKACHU_VS_2019_FORM": "Libre $t(constants:pokemon.PIKACHU)",
+        "PIKACHU_VS_FORM": "Libre $t(constants:pokemon.PIKACHU)",
         "ONIX_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ONIX)",
         "ONIX_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ONIX)",
         "ONIX_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.ONIX)",
@@ -2456,9 +2457,8 @@
         "SLOWPOKE_GALARIAN_FORM":  "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWPOKE)",
         "SLOWBRO_GALARIAN_FORM":  "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWBRO)",
         "LAPRAS_COSTUME_2020_FORM":  "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.LAPRAS)",
-        "GENGAR_COSTUME_2020_FORM ":  "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.GENGAR)",
+        "GENGAR_COSTUME_2020_FORM":  "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.GENGAR)",
         "PYROAR_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.PYROAR)",
-        
         "MEOWSTIC_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.MEOWSTIC)",
         "ZYGARDE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - 10% ",
         "ZYGARDE_FIFTY_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - 50%",
@@ -3272,6 +3272,10 @@
         "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
             "label": "Kanto Cup",
             "description": "3 Pokemon from Gen 1 with a maximum CP of 1500."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
+            "label": "Holiday Cup",
+            "description": "3 Pokemon of Normal, Grass, Electric, Ice, Flying, or Ghost types with a maximum CP of 1500."
         },
         "COMBAT_LEAGUE_PREMIER_CUP": {
             "label": "Premier Cup",

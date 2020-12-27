@@ -1,6 +1,6 @@
 {
     "CREATE_PARTY": {
-        "title": "{{name}} creó {{tier}} {{defender}} grupo de incursión",
+        "title": "{{attackerName}} creó {{tier}} {{defender}} grupo de incursión",
         "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
         "line1": "$t(pushNotifications:defaultBody.line1)",
         "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -8,7 +8,7 @@
         "line4": "$t(pushNotifications:defaultBody.line4)"
     },
     "ADD_USER": {
-        "title": "{{name}} se unió al grupo de incursión de {{tier}} {{defender}}",
+        "title": "{{attackerName}} se unió al grupo de incursión de {{tier}} {{defender}}",
         "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
         "line1": "$t(pushNotifications:defaultBody.line1)",
         "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -16,7 +16,7 @@
         "line4": "$t(pushNotifications:defaultBody.line4)"
     },
     "REMOVE_USER": {
-        "title": "{{name}} izquierda {{tier}} {{defender}} grupo de incursión",
+        "title": "{{attackerName}} izquierda {{tier}} {{defender}} grupo de incursión",
         "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
         "line1": "$t(pushNotifications:defaultBody.line1)",
         "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -24,7 +24,7 @@
         "line4": "$t(pushNotifications:defaultBody.line4)"
     },
     "UPDATE_USER": {
-        "title": "{{name}} cambió su configuración para {{tier}} {{defender}}",
+        "title": "{{attackerName}} cambió su configuración para {{tier}} {{defender}}",
         "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
         "line1": "$t(pushNotifications:defaultBody.line1)",
         "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -32,7 +32,7 @@
         "line4": "$t(pushNotifications:defaultBody.line4)"
     },
     "UPDATE_PARTY": {
-        "title": "{{name}} actualizó la configuración de incursión para {{tier}} {{defender}}",
+        "title": "{{attackerName}} actualizó la configuración de incursión para {{tier}} {{defender}}",
         "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
         "line1": "$t(pushNotifications:defaultBody.line1)",
         "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -40,7 +40,7 @@
         "line4": "$t(pushNotifications:defaultBody.line4)"
     },
     "defaultBody": {
-        "line1": "{{numPlayers}} Jugadores",
+        "line1": "{{numAttackers}} Jugadores",
         "line2": "{{winPercent}}% Oportunidad de Ganar",
         "line3": "{{powerPercent}}% de Daño Ggrupal",
         "line4": "{{estimator}} Jugadores Necesarios"

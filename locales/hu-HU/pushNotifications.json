@@ -29,7 +29,7 @@
         "thumbnail": "{{pokemonIcon}}"
     },
     "UPDATE_USER": {
-        "title": "{{name}} módosította a (z) {{tier}} {{defender}} beállításait",
+        "title": "{{attackerName}} módosította a (z) {{tier}} {{defender}} beállításait",
         "line3": "$t(pushNotifications: defaultBody.line3)",
         "line1": "$t(pushNotifications: defaultBody.line1)",
         "line4": "$t(pushNotifications: defaultBody.line4)",
@@ -41,7 +41,7 @@
         "line3": "{{powerPercent}}%-os a csoportos sebzés",
         "line2": "{{winPercent}}% esély a győzelemre",
         "line4": "{{estimator}} db játékosokra van szükség a raid legyőzéséhez",
-        "line1": "{{numPlayers}} db játékos"
+        "line1": "{{numAttackers}} db játékos"
     },
     "REMOVE_USER": {
         "line1": "$t(pushNotifications:defaultBody.line1)",
@@ -49,12 +49,12 @@
         "line2": "$t(pushNotifications:defaultBody.line2)",
         "line3": "$t(pushNotifications: defaultBody.line3)",
         "subtitle": "Raid Party #{{raidPartyId}}",
-        "title": "{{name}} kilépett a raid partiból"
+        "title": "{{attackerName}} kilépett a raid partiból"
     },
     "UPDATE_PARTY": {
         "subtitle": "Raid Party #{{raidPartyId}}",
         "line3": "$t(pushNotifications:defaultBody.line3)",
-        "title": "{{name}} frissítette a raid beállításait a (z) {{tier}} {{defender}} számára",
+        "title": "{{attackerName}} frissítette a raid beállításait a (z) {{tier}} {{defender}} számára",
         "line2": "$t(pushNotifications:defaultBody.line2)",
         "line4": "$t(pushNotifications:defaultBody.line4)",
         "line1": "$t(pushNotifications: defaultBody.line1)"
@@ -64,11 +64,11 @@
         "line1": "$t(pushNotifications:defaultBody.line1)",
         "line3": "$t(pushNotifications:defaultBody.line3)",
         "line2": "$t(pushNotifications:defaultBody.line2)",
-        "title": "{{name}} létrehozott egy {{tier}} {{defender}} raid partit",
+        "title": "{{attackerName}} létrehozott egy {{tier}} {{defender}} raid partit",
         "line4": "$t(pushNotifications:defaultBody.line4)"
     },
     "ADD_USER": {
-        "title": "{{name}} csatlakozott a {{tier}} {{defender}} raidhez.",
+        "title": "{{attackerName}} csatlakozott a {{tier}} {{defender}} raidhez.",
         "subtitle": "Raid Party #{{raidPartyId}}",
         "line1": "$t(pushNotifications:defaultBody.line1)",
         "line2": "$t(pushNotifications:defaultBody.line2)",
