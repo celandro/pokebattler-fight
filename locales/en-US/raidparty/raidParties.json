@@ -10,9 +10,25 @@
     },
     "raidPartyHost": {
         "title": "Raid Host",
-        "description": "Send a friend invite to {{name}} in Pokemon Go, then click the Ready button",
+        "description": "Send a friend invite to {{name}} in Pokemon Go",
         "hostInfo": "{{name}} #{{id}}"
     },
+    "raidPartyUserStatus": {
+        "READY": {
+            "hostDescription": "Look around for {{name}}!"
+        },
+        "INTERESTED": {
+            "hostDescription": "Select whether you are local or remote"
+        },
+        "REMOTE": {
+            "hostDescription": "Send a friend invite to {{name}} in Pokemon Go"
+        },
+        "DONE": {
+            "hostDescription": "You have left the party"
+        }
+
+    },
+
     "raidPartyPlayer": {
         "title": "{{name}}",
         "id": "#{{id}}"
