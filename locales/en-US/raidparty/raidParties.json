@@ -8,6 +8,11 @@
         "id": "#{{id}}",
         "sumamry": "{{players}} players have joined. Created at {{createdAt}}"
     },
+    "raidPartyHost": {
+        "title": "Raid Host",
+        "description": "Send a friend invite to {{name}} in Pokemon Go, then click the Ready button",
+        "hostInfo": "{{name}} #{{id}}"
+    },
     "raidPartyPlayer": {
         "title": "{{name}}",
         "id": "#{{id}}"
