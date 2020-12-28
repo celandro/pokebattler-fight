@@ -11,7 +11,8 @@
     "raidPartyHost": {
         "title": "Raid Host",
         "description": "Send a friend invite to {{name}} in Pokemon Go",
-        "hostInfo": "{{name}} #{{id}}"
+        "hostInfo": "{{name}} #{{id}}",
+        "instructions": "Share your raid party with your friends using the share icon in the top right. Global raid parties and the Pokebattler Raid Network are coming soon!"
     },
     "raidPartyUserStatus": {
         "READY": {
