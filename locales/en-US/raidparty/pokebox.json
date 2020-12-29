@@ -1,5 +1,6 @@
 {
   "title": "Pokebox",
+  "addPokemon": "Add Pokemon",
   "errors": {
     "failed": "Couldn't load Pokebox"
   },
@@ -96,6 +97,6 @@
     "title": "No Pokemon Found",
     "clearFilter": "Clear Search Filter",
     "description": "Pokebattler Raid Party requires you to add your best Pokemon in order to find the best counters! The more you add, the more accurate the raid party suggestions will be!",
-    "addPokemon": "Add pokemon by clicking on the add button in the bottom right."
+    "addPokemon": "The fastest way to add Pokemon is by clicking the plus button on the boss counters page. You can also add Pokemon one by one or by using the bulk import functionality."
   }
 }
