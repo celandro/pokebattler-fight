@@ -7,14 +7,27 @@
         "raidNetwork": {
             "title": "Pokebattler Raid Network",
             "subtitle": "Join Remote Discord Raids",
-            "description": "Joining raids in the Pokebattler Raid Network is quick and easy! Simply join the raid and it will add you into the raid, and send you to the discord channel for communication with the host "
+            "description": "Joining raids in the Pokebattler Raid Network is quick and easy! Simply join the raid and it will temporarily join yout to the discord server, add you into the raid, and send you to the discord channel for communication with the host. You will automatically be removed from the server after some time by Discord itself.",
+            "description2": "In order to use the network, you will need to enter your trainer name and friend code. This is shared with the discord bots to allow for raid coordination.",
+            "description3": "",
+            "description4": "",
+            "description5": "",
+            "joinDescription": "Raid party within this app is coming soon but for now you can create raids in our discord by using the `$rr boss` command",
+            "joinButton": "Join Pokebattler Raid Party Discord",
+            "beConsiderate":"Please be considerate of the servers you are joining and be on your best behavior! Abusive players, disorderly conduct and players who do not coordinate with the raid will be permanently banned from the raid network."
+
         }
 
     },
     "raidPartyCard": {
         "title": "{{ownerName}}'s Party",
         "id": "#{{id}}",
-        "sumamry": "{{players}} players have joined. Created at {{createdAt}}"
+        "createdAt": "Created at {{createdAt}}.",
+        "globalTime": "{{globalTime}}"
+    },
+    "raidPartySummaryCard": {
+        "title": "{{tier}} - {{defender}}",
+        "subtitle": "{{ownerName}} - #{{id}}"
     },
     "raidPartyHost": {
         "title": "Raid Host",
@@ -80,8 +93,8 @@
         "linkTo": "RaidBosses"
     },
     "globalRaidList": {
-        "title": "Pokebattler Global Raids",
-        "subtitle": "Join Remote Raids from around the world!"
+        "title": "Pokebattler Raid Network",
+        "subtitle": "Join Remote Raids from around the world! Raids are created in Discord and "
     },
 
     "refresh": "Refresh",
