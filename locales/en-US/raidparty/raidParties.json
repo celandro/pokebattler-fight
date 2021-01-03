@@ -3,6 +3,14 @@
     "result": {
         "title": "#{{id}} {{defender}}"
     },
+    "helpModal": {
+        "raidNetwork": {
+            "title": "Pokebattler Raid Network",
+            "subtitle": "Join Remote Discord Raids",
+            "description": "Joining raids in the Pokebattler Raid Network is quick and easy! Simply join the raid and it will add you into the raid, and send you to the discord channel for communication with the host "
+        }
+
+    },
     "raidPartyCard": {
         "title": "{{ownerName}}'s Party",
         "id": "#{{id}}",
@@ -65,6 +73,17 @@
         "link": "Friend List",
         "linkTo": "Friends"
     },
+    "noGlobalRaidParty": {
+        "title": "No Global Raid Parties Found",
+        "description": "No raids are currently available. Create your own for others to join",
+        "link": "Current Raids",
+        "linkTo": "RaidBosses"
+    },
+    "globalRaidList": {
+        "title": "Pokebattler Global Raids",
+        "subtitle": "Join Remote Raids from around the world!"
+    },
+
     "refresh": "Refresh",
     "placeholder": "Enter custom boss to simulate",
     "discord": {
@@ -82,5 +101,8 @@
         "30": "30 seconds",
         "120": "2 minutes",
         "300": "5 minutes"
+    },
+    "raidPartyList": {
+
     }
 }
