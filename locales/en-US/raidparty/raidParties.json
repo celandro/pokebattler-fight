@@ -7,10 +7,10 @@
         "raidNetwork": {
             "title": "Pokebattler Raid Network",
             "subtitle": "Join Remote Discord Raids",
-            "description": "Joining raids in the Pokebattler Raid Network is quick and easy! Simply join the raid and it will temporarily join yout to the discord server, add you into the raid, and send you to the discord channel for communication with the host. You will automatically be removed from the server after some time by Discord itself.",
+            "description": "Joining raids in the Pokebattler Raid Network is quick and easy! Simply join the raid and it will temporarily join you to the discord server, add you into the raid, and send you to the discord channel for communication with the host. You will automatically be removed from the server after some time by Discord itself.  Your spot in the raid will be saved for a short amount of time until you click to temporarily join the server in Discord ",
             "description2": "In order to use the network, you will need to enter your trainer name and friend code. This is shared with the discord bots to allow for raid coordination.",
-            "description3": "",
-            "description4": "",
+            "description3": "Discord Raids are created in either Pokenav or Nexus bots and are controlled by the server owners. These global raids are sent to the network after a delay, allowing users local on the server to join first.  You can join when the countdown timer hits 0 or the ⏩ button appears.",
+            "description4": "Pokebattler subscribers currently have a small head start for joining raids. Exact benefits for subscribers have not been finalized yet and are subject to change without notice",
             "description5": "",
             "joinDescription": "Raid party within this app is coming soon but for now you can create raids in our discord by using the `$rr boss` command",
             "joinButton": "Join Pokebattler Raid Party Discord",
@@ -94,7 +94,7 @@
     },
     "globalRaidList": {
         "title": "Pokebattler Raid Network",
-        "subtitle": "Join Remote Raids from around the world! Raids are currently hosted in Discord by Nexus and PokeNav bots."
+        "subtitle": "Join Remote Raids from around the world! For Discord raids, you will be added to the raid and sent directly to the Discord channel to coordinate."
     },
 
     "refresh": "Refresh",
@@ -105,7 +105,7 @@
         "joinChat": "Join Chat",
         "oneClickJoin": "Instant Join",
         "joinToServerInfo": "This raid requires you to join within discord. Please join the server, follow the welcome messages, then join the raid via the icons provided on the bot",
-        "coordinateInChannel": "This raid is coordinated in discord. Please communicate in the channel"
+        "coordinateInChannel": "This raid is coordinated in discord. Please communicate in the channel. Having trouble? Make sure your Discord is logged in with the same Discord account that you linked to this Pokebattler account."
     },
     "raidStartingIn": "Raid starting in:",
     "noTimeSpecified": "No time specified",
