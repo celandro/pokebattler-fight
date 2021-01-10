@@ -45,6 +45,9 @@
         "REMOTE": {
             "hostDescription": "Send a friend invite to {{name}} in Pokemon Go"
         },
+        "REMOTE_READY": {
+            "hostDescription": "Wait for the raid invite from {{name}} in Pokemon Go"
+        },
         "DONE": {
             "hostDescription": "You have left the party"
         }
