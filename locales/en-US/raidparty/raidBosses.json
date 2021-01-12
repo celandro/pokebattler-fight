@@ -12,6 +12,7 @@
     "copyTrainers": "Copy Trainers",
     "remote": "Remote",
     "ready": "Local",
+    "remoteReady": "Remote ✅",
     "customBoss": "Customize",
     "actionButtonsDescription": "Simulate your raid party group",
     "quickSettings": {
