@@ -3298,6 +3298,22 @@
             "description": "The December Silph Arena Season 3 Cup tournament."
         }
     },
+    "privacy": {
+        "PRIVATE": {
+            "label": "Private",
+            "description": "A raid that can only be joined by people who know the raid party id"
+        },
+        "FRIEND": {
+            "label": "Friend",
+            "description": "A raid for your friends to join. A push notification will be sent to your friends"
+        },
+        "GLOBAL": {
+            "label": "Global",
+            "description": "A raid for anyone to join"
+        }
+
+    },
+
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"

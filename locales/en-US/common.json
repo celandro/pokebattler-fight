@@ -130,6 +130,7 @@
     "simulation": "one simulation was",
     "simulation_plural": "{{count, commas}} simulations were",
     "chooseMovesetLabel": "Choose Moveset",
+    "choosePokemonLabel": "Choose Pokemon",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) performed to generate this high quality simulation",
         "attackers": "attackers",
