@@ -1,6 +1,8 @@
 {
     "title": "Settings",
     "form": {
+        "title": "Global Raid Setup",
+        "subtitle": "Required player information",
         "basics": "Basics",
         "playerName": "Trainer Name",
         "playerLevel": "Level",
@@ -17,7 +19,9 @@
         "disclaimerText": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids",
         "raidCounterSettings": "Raid Counter Settings",
         "pushNotificationSettings": "Push Notification Settings",
-        "friendCode": "Friend Code"
+        "friendCode": "Friend Code",
+        "discordConnect": "Pokebattler Raid Party Network includes raids that are coordinated using Discord. To join a Discord raid connect your Pokebattler account with a new or existing Discord account.",
+        "correctness": "Correct Trainer Name and Friend Code are required for smooth Raid Party coordination"
     },
     "autoRaidPartyOptions": {
         "BATTLE_PARTY_POKEBOX": "Pokebox",
