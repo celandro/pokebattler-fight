@@ -33,7 +33,15 @@
         "title": "Raid Host",
         "description": "Send a friend invite to {{name}} in Pokemon Go",
         "hostInfo": "{{name}} #{{id}}",
-        "instructions": "Share your raid party with your friends using the share icon in the top right. Global raid parties and the Pokebattler Raid Network are coming soon!"
+        "PRIVATE": {
+            "instructions": "This is a private raid. Share your raid party with your friends using the share icon in the top right."
+        },
+        "FRIEND": {
+            "instructions": "Notifications have been sent to your in app friends. Share your raid party with others using the share icon in the top right."
+        },
+        "GLOBAL": {
+            "instructions": "Your global raid is available for anyone to join! Look for friend invites in game. Once you have enough players, start the raid countdown"
+        }
     },
     "raidPartyUserStatus": {
         "READY": {

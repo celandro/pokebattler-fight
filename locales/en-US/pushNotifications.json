@@ -61,6 +61,7 @@
     "username": "Pokebattler Raid Network",
     "title": "{{discordFlag}}**{{defender}}** - {{tier}} ({{discordLanguage}})",
     "description": "{{remoteSlotsEmoji}} players needed for {{tier}} **{{defender}}** raid - #{{raidPartyId}}\n\n>>> 1-Click Join using the [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join) or by permanently joining the remote server and interacting with {{botName}}.\n",
+    "descriptionNonDiscord": "{{remoteSlotsEmoji}} players needed for {{tier}} **{{defender}}** raid - #{{raidPartyId}}\n\n>>> 1-Click Join using the [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join).\n",
     "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
     "field1": {
       "name": "Join Discord Server",
