@@ -1,3 +1,34 @@
 {
-  
+    "contact": {
+        "title": "Kontaktiere uns",
+        "heading": "Kontakt Informationen",
+        "paragraph1": "Sende uns eine Nachricht oder folge uns auf Social Media um die neuesten Updates zum #1 Pokémon GO Simulator weltweit zu bekommen.",
+        "paragraph2": "Wir bei Pokebattler hören liebend gern euer Feedback!\nEgal ob Featureanfrage, Bug-Report oder auch nur ein kleines Dankeschön, wir schätzen unsere Benutzer wirklich sehr und geben unser Bestes, dass dies der einzige Simulator bleibt, den ihr für Pokémon GO Arena Kämpfe benötigt.",
+        "email": "Email admin@pokebattler.com",
+        "emailError": "Email Programm konnte nicht geöffnet werden.",
+        "button": {
+            "reddit": {
+                "title": "Auf Reddit diskutieren",
+                "subtitle": "News und Ankündigungen in /r/pokebattler"
+            },
+            "twitter": {
+                "title": "Twittere mir",
+                "subtitle": "News und sonstige Nachrichten von @Pokebattler_com"
+            },
+            "youtube": {
+                "title": "Schau unsere Videos",
+                "subtitle": "Raid Guides und Pokebattler Tutorial Videos"
+            },
+            "facebook": {
+                "title": "Facebook Verbindung",
+                "subtitle": "Sag deinen Freunden von uns"
+            }
+        }
+    },
+    "terms": {
+        "title": "Begriffe",
+        "heading": "Allgemeine Geschäftsbedingungen",
+        "paragraph1": "Mit dem Download oder Benutzung der App stimmst du automatisch folgenden Bedingungen zu - daher solltest du sicherstellen, dass du sie sorgfältig gelesen hast, bevor du die App benutzt.\nJegliche Form von Kopie oder Modifizierung dieser App, Teilen der App oder unseres Markenzeichens ist untersagt. Der Versuch den Code der App zu extrahieren, eine andere Sprachversion oder sonstige Derivate sind ebenfalls untersagt.\nDie App, alle Markenzeichen, Copyright, Datenbank Rechte und andere, damit verbundene, geistige Eigentümer gehören zu Battler Empire, LLC.",
+        "paragraph2": "Battler Empire, LLC setzt sich dafür ein, dass die App so nützlich und effizient wie möglich ist. Aus diesem Grund, behalten wir das Recht vor, jederzeit und aus jeglichem Grund Änderungen an der App vorzunehmen oder Kosten für ihre Dienste zu berechnen. Wir werden dir niemals Kosten für die App oder ihre Dienste berechnen, ohne klar zu stellen wofür genau du zahlst."
+    }
 }
