@@ -1,3 +1,25 @@
 {
-
+    "search": {
+        "title": "Pokebattler öffentliche Profile",
+        "description": "Finde deine Freunde! Du kannst nach den Trainernamen oder der Pokebattler Benutzer ID suchen. Dieses Feature dient dem schnellen Teilen deiner Pokebox mit deinen Freunden!",
+        "meta": {
+            "description": "Schaue dir die öffentlichen Profile von anderen Pokebattler Benutzern an.",
+            "image": "https://static.pokebattler.com/images/og_home.png"
+        },
+        "input": {
+            "title": "Finde deinen Freund",
+            "subtitle": "Die Benutzer ID findest du in der oberen rechten Ecke",
+            "label": "Pokebattler Benutzer #ID oder Trainername"
+        },
+        "results": {
+            "empty": "Keine Trainer gefunden"
+        }
+    },
+    "profile": {
+        "title": "User #{{profileId}} öffentliches Profil",
+        "description": "Pokebattler Profile können nun geteilt werden. Bisher kannst du deinen Freunden lediglich zeigen, welche Pokemon du hast aber es folgt noch mehr!",
+        "meta": {
+            "description": "Schaue dir das öffentliche Profil von Benutzer #{{profileId}} an. Siehe welche Pokemon {{name}} verwendet"
+        }
+    }
 }
