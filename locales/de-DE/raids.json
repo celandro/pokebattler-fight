@@ -157,5 +157,8 @@
     "meta": {
         "description": "Finde Pokemon Go Raid Konter mit Wetter, Freundschaft und sogar deinen eigenen Pokemon. Erhalte die 30 besten Konter mit dem weltweit besten angepasstem Raid Guide.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "breakingNews": {
+        "title": "Neuigkeiten"
     }
 }
