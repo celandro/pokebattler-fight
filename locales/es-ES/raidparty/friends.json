@@ -23,7 +23,10 @@
         "noSearchResults": "No se encontraron amigos, inténtelo de nuevo!"
     },
     "levels": {
-        "FRIENDSHIP_LEVEL": "Sin amistad",
-        "FRIENDSHIP_LEVEL_plural": "Buena amistad, Gran amistad, Ultraamistad, Amistad sin igual"
+        "FRIENDSHIP_LEVEL_0": "Sin amistad",
+        "FRIENDSHIP_LEVEL_1": "Buena amistad",
+        "FRIENDSHIP_LEVEL_2": "Gran amistad",
+        "FRIENDSHIP_LEVEL_3": "Ultraamistad",
+        "FRIENDSHIP_LEVEL_4": "Amistad sin igua"
     }
 }
