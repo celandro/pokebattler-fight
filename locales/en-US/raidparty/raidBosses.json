@@ -61,6 +61,8 @@
         "title": "{{defender}}",
         "id": "$t(raidBosses:joinParty) #{{id}}",
         "sumamry": "{{players}} players have joined. {{ownerName}}'s party was created at {{createdAt}}",
+        "summary": "{{numReadyPlayers}} out of {{players}} players are ready. {{ownerName}}'s party was created at {{createdAt}}",
+
         "emptyPokebox": "Empty Pokebox, Using Defaults",
         "egg": "Egg"
     },

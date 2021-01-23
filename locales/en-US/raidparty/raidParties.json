@@ -99,7 +99,7 @@
     },
     "noGlobalRaidParty": {
         "title": "No Global Raid Parties Found",
-        "description": "No raids are currently available. Create your own for others to join",
+        "description": "No raids are currently available. Create your own for others to join from your discord server or in the app",
         "link": "Current Raids",
         "linkTo": "RaidBosses"
     },
@@ -118,10 +118,11 @@
         "joinToServerInfo": "This raid requires you to join within discord. Please join the server, follow the welcome messages, then join the raid via the icons provided on the bot",
         "coordinateInChannel": "This raid is coordinated in discord. Please communicate in the channel. Having trouble? Make sure your Discord is logged in with the same Discord account that you linked to this Pokebattler account."
     },
-    "raidStartingIn": "Raid starting in:",
+    "raidStartingIn": "Sending invites in",
     "noTimeSpecified": "No time specified",
     "startingTime": {
-        "default": "Select starting time",
+        "default": "Sending invites in",
+        "15": "15 seconds",
         "30": "30 seconds",
         "120": "2 minutes",
         "300": "5 minutes"
