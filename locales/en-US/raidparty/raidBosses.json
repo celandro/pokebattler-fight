@@ -13,6 +13,7 @@
     "remote": "Remote",
     "ready": "Local",
     "remoteReady": "Remote ✅",
+    "needsFriend": "Send Friend Invite",
     "customBoss": "Customize",
     "actionButtonsDescription": "Simulate your raid party group",
     "quickSettings": {
