@@ -118,10 +118,12 @@
         "joinToServerInfo": "This raid requires you to join within discord. Please join the server, follow the welcome messages, then join the raid via the icons provided on the bot",
         "coordinateInChannel": "This raid is coordinated in discord. Please communicate in the channel. Having trouble? Make sure your Discord is logged in with the same Discord account that you linked to this Pokebattler account."
     },
-    "raidStartingIn": "Sending invites in",
+    "goCommand": "Go!",
+    "raidStartingIn": "Raid Starting In",
     "noTimeSpecified": "No time specified",
+    "raidNotStarted": "{{ownerName}} has not started the raid yet",
     "startingTime": {
-        "default": "Sending invites in",
+        "default": "---",
         "15": "15 seconds",
         "30": "30 seconds",
         "120": "2 minutes",
