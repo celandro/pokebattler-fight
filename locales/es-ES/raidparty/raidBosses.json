@@ -5,7 +5,12 @@
     "createParty": "Crear Equipo",
     "loadParty": "Ver Equipo de Incursión #{{id}}",
     "joinParty": "Unirse a Equipo",
+    "leaveParty": "Abandonar Equipo",
     "viewParty": "Ver Equipo",
+    "copyTrainers": "Copiar Entrenadores",
+    "remote": "Remoto",
+    "ready": "Listo",
+    "customBoss": "Personalizar",
     "actionButtonsDescription": "Simula tu grupo de incursión",
     "quickSettings": {
         "title": "Configuración Rápida"
@@ -21,7 +26,9 @@
             "BATTLE_PARTY_LEVEL_30": "Utilizando los mejores atacantes de nivel 30.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_35": "Utilizando los mejores atacantes de nivel 35.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_40": "Utilizando los mejores atacantes de nivel 40.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox, a la que puedes completar rápidamente desde la pestaña Alternativas"
+            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox, a la que puedes completar rápidamente desde la pestaña Alternativas",
+            "BATTLE_PARTY_LEVEL_45": "Utilizando los mejores atacantes de nivel 45.  $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_50": "Utilizando los mejores atacantes de nivel 50. $t(raidBosses:counters.settings.suggestPokebox)"
         },
         "details": {
             "title": "Detalles de Combate",
@@ -47,9 +54,9 @@
         "title": "#{{id}} {{defender}}"
     },
     "raidPartyCard": {
-        "title": "Equipo de {{ownerName}}",
-        "id": "#{{id}}",
-        "sumamry": "{{players}} jugadores se unieron. Creada el {{createdAt}}",
+        "title": "{{defender}}",
+        "id": "$t(raidBosses:joinParty) #{{id}}",
+        "sumamry": "{{players}} jugadores se unieron. El grupo de {{ownerName}} fue creado el {{createdAt}}",
         "emptyPokebox": "Pokebox vacía, utilizando predeterminados",
         "egg": "Huevo"
     },
@@ -57,17 +64,6 @@
         "title": "{{name}}",
         "id": "#{{id}}",
         "addFriendCode": "Agregar Código de amigo"
-    },
-    "raidPartyActions": {
-        "errors": {
-            "createRaidPartyGeneral": "El Equipo de incursión no pudo ser creado para {{raidPartyPokemon}}",
-            "updateRaidPartyGeneral": "El Equipo de incursión no pudo ser actualizado para {{raidPartyPokemon}}",
-            "fetchRaidPartyGeneral": "El Equipo de incursión no pudo ser encontrado para {{raidPartyPokemon}}",
-            "getRaidResultsGeneral": "Los resultados de la incursión para el equipo {{raidPartyId}} no pudieron ser obtenidos",
-            "removeUserFromRaidPartyGeneral": "No pudo abandonar el equipo {{raidPartyId}}",
-            "addUserToRaidPartyGeneral": "No pudo unirse al equipo {{raidPartyId}}",
-            "getUserRaidPartiesGeneral": "No se pudieron obtener equipos de incursión"
-        }
     },
     "errors": {
         "failed": "Falló al cargar jefes de incursiones!",
@@ -87,7 +83,5 @@
         "until": "Hasta",
         "localTime": "HORA LOCAL"
     },
-    "leaveParty": "Abandonar Equipo",
-    "customBoss": "Personalizar",
     "autocomplete": "Elige Jefe de Incursión personalizado"
 }

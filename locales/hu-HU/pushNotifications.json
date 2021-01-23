@@ -1,0 +1,78 @@
+{
+    "globalRaidNetwork": {
+        "field1": {
+            "value": "[{{discordGuildName}}]({{discordGuildInviteUrl}})",
+            "name": "Csatlakozzon a Discord Szerverhez"
+        },
+        "author": {
+            "name": "{{botName}}",
+            "icon_url": "{{botIcon}}"
+        },
+        "field2": {
+            "name": "A raid lobby linkje",
+            "value": "[via {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"
+        },
+        "username": "Pokebattler Raid Network",
+        "footer": "$t(pushNotifications:defaultBody.line1) - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)",
+        "field3": {
+            "value": "[via Pokebattler Raid Network](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)",
+            "name": "Egy kattintással csatlakozz azonnal a raidhez!"
+        },
+        "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
+        "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
+        "title": "{{discordFlag}}**{{defender}}** - {{tier}} ({{discordLanguage}})",
+        "description": "{{remoteSlotsEmoji}} db játékosra van szükséges a {{tier}} ** {{defender}} ** raidhez - # {{raidPartyId}}\n\n>>> Csatlakozzon a [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}) használatával, vagy csatlakozzon a Discord szerverhez és lépjen kapcsolatba a {{botName}} Discord Raid Linkkel.\n\nA [Pokémon Magyarország Official](https://discord.gg/Un9cXNA) fordítása.\n",
+        "field1NonDiscord": {
+            "name": "Csak az alkalmazásban érhető el",
+            "value": "[Pokebattler Raid Party Alkalmazás](https://www.pokebattler.com/raidParty/{{raidPartyId}}/discord)"
+        },
+        "thumbnail": "{{pokemonIcon}}"
+    },
+    "UPDATE_USER": {
+        "title": "{{attackerName}} módosította a (z) {{tier}} {{defender}} beállításait",
+        "line3": "$t(pushNotifications: defaultBody.line3)",
+        "line1": "$t(pushNotifications: defaultBody.line1)",
+        "line4": "$t(pushNotifications: defaultBody.line4)",
+        "line2": "$t(pushNotifications: defaultBody.line2)",
+        "subtitle": "Raid Party #{{raidPartyId}}"
+    },
+    "discordLine": "#{{discordChannel}} - {{discordServerName}}",
+    "defaultBody": {
+        "line3": "{{powerPercent}}%-os a csoportos sebzés",
+        "line2": "{{winPercent}}% esély a győzelemre",
+        "line4": "{{estimator}} db játékosokra van szükség a raid legyőzéséhez",
+        "line1": "{{numAttackers}} db játékos"
+    },
+    "REMOVE_USER": {
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line4": "$t(pushNotifications: defaultBody.line4)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications: defaultBody.line3)",
+        "subtitle": "Raid Party #{{raidPartyId}}",
+        "title": "{{attackerName}} kilépett a raid partiból"
+    },
+    "UPDATE_PARTY": {
+        "subtitle": "Raid Party #{{raidPartyId}}",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "title": "{{attackerName}} frissítette a raid beállításait a (z) {{tier}} {{defender}} számára",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line4": "$t(pushNotifications:defaultBody.line4)",
+        "line1": "$t(pushNotifications: defaultBody.line1)"
+    },
+    "CREATE_PARTY": {
+        "subtitle": "Raid Party #{{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "title": "{{attackerName}} létrehozott egy {{tier}} {{defender}} raid partit",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "ADD_USER": {
+        "title": "{{attackerName}} csatlakozott a {{tier}} {{defender}} raidhez.",
+        "subtitle": "Raid Party #{{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    }
+}

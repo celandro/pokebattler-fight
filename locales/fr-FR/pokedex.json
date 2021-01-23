@@ -1,5 +1,5 @@
 {
-    "title": "$t(constants:pokemon.{{pokemon}}) Analyse de Bataille",
+    "title": "{{defender}} Analyse de Bataille",
     "intro": "Bienvenue dans le Pokédex Pokebattler pour $t(constants:pokemon.{{pokemon}}). Vous y trouverez les meilleures attaques défensives et offensives de $t(constants:pokemon.{{pokemon}}), ainsi que leurs pires adversaires en attaque et leurs meilleurs contres en défense. Vous pouvez ainsi savoir quels Pokémon éviter en combat, et comment battre un certain défenseur en particulier. N'hésitez pas à modifier les options ci-dessous pour voir l'effet des différentes situations de combat, ou pour changer l'ordre à votre convenance. Comme toujours, les résultats sur cette page sont générés par le simulateur de bataille. Vous pouvez examiner n'importe quelle simulation individuellement en cliquant simplement sur l'image du Pokémon adverse",
     "loading": "Génération de l'analyse de bataille détaillée pour $t(constants:pokemon.{{pokemon}}) en cours. Plus d'un million de simulations sont nécessaires pour générer cette page, mais ça ne prendra pas longtemps.",
     "about": {

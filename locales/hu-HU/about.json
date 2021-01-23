@@ -1,0 +1,10 @@
+{
+    "meta": {
+        "description": "",
+        "image": "https://static.pokebattler.com/images/og_more_about.jpg"
+    },
+    "engine": "A webhely eredeti számítási motorja a (z) {{link}} volt, és ennek egy újabb verziója ezt most ingyen támogatja az összes harci szimulátor webhelyen. Ennek a webhelynek a finanszírozása elsődlegesen a felhasználóink kis részének kedves előfizetéséből származik.",
+    "githubLink": "nyílt forrás",
+    "sponsor": "A Pokebattler.com webhelyet a (z) {{link}} szponzorálta. Nézd meg őket!",
+    "thanks": "Külön köszenetet érdemelnek a következő reddit felhasználók, akik segítettek a kutatás során:"
+}

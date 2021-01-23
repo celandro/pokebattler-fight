@@ -1,0 +1,9 @@
+{
+    "title": "Segítsen a Pokebattler fordításában",
+    "meta": {
+        "description": "A Pokebattler fordító lehetővé teszi a felhasználóknak, hogy segítsenek nekünk az oldal lefordításában, hogy mindenki használhassa a világ első számú legpontosabb Pokemon Go szimulátorát."
+    },
+    "info": "￼Ez az oldal úgy van beállítva, hogy több nyelvre is lefordítható legyen! Segíthet abban, hogy a webhely könnyebben használható legyen azoknak a barátainak, akik nem beszélnek angolul.",
+    "how": "A fordítás a Weblate nevű webeszköz segítségével történik, és a {{link}} oldalon található. Létre kell hoznia egy fiókot, ki kell választania a nyelvét, és el kell kezdenie javaslatait a fordításokra.  Ezeket a fordításokat felül fogjuk vizsgálni, és általában automatikusan elfogadják.",
+    "rewards": "Különleges jutalmak általában csak az előfizetők számára érhetők el azoknak a fordítoknak, akik jelentős mértékben hozzájárulnak. Ez több Pokemont tartalmaz a Pokebox-hoz és a jobb minőségű egyedi szimulációkat."
+}

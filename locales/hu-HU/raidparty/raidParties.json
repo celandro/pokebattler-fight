@@ -1,0 +1,64 @@
+{
+    "raidPartyActions": {
+        "errors": {
+            "getUserRaidPartiesGeneral": "Nem sikerült lekérni a raideket",
+            "fetchRaidPartyGeneral": "Raid parti nem található a (z) {{raidPartyPokemon}} számára",
+            "addUserToRaidPartyFull": "A (z) {{raidPartyId}}. számú party megtelt",
+            "createRaidPartyGeneral": "Raid partit nem sikerült létrehozni a (z) {{raidPartyPokemon}} számára",
+            "updateRaidPartyGeneral": "A raid partit nem sikerült frissíteni a (z) {{raidPartyPokemon}} számára",
+            "getRaidResultsGeneral": "A (z) {{raidPartyId}} raid parti eredményét nem sikerült lekérni",
+            "addUserToRaidPartyGone": "A (z) {{raidPartyId}} számú raid parti már nem létezik",
+            "removeUserFromRaidPartyGeneral": "Nem léphet ki a (z) #{{raidPartyId}} partiból",
+            "addUserToRaidPartyGeneral": "Nem csatlakozhat a (z) #{{raidPartyId}} partihoz"
+        }
+    },
+    "raidPartyPlayer": {
+        "id": "#{{id}}",
+        "title": "{{name}}"
+    },
+    "placeholder": "Írja be az raid főnököt a szimulációhoz",
+    "noRaidParty": {
+        "title": "Nem található raid parti",
+        "link": "Jelenlegi raidek",
+        "linkTo": "Raid főnök",
+        "description": "A Pokebattler Raid Party-k gyors és egyszerű módja annak, hogy megtudd hogy, tudod-e győzni a raid főnököt a barátaiddal. Raid partit úgy hozhat létre, hogy kiválasztja a kék plusz gombot, vagy a raid számlálók közül kattintson a raidre, majd a csatlakozzon a raid partihoz"
+    },
+    "discord": {
+        "joinToServerInfo": "Ehhez a raidhez meg kell állapodni a discordon belül. Kérjük, csatlakozzon a szerverhez, kövesse az üdvözlő üzeneteket, majd csatlakozzon a raidhez a boton található ikonok segítségével",
+        "coordinateInChannel": "Ezt a raid discord szerveren koordinálják. Kérjük, kommunikáljon a csatornán",
+        "joinServer": "Csatlakozzon a szerverhez",
+        "joinChat": "Csatlakozzon a Chat-hez",
+        "privateServer": "Privát szerver",
+        "oneClickJoin": "Azonnali csatlakozás"
+    },
+    "raidPartyCard": {
+        "title": "{{ownerName}} partija",
+        "id": "#{{id}}",
+        "sumamry": "{{players}} játékos csatlakozott. Létrehozta: {{createdAt}}"
+    },
+    "share": {
+        "title": "{{name}} #{{id}}",
+        "error": "Hiba történt a raid parti megosztása során",
+        "message": "Csatlakozzon a $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
+        "friendMessage": "{{friendCode}} (Pastable Friend Code) - Csatlakozzon a $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}."
+    },
+    "startingTime": {
+        "120": "2 perc",
+        "default": "Válassza ki a kezdési időt",
+        "30": "30 másodperc",
+        "300": "5 perc"
+    },
+    "raidStartingIn": "Raid kezdete:",
+    "noFriendRaidParty": {
+        "link": "Barátok listája",
+        "description": "Adja hozzá barátait a Pokebattler Raid Party-hoz, hogy megtudja, mikor barátai raideznek, és gyorsan csatlakozzon a partikhoz. A barátokat fel lehet venni a Barátok listájára vagy a raid parti eredményeibe.",
+        "title": "Nem található raid parti",
+        "linkTo": "Barátok"
+    },
+    "noTimeSpecified": "Nincs megadva idő",
+    "refresh": "Frissítés",
+    "result": {
+        "title": "#{{id}} {{defender}}"
+    },
+    "title": "Raid Party-k"
+}

@@ -272,7 +272,10 @@
         "ko": "Koreanisch",
         "pt": "Portugiesisch",
         "ru": "Russisch",
-        "zh": "Chinesisch"
+        "zh": "Chinesisch",
+        "bg": "Bulgarisch",
+        "hu": "Ungarisch",
+        "nl": "Niederländisch"
     },
     "buttons": {
         "okay": "Okay",
@@ -318,5 +321,9 @@
         "timeout": "Es dauert lange...",
         "error": "Leider ist beim Laden der Seite ein Problem aufgetreten. Überprüfen Sie Ihre Verbindung",
         "retry": "Wiederholen"
-    }
+    },
+    "search": "Suche",
+    "update": "Update",
+    "version": "Version",
+    "friendCode": "Freundescode"
 }

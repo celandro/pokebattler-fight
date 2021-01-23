@@ -34,5 +34,8 @@
     "custom": {
         "levelsLabel": "Angreifer-Level",
         "attackersLabel": "Angreifer"
+    },
+    "breakingNews": {
+        "title": "Neuigkeiten"
     }
 }

@@ -270,6 +270,10 @@
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
         "title": "{{title}}",
         "intro": "The Great League Kanto Cup is an official typed cup from Niantic from November 16 to November 23. Only Kanto region Pokemon with pokedex numbers between 1 and 151 are eligible."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
+        "title": "{{title}}",
+        "intro": "The Great League Holiday Cup is an official typed cup from Niantic from December 28 to January 4. Only Pokemon that are Normal, Grass, Electric, Ice, Flying, and Ghost types are eligible."
       }
 
     },

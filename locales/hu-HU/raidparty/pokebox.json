@@ -1,0 +1,100 @@
+{
+    "bulkImport": {
+        "errors": {
+            "cinematicMove2": "$t(pokeform.cinematicMove2.label) nem érvényes.",
+            "pokemonId": "A $t(common:pokemon) nem érvényes.",
+            "individualAttack": "$t(pokeform.individualAttack.label) szám nem 0-15 között helyezkedik el.",
+            "cp": "$t(pokeform.cp.label) nem szám",
+            "individualStamina": "$t(pokeform.individualStamina.label) szám nem 0-15 között helyezkedik el",
+            "level": "$t(pokeform.level.label) a szám nem 1-41 között helyezkedik el",
+            "quickMove": "$t(pokeform.quickMove.label) nem érvényes.",
+            "individualDefense": "$t(pokeform.individualDefense.label) szám nem 0-15 között helyezkedik el.",
+            "cinematicMove": "$t(pokeform.cinematicMove.label) nem érvényes."
+        },
+        "beginImport": "Kezdje az importálást",
+        "clearSelection": "Kijelölés törlése",
+        "failed": "Sajnos a pokemon tömeges importálása nem sikerült",
+        "title": "Tömeges importálás",
+        "importNPokemon": "Importálás: {{count}} / {{total}}",
+        "selectAll": "Mindet kiválaszt",
+        "paste": "Beillesztés"
+    },
+    "bulkDelete": {
+        "clearSelection": "Kijelölés törlése",
+        "title": "Pokémon tömeges törlés",
+        "deleteNPokemon": "Törölje a (z) {{count}} pokemont",
+        "selectAll": "Mindet kiválaszt",
+        "failed": "Sajnos a pokemon tömeges törlése nem sikerült"
+    },
+    "add": {
+        "full": "A pokeboxod megtelt. Iratkozzon fel további kiszolgálók tárolására",
+        "failed": "Nem sikerült hozzáadni ezt a pokemont",
+        "autocomplete": "Írja be a Pokemon nevét vagy típusát",
+        "title": "Új Pokemon"
+    },
+    "pokeform": {
+        "individualAttack": {
+            "placeholder": "$t(common:placeholders.dropdown.optional)",
+            "label": "Támadás"
+        },
+        "individualDefense": {
+            "placeholder": "$t(common:placeholders.dropdown.optional)",
+            "label": "Védelem"
+        },
+        "level": {
+            "label": "Szint",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "nickname": {
+            "label": "Becenév"
+        },
+        "cinematicMove": {
+            "label": "Charge Move",
+            "placeholder": "$t(common:placeholders.dropdown.required)"
+        },
+        "edit": {
+            "label": "$t(common:save)"
+        },
+        "individualStamina": {
+            "label": "Állóképesség",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "cinematicMove2": {
+            "placeholder": "$t(common:placeholders.dropdown.optional)",
+            "label": "Második Charge Move"
+        },
+        "submit": {
+            "label": "$t(common:buttons.create)"
+        },
+        "cp": {
+            "label": "Cp"
+        },
+        "quickMove": {
+            "label": "Gyors Move",
+            "placeholder": "$t(common:placeholders.dropdown.required)"
+        }
+    },
+    "errors": {
+        "failed": "Nem sikerült betölteni a Pokebox-ot"
+    },
+    "noPokemon": {
+        "title": "Nem található Pokemon",
+        "clearFilter": "Törölje a keresési szűrőt",
+        "description": "A Pokebattler Raid Party megköveteli, hogy adja hozzá a legjobb Pokemonját, hogy megtalálja a legjobb pultokat! Minél többet ad hozzá, annál pontosabbak lesznek a rajtaütési pártjavaslatok!",
+        "addPokemon": "A pokemon hozzáadásához kattintson a jobb alsó sarokban található Hozzáadás gombra."
+    },
+    "edit": {
+        "title": "Pokemon szerkesztése",
+        "failed": "Sajnos a pokemon szerkesztése nem sikerült",
+        "full": "A pokebox túlcsordult. Újra iratkozzon fel vagy törölje a Pokemon feleslegét"
+    },
+    "poketile": {
+        "temporary": "Mentés szerverre",
+        "cp": "$t(cp)"
+    },
+    "delete": {
+        "failed": "Sajnos a pokemon törlése nem sikerült",
+        "title": "Pokemon törlése"
+    },
+    "title": "Pokebox"
+}

@@ -1,0 +1,455 @@
+{
+    "subscription": {
+        "paymentTypes": {
+            "iban": "IBAN",
+            "creditCard": "Hitelkártya",
+            "ideal": "IDEÁL"
+        },
+        "confirmation": {
+            "button": "Iratkozz fel"
+        },
+        "products": {
+            "ROLE_BATTLER": {
+                "title": "Battler csomag",
+                "subtitle": "Magasabb szint az elemzőbb játékosok számára"
+            },
+            "ROLE_CHAMPION": {
+                "title": "Bajnok csomag",
+                "subtitle": "A legjobb előfizetés a hard core játékos számára"
+            },
+            "ROLE_STANDARD": {
+                "title": "Normál csomag",
+                "subtitle": "Ajánlott előfizetési szint a legtöbb játékos számára"
+            },
+            "ROLE_SUPPORTER2": {
+                "title": "Patreon segitő",
+                "subtitle": "Ha feliratkozik, ne felejtse el törölni a Patreon adományait"
+            },
+            "ROLE_ADMIN": {
+                "subtitle": "Feliratkozhat, de leminősítés lenne",
+                "title": "Pokebattler rendszergazda"
+            },
+            "ROLE_SUPPORTER": {
+                "title": "Patreon támogató",
+                "subtitle": "Ha feliratkozik, ne felejtse el törölni a Patreon adományait"
+            },
+            "ROLE_FANATIC": {
+                "title": "Patreon Fanatic",
+                "subtitle": "Ha feliratkozik, ne felejtse el törölni a Patreon adományait"
+            },
+            "ROLE_PATREON_USER": {
+                "title": "Patreon felhasználó",
+                "subtitle": "Megjegyzés:  Ön  hamarosan nem lesz előfizető."
+            },
+            "ROLE_PATREON": {
+                "title": "Patreon Patreon",
+                "subtitle": "Ha feliratkozik, ne felejtse el törölni a Patreon adományait"
+            },
+            "ROLE_BASIC": {
+                "title": "Alap csomag",
+                "subtitle": "Megfizethető előfizetés, amely nagy értéket nyújt"
+            },
+            "ROLE_CONTEST": {
+                "title": "Verseny győztese",
+                "subtitle": "Megfelel az alábbi Champion tervnek"
+            },
+            "ROLE_USER": {
+                "subtitle": "Ingyenes előnyök minden felhasználó számára",
+                "title": "Nem előfizető"
+            },
+            "ROLE_FAN": {
+                "subtitle": "Ha feliratkozik, ne felejtse el törölni a Patreon adományait",
+                "title": "Patreon Kedvelő"
+            }
+        },
+        "currentProduct": "Jelenlegi előnyök",
+        "plans": {
+            "6month": {
+                "shortTitle": "6 hónap",
+                "discount": "Spóroljon {{discount}}% - {{trialPeriodDays}} napos ingyenes próbaverziót",
+                "monthlyPrice": "Vásároljon 6 hónapot előre havonta {{currency}} {{intervalCost}} áron.",
+                "shortDiscount": "-{{discount}}%",
+                "subtitle": "A (z) {{trialPeriodDays}} napos ingyenes próbaidőszak után 6 havonta {{cost}} dollárt kell fizetnie.",
+                "title": "6 hónap - ${{intervalCost}} / hó"
+            },
+            "3month": {
+                "monthlyPrice": "Három hónapig vásároljon előre havonta {{currency}} {{intervalCost}} áron.",
+                "subtitle": "A (z) {{trialPeriodDays}} napos ingyenes próbaidőszak után 3 havonta ${{cost}} összeget kell fizetnie.",
+                "title": "3 hónap - ${{intervalCost}} / hó",
+                "shortDiscount": "-{{discount}}%",
+                "discount": "Spóroljon {{discount}}% - {{trialPeriodDays}} napos ingyenes próbaverziót",
+                "shortTitle": "3 hónap"
+            },
+            "1month": {
+                "monthlyPrice": "Vásároljon egyetlen hónapot. Takarítson meg egy több hónapos csomag kiválasztásával!",
+                "shortTitle": "1 hónap",
+                "discount": "Megtakarítás több hónapos csomag kiválasztásával",
+                "subtitle": "A (z) {{trialPeriodDays}} napos ingyenes próbaidőszak után havonta {{cost}} dollárt kell fizetnie.",
+                "title": "1 hónap - ${{intervalCost}} / hó"
+            }
+        },
+        "title": "Feliratkozás a Pokebattlerre",
+        "chooseProduct": "Válassza ki a tervét",
+        "name": "Kereszt-és vezetéknév",
+        "app": {
+            "restore": {
+                "noneFound": "Nincs korábbi vásárlás ezen az Apple azonosítón",
+                "begin": "Újrafeldolgozási tranzakciók",
+                "complete": "Az újrafeldolgozás befejeződött"
+            },
+            "description": "A Pokebattler-előfizetések csatlakoznak az Ön fiókjához, és továbbfejlesztett funkcionalitást és részletesebb elemzéseket kínálnak minden eszközén, alkalmazásában, mobilinternetén és asztali számítógépén.",
+            "support": {
+                "restorePurchases": "Vásárlás visszaállítása",
+                "description": "Gondjai vannak az előfizetéssel? A Pokebattler előfizetései kapcsolódnak ahhoz a fiókhoz, amellyel a vásárláskor bejelentkezett. Fiókok egyesítéséhez vegye fel a kapcsolatot az ügyfélszolgálattal a régi és új Pokebattler azonosítóival",
+                "contactSupport": "Vegye fel a kapcsolatot az ügyfélszolgálattal"
+            },
+            "desktopOnly": "Csak asztali szolgáltatások",
+            "allDevices": "Jellemzők"
+        },
+        "city": "Város",
+        "transaction": {
+            "verify": "Fiókjának frissítése",
+            "confirm": "A fiók frissítése sikeresen megtörtént",
+            "restore": "Előfizetéseinek visszaállítása. Ez eltarthat egy ideig",
+            "start": "Az előfizetés feldolgozása",
+            "complete": "köszönöm a tamogatásod"
+        },
+        "notNeccessary": "A következő mezőket általában nem kell kitölteni. Ezeket csak akkor kell kitöltenie, ha a fizetést elutasítják.",
+        "error": {
+            "verification": "Nem sikerült ellenőrizni a tranzakciót! Kérjük, lépjen kapcsolatba az admin@pokebattler.com címen",
+            "restore": "Nem sikerült visszaállítani a tranzakciókat! Kérjük, lépjen kapcsolatba az admin@pokebattler.com címen",
+            "store": "Hiba történt az áruházhoz való csatlakozáskor",
+            "cancelled": "Előfizetés törölve",
+            "unknown": "Nem sikerült befejezni a tranzakciót! Kérjük, lépjen kapcsolatba az admin@pokebattler.com címen",
+            "playLogin": "Nem sikerült befejezni a tranzakciót. Kérjük, jelentkezzen be a Google Playre, és próbálja újra",
+            "transactionRestore": "Nem alkalmazható tranzakció. Kérjük, jelentkezzen be az eredeti fiókba, vagy lépjen kapcsolatba az admin@pokebattler.com címmel"
+        },
+        "requiresLogin": "Az előfizetéshez be kell jelentkeznie",
+        "paymentRequest": "Egy kattintásos feliratkozás",
+        "description": "Hitelkártyaadatait a Stripe biztonságosan kezeli, és soha nem küldi el a Pokebattler-nek. A Stripe feldolgozza az előfizetéseket, és tájékoztatja a Pokebattlert az előfizetés állapotáról.",
+        "country": "Ország",
+        "multiMonth": "Takarítson meg egy több hónapos tervvel!",
+        "paymentType": "Fizetési mód",
+        "line2": "Cím 2",
+        "choosePlan": "Válassza az időtartamát",
+        "line1": "Cím 1",
+        "creditCard": "Adja meg hitelkártyájának adatait",
+        "meta": {
+            "description": "A Pokebattler mindenki számára ingyenesen használható, a hozzád hasonló emberek nagylelkű előfizetése révén! A feliratkozás letiltja a hirdetéseket és feloldja az erőteljes funkciókat, amelyek segítenek abban, hogy a raid főnökét vagy barátait legyőzze a pvp-ben!",
+            "image": "https://static.pokebattler.com/images/og_user_subscription.png"
+        },
+        "upsell": {
+            "rankingByType": "Az előfizetők hozzáférhetnek a rangsorolási szolgáltatásokhoz, amelyeket túl drága mindenkinek megadni, beleértve a típus szerinti rangsorolást is!"
+        },
+        "freeTrial": "{{trialPeriodDays}} napos ingyenes próbaidőszak",
+        "state": "Utca",
+        "email": "Email",
+        "ibanDescription": "Az IBAN megadásával és a fizetés visszaigazolásával felhatalmazza a Pokebattler.com-ot és a Stripe-t, fizetési szolgáltatónkat, hogy utasításokat küldjön a bankjának a számla terhelésére, a bank pedig az Ön utasításainak megfelelően történő számlázására. Ön jogosult a bankjának visszatérítésére a bankjával kötött megállapodás feltételei szerint. A visszatérítést 8 héten belül kell igényelni attól a naptól számítva, amikor a számláját megterhelték.",
+        "paymentRequestDescription": "Az egy kattintásos feliratkozás a legtöbb mobileszközön támogatott. Azt is kiválaszthatja, hogy beírja-e az alábbi adatait",
+        "purchase": "Indítsa el az ingyenes próbaidőszakát!",
+        "idealBank": "iDEAL Bank"
+    },
+    "roles": {
+        "role": {
+            "ROLE_CHAMPION": "Bajnok",
+            "ROLE_FAN": "Pokebattler rajongó",
+            "ROLE_SUPPORTER2": "Pokebattler szurkoló",
+            "ROLE_SUPPORTER": "Pokebattler támogató (örökség)",
+            "ROLE_PATREON_USER": "Pokebattler Patreon felhasználó",
+            "ROLE_ADMIN": "Pokebattler rendszergazda",
+            "ROLE_FANATIC": "Pokebattler Fanatic",
+            "ROLE_USER": "Pokebattler felhasználó",
+            "ROLE_BATTLER": "Küzdő",
+            "ROLE_STANDARD": "Alapértelmezett",
+            "ROLE_PATREON": "Pokebattler Patreon",
+            "ROLE_CONTEST": "Pokebattler verseny győztese",
+            "ROLE_BASIC": "Alapvető"
+        },
+        "maxPokemon": "Max Pokémon",
+        "disabled": "Tiltva",
+        "title": "Számla információ",
+        "matrixMetaTypes": "Mátrix - metatípusok",
+        "support": "Támogassa a Pokebattlert",
+        "description": "Hozzájárulás a Pokebattlerhez prémium előnyökért, köztük egy nagyobb Pokebox és egy hirdetésmentes élmény. A Pokebattler csak az Önhöz hasonló emberek nagylelkű támogatásával lehetséges, hozzájárulva a webhely üzemeltetésének növekvő szerverköltségeihez.",
+        "rankingByType": "A szűrés típusok szerint",
+        "hideAds": "Hirdetésmentes élmény",
+        "matrixMaxPokemon": "Mátrix - Max Pokemon",
+        "enabled": "Engedélyezve",
+        "quality": "Szimulációs minőség",
+        "heading": "Jelenlegi előnyök",
+        "matrixMaxType": "Mátrix - Max típusok",
+        "maxBattleParties": "Max csata felek",
+        "thanks": "Köszönjük, hogy támogatod a Pokebattlert! Hozzászólásait nagyra értékeljük."
+    },
+    "link": {
+        "description": "A Pokebattler-fiókot több bejelentkezési módszerrel is összekapcsolhatja. Amikor végrehajtja ezt a műveletet, a fiókot, amelyhez összekapcsolni próbál, beolvasztja az aktuális fiókba. Győződjön meg róla, hogy azzal a fiókkal van bejelentkezve, amelyet meg akar tartani!",
+        "facebook": "Csatlakoztassa a Facebook-fiókot",
+        "success": {
+            "title": "A fiók sikeresen összekapcsolva"
+        },
+        "google": "Csatlakoztassa a Google-fiókot",
+        "discord": "Csatlakoztassa a discord fiókot",
+        "shortTitle": "Csatlakoztassa a fiókokat",
+        "patreon": "Csatlakoztassa a Patreon-fiókot",
+        "allLinked": "Azta! Összekapcsolta az összes fiókját. Gratulálunk, hogy Pokebattler Account Master lettél!",
+        "title": "Csatlakoztassa a közösségi bejelentkezési adatait"
+    },
+    "userSubscription": {
+        "statuses": {
+            "cancelled": {
+                "title": "$t(userSubscription.statuses.canceled.title)",
+                "description": "$t(userSubscription.statuses.canceled.description)",
+                "cancelled": "$t(userSubscription.statuses.canceled.description)"
+            },
+            "incomplete_expired": {
+                "title": "Hiányos tagság",
+                "description": "Pokebattler tagságának teljesítéséhez cselekednie kellett, de ez az idő letelt. Újra fel kell iratkoznia."
+            },
+            "trialing": {
+                "cancelled": "Pokebattler-előfizetését törölték. Miért nem próbálkozik újra velünk?",
+                "title": "Ingyenes próbaidőszak",
+                "description": "Pokebattler-előfizetésedhez próbaidőszak tartozik, amely lehetővé teszi a díjmentes lemondás lehetőségét, ha nem vagy elégedett a szolgáltatással."
+            },
+            "canceled": {
+                "description": "Pokebattler tagságát törölték. Az utolsó tagság dátuma {{currentPeriodEnd}} volt.",
+                "cancelled": "$t(userSubscription.statuses.canceled.description)",
+                "title": "Törölt tagság"
+            },
+            "active": {
+                "title": "Aktív tagság",
+                "cancelled": "Pokebattler-tagsága {{currentPeriodEnd}} dátummal megszűnik. Kérjük, addig is élvezze előfizetését!",
+                "description": "Megkezdődött a Pokebattler tagságod. A tagságod megújulni készül: {{currentPeriodEnd}}"
+            },
+            "past_due": {
+                "description": "Pokebattler tagságod nem ment végbe. Frissítenie kell fizetési adatait és újra fel kell fizetnie",
+                "title": "Késedelmes tagság"
+            },
+            "incomplete": {
+                "description": "Pokebattler tagságához a művelet végrehajtása szükséges. Meg kell erősítenie előfizetését a fizetési szolgáltatónál.",
+                "title": "Hiányos tagság"
+            }
+        },
+        "platform": {
+            "patreon": {
+                "link": "https://www.patreon.com/pokebattler",
+                "title": "Patreon előfizetés",
+                "platformLink": "https://www.patreon.com/pokebattler",
+                "icon": "https://static.pokebattler.com/images/pokebattler_square.png",
+                "manageSubscription": "A Patreon-előfizetés kezelése"
+            },
+            "stripe": {
+                "title": "Weboldal feliratkozás",
+                "manageSubscription": "A Stripe előfizetés kezelése a webhelyen.",
+                "platformLink": "https://www.pokebattler.com/user/subscription",
+                "link": "https://www.pokebattler.com/user/subscription",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+            },
+            "android": {
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png",
+                "title": "Play Áruház-előfizetés",
+                "link": "https://play.google.com/store/account/subscriptions",
+                "manageSubscription": "A Play Store-előfizetés kezelése",
+                "platformLink": "https://play.google.com/store/account/subscriptions"
+            },
+            "ios": {
+                "manageSubscription": "Az App Store-előfizetés kezelése ",
+                "link": "https://apps.apple.com/account/subscriptions",
+                "platformLink": "itms-apps://apps.apple.com/account/subscriptions",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png",
+                "title": "App Store-előfizetés"
+            }
+        },
+        "trialStart": {
+            "value": "{{trialStart,shortdate}}",
+            "label": "Próba kezdete"
+        },
+        "cancel": "Törölje előfizetését",
+        "createdAt": {
+            "value": "{{createdAt,shortdate}}",
+            "label": "Létrehozva"
+        },
+        "renew": "Újítsa meg előfizetését",
+        "endedAt": {
+            "value": "{{endedAt,shortdate}}",
+            "label": "Vége"
+        },
+        "planId": "azonosítója",
+        "lastUpdate": {
+            "value": "{{lastUpdate,shortdate}}",
+            "label": "Utolsó frissítés"
+        },
+        "currentPeriodStart": {
+            "value": "{{currentPeriodStart,shortdate}}",
+            "label": "Aktuális periódus kezdete"
+        },
+        "currentPeriodEnd": {
+            "value": "{{currentPeriodEnd,shortdate}}",
+            "label": "Jelenlegi időszak vége"
+        },
+        "trialEnd": {
+            "value": "{{trialEnd,shortdate}}",
+            "label": "Próba vége"
+        }
+    },
+    "sponsor": {
+        "sponsored": {
+            "pokenav": {
+                "iconUrl": "https://pokenavbot.com/assets/images/logo.png",
+                "description": "A PokeNav egy Pokemon Go Discord Bot portyázáshoz, kereskedéshez és egyebekhez. Pokebattler számlálókat és raid partikat biztosít a Discord szerverekhez",
+                "quote": "A PokeNav támogatása segít a fejlesztés támogatásában és a folyamatos költségek fedezésében",
+                "thanks": "Köszönjük, hogy szponzoráltad a PokeNav-t! Hozzájárulása hozzájárul a folyamatban lévő költségek és fejlesztések fedezéséhez.",
+                "name": "IVpips",
+                "app": "Pokenav"
+            },
+            "clembotdark": {
+                "iconUrl": "https://cdn.discordapp.com/app-icons/363917328880107522/2f4e04668ff5ef15d309faaec40f9418.png?size=256",
+                "app": "Clembot Dark",
+                "description": "A Clembot Dark egy Pokemon Go Discord Bot portyázáshoz",
+                "thanks": "Nagyon köszönöm, hogy támogatta Clembot-t.",
+                "name": "B!",
+                "quote": "A Pokebattler csodálatos erőforrás a portyázással kapcsolatos összes válaszhoz (felhasználónként testreszabható). A Pokebattler és a Clembot integrációja azt a célt szolgálja, hogy az összes információt a viszálykiszolgálókon is, annyira izgatottan hozza el!"
+            },
+            "pvpoke": {
+                "app": "PvPoke.com",
+                "name": "Matt",
+                "quote": "Nagyon örülök, hogy partnerem lehet a Pokebattler, hogy a csata szimulációjának legjobb eredményeit hozza el! A Pokebattler előfizetéssel több száz PvP Pokemon tárolhat elemzésre a Pokebattler és a PvPoke.com webhelyeken.",
+                "thanks": "Nagyon köszönjük, hogy feliratkoztál és támogattad a PvPoke programot! Találkozunk az arénában!",
+                "iconUrl": "https://pvpoke.com/img/app_192.png",
+                "description": "A Pvpoke egy nyílt forráskódú eszköz a Pokemon GO PvP (játékos versus játékos) csaták szimulálására, rangsorolására és felépítésére."
+            }
+        },
+        "description": "A Pokebattler most lehetőséget kínál kiválasztott Pokebattler partnerek szponzorálására, akik értékes szolgáltatásokat nyújtanak a közösség számára. Pokebattler reméli, hogy fontolóra veszi ezen alkotók támogatását a közösség életben tartása és virágzása érdekében",
+        "button": {
+            "title": "Szponzor: {{name}}"
+        },
+        "currentSponsored": "Jelenleg a (z) {{name}} ({{app}}) szponzorja",
+        "meta": {
+            "description": "Rendelje hozzá Pokebattler-tagságának százalékos arányát a következőhöz: {{app}}"
+        },
+        "cancel": "Szponzorálás törlése",
+        "legal": {
+            "description": "Egy harmadik fél szponzorálása felhatalmazza a Pokebattlert arra, hogy nyilvános profiladatokat osszon meg az adott harmadik féllel, beleértve a felhasználói azonosítót, az oktató nevét és a diszkord nevet, valamint az előfizetés dátumára és szintjére vonatkozó nem nyilvános adatokat. Az e-mail címet és a fiók azonosítókat nem osztják meg a szponzorált alkotókkal. A szponzorálás csak a Stripe, az Apple és a Google előfizetésére vonatkozik, a Patreon előfizetéseket nem tartalmazza.",
+            "title": "Jogi"
+        },
+        "how": {
+            "description": "Ha úgy dönt, hogy szponzorál egy alkotót, akkor az adók, díjak vagy kedvezmények nélkül megkapja előfizetésének egy százalékát. Minél magasabb az előfizetési szint, annál magasabb a százalék. Minden hónap elején a Pokebattler ellenőrzi az alkotókat a hónap aktív előfizetései alapján. Az alkotók megkapják a szponzorok listáját, valamint nyilvános profilinformációik és előfizetésük szintjét.",
+            "title": "Hogyan működik",
+            "description2": "Ez a szponzorálás nem kerül különösebb költségbe, és semmilyen módon nem változtatja meg Pokebattler előfizetésének feltételeit."
+        },
+        "title": "Támogatás: {{app}}",
+        "notSubscribed": "Ön jelenleg nem iratkozott fel a Pokebattlerre. A {{app}} támogatásához fel kell iratkoznia"
+    },
+    "raidParty": {
+        "description": "A Pokebattler Raid Party App beállításai.",
+        "title": "Raid Party beállítások"
+    },
+    "countryCodes": {
+        "ES": "Spanyolország",
+        "GB": "Egyesült Királyság",
+        "NZ": "Új Zéland",
+        "IT": "Olaszország",
+        "CH": "Svájc",
+        "LU": "Luxemburg",
+        "FI": "Finnország",
+        "SE": "Svédország",
+        "PT": "Portugália",
+        "CA": "Kanada",
+        "US": "Egyesült Államok",
+        "BE": "Belgium",
+        "JP": "Japán",
+        "NL": "Hollandia",
+        "DE": "Németország",
+        "AU": "Ausztrália",
+        "NO": "Norvégia",
+        "FR": "Franciaország",
+        "IE": "Írország",
+        "HK": "Hong Kong",
+        "DK": "Dánia",
+        "AT": "Ausztria"
+    },
+    "loggedIn": {
+        "discordLink": {
+            "instructions": "A discordfiók összekapcsolásához jelentkezzen ki és jelentkezzen be a discord bejelentkezési lehetőség és a fiókhoz kötött e-mail cím használatával.",
+            "linkAccounts": "Csatlakoztassa Discord-fiókját ehhez a Pokebattler-fiókhoz a Pokebattler Raid Network engedélyezéséhez",
+            "error": "Problémái vannak az összekapcsolással? E-mail küldése: admin@pokebattler.com, mindkét Pokebattler felhasználói azonosítóval."
+        },
+        "meta": {
+            "description": "Tárolja Pokemon Go felhasználói adatait és Pokemon-ját."
+        },
+        "description": "Sikeresen bejelentkezett. Töltse ki az edzői információkat alább, majd kattintson a Pokebox gombra a Pokemon hozzáadásához az egyéni eredmények érdekében. Ezután hozzon létre Battle Party-kat az egyéni raid eredményekhez.",
+        "profileButton": "Profilod",
+        "title": "Nyilvános profil"
+    },
+    "subscribed": {
+        "duringTrial": {
+            "description": "A próbaidőszak alatt szabadon megváltoztathatja előfizetését",
+            "button": "Előfizetés módosítása"
+        },
+        "title": "Köszönöm a tamogatásod",
+        "downgradeSubscription": {
+            "description": "Csökkentse az előfizetését a jelenlegi előfizetés végén.",
+            "button": "Előfizetés lemondása"
+        },
+        "choosePlan": "Válassza ki a tervét",
+        "chargeAmount": "Azonnal kiszámlázzuk a ${{chargeAmount}} arányos összeget. A teljes összeget minden számlázási ciklus elején felszámoljuk.",
+        "patreon": "A Patreon előfizetőit arra ösztönzik, hogy váltsanak az alábbi Csík alapú opciókra az alacsonyabb árak és a jobb támogatás érdekében. E-mailt küldhet az admin@pokebattler.com e-mail címre, ha megkapja az előfizetésére alkalmazott kupont, amikor vált. A kupon összege a fennmaradó Patreon-előfizetésen alapul. A Stripe országokban a felhasználók nem támogatják, például Brazíliában és Mexikóban, valamint azoknak a felhasználóknak, akik fizetni akarnak a Paypal segítségével, továbbra is folytassák a Patreon használatát.",
+        "meta": {
+            "description": "A Pokebattler mindenki számára ingyenesen használható, a hozzád hasonló emberek nagylelkű előfizetése révén! Az előfizetésed letiltja a hirdetéseket, és feloldja az erőteljes funkciókat, amelyek segítenek abban, hogy a raid boss-ot vagy barátaidat legyőzzék a pvp-ben!"
+        },
+        "purchase": "Frissítse időtartamát",
+        "changeCreditCard": {
+            "button": "Információ frissítése",
+            "title": "Módosítsa a fizetési információkat"
+        },
+        "currentPlan": "Aktuális terv",
+        "upgradeSubscription": {
+            "button": "Frissítse az előfizetést",
+            "description": "Azonnal frissítse előfizetését."
+        },
+        "currentSubscription": "Jelenlegi előfizetési információk",
+        "chooseProduct": "Változtassa meg előfizetését"
+    },
+    "user": "Felhasználó",
+    "loading": "Pokebattler adatok lekérése",
+    "login": {
+        "connect": "Csatlakoztassa a fiókját",
+        "discord": "Jelentkezzen be a Discorddal",
+        "emailReason": "A Pokebattler az Ön e-mail címét kizárólag fiók összekapcsolására és ügyfélszolgálati célokra használja.",
+        "patreonDescription": "A Pokebattler mostantól támogatja a közvetlen Stripe előfizetéseket! Nagyon bátorítjuk a jelenlegi Patreon-előfizetőket, hogy térjenek át az új előfizetési tervekre. A Stripe által nem támogatott országokból, például Brazíliából és Mexikóból származó felhasználók, valamint azok a felhasználók, akik a Paypal-on keresztül akarnak támogatni, továbbra is használják a Patreont.",
+        "autoCreate": "A hitelesítés automatikusan létrehozza Pokebattler-fiókját, és bejelentkezik",
+        "google": "Jelentkezzen be a Google-lal",
+        "patreon": "Jelentkezzen be Patreonnal",
+        "facebook": "Folytassa a Facebook-lal",
+        "device": "Ugrás",
+        "success": {
+            "fromApi": "$t(login.success.title)! Várjon egy kicsit a folytatáshoz.",
+            "title": "Sikeresen bejelentkezett"
+        },
+        "loginReason": "Jelentkezzen be, hogy engedélyezhesse az eszközök és platformok közötti funkcionalitást fiókjában a Pokebattler.com webhelyen és harmadik féltől származó alkalmazásokkal, például discord botokkal"
+    },
+    "details": {
+        "description": "Az alábbi oktatói információkat felhasználja a webhely testreszabására, és azokat a többi felhasználó is megjeleníti.",
+        "welcome": "Üdvözöljük"
+    },
+    "description": "Hozzon létre egy ingyenes fiókot a Pokebox eléréséhez és ingyenes, személyre szabott számlálókhoz!",
+    "logout": {
+        "connectAccount": "Csatlakoztassa a fiókot",
+        "back": "Vissza a bejelentkezéshez",
+        "description": "Sikeresen kijelentkezett. Gyere vissza később bármilyen eszközön, és Pokeboxod ott vár rád!",
+        "title": "Kilépett",
+        "button": "Kijelentkezés",
+        "meta": {
+            "description": "Sikeresen kijelentkezett a Pokebattlerből."
+        }
+    },
+    "explanation": "A Pokebattler nem és nem tud bejelentkezni Pokemon Go-fiókjába. Semmilyen módon nem kapcsolódunk a Niantic szerverekhez. A Pokebattler csak azért használja ezt a bejelentkezési adatot, hogy megtudja, ki vagy az összes eszközén. Bejelentkezhet telefonján, táblagépén vagy számítógépén, és megtekintheti az összes Pokemont, amelyet beírt az oldalunkra. Nem osztjuk meg az Ön adatait, és nem használjuk azokat marketing célokra vagy bármilyen más módon.",
+    "meta": {
+        "description": "A Pokebattler tárolja Pokemon Go Pokemonját a Pokedex-ben a gyors raid számlálókért és még sok másért!"
+    },
+    "defaultName": "$t(user:user) #{{userId}}",
+    "title": "Jelentkezzen be a Pokebattler-be",
+    "privacy": "További információért olvassa el adatvédelmi irányelveinket",
+    "settings": {
+        "showListImages": "Képek megjelenítése"
+    }
+}

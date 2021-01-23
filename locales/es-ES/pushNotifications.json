@@ -1,29 +1,78 @@
 {
-	"CREATE_PARTY": {
-		"title": "{{name}} creó {{tier}} {{defender}} grupo de incursión",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},	
-	"ADD_USER": {
-		"title": "{{name}} se unió al grupo de incursión de {{tier}} {{defender}}",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},	
-	"REMOVE_USER": {
-		"title": "{{name}} izquierda {{tier}} {{defender}} grupo de incursión",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},	
-	"UPDATE_USER": {
-		"title": "{{name}} cambió su configuración para {{tier}} {{defender}}",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},	
-	"UPDATE_PARTY": {
-		"title": "{{name}} actualizó la configuración de incursión para {{tier}} {{defender}}",
-		"subtitle": "Grupo de incursión n. ° {{raidPartyId}}"
-	},
-	"defaultBody" : {
-		"line1": "{{numPlayers}} Jugadores",
-		"line2": "{{winPercent}}% Oportunidad de Ganar",
-		"line3": "{{powerPercent}}% de Daño Ggrupal",
-		"line4": "{{estimator}} Jugadores Necesarios"
-	}
-	
+    "CREATE_PARTY": {
+        "title": "{{attackerName}} creó {{tier}} {{defender}} grupo de incursión",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "ADD_USER": {
+        "title": "{{attackerName}} se unió al grupo de incursión de {{tier}} {{defender}}",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "REMOVE_USER": {
+        "title": "{{attackerName}} izquierda {{tier}} {{defender}} grupo de incursión",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "UPDATE_USER": {
+        "title": "{{attackerName}} cambió su configuración para {{tier}} {{defender}}",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "UPDATE_PARTY": {
+        "title": "{{attackerName}} actualizó la configuración de incursión para {{tier}} {{defender}}",
+        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
+    },
+    "defaultBody": {
+        "line1": "{{numAttackers}} Jugadores",
+        "line2": "{{winPercent}}% Oportunidad de Ganar",
+        "line3": "{{powerPercent}}% de Daño Ggrupal",
+        "line4": "{{estimator}} Jugadores Necesarios"
+    },
+    "discordLine": "#{{discordChannel}} - {{discordServerName}}",
+    "globalRaidNetwork": {
+        "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
+        "title": "{{discordFlag}} **{{defender}}** - {{tier}} ({{discordLanguage}})",
+        "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
+        "field1": {
+            "value": "[{{discordGuildName}}]({{discordGuildInviteUrl}})",
+            "name": "Únete al Servidor de Discord"
+        },
+        "thumbnail": "{{pokemonIcon}}",
+        "author": {
+            "name": "{{botName}}",
+            "icon_url": "{{botIcon}}"
+        },
+        "footer": "$t(pushNotifications:defaultBody.line1) - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)",
+        "username": "Red de incursiones Pokebattler",
+        "description": "{{remoteSlotsEmoji}} Se necesitan jugadores para incursión de {{tier}} **{{defender}}** - #{{raidPartyId}}\n\n>>> Únete usando [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}) o uniéndote al servidor de Discord e interactuando con  {{botName}} Enlace de incursión en Discord.\n",
+        "field2": {
+            "name": "Enlace de incursión en Discord",
+            "value": "[de {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"
+        },
+        "field1NonDiscord": {
+            "name": "Solo disponible en la aplicación",
+            "value": "[Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/discord)"
+        },
+        "field3": {
+            "name": "Únete con un click",
+            "value": "[desde Pokebattler Raid Network](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
+        }
+    }
 }

@@ -1,15 +1,19 @@
 {
     "languageSupport": {
         "self": "English",
+        "bn": "Bengali",
+        "bg": "Bulgarian",
         "en": "English",
         "es": "Spanish",
         "de": "German",
+        "hu": "Hungarian",
         "jp": "Japanese",
         "fr": "French",
         "it": "Italian",
-        "pl": "Polish",
         "ja": "Japanese",
         "ko": "Korean",
+        "nl": "Dutch",
+        "pl": "Polish",
         "pt": "Portuguese",
         "ru": "Russian",
         "zh": "Chinese"
@@ -115,7 +119,9 @@
         "candy": "Candy",
         "tdo": "Damage (TDO)",
         "maxCP": "Max $t(common:cp)",
-        "level": "$t(common:level)"
+        "level": "$t(common:level)",
+        "rank": "Rank",
+        "points": "Points"
     },
     "sectionLinks": {
         "help": "Help section",
@@ -124,6 +130,7 @@
     "simulation": "one simulation was",
     "simulation_plural": "{{count, commas}} simulations were",
     "chooseMovesetLabel": "Choose Moveset",
+    "choosePokemonLabel": "Choose Pokemon",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) performed to generate this high quality simulation",
         "attackers": "attackers",
@@ -286,7 +293,8 @@
             "news": "News",
             "profiles": "Public Profiles",
             "matrix": "Matrix",
-            "subscription": "Subscription"
+            "subscription": "Subscription",
+            "attackers": "Attackers"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",

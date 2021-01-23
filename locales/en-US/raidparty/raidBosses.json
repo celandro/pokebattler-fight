@@ -6,7 +6,13 @@
     "loadParty": "View Raid Party #{{id}}",
     "joinParty": "Join Party",
     "leaveParty": "Leave Party",
+    "finishParty": "Finish Raid",
+    "copyTrainers": "Copy Trainers",
     "viewParty": "View Party",
+    "copyTrainers": "Copy Trainers",
+    "remote": "Remote",
+    "ready": "Local",
+    "remoteReady": "Remote ✅",
     "customBoss": "Customize",
     "actionButtonsDescription": "Simulate your raid party group",
     "quickSettings": {
@@ -62,17 +68,6 @@
         "id": "#{{id}}",
         "addFriendCode": "Add Friend Code"
     },
-    "raidPartyActions": {
-        "errors": {
-            "createRaidPartyGeneral": "Raid party could not be created for {{raidPartyPokemon}}",
-            "updateRaidPartyGeneral": "Raid party could not be updated for {{raidPartyId}}",
-            "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyPokemon}}",
-            "getRaidResultsGeneral": "Raid results from party {{raidPartyId}} could not be retrieved",
-            "removeUserFromRaidPartyGeneral": "You could not leave the party {{raidPartyId}}",
-            "addUserToRaidPartyGeneral": "You could not join to party {{raidPartyId}}",
-            "getUserRaidPartiesGeneral": "Could not fetch raid parties"
-        }
-    },
     "errors": {
         "failed": "Failed to get raid bosses!",
         "party": "Failed to find optimal party",
@@ -91,5 +86,9 @@
        "until": "Until",
        "localTime": "LOCAL TIME"
    },
-   "autocomplete": "Choose Custom Raid Boss"
+   "autocomplete": "Choose Custom Raid Boss",
+    "createPartyOverlay": {
+        "title": "Create Raid Party"
+    }
+
 }
