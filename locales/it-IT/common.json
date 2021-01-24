@@ -53,7 +53,7 @@
         "eps": "EPS"
     },
     "simulation": "una simulazione era",
-    "simulation_plural": "simulazioni erano",
+    "simulation_plural": "{{count, commas}} simulazioni erano",
     "chooseMovesetLabel": "Scegli Moveset",
     "hd": {
         "attackers": "attaccanti",
@@ -149,7 +149,7 @@
             "contact": "Contattaci",
             "translate": "Aiutaci a Tradurre",
             "counters": "Oppositori",
-            "battleParties": "$t(battleParties)",
+            "battleParties": "$t(common:battleParties)",
             "account": "Il Mio Account",
             "more": "Di Più",
             "privacy": "Privacy",
