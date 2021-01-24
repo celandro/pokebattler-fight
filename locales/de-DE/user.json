@@ -40,7 +40,7 @@
     "roles": {
         "title": "Account Informationen",
         "heading": "Aktuelle Vorteile",
-        "description": "Trage zu Pokebattler's {{link}} bei und erlange tolle Vorteile. Pokebattler wird ermöglichst durch Unterstützer die zu den steigenden Serverkosten zum hosten dieser Seite beitragen.",
+        "description": "",
         "maxPokemon": "Maximale Pokemon",
         "quality": "Simulationsqualität",
         "thanks": "Danke dass du Pokebattler unterstützt! Deine Beteiligung wird sehr geschätzt.",
