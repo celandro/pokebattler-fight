@@ -54,7 +54,7 @@
         "about": "Rubrique à propos"
     },
     "simulation": "une simulation était",
-    "simulation_plural": "{{count}} simulations étaient",
+    "simulation_plural": "{{count,commas}} simulations étaient",
     "hd": {
         "attackers": "Attaquants",
         "defenders": "défenseurs",
