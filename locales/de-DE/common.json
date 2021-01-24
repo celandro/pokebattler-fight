@@ -17,7 +17,7 @@
         "attack": "Angriff",
         "defense": "Verteidigung",
         "stamina": "Ausdauer",
-        "individualAttack": "$t/common:stats.attack)",
+        "individualAttack": "$t(common:stats.attack)",
         "individualDefense": "$t(common:stats.defense)",
         "individualStamina": "$t(common:stats.stamina)",
         "hp": "Kampfpunkte"
@@ -70,7 +70,7 @@
         "about": "Über uns"
     },
     "simulation": "Eine Simulation wurde",
-    "simulation_plural": "{{count}} Simulationen wurden",
+    "simulation_plural": "{{count, commas}} Simulationen wurden",
     "chooseMovesetLabel": "Attackenmuster auswählen",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) wurden ausgeführt um diese hochqualitative Simulation",
@@ -195,7 +195,7 @@
             "gym": "$t(gym)",
             "simulator": "Simulator",
             "counters": "Konter",
-            "battleParties": "$t(battleParties)",
+            "battleParties": "$t(common:battleParties)",
             "account": "Mein Profil",
             "more": "Mehr",
             "privacy": "Datenschutz",
@@ -324,6 +324,6 @@
     },
     "search": "Suche",
     "update": "Update",
-    "version": "Version",
+    "version": "Version {{version}}",
     "friendCode": "Freundescode"
 }
