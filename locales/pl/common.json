@@ -212,7 +212,7 @@
         },
         "mainMenu": {
             "home": "Strona Główna",
-            "gym": "$t(arena)",
+            "gym": "$t(gym)",
             "articles": "Artykuły",
             "tools": "Narzędzia",
             "battle": "Walka",
