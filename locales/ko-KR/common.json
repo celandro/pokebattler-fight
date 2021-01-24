@@ -36,7 +36,7 @@
         "defense": "방어",
         "stamina": "체력",
         "individualAttack": "$t(common:stats.attack)",
-        "individualDefense": "$t(common:stats.attack)",
+        "individualDefense": "$t(common:stats.defense)",
         "individualStamina": "$t(common:stats.stamina)",
         "hp": "HP"
     },
@@ -86,8 +86,7 @@
         "help": "도움말",
         "about": "정보"
     },
-    "simulation": "한 시뮬레이션은",
-    "simulation_plural": "{{count, commas}} 시뮬레이션이",
+    "simulation": "{{count, commas}} 한 시뮬레이션은",
     "chooseMovesetLabel": "기술조합 선택",
     "hd": {
         "text": "이 고품질 시뮬레이션을 생성하기 위해 $t(simulation, {'count': {{numSims}} })",
