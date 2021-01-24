@@ -21,7 +21,7 @@
             "chooseMovesetLabel": "Elegir movimientos"
         },
         "hardestMovesets": {
-            "subtitle": "Para {{Pokémon}} por {{ordenar}}"
+            "subtitle": "Para {{pokemon}} por {{sort}}"
         },
         "analysis": {
             "title": "Acerca de este análisis",
