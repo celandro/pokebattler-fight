@@ -40,7 +40,7 @@
     "roles": {
         "title": "Informação da Conta",
         "heading": "Benefícios Atuais",
-        "description": "Contribua com o Pokebattler {{link}} para benefícios premium. O Pokebattler é viabilizado por suportadores que contribuem com os crescentes custos de hospedagem deste site.",
+        "description": "",
         "maxPokemon": "Máximo de Pokemons",
         "quality": "Qualidade da Simulação",
         "thanks": "Obrigado por suportar o Pokebattler! Suas contribuições são muito apreciadas.",
