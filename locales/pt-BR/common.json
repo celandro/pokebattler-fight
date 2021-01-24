@@ -64,7 +64,7 @@
         "about": "Seção Sobre"
     },
     "simulation": "uma simulation foi",
-    "simulation_plural": "{{count}} simulações foram",
+    "simulation_plural": "{{count,commas}} simulações foram",
     "chooseMovesetLabel": "Escolha o Ataque",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) executadas para gerar esta simulação de alta qualidade",
@@ -171,7 +171,7 @@
             "help": "Ajuda",
             "about": "Sobre",
             "contact": "Contate-nos",
-            "battleParties": "$t(battleParties)",
+            "battleParties": "$t(common:battleParties)",
             "account": "Minha Conta",
             "more": "Mais",
             "privacy": "Privacidade",
