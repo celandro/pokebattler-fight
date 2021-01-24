@@ -67,8 +67,9 @@
         "help": "Раздел помощи",
         "about": "О разделе"
     },
-    "simulation": "симуляция была",
-    "simulation_plural": "{{count}} симуляции были",
+    "simulation_0": "симуляция была",
+    "simulation_1": "{{count,commas}} симуляции были",
+    "simulation_2": "",
     "chooseMovesetLabel": "Выбрать набор атак",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) выполнено для генерации этой высококвалифицированной симуляции",
