@@ -22,7 +22,7 @@
     "recommended": "추천",
     "startButton": "배틀",
     "attacker": "공격자",
-    "attackerPlaceHolder": "%t(attacker)) 선택",
+    "attackerPlaceHolder": "$t(attacker) 선택",
     "defender": "방어자",
     "defenderPlaceHolder": "$t(defender) 선택",
     "pokemonListTypes": {
@@ -39,7 +39,7 @@
     "results": {
         "title": {
             "base": "전투 결과: 당신이",
-            "win": "$t(result.title.base) 승리했습니다!",
+            "win": "$t(results.title.base) 승리했습니다!",
             "lose": "$t(results.title.base) 패배했습니다!"
         },
         "about": "이 전투에 대해서",
