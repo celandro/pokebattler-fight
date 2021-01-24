@@ -5,6 +5,7 @@
     "createParty": "Create party",
     "loadParty": "View Raid Party #{{id}}",
     "joinParty": "Join Party",
+    "joinPrivate": "Join Private Party",
     "leaveParty": "Leave Party",
     "finishParty": "Finish Raid",
     "copyTrainers": "Copy Trainers",
