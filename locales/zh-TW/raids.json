@@ -157,7 +157,7 @@
         "disabled": "顯示等級 {{level}} 的打手的結果。最佳的30個打手排列如下。",
         "friend": "顯示根據用戶 {{userId}} 得出的結果。最佳的30個打手排列如下。",
         "switchLevel": "切換到 $t(common:attackerTypes.level)",
-        "switchPokebox": "切換到 $t(common:attackerTypes.level)"
+        "switchPokebox": "切換到 $t(common:attackerTypes.pokebox)"
     },
     "emptyResults": {
         "LEVEL": "這次計算沒有返回結果。伺服器可能存在問題。",
