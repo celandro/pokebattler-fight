@@ -76,10 +76,10 @@
         "about": "Acerca de"
     },
     "simulation": "una simulación fue",
-    "simulation_plural": "{{count}} simulaciones fueron",
+    "simulation_plural": "{{count,commas}} simulaciones fueron",
     "chooseMovesetLabel": "Seleccionar Ataques",
     "hd": {
-        "text": "$t(simulación, {'count': {{numSims}} }) realizadas para generar esta simulación de alta precisión",
+        "text": "$t(simulation, {'count': {{numSims}} }) realizadas para generar esta simulación de alta precisión",
         "attackers": "atacantes",
         "defenders": "defensores",
         "raid": "incursión"
@@ -159,7 +159,7 @@
     "menu": {
         "follow": "Síguenos!",
         "mainMenu": {
-            "gym": "$t(gimnasio)",
+            "gym": "$t(gym)",
             "articles": "Artículos",
             "tools": "Herramientas",
             "battle": "Batalla",
@@ -177,7 +177,7 @@
             "contact": "Contáctanos",
             "translate": "Traducir",
             "counters": "Contrincantes",
-            "battleParties": "$t(equiposdeCombate)",
+            "battleParties": "$t(common:battleParties)",
             "account": "Mi cuenta",
             "more": "Más",
             "privacy": "Privacidad",
