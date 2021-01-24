@@ -2,9 +2,9 @@
     "title": "Simulatore di battaglie in palestra",
     "startButton": "Battaglia",
     "attacker": "Attaccante",
-    "attackerPlaceHolder": "Scegli $t(attaccante)",
+    "attackerPlaceHolder": "Scegli $t(attacker)",
     "defender": "Difensore",
-    "defenderPlaceHolder": "Scegli $t(difensore)",
+    "defenderPlaceHolder": "Scegli $t(defender)",
     "pokemonListTypes": {
         "pokebox": "Il mio Pokebox",
         "all": "Tutti i Pokemon"
@@ -13,7 +13,7 @@
         "title": "Battaglie correlate",
         "description": "Scegli il parametro che desideri cambiare qui sotto e clicca sul link per ricalcolare la simulazione corrente con il nuovo parametro. I risultati vengono cambiati immediatamente.",
         "modify": "Modifica",
-        "switch": "Cambia per modificare {{tipo}}",
+        "switch": "Cambia per modificare {{type}}",
         "parameterTitle": "Cambia il parametro"
     },
     "results": {
