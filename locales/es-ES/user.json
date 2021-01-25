@@ -98,7 +98,7 @@
             "allDevices": "Características",
             "desktopOnly": "Características Solo para Escritorio",
             "support": {
-                "description": "¿Problemas con tu suscripción? Las suscripciones a Pokebattler subscriptions están conectadas a la cuenta con la que estaba autenticado en el momento de realizar la compra.",
+                "description": "¿Problemas con tu suscripción? Las suscripciones a Pokebattler están conectadas a la cuenta con la que estaba autenticado en el momento de realizar la compra. Contacta a soporte con los IDs de tu cuentas antigua y nueva de Pokebattler para fusionar tus cuentas",
                 "restorePurchases": "Recuperar Compras",
                 "contactSupport": "Contactar a Soporte"
             },
@@ -128,7 +128,7 @@
         "multiMonth": "Ahorra con un plan de varios meses!",
         "requiresLogin": "Debes Autenticarte para Suscribirte",
         "ibanDescription": "Al proveer su IBAN y confirmar este pago, está autorizando a Pokebattler.com y Stripe, nuestro proveedor de servicio de pagos, a enviarle instrucciones a su banco para debitar desde su cuenta y a su banco a debitar desde su cuenta de acuerdo a dichas instrucciones. Tiene derecho a reembolso desde su banco bajo los términos y condiciones de su acuerdo con su banco. Un reembolso debe ser reclamado dentro de 8 semanas inciando en la fecha donde su cuenta fue debitada.",
-        "notNeccessary": "Los campos a continuación generalmente no son requeridos.  Solo necesita completarlos si su pago fuese declinado.",
+        "notNeccessary": "Los campos a continuación generalmente no son requeridos. Solo necesita completarlos si su pago fuese declinado.",
         "freeTrial": "Prueba Gratuita de {{trialPeriodDays}} Días",
         "paymentTypes": {
             "creditCard": "Tarjeta de Crédito",
@@ -228,7 +228,7 @@
             "restore": "Recuperando tus suscripciones. Esto puede llevar algún tiempo"
         },
         "error": {
-            "playLogin": "¡No se pudo completar la transacción! Inicia sesión en Google Play y vuelve a intentarlo.",
+            "playLogin": "¡No se pudo completar la transacción! Inicia sesión en Google Play y vuelve a intentarlo",
             "unknown": "¡No se pudo completar la transacción! Por favor contacta a admin@pokebattler.com",
             "cancelled": "Suscripción cancelada",
             "verification": "¡No se pudo verificado la transacción! Por favor contacta a admin@pokebattler.com",
@@ -303,7 +303,7 @@
         "renew": "Cancelar Tu Suscripción",
         "platform": {
             "ios": {
-                "manageSubscription": "Gestiona esta suscripción desde la App Store",
+                "manageSubscription": "Gestiona esta suscripción desde la App Store ",
                 "platformLink": "itms-apps://apps.apple.com/account/subscriptions",
                 "link": "https://apps.apple.com/account/subscriptions",
                 "title": "Suscripción en App Store",
@@ -352,7 +352,7 @@
             },
             "past_due": {
                 "title": "Membresía Expirada",
-                "description": "Tu membresía a Pokebattler no se completó. Necesitas actualizar tu información de pago y suscribirte de nuevo."
+                "description": "Tu membresía a Pokebattler no se completó. Necesitas actualizar tu información de pago y suscribirte de nuevo"
             },
             "canceled": {
                 "title": "Membresía Cancelada",
