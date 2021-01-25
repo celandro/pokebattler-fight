@@ -56,13 +56,14 @@
         "joinToServerInfo": "Esta incursión requiere que te unas en Discord. Por favor, únete al server, sigue las instrucciones de bienvenida, luego únete a la incursión con los íconos provistos en el bot",
         "coordinateInChannel": "Esta incursión es coordinada en Discord. Por favor comunícate en el canal. ¿Estas teniendo algún problema? Asegúrate que tu cuenta Discord autenticada es la misma que enlazaste a esta cuenta Pokebattler."
     },
-    "raidStartingIn": "Inicia la incursión:",
+    "raidStartingIn": "Inicia la incursión",
     "noTimeSpecified": "No hay una hora especificada",
     "startingTime": {
         "default": "Selecciona tiempo de inicio",
         "30": "30 segundos",
         "120": "2 minutos",
-        "300": "5 minutos"
+        "300": "5 minutos",
+        "15": "15 segundos"
     },
     "helpModal": {
         "raidNetwork": {
@@ -114,12 +115,19 @@
     },
     "noGlobalRaidParty": {
         "title": "No se han encontrado grupos de incursiones globales",
-        "description": "No hay incursiones disponibles actualmente. Crea tus propias incursiones para que otros se unan",
+        "description": "No hay incursiones disponibles actualmente. Crea tus propias incursiones para que otros se unan desde tu servidor Discord o la app",
         "link": "Incursiones Actuales",
         "linkTo": "RaidBosses"
     },
     "globalRaidList": {
         "title": "Pokebattler Raid Network",
         "subtitle": "¡Únete a Incursiones Remotas en cualquier parte del mundo! Para incursiones por Discord, serás agregado a la incursión y enviado directamente al canal Discord para coordinar."
-    }
+    },
+    "goCommand": "Vamos",
+    "raidNotStarted": "{{ownerName}} aún no ha iniciado la incursión",
+    "countdownTitle": "Hora de inicio de la incursión",
+    "countdownDone": "Vamos",
+    "goCommandInstruction": "¡Clickeando Vamos cerrará la incursión a jugadores adicionales y notificará a todos los jugadores que la incursión está comenzando! Asegúrate de haber aceptado todas las solicitudes de amistad. Una vez que clickeas Go, ¡no puedes regresar!",
+    "raidStarting": "La incursión está comenzando, ¡entra al juego!",
+    "raidStartingOwner": "¿Qué estás esperando? Ahora es tu responsabilidad iniciar la incursión, ¡tu incursión espera por ti! ¡Copia los nombres de los entrenadores e invítalos a la incursión en el juego!"
 }
