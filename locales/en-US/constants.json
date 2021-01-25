@@ -3296,6 +3296,10 @@
         "COMBAT_LEAGUE_SILPH_NIGHTFALL_CUP": {
             "label": "Silph Arena Nightfall Cup",
             "description": "The December Silph Arena Season 3 Cup tournament."
+        },
+        "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
+            "label": "Silph Arena Labyrinth Cup",
+            "description": "The February Silph Arena Season 3 Cup tournament."
         }
     },
     "privacy": {
