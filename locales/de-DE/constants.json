@@ -2276,7 +2276,9 @@
         "FALL_FORM": "Herbst",
         "2020_FORM": "2020",
         "FEMALE_FORM": "Weiblich",
-        "PIKACHU_VS_2019_FORM": "Libre-Pikachu"
+        "PIKACHU_VS_2019_FORM": "Libre-Pikachu",
+        "MIENSHAO": "Wie-Shu",
+        "DIANCIE": "Diancie"
     },
     "moves": {
         "undefined": "Undefiniert",
@@ -2533,7 +2535,19 @@
         "FLYING_PRESS": "Flying Press",
         "AURA_SPHERE": "Aurasphäre",
         "PAYBACK": "Gegenstoß",
-        "ROCK_WRECKER": "Felswerfer"
+        "ROCK_WRECKER": "Felswerfer",
+        "AEROBLAST": "Luftstoß",
+        "TECHNO_BLAST_NORMAL": "Techblaster (Normal)",
+        "TECHNO_BLAST_BURN": "Techblaster (Feuer)",
+        "TECHNO_BLAST_CHILL": "Techblaster (Eis)",
+        "TECHNO_BLAST_WATER": "Techblaster (Wasser)",
+        "TECHNO_BLAST_SHOCK": "Techblaster (Elektro)",
+        "FLY": "Fliegen",
+        "V_CREATE": "V-Generator",
+        "LEAF_STORM": "Blättersturm",
+        "TRI_ATTACK": "Triplette",
+        "GUST_FAST": "Windstoß",
+        "INCINERATE_FAST": "Einäschern"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unbekannt",
