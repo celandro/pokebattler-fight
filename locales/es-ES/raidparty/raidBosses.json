@@ -9,7 +9,7 @@
     "viewParty": "Ver Equipo",
     "copyTrainers": "Copiar Entrenadores",
     "remote": "Remoto",
-    "ready": "Listo",
+    "ready": "Local",
     "customBoss": "Personalizar",
     "actionButtonsDescription": "Simula tu grupo de incursión",
     "quickSettings": {
@@ -83,5 +83,7 @@
         "until": "Hasta",
         "localTime": "HORA LOCAL"
     },
-    "autocomplete": "Elige Jefe de Incursión personalizado"
+    "autocomplete": "Elige Jefe de Incursión personalizado",
+    "finishParty": "Completar Incursión",
+    "remoteReady": "Remoto"
 }
