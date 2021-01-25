@@ -112,7 +112,7 @@
         },
         "hardestMovesets": {
             "title": "Incursiones más difíciles",
-            "subtitle": "Para {{Pokémon}} por {{ordenar}}",
+            "subtitle": "Para {{pokemon}} por {{sort}}",
             "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
             "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor!"
         },
