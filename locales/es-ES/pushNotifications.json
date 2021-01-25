@@ -42,7 +42,7 @@
     "defaultBody": {
         "line1": "{{numReadyAttackers}} de {{numAttackers}} jugadores listos",
         "line2": "{{winPercent}}% Oportunidad de Ganar",
-        "line3": "{{powerPercent}}% de Daño Ggrupal",
+        "line3": "{{powerPercent}}% de Daño Grupal",
         "line4": "{{estimator}} Jugadores Necesarios",
         "subtitle": "{{defender}} {{tier}} #{{raidPartyId}}"
     },
