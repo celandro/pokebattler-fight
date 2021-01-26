@@ -9,7 +9,7 @@
     "viewParty": "Ver Equipo",
     "copyTrainers": "Copiar Entrenadores",
     "remote": "Remoto",
-    "ready": "Listo",
+    "ready": "Local",
     "customBoss": "Personalizar",
     "actionButtonsDescription": "Simula tu grupo de incursión",
     "quickSettings": {
@@ -58,7 +58,8 @@
         "id": "$t(raidBosses:joinParty) #{{id}}",
         "sumamry": "{{players}} jugadores se unieron. El grupo de {{ownerName}} fue creado el {{createdAt}}",
         "emptyPokebox": "Pokebox vacía, utilizando predeterminados",
-        "egg": "Huevo"
+        "egg": "Huevo",
+        "summary": "{{numReadyPlayers}} de {{players}} jugadores están listos. El grupo de {{ownerName}} fue creado el {{createdAt}}"
     },
     "raidPartyPlayer": {
         "title": "{{name}}",
@@ -83,5 +84,12 @@
         "until": "Hasta",
         "localTime": "HORA LOCAL"
     },
-    "autocomplete": "Elige Jefe de Incursión personalizado"
+    "autocomplete": "Elige Jefe de Incursión personalizado",
+    "finishParty": "Completar Incursión",
+    "remoteReady": "Remoto",
+    "joinPrivate": "Unirse a Grupo Privado",
+    "needsFriend": "Enviar Solicitud de Amistad",
+    "createPartyOverlay": {
+        "title": "Crear Grupo de Incursión"
+    }
 }

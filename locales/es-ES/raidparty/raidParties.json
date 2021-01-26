@@ -6,7 +6,9 @@
     "raidPartyCard": {
         "title": "Equipo de {{ownerName}}",
         "id": "#{{id}}",
-        "sumamry": "{{players}} jugadores se han unido. Creada el {{createdAt}}"
+        "sumamry": "{{players}} jugadores se han unido. Creada el {{createdAt}}",
+        "createdAt": "Creado el {{createdAt}}.",
+        "globalTime": "{{globalTime}}"
     },
     "raidPartyPlayer": {
         "title": "{{name}}",
@@ -52,14 +54,80 @@
         "joinChat": "Unirse al Chat",
         "oneClickJoin": "Únete al Instante",
         "joinToServerInfo": "Esta incursión requiere que te unas en Discord. Por favor, únete al server, sigue las instrucciones de bienvenida, luego únete a la incursión con los íconos provistos en el bot",
-        "coordinateInChannel": "Esta incursión es coordinada en Discord. Por favor comunícate en el canal"
+        "coordinateInChannel": "Esta incursión es coordinada en Discord. Por favor comunícate en el canal. ¿Estas teniendo algún problema? Asegúrate que tu cuenta Discord autenticada es la misma que enlazaste a esta cuenta Pokebattler."
     },
-    "raidStartingIn": "Inicia la incursión:",
+    "raidStartingIn": "Inicia la incursión",
     "noTimeSpecified": "No hay una hora especificada",
     "startingTime": {
         "default": "Selecciona tiempo de inicio",
         "30": "30 segundos",
         "120": "2 minutos",
-        "300": "5 minutos"
-    }
+        "300": "5 minutos",
+        "15": "15 segundos"
+    },
+    "helpModal": {
+        "raidNetwork": {
+            "title": "Pokebattler Raid Network",
+            "subtitle": "Unirse a incursiones Discord remotas",
+            "description": "¡Unirse a incursiones en la Pokebattler Raid Network es rápido y sencillo! Simplemente únete a la incursión y te unirá temporalmente al servidor Discord, te agregará a la incursión, y te enviará al canal para comunicarte con el anfitrión. Serás removido automáticamente del servidor luego de algún tiempo por el propio Discord. Tu puesto en la incursión se mantendrá por un corto período de tiempo hasta que te unas momentáneamente al servidor en Discord ",
+            "description2": "Para utilizar la red, necesitas ingresar tu nombre de entrenador y código de amistad. Estos son compartidos con los bots de Discord para permitir la coordinación de incursiones.",
+            "description3": "Las incursiones en Discord son creadas por medio de los bots PokeNav o Nexus y son controladas por los dueños de los servidores. Estas incursiones globales son enviadas a la red luego de un pequeño lapso de tiempo, permitiendo usuarios locales en el servidor a unirse primero. Puedes unirte cuando el contador de tiempo llega a 0 o el botón ⏩ aparece.",
+            "description4": "Suscriptores de Pokebattler actualmente obtienen un pequeño aviso para unirse a incursiones. Los beneficios finales no han sido definidos aún y están sujetos a cambios sin previo aviso",
+            "joinDescription": "Grupos de incursión dentro de la app serán incluidos muy pronto, pero por ahora puedes crear incursiones en nuestro Discord usando el comando `$rr boss`",
+            "joinButton": "Únete al Discord de Pokebattler Raid Party",
+            "beConsiderate": "¡Por favor, sé considerado de los servidores a los que te unes y muestra tu mejor comportamiento! Jugadores abusivos, conducta escandalosa y jugadores que no coordinan en la incursión serán permanentemente baneados de la red de incursiones."
+        }
+    },
+    "raidPartySummaryCard": {
+        "title": "{{defender}} - {{tier}}",
+        "subtitle": "{{ownerName}} - #{{id}}"
+    },
+    "raidPartyHost": {
+        "title": "Anfitrión",
+        "description": "Envía una solicitud de amistad a {{name}} en Pokémon Go",
+        "hostInfo": "{{name}}",
+        "PRIVATE": {
+            "instructions": "Esta es una incursión privada. Comparte tu grupo de incursión con tus amigos usando el ícono de compartir en la esquina superior derecha."
+        },
+        "FRIEND": {
+            "instructions": "Se han enviado notificaciones a tus amigos en la app. Comparte tu grupo de incursión con otros usando el ícono de compartir en la esquina superior derecha."
+        },
+        "GLOBAL": {
+            "instructions": "¡Tu incursión global está disponible para cualquiera que busque unirse! Chequea tus solicitudes de amistad en el juego. Una vez que tengas jugadores suficientes, inicia el conteo de tiempo de la incursión"
+        }
+    },
+    "raidPartyUserStatus": {
+        "READY": {
+            "hostDescription": "¡Busca a {{name}}!"
+        },
+        "INTERESTED": {
+            "hostDescription": "Selecciona si estás local o remoto"
+        },
+        "REMOTE": {
+            "hostDescription": "Envía una solicitud de amistad a {{name}} en Pokémon Go"
+        },
+        "REMOTE_READY": {
+            "hostDescription": "Aguarda por la invitación a la incursión de {{name}} en Pokémon Go"
+        },
+        "DONE": {
+            "hostDescription": "Has abandonado el grupo"
+        }
+    },
+    "noGlobalRaidParty": {
+        "title": "No se han encontrado grupos de incursiones globales",
+        "description": "No hay incursiones disponibles actualmente. Crea tus propias incursiones para que otros se unan desde tu servidor Discord o la app",
+        "link": "Incursiones Actuales",
+        "linkTo": "RaidBosses"
+    },
+    "globalRaidList": {
+        "title": "Pokebattler Raid Network",
+        "subtitle": "¡Únete a Incursiones Remotas en cualquier parte del mundo! Para incursiones por Discord, serás agregado a la incursión y enviado directamente al canal Discord para coordinar."
+    },
+    "goCommand": "Vamos",
+    "raidNotStarted": "{{ownerName}} aún no ha iniciado la incursión",
+    "countdownTitle": "Hora de inicio de la incursión",
+    "countdownDone": "Vamos",
+    "goCommandInstruction": "¡Clickeando Vamos cerrará la incursión a jugadores adicionales y notificará a todos los jugadores que la incursión está comenzando! Asegúrate de haber aceptado todas las solicitudes de amistad. Una vez que clickeas Go, ¡no puedes regresar!",
+    "raidStarting": "La incursión está comenzando, ¡entra al juego!",
+    "raidStartingOwner": "¿Qué estás esperando? Ahora es tu responsabilidad iniciar la incursión, ¡tu incursión espera por ti! ¡Copia los nombres de los entrenadores e invítalos a la incursión en el juego!"
 }

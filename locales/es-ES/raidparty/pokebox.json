@@ -68,7 +68,7 @@
         "title": "No se encontraron Pokemon",
         "clearFilter": "Limpiar filtro de búsqueda",
         "description": "Pokebattler Raid Party requiere que agregues tus mejores Pokemon de forma de encontrar los mejores atacantes! Mientras más agregues, más precisas serán las sugerencias de los equipos de incursiones!",
-        "addPokemon": "Agrega Pokemon clickeando en el botón Agregar en la esquina inferior derecha."
+        "addPokemon": "El método más rápido de agregar Pokémon es clickeando el botón de más en la página de atacantes del jefe. Puedes también agregar Pokémon uno a uno o utilizando la funcionalidad de Importación masiva."
     },
     "bulkImport": {
         "title": "Importación Masiva de Pokemon",
@@ -96,5 +96,6 @@
         "selectAll": "Seleccionar todos",
         "clearSelection": "Limpiar selección",
         "deleteNPokemon": "Elimina {{count}} Pokemon"
-    }
+    },
+    "addPokemon": "Agregar Pokémon"
 }

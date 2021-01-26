@@ -28,7 +28,7 @@
     "attackMatchups": {
         "title": "Najłatwiejsi Przeciwnicy",
         "subtitle": "Ze względu na $t(common:properties.{{sort}})",
-        "text": "Poniższa analiza pokazuje wyniki przeciw najtrudniejszym {{defenderLevel} obrońcom dla $t(constants:pokemon.{{pokemon}}) poziomu {{attackerLevel}}. Ranking ten uwzględnia to, jak wszyscy atakujący radzą sobie z obrońcami pod względem $t(common:properties.{{sort}}). W skrócie, używaj $t(constants:pokemon.{{pokemon}}) przeciwko Pokemonom na szczycie tej listy!"
+        "text": "Poniższa analiza pokazuje wyniki przeciw najtrudniejszym {{defenderLevel}} obrońcom dla $t(constants:pokemon.{{pokemon}}) poziomu {{attackerLevel}}. Ranking ten uwzględnia to, jak wszyscy atakujący radzą sobie z obrońcami pod względem $t(common:properties.{{sort}}). W skrócie, używaj $t(constants:pokemon.{{pokemon}}) przeciwko Pokemonom na szczycie tej listy!"
     },
     "bestCounters": {
         "title": "Najlepsze Kontry",
