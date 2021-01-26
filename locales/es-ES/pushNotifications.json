@@ -1,7 +1,7 @@
 {
     "CREATE_PARTY": {
-        "title": "{{attackerName}} creó {{tier}} {{defender}} grupo de incursión",
-        "subtitle": "Grupo de incursión n. ° {{raidPartyId}}",
+        "title": "{{attackerName}} creó {{tier}} {{defender}}",
+        "subtitle": "Grupo de incursión #{{raidPartyId}}",
         "line1": "$t(pushNotifications:defaultBody.line1)",
         "line2": "$t(pushNotifications:defaultBody.line2)",
         "line3": "$t(pushNotifications:defaultBody.line3)",
