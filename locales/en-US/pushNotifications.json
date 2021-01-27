@@ -8,7 +8,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "ADD_USER": {
-    "title": "{{attackerName}} Joined",
+    "title": "{{attackerName}} Joined {{defender}} Raid",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -16,7 +16,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "REMOVE_USER": {
-    "title": "{{attackerName}} Left",
+    "title": "{{attackerName}} Left {{defender}} Raid",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -24,7 +24,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "UPDATE_USER": {
-    "title": "Raid Party Update",
+    "title": "{{defender}} Raid Party Update",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -32,7 +32,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "UPDATE_PARTY": {
-    "title": "Raid Party Update",
+    "title": "{{defender}} Raid Party Update",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -40,7 +40,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "RAID_STARTING": {
-    "title": "Raid Starting In {{timeUntilRaidSeconds}} Seconds",
+    "title": "{{defender}} Raid Starting In {{timeUntilRaidSeconds}} Seconds",
     "subtitle": "Look for the invite in game",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -63,10 +63,17 @@
     "line3": "",
     "line4": ""
   },
-
+  "RAID_DONE": {
+    "title": "{{defender}} Raid Complete",
+    "subtitle": "",
+    "line1": "Thanks for raiding with Pokebattler Raid Party",
+    "line2": "",
+    "line3": "",
+    "line4": ""
+  },
   "defaultBody": {
     "subtitle": "{{tier}} {{defender}} #{{raidPartyId}}",
-  	"line1": "{{numReadyAttackers}} of {{numAttackers}} players ready",
+    "line1": "{{numReadyAttackers}} of {{numAttackers}} players ready",
     "line2": "{{winPercent}}% Chance to Win",
     "line3": "{{powerPercent}}% Group Damage",
     "line4": "{{estimator}} Players Needed"
@@ -100,7 +107,7 @@
       "name": "{{botName}}",
       "icon_url": "{{botIcon}}"
     },
-    "appAuthor" : {
+    "appAuthor": {
       "name": "Pokebattler Raid Party App",
       "icon_url": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png"
     },
