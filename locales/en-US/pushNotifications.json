@@ -47,7 +47,23 @@
     "line3": "$t(pushNotifications:defaultBody.line3)",
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
-  
+  "RAID_STARTING_NOW": {
+    "title": "Raid Starting Now!",
+    "subtitle": "Look for the invite in game",
+    "line1": "",
+    "line2": "",
+    "line3": "",
+    "line4": ""
+  },
+  "RAID_INVITING_NOW": {
+    "title": "Send Raid Invites Now!",
+    "subtitle": "",
+    "line1": "First copy trainer names with the Copy Trainers Button in the Pokebattler Raid Party App",
+    "line2": "Then in Pokemon Go, join the raid, click invite friends, paste the trainer names",
+    "line3": "",
+    "line4": ""
+  },
+
   "defaultBody": {
     "subtitle": "{{tier}} {{defender}} #{{raidPartyId}}",
   	"line1": "{{numReadyAttackers}} of {{numAttackers}} players ready",
