@@ -33,6 +33,8 @@
         "title": "Raid Host",
         "description": "Send a friend invite to {{name}} in Pokemon Go",
         "hostInfo": "{{name}}",
+        "friendInviteSent": "Friend Invite Sent",
+        "confirmFriend": "Confirm friendship with {{name}}",
         "PRIVATE": {
             "instructions": "This is a private raid. Share your raid party with your friends using the share icon in the top right."
         },
