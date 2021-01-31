@@ -120,6 +120,7 @@
     },
     "goCommand": "Go",
     "raidStartingIn": "Raid Starting In",
+    "startRaidIn": "Start Raid In",
     "noTimeSpecified": "No time specified",
     "raidNotStarted": "{{ownerName}} has not started the raid yet",
     "countdownTitle": "Raid Start Time",
