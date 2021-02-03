@@ -75,28 +75,40 @@
             },
             "outro": {
                 "title": "A Luchar!",
-                "text": "Los resultados completos del combate seran mostrados. Sientete libre de salirte y probar otras combinaciones"
+                "text": "Los resultados completos del combate serán mostrados. Siéntete libre de salirte y probar otras combinaciones."
             },
-            "steps[0]": {
-                "label": "Escribe en la barra de busqueda",
-                "description": "Elige los atacantes y a los defensores que deseas enfrentar"
-            },
-            "steps[1]": {
-                "label": "Modo Básico",
-                "description": "Ingresa el PC, no te preocupes acerca de tus caracteristicas ocultas, nosotros lo averiguaremos por ti lo mejor que podamos."
-            },
-            "steps[2]": {
-                "label": "Modo Avanzado",
-                "description": "Ingresa el nivel exacto y caracteristicas ocultas de tu pokemon para la simulacion mas precisa posible"
-            },
-            "steps[3]": {
-                "label": "Elige tus movimientos",
-                "description": "Intenta con todas las combinaciones de movimientos rapidos y cargados"
-            },
-            "steps[4]": {
-                "label": "Elige tus estrategias",
-                "description": "Personaliza la forma que los pokemon atacan y defienden. Ve las definiciones en la seccion debajo"
-            }
+            "steps": [
+                {
+                    "label": "Escribe en la barra de busqueda"
+                },
+                {
+                    "description": "Elige los atacantes y a los defensores que deseas enfrentar"
+                },
+                {
+                    "label": "Modo Básico"
+                },
+                {
+                    "description": "Ingresa el PC, no te preocupes acerca de tus caracteristicas ocultas, nosotros lo averiguaremos por ti lo mejor que podamos."
+                },
+                {
+                    "label": "Modo Avanzado"
+                },
+                {
+                    "description": "Ingresa el nivel exacto y caracteristicas ocultas de tu pokemon para la simulacion mas precisa posible"
+                },
+                {
+                    "label": "Elige tus movimientos"
+                },
+                {
+                    "description": "Intenta con todas las combinaciones de movimientos rapidos y cargados"
+                },
+                {
+                    "label": "Elige tus estrategias"
+                },
+                {
+                    "description": "Personaliza la forma que los Pokémon atacan y defienden. Ve las definiciones en la sección a continuación."
+                }
+            ]
         },
         "rankings": {
             "title": "Clasificaciones",
@@ -106,26 +118,34 @@
             },
             "outro": {
                 "title": "Investiga!",
-                "text": "Las mejores combinaciones de movimientos para cada pokemon estan siendo mostradas. Dando click a un pokemon dara informacion detallada acerca de todas las combinaciones de movimientos"
+                "text": "Las mejores combinaciones de movimientos para cada Pokémon están siendo mostradas. Dando click a un Pokémon dará información detallada acerca de todas las combinaciones de movimientos."
             },
-            "steps[0]": {
-                "label": "Atacante/Defensor",
-                "description": "Elige si estas atacando o defendiendo. Atacante muestra los resultados contra todos los defensores posibles. Defensor muestra los resultados contra los 6 mejores atacantes posibles"
-            },
-            "steps[1]": {
-                "label": "Ordenar",
-                "description": "Elige el tipo de clasificacion que deseas (Ve Abajo)"
-            },
-            "steps[2]": {
-                "label": "Nivel",
-                "description": "Elige el nivel de el pokemon atacante y defensor"
-            },
-            "steps[3]": {
-                "description": "Elegir entre ver cada combinacion de movimientos o solo ver la mejor por pokemon"
-            },
-            "steps[4]": {
-                "label": "Elige tus estrategias"
-            }
+            "steps": [
+                {
+                    "label": "Atacante/Defensor"
+                },
+                {
+                    "description": "Elige si estas atacando o defendiendo. Atacante muestra los resultados contra todos los defensores posibles. Defensor muestra los resultados contra los 6 mejores atacantes posibles"
+                },
+                {
+                    "label": "Ordenar"
+                },
+                {
+                    "description": "Elige el tipo de clasificacion que deseas (Ve Abajo)"
+                },
+                {
+                    "label": "Nivel"
+                },
+                {
+                    "description": "Elige el nivel de el pokemon atacante y defensor"
+                },
+                {
+                    "description": "Elegir entre ver cada combinacion de movimientos o solo ver la mejor por pokemon"
+                },
+                {
+                    "label": "Elige tus estrategias"
+                }
+            ]
         }
     }
 }

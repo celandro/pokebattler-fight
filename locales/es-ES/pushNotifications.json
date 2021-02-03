@@ -90,3 +90,5 @@
         "line4": "$t(pushNotifications:defaultBody.line4)"
     }
 }
+
+}
