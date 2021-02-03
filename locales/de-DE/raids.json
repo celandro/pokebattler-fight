@@ -122,7 +122,7 @@
         },
         "meta": {
             "description": "Die besten Pokemon Go Level 35 allgemeinen Raid Konter gegen {{defender}} sind {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Schau dir deine eigenen Ergebnisse an!",
-            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+            "image": "{{infographicShareURL}}"
         }
     },
     "pokebox": {

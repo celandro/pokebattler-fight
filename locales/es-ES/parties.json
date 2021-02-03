@@ -6,6 +6,39 @@
     },
     "add": {
         "title": "Grupo de combate",
-        "description": "Crea tu grupo de combate"
+        "description": "Crea tu grupo de combate",
+        "meta": {
+            "description": "Crea tu equipo de batalla"
+        },
+        "modify": "Agrega Pokémon desde tu Pokebox"
+    },
+    "select": {
+        "label": "Elige tu $t(common:battleParty)",
+        "emptyName": "$t(common:battleParty) {{value}}",
+        "noneFound": "No se encontraron $t(common:battleParties) para esta liga",
+        "create": "Crear $t(common:battleParty)",
+        "edit": "Editar",
+        "title": "Elige un equipo de batalla",
+        "open": "Elige $t(common:battleParty)",
+        "close": "Seleccionar"
+    },
+    "meta": {
+        "description": "Almacena tu equipo de batalla de Pokémon Go"
+    },
+    "full": {
+        "title": "Equipo completo",
+        "description": "Has alcanzado el límite de tamaño de equipo para esta liga"
+    },
+    "empty": {
+        "title": "Equipo vacío",
+        "description": "No has agregado ningún Pokémon desde tu Pokebox a este equipo"
+    },
+    "edit": {
+        "title": "Editar equipo de batalla",
+        "meta": {
+            "description": "Editar tu equipo de batalla"
+        },
+        "description": "Actualiza el nombre de tu equipo de batalla a continuación en el cuadro de texto. También puedes cambiar la liga con el cuadro de selección. Luego, cambia los miembros del equipo clickeando el botón 'Cambia los miembros de tu equipo de batalla. Finalmente, ¡modifica las características de cada Pokémon clickeando en ellos!",
+        "modify": "Cambia los miembros de tu equipo de batalla"
     }
 }

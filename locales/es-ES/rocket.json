@@ -1,6 +1,6 @@
 {
     "breakingNews": {
-        "title": "Último minuto!"
+        "title": "Último minuto"
     },
     "tierList": {
         "RAID_LEVEL_6_LEGACY": {
@@ -21,7 +21,7 @@
             "chooseMovesetLabel": "Elegir movimientos"
         },
         "hardestMovesets": {
-            "subtitle": "Para {{Pokémon}} por {{ordenar}}"
+            "subtitle": "Para {{pokemon}} por {{sort}}"
         },
         "analysis": {
             "title": "Acerca de este análisis",
@@ -29,6 +29,12 @@
                 "byLevel": "Atacantes nivel {{attackerLevel}}",
                 "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
             }
+        },
+        "title": "Contrincantes para {{defender}}",
+        "patreon": {
+            "description": "Resultados más exactos para combinaciones de ataques desconocidas provistas gracias al apoyo de los suscriptores. Los suscriptores reciben espacio de Pokebox adicional, mayor exactitud de resultados para todas las combinaciones y más.",
+            "link": "Mira todos los beneficios que obtienes por registrarte",
+            "thanks": "¡Gracias por tu apoyo!"
         }
     }
 }

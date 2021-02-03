@@ -46,7 +46,7 @@
     "result": {
         "title": "{{attacker}} vs {{defender}} 에 대한 레이드 조언 상세",
         "meta": {
-            "description": "{{attacker}} vs. {defender}} 에 대한 포케몬고 레이드 조언 상세는 브레이크포인트와 별의모래 효율을 보여줍니다.",
+            "description": "{{attacker}} vs. {{defender}} 에 대한 포케몬고 레이드 조언 상세는 브레이크포인트와 별의모래 효율을 보여줍니다.",
             "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
         },
         "subTitle": "{{attacker}} vs. {{defender}}",

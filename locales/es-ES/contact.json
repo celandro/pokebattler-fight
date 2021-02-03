@@ -1,2 +1,29 @@
 {
+    "facebook": "Conéctate en Facebook",
+    "button": {
+        "twitter": {
+            "title": "Envíame un tweet",
+            "subtitle": "Noticias y mensajes de @Pokebattler_com"
+        },
+        "youtube": {
+            "subtitle": "Guías de incursiones y videotutoriales de Pokebattler",
+            "title": "Mira nuestros vídeos"
+        },
+        "reddit": {
+            "subtitle": "Noticias y Anuncios en /r/pokebattler",
+            "title": "Discute en Reddit"
+        },
+        "facebook": {
+            "title": "Facebook Connect",
+            "subtitle": "Coméntale a tus amigos sobre nosotros"
+        }
+    },
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg",
+        "description": "Envíanos un mensaje o síguenos en redes sociales para obtener las últimas actualizaciones en el Simulador #1 y más exacto para Pokémon Go"
+    },
+    "email": "Envíame un mensaje privado a",
+    "title": "Contáctanos",
+    "contactInfo": "Información de contacto",
+    "feedbackText": "¡En Pokebattler amamos recibir tus sugerencias! Sea un pedido de funcionalidad o un reporte de bug, o solo para agradecer, sinceramente apreciamos a nuestros usuarios y hacemos lo mejor para mantener a este como el único sitio que necesites usar para combate de gimnasios e incursiones en Pokémon Go."
 }

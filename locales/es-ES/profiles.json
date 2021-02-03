@@ -1,3 +1,28 @@
 {
-
+    "profile": {
+        "meta": {
+            "image": "https://static.pokebattler.com/images/og_home.png",
+            "description": "Ver el perfil público del usuario #{{profileId}}. Ve qué Pokémon {{name}} está usando"
+        },
+        "title": "Perfil público del usuario #{{profileId}}",
+        "description": "Los perfiles de Pokebattler ahora se pueden compartir. Por ahora, todo lo que puedes hacer es mostrarle a tus amigos los Pokémon que tienes, ¡pero hay mucho más en camino! "
+    },
+    "search": {
+        "description": "¡Encuentra a tus amigos! Puedes buscarlos por nombre de entrenador o por ID de usuario Pokebattler. ¡Esta función está diseñada para permitirte compartir rápidamente los contenidos de tu Pokebox con tus amigos!",
+        "input": {
+            "title": "Encuentra a tu amigo",
+            "subtitle": "El ID de usuario puede verse en la esquina superior derecha",
+            "label": "ID de usuario Pokebattler o Nombre de entrenador"
+        },
+        "title": "Perfiles Públicos de Pokebattler",
+        "meta": {
+            "description": "Ver el perfil público de otros usuarios de Pokebattler.",
+            "image": "https://static.pokebattler.com/images/og_home.png"
+        },
+        "results": {
+            "subtitle": "Página {{currentPage}}/{{totalPages}}",
+            "empty": "No se encontraron entrenadores que coincidan con la búsqueda",
+            "title": "{{totalElements}} entrenadores encontrados"
+        }
+    }
 }

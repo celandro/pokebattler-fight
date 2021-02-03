@@ -255,9 +255,9 @@
         "title": "{{title}}",
         "intro": "The Silph Arena Season 3 cup for November featuring Pokemon that are Poison, Ghost, Bug, Grass or Water types except for Tropius, Abomasnow and Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/."
      },
-      "COMBAT_LEAGUE_SILPH_NIGHTFALL_CUP": {
+      "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
         "title": "{{title}}",
-        "intro": "The Silph Arena Season 3 cup for December featuring Pokemon that are Ice, Fighting, Normal, Ground or Poison types except for Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/."
+        "intro": "The Silph Arena Season 3 cup for February requiring all Pokemon be of different types, and banning the strongest Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/."
       },
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
         "title": "{{title}}",

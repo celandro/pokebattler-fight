@@ -74,7 +74,7 @@
         },
         "RAID_LEVEL_6": {
             "title": "Nivel 6",
-            "subtitle": "Incursión legendaria con PS adicionales.",
+            "subtitle": "Incursión legendaria con PS adicionales",
             "intro": "Estos jefes de incursión tienen mayor PS comparados con las incursiones de nivel 5. Se desconoce si este es un cambio permanente para todas las incursiones de nivel 5. Usualmente son completadas de a 6 a 10 jugadores de nivel 30 o más. Avezados entrenadores han podido superar estas incursiones con 5 o menos jugadores."
         },
         "RAID_LEVEL_6_LEGACY": {
@@ -85,12 +85,32 @@
         "RAID_LEVEL_4_5": {
             "title": "Nivel 4.5",
             "subtitle": "Incursión Legendaria Sencilla",
-            "intro": "Incursiones de Nivel 4.5 son versiones más fáciles de jefes Legendarios y están supuestas para grupos de 2-4 jugadores de niveles 30-40. Son usualmente vistas durante eventos de corta duración-"
+            "intro": "Las incursiones de Nivel 4.5 son versiones más fáciles de jefes Legendarios y están dirigidas a grupos de 2-4 jugadores de niveles 30-40. Son usualmente vistas durante eventos de corta duración."
         },
         "RAID_LEVEL_4_5_LEGACY": {
             "title": "Antigua Nivel 4.5",
             "subtitle": "Incursión Legendaria Sencilla",
             "intro": "Estos son jefes de incursiones legendarias sencillas previamente vistos."
+        },
+        "RAID_LEVEL_4_5_FUTURE": {
+            "title": "Futura Nivel 4.5",
+            "subtitle": "Incursión Legendaria Sencilla",
+            "intro": "Estos son jefes de incursión legendarios sencillos que aún no están en el juego. Sus características y ataques están aún sujetos a cambiar"
+        },
+        "RAID_LEVEL_MEGA": {
+            "title": "Nivel Mega",
+            "subtitle": "Megaincursión",
+            "intro": "Las megaincursiones actuales son la mejor forma de obtener megaenergía para dar poder a los Pokémon más poderosos! Generalmente se pueden completar con grupos de 6-10 jugadores de nivel 30-40. Algunos expertos intrépidos han hecho algunas de estas incursiones con tan solo 2-5 jugadores."
+        },
+        "RAID_LEVEL_MEGA_LEGACY": {
+            "title": "Nivel Mega Descontinuadas",
+            "subtitle": "Megaincursión Descontinuada",
+            "intro": "Estas megaincursiones ya no están disponibles."
+        },
+        "RAID_LEVEL_MEGA_FUTURE": {
+            "title": "Futura Nivel Mega",
+            "subtitle": "Futura Megaincursión",
+            "intro": "Estas megaincursiones no están en el juego aún."
         }
     },
     "custom": {
@@ -100,7 +120,7 @@
         "attackersLabel": "Atacantes"
     },
     "results": {
-        "title": "Guía para incursiones",
+        "title": "Contrincantes para {{defender}}",
         "calculating": "Calculando resultados de incursión",
         "counters": {
             "title": "Rivales óptimos",
@@ -112,7 +132,7 @@
         },
         "hardestMovesets": {
             "title": "Incursiones más difíciles",
-            "subtitle": "Para {{Pokémon}} por {{ordenar}}",
+            "subtitle": "Para {{pokemon}} por {{sort}}",
             "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
             "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor!"
         },
@@ -124,7 +144,19 @@
                 "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
             }
         },
-        "description": "Bienvenido a la guía de incursión de Pokebattler para {{pokemon}}. Puedes encontrar los mejores oponentes basados en los movimientos de cada jefe. Esta guía es personalizable en muchas maneras diferentes. Puedes seleccionar el nivel  de ataque y la estrategia de ataque que le gustaría usar así como también varias opciones para ordenar."
+        "description": "Bienvenido a la guía de incursión de Pokebattler para {{pokemon}}. Puedes encontrar los mejores oponentes basados en los movimientos de cada jefe. Esta guía es personalizable en muchas maneras diferentes. Puedes seleccionar el nivel de ataque y la estrategia de ataque que le gustaría usar así como también varias opciones para ordenar. ",
+        "meta": {
+            "description": "Los mejores contrincantes para {{defender}} en Pokémon Go son {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. ¡Autentícate para ver tus resultados personalizados!",
+            "image": "{{infographicShareURL}}"
+        },
+        "patreon": {
+            "description": "Resultados más exactos para combinaciones de ataques desconocidas provistas gracias al apoyo de los suscriptores. Los suscriptores reciben espacio de Pokebox adicional, mayor exactitud de resultados para todas las combinaciones y más.",
+            "link": "Mira todos los beneficios que obtienes por registrarte",
+            "thanks": "¡Gracias por tu apoyo!"
+        },
+        "related": {
+            "title": "Contrincantes Relacionados"
+        }
     },
     "pokebox": {
         "login": "La guía de incursiones de Pokebattler puede ser personalizada solo para incluir Pokémon que posees usando tu propia caja de Pokémon. Ingresa, añade tus mejores Pokémon, a luego puedes alternar entre los mejores Pokémon que hay en tu colección y los mejores oponentes en general para planear tus peleas de incursión.",
@@ -147,13 +179,14 @@
             "close": "Vencer a {{pokemon}} debería tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla muy cercana. Trae otro entrenador si puedes para estar seguro.",
             "almost": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Si tienes mucha suerte, podrías lograrlo con 1 entrenador menos.",
             "normal": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Asegúrate que tu grupo esté preparado antes de la batalla.",
-            "difficult": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla difícil, asegúrate que todos usen sus mejores Pokémon."
+            "difficult": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla difícil, asegúrate que todos usen sus mejores Pokémon.",
+            "trivial": "Derrotar a {{pokemon}} debería tomar {{numPeople}} entenadores con Pokémon de este poder. Esta pelea terminará antes de comenzar. Es tan sencillo que puedes utilizar las recomendaciones del juego y ganar."
         }
     },
     "helpLink": "Ve el video tutorial sobre incursiones",
     "breakingNews": {
-        "title": "Último minuto!",
-        "subtitle": "Incursiones de moda en Pokémon GO.",
+        "title": "Último minuto",
+        "subtitle": "Incursiones de moda en Pokémon Go",
         "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}})"
     },
     "silph": {
@@ -165,13 +198,63 @@
         "description": "Encuentra contrincantes para jefes de incursión en Pokemon Go considerando Clima, Amistad e incluso tu propia Pokebox. Obtén las 30 mejores contrincantes con la guía de incursión personalizable #1 del mundo."
     },
     "articles": {
-        "title": "Últimas noticias de incursiones",
+        "title": "¡Últimas noticias de incursiones!",
         "subtitle": "Artículos y vídeos sobre incursiones de Pokemon Go de jugadores top e investigadores"
     },
     "guide": {
         "subtitle": "Como derrotar a $t(constants:pokemon.{{pokemonId}}) en Pokemon Go",
         "infographicDownload": "Descargar $t(constants:pokemon.{{pokemonId}}) infografía",
         "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Guía de Contrincantes de Incursión",
-        "article": "\nLee toda la Guía de Incursión de $t(constants:pokemon.{{pokemonId}}) Abajo"
+        "article": "Lee toda la Guía de Incursión de $t(constants:pokemon.{{pokemonId}}) a continuación"
+    },
+    "battle": {
+        "resultLink": "Revisa este resultado como grupo de batalla"
+    },
+    "raidParty": {
+        "title": "Pokebattler Raid Party",
+        "meta": {
+            "description": "Pokebattler Raid Party v1.0 está aquí! Diseñada para ayudarte a completar incursiones con confianza y esfuerzo mínimo para derrotar estos jefes de incursión al primer intento. La app Pokebattler Raid Party fue creada por Pokebattler.com para ayudarte a organizar y promocionar incursiones en Pokémon Go proveyendo de funcionalidades importantes que no lo están en el juego.",
+            "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+        },
+        "result": {
+            "title": "Pokebattler Raid Party #{{raidPartyId}}",
+            "info": "Pokebattler Raid Party está disponible actualmente solo como una app. ¡La versión web estará disponible en breve! Para ver este equipo de incursión, simplemente descarga la app, autentícate y recarga esta página.",
+            "deepLink": "Si tienes la app instalada, esta página debería abrir la app automáticamente. En iOS, quizás debas abrir este enlace en Safari y recorrer la página para que aparezca abrir en Pokebattler Raid Party.",
+            "deepLink2": "Si estás encontrando problemas, puedes unirte manualmente al grupo de la incursión #{{raidPartyId}}."
+        },
+        "download": {
+            "installation": "Descarga la app Pokebattler Raid Party a tu dispositivo",
+            "android": {
+                "title": "Android",
+                "subtitle": "Descargar desde Play Store"
+            },
+            "ios": {
+                "title": "iOS",
+                "subtitle": "Descargar desde la Apple App Store"
+            }
+        },
+        "screenshots": {
+            "title": "Prepárate para incursiones remotas con amigos",
+            "description": "A continuación verás algunas de las funciones de la app Pokebattler Raid party. Funcionalidad adicional está siendo agregada rápidamente, descarga la app para ver las funciones más nuevas"
+        }
+    },
+    "raidPartyResult": {
+        "title": "Pokebattler Raid Party #{{raidPartyId}}",
+        "meta": {
+            "description": "Únete al grupo de Pokebattler Raid Party #{{raidPartyId}} para ver si tu grupo puede ganar. ¡Descarga la app y realiza incursiones con confianza con solo un click!",
+            "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+        },
+        "info": "Pokebattler Raid Party actualmente solo está disponible como app. ¡La versión web estará disponible muy pronto! Para ver este grupo de incursión simplemente descarga la app, autentícate y recarga esta página.",
+        "deepLink": "Si tienes la app instalada, esta página debería abrirla automáticamente. En iOS, quizás debas abrir este enlace en Safari y recorrer la página para que aparezca abrir en Pokebattler Raid Party.",
+        "deepLink2": "Si estás teniendo problemas, puedes unirte manualmente al grupo de la incursión #{{raidPartyId}}.",
+        "deepLink3": "Usuarios Discord: necesitarán cambiar su configuración Discord para el Navegador para abrir en Safari o Chrome",
+        "customLink": "Abrir en la app"
+    },
+    "raidAttackers": {
+        "title": "Contrincantes de incursiones - {{type}}",
+        "meta": {
+            "description": "¡Los mejores contrincantes {{type}} de incursiones en Pokémon Go basados en el rendimiento contra todas las posibles incursiones! Los puntos son asignados basados en rendimiento relativo ponderado y por nivel de jefes de incursión"
+        },
+        "details": "Los contrincantes son agregados usando un algoritmo de calificación que da puntos basados en rendimiento, a nivel 40 sin bonificación de amistad ni de clima y ordenados por estimador. 5 puntos son otorgados para mostrarse en primer lugar, 4 puntos para el segundo lugar, 3 puntos para un cuarto lugar, 2 puntos para un octavo lugar y 1 punto para un dieciseisavo lugar. Los puntos son ponderados por nivel (10x para nivel 5 / mega, 4x para nivel 3 y 1x para nivel 1)"
     }
 }

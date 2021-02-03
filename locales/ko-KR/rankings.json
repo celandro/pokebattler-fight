@@ -39,7 +39,7 @@
         },
         "descriptions": {
             "title": "이 랭킹에 대해서",
-            "text": "이 {{type}}랭킹은 {{levels.attacker}}레벨의 공격자와 {{level.defender}}레벨의 방어자 전투의 시뮬레이션에 기초합니다. 랭킹 시뮬레이션은 {{strategies.attack}} 공격 전략과 {{strategies.dodge}} 회피전략을 사용하고 $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 시뮬레이션 타입에 기초합니다. $t(common:simulation, {'count': {{numSims}}}번의 시뮬레이션이 행해졌습니다. {{details}}.",
+            "text": "이 {{type}}랭킹은 {{levels.attacker}}레벨의 공격자와 {{levels.defender}}레벨의 방어자 전투의 시뮬레이션에 기초합니다. 랭킹 시뮬레이션은 {{strategies.attack}} 공격 전략과 {{strategies.dodge}} 회피전략을 사용하고 $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 시뮬레이션 타입에 기초합니다. $t(common:simulation, {'count': {{numSims}}})번의 시뮬레이션이 행해졌습니다. {{details}}.",
             "textPokeboxAttackers": "이 {{type}} 랭킹은 {{userId}} 트레이너의 공격자와 {{levels.defender}} 레벨의 방어자간의 전투 시뮬레이션에 기초합니다. 랭킹 시뮬레이션은 {{strategies.attack}} 공격 전략과 {{strategies.dodge}} 회피전략, $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 시뮬레이션 타입에 기초해서 실행되었습니다. $t(common:simulation, {'count': {{numSims}}})번의 시뮬레이션이 행해졌습니다.  {{details}}.",
             "textPokeboxDefenders": "이 {{type}} 랭킹은 {{levels.attacker}}레벨의 공격자와 {{userId}} 트레이너의 방어자간 전투 시뮬레이션에 기초합니다. 이 랭킹 시뮬레이션은 {{strategies.attack}} 공격전략과 {{strategies.dodge}} 회피전략, $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 시뮬레이션 타입에 기초합니다. $t(common:simulation, {'count': {{numSims}}})번의 시뮬레이션이 행해졌습니다. {{details}}.",
             "help1": "여러분은 어떤 {{type}}을 눌러서 다른 기술조합에 대한 결과를 볼수 있고 우측 상단의 우측 두번째 그룹아이콘을 눌러서 그룹되지 않은 결과를 볼 수 있습니다. 우측 상단의 정렬아이콘을 누르고 원하는 정렬조건을 선택하면 정렬 순서가 바뀝니다.",

@@ -168,7 +168,7 @@
         "subtitle": "Artigos e vídeos sobre Raids em Pokemon Go Raids, principais jogadores e pesquisadores"
     },
     "guide": {
-        "title": "Pokebattler $t(constantes:pokemon.{{PokemonId}}) Guias de counter de raides",
+        "title": "Pokebattler $t(constants:pokemon.{{PokemonId}}) Guias de counter de raides",
         "subtitle": "Como derrotar $t(constants:pokemon.{{pokemonId}}) no Pokemon Go",
         "infographicDownload": "Baixar $t(constants:pokemon.{{pokemonId}}) Infográfico"
     },
