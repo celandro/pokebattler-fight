@@ -34,11 +34,6 @@
             "subtitle": "Common Shadow Battles",
             "intro": "Our best guess of future Tier 1 Team Rocket Invasions"
         },
-        "RAID_LEVEL_1_LEGACY": {
-            "title": "Legacy Rocket Tier 1",
-            "subtitle": "Common Shadow Battles",
-            "intro": "Past Tier 1 Team Rocket Invasions may return again"
-        },
         "RAID_LEVEL_2": {
             "title": "Rocket Tier 2",
             "subtitle": "Rare Shadow Battles",
@@ -48,11 +43,6 @@
             "title": "Future Rocket Tier 2",
             "subtitle": "Rare Shadow Battles",
             "intro": "Our best guess of future Tier 2 Team Rocket Invasions"
-        },
-        "RAID_LEVEL_2_LEGACY": {
-            "title": "Legacy Rocket Tier 2",
-            "subtitle": "Common Shadow Battles",
-            "intro": "Past Tier 2 Team Rocket Invasions may return again"
         },
         "RAID_LEVEL_3": {
             "title": "Rocket Tier 3",
