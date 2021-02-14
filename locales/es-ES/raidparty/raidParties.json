@@ -129,5 +129,10 @@
     "countdownDone": "Vamos",
     "goCommandInstruction": "¡Clickeando Vamos cerrará la incursión a jugadores adicionales y notificará a todos los jugadores que la incursión está comenzando! Asegúrate de haber aceptado todas las solicitudes de amistad. Una vez que clickeas Go, ¡no puedes regresar!",
     "raidStarting": "La incursión está comenzando, ¡entra al juego!",
-    "raidStartingOwner": "¿Qué estás esperando? Ahora es tu responsabilidad iniciar la incursión, ¡tu incursión espera por ti! ¡Copia los nombres de los entrenadores e invítalos a la incursión en el juego!"
+    "raidStartingOwner": "¿Qué estás esperando? Ahora es tu responsabilidad iniciar la incursión, ¡tu incursión espera por ti! ¡Copia los nombres de los entrenadores e invítalos a la incursión en el juego!",
+    "clipboard": {
+        "friendCodeCopied": "¡Código de amigo de {{ownerName}} copiado! ¡Pégalo en el juego para enviar una invitación de amistad al anfitrión!",
+        "attackersCopied": "¡Contrincantes sugeridos copiados! ¡Pégalos en la búsqueda de tu equipo de batalla en el juego!",
+        "partyTrainersCopied": "¡Los nombres de los entrenadores listos para la incursión fueron copiados! ¡Pega el texto en tu juego e invítalos a tu incursión!"
+    }
 }
