@@ -17,6 +17,23 @@
             "beConsiderate":"Please be considerate of the servers you are joining and be on your best behavior! Abusive players, disorderly conduct and players who do not coordinate with the raid will be permanently banned from the raid network."
 
         },
+        "raidPlayer": {
+            "title": "Pokebattler Raid Party App Raids",
+            "subtitle": "Joining a Raid",
+            "description": "There are two types of raids you can join in the Pokebattler Raid Network",
+            "description2": "Pokebattler raids are hosted in this app and supports a guided raid flow. Discord Raids are hosted inside partner Discord communities and supports chat.",
+            "appRaid": "Pokebattler Raids",
+            "appRaid1": "Upon joining a Pokebattler Raid there are simple steps to follow",
+            "appRaid1Step1": "Select if you are local or remote.",
+            "appRaid1Step2": "If remote, the host's trainer code is automatically copied for you. Enter Pokemon Go, add a friend and paste the code",
+            "appRaid1Step3": "Return to the Pokebattler Raid Party app and click Friend Invite Sent",
+            "appRaid2": "You are now ready to raid! When the host starts the raid, you will receive a push notification and a countdown timer will appear",
+            "discordRaid": "Discord Raids",
+            "discordRaid1": "Pokebattler Raid Network supports both PokeNav bot and Nexus bot.",
+            "discordRaid2": "When you join a Discord raid, Pokebattler will automatically send you into the raid channel and add you to the discord raid",
+            "discordRaid3": "Communicate inside Discord with the raid members!",
+            "discordRaid4": "Discord Raids require Discord app to be installed on your phone. Instructions for using the bots can be found at their websites"
+        },
         "raidHost": {
             "title": "Pokebattler Raid Party App Raids",
             "subtitle": "Hosting a Raid",
@@ -180,6 +197,7 @@
 
     },
     "clipboard": {
+        "copyAttackers": "Copy Attackers",
         "friendCodeCopied": "Copied {{ownerName}}'s friend code! Paste it on the game to send a friend invite to the host!",
         "attackersCopied": "Copied your suggested attackers! Paste them on your in-game battle party search!",
         "partyTrainersCopied": "Copied the trainer names ready for the raid! Paste the text on your game and invite them to your raid!"
