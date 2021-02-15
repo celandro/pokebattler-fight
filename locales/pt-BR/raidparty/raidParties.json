@@ -1,2 +1,131 @@
 {
+    "title": "Grupos de Reide",
+    "result": {
+        "title": "#{{id}} {{defender}}"
+    },
+    "raidPartyCard": {
+        "title": "Grupo de {{ownerName}}",
+        "id": "#{{id}}",
+        "createdAt": "Criado em {{createdAt}}.",
+        "globalTime": "{{globalTime}}"
+    },
+    "raidPartyPlayer": {
+        "title": "{{name}}",
+        "id": "#{{id}}"
+    },
+    "raidPartyActions": {
+        "errors": {
+            "createRaidPartyGeneral": "O grupo de reide não pode ser criado para {{raidPartyPokemon}}",
+            "updateRaidPartyGeneral": "O grupo de reide não pode ser atualizado para {{raidPartyPokemon}}",
+            "fetchRaidPartyGeneral": "O grupo de reide não pode ser encontrado para {{raidPartyPokemon}}",
+            "getRaidResultsGeneral": "Os resultados da reide do grupo {{raidPartyId}} não puderam ser recuperados",
+            "removeUserFromRaidPartyGeneral": "Você não saiu do grupo #{{raidPartyId}}",
+            "addUserToRaidPartyGeneral": "Você não entrou no grupo #{{raidPartyId}}",
+            "getUserRaidPartiesGeneral": "Impossível encontrar grupos de reide",
+            "addUserToRaidPartyGone": "O grupo de rede #{{raidPartyId}} não existe mais",
+            "addUserToRaidPartyFull": "O grupo de reide #{{raidPartyId}} está cheio"
+        }
+    },
+    "share": {
+        "title": "{{name}} #{{id}}",
+        "message": "Participe do Grupo de Reide #{{id}} $t(raids:tierList.{{tier}}.title)$t(constants:pokemon.{{defender}})",
+        "friendMessage": "{{friendCode}} (Copie e Cole) - Participe do Grupo de Reide #{{id}} $t(raids:tierList.{{tier}}.title)$t(constants:pokemon.{{defender}})",
+        "error": "Erro ao compartilhar grupo de reide"
+    },
+    "noRaidParty": {
+        "title": "Nenhum Grupo de Reide Encontrado",
+        "description": "Os grupos de reide Pokebattler trazem uma maneira rápida e fácil de saber se você vai derrotar um chefe de reide com seus amigos. Você pode criar um grupo selecionando o botão de mais azul ou nos counters de reide tocando em uma reide e depois tocando em \"Entrar no Grupo de Reide\"",
+        "link": "Reides Atuais",
+        "linkTo": "Chefes de Reide"
+    },
+    "noFriendRaidParty": {
+        "title": "Nenhum Grupo de Reide de Amigo Encontrado",
+        "description": "Adicione seus amigos ao Pokebattler Raid Party para saber quando seus amigos estão jogando e rapidamente junte-se a eles. Os amigos podem ser adicionados na lista de amigos ou nos resultados do grupo de reide.",
+        "link": "Lista de Amigos",
+        "linkTo": "Amigos"
+    },
+    "refresh": "Atualizar",
+    "placeholder": "Insira chefe personalizado para simular",
+    "discord": {
+        "joinServer": "Entrar no Servidor",
+        "privateServer": "Servidor Privado",
+        "joinChat": "Entrar no Chat",
+        "oneClickJoin": "Entrar Automaticamente",
+        "joinToServerInfo": "Esta reide exige que você entre no Discord. Entre no servidor, siga as mensagens de boas-vindas e entre na reide através dos ícones fornecidos pelo bot",
+        "coordinateInChannel": "Esta reide é coordenada pelo Discord. Por favor, use o canal para se comunicar. Está tendo problemas? Certifique-se de que sua conta do Discord é a mesma que você vinculou à sua conta Pokebattler."
+    },
+    "raidStartingIn": "A Reide Começará em",
+    "noTimeSpecified": "Nenhum horário determinado",
+    "startingTime": {
+        "default": "Selecione o Horário de Início",
+        "30": "30 segundos",
+        "120": "2 minutos",
+        "300": "5 minutos",
+        "15": "15 segundos"
+    },
+    "helpModal": {
+        "raidNetwork": {
+            "title": "Reides do Pokebattler",
+            "subtitle": "Participe de Reides Remotas no Discord",
+            "description": "Participar de reides na rede Pokebattler é rápido e fácil! Basta entrar na reide e ela o unirá temporariamente ao servidor Discord, o adicionará a reide e o enviará ao canal do Discord para comunicação com o criador da sala. Você será automaticamente removido do servidor após algum tempo pelo próprio Discord. Sua vaga na reide será salva por um curto período de tempo até que você escolha entrar temporariamente no servidor do Discord ",
+            "description2": "Para usar a rede, você precisará inserir o nome do treinador e o código do amigo. Esses dados são compartilhados com os bots do Discord para permitir a coordenação da reide.",
+            "description3": "As reides no Discord são criadas pelos bots Pokenav ou Nexus e são controlados pelos proprietários do servidor. Essas reides globais são enviadas à rede após um pequeno atraso, permitindo que os usuários locais no servidor se conectem primeiro. Você pode entrar quando o contador regressivo chegar a 0 ou o botão ⏩ aparecer.",
+            "description4": "Os assinantes da Pokebattler atualmente têm uma pequena vantagem para ingressar em reides. Os benefícios exatos para assinantes ainda não foram finalizados e estão sujeitos a alterações sem aviso prévio",
+            "joinDescription": "O grupo de reide dentro deste aplicativo estará disponível em breve, mas por enquanto você pode criar reides em nosso Discord usando o comando `$ rr boss`",
+            "joinButton": "Entrar no Discord do Pokebattler Raid Party",
+            "beConsiderate": "Por favor, tenha consideração com os servidores nos quais você está entrando e tenha o melhor comportamento possível! Jogadores abusivos, conduta desordeira e jogadores que não coordenam com a reide serão banidos permanentemente."
+        }
+    },
+    "raidPartySummaryCard": {
+        "title": "{{tier}} - {{defender}}",
+        "subtitle": "{{ownerName}} - #{{id}}"
+    },
+    "raidPartyHost": {
+        "title": "Dono da Reide",
+        "description": "Envie um pedido de amizade para {{name}} em Pokémon Go",
+        "hostInfo": "{{name}}",
+        "PRIVATE": {
+            "instructions": "Esta é uma reide privada. Compartilhe o grupo de sua reide usando o ícone de compartilhamento no canto superior direito."
+        },
+        "FRIEND": {
+            "instructions": "As notificações foram enviadas para seus amigos no aplicativo. Compartilhe seu grupo de reide com outras pessoas usando o ícone de compartilhamento no canto superior direito."
+        },
+        "GLOBAL": {
+            "instructions": "Sua reide global está disponível para qualquer pessoa participar! Procure pedidos de amizade no jogo. Assim que tiver jogadores suficientes, comece a contagem regressiva"
+        }
+    },
+    "raidPartyUserStatus": {
+        "READY": {
+            "hostDescription": "Procure por {{name}}!"
+        },
+        "INTERESTED": {
+            "hostDescription": "Escolha se você é local ou remoto"
+        },
+        "REMOTE": {
+            "hostDescription": "Envie um pedido de amizade para {{name}} em Pokémon Go"
+        },
+        "REMOTE_READY": {
+            "hostDescription": "Aguarde o convite para a reide de {{name}} em Pokémon Go"
+        },
+        "DONE": {
+            "hostDescription": "Você saiu do grupo"
+        }
+    },
+    "noGlobalRaidParty": {
+        "title": "Nenhum Grupo de Reide Global Encontrado",
+        "description": "Nenhuma reide está disponível no momento. Crie sua própria para que outras pessoas participem de seu servidor Discord ou no aplicativo",
+        "link": "Reides Atuais",
+        "linkTo": "Chefes de Reide"
+    },
+    "globalRaidList": {
+        "title": "Rede Pokebattler Raid",
+        "subtitle": "Junte-se a reides remotas de todo o mundo! Para reides no Discord, você será adicionado ao grupo e direcionado para o canal do Discord para coordenar."
+    },
+    "goCommand": "Ir",
+    "raidNotStarted": "{{ownerName}} ainda não iniciou a reide",
+    "countdownTitle": "Horário de Início da Reide",
+    "countdownDone": "Ir",
+    "goCommandInstruction": "Tocar em IR encerrará a reide para jogadores adicionais e notificará todos os jogadores de que a reide está começando! Certifique-se de ter aceitado todos os convites de amigos. Depois de tocar em IR, você não pode mais voltar!",
+    "raidStarting": "A reide está começando, entre agora!",
+    "raidStartingOwner": "O que você está esperando? É sua responsabilidade iniciar a reide agora! Copie os nomes dos treinadores e convide todos para a reide no jogo!"
 }
