@@ -1,2 +1,14 @@
 {
+    "effectiveCombatTime": "Tempo para Vencer",
+    "effectiveDeaths": "Abates para vencer",
+    "tdo": "TDO",
+    "seconds": "s",
+    "winPerc": "% de Vitórias",
+    "missingData": "???",
+    "totalCombatTime": "Tempo",
+    "yourSummary": "Seu Resumo",
+    "deaths": "Abates",
+    "decimalPlaces": 2,
+    "title": "Resultados da Batalha",
+    "estimator": "Estimador"
 }
