@@ -1,1 +1,101 @@
-{}
+{
+    "bulkImport": {
+        "errors": {
+            "cinematicMove2": "$t(pokeform.cinematicMove2.label) é inválido.",
+            "pokemonId": "$t(common:pokemon) é inválido.",
+            "individualAttack": "$t(pokeform.individualAttack.label) não é um número entre 0 e 15.",
+            "cp": "$t(pokeform.cp.label) não é um número",
+            "individualStamina": "$t(pokeform.individualStamina.label) não é um número entre 0 e 15",
+            "level": "$t(pokeform.level.label) não é um número entre 1 e 41",
+            "quickMove": "$t(pokeform.quickMove.label) é inválido.",
+            "individualDefense": "$t(pokeform.individualDefense.label) não é um número entre 0 e 15",
+            "cinematicMove": "$t(pokeform.cinematicMove.label) é inválido."
+        },
+        "beginImport": "Iniciar Importação",
+        "clearSelection": "Limpar Seleção",
+        "failed": "A importação de Pokémons em massa falhou",
+        "title": "Importar Pokémons em Massa",
+        "importNPokemon": "Importar {{count}}/{{total}}",
+        "selectAll": "Selecionar Tudo",
+        "paste": "Colar"
+    },
+    "bulkDelete": {
+        "clearSelection": "Limpar Seleção",
+        "title": "Excluir Pokémons em Massa",
+        "deleteNPokemon": "Delete {{count}} Pokémon(s)",
+        "selectAll": "Selecionar Tudo",
+        "failed": "A exclusão de Pokémons em massa falhou"
+    },
+    "add": {
+        "full": "Sua Pokebox está cheia. Assine para adquirir mais espaço no servidor",
+        "failed": "Impossível adicionar Pokémon",
+        "autocomplete": "Insira o Nome ou o Tipo do Pokémon",
+        "title": "Novo Pokémon"
+    },
+    "pokeform": {
+        "individualAttack": {
+            "placeholder": "$t(common:placeholders.dropdown.optional)",
+            "label": "Ataque"
+        },
+        "individualDefense": {
+            "placeholder": "$t(common:placeholders.dropdown.optional)",
+            "label": "Defesa"
+        },
+        "level": {
+            "label": "Nível",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "nickname": {
+            "label": "Apelido"
+        },
+        "cinematicMove": {
+            "label": "Movimento de Ataque",
+            "placeholder": "$t(common:placeholders.dropdown.required)"
+        },
+        "edit": {
+            "label": "$t(common:save)"
+        },
+        "individualStamina": {
+            "label": "Stamina",
+            "placeholder": "$t(common:placeholders.dropdown.optional)"
+        },
+        "cinematicMove2": {
+            "placeholder": "$t(common:placeholders.dropdown.optional)",
+            "label": "Segundo Movimento de Ataque"
+        },
+        "submit": {
+            "label": "$t(common:buttons.create)"
+        },
+        "cp": {
+            "label": "Cp"
+        },
+        "quickMove": {
+            "label": "Movimento Rápido",
+            "placeholder": "$t(common:placeholders.dropdown.required)"
+        }
+    },
+    "errors": {
+        "failed": "Impossível carregar Pokebox"
+    },
+    "noPokemon": {
+        "title": "Nenhum Pokémon Encontrado",
+        "clearFilter": "Limpar Filtros de Busca",
+        "description": "O Pokebattler Raid Party requer que você adicione seu melhor Pokémon para encontrar os melhores counters! Quanto mais você adicionar, mais precisas serão as sugestões do grupo de reide!",
+        "addPokemon": "A maneira mais rápida de adicionar Pokémons é clicando no botão de adição na página de counters de chefes. Você também pode adicionar um por um ou usando o recurso de importação em massa."
+    },
+    "edit": {
+        "title": "Editar Pokémon",
+        "failed": "Falha ao editar Pokémon",
+        "full": "Sua Pokebox está cheia. Renove sua assinatura ou apague alguns Pokémons"
+    },
+    "poketile": {
+        "temporary": "Salvando no servidor",
+        "cp": "$t(cp)"
+    },
+    "addPokemon": "Adicionar Pokémon",
+    "delete": {
+        "failed": "Falha ao excluir Pokémon",
+        "title": "Excluir Pokémon"
+    },
+    "title": "Pokebox"
+}
