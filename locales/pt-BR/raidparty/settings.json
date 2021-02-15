@@ -6,7 +6,8 @@
         "playerFaction": "Faction",
         "autoRaidParty": "Auto Raid Party",
         "discordUsername": "Discord Username",
-        "language": "Language"
+        "language": "Language",
+        "title": "Configuração de Raid Global"
     },
     "autoRaidPartyOptions": {
         "BATTLE_PARTY_POKEBOX": "Pokebox",
