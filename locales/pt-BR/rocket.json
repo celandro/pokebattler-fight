@@ -23,7 +23,8 @@
         },
         "counters": {
             "title": "Counters",
-            "chooseMovesetLabel": "Escolher Ataques"
+            "chooseMovesetLabel": "Escolher Ataques",
+            "subtitle": "Melhores Atacantes por"
         },
         "hardestMovesets": {
             "subtitle": "Para {{pokemon}} por {{sort}}"
