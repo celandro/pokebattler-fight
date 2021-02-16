@@ -21,7 +21,9 @@
         "title": "Configuración Global de Incursiones",
         "subtitle": "Información requerida del jugador",
         "discordConnect": "Pokebattler Raid Party Network incluye incursiones que son coordinadas por medio de Discord. Para unirte a una incursión Discord conecta tu cuenta Pokebattler con una cuenta Discord nueva o existente.",
-        "correctness": "Nombre del Entrenador y Código de Amigo correctos son requeridos para una fluida coordinación del grupo de incursión"
+        "correctness": "Nombre del Entrenador y Código de Amigo correctos son requeridos para una fluida coordinación del grupo de incursión",
+        "numRemoteInvites": "Invitaciones remotas",
+        "randomAssistants": "Jugadores adicionales"
     },
     "autoRaidPartyOptions": {
         "BATTLE_PARTY_POKEBOX": "Pokebox",
