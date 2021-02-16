@@ -1,13 +1,13 @@
 {
-    "title": "Sobre o Pokebattler",
+    "title": "Sobre",
     "history": "Este site foi criado por {{link}} (aka Ryan Barker) em Julho de 2016  com a ajuda de amigos.  A esposa do Ryan, Shelley Barker, também está dando uma ajuda muito bem-vinda neste projeto.",
     "engine": "O motor original de cálculo para este site era {{link}} e uma nova versão dele agora suporta gratuitamente todo site de simulação. O financiamento para este site vem atualmente dos usuários Patreon.",
     "githubLink": "código aberto",
     "thanks": "Um agradecimento especial a todos os editores do reddit que fizeram pesquisas ao longo do caminho, incluindo ",
     "sponsor": "Pokebattler.com é patrocinado por {{link}}. Vá conferi-los!",
-    "privacy": "",
-    "privacyLink": "",
-    "images": "",
+    "privacy": "...",
+    "privacyLink": "...",
+    "images": "...",
     "meta": {
         "description": "Sobre o Pokebattler traz tudo sobre o Pokebattler e como se tornou o Simulador Pokemon Go Mais Preciso #1 do Mundo.",
         "image": "https://static.pokebattler.com/images/og_more_about.jpg"
