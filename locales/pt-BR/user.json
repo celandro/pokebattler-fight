@@ -1,9 +1,9 @@
 {
     "title": "Entrar no Pokebattler",
-    "description": "Conecte-se para acessar sua Pokebox e simulações personalizadas",
+    "description": "Conecte-se para acessar sua Pokebox e simulações personalizadas!",
     "explanation": "O Pokebattler não pode e não é capaz de entrar na sua conta do Pokémon Go. Nós não nos conectamos ao servidores da Niantic de modo algum. O Pokebattler usa apenas esse login para saber quem é você através dos seus dispositivos. Você pode entrar pelo seu celular, tablet, ou computador e ver todos seus Pokémon que você cadastrou no nosso site. Nós não compartilhamos suas informações, e não as usamos para propósitos financeiros ou parecidos.",
     "privacy": "Para mais informações, consulte nossa política de confidencialidade",
-    "loading": "Carregando dados do usuário",
+    "loading": "Carregando Dados do Pokebattler",
     "user": "Usuário",
     "login": {
         "google": "Entrar com Google",
@@ -14,7 +14,12 @@
             "title": "Logado com Sucesso",
             "fromApi": "$t(login.success.title)! Por favor, aguarde um momento para continuar."
         },
-        "autoCreate": "A autenticação criará automaticamente sua conta Pokebattler e fará o login"
+        "autoCreate": "A autenticação criará automaticamente sua conta Pokebattler e fará o login",
+        "discord": "Acessar com Discord",
+        "connect": "Conecte sua Conta",
+        "device": "Pular",
+        "loginReason": "Faça login para habilitar a funcionalidade entre dispositivos e plataformas para sua conta no site Pokebattler.com e com aplicativos de terceiros, como bots do Discord",
+        "emailReason": "O Pokebattler usa seu endereço de e-mail apenas para vinculação de contas e suporte ao cliente."
     },
     "details": {
         "welcome": "Bem-Vindo",
@@ -26,21 +31,27 @@
         "meta": {
             "description": "Armazene suas informações de usuário do Pokémon Go e seus Pokémon."
         },
-        "profileButton": "Seu Perfil"
+        "profileButton": "Seu Perfil",
+        "discordLink": {
+            "instructions": "Para vincular sua conta Discord, saia e faça login novamente usando a opção de login discord e o endereço de e-mail vinculado a esta conta.",
+            "error": "Problemas em vincular? Envie um email para admin@pokebattler com ambas as suas IDs Pokebattler.",
+            "linkAccounts": "Vincule sua conta Discord a esta conta Pokebattler para habilitar a Pokebattler Raid Network"
+        }
     },
     "logout": {
         "title": "Deslogado",
         "description": "Você foi deslogado com sucesso. Volte depois em qualquer dispositivo e sua Pokebox estará esperando por você!",
         "back": "Voltar ao login",
-        "button": "Logout",
+        "button": "Sair",
         "meta": {
             "description": "Você saiu da sua conta com sucesso."
-        }
+        },
+        "connectAccount": "Conectar Conta"
     },
     "roles": {
         "title": "Informação da Conta",
         "heading": "Benefícios Atuais",
-        "description": "",
+        "description": "Contribua com o Pokebattler para obter benefícios premium, incluindo uma Pokebox maior e uma experiência sem anúncios. O Pokebattler só é possível com o apoio generoso de pessoas como você, contribuindo para os custos crescentes do servidor de hospedagem deste site.",
         "maxPokemon": "Máximo de Pokemons",
         "quality": "Qualidade da Simulação",
         "thanks": "Obrigado por suportar o Pokebattler! Suas contribuições são muito apreciadas.",
@@ -54,9 +65,20 @@
             "ROLE_FANATIC": "Fanático do Pokebattler",
             "ROLE_CONTEST": "Vencedor de Concurso do Pokebattler",
             "ROLE_PATREON_USER": "Usuário Patreon do Pokebattler",
-            "ROLE_SUPPORTER2": "Apoiador do Pokebattler"
+            "ROLE_SUPPORTER2": "Apoiador do Pokebattler",
+            "ROLE_BASIC": "Básico",
+            "ROLE_STANDARD": "Standard",
+            "ROLE_BATTLER": "Battler",
+            "ROLE_CHAMPION": "Campeão"
         },
-        "maxBattleParties": "Equipes de Batalha Máximas"
+        "maxBattleParties": "Equipes de Batalha Máximas",
+        "matrixMaxPokemon": "Matrix - Pokémon Máx.",
+        "matrixMaxType": "Matrix - Tipos Máx.",
+        "matrixMetaTypes": "Matrix - Tipos Meta",
+        "hideAds": "Experiência Livre de Anúncios",
+        "enabled": "Habilitado",
+        "disabled": "Desabilitado",
+        "rankingByType": "Filtro de Ranking por Tipos"
     },
     "meta": {
         "description": "O Pokébattler guarda os seus Pokémon do Pokémon Go na nossa Pokédex para encontrar adversários nas reides e mais!"
@@ -96,7 +118,8 @@
     "subscription": {
         "title": "Assine Pokebattler",
         "meta": {
-            "image": "https://static.pokebattler.com/images/og_user_subscription.png"
+            "image": "https://static.pokebattler.com/images/og_user_subscription.png",
+            "description": "O Pokebattler é gratuito para todos, graças às generosas assinaturas de pessoas como você! A assinatura desativa anúncios e desbloqueia recursos poderosos para ajudá-lo a vencer o chefe da incursão ou seus amigos em PVP!"
         },
         "paymentRequest": "Assine com um Clique",
         "paymentRequestDescription": "A assinatura com um clique é suportada na maioria dos dispositivos móveis. Você também pode optar por inserir suas informações abaixo",
@@ -117,6 +140,324 @@
         "description": "As informações do seu cartão de crédito são tratadas com segurança pelo Stripe e nunca são enviadas para o Pokebattler. Stripe processa suas assinaturas e informa Pokebattler do seu status de assinatura.",
         "multiMonth": "Economize com um plano de vários meses!",
         "requiresLogin": "Você deve fazer login para se inscrever",
-        "ibanDescription": "Ao fornecer seu IBAN e confirmar esse pagamento, você está autorizando Pokebattler.com e Stripe, nosso provedor de serviços de pagamento, a enviar instruções ao seu banco para debitar sua conta e seu banco para debitar sua conta de acordo com essas instruções. Você tem direito a um reembolso do seu banco nos termos e condições do seu contrato com o seu banco. Um reembolso deve ser reivindicado dentro de 8 semanas a partir da data em que sua conta foi debitada."
+        "ibanDescription": "Ao fornecer seu IBAN e confirmar esse pagamento, você está autorizando Pokebattler.com e Stripe, nosso provedor de serviços de pagamento, a enviar instruções ao seu banco para debitar sua conta e seu banco para debitar sua conta de acordo com essas instruções. Você tem direito a um reembolso do seu banco nos termos e condições do seu contrato com o seu banco. Um reembolso deve ser reivindicado dentro de 8 semanas a partir da data em que sua conta foi debitada.",
+        "notNeccessary": "Os campos a seguir geralmente não são obrigatórios. Você só precisa preenchê-los se o seu pagamento for recusado.",
+        "paymentTypes": {
+            "creditCard": "Cartão de Crédito",
+            "iban": "IBAN",
+            "ideal": "IDEAL"
+        },
+        "confirmation": {
+            "button": "Assinar"
+        },
+        "plans": {
+            "1month": {
+                "title": "1 mês - ${{intervalCost}}/mo",
+                "subtitle": "Você será cobrado ${{cost}} por mês após o seu teste de {{trialPeriodDays}} dias grátis.",
+                "discount": "Economize selecionando um plano de vários meses",
+                "shortTitle": "1 Mês",
+                "monthlyPrice": "Comprar apenas um mês. Economize ao selecionar um plano de vários meses!"
+            },
+            "3month": {
+                "title": "3 meses - ${{intervalCost}}/mo",
+                "subtitle": "Você será cobrado ${{cost}} a cada 3 meses após seu período de {{trialPeriodDays}} dias grátis.",
+                "discount": "Economize {{discount}}% - {{trialPeriodDays}} dias de teste grátis",
+                "shortTitle": "3 Meses",
+                "shortDiscount": "-{{discount}}%",
+                "monthlyPrice": "Compre 3 meses adiantado para {{currency}}{{intervalCost}} por mês."
+            },
+            "6month": {
+                "title": "6 meses - ${{intervalCost}}/mo",
+                "subtitle": "Você será cobrado ${{cost}} a cada 6 meses após os {{trialPeriodDays}} dias do teste grátis.",
+                "discount": "Economize{{discount}}% - {{trialPeriodDays}} Dias de Teste Grátis",
+                "shortTitle": "6 Meses",
+                "shortDiscount": "-{{discount}}%",
+                "monthlyPrice": "Compre 6 meses adiantados para {{currency}}{{intervalCost}} por mês."
+            }
+        },
+        "products": {
+            "ROLE_BASIC": {
+                "title": "Plano Básico",
+                "subtitle": "Uma assinatura acessível que oferece ótimos benefícios"
+            },
+            "ROLE_STANDARD": {
+                "title": "Plano Standard",
+                "subtitle": "Assinatura recomendada para a maioria dos jogadores"
+            },
+            "ROLE_BATTLER": {
+                "title": "Plano Battler",
+                "subtitle": "Um nível mais alto para jogadores mais analíticos"
+            },
+            "ROLE_CHAMPION": {
+                "title": "Plano Campeão",
+                "subtitle": "O melhor nível de assinatura para o mais insano nível de jogabilidade"
+            },
+            "ROLE_USER": {
+                "title": "Não-Assinante",
+                "subtitle": "Benefícios grátis para todos os usuários"
+            },
+            "ROLE_ADMIN": {
+                "title": "Admin Pokebattler",
+                "subtitle": "É possível assinar, mas é um plano inferior"
+            },
+            "ROLE_FAN": {
+                "title": "Fã Patreon",
+                "subtitle": "Se você se inscrever abaixo, lembre-se de cancelar suas doações do Patreon"
+            },
+            "ROLE_SUPPORTER": {
+                "title": "Apoiador Patreon",
+                "subtitle": "Se você se inscrever abaixo, lembre-se de cancelar suas doações do Patreon"
+            },
+            "ROLE_PATREON": {
+                "title": "Patrão Patreon",
+                "subtitle": "Se você se inscrever abaixo, lembre-se de cancelar suas doações do Patreon"
+            },
+            "ROLE_FANATIC": {
+                "title": "Realeza Patreon",
+                "subtitle": "Se você se inscrever abaixo, lembre-se de cancelar suas doações do Patreon"
+            },
+            "ROLE_CONTEST": {
+                "title": "Vencedor do Concurso",
+                "subtitle": "Equivalente ao Plano Campeão abaixo"
+            },
+            "ROLE_PATREON_USER": {
+                "title": "Usuário Patreon",
+                "subtitle": "Aviso: Seu nível será revertido para um não assinante em breve"
+            },
+            "ROLE_SUPPORTER2": {
+                "title": "Apoiador Patreon",
+                "subtitle": "Se você se inscrever abaixo, lembre-se de cancelar suas doações do Patreon"
+            }
+        },
+        "upsell": {
+            "rankingByType": "Os assinantes têm acesso a recursos de classificação que são muito caros para oferecer a todos, incluindo classificação por tipo!"
+        },
+        "app": {
+            "description": "As assinaturas do Pokebattler são conectadas à sua conta e fornecem funcionalidade aprimorada e análises mais detalhadas em todos os seus dispositivos, aplicativos, web móvel e desktop.",
+            "allDevices": "Recursos",
+            "desktopOnly": "Recursos de exclusivos de Desktop",
+            "support": {
+                "description": "Está tendo problemas com sua assinatura? As assinaturas do Pokebattler são conectadas à conta com a qual você estava conectado no momento da compra. Entre em contato com o suporte com suas IDs Pokebattler antigas e novas para mesclar suas contas",
+                "restorePurchases": "Restaurar Compras",
+                "contactSupport": "Falar com o Suporte"
+            },
+            "restore": {
+                "begin": "Reprocessando Transações",
+                "complete": "Reprocessando completo",
+                "noneFound": "Nenhuma compra anterior nesta Apple ID"
+            }
+        },
+        "freeTrial": "{{trialPeriodDays}} Dia do Teste Grátis",
+        "transaction": {
+            "start": "Processando assinatura",
+            "verify": "Evoluindo sua conta",
+            "confirm": "Conta evoluída com sucesso",
+            "complete": "Valeu por nos apoiar!",
+            "restore": "Restaurando suas assinaturas. Isto pode demorar."
+        },
+        "error": {
+            "playLogin": "Não foi possível concluir a transação. Faça login no Google Play e tente novamente",
+            "unknown": "Não foi possível concluir a transação! Entre em contato com admin@pokebattler.com",
+            "cancelled": "Assinatura cancelada",
+            "verification": "Impossível verificar a transação! Entre em contato com admin@pokebattler.com",
+            "store": "Erro ao conectar à loja",
+            "restore": "Impossível restaurar transações! Entre em contato com admin@pokebattler.com",
+            "transactionRestore": "Não é possível aplicar a transação. Faça login na conta original ou entre em contato com admin@pokebattler.com"
+        }
+    },
+    "raidParty": {
+        "title": "Configurações do Grupo de Reide",
+        "description": "Configurações do aplicativo Pokebattler Raid Party."
+    },
+    "userSubscription": {
+        "createdAt": {
+            "label": "Criado em",
+            "value": "{{createdAt,shortdate}}"
+        },
+        "endedAt": {
+            "label": "Terminou em",
+            "value": "{{endedAt,shortdate}}"
+        },
+        "currentPeriodStart": {
+            "label": "Início do Período Atual",
+            "value": "{{currentPeriodStart,shortdate}}"
+        },
+        "currentPeriodEnd": {
+            "label": "Término do Período Atual",
+            "value": "{{currentPeriodEnd,shortdate}}"
+        },
+        "trialStart": {
+            "label": "Início do Teste",
+            "value": "{{trialStart,shortdate}}"
+        },
+        "trialEnd": {
+            "label": "Término do Teste",
+            "value": "{{trialEnd,shortdate}}"
+        },
+        "lastUpdate": {
+            "label": "Última Atualização",
+            "value": "{{lastUpdate,shortdate}}"
+        },
+        "planId": "ID do Plano",
+        "cancel": "Cancelar Assinatura",
+        "renew": "Renovar Assinatura",
+        "statuses": {
+            "trialing": {
+                "title": "Período de Teste Grátis",
+                "description": "Sua assinatura Pokebattler vem com um período de teste para permitir a opção de cancelar sem custo se você não estiver satisfeito com o serviço.",
+                "cancelled": "Sua assinatura Pokebattler foi cancelada. Por que não tenta novamente?"
+            },
+            "active": {
+                "title": "Assinatura Ativa",
+                "description": "Sua assinatura Pokebattler está ativa. Sua assinatura será renovada em {{currentPeriodEnd}}",
+                "cancelled": "Sua assinatura Pokebattler será cancelada em {{currentPeriodEnd}}. Aproveite os recursos da sua assinatura até lá!"
+            },
+            "incomplete": {
+                "title": "Assinatura Incompleta",
+                "description": "Sua associação ao Pokebattler requer uma ação para ser concluída. Você precisa confirmar sua assinatura com seu provedor de pagamento."
+            },
+            "incomplete_expired": {
+                "title": "Assinatura Incompleta",
+                "description": "Sua assinatura do Pokebattler exigiu uma ação sua para ser concluída, mas esse tempo já passou. Você precisará se inscrever novamente."
+            },
+            "past_due": {
+                "title": "Assinatura Expirada",
+                "description": "Sua assinatura Pokebattler não foi aceita. Você precisará atualizar suas informações de pagamento e se inscrever novamente"
+            },
+            "canceled": {
+                "title": "Assinatura Cancelada",
+                "description": "Sua assinatura Pokebattler foi cancelada. A data de expiração era {{currentPeriodEnd}}.",
+                "cancelled": "$t(userSubscription.statuses.canceled.description)"
+            },
+            "cancelled": {
+                "title": "$t(userSubscription.statuses.canceled.title)",
+                "description": "$t(userSubscription.statuses.canceled.description)",
+                "cancelled": "$t(userSubscription.statuses.canceled.description)"
+            }
+        },
+        "platform": {
+            "ios": {
+                "title": "Assinatura App Store",
+                "manageSubscription": "Gerenciar esta assinatura App Store ",
+                "platformLink": "itms-apps://apps.apple.com/account/subscriptions",
+                "link": "https://apps.apple.com/account/subscriptions",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+            },
+            "android": {
+                "title": "Assinatura Play Store",
+                "manageSubscription": "Gerenciar esta assinatura Play Store",
+                "platformLink": "https://play.google.com/store/account/subscriptions",
+                "link": "https://play.google.com/store/account/subscriptions",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+            },
+            "stripe": {
+                "title": "Assinatura Website",
+                "manageSubscription": "Gerenciar esta assinatura Website.",
+                "platformLink": "https://www.pokebattler.com/user/subscription",
+                "link": "https://www.pokebattler.com/user/subscription",
+                "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+            },
+            "patreon": {
+                "title": "Assinatura Patreon",
+                "manageSubscription": "Gerenciar esta assinatura Patreon",
+                "platformLink": "https://www.patreon.com/pokebattler",
+                "link": "https://www.patreon.com/pokebattler",
+                "icon": "https://static.pokebattler.com/images/pokebattler_square.png"
+            }
+        }
+    },
+    "countryCodes": {
+        "AU": "Austrália",
+        "AT": "Áustria",
+        "BE": "Bélgica",
+        "CA": "Canadá",
+        "DK": "Dinamarca",
+        "FI": "Finlândia",
+        "FR": "França",
+        "DE": "Alemanha",
+        "HK": "Hong Kong",
+        "IE": "Irlanda",
+        "IT": "Itália",
+        "JP": "Japão",
+        "LU": "Luxemburgo",
+        "NL": "Holanda",
+        "NZ": "Nova Zelândia",
+        "NO": "Noruega",
+        "PT": "Portugal",
+        "ES": "Espanha",
+        "SE": "Suécia",
+        "CH": "Suíça",
+        "GB": "Reino Unido",
+        "US": "Estados Unidos"
+    },
+    "defaultName": "$t(user:user) #{{userId}}",
+    "sponsor": {
+        "title": "Patrocinar {{app}}",
+        "meta": {
+            "description": "Atribua uma porcentagem de sua assinatura Pokebattler para {{app}}"
+        },
+        "description": "O Pokebattler agora oferece uma maneira de patrocinar parceiros Pokebattler selecionados que fornecem serviços valiosos para a comunidade. Esperamos que você considere apoiar esses criadores para ajudar a manter a comunidade viva e próspera",
+        "cancel": "Cancelar Patrocínio",
+        "how": {
+            "title": "Como funciona",
+            "description": "Se você optar por patrocinar um criador, ele receberá uma porcentagem de sua assinatura antes de quaisquer impostos, taxas ou descontos. Quanto mais alto for o nível de assinatura, maior será a porcentagem. No início de cada mês, a Pokebattler dá um cheque a cada criador com base nas assinaturas ativas do mês. Os criadores recebem uma lista de patrocinadores, juntamente com uma parte de suas informações de perfil público e nível de assinatura.",
+            "description2": "Este patrocínio não tem custo extra e não altera os termos de sua assinatura Pokebattler de forma alguma."
+        },
+        "legal": {
+            "title": "Termos Legais",
+            "description": "Patrocinar um terceiro autoriza a Pokebattler a compartilhar dados de perfil público com esse terceiro, incluindo ID de usuário, Nome do Treinador e usuário Discord, bem como dados não públicos sobre datas e níveis de assinatura. O endereço de e-mail e os IDs da conta não são compartilhados com os criadores patrocinados. O patrocínio se aplica a assinaturas Stripe, Apple e Google apenas, assinaturas Patreon não estão incluídas."
+        },
+        "button": {
+            "title": "Patrocinador {{name}}"
+        },
+        "currentSponsored": "Patrocínio atual: {{name}}{{app}}",
+        "notSubscribed": "No momento, você não está inscrito no Pokebattler. Você precisará se inscrever para oferecer suporte ao {{app}}",
+        "sponsored": {
+            "pokenav": {
+                "description": "PokeNav é um bot de Pokémon Go no Discord para reides, trocase muito mais. Ele fornece counters e grupos de reide para servidores Discord",
+                "quote": "Patrocinar o PokeNav ajuda a apoiar seu desenvolvimento e cobrir seus custos contínuos",
+                "thanks": "Obrigado por patrocinar o PokeNav! Sua contribuição ajuda a cobrir seus custos e desenvolvimento contínuos.",
+                "name": "IVpips",
+                "app": "Pokenav",
+                "iconUrl": "https://pokenavbot.com/assets/images/logo.png"
+            },
+            "clembotdark": {
+                "description": "Clembot Dark é um bot de Pokémon Go para reides usado no Discord",
+                "quote": "Pokebattler é um recurso incrível para todas as suas respostas relacionadas a reides (personalizável por usuário). A integração do Pokebattler com o Clembot tem como objetivo trazer todas essas informações nos servidores Discord também!",
+                "thanks": "Muito obrigado por apoiar o Clembot.",
+                "name": "B!",
+                "app": "Clembot Dark",
+                "iconUrl": "https://cdn.discordapp.com/app-icons/363917328880107522/2f4e04668ff5ef15d309faaec40f9418.png?size=256"
+            },
+            "pvpoke": {
+                "description": "Pvpoke é uma ferramenta de código aberto para simular, classificar e construir equipes para reides PvP no Pokémon GO (jogador contra jogador)",
+                "quote": "Estou muito animado para fazer parceria com a Pokebattler para ajudar a trazer o melhor da simulação de batalha! Com uma assinatura do Pokebattler, você poderá armazenar centenas de seus Pokémon PvP para analisar no Pokebattler e no PvPoke.com.",
+                "thanks": "Muito obrigado por se inscrever e por apoiar o PvPoke! Te vejo na arena!",
+                "name": "Matt",
+                "app": "PvPoke.com",
+                "iconUrl": "https://pvpoke.com/img/app_192.png"
+            },
+            "nexus": {
+                "description": "TODO",
+                "quote": "TODO",
+                "thanks": "TODO",
+                "name": "10Criz",
+                "app": "Nexus",
+                "iconUrl": "https://cdn.discordapp.com/icons/733079996721135767/3920c9a0cabc7802defd93661bfa19e2.png?size=256"
+            }
+        }
+    },
+    "link": {
+        "shortTitle": "Conectar Contas",
+        "title": "Conectar seus Logins Sociais",
+        "description": "Você pode vincular sua conta Pokebattler com vários métodos de login. Quando você executa esta ação, a conta que você tenta vincular será incorporada à conta atual. Certifique-se de estar conectado com a conta que deseja manter!",
+        "google": "Conectar Conta Google",
+        "facebook": "Conectar Facebook",
+        "discord": "Conectar Discord",
+        "patreon": "Conectar Patreon",
+        "allLinked": "Uau! Você vinculou todas as suas contas. Parabéns por se tornar um Mestre de Contas Pokebattler!",
+        "success": {
+            "title": "Conta Vinculada com Sucesso"
+        }
     }
 }
