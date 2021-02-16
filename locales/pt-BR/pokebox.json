@@ -5,31 +5,50 @@
         "email": "envie email ao Pokebattler",
         "title": "Sua Pokebox Customizada",
         "zero": "Adicione seus Pokemons clicando na caixa à esquerda.",
-        "showMore": "Mostrar Mais"
+        "showMore": "Mostrar Mais",
+        "meta": {
+            "description": "Salve seus Pokémons de Pokémon Go para resultados de reide customizados e mais!"
+        },
+        "filter": {
+            "label": "Filtrar Pokémons",
+            "hint": "Insira uma vírgula para separar Pokémons ou Tipos"
+        }
     },
     "add": {
         "title": "Pokebox",
         "description": "Adicione Pokemon",
         "pokemon": "Escolha Pokemon",
-        "pokemonSelect": "Selecione Pokemon"
+        "pokemonSelect": "Selecione Pokemon",
+        "meta": {
+            "description": "Adicione um Pokémon à sua Pokebox"
+        }
     },
     "delete": {
         "title": "Apagar",
         "bulk": {
             "title": "Apagar",
             "toolbarTitle": "Apagar em massa",
-            "confirmation": "Isto vai apagar {{num}} Pokemons da sua Pokebox, tem certeza?"
+            "confirmation": "Isto vai apagar {{num}} Pokemons da sua Pokebox, tem certeza?",
+            "meta": {
+                "description": "Apagar Pokémons de sua Pokebox em massa."
+            }
         },
         "irreversible": "Isto não poderá ser desfeito!",
         "blurb": "Você pode apagar rapidamente múltiplos pokemons aqui quando quiser. Você pode rapidamente liberar espaço na sua pokebox. Basta selecionar cada pokemon que você quer apagar. Quando terminar, role para o final da página para achar o botão Apagar.",
         "button": "Apagar em Massa",
-        "confirmation": "Tem certeza que quer apagar?"
+        "confirmation": "Tem certeza que quer apagar?",
+        "meta": {
+            "description": "Apague um Pokémon de sua Pokebox"
+        }
     },
     "deleteAll": {
         "button": "Apagar Tudo",
         "title": "Apagar Tudo",
         "confirmation": "Isto vai apagar todos os Pokemons na sua Pokebox, tem certeza?",
-        "irreversible": "Isto não poderá ser desfeito!"
+        "irreversible": "Isto não poderá ser desfeito!",
+        "meta": {
+            "description": "Remova um Pokémon de sua Pokebox."
+        }
     },
     "import": {
         "button": "Importação em massa",
@@ -41,20 +60,39 @@
         "table": {
             "header": "Selecione o Pokemon que você deseja importar abaixo",
             "selectAll": "Selecionar Tudo"
+        },
+        "meta": {
+            "description": "Adicionar Pokémons à sua Pokebox através de programas de terceiros."
         }
     },
     "update": {
         "title": "Pokebox",
-        "description": "Modificar {{name}}"
+        "description": "Modificar {{name}}",
+        "meta": {
+            "description": "Atualize seus Pokémons em sua Pokebox"
+        }
     },
     "loading": "Carregando seu Pokemon",
     "backPokebox": "Retornar à Pokebox",
     "powerUp": "Fortalecer",
     "full": {
         "title": "Pokebox - Sem espaço",
-        "explanation": "Você alcançou o número máximo de Pokemons para a sua Pokebox no nível atual de suporte. Isto te coloca nos primeiros 5% dos usuários do Pokebattler! O Pokebattler depende do suporte de usuários muito ativos como você para entregar simulações de alta qualidade para todos. Você pode aumentar seu espaço para Pokemons contribuindo como Patreon do Pokebattler."
+        "explanation": "Você alcançou o número máximo de Pokemons para a sua Pokebox no nível atual de suporte. Isto te coloca nos primeiros 5% dos usuários do Pokebattler! O Pokebattler depende do suporte de usuários muito ativos como você para entregar simulações de alta qualidade para todos. Você pode aumentar seu espaço para Pokemons contribuindo como Patreon do Pokebattler.",
+        "subtitle": "Sem Espaço"
     },
     "explanation": "A Pokebox do Pokebattler é uma nova e excitante funcionalidade que te permite customizar sua experiência no Pokebattler baseado nos Pokemons que você realmente tem! O Pokemon que você adicionar na sua Pokebox pode ser usado pelo site. Fique atento ao ícone da Pokebox. Um ícone verde significa que você está usando a Pokebox, um ícone preto significa que não está.",
     "title": "Pokebox",
-    "blurb": "Adicione seus Pokemons para resultados customizados!"
+    "blurb": "Adicione seus Pokemons para resultados customizados!",
+    "meta": {
+        "description": "Salve seus Pokémons de Pokémon Go para resultados de reide customizados e mais!"
+    },
+    "export": {
+        "button": "Exportar em Massa"
+    },
+    "upgrade": {
+        "title": "$t(common:upgrade)",
+        "subtitle": "Este recurso requer um nível de assinatura maior",
+        "explanation": "Pokebattler é mantido por apenas 0,1% dos visitantes do site como você. Dê um upgrade sua conta para manter o Pokebattler funcionando e tirar mais proveito do aplicativo! Recursos exclusivos, análise aprimorada, uma Pokebox maior e muito mais esperam por você!"
+    },
+    "powerDown": "Power Down"
 }
