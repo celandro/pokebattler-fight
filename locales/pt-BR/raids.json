@@ -92,7 +92,7 @@
         "title": "Atacantes para {{defender}}",
         "calculating": "Calculando o Resultado da Reide",
         "counters": {
-            "title": "adversários",
+            "title": "Counters",
             "subtitle": "Melhores Atacantes por",
             "description": "A seguinte análise mostra o Pokemon que é o mais forte oponente em termos de {{sort}} contra {{pokemon}}.",
             "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
