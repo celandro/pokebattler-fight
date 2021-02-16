@@ -447,7 +447,6 @@
         "SPINDA_18_FORM": "Spinda - 18",
         "SPINDA_19_FORM": "Spinda - 19",
         "GENESECT_NORMAL_FORM": "Genesect",
-
         "RATTATA_NORMAL_FORM": "Rattata - Normal",
         "RATTATA_ALOLA_FORM": "Rattata - Alola",
         "RATICATE_NORMAL_FORM": "Raticate - Normal",
@@ -838,15 +837,12 @@
         "DIANCIE": "Diancie",
         "HOOPA": "Hoopa",
         "VOLCANION": "Volcanion",
-
-
         "MELTAN": "Meltan",
         "MELMETAL": "Melmetal",
         "OBSTAGOON": "Obstagoon",
         "PERRSERKER": "Perrserker",
         "SIRFETCHD": "SirFetchd",
         "RUNERIGUS": "Runerigus",
-
         "ROTOM_NORMAL_FORM": "Rotom - Normal",
         "ROTOM_FROST_FORM": "Rotom - Frost",
         "ROTOM_FAN_FORM": "Rotom - Fan",
@@ -864,7 +860,6 @@
         "SHELLOS_EAST_SEA_FORM": "Shellos - East Sea",
         "GASTRODON_WEST_SEA_FORM": "Gastrodon - West Sea",
         "GASTRODON_EAST_SEA_FORM": "Gastrodon - East Sea",
-
         "RATTATA_SHADOW_FORM": "$t(constants:pokemon.RATTATA) $t(constants:pokemon.SHADOW_FORM)",
         "RATTATA_PURIFIED_FORM": "$t(constants:pokemon.RATTATA) $t(constants:pokemon.PURIFIED_FORM)",
         "RATICATE_SHADOW_FORM": "$t(constants:pokemon.RATICATE) $t(constants:pokemon.SHADOW_FORM)",
@@ -1281,7 +1276,6 @@
         "MOLTRES_NORMAL_FORM": "$t(constants:pokemon.MOLTRES) $t(constants:pokemon.NORMAL_FORM)",
         "MOLTRES_SHADOW_FORM": "$t(constants:pokemon.MOLTRES) $t(constants:pokemon.SHADOW_FORM)",
         "MOLTRES_PURIFIED_FORM": "$t(constants:pokemon.MOLTRES) $t(constants:pokemon.PURIFIED_FORM)",
-
         "KANGASKHAN_NORMAL_FORM": "$t(constants:pokemon.KANGASKHAN) $t(constants:pokemon.NORMAL_FORM)",
         "KANGASKHAN_SHADOW_FORM": "$t(constants:pokemon.KANGASKHAN) $t(constants:pokemon.SHADOW_FORM)",
         "KANGASKHAN_PURIFIED_FORM": "$t(constants:pokemon.KANGASKHAN) $t(constants:pokemon.PURIFIED_FORM)",
@@ -1395,8 +1389,8 @@
         "LINOONE_GALARIAN_FORM": "$t(constants:pokemon.LINOONE) $t(constants:pokemon.GALARIAN_FORM)",
         "PIKACHU_COPY_2019_FORM": "2019 $t(constants:pokemon.PIKACHU)",
         "VENUSAUR_COPY_2019_FORM": "2019 $t(constants:pokemon.VENUSAUR)",
-        "CHARIZARD_COPY_2019_FORM" : "2019 $t(constants:pokemon.CHARIZARD)",
-        "BLASTOISE_COPY_2019_FORM" : "2019 $t(constants:pokemon.BLASTOISE)",
+        "CHARIZARD_COPY_2019_FORM": "2019 $t(constants:pokemon.CHARIZARD)",
+        "BLASTOISE_COPY_2019_FORM": "2019 $t(constants:pokemon.BLASTOISE)",
         "CATERPIE_SHADOW_FORM": "$t(constants:pokemon.CATERPIE) $t(constants:pokemon.SHADOW_FORM)",
         "CATERPIE_PURIFIED_FORM": "$t(constants:pokemon.CATERPIE) $t(constants:pokemon.PURIFIED_FORM)",
         "METAPOD_SHADOW_FORM": "$t(constants:pokemon.METAPOD) $t(constants:pokemon.SHADOW_FORM)",
@@ -2340,7 +2334,185 @@
         "RUNERIGUS_SHADOW_FORM": "$t(constants:pokemon.RUNERIGUS) $t(constants:pokemon.SHADOW_FORM)",
         "RUNERIGUS_PURIFIED_FORM": "$t(constants:pokemon.RUNERIGUS) $t(constants:pokemon.PURIFIED_FORM)",
         "SIRFETCHD_SHADOW_FORM": "$t(constants:pokemon.SIRFETCHD) $t(constants:pokemon.SHADOW_FORM)",
-        "SIRFETCHD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SIRFETCHD)"
+        "SIRFETCHD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SIRFETCHD)",
+        "DEERLING_SPRING_FORM": "Deerling Primavera",
+        "DEERLING_SUMMER_FORM": "Deerling Verão",
+        "DEERLING_AUTUMN_FORM": "Deerling Outono",
+        "DEERLING_WINTER_FORM": "Deerling Inverno",
+        "SAWSBUCK_SPRING_FORM": "Sawsbuck Primavera",
+        "SAWSBUCK_SUMMER_FORM": "Sawsbuck Verão",
+        "SAWSBUCK_AUTUMN_FORM": "Sawsbuck Outono",
+        "SAWSBUCK_WINTER_FORM": "Sawsbuck Inverno",
+        "GENESECT_SHOCK_FORM": "Genesect Choque",
+        "GENESECT_BURN_FORM": "Genesect Queimar",
+        "GENESECT_CHILL_FORM": "Genesect Esfriar",
+        "GENESECT_DOUSE_FORM": "Genesect Douse",
+        "BASCULIN_RED_STRIPED_FORM": "Basculin Vermelho",
+        "BASCULIN_BLUE_STRIPED_FORM": "Basculin Azul",
+        "DARMANITAN_STANDARD_FORM": "Darmanitan Comum",
+        "DARMANITAN_ZEN_FORM": "Darmanitan Zen",
+        "TORNADUS_INCARNATE_FORM": "Tornadus Incarnate",
+        "TORNADUS_THERIAN_FORM": "Tornadus Therian",
+        "THUNDURUS_INCARNATE_FORM": "Thundurus Incarnate",
+        "THUNDURUS_THERIAN_FORM": "Thundurus Therian",
+        "LANDORUS_INCARNATE_FORM": "Landorus Incarnate",
+        "LANDORUS_THERIAN_FORM": "Landorus Therian",
+        "KYUREM_BLACK_FORM": "Kyurem Sombrio",
+        "KYUREM_WHITE_FORM": "Kyurem White",
+        "KELDEO_ORDINARY_FORM": "Keldeo Comum",
+        "KELDEO_RESOLUTE_FORM": "Keldeo Resoluto",
+        "MELOETTA_ARIA_FORM": "Meloetta Aria",
+        "MELOETTA_PIROUETTE_FORM": "Meloetta Pirueta",
+        "BURMY_PLANT_FORM": "Burmy - Planta",
+        "BURMY_SANDY_FORM": "Burmy - Areia",
+        "BURMY_TRASH_FORM": "Burmy - Trash",
+        "MEWTWO_A_FORM": "Armored Mewtwo",
+        "MEWTWO_A_INTRO_FORM": "Armored Mewtwo (Intro)",
+        "MEWTWO_NORMAL_FORM": "Mewtwo - Normal",
+        "NORMAL_FORM": "NORMAL",
+        "SHADOW_FORM": "Sombroso",
+        "PURIFIED_FORM": "Purificado",
+        "GALARIAN_FORM": "Galarian",
+        "FALL_FORM": "Fall",
+        "2020_FORM": "2020",
+        "FEMALE_FORM": "Fêmea",
+        "MEGA_EVO": "Mega",
+        "MEGA_X_EVO": "X",
+        "MEGA_Y_EVO": "Y",
+        "2020_COSTUME_FORM": "Evento 2020",
+        "SPRING_FORM": "Spring",
+        "VENUSAUR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.VENUSAUR)",
+        "CHARIZARD_MEGA_X": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_X_EVO)",
+        "CHARIZARD_MEGA_Y": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_Y_EVO)",
+        "BLASTOISE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BLASTOISE)",
+        "BEEDRILL_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BEEDRILL)",
+        "PIDGEOT_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.PIDGEOT)",
+        "ALAKAZAM_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ALAKAZAM)",
+        "SLOWBRO_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SLOWBRO)",
+        "GENGAR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GENGAR)",
+        "KANGASKHAN_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.KANGASKHAN)",
+        "PINSIR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.PINSIR)",
+        "GYARADOS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GYARADOS)",
+        "AERODACTYL_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AERODACTYL)",
+        "MEWTWO_MEGA_X": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEWTWO) $t(constants:pokemon.MEGA_X_EVO)",
+        "MEWTWO_MEGA_Y": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEWTWO) $t(constants:pokemon.MEGA_Y_EVO)",
+        "AMPHAROS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AMPHAROS)",
+        "STEELIX_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.STEELIX)",
+        "SCIZOR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SCIZOR)",
+        "HERACROSS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.HERACROSS)",
+        "HOUNDOOM_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.HOUNDOOM)",
+        "TYRANITAR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.TYRANITAR)",
+        "SCEPTILE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SCEPTILE)",
+        "BLAZIKEN_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BLAZIKEN)",
+        "SWAMPERT_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SWAMPERT)",
+        "GARDEVOIR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GARDEVOIR)",
+        "SABLEYE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SABLEYE)",
+        "MAWILE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MAWILE)",
+        "AGGRON_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AGGRON)",
+        "MEDICHAM_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEDICHAM)",
+        "MANECTRIC_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MANECTRIC)",
+        "SHARPEDO_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SHARPEDO)",
+        "CAMERUPT_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CAMERUPT)",
+        "ALTARIA_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ALTARIA)",
+        "BANETTE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BANETTE)",
+        "ABSOL_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ABSOL)",
+        "GLALIE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GLALIE)",
+        "SALAMENCE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SALAMENCE)",
+        "METAGROSS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.METAGROSS)",
+        "LATIAS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LATIAS)",
+        "LATIOS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LATIOS)",
+        "RAYQUAZA_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.RAYQUAZA)",
+        "LOPUNNY_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LOPUNNY)",
+        "GARCHOMP_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GARCHOMP)",
+        "LUCARIO_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LUCARIO)",
+        "ABOMASNOW_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ABOMASNOW)",
+        "GALLADE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GALLADE)",
+        "AUDINO_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AUDINO)",
+        "DIANCIE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.DIANCIE)",
+        "PIKACHU_COSTUME_2020_FORM": "Pikachu Voador",
+        "DRAGONITE_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.DRAGONITE)",
+        "ONIX_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.ONIX)",
+        "NOEVOLVE_FORM": "Sem Evolução",
+        "MISSINGNO": "MissingNo",
+        "RATICATE_SPRING": "$t(constants:pokemon.SPRING_FORM) $t(constants:pokemon.RATICATE)",
+        "WOBBUFFET_SPRING": "$t(constants:pokemon.SPRING_FORM) $t(constants:pokemon.WOBBUFFET)",
+        "WURMPLE_SPRING": "$t(constants:pokemon.SPRING_FORM) $t(constants:pokemon.WURMPLE)",
+        "SLOWPOKE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWPOKE)",
+        "SLOWBRO_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWBRO)",
+        "LAPRAS_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.LAPRAS)",
+        "2021_COSTUME_FORM": "Evento 2021",
+        "GENGAR_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.GENGAR)",
+        "PYROAR_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.PYROAR)",
+        "MEOWSTIC_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.MEOWSTIC)",
+        "ZYGARDE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - 10% ",
+        "ZYGARDE_FIFTY_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - 50%",
+        "ZYGARDE_COMPLETE_FORM": "$t(constants:pokemon.ZYGARDE) - Completo",
+        "VIVILLON_ARCHIPELAGO_FORM": "$t(constants:pokemon.VIVILLON) - Archipelago",
+        "VIVILLON_CONTINENTAL_FORM": "$t(constants:pokemon.VIVILLON) - Continental",
+        "VIVILLON_ELEGANT_FORM": "$t(constants:pokemon.VIVILLON) - Elegante",
+        "VIVILLON_FANCY_FORM": "$t(constants:pokemon.VIVILLON) - Chique",
+        "VIVILLON_GARDEN_FORM": "$t(constants:pokemon.VIVILLON) - Jardim",
+        "VIVILLON_HIGH_PLAINS_FORM": "$t(constants:pokemon.VIVILLON) - Planalto",
+        "VIVILLON_ICY_SNOW_FORM": "$t(constants:pokemon.VIVILLON) - Neve Gelada",
+        "VIVILLON_JUNGLE_FORM": "$t(constants:pokemon.VIVILLON) - Selva",
+        "VIVILLON_MARINE_FORM": "$t(constants:pokemon.VIVILLON) - Marinho",
+        "VIVILLON_MEADOW_FORM": "$t(constants:pokemon.VIVILLON) - Campina",
+        "VIVILLON_MODERN_FORM": "$t(constants:pokemon.VIVILLON) - Moderno",
+        "VIVILLON_MONSOON_FORM": "$t(constants:pokemon.VIVILLON) - Monção",
+        "VIVILLON_OCEAN_FORM": "$t(constants:pokemon.VIVILLON) - Oceano",
+        "VIVILLON_POKEBALL_FORM": "$t(constants:pokemon.VIVILLON) - Pokébola",
+        "VIVILLON_POLAR_FORM": "$t(constants:pokemon.VIVILLON) - Polar",
+        "VIVILLON_RIVER_FORM": "$t(constants:pokemon.VIVILLON) - Rio",
+        "VIVILLON_SANDSTORM_FORM": "$t(constants:pokemon.VIVILLON) - Tempestade de Areia",
+        "VIVILLON_SAVANNA_FORM": "$t(constants:pokemon.VIVILLON) - Savana",
+        "VIVILLON_SUN_FORM": "$t(constants:pokemon.VIVILLON) - Sol",
+        "VIVILLON_TUNDRA_FORM": "$t(constants:pokemon.VIVILLON) - Tundra",
+        "FLABEBE_RED_FORM": "$t(constants:pokemon.FLABEBE) - Vermelho",
+        "FLABEBE_YELLOW_FORM": "$t(constants:pokemon.FLABEBE) - Amarelo",
+        "FLABEBE_ORANGE_FORM": "$t(constants:pokemon.FLABEBE) - Laranja",
+        "FLABEBE_BLUE_FORM": "$t(constants:pokemon.FLABEBE) - Azul",
+        "FLABEBE_WHITE_FORM": "$t(constants:pokemon.FLABEBE) - Branco",
+        "FLOETTE_RED_FORM": "$t(constants:pokemon.FLOETTE) - Vermelho",
+        "FLOETTE_YELLOW_FORM": "$t(constants:pokemon.FLOETTE) - Amarela",
+        "FLOETTE_ORANGE_FORM": "$t(constants:pokemon.FLOETTE) - Laranja",
+        "FLOETTE_BLUE_FORM": "$t(constants:pokemon.FLOETTE) - Azul",
+        "FLOETTE_WHITE_FORM": "$t(constants:pokemon.FLOETTE) - Branca",
+        "FLORGES_RED_FORM": "$t(constants:pokemon.FLORGES) - Vermelho",
+        "FLORGES_YELLOW_FORM": "$t(constants:pokemon.FLORGES) - Amarelo",
+        "FLORGES_ORANGE_FORM": "$t(constants:pokemon.FLORGES) - Laranja",
+        "FLORGES_BLUE_FORM": "$t(constants:pokemon.FLORGES) - Azul",
+        "FLORGES_WHITE_FORM": "$t(constants:pokemon.FLORGES) - Branca",
+        "FURFROU_NATURAL_FORM": "$t(constants:pokemon.FURFROU) - Normal",
+        "FURFROU_HEART_FORM": "$t(constants:pokemon.FURFROU) - Coração",
+        "FURFROU_STAR_FORM": "$t(constants:pokemon.FURFROU) - Estrela",
+        "FURFROU_DIAMOND_FORM": "$t(constants:pokemon.FURFROU) - Diamante",
+        "FURFROU_DEBUTANTE_FORM": "$t(constants:pokemon.FURFROU) - Debutante",
+        "FURFROU_MATRON_FORM": "$t(constants:pokemon.FURFROU) - Matrona",
+        "FURFROU_DANDY_FORM": "$t(constants:pokemon.FURFROU) - Dândi",
+        "FURFROU_LA_REINE_FORM": "$t(constants:pokemon.FURFROU) - La Reine",
+        "FURFROU_KABUKI_FORM": "$t(constants:pokemon.FURFROU) - Kabuki",
+        "FURFROU_PHARAOH_FORM": "$t(constants:pokemon.FURFROU) - Faraó",
+        "AEGISLASH_SHIELD_FORM": "$t(constants:pokemon.AEGISLASH) - Escudo",
+        "AEGISLASH_BLADE_FORM": "$t(constants:pokemon.AEGISLASH) - Lâmina",
+        "PUMPKABOO_SMALL_FORM": "$t(constants:pokemon.PUMPKABOO) - Pequeno",
+        "PUMPKABOO_AVERAGE_FORM": "$t(constants:pokemon.PUMPKABOO) - Médio",
+        "PUMPKABOO_LARGE_FORM": "$t(constants:pokemon.PUMPKABOO) - Grande",
+        "PUMPKABOO_SUPER_FORM": "$t(constants:pokemon.PUMPKABOO) - Super",
+        "GOURGEIST_SMALL_FORM": "$t(constants:pokemon.GOURGEIST) - Pequeno",
+        "GOURGEIST_AVERAGE_FORM": "$t(constants:pokemon.GOURGEIST) - Médio",
+        "GOURGEIST_LARGE_FORM": "$t(constants:pokemon.GOURGEIST) - Grande",
+        "GOURGEIST_SUPER_FORM": "$t(constants:pokemon.GOURGEIST) - Super",
+        "XERNEAS_NEUTRAL_FORM": "$t(constants:pokemon.XERNEAS) - Neutro",
+        "XERNEAS_ACTIVE_FORM": "$t(constants:pokemon.XERNEAS) - Ativo",
+        "HOOPA_CONFINED_FORM": "$t(constants:pokemon.HOOPA) - Confinado",
+        "HOOPA_UNBOUND_FORM": "$t(constants:pokemon.HOOPA) - Libertado",
+        "SABLEYE_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.SABLEYE)",
+        "PIKACHU_ADVENTURE_HAT_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Chapéu de Aventura $t(constants:pokemon.PIKACHU)",
+        "PIKACHU_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Inverno $t(constants:pokemon.PIKACHU)",
+        "DELIBIRD_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Inverno $t(constants:pokemon.DELIBIRD)",
+        "CUBCHOO_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Inverno $t(constants:pokemon.CUBCHOO)",
+        "SLOWPOKE_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Inverno $t(constants:pokemon.SLOWPOKE)",
+        "SLOWBRO_2021_FORM": "$t(constants:pokemon.2021_COSTUME_FORM) Inverno $t(constants:pokemon.SLOWBRO)"
     },
     "moves": {
         "ACID_FAST": "Ácido",
@@ -2553,7 +2725,65 @@
         "SMACK_DOWN_FAST": "Derrubada",
         "LAST_RESORT": "Último Recurso",
         "REJOIN": "Re-entrou",
-        "METEOR_MASH": "Meteoro Esmagador"
+        "METEOR_MASH": "Meteoro Esmagador",
+        "undefined": "Indefinido",
+        "POWER_UP_PUNCH": "Soco Poderoso",
+        "MOVE_UNSET": "Não definido",
+        "MOVE_NONE": "Nenhum",
+        "MOVE_SHIELD": "Protegido",
+        "MOVE_PASS": "Sem Escudo",
+        "COIN_FLIP_WIN": "Vitória com Moeda",
+        "COIN_FLIP_LOSE": "Derrota com Moeda",
+        "ATTACK_BUFF": "Bônus de Ataque",
+        "DEFENSE_BUFF": "Bônus de Defesa",
+        "ACID_SPRAY": "Spray Ácido",
+        "LEAF_TORNADO": "Tornado de Folhas",
+        "SKULL_BASH": "Skull Bash",
+        "EARTH_POWER": "Poder de Terra",
+        "CRABHAMMER": "Martelo Caranguejo",
+        "LUNGE": "Lunge",
+        "CRUSH_CLAW": "Crush Claw",
+        "OCTAZOOKA": "Octazooka",
+        "MIRROR_SHOT": "Tiro no Espelho",
+        "SUPER_POWER": "Superpoder",
+        "FELL_STINGER": "Fell Stinger",
+        "LEECH_LIFE": "Suga-vidas",
+        "DRAIN_PUNCH": "Soco Dreno",
+        "SHADOW_BONE": "Osso Sombrio",
+        "MUDDY_WATER": "Água Viscosa",
+        "BLAZE_KICK": "Chute Labareda",
+        "RAZOR_SHELL": "Concha Navalha",
+        "WEATHER_BALL_FIRE": "Weather Ball - Fogo",
+        "WEATHER_BALL_ICE": "Weather Ball - Gelo",
+        "WEATHER_BALL_ROCK": "Weather Ball - Pedra",
+        "WEATHER_BALL_WATER": "Weather Ball - Água",
+        "CHARM_FAST": "Encantar",
+        "GIGA_IMPACT": "Giga Impacto",
+        "FRUSTRATION": "Frustração",
+        "RETURN": "Retorno",
+        "SYNCHRONOISE": "Barulho Sincronizado",
+        "LOCK_ON_FAST": "Mirar",
+        "THUNDER_FANG_FAST": "Presa Trovejante",
+        "ICE_FANG_FAST": "Presa de Gelo",
+        "HORN_DRILL": "Chifre Broca",
+        "FISSURE": "Fissure",
+        "SACRED_SWORD": "Espada Sagrada",
+        "FLYING_PRESS": "Aperto Voador",
+        "AURA_SPHERE": "Aura Esférica",
+        "PAYBACK": "Revide",
+        "ROCK_WRECKER": "Demolidor de Pedras",
+        "AEROBLAST": "Aeroblast",
+        "TECHNO_BLAST_NORMAL": "Techno Blast",
+        "TECHNO_BLAST_BURN": "Techno Blast Burn - Queimar",
+        "TECHNO_BLAST_CHILL": "Techno Blast - Chill",
+        "TECHNO_BLAST_WATER": "Techno Blast - Água",
+        "TECHNO_BLAST_SHOCK": "Techno Blast - Choque",
+        "FLY": "Voar",
+        "V_CREATE": "V Create",
+        "LEAF_STORM": "Tempestade de Folhas",
+        "TRI_ATTACK": "Tri Ataque",
+        "GUST_FAST": "Lufada de Vento",
+        "INCINERATE_FAST": "Incinerar"
     },
     "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
     "types": {
@@ -2575,7 +2805,8 @@
         "POKEMON_TYPE_ICE": "Gelo",
         "POKEMON_TYPE_DRAGON": "Dragão",
         "POKEMON_TYPE_DARK": "Sombrio",
-        "POKEMON_TYPE_FAIRY": "Fada"
+        "POKEMON_TYPE_FAIRY": "Fada",
+        "POKEMON_TYPE_ALL": "Tudo"
     },
     "strategies": {
         "attack": {
@@ -2601,7 +2832,7 @@
             },
             "DODGE_ALL": {
                 "label": "Esquiva de Tudo PRO",
-                "description": "Usa ataques rápidos e carregados entre as esquivas de todos os ataques deles."
+                "description": "Usa ataques rápidos e carregados entre as esquivas de todos os ataques deles!"
             },
             "DODGE_WEAVE_CAUTIOUS": {
                 "label": "Intercala Esquivar de Tudo",
@@ -2610,6 +2841,10 @@
             "undefined": {
                 "label": "Desconhecido",
                 "description": "Isto não deveria acontecer. Por favor deixe-nos saber que isto ocorreu!"
+            },
+            "PVP": {
+                "label": "PvP",
+                "description": "Essa estratégia usa mecanismos de pvp."
             }
         },
         "dodge": {
@@ -2640,7 +2875,8 @@
             "DODGE_90": {
                 "label": "Esquiva 90%",
                 "description": "Selecione para esquivar 90% das vezes"
-            }
+            },
+            "label": "Estratégia de esquiva"
         },
         "defense": {
             "DEFENSE": {
@@ -2678,6 +2914,111 @@
             "DEFENSE_PATTERN2": {
                 "label": "Padrão de Defesa",
                 "description": "Um padrão de atrasos e ataques é usado para esta simulação individual. Isto é usado internamente pelo Pokebattler para otimizar simulações de Monte-Carlo sem esquiva"
+            }
+        },
+        "meta": {
+            "label": "Mover Meta",
+            "DUAL_MOVE": {
+                "label": "Todos os movimentos de carga dupla",
+                "description": "Todos os Pokémon usam as melhores combinações de movimento de carga. Até 30 movimentos são retornados."
+            },
+            "SINGLE_MOVE": {
+                "label": "Todos os movimentos de carga única",
+                "description": "Todos os Pokémon usam os melhores golpes de carga sem aprender um segundo movimento. Até 12 movimentos são retornados."
+            },
+            "DUAL_MOVE_6": {
+                "label": "Movimentos de carga dupla - 6 principais",
+                "description": "Todos os Pokémon usam as melhores combinações de movimento de carga. Até 6 movesets são considerados"
+            },
+            "SINGLE_MOVE_6": {
+                "label": "Movimento de carga única - 6 principais ",
+                "description": "Todos os Pokémon usam os melhores golpes de carga sem aprender um segundo movimento. Até 6 movimentos são considerados"
+            },
+            "DUAL_MOVE_3": {
+                "label": "Movimentos de carga dupla - 3 principais",
+                "description": "Todos os Pokémon usam as melhores combinações de movimento de carga. Até 3 movimentos são considerados"
+            },
+            "SINGLE_MOVE_3": {
+                "label": "Movimento de carga única - 3 principais ",
+                "description": "Todos os Pokémon usam os melhores golpes de carga sem aprender um segundo movimento. Até 3 movimentos são considerados"
+            },
+            "DUAL_MOVE_1": {
+                "label": "Principais movimentos de carga dupla",
+                "description": "Todos os Pokémon usam as melhores combinações de movimento de carga. Apenas o melhor movimento é considerado"
+            },
+            "SINGLE_MOVE_1": {
+                "label": "Melhor movimento de carga única",
+                "description": "Todos os Pokémon usam os melhores golpes de carga sem aprender um segundo movimento. Apenas o melhor movimento é considerado"
+            },
+            "CURRENT_DUAL_MOVE": {
+                "label": "Movimentos de carga dupla atuais",
+                "description": "Todos os Pokémon usam as melhores combinações de movimento de carga. Até 30 movimentos atualmente disponíveis são retornados."
+            },
+            "CURRENT_SINGLE_MOVE": {
+                "label": "Movimentos de carga única atuais",
+                "description": "Todos os Pokémon usam os melhores golpes de carga sem aprender um segundo movimento. Até 12 movimentos atualmente disponíveis são retornados."
+            },
+            "CURRENT_DUAL_MOVE_6": {
+                "label": "Movimentos de carga dupla - 6 atuais",
+                "description": "Todos os Pokémon usam as melhores combinações de movimento de carga. Até 6 conjuntos de movimentos atualmente disponíveis são considerados"
+            },
+            "CURRENT_SINGLE_MOVE_6": {
+                "label": "Movimento de carga única - atual 6 ",
+                "description": "Todos os Pokémon usam os melhores golpes de carga sem aprender um segundo movimento. Até 6 movimentos atualmente disponíveis são considerados"
+            },
+            "CURRENT_DUAL_MOVE_3": {
+                "label": "Movimentos de carga dupla - 3 atuais",
+                "description": "Todos os Pokémon usam as melhores combinações de movimento de carga. Até 3 movimentos atualmente disponíveis são considerados"
+            },
+            "CURRENT_DUAL_MOVE_1": {
+                "label": "Principais movimentos de carga dupla atuais",
+                "description": "Todos os Pokémon usam as melhores combinações de movimento de carga. Apenas o melhor movimento disponível atualmente é considerado"
+            },
+            "CURRENT_SINGLE_MOVE_1": {
+                "label": "Principal movimento de carga única atual",
+                "description": "Todos os Pokémon usam os melhores golpes de carga sem aprender um segundo movimento. Apenas o melhor movimento disponível atualmente é considerado"
+            },
+            "CURRENT_SINGLE_MOVE_3": {
+                "label": "Movimento de carga única - 3 atuais ",
+                "description": "Todos os Pokémon usam os melhores golpes de carga sem aprender um segundo movimento. Até 3 movimentos atualmente disponíveis são considerados"
+            }
+        },
+        "shield": {
+            "label": "Estratégia de escudo",
+            "SHIELD_RANDOM": {
+                "label": "Escudo Aleatório",
+                "description": "Protege uma vez 33% do tempo e duas vezes 17% do tempo"
+            },
+            "SHIELD_0": {
+                "label": "Sem Escudo",
+                "description": "Nunca tenta proteger"
+            },
+            "SHIELD_1": {
+                "label": "Proteger uma vez",
+                "description": "Protege o primeiro movimento especial possível"
+            },
+            "SHIELD_2": {
+                "label": "Proteger Duas Vezes",
+                "description": "Protege os dois primeiros movimentos especiais que pode"
+            }
+        },
+        "defenderShield": {
+            "label": "Estratégia de escudo defensor",
+            "SHIELD_RANDOM": {
+                "label": "$t(strategies.shield.SHIELD_RANDOM.label)",
+                "description": "$t(strategies.shield.SHIELD_RANDOM.description)"
+            },
+            "SHIELD_0": {
+                "label": "$t(strategies.shield.SHIELD_0.label)",
+                "description": "$t(strategies.shield.SHIELD_0.description)"
+            },
+            "SHIELD_1": {
+                "label": "$t(strategies.shield.SHIELD_1.label)",
+                "description": "$t(strategies.shield.SHIELD_1.description)"
+            },
+            "SHIELD_2": {
+                "label": "$t(strategies.shield.SHIELD_2.label)",
+                "description": "$t(strategies.shield.SHIELD_2.description)"
             }
         }
     },
@@ -2749,8 +3090,8 @@
             "description": "Ordena os resultados das simulações Monte Carlo por Resultado Geral e retorna o 1º percentil."
         }
     },
-    "levelVs": "Atacante nível {{attackerLevel}}  Vs. Defensor nível {{defenderLevel}}",
-    "levelVsPokebox": "Atacante Nível {{attackerLevel}}  Vs. Defensor da Pokebox {{userId}}",
+    "levelVs": "Atacante nível {{attackerLevel}} Vs. Defensor nível {{defenderLevel}}",
+    "levelVsPokebox": "Atacante Nível {{attackerLevel}} Vs. Defensor da Pokebox {{userId}}",
     "friendLevels": {
         "FRIENDSHIP_LEVEL_0": {
             "label": "Não Amigos",
@@ -2771,6 +3112,192 @@
         "FRIENDSHIP_LEVEL_4": {
             "label": "Amizade Sem Igual",
             "description": "O nível máximo de amizade que você possui com alguém na reide. Amigos com Amizade Sem Igual ganham um bônus de 10% de ataque e 4 bolas extras em reides. Podem trocar Pokémon não-míticos com 96% de desconto em Poeira Estelar."
+        }
+    },
+    "generations": {
+        "label": "Gerações",
+        "GEN_1": {
+            "label": "Ger. 1"
+        },
+        "GEN_2": {
+            "label": "Ger. 2"
+        },
+        "GEN_3": {
+            "label": "Ger. 3"
+        },
+        "GEN_4": {
+            "label": "Ger. 4"
+        },
+        "GEN_5": {
+            "label": "Ger. 5"
+        },
+        "GEN_6": {
+            "label": "Ger. 6"
+        },
+        "GEN_7": {
+            "label": "Ger. 7"
+        },
+        "GEN_8": {
+            "label": "Ger. 8"
+        }
+    },
+    "sorts": {
+        "label": "Arrumar Ordem",
+        "OVERALL": {
+            "label": "$t(common:properties.overall)",
+            "description": "Uma pontuação de força ponderada"
+        },
+        "POWER": {
+            "label": "$t(common:properties.power)",
+            "description": "A porcentagem de vida do oponente removida dentro do limite de tempo"
+        },
+        "WIN": {
+            "label": "$t(common:properties.win)",
+            "description": "Chance de vitória"
+        },
+        "TIME": {
+            "label": "$t(common:properties.time)",
+            "description": "É hora de vencer assumindo um número infinito de Pokémons"
+        },
+        "POTIONS": {
+            "label": "$t(common:properties.potions)",
+            "description": "1 ponto para cada poção e 5 pontos para cada reviver"
+        },
+        "TDO": {
+            "label": "$t(common:properties.tdo)",
+            "description": "Dano causado por Pokémon"
+        },
+        "ESTIMATOR": {
+            "label": "$t(common:properties.estimator)",
+            "description": "Número aproximado de jogadores necessários para vencer"
+        },
+        "WEATHER": {
+            "label": "Clima",
+            "description": "Melhor no clima"
+        },
+        "DODGE_SPECIALS": {
+            "label": "Esquivas Especiais",
+            "description": "Melhor quando se esquiva"
+        },
+        "40+W+F": {
+            "label": "40 + Bônus",
+            "description": "Nível 40, clima, melhores amigos"
+        }
+    },
+    "levels": {
+        "20": "Nível 20",
+        "25": "Nível 25",
+        "30": "Nível 30",
+        "35": "Nível 35",
+        "40": "Nível 40",
+        "40+W+F": "40 + Bônus"
+    },
+    "autoBattlePartyTypes": {
+        "label": "Grupo de Reide Automática",
+        "BATTLE_PARTY_POKEBOX": {
+            "label": "Pokebox",
+            "description": "Use o melhor Pokémon da sua Pokebox"
+        },
+        "BATTLE_PARTY_LEVEL_20": {
+            "label": "Nível 20",
+            "description": "Use o melhor Pokémon de nível 20"
+        },
+        "BATTLE_PARTY_LEVEL_25": {
+            "label": "Nível 25",
+            "description": "Use o melhor Pokémon de nível 25"
+        },
+        "BATTLE_PARTY_LEVEL_30": {
+            "label": "Nível 30",
+            "description": "Use o melhor Pokémon de nível 30"
+        },
+        "BATTLE_PARTY_LEVEL_35": {
+            "label": "Nível 35",
+            "description": "Use o melhor Pokémon de nível 35"
+        },
+        "BATTLE_PARTY_LEVEL_40": {
+            "label": "Nível 40",
+            "description": "Use o melhor Pokémon de nível 40"
+        },
+        "BATTLE_PARTY_LEVEL_45": {
+            "label": "Nível 45",
+            "description": "Use o melhor Pokémon de nível 45"
+        },
+        "BATTLE_PARTY_LEVEL_50": {
+            "label": "Nível 50",
+            "description": "Use o melhor Pokémon de nível 50"
+        }
+    },
+    "battlePartyTypes": {
+        "label": "Liga",
+        "COMBAT_LEAGUE_RAIDS_GYMS": {
+            "label": "Reides & Ginásios",
+            "description": "6 Pokémons sem limites."
+        },
+        "COMBAT_LEAGUE_DEFAULT_GREAT": {
+            "label": "Grande Liga",
+            "description": "3 Pokémon com um CP máximo de 1500."
+        },
+        "COMBAT_LEAGUE_DEFAULT_ULTRA": {
+            "label": "Liga Ultra",
+            "description": "3 Pokémon com um CP máximo de 2500."
+        },
+        "COMBAT_LEAGUE_DEFAULT_MASTER": {
+            "label": "Liga Mestre",
+            "description": "3 Pokémon sem limites."
+        },
+        "COMBAT_LEAGUE_PREMIER_CUP": {
+            "label": "Copa Premier",
+            "description": "3 Pokémon não lendários e não míticos."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
+            "label": "Copa Voadora",
+            "description": "3 Pokémon voadores com um CP máximo de 1500."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
+            "label": "Copa de Halloween",
+            "description": "3 Pokémon dos tipos Veneno, Inseto, Fantasma, Sombrio ou Fada com um CP máximo de 1500."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
+            "label": "Copa Kanto",
+            "description": "3 Pokémon da Geração 1 com um CP máximo de 1500."
+        },
+        "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
+            "label": "Copa Ultra Premier",
+            "description": "3 Pokémons não lendários e não míticos com um CP máximo de 2500."
+        },
+        "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
+            "label": "Copa Silph Arena Sunrise",
+            "description": "O torneio de outubro Copa Silph Arena - Temporada 3."
+        },
+        "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
+            "label": "Copa Silph Arena Marsh",
+            "description": "O torneio de novembr Copa Silph Arena - Temporada 3."
+        },
+        "COMBAT_LEAGUE_SILPH_NIGHTFALL_CUP": {
+            "label": "Copa Silph Arena Nightfall",
+            "description": "O torneio de dezembro Copa Silph Arena - Temporada 3."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
+            "label": "Copa de Férias",
+            "description": "3 Pokémon dos tipos Normal, Grama, Elétrico, Gelo, Voador ou Fantasma com um CP máximo de 1500."
+        },
+        "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
+            "label": "Copa Silph Arena Labirinto",
+            "description": "O torneio de fevereiro da Copa Silph Arena - Temporada 3."
+        }
+    },
+    "privacy": {
+        "PRIVATE": {
+            "label": "Privado",
+            "description": "Uma reide em que só podem participar pessoas que saibam a ID do grupo"
+        },
+        "FRIEND": {
+            "label": "Amigo",
+            "description": "Uma reide para seus amigos participarem. Uma notificação será enviada a eles"
+        },
+        "GLOBAL": {
+            "label": "Global",
+            "description": "Uma reide para todos participarem"
         }
     }
 }
