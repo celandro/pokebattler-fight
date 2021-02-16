@@ -1,3 +1,239 @@
 {
-  
+    "news": {
+        "title": "Notícias da Liga de Batalha PvP de Pokémon GO",
+        "description": "O que está acontecendo no Pokémon Go PvP agora. As ligas GO Battle e Copa Silph são as formas mais populares de pvp. A Pokebattler tem análises dos melhores treinadores Pokémon Go PvP para PvP competitivo. Aprenda com os melhores sobre como derrotar seus amigos em combates mano a mano!",
+        "meta": {
+            "description": "$t(pvp:news.description)",
+            "image": "https://static.pokebattler.com/images/og_news_rankings.PNG"
+        },
+        "join": "Chamando todos os influenciadores e aspirantes a influenciadores Pokémon GO Battle League PvP: Faça sua voz ser ouvida apresentando seus vídeos, artigos e infográficos no Pokebattler.com.",
+        "joinCTA": "Fale conosco para saber mais"
+    },
+    "matrix": {
+        "title": "Simulador Matrix PvP",
+        "description": "Veja os resultados das lutas de seus Pokémons contra um time adversário",
+        "loggedOut": "Esse recurso é para usuários conectados apenas por motivos de desempenho. Ele permite que você investigue todas as combinações possíveis de resultados de dois conjuntos de Pokémon. Crie uma conta gratuita em segundos para experimentar este novo recurso empolgante!",
+        "benefits": "Os assinantes podem executar simulações de matriz em um grande número de Pokémon e combinações de movimentos, entre outros benefícios.",
+        "zeroTypes": "Seu nível de assinatura não permite simulações de Matrix por tipo. Faça seu upgrade hoje!",
+        "meta": {
+            "description": "$t(pvp:matrix.description)",
+            "image": "https://static.pokebattler.com/images/og_pvp_matrix.PNG"
+        },
+        "submit": "Calcular",
+        "swap": "Trocar",
+        "copy": "Copiar",
+        "results": {
+            "description": "Os atacantes que foram escolhidos são mostrados à esquerda na ordem de {{sort}}. Seguem-se as lutas para cada um dos atacantes, com as melhores lutas primeiro e as piores por último. Os números nas formas ovais são o {{sort}} para a partida, com o azul sendo favorável, o vermelho sendo desfavorável e o branco sendo uma partida balanceada",
+            "error": {
+                "title": "Nem Resultado Encontrado",
+                "description": "Nenhum Pokémon correspondeu ao seu resultado. Apenas Pokémons relevantes são cobertos por esta ferramenta. Você provavelmente precisará alterar seu tipo de liga ou escolher um Pokémon mais próximo do CP máximo para esta liga."
+            },
+            "shared": {
+                "title": "Resultado de Matrix Personalizada",
+                "subtitle": "Criada em {{date}}",
+                "description": "Este resultado foi criado pelo usuário #{{userId}}. Você pode verificar diferentes combinações executando suas próprias simulações de matriz grátis!",
+                "params": "Abaixo estão os parâmetros usados para criar este resultado. Você pode criar seu próprio resultado fazendo login e executando uma simulação de matriz"
+            },
+            "share": {
+                "title": "Seu Resultado de Matriz Personalizada",
+                "subtitle": "Criada em {{date}}",
+                "description": "Este resultado foi criado por você. Você pode compartilhar esse resultado com seus amigos que não têm contas Pokebattler!",
+                "params": "Modifique suas configurações de simulação abaixo para ver outras combinações"
+            }
+        },
+        "params": {
+            "addPokemon": "Adicionar Pokémon",
+            "showMoveTypes": "Mostrar Tipos de Movimento",
+            "showPokemonTypes": "Mostrar Tipos de Pokémon",
+            "chooseParty": "Escolher Grupo de Batalha",
+            "requiresSubscription": {
+                "title": "Tamanho Máximo de Matriz alcançado",
+                "description": "Apoie o Pokebattler para voar alto"
+            },
+            "attackerLeague": {
+                "title": "Escolher Atacantes",
+                "subtitle": "Os limites da Matriz são baseados na sua assinatura",
+                "pokemonCategory": {
+                    "title": "Escolha seu Pokémon",
+                    "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokémon",
+                    "description": "Toque em um Pokémon para customizar os movimentos e status."
+                },
+                "pokemonType": {
+                    "title": "Escolha seus Tipos",
+                    "subtitle": "{{numTypes}}/{{maxTypes}} Tipos",
+                    "description": "Adicione todos os Pokémons desses tipos a seus atacantes."
+                }
+            },
+            "defenderLeague": {
+                "title": "Escolha Defensores",
+                "subtitle": "Evolua para simulações de Matriz maiores",
+                "pokemonCategory": {
+                    "title": "Escolha os Pokémons deles",
+                    "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokémon",
+                    "description": "Toque em um Pokémon para personalizar seus movimentos e status."
+                },
+                "pokemonType": {
+                    "title": "Escolha os Tipos deles",
+                    "subtitle": "{{numTypes}}/{{maxTypes}} Tipos",
+                    "description": "Adicione todos os Pokémon desses tipos aos seus defensores."
+                }
+            }
+        }
+    },
+    "rankings": {
+        "title": "Rankings PvP",
+        "description": "Rankings de quais Pokémon da Liga de Batalha Pokémon GO são os mais fortes.",
+        "meta": {
+            "description": "Os rankings da Liga de Batalha Pokémon Go Pokebattler encontram os melhores Pokémon de PvP! Descubra quem é mais forte na Grande Liga, Liga Mestre, Liga Ultra e em todas as Copas Silph!",
+            "image": "https://static.pokebattler.com/images/og_pvp_rankings.PNG"
+        },
+        "welcome": {
+            "title": "A Liga de Batalha PvP de Pokémon GO está chegando!",
+            "paragraph1": "O Pokebattler suporta a Liga de Batalha Go e Copas da Arena Silph. Nossas configurações de Escudo Aleatório são uma ótima maneira de analisar rapidamente qual Pokémon tem vantagem sobre os outros. Mergulhe para ver todos os diferentes cenários de escudo. ",
+            "paragraph2": "As 30 primeiras classificações dão uma ideia do vencedor de um ponto de vista geral. O ranking dos contadores permite que você saiba qual Pokémon venceu os 30 melhores monstros. Finalmente, os links atuais de meta e metamatriz prevista permitem que você veja como os 24 Pokémons mais populares se enfrentam a uma pequena lista de meta Pokémon. A Liga de Batalha PvP de Pokémon GO é muito complexa, mas essas classificações devem ajudá-lo a começar!",
+            "closing": "Esperamos que você esteja tão animado quanto nós sobre o que o PvP traz para o Pokémon Go. Esperamos que essas listas ajudem a orientá-lo na formação de uma equipe forte. O Pokebattler continuará trabalhando para fornecer listas mais refinadas e recursos adicionais de PvP com o passar do tempo.",
+            "link": "Rankings Antigos da Copa Silph"
+        },
+        "old": {
+            "title": "Copas Silph Antigas!",
+            "paragraph1": "As Ligas Silph são torneios pessoais Pokémon Go PvP com regras que variam a cada temporada. Eles têm regras diferentes a cada mês e os melhores Pokémons também mudam!",
+            "paragraph2": "Abaixo estão as Ligas Silph mais antigas que Pokebattler ainda suporta",
+            "closing": "As Ligas Silph são muito divertidas! Espero que essas classificações da Copa Silph ajudem você a ver quais tipos de Pokémon podem ser os melhores, dadas as diferentes regras",
+            "link": "Rankings Atuais do Pokémon GO PvP"
+        },
+        "buttons": {
+            "attacker": "Equilibrado",
+            "defender": "Counters",
+            "gotoRankings": "Ir para Ranking",
+            "predicted": {
+                "label": "Meta Previsto",
+                "description": "Análise de Matriz do Pokémon de nível mais alto "
+            },
+            "current": {
+                "label": "Meta Atual",
+                "description": "Análise de Matriz do Pokémon de nível mais alto "
+            },
+            "defenders": {
+                "label": "Top 30",
+                "description": "Pokémon Mais Difícil de Derrotar"
+            },
+            "attackers": {
+                "label": "Counters",
+                "description": "Melhores Counters do Top 30"
+            },
+            "pokedex": {
+                "label": "Pokedex",
+                "description": "Combinações e Counters para cada Pokémon"
+            }
+        },
+        "featured": {
+            "title": {
+                "attacker": "Média dos Status de Combate Vs. Top 30 Pokémons mais Balanceados",
+                "defender": "Média de Status de Combate Vs. Todos os Pokémons possíveis"
+            },
+            "deepLink": "Ver mais detalhes de {{pokemon}}"
+        },
+        "list": {
+            "title": "Rankings da {{league}} PvP - {{typeSelection}}",
+            "titleBar": "Rankings da {{league}} PvP",
+            "subtitle": "Top 30 {{typeSelection}}",
+            "meta": {
+                "description": "Veja a {{typeSelection}} de Pokémon GO para a {{league}} PvP com classificações de baseadas em simulação personalizada do Pokebattler!",
+                "image": "https://static.pokebattler.com/images/og_pvp_rankings.png"
+            },
+            "descriptions": {
+                "title": "Sobre os Rankings",
+                "text": "Esse ranking PvP {{type}} é baseado na simulação de combate com Pokémons {{league}}. A simulação foi feita com a estratégia de ataque {{strategies.attack}}. $t(common:simulation, {'count': {{numSims}}}) feita com {{details}}.",
+                "help1": "Você pode clicar em qualquer um dos Pokémons abaixo para ver os resultados de diferentes movimentos ou clicar no ícone de agrupamento a partir da direita no canto superior direito para vê-los desagrupados. A ordem de classificação pode ser alterada clicando no ícone de classificação superior direito e selecionando o tipo de classificação de sua preferência.",
+                "helpAlert": "Não tem todos esses movimentos? Altere o Meta de Movimentos acima para ver as classificações não dual e não tm!",
+                "attackers": "Counters",
+                "defenders": "equilibrados",
+                "details": {
+                    "attackers": "todos os Pokémons disponíveis atualmente com todos os movimentos possíveis simulados contra os 30 melhores Pokémons com todos os movimentos possíveis. Os 30 melhores counters com seu melhor movimento baseado em {{sort}} com todos os Pokémon que cada {{shieldStrategy}} foram mantidos e são exibidos aqui.",
+                    "defenders": "cada conjunto de movimentos possível simulado contra Pokémon com todos os conjuntos de movimentos possíveis. Os resultados de todos os combates possíveis foram calculados e os 30 melhores Pokémon bem arredondados com seu melhor moveset baseado em {{sort}} com todos os Pokémon que cada {{shieldStrategy}} foram mantidos e são exibidos aqui."
+                }
+            },
+            "loading": "Gerando {{type}} resultados de classificação. Milhões de simulações foram necessárias para realizar esta análise, mas os resultados sairão. Não recarregue o seu navegador.",
+            "typeSelection": {
+                "label": "Tipo de Ranking",
+                "attacker": "Counters",
+                "defender": "Equilibrado",
+                "attackers": "$t(pvp:rankings.list.typeSelection.attacker)",
+                "defenders": "$t(pvp:rankings.list.typeSelection.defender)"
+            },
+            "settings": {
+                "level": "Níveis dos Pokémons"
+            }
+        }
+    },
+    "pokedex": {
+        "title": "Pokedex {{league}}",
+        "meta": {
+            "description": "Pokémon GO Battle League {{league}} Pokedex é um guia personalizável para qual counter Pokémon {{defender}} e qual Pokémon {{defender}} tem os melhores confrontos de ataque no PVP.",
+            "image": "https://static.pokebattler.com/images/og_pvp_pokedex.jpg"
+        },
+        "intro": "Bem-vindo à Pokebattler Pokémon Go Battle League PvP Pokedex para {{defender}}. Você pode encontrar os melhores movimentos de PvP de {{defender}}, bem como seus confrontos contra os defensores mais comuns em {{league}}. Você também pode encontrar os melhores counters para {{defender}}, bem como os movimentos que ajudam a se defender melhor contra eles. Sinta-se à vontade para alterar as opções abaixo para ver o efeito de diferentes situações de combate ou para alterar a ordem de acordo com sua preferência. Como sempre, os resultados nesta página são gerados pelo Simulador Pokebattler Pokémon Go PvP. Você pode detalhar qualquer simulação individual simplesmente clicando na imagem do Pokémon oponente",
+        "loading": "Gerando análises detalhadas de PvP para {{defender}}. Mais de um milhão de simulações são necessárias para gerar esta página. Não vai demorar muito.",
+        "invalid": "{{defender}} não é considerado parte da {{league}} pelo Pokebattler. Ou seu CP é muito baixo para ser útil ou não é possível obter um que tenha um CP baixo o suficiente para se qualificar ou ele está na lista de banidos. Os resultados abaixo são apenas para entretenimento.",
+        "about": {
+            "title": "Sobre esta análise da Liga de Batalha PvP {{league}} de Pokémon GO",
+            "text1": "Esta análise para {{pokemon}} é baseada na simulação de combate PvP do {{league}}. A simulação de classificação foi executada usando {{shieldStrategy}} com base no tipo de simulação Monte Carlo. Todos os Pokémons possíveis com todos os movimentos possíveis foram considerados para encontrar os melhores counters para derrotar {{defender}}. Até 10 simulações foram realizadas contra cada um dos melhores movimentos para esses counters/combinações para um total de {{simulaçãoCount}} simulações. Os 30 melhores counters, bem como os resultados dos confrontos contra os defensores equilibrados da {{league}} são mostrados aqui com base em {{sort}}.",
+            "text2": "Você pode clicar em qualquer um dos atacantes para ver os resultados de movimentos adicionais. A ordem de classificação pode ser alterada clicando no ícone de classificação no canto superior direito de cada resultado e selecionando o tipo de classificação de sua preferência",
+            "text3": {
+                "text": "Informações adicionais TBD podem ser encontradas em {{link}}",
+                "link": "ajuda"
+            }
+        },
+        "bestAttack": {
+            "title": "Melhores Movimentos em Geral",
+            "subtitle": "Por {{sort}}",
+            "rankingTitle": "Média de estatísticas de combate Vs. Defensores Equilibrados"
+        },
+        "bestDefense": {
+            "title": "Melhores Movimentos Defensivos",
+            "subtitle": "Por {{sort}}",
+            "rankingTitle": "Estatísticas médias de combate dos 6 principais counters Vs {{defender}} "
+        },
+        "attackMatchups": {
+            "title": "Combinações Gerais",
+            "subtitle": "Por {{sort}}",
+            "text": "Abaixo você pode encontrar os confrontos do {{defender}} contra os adversários mais bem treinados do {{league}}. Esta classificação mostra as melhores correspondências em termos de {{sort}} primeiro."
+        },
+        "bestCounters": {
+            "title": "Counters do {{defender}}",
+            "subtitle": "Por {{sort}}",
+            "text": "Os melhores marcadores para {{defender}} na {{league}} estão abaixo. Você encontrará os melhores contadores em termos de {{sort}} no topo desta lista. Esses Pokémon podem não ser bons em geral, mas são os melhores para derrotar {{defender}} "
+        }
+    },
+    "rankingTypes": {
+        "label": "Tipo de Ranking",
+        "attackers": {
+            "label": "Counters",
+            "description": "Os melhores counters os 30 melhores Pokémon equilibrados"
+        },
+        "defenders": {
+            "label": "Equilibrado",
+            "description": "Os 30 melhores Pokémon completos contra todos os oponentes e movimentos possíveis"
+        }
+    },
+    "articles": {
+        "title": "Últimas notícias do PvP!",
+        "subtitle": "Artigos e vídeos dos melhores jogadores PvP"
+    },
+    "navigation": {
+        "leagues": {
+            "COMBAT_LEAGUE_DEFAULT_GREAT": {
+                "title": "Grande Liga",
+                "intro": "A Liga de Batalha de Pokémon Go começa cada temporada com a Grande Liga. É praticamente livre de Lendários e tem uma grande variedade de Pokémons possíveis. É dominado por Pokémon de baixa defesa de ataque como Galarian Stunfisk e Azumarill."
+            },
+            "COMBAT_LEAGUE_DEFAULT_ULTRA": {
+                "title": "Liga Ultra",
+                "intro": "A Liga de Batalha Pokémon GO continua com a Liga Ultra em segundo lugar em cada temporada. A Liga Ultra é um formato Pokémon Go PvP que favorece ataques pesados defensivos como Giratina e Cresselia. A maioria dos Pokémon competitivos é cara para aumentar, mas existem algumas opções de poeira estelar mais baixas."
+            },
+            "COMBAT_LEAGUE_DEFAULT_MASTER": {
+                "title": "Liga Mestre",
+                "intro": "A Liga de Batalha de Pokémon GO terá então o terceiro lugar da Liga Mestre em cada temporada. A Liga Mestre é um formato Pokémon Go PvP sem limites e é dominado por Legendaries defensivos de nível 40 e tipos de dragão com movimentos de carga dupla. Esta é uma liga muito cara para se competir e não é recomendada para iniciantes."
+            }
+        }
+    }
 }
