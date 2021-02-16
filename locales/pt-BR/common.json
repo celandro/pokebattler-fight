@@ -18,12 +18,16 @@
         "attack": "Ataque",
         "defense": "Defesa",
         "stamina": "Resistência",
-        "hp": "Pontos de Vida"
+        "hp": "Pontos de Vida",
+        "individualAttack": "$t(common:stats.attack)",
+        "individualDefense": "$t(common:stats.defense)",
+        "individualStamina": "$t(common:stats.stamina)"
     },
     "statsAbbr": {
         "attack": "Atk",
         "defense": "Def",
-        "hp": "PS"
+        "hp": "PS",
+        "stamina": "Sta"
     },
     "level": "Nível",
     "basic": "Básico",
@@ -57,7 +61,12 @@
         "estimator": "Estimador",
         "tdo": "Dano (TDO)",
         "level": "$t(common:level)",
-        "maxCP": "Máximo $t(common:cp)"
+        "maxCP": "Máximo $t(common:cp)",
+        "recent": "Recente",
+        "dpe": "DPE",
+        "eps": "EPS",
+        "rank": "Rank",
+        "points": "Pontos"
     },
     "sectionLinks": {
         "help": "Seção de ajuda",
@@ -75,7 +84,7 @@
     "name": "Nome",
     "nickname": "Apelido",
     "faction": "Time",
-    "mystic": "Mystic",
+    "mystic": "Místico",
     "valor": "Valor",
     "instinct": "Instinct",
     "ivs": "IVs",
@@ -90,7 +99,7 @@
     "login": "Login",
     "trainer": "Treinador",
     "more": "Mais",
-    "pokemon": "Pokemon",
+    "pokemon": "Pokémon",
     "status": {
         "add": "Adicionando",
         "edit": "Editando",
@@ -100,7 +109,10 @@
         "success": "Sucesso",
         "error": "Erro",
         "bulk": "Importando",
-        "newVersion": "Nova Versão"
+        "newVersion": "Nova Versão",
+        "subscription": "Assinatura",
+        "calculating": "Calculando",
+        "share": "Compartilhar"
     },
     "message": {
         "bulk": "Importando em massa {{num}} pokemons, isso pode levar um tempo",
@@ -108,12 +120,33 @@
         "deleteAll": "Removendo todos os Pokemons da sua Pokebox",
         "update": "Atualizando seu pokemon",
         "success": "Sucesso",
-        "error": "Ops, algo deu errado. Tente novamente em alguns segundos",
-        "newVersion": "Uma nova versão está disponível, recarregue seu navegador"
+        "error": "Ops, algo deu errado. Tente novamente em alguns segundos.",
+        "newVersion": "Uma nova versão está disponível, recarregue seu navegador.",
+        "subscriptionStripe": "Verificando credenciais",
+        "subscriptionPokebattler": "Comprando assinatura",
+        "subscriptionSuccess": "Assinatura realizada com sucesso",
+        "subscriptionStripeFailure": "Credenciais rejeitadas",
+        "subscriptionPokebattlerFailure": "Não foi possível realizar a assinatura",
+        "subscriptionCancel": "Cancelando assinatura",
+        "subscriptionRenew": "Renovando assinatura",
+        "subscriptionCardUpdate": "Atualizando informações de pagamento",
+        "subscriptionCardUpdateSuccess": "Informações de pagamento atualizados",
+        "subscriptionCardUpdateFailure": "Impossível atualizar informações de pagamento",
+        "calculating": "Ainda calculando. {{elapsed}} segundos até agora.",
+        "clipboard": "Copiado!",
+        "share": "Compartilhe com Seus Amigos",
+        "network": "Erro de rede. É necessário se conectar à internet para usar este aplicativo.",
+        "serverDown": "Os servidores do Pokebattler estão indisponíveis. A situação será normalizada em breve.",
+        "appUpdate": "Pequena falha ao atualizar. Tentaremos novamente na próxima vez que o aplicativo for aberto.",
+        "newAppVersion": "Baixando a nova atualização, atualizando em 15s...",
+        "updateNow": "Atualizar Agora"
     },
     "site": {
         "beta": "Site Beta",
-        "www": "Site Principal"
+        "www": "Site Principal",
+        "alpha": "Site Alfa",
+        "admin": "Site Admin",
+        "store": "Produtos Oficiais"
     },
     "candy": {
         "title": "Doce Disponível"
@@ -141,7 +174,8 @@
         "ad3": "Otimize suas Reides. Registre-se no Patreon para resultados mais precisos e funcionalidades especiais.",
         "ad4": "Ama o Pokebattler? Mantenha-nos rodando sem propaganda. Registre-se no Patreon hoje e ganhe mais espaço, resultados melhores, ferramentas exclusivas e mais.",
         "ad5": "Pokebattler é possível pelos nossos apoiadores no Patreon. Registre-se hoje com uma conta grátis para 25 posições extras na Pokebox.",
-        "ad6": "Leve seu jogo ao próximo nível com uma conta Patreon do Pokebattler. Registre-se agora."
+        "ad6": "Leve seu jogo ao próximo nível com uma conta Patreon do Pokebattler. Registre-se agora.",
+        "shortAd": "Cansou dos anúncios? Faça sua assinatura hoje!"
     },
     "quickMoves": "Ataques Ágeis",
     "specialMoves": "Ataques Carregados",
@@ -163,7 +197,7 @@
             "tools": "Ferramentas",
             "battle": "Batalha",
             "simulator": "Simulador",
-            "pokedex": "Pokedex",
+            "pokedex": "Pokedéx",
             "raids": "Reides",
             "personal": "Pessoal",
             "trainer": "Treinador",
@@ -181,7 +215,16 @@
             "raidAdvice": "Conselho de Reide",
             "misc": "Misc.",
             "translate": "Tradução",
-            "counters": "Oponentes"
+            "counters": "Oponentes",
+            "home": "Página Inicial",
+            "terms": "Termos",
+            "rocket": "Equipe Rocket",
+            "pvprankings": "$t(pvp)",
+            "pvppokedex": "$t(pvp)",
+            "profiles": "Perfis Públicos",
+            "matrix": "Matrix",
+            "subscription": "Assinatura",
+            "attackers": "Atacantes"
         },
         "description": {
             "gym": "Simulações de Batalhas de Ginásios, Pokedex e Rankings",
@@ -189,7 +232,13 @@
             "help": "Tutoriais, Termos e Definições",
             "more": "Notícias, Artigos, Traduções, Como nos contatar e Mais",
             "raids": "Principais Oponentes, Simulações de Grupos de Batalhas de Reide e Conselho de Fortalecimento",
-            "account": "Customize o Pokebattler Ao Adicionar Pokemon A Sua Pokebox e Grupos de Batalhas"
+            "account": "Customize o Pokebattler Ao Adicionar Pokemon A Sua Pokebox e Grupos de Batalhas",
+            "rocket": "Counters Precisos da Equipe Rocket",
+            "pvppokedex": "$t(pvp) Counters e Partidas para cada Pokémon",
+            "pvprankings": "Os melhores Counters e Partidas para Ligas $t(pvp) e Copa Silph",
+            "pvpsimulator": "Simulador de Grupo de Batalha $t(pvp)",
+            "pvpmatrix": "Resultados personalizados de seus Pokémons vs. os Pokémons deles",
+            "profiles": "Saiba quais Pokémons seu amigo tem na Pokebox"
         },
         "tooltip": {
             "gym": "Simulações de batalhas de ginásios, Pokedex, Rankings de atacantes e defensores e mais para Pokemon Go",
@@ -198,6 +247,17 @@
             "help": "...",
             "account": "...",
             "more": "Leia Notícias e Artigos, baixe infográficos, ajude-nos com traduções, sobre nós, e política de privacidade para Pokebattler para Pokemon Go"
+        },
+        "menu": "Menu",
+        "index": "Pokebattler.com",
+        "patreon": "Apoie-nos no Patreon",
+        "subscription": "Faça uma assinatura para apoiar o Pokebattler",
+        "social": {
+            "reddit": "Reddit",
+            "facebook": "Facebook",
+            "twitter": "Twitter",
+            "youtube": "YouTube",
+            "instagram": "Instagram"
         }
     },
     "randomAssistants": {
@@ -212,5 +272,88 @@
     "clear": "Limpar",
     "specialMove2": "Ataque Carregado 2",
     "shieldStrategy": "Uso de Escudos",
-    "find": "Encontrar"
+    "find": "Encontrar",
+    "languageSupport": {
+        "self": "Inglês",
+        "en": "Inglês",
+        "es": "Espanhol",
+        "de": "Alemão",
+        "jp": "Japonês",
+        "fr": "Francês",
+        "it": "Italiano",
+        "pl": "Polonês",
+        "ja": "Japonês",
+        "ko": "Coreano",
+        "pt": "Português",
+        "ru": "Russo",
+        "zh": "Chinês",
+        "bg": "Búlgaro",
+        "hu": "Húngaro",
+        "nl": "Holandês",
+        "bn": "Bengali"
+    },
+    "buttons": {
+        "okay": "Ok",
+        "create": "Criar"
+    },
+    "placeholders": {
+        "dropdown": {
+            "required": "Escolha",
+            "optional": "Opcional"
+        }
+    },
+    "id": "ID",
+    "includeShadow": "Mostrar Pokémons Sombrosos",
+    "includeLegendary": "Mostrar Pokémons Lendários",
+    "includeTypes": "Mostrar Pokémons por Tipo",
+    "discordName": "Usuário Discord",
+    "upgrade": "Faça um upgrade na sua conta",
+    "battlePartyType": "Tipo de Grupo de Batalha",
+    "profiles": "Perfis",
+    "share": {
+        "title": "Se liga nessa página do Pokebattler! ",
+        "url": "Compartilhar esta página"
+    },
+    "genericError": {
+        "title": "$t(common:status.error)",
+        "description": "$t(common:message.error)"
+    },
+    "monteCarlo": {
+        "title": "Tipo de Simulação",
+        "description": "Escolha entre executar uma única simulação aleatória ou a média de várias simulações"
+    },
+    "errors": {
+        "title": "Ops! Você encontrou um bug!",
+        "description": "O Pokebattler.com tenta o melhor para ser o mais livre de bugs possível, mas você pode nos ajudar! Há um número virtualmente infinito de URLs possíveis no site e não conseguimos testar todos. Contamos com seus relatórios para encontrar e corrigir problemas!",
+        "fix": "Normalmente, esse erro desaparece se você clicar em Pokebattler no canto superior esquerdo e depois em recarregar.",
+        "autoReport": "As informações a seguir sobre esse erro foram relatadas automaticamente.",
+        "contactUs": "Se você deseja falar com a gente sobre o erro, envie as seguintes informações para ",
+        "small": "Normalmente, este erro desaparece se você clicar em Pokebattler no canto superior e esquerdo e depois em recarregar. Informações sobre este erro já foram reportadas.",
+        "url": "URL",
+        "error": "Erro",
+        "info": "Info",
+        "message": "Mensagem",
+        "stack": "Acúmulo"
+    },
+    "loading": {
+        "wait": "Carregando...",
+        "timeout": "Está demorando mais que o normal...",
+        "error": "Desculpe, houve um problema ao carregar a página. Verifique sua conexão.",
+        "retry": "Repetir"
+    },
+    "legacyDate": "{{legacyDate,shortDate}}",
+    "search": "Busca",
+    "update": "Atualizar",
+    "version": "Versão {{version}}",
+    "auto": "Auto",
+    "includeMegas": "Mostrar Pokémons Mega",
+    "harmony": "Harmony",
+    "mega": "Mega",
+    "megas": "Megas",
+    "numMegas": {
+        "title": "Megas Adicionais",
+        "description": "O número de Megas adicionais trazidos por outros jogadores. Os Megas serão atordoados para aumentar o tempo do mega buff."
+    },
+    "friendCode": "Código de Amizade",
+    "choosePokemonLabel": "Escolher Pokémon"
 }
