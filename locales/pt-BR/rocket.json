@@ -16,8 +16,17 @@
         "title": "Atacantes para {{defender}}",
         "analysis": {
             "attackers": {
-                "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
-            }
+                "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}",
+                "byLevel": "Atacantes nível {{attackerLevel}}"
+            },
+            "title": "Sobre esta Análise"
+        },
+        "counters": {
+            "title": "Counters",
+            "chooseMovesetLabel": "Escolher Ataques"
+        },
+        "hardestMovesets": {
+            "subtitle": "Para {{pokemon}} por {{sort}}"
         }
     },
     "meta": {
