@@ -2,7 +2,7 @@
     "linkLabel": "Guia de Reides",
     "results": {
         "counters": {
-            "title": "adversários",
+            "title": "Counters",
             "moveSetOrderingDescription": "Os ataques estão ordenados do mais difícil para o mais fácil, certifique-se de marcar múltiplos, os resultados podem variar bastante!",
             "chooseMovesetLabel": "Escolher Ataques",
             "subtitle": "Melhores Atacantes Fortalecidos por",
@@ -20,11 +20,15 @@
                 "byLevel": "Atacantes nível {{attackerLevel}}",
                 "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
             },
-            "description": "Esta recomendação de reide foi baseada através da simulação de combate de um {{defender.pokemon}} defendendo com {{defender.cp}} PC e {{attackers}}. A simulação rodou com a estratégia de ataque {{attackStrategy}} baseada no tipo de simulação {{defenseStrategy}}. {{numSims}} simulações foram executadas com cada possível combinação de ataques  de {{defender.pokemon}} simuladas contra todos os Pokemons com todos os ataques possíveis. Os melhores 20 atacantes com seus melhores ataques de acordo com {{sort}} foram mantidos e são mostrados aqui. Você pode clicar em qualquer dos atacantes para ver a simulação que foi executada e tentar diferentes ataques."
+            "description": "Esta recomendação de reide foi baseada através da simulação de combate de um {{defender.pokemon}} defendendo com {{defender.cp}} PC e {{attackers}}. A simulação rodou com a estratégia de ataque {{attackStrategy}} baseada no tipo de simulação {{defenseStrategy}}. {{numSims}} simulações foram executadas com cada possível combinação de ataques de {{defender.pokemon}} simuladas contra todos os Pokemons com todos os ataques possíveis. Os melhores 20 atacantes com seus melhores ataques de acordo com {{sort}} foram mantidos e são mostrados aqui. Você pode clicar em qualquer dos atacantes para ver a simulação que foi executada e tentar diferentes ataques."
         },
         "title": "Recomendação de Reides para {{attacker}} x {{defender}}",
         "calculating": "Calculando Recomendação de Reides",
-        "description": "Bem-vindo à recomendação de reide do Pokebattler para {{pokemon}}. Você pode ver o melhor atacante potencial de acordo com os ataques de cada chefe de reide. Este guia é customizado de diversas formas diferentes. Você pode escolher o nível e estratégia de ataque que você deseja usar assim como diversas opções de ordenação. Você também pode escolher a quantidade de poeira estelar e doces tem disponível."
+        "description": "Bem-vindo à recomendação de reide do Pokebattler para {{pokemon}}. Você pode ver o melhor atacante potencial de acordo com os ataques de cada chefe de reide. Este guia é customizado de diversas formas diferentes. Você pode escolher o nível e estratégia de ataque que você deseja usar assim como diversas opções de ordenação. Você também pode escolher a quantidade de poeira estelar e doces tem disponível.",
+        "meta": {
+            "description": "Os resultados Pokemon Go Raid Advice encontram os melhores Pokémons do {{attacker}} vs. {{defender}}. Ganhe poder para derrotar todos os Chefes de Reide.",
+            "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+        }
     },
     "title": "Recomendação de Reide",
     "pokeboxRequired": "A Recomendação do Pokebattler requer que você entre seus Pokemons na sua Pokebox para funcionar corretamente. Basta logar e adicionar seus Pokemons mais fortes na sua Pokebox para ajudar a encontrar o melhor pokemon para fortalecer.",
@@ -41,11 +45,24 @@
         "summaryEnd": "Resultados de Fortalecer",
         "graphTitle": "{{yAxis}} Versus {{xAxis}}",
         "detail": "Resultados Detalhados para cada Fortalecer",
-        "back": "Voltar aos Ajustes de Recomendação"
+        "back": "Voltar aos Ajustes de Recomendação",
+        "title": "Detalhes de Reide recomendados para {{attacker}} vs {{defender}}",
+        "meta": {
+            "description": "Os detalhes do Pokemon Go Raid Advice para {{attacker}} vs. {{defender}} mostram os breakpoints e a eficiência da Poeira Estelar",
+            "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
+        },
+        "subTitle": "{{attacker}} vs. {{defender}}",
+        "powerUpDialog": {
+            "title": "Power Up",
+            "description": "Você quer usar Power Up {{pokemon}}{{powerUps}} vez(es) a {{cp}}?",
+            "submit": "Sim",
+            "cancel": "Não"
+        }
     },
     "raidLink": "Veja este resultado sem os Fortalecer",
     "helpLink": "Assista o vídeo tutorial do Recomendação de Reides",
     "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+        "image": "https://static.pokebattler.com/images/og_raid_advice.jpg",
+        "description": "O Pokémon Go Raid Advice ajuda você a descobrir qual Pokémon usar para derrotar os Chefes de Reide e gastar Doces e Poeira Estelar com mais eficiência"
     }
 }
