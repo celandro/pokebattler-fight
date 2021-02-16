@@ -91,5 +91,7 @@
     "needsFriend": "Enviar Solicitud de Amistad",
     "createPartyOverlay": {
         "title": "Crear equipo de incursión"
-    }
+    },
+    "raidParties": "$t(raidParties:title)",
+    "confirmFriend": "Confirmar amigo"
 }
