@@ -21,6 +21,8 @@
         "meta": {
             "description": "Pokebattler News as últimas notas de versão do Pokemon Go Simulator mais preciso do mundo ",
             "image": "https://static.pokebattler.com/images/og_more_news.jpg"
-        }
+        },
+        "old": "Notícias Antigas",
+        "new": "Notícias Recentes"
     }
 }
