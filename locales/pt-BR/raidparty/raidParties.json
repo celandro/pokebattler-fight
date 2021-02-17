@@ -74,6 +74,60 @@
             "joinDescription": "O grupo de reide dentro deste aplicativo estará disponível em breve, mas por enquanto você pode criar reides em nosso Discord usando o comando `$ rr boss`",
             "joinButton": "Entrar no Discord do Pokebattler Raid Party",
             "beConsiderate": "Por favor, tenha consideração com os servidores nos quais você está entrando e tenha o melhor comportamento possível! Jogadores abusivos, conduta desordeira e jogadores que não coordenam com a reide serão banidos permanentemente."
+        },
+        "raidHost": {
+            "title": "Reides Pokebattler Raid Party App",
+            "subtitle": "Hospedando uma reide",
+            "description": "Hospedar uma reide no aplicativo Pokebattler é mais simples do que você pensa! As reides no aplicativo são projetadas para ser um fluxo guiado para ajudar o ataque a ter sucesso. O Pokebattler dirá a todos os membros do grupo o que fazer e avisará se o seu grupo vencerá!",
+            "description2": "Primeiro, escolha seu nível de privacidade, nível de ataque e chefe de ataque e clique em Jogar. Sua reide estará disponível para entrar imediatamente para amigos no aplicativo. Se você escolheu global, todos os usuários de aplicativos e servidores de discórdia na rede de reides serão notificados e poderão entrar após alguns segundos",
+            "description3": "Conforme os jogadores entram, seu código de amigo será automaticamente compartilhado com eles e eles serão informados de que precisam enviar convites de amigos no Pokémon Go. Conforme os usuários enviam convites, eles serão marcados como prontos e você receberá uma notificação para que você saiba para verificar seus convites",
+            "description4": "Última etapa, volte para o aplicativo Pokebattler Raid Party e quando estiver pronto, clique em Ir!",
+            "advanced": "Avançado",
+            "advanced1": "Agora que você sabe o básico, há muito mais recursos incluídos na hospedagem para jogadores que realmente desejam fazer reides com confiança",
+            "advanced2": "As configurações padrão foram escolhidas em seu nome, mas clique no botão editar para configurar a reide de acordo com sua preferência.",
+            "options": {
+                "weatherCondition": {
+                    "label": "Condições do tempo",
+                    "description": "Se meteoros são realmente esperados, mantenha o clima em Extremo. Caso contrário, escolha o clima adequado!"
+                },
+                "quickMove": {
+                    "label": "Movimento Rápido",
+                    "description": "O movimento rápido do chefe. Honestamente, você provavelmente errará se escolher"
+                },
+                "cinematicMove": {
+                    "label": "Movimento de carga",
+                    "description": "O movimento de carga do chefe. Se você de alguma forma sabe que um movimento elétrico está chegando, você pode escolher isto"
+                },
+                "privacy": {
+                    "label": "Privacidade",
+                    "description": "Ao criar um grupo, você pode escolher quem pode participar. Qualquer pessoa pode participar do Global. Amigos podem ser chamados por seus amigos. Um grupo privado só pode ser acessado por uma identificação de grupo."
+                },
+                "maxInvites": {
+                    "label": "Máximo de convites",
+                    "description": "Número de jogadores que você pode convidar para a reide"
+                },
+                "randomAssistants": {
+                    "label": "Jogadores Extra",
+                    "description": "Número de jogadores extras que estão entrando na reide e não estão usando o aplicativo"
+                }
+            }
+        },
+        "raidPlayer": {
+            "title": "Reides do Pokebattler Raid Party",
+            "subtitle": "Participando de uma Reide",
+            "description": "Existem dois tipos de reides em que você pode participar na Pokebattler Raid Network",
+            "description2": "As reides Pokebattler estão hospedadas neste aplicativo e oferecem suporte a um fluxo de ataque guiado. As Reides no discord são hospedadas dentro de comunidades de parceiros Discord e oferecem suporte a bate-papo.",
+            "appRaid": "Reides Pokebattler",
+            "appRaid1": "Ao ingressar em uma Reide Pokebattler, existem etapas simples a seguir",
+            "appRaid1Step1": "Selecione se você é local ou remoto.",
+            "appRaid1Step2": "Se remoto, o código do treinador do host é copiado automaticamente para você. Entre no Pokémon Go, adicione um amigo e cole o código",
+            "appRaid1Step3": "Volte ao aplicativo Pokebattler Raid Party e clique em Convite de amigo enviado",
+            "appRaid2": "Agora você está pronto para atacar! Quando o host iniciar a invasão, você receberá uma notificação e uma contagem regressiva aparecerá",
+            "discordRaid": "Reides no Discord",
+            "discordRaid1": "Pokebattler Raid Network oferece suporte ao bot PokeNav e ao bot Nexus.",
+            "discordRaid2": "Quando você entra em uma Reide do Discord, o Pokebattler o envia automaticamente para o canal do ataque e adiciona você à reide do Discord",
+            "discordRaid3": "Comunique-se dentro do Discord com os membros da reide!",
+            "discordRaid4": "Reides do Discord requerem que o aplicativo Discord seja instalado em seu dispositivo. As instruções para usar os bots podem ser encontradas em seus sites"
         }
     },
     "raidPartySummaryCard": {
@@ -92,7 +146,9 @@
         },
         "GLOBAL": {
             "instructions": "Sua reide global está disponível para qualquer pessoa participar! Procure pedidos de amizade no jogo. Assim que tiver jogadores suficientes, comece a contagem regressiva"
-        }
+        },
+        "friendInviteSent": "Solicitação de amizade enviada",
+        "confirmFriend": "Confirme a amizade com {{name}}"
     },
     "raidPartyUserStatus": {
         "READY": {
@@ -127,5 +183,12 @@
     "countdownDone": "Ir",
     "goCommandInstruction": "Tocar em IR encerrará a reide para jogadores adicionais e notificará todos os jogadores de que a reide está começando! Certifique-se de ter aceitado todos os convites de amigos. Depois de tocar em IR, você não pode mais voltar!",
     "raidStarting": "A reide está começando, entre agora!",
-    "raidStartingOwner": "O que você está esperando? É sua responsabilidade iniciar a reide agora! Copie os nomes dos treinadores e convide todos para a reide no jogo!"
+    "raidStartingOwner": "O que você está esperando? É sua responsabilidade iniciar a reide agora! Copie os nomes dos treinadores e convide todos para a reide no jogo!",
+    "startRaidIn": "Iniciar reide em",
+    "clipboard": {
+        "friendCodeCopied": "Código de amigo de {{ownerName}} copiado! Copie-o no jogo para convidar um amigo!",
+        "attackersCopied": "Atacantes sugeridos copiados! Cole-os em sua pesquisa de grupos de batalha no jogo!",
+        "partyTrainersCopied": "Nomes dos treinadores prontos para a invasão copiados! Cole o texto no seu jogo e convide-os para a sua reide!",
+        "copyAttackers": "Atacantes Cópia"
+    }
 }
