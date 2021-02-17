@@ -1,10 +1,259 @@
 {
     "breakingNews": {
-        "title": "último minuto"
+        "title": "último minuto",
+        "subtitle": "Invasões Equipe Rocket em Pokémon Go",
+        "header": "$t(constants:pokemon.{{pokemonId}}) Counters Rocket"
     },
     "tierList": {
         "RAID_LEVEL_6_LEGACY": {
-            "title": "Nivel 6 - herdado"
+            "title": "Nivel 6 - herdado",
+            "subtitle": "Batalhas Sombrosas Míticas - Difícil",
+            "intro": "Essas batalhas não estão atualmente nas rotações da Equipe Rocket"
+        },
+        "common": {
+            "boss": "Invasão Sombrosa",
+            "raidTier": "Nível Sombroso"
+        },
+        "RAID_LEVEL_1": {
+            "title": "Nível Rocket 1",
+            "subtitle": "Batalhas Sombrosas Comuns",
+            "intro": "As batalhas Rocket de nível 1 são mais fáceis e devem ser vencidas por qualquer um que use counters apropriados. Essas batalhas são contra Pokémons de nível 27 com bônus para jogadores de nível 40. Jogadores de nível inferior enfrentarão Pokémons mais fáceis"
+        },
+        "RAID_LEVEL_1_FUTURE": {
+            "title": "Futuro Nível Rocket 1",
+            "subtitle": "Batalhas Sombrosas Comuns",
+            "intro": "Nosso melhor palpite de futuras invasões da Equipe Rocket nível 1"
+        },
+        "RAID_LEVEL_1_LEGACY": {
+            "title": "Nível Legacy Rocket 1",
+            "subtitle": "Batalhas Sombrosas Comuns",
+            "intro": "Essas batalhas não estão atualmente nas rotações da Equipe Rocket."
+        },
+        "RAID_LEVEL_2": {
+            "title": "Nível Rocket 2",
+            "subtitle": "Batalhas Sombrosas Raras",
+            "intro": "As batalhas Rocket de nível 2 são difíceis, mas devem ser vencidas por qualquer um usando counters apropriados. Essas batalhas são contra Pokémons de nível 30 com bônus para jogadores de nível 40. Jogadores de nível inferior enfrentarão Pokémons mais fáceis"
+        },
+        "RAID_LEVEL_2_FUTURE": {
+            "title": "Futuro Rocket Nível 2",
+            "subtitle": "Batalhas Sombrosas Raras",
+            "intro": "Nosso melhor palpite de futuras invasões da Equipe Rocket nível 2"
+        },
+        "RAID_LEVEL_2_LEGACY": {
+            "title": "Nível Legado Rocket 2",
+            "subtitle": "Batalhas Sombrosas Raras",
+            "intro": "Essas batalhas não estão atualmente nas rotações da Equipe Rocket."
+        },
+        "RAID_LEVEL_3": {
+            "title": "Rocket Nível 3",
+            "subtitle": "Batalhas Sombrosas Lendárias",
+            "intro": "Batalhas Rocket nível 3 não existem atualmente"
+        },
+        "RAID_LEVEL_4": {
+            "title": "Rocket Nível 4",
+            "subtitle": "Batalhas Sombrosas Lendárias - Difícil",
+            "intro": "Batalhas Rocket nível 4 não existem atualmente"
+        },
+        "RAID_LEVEL_5": {
+            "title": "Rocket Nível 5",
+            "subtitle": "Batalhas Sombrosas Míticas",
+            "intro": "Batalhas Rocket nível 5 não existem atualmente"
+        },
+        "RAID_LEVEL_6": {
+            "title": "Rocket Nível 3",
+            "subtitle": "Batalhas Sombrosas Míticas - Difícil",
+            "intro": "Batalhas Rocket Nível 5 não existem atualmente"
+        },
+        "RAID_LEVEL_UNSET": {
+            "title": "Nível Rocket?",
+            "subtitle": "Batalhas Sombrosas Desconhecidas",
+            "intro": "Esses Pokémons Sombrosos farão parte das futuras invasões da Equipe Rocket. Use isso se uma nova invasão tiver surgido e o site ainda não tiver sido atualizado. Você também pode usar esta seção para analisar o que aconteceria se você também tivesse uma invasão lendária do Squirtle Sombroso da Equipe Rocket!"
+        },
+        "RAID_LEVEL_3_LEGACY": {
+            "title": "Nível Legacy Rocket 3",
+            "subtitle": "Batalhas Sombrosas Lendárias",
+            "intro": "Essas batalhas não estão atualmente nas rotações da Equipe Rocket."
+        },
+        "RAID_LEVEL_4_LEGACY": {
+            "title": "Nível Legacy Rocket 4",
+            "subtitle": "Batalhas Sombrosas Lendárias - Difícil",
+            "intro": "Essas batalhas não estão atualmente nas rotações da Equipe Rocket."
+        },
+        "RAID_LEVEL_5_LEGACY": {
+            "title": "Nível Legacy Rocket 5",
+            "subtitle": "Batalhas Sombrosas Míticas",
+            "intro": "Essas batalhas não estão atualmente nas rotações da Equipe Rocket"
+        },
+        "CHARACTER_EXECUTIVE_CLIFF": {
+            "title": "Cliff Executivo",
+            "subtitle": "Líder da Equipe Rocket Team GO ",
+            "intro": "Minha força vem da minha lealdade à Equipe GO Rocket.",
+            "intro2": "Farei tudo e qualquer coisa pela Equipe GO Rocket.",
+            "intro3": "Devo minha vida ao chefe. Eu faria qualquer coisa por ele.",
+            "intro4": "A equipe GO Rocket me salvou. É hora de retribuir o favor!",
+            "intro5": "Adicione meu nome à sua lista de fraquezas."
+        },
+        "CHARACTER_EXECUTIVE_SIERRA": {
+            "title": "Sierra Executiva",
+            "subtitle": "Líder Equipe Rocket GO",
+            "intro": "Eu invejo você - você vai lutar comigo!",
+            "intro2": "Esta será uma batalha que tenho certeza que você nunca vai esquecer.",
+            "intro3": "Não é nenhuma novidade, mas você não tem a menor chance.",
+            "intro4": "Você não está a altura de minhas habilidades, docinho.",
+            "intro5": "Espero que goste do sabor do fracasso!"
+        },
+        "CHARACTER_EXECUTIVE_ARLO": {
+            "title": "Arlo Executivo",
+            "subtitle": "Líder da Equipe Rocket GO",
+            "intro": "É hora de aprender qual é o seu lugar.",
+            "intro2": "Eu nunca perco.",
+            "intro3": "Prepare-se para um mundo de dor.",
+            "intro4": "A arrogância leva ao fracasso.",
+            "intro5": "Sua derrota vem com asas rápidas."
+        },
+        "CHARACTER_GIOVANNI": {
+            "title": "Giovanni",
+            "subtitle": "O Chefe",
+            "intro": "Não vou tolerar sua interferência.",
+            "intro2": "Você não pode me impedir... mas estou me divertindo com sua tentativa.",
+            "intro3": "Seu professor não o preparou para o que está por vir.",
+            "intro4": "Você chegou até aqui. Deixe-me ver o quão forte você é.",
+            "intro5": "Você nunca derrotará a Equipe GO Rocket."
+        },
+        "CHARACTER_NORMAL_GRUNT_MALE": {
+            "title": "Recruta Normal ♂",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Normal não significa fraco."
+        },
+        "CHARACTER_FIGHTING_GRUNT_FEMALE": {
+            "title": "Recruta Lutadora ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Este bônus físico não é apenas para exibição!"
+        },
+        "CHARACTER_FLYING_GRUNT_FEMALE": {
+            "title": "Recruta Voador ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Lute contra meu Pokémon do tipo Voador!"
+        },
+        "CHARACTER_POISON_GRUNT_FEMALE": {
+            "title": "Recruta Veneno ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Enrolado e pronto para atacar!"
+        },
+        "CHARACTER_GROUND_GRUNT_MALE": {
+            "title": "Recruta Terra ♂",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Farei você beijar o chão"
+        },
+        "CHARACTER_ROCK_GRUNT_MALE": {
+            "title": "Recruta Pedra ♂",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "As pedras vão rolar!"
+        },
+        "CHARACTER_BUG_GRUNT_MALE": {
+            "title": "Recruta Inseto ♂",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Vá, meu Pokémon super inseto!"
+        },
+        "CHARACTER_GHOST_GRUNT_MALE": {
+            "title": "Recruta Fantasma ♂",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "He... he... he... he... he... he!"
+        },
+        "CHARACTER_FIRE_GRUNT_FEMALE": {
+            "title": "Recruta Fogo ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Você sabe o quão quente o fogo do Pokémon pode ficar?"
+        },
+        "CHARACTER_ICE_GRUNT_FEMALE": {
+            "title": "Recruta Gelo ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Você vai congelar na base"
+        },
+        "CHARACTER_WATER_GRUNT_MALE": {
+            "title": "Recruta Água ♂",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Essas águas são traiçoeiras!"
+        },
+        "CHARACTER_WATER_GRUNT_FEMALE": {
+            "title": "Recruta Água ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Essas águas são traiçoeiras!"
+        },
+        "CHARACTER_GRASS_GRUNT_MALE": {
+            "title": "Recruta Grama ♂",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Não se meta com a gente!"
+        },
+        "CHARACTER_ELECTRIC_GRUNT_FEMALE": {
+            "title": "Recruta Elétrico ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Prepare-se para ficar chocado!"
+        },
+        "CHARACTER_PSYCHIC_GRUNT_MALE": {
+            "title": "Recruta Psíquico ♂",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Você tem medo dos que usam poderes invisíveis?"
+        },
+        "CHARACTER_DRAGON_GRUNT_FEMALE": {
+            "title": "Recruta Dragão ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "ROAR! ...O que você acha desse som?"
+        },
+        "CHARACTER_GRUNT_MALE": {
+            "title": "Recruta Inicial",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Não se preocupe - eu já ganhei",
+            "intro2": "Prepare-se para ser derrotado",
+            "intro3": "A vitória é para os vencedores"
+        },
+        "CHARACTER_GRUNT_FEMALE": {
+            "title": "Recruta Difícil",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Não se preocupe - eu já ganhei",
+            "intro2": "Prepare-se para ser derrotado",
+            "intro3": "A vitória é para os vencedores"
+        },
+        "CHARACTER_DECOY_GRUNT_MALE": {
+            "title": "Recruta Decoy ♂",
+            "subtitle": "Chefe Decoy",
+            "intro": "Te enganei, idiota.",
+            "intro2": "Eu não acredito que você caiu nessa!",
+            "intro3": "Em nome do chefe, vou destruir você!",
+            "intro4": "Você nunca vai chegar até ele!",
+            "intro5": "É bom ver você decepcionado."
+        },
+        "CHARACTER_DECOY_GRUNT_FEMALE": {
+            "title": "Recruta Decoy ♀",
+            "subtitle": "Chefe Decoy",
+            "intro": "Te enganei, idiota.",
+            "intro2": "Eu não acredito que você caiu nessa!",
+            "intro3": "Em nome do chefe, vou destruir você!",
+            "intro4": "Você nunca vai chegar até ele!",
+            "intro5": "É bom ver você decepcionado."
+        },
+        "CHARACTER_GRUNTB_MALE": {
+            "title": "James",
+            "subtitle": "Balão Equipe GO Rocket",
+            "intro": "Para unir as pessoas da nossa nação!",
+            "intro2": "Para estender nosso poder às estrelas!",
+            "intro3": "Ei, você gostaria de se juntar à Equipe Rocket?",
+            "intro4": "Você vai se arrepender!",
+            "intro5": "Renda-se agora ou prepare-se para lutar!"
+        },
+        "CHARACTER_GRUNTB_FEMALE": {
+            "title": "Jessie",
+            "subtitle": "Balão Equipe GO Rocket",
+            "intro": "Para proteger o mundo da devastação!",
+            "intro2": "Para denunciar os males da verdade e do amor!",
+            "intro3": "Ei, você quer se juntar à Equipe Rocket?",
+            "intro4": "O Persian do Chefe é tão elegante...",
+            "intro5": "Quem são esses líderes da equipe GO Rocket, afinal?"
+        },
+        "CHARACTER_DARK_GRUNT_FEMALE": {
+            "title": "Recruta Sombrio ♀",
+            "subtitle": "Equipe GO Rocket",
+            "intro": "Onde quer que haja luz, também haverá sombra."
         }
     },
     "results": {
@@ -19,22 +268,57 @@
                 "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}",
                 "byLevel": "Atacantes nível {{attackerLevel}}"
             },
-            "title": "Sobre esta Análise"
+            "title": "Sobre esta Análise",
+            "description": "Esta análise de Batalha da Equipe Rocket foi baseada na simulação de combate com um {{defender.pokemon}} de defesa com {{defender.cp}} CP e {{attackers}}. A simulação foi executada com um simulador Team Rocket Invasion. Simulações de {{numSims}} foram realizadas com cada conjunto de movimentos possível de {{defender.pokemon}} simulado contra cada Pokémon com todos os conjuntos de movimentos possíveis. Os 30 melhores atacantes com seu melhor moveset baseado em {{sort}} foram mantidos e são exibidos aqui. "
         },
         "counters": {
             "title": "Counters",
             "chooseMovesetLabel": "Escolher Ataques",
-            "subtitle": "Melhores Atacantes por"
+            "subtitle": "Melhores Atacantes por",
+            "description": "A análise a seguir mostra os Pokémon que são os contadores mais fortes em termos de {{sort}} contra {{pokemon}}.",
+            "moveSetOrderingDescription": "Os conjuntos de movimentos são ordenados do mais difícil para o mais fácil, certifique-se de verificar vários, os resultados podem variar muito!",
+            "difficultyNote": "As Invasões Sombrosas da Equipe Rocket são muito mais difíceis do que uma batalha normal, você deve considerar cuidadosamente suas opções."
         },
         "hardestMovesets": {
-            "subtitle": "Para {{pokemon}} por {{sort}}"
-        }
+            "subtitle": "Para {{pokemon}} por {{sort}}",
+            "title": "Batalhas mais difíceis",
+            "tableTitle": "Movimentos mais difíceis de combater",
+            "description": "A dificuldade da batalha com a Equipe Rocket pode variar muito com base no conjunto de movimentos do Pokémon defensor!"
+        },
+        "meta": {
+            "description": "Os melhores Counters {{defender}} da Equipe Rocket com níveis configuráveis e defesa",
+            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+        },
+        "calculating": "Analisando as defesas da Equipe Rocket",
+        "description": "Boas-vindas ao guia de counters da Equipe Rocket Pokebattler para {{pokemon}}. Você pode encontrar os melhores counters com base no conjunto de movimentos de cada Pokémon Sombroso. Este guia pode ser personalizado de várias maneiras diferentes. Você pode fazer login e inserir seu Pokémon em sua Pokebox para obter o resultado de maior precisão, visto que esses resultados gerais usam várias opções de classificação."
     },
     "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
+        "description": "Encontre Counters da Equipe Rocket em Pokémon Go. Saiba os 30 melhores counters com o guia customizado #1 do mundo."
     },
     "custom": {
         "levelsLabel": "Níveis dos Atacantes",
-        "attackersLabel": "Atacantes"
+        "attackersLabel": "Atacantes",
+        "title": "Counters Personalizados da Equipe Rocket",
+        "buttonLabel": "Encontre os melhores counters"
+    },
+    "title": "Counters da Equipe Rocket",
+    "linkLabel": "Counters da Equipe Rocket",
+    "intro": "A Equipe Rocket invadiu Pokémon Go e o Pokebattler está aqui para ajudá-lo a combatê-los! As batalhas são 3v3 com você enfrentando seus 3 Pokémon contra o Pokémon com bônus da Equipe Rocket. Essas batalhas podem ser extremamente desafiadoras, então certifique-se de se preparar antes de desafiá-las!",
+    "articles": {
+        "title": "Últimas Notícias da Equipe Rocket!",
+        "subtitle": "Artigos e vídeos sobre a Equipe Rocket, dos melhores jogadores e pesquisadores"
+    },
+    "note": {
+        "default": "Os recrutas da Equipe Rocket não são muito difíceis, pois não tem proteção. Os Executivos e Giovanni têm estatísticas mais altas e protegerão os dois primeiros especiais usados. Resistir ao ataque rápido e usar um Pokémon que pode forçar o Pokémon Sombra a usar seus escudos é a melhor maneira de derrotar esses adversários difíceis!",
+        "loggedIn": "Observação: certifique-se de que o nível do seu treinador esteja definido corretamente. A pesquisa ainda está em andamento quanto à mecânica exata da Equipe Rocket Pokémon, mas o nível do jogador é um fator. A Equipe Rocket Pokémon não é mais tão poderosa quanto antes, certifique-se de verificar seus contadores personalizados novamente"
+    },
+    "executives": {
+        "title": "Líderes da Equipe Rocket",
+        "description": "Os líderes da Equipe Rocket apresentam lutas mais difíceis, incluindo defesas! Certifique-se de estar preparado para tudo que a Equipe Rocket tem reservado para você!"
+    },
+    "grunts": {
+        "title": "Recrutas da Equipe Rocket",
+        "description": "Os Recrutas da Equipe Rocket são lutas mais fáceis sem escudos."
     }
 }
