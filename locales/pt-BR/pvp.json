@@ -233,7 +233,50 @@
             "COMBAT_LEAGUE_DEFAULT_MASTER": {
                 "title": "Liga Mestre",
                 "intro": "A Liga de Batalha de Pokémon GO terá então o terceiro lugar da Liga Mestre em cada temporada. A Liga Mestre é um formato Pokémon Go PvP sem limites e é dominado por Legendaries defensivos de nível 40 e tipos de dragão com movimentos de carga dupla. Esta é uma liga muito cara para se competir e não é recomendada para iniciantes."
+            },
+            "COMBAT_LEAGUE_PREMIER_CUP": {
+                "title": "Copa Premier",
+                "intro": "A Liga de Batalha Pokémon GO adicionou a Copa Premier para funcionar ao mesmo tempo que Liga Mestre. A Copa Premier é como a Liga Mestre, mas não permite Pokémons Míticos ou Lendários. É dominado por pseudo-lendários de nível 40 com movimentos de carga dupla. Esta é uma liga um pouco mais acessível do que a Liga Mestre, mas também não é recomendada para iniciantes."
+            },
+            "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
+                "title": "Copa Premier Ultra",
+                "intro": "A Liga de Batalha Pokémon GO adicionou uma versão Liga Ultra da Copa Premier para funcionar ao mesmo tempo que a Liga Ultra. A Copa Ultra Premier é como a Liga Ultra, mas não permite Pokémons Míticos ou Lendários. É dominado por Pokémons do dia da comunidade com poderosos movimentos legados que não estão disponíveis sem TMs de elite."
+            },
+            "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
+                "title": "{{title}}",
+                "intro": "A taça Arena Silph da Temporada 3 para outubro apresenta Pokémons dos tipos Voador, Grama, Fogo, Terra ou Normal (que não são do tipo Pedra ou Megas). A Arena Silph é um conjunto mensal de torneios da comunidade com regras diferentes a cada mês. Para obter mais informações, visite https://silph.gg/."
+            },
+            "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
+                "title": "{{title}}",
+                "intro": "A Copa Arena Silph da Temporada 3 de novembro apresenta Pokémons que são do tipo Veneno, Fantasma, Inseto, Grama ou Água, exceto Tropius, Abomasnow e Megas. A Arena Silph é um conjunto mensal de torneios da comunidade com regras diferentes a cada mês. Para obter mais informações, visite https://silph.gg/."
+            },
+            "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
+                "title": "{{title}}",
+                "intro": "A Copa Grande Liga de Halloween a primeira copada oficial digitada pela Niantic. Apenas Pokémon do tipo Veneno, Inseto, Fantasma, Sombrio ou Fada são permitidos. Será realizado de 26 de outubro a 3 de novembro, das 18h à meia-noite."
+            },
+            "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
+                "title": "{{title}}",
+                "intro": "A Copa Grande Liga de Voadores é a segunda taça oficial da Niantic. Apenas Pokémons que podem voar são permitidos. Será realizado no dia 5 de novembro das 18h à meia-noite."
+            },
+            "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
+                "title": "{{title}}",
+                "intro": "A Copa Grande Liga de Kanto é uma Copa oficial digitada pela Niantic de 16 a 23 de novembro. Apenas Pokémons da região de Kanto com números de pokedex entre 1 e 151 são elegíveis."
+            },
+            "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
+                "title": "{{title}}",
+                "intro": "A Copa Grande Liga de Férias é uma copa oficial da Niantic de 28 de dezembro a 4 de janeiro. Apenas Pokémons do tipo Normal, Grama, Elétrico, Gelo, Voador e Fantasma são elegíveis."
+            },
+            "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
+                "title": "{{title}}",
+                "intro": "A Copa Silph Arena Season 3 para fevereiro exige que todos os Pokémons sejam de tipos diferentes e bane os Pokémons mais forte. A Arena Silph é um conjunto mensal de torneios da comunidade com regras diferentes a cada mês. Para obter mais informações, visite https://silph.gg/."
             }
+        },
+        "pokemonCondition": {
+            "WITH_POKEMON_CP_LIMIT": "CP Máx.",
+            "WITH_POKEMON_TYPE": "Tipos de Pokémon",
+            "WITH_POKEMON_CATEGORY": "Categoria",
+            "WITH_POKEDEX_GENERATION": "Gerações",
+            "NONE": "Sem Limites"
         }
     }
 }
