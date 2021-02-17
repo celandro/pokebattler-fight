@@ -90,5 +90,7 @@
     "createParty": "Criar grupo",
     "ready": "Local",
     "needsFriend": "Enviar Pedido de Amizade",
-    "joinPrivate": "Entrar em Grupo Privado"
+    "joinPrivate": "Entrar em Grupo Privado",
+    "raidParties": "$t(raidParties:title)",
+    "confirmFriend": "Confirmar amigo"
 }
