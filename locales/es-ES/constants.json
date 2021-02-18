@@ -2285,7 +2285,10 @@
         "MEGA_X_EVO": "X",
         "MEGA_Y_EVO": "Y",
         "2020_COSTUME_FORM": "Evento 2020",
-        "SPRING_FORM": "Primavera"
+        "SPRING_FORM": "Primavera",
+        "VENUSAUR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.VENUSAUR)",
+        "CHARIZARD_MEGA_X": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_X_EVO)",
+        "CHARIZARD_MEGA_Y": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_Y_EVO)"
     },
     "moves": {
         "undefined": "No definido",
@@ -2544,7 +2547,15 @@
         "FLYING_PRESS": "Plancha Voladora",
         "AURA_SPHERE": "Esfera Aural",
         "PAYBACK": "Vendetta",
-        "ROCK_WRECKER": "Romperrocas"
+        "ROCK_WRECKER": "Romperrocas",
+        "AEROBLAST": "Aerochorro",
+        "TECHNO_BLAST_NORMAL": "Tecno Shock",
+        "FLY": "Vuelo",
+        "V_CREATE": "V de Fuego",
+        "LEAF_STORM": "Ciclón de Hojas",
+        "TRI_ATTACK": "Triataque",
+        "GUST_FAST": "Tornado",
+        "INCINERATE_FAST": "Calcinación"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Desconocido",
@@ -2565,7 +2576,8 @@
         "POKEMON_TYPE_ICE": "Hielo",
         "POKEMON_TYPE_DRAGON": "Dragón",
         "POKEMON_TYPE_DARK": "Siniestro",
-        "POKEMON_TYPE_FAIRY": "Hada"
+        "POKEMON_TYPE_FAIRY": "Hada",
+        "POKEMON_TYPE_ALL": "Todos"
     },
     "strategies": {
         "attack": {
@@ -2594,11 +2606,15 @@
                 "description": "Utilizar ataques rápidos hasta que puedas esquivar su especial, luego utilizar tu ataque cargado."
             },
             "DODGE_WEAVE_CAUTIOUS": {
-                "description": "Esta estrategia usa un patrón de ataque que asume que el peor escenario - un intervalo de tiempo de 1.5s entre ataques - ocurre todo el tiempo. Un humano podría llegar a replicar esta estregia."
+                "description": "Esta estrategia usa un patrón de ataque que asume que el peor escenario - un intervalo de tiempo de 1.5s entre ataques - ocurre todo el tiempo. Un humano podría llegar a replicar esta estregia.",
+                "label": "Esquivar todo Weave"
             },
             "undefined": {
                 "label": "Oculto",
                 "description": "Esto no debiese haber pasado. Por favor, haznos saber sobre este error!"
+            },
+            "PVP": {
+                "label": "PvP"
             }
         },
         "dodge": {
@@ -2629,7 +2645,8 @@
             "DODGE_90": {
                 "label": "90% de Evasión",
                 "description": "Elige evadir un 90% del tiempo"
-            }
+            },
+            "label": "Estrategia de esquivar"
         },
         "defense": {
             "DEFENSE": {
