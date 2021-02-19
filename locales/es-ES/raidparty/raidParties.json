@@ -180,11 +180,11 @@
         "subtitle": "¡Únete a Incursiones Remotas en cualquier parte del mundo! Para incursiones por Discord, serás agregado a la incursión y enviado directamente al canal Discord para coordinar."
     },
     "friendRaidList": {
-        "title": "Incursiones de amigos",
+        "title": "Incursiones de Amigos",
         "subtitle": "Agrega amigos en la app Pokebattler Raid y únete a sus incursiones aquí. Recibirás notificaciones push cuando tus amigos estén haciendo incursiones y amigos mutuos pueden unirse a incursiones globales antes que otros"
     },
     "selfRaidList": {
-        "title": "Tus incursiones",
+        "title": "Tus Incursiones",
         "subtitle": "Las incursiones que has creado o te has unido están aquí. Busca en tus incursiones para encontrar amigos que agregar en la Pokebattler Raid Network"
     },
     "goCommand": "Vamos",
