@@ -190,5 +190,13 @@
         "attackersCopied": "Atacantes sugeridos copiados! Cole-os em sua pesquisa de grupos de batalha no jogo!",
         "partyTrainersCopied": "Nomes dos treinadores prontos para a invasão copiados! Cole o texto no seu jogo e convide-os para a sua reide!",
         "copyAttackers": "Atacantes Cópia"
+    },
+    "friendRaidList": {
+        "title": "Ataques de amigos",
+        "subtitle": "Adicione amigos no Pokebattler Raid App e junte-se a eles aqui. Você receberá notificações push quando seus amigos estiverem invadindo e amigos em comum possam participar de ataques globais antes de outros"
+    },
+    "selfRaidList": {
+        "title": "Seus ataques",
+        "subtitle": "Os ataques que você criou ou aderiu estão aqui. Procure em suas invasões para encontrar amigos para adicionar à Rede de Raides Pokebattler"
     }
 }
