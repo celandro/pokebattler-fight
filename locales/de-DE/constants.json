@@ -2278,7 +2278,8 @@
         "FEMALE_FORM": "Weiblich",
         "PIKACHU_VS_2019_FORM": "Libre-Pikachu",
         "MIENSHAO": "Wie-Shu",
-        "DIANCIE": "Diancie"
+        "DIANCIE": "Diancie",
+        "DARMANITAN_GALARIAN_STANDARD_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.DARMANITAN)"
     },
     "moves": {
         "undefined": "Undefiniert",
