@@ -193,10 +193,10 @@
     },
     "friendRaidList": {
         "title": "Reide de Amigos",
-        "subtitle": "Adicione amigos no Pokebattler Raid App e junte-se a eles aqui. Você receberá notificações push quando seus amigos estiverem invadindo e amigos em comum possam participar de ataques globais antes de outros"
+        "subtitle": "Adicione amigos no Pokebattler Raid App e junte-se a eles! Você receberá notificações quando seus amigos estiverem em reides e quando amigos em comum possam participar de reides globais antes de outros"
     },
     "selfRaidList": {
-        "title": "Seus Reide",
-        "subtitle": "Os ataques que você criou ou aderiu estão aqui. Procure em suas invasões para encontrar amigos para adicionar à Rede de Raides Pokebattler"
+        "title": "Suas Reides",
+        "subtitle": "As reides que você criou ou particiou estão aqui. Procure em suas reides e encontre amigos para adicionar à Rede de Reides Pokebattler"
     }
 }
