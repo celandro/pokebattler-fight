@@ -75,6 +75,10 @@
         }
 
     },
+    "raidPartyRejoinCard": {
+        "title": "Rejoin Current Raid",
+        "subtitle": "You may only join one raid at a time. Please click to rejoin and finish the raid"
+    },
     "raidPartyCard": {
         "title": "{{ownerName}}'s Party",
         "id": "#{{id}}",
@@ -141,7 +145,7 @@
     "share": {
         "title": "{{name}} #{{id}}",
         "message": "Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
-        "friendMessage": "{{friendCode}} (Pastable Friend Code) - Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
+        "friendMessage": "Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
         "error": "Error sharing raid party"
     },
     "noRaidParty": {

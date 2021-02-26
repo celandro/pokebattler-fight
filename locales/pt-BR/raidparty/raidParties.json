@@ -29,7 +29,7 @@
     "share": {
         "title": "{{name}} #{{id}}",
         "message": "Participe do Grupo de Reide #{{id}} $t(raids:tierList.{{tier}}.title)$t(constants:pokemon.{{defender}})",
-        "friendMessage": "{{friendCode}} (Copie e Cole) - Participe do Grupo de Reide #{{id}} $t(raids:tierList.{{tier}}.title)$t(constants:pokemon.{{defender}})",
+        "friendMessage": "Participe do Grupo de Reide #{{id}} $t(raids:tierList.{{tier}}.title)$t(constants:pokemon.{{defender}})",
         "error": "Erro ao compartilhar grupo de reide"
     },
     "noRaidParty": {

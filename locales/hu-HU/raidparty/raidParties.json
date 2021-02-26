@@ -40,7 +40,7 @@
         "title": "{{name}} #{{id}}",
         "error": "Hiba történt a raid parti megosztása során",
         "message": "Csatlakozzon a $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
-        "friendMessage": "{{friendCode}} (Pastable Friend Code) - Csatlakozzon a $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}."
+        "friendMessage": "Csatlakozzon a $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}."
     },
     "startingTime": {
         "120": "2 perc",

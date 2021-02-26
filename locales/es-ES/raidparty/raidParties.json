@@ -31,7 +31,7 @@
         "title": "{{name}} #{{id}}",
         "message": "Únete al equipo de incursión #{{id}} para $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}).",
         "error": "Error al compartir el equipo de incursión",
-        "friendMessage": "{{friendCode}} (Código de amigo compartible) - Únete al Equipo de Incursión de $t(constants:pokemon.{{defender}}) - $t(raids:tierList.{{tier}}.title) #{{id}}."
+        "friendMessage": "Únete al Equipo de Incursión de $t(constants:pokemon.{{defender}}) - $t(raids:tierList.{{tier}}.title) #{{id}}."
     },
     "noRaidParty": {
         "title": "No hay Equipos de incursión creados",
