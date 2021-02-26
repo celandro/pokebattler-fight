@@ -133,8 +133,9 @@
             "removeUserFromRaidPartyGeneral": "You could not leave party #{{raidPartyId}}",
             "addUserToRaidPartyGeneral": "You could not join party #{{raidPartyId}}",
             "getUserRaidPartiesGeneral": "Could not fetch raid parties",
-            "addUserToRaidPartyGone": "Raid party #{{raidPartyId}} no longer exists",
-            "addUserToRaidPartyFull": "Raid party #{{raidPartyId}} is now full"
+            "addUserToRaidPartyGone": "Raid party #{{raidPartyId}} is complete or no longer exists",
+            "addUserToRaidPartyFull": "Raid party #{{raidPartyId}} is now full",
+            "addUserToRaidPartyGlobal": "Raid party #{{raidPartyId}} is not available to join yet, wait for the countdown timer"
         }
     },
     "share": {
