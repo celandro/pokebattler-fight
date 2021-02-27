@@ -23,8 +23,9 @@
             "removeUserFromRaidPartyGeneral": "No pudo abandonar el equipo #{{raidPartyId}}",
             "addUserToRaidPartyGeneral": "No pudo unirse al equipo #{{raidPartyId}}",
             "getUserRaidPartiesGeneral": "No se pudieron obtener equipos de incursión",
-            "addUserToRaidPartyGone": "El equipo de incursión #{{raidPartyId}} ya no existe",
-            "addUserToRaidPartyFull": "El equipo de incursión #{{raidPartyId}} está lleno"
+            "addUserToRaidPartyGone": "El equipo de incursión #{{raidPartyId}} ha finalizado o ya no existe",
+            "addUserToRaidPartyFull": "El equipo de incursión #{{raidPartyId}} está lleno",
+            "addUserToRaidPartyGlobal": "El equipo de incursión #{{raidPartyId}} no está disponible para unirse aún. Por favor, espera el conteo regresivo"
         }
     },
     "share": {
@@ -170,7 +171,7 @@
         }
     },
     "noGlobalRaidParty": {
-        "title": "No se han encontrado grupos de incursiones globales",
+        "title": "Totos los grupos de incursiones globales están llenos",
         "description": "No hay incursiones disponibles actualmente. Crea tus propias incursiones para que otros se unan desde tu servidor Discord o la app",
         "link": "Incursiones Actuales",
         "linkTo": "RaidBosses"
@@ -200,5 +201,9 @@
         "partyTrainersCopied": "¡Los nombres de los entrenadores listos para la incursión fueron copiados! ¡Pega el texto en tu juego e invítalos a tu incursión!",
         "copyAttackers": "Copiar atacantes"
     },
-    "startRaidIn": "Inicia la incursión en"
+    "startRaidIn": "Inicia la incursión en",
+    "raidPartyRejoinCard": {
+        "title": "Únete de nuevo a la incursión",
+        "subtitle": "Sólo puedes unirte a una incursión a la vez. Por favor, clickea para volver a unirte y completar la incursión"
+    }
 }
