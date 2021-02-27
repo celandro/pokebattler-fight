@@ -23,7 +23,8 @@
             "addUserToRaidPartyGeneral": "Você não entrou no grupo #{{raidPartyId}}",
             "getUserRaidPartiesGeneral": "Impossível encontrar grupos de reide",
             "addUserToRaidPartyGone": "O grupo de rede #{{raidPartyId}} não existe mais",
-            "addUserToRaidPartyFull": "O grupo de reide #{{raidPartyId}} está cheio"
+            "addUserToRaidPartyFull": "O grupo de reide #{{raidPartyId}} está cheio",
+            "addUserToRaidPartyGlobal": "O grupo de reide #{{raidPartyID}} ainda não está disponível. Aguarde a contagem regressiva."
         }
     },
     "share": {
@@ -168,7 +169,7 @@
         }
     },
     "noGlobalRaidParty": {
-        "title": "Nenhum Grupo de Reide Global Encontrado",
+        "title": "Todos os Grupo de Reide Global Estão Lotados",
         "description": "Nenhuma reide está disponível no momento. Crie sua própria para que outras pessoas participem de seu servidor Discord ou no aplicativo",
         "link": "Reides Atuais",
         "linkTo": "Chefes de Reide"
@@ -198,5 +199,9 @@
     "selfRaidList": {
         "title": "Suas Reides",
         "subtitle": "As reides que você criou ou particiou estão aqui. Procure em suas reides e encontre amigos para adicionar à Rede de Reides Pokebattler"
+    },
+    "raidPartyRejoinCard": {
+        "title": "Reingressar no ataque atual",
+        "subtitle": "Você só pode participar de um ataque de cada vez. Clique para voltar e terminar a invasão"
     }
 }
