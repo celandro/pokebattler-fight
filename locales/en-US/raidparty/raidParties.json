@@ -161,7 +161,7 @@
         "linkTo": "Friends"
     },
     "noGlobalRaidParty": {
-        "title": "No Global Raid Parties Found",
+        "title": "All Global Raid Parties Are Full",
         "description": "No raids are currently available. Create your own for others to join from your discord server or in the app",
         "link": "Current Raids",
         "linkTo": "RaidBosses"
