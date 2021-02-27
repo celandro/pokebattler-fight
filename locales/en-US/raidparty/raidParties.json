@@ -208,6 +208,7 @@
     "goCommandInstruction": "Hitting GO will close the raid to additional players and notify all players the raid is starting! Make sure you have accepted all friend invites. Once you hit GO you can't go back!",
     "raidStarting": "Raid is starting, enter the game!",
     "raidStartingOwner": "What are you waiting for? It's your responsibility to start the raid now, your raid is waiting on you! Copy the trainer names and invite them all to the raid in game!",
+    "raidComplete": "This raid is complete. Thank you for raiding with Pokebattler Raid Party!",
     "raidPartyList": {
 
     },
