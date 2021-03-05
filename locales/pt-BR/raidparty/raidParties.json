@@ -203,5 +203,6 @@
     "raidPartyRejoinCard": {
         "title": "Reingressar no ataque atual",
         "subtitle": "Você só pode participar de um ataque de cada vez. Clique para voltar e terminar a invasão"
-    }
+    },
+    "raidComplete": "Este ataque está completo. Obrigado por invadir com Pokebattler Raid Party!"
 }
