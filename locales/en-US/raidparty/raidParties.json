@@ -217,7 +217,7 @@
     "raidStartingOwner": "What are you waiting for? It's your responsibility to start the raid now, your raid is waiting on you! Copy the trainer names and invite them all to the raid in game!",
     "raidComplete": "This raid is complete. Thank you for raiding with Pokebattler Raid Party!",
     "raidPartyList": {
-        "recent": "Recent Raid Parties",
+        "unavailable": "Unavailable Raid Parties",
         "available": "Available Raid Parties"
     },
     "clipboard": {
