@@ -8,6 +8,7 @@
   },
   "tutorial": {
     "joinRaid": {
+      "iconName": "link",
       "title": "Join Raids",
       "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
       "slices": "9",
@@ -16,6 +17,18 @@
         "width": "600",
         "height": "2400",
         "finalHeight": "175"
+      }
+    },
+    "copyPaste": {
+      "iconName": "clipboard",
+      "title": "How to Paste",
+      "subtitle": "Learn how to paste a friend code in the Pokebattler Raid Party app",
+      "slices": "1",
+      "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "1200",
+        "finalHeight": "775"
       }
     }
   }
