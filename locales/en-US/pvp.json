@@ -247,6 +247,10 @@
         "title": "Ultra Premier Cup",
         "intro": "Pokemon GO Battle League has added an Ultra League version of Premier Cup to run at the same time as Ultra League. Ultra Premier Cup is like Ultra League but does not allow Mythical or Legendary Pokemon.  It is dominated by community day Pokemon with powerful legacy moves that are not available without elite TMs."
       },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
+        "title": "Great League Remix",
+        "intro": "A special form of Great League with the 10 most popular Pokemon for Pokemon GO Battle League have been banned"
+      },
       "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
         "title": "{{title}}",
         "intro": "The Silph Arena Season 3 cup for October featuring Pokemon that are Flying, Grass, Fire, Ground or Normal types that are not Rock types, or Megas. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/."
