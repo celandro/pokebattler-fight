@@ -2,7 +2,7 @@
     "title": "Raid Bosses",
     "selectWeather": "Pick weather",
     "countersTitle": "Your Counters",
-    "createParty": "Create party",
+    "createParty": "Host Party",
     "loadParty": "View Raid Party #{{id}}",
     "raidParties": "$t(raidParties:title)",
     "joinParty": "Join Party",

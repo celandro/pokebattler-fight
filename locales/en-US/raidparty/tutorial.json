@@ -1,0 +1,59 @@
+{
+  "tutorials": {
+    "title": "Tutorials",
+    "heading": "Mrs. Pokebattler is here to guide you through using the Pokebattler Raid Party App",
+    "description": "My husband sometimes forgets to write instructions on how to use his tools. I always have to remind him that people need a bit of guidance some times! Here are some guides for the more complicated parts of the Pokebattler Raid Party app!",
+    "caution": "These tutorials are heavy on the visuals and are a few megabytes in size, consider loading on wifi.",
+    "load": "Load the tutorial"
+  },
+  "tutorial": {
+    "joinRaid": {
+      "iconName": "link",
+      "title": "Join Raids",
+      "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
+      "slices": "9",
+      "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "600",
+        "height": "2400",
+        "finalHeight": "175"
+      }
+    },
+    "joinRaidAndroid": {
+      "iconName": "link",
+      "title": "Join Raids",
+      "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
+      "slices": "13",
+      "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_300_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "775",
+        "finalHeight": "388"
+      }
+    },
+    "copyPaste": {
+      "iconName": "clipboard",
+      "title": "How to Paste",
+      "subtitle": "Learn how to paste a friend code in the Pokebattler Raid Party app",
+      "slices": "1",
+      "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "1200",
+        "finalHeight": "775"
+      }
+    },
+    "copyPasteAndroid": {
+      "iconName": "clipboard",
+      "title": "How to Paste",
+      "subtitle": "Learn how to paste a friend code in the Pokebattler Raid Party app",
+      "slices": "1",
+      "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_android_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "1200",
+        "finalHeight": "775"
+      }
+    }
+  }
+}
