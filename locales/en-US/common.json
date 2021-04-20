@@ -369,6 +369,8 @@
         "lastWeek": "Last Week",
         "lastMonth": "Last Month",
         "lastYear": "Last Year",
-        "discordLink": "Go to {{guildName}} Discord server"
+        "discordLink": "Go to {{guildName}} Discord server",
+        "country": "Country",
+        "language": "Language"
     }
 }
