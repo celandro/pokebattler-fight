@@ -11,6 +11,7 @@
       "iconName": "link",
       "title": "Join Raids",
       "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
+      "heading": "Too wordy? Mrs. Pokebattler has put together a visual demonstration on how to join a raid",
       "slices": "9",
       "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_{{slice}}.png",
       "dimensions": {
@@ -20,7 +21,7 @@
       }
     },
     "joinRaidAndroid": {
-      "iconName": "link",
+      "iconName": "plus-circle",
       "title": "Join Raids",
       "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
       "slices": "13",
@@ -29,6 +30,31 @@
         "width": "300",
         "height": "775",
         "finalHeight": "388"
+      }
+    },
+    "hostRaid": {
+      "iconName": "plus-circle",
+      "title": "Host Raids",
+      "subtitle": "Learn how to host raids in the Pokebattler Raid Party app",
+      "heading": "Not sure how to host a raid? Mrs. Pokebattler is here to help",
+      "slices": "16",
+      "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "600",
+        "height": "1910 ",
+        "finalHeight": "800"
+      }
+    },
+    "hostRaidAndroid": {
+      "iconName": "link",
+      "title": "Join Raids",
+      "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
+      "slices": "13",
+      "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_300_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "955",
+        "finalHeight": "400"
       }
     },
     "copyPaste": {

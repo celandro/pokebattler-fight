@@ -74,7 +74,7 @@
             "description2": "Para utilizar la red, necesitas ingresar tu nombre de entrenador y código de amistad. Estos son compartidos con los bots de Discord para permitir la coordinación de incursiones.",
             "description3": "Las incursiones en Discord son creadas por medio de los bots PokeNav o Nexus y son controladas por los dueños de los servidores. Estas incursiones globales son enviadas a la red luego de un pequeño lapso de tiempo, permitiendo usuarios locales en el servidor a unirse primero. Puedes unirte cuando el contador de tiempo llega a 0 o el botón ⏩ aparece.",
             "description4": "Suscriptores de Pokebattler actualmente obtienen un pequeño aviso para unirse a incursiones. Los beneficios finales no han sido definidos aún y están sujetos a cambios sin previo aviso",
-            "joinDescription": "Grupos de incursión dentro de la app serán incluidos muy pronto, pero por ahora puedes crear incursiones en nuestro Discord usando el comando `$rr boss`",
+            "joinDescription": "",
             "joinButton": "Únete al Discord de Pokebattler Raid Party",
             "beConsiderate": "¡Por favor, sé considerado de los servidores a los que te unes y muestra tu mejor comportamiento! Jugadores abusivos, conducta escandalosa y jugadores que no coordinan en la incursión serán permanentemente baneados de la red de incursiones."
         },

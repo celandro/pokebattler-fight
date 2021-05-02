@@ -12,7 +12,7 @@
             "description3": "Discord Raids are hosted in either Pokenav or Nexus bots and are controlled by the server owners. These global raids are sent to the network after a delay, allowing users local on the server to join first.  You can join when the countdown timer hits 0 or the ⏩ button appears.",
             "description4": "Pokebattler subscribers currently have a small head start for joining raids. Exact benefits for subscribers have not been finalized yet and are subject to change without notice",
             "description5": "",
-            "joinDescription": "Raid party within this app is coming soon but for now you can host raids in our discord by using the `$rr boss` command",
+            "joinDescription": "Raids with chat are supported via discord bot integrations and can be hosted in any Discord that has Nexus or PokeNav configured for the Raid Network.",
             "joinButton": "Join Pokebattler Raid Party Discord",
             "beConsiderate":"Please be considerate of the servers you are joining and be on your best behavior! Abusive players, disorderly conduct and players who do not coordinate with the raid will be permanently banned from the raid network."
 

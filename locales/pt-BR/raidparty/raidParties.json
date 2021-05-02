@@ -72,7 +72,7 @@
             "description2": "Para usar a rede, você precisará inserir o nome do treinador e o código do amigo. Esses dados são compartilhados com os bots do Discord para permitir a coordenação da reide.",
             "description3": "As reides no Discord são criadas pelos bots Pokenav ou Nexus e são controlados pelos proprietários do servidor. Essas reides globais são enviadas à rede após um pequeno atraso, permitindo que os usuários locais no servidor se conectem primeiro. Você pode entrar quando o contador regressivo chegar a 0 ou o botão ⏩ aparecer.",
             "description4": "Os assinantes da Pokebattler atualmente têm uma pequena vantagem para ingressar em reides. Os benefícios exatos para assinantes ainda não foram finalizados e estão sujeitos a alterações sem aviso prévio",
-            "joinDescription": "O grupo de reide dentro deste aplicativo estará disponível em breve, mas por enquanto você pode criar reides em nosso Discord usando o comando `$ rr boss`",
+            "joinDescription": "",
             "joinButton": "Entrar no Discord do Pokebattler Raid Party",
             "beConsiderate": "Por favor, tenha consideração com os servidores nos quais você está entrando e tenha o melhor comportamento possível! Jogadores abusivos, conduta desordeira e jogadores que não coordenam com a reide serão banidos permanentemente."
         },
