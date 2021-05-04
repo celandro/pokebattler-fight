@@ -1,2 +1,29 @@
 {
+  "tutorial": {
+    "joinRaid": {
+      "iconName": "link",
+      "title": "Únete a las Redadas",
+      "subtitle": "Aprende cómo unirte a redadas en la aplicación Pokebattler Raid Party",
+      "heading": "¿Demasiado prolijo? La Sra. Pokebattler ha preparado una demostración visual sobre cómo unirse a una redada.",
+      "slices": "10",
+      "fileName": "https://static.pokebattler.com/help/es-ES/join_raid/join_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "600",
+        "height": "2000",
+        "finalHeight": "2000"
+      }
+    },
+    "joinRaidAndroid": {
+      "iconName": "plus-circle",
+      "title": "Únete a las Redadas",
+      "subtitle": "Aprende cómo unirte a redadas en la aplicación Pokebattler Raid Party",
+      "slices": "13",
+      "fileName": "https://static.pokebattler.com/help/es-ES/join_raid/join_raid_300_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "1000",
+        "finalHeight": "1000"
+      }
+    }
+  }
 }

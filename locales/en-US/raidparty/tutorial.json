@@ -60,6 +60,7 @@
     "copyPaste": {
       "iconName": "clipboard",
       "title": "How to Paste",
+      "heading": "Not sure how to copy & paste on your phone? Mrs. Pokebattler has a quick guide for you!",
       "subtitle": "Learn how to paste a friend code in the Pokebattler Raid Party app",
       "slices": "1",
       "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_{{slice}}.png",
