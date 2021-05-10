@@ -21,7 +21,7 @@
       }
     },
     "joinRaidAndroid": {
-      "iconName": "plus-circle",
+      "iconName": "link",
       "title": "Join Raids",
       "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
       "slices": "13",
@@ -46,10 +46,10 @@
       }
     },
     "hostRaidAndroid": {
-      "iconName": "link",
-      "title": "Join Raids",
-      "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
-      "slices": "13",
+      "iconName": "plus-circle",
+      "title": "Host Raids",
+      "subtitle": "Learn how to host raids in the Pokebattler Raid Party app",
+      "slices": "16",
       "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_300_{{slice}}.png",
       "dimensions": {
         "width": "300",
