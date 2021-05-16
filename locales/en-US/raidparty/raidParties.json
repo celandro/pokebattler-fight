@@ -236,7 +236,7 @@
         "host": {
             "title": "Confirmation - Finish Raid",
             "thankYou": "Thank you for hosting a raid with Pokebattler Raid Party!",
-            "rate": "Please rate all {{numAttackers}} party members",
+            "rate": "Please swipe left or right to rate party members",
             "close": "$t(raidBosses:finishParty)"
         },
         "abandon": {
