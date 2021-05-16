@@ -205,5 +205,11 @@
     "raidPartyRejoinCard": {
         "title": "Únete de nuevo a la incursión",
         "subtitle": "Sólo puedes unirte a una incursión a la vez. Por favor, clickea para volver a unirte y completar la incursión"
+    },
+    "raidVotingPopup": {
+        "title": "Grupo de incursión finalizado",
+        "thankYouMessage": "¡Gracias por jugar con Pokebattler Raid Party! ¿Qué tal estuvo la incursión de {{ownerName}}?",
+        "thankYouMessageHost": "¡Gracias por organizar una incursión con Pokebattler Raid Party!",
+        "closeButton": "Cerrar"
     }
 }
