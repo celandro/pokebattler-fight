@@ -227,9 +227,23 @@
         "partyTrainersCopied": "Copied the trainer names ready for the raid! Paste the text on your game and invite them to your raid!"
     },
     "raidVotingPopup": {
-        "title": "Are you sure?",
-        "thankYouMessage": "Thank you for playing with Pokebattler Raid Party! Please rate {{ownerName}}'s party?",
-        "thankYouMessageHost": "Thank you for hosting a raid with Pokebattler Raid Party! Rate your party members!",
-        "closeButton": "Close"
+        "player": {
+            "title": "Confirmation - Leave Raid",
+            "thankYou": "Thank you for raiding with Pokebattler Raid Party!",
+            "rate": "Please rate {{ownerName}}'s party?",
+            "close": "$t(raidBosses:leaveParty)"
+        },
+        "host": {
+            "title": "Confirmation - Finish Raid",
+            "thankYou": "Thank you for hosting a raid with Pokebattler Raid Party!",
+            "rate": "Please rate all {{numAttackers}} party members",
+            "close": "$t(raidBosses:finishParty)"
+        },
+        "abandon": {
+            "title": "Confirmation - Abandon Raid",
+            "thankYou": "Unfortunately no one joined your raid \uD83D\uDE14",
+            "rate": "",
+            "close": "Abandon Raid"
+        }
     }
 }
