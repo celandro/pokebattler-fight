@@ -227,9 +227,9 @@
         "partyTrainersCopied": "Copied the trainer names ready for the raid! Paste the text on your game and invite them to your raid!"
     },
     "raidVotingPopup": {
-        "title": "Raid party finished",
-        "thankYouMessage": "Thank you for playing with Pokebattler Raid Party! How was {{ownerName}}'s party?",
-        "thankYouMessageHost": "Thank you for hosting a raid with Pokebattler Raid Party!",
+        "title": "Are you sure?",
+        "thankYouMessage": "Thank you for playing with Pokebattler Raid Party! Please rate {{ownerName}}'s party?",
+        "thankYouMessageHost": "Thank you for hosting a raid with Pokebattler Raid Party! Rate your party members!",
         "closeButton": "Close"
     }
 }
