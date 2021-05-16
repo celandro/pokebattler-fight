@@ -295,7 +295,8 @@
             "profiles": "Public Profiles",
             "matrix": "Matrix",
             "subscription": "Subscription",
-            "attackers": "Attackers"
+            "attackers": "Attackers",
+            "raidNetworkDiscords": "Raid Network Discords"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
@@ -357,5 +358,19 @@
         "error": "Sorry, there was a problem loading the page. Check your connection",
         "retry": "Retry"
     },
-    "legacyDate": "{{legacyDate,shortDate}}"
+    "legacyDate": "{{legacyDate,shortDate}}",
+    "raidNetworkDiscords": {
+        "title": "Raid Network Discords",
+        "heading": "Raid Network Discords",
+        "description": "The following servers have made significant contributions to the development of the Pokebattler Raid Network.",
+        "activeRaidersCount": "Active Raiders Count: ",
+        "raidsCreated": "Public Raids Created: ",
+        "yesterday": "Yesterday",
+        "lastWeek": "Last Week",
+        "lastMonth": "Last Month",
+        "lastYear": "Last Year",
+        "discordLink": "Go to {{guildName}} Discord server",
+        "country": "Country",
+        "language": "Language"
+    }
 }
