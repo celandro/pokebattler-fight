@@ -2280,7 +2280,8 @@
         "MIENSHAO": "Wie-Shu",
         "DIANCIE": "Diancie",
         "DARMANITAN_GALARIAN_STANDARD_FORM": "$t(constants:pokemon.GALARIAN_FORM)-$t(constants:pokemon.DARMANITAN)",
-        "XERNEAS": "Xerneas"
+        "XERNEAS": "Xerneas",
+        "YVELTAL": "Yveltal"
     },
     "moves": {
         "undefined": "Undefiniert",
