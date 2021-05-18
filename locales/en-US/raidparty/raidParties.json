@@ -225,5 +225,25 @@
         "friendCodeCopied": "Copied {{ownerName}}'s friend code! Paste it on the game to send a friend invite to the host!",
         "attackersCopied": "Copied your suggested attackers! Paste them on your in-game battle party search!",
         "partyTrainersCopied": "Copied the trainer names ready for the raid! Paste the text on your game and invite them to your raid!"
+    },
+    "raidVotingPopup": {
+        "player": {
+            "title": "Confirmation - Leave Raid",
+            "thankYou": "Thank you for raiding with Pokebattler Raid Party!",
+            "rate": "Please rate {{ownerName}}'s party?",
+            "close": "$t(raidBosses:leaveParty)"
+        },
+        "host": {
+            "title": "Confirmation - Finish Raid",
+            "thankYou": "Thank you for hosting a raid with Pokebattler Raid Party!",
+            "rate": "Please swipe left or right to rate party members",
+            "close": "$t(raidBosses:finishParty)"
+        },
+        "abandon": {
+            "title": "Confirmation - Abandon Raid",
+            "thankYou": "Unfortunately no one joined your raid \uD83D\uDE14",
+            "rate": "",
+            "close": "Abandon Raid"
+        }
     }
 }
