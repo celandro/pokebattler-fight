@@ -1,2 +1,86 @@
 {
+    "tutorial": {
+        "joinRaid": {
+            "dimensions": {
+                "finalHeight": "175",
+                "height": "2400",
+                "width": "600"
+            },
+            "title": "Participar de Reides",
+            "slices": "9",
+            "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_{{slice}}.png",
+            "iconName": "link",
+            "heading": "Muitas palavras? A Sra. Pokebattler montou uma demonstração visual para facilitar ainda mais as coisas!",
+            "subtitle": "Aprenda a entrar em Reides no Pokebattler Raid Party"
+        },
+        "copyPaste": {
+            "slices": "1",
+            "dimensions": {
+                "finalHeight": "775",
+                "height": "1200",
+                "width": "300"
+            },
+            "subtitle": "Aprenda a colar o código de um amigo no Pokebattler Raid Party",
+            "heading": "Não sabe como copiar e colar em seu smartphone? A Sra. Pokebattler tem um guia rápido para te ajudar!",
+            "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_{{slice}}.png",
+            "title": "Como Colar",
+            "iconName": "área de transferência"
+        },
+        "joinRaidAndroid": {
+            "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_300_{{slice}}.png",
+            "slices": "13",
+            "dimensions": {
+                "width": "300",
+                "finalHeight": "388",
+                "height": "775"
+            },
+            "title": "Participar de Reides",
+            "subtitle": "Aprenda a entrar em Reides com o Pokebattler Raid Party",
+            "iconName": "link"
+        },
+        "hostRaid": {
+            "iconName": "plus-circle",
+            "title": "Hospedar Reides",
+            "dimensions": {
+                "width": "600",
+                "finalHeight": "800",
+                "height": "1910 "
+            },
+            "subtitle": "Aprenda a hospedar Reides no Pokebattler Raid Party",
+            "heading": "Não sabe como criar uma Reide? A Sra. Pokebattler está aqui para te ajudar!",
+            "slices": "16",
+            "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_{{slice}}.png"
+        },
+        "copyPasteAndroid": {
+            "slices": "1",
+            "dimensions": {
+                "finalHeight": "775",
+                "width": "300",
+                "height": "1200"
+            },
+            "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_android_{{slice}}.png",
+            "subtitle": "Aprenda a colar o código de um amigo no Pokebattler Raid Party",
+            "title": "Como Colar",
+            "iconName": "área de transferência"
+        },
+        "hostRaidAndroid": {
+            "dimensions": {
+                "finalHeight": "400",
+                "height": "955",
+                "width": "300"
+            },
+            "iconName": "plus-circle",
+            "title": "Hospedar Reides",
+            "subtitle": "Aprenda a criar Reides no Pokebattler Raid Party",
+            "slices": "16",
+            "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_300_{{slice}}.png"
+        }
+    },
+    "tutorials": {
+        "title": "Tutoriais",
+        "heading": "A Sra. Pokebattler chegou para te guiar no Pokebattler Raid Party!",
+        "caution": "Esses tutoriais são um pouco pesados. Considere usar uma conexão wi-fi.",
+        "description": "Às vezes meu marido esquece que precisa ensinar as pessoas a usarem suas ferramentas. Sempre tenho que lembrá-lo de que uma mãozinha sempre cai bem! Aqui estão algumas dicas para as partes mais complexas do Pokebattler Raid Party!",
+        "load": "Carregue o tutorial"
+    }
 }
