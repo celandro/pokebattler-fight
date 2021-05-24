@@ -2281,7 +2281,82 @@
         "DIANCIE": "Diancie",
         "DARMANITAN_GALARIAN_STANDARD_FORM": "$t(constants:pokemon.GALARIAN_FORM)-$t(constants:pokemon.DARMANITAN)",
         "XERNEAS": "Xerneas",
-        "YVELTAL": "Yveltal"
+        "YVELTAL": "Yveltal",
+        "CHESPIN": "Igamaro",
+        "QUILLADIN": "Igastarnish",
+        "CHESNAUGHT": "Brigaron",
+        "FENNEKIN": "Fynx",
+        "BRAIXEN": "Rutena",
+        "DELPHOX": "Fennexis",
+        "FROAKIE": "Froxy",
+        "FROGADIER": "Amphizel",
+        "GRENINJA": "Quajutsu",
+        "BUNNELBY": "Scoppel",
+        "DIGGERSBY": "Grebbit",
+        "FLETCHLING": "Dartiri",
+        "FLETCHINDER": "Dartignis",
+        "TALONFLAME": "Fiaro",
+        "SCATTERBUG": "Purmel",
+        "SPEWPA": "Puponcho",
+        "VIVILLON": "Vivillon",
+        "LITLEO": "Leufeo",
+        "PYROAR": "Pyroleo",
+        "FLABEBE": "Flabébé",
+        "FLOETTE": "Floette",
+        "FLORGES": "Florges",
+        "SKIDDO": "Mähikel",
+        "GOGOAT": "Chevrumm",
+        "PANCHAM": "Pam-Pam",
+        "PANGORO": "Pandagro",
+        "FURFROU": "Coiffwaff",
+        "ESPURR": "Psiau",
+        "MEOWSTIC": "Psiaugon",
+        "HONEDGE": "Gramokles",
+        "DOUBLADE": "Duokles",
+        "AEGISLASH": "Durengard",
+        "SPRITZEE": "Parfi",
+        "AROMATISSE": "Parfinesse",
+        "SWIRLIX": "Flauschling",
+        "SLURPUFF": "Sabbaione",
+        "INKAY": "Iscalar",
+        "MALAMAR": "Calamanero",
+        "BINACLE": "Bithora",
+        "BARBARACLE": "Thanathora",
+        "SKRELP": "Algitt",
+        "DRAGALGE": "Tandrak",
+        "CLAUNCHER": "Scampisto",
+        "CLAWITZER": "Wummer",
+        "HELIOPTILE": "Eguana",
+        "HELIOLISK": "Elezard",
+        "TYRUNT": "Balgoras",
+        "TYRANTRUM": "Monargoras",
+        "AMAURA": "Amarino",
+        "AURORUS": "Amagarga",
+        "SYLVEON": "Feelinara",
+        "HAWLUCHA": "Resladero",
+        "DEDENNE": "Dedenne",
+        "CARBINK": "Rocara",
+        "GOOMY": "Viscora",
+        "SLIGGOO": "Viscargot",
+        "GOODRA": "Viscogon",
+        "KLEFKI": "Clavion",
+        "PHANTUMP": "Paragoni",
+        "TREVENANT": "Trombork",
+        "PUMPKABOO": "Irrbis M",
+        "GOURGEIST": "Pumpdjinn M",
+        "BERGMITE": "Arktip",
+        "AVALUGG": "Arktilas",
+        "NOIBAT": "eF-eM",
+        "NOIVERN": "UHaFnir",
+        "ZYGARDE": "Zygarde",
+        "HOOPA": "Hoopa",
+        "VOLCANION": "Volcanion",
+        "ZYGARDE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE (10%) ",
+        "ZYGARDE_FIFTY_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) (50%)",
+        "ZYGARDE_COMPLETE_FORM": "$t(constants:pokemon.ZYGARDE) (Optimum)",
+        "OBSTAGOON": "Barrikadax",
+        "PERRSERKER": "Mauzinger",
+        "NOEVOLVE_FORM": "Keine Entwicklung"
     },
     "moves": {
         "undefined": "Undefiniert",
@@ -2827,6 +2902,51 @@
         "label": "Sortierreihenfolge",
         "WIN": {
             "description": "Siegeschance"
+        }
+    },
+    "generations": {
+        "label": "Generationen",
+        "GEN_1": {
+            "label": "Gen. 1"
+        },
+        "GEN_2": {
+            "label": "Gen. 2"
+        },
+        "GEN_3": {
+            "label": "Gen. 3"
+        },
+        "GEN_4": {
+            "label": "Gen. 4"
+        },
+        "GEN_5": {
+            "label": "Gen. 5"
+        },
+        "GEN_6": {
+            "label": "Gen. 6"
+        },
+        "GEN_7": {
+            "label": "Gen. 7"
+        },
+        "GEN_8": {
+            "label": "Gen. 8"
+        }
+    },
+    "levels": {
+        "20": "Level 20",
+        "25": "Level 25",
+        "30": "Level 30",
+        "35": "Level 35",
+        "40": "Level 40",
+        "40+W+F": "40 + Bonus"
+    },
+    "privacy": {
+        "FRIEND": {
+            "label": "Freund",
+            "description": "Ein Raid für deine Freunde. Sie bekommen eine Benachrichtigung gesendet"
+        },
+        "GLOBAL": {
+            "label": "Global",
+            "description": "Einen Raid, den jeder mitmachen kann"
         }
     }
 }
