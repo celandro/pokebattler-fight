@@ -459,7 +459,6 @@
         "GENESECT_BURN_FORM": "Burn Genesect",
         "GENESECT_CHILL_FORM": "Chill Genesect",
         "GENESECT_DOUSE_FORM": "Douse Genesect",
-      
         "RATTATA_NORMAL_FORM": "Rattata - Normal",
         "RATTATA_ALOLA_FORM": "Rattata - Alola",
         "RATICATE_NORMAL_FORM": "Raticate - Normal",
@@ -601,9 +600,6 @@
         "DARKRAI": "Darkrai",
         "SHAYMIN": "Shaymin",
         "ARCEUS": "Arceus",
-
-
-
         "ROTOM_NORMAL_FORM": "Rotom - Normal",
         "ROTOM_FROST_FORM": "Rotom - Frost",
         "ROTOM_FAN_FORM": "Rotom - Fan",
@@ -640,9 +636,7 @@
         "ARCEUS_STEEL_FORM": "Arceus - Steel",
         "ARCEUS_WATER_FORM": "Arceus - Water",
         "GIRATINA_ALTERED_FORM": "Giratina Altered",
-
         "GIRATINA_ORIGIN_FORM": "Giratina Origin",
-
         "VICTINI": "Victini",
         "SNIVY": "Snivy",
         "SERVINE": "Servine",
@@ -816,7 +810,6 @@
         "KELDEO_RESOLUTE_FORM": "Resolute Keldeo",
         "MELOETTA_ARIA_FORM": "Aria Meloetta",
         "MELOETTA_PIROUETTE_FORM": "Pirouette Meloetta",
-
         "CHESPIN": "Chespin",
         "QUILLADIN": "Quilladin",
         "CHESNAUGHT": "Chesnaught",
@@ -829,7 +822,7 @@
         "BUNNELBY": "Bunnelby",
         "DIGGERSBY": "Diggersby",
         "FLETCHLING": "Fletchling",
-        "FLETCHINDER": "FLetchinder",
+        "FLETCHINDER": "Fletchinder",
         "TALONFLAME": "Talonflame",
         "SCATTERBUG": "Scatterbug",
         "SPEWPA": "Spewpa",
@@ -889,28 +882,22 @@
         "DIANCIE": "Diancie",
         "HOOPA": "Hoopa",
         "VOLCANION": "Volcanion",
-
-      
         "MELTAN": "Meltan",
         "MELMETAL": "Melmetal",
         "OBSTAGOON": "Obstagoon",
         "PERRSERKER": "Perrserker",
         "SIRFETCHD": "SirFetchd",
-        "MR_RIME" : "Mr. Rime",
+        "MR_RIME": "Mr. Rime",
         "RUNERIGUS": "Runerigus",
-
-
         "BURMY_PLANT_FORM": "Burmy - Plant",
         "BURMY_SANDY_FORM": "Burmy - Sandy",
         "BURMY_TRASH_FORM": "Burmy - Trash",
         "MEWTWO_A_FORM": "Armored Mewtwo",
         "MEWTWO_A_INTRO_FORM": "Armored Mewtwo (Intro)",
         "MEWTWO_NORMAL_FORM": "Mewtwo - Normal",
-
         "MEGA_EVO": "Mega",
         "MEGA_X_EVO": "X",
         "MEGA_Y_EVO": "Y",
-
         "NORMAL_FORM": "Normal",
         "SHADOW_FORM": "Shadow",
         "PURIFIED_FORM": "Purified",
@@ -921,55 +908,54 @@
         "2020_COSTUME_FORM": "2020 Event",
         "2021_COSTUME_FORM": "2021 Event",
         "SPRING_FORM": "Spring",
-        "VENUSAUR_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.VENUSAUR)",
-        "CHARIZARD_MEGA_X":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_X_EVO)",
-        "CHARIZARD_MEGA_Y":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_Y_EVO)",
-        "BLASTOISE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BLASTOISE)",
-        "BEEDRILL_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BEEDRILL)",
-        "PIDGEOT_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.PIDGEOT)",
-        "ALAKAZAM_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ALAKAZAM)",
-        "SLOWBRO_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SLOWBRO)",
-        "GENGAR_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GENGAR)",
-        "KANGASKHAN_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.KANGASKHAN)",
-        "PINSIR_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.PINSIR)",
-        "GYARADOS_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GYARADOS)",
-        "AERODACTYL_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AERODACTYL)",
-        "MEWTWO_MEGA_X":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEWTWO) $t(constants:pokemon.MEGA_X_EVO)",
-        "MEWTWO_MEGA_Y":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEWTWO) $t(constants:pokemon.MEGA_Y_EVO)",
-        "AMPHAROS_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AMPHAROS)",
-        "STEELIX_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.STEELIX)",
-        "SCIZOR_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SCIZOR)",
-        "HERACROSS_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.HERACROSS)",
-        "HOUNDOOM_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.HOUNDOOM)",
-        "TYRANITAR_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.TYRANITAR)",
-        "SCEPTILE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SCEPTILE)",
-        "BLAZIKEN_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BLAZIKEN)",
-        "SWAMPERT_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SWAMPERT)",
-        "GARDEVOIR_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GARDEVOIR)",
-        "SABLEYE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SABLEYE)",
-        "MAWILE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MAWILE)",
-        "AGGRON_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AGGRON)",
-        "MEDICHAM_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEDICHAM)",
-        "MANECTRIC_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MANECTRIC)",
-        "SHARPEDO_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SHARPEDO)",
-        "CAMERUPT_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CAMERUPT)",
-        "ALTARIA_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ALTARIA)",
-        "BANETTE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BANETTE)",
-        "ABSOL_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ABSOL)",
-        "GLALIE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GLALIE)",
-        "SALAMENCE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SALAMENCE)",
-        "METAGROSS_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.METAGROSS)",
-        "LATIAS_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LATIAS)",
-        "LATIOS_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LATIOS)",
-        "RAYQUAZA_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.RAYQUAZA)",
-        "LOPUNNY_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LOPUNNY)",
-        "GARCHOMP_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GARCHOMP)",
-        "LUCARIO_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LUCARIO)",
-        "ABOMASNOW_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ABOMASNOW)",
-        "GALLADE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GALLADE)",
-        "AUDINO_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AUDINO)",
-        "DIANCIE_MEGA":  "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.DIANCIE)",
-
+        "VENUSAUR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.VENUSAUR)",
+        "CHARIZARD_MEGA_X": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_X_EVO)",
+        "CHARIZARD_MEGA_Y": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_Y_EVO)",
+        "BLASTOISE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BLASTOISE)",
+        "BEEDRILL_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BEEDRILL)",
+        "PIDGEOT_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.PIDGEOT)",
+        "ALAKAZAM_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ALAKAZAM)",
+        "SLOWBRO_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SLOWBRO)",
+        "GENGAR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GENGAR)",
+        "KANGASKHAN_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.KANGASKHAN)",
+        "PINSIR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.PINSIR)",
+        "GYARADOS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GYARADOS)",
+        "AERODACTYL_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AERODACTYL)",
+        "MEWTWO_MEGA_X": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEWTWO) $t(constants:pokemon.MEGA_X_EVO)",
+        "MEWTWO_MEGA_Y": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEWTWO) $t(constants:pokemon.MEGA_Y_EVO)",
+        "AMPHAROS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AMPHAROS)",
+        "STEELIX_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.STEELIX)",
+        "SCIZOR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SCIZOR)",
+        "HERACROSS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.HERACROSS)",
+        "HOUNDOOM_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.HOUNDOOM)",
+        "TYRANITAR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.TYRANITAR)",
+        "SCEPTILE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SCEPTILE)",
+        "BLAZIKEN_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BLAZIKEN)",
+        "SWAMPERT_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SWAMPERT)",
+        "GARDEVOIR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GARDEVOIR)",
+        "SABLEYE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SABLEYE)",
+        "MAWILE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MAWILE)",
+        "AGGRON_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AGGRON)",
+        "MEDICHAM_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MEDICHAM)",
+        "MANECTRIC_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.MANECTRIC)",
+        "SHARPEDO_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SHARPEDO)",
+        "CAMERUPT_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CAMERUPT)",
+        "ALTARIA_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ALTARIA)",
+        "BANETTE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.BANETTE)",
+        "ABSOL_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ABSOL)",
+        "GLALIE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GLALIE)",
+        "SALAMENCE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.SALAMENCE)",
+        "METAGROSS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.METAGROSS)",
+        "LATIAS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LATIAS)",
+        "LATIOS_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LATIOS)",
+        "RAYQUAZA_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.RAYQUAZA)",
+        "LOPUNNY_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LOPUNNY)",
+        "GARCHOMP_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GARCHOMP)",
+        "LUCARIO_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.LUCARIO)",
+        "ABOMASNOW_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.ABOMASNOW)",
+        "GALLADE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.GALLADE)",
+        "AUDINO_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.AUDINO)",
+        "DIANCIE_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.DIANCIE)",
         "RATTATA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RATTATA)",
         "RATTATA_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.RATTATA)",
         "RATICATE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.RATICATE)",
@@ -1386,7 +1372,6 @@
         "MOLTRES_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.MOLTRES)",
         "MOLTRES_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.MOLTRES)",
         "MOLTRES_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.MOLTRES)",
-
         "KANGASKHAN_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.KANGASKHAN)",
         "KANGASKHAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KANGASKHAN)",
         "KANGASKHAN_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.KANGASKHAN)",
@@ -1446,9 +1431,9 @@
         "SQUIRTLE_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.SQUIRTLE)",
         "CHARMANDER_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.CHARMANDER)",
         "BULBASAUR_FALL_2019_FORM": "$t(constants:pokemon.FALL_FORM) $t(constants:pokemon.BULBASAUR)",
-      "PINSIR_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.PINSIR)",
-      "PINSIR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PINSIR)",
-      "PINSIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.PINSIR)",
+        "PINSIR_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.PINSIR)",
+        "PINSIR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PINSIR)",
+        "PINSIR_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.PINSIR)",
         "PIKACHU_VS_2019_FORM": "Libre $t(constants:pokemon.PIKACHU)",
         "PIKACHU_VS_FORM": "Libre $t(constants:pokemon.PIKACHU)",
         "ONIX_NORMAL_FORM": "$t(constants:pokemon.NORMAL_FORM) $t(constants:pokemon.ONIX)",
@@ -1500,8 +1485,8 @@
         "LINOONE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
         "PIKACHU_COPY_2019_FORM": "2019 $t(constants:pokemon.PIKACHU)",
         "VENUSAUR_COPY_2019_FORM": "2019 $t(constants:pokemon.VENUSAUR)",
-        "CHARIZARD_COPY_2019_FORM" : "2019 $t(constants:pokemon.CHARIZARD)",
-        "BLASTOISE_COPY_2019_FORM" : "2019 $t(constants:pokemon.BLASTOISE)",
+        "CHARIZARD_COPY_2019_FORM": "2019 $t(constants:pokemon.CHARIZARD)",
+        "BLASTOISE_COPY_2019_FORM": "2019 $t(constants:pokemon.BLASTOISE)",
         "CATERPIE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CATERPIE)",
         "CATERPIE_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.CATERPIE)",
         "METAPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.METAPOD)",
@@ -2446,7 +2431,6 @@
         "RUNERIGUS_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.RUNERIGUS)",
         "SIRFETCHD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SIRFETCHD)",
         "SIRFETCHD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SIRFETCHD)",
-
         "PIKACHU_COSTUME_2020_FORM": "Flying Pikachu",
         "DRAGONITE_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.DRAGONITE)",
         "ONIX_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.ONIX)",
@@ -2455,10 +2439,10 @@
         "RATICATE_SPRING": "$t(constants:pokemon.SPRING_FORM) $t(constants:pokemon.RATICATE)",
         "WOBBUFFET_SPRING": "$t(constants:pokemon.SPRING_FORM) $t(constants:pokemon.WOBBUFFET)",
         "WURMPLE_SPRING": "$t(constants:pokemon.SPRING_FORM) $t(constants:pokemon.WURMPLE)",
-        "SLOWPOKE_GALARIAN_FORM":  "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWPOKE)",
-        "SLOWBRO_GALARIAN_FORM":  "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWBRO)",
-        "LAPRAS_COSTUME_2020_FORM":  "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.LAPRAS)",
-        "GENGAR_COSTUME_2020_FORM":  "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.GENGAR)",
+        "SLOWPOKE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWPOKE)",
+        "SLOWBRO_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWBRO)",
+        "LAPRAS_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.LAPRAS)",
+        "GENGAR_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.GENGAR)",
         "PYROAR_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.PYROAR)",
         "MEOWSTIC_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.MEOWSTIC)",
         "ZYGARDE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - 10% ",
@@ -2524,7 +2508,7 @@
         "HOOPA_CONFINED_FORM": "$t(constants:pokemon.HOOPA) - Confined",
         "HOOPA_UNBOUND_FORM": "$t(constants:pokemon.HOOPA) - Unbound",
         "SABLEYE_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.SABLEYE)",
-        "PIKACHU_ADVENTURE_HAT_2020_FORM" : "$t(constants:pokemon.2020_COSTUME_FORM) Adventure Hat $t(constants:pokemon.PIKACHU)",
+        "PIKACHU_ADVENTURE_HAT_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Adventure Hat $t(constants:pokemon.PIKACHU)",
         "PIKACHU_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.PIKACHU)",
         "DELIBIRD_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.DELIBIRD)",
         "CUBCHOO_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.CUBCHOO)",
@@ -2755,21 +2739,21 @@
         "DEFENSE_BUFF": "Defense Buff",
         "ACID_SPRAY": "Acid Spray",
         "LEAF_TORNADO": "Leaf Tornado",
-        "SKULL_BASH":"Skull Bash",
-        "EARTH_POWER":"Earth Power",
-        "CRABHAMMER":"Crabhammer",
-        "LUNGE":"Lunge",
-        "CRUSH_CLAW":"Crush Claw",
-        "OCTAZOOKA":"Octazooka",
-        "MIRROR_SHOT":"Mirror Shot",
-        "SUPER_POWER":"Superpower",
-        "FELL_STINGER":"Fell Stinger",
-        "LEECH_LIFE":"Leech Life",
-        "DRAIN_PUNCH":"Drain Punch",
-        "SHADOW_BONE":"Shadow Bone",
-        "MUDDY_WATER":"Muddy Water",
-        "BLAZE_KICK":"Blaze Kick",
-        "RAZOR_SHELL":"Razor Shell",
+        "SKULL_BASH": "Skull Bash",
+        "EARTH_POWER": "Earth Power",
+        "CRABHAMMER": "Crabhammer",
+        "LUNGE": "Lunge",
+        "CRUSH_CLAW": "Crush Claw",
+        "OCTAZOOKA": "Octazooka",
+        "MIRROR_SHOT": "Mirror Shot",
+        "SUPER_POWER": "Superpower",
+        "FELL_STINGER": "Fell Stinger",
+        "LEECH_LIFE": "Leech Life",
+        "DRAIN_PUNCH": "Drain Punch",
+        "SHADOW_BONE": "Shadow Bone",
+        "MUDDY_WATER": "Muddy Water",
+        "BLAZE_KICK": "Blaze Kick",
+        "RAZOR_SHELL": "Razor Shell",
         "WEATHER_BALL_FIRE": "Weather Ball",
         "WEATHER_BALL_ICE": "Weather Ball",
         "WEATHER_BALL_ROCK": "Weather Ball",
@@ -2792,9 +2776,9 @@
         "AEROBLAST": "Aeroblast",
         "TECHNO_BLAST_NORMAL": "Techno Blast",
         "TECHNO_BLAST_BURN": "Techno Blast Burn",
-        "TECHNO_BLAST_CHILL":"Techno Blast Chill",
-        "TECHNO_BLAST_WATER":"Techno Blast Water",
-        "TECHNO_BLAST_SHOCK":"Techno Blast Shock",
+        "TECHNO_BLAST_CHILL": "Techno Blast Chill",
+        "TECHNO_BLAST_WATER": "Techno Blast Water",
+        "TECHNO_BLAST_SHOCK": "Techno Blast Shock",
         "FLY": "Fly",
         "V_CREATE": "V Create",
         "LEAF_STORM": "Leaf Storm",
@@ -2854,7 +2838,7 @@
                 "label": "Dodge All Weave",
                 "description": "This uses an attack pattern strategy that assumes that the worst case 1.5s delay between attacks could happen every time. This strategy should be reproducible by a human."
             },
-            "PVP" : {
+            "PVP": {
                 "label": "PvP",
                 "description": "This strategy uses pvp mechanices."
             },
@@ -2865,7 +2849,6 @@
         },
         "dodge": {
             "label": "Dodge Strategy",
-
             "DODGE_100": {
                 "label": "Perfect Dodging",
                 "description": "Tries to dodge 100% of the time. This dodge strategy will almost never miss a dodge. You may still get hit in certain unavoidable situations such as when using a special move"
@@ -2999,7 +2982,6 @@
                 "label": "$t(strategies.shield.SHIELD_2.label)",
                 "description": "$t(strategies.shield.SHIELD_2.description)"
             }
-
         },
         "defense": {
             "DEFENSE": {
@@ -3069,39 +3051,39 @@
     },
     "sorts": {
         "label": "Sort Order",
-        "OVERALL":{
+        "OVERALL": {
             "label": "$t(common:properties.overall)",
             "description": "A weighted strength score"
         },
         "POWER": {
             "label": "$t(common:properties.power)",
             "description": "The percent of opponents health removed within the time limit"
-        }, 
-        "WIN":{
+        },
+        "WIN": {
             "label": "$t(common:properties.win)",
             "description": "Chance of victory"
         },
-        "TIME":{
+        "TIME": {
             "label": "$t(common:properties.time)",
             "description": "Time to win assuming infinite number of Pokemon"
         },
-        "POTIONS":{
+        "POTIONS": {
             "label": "$t(common:properties.potions)",
             "description": "1 point for each potion and 5 points for each revive"
         },
-        "TDO":{
+        "TDO": {
             "label": "$t(common:properties.tdo)",
             "description": "Damage done per Pokemon"
         },
-        "ESTIMATOR":{
+        "ESTIMATOR": {
             "label": "$t(common:properties.estimator)",
             "description": "Approximate number of players required to win"
         },
-        "WEATHER":{
+        "WEATHER": {
             "label": "Weather",
             "description": "Best in weather"
         },
-        "DODGE_SPECIALS":{
+        "DODGE_SPECIALS": {
             "label": "Dodge Specials",
             "description": "Best when dodging"
         },
@@ -3243,7 +3225,6 @@
             "description": "Use the best level 50 Pokemon"
         }
     },
-
     "battlePartyTypes": {
         "label": "League",
         "COMBAT_LEAGUE_RAIDS_GYMS": {
@@ -3320,11 +3301,8 @@
             "label": "Global",
             "description": "A raid for anyone to join"
         }
-
     },
-
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"
 }
-
