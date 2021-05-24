@@ -777,7 +777,7 @@
         "BUNNELBY": "Bunnelby",
         "DIGGERSBY": "Diggersby",
         "FLETCHLING": "Fletchling",
-        "FLETCHINDER": "FLetchinder",
+        "FLETCHINDER": "Fletchinder",
         "TALONFLAME": "Talonflame",
         "SCATTERBUG": "Scatterbug",
         "SPEWPA": "Spewpa",
@@ -2512,7 +2512,8 @@
         "DELIBIRD_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Inverno $t(constants:pokemon.DELIBIRD)",
         "CUBCHOO_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Inverno $t(constants:pokemon.CUBCHOO)",
         "SLOWPOKE_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Inverno $t(constants:pokemon.SLOWPOKE)",
-        "SLOWBRO_2021_FORM": "$t(constants:pokemon.2021_COSTUME_FORM) Inverno $t(constants:pokemon.SLOWBRO)"
+        "SLOWBRO_2021_FORM": "$t(constants:pokemon.2021_COSTUME_FORM) Inverno $t(constants:pokemon.SLOWBRO)",
+        "MR_RIME": "Mr. Rime"
     },
     "moves": {
         "ACID_FAST": "Ácido",
@@ -3284,6 +3285,10 @@
         "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
             "label": "Copa Silph Arena Labirinto",
             "description": "O torneio de fevereiro da Copa Silph Arena - Temporada 3."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
+            "label": "Great League - Remix",
+            "description": "Os 10 Pokémon da Great League mais populares foram banidos com um CP máximo de 1500."
         }
     },
     "privacy": {
