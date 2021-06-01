@@ -2626,7 +2626,8 @@
         "TRI_ATTACK": "Triplette",
         "GUST_FAST": "Windstoß",
         "INCINERATE_FAST": "Einäschern",
-        "SUPER_POWER": "Kraftkolloss"
+        "SUPER_POWER": "Kraftkolloss",
+        "LOCK_ON_FAST": "Zielschuss"
     },
     "types": {
         "POKEMON_TYPE_NONE": "Unbekannt",
