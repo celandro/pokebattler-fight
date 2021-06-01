@@ -2784,7 +2784,9 @@
         "LEAF_STORM": "Leaf Storm",
         "TRI_ATTACK": "Tri Attack",
         "GUST_FAST": "Gust",
-        "INCINERATE_FAST": "Incinerate"
+        "INCINERATE_FAST": "Incinerate",
+        "DARK_VOID": "Dark Void",
+        "FEATHER_DANCE": "Feather Dance"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
