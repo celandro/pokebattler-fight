@@ -17,12 +17,32 @@
       "iconName": "plus-circle",
       "title": "Únete a las Redadas",
       "subtitle": "Aprende cómo unirte a redadas en la aplicación Pokebattler Raid Party",
-      "slices": "13",
-      "fileName": "https://static.pokebattler.com/help/es-ES/join_raid/join_raid_300_{{slice}}.png",
+      "slices": "10",
+      "fileName": "https://static.pokebattler.com/help/300/es-ES/join_raid/join_raid_{{slice}}.png",
       "dimensions": {
         "width": "300",
         "height": "1000",
         "finalHeight": "1000"
+      }
+    },
+    "hostRaid": {
+      "iconName": "plus-circle",
+      "slices": "16",
+      "fileName": "https://static.pokebattler.com/help/es-ES/host_raid/host_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "600",
+        "height": "1910",
+        "finalHeight": "800"
+      }
+    },
+    "hostRaidAndroid": {
+      "iconName": "plus-circle",
+      "slices": "16",
+      "fileName": "https://static.pokebattler.com/help/300/es-ES/host_raid/host_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "955",
+        "finalHeight": "400"
       }
     }
   }
