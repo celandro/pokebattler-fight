@@ -2441,6 +2441,7 @@
         "WURMPLE_SPRING": "$t(constants:pokemon.SPRING_FORM) $t(constants:pokemon.WURMPLE)",
         "SLOWPOKE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWPOKE)",
         "SLOWBRO_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWBRO)",
+        "SLOWKING_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWKING)",
         "LAPRAS_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.LAPRAS)",
         "GENGAR_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.GENGAR)",
         "PYROAR_FEMALE_FORM": "$t(constants:pokemon.FEMALE_FORM) $t(constants:pokemon.PYROAR)",
