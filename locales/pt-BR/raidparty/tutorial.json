@@ -20,6 +20,7 @@
                 "height": "1200",
                 "width": "300"
             },
+            "fileName": "https://static.pokebattler.com/help/pt-BR/copy_paste/copy_paste_{{slice}}.jpg",
             "subtitle": "Aprenda a colar o código de um amigo no Pokebattler Raid Party",
             "heading": "Não sabe como copiar e colar em seu smartphone? A Sra. Pokebattler tem um guia rápido para te ajudar!",
             "title": "Como Colar",
@@ -58,7 +59,7 @@
                 "width": "300",
                 "height": "1200"
             },
-            "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_android_{{slice}}.png",
+            "fileName": "https://static.pokebattler.com/help/pt-BR/copy_paste/copy_paste_android_{{slice}}.jpg",
             "subtitle": "Aprenda a colar o código de um amigo no Pokebattler Raid Party",
             "title": "Como Colar",
             "iconName": "clipboard"
