@@ -443,9 +443,11 @@
         }
     },
     "countryCodes": {
+        "AR": "Argentina",
         "AU": "Australia",
         "AT": "Austria",
         "BE": "Belgium",
+        "BG": "Bulgaria",
         "CA": "Canada",
         "DK": "Denmark",
         "FI": "Finland",
