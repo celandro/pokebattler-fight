@@ -243,6 +243,7 @@
         "title": "Premier Cup",
         "intro": "Pokemon GO Battle League has added Premier Cup to run at the same time as Master League. Premier Cup is like Master League but does not allow Mythical or Legendary Pokemon. It  is dominated by level 40 pseudo-legendaries with dual charge moves. This is a slightly more affordable league than Master league but is also not recommended for beginners."
       },
+
       "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
         "title": "Ultra Premier Cup",
         "intro": "Pokemon GO Battle League has added an Ultra League version of Premier Cup to run at the same time as Ultra League. Ultra Premier Cup is like Ultra League but does not allow Mythical or Legendary Pokemon.  It is dominated by community day Pokemon with powerful legacy moves that are not available without elite TMs."
@@ -250,6 +251,14 @@
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
         "title": "Great League Remix",
         "intro": "A special form of Great League with the 10 most popular Pokemon for Pokemon GO Battle League have been banned"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELEMENT": {
+        "title": "Great League Element",
+        "intro": "A restricted cup with a maximum cp of 500."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
+        "title": "Great League Bidoof",
+        "intro": "Bidoof? Bidoof!"
       },
       "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
         "title": "{{title}}",

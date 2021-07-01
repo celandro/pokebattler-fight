@@ -3266,6 +3266,15 @@
             "label": "Great League - Remix",
             "description": "10 most popular Great League Pokemon are banned with a maximum CP of 1500."
         },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELEMENT": {
+            "label": "Great League - Element",
+            "description": "A restricted cup with a maximum CP of 500."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
+            "label": "Great League - Bidoof",
+            "description": "Bidoof? Bidoof!"
+        },
+
         "COMBAT_LEAGUE_PREMIER_CUP": {
             "label": "Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon."
