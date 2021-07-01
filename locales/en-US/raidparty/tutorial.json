@@ -24,12 +24,12 @@
       "iconName": "link",
       "title": "Join Raids",
       "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
-      "slices": "13",
-      "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_300_{{slice}}.png",
+      "slices": "9",
+      "fileName": "https://static.pokebattler.com/help/300/en-US/join_raid/join_raid_{{slice}}.png",
       "dimensions": {
         "width": "300",
-        "height": "775",
-        "finalHeight": "388"
+        "height": "1200",
+        "finalHeight": "88"
       }
     },
     "hostRaid": {
@@ -41,7 +41,7 @@
       "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_{{slice}}.png",
       "dimensions": {
         "width": "600",
-        "height": "1910 ",
+        "height": "1910",
         "finalHeight": "800"
       }
     },
@@ -50,7 +50,7 @@
       "title": "Host Raids",
       "subtitle": "Learn how to host raids in the Pokebattler Raid Party app",
       "slices": "16",
-      "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_300_{{slice}}.png",
+      "fileName": "https://static.pokebattler.com/help/300/en-US/host_raid/host_raid_{{slice}}.png",
       "dimensions": {
         "width": "300",
         "height": "955",

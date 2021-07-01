@@ -17,12 +17,12 @@
             "iconName": "plus-circle",
             "title": "Únete a las Incursiones",
             "subtitle": "Aprende cómo unirte a incursiones en la aplicación Pokebattler Raid Party",
-            "slices": "13",
-            "fileName": "https://static.pokebattler.com/help/es-ES/join_raid/join_raid_300_{{slice}}.png",
+            "slices": "10",
+            "fileName": "https://static.pokebattler.com/help/300/es-ES/join_raid/join_raid_{{slice}}.png",
             "dimensions": {
-                "width": "300",
-                "height": "1000",
-                "finalHeight": "1000"
+              "width": "300",
+              "height": "1000",
+              "finalHeight": "1000"
             }
         },
         "hostRaid": {
@@ -30,25 +30,25 @@
             "title": "Alojar Incursiones",
             "subtitle": "Aprende cómo alojar incursiones en la aplicación Pokebattler Raid Party",
             "heading": "¿No estás seguro de cómo alojar una incursión? La Sra. Pokebattler está aquí para ayudar",
-            "slices": "16",
-            "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_{{slice}}.png",
-            "dimensions": {
-                "width": "600",
-                "height": "1910 ",
-                "finalHeight": "800"
-            }
+          "slices": "16",
+          "fileName": "https://static.pokebattler.com/help/es-ES/host_raid/host_raid_{{slice}}.png",
+          "dimensions": {
+            "width": "600",
+            "height": "1910",
+            "finalHeight": "800"
+          }
         },
         "hostRaidAndroid": {
             "iconName": "plus-circle",
             "title": "Alojar Incursiones",
             "subtitle": "Aprende cómo alojar incursiones en la aplicación Pokebattler Raid Party",
-            "slices": "16",
-            "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_300_{{slice}}.png",
-            "dimensions": {
-                "width": "300",
-                "height": "955",
-                "finalHeight": "400"
-            }
+          "slices": "16",
+          "fileName": "https://static.pokebattler.com/help/300/es-ES/host_raid/host_raid_{{slice}}.png",
+          "dimensions": {
+            "width": "300",
+            "height": "955",
+            "finalHeight": "400"
+          }
         },
         "copyPaste": {
             "iconName": "clipboard",
@@ -56,7 +56,7 @@
             "heading": "¿No estás seguro de cómo copiar y pegar en tu teléfono? ¡La Sra. Pokebattler tiene una guía rápida para ti!",
             "subtitle": "Aprende cómo pegar un código de amistad en la aplicación Pokebattler Raid Party",
             "slices": "1",
-            "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_{{slice}}.png",
+            "fileName": "https://static.pokebattler.com/help/es-ES/copy_paste/copy_paste_{{slice}}.jpg",
             "dimensions": {
                 "width": "300",
                 "height": "1200",
@@ -68,7 +68,7 @@
             "title": "Cómo Pegar",
             "subtitle": "Aprende cómo pegar un código de amistad en la aplicación Pokebattler Raid Party",
             "slices": "1",
-            "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_android_{{slice}}.png",
+            "fileName": "https://static.pokebattler.com/help/es-ES/copy_paste/copy_paste_android_{{slice}}.jpg",
             "dimensions": {
                 "width": "300",
                 "height": "1200",
