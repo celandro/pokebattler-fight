@@ -2513,8 +2513,12 @@
         "PIKACHU_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.PIKACHU)",
         "DELIBIRD_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.DELIBIRD)",
         "CUBCHOO_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.CUBCHOO)",
-        "SLOWPOKE_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.SLOWPOKE)",
-        "SLOWBRO_2021_FORM": "$t(constants:pokemon.2021_COSTUME_FORM) Winter $t(constants:pokemon.SLOWBRO)"
+        "SLOWPOKE_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.SLOWPOKE)",
+        "SLOWBRO_2021_FORM": "$t(constants:pokemon.2021_COSTUME_FORM) $t(constants:pokemon.SLOWBRO)",
+        "PIKACHU_KARIYUSHI_FORM": "Kariyushi $t(constants:pokemon.PIKACHU)",
+        "PIKACHU_POP_STAR_FORM": "Pop Star $t(constants:pokemon.PIKACHU)",
+        "PIKACHU_ROCK_STAR_FORM": "Rock Star $t(constants:pokemon.PIKACHU)",
+        "PIKACHU_FLYING_5TH_ANNIV_FORM": "Flying 5th Anniversary $t(constants:pokemon.PIKACHU)"
     },
     "moves": {
         "undefined": "Undefined",
@@ -2787,7 +2791,9 @@
         "GUST_FAST": "Gust",
         "INCINERATE_FAST": "Incinerate",
         "DARK_VOID": "Dark Void",
-        "FEATHER_DANCE": "Feather Dance"
+        "FEATHER_DANCE": "Feather Dance",
+        "FAIRY_WIND_FAST": "Fairy Wind",
+        "RELIC_SONG": "Relic Song"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
