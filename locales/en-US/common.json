@@ -117,6 +117,7 @@
         "powerups": "Power Ups",
         "stardust": "Stardust",
         "candy": "Candy",
+        "xlcandy": "XL Candy",
         "tdo": "Damage (TDO)",
         "maxCP": "Max $t(common:cp)",
         "level": "$t(common:level)",
@@ -227,6 +228,9 @@
     },
     "candy": {
         "title": "Candy Available"
+    },
+    "xlcandy": {
+        "title": "XL Candy Available"
     },
     "stardust": {
         "title": "Stardust Available"
