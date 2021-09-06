@@ -71,6 +71,14 @@
     "line3": "",
     "line4": ""
   },
+  "KICKED_USER": {
+    "title": "You have been kicked from the {{defender}} raid",
+    "subtitle": "The host has removed you.",
+    "line1": "Hosts can remove you for a variety of reasons. The most common are:",
+    "line2": "1. You have not sent the friend invite to the host",
+    "line3": "2. Trainer name or level does not match your settings",
+    "line4": "3. The boss is too difficult for someone of your level"
+  },
   "defaultBody": {
     "subtitle": "{{tier}} {{defender}} #{{raidPartyId}}",
     "line1": "{{numReadyAttackers}} of {{numAttackers}} players ready",
