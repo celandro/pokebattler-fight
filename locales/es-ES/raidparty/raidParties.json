@@ -195,6 +195,11 @@
     "goCommandInstruction": "¡Clickeando Vamos cerrará la incursión a jugadores adicionales y notificará a todos los jugadores que la incursión está comenzando! Asegúrate de haber aceptado todas las solicitudes de amistad. Una vez que clickeas Go, ¡no puedes regresar!",
     "raidStarting": "La incursión está comenzando, ¡entra al juego!",
     "raidStartingOwner": "¿Qué estás esperando? Ahora es tu responsabilidad iniciar la incursión, ¡tu incursión espera por ti! ¡Copia los nombres de los entrenadores e invítalos a la incursión en el juego!",
+    "raidComplete": "Esta incursión ha finalizado. Gracias por hacer incursiones con Pokebattler Raid Party!",
+    "raidPartyList": {
+        "unavailable": "Grupos de Incursión No Disponibles",
+        "available": "Grupos de Incursión Disponibles"
+    },
     "clipboard": {
         "friendCodeCopied": "¡Código de amigo de {{ownerName}} copiado! ¡Pégalo en el juego para enviar una invitación de amistad al anfitrión!",
         "attackersCopied": "¡Contrincantes sugeridos copiados! ¡Pégalos en la búsqueda de tu equipo de batalla en el juego!",
@@ -211,5 +216,10 @@
         "thankYouMessage": "¡Gracias por jugar con Pokebattler Raid Party! ¿Qué tal estuvo la incursión de {{ownerName}}?",
         "thankYouMessageHost": "¡Gracias por organizar una incursión con Pokebattler Raid Party!",
         "closeButton": "Cerrar"
+    },
+    "kickUserPreviewPopup": {
+        "title": "Quitar Jugador",
+        "questionMessage": "¿Deseas quitar al jugador",
+        "rateMessage": "Por favor, desliza izquierda o derecha para valorar al jugador"
     }
 }
