@@ -224,6 +224,24 @@
         "deepLink3": "Discord users: You will need to change your Discord settings for Browser to open in Safari or Chrome",
         "customLink": "Open in App"
     },
+    "raidNetworkDiscords": {
+        "title": "Raid Network",
+        "info": "Discord servers in the Pokebattler Raid Network are available to join in the Pokebattler Raid Party app if they do not fill up. You can join their servers directly to fill raids sooner!",
+        "join": "Have a raiding discord and interested in joining the Pokebattler Raid Network? Join the Pokebattler Raid App discord and ping an admin",
+        "properties": {
+            "activeRaidersCount": "Avg Raiders",
+            "raidsCreated": "# Raids",
+            "yesterday": "Yesterday",
+            "lastWeek": "Last Week",
+            "lastMonth": "Last Month",
+            "lastYear": "Last Year",
+            "discordLink": "Go to {{guildName}} Discord server",
+            "country": "Country",
+            "language": "Language",
+            "name": "$t(common:name)"
+        }
+    },
+
     "pokebox": {
         "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
         "enabled": "Showing custom results for your Pokebox. The 30 best counters that you own are shown below.",
