@@ -3563,5 +3563,16 @@
     },
     "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
     "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
-    "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender"
+    "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender",
+    "resists": {
+        "title": "{{name}} Weaknesses in Pokemon Go",
+        "subtitle": "{{name}} is weak to the following attack types",
+        "resistAlt": "{{name}} is {{resistType}} weak to {{resist}}`}",
+        "types": {
+            "1_600000": "1.6 ×",
+            "2_560000": "2.56 ×",
+            "4_096000": "4.096 ×"
+        }
+
+    }
 }
