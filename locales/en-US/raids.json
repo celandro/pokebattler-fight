@@ -228,6 +228,7 @@
         "title": "Raid Network",
         "info": "Discord servers in the Pokebattler Raid Network are available to join in the Pokebattler Raid Party app if they do not fill up. You can join their servers directly to fill raids sooner!",
         "join": "Have a raiding discord and interested in joining the Pokebattler Raid Network? Join the Pokebattler Raid App discord and ping an admin",
+        "discordLink": "Go to {{guildName}} Discord server",
         "properties": {
             "activeRaidersCount": "Avg Raiders",
             "raidsCreated": "# Raids",
@@ -235,7 +236,6 @@
             "lastWeek": "Last Week",
             "lastMonth": "Last Month",
             "lastYear": "Last Year",
-            "discordLink": "Go to {{guildName}} Discord server",
             "country": "Country",
             "language": "Language",
             "name": "$t(common:name)"
