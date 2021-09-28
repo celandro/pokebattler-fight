@@ -101,5 +101,13 @@
     "RAID_DONE": {
         "title": "{{defender}} - Incursión completa",
         "line1": "Gracias por hacer incursiones en Pokebattler Raid Party"
+    },
+    "KICKED_USER": {
+        "title": "Has sido removido de la incursión de {{defender}}",
+        "subtitle": "El anfitrión te ha removido.",
+        "line1": "Los anfitriones pueden removerte debido una variedad de razones. Las más comunes son:",
+        "line2": "1. No has enviado una petición de amistad al anfitrión",
+        "line3": "2. El nombre o nivel de entrenador no coincide con tu configuración",
+        "line4": "3. El jefe es muy difícil para alguien de tu nivel"
     }
 }
