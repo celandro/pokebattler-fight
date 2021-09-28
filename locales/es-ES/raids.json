@@ -1,7 +1,26 @@
 {
     "title": "Guía para incursiones",
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
+        "description": "Encuentra contrincantes para jefes de incursión en Pokemon Go considerando Clima, Amistad e incluso tu propia Pokebox. Obtén las 30 mejores contrincantes con la guía de incursión personalizable #1 del mundo."
+    },
     "linkLabel": "Guía para incursiones",
     "intro": "¡Las incursiones han llegado a Pokémon Go! Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión con la guía para incursiones más precisa del mundo. ¡Simplemente selecciona la incursión para ver los mejores atacantes para cada combinación de movimientos!",
+    "breakingNews": {
+        "title": "Último minuto",
+        "subtitle": "Incursiones de moda en Pokémon Go",
+        "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}})"
+    },
+    "articles": {
+        "title": "¡Últimas noticias de incursiones!",
+        "subtitle": "Artículos y vídeos sobre incursiones de Pokemon Go de jugadores top e investigadores"
+    },
+    "guide": {
+        "subtitle": "Como derrotar a $t(constants:pokemon.{{pokemonId}}) en Pokemon Go",
+        "infographicDownload": "Descargar $t(constants:pokemon.{{pokemonId}}) infografía",
+        "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Guía de Contrincantes de Incursión",
+        "article": "Lee toda la Guía de Incursión de $t(constants:pokemon.{{pokemonId}}) a continuación"
+    },
     "tierList": {
         "common": {
             "boss": "Jefe",
@@ -121,6 +140,10 @@
     },
     "results": {
         "title": "Contrincantes para {{defender}}",
+        "meta": {
+            "description": "Los mejores contrincantes para {{defender}} en Pokémon Go son {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. ¡Autentícate para ver tus resultados personalizados!",
+            "image": "{{infographicShareURL}}"
+        },
         "calculating": "Calculando resultados de incursión",
         "counters": {
             "title": "Rivales óptimos",
@@ -144,71 +167,22 @@
                 "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
             }
         },
-        "description": "Bienvenido a la guía de incursión de Pokebattler para {{pokemon}}. Puedes encontrar los mejores oponentes basados en los movimientos de cada jefe. Esta guía es personalizable en muchas maneras diferentes. Puedes seleccionar el nivel de ataque y la estrategia de ataque que le gustaría usar así como también varias opciones para ordenar. ",
-        "meta": {
-            "description": "Los mejores contrincantes para {{defender}} en Pokémon Go son {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. ¡Autentícate para ver tus resultados personalizados!",
-            "image": "{{infographicShareURL}}"
+        "related": {
+            "title": "Contrincantes Relacionados"
         },
+        "description": "Bienvenido a la guía de incursión de Pokebattler para {{pokemon}}. Puedes encontrar los mejores oponentes basados en los movimientos de cada jefe. Esta guía es personalizable en muchas maneras diferentes. Puedes seleccionar el nivel de ataque y la estrategia de ataque que le gustaría usar así como también varias opciones para ordenar. ",
         "patreon": {
             "description": "Resultados más exactos para combinaciones de ataques desconocidas provistas gracias al apoyo de los suscriptores. Los suscriptores reciben espacio de Pokebox adicional, mayor exactitud de resultados para todas las combinaciones y más.",
             "link": "Mira todos los beneficios que obtienes por registrarte",
             "thanks": "¡Gracias por tu apoyo!"
+        }
+    },
+    "raidAttackers": {
+        "title": "Contrincantes de incursiones - {{type}}",
+        "meta": {
+            "description": "¡Los mejores contrincantes {{type}} de incursiones en Pokémon Go basados en el rendimiento contra todas las posibles incursiones! Los puntos son asignados basados en rendimiento relativo ponderado y por nivel de jefes de incursión"
         },
-        "related": {
-            "title": "Contrincantes Relacionados"
-        }
-    },
-    "pokebox": {
-        "login": "La guía de incursiones de Pokebattler puede ser personalizada solo para incluir Pokémon que posees usando tu propia caja de Pokémon. Ingresa, añade tus mejores Pokémon, a luego puedes alternar entre los mejores Pokémon que hay en tu colección y los mejores oponentes en general para planear tus peleas de incursión.",
-        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 30 mejores contendores que posees se muestran debajo.",
-        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 30 mejores contendores a ese nivel son mostrados debajo.",
-        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 30 contendores se muestran debajo.",
-        "switchLevel": "Cambiar a $t(common:attackerTypes.level)",
-        "switchPokebox": "Cambiar a $t(common:attackerTypes.pokebox)"
-    },
-    "emptyResults": {
-        "LEVEL": "No hubo resultados arrojados para este cálculo. El servidor puede estar presentando fallas.",
-        "POKEBOX": "No hubo resultados arrojados para este cálculo. Quizá no has ingresado ningún Pokémon en tu caja de Pokémon aún?",
-        "FRIEND": "No hubo resultados arrojados para este cálculo. Quizá tú amigo no ha ingresado ningún Pokémon en su caja de Pokémon aún. Intenta un entrenador diferente."
-    },
-    "people": {
-        "title": "Estimación de Pokebattler",
-        "difficultyRating": "Estimado de dificultad: {{rating}}",
-        "adviceLink": "Ver qué pasa si das más poder",
-        "estimate": {
-            "close": "Vencer a {{pokemon}} debería tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla muy cercana. Trae otro entrenador si puedes para estar seguro.",
-            "almost": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Si tienes mucha suerte, podrías lograrlo con 1 entrenador menos.",
-            "normal": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Asegúrate que tu grupo esté preparado antes de la batalla.",
-            "difficult": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla difícil, asegúrate que todos usen sus mejores Pokémon.",
-            "trivial": "Derrotar a {{pokemon}} debería tomar {{numPeople}} entenadores con Pokémon de este poder. Esta pelea terminará antes de comenzar. Es tan sencillo que puedes utilizar las recomendaciones del juego y ganar."
-        }
-    },
-    "helpLink": "Ve el video tutorial sobre incursiones",
-    "breakingNews": {
-        "title": "Último minuto",
-        "subtitle": "Incursiones de moda en Pokémon Go",
-        "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}})"
-    },
-    "silph": {
-        "text": "Lista de incursiones actualizada proporcionada por",
-        "link": "The Silph Road"
-    },
-    "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
-        "description": "Encuentra contrincantes para jefes de incursión en Pokemon Go considerando Clima, Amistad e incluso tu propia Pokebox. Obtén las 30 mejores contrincantes con la guía de incursión personalizable #1 del mundo."
-    },
-    "articles": {
-        "title": "¡Últimas noticias de incursiones!",
-        "subtitle": "Artículos y vídeos sobre incursiones de Pokemon Go de jugadores top e investigadores"
-    },
-    "guide": {
-        "subtitle": "Como derrotar a $t(constants:pokemon.{{pokemonId}}) en Pokemon Go",
-        "infographicDownload": "Descargar $t(constants:pokemon.{{pokemonId}}) infografía",
-        "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Guía de Contrincantes de Incursión",
-        "article": "Lee toda la Guía de Incursión de $t(constants:pokemon.{{pokemonId}}) a continuación"
-    },
-    "battle": {
-        "resultLink": "Revisa este resultado como grupo de batalla"
+        "details": "Los contrincantes son agregados usando un algoritmo de calificación que da puntos basados en rendimiento, a nivel 40 sin bonificación de amistad ni de clima y ordenados por estimador. 5 puntos son otorgados para mostrarse en primer lugar, 4 puntos para el segundo lugar, 3 puntos para un cuarto lugar, 2 puntos para un octavo lugar y 1 punto para un dieciseisavo lugar. Los puntos son ponderados por nivel (10x para nivel 5 / mega, 4x para nivel 3 y 1x para nivel 1)"
     },
     "raidParty": {
         "title": "Pokebattler Raid Party",
@@ -250,11 +224,54 @@
         "deepLink3": "Usuarios Discord: necesitarán cambiar su configuración Discord para el Navegador para abrir en Safari o Chrome",
         "customLink": "Abrir en la app"
     },
-    "raidAttackers": {
-        "title": "Contrincantes de incursiones - {{type}}",
-        "meta": {
-            "description": "¡Los mejores contrincantes {{type}} de incursiones en Pokémon Go basados en el rendimiento contra todas las posibles incursiones! Los puntos son asignados basados en rendimiento relativo ponderado y por nivel de jefes de incursión"
-        },
-        "details": "Los contrincantes son agregados usando un algoritmo de calificación que da puntos basados en rendimiento, a nivel 40 sin bonificación de amistad ni de clima y ordenados por estimador. 5 puntos son otorgados para mostrarse en primer lugar, 4 puntos para el segundo lugar, 3 puntos para un cuarto lugar, 2 puntos para un octavo lugar y 1 punto para un dieciseisavo lugar. Los puntos son ponderados por nivel (10x para nivel 5 / mega, 4x para nivel 3 y 1x para nivel 1)"
+    "raidNetworkDiscords": {
+        "title": "Raid Network",
+        "info": "Los servidores Discord en la Pokebattler Raid Network están disponibles para unirse en la app Pokebattler Raid Party si no se completan. ¡Puedes unirte a sus servidores directamente para completar incursiones rápidamente!",
+        "join": "¿Tienes un Discord de incursiones y están interesados en unirse a la Pokebattler Raid Network? Únete al Discord de la app Pokebattler Raid Party y contacta a un administrador",
+        "discordLink": "Ir al servidor de {{guildName}}",
+        "properties": {
+            "activeRaidersCount": "Jugadores activos (promedio) ",
+            "raidsCreated": "Incursiones públicas creadas ",
+            "yesterday": "Ayer",
+            "lastWeek": "Semana pasada",
+            "lastMonth": "Mes pasado",
+            "lastYear": "Año pasado",
+            "country": "País",
+            "language": "Idioma",
+            "name": "$t(common:name)"
+        }
+    },
+    "pokebox": {
+        "login": "La guía de incursiones de Pokebattler puede ser personalizada solo para incluir Pokémon que posees usando tu propia caja de Pokémon. Ingresa, añade tus mejores Pokémon, a luego puedes alternar entre los mejores Pokémon que hay en tu colección y los mejores oponentes en general para planear tus peleas de incursión.",
+        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 30 mejores contendores que posees se muestran debajo.",
+        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 30 mejores contendores a ese nivel son mostrados debajo.",
+        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 30 contendores se muestran debajo.",
+        "switchLevel": "Cambiar a $t(common:attackerTypes.level)",
+        "switchPokebox": "Cambiar a $t(common:attackerTypes.pokebox)"
+    },
+    "emptyResults": {
+        "LEVEL": "No hubo resultados arrojados para este cálculo. El servidor puede estar presentando fallas.",
+        "POKEBOX": "No hubo resultados arrojados para este cálculo. Quizá no has ingresado ningún Pokémon en tu caja de Pokémon aún?",
+        "FRIEND": "No hubo resultados arrojados para este cálculo. Quizá tú amigo no ha ingresado ningún Pokémon en su caja de Pokémon aún. Intenta un entrenador diferente."
+    },
+    "people": {
+        "title": "Estimación de Pokebattler",
+        "difficultyRating": "Estimado de dificultad: {{rating}}",
+        "adviceLink": "Ver qué pasa si das más poder",
+        "estimate": {
+            "close": "Vencer a {{pokemon}} debería tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla muy cercana. Trae otro entrenador si puedes para estar seguro.",
+            "almost": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Si tienes mucha suerte, podrías lograrlo con 1 entrenador menos.",
+            "normal": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Asegúrate que tu grupo esté preparado antes de la batalla.",
+            "difficult": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla difícil, asegúrate que todos usen sus mejores Pokémon.",
+            "trivial": "Derrotar a {{pokemon}} debería tomar {{numPeople}} entenadores con Pokémon de este poder. Esta pelea terminará antes de comenzar. Es tan sencillo que puedes utilizar las recomendaciones del juego y ganar."
+        }
+    },
+    "battle": {
+        "resultLink": "Revisa este resultado como grupo de batalla"
+    },
+    "helpLink": "Ve el video tutorial sobre incursiones",
+    "silph": {
+        "text": "Lista de incursiones actualizada proporcionada por",
+        "link": "The Silph Road"
     }
 }
