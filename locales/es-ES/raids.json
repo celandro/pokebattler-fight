@@ -230,8 +230,8 @@
         "join": "¿Tienes un Discord de incursiones y están interesados en unirse a la Pokebattler Raid Network? Únete al Discord de la app Pokebattler Raid Party y contacta a un administrador",
         "discordLink": "Ir al servidor de {{guildName}}",
         "properties": {
-            "activeRaidersCount": "Jugadores activos (promedio) ",
-            "raidsCreated": "Incursiones públicas creadas ",
+            "activeRaidersCount": "Jugadores activos",
+            "raidsCreated": "Incursiones creadas ",
             "yesterday": "Ayer",
             "lastWeek": "Semana pasada",
             "lastMonth": "Mes pasado",
