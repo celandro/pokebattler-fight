@@ -353,19 +353,5 @@
         "description": "La cantidad de megas adicionales provistas por otros jugadores. Las megas serán escalonadas para incrementar el tiempo de vida del incremento por mega."
     },
     "friendCode": "Código de amigo",
-    "choosePokemonLabel": "Elige Pokémon",
-    "raidNetworkDiscords": {
-        "title": "Raid Network Discords",
-        "heading": "Raid Network Discords",
-        "description": "Los siguientes servidores Discord han realizado contribuciones significativas al desarrollo de la Pokebattler Raid Network.",
-        "activeRaidersCount": "Total de jugadores activos: ",
-        "raidsCreated": "Incursiones públicas creadas: ",
-        "yesterday": "Ayer",
-        "lastWeek": "Semana pasada",
-        "lastMonth": "Mes pasado",
-        "lastYear": "Año pasado",
-        "discordLink": "Ir al servidor de {{guildName}}",
-        "country": "País",
-        "language": "Idioma"
-    }
+    "choosePokemonLabel": "Elige Pokémon"
 }
