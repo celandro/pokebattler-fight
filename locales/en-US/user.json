@@ -439,7 +439,15 @@
                 "name": "10Criz",
                 "app": "Nexus",
                 "iconUrl":"https://static.pokebattler.com/images/nexus_logo.png"
-            }           
+            },
+            "minpoke": {
+                "description":"Minpoke is a PokÃ©mon Go website that provides is a discord bot for coordinating raids, trades and getting useful information for PokÃ©mon Go",
+                "quote": "By sponsoring Minpoke you are helping to cover costs as the application grows",
+                "thanks": "Thank you for sponsoring Minpoke! You make it possible to keep the website up and running",
+                "name": "Minpoke",
+                "app": "Minpoke",
+                "iconUrl":"https://static.pokebattler.com/images/minpokelogo.png"
+            }
         }
     },
     "countryCodes": {
