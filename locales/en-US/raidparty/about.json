@@ -90,7 +90,24 @@
                 "description2": "Players can join the raid in the app or in discord.",
                 "cta": "Add PokeNav to your Discord Server",
                 "url": "https://pokenavbot.com/"
+            },
+            "nexus": {
+                "title": "Nexus - Discord Bot",
+                "meta": "A Pokemon Go Discord Bot for cross server raiding, trades and more.",
+                "description": "Nexus is a 3rd Party Discord bot that integrates into the Pokebattler Raid Party apis. This allows you to create and communicate about a raid in Discord with deep links directly into the app OR to join the raid purely using the app. ",
+                "description2": "Players can join the raid in the app or in discord. Discord is not required",
+                "cta": "Add Nexus to your Discord Server",
+                "url": "https://nexusraidbot.com/"
+            },
+            "minpoke": {
+                "title": "Minpoke - Pokemon Go Website",
+                "meta": "A Pokemon Go Website for raids, simulations and more.",
+                "description": "Minpoke is a Pokemon Go website very similar to Pokebattler but catering to the Japanese market. Minpoke raids can be joined within the Pokebattler Raid Party app and Pokebattler Raid Party raids can be joined on the Minpoke website",
+                "description2": "Players can join both Minpoke and Pokebattler Raid Party raids on either the website or in this app",
+                "cta": "Join raid queues on the Minpoke website",
+                "url": "https://9db.jp/pokego/data/62"
             }
+
         }
     }
 }
