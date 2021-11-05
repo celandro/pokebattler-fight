@@ -221,5 +221,15 @@
         "title": "Quitar Jugador",
         "questionMessage": "¿Deseas quitar al jugador",
         "rateMessage": "Por favor, desliza izquierda o derecha para valorar al jugador"
+    },
+    "raidPartyKicked": {
+        "title": "Removido de la Incursión",
+        "description": "Has sido removido de la incursión por el anfitrión",
+        "reasonHeadinng": "Desafortunadamente, el anfitrión ha decidido quitarte de la incursión. Probablemente hayas cometido algún error al utilizar esta app.",
+        "remember": "Por favor recuerda lo siguiente: ",
+        "reason1": "1. Eres responsable de enviarle una solicitud de amistad al anfitrión",
+        "reason2": "2. Tu nombre de usuario y código de amistad deben ser exactamente los mismos que en Pokemon Go",
+        "reason3": "3. Algunos jefes de incursión son extremadamente difíciles y no pueden ser derrotados con jugadores de nivel bajo que no usan los contrincantes correctos.",
+        "pokebox": "Agrega tus propios Pokémon para mostrarle al anfitrión que estás usando los contrincantes apropiados."
     }
 }
