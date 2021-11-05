@@ -109,5 +109,13 @@
         "line2": "1. No has enviado una petición de amistad al anfitrión",
         "line3": "2. El nombre o nivel de entrenador no coincide con tu configuración",
         "line4": "3. El jefe es muy difícil para alguien de tu nivel"
+    },
+    "UPDATE_PRIVACY": {
+        "title": "{{defender}} Grupo de Incursión Global",
+        "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
+        "line1": "$t(pushNotifications:defaultBody.line1)",
+        "line2": "$t(pushNotifications:defaultBody.line2)",
+        "line3": "$t(pushNotifications:defaultBody.line3)",
+        "line4": "$t(pushNotifications:defaultBody.line4)"
     }
 }
