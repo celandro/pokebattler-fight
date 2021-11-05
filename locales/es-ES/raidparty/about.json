@@ -90,6 +90,22 @@
                 "description2": "Los jugadores pueden unirse a la incursión en la app o en Discord.",
                 "cta": "Agrega PokeNav a tu servidor Discord",
                 "url": "https://pokenavbot.com/"
+            },
+            "nexus": {
+                "title": "Nexus - Bot Discord",
+                "meta": "Un bot Discord de Pokémon Go para incursiones a través de servidores, intercambios y más.",
+                "description": "Nexus es un bot Discord de terceros que se integra en las API de Pokebattler Raid Party. Esto te permite crear y comunicar acerca de una incursión en Discord con enlaces directos en la app O para unirte a la incursión puramente usando la app. ",
+                "description2": "Los jugadores pueden unirse a la incursión en la app o en Discord. Discord no está requerido",
+                "cta": "Agrega Nexus a tu servidor Discord",
+                "url": "https://nexusraidbot.com/"
+            },
+            "minpoke": {
+                "title": "Minpoke - Sitio web de Pokémon Go",
+                "meta": "Un sitio web de Pokémon Go para incursiones, simulaciones y más.",
+                "description": "Minpoke es un sitio web de Pokémon Go muy similar a Pokebattler pero personalizado al mercado japonés. Puedes unirte a las incursiones en Minpoke desde la app Pokebattler Raid Party así como puedes unirte a las incursiones de Pokebattler Raid Party en el sitio web de Minpoke",
+                "description2": "Los jugadores pueden unirse a incursiones en Minpoke y Pokebattler Raid Party tanto en el sitio web como en esta app",
+                "cta": "Únete a colas de incursiones en el sitio web de Minpoke",
+                "url": "https://9db.jp/pokego/data/62"
             }
         }
     }
