@@ -89,6 +89,15 @@
         "title": "{{tier}} - {{defender}}",
         "subtitle": "{{ownerName}}"
     },
+    "raidPartyKicked": {
+        "title": "Removed From Raid",
+        "description": "The host has removed you from the raid.",
+        "reasonHeading": "Common Reasons For Removal",
+        "reason1": "You did not send a friend invite to the host.",
+        "reason2": "Your username and friend code do not exactly match what is in Pokemon Go.",
+        "reason3": "The host does not believe the raid will be successful. Some bosses are extremely difficult and can not be completed with lower level players who often do not use high damage counters.",
+        "pokebox": "Add your pokemon to your Pokebox to show the host you are using the proper counters"
+    },
     "raidPartyHost": {
         "title": "Raid Host",
         "description": "Send a friend invite to {{name}} in Pokemon Go",
