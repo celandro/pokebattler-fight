@@ -243,7 +243,7 @@
     },
 
     "pokebox": {
-        "login": "Pokebattler Raid Guide can be customized to only include Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and then you can toggle between the best Pokemon that you have in your Pokebox, and the best Pokemon counters overall to plan your raid fights.",
+        "login": "Pokebattler Raid counters can be customized to show you the exact Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and  see which pokemon you own are the best!",
         "enabled": "Showing custom results for your Pokebox. The 30 best counters that you own are shown below.",
         "disabled": "Showing results for level {{level}} attackers. The best 30 counters at that level are shown below.",
         "friend": "Showing results for user {{userId}}. Their best 30 counters are shown below.",
