@@ -241,6 +241,18 @@
             "name": "$t(common:name)"
         }
     },
+    "infographics": {
+        "title": "Infographics",
+        "subTitle": "CaptGoldfish's Raid Counter Infographics",
+        "meta": {
+            "description": "Get your Pokemon Go Raid Infographics from CaptGoldfish and JaceMakings. These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+            "image": "https://static.pokebattler.com/CaptGoldfish/icon.png"
+        },
+        "articles": {
+            "title": "Pokemon Go Raid Infographics",
+            "subtitle": "High quality counters with hand drawn graphics"
+        }
+    },
 
     "pokebox": {
         "login": "Pokebattler Raid counters can be customized to show you the exact Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and  see which pokemon you own are the best!",
