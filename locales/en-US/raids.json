@@ -243,14 +243,42 @@
     },
     "infographics": {
         "title": "Infographics",
-        "subTitle": "CaptGoldfish's Raid Counter Infographics",
+        "subTitle": "Pokemon Go Raid Counter Infographics",
         "meta": {
             "description": "Get your Pokemon Go Raid Infographics from CaptGoldfish and JaceMakings. These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
-            "image": "https://static.pokebattler.com/CaptGoldfish/icon.png"
+            "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
         },
         "articles": {
             "title": "Pokemon Go Raid Infographics",
             "subtitle": "High quality counters with hand drawn graphics"
+        },
+        "authors": {
+            "captgoldfish": {
+                "name": "CaptGoldfish",
+                "link": "https://twitter.com/CaptGoldfish",
+                "title": "CaptGoldfish's Raid Counter Infographics",
+                "button": {
+                    "title": "CaptGoldfish",
+                    "subtitle": "Hand drawn infographics designed for portrait mode"
+                },
+                "meta": {
+                    "description": "Pokemon Go Raid Infographics from CaptGoldfish! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+                    "image": "https://static.pokebattler.com/CaptGoldfish/icon.png"
+                }
+            },
+            "jace": {
+                "name": "Jace",
+                "link": "https://twitter.com/JaceMakings",
+                "title": "Jace's Raid Counter Infographics",
+                "button": {
+                    "title": "Jace",
+                    "subtitle": "High quality infographics designed for landscape mode"
+                },
+                "meta": {
+                    "description": "Pokemon Go Raid Infographics from Jace! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+                    "image": "https://static.pokebattler.com/graphics/Jace.jpg"
+                }
+            }
         }
     },
 
