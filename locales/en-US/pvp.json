@@ -273,19 +273,19 @@
         "intro": "The Silph Arena Season 3 cup for February requiring all Pokemon be of different types, and banning the strongest Pokemon. The Silph Arena is a monthly set of community tournaments that has different rules each month.  For more information, visit https://silph.gg/."
       },
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
-        "title": "{{title}}",
+        "title": "Halloween Cup",
         "intro": "The Great League Halloween Cup is the first official typed cup from Niantic. Only Pokemon that are Poison, Bug, Ghost, Dark or Fairy type are allowed. It will be held from October 26th to November 3rd from 6pm til midnight."
       },
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
-        "title": "{{title}}",
+        "title": "Flying Cup",
         "intro": "The Great League Flying Cup is the second official typed cup from Niantic. Only Pokemon that can fly are allowed It will be held on November 5th from 6pm til midnight."
       },
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
-        "title": "{{title}}",
+        "title": "Kanto Cup",
         "intro": "The Great League Kanto Cup is an official typed cup from Niantic from November 16 to November 23. Only Kanto region Pokemon with pokedex numbers between 1 and 151 are eligible."
       },
       "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
-        "title": "{{title}}",
+        "title": "Holiday Cup",
         "intro": "The Great League Holiday Cup is an official typed cup from Niantic from December 28 to January 4. Only Pokemon that are Normal, Grass, Electric, Ice, Flying, and Ghost types are eligible."
       }
 

@@ -388,7 +388,9 @@
         "SE": "Suecia",
         "CH": "Suiza",
         "GB": "Reino Unido",
-        "US": "Estados Unidos de América"
+        "US": "Estados Unidos de América",
+        "AR": "Argentina",
+        "BG": "Bulgaria"
     },
     "defaultName": "$t(user:user) #{{userId}}",
     "sponsor": {
@@ -438,12 +440,20 @@
                 "iconUrl": "https://pvpoke.com/img/app_192.png"
             },
             "nexus": {
-                "description": "Pendiente",
-                "quote": "Pendiente",
-                "thanks": "Pendiente",
+                "description": "Nexus es un bot Discord para coordinar incursiones, intercambios y obtener información útil para Pokémon Go",
+                "quote": "Patrocinando Nexus estás ayudando a cubrir costos a medida que la aplicación crezca",
+                "thanks": "¡Gracias por patrocinar Nexus! Tú haces posible el mantener el bot funcionando",
                 "name": "10Criz",
                 "app": "Nexus",
-                "iconUrl": "https://cdn.discordapp.com/icons/733079996721135767/3920c9a0cabc7802defd93661bfa19e2.png?size=256"
+                "iconUrl": "https://static.pokebattler.com/images/nexus_logo.png"
+            },
+            "minpoke": {
+                "description": "Minpoke es un sitio web de Pokémon Go que provee de un bot Discord para coordinar incursiones, intercambios y obtener información útil para Pokémon Go",
+                "quote": "Patrocinando Minpoke estás ayudando a cubrir costos a medida que la aplicación crece",
+                "thanks": "¡Gracias por patrocinar Minpoke! Tú haces posible el mantener el sitio web funcionando",
+                "name": "Minpoke",
+                "app": "Minpoke",
+                "iconUrl": "https://static.pokebattler.com/images/minpokelogo.png"
             }
         }
     },

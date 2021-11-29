@@ -300,7 +300,8 @@
             "matrix": "Matrix",
             "subscription": "Subscription",
             "attackers": "Attackers",
-            "raidNetworkDiscords": "Raid Network"
+            "raidNetworkDiscords": "Raid Network",
+            "infographics": "Infographics"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",

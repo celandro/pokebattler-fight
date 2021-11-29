@@ -3566,8 +3566,8 @@
     "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender",
     "resists": {
         "title": "{{name}} Weaknesses in Pokemon Go",
-        "subtitle": "{{name}} is weak to the following attack types",
-        "resistAlt": "{{name}} is {{resistType}} weak to {{resist}}`}",
+        "subtitle": "{{name}} is weak to {{types}} attacks",
+        "resistAlt": "{{name}} is {{resistType}} weak to {{resist}} attacks`}",
         "types": {
             "1_600000": "1.6 ×",
             "2_560000": "2.56 ×",
