@@ -231,5 +231,33 @@
         "reason2": "2. Tu nombre de usuario y código de amistad deben ser exactamente los mismos que en Pokemon Go",
         "reason3": "3. Algunos jefes de incursión son extremadamente difíciles y no pueden ser derrotados con jugadores de nivel bajo que no usan los contrincantes correctos.",
         "pokebox": "Agrega tus propios Pokémon para mostrarle al anfitrión que estás usando los contrincantes apropiados."
+    },
+    "coins": {
+        "spendCard": {
+            "title": "Gana monedas o suscríbete para unirte a incursiones antes.",
+            "button": "Unirse antes"
+        },
+        "upgradePopup": {
+            "title": "¡Mejora con Monedas!",
+            "cardSubtitle": "Gasta monedas para mejorar la suscripción actual",
+            "nonUpgradeRole": {
+                "title": "¡Gracias por suscribirte!",
+                "topText": "¡Gracias por suscribirte a la configuración más rápida!",
+                "bottomText": "Agradecemos tu apoyo"
+            },
+            "disabled": {
+                "message": "No tienes suficientes monedas para actualizar a este nivel"
+            },
+            "allowed": {
+                "message": "Luego de la mejora podrás unirte a incursiones más pronto, ¡clickea para unirte cuando el ⏩ aparezca!",
+                "upgrade": "Mejorar",
+                "noteText": "Cada incursión que te unas más temprano, te costará monedas"
+            },
+            "subtitle": "Formas actuales para obtener monedas:",
+            "rewards1": "• +1 moneda por puntuar un 👍 o 👎",
+            "rewards2": "• +5 monedas por recibir un 👍",
+            "maximumGain": "Ganancia máxima por incursión: 30 para anfitriones y 6 para invitados",
+            "noteText": "No pierdes monedas por recibir un 👎 pero pierdes Karma. El Karma se muestra a otros usuarios y hace del mundo un mejor lugar"
+        }
     }
 }

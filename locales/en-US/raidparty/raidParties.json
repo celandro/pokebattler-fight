@@ -259,5 +259,33 @@
         "title": "Kick Player",
         "questionMessage": "Do you want to kick",
         "rateMessage": "Please swipe left or right to rate player"
+    },
+    "coins": {
+        "spendCard": {
+            "title": "Earn coins or subscribe to join raids early.",
+            "button": "Join early"
+        },
+        "upgradePopup": {
+            "title": "Upgrade for Coins!",
+            "cardSubtitle": "Spend coins to upgrade to a higher subscription level",
+            "nonUpgradeRole": {
+                "title": "Thank you for subscribing!",
+                "topText": "Thank you for subscribing to the maximum fast forward setting!",
+                "bottomText": "We deeply appreciate your support"
+            },
+            "disabled": {
+                "message": "You do not have enough coins to upgrade to this level"
+            },
+            "allowed": {
+                "message": "After you upgrade you will be able to join raids early, click to join when the ⏩ appears!",
+                "upgrade": "Upgrade",
+                "noteText": "Each raid you join early will cost you"
+            },
+            "subtitle": "Current ways to gain coins:",
+            "rewards1": "• +1 coin rating a 👍 or 👎",
+            "rewards2": "• +5 coins receiving a 👍",
+            "maximumGain": "Maximum gain per raid: 30 for hosts and 6 for guests",
+            "noteText": "You do not lose coins by receiving a 👎 but you do lose Karma. Karma is shown to other users and makes the world a better place"
+        }
     }
 }
