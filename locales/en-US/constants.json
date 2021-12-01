@@ -3530,6 +3530,15 @@
             "label": "Ultra Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
         },
+        "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER_CLASSIC": {
+            "label": "Premier Cup Classic",
+            "description": "3 non-legendary, non-mythical Pokemon."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_ULTRA_PREMIER_CLASSIC": {
+            "label": "Ultra Premier Cup Classic",
+            "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+        },
+
         "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
             "label": "Silph Arena Sunrise Cup",
             "description": "The October Silph Arena Season 3 Cup tournament."
