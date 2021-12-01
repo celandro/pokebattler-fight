@@ -257,6 +257,7 @@
         "description": "Contribute to Pokebattler for premium benefits including a larger Pokebox and an ad free experience. Pokebattler is only possible by the generous support of people just like you, contributing to the increasing server costs of hosting this site.",
         "maxPokemon": "Max Pokemon",
         "maxBattleParties": "Max Battle Parties",
+        "globalRaidHeadStartMs": "Global Raid Head Start",
         "quality": "Simulation Quality",
         "thanks": "Thank you for supporting Pokebattler! Your contributions are greatly appreciated.",
         "support": "Support Pokebattler",
