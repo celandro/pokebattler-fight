@@ -3034,7 +3034,8 @@
         "DARK_VOID": "Dark Void",
         "FEATHER_DANCE": "Feather Dance",
         "FAIRY_WIND_FAST": "Fairy Wind",
-        "RELIC_SONG": "Relic Song"
+        "RELIC_SONG": "Relic Song",
+        "ICICLE_SPEAR":  "Icicle Spear (?)"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
