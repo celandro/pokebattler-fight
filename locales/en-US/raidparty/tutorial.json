@@ -11,7 +11,7 @@
       "iconName": "link",
       "title": "Join Raids",
       "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
-      "heading": "Too wordy? Mrs. Pokebattler has put together a visual demonstration on how to join a raid",
+      "heading": "TLDR: Mrs. Pokebattler will show you how to join a raid ",
       "slices": "9",
       "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_{{slice}}.png",
       "dimensions": {
