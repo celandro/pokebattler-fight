@@ -2758,8 +2758,8 @@
         "URSHIFU_SINGLE_STRIKE_FORM": "$t(constants:pokemon.URSHIFU) - Single Strike",
         "URSHIFU_RAPID_STRIKE_FORM": "$t(constants:pokemon.URSHIFU) - Rapid Strike",
         "CALYREX_ICE_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Ice Rider",
-        "CALYREX_SHADOW_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Shadow Rider "
-        
+        "CALYREX_SHADOW_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Shadow Rider ",
+        "SLOWKING_2022_FORM": "$t(constants:pokemon.SLOWKING) - 2022"
     },
     "moves": {
         "undefined": "Undefined",
@@ -3035,7 +3035,8 @@
         "FEATHER_DANCE": "Feather Dance",
         "FAIRY_WIND_FAST": "Fairy Wind",
         "RELIC_SONG": "Relic Song",
-        "ICICLE_SPEAR":  "Icicle Spear (?)"
+        "ICICLE_SPEAR":  "Icicle Spear",
+        "ACROBATICS": "Acrobatics (?)"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
