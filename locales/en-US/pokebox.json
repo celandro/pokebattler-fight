@@ -55,6 +55,16 @@
             "selectAll": "Select All"
         }
     },
+    "pokeGenieImport": {
+        "button": "Poke Genie Dropbox Import",
+        "title": "Poke Genie Dropbox Import",
+        "meta": {
+            "description": "Add Pokemon to your Pokebox from a Poke Genie Dropbox backup."
+        },
+        "description": "Import Pokemon from Poke Genie Dropbox backup",
+        "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0",
+        "floatingLabel": "Paste dropbox shared link to scan_data.json"
+    },
     "update": {
         "title": "Pokebox",
         "meta": {
