@@ -56,7 +56,7 @@
         }
     },
     "pokeGenieImport": {
-        "button": "Poke Genie Dropbox Import",
+        "button": "Poke Genie Import",
         "title": "Poke Genie Dropbox Import",
         "meta": {
             "description": "Add Pokemon to your Pokebox from a Poke Genie Dropbox backup."
