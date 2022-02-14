@@ -63,7 +63,16 @@
         },
         "description": "Import Pokemon from Poke Genie Dropbox backup",
         "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0",
-        "floatingLabel": "Paste dropbox shared link to scan_data.json"
+        "floatingLabel": "Paste dropbox shared link to scan_data.json",
+        "shinyStartLabel": "Which color star represents shiny Pokemon",
+        "stars": {
+            "none": "No shiny Pokemon",
+            "yellow": "Yellow (1)",
+            "blue": "Blue (2)",
+            "green": "Green (3)",
+            "orange": "Orange (4)",
+            "purple": "Purple (5)"
+        }
     },
     "update": {
         "title": "Pokebox",
