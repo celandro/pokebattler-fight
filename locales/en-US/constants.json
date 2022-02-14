@@ -1079,6 +1079,7 @@
         "2020_COSTUME_FORM": "2020 Event",
         "2021_COSTUME_FORM": "2021 Event",
         "SPRING_FORM": "Spring",
+        "HISUIAN_FORM": "Hisuian",
         "VENUSAUR_MEGA": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.VENUSAUR)",
         "CHARIZARD_MEGA_X": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_X_EVO)",
         "CHARIZARD_MEGA_Y": "$t(constants:pokemon.MEGA_EVO) $t(constants:pokemon.CHARIZARD) $t(constants:pokemon.MEGA_Y_EVO)",
@@ -2752,7 +2753,15 @@
         "URSHIFU_SINGLE_STRIKE_FORM": "$t(constants:pokemon.URSHIFU) - Single Strike",
         "URSHIFU_RAPID_STRIKE_FORM": "$t(constants:pokemon.URSHIFU) - Rapid Strike",
         "CALYREX_ICE_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Ice Rider",
-        "CALYREX_SHADOW_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Shadow Rider "
+        "CALYREX_SHADOW_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Shadow Rider",
+        "VOLTORB_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.VOLTORB)",
+        "LUGIA_S_FORM": "$t(constants:pokemon.LUGIA) - S",
+        "HO_OH_S_FORM": "$t(constants:pokemon.HO_OH) - S",
+        "RAIKOU_S_FORM": "$t(constants:pokemon.RAIKOU) - S",
+        "ENTEI_S_FORM": "$t(constants:pokemon.ENTEI) - S",
+        "SUICUNE_S_FORM": "$t(constants:pokemon.SUICUNE) - S",
+        "SLOWKING_2022_FORM": "$t(constants:pokemon.SLOWKING) - 2022",
+        "ELECTRODE_HISUIAN_FORM":"$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.ELECTRODE)"
     },
     "moves": {
         "undefined": "Undefined",
@@ -3028,7 +3037,19 @@
         "FEATHER_DANCE": "Feather Dance",
         "FAIRY_WIND_FAST": "Fairy Wind",
         "RELIC_SONG": "Relic Song",
-        "ICICLE_SPEAR": "Icicle Spear (?)"
+        "WEATHER_BALL_NORMAL": "Weather Ball - Normal",
+        "PSYCHIC_FANGS": "Psychic Fangs",
+        "HYPERSPACE_FURY": "Hyperspace Fury",
+        "HYPERSPACE_HOLE": "Hyperspace Hole",
+        "DOUBLE_KICK_FAST": "Double Kick",
+        "MAGICAL_LEAF_FAST": "Magical Leaf",
+        "SACRED_FIRE": "Sacred Fire",
+        "ICICLE_SPEAR":  "Icicle Spear",
+        "SACRED_FIRE_PLUS": "Sacred Fire+",
+        "SACRED_FIRE_PLUS_PLUS": "Sacred Fire++",
+        "AEROBLAST_PLUS": "Aeroblast+",
+        "AEROBLAST_PLUS_PLUS": "Aeroblast++",
+        "ACROBATICS": "Acrobatics"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",

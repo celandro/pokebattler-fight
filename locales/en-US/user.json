@@ -150,7 +150,8 @@
             "ideal": "IDEAL"
         },
         "confirmation": {
-            "button": "Subscribe"
+            "button": "Subscribe",
+            "description": "$t(user:subscription.choosePlan)"
         },
         "plans": {
             "1month": {
