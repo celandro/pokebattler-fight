@@ -396,7 +396,7 @@
         "DEOXYS_ATTACK_FORM": "Deoxys Attack",
         "DEOXYS_DEFENSE_FORM": "Deoxys Defense",
         "DEOXYS_SPEED_FORM": "Deoxys Speed",
-        "EXEGGUTOR_ALOLA_FORM": "Exeggutor - Alola",
+        "EXEGGUTOR_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.EXEGGUTOR)",
         "EXEGGUTOR_NORMAL_FORM": "Exeggutor - Normal",
         "UNOWN_A_FORM": "Unown - A",
         "UNOWN_B_FORM": "Unown - B",
@@ -460,39 +460,39 @@
         "GENESECT_CHILL_FORM": "Chill Genesect",
         "GENESECT_DOUSE_FORM": "Douse Genesect",
         "RATTATA_NORMAL_FORM": "Rattata - Normal",
-        "RATTATA_ALOLA_FORM": "Rattata - Alola",
+        "RATTATA_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.RATTATA)",
         "RATICATE_NORMAL_FORM": "Raticate - Normal",
-        "RATICATE_ALOLA_FORM": "Raticate - Alola",
+        "RATICATE_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.RATICATE)",
         "RAICHU_NORMAL_FORM": "Raichu - Normal",
-        "RAICHU_ALOLA_FORM": "Raichu - Alola",
+        "RAICHU_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.RAICHU)",
         "SANDSHREW_NORMAL_FORM": "Sandshrew - Normal",
-        "SANDSHREW_ALOLA_FORM": "Sandshrew - Alola",
+        "SANDSHREW_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.SANDSHREW)",
         "SANDSLASH_NORMAL_FORM": "Sandslash - Normal",
-        "SANDSLASH_ALOLA_FORM": "Sandslash - Alola",
+        "SANDSLASH_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.SANDSLASH)",
         "VULPIX_NORMAL_FORM": "Vulpix - Normal",
-        "VULPIX_ALOLA_FORM": "Vulpix - Alola",
+        "VULPIX_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.VULPIX)",
         "NINETALES_NORMAL_FORM": "Ninetales - Normal",
-        "NINETALES_ALOLA_FORM": "Ninetales - Alola",
+        "NINETALES_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.NINETALES)",
         "DIGLETT_NORMAL_FORM": "Diglett - Normal",
-        "DIGLETT_ALOLA_FORM": "Diglett - Alola",
+        "DIGLETT_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.DIGLETT)",
         "DUGTRIO_NORMAL_FORM": "Dugtrio - Normal",
-        "DUGTRIO_ALOLA_FORM": "Dugtrio - Alola",
+        "DUGTRIO_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.DUGTRIO)",
         "MEOWTH_NORMAL_FORM": "Meowth - Normal",
-        "MEOWTH_ALOLA_FORM": "Meowth - Alola",
+        "MEOWTH_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MEOWTH)",
         "PERSIAN_NORMAL_FORM": "Persian - Normal",
-        "PERSIAN_ALOLA_FORM": "Persian - Alola",
+        "PERSIAN_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.PERSIAN)",
         "GEODUDE_NORMAL_FORM": "Geodude - Normal",
-        "GEODUDE_ALOLA_FORM": "Geodude - Alola",
+        "GEODUDE_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GEODUDE)",
         "GRAVELER_NORMAL_FORM": "Graveler - Normal",
-        "GRAVELER_ALOLA_FORM": "Graveler - Alola",
+        "GRAVELER_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GRAVELER)",
         "GOLEM_NORMAL_FORM": "Golem - Normal",
-        "GOLEM_ALOLA_FORM": "Golem - Alola",
+        "GOLEM_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GOLEM)",
         "GRIMER_NORMAL_FORM": "Grimer - Normal",
-        "GRIMER_ALOLA_FORM": "Grimer - Alola",
+        "GRIMER_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GRIMER)",
         "MUK_NORMAL_FORM": "Muk - Normal",
-        "MUK_ALOLA_FORM": "Muk - Alola",
+        "MUK_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MUK)",
         "MAROWAK_NORMAL_FORM": "Marowak - Normal",
-        "MAROWAK_ALOLA_FORM": "Marowak - Alola",
+        "MAROWAK_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MAROWAK)",
         "TURTWIG": "Turtwig",
         "GROTLE": "Grotle",
         "TORTERRA": "Torterra",
@@ -804,7 +804,6 @@
         "GLASTRIER": "Glastrier",
         "SPECTRIER": "Spectrier",
         "CALYREX": "Calyrex",
-        
         "BASCULIN_RED_STRIPED_FORM": "Red Striped Basculin",
         "BASCULIN_BLUE_STRIPED_FORM": "Blue Striped Basculin",
         "DARMANITAN_STANDARD_FORM": "Standard Darmanitan",
@@ -1034,8 +1033,6 @@
         "IMPIDIMP": "Impidimp",
         "MORGREM": "Mogrem",
         "GRIMMSNARL": "Grimmsnarl",
-        
-        
         "OBSTAGOON": "Obstagoon",
         "PERRSERKER": "Perrserker",
         "SIRFETCHD": "SirFetchd",
@@ -1060,8 +1057,6 @@
         "DREEPY": "Dreepy",
         "DRAKLOAK": "Drakloak",
         "DRAGAPULT": "Drgapult",
-        
-        
         "MR_RIME": "Mr. Rime",
         "RUNERIGUS": "Runerigus",
         "BURMY_PLANT_FORM": "Burmy - Plant",
@@ -1076,6 +1071,7 @@
         "NORMAL_FORM": "Normal",
         "SHADOW_FORM": "Shadow",
         "PURIFIED_FORM": "Purified",
+        "ALOLA_FORM": "Alola",
         "GALARIAN_FORM": "Galarian",
         "FALL_FORM": "Fall",
         "2020_FORM": "2020",
@@ -2615,7 +2611,6 @@
         "SIRFETCHD_PURIFIED_FORM": "$t(constants:pokemon.PURIFIED_FORM) $t(constants:pokemon.SIRFETCHD)",
         "CURSOLA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon:CURSOLA",
         "MR_RIME_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon:MR_RIME",
-        
         "PIKACHU_COSTUME_2020_FORM": "Flying Pikachu",
         "DRAGONITE_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.DRAGONITE)",
         "ONIX_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.ONIX)",
@@ -2635,7 +2630,6 @@
         "ZAMAZENTA_CROWNED_SHIELD_FORM": "$t(constants:pokemon.ZAMAZENTA) - Crowned Shield",
         "ZAMAZENTA_HERO_FORM": "$t(constants:pokemon.ZAMAZENTA) - Hero",
         "ETERNATUS_ETERNAMAX_FORM": "$t(constants:pokemon.ETERNATUS) - Eternamax",
-
         "SLOWPOKE_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWPOKE)",
         "SLOWBRO_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWBRO)",
         "SLOWKING_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.SLOWKING)",
@@ -2759,7 +2753,7 @@
         "URSHIFU_SINGLE_STRIKE_FORM": "$t(constants:pokemon.URSHIFU) - Single Strike",
         "URSHIFU_RAPID_STRIKE_FORM": "$t(constants:pokemon.URSHIFU) - Rapid Strike",
         "CALYREX_ICE_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Ice Rider",
-        "CALYREX_SHADOW_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Shadow Rider ",
+        "CALYREX_SHADOW_RIDER_FORM": "$t(constants:pokemon.CALYREX) - Shadow Rider",
         "VOLTORB_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.VOLTORB)",
         "LUGIA_S_FORM": "$t(constants:pokemon.LUGIA) - S",
         "HO_OH_S_FORM": "$t(constants:pokemon.HO_OH) - S",
@@ -3055,7 +3049,7 @@
         "SACRED_FIRE_PLUS_PLUS": "Sacred Fire++",
         "AEROBLAST_PLUS": "Aeroblast+",
         "AEROBLAST_PLUS_PLUS": "Aeroblast++",
-        "ACROBATICS": "Acrobatics (?)"
+        "ACROBATICS": "Acrobatics"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
@@ -3542,7 +3536,6 @@
             "label": "Great League - Bidoof",
             "description": "Bidoof? Bidoof!"
         },
-
         "COMBAT_LEAGUE_PREMIER_CUP": {
             "label": "Premier Cup",
             "description": "3 non-legendary, non-mythical Pokemon."
@@ -3559,7 +3552,6 @@
             "label": "Ultra Premier Cup Classic",
             "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
         },
-
         "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
             "label": "Silph Arena Sunrise Cup",
             "description": "The October Silph Arena Season 3 Cup tournament."
@@ -3603,6 +3595,5 @@
             "2_560000": "2.56 ×",
             "4_096000": "4.096 ×"
         }
-
     }
 }
