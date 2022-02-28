@@ -3050,7 +3050,8 @@
         "SACRED_FIRE_PLUS_PLUS": "Sacred Fire++",
         "AEROBLAST_PLUS": "Aeroblast+",
         "AEROBLAST_PLUS_PLUS": "Aeroblast++",
-        "ACROBATICS": "Acrobatics"
+        "ACROBATICS": "Acrobatics",
+        "LUSTER_PURGE": "Luster Purge"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
