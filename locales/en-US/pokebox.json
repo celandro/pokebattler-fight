@@ -67,11 +67,11 @@
         "shinyStartLabel": "Which color star represents shiny Pokemon",
         "stars": {
             "none": "No shiny Pokemon",
-            "yellow": "Yellow (1)",
-            "blue": "Blue (2)",
-            "green": "Green (3)",
-            "orange": "Orange (4)",
-            "purple": "Purple (5)"
+            "yellow": "Yellow",
+            "blue": "Blue",
+            "green": "Green",
+            "orange": "Orange",
+            "purple": "Purple"
         }
     },
     "update": {
