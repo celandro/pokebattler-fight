@@ -63,6 +63,10 @@
             "title": "Upload from File",
             "description": "Import Pokemon from a file download such as csv"
         },
+        "advanced": {
+          "title": "Advanced Settings",
+          "description": "Custom support or 3rd party apps"
+        },
         "pasteUpload": {
             "title": "Upload from Copy/Paste",
             "hintText": "Many formats are supported. Make sure to include a header row.",
@@ -81,11 +85,11 @@
         "shinyStartLabel": "Shiny Pokemon Star (Poke Genie)",
         "stars": {
             "none": "No star for shiny Pokemon",
-            "yellow": "Yellow (1)",
-            "blue": "Blue (2)",
-            "green": "Green (3)",
-            "orange": "Orange (4)",
-            "purple": "Purple (5)"
+            "yellow": "Yellow",
+            "blue": "Blue",
+            "green": "Green",
+            "orange": "Orange",
+            "purple": "Purple"
         }
     },
     "update": {
