@@ -53,6 +53,20 @@
         "table": {
             "header": "Select the Pokemon you wish to import below",
             "selectAll": "Select All"
+        },
+        "urlUpload": {
+            "title": "Upload from URL",
+            "description": "Import Pokemon from a URL such as Dropbox",
+            "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0"
+        },
+        "fileUpload": {
+            "title": "Upload from File",
+            "description": "Import Pokemon from a file download such as csv"
+        },
+        "pasteUpload": {
+            "title": "Upload from Copy/Paste",
+            "hintText": "Many formats are supported. Make sure to include a header row.",
+            "description": "$t(pokebox:import.floatingLabel)"
         }
     },
     "pokeGenieImport": {
@@ -64,9 +78,9 @@
         "description": "Import Pokemon from Poke Genie Dropbox backup",
         "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0",
         "floatingLabel": "Paste dropbox shared link to scan_data.json",
-        "shinyStartLabel": "Which color star represents shiny Pokemon",
+        "shinyStartLabel": "Shiny Pokemon Star (Poke Genie)",
         "stars": {
-            "none": "No shiny Pokemon",
+            "none": "No star for shiny Pokemon",
             "yellow": "Yellow (1)",
             "blue": "Blue (2)",
             "green": "Green (3)",
