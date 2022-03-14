@@ -69,7 +69,7 @@
         },
         "pasteUpload": {
             "title": "Upload from Copy/Paste",
-            "hintText": "Many formats are supported. Make sure to include a header row.",
+            "hintText": "$t(pokebox:import.hintText)",
             "description": "$t(pokebox:import.floatingLabel)"
         }
     },
