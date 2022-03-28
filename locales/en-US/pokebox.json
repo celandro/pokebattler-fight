@@ -50,6 +50,7 @@
         "parse": "Begin Import",
         "hintText": "Many formats are supported. Make sure to include a header row.",
         "floatingLabel": "Copy and paste your Pokemon here",
+        "reverseSort": "Reverse Sort",
         "table": {
             "header": "Select the Pokemon you wish to import below",
             "selectAll": "Select All"
