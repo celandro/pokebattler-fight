@@ -3051,7 +3051,8 @@
         "AEROBLAST_PLUS": "Aeroblast+",
         "AEROBLAST_PLUS_PLUS": "Aeroblast++",
         "ACROBATICS": "Acrobatics",
-        "LUSTER_PURGE": "Luster Purge"
+        "LUSTER_PURGE": "Luster Purge",
+        "MIST_BALL": "Mist Ball"
     },
     "types": {
         "POKEMON_TYPE_ALL": "All",
