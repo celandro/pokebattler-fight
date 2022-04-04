@@ -115,6 +115,9 @@
         }
     },
     "raidPartyUserStatus": {
+        "NONE": {
+            "hostDescription": "Select whether you are local or remote"
+        },
         "READY": {
             "hostDescription": "Look around for {{name}}!"
         },
