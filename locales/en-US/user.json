@@ -314,6 +314,10 @@
             "label": "Last Update",
             "value": "{{lastUpdate,shortdate}}"
         },
+        "subscriptionPlatform": {
+            "label": "",
+            "value": "{{subscriptionPlatform}} - {{role}}"
+        },
         "planId": "Plan Id",
         "cancel": "Cancel Your Subscription",
         "renew": "Renew Your Subscription",
