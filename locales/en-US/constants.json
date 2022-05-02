@@ -2281,7 +2281,8 @@
     "AEROBLAST_PLUS_PLUS": "Aeroblast++",
     "ACROBATICS": "Acrobatics",
     "LUSTER_PURGE": "Luster Purge",
-    "MIST_BALL": "Mist Ball"
+    "MIST_BALL": "Mist Ball",
+    "ROLLOUT_FAST": "Rollout (?)"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",

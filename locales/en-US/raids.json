@@ -54,11 +54,16 @@
         "RAID_LEVEL_5": {
             "title": "Tier 5",
             "subtitle": "Legendary Raid",
-            "intro": "The current legendary raids are the best way to obtain strong pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
+            "intro": "The current legendary raids are the best way to obtain strong pokemon! They are often done with groups of 4-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-3 players."
         },
         "RAID_LEVEL_MEGA": {
             "title": "Mega Tier",
-            "subtitle": "Mega Raid",
+            "subtitle": "Easy Mega Raid",
+            "intro": "The current mega raids are the best way to obtain mega energy to power up the strongest pokemon! They are often done with groups of 2-3 level 30-40 players. "
+        },
+        "RAID_LEVEL_MEGA_5": {
+            "title": "Mega Legendary Tier",
+            "subtitle": "Mega Legendary Raid",
             "intro": "The current mega raids are the best way to obtain mega energy to power up the strongest pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
         },
         "RAID_LEVEL_6": {
@@ -108,8 +113,13 @@
         },
         "RAID_LEVEL_MEGA_LEGACY": {
             "title": "Legacy Mega Tier",
-            "subtitle": "Legacy Mega Raid",
+            "subtitle": "Easy Mega Raid",
             "intro": "These mega raids are no longer available in raids."
+        },
+        "RAID_LEVEL_MEGA_5_LEGACY": {
+            "title": "Legacy Mega Tier",
+            "subtitle": "Mega Raid",
+            "intro": "These legendary mega raids are no longer available in raids."
         },
         "RAID_LEVEL_6_LEGACY": {
             "title": "Legacy Tier 6",
@@ -128,9 +138,15 @@
         },
         "RAID_LEVEL_MEGA_FUTURE": {
             "title": "Future Mega Tier",
-            "subtitle": "Future Mega Raid",
+            "subtitle": "Mega Raid",
             "intro": "These mega raids are not in the game yet."
+        },
+        "RAID_LEVEL_MEGA_5_FUTURE": {
+            "title": "Future Mega Legendary Tier",
+            "subtitle": "Mega Legendary Raid",
+            "intro": "These mega legendary raids are not in the game yet."
         }
+
     },
     "custom": {
         "title": "Custom Raid",
