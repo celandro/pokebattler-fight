@@ -121,9 +121,19 @@
             "subtitle": "Megaincursión",
             "intro": "Las megaincursiones actuales son la mejor forma de obtener megaenergía para dar poder a los Pokémon más poderosos! Generalmente se pueden completar con grupos de 6-10 jugadores de nivel 30-40. Algunos expertos intrépidos han hecho algunas de estas incursiones con tan solo 2-5 jugadores."
         },
+        "RAID_LEVEL_MEGA_5": {
+            "title": "Nivel Mega Legendaria",
+            "subtitle": "Incursión Mega Legendaria",
+            "intro": "Las megaincursiones actuales son la mejor forma de obtener megaenergía para dar poder a los Pokémon más poderosos! Generalmente se pueden completar con grupos de 6-10 jugadores de nivel 30-40. Algunos expertos intrépidos han hecho algunas de estas incursiones con tan solo 2-5 jugadores."
+        },
         "RAID_LEVEL_MEGA_LEGACY": {
             "title": "Nivel Mega Descontinuadas",
             "subtitle": "Megaincursión Descontinuada",
+            "intro": "Estas megaincursiones ya no están disponibles."
+        },
+        "RAID_LEVEL_MEGA_5_LEGACY": {
+            "title": "Nivel Mega Legendaria Descontinuada",
+            "subtitle": "Megaincursión Legendaria Descontinuada",
             "intro": "Estas megaincursiones ya no están disponibles."
         },
         "RAID_LEVEL_MEGA_FUTURE": {
