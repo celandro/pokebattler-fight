@@ -110,6 +110,21 @@
             "title": "Futuro Nível Mega",
             "subtitle": "Futura Mega Reide",
             "intro": "Essas Mega Reides ainda não estão no jogo."
+        },
+        "RAID_LEVEL_MEGA_5": {
+            "title": "Mega Léndaria Nível",
+            "subtitle": "Mega Léndaria Reide",
+            "intro": "As mega reides atuais são a melhor maneira de obter mega energia para energizar o Pokémon mais forte! Elas geralmente são feitos com grupos de 6-10 jogadores de nível 30-40. Alguns especialistas intrépidos fizeram alguns desses ataques com apenas 2 a 5 jogadores."
+        },
+        "RAID_LEVEL_MEGA_5_LEGACY": {
+            "title": "Mega Léndaria Nível Legacy",
+            "subtitle": "Mega Léndaria Reide Legacy",
+            "intro": "Essas mega reides não estão mais disponíveis."
+        },
+        "RAID_LEVEL_MEGA_5_FUTURE": {
+            "title": "Futuro Nível Mega Lendária",
+            "subtitle": "Mega Lendária Reide",
+            "intro": "Essas Mega Reides ainda não estão no jogo."
         }
     },
     "custom": {
