@@ -201,6 +201,12 @@
 
 
     "refresh": "Refresh",
+    "highMaxPlayers": {
+        "title": "WARNING",
+        "description": "Inviting more than 5 remote players is quite tricky! Please make sure you know how to do it.",
+        "button": "Watch how to invite 10 players!",
+        "url": "https://youtube.com/shorts/Bn9kwYhm1M0"
+    },
     "placeholder": "Enter custom boss to simulate",
     "discord": {
         "joinServer": "Join Server",
@@ -290,5 +296,8 @@
             "maximumGain": "Maximum gain per raid: 30 for hosts and 6 for guests",
             "noteText": "You do not lose coins by receiving a 👎 but you do lose Karma. Karma is shown to other users and makes the world a better place"
         }
+    },
+    "hostForm": {
+        "noRaidsForTier": "There are no {{tier}} raids currently available in Pokemon Go."
     }
 }
