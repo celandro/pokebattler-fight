@@ -19,6 +19,7 @@
         "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Raid Counter Guides",
         "subtitle": "How To Defeat $t(constants:pokemon.{{pokemonId}}) in Pokemon Go",
         "infographicDownload": "Download $t(constants:pokemon.{{pokemonId}}) Infographic",
+        "infographicDownloadButton": "Download High Resolution Infographic",
         "article": "Read The Full $t(constants:pokemon.{{pokemonId}}) Raid Counter Guide Below"
     },
     "tierList": {
