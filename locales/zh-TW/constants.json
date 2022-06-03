@@ -2695,6 +2695,9 @@
         "FRIENDSHIP_LEVEL_0": {
             "label": "非朋友"
         },
+        "FRIENDSHIP_LEVEL_0": {
+            "label": "新朋友"
+        },
         "FRIENDSHIP_LEVEL_1": {
             "label": "好朋友"
         },

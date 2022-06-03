@@ -2649,25 +2649,29 @@
         }
     },
     "friendLevels": {
-        "FRIENDSHIP_LEVEL_0": {
+        "FRIENDSHIP_LEVEL_UNSET": {
             "label": "Pas Amis",
             "description": "Si vous n'êtes amis avec personne dans le raid, vous n'obtenez pas de bonus d'attaque."
         },
+        "FRIENDSHIP_LEVEL_0": {
+            "label": "Nouveaux Amis",
+            "description": "Si vous êtes de nouveaux amis avec quelqu'un d'autre dans le raid, vous obtenez un bonus de 5% pour attaquer."
+        },
         "FRIENDSHIP_LEVEL_1": {
             "label": "Bons Amis",
-            "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Bons Amis obtiennent un bonus d'attaque de 3% et peuvent s'échanger tous les Pokémon (excepté les mythiques)."
+            "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Bons Amis obtiennent un bonus d'attaque de 8% et peuvent s'échanger tous les Pokémon (excepté les mythiques)."
         },
         "FRIENDSHIP_LEVEL_2": {
             "label": "Grands Amis",
-            "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Meilleurs Amis obtiennent un bonus d'attaque de 5% et 1 Honor Ball supplémentaire pendant les raids. Ils peuvent s'échanger tous les Pokémon (excepté les mythiques) pour 20% de poussière d'étoile en moins."
+            "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Meilleurs Amis obtiennent un bonus d'attaque de 10% et 1 Honor Ball supplémentaire pendant les raids. Ils peuvent s'échanger tous les Pokémon (excepté les mythiques) pour 20% de poussière d'étoile en moins."
         },
         "FRIENDSHIP_LEVEL_3": {
             "label": "Excellents Amis",
-            "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Excellents Amis obtiennent un bonus d'attaque de 7% et 2 Honor Balls supplémentaires pendant les raids. Ils peuvent s'échanger tous les Pokémon (excepté les mythiques) pour 92% de poussière d'étoile en moins."
+            "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Excellents Amis obtiennent un bonus d'attaque de 12% et 2 Honor Balls supplémentaires pendant les raids. Ils peuvent s'échanger tous les Pokémon (excepté les mythiques) pour 92% de poussière d'étoile en moins."
         },
         "FRIENDSHIP_LEVEL_4": {
             "label": "Meilleurs Amis",
-            "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Meilleurs Amis obtiennent un bonus d'attaque de 10% et 4 Honor Balls supplémentaires pendant les raids. Ils peuvent s'échanger tous les Pokémon (excepté les mythiques) pour 96% de poussière d'étoile en moins."
+            "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Meilleurs Amis obtiennent un bonus d'attaque de 15% et 4 Honor Balls supplémentaires pendant les raids. Ils peuvent s'échanger tous les Pokémon (excepté les mythiques) pour 96% de poussière d'étoile en moins."
         }
     },
     "levelVs": "Attaquant Niveau {{attackerLevel}} VS Défenseur Niveau {{defenderLevel}}",

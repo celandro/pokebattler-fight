@@ -2668,25 +2668,29 @@
     }
   },
   "friendLevels": {
-    "FRIENDSHIP_LEVEL_0": {
+    "FRIENDSHIP_LEVEL_UNSET": {
       "label": "Not Friends",
-      "description": "If you are not friends with anyone else in the raid, you get no bonus to attack. You can only trade regular Pokemon both players already own."
+      "description": "If you are not friends with anyone else in the raid, you get no bonus to attack."
+    },
+    "FRIENDSHIP_LEVEL_0": {
+      "label": "New Friends",
+      "description": "If you are new friends with anyone else in the raid, you get a 5% bonus to attack. You can only trade regular Pokemon both players already own."
     },
     "FRIENDSHIP_LEVEL_1": {
       "label": "Good Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Good Friends get a 3% bonus to attack and can trade non-mythical Pokemon."
+      "description": "The maximum friend level you have with anyone at the raid. Good Friends get a 8% bonus to attack and can trade non-mythical Pokemon."
     },
     "FRIENDSHIP_LEVEL_2": {
       "label": "Great Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Great Friends get a 5% bonus to attack, 1 extra bonus ball in raids. They can trade non-mythical Pokemon with a 20% stardust discount."
+      "description": "The maximum friend level you have with anyone at the raid. Great Friends get a 10% bonus to attack, 1 extra bonus ball in raids. They can trade non-mythical Pokemon with a 20% stardust discount."
     },
     "FRIENDSHIP_LEVEL_3": {
       "label": "Ultra Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Ultra Friends get a 7% bonus to attack, 2 extra bonus balls in raids. They can trade non-mythical Pokemon with a 92% stardust discount."
+      "description": "The maximum friend level you have with anyone at the raid. Ultra Friends get a 12% bonus to attack, 2 extra bonus balls in raids. They can trade non-mythical Pokemon with a 92% stardust discount."
     },
     "FRIENDSHIP_LEVEL_4": {
       "label": "Best Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 10% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
+      "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 15% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
     }
   },
   "autoBattlePartyTypes": {

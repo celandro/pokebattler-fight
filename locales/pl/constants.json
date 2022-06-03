@@ -1893,9 +1893,13 @@
         }
     },
     "friendLevels": {
-        "FRIENDSHIP_LEVEL_0": {
+        "FRIENDSHIP_LEVEL_UNSET": {
             "label": "Brak Przyjaciół",
-            "description": "Jeśli nie jesteś przyjacielem z nikim innym w raidzie, nie dostajesz żadnego bonusu do ataku. Możesz wymieniać tylko regularne Pokemony, które obaj gracze już posiadają."
+            "description": "Jeśli nie jesteś przyjacielem z nikim innym w raidzie, nie dostajesz żadnego bonusu do ataku."
+        },
+        "FRIENDSHIP_LEVEL_0": {
+            "label": "Nowi Przyjaciół",
+            "description": "TJeśli jesteś nowym znajomym z kimkolwiek innym w nalocie, otrzymasz 5% premii do ataku.  Możesz wymieniać tylko regularne Pokemony, które obaj gracze już posiadają."
         },
         "FRIENDSHIP_LEVEL_1": {
             "label": "Dobrzy Przyjaciele",

@@ -1,7 +1,8 @@
 {
     "title": "Friends",
     "levels": {
-        "FRIENDSHIP_LEVEL_0": "Not friends",
+        "FRIENDSHIP_LEVEL_UNSET": "Not friends",
+        "FRIENDSHIP_LEVEL_0": "New friends",
         "FRIENDSHIP_LEVEL_1": "Good friends",
         "FRIENDSHIP_LEVEL_2": "Great friends",
         "FRIENDSHIP_LEVEL_3": "Ultra friends",

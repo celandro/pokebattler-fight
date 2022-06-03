@@ -3095,9 +3095,13 @@
     "levelVs": "Atacante nível {{attackerLevel}} Vs. Defensor nível {{defenderLevel}}",
     "levelVsPokebox": "Atacante Nível {{attackerLevel}} Vs. Defensor da Pokebox {{userId}}",
     "friendLevels": {
-        "FRIENDSHIP_LEVEL_0": {
+        "FRIENDSHIP_LEVEL_UNSET": {
             "label": "Não Amigos",
             "description": "Se você não é amigo com mais ninguém na reide, você não ganha bônus de ataque. Você pode trocar apenas Pokémon comuns que ambos os jogadores já possuem."
+        },
+        "FRIENDSHIP_LEVEL_0": {
+            "label": "Novo Amigos",
+            "description": "Se você for novo amigo de qualquer outra pessoa no ataque, você recebe um bônus de 5% para atacar.  Você pode trocar apenas Pokémon comuns que ambos os jogadores já possuem."
         },
         "FRIENDSHIP_LEVEL_1": {
             "label": "Bela Amizade",

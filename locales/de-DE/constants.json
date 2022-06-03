@@ -2977,25 +2977,29 @@
         }
     },
     "friendLevels": {
+        "FRIENDSHIP_LEVEL_UNSET": {
+            "label": "Neue Freunde",
+            "description": "Wenn du mit niemandem im Raid befreundet bist, erhälst du keinen Angriffsbonus. Du kannst nur normale Pokemon handeln, die beide Spieler besitzen."
+        },
         "FRIENDSHIP_LEVEL_0": {
             "label": "Keine Freunde",
-            "description": "Wenn du mit niemandem im Raid befreundet bist, erhälst du keinen Angriffsbonus. Du kannst nur normale Pokemon handeln, die beide Spieler besitzen."
+            "description": "Wenn Sie mit jemand anderem im Raid neu befreundet sind, erhälst du keinen Angriffsbonus.  Keine Freunde bekommen 5% Angriffsbonus."
         },
         "FRIENDSHIP_LEVEL_1": {
             "label": "Gute Freunde",
-            "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Gute Freunde bekommen 3% Angriffsbonus und können nicht-mythische Pokemon tauschen."
+            "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Gute Freunde bekommen 8% Angriffsbonus und können nicht-mythische Pokemon tauschen."
         },
         "FRIENDSHIP_LEVEL_2": {
             "label": "Superfreunde",
-            "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Superfreunde bekommen 5% Angriffsbonus, 1 extra Bonus Ball im Raid und können nicht-mythische Pokemon mit 20% Sternenstaubrabbat tauschen."
+            "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Superfreunde bekommen 10% Angriffsbonus, 1 extra Bonus Ball im Raid und können nicht-mythische Pokemon mit 20% Sternenstaubrabbat tauschen."
         },
         "FRIENDSHIP_LEVEL_3": {
             "label": "Hyperfreunde",
-            "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Hyperfreunde bekommen 7% Angriffsbonus, 2 extra Bonus Ball im Raid und können nicht-mythische Pokemon mit 92% Sternenstaubrabbat tauschen."
+            "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Hyperfreunde bekommen 12% Angriffsbonus, 2 extra Bonus Ball im Raid und können nicht-mythische Pokemon mit 92% Sternenstaubrabbat tauschen."
         },
         "FRIENDSHIP_LEVEL_4": {
             "label": "Beste Freunde",
-            "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Beste freunde bekommen 10% Angriffsbonus, 4 extra Bonus Ball im Raid und können nicht-mythische Pokemon mit 96% Sternenstaubrabbat tauschen."
+            "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Beste freunde bekommen 15% Angriffsbonus, 4 extra Bonus Ball im Raid und können nicht-mythische Pokemon mit 96% Sternenstaubrabbat tauschen."
         }
     },
     "battlePartyTypes": {
