@@ -2283,7 +2283,9 @@
     "LUSTER_PURGE": "Luster Purge",
     "MIST_BALL": "Mist Ball",
     "ROLLOUT_FAST": "Rollout",
-    "SEED_FLARE": "Seed Flare"
+    "SEED_FLARE": "Seed Flare",
+    "BRUTAL_SWING": "Brutal Swing",
+    "OBSTRUCT": "Obstruct"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
