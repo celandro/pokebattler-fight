@@ -2317,7 +2317,8 @@
     "ROLLOUT_FAST": "Rollout",
     "SEED_FLARE": "Seed Flare",
     "BRUTAL_SWING": "Brutal Swing",
-    "OBSTRUCT": "Obstruct"
+    "OBSTRUCT": "Obstruct",
+    "SHADOW_FORCE": "Shadow Force"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
