@@ -72,6 +72,16 @@
         "connectAccount": "Connect Account",
         "button": "Logout"
     },
+    "delete": {
+        "title": "Remove your Pokebattler account",
+        "privacy": "Pokebattler protects your privacy. The only personal data collected for your account is your email address. We only use the email address for account support and linking accounts, never for spam emails. ",
+        "description": "Not using your account and never coming back? You can delete your account from the Pokebattler servers. This will NOT affect your actual Pokemon Go account because we aren't Niantic",
+        "confirmation": "Account removal is permanent and can not be undone! Are you sure?",
+        "success": "Your account has been successfully deleted. You can recreate an empty account by logging back in again.",
+        "back": "Back to Pokebattler",
+        "button": "Delete Account"
+    },
+
     "subscribed": {
         "title": "Thank You For Your Support",
         "meta": {
