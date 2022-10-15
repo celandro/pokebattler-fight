@@ -2023,7 +2023,12 @@
     "ZAPDOS_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ZAPDOS)",
     "ARTICUNO_GALARIAN_FORM": "$t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ARTICUNO)",
     "ENAMORUS_INCARNATE_FORM": "$t(constants:pokemon.ENAMORUS) Incarnate",
-    "ENAMORUS_THERIAN_FORM": "$t(constants:pokemon.ENAMORUS) Therian"
+    "ENAMORUS_THERIAN_FORM": "$t(constants:pokemon.ENAMORUS) Therian",
+    "PIKACHU_WCS_2022_FORM": "WCS 2022 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_FLYING_01_FORM": "Flying 1 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_FLYING_02_FORM": "Flying 2 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_TSHIRT_01_FORM": "Tshirt 1 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_TSHIRT_02_FORM": "Tshirt 2 $t(constants:pokemon.PIKACHU)"
   },
   "moves": {
     "undefined": "Undefined",
@@ -2319,7 +2324,8 @@
     "BRUTAL_SWING": "Brutal Swing",
     "OBSTRUCT": "Obstruct",
     "SHADOW_FORCE": "Shadow Force",
-    "METEOR_BEAM": "Meteor Beam"
+    "METEOR_BEAM": "Meteor Beam",
+    "POLTERGEIST": "Poltergeist"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
