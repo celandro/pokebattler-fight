@@ -75,8 +75,8 @@
 
         "RAID_LEVEL_6": {
             "title": "Tier 6",
-            "subtitle": "Legendary Raid - Bonus Hp",
-            "intro": "These raids have bonus hp compared to Tier 5 raids. It is unknown wether this is a permanent change for all Tier 5.  They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 3-5 players."
+            "subtitle": "Elite Raid - Bonus Hp",
+            "intro": "These raids have bonus hp compared to Tier 5 raids. It is unknown wether Elite Raids will have this hp.  These are in person raids typically done with groups of 5-10 players."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
@@ -135,7 +135,7 @@
         },
         "RAID_LEVEL_6_LEGACY": {
             "title": "Legacy Tier 6",
-            "subtitle": "Legendary Raid - Bonus Hp",
+            "subtitle": "Elite Raid - Bonus Hp",
             "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_4_5_FUTURE": {
