@@ -148,6 +148,12 @@
             "subtitle": "Legendary Raid",
             "intro": "These tier 5 raids are not in the game yet! Their stats and moves are still subject to change."
         },
+        "RAID_LEVEL_6": {
+            "title": "Future Tier 6",
+            "subtitle": "Elite Raid - Bonus Hp",
+            "intro": "These elite raids are not in the game yet! Their stats and moves are still subject to change."
+        },
+
         "RAID_LEVEL_MEGA_FUTURE": {
             "title": "Future Mega Tier",
             "subtitle": "Mega Raid",
