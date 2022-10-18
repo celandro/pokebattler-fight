@@ -45,7 +45,7 @@
         "RAID_LEVEL_4": {
             "title": "Tier 4",
             "subtitle": "Hard Group Raid",
-            "intro": "Tier 4 raids are targetted at groups of 5-6 level 30-40 players. Reports have come in of these Pokemon being beaten by max level players with 3-4 of the perfect counters."
+            "intro": "Tier 4 raids are targeted at groups of 2-3 level 30-40 players with higher attack and defense than a legendary raid but lower hp"
         },
         "RAID_LEVEL_4_5": {
             "title": "Tier 4.5",
@@ -70,13 +70,18 @@
         "RAID_LEVEL_ULTRA_BEAST": {
             "title": "Ultra Beast Tier",
             "subtitle": "Ultra Beast Raid",
-            "intro": "Ultra Beast raids have been datamined but information is not currently available. Current assumption is they are equivalent to the mega legendary tier in difficulty"
+            "intro": "Ultra Beast raids are equivalent to the legendary tier in difficulty"
         },
 
         "RAID_LEVEL_6": {
             "title": "Tier 6",
+            "subtitle": "Legendary Raid - Bonus Hp",
+            "intro": "These raids have bonus hp compared to Tier 5 raids.  These are in person raids typically done with groups of 5-10 players."
+        },
+        "RAID_LEVEL_ELITE": {
+            "title": "Elite Tier",
             "subtitle": "Elite Raid - Bonus Hp",
-            "intro": "These raids have bonus hp compared to Tier 5 raids. It is unknown wether Elite Raids will have this hp.  These are in person raids typically done with groups of 5-10 players."
+            "intro": "These raids have bonus hp and stats compared to Tier 5 raids.   These are in person raids typically done with groups of 6-12 players."
         },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
@@ -135,8 +140,13 @@
         },
         "RAID_LEVEL_6_LEGACY": {
             "title": "Legacy Tier 6",
+            "subtitle": "Legendary Raid - Bonus Hp",
+            "intro": "These legendary raids with bonus hp have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Legacy Elite Tier",
             "subtitle": "Elite Raid - Bonus Hp",
-            "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+            "intro": "These elite raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_4_5_FUTURE": {
             "title": "Future Tier 4.5",
@@ -148,8 +158,13 @@
             "subtitle": "Legendary Raid",
             "intro": "These tier 5 raids are not in the game yet! Their stats and moves are still subject to change."
         },
-        "RAID_LEVEL_6": {
+        "RAID_LEVEL_6_FUTURE": {
             "title": "Future Tier 6",
+            "subtitle": "Legendary Raid - Bonus Hp",
+            "intro": "These legendary raids with bonus hp are not in the game yet! Their stats and moves are still subject to change."
+        },
+        "RAID_LEVEL_ELITE_FUTURE": {
+            "title": "Future Elite Tier",
             "subtitle": "Elite Raid - Bonus Hp",
             "intro": "These elite raids are not in the game yet! Their stats and moves are still subject to change."
         },
