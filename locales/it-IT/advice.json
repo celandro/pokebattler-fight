@@ -13,7 +13,11 @@
             "description": "La difficoltà nei raid possono variare molto in base al moveset del pokemon difensore!"
         },
         "analysis": {
-            "title": "Riguardo questa Analisi"
+            "title": "Riguardo questa Analisi",
+            "attackers": {
+                "byLevel": "livello {{attackerLevel}} attaccanti",
+                "pokebox": "il Pokemon personalizzato dalla pokebox dell'utente #{{userId}}"
+            }
         }
     }
 }
