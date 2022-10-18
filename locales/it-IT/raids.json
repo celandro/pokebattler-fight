@@ -73,7 +73,44 @@
             "intro": "Questi raid di livello 5 non sono ancora in gioco. Le loro statistiche e mosse sono soggette a cambiamento."
         },
         "RAID_LEVEL_6": {
-            "title": "Livello 6"
+            "title": "Livello 6",
+            "subtitle": "Raid Leggendari - Bonus Hp",
+            "intro": "Questi raid hanno hp bonus rispetto ai raid del Livello 5. Non si sa se questo è un cambiamento permanente per tutti i Livelli 5.  Sono spesso fatti con gruppi di 6-10 giocatori di livello 30-40. Alcuni intrepidi esperti hanno fatto alcuni di questi raid con soli 3-5 giocatori."
+        },
+        "RAID_LEVEL_4_5": {
+            "title": "Tier 4.5",
+            "subtitle": "Raid Leggendario facile\n",
+            "intro": "I raid di livello 4.5 sono versioni più facili dei boss leggendari destinati a gruppi di 2-4 giocatori di livello 30-40. Sono tipicamente visti durante eventi di breve durata."
+        },
+        "RAID_LEVEL_4_5_LEGACY": {
+            "title": "Livello Legacy 4.5",
+            "subtitle": "Raid Leggendari Facili",
+            "intro": "Questi sono i boss del raid leggendari facili visti in precedenza."
+        },
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Livello 6 Legacy",
+            "subtitle": "Raid Leggdnari - Bonus Hp",
+            "intro": "Questi raid sono stati disponibili in passato ma non sono attualmente nella rotazione dei raid. Potrebbero tornare in futuro per eventi speciali."
+        },
+        "RAID_LEVEL_4_5_FUTURE": {
+            "title": "Futuri Livelli 4.5",
+            "subtitle": "Raid Leggendario Facile",
+            "intro": "Questi sono facili boss leggendari del raid che non sono ancora nel gioco. Le loro statistiche e mosse sono ancora soggette a modifiche"
+        },
+        "RAID_LEVEL_MEGA": {
+            "title": "Livello Mega",
+            "subtitle": "Livello Mega",
+            "intro": "I mega raid attuali sono il modo migliore per ottenere mega energia per potenziare i pokemon più forti! Sono spesso fatti con gruppi di 6-10 giocatori di livello 30-40. Alcuni intrepidi esperti hanno fatto alcuni di questi raid con soli 2-5 giocatori."
+        },
+        "RAID_LEVEL_MEGA_LEGACY": {
+            "title": "Livello Legacy Mega",
+            "subtitle": "Raid Mega Legacy",
+            "intro": "Questi mega raid non sono più disponibili nei raid."
+        },
+        "RAID_LEVEL_MEGA_FUTURE": {
+            "title": "Futuro Livello Mega",
+            "subtitle": "Futuro Mega Raid",
+            "intro": "Questi mega raid non sono ancora nel gioco."
         }
     },
     "custom": {
@@ -83,7 +120,7 @@
         "attackersLabel": "Attaccanti"
     },
     "results": {
-        "title": "Raid",
+        "title": "{{defender}} Counters",
         "calculating": "Calcolando Risultati Raid",
         "counters": {
             "title": "counter",
@@ -100,11 +137,40 @@
             "description": "La difficoltà nei raid possono variare molto in base al moveset del pokemon difensore!"
         },
         "analysis": {
-            "title": "Riguardo questa Analisi"
+            "title": "Riguardo questa Analisi",
+            "description": "Questa analisi del raid si è basata sulla simulazione di un combattimento con un {{difensore.pokemon}} in difesa con {{difensore.cp}} CP e {{attaccanti}}. La simulazione è stata eseguita con la strategia di attacco {{attackStrategy}} basata sul tipo di simulazione {{defenseStrategy}}. Le simulazioni di {{numSims}} sono state eseguite con ogni possibile moveset di {{defender.pokemon}} simulato contro ogni singolo Pokemon con ogni possibile moveset. I migliori 30 attaccanti con i loro migliori moveset basati su {{sort}} sono stati tenuti e sono visualizzati qui. Puoi cliccare su qualsiasi attaccante per vedere la simulazione che è stata eseguita e per provare diversi moveset.",
+            "attackers": {
+                "byLevel": "livello {{attackerLevel}} attaccanti",
+                "pokebox": "il Pokemon personalizzato dalla pokebox dell'utente #{{userId}}"
+            }
         },
         "patreon": {
             "link": "Guarda tutti i benefici che avrai registrandoti",
             "thanks": "Grazie per il tuo supporto!"
+        },
+        "meta": {
+            "description": "I migliori Counter di Pokemon Go {{defender}} sono {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Accedi per vedere i tuoi risultati personalizzati!",
+            "image": "{{infographicShareURL}}"
+        },
+        "related": {
+            "title": "Counters collegati"
         }
+    },
+    "meta": {
+        "description": "Trova i Counters dei raid di Pokemon Go con il tempo, l'amicizia e anche la tua Pokebox. Ottieni i 30 migliori Counters con la guida ai raid personalizzati numero 1 al mondo.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "breakingNews": {
+        "title": "Ultime notizie",
+        "subtitle": "Raid Popolari in Pokemon Go"
+    },
+    "articles": {
+        "title": "Ultime notizie sui Raid!",
+        "subtitle": "Articoli e video sui raid di Pokemon Go dai migliori giocatori e ricercatori"
+    },
+    "guide": {
+        "subtitle": "Come sconfiggere $t(constants:pokemon.{{pokemonId}}) in Pokemon Go",
+        "infographicDownload": "Scarica $t(constants:pokemon.{{pokemonId}}) Infografica",
+        "article": "Leggi la guida completa di $t(constants:pokemon.{{pokemonId}}) dei Counter Raid qui sotto"
     }
 }
