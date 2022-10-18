@@ -438,12 +438,12 @@
                 "iconUrl": "https://pvpoke.com/img/app_192.png"
             },
             "nexus": {
-                "description": "TODO",
-                "quote": "TODO",
-                "thanks": "TODO",
+                "description": "Nexus é um bot de Discord para coordenar Reides, trocas Pokémon e obter informações úteis sobre o Pokémon GO",
+                "quote": "Ao patrocinar o Nexus, você ajuda a cobrir os custos conforme o aplicativo cresce",
+                "thanks": "Obrigado por patrocinar o Nexus! Você torna possível manter o bot em funcionamento",
                 "name": "10Criz",
                 "app": "Nexus",
-                "iconUrl": "https://cdn.discordapp.com/icons/733079996721135767/3920c9a0cabc7802defd93661bfa19e2.png?size=256"
+                "iconUrl": "https://static.pokebattler.com/images/nexus_logo.png"
             }
         }
     },
