@@ -2,7 +2,7 @@
     "title": "Симулятор битвы",
     "startButton": "Битва",
     "attacker": "Атакующий",
-    "attackerPlaceHolder": "Выберите  $t(attacker)",
+    "attackerPlaceHolder": "Выберите $t(attacker)",
     "defender": "Защитник",
     "defenderPlaceHolder": "Выберите $t(defender)",
     "pokemonListTypes": {
@@ -23,7 +23,7 @@
             "lose": "$t(results.title.base) проиграли!"
         },
         "about": "О этой битве",
-        "description": "Уровень {{attacker.level}} {{attacker.name}} с {{attacker.cp}} CP {{result}} уровень {{defender.level}} {{defender.name}} с {{defender.cp}} CP в этой боевой симуляции. Атакующий {{attacker.name}} использовал {{attacker.quickMove}} как быструю атаку и {{attacker.specialMove}} как мощную атаку. Защитник {{defender.name}} использовал {{defender.quickMove}} как быструю атаку и {{defender.specialMove}} как мощную атаку. Боевая симуляция была произведена с {{strategies.attack}} стратегией атаки и {{strategies.dodge}} основываясь на  {{strategies.defense}} и типе симуляции при {{weatherCondition}} погоде. $t(common:simulation, {'count': {{numSims}}}) выполнено чтобы сгенерировать результаты этой битвы.",
+        "description": "Уровень {{attacker.level}} {{attacker.name}} с {{attacker.cp}} CP {{result}} уровень {{defender.level}} {{defender.name}} с {{defender.cp}} CP в этой боевой симуляции. Атакующий {{attacker.name}} использовал {{attacker.quickMove}} как быструю атаку и {{attacker.specialMove}} как мощную атаку. Защитник {{defender.name}} использовал {{defender.quickMove}} как быструю атаку и {{defender.specialMove}} как мощную атаку. Боевая симуляция была произведена с {{strategies.attack}} стратегией атаки и {{strategies.dodge}} основываясь на {{strategies.defense}} и типе симуляции при {{weatherCondition}} погоде. $t(common:simulation, {'count': {{numSims}}}) выполнено чтобы сгенерировать результаты этой битвы.",
         "battleParty": {
             "description": "Пользователь {{attacker.userId}} с battle party {{attacker.battlePartyId}} {{result}}  {{defender.tier}} {{defender.name}} с {{defender.cp}} CP в этой боевой симуляции. Симуляция битвы была произведена с {{strategies.attack}} стратегией атаки и {{strategies.dodge}} основываясь на {{strategies.defense}} и типом симуляции при {{weatherCondition}} погоде. $t(common:simulation, {'count': {{numSims}}}) было произведено для генерации результатов этой битвы."
         },
@@ -43,8 +43,55 @@
         "logTitle": "Журнал битвы",
         "assistants": {
             "title": "Доп. тренеры (Бета)",
-            "both": "В симуляции участвовали {{numExplicit}} доп.тренера(ов)\n {{numRandom}} случайных уровней с наборами покемонов 30-40 ур. Этот расчет позволяет приблизиться к реальным условиям рейда с участием нескольких тренеров. Процент побед (win%) выше отображает шансы на победу, прежде чем ваши покемоны будут побиты, в случае, если вам помогут дополнительные участники. Зачастую, повторная попытка (реджоин) позволит победить. Мощь, время на победу, зелья и общий рейтинг базируются на возможностях только вашей выбранной шестерки, не затрагивая остальных. Эта страница будет показывать события битвы. Позволяет прикинуть, сколько тренеров брать с собой "
+            "both": "В симуляции участвовали {{numExplicit}} доп.тренера(ов)\n{{numRandom}} случайных уровней с наборами покемонов 30-40 ур. Этот расчет позволяет приблизиться к реальным условиям рейда с участием нескольких тренеров. Процент побед (win%) выше отображает шансы на победу, прежде чем ваши покемоны будут побиты, в случае, если вам помогут дополнительные участники. Зачастую, повторная попытка (реджоин) позволит победить. Мощь, время на победу, зелья и общий рейтинг базируются на возможностях только вашей выбранной шестерки, не затрагивая остальных. Эта страница будет показывать события битвы. Позволяет прикинуть, сколько тренеров брать с собой."
+        },
+        "gym": {
+            "title": "{{attacker.name}} vs. {{defender.name}} Симулятор Битвы",
+            "meta": {
+                "description": "Результаты битвы в зале {{attacker.name}} с {{attacker.quickMove}} и {{attacker.specialMove}} vs. {{defender.name}} с {{defender.quickMove}} и {{defender.specialMove}}",
+                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+            }
+        },
+        "explore": {
+            "title": "Изучите этот результат",
+            "subtitle": "Нажмите, чтобы загрузить ваш анализ",
+            "select": "Тип диаграммы",
+            "columns": {
+                "attackerId": "Id",
+                "attackerGroup": "Группа",
+                "attackerOrder": "Порядок",
+                "battlePartyUserId": "Пользователь",
+                "battlePartyTrainer": "Тренажер",
+                "combatTime": "Время сражения",
+                "currentTime": "Текущее время",
+                "damageDealt": "Ущерб",
+                "energy": "Энергия",
+                "move": "Атака",
+                "moveType": "Тип Атаки",
+                "attacker": "Атакующий",
+                "defender": "Защитник"
+            }
         }
     },
-    "runAgain": "Произвести эту случайную симуляцию снова"
+    "runAgain": "Произвести эту случайную симуляцию снова",
+    "meta": {
+        "description": "Pokebattler Gym Simulator дает самые точные результаты сражений в тренажерном зале, включая погодные бонусы и посекундный анализ.",
+        "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
+    },
+    "raidBattlePartyTitle": "Симулятор командной битвы в Рейде",
+    "raid": {
+        "title": "Симулятор Рейда",
+        "meta": {
+            "description": "Pokebattler Raid Simulator - самый точный в мире. Получите результаты до 20 боевых партий, бонусов за дружбу и погоду.",
+            "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+        }
+    },
+    "pvp": {
+        "title": "PvP симулятор",
+        "meta": {
+            "description": "Pokebattler PvP симулятор позволяет вам сразиться с вашими друзьями из Pokemon, чтобы увидеть, кто займет первое место (Самый Точный симулятор в Мире).",
+            "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+        }
+    },
+    "recommended": "Рекомендованный"
 }
