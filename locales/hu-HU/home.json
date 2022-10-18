@@ -1,3 +1,15 @@
 {
-    "title": "Pokemon Go Szimulátor és Ranglista"
+    "title": "Pokemon Go Szimulátor és Ranglista",
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_home.png"
+    },
+    "articles": {
+        "more": "Olvass több cikket"
+    },
+    "article": {
+        "title": "{{title}}\n"
+    },
+    "news": {
+        "old": "Régebbi Cikkek"
+    }
 }
