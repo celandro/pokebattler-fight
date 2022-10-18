@@ -269,6 +269,10 @@
             "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
                 "title": "{{title}}",
                 "intro": "A Copa Silph Arena Season 3 para fevereiro exige que todos os Pokémons sejam de tipos diferentes e bane os Pokémons mais forte. A Arena Silph é um conjunto mensal de torneios da comunidade com regras diferentes a cada mês. Para obter mais informações, visite https://silph.gg/."
+            },
+            "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
+                "title": "Remix da Grande Liga",
+                "intro": "Um formato especial da Grande Liga em que os 10 Pokémon mais populares na Liga de Batalha GO estão banidos"
             }
         },
         "pokemonCondition": {
