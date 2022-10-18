@@ -19,5 +19,6 @@
                 "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
             }
         }
-    }
+    },
+    "title": "Consejos de redada"
 }
