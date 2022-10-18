@@ -20,5 +20,9 @@
             }
         }
     },
-    "title": "Consejos de redada"
+    "title": "Consejos de redada",
+    "meta": {
+        "description": "Las Sugerencias para Incursiones en Pokemon Go te ayudan a encontrar que Pokemon debes dar poder para poder vencer a los jefes de incursión y gastar tus caramelos y polvos mas eficientemente",
+        "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+    }
 }
