@@ -3495,6 +3495,9 @@
         "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
             "label": "Great League - Remix",
             "description": "Os 10 Pokémon da Great League mais populares foram banidos com um CP máximo de 1500."
+        },
+        "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
+            "description": "Bidoof? Bidoof!"
         }
     },
     "privacy": {
@@ -3510,5 +3513,9 @@
             "label": "Global",
             "description": "Uma reide para todos participarem"
         }
+    },
+    "resists": {
+        "title": "{{name}} fraquezas em Pokémon Go",
+        "subtitle": "{{name}} é fraco aos seguintes tipos de ataque"
     }
 }
