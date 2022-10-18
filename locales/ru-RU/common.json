@@ -57,7 +57,7 @@
         "name": "$t(common:name)",
         "type": "$t(common:type)",
         "powerups": "Усилений (Power Ups)",
-        "stardust": "Stardust",
+        "stardust": "Звездная пыль (Stardust)",
         "candy": "Конфет (Candy)",
         "tdo": "Урон (TDO)",
         "estimator": "Оценщик",
@@ -67,9 +67,9 @@
         "help": "Раздел помощи",
         "about": "О разделе"
     },
-    "simulation_0": "симуляция была",
+    "simulation_0": "одна симуляция была",
     "simulation_1": "{{count,commas}} симуляции были",
-    "simulation_2": "",
+    "simulation_2": "{{count,commas}} симуляций было",
     "chooseMovesetLabel": "Выбрать набор атак",
     "hd": {
         "text": "$t(simulation, {'count': {{numSims}} }) выполнено для генерации этой высококвалифицированной симуляции",
@@ -96,8 +96,8 @@
     "trainer": "Тренер",
     "more": "Больше",
     "pokemon": "Покемон",
-    "battleParty": "Battle Party",
-    "battleParties": "Battle Parties",
+    "battleParty": "Боевой отряд",
+    "battleParties": "Боевые отряды",
     "raids": "Рейды",
     "gym": "Стадион (Gym)",
     "pvp": "PvP",
@@ -122,7 +122,7 @@
         "newVersion": "Доступна новая версия, обновите страницу браузера"
     },
     "site": {
-        "beta": "Beta Site",
+        "beta": "Beta сайт",
         "www": "Основной сайт"
     },
     "candy": {
