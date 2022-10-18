@@ -13,11 +13,27 @@
             "subtitle": "Per {{pokemon}} in base a {{sort}}"
         },
         "analysis": {
-            "title": "Riguardo questa Analisi"
+            "title": "Riguardo questa Analisi",
+            "attackers": {
+                "byLevel": "livello {{attackerLevel}} attaccanti",
+                "pokebox": "il Pokemon personalizzato dalla pokebox dell'utente #{{userId}}"
+            }
         },
         "patreon": {
             "link": "Guarda tutti i benefici che avrai registrandoti",
             "thanks": "Grazie per il tuo supporto!"
+        },
+        "title": "{{defender}} Counters"
+    },
+    "meta": {
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "breakingNews": {
+        "title": "Ultime notizie"
+    },
+    "tierList": {
+        "RAID_LEVEL_6_LEGACY": {
+            "title": "Livello 6 Legacy"
         }
     }
 }
