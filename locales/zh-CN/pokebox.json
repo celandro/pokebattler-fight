@@ -1,0 +1,42 @@
+{
+    "title": "寶可夢盒子",
+    "blurb": "添加你的寶可夢來獲得定制化的結果吧！你可以點擊右側的藍色圓圈逐個添加你的寶可夢。你也可以使用批量導入功能來從其他APP添加寶可夢。右上角有排序按鈕幫助你搜索你的寶可夢",
+    "pokemonList": {
+        "title": "你的寶可夢盒子",
+        "zero": "按下左側方格選擇你要加入的寶可夢",
+        "zeroDescription": "如果您過去已經增添了寶可夢，您可能是使用了不同的帳號來登入。\n如果您使用相同的電子郵件地址，您的帳號會自動連結。",
+        "email": "寫email給Pokebattler網站"
+    },
+    "add": {
+        "title": "寶可夢盒子",
+        "description": "新增寶可夢",
+        "pokemon": "選擇寶可夢種類",
+        "pokemonSelect": "選擇寶可夢種類"
+    },
+    "deleteAll": {
+        "button": "全部刪掉",
+        "title": "全部刪掉",
+        "confirmation": "你卻定要全部刪掉，一隻不留?",
+        "irreversible": "注意!刪掉之後無法復原喔!"
+    },
+    "import": {
+        "hintText": "我們有支援許多種的檔案格式，請確認你的檔案有包含正確的欄位名稱列.",
+        "floatingLabel": "將你的寶可夢複製到此處",
+        "table": {
+            "header": "選擇你要增加到盒子裡的寶可夢",
+            "selectAll": "全選"
+        }
+    },
+    "update": {
+        "title": "寶可夢背包",
+        "description": "{{name}}"
+    },
+    "backPokebox": "回到寶可夢背包",
+    "powerUp": "強化",
+    "full": {
+        "title": "寶可夢盒子滿了"
+    },
+    "meta": {
+        "description": "存储您的Pokemon Go Pokemon，以获得自定义的突袭结果以及更多！"
+    }
+}

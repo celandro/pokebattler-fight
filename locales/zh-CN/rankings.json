@@ -1,0 +1,48 @@
+{
+    "index": {
+        "title": "排行",
+        "welcome": {
+            "title": "歡迎來到Pokebattler 排行 2.0版"
+        },
+        "recommendations": {
+            "title": "設定建議",
+            "paragraph1": {
+                "link1": "預設攻擊排行",
+                "link2": "低等級閃招攻擊者",
+                "link3": "40級戰鬥"
+            },
+            "paragraph2": {
+                "link1": "預設防守排行",
+                "link2": "30級全閃躲防守排行",
+                "link3": "高等級對戰"
+            }
+        },
+        "buttons": {
+            "attacker": "攻擊者",
+            "defender": "防守者",
+            "gotoRankings": "前往排行"
+        }
+    },
+    "list": {
+        "title": "寶可夢對戰排行",
+        "descriptions": {
+            "title": "關於這些排行",
+            "attackers": "攻擊方",
+            "defenders": "防守方"
+        },
+        "typeSelection": {
+            "attacker": "攻擊排行",
+            "defender": "防守排行"
+        },
+        "settings": {
+            "level": "寶可夢等級"
+        }
+    },
+    "featured": {
+        "title": {
+            "attacker": "與最佳30位防守者的對戰數據",
+            "defender": "與6位最強對手的平均對戰數據"
+        },
+        "deepLink": "詳情請見"
+    }
+}

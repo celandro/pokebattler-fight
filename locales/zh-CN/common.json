@@ -1,0 +1,148 @@
+{
+    "back": "返回",
+    "cancel": "取消",
+    "quickMove": "小招",
+    "specialMove": "大招",
+    "attackStrategy": "攻擊策略",
+    "defenseStrategy": "防禦策略",
+    "dodgeStrategy": "閃躲策略",
+    "stats": {
+        "attack": "攻擊",
+        "defense": "防禦",
+        "stamina": "體力"
+    },
+    "level": "等級",
+    "basic": "基本",
+    "advanced": "進階",
+    "save": "儲存",
+    "delete": "刪除",
+    "reset": "重置",
+    "note": "注意",
+    "cp": "CP",
+    "win": "贏",
+    "loss": "輸",
+    "weatherCondition": "天氣",
+    "statsAbbr": {
+        "attack": "攻擊",
+        "defense": "防禦",
+        "hp": "血量"
+    },
+    "move": "招式",
+    "moves": "招式",
+    "type": "寶可夢屬性",
+    "properties": {
+        "win": "勝利機率",
+        "deaths": "瀕死數",
+        "realTime": "時間",
+        "prestige": "聲望值",
+        "dps": "每秒傷害",
+        "potions": "傷藥",
+        "damage": "傷害",
+        "energy": "能量",
+        "grouped": "小隊",
+        "single": "單人",
+        "id": "ID",
+        "cp": "$t(common:cp)",
+        "pokemon": "$t(common:pokemon)",
+        "name": "$t(common:name)",
+        "type": "$t(common:type)",
+        "powerups": "強化",
+        "stardust": "星星沙子",
+        "candy": "糖果",
+        "overall": "整體評價",
+        "power": "能力值",
+        "effectiveDeaths": "獲勝代價",
+        "time": "獲勝需時"
+    },
+    "sectionLinks": {
+        "help": "幫助欄位",
+        "about": "關於段落"
+    },
+    "chooseMovesetLabel": "選擇招式組",
+    "hd": {
+        "attackers": "攻擊者",
+        "defenders": "防守者",
+        "raid": "團體戰"
+    },
+    "name": "名字",
+    "nickname": "暱稱",
+    "mystic": "睿智隊(藍隊)",
+    "valor": "武勇隊(紅隊)",
+    "instinct": "靈犀隊(黃隊)",
+    "ivs": "個體值",
+    "trainerName": "訓練家名稱",
+    "attackerTypes": {
+        "pokebox": "我的Pokébox",
+        "level": "根據等級",
+        "friend": "他們的寶可夢盒子"
+    },
+    "aggregation": "運氣",
+    "faction": "部分",
+    "pokebox": "寶可夢盒子",
+    "advice": "團體戰建議",
+    "login": "登入",
+    "trainer": "訓練家",
+    "more": "更多",
+    "pokemon": "寶可夢",
+    "status": {
+        "add": "加入",
+        "edit": "編輯",
+        "update": "更新",
+        "delete": "刪除",
+        "loading": "載入",
+        "success": "成功",
+        "error": "錯誤",
+        "newVersion": "最新資訊"
+    },
+    "message": {
+        "delete": "從寶可夢盒子刪除寶可夢",
+        "deleteAll": "刪除寶可夢盒子中的全部寶可夢",
+        "update": "更新寶可夢數據",
+        "success": "成功",
+        "error": "噢！發生了小問題，請稍後再嘗試",
+        "newVersion": "新版本出爐了，請在瀏覽器重新顯示此頁"
+    },
+    "site": {
+        "beta": "測試版本",
+        "www": "主網頁"
+    },
+    "candy": {
+        "title": "可用糖果"
+    },
+    "stardust": {
+        "title": "可用星塵"
+    },
+    "xAxis": "X軸",
+    "yAxis": "Y軸",
+    "quickMoves": "小招",
+    "specialMoves": "大招",
+    "spinner": {
+        "battle": "戰鬥模擬中，請稍候",
+        "raid": "最強打手計算中，請稍候...",
+        "pokedex": "最佳打手及攻擊組合計算中，請稍候...",
+        "rankings": "正在計算每一隻寶可夢的對戰組合，要花一點時間，請耐心等待..."
+    },
+    "specialMove2": "第二大招",
+    "gym": "道館",
+    "menu": {
+        "patreon": "在Patreon上面支持我們",
+        "follow": "追蹤我們！",
+        "social": {
+            "facebook": "臉書"
+        },
+        "mainMenu": {
+            "raids": "頭目戰",
+            "help": "幫助",
+            "about": "關於",
+            "contact": "聯絡我們",
+            "translate": "翻譯"
+        }
+    },
+    "choosePokemon": "選擇寶可夢",
+    "friendLevels": "友誼等級",
+    "shieldStrategy": "防御網使用策略",
+    "shiny": "異色",
+    "lucky": "亮晶晶",
+    "id": "ID",
+    "seconds": "秒"
+}

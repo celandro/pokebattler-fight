@@ -1,0 +1,40 @@
+{
+    "title": "建議",
+    "linkLabel": "團體戰導引",
+    "inputs": {
+        "title": "你需要哪方面的建議？"
+    },
+    "buttonLabel": "強化寶可夢",
+    "results": {
+        "title": "團體戰建議",
+        "calculating": "團體戰建議計算中",
+        "counters": {
+            "title": "剋星",
+            "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
+            "chooseMovesetLabel": "頭目的配招"
+        },
+        "hardestMovesets": {
+            "title": "頭目各種配招的挑戰難度",
+            "tableTitle": "頭目配招的挑戰難度(排名越上面越困難)",
+            "description": "防守寶可夢的招式組可決定團體戰難易度！",
+            "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
+        },
+        "analysis": {
+            "title": "關於此分析",
+            "attackers": {
+                "byLevel": "等級{{attackerLevel}}攻擊者",
+                "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
+            }
+        }
+    },
+    "pokeboxRequired": "Pokebattler Advice 需要你輸入寶可夢。登入並加入你最強的寶可夢到 Pokebox，我們會協助你找到最合適強化的寶可夢。",
+    "result": {
+        "summaryStart": "起始結果",
+        "summaryEnd": "強化後結果",
+        "graphTitle": "{{yAxis}} vs. {{xAxis}}",
+        "detail": "每次強化對應的結果",
+        "back": "回到 Advice 設定"
+    },
+    "raidLink": "看強化前的結果",
+    "helpLink": "看 Raid Advice 教學影片"
+}
