@@ -159,6 +159,10 @@
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "breakingNews": {
-        "title": "Neuigkeiten"
+        "title": "Neuigkeiten",
+        "subtitle": "Populäre Raids in Pokemon Go"
+    },
+    "articles": {
+        "title": "Neuigkeiten zu Raids"
     }
 }
