@@ -2786,7 +2786,9 @@
     "ROLLOUT_FAST": "Roulade",
     "SEED_FLARE": "Fulmigraine",
     "OBSTRUCT": "Blocage",
-    "METEOR_BEAM": "Laser Météore"
+    "METEOR_BEAM": "Laser Météore",
+    "SHADOW_FORCE": "Revenant",
+    "POLTERGEIST": "Esprit Frappeur"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

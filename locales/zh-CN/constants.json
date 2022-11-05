@@ -2739,7 +2739,9 @@
     "ROLLOUT_FAST": "滾動",
     "SEED_FLARE": "種子閃光",
     "OBSTRUCT": "攔堵",
-    "METEOR_BEAM": "流星光束"
+    "METEOR_BEAM": "流星光束",
+    "SHADOW_FORCE": "Shadow Force",
+    "POLTERGEIST": "靈騷"
   },
   "types": {
     "POKEMON_TYPE_NONE": "未知",

@@ -2720,7 +2720,9 @@
     "ROLLOUT_FAST": "Rotolamento",
     "SEED_FLARE": "Infuriaseme",
     "OBSTRUCT": "Sbarramento",
-    "METEOR_BEAM": "Raggiometeora"
+    "METEOR_BEAM": "Raggiometeora",
+    "SHADOW_FORCE": "Oscurotuffo",
+    "POLTERGEIST": "Poltergeist"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",

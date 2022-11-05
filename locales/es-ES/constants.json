@@ -2828,7 +2828,9 @@
     "ROLLOUT_FAST": "Desenrollar",
     "SEED_FLARE": "Fogonazo",
     "OBSTRUCT": "Obstrucción",
-    "METEOR_BEAM": "Rayo Meteórico"
+    "METEOR_BEAM": "Rayo Meteórico",
+    "SHADOW_FORCE": "Golpe Umbrío",
+    "POLTERGEIST": "Poltergeist"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",

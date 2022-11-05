@@ -2629,6 +2629,8 @@
     "ROLLOUT_FAST": "ころがる",
     "SEED_FLARE": "シードフレア",
     "OBSTRUCT": "ブロッキング",
-    "METEOR_BEAM": "メテオビーム"
+    "METEOR_BEAM": "メテオビーム",
+    "SHADOW_FORCE": "シャドーダイブ",
+    "POLTERGEIST": "ポルターガイスト"
   }
 }

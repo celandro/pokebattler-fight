@@ -2929,7 +2929,9 @@
     "ROLLOUT_FAST": "Walzer",
     "SEED_FLARE": "Schocksamen",
     "OBSTRUCT": "Abblocker",
-    "METEOR_BEAM": "Meteorstrahl"
+    "METEOR_BEAM": "Meteorstrahl",
+    "SHADOW_FORCE": "Schemenkraft",
+    "POLTERGEIST": "Poltergeist"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

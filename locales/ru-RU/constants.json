@@ -2654,7 +2654,9 @@
     "ROLLOUT_FAST": "Перекат",
     "SEED_FLARE": "Сияние Семени",
     "OBSTRUCT": "Преграда",
-    "METEOR_BEAM": "Метеоритный Луч"
+    "METEOR_BEAM": "Метеоритный Луч",
+    "SHADOW_FORCE": "Сумеречная Сила",
+    "POLTERGEIST": "Полтергейст"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

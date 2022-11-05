@@ -1159,6 +1159,8 @@
     "ROLLOUT_FAST": "Yuvarlanma",
     "SEED_FLARE": "Tohum Meşalesi",
     "OBSTRUCT": "Engelleme",
-    "METEOR_BEAM": "Meteor Işını"
+    "METEOR_BEAM": "Meteor Işını",
+    "SHADOW_FORCE": "Gölge Gücü",
+    "POLTERGEIST": "Poltergeist"
   }
 }
