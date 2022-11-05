@@ -472,7 +472,7 @@
     "GRIMER_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GRIMER)",
     "MUK_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MUK)",
     "MAROWAK_ALOLA_FORM": "$t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MAROWAK)",
-    "MAROWAK_ALOLA_SHADOW_FORM": "$t(constants:pokeon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MAROWAK)",
+    "MAROWAK_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MAROWAK)",
     "TURTWIG": "Turtwig",
     "GROTLE": "Grotle",
     "TORTERRA": "Torterra",

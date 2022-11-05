@@ -9,7 +9,7 @@
     "breakingNews": {
         "title": "Breaking News",
         "subtitle": "Popular Raids In Pokemon Go",
-        "header": "Interactive $t(constants:pokemon.{{pokemonId}}) Counters"
+        "header": "$t(constants:pokemon.{{pokemonId}}) Counters"
     },
     "articles": {
         "title": "Latest Raid News!",
