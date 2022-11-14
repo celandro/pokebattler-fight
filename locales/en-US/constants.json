@@ -1776,7 +1776,7 @@
     "SANDSLASH_ALOLA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SANDSLASH_ALOLA_FORM)",
     "URSALUNA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.URSALUNA)",
     "DIGLETT_ALOLA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DIGLETT_ALOLA_FORM)",
-    "DUGTRIO_ALOLA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DUGGTRIO_ALOLA_FORM)",
+    "DUGTRIO_ALOLA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DUGTRIO_ALOLA_FORM)",
     "WURMPLE_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.WURMPLE_SPRING)",
     "WOBBUFFET_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.WOBBUFFET_SPRING)",
     "RATICATE_SPRING_2020_FORM": "$t(constants:pokemon.2020_FORM) $t(constants:pokemon.RATICATE_SPRING)",
