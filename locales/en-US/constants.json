@@ -2331,7 +2331,8 @@
     "TWINEEDLE": "Twineedle",
     "SMOG": "Smog",
     "DOUBLE_SLAP": "Double Slap",
-    "SLASH": "Slash"
+    "SLASH": "Slash",
+    "HIGH_HORSEPOWER":  "High Horsepower"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
