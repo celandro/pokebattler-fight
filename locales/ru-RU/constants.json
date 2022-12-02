@@ -2657,7 +2657,8 @@
     "OBSTRUCT": "Преграда",
     "METEOR_BEAM": "Метеоритный Луч",
     "SHADOW_FORCE": "Сумеречная Сила",
-    "POLTERGEIST": "Полтергейст"
+    "POLTERGEIST": "Полтергейст",
+    "HIGH_HORSEPOWER": "Лошадиная Сила"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

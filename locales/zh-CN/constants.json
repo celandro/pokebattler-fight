@@ -2741,8 +2741,9 @@
     "SEED_FLARE": "種子閃光",
     "OBSTRUCT": "攔堵",
     "METEOR_BEAM": "流星光束",
-    "SHADOW_FORCE": "Shadow Force",
-    "POLTERGEIST": "靈騷"
+    "SHADOW_FORCE": "暗影潛襲",
+    "POLTERGEIST": "靈騷",
+    "HIGH_HORSEPOWER": "十萬馬力"
   },
   "types": {
     "POKEMON_TYPE_NONE": "未知",

@@ -2932,7 +2932,8 @@
     "OBSTRUCT": "Abblocker",
     "METEOR_BEAM": "Meteorstrahl",
     "SHADOW_FORCE": "Schemenkraft",
-    "POLTERGEIST": "Poltergeist"
+    "POLTERGEIST": "Poltergeist",
+    "HIGH_HORSEPOWER": "Pferdestärke"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

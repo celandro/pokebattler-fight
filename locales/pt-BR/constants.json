@@ -2989,7 +2989,8 @@
     "METEOR_BEAM": "Raio Meteórico",
     "DARK_VOID": "Vácuo Negro",
     "SHADOW_FORCE": "Força das Sombras",
-    "POLTERGEIST": "Poltergeist"
+    "POLTERGEIST": "Poltergeist",
+    "HIGH_HORSEPOWER": "Potência Equina"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

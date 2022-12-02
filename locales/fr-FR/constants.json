@@ -2789,7 +2789,8 @@
     "OBSTRUCT": "Blocage",
     "METEOR_BEAM": "Laser Météore",
     "SHADOW_FORCE": "Revenant",
-    "POLTERGEIST": "Esprit Frappeur"
+    "POLTERGEIST": "Esprit Frappeur",
+    "HIGH_HORSEPOWER": "Cavalerie Lourde"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

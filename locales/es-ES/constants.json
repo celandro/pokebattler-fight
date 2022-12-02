@@ -2831,7 +2831,8 @@
     "OBSTRUCT": "Obstrucción",
     "METEOR_BEAM": "Rayo Meteórico",
     "SHADOW_FORCE": "Golpe Umbrío",
-    "POLTERGEIST": "Poltergeist"
+    "POLTERGEIST": "Poltergeist",
+    "HIGH_HORSEPOWER": "Fuerza Equina"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",

@@ -2793,7 +2793,8 @@
     "OBSTRUCT": "블로킹",
     "METEOR_BEAM": "메테오빔",
     "SHADOW_FORCE": "섀도다이브",
-    "POLTERGEIST": "폴터가이스트"
+    "POLTERGEIST": "폴터가이스트",
+    "HIGH_HORSEPOWER": "10만마력"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "노멀",
