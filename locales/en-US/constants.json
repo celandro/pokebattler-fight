@@ -2335,7 +2335,8 @@
     "SMOG": "Smog",
     "DOUBLE_SLAP": "Double Slap",
     "SLASH": "Slash",
-    "HIGH_HORSEPOWER": "High Horsepower"
+    "HIGH_HORSEPOWER": "High Horsepower",
+    "GLACIATE":  "Glaciate"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
