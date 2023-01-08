@@ -2030,7 +2030,10 @@
     "PIKACHU_FLYING_01_FORM": "Flying 1 $t(constants:pokemon.PIKACHU)",
     "PIKACHU_FLYING_02_FORM": "Flying 2 $t(constants:pokemon.PIKACHU)",
     "PIKACHU_TSHIRT_01_FORM": "Tshirt 1 $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_TSHIRT_02_FORM": "Tshirt 2 $t(constants:pokemon.PIKACHU)"
+    "PIKACHU_TSHIRT_02_FORM": "Tshirt 2 $t(constants:pokemon.PIKACHU)",
+    "PRIMAL_FORM": "Primal",
+    "GROUDON_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.GROUDON)",
+    "KYOGRE_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.KYOGRE)"
   },
   "moves": {
     "undefined": "Undefined",
