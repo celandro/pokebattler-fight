@@ -2033,7 +2033,9 @@
     "PIKACHU_TSHIRT_02_FORM": "Tshirt 2 $t(constants:pokemon.PIKACHU)",
     "PRIMAL_FORM": "Primal",
     "GROUDON_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.GROUDON)",
-    "KYOGRE_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.KYOGRE)"
+    "KYOGRE_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.KYOGRE)",
+    "VULPIX_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.VULPIX)",
+    "NINETALES_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.NINETALES)"
   },
   "moves": {
     "undefined": "Undefined",
