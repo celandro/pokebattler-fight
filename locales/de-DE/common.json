@@ -63,7 +63,10 @@
         "level": "$t(common:level)",
         "recent": "Neueste",
         "dpe": "DPE",
-        "eps": "EPS"
+        "eps": "EPS",
+        "rank": "Rank",
+        "points": "Punkte",
+        "xlcandy": "XL Bonbons"
     },
     "sectionLinks": {
         "help": "Hilfebereich",
@@ -131,7 +134,12 @@
         "subscriptionCardUpdateFailure": "Zahlungsinformationen konnten nicht aktualisiert werden",
         "calculating": "Noch am berechnen. {{elapsed}} Sekunden bisher.",
         "clipboard": "Kopiert! Bereit zum Einfügen",
-        "share": "Teile mit deinen Freunden"
+        "share": "Teile mit deinen Freunden",
+        "network": "Netzwerkfehler. Eine Netzwerkverbindung ist für diese Anwendung erforderlich.",
+        "serverDown": "Pokebattler Server sind kurzfristig nicht verfügbar. Sie sind bald wieder da.",
+        "appUpdate": "Kleineres App Update fehlgeschlagen. Es wird beim nächsten Öffnen der Anwendung nochmal versucht.",
+        "newAppVersion": "Neues Update wurde heruntergeladen. Update startet in 15s...",
+        "updateNow": "Jetzt updaten"
     },
     "site": {
         "beta": "Beta-Seite",
@@ -206,7 +214,11 @@
             "terms": "Bedingungen",
             "rocket": "Team Rocket",
             "matrix": "Matrix",
-            "subscription": "Abonnement"
+            "subscription": "Abonnement",
+            "attackers": "Angreifer",
+            "tutorials": "Tutorials",
+            "raidNetworkDiscords": "Raid Netzwerk",
+            "infographics": "Infografiken"
         },
         "description": {
             "gym": "Arena Kampfsimulationen, Pokedex und Ranglisten",
@@ -275,7 +287,8 @@
         "zh": "Chinesisch",
         "bg": "Bulgarisch",
         "hu": "Ungarisch",
-        "nl": "Niederländisch"
+        "nl": "Niederländisch",
+        "bn": "Bengali"
     },
     "buttons": {
         "okay": "Okay",
@@ -325,5 +338,14 @@
     "search": "Suche",
     "update": "Update",
     "version": "Version {{version}}",
-    "friendCode": "Freundescode"
+    "friendCode": "Freundescode",
+    "auto": "Auto",
+    "includeMegas": "Mega Pokémon anzeigen",
+    "harmony": "Harmonie",
+    "mega": "Mega",
+    "megas": "Mega",
+    "choosePokemonLabel": "Pokémon auswählen",
+    "xlcandy": {
+        "title": "Verfügbare XL Bonbons"
+    }
 }
