@@ -2343,7 +2343,9 @@
     "HIGH_HORSEPOWER": "High Horsepower",
     "GLACIATE": "Glaciate",
     "FUSION_BOLT": "Fusion Bolt",
-    "FUSION_FLARE": "Fusion Flare"
+    "FUSION_FLARE": "Fusion Flare",
+    "BREAKING_SWIPE": "Breaking Swipe",
+    "BOOMBURST": "Boomburst"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
