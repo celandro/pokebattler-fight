@@ -2790,7 +2790,10 @@
     "METEOR_BEAM": "Laser Météore",
     "SHADOW_FORCE": "Revenant",
     "POLTERGEIST": "Esprit Frappeur",
-    "HIGH_HORSEPOWER": "Cavalerie Lourde"
+    "HIGH_HORSEPOWER": "Cavalerie Lourde",
+    "FUSION_BOLT": "Éclair Croix",
+    "FUSION_FLARE": "Flamme Croix",
+    "GLACIATE": "Ère Glaciaire"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

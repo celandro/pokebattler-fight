@@ -1163,6 +1163,9 @@
     "METEOR_BEAM": "Meteor Işını",
     "SHADOW_FORCE": "Gölge Gücü",
     "POLTERGEIST": "Poltergeist",
-    "HIGH_HORSEPOWER": "Yüksek Beygir Gücü"
+    "HIGH_HORSEPOWER": "Yüksek Beygir Gücü",
+    "FUSION_BOLT": "Füzyon Yıldırımı",
+    "FUSION_FLARE": "Füzyon Alevi",
+    "GLACIATE": "Buzullaşma"
   }
 }

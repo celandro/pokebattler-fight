@@ -2832,7 +2832,10 @@
     "METEOR_BEAM": "Rayo Meteórico",
     "SHADOW_FORCE": "Golpe Umbrío",
     "POLTERGEIST": "Poltergeist",
-    "HIGH_HORSEPOWER": "Fuerza Equina"
+    "HIGH_HORSEPOWER": "Fuerza Equina",
+    "FUSION_BOLT": "Rayo Fusión",
+    "FUSION_FLARE": "Llama Fusión",
+    "GLACIATE": "Mundo Gélido"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",

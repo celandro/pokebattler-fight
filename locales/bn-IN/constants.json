@@ -1163,6 +1163,9 @@
     "SHADOW_FORCE": "Shadow Force",
     "METEOR_BEAM": "Meteor Beam",
     "POLTERGEIST": "Poltergeist",
-    "HIGH_HORSEPOWER": "High Horsepower"
+    "HIGH_HORSEPOWER": "High Horsepower",
+    "FUSION_BOLT": "Fusion Bolt",
+    "FUSION_FLARE": "Fusion Flare",
+    "GLACIATE": "Glaciate"
   }
 }

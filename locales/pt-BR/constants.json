@@ -2533,7 +2533,7 @@
     "CHARJABUG": "Charjabug",
     "VIKAVOLT": "Vikavolt",
     "CRABRAWLER": "Crabrawler",
-    "CRABOMINABLE": "Crabominável",
+    "CRABOMINABLE": "Crabominable",
     "ORICORIO": "Oricorio",
     "CUTIEFLY": "Fofinho",
     "RIBOMBEE": "Ribombee",
@@ -2990,7 +2990,10 @@
     "DARK_VOID": "Vácuo Negro",
     "SHADOW_FORCE": "Força das Sombras",
     "POLTERGEIST": "Poltergeist",
-    "HIGH_HORSEPOWER": "Potência Equina"
+    "HIGH_HORSEPOWER": "Potência Equina",
+    "FUSION_BOLT": "Raio de Fusão",
+    "FUSION_FLARE": "Chama da Fusão",
+    "GLACIATE": "Glaciar"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

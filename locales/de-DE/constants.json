@@ -2933,7 +2933,10 @@
     "METEOR_BEAM": "Meteorstrahl",
     "SHADOW_FORCE": "Schemenkraft",
     "POLTERGEIST": "Poltergeist",
-    "HIGH_HORSEPOWER": "Pferdestärke"
+    "HIGH_HORSEPOWER": "Pferdestärke",
+    "FUSION_BOLT": "Kreuzdonner",
+    "FUSION_FLARE": "Kreuzflamme",
+    "GLACIATE": "Eiszeit"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

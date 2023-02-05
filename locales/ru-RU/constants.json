@@ -2658,7 +2658,10 @@
     "METEOR_BEAM": "Метеоритный Луч",
     "SHADOW_FORCE": "Сумеречная Сила",
     "POLTERGEIST": "Полтергейст",
-    "HIGH_HORSEPOWER": "Лошадиная Сила"
+    "HIGH_HORSEPOWER": "Лошадиная Сила",
+    "FUSION_BOLT": "Термоядерный Разряд",
+    "FUSION_FLARE": "Ядерная Вспышка",
+    "GLACIATE": "Замораживание"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

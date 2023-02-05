@@ -2724,7 +2724,10 @@
     "METEOR_BEAM": "Raggiometeora",
     "SHADOW_FORCE": "Oscurotuffo",
     "POLTERGEIST": "Poltergeist",
-    "HIGH_HORSEPOWER": "Forza Equina"
+    "HIGH_HORSEPOWER": "Forza Equina",
+    "FUSION_BOLT": "Incrotuono",
+    "FUSION_FLARE": "Incrofiamma",
+    "GLACIATE": "Gelamondo"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",
