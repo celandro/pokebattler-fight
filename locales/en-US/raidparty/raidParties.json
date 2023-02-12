@@ -299,5 +299,22 @@
     },
     "hostForm": {
         "noRaidsForTier": "There are no {{tier}} raids currently available in Pokemon Go."
+    },
+    "createRaidForm": {
+        "priority": {
+            "header": "Low Priority Warning",
+            "line1": "There are {{numHigherKarmaParties}} hosts with higher priority than you.",
+            "line2": "Priority is based on your karma and can be boosted by coins.",
+            "insufficientCoins": "You do not currently have enough coins to boost your priority. Joining other raids to gain more Karma or hosting on non-raid hours is highly recommended!",
+
+            "scoreBoost": "Spend coins to boost priority",
+            "currentPriority": "Priority #{{priority}}"
+        },
+        "suggestedParty": {
+            "header": "Available Global Raid",
+            "line1": "Consider joining instead of hosting"
+        },
+        "hostParty": "Host Party"
     }
+
 }
