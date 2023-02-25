@@ -2345,7 +2345,8 @@
     "FUSION_BOLT": "Fusion Bolt",
     "FUSION_FLARE": "Fusion Flare",
     "BREAKING_SWIPE": "Breaking Swipe",
-    "BOOMBURST": "Boomburst"
+    "BOOMBURST": "Boomburst",
+    "DOUBLE_IRON_BASH":  "Double Iron Bash"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
