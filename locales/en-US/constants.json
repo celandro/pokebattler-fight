@@ -789,6 +789,8 @@
     "SNEASLER": "Sneasler",
     "OVERQWIL": "Overqwil",
     "ENAMORUS": "Enamorus",
+    "GIMMIGHOUL": "Gimmighoul",
+    "GHOLDENGO": "Gholdengo",
     "BASCULIN_RED_STRIPED_FORM": "Red Striped Basculin",
     "BASCULIN_BLUE_STRIPED_FORM": "Blue Striped Basculin",
     "DARMANITAN_STANDARD_FORM": "Standard Darmanitan",
@@ -2036,6 +2038,7 @@
     "KYOGRE_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.KYOGRE)",
     "VULPIX_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.VULPIX)",
     "NINETALES_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.NINETALES)"
+
   },
   "moves": {
     "undefined": "Undefined",
