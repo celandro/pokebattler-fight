@@ -308,7 +308,8 @@
             "insufficientCoins": "You do not currently have enough coins to boost your priority. Joining other raids to gain more Karma or hosting on non-raid hours is highly recommended!",
 
             "scoreBoost": "Spend coins to boost priority",
-            "currentPriority": "Priority #{{priority}}"
+            "currentPriority": "Priority #{{priority}}",
+            "boostPriority": ""
         },
         "suggestedParty": {
             "header": "Available Global Raid",
