@@ -288,7 +288,7 @@
             "allowed": {
                 "message": "After you upgrade you will be able to join raids early, click to join when the ⏩ appears!",
                 "upgrade": "Upgrade",
-                "noteText": "Each raid you join early will cost you"
+                "noteText": "Each raid you join early will cost you. Failed raids will auto refund coins after 24 hours."
             },
             "subtitle": "Current ways to gain coins:",
             "rewards1": "• +1 coin rating a 👍 or 👎",
@@ -302,14 +302,17 @@
     },
     "createRaidForm": {
         "priority": {
-            "header": "Low Priority Warning",
+            "header": "Warning, Low Priority",
+            "headerExtreme": "Extremely Low Priority",
             "line1": "There are {{numHigherKarmaParties}} hosts with higher priority than you.",
             "line2": "Priority is based on your karma and can be boosted by coins.",
             "insufficientCoins": "You do not currently have enough coins to boost your priority. Joining other raids to gain more Karma or hosting on non-raid hours is highly recommended!",
-
-            "scoreBoost": "Spend coins to boost priority",
-            "currentPriority": "Priority #{{priority}}",
-            "boostPriority": ""
+            "scoreBoostTitle": "Spend coins to boost priority",
+            "scoreBoostSubTitle": "Higher priority will place you higher in the list of available raids, filling your raid faster.",
+            "placeholder": "No Boost",
+            "option1": "Top Priority",
+            "option2": "Second Priority",
+            "option3": "Third Priority"
         },
         "suggestedParty": {
             "header": "Available Global Raid",
