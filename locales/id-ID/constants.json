@@ -900,7 +900,9 @@
     "CALYREX": "Calyrex",
     "URSALUNA": "Ursaluna",
     "SNEASLER": "Sneasler",
-    "OVERQWIL": "Overqwil"
+    "OVERQWIL": "Overqwil",
+    "KYOGRE_PRIMAL": "Kyogre",
+    "GROUDON_PRIMAL": "Groudon"
   },
   "moves": {
     "THUNDER_SHOCK_FAST": "Sengatan Listrik",

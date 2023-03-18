@@ -2534,7 +2534,9 @@
     "CALYREX": "Calyrex",
     "SNEASLER": "Sneasler",
     "OVERQWIL": "Overqwil",
-    "URSALUNA": "Ursaluna"
+    "URSALUNA": "Ursaluna",
+    "KYOGRE_PRIMAL": "Kyogre",
+    "GROUDON_PRIMAL": "Groudon"
   },
   "moves": {
     "undefined": "No definido",

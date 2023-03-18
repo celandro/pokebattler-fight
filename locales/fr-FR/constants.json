@@ -2502,7 +2502,9 @@
     "CALYREX": "Sylveroy",
     "SNEASLER": "Farfurex",
     "OVERQWIL": "Qwilpik",
-    "URSALUNA": "Ursaking"
+    "URSALUNA": "Ursaking",
+    "KYOGRE_PRIMAL": "Kyogre",
+    "GROUDON_PRIMAL": "Groudon"
   },
   "moves": {
     "ACID_FAST": "Acide",

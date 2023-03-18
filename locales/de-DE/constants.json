@@ -2631,7 +2631,9 @@
     "CALYREX": "Coronospa",
     "SNEASLER": "Snieboss",
     "OVERQWIL": "Myriador",
-    "URSALUNA": "Ursaluna"
+    "URSALUNA": "Ursaluna",
+    "KYOGRE_PRIMAL": "Kyogre",
+    "GROUDON_PRIMAL": "Groudon"
   },
   "moves": {
     "undefined": "Undefiniert",

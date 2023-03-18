@@ -2496,7 +2496,9 @@
     "CALYREX": "버드렉스",
     "SNEASLER": "포푸니크",
     "OVERQWIL": "장침바루",
-    "URSALUNA": "다투곰"
+    "URSALUNA": "다투곰",
+    "KYOGRE_PRIMAL": "가이오가",
+    "GROUDON_PRIMAL": "그란돈"
   },
   "moves": {
     "ACID_FAST": "용해액",

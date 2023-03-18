@@ -2352,7 +2352,9 @@
     "CALYREX": "バドレックス",
     "SNEASLER": "オオニューラ",
     "OVERQWIL": "ハリーマン",
-    "URSALUNA": "ガチグマ"
+    "URSALUNA": "ガチグマ",
+    "KYOGRE_PRIMAL": "カイオーガ",
+    "GROUDON_PRIMAL": "グラードン"
   },
   "moves": {
     "ACID_FAST": "ようかいえき",

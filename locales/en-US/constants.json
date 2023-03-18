@@ -2034,13 +2034,12 @@
     "PIKACHU_TSHIRT_01_FORM": "Tshirt 1 $t(constants:pokemon.PIKACHU)",
     "PIKACHU_TSHIRT_02_FORM": "Tshirt 2 $t(constants:pokemon.PIKACHU)",
     "PRIMAL_FORM": "Primal",
-    "GROUDON_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.GROUDON)",
-    "KYOGRE_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.KYOGRE)",
+    "GROUDON_PRIMAL": "Groudon",
+    "KYOGRE_PRIMAL": "Kyogre",
     "VULPIX_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.VULPIX)",
     "NINETALES_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.NINETALES)",
     "GRIMER_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GRIMER)",
     "MUK_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MUK)"
-
   },
   "moves": {
     "undefined": "Undefined",
@@ -2351,7 +2350,7 @@
     "FUSION_FLARE": "Fusion Flare",
     "BREAKING_SWIPE": "Breaking Swipe",
     "BOOMBURST": "Boomburst",
-    "DOUBLE_IRON_BASH":  "Double Iron Bash"
+    "DOUBLE_IRON_BASH": "Double Iron Bash"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
