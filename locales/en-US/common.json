@@ -90,6 +90,7 @@
     "includeLegendary": "Show Legendary Pokemon",
     "includeMegas": "Show Mega Pokemon",
     "includeTypes": "Show By Pokemon Type",
+    "primalAssistants": "Active Primal Boosts",
     "properties": {
         "overall": "Overall",
         "estimator": "Estimator",

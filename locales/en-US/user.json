@@ -243,7 +243,7 @@
             }
         },
         "upsell": {
-            "rankingByType": "Subscribers have access to ranking features that are too expensive to give to everyone including ranking by type!"
+            "rankingByType": "Subscribers have access to ranking features that are too expensive to give to everyone including ranking by type and primal boosts!"
         },
         "transaction": {
             "start": "Processing subscription",
