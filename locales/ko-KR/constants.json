@@ -2496,7 +2496,10 @@
     "CALYREX": "버드렉스",
     "SNEASLER": "포푸니크",
     "OVERQWIL": "장침바루",
-    "URSALUNA": "다투곰"
+    "URSALUNA": "다투곰",
+    "KLEAVOR": "사마자르",
+    "GIMMIGHOUL": "모으령",
+    "GHOLDENGO": "타부자고"
   },
   "moves": {
     "ACID_FAST": "용해액",
@@ -2797,7 +2800,10 @@
     "HIGH_HORSEPOWER": "10만마력",
     "FUSION_BOLT": "크로스썬더",
     "FUSION_FLARE": "크로스플레임",
-    "GLACIATE": "얼어붙은세계"
+    "GLACIATE": "얼어붙은세계",
+    "BREAKING_SWIPE": "와이드브레이커",
+    "BOOMBURST": "폭음파",
+    "DOUBLE_IRON_BASH": "더블펀처"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "노멀",

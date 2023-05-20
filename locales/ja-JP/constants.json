@@ -2352,7 +2352,10 @@
     "CALYREX": "バドレックス",
     "SNEASLER": "オオニューラ",
     "OVERQWIL": "ハリーマン",
-    "URSALUNA": "ガチグマ"
+    "URSALUNA": "ガチグマ",
+    "KLEAVOR": "バサギリ",
+    "GIMMIGHOUL": "コレクレー",
+    "GHOLDENGO": "サーフゴー"
   },
   "moves": {
     "ACID_FAST": "ようかいえき",
@@ -2636,6 +2639,9 @@
     "HIGH_HORSEPOWER": "１０まんばりき",
     "FUSION_BOLT": "クロスサンダー",
     "FUSION_FLARE": "クロスフレイム",
-    "GLACIATE": "こごえるせかい"
+    "GLACIATE": "こごえるせかい",
+    "BREAKING_SWIPE": "ワイドブレイカー",
+    "BOOMBURST": "ばくおんぱ",
+    "DOUBLE_IRON_BASH": "ダブルパンツァー"
   }
 }

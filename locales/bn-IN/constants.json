@@ -900,7 +900,10 @@
     "CALYREX": "कलरैस",
     "URSALUNA": "Ursaluna",
     "SNEASLER": "Sneasler",
-    "OVERQWIL": "Overqwil"
+    "OVERQWIL": "Overqwil",
+    "KLEAVOR": "Kleavor",
+    "GIMMIGHOUL": "Gimmighoul",
+    "GHOLDENGO": "Gholdengo"
   },
   "moves": {
     "THUNDER_SHOCK_FAST": "थंडर शॉक",
@@ -1166,6 +1169,9 @@
     "HIGH_HORSEPOWER": "High Horsepower",
     "FUSION_BOLT": "Fusion Bolt",
     "FUSION_FLARE": "Fusion Flare",
-    "GLACIATE": "Glaciate"
+    "GLACIATE": "Glaciate",
+    "BREAKING_SWIPE": "Breaking Swipe",
+    "BOOMBURST": "Boomburst",
+    "DOUBLE_IRON_BASH": "Double Iron Bash"
   }
 }

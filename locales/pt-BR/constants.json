@@ -2687,7 +2687,10 @@
     "CALYREX": "Calyrex",
     "SNEASLER": "Sneasler",
     "OVERQWIL": "Overqwil",
-    "URSALUNA": "Ursaluna"
+    "URSALUNA": "Ursaluna",
+    "KLEAVOR": "Kleavor",
+    "GIMMIGHOUL": "Gimmighoul",
+    "GHOLDENGO": "Gholdengo"
   },
   "moves": {
     "ACID_FAST": "Ácido",
@@ -2993,7 +2996,10 @@
     "HIGH_HORSEPOWER": "Potência Equina",
     "FUSION_BOLT": "Raio de Fusão",
     "FUSION_FLARE": "Chama da Fusão",
-    "GLACIATE": "Glaciar"
+    "GLACIATE": "Glaciar",
+    "BREAKING_SWIPE": "Golpe Deslizante",
+    "BOOMBURST": "Rajada Explosiva",
+    "DOUBLE_IRON_BASH": "Pancada de Ferro Dupla"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

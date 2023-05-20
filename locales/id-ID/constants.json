@@ -900,7 +900,10 @@
     "CALYREX": "Calyrex",
     "URSALUNA": "Ursaluna",
     "SNEASLER": "Sneasler",
-    "OVERQWIL": "Overqwil"
+    "OVERQWIL": "Overqwil",
+    "KLEAVOR": "Kleavor",
+    "GIMMIGHOUL": "Gimmighoul",
+    "GHOLDENGO": "Gholdengo"
   },
   "moves": {
     "THUNDER_SHOCK_FAST": "Sengatan Listrik",
@@ -1166,6 +1169,9 @@
     "HIGH_HORSEPOWER": "Daya Kuda Besar",
     "FUSION_BOLT": "Guntur Bersilang",
     "FUSION_FLARE": "Api Bersilang",
-    "GLACIATE": "Dunia Beku"
+    "GLACIATE": "Dunia Beku",
+    "BREAKING_SWIPE": "Wide Breaker",
+    "BOOMBURST": "Gelombang Suara Menggelegar",
+    "DOUBLE_IRON_BASH": "Double Iron Bash"
   }
 }

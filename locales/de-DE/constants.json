@@ -2631,7 +2631,10 @@
     "CALYREX": "Coronospa",
     "SNEASLER": "Snieboss",
     "OVERQWIL": "Myriador",
-    "URSALUNA": "Ursaluna"
+    "URSALUNA": "Ursaluna",
+    "KLEAVOR": "Axantor",
+    "GIMMIGHOUL": "Gierspenst",
+    "GHOLDENGO": "Monetigo"
   },
   "moves": {
     "undefined": "Undefiniert",
@@ -2936,7 +2939,10 @@
     "HIGH_HORSEPOWER": "Pferdestärke",
     "FUSION_BOLT": "Kreuzdonner",
     "FUSION_FLARE": "Kreuzflamme",
-    "GLACIATE": "Eiszeit"
+    "GLACIATE": "Eiszeit",
+    "BREAKING_SWIPE": "Breitseite",
+    "BOOMBURST": "Überschallknall",
+    "DOUBLE_IRON_BASH": "Panzerfäuste"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

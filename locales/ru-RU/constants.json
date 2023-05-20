@@ -2372,7 +2372,10 @@
     "CALYREX": "Калирекс",
     "SNEASLER": "Снизлер",
     "OVERQWIL": "Оверквил",
-    "URSALUNA": "Урсалуна"
+    "URSALUNA": "Урсалуна",
+    "KLEAVOR": "Кливор",
+    "GIMMIGHOUL": "Гиммигул",
+    "GHOLDENGO": "Голденго"
   },
   "moves": {
     "ACID_FAST": "Кислота",
@@ -2661,7 +2664,10 @@
     "HIGH_HORSEPOWER": "Лошадиная Сила",
     "FUSION_BOLT": "Термоядерный Разряд",
     "FUSION_FLARE": "Ядерная Вспышка",
-    "GLACIATE": "Замораживание"
+    "GLACIATE": "Замораживание",
+    "BREAKING_SWIPE": "ломающий удар",
+    "BOOMBURST": "Громкий Взрыв",
+    "DOUBLE_IRON_BASH": "Двойной Стальной Таран"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

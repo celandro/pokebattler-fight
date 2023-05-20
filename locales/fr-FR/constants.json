@@ -2502,7 +2502,10 @@
     "CALYREX": "Sylveroy",
     "SNEASLER": "Farfurex",
     "OVERQWIL": "Qwilpik",
-    "URSALUNA": "Ursaking"
+    "URSALUNA": "Ursaking",
+    "KLEAVOR": "Hachécateur",
+    "GIMMIGHOUL": "Mordudor",
+    "GHOLDENGO": "Gromago"
   },
   "moves": {
     "ACID_FAST": "Acide",
@@ -2793,7 +2796,10 @@
     "HIGH_HORSEPOWER": "Cavalerie Lourde",
     "FUSION_BOLT": "Éclair Croix",
     "FUSION_FLARE": "Flamme Croix",
-    "GLACIATE": "Ère Glaciaire"
+    "GLACIATE": "Ère Glaciaire",
+    "BREAKING_SWIPE": "Abattage",
+    "BOOMBURST": "Bang Sonique",
+    "DOUBLE_IRON_BASH": "Écrous d’Poing"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

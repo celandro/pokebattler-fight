@@ -2350,7 +2350,10 @@
     "FUSION_FLARE": "Fusion Flare",
     "BREAKING_SWIPE": "Breaking Swipe",
     "BOOMBURST": "Boomburst",
-    "DOUBLE_IRON_BASH": "Double Iron Bash"
+    "DOUBLE_IRON_BASH": "Double Iron Bash",
+    "MYSTICAL_FIRE": "Mystical Fire",
+    "LIQUIDATION": "Liquidation",
+    "LEAFAGE_FAST": "Leafage"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",

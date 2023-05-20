@@ -900,7 +900,10 @@
     "CALYREX": "Calyrex",
     "SNEASLER": "Sneasler",
     "OVERQWIL": "Overqwil",
-    "URSALUNA": "Ursaluna"
+    "URSALUNA": "Ursaluna",
+    "KLEAVOR": "Kleavor",
+    "GIMMIGHOUL": "Gimmighoul",
+    "GHOLDENGO": "Gholdengo"
   },
   "moves": {
     "THUNDER_SHOCK_FAST": "Gök Gürültüsü Şoku",
@@ -1166,6 +1169,9 @@
     "HIGH_HORSEPOWER": "Yüksek Beygir Gücü",
     "FUSION_BOLT": "Füzyon Yıldırımı",
     "FUSION_FLARE": "Füzyon Alevi",
-    "GLACIATE": "Buzullaşma"
+    "GLACIATE": "Buzullaşma",
+    "BREAKING_SWIPE": "Kıran Vuruş",
+    "BOOMBURST": "Büyük Patlama",
+    "DOUBLE_IRON_BASH": "Çifte Demir Darbe"
   }
 }

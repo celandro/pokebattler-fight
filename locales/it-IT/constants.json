@@ -2439,7 +2439,10 @@
     "CALYREX": "Calyrex",
     "SNEASLER": "Sneasler",
     "OVERQWIL": "Overqwil",
-    "URSALUNA": "Ursaluna"
+    "URSALUNA": "Ursaluna",
+    "KLEAVOR": "Kleavor",
+    "GIMMIGHOUL": "Gimmighoul",
+    "GHOLDENGO": "Gholdengo"
   },
   "moves": {
     "ACID_FAST": "Acido",
@@ -2727,7 +2730,10 @@
     "HIGH_HORSEPOWER": "Forza Equina",
     "FUSION_BOLT": "Incrotuono",
     "FUSION_FLARE": "Incrofiamma",
-    "GLACIATE": "Gelamondo"
+    "GLACIATE": "Gelamondo",
+    "BREAKING_SWIPE": "Vastoimpatto",
+    "BOOMBURST": "Ondaboato",
+    "DOUBLE_IRON_BASH": "Pugni Corazzati"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",
