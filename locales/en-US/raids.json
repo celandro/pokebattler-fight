@@ -217,17 +217,17 @@
             "subtitle": "Ultra Beast Raid",
             "intro": "Ultra Beast raids have been datamined but information is not currently available. They are equivalent to the mega legendary tier in difficulty"
         },
-        "RAID_LEVEL_1_SHADOW_Future": {
+        "RAID_LEVEL_1_SHADOW_FUTURE": {
             "title": "Future Shadow Tier 1",
             "subtitle": "Easy Shadow Raid",
             "intro": "These Shadow Tier 1 raids are not in the game yet. They may appear in the future for special events."
         },
-        "RAID_LEVEL_3_SHADOW_LEGACY": {
+        "RAID_LEVEL_3_SHADOW_FUTURE": {
             "title": "Future Shadow Tier 3",
             "subtitle": "Easy Group Shadow Raid",
             "intro": "These Shadow Tier 3 raids are not in the game yet. They may appear in the future for special events."
         },
-        "RAID_LEVEL_5_SHADOW_LEGACY": {
+        "RAID_LEVEL_5_SHADOW_FUTURE": {
             "title": "Future Shadow Tier 5",
             "subtitle": "Shadow Legendary Raid",
             "intro": "These Shadow Tier 5 raids are not in the game yet. They may appear in the future for special events."
