@@ -55,7 +55,7 @@
         "RAID_LEVEL_5": {
             "title": "Tier 5",
             "subtitle": "Legendary Raid",
-            "intro": "The current legendary raids are the best way to obtain strong pokemon! They are often done with groups of 4-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-3 players."
+            "intro": "The current legendary raids are a great way to obtain strong pokemon! They are often done with groups of 4-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-3 players."
         },
         "RAID_LEVEL_MEGA": {
             "title": "Mega Tier",
@@ -73,6 +73,8 @@
             "intro": "Ultra Beast raids are equivalent to the legendary tier in difficulty"
         },
 
+
+
         "RAID_LEVEL_6": {
             "title": "Tier 6",
             "subtitle": "Legendary Raid - Bonus Hp",
@@ -82,6 +84,21 @@
             "title": "Elite Tier",
             "subtitle": "Elite Raid - Bonus Hp",
             "intro": "These raids have bonus hp and stats compared to Tier 5 raids.   These are in person raids typically done with groups of 6-12 players."
+        },
+        "RAID_LEVEL_1_SHADOW": {
+            "title": "Shadow Tier 1",
+            "subtitle": "Easy Shadow Raid",
+            "intro": "Shadow Tier 1 raids are fairly easy to defeat by yourself. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to collect candy for pokemon that are not common in your area."
+        },
+        "RAID_LEVEL_3_SHADOW": {
+            "title": "Shadow Tier 3",
+            "subtitle": "Easy Group Shadow Raid",
+            "intro": "Shadow Tier 3 raids are targeted at groups of 2 level 30-40 players. They can be soloed by a level 40+ player with a little luck and perfect play with awesome Pokemon."
+        },
+        "RAID_LEVEL_5_SHADOW": {
+            "title": "Shadow Tier 5",
+            "subtitle": "Shadow Legendary Raid",
+            "intro": "Shadow Legendary raids are extremely difficult but are the best way to obtain strong pokemon! They are in person only raids that are often done with groups of 5-10 level 30-50 players. Some intrepid experts have done some of these raids with as few as 2-3 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
@@ -148,6 +165,22 @@
             "subtitle": "Elite Raid - Bonus Hp",
             "intro": "These elite raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
+        "RAID_LEVEL_1_SHADOW_LEGACY": {
+            "title": "Legacy Shadow Tier 1",
+            "subtitle": "Easy Shadow Raid",
+            "intro": "These Shadow Tier 1 raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_3_SHADOW_LEGACY": {
+            "title": "Legacy Shadow Tier 3",
+            "subtitle": "Easy Group Shadow Raid",
+            "intro": "These Shadow Tier 3 raids were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+
+        },
+        "RAID_LEVEL_5_SHADOW_LEGACY": {
+            "title": "Legacy Shadow Tier 5",
+            "subtitle": "Shadow Legendary Raid",
+            "intro": "These Shadow Legendary raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
         "RAID_LEVEL_4_5_FUTURE": {
             "title": "Future Tier 4.5",
             "subtitle": "Easy Legendary Raid",
@@ -182,7 +215,22 @@
         "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
             "title": "Future Ultra Beast Tier",
             "subtitle": "Ultra Beast Raid",
-            "intro": "Ultra Beast raids have been datamined but information is not currently available. Current assumption is they are equivalent to the mega legendary tier in difficulty"
+            "intro": "Ultra Beast raids have been datamined but information is not currently available. They are equivalent to the mega legendary tier in difficulty"
+        },
+        "RAID_LEVEL_1_SHADOW_Future": {
+            "title": "Future Shadow Tier 1",
+            "subtitle": "Easy Shadow Raid",
+            "intro": "These Shadow Tier 1 raids are not in the game yet. They may appear in the future for special events."
+        },
+        "RAID_LEVEL_3_SHADOW_LEGACY": {
+            "title": "Future Shadow Tier 3",
+            "subtitle": "Easy Group Shadow Raid",
+            "intro": "These Shadow Tier 3 raids are not in the game yet. They may appear in the future for special events."
+        },
+        "RAID_LEVEL_5_SHADOW_LEGACY": {
+            "title": "Future Shadow Tier 5",
+            "subtitle": "Shadow Legendary Raid",
+            "intro": "These Shadow Tier 5 raids are not in the game yet. They may appear in the future for special events."
         }
     },
     "custom": {
