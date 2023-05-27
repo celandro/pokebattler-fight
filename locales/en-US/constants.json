@@ -2353,7 +2353,10 @@
     "DOUBLE_IRON_BASH": "Double Iron Bash",
     "MYSTICAL_FIRE": "Mystical Fire",
     "LIQUIDATION": "Liquidation",
-    "LEAFAGE_FAST": "Leafage"
+    "LEAFAGE_FAST": "Leafage",
+    "SHADOW_ENRAGE": "Shadow Enrage",
+    "SHADOW_SUPPRESS": "Shadow Suppress",
+    "SHADOW_PURIFICATION": "Shadow Purification"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
