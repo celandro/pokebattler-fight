@@ -1539,6 +1539,8 @@
     "REGIROCK_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.REGIROCK)",
     "REGICE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.REGICE)",
     "REGISTEEL_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.REGISTEEL)",
+    "LATIAS_S_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LATIAS)",
+    "LATIOS_S_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LATIOS)",
     "LATIAS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LATIAS)",
     "LATIOS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LATIOS)",
     "KYOGRE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KYOGRE)",
