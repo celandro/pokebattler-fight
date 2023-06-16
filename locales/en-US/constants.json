@@ -2069,7 +2069,11 @@
     "TAUROS_PALDEA_COMBAT_FORM": "$t(constants:pokemon.TAUROS) - Paldea Combat",
     "TAUROS_PALDEA_BLAZE_FORM": "$t(constants:pokemon.TAUROS) - Paldea Blaze",
     "TAUROS_PALDEA_AQUA_FORM": "$t(constants:pokemon.TAUROS) - Paldea Aqua",
-    "WOOPER_PALDEA_FORM": "$t(constants:pokemon.WOOPER) - Paldea"
+    "WOOPER_PALDEA_FORM": "$t(constants:pokemon.WOOPER) - Paldea",
+    "GEODUDE_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GEODUDE)",
+    "GRAVELER_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GRAVELER)",
+    "GOLEM_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GOLEM)"
+
   },
   "moves": {
     "undefined": "Undefined",
