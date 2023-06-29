@@ -2042,8 +2042,6 @@
     "NINETALES_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.NINETALES)",
     "GRIMER_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GRIMER)",
     "MUK_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MUK)",
-    "PIKACHU_TSHIRT_01_FORM": "$t(constants:pokemon.PIKACHU)- Tshirt 1",
-    "PIKACHU_TSHIRT_02_FORM": "$t(constants:pokemon.PIKACHU) - Tshirt 2",
     "BEARTIC_WINTER_2020_FORM": "$t(constants:pokemon.BEARTIC) - Winter 2020",
     "OINKOLOGNE_FEMALE_FORM": "$t(constants:pokemon.OINKOLOGNE) - Female",
     "MAUSHOLD_FAMILY_OF_THREE_FORM": "$t(constants:pokemon.MAUSHOLD) - Family of Three",
@@ -2387,10 +2385,14 @@
     "DOUBLE_IRON_BASH": "Double Iron Bash",
     "MYSTICAL_FIRE": "Mystical Fire",
     "LIQUIDATION": "Liquidation",
+    "DRAGON_ASCENT": "Dragon Ascent",
     "LEAFAGE_FAST": "Leafage",
+    "MAGMA_STORM": "Magma Storm",
+
     "SHADOW_ENRAGE": "Shadow Enrage",
     "SHADOW_SUPPRESS": "Shadow Suppress",
     "SHADOW_PURIFICATION": "Shadow Purification"
+
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
