@@ -2070,8 +2070,12 @@
     "WOOPER_PALDEA_FORM": "$t(constants:pokemon.WOOPER) - Paldea",
     "GEODUDE_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GEODUDE)",
     "GRAVELER_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GRAVELER)",
-    "GOLEM_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GOLEM)"
-
+    "GOLEM_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GOLEM)",
+    "PIKACHU_SUMMER_2023_E_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
+    "PIKACHU_FLYING_03_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
+    "PIKACHU_FLYING_04_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
+    "ZYGARDE_COMPLETE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - Complete 10%",
+    "ZYGARDE_COMPLETE_FIFTY_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - Complete 50%"
   },
   "moves": {
     "undefined": "Undefined",
