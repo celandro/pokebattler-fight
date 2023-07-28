@@ -2392,11 +2392,9 @@
     "DRAGON_ASCENT": "Dragon Ascent",
     "LEAFAGE_FAST": "Leafage",
     "MAGMA_STORM": "Magma Storm",
-
     "SHADOW_ENRAGE": "Shadow Enrage",
     "SHADOW_SUPPRESS": "Shadow Suppress",
     "SHADOW_PURIFICATION": "Shadow Purification"
-
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
