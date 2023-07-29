@@ -2372,6 +2372,7 @@
     "OBSTRUCT": "Obstruct",
     "SHADOW_FORCE": "Shadow Force",
     "METEOR_BEAM": "Meteor Beam",
+    "WATER_SHURIKEN_FAST": "Water Shuriken",
     "POLTERGEIST": "Poltergeist",
     "SLAM": "Slam",
     "HEADBUTT": "Headbutt",
@@ -2392,6 +2393,8 @@
     "DRAGON_ASCENT": "Dragon Ascent",
     "LEAFAGE_FAST": "Leafage",
     "MAGMA_STORM": "Magma Storm",
+    "GEOMANCY_FAST": "Geomancy",
+    "OBLIVION_WING": "Oblivion Wing",
     "SHADOW_ENRAGE": "Shadow Enrage",
     "SHADOW_SUPPRESS": "Shadow Suppress",
     "SHADOW_PURIFICATION": "Shadow Purification"
