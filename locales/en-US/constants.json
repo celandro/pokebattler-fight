@@ -2397,7 +2397,12 @@
     "OBLIVION_WING": "Oblivion Wing",
     "SHADOW_ENRAGE": "Shadow Enrage",
     "SHADOW_SUPPRESS": "Shadow Suppress",
-    "SHADOW_PURIFICATION": "Shadow Purification"
+    "SHADOW_PURIFICATION": "Shadow Purification",
+    "SPACIAL_REND": "Special Rend",
+    "NATURES_MADNESS": "Natures Madness",
+    "TRIPLE_AXEL": "Triple Axel",
+    "TRAILBLAZE": "Trailblaze",
+    "SCORCHING_SANDS": "Scorching Sands"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
