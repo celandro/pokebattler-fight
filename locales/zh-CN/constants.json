@@ -2752,7 +2752,14 @@
     "GLACIATE": "冰封世界",
     "BREAKING_SWIPE": "廣域破壞",
     "BOOMBURST": "爆音波",
-    "DOUBLE_IRON_BASH": "鋼拳雙擊"
+    "DOUBLE_IRON_BASH": "鋼拳雙擊",
+    "WATER_SHURIKEN_FAST": "飛水手裡劍",
+    "MYSTICAL_FIRE": "魔法火焰",
+    "LIQUIDATION": "水流裂破",
+    "LEAFAGE_FAST": "樹葉",
+    "MAGMA_STORM": "熔岩風暴",
+    "GEOMANCY_FAST": "大地掌控",
+    "OBLIVION_WING": "死亡之翼"
   },
   "types": {
     "POKEMON_TYPE_NONE": "未知",

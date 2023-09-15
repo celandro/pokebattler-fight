@@ -2733,7 +2733,14 @@
     "GLACIATE": "Gelamondo",
     "BREAKING_SWIPE": "Vastoimpatto",
     "BOOMBURST": "Ondaboato",
-    "DOUBLE_IRON_BASH": "Pugni Corazzati"
+    "DOUBLE_IRON_BASH": "Pugni Corazzati",
+    "WATER_SHURIKEN_FAST": "Acqualame",
+    "MYSTICAL_FIRE": "Magifiamma",
+    "LIQUIDATION": "Idrobreccia",
+    "LEAFAGE_FAST": "Fogliame",
+    "MAGMA_STORM": "Magmaclisma",
+    "GEOMANCY_FAST": "Geocontrollo",
+    "OBLIVION_WING": "Ali del Fato"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",

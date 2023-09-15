@@ -2999,7 +2999,14 @@
     "GLACIATE": "Glaciar",
     "BREAKING_SWIPE": "Golpe Deslizante",
     "BOOMBURST": "Rajada Explosiva",
-    "DOUBLE_IRON_BASH": "Pancada de Ferro Dupla"
+    "DOUBLE_IRON_BASH": "Pancada de Ferro Dupla",
+    "WATER_SHURIKEN_FAST": "Estrela Ninja de Água",
+    "MYSTICAL_FIRE": "Fogo Místico",
+    "LIQUIDATION": "Aquaríete",
+    "LEAFAGE_FAST": "Folhagem",
+    "MAGMA_STORM": "Tempestade de Magma",
+    "GEOMANCY_FAST": "Geomancia",
+    "OBLIVION_WING": "Asa do Esquecimento"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

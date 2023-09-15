@@ -2667,7 +2667,14 @@
     "GLACIATE": "Замораживание",
     "BREAKING_SWIPE": "Разбивающий Удар",
     "BOOMBURST": "Громкий Взрыв",
-    "DOUBLE_IRON_BASH": "Двойной Стальной Таран"
+    "DOUBLE_IRON_BASH": "Двойной Стальной Таран",
+    "WATER_SHURIKEN_FAST": "Водяной Сюрикен",
+    "MYSTICAL_FIRE": "Мистический Огонь",
+    "LIQUIDATION": "Ликвидация",
+    "LEAFAGE_FAST": "Облиствление",
+    "MAGMA_STORM": "Магма-Буря",
+    "GEOMANCY_FAST": "Геомантия",
+    "OBLIVION_WING": "Крылья Забвения"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

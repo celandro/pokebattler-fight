@@ -2942,7 +2942,14 @@
     "GLACIATE": "Eiszeit",
     "BREAKING_SWIPE": "Breitseite",
     "BOOMBURST": "Überschallknall",
-    "DOUBLE_IRON_BASH": "Panzerfäuste"
+    "DOUBLE_IRON_BASH": "Panzerfäuste",
+    "WATER_SHURIKEN_FAST": "Wasser-Shuriken",
+    "MYSTICAL_FIRE": "Magieflamme",
+    "LIQUIDATION": "Aquadurchstoß",
+    "LEAFAGE_FAST": "Blattwerk",
+    "MAGMA_STORM": "Lavasturm",
+    "GEOMANCY_FAST": "Geokontrolle",
+    "OBLIVION_WING": "Unheilsschwingen"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

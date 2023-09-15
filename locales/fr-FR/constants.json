@@ -2799,7 +2799,14 @@
     "GLACIATE": "Ère Glaciaire",
     "BREAKING_SWIPE": "Abattage",
     "BOOMBURST": "Bang Sonique",
-    "DOUBLE_IRON_BASH": "Écrous d’Poing"
+    "DOUBLE_IRON_BASH": "Écrous d’Poing",
+    "WATER_SHURIKEN_FAST": "Sheauriken",
+    "MYSTICAL_FIRE": "Feu Ensorcelé",
+    "LIQUIDATION": "Aqua-Brèche",
+    "LEAFAGE_FAST": "Feuillage",
+    "MAGMA_STORM": "Vortex Magma",
+    "GEOMANCY_FAST": "Géo-Contrôle",
+    "OBLIVION_WING": "Mort-Ailes"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

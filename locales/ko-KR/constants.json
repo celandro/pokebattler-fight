@@ -2803,7 +2803,14 @@
     "GLACIATE": "얼어붙은세계",
     "BREAKING_SWIPE": "와이드브레이커",
     "BOOMBURST": "폭음파",
-    "DOUBLE_IRON_BASH": "더블펀처"
+    "DOUBLE_IRON_BASH": "더블펀처",
+    "WATER_SHURIKEN_FAST": "물수리검",
+    "MYSTICAL_FIRE": "매지컬플레임",
+    "LIQUIDATION": "아쿠아브레이크",
+    "LEAFAGE_FAST": "나뭇잎",
+    "MAGMA_STORM": "마그마스톰",
+    "GEOMANCY_FAST": "지오컨트롤",
+    "OBLIVION_WING": "데스윙"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "노멀",

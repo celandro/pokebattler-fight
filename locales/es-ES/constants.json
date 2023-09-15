@@ -2841,7 +2841,14 @@
     "GLACIATE": "Mundo Gélido",
     "BREAKING_SWIPE": "Vasto Impacto",
     "BOOMBURST": "Estruendo",
-    "DOUBLE_IRON_BASH": "Ferropuño Doble"
+    "DOUBLE_IRON_BASH": "Ferropuño Doble",
+    "WATER_SHURIKEN_FAST": "Shuriken de Agua",
+    "MYSTICAL_FIRE": "Llama Embrujada",
+    "LIQUIDATION": "Hidroariete",
+    "LEAFAGE_FAST": "Follaje",
+    "MAGMA_STORM": "Lluvia Ígnea",
+    "GEOMANCY_FAST": "Geocontrol",
+    "OBLIVION_WING": "Ala Mortífera"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",
