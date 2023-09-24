@@ -267,7 +267,7 @@
     "kickUserPreviewPopup": {
         "title": "Kick Player",
         "questionMessage": "Do you want to kick",
-        "rateMessage": "Please swipe left or right to rate player"
+        "rateMessage": "(Optional) rating"
     },
     "coins": {
         "spendCard": {
