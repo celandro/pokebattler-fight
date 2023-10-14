@@ -305,7 +305,7 @@
             "header": "Warning, Low Priority",
             "headerExtreme": "Extremely Low Priority",
             "line1": "There are {{numHigherKarmaParties}} hosts with higher priority than you.",
-            "line2": "Priority is based on your karma and can be boosted by coins.",
+            "line2": "Priority is based on your karma and can only be boosted by coins.",
             "insufficientCoins": "You do not currently have enough coins to boost your priority. Joining other raids to gain more Karma or hosting on non-raid hours is highly recommended!",
             "scoreBoostTitle": "Spend coins to boost priority",
             "scoreBoostSubTitle": "Higher priority will place you higher in the list of available raids, filling your raid faster.",
