@@ -40,16 +40,16 @@
         "paragraph9": "We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page."
     },
     "privacy": {
-        "title": "Privacy",
+        "title": "Privacy Policy",
         "heading": "Privacy Policy - Human Version",
-        "paragraph1": "Pokebattler Raid App requires 3rd party login information in order to store your Pokemon and settings for cross device use and to facilitate server side simulations. ",
+        "paragraph1": "Pokebattler Raid App requires 3rd party login information in order to store your Pokemon and settings for cross device use and to facilitate server side simulations. Pokebattler uses some 3rd party services to provide login capabilities, track app usage and to monitor for bugs.",
         "paragraph2": "Pokebattler does not connect to Niantic servers in any way. No personal information is retrieved or stored other than an identification number and/or email address which are securely store for login purposes and account troubleshooting. This data is not used for marketing or affiliate purposes in any way. Data such as trainer name and pokebox content is used to support sharing of urls, finding your friends and other site features. If you are concerned about your privacy, consider not entering your trainer name or the names of your Pokemon. Pokebattler does use 3rd party app usage collection services and bug collection (eg. Google Analytics/Stackdriver) to help know where to focus new feature development.",
         "heading2": "Privacy Policy - Legal Version",
         "paragraph3": "Battler Empire, LLC built the Pokebattler website and  Pokebattler Raid Party app as a Freemium, Ad Supported app. This SERVICE is provided by Battler Empire, LLC at no cost and is intended for use as is.",
         "paragraph4": "This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.",
         "paragraph5": "If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.",
         "heading3": "Information Collection and Use",
-        "paragraph6": "For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to Email Address. The information that we request will be retained by us and used as described in this privacy policy.",
+        "paragraph6": "For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to email address, user id, and device id. The information that we request will be retained by us and used as described in this privacy policy.",
         "paragraph7": "The app does use third party services that may collect information used to identify you.",
         "paragraph8": "Link to privacy policy of third party service providers used by the app",
         "heading4": "Log Data",
@@ -61,13 +61,15 @@
         "paragraph12": "We may employ third-party companies and individuals due to the following reasons:",
         "paragraph13": "To facilitate our Service. To provide the Service on our behalf. To perform Service-related services. To assist us in analyzing how our Service is used. We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.",
         "heading7": "Security",
-        "paragraph14": "We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.",
+        "paragraph14": "We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. All data is encrypted in transit and at rest and all endpoints are secured via social login token verification. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.",
         "heading8": "Links to Other Sites",
         "paragraph15": "This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.",
         "heading9": "Children's Policy",
         "paragraph16": "These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.",
         "heading10": "Changes to This Privacy Policy",
-        "paragraph17": "We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page."
+        "paragraph17": "We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.",
+        "heading11": "Data Retention",
+        "paragraph18": "Account data is retained as long as necessary to enable users to return in the future. Accounts may be deleted in the app account section, website account section or via email to admin@pokebattler.com from the registered email account."
     },
     "about": {
         "title": "About Pokebattler",
