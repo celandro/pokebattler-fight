@@ -2504,7 +2504,13 @@
     "NATURES_MADNESS": "Natures Madness",
     "TRIPLE_AXEL": "Triple Axel",
     "TRAILBLAZE": "Trailblaze",
-    "SCORCHING_SANDS": "Scorching Sands"
+    "SCORCHING_SANDS": "Scorching Sands",
+    "ROAR_OF_TIME": "Roar of Time",
+    "BLEAKWIND_STORM": "Bleakwind Storm",
+    "SANDSEAR_STORM": "Sandsear Storm",
+    "WILDBOLT_STORM": "Wildbolt Storm",
+    "SPIRIT_SHACKLE": "Spirit Shackle"
+
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
