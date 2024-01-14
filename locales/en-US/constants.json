@@ -2177,7 +2177,12 @@
     "IRONVALIANT": "Iron Valiant",
     "KORAIDON": "Koraidon",
     "MIRAIDON": "Miraidon",
-    "SNEASEL_HISUIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.SNEASEL)"
+    "PIKACHU_GOTOUR_2024_A2_FORM": "$t(constants:pokemon.Pikachu) - 2024 A",
+    "PIKACHU_GOTOUR_2024_A_02_FORM": "$t(constants:pokemon.Pikachu) - 2024 A 2",
+    "PIKACHU_GOTOUR_2024_B_FORM": "$t(constants:pokemon.Pikachu) - 2024 B",
+    "PIKACHU_GOTOUR_2024_B_02_FORM": "$t(constants:pokemon.Pikachu) - 2024 B 2",
+    "DIALGA_ORIGIN_FORM": "$t(constants:pokemon.DIALGA) - Origin",
+    "PALKIA_ORIGIN_FORM": "$t(constants:pokemon.PALKIA) - Origin"
   },
   "moves": {
     "undefined": "Undefined",
