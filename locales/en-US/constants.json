@@ -2021,6 +2021,7 @@
     "GROWLITHE_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.GROWLITHE)",
     "ARCANINE_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.ARCANINE)",
     "SNEASEL_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.SNEASEL)",
+    "SNEASEL_HISUIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.SNEASEL)",
     "AVALUGG_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.AVALUGG)",
     "ZORUA_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.ZORUA)",
     "ZOROARK_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.ZOROARK)",
