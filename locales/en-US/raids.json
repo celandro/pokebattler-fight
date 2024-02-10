@@ -266,7 +266,8 @@
             "attackers": {
                 "byLevel": "level {{attackerLevel}} attackers",
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
-            }
+            },
+            "numParty": "Party power is extremely complicated to simulate, the results below are estimates. Accurate simulations require the information of every Pokemon in the raid. This is easy to do within the Pokebattler Raid Party app by adding each other as friends in a raid party."
         },
         "related": {
             "title": "Related Counters"
