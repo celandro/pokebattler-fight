@@ -1005,7 +1005,8 @@
     "ROARINGMOON": "Roaring Moon",
     "IRONVALIANT": "Iron Valiant",
     "KORAIDON": "Koraidon",
-    "MIRAIDON": "Miraidon"
+    "MIRAIDON": "Miraidon",
+    "ENAMORUS": "Enamorus"
   },
   "moves": {
     "THUNDER_SHOCK_FAST": "Sengatan Listrik",
@@ -1243,7 +1244,7 @@
     "V_CREATE": "V Generate",
     "LEAF_STORM": "Leaf Storm",
     "TRI_ATTACK": "Tri Attack",
-    "GUST_FAST": "Hembusan Angin",
+    "GUST_FAST": "Embusan Angin",
     "INCINERATE_FAST": "Membakar Habis",
     "FEATHER_DANCE": "Tarian Bulu",
     "FAIRY_WIND_FAST": "Angin Peri",
@@ -1286,6 +1287,10 @@
     "TRIPLE_AXEL": "Triple Axel",
     "TRAILBLAZE": "Perintis",
     "SCORCHING_SANDS": "Daratan Pasir Membara",
-    "ROAR_OF_TIME": "Raungan Waktu"
+    "ROAR_OF_TIME": "Raungan Waktu",
+    "BLEAKWIND_STORM": "Badai Angin Dingin",
+    "SANDSEAR_STORM": "Badai Pasir Membara",
+    "WILDBOLT_STORM": "Badai Halilintar",
+    "SPIRIT_SHACKLE": "Menjahit Bayangan"
   }
 }

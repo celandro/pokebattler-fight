@@ -2639,7 +2639,8 @@
     "ROARINGMOON": "Bramaluna",
     "IRONVALIANT": "Ferropaladín",
     "KORAIDON": "Koraidon",
-    "MIRAIDON": "Miraidon"
+    "MIRAIDON": "Miraidon",
+    "ENAMORUS": "Enamorus"
   },
   "moves": {
     "undefined": "No definido",
@@ -2955,7 +2956,11 @@
     "TRIPLE_AXEL": "Triple Axel",
     "TRAILBLAZE": "Abrecaminos",
     "SCORCHING_SANDS": "Arenas Ardientes",
-    "ROAR_OF_TIME": "Distorsión"
+    "ROAR_OF_TIME": "Distorsión",
+    "BLEAKWIND_STORM": "Vendaval Gélido",
+    "SANDSEAR_STORM": "Simún de Arena",
+    "WILDBOLT_STORM": "Electormenta",
+    "SPIRIT_SHACKLE": "Puntada Sombría"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",
