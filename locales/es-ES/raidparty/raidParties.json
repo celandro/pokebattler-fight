@@ -134,7 +134,7 @@
         }
     },
     "raidPartySummaryCard": {
-        "title": "{{defender}} - {{tier}}",
+        "title": "{{defender}}",
         "subtitle": "{{ownerName}} - #{{id}}"
     },
     "raidPartyHost": {

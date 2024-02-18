@@ -86,7 +86,7 @@
         "globalTime": "{{globalTime}}"
     },
     "raidPartySummaryCard": {
-        "title": "{{tier}} - {{defender}}",
+        "title": "{{defender}}",
         "subtitle": "{{ownerName}}"
     },
     "raidPartyKicked": {
