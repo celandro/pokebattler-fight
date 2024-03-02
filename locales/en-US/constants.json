@@ -2188,7 +2188,11 @@
     "PIKACHU_GOTOUR_2024_B_FORM": "$t(constants:pokemon.PIKACHU) - 2024 B",
     "PIKACHU_GOTOUR_2024_B_02_FORM": "$t(constants:pokemon.PIKACHU) - 2024 B 2",
     "DIALGA_ORIGIN_FORM": "$t(constants:pokemon.DIALGA) - Origin",
-    "PALKIA_ORIGIN_FORM": "$t(constants:pokemon.PALKIA) - Origin"
+    "PALKIA_ORIGIN_FORM": "$t(constants:pokemon.PALKIA) - Origin",
+    "PIKACHU_DOCTOR_FORM": "$t(constants:pokemon.PIKACHU) - Doctor",
+    "PIKACHU_FLYING_04_FORM": "$t(constants:pokemon.PIKACHU) - Flying 4",
+    "PIKACHU_HORIZONS_FORM": "$t(constants:pokemon.PIKACHU) - Horizons",
+    "PIKACHU_TSHIRT_03_FORM": "$t(constants:pokemon.PIKACHU) - Tshirt 3"
   },
   "moves": {
     "undefined": "Undefined",
@@ -2520,7 +2524,12 @@
     "BLEAKWIND_STORM": "Bleakwind Storm",
     "SANDSEAR_STORM": "Sandsear Storm",
     "WILDBOLT_STORM": "Wildbolt Storm",
-    "SPIRIT_SHACKLE": "Spirit Shackle"
+    "SPIRIT_SHACKLE": "Spirit Shackle",
+    "VOLT_TACKLE": "Volt Tackle",
+    "DARKEST_LARIAT": "Darkest Lariat",
+    "PSYWAVE_FAST": "Psywave",
+    "METAL_SOUND_FAST": "Metal Sound",
+    "SAND_ATTACK_FAST": "Sand Attack"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
