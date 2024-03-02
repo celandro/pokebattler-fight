@@ -2607,7 +2607,8 @@
     "ROARINGMOON": "Rugit-Lune",
     "IRONVALIANT": "Garde-de-Fer",
     "KORAIDON": "Koraidon",
-    "MIRAIDON": "Miraidon"
+    "MIRAIDON": "Miraidon",
+    "ENAMORUS": "Amovénus"
   },
   "moves": {
     "ACID_FAST": "Acide",
@@ -2913,7 +2914,11 @@
     "TRIPLE_AXEL": "Triple Axel",
     "TRAILBLAZE": "Désherbaffe",
     "SCORCHING_SANDS": "Sable Ardent",
-    "ROAR_OF_TIME": "Hurle-Temps"
+    "ROAR_OF_TIME": "Hurle-Temps",
+    "BLEAKWIND_STORM": "Typhon Hivernal",
+    "SANDSEAR_STORM": "Typhon Pyrosable",
+    "WILDBOLT_STORM": "Typhon Fulgurant",
+    "SPIRIT_SHACKLE": "Tisse Ombre"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

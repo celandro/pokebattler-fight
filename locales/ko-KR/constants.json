@@ -2601,7 +2601,8 @@
     "ROARINGMOON": "고동치는달",
     "IRONVALIANT": "무쇠무인",
     "KORAIDON": "코라이돈",
-    "MIRAIDON": "미라이돈 "
+    "MIRAIDON": "미라이돈 ",
+    "ENAMORUS": "러브로스"
   },
   "moves": {
     "ACID_FAST": "용해액",
@@ -2917,7 +2918,11 @@
     "TRIPLE_AXEL": "트리플악셀",
     "TRAILBLAZE": "개척하기",
     "SCORCHING_SANDS": "열사의대지",
-    "ROAR_OF_TIME": "시간의포효"
+    "ROAR_OF_TIME": "시간의포효",
+    "BLEAKWIND_STORM": "찬바람폭풍",
+    "SANDSEAR_STORM": "열사의폭풍",
+    "WILDBOLT_STORM": "번개폭풍",
+    "SPIRIT_SHACKLE": "그림자꿰매기"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "노멀",

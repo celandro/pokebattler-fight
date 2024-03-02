@@ -1005,7 +1005,8 @@
     "ROARINGMOON": "จันทรคำรน",
     "IRONVALIANT": "นักรบเหล็ก",
     "KORAIDON": "โคไรดอน",
-    "MIRAIDON": "มิไรดอน"
+    "MIRAIDON": "มิไรดอน",
+    "ENAMORUS": "เลิฟโทลอส"
   },
   "moves": {
     "THUNDER_SHOCK_FAST": "ช็อคไฟฟา",
@@ -1286,6 +1287,10 @@
     "TRIPLE_AXEL": "ทริปเปลแอกเซิล",
     "TRAILBLAZE": "แหวกหญาเปดทาง",
     "SCORCHING_SANDS": "ปฐพีทรายรอน",
-    "ROAR_OF_TIME": "เสียงคำรามแหงหวงเวลา"
+    "ROAR_OF_TIME": "เสียงคำรามแหงหวงเวลา",
+    "BLEAKWIND_STORM": "พายุลมหนาวเหน็บ",
+    "SANDSEAR_STORM": "พายุทรายรอน",
+    "WILDBOLT_STORM": "พายุฟาผา",
+    "SPIRIT_SHACKLE": "เย็บเงา"
   }
 }

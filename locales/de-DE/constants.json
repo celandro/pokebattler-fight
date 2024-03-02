@@ -2736,7 +2736,8 @@
     "ROARINGMOON": "Donnersichel",
     "IRONVALIANT": "Eisenkrieger",
     "KORAIDON": "Koraidon",
-    "MIRAIDON": "Miraidon"
+    "MIRAIDON": "Miraidon",
+    "ENAMORUS": "Cupidos"
   },
   "moves": {
     "undefined": "Undefiniert",
@@ -3056,7 +3057,11 @@
     "TRIPLE_AXEL": "Dreifach-Axel",
     "TRAILBLAZE": "Wegbereiter",
     "SCORCHING_SANDS": "Brandsand",
-    "ROAR_OF_TIME": "Zeitenlärm"
+    "ROAR_OF_TIME": "Zeitenlärm",
+    "BLEAKWIND_STORM": "Polarorkan",
+    "SANDSEAR_STORM": "Wüstenorkan",
+    "WILDBOLT_STORM": "Donnerorkan",
+    "SPIRIT_SHACKLE": "Schattenfessel"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

@@ -1005,7 +1005,8 @@
     "ROARINGMOON": "Kükreyen Hilal",
     "IRONVALIANT": "Demir Savaşçı",
     "KORAIDON": "Koraidon",
-    "MIRAIDON": "Miraidon"
+    "MIRAIDON": "Miraidon",
+    "ENAMORUS": "Enamorus"
   },
   "moves": {
     "THUNDER_SHOCK_FAST": "Gök Gürültüsü Şoku",
@@ -1286,6 +1287,10 @@
     "TRIPLE_AXEL": "Üçlü Axel",
     "TRAILBLAZE": "Çığır Açma",
     "SCORCHING_SANDS": "Kavurucu Kum",
-    "ROAR_OF_TIME": "Zaman Kükremesi"
+    "ROAR_OF_TIME": "Zaman Kükremesi",
+    "BLEAKWIND_STORM": "Ayazlayan Fırtına",
+    "SANDSEAR_STORM": "Yakan Kum Fırtınası",
+    "WILDBOLT_STORM": "Yıldırım Hortumu",
+    "SPIRIT_SHACKLE": "Ruh Kelepçesi"
   }
 }

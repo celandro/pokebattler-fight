@@ -2792,7 +2792,8 @@
     "ROARINGMOON": "Lua Estrondo",
     "IRONVALIANT": "Valentia Férrea",
     "KORAIDON": "Koraidon",
-    "MIRAIDON": "Miraidon"
+    "MIRAIDON": "Miraidon",
+    "ENAMORUS": "Enamorus"
   },
   "moves": {
     "ACID_FAST": "Ácido",
@@ -3113,7 +3114,11 @@
     "TRIPLE_AXEL": "Pinote Triplo",
     "TRAILBLAZE": "Desbravar",
     "SCORCHING_SANDS": "Areias Ardentes",
-    "ROAR_OF_TIME": "Rugido do Tempo"
+    "ROAR_OF_TIME": "Rugido do Tempo",
+    "BLEAKWIND_STORM": "Tempestade Álgida",
+    "SANDSEAR_STORM": "Tempestade Saibrosa",
+    "WILDBOLT_STORM": "Tempestade Chocante",
+    "SPIRIT_SHACKLE": "Manilha Sombria"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

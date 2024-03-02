@@ -2544,7 +2544,8 @@
     "ROARINGMOON": "Lunaruggente",
     "IRONVALIANT": "Eroeferreo",
     "KORAIDON": "Koraidon",
-    "MIRAIDON": "Miraidon"
+    "MIRAIDON": "Miraidon",
+    "ENAMORUS": "Enamorus"
   },
   "moves": {
     "ACID_FAST": "Acido",
@@ -2847,7 +2848,11 @@
     "TRIPLE_AXEL": "Triplo Axel",
     "TRAILBLAZE": "Apripista",
     "SCORCHING_SANDS": "Sabbiardente",
-    "ROAR_OF_TIME": "Fragortempo"
+    "ROAR_OF_TIME": "Fragortempo",
+    "BLEAKWIND_STORM": "Tempesta Boreale",
+    "SANDSEAR_STORM": "Tempesta Ardente",
+    "WILDBOLT_STORM": "Tempesta Tonante",
+    "SPIRIT_SHACKLE": "Cucitura d’Ombra"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",

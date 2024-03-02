@@ -2457,7 +2457,8 @@
     "ROARINGMOON": "トドロクツキ",
     "IRONVALIANT": "テツノブジン",
     "KORAIDON": "コライドン",
-    "MIRAIDON": "ミライドン"
+    "MIRAIDON": "ミライドン",
+    "ENAMORUS": "ラブトロス"
   },
   "moves": {
     "ACID_FAST": "ようかいえき",
@@ -2756,6 +2757,10 @@
     "TRIPLE_AXEL": "トリプルアクセル",
     "TRAILBLAZE": "くさわけ",
     "SCORCHING_SANDS": "ねっさのだいち",
-    "ROAR_OF_TIME": "ときのほうこう"
+    "ROAR_OF_TIME": "ときのほうこう",
+    "BLEAKWIND_STORM": "こがらしあらし",
+    "SANDSEAR_STORM": "ねっさのあらし",
+    "WILDBOLT_STORM": "かみなりあらし",
+    "SPIRIT_SHACKLE": "かげぬい"
   }
 }

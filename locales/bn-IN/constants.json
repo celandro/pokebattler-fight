@@ -1005,7 +1005,8 @@
     "ROARINGMOON": "चाँदरोर",
     "IRONVALIANT": "आइरनयोा",
     "KORAIDON": "कोराईडॉन",
-    "MIRAIDON": "मराईडॉन"
+    "MIRAIDON": "मराईडॉन",
+    "ENAMORUS": "लवटोरॉस"
   },
   "moves": {
     "THUNDER_SHOCK_FAST": "थंडर शॉक",
@@ -1179,7 +1180,7 @@
     "OVERHEAT": "ओवरहीट",
     "BULLET_SEED_FAST": "बुलट सीड",
     "GRASS_KNOT": "ास नॉट",
-    "ENERGY_BALL": "एनजी बॉल",
+    "ENERGY_BALL": "एनिज बॉल",
     "EXTRASENSORY_FAST": "एटासेंसर",
     "FUTURESIGHT": "फ़्यूचर साइट",
     "MIRROR_COAT": "मरर कोट",
@@ -1286,6 +1287,10 @@
     "TRIPLE_AXEL": "Triple Axel",
     "TRAILBLAZE": "Trailblaze",
     "SCORCHING_SANDS": "Scorching Sands",
-    "ROAR_OF_TIME": "रोर ऑफ टाइम"
+    "ROAR_OF_TIME": "रोर ऑफ टाइम",
+    "BLEAKWIND_STORM": "Bleakwind Storm",
+    "SANDSEAR_STORM": "Sandsear Storm",
+    "WILDBOLT_STORM": "Wildbolt Storm",
+    "SPIRIT_SHACKLE": "िपरट शैकल"
   }
 }

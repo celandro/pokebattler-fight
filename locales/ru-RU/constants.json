@@ -2477,7 +2477,8 @@
     "ROARINGMOON": "Ревущий Месяц",
     "IRONVALIANT": "Железный Воин",
     "KORAIDON": "Корайдон",
-    "MIRAIDON": "Мирайдон"
+    "MIRAIDON": "Мирайдон",
+    "ENAMORUS": "Энаморус"
   },
   "moves": {
     "ACID_FAST": "Кислота",
@@ -2781,7 +2782,11 @@
     "TRIPLE_AXEL": "Тройной Аксель",
     "TRAILBLAZE": "Новый Путь",
     "SCORCHING_SANDS": "Раскалённый Песок",
-    "ROAR_OF_TIME": "Рёв Времени"
+    "ROAR_OF_TIME": "Рёв Времени",
+    "BLEAKWIND_STORM": "Ледяная Буря",
+    "SANDSEAR_STORM": "Обжигающая Буря",
+    "WILDBOLT_STORM": "Громовая Буря",
+    "SPIRIT_SHACKLE": "Спиритические Оковы"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

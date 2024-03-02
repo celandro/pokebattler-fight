@@ -2558,7 +2558,8 @@
     "ROARINGMOON": "轟鳴月",
     "IRONVALIANT": "鐵武者",
     "KORAIDON": "故勒頓",
-    "MIRAIDON": "密勒頓"
+    "MIRAIDON": "密勒頓",
+    "ENAMORUS": "眷戀雲"
   },
   "moves": {
     "HYPER_BEAM": "破壞光線",
@@ -2866,7 +2867,11 @@
     "TRIPLE_AXEL": "三旋擊",
     "TRAILBLAZE": "起草",
     "SCORCHING_SANDS": "熱沙大地",
-    "ROAR_OF_TIME": "時光咆哮"
+    "ROAR_OF_TIME": "時光咆哮",
+    "BLEAKWIND_STORM": "枯葉風暴",
+    "SANDSEAR_STORM": "熱沙風暴",
+    "WILDBOLT_STORM": "鳴雷風暴",
+    "SPIRIT_SHACKLE": "縫影"
   },
   "types": {
     "POKEMON_TYPE_NONE": "未知",
