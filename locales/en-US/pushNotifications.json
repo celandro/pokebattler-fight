@@ -99,7 +99,8 @@
     "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
     "username": "Pokebattler Raid Network",
     "title": "{{discordFlag}}**{{defender}}** - {{tier}} ({{discordLanguage}})",
-    "description": "{{remoteSlotsEmoji}} slots open - #{{raidPartyId}}\n\n>>> 1-Click Join using the [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join) or by permanently joining the Discord server.\n",
+    "titleUnknownLanguage": "{{discordFlag}}**{{defender}}** - {{tier}}",
+    "description": "{{remoteSlotsEmoji}} slots open - {{hostName}} ({{hostKarma}}:+1:)\n\n>>> 1-Click Join using the [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join) or by permanently joining the Discord server.\n",
     "descriptionNonDiscord": "{{remoteSlotsEmoji}} slots open - #{{raidPartyId}}\n",
     "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
     "field1": {
