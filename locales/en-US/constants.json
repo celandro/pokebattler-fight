@@ -2077,7 +2077,7 @@
     "GOLEM_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GOLEM)",
     "PIKACHU_SUMMER_2023_E_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
     "PIKACHU_FLYING_03_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
-    "PIKACHU_FLYING_04_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
+    "PIKACHU_FLYING_04_FORM": "$t(constants:pokemon.PIKACHU) - Flying 4",
     "ZYGARDE_COMPLETE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - Complete 10%",
     "ZYGARDE_COMPLETE_FIFTY_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - Complete 50%",
     "SPRIGATITO": "Sprigatito",
@@ -2190,7 +2190,6 @@
     "DIALGA_ORIGIN_FORM": "$t(constants:pokemon.DIALGA) - Origin",
     "PALKIA_ORIGIN_FORM": "$t(constants:pokemon.PALKIA) - Origin",
     "PIKACHU_DOCTOR_FORM": "$t(constants:pokemon.PIKACHU) - Doctor",
-    "PIKACHU_FLYING_04_FORM": "$t(constants:pokemon.PIKACHU) - Flying 4",
     "PIKACHU_HORIZONS_FORM": "$t(constants:pokemon.PIKACHU) - Horizons",
     "PIKACHU_TSHIRT_03_FORM": "$t(constants:pokemon.PIKACHU) - Tshirt 3"
   },

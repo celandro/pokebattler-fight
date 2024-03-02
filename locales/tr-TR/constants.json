@@ -1236,7 +1236,7 @@
     "SACRED_SWORD": "Kutsal Kılıç",
     "FLYING_PRESS": "Uçan Pres",
     "AURA_SPHERE": "Aura Küresi",
-    "PAYBACK": "İntikam",
+    "PAYBACK": "Ödeşme",
     "ROCK_WRECKER": "Kaya Enkazı",
     "AEROBLAST": "Hava Darbesi",
     "TECHNO_BLAST_NORMAL": "Tekno Patlama",
@@ -1291,6 +1291,7 @@
     "BLEAKWIND_STORM": "Ayazlayan Fırtına",
     "SANDSEAR_STORM": "Yakan Kum Fırtınası",
     "WILDBOLT_STORM": "Yıldırım Hortumu",
-    "SPIRIT_SHACKLE": "Ruh Kelepçesi"
+    "SPIRIT_SHACKLE": "Ruh Kelepçesi",
+    "SPACIAL_REND": "Uzamsal Yırtış"
   }
 }

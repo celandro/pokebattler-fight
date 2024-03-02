@@ -2922,7 +2922,8 @@
     "BLEAKWIND_STORM": "찬바람폭풍",
     "SANDSEAR_STORM": "열사의폭풍",
     "WILDBOLT_STORM": "번개폭풍",
-    "SPIRIT_SHACKLE": "그림자꿰매기"
+    "SPIRIT_SHACKLE": "그림자꿰매기",
+    "SPACIAL_REND": "공간절단"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "노멀",

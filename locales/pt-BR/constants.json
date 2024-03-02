@@ -3118,7 +3118,8 @@
     "BLEAKWIND_STORM": "Tempestade Álgida",
     "SANDSEAR_STORM": "Tempestade Saibrosa",
     "WILDBOLT_STORM": "Tempestade Chocante",
-    "SPIRIT_SHACKLE": "Manilha Sombria"
+    "SPIRIT_SHACKLE": "Manilha Sombria",
+    "SPACIAL_REND": "Laceração Espacial"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

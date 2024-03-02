@@ -2871,7 +2871,8 @@
     "BLEAKWIND_STORM": "枯葉風暴",
     "SANDSEAR_STORM": "熱沙風暴",
     "WILDBOLT_STORM": "鳴雷風暴",
-    "SPIRIT_SHACKLE": "縫影"
+    "SPIRIT_SHACKLE": "縫影",
+    "SPACIAL_REND": "亞空裂斬"
   },
   "types": {
     "POKEMON_TYPE_NONE": "未知",

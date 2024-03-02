@@ -1011,7 +1011,7 @@
   "moves": {
     "THUNDER_SHOCK_FAST": "Sengatan Listrik",
     "QUICK_ATTACK_FAST": "Serangan Cepat",
-    "SCRATCH_FAST": "Menggaruk",
+    "SCRATCH_FAST": "Mencakar",
     "EMBER_FAST": "Bara Api",
     "VINE_WHIP_FAST": "Cambuk Jalar",
     "TACKLE_FAST": "Serudukan",
@@ -1031,9 +1031,9 @@
     "VICE_GRIP": "Capitan Keras",
     "FLAME_WHEEL": "Roda Api",
     "MEGAHORN": "Megahorn",
-    "WING_ATTACK_FAST": "Pukulan Sayap",
+    "WING_ATTACK_FAST": "Hantaman Sayap",
     "FLAMETHROWER": "Semburan Api",
-    "SUCKER_PUNCH_FAST": "Pukulan Tiba-tiba",
+    "SUCKER_PUNCH_FAST": "Pukulan Mendadak",
     "DIG": "Menggali",
     "LOW_KICK_FAST": "Tendangan Rendah",
     "CROSS_CHOP": "Tebasan Silang",
@@ -1110,7 +1110,7 @@
     "SIGNAL_BEAM": "Signal Beam",
     "X_SCISSOR": "Gunting-X",
     "FLAME_CHARGE": "Muatan Api",
-    "FLAME_BURST": "Api Meletus",
+    "FLAME_BURST": "Letusan Api",
     "FIRE_BLAST": "Ledakan Api Besar",
     "BRINE": "Air Garam",
     "WATER_PULSE": "Aura Air",
@@ -1165,7 +1165,7 @@
     "AVALANCHE": "Longsoran Salju",
     "BRAVE_BIRD": "Brave Bird",
     "SKY_ATTACK": "Serangan Langit",
-    "SAND_TOMB": "Perangkap Pasir",
+    "SAND_TOMB": "Neraka Pasir",
     "ROCK_BLAST": "Rock Blast",
     "INFESTATION_FAST": "Membayangi",
     "STRUGGLE_BUG_FAST": "Perlawanan Serangga",
@@ -1291,6 +1291,7 @@
     "BLEAKWIND_STORM": "Badai Angin Dingin",
     "SANDSEAR_STORM": "Badai Pasir Membara",
     "WILDBOLT_STORM": "Badai Halilintar",
-    "SPIRIT_SHACKLE": "Menjahit Bayangan"
+    "SPIRIT_SHACKLE": "Menjahit Bayangan",
+    "SPACIAL_REND": "Cabikan Ruang Hiper"
   }
 }

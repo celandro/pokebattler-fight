@@ -2852,7 +2852,8 @@
     "BLEAKWIND_STORM": "Tempesta Boreale",
     "SANDSEAR_STORM": "Tempesta Ardente",
     "WILDBOLT_STORM": "Tempesta Tonante",
-    "SPIRIT_SHACKLE": "Cucitura d’Ombra"
+    "SPIRIT_SHACKLE": "Cucitura d’Ombra",
+    "SPACIAL_REND": "Fendispazio"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",

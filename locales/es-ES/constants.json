@@ -2960,7 +2960,8 @@
     "BLEAKWIND_STORM": "Vendaval Gélido",
     "SANDSEAR_STORM": "Simún de Arena",
     "WILDBOLT_STORM": "Electormenta",
-    "SPIRIT_SHACKLE": "Puntada Sombría"
+    "SPIRIT_SHACKLE": "Puntada Sombría",
+    "SPACIAL_REND": "Corte Vacío"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",

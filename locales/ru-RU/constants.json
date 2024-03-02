@@ -2786,7 +2786,8 @@
     "BLEAKWIND_STORM": "Ледяная Буря",
     "SANDSEAR_STORM": "Обжигающая Буря",
     "WILDBOLT_STORM": "Громовая Буря",
-    "SPIRIT_SHACKLE": "Спиритические Оковы"
+    "SPIRIT_SHACKLE": "Спиритические Оковы",
+    "SPACIAL_REND": "Пространственный Разрыв"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

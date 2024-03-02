@@ -2918,7 +2918,8 @@
     "BLEAKWIND_STORM": "Typhon Hivernal",
     "SANDSEAR_STORM": "Typhon Pyrosable",
     "WILDBOLT_STORM": "Typhon Fulgurant",
-    "SPIRIT_SHACKLE": "Tisse Ombre"
+    "SPIRIT_SHACKLE": "Tisse Ombre",
+    "SPACIAL_REND": "Spatio-Rift"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

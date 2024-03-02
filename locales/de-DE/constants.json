@@ -3061,7 +3061,8 @@
     "BLEAKWIND_STORM": "Polarorkan",
     "SANDSEAR_STORM": "Wüstenorkan",
     "WILDBOLT_STORM": "Donnerorkan",
-    "SPIRIT_SHACKLE": "Schattenfessel"
+    "SPIRIT_SHACKLE": "Schattenfessel",
+    "SPACIAL_REND": "Raumschlag"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",
