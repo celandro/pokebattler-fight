@@ -78,9 +78,6 @@
     "multiParty": {
         "title": "#{{id}} {{defender}}"
     },
-    "createPartyOverlay": {
-        "title": "Criar Grupo de Reide"
-    },
     "remoteReady": "Remoto ✅",
     "title": "Chefes de Reide",
     "finishParty": "Terminar Reide",

@@ -60,5 +60,9 @@
     "result": {
         "title": "#{{id}} {{defender}}"
     },
-    "title": "Raid Party-k"
+    "title": "Raid Party-k",
+    "createRaidForm": {
+        "title": "Hozzon létre raid partit"
+    }
+
 }

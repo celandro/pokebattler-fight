@@ -89,9 +89,6 @@
     "remoteReady": "Remoto",
     "joinPrivate": "Unirse a Grupo Privado",
     "needsFriend": "Solicitud de amistad enviada",
-    "createPartyOverlay": {
-        "title": "Crear equipo de incursión"
-    },
     "raidParties": "$t(raidParties:title)",
     "confirmFriend": "Confirmar amigo"
 }

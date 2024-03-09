@@ -215,5 +215,8 @@
     "raidPartyList": {
         "unavailable": "Grupos de incursão indisponíveis",
         "available": "Raid Parties disponíveis"
+    },
+    "createRaidForm": {
+        "title": "Criar Grupo de Reide"
     }
 }
