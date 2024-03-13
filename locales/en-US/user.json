@@ -130,7 +130,8 @@
                 "begin": "Reprocessing transactions",
                 "complete": "Reprocessing complete",
                 "noneFound": "No prior purchases on this Apple Id"
-            }
+            },
+            "freeTrial": "Your account will be charged after the free trial period ends. You may cancel your subscription before the free trial ends to avoid any charges."
         },
         "paymentRequest": "One Click Subscribe",
         "paymentRequestDescription": "One Click Subscribe is supported on most mobile devices. You can also choose to enter in your information below instead",
