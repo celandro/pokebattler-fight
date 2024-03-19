@@ -259,5 +259,8 @@
             "maximumGain": "Ganancia máxima por incursión: 30 para anfitriones y 6 para invitados",
             "noteText": "No pierdes monedas por recibir un 👎 pero pierdes Karma. El Karma se muestra a otros usuarios y hace del mundo un mejor lugar"
         }
+    },
+    "createRaidForm": {
+        "title": "Crear equipo de incursión"
     }
 }

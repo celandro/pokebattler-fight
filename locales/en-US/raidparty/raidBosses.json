@@ -89,9 +89,6 @@
        "until": "Until",
        "localTime": "LOCAL TIME"
    },
-   "autocomplete": "Choose Custom Raid Boss",
-    "createPartyOverlay": {
-        "title": "Create Raid Party"
-    }
+   "autocomplete": "Choose Custom Raid Boss"
 
 }

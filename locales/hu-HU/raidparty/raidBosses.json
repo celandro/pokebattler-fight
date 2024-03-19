@@ -83,8 +83,5 @@
     "selectWeather": "Válasszon időjárást",
     "actionButtonsDescription": "Szimulálja a raid parti csoportját",
     "createParty": "Hozz létre partit",
-    "ready": "Kész",
-    "createPartyOverlay": {
-        "title": "Hozzon létre raid partit"
-    }
+    "ready": "Kész"
 }

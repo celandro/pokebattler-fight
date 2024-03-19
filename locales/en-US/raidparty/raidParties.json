@@ -14,8 +14,7 @@
             "description5": "",
             "joinDescription": "Raids with chat are supported via discord bot integrations and can be hosted in any Discord that has Nexus or PokeNav configured for the Raid Network.",
             "joinButton": "Join Pokebattler Raid Party Discord",
-            "beConsiderate":"Please be considerate of the servers you are joining and be on your best behavior! Abusive players, disorderly conduct and players who do not coordinate with the raid will be permanently banned from the raid network."
-
+            "beConsiderate": "Please be considerate of the servers you are joining and be on your best behavior! Abusive players, disorderly conduct and players who do not coordinate with the raid will be permanently banned from the raid network."
         },
         "raidPlayer": {
             "title": "Pokebattler Raid Party App Raids",
@@ -46,11 +45,11 @@
             "advanced2": "Default settings have been chosen on your behalf, but click the edit button to configure your raid to your liking.",
             "options": {
                 "weatherCondition": {
-                    "label":"Weather Condition",
+                    "label": "Weather Condition",
                     "description": "If meteors truly are expected, keep the weather at Extreme. Otherwise choose the appropriate weather!"
                 },
                 "quickMove": {
-                    "label":"Quick Move",
+                    "label": "Quick Move",
                     "description": "The quick move of the boss. Honestly you probably will get this wrong if you pick it"
                 },
                 "cinematicMove": {
@@ -69,11 +68,8 @@
                     "label": "Extra Players",
                     "description": "Number of extra players that are joining the raid who are not using the app"
                 }
-
-
             }
         }
-
     },
     "raidPartyRejoinCard": {
         "title": "Rejoin Current Raid",
@@ -133,9 +129,7 @@
         "DONE": {
             "hostDescription": "You have left the party"
         }
-
     },
-
     "raidPartyPlayer": {
         "title": "{{name}}",
         "id": "#{{id}}"
@@ -197,9 +191,6 @@
         "title": "Your Raids",
         "subtitle": "The raids you have hosted or joined are here. Look through your raids to find friends to add in the Pokebattler Raid Network"
     },
-
-
-
     "refresh": "Refresh",
     "highMaxPlayers": {
         "title": "WARNING",
@@ -301,6 +292,7 @@
         "noRaidsForTier": "There are no {{tier}} raids currently available in Pokemon Go."
     },
     "createRaidForm": {
+        "title": "Create Raid Party",
         "priority": {
             "header": "Warning, Low Priority",
             "headerExtreme": "Extremely Low Priority",
@@ -319,6 +311,9 @@
             "line1": "Consider joining instead of hosting"
         },
         "hostParty": "Host Party"
+    },
+    "filterRaidForm": {
+        "title": "Filter Raid Parties",
+        "apply": "Apply"
     }
-
 }
