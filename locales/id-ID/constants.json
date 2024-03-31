@@ -1292,6 +1292,11 @@
     "SANDSEAR_STORM": "Badai Pasir Membara",
     "WILDBOLT_STORM": "Badai Halilintar",
     "SPIRIT_SHACKLE": "Menjahit Bayangan",
-    "SPACIAL_REND": "Cabikan Ruang Hiper"
+    "SPACIAL_REND": "Cabikan Ruang Hiper",
+    "VOLT_TACKLE": "Volt Tackle",
+    "DARKEST_LARIAT": "Lariat Kegelapan",
+    "PSYWAVE_FAST": "Gelombang Psikokinesis",
+    "METAL_SOUND_FAST": "Suara Logam",
+    "SAND_ATTACK_FAST": "Semprotan Pasir"
   }
 }

@@ -3062,7 +3062,12 @@
     "SANDSEAR_STORM": "Wüstenorkan",
     "WILDBOLT_STORM": "Donnerorkan",
     "SPIRIT_SHACKLE": "Schattenfessel",
-    "SPACIAL_REND": "Raumschlag"
+    "SPACIAL_REND": "Raumschlag",
+    "VOLT_TACKLE": "Volttackle",
+    "DARKEST_LARIAT": "Dark Lariat",
+    "PSYWAVE_FAST": "Psywelle",
+    "METAL_SOUND_FAST": "Metallsound",
+    "SAND_ATTACK_FAST": "Sandwirbel"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

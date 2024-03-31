@@ -3119,7 +3119,12 @@
     "SANDSEAR_STORM": "Tempestade Saibrosa",
     "WILDBOLT_STORM": "Tempestade Chocante",
     "SPIRIT_SHACKLE": "Manilha Sombria",
-    "SPACIAL_REND": "Laceração Espacial"
+    "SPACIAL_REND": "Laceração Espacial",
+    "VOLT_TACKLE": "Investida Trovão",
+    "DARKEST_LARIAT": "Lariat Escuro",
+    "PSYWAVE_FAST": "Onda Psíquica",
+    "METAL_SOUND_FAST": "Som de Metal",
+    "SAND_ATTACK_FAST": "Ataque de Areia"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

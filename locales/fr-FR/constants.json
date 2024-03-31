@@ -2919,7 +2919,12 @@
     "SANDSEAR_STORM": "Typhon Pyrosable",
     "WILDBOLT_STORM": "Typhon Fulgurant",
     "SPIRIT_SHACKLE": "Tisse Ombre",
-    "SPACIAL_REND": "Spatio-Rift"
+    "SPACIAL_REND": "Spatio-Rift",
+    "VOLT_TACKLE": "Électacle",
+    "DARKEST_LARIAT": "Dark Lariat",
+    "PSYWAVE_FAST": "Vague Psy",
+    "METAL_SOUND_FAST": "Strido-Son",
+    "SAND_ATTACK_FAST": "Jet de Sable"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

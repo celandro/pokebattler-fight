@@ -2534,7 +2534,7 @@
     "PSYWAVE_FAST": "Psywave",
     "METAL_SOUND_FAST": "Metal Sound",
     "SAND_ATTACK_FAST": "Sand Attack",
-    "PARTY_POWER":  "Party Power"
+    "PARTY_POWER": "Party Power"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",

@@ -1292,6 +1292,11 @@
     "SANDSEAR_STORM": "พายุทรายรอน",
     "WILDBOLT_STORM": "พายุฟาผา",
     "SPIRIT_SHACKLE": "เย็บเงา",
-    "SPACIAL_REND": "ผามิติ"
+    "SPACIAL_REND": "ผามิติ",
+    "VOLT_TACKLE": "โวลตแท็กเกิล",
+    "DARKEST_LARIAT": "ดีดีแลเรียท",
+    "PSYWAVE_FAST": "คลื่นพลังจิต",
+    "METAL_SOUND_FAST": "เสียงโลหะ",
+    "SAND_ATTACK_FAST": "สาดทราย"
   }
 }

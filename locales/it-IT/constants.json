@@ -2853,7 +2853,12 @@
     "SANDSEAR_STORM": "Tempesta Ardente",
     "WILDBOLT_STORM": "Tempesta Tonante",
     "SPIRIT_SHACKLE": "Cucitura d’Ombra",
-    "SPACIAL_REND": "Fendispazio"
+    "SPACIAL_REND": "Fendispazio",
+    "VOLT_TACKLE": "Locomovolt",
+    "DARKEST_LARIAT": "Braccioteso",
+    "PSYWAVE_FAST": "Psiconda",
+    "METAL_SOUND_FAST": "Ferrostrido",
+    "SAND_ATTACK_FAST": "Turbosabbia"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",

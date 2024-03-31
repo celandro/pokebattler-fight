@@ -2787,7 +2787,12 @@
     "SANDSEAR_STORM": "Обжигающая Буря",
     "WILDBOLT_STORM": "Громовая Буря",
     "SPIRIT_SHACKLE": "Спиритические Оковы",
-    "SPACIAL_REND": "Пространственный Разрыв"
+    "SPACIAL_REND": "Пространственный Разрыв",
+    "VOLT_TACKLE": "Вольт-Бросок",
+    "DARKEST_LARIAT": "Тёмное Лассо",
+    "PSYWAVE_FAST": "Психоволны",
+    "METAL_SOUND_FAST": "Металлический Звук",
+    "SAND_ATTACK_FAST": "Песчаная Атака"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

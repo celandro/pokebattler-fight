@@ -2961,7 +2961,12 @@
     "SANDSEAR_STORM": "Simún de Arena",
     "WILDBOLT_STORM": "Electormenta",
     "SPIRIT_SHACKLE": "Puntada Sombría",
-    "SPACIAL_REND": "Corte Vacío"
+    "SPACIAL_REND": "Corte Vacío",
+    "VOLT_TACKLE": "Placaje Eléctrico",
+    "DARKEST_LARIAT": "Lariat Oscuro",
+    "PSYWAVE_FAST": "Psicoonda",
+    "METAL_SOUND_FAST": "Eco Metálico",
+    "SAND_ATTACK_FAST": "Ataque Arena"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",
