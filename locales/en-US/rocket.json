@@ -243,6 +243,11 @@
             "subtitle": "Team GO Rocket",
             "intro": "Wherever there is light, there is also shadow."
         },
+        "CHARACTER_STEEL_GRUNT_MALE": {
+            "title": "Steel Grunt ♂",
+            "subtitle": "Team GO Rocket",
+            "intro": "You’re no match for my iron will!"
+        },
         "CHARACTER_GRUNT_MALE": {
             "title": "Starter Grunt",
             "subtitle": "Team GO Rocket",

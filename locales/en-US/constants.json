@@ -2191,7 +2191,12 @@
     "PALKIA_ORIGIN_FORM": "$t(constants:pokemon.PALKIA) - Origin",
     "PIKACHU_DOCTOR_FORM": "$t(constants:pokemon.PIKACHU) - Doctor",
     "PIKACHU_HORIZONS_FORM": "$t(constants:pokemon.PIKACHU) - Horizons",
-    "PIKACHU_TSHIRT_03_FORM": "$t(constants:pokemon.PIKACHU) - Tshirt 3"
+    "PIKACHU_TSHIRT_03_FORM": "$t(constants:pokemon.PIKACHU) - Tshirt 3",
+    "PERSIAN_ALOLA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.PERSIAN)",
+    "ARCANINE_HISUIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.ARCANINE)",
+    "WYRDEER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WYRDEER)",
+    "KLEAVOR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KLEAVOR)",
+    "FARIGIRAF_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FARIGIRAF)"
   },
   "moves": {
     "undefined": "Undefined",
