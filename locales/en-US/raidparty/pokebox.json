@@ -28,6 +28,7 @@
     "beginImport": "Begin Import",
     "paste": "Paste",
     "errors": {
+      "parse": "Pasted data was not a supported format. Please make sure to include a header row.",
       "pokemonId":"$t(common:pokemon) is not valid.",
       "quickMove":"$t(pokeform.quickMove.label) is not valid.",
       "cinematicMove":"$t(pokeform.cinematicMove.label) is not valid.",
