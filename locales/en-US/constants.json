@@ -2196,7 +2196,8 @@
     "ARCANINE_HISUIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.ARCANINE)",
     "WYRDEER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WYRDEER)",
     "KLEAVOR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KLEAVOR)",
-    "FARIGIRAF_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FARIGIRAF)"
+    "FARIGIRAF_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FARIGIRAF)",
+    "DARMANITAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DARMANITAN)"
   },
   "moves": {
     "undefined": "Undefined",
