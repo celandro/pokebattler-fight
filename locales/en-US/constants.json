@@ -2535,6 +2535,8 @@
     "PSYWAVE_FAST": "Psywave",
     "METAL_SOUND_FAST": "Metal Sound",
     "SAND_ATTACK_FAST": "Sand Attack",
+    "SUNSTEEL_STRIKE": "Sunsteel Strike",
+    "MOONGEIST_BEAM": "Moongeist Beam",
     "PARTY_POWER": "Party Power"
   },
   "types": {
