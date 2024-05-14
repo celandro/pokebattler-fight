@@ -2536,6 +2536,8 @@
     "METAL_SOUND_FAST": "Metal Sound",
     "SAND_ATTACK_FAST": "Sand Attack",
     "HIGH_JUMP_KICK": "High Jump Kick",
+    "SUNSTEEL_STRIKE": "Sunsteel Strike",
+    "MOONGEIST_BEAM": "Moongeist Beam",
     "PARTY_POWER": "Party Power"
   },
   "types": {
