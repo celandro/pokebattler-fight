@@ -59,6 +59,8 @@
     "id": "Id",
     "seconds": "Seconds",
     "find": "Find",
+    "weakness": "Weakness",
+    "difficulty":  "Difficulty",
     "version": "Version {{version}}",
     "rejoin": {
         "label": "Rejoin Time",

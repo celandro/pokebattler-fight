@@ -87,7 +87,7 @@
    "breakingNews": {
        "from": "From",
        "until": "Until",
-       "localTime": "LOCAL TIME"
+       "localTime": "Local Time"
    },
    "autocomplete": "Choose Custom Raid Boss"
 

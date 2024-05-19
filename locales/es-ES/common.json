@@ -353,5 +353,7 @@
         "description": "La cantidad de megas adicionales provistas por otros jugadores. Las megas serán escalonadas para incrementar el tiempo de vida del incremento por mega."
     },
     "friendCode": "Código de amigo",
-    "choosePokemonLabel": "Elige Pokémon"
+    "choosePokemonLabel": "Elige Pokémon",
+    "weakness": "Debilidad",
+    "difficulty":  "Dificultad"
 }

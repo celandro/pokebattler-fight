@@ -357,5 +357,7 @@
         "description": "O número de Megas adicionais trazidos por outros jogadores. Os Megas serão atordoados para aumentar o tempo do mega buff."
     },
     "friendCode": "Código de Amizade",
-    "choosePokemonLabel": "Escolher Pokémon"
+    "choosePokemonLabel": "Escolher Pokémon",
+    "weakness": "Fraqueza",
+    "difficulty":  "Dificuldade"
 }
