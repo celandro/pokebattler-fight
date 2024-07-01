@@ -2197,7 +2197,12 @@
     "WYRDEER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WYRDEER)",
     "KLEAVOR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KLEAVOR)",
     "FARIGIRAF_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FARIGIRAF)",
-    "DARMANITAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DARMANITAN)"
+    "DARMANITAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DARMANITAN)",
+    "EEVEE_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 S Tiara",
+    "EEVEE_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 S Scarf",
+    "PIKACHU_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 S Tiara",
+    "PIKACHU_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 S Scarf",
+    "UMBREON_GOFEST_2024_MSCARF_FORM": "$t(constants:pokemon.UMBREON) - Gofest 2024 M Scarf"
   },
   "moves": {
     "undefined": "Undefined",
