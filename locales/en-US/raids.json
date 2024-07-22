@@ -27,9 +27,24 @@
             "boss": "Boss",
             "raidTier": "Raid Tier"
         },
+        "RAID_LEVEL_NEWS": {
+            "title": "News",
+            "subtitle": "Scheduled Raids",
+            "intro": "Currently scheduled Pokemon Go raids."
+        },
+        "RAID_LEVEL_GROUP": {
+            "title": "Group",
+            "subtitle": "Multi-person raids",
+            "intro": "Difficult Pokemon Go raids, designed for 2 or more players."
+        },
+        "RAID_LEVEL_SOLO": {
+            "title": "Solo",
+            "subtitle": "Single-person raids",
+            "intro": "Easy Pokemon Go raids, designed to be defeated by a single player."
+        },
         "RAID_LEVEL_1": {
             "title": "Tier 1",
-            "subtitle": "Easy Solo Raid",
+            "subtitle": "Solo Raid",
             "intro": "Tier 1 raids are quite easy to defeat by yourself. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to collect candy for pokemon that are not common in your area."
         },
         "RAID_LEVEL_2": {
@@ -39,7 +54,7 @@
         },
         "RAID_LEVEL_3": {
             "title": "Tier 3",
-            "subtitle": "Easy Group Raid",
+            "subtitle": "Group Raid",
             "intro": "Tier 3 raids are targeted at groups of 2 level 30-40 players. They can be soloed by a level 40 player with a little luck and perfect play with awesome Pokemon."
         },
         "RAID_LEVEL_4": {
