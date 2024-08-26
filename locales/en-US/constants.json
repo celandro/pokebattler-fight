@@ -2198,11 +2198,14 @@
     "KLEAVOR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KLEAVOR)",
     "FARIGIRAF_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FARIGIRAF)",
     "DARMANITAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DARMANITAN)",
+    "EEVEE_GOFEST_2024_MTIARA_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 M Tiara",
     "EEVEE_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 S Tiara",
     "EEVEE_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 S Scarf",
+    "PIKACHU_GOFEST_2024_MTIARA_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 M Tiara",
     "PIKACHU_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 S Tiara",
     "PIKACHU_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 S Scarf",
-    "UMBREON_GOFEST_2024_MSCARF_FORM": "$t(constants:pokemon.UMBREON) - Gofest 2024 M Scarf"
+    "UMBREON_GOFEST_2024_MSCARF_FORM": "$t(constants:pokemon.UMBREON) - Gofest 2024 M Scarf",
+    "ESPEON_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.ESPEON) - Gofest 2024 S Scarf"
   },
   "moves": {
     "undefined": "Undefined",
@@ -2385,6 +2388,8 @@
     "WILD_CHARGE": "Wild Charge",
     "WING_ATTACK_FAST": "Wing Attack",
     "WRAP": "Wrap",
+    "WRAP_GREEN": "Wrap - Green",
+    "WRAP_PINK": "Wrap - Pink",
     "X_SCISSOR": "X-Scissor",
     "YAWN_FAST": "Yawn",
     "ZAP_CANNON": "Zap Cannon",
@@ -2544,6 +2549,9 @@
     "SUNSTEEL_STRIKE": "Sunsteel Strike",
     "MOONGEIST_BEAM": "Moongeist Beam",
     "FORCE_PALM_FAST": "Force Palm",
+    "HYDRO_PUMP_BLASTOISE": "$t(constants:pokemon.HYDRO_PUMP) - $t(constants:pokemon.BLASTOISE)",
+    "SCALD_BLASTOISE": "$t(constants:pokemon.SCALD) - $t(constants:pokemon.BLASTOISE)",
+    "WATER_GUN_FAST_BLASTOISE": "$t(constants:pokemon.WATER_GUN_FAST) - $t(constants:pokemon.BLASTOISE)",
     "PARTY_POWER": "Party Power"
   },
   "types": {
