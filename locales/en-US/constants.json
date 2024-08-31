@@ -2549,6 +2549,7 @@
     "SUNSTEEL_STRIKE": "Sunsteel Strike",
     "MOONGEIST_BEAM": "Moongeist Beam",
     "FORCE_PALM_FAST": "Force Palm",
+    "SPARKLING_ARIA": "Sparkling Aria",
     "HYDRO_PUMP_BLASTOISE": "$t(constants:pokemon.HYDRO_PUMP) - $t(constants:pokemon.BLASTOISE)",
     "SCALD_BLASTOISE": "$t(constants:pokemon.SCALD) - $t(constants:pokemon.BLASTOISE)",
     "WATER_GUN_FAST_BLASTOISE": "$t(constants:pokemon.WATER_GUN_FAST) - $t(constants:pokemon.BLASTOISE)",
