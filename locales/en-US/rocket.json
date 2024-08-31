@@ -1,103 +1,104 @@
 {
-    "title": "Team Rocket Counters",
+    "title": "Team GO Rocket Counters",
     "meta": {
-        "description": "Find Pokemon Go Team Rocket counters. Get the 30 best counters with the world's #1 custom Team Rocket counter guide.",
+        "description": "Find Pokemon Go Team GO Rocket counters. Get the 30 best counters with the world's #1 custom Team GO Rocket counter guide.",
         "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
-    "linkLabel": "Team Rocket Counters",
-    "intro": "Team Rocket has invaded Pokemon Go and Pokebattler is here to help you fight them off! Battles are 3v3 with you facing your 3 Pokemon off against Team Rocket's boosted Pokemon. These battles can be extremely challenging so make sure you prepare before you challenge them!",
+    "linkLabel": "Team GO Rocket Counters",
+    "intro": "Team GO Rocket has invaded Pokemon Go and Pokebattler is here to help you fight them off! Battles are 3v3 with you facing your 3 Pokemon off against Team GO Rocket's boosted Pokemon. These battles can be extremely challenging so make sure you prepare before you challenge them!",
     "breakingNews": {
         "title": "Breaking News",
-        "subtitle": "Team Rocket Invasions In Pokemon Go",
-        "header": "$t(constants:pokemon.{{pokemonId}}) Rocket Counters"
+        "subtitle": "Team GO Rocket Invasions In Pokemon Go",
+        "header": "$t(constants:pokemon.{{pokemonId}}) GO Rocket Counters"
     },
     "articles": {
-        "title": "Latest Team Rocket News!",
-        "subtitle": "Articles and Videos About Team Rocket From Top Players And Researchers"
+        "title": "Latest Team GO Rocket News!",
+        "subtitle": "Articles and Videos About Team GO Rocket From Top Players And Researchers"
     },
     "note": {
-        "default": "Team Rocket Grunts are not very difficult as they do not shield. Team Rocket Executives and Giovanni have higher stats and will shield the first two specials used. Resisting the quick attack and using Pokemon that can force the shadow Pokemon to use their shields is the best way to beat these tough foes!",
-        "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team Rocket Pokemon but player level is a factor. Team Rocket Pokemon are no longer as powerful as they once were, make sure to check your custom counters again"
+        "default": "Team GO Rocket Grunts are not very difficult as they do not shield. Team GO Rocket Executives and Giovanni have higher stats and will shield the first two specials used. Resisting the quick attack and using Pokemon that can force the shadow Pokemon to use their shields is the best way to beat these tough foes!",
+        "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team GO Rocket Pokemon but player level is a factor. Team GO Rocket Pokemon are no longer as powerful as they once were, make sure to check your custom counters again"
     },
     "tierList": {
+        "rocketTier": "GO Rocket Tier",
         "common": {
             "boss": "Shadow Invasion",
             "raidTier": "Shadow Tier"
         },
         "RAID_LEVEL_1": {
-            "title": "Rocket Tier 1",
+            "title": "GO Rocket Tier 1",
             "subtitle": "Common Shadow Battles",
-            "intro": "Rocket Tier 1 battles are easier and should be beatable by anyone using appropriate counters. These battles are against boosted level 27 Pokemon for level 40 players. Lower level players will face easier Pokemon"
+            "intro": "GO Rocket Tier 1 battles are easier and should be beatable by anyone using appropriate counters. These battles are against boosted level 27 Pokemon for level 40 players. Lower level players will face easier Pokemon"
         },
         "RAID_LEVEL_1_FUTURE": {
-            "title": "Future Rocket Tier 1",
+            "title": "Future GO Rocket Tier 1",
             "subtitle": "Common Shadow Battles",
-            "intro": "Our best guess of future Tier 1 Team Rocket Invasions"
+            "intro": "Our best guess of future Tier 1 Team GO Rocket Invasions"
         },
         "RAID_LEVEL_2": {
-            "title": "Rocket Tier 2",
+            "title": "GO Rocket Tier 2",
             "subtitle": "Rare Shadow Battles",
-            "intro": "Rocket Tier 2 battles are difficult but should be beatable by anyone using powered up appropriate counters. These battles are against boosted level 30 Pokemon for level 40 players. Lower level players will face easier Pokemon"
+            "intro": "GO Rocket Tier 2 battles are difficult but should be beatable by anyone using powered up appropriate counters. These battles are against boosted level 30 Pokemon for level 40 players. Lower level players will face easier Pokemon"
         },
         "RAID_LEVEL_2_FUTURE": {
-            "title": "Future Rocket Tier 2",
+            "title": "Future GO Rocket Tier 2",
             "subtitle": "Rare Shadow Battles",
-            "intro": "Our best guess of future Tier 2 Team Rocket Invasions"
+            "intro": "Our best guess of future Tier 2 Team GO Rocket Invasions"
         },
         "RAID_LEVEL_3": {
-            "title": "Rocket Tier 3",
+            "title": "GO Rocket Tier 3",
             "subtitle": "Legendary Shadow Battles",
-            "intro": "Rocket Tier 3 battles do not currently exist"
+            "intro": "GO Rocket Tier 3 battles do not currently exist"
         },
         "RAID_LEVEL_4": {
-            "title": "Rocket Tier 4",
+            "title": "GO Rocket Tier 4",
             "subtitle": "Hard Legendary Shadow Battles",
-            "intro": "Rocket Tier 4 battles do not currently exist"
+            "intro": "GO Rocket Tier 4 battles do not currently exist"
         },
         "RAID_LEVEL_5": {
-            "title": "Rocket Tier 5",
+            "title": "GO Rocket Tier 5",
             "subtitle": "Mythical Shadow Battles",
-            "intro": "Rocket Tier 5 battles do not currently exist"
+            "intro": "GO Rocket Tier 5 battles do not currently exist"
         },
         "RAID_LEVEL_6": {
-            "title": "Rocket Tier 3",
+            "title": "GO Rocket Tier 3",
             "subtitle": "Hard Mythical Shadow Battles",
-            "intro": "Rocket Tier 3 battles do not currently exist"
+            "intro": "GO Rocket Tier 3 battles do not currently exist"
         },
         "RAID_LEVEL_UNSET": {
-            "title": "Rocket Tier ?",
+            "title": "GO Rocket Tier ?",
             "subtitle": "Unknown Shadow Battles",
-            "intro": "These Shadow Pokemon will be parts of future Team Rocket invastions. Use this if a new invasion has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Shadow Squirtle Team Rocket invasion too!"
+            "intro": "These Shadow Pokemon will be parts of future Team GO Rocket invastions. Use this if a new invasion has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Shadow Squirtle Team GO Rocket invasion too!"
         },
         "RAID_LEVEL_1_LEGACY": {
-            "title": "Legacy Rocket Tier 1",
+            "title": "Legacy GO Rocket Tier 1",
             "subtitle": "Common Shadow Battles",
-            "intro": "These battles are not currently in the team rocket rotations."
+            "intro": "These battles are not currently in the team GO Rocket rotations."
         },
         "RAID_LEVEL_2_LEGACY": {
-            "title": "Legacy Rocket Tier 2",
+            "title": "Legacy GO Rocket Tier 2",
             "subtitle": "Rare Shadow Battles",
-            "intro": "These battles are not currently in the team rocket rotations."
+            "intro": "These battles are not currently in the team GO Rocket rotations."
         },
         "RAID_LEVEL_3_LEGACY": {
-            "title": "Legacy Rocket Tier 3",
+            "title": "Legacy GO Rocket Tier 3",
             "subtitle": "Legendary Shadow Battles",
-            "intro": "These battles are not currently in the team rocket rotations."
+            "intro": "These battles are not currently in the team GO Rocket rotations."
         },
         "RAID_LEVEL_4_LEGACY": {
-            "title": "Legacy Rocket Tier 4",
+            "title": "Legacy GO Rocket Tier 4",
             "subtitle": "Hard Legendary Shadow Battles",
-            "intro": "These battles are not currently in the team rocket rotations."
+            "intro": "These battles are not currently in the team GO Rocket rotations."
         },
         "RAID_LEVEL_5_LEGACY": {
-            "title": "Legacy Rocket Tier 5",
+            "title": "Legacy GO Rocket Tier 5",
             "subtitle": "Mythical Shadow Battles",
-            "intro": "These battles are not currently in the team rocket rotations"
+            "intro": "These battles are not currently in the team GO Rocket rotations"
         },
         "RAID_LEVEL_6_LEGACY": {
             "title": "Legacy Tier 6",
             "subtitle": "Hard Mythical Shadow Battles",
-            "intro": "These battles are not currently in the team rocket rotations"
+            "intro": "These battles are not currently in the team GO Rocket rotations"
         },
         "CHARACTER_EXECUTIVE_CLIFF": {
             "title": "Executive Cliff",
@@ -282,15 +283,15 @@
         }
     },
     "executives": {
-        "title": "Team Rocket Leaders",
-        "description": "Team Rocket leaders feature more difficult fights including shielding! Make sure you are prepared for all Team Rocket has in store for you!"
+        "title": "Team GO Rocket Leaders",
+        "description": "Team GO Rocket leaders feature more difficult fights including shielding! Make sure you are prepared for all Team GO Rocket has in store for you!"
     },
     "grunts": {
-        "title": "Team Rocket Grunts",
-        "description": "Team Rocket grunts are easier fights with no shields."
+        "title": "Team GO Rocket Grunts",
+        "description": "Team GO Rocket grunts are easier fights with no shields."
     },
     "custom": {
-        "title": "Custom Team Rocket Counters",
+        "title": "Custom Team GO Rocket Counters",
         "levelsLabel": "Attacker Levels",
         "buttonLabel": "Find best counters",
         "attackersLabel": "Attackers"
@@ -298,33 +299,33 @@
     "results": {
         "title": "{{defender}} Counters",
         "meta": {
-            "description": "The best Team Rocket {{defender}} Counters with configurable levels and shielding",
+            "description": "The best Team GO Rocket {{defender}} Counters with configurable levels and shielding",
             "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
         },
-        "calculating": "Analyzing Team Rocket Defenses",
+        "calculating": "Analyzing Team GO Rocket Defenses",
         "counters": {
             "title": "counters",
             "subtitle": "Best Attackers by",
             "description": "The following analysis shows the Pokemon that are the strongest counters in terms of {{sort}} against {{pokemon}}.",
             "moveSetOrderingDescription": "The move sets are ordered from hardest to battle against to the easiest, make sure to check multiple, the results can vary greatly!",
-            "difficultyNote": "Team Rocket Invasion Shadow Pokemon are much harder than a normal battle, you should consider carefully your options.",
+            "difficultyNote": "Team GO Rocket Invasion Shadow Pokemon are much harder than a normal battle, you should consider carefully your options.",
             "chooseMovesetLabel": "Choose Moveset"
         },
         "hardestMovesets": {
             "title": "Most Difficult Battles",
             "subtitle": "For {{pokemon}} by {{sort}}",
             "tableTitle": "Hardest movesets to battle against",
-            "description": "Team Rocket Battle difficulty can vary greatly based on the moveset of the defending pokemon!"
+            "description": "Team GO Rocket Battle difficulty can vary greatly based on the moveset of the defending pokemon!"
         },
         "analysis": {
             "title": "About This Analysis",
-            "description": "This Team Rocket Battle analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with a Team Rocket Invasion simulator. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here. ",
+            "description": "This Team GO Rocket Battle analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with a Team GO Rocket Invasion simulator. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here. ",
             "attackers": {
                 "byLevel": "level {{attackerLevel}} attackers",
                 "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
             }
         },
-        "description": "Welcome to the Pokebattler Team Rocket counters guide for {{pokemon}}. You can find the best counters based on the moveset of each shadow Pokemon. This guide is customizable in several different ways. You can log in and enter your Pokemon into your Pokebox for the highest accuracy result as view these general results using various sort options.",
+        "description": "Welcome to the Pokebattler Team GO Rocket counters guide for {{pokemon}}. You can find the best counters based on the moveset of each shadow Pokemon. This guide is customizable in several different ways. You can log in and enter your Pokemon into your Pokebox for the highest accuracy result as view these general results using various sort options.",
         "patreon": {
             "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
             "link": "See all the benefits you get for signing up",
