@@ -2845,15 +2845,33 @@
       }
     },
     "max": {
-      "MAX_POWER_1" = "${}";
-      MAX_HEAL_1 = 1;
-      MAX_SHIELD_1 = 2;
-      MAX_POWER_2 = 3;
-      MAX_HEAL_2 = 4;
-      MAX_SHIELD_2 = 5;
-      MAX_POWER_3 = 6;
-      MAX_HEAL_3 = 7;
-      MAX_SHIELD_3 = 8;
+      "MAX_POWER1": {
+        "label": "Max Power 1"
+      },
+      "MAX_SHIELD1": {
+        "label": "Max Shield 1"
+      },
+      "MAX_HEAL1": {
+        "label": "Max Heal 1"
+      },
+      "MAX_POWER2": {
+        "label": "Max Power 2"
+      },
+      "MAX_SHIELD2": {
+        "label": "Max Shield 2"
+      },
+      "MAX_HEAL2": {
+        "label": "Max Heal 2"
+      },
+      "MAX_POWER3": {
+        "label": "Max Power 3"
+      },
+      "MAX_SHIELD3": {
+        "label": "Max Shield 3"
+      },
+      "MAX_HEAL3": {
+        "label": "Max Heal 3"
+      }
     }
   },
   "generations": {
