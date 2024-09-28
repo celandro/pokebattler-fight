@@ -2553,7 +2553,61 @@
     "HYDRO_PUMP_BLASTOISE": "$t(constants:pokemon.HYDRO_PUMP) - $t(constants:pokemon.BLASTOISE)",
     "SCALD_BLASTOISE": "$t(constants:pokemon.SCALD) - $t(constants:pokemon.BLASTOISE)",
     "WATER_GUN_FAST_BLASTOISE": "$t(constants:pokemon.WATER_GUN_FAST) - $t(constants:pokemon.BLASTOISE)",
-    "PARTY_POWER": "Party Power"
+    "PARTY_POWER": "Party Power",
+    "VN_BM_001": "$t(constants:moves.MAX_FLARE) 1",
+    "VN_BM_002": "$t(constants:moves.MAX_FLUTTERBY) 1",
+    "VN_BM_003": "$t(constants:moves.MAX_LIGHTNING) 1",
+    "VN_BM_004": "$t(constants:moves.MAX_STRIKE) 1",
+    "VN_BM_005": "$t(constants:moves.MAX_KNUCKLE) 1",
+    "VN_BM_006": "$t(constants:moves.MAX_PHANTASM) 1",
+    "VN_BM_007": "$t(constants:moves.MAX_HAILSTORM) 1",
+    "VN_BM_008": "$t(constants:moves.MAX_OOZE) 1",
+    "VN_BM_009": "$t(constants:moves.MAX_GEYSER) 1",
+    "VN_BM_010": "$t(constants:moves.MAX_AIRSTREAM) 1",
+    "VN_BM_011": "$t(constants:moves.MAX_STARFALL) 1",
+    "VN_BM_012": "$t(constants:moves.MAX_WYRMWIND) 1",
+    "VN_BM_013": "$t(constants:moves.MAX_MINDSTORM) 1",
+    "VN_BM_014": "$t(constants:moves.MAX_ROCKFALL) 1",
+    "VN_BM_015": "$t(constants:moves.MAX_QUAKE) 1",
+    "VN_BM_016": "$t(constants:moves.MAX_DARKNESS) 1",
+    "VN_BM_017": "$t(constants:moves.MAX_OVERGROWTH) 1",
+    "VN_BM_018": "$t(constants:moves.MAX_STEELSPIKE) 1",
+    "VN_BM_019": "$t(constants:moves.MAX_FLARE) 2",
+    "VN_BM_020": "$t(constants:moves.MAX_FLUTTERBY) 2",
+    "VN_BM_021": "$t(constants:moves.MAX_LIGHTNING) 2",
+    "VN_BM_022": "$t(constants:moves.MAX_STRIKE) 2",
+    "VN_BM_023": "$t(constants:moves.MAX_KNUCKLE) 2",
+    "VN_BM_024": "$t(constants:moves.MAX_PHANTASM) 2",
+    "VN_BM_025": "$t(constants:moves.MAX_HAILSTORM) 2",
+    "VN_BM_026": "$t(constants:moves.MAX_OOZE) 2",
+    "VN_BM_027": "$t(constants:moves.MAX_GEYSER) 2",
+    "VN_BM_028": "$t(constants:moves.MAX_AIRSTREAM) 2",
+    "VN_BM_029": "$t(constants:moves.MAX_STARFALL) 2",
+    "VN_BM_030": "$t(constants:moves.MAX_WYRMWIND) 2",
+    "VN_BM_031": "$t(constants:moves.MAX_MINDSTORM) 2",
+    "VN_BM_032": "$t(constants:moves.MAX_ROCKFALL) 2",
+    "VN_BM_033": "$t(constants:moves.MAX_QUAKE) 2",
+    "VN_BM_034": "$t(constants:moves.MAX_DARKNESS) 2",
+    "VN_BM_035": "$t(constants:moves.MAX_OVERGROWTH) 2",
+    "VN_BM_036": "$t(constants:moves.MAX_STEELSPIKE) 2",
+    "VN_BM_037": "$t(constants:moves.MAX_FLARE) 3",
+    "VN_BM_038": "$t(constants:moves.MAX_FLUTTERBY) 3",
+    "VN_BM_039": "$t(constants:moves.MAX_LIGHTNING) 3",
+    "VN_BM_040": "$t(constants:moves.MAX_STRIKE) 3",
+    "VN_BM_041": "$t(constants:moves.MAX_KNUCKLE) 3",
+    "VN_BM_042": "$t(constants:moves.MAX_PHANTASM) 3",
+    "VN_BM_043": "$t(constants:moves.MAX_HAILSTORM) 3",
+    "VN_BM_044": "$t(constants:moves.MAX_OOZE) 3",
+    "VN_BM_045": "$t(constants:moves.MAX_GEYSER) 3",
+    "VN_BM_046": "$t(constants:moves.MAX_AIRSTREAM) 3",
+    "VN_BM_047": "$t(constants:moves.MAX_STARFALL) 3",
+    "VN_BM_048": "$t(constants:moves.MAX_WYRMWIND) 3",
+    "VN_BM_049": "$t(constants:moves.MAX_MINDSTORM) 3",
+    "VN_BM_050": "$t(constants:moves.MAX_ROCKFALL) 3",
+    "VN_BM_051": "$t(constants:moves.MAX_QUAKE) 3",
+    "VN_BM_052": "$t(constants:moves.MAX_DARKNESS) 3",
+    "VN_BM_053": "$t(constants:moves.MAX_OVERGROWTH) 3",
+    "VN_BM_054": "$t(constants:moves.MAX_STEELSPIKE) 3"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
@@ -2789,6 +2843,17 @@
         "label": "Defense Pattern",
         "description": "A pattern of delays and attacks is used for this single simulation. This is used internally by Pokebattler for optimizing Monte-Carlo simulations without dodging"
       }
+    },
+    "max": {
+      "MAX_POWER_1" = "${}";
+      MAX_HEAL_1 = 1;
+      MAX_SHIELD_1 = 2;
+      MAX_POWER_2 = 3;
+      MAX_HEAL_2 = 4;
+      MAX_SHIELD_2 = 5;
+      MAX_POWER_3 = 6;
+      MAX_HEAL_3 = 7;
+      MAX_SHIELD_3 = 8;
     }
   },
   "generations": {
