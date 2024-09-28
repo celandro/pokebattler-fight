@@ -2924,7 +2924,12 @@
     "DARKEST_LARIAT": "Dark Lariat",
     "PSYWAVE_FAST": "Vague Psy",
     "METAL_SOUND_FAST": "Strido-Son",
-    "SAND_ATTACK_FAST": "Jet de Sable"
+    "SAND_ATTACK_FAST": "Jet de Sable",
+    "SUNSTEEL_STRIKE": "Choc Météore",
+    "MOONGEIST_BEAM": "Rayon Spectral",
+    "HIGH_JUMP_KICK": "Pied Voltige",
+    "FORCE_PALM_FAST": "Forte-Paume",
+    "SPARKLING_ARIA": "Aria de l’Écume"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

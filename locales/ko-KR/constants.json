@@ -2928,7 +2928,12 @@
     "DARKEST_LARIAT": "DD래리어트",
     "PSYWAVE_FAST": "사이코웨이브",
     "METAL_SOUND_FAST": "금속음",
-    "SAND_ATTACK_FAST": "모래뿌리기"
+    "SAND_ATTACK_FAST": "모래뿌리기",
+    "SUNSTEEL_STRIKE": "메테오드라이브",
+    "MOONGEIST_BEAM": "섀도레이",
+    "HIGH_JUMP_KICK": "무릎차기",
+    "FORCE_PALM_FAST": "발경",
+    "SPARKLING_ARIA": "물거품아리아"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "노멀",

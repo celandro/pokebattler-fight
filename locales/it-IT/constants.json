@@ -2858,7 +2858,12 @@
     "DARKEST_LARIAT": "Braccioteso",
     "PSYWAVE_FAST": "Psiconda",
     "METAL_SOUND_FAST": "Ferrostrido",
-    "SAND_ATTACK_FAST": "Turbosabbia"
+    "SAND_ATTACK_FAST": "Turbosabbia",
+    "SUNSTEEL_STRIKE": "Astrocarica",
+    "MOONGEIST_BEAM": "Raggio d’Ombra",
+    "HIGH_JUMP_KICK": "Calcinvolo",
+    "FORCE_PALM_FAST": "Palmoforza",
+    "SPARKLING_ARIA": "Canto Effimero"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",

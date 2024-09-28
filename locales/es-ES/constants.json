@@ -2966,7 +2966,12 @@
     "DARKEST_LARIAT": "Lariat Oscuro",
     "PSYWAVE_FAST": "Psicoonda",
     "METAL_SOUND_FAST": "Eco Metálico",
-    "SAND_ATTACK_FAST": "Ataque Arena"
+    "SAND_ATTACK_FAST": "Ataque Arena",
+    "SUNSTEEL_STRIKE": "Meteoimpacto",
+    "MOONGEIST_BEAM": "Rayo Umbrío",
+    "HIGH_JUMP_KICK": "Patada Salto Alta",
+    "FORCE_PALM_FAST": "Palmeo",
+    "SPARKLING_ARIA": "Aria Burbuja"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",

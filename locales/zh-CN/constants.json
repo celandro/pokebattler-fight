@@ -2877,7 +2877,12 @@
     "DARKEST_LARIAT": "ＤＤ金勾臂",
     "PSYWAVE_FAST": "精神波",
     "METAL_SOUND_FAST": "金屬音",
-    "SAND_ATTACK_FAST": "潑沙"
+    "SAND_ATTACK_FAST": "潑沙",
+    "SUNSTEEL_STRIKE": "流星閃衝",
+    "MOONGEIST_BEAM": "暗影之光",
+    "HIGH_JUMP_KICK": "飛膝踢",
+    "FORCE_PALM_FAST": "發勁",
+    "SPARKLING_ARIA": "泡影的詠歎調"
   },
   "types": {
     "POKEMON_TYPE_NONE": "未知",

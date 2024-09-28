@@ -3067,7 +3067,12 @@
     "DARKEST_LARIAT": "Dark Lariat",
     "PSYWAVE_FAST": "Psywelle",
     "METAL_SOUND_FAST": "Metallsound",
-    "SAND_ATTACK_FAST": "Sandwirbel"
+    "SAND_ATTACK_FAST": "Sandwirbel",
+    "SUNSTEEL_STRIKE": "Stahlgestirn",
+    "MOONGEIST_BEAM": "Schattenstrahl",
+    "HIGH_JUMP_KICK": "Turmkick",
+    "FORCE_PALM_FAST": "Kraftwelle",
+    "SPARKLING_ARIA": "Schaumserenade"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

@@ -2792,7 +2792,12 @@
     "DARKEST_LARIAT": "Тёмное Лассо",
     "PSYWAVE_FAST": "Психоволны",
     "METAL_SOUND_FAST": "Металлический Звук",
-    "SAND_ATTACK_FAST": "Песчаная Атака"
+    "SAND_ATTACK_FAST": "Песчаная Атака",
+    "SUNSTEEL_STRIKE": "Солнечно-Стальной Удар",
+    "MOONGEIST_BEAM": "Луч Лунного Духа",
+    "HIGH_JUMP_KICK": "Прыжок-Удар",
+    "FORCE_PALM_FAST": "Сильная Ладонь",
+    "SPARKLING_ARIA": "Искрящаяся Ария"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

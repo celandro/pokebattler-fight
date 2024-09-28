@@ -3124,7 +3124,12 @@
     "DARKEST_LARIAT": "Lariat Escuro",
     "PSYWAVE_FAST": "Onda Psíquica",
     "METAL_SOUND_FAST": "Som de Metal",
-    "SAND_ATTACK_FAST": "Ataque de Areia"
+    "SAND_ATTACK_FAST": "Ataque de Areia",
+    "SUNSTEEL_STRIKE": "Ataque Solaraço",
+    "MOONGEIST_BEAM": "Feixe Espectral",
+    "HIGH_JUMP_KICK": "Chute de Pulo Alto",
+    "FORCE_PALM_FAST": "Palma da Força",
+    "SPARKLING_ARIA": "Aria Cintilante"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {
