@@ -76,7 +76,21 @@
             "updateUser": {
                 "name": "User updated party",
                 "description": "User in your party updated their settings."
+            },
+            "kickedUser": {
+                "name": "Kicked User",
+                "description": "User was kicked from party."
+            },
+            "raidInvitingNow": {
+                "name": "Raid Inviting",
+                "description": "Raid invites going out now"
+            },
+            "raidStartingNow": {
+                "name": "Raid Starting",
+                "description": "Raid starting now"
             }
+
+
         }
 
     }

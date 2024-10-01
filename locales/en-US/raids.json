@@ -39,6 +39,11 @@
             "subtitle": "Multi-person raids",
             "intro": "Difficult Pokemon Go raids, designed for 2 or more players."
         },
+        "RAID_LEVEL_SHADOW": {
+            "title": "Shadow",
+            "subtitle": "In person shadow raids",
+            "intro": "More difficult raids that reward Shadow Pokemon"
+        },
         "RAID_LEVEL_SOLO": {
             "title": "Solo",
             "subtitle": "Single-person raids",
