@@ -2606,6 +2606,8 @@
     "GMAX_HYDROSNIPE": "G-Max Hydrosnipe",
     "GMAX_ONE_BLOW": "G-Max One Blow",
     "GMAX_RAPID_FLOW": "G-Max Rapid Flow",
+    "MAX_SHIELD": "Max Shield 1",
+    "MAX_HEAL": "Max Heal 1",
     "VN_BM_001": "$t(constants:moves.MAX_FLARE) 1",
     "VN_BM_002": "$t(constants:moves.MAX_FLUTTERBY) 1",
     "VN_BM_003": "$t(constants:moves.MAX_LIGHTNING) 1",
@@ -2642,6 +2644,8 @@
     "MAX_DARKNESS2": "$t(constants:moves.MAX_DARKNESS) 2",
     "MAX_OVERGROWTH2": "$t(constants:moves.MAX_OVERGROWTH) 2",
     "MAX_STEELSPIKE2": "$t(constants:moves.MAX_STEELSPIKE) 2",
+    "MAX_SHIELD2": "Max Shield 2",
+    "MAX_HEAL2": "Max Heal 2",
     "GMAX_WILDFIRE2": "$t(constants:moves.GMAX_WILDFIRE) 2",
     "GMAX_BEFUDDLE2": "$t(constants:moves.GMAX_BEFUDDLE) 2",
     "GMAX_VOLT_CRASH2": "$t(constants:moves.GMAX_VOLT_CRASH) 2",
@@ -2693,6 +2697,8 @@
     "MAX_DARKNESS3": "$t(constants:moves.MAX_DARKNESS) 3",
     "MAX_OVERGROWTH3": "$t(constants:moves.MAX_OVERGROWTH) 3",
     "MAX_STEELSPIKE3": "$t(constants:moves.MAX_STEELSPIKE) 3",
+    "MAX_SHIELD3": "Max Shield 3",
+    "MAX_HEAL3": "Max Heal 3",
     "GMAX_WILDFIRE3": "$t(constants:moves.GMAX_WILDFIRE) 3",
     "GMAX_BEFUDDLE3": "$t(constants:moves.GMAX_BEFUDDLE) 3",
     "GMAX_VOLT_CRASH3": "$t(constants:moves.GMAX_VOLT_CRASH) 3",
@@ -2963,32 +2969,47 @@
       }
     },
     "max": {
-      "MAX_POWER1": {
-        "label": "Max Power 1"
+      "shield": {
+        "label": "Max Shield Level",
+        "MAX_SHIELD0": {
+          "label": "No Shield"
+        },
+        "MAX_SHIELD1": {
+          "label": "Level 1"
+        },
+        "MAX_SHIELD2": {
+          "label": "Level 2"
+        },
+        "MAX_SHIELD3": {
+          "label": "Max!"
+        }
       },
-      "MAX_SHIELD1": {
-        "label": "Max Shield 1"
+      "heal": {
+        "label": "Max Heal Level",
+        "MAX_HEAL0": {
+          "label": "No Heal"
+        },
+        "MAX_HEAL1": {
+          "label": "Level 1"
+        },
+        "MAX_HEAL2": {
+          "label": "Level 2"
+        },
+        "MAX_HEAL3": {
+          "label": "Max!"
+        }
       },
-      "MAX_HEAL1": {
-        "label": "Max Heal 1"
-      },
-      "MAX_POWER2": {
-        "label": "Max Power 2"
-      },
-      "MAX_SHIELD2": {
-        "label": "Max Shield 2"
-      },
-      "MAX_HEAL2": {
-        "label": "Max Heal 2"
-      },
-      "MAX_POWER3": {
-        "label": "Max Power 3"
-      },
-      "MAX_SHIELD3": {
-        "label": "Max Shield 3"
-      },
-      "MAX_HEAL3": {
-        "label": "Max Heal 3"
+      "power": {
+        "label": "Max Power Level",
+        "MAX_POWER1": {
+          "label": "Level 1"
+        },
+        "MAX_POWER2": {
+          "label": "Level 2"
+        },
+        "MAX_POWER3": {
+          "label": "Level 3"
+        }
       }
     }
   },
