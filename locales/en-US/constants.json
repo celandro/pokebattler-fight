@@ -2198,6 +2198,7 @@
     "KLEAVOR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.KLEAVOR)",
     "FARIGIRAF_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FARIGIRAF)",
     "DARMANITAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DARMANITAN)",
+    "DARMANITAN_STANDARD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DARMANITAN)",
     "EEVEE_GOFEST_2024_MTIARA_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 M Tiara",
     "EEVEE_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 S Tiara",
     "EEVEE_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 S Scarf",
@@ -2205,7 +2206,11 @@
     "PIKACHU_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 S Tiara",
     "PIKACHU_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 S Scarf",
     "UMBREON_GOFEST_2024_MSCARF_FORM": "$t(constants:pokemon.UMBREON) - Gofest 2024 M Scarf",
-    "ESPEON_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.ESPEON) - Gofest 2024 S Scarf"
+    "ESPEON_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.ESPEON) - Gofest 2024 S Scarf",
+    "ZIGZAGOON_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ZIGZAGOON)",
+    "LINOONE_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
+    "PRIMARINA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PRIMARINA)",
+    "ANNIHILAPE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ANNIHILAPE)"
   },
   "moves": {
     "undefined": "Undefined",
@@ -2731,7 +2736,9 @@
     "GMAX_FIREBALL3": "$t(constants:moves.GMAX_FIREBALL) 3",
     "GMAX_HYDROSNIPE3": "$t(constants:moves.GMAX_HYDROSNIPE) 3",
     "GMAX_ONE_BLOW3": "$t(constants:moves.GMAX_ONE_BLOW) 3",
-    "AURA_WHEEL": "Aura Wheel"
+    "AURA_WHEEL_MOVE": "Aura Wheel",
+    "AURA_WHEEL": "$t(constants:moves.AURA_WHEEL_MOVE) $t{constants:types.POKEMON_TYPE_ELECTRIC}",
+    "AURA_WHEEL_DARK": "$t(constants:moves.AURA_WHEEL_MOVE) $t{constants:types.POKEMON_TYPE_DARK}"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
