@@ -122,6 +122,26 @@
             "subtitle": "Shadow Legendary Raid",
             "intro": "Shadow Legendary raids are extremely difficult but are the best way to obtain strong pokemon! They are in person only raids that are often done with groups of 5-10 level 30-50 players. Some intrepid experts have done some of these raids with as few as 2-3 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
+        "RAID_LEVEL_1_MAX": {
+            "title": "Max Tier 1",
+            "subtitle": "Easy Dynamax Raid",
+            "intro": "Max Tier 1 raids are fairly easy to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+        },
+        "RAID_LEVEL_3_MAX": {
+            "title": "Max Tier 3",
+            "subtitle": "Easy Group Dynamax Raid",
+            "intro": "Max Tier 3 raids are targeted at groups of 2-4 in person level 30-40 players with 3x lvl 30-40 powered up Dynamax Pokemon. They can typically be soloed by a level 40+ player with dodging and awesome Pokemon."
+        },
+        "RAID_LEVEL_5_MAX": {
+            "title": "Max Tier 5",
+            "subtitle": "Difficult Group Dynamax Raid",
+            "intro": "Max Tier 5 raids are extremely difficult but are the best way to obtain strong Dynamax Pokemon! They are in person only raids that are often done with groups of 5-20 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+        },
+        "RAID_LEVEL_5_MAX": {
+            "title": "Gigantimax Tier 6",
+            "subtitle": "Difficult Group Gigantimax Raid",
+            "intro": "Gigantimax Tier 6 raids are almost impossible but are the only way to obtain strong Gigantimax Pokemon! They are in person only raids that are often done with groups of 30-40 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+        },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
             "subtitle": "Unknown Raids",
@@ -196,12 +216,31 @@
             "title": "Legacy Shadow Tier 3",
             "subtitle": "Easy Group Shadow Raid",
             "intro": "These Shadow Tier 3 raids were available in the past but are not currently in the raid rotations. They may return in the future for special events."
-
         },
         "RAID_LEVEL_5_SHADOW_LEGACY": {
             "title": "Legacy Shadow Tier 5",
             "subtitle": "Shadow Legendary Raid",
             "intro": "These Shadow Legendary raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_1_MAX_LEGACY": {
+            "title": "Legacy Max Tier 1",
+            "subtitle": "Easy Max Raid",
+            "intro": "These Max Tier 1 raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_3_MAX_LEGACY": {
+            "title": "Legacy Max Tier 3",
+            "subtitle": "Easy Group Max Raid",
+            "intro": "These Max Tier 3 raids were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_5_MAX_LEGACY": {
+            "title": "Legacy Max Tier 5",
+            "subtitle": "Difficult Group Max Raid",
+            "intro": "These Tier 5 Max raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_6_MAX_LEGACY": {
+            "title": "Legacy Gigantimax Tier 6",
+            "subtitle": "Difficult Group Gigantimax Raid",
+            "intro": "These Tier 5 Gigtantimax raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_4_5_FUTURE": {
             "title": "Future Tier 4.5",
@@ -253,7 +292,28 @@
             "title": "Future Shadow Tier 5",
             "subtitle": "Shadow Legendary Raid",
             "intro": "These Shadow Tier 5 raids are not in the game yet. They may appear in the future for special events."
+        },
+        "RAID_LEVEL_1_MAX_FUTURE": {
+            "title": "Future Max Tier 1",
+            "subtitle": "Easy Max Raid",
+            "intro": "These Max Tier 1 raids are not in the game yet. They may appear in the future for special events."
+        },
+        "RAID_LEVEL_3_MAX_FUTURE": {
+            "title": "Future Max Tier 3",
+            "subtitle": "Easy Group Max Raid",
+            "intro": "These Max Tier 3 raids are not in the game yet. They may appear in the future for special events."
+        },
+        "RAID_LEVEL_5_MAX_FUTURE": {
+            "title": "Future Max Tier 5",
+            "subtitle": "Difficult Group Max Raid",
+            "intro": "These Max Tier 5 raids are not in the game yet. They may appear in the future for special events."
+        },
+        "RAID_LEVEL_6_MAX_FUTURE": {
+            "title": "Future Gigantimax Tier 6",
+            "subtitle": "Difficult Group Gigantimax Raid",
+            "intro": "These Gigantimax Tier 6 raids are not in the game yet. They may appear in the future for special events."
         }
+
     },
     "custom": {
         "title": "Custom Raid",
