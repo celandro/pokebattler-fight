@@ -138,9 +138,9 @@
             "intro": "Max Tier 5 raids are extremely difficult but are the best way to obtain strong Dynamax Pokemon! They are in person only raids that are often done with groups of 5-20 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_6_MAX": {
-            "title": "Gigantimax Tier 6",
-            "subtitle": "Difficult Group Gigantimax Raid",
-            "intro": "Gigantimax Tier 6 raids are almost impossible but are the only way to obtain strong Gigantimax Pokemon! They are in person only raids that are often done with groups of 30-40 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+            "title": "Giganaimax Tier 6",
+            "subtitle": "Difficult Group Gigantamax Raid",
+            "intro": "Gigantamax Tier 6 raids are almost impossible but are the only way to obtain strong Gigantamax Pokemon! They are in person only raids that are often done with groups of 30-40 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
@@ -238,8 +238,8 @@
             "intro": "These Tier 5 Max raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_6_MAX_LEGACY": {
-            "title": "Legacy Gigantimax Tier 6",
-            "subtitle": "Difficult Group Gigantimax Raid",
+            "title": "Legacy Gigantamax Tier 6",
+            "subtitle": "Difficult Group Gigantamax Raid",
             "intro": "These Tier 5 Gigtantimax raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_4_5_FUTURE": {
@@ -309,9 +309,9 @@
             "intro": "These Max Tier 5 raids are not in the game yet. They may appear in the future for special events."
         },
         "RAID_LEVEL_6_MAX_FUTURE": {
-            "title": "Future Gigantimax Tier 6",
-            "subtitle": "Difficult Group Gigantimax Raid",
-            "intro": "These Gigantimax Tier 6 raids are not in the game yet. They may appear in the future for special events."
+            "title": "Future Gigantamax Tier 6",
+            "subtitle": "Difficult Group Gigantamax Raid",
+            "intro": "These Gigantamax Tier 6 raids are not in the game yet. They may appear in the future for special events."
         }
 
     },
