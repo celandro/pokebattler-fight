@@ -62,8 +62,8 @@
     "weakness": "Weakness",
     "difficulty":  "Difficulty",
     "version": "Version {{version}}",
-    "mega": "Mega",
     "dynamax": "Dynamax",
+    "gigantamax": "Gigantamax",
     "unavailable"   : "Unavailable",
     "rejoin": {
         "label": "Rejoin Time",
