@@ -2742,8 +2742,8 @@
     "RAGE_FIST": "Rage Fist",
     "DYNAMAX_START": "Dynamax Start",
     "DYNAMAX_END": "Dynamax End",
-    "DYNAMAX_ORB": "Dynamax Orb"
-
+    "DYNAMAX_ORB": "Dynamax Orb",
+    "DYNAMAX_ENRAGE": "Dynamax Enrage"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
