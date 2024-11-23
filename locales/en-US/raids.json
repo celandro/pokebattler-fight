@@ -124,23 +124,33 @@
         },
         "RAID_LEVEL_1_MAX": {
             "title": "Max Tier 1",
-            "subtitle": "Easy Max Battle",
-            "intro": "Max Tier 1 raids are fairly easy to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+            "subtitle": "Easy Dynamax Max Battle",
+            "intro": "Max Tier 1 Dynamax raids are fairly easy to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+        },
+        "RAID_LEVEL_2_MAX": {
+            "title": "Max Tier 2",
+            "subtitle": "Difficult Dynamax Max Battle",
+            "intro": "Max Tier 2 Dynamax raids are possible to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect evolved pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
         },
         "RAID_LEVEL_3_MAX": {
             "title": "Max Tier 3",
-            "subtitle": "Easy Group Max Battle",
-            "intro": "Max Tier 3 raids are targeted at groups of 2-4 in person level 30-40 players with 3x lvl 30-40 powered up Dynamax Pokemon. They can typically be soloed by a level 40+ player with dodging and awesome Pokemon."
+            "subtitle": "Easy Group Dynamax Max Battle",
+            "intro": "Max Tier 3 Dynamax raids are targeted at groups of 2-4 in person level 30-40 players with 3x lvl 30-40 powered up Dynamax Pokemon. They can typically be soloed by a level 40+ player with dodging and awesome Pokemon."
+        },
+        "RAID_LEVEL_4_MAX": {
+            "title": "G-Max Tier 4",
+            "subtitle": "Easier Group Gigantamax Max Battle",
+            "intro": "Max Tier 4 Gigantamax battles are easier than other Gigantamax raids but can be beaten by well prepared players using strong Dynamax Pokemon! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_5_MAX": {
-            "title": "Max Tier 5",
-            "subtitle": "Difficult Group Max Battle",
-            "intro": "Max Tier 5 raids are extremely difficult but are the best way to obtain strong Dynamax Pokemon! They are in person only raids that are often done with groups of 5-20 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+            "title": "G-Max Tier 5",
+            "subtitle": "Group Gigantamax Max Battle",
+            "intro": "Max Tier 5 Gigantamax battles are difficult but are the best way to obtain strong Dynamax Pokemon! They are in person only raids that are often done with groups of 5-20 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_6_MAX": {
-            "title": "Gigantamax Tier 6",
-            "subtitle": "Difficult Group Gigantamax Battle",
-            "intro": "Gigantamax Tier 6 raids are almost impossible but are the only way to obtain strong Gigantamax Pokemon! They are in person only raids that are often done with groups of 30-40 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+            "title": "G-Max Tier 6",
+            "subtitle": "Difficult Group Gigantamax Max Battle",
+            "intro": "Max Tier 6 Gigantamax battles are very difficult but are the only way to obtain strong Gigantamax Pokemon! They are in person only raids that are often done with groups of 30-40 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_UNSET": {
             "title": "Tier ?",
@@ -224,23 +234,33 @@
         },
         "RAID_LEVEL_1_MAX_LEGACY": {
             "title": "Legacy Max Tier 1",
-            "subtitle": "Easy Max Battle",
-            "intro": "These Max Tier 1 battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+            "subtitle": "Easy Max Dynamax Battle",
+            "intro": "These Max Tier 1 Dynamax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_1_MAX_LEGACY": {
+            "title": "Legacy Max Tier 2",
+            "subtitle": "Difficult Dynamax Max Battle",
+            "intro": "These Max Tier 2 Dynamax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_3_MAX_LEGACY": {
             "title": "Legacy Max Tier 3",
-            "subtitle": "Easy Group Max Battle",
-            "intro": "These Max Tier 3 battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+            "subtitle": "Easy Group Dynamax Max Battle",
+            "intro": "These Max Tier 3 Dynamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+        },
+        "RAID_LEVEL_4_MAX_LEGACY": {
+            "title": "Legacy G-Max Tier 4",
+            "subtitle": "Easier Group Gigantamax Max Battle",
+            "intro": "These Tier 4 Gigantamax battles are easier than other Gigantamax raids but can be beaten by well prepared players using strong Dynamax Pokemon! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_5_MAX_LEGACY": {
-            "title": "Legacy Max Tier 5",
-            "subtitle": "Difficult Group Max Battle",
-            "intro": "These Tier 5 Max batttles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+            "title": "Legacy G-Max Tier 5",
+            "subtitle": "Difficult Group Gigantamax Max Battle",
+            "intro": "These Tier 5 Gigantamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_6_MAX_LEGACY": {
-            "title": "Legacy Gigantamax Tier 6",
-            "subtitle": "Difficult Group Gigantamax Battle",
-            "intro": "These Tier 5 Gigtantimax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+            "title": "Legacy G-Max Tier 6",
+            "subtitle": "Difficult Group Gigantamax Max Battle",
+            "intro": "These Tier 6 Gigantamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_4_5_FUTURE": {
             "title": "Future Tier 4.5",
@@ -295,23 +315,33 @@
         },
         "RAID_LEVEL_1_MAX_FUTURE": {
             "title": "Future Max Tier 1",
-            "subtitle": "Easy Max Battle",
-            "intro": "These Max Tier 1 battles are not in the game yet. They may appear in the future for special events."
+            "subtitle": "Easy Dynamax Max Battle",
+            "intro": "These Max Tier 1 Dynamax battles are not in the game yet. They may appear in the future for special events."
+        },
+        "RAID_LEVEL_2_MAX_FUTURE": {
+            "title": "Future Max Tier 2",
+            "subtitle": "Difficult Dynamax Max Battle",
+            "intro": "These Max Tier 2 Dynamax battles are not in the game yet. They may appear in the future for special events."
         },
         "RAID_LEVEL_3_MAX_FUTURE": {
             "title": "Future Max Tier 3",
-            "subtitle": "Easy Group Max Battle",
-            "intro": "These Max Tier 3 battles are not in the game yet. They may appear in the future for special events."
+            "subtitle": "Easy Dynamax Group Max Battle",
+            "intro": "These Max Tier 3 Dynamax battles are not in the game yet. They may appear in the future for special events."
+        },
+        "RAID_LEVEL_4_MAX_FUTURE": {
+            "title": "Future G-Max Tier 4",
+            "subtitle": "Easier Group Gigantamax Max Battle",
+            "intro": "These Max Tier 4 Gigantamax battles are easier than other Gigantamax raids but can be beaten by well prepared players using strong Dynamax Pokemon! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_5_MAX_FUTURE": {
-            "title": "Future Max Tier 5",
-            "subtitle": "Difficult Group Max Battle",
-            "intro": "These Max Tier 5 battles are not in the game yet. They may appear in the future for special events."
+            "title": "Future G-Max Tier 5",
+            "subtitle": "Difficult Group Gigantamax Max Battle",
+            "intro": "These Max Tier 5 Gigantamax battles are not in the game yet. They may appear in the future for special events."
         },
         "RAID_LEVEL_6_MAX_FUTURE": {
-            "title": "Future Gigantamax Tier 6",
-            "subtitle": "Difficult Group Gigantamax Raid",
-            "intro": "These Gigantamax Tier 6 battles are not in the game yet. They may appear in the future for special events."
+            "title": "Future G-Max Tier 6",
+            "subtitle": "Difficult Group Gigantamax Max Battle",
+            "intro": "These Max Tier 6 Gigantamax battles are not in the game yet. They may appear in the future for special events."
         }
 
     },
