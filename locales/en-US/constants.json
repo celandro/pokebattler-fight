@@ -2234,6 +2234,7 @@
     "FLAPPLE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.FLAPPLE)",
     "APPLETUN_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.APPLETUN)",
     "SANDACONDA_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.SANDACONDA)",
+    "TOXTRICITY_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.TOXTRICITY)",
     "TOXTRICITY_LOW_KEY_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.TOXTRICITY_LOW_KEY)",
     "TOXTRICITY_AMPED_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.TOXTRICITY_AMPED)",
     "CENTISKORCH_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.CENTISKORCH)",

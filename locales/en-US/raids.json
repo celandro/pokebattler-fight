@@ -138,9 +138,9 @@
             "intro": "Max Tier 3 Dynamax raids are targeted at groups of 2-4 in person level 30-40 players with 3x lvl 30-40 powered up Dynamax Pokemon. They can typically be soloed by a level 40+ player with dodging and awesome Pokemon."
         },
         "RAID_LEVEL_4_MAX": {
-            "title": "G-Max Tier 4",
-            "subtitle": "Easier Group Gigantamax Max Battle",
-            "intro": "Max Tier 4 Gigantamax battles are easier than other Gigantamax raids but can be beaten by well prepared players using strong Dynamax Pokemon! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+            "title": "Max Event Tier 4",
+            "subtitle": "Event Dynamax Group Max Battle",
+            "intro": "Max Tier 4 Event Dynamax battles are found in special events! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_5_MAX": {
             "title": "G-Max Tier 5",
@@ -248,9 +248,9 @@
             "intro": "These Max Tier 3 Dynamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
         },
         "RAID_LEVEL_4_MAX_LEGACY": {
-            "title": "Legacy G-Max Tier 4",
-            "subtitle": "Easier Group Gigantamax Max Battle",
-            "intro": "These Tier 4 Gigantamax battles are easier than other Gigantamax raids but can be beaten by well prepared players using strong Dynamax Pokemon! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+            "title": "Legacy Max Event Tier 4",
+            "subtitle": "Event Dynamax Group Max Battle",
+            "intro": "Max Tier 4 Event Dynamax battles are found in special events! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_5_MAX_LEGACY": {
             "title": "Legacy G-Max Tier 5",
@@ -329,9 +329,9 @@
             "intro": "These Max Tier 3 Dynamax battles are not in the game yet. They may appear in the future for special events."
         },
         "RAID_LEVEL_4_MAX_FUTURE": {
-            "title": "Future G-Max Tier 4",
-            "subtitle": "Easier Group Gigantamax Max Battle",
-            "intro": "These Max Tier 4 Gigantamax battles are easier than other Gigantamax raids but can be beaten by well prepared players using strong Dynamax Pokemon! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+            "title": "Future Max Event Tier 4",
+            "subtitle": "Event Dynamax Group Max Battle",
+            "intro": "These Max Tier 4 Dynamax battles that are found in special events! They are in person only raids that are often done with groups of 2-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
         },
         "RAID_LEVEL_5_MAX_FUTURE": {
             "title": "Future G-Max Tier 5",
