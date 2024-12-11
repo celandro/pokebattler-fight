@@ -2211,6 +2211,7 @@
     "ESPEON_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.ESPEON) - Gofest 2024 S Scarf",
     "ZIGZAGOON_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ZIGZAGOON)",
     "LINOONE_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
+    "WEEZING_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING_GALARIAN_FORM)",
     "PRIMARINA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PRIMARINA)",
     "ANNIHILAPE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ANNIHILAPE)",
     "VENUSAUR_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.VENUSAUR)",
