@@ -2246,8 +2246,8 @@
     "RILLABOOM_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.RILLABOOM)",
     "CINDERACE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.CINDERACE)",
     "INTELEON_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.INTELEON)",
-    "URSHIFU_SINGLE_STRIKE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.URSHIFU_SINGLE_STRIKE)",
-    "URSHIFU_RAIPD_STRIKE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.URSHIFU_RAPID_STRIKE)"
+    "URSHIFU_SINGLE_STRIKE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.URSHIFU_SINGLE_STRIKE_FORM)",
+    "URSHIFU_RAPID_STRIKE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.URSHIFU_RAPID_STRIKE_FORM)"
   },
   "moves": {
     "undefined": "",
