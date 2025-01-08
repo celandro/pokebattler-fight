@@ -3125,7 +3125,8 @@
     "GMAX_FIREBALL": "Giga-Brandball",
     "GMAX_HYDROSNIPE": "Giga-Schütze",
     "GMAX_ONE_BLOW": "Giga-Einzelhieb",
-    "GMAX_RAPID_FLOW": "Giga-Multihieb"
+    "GMAX_RAPID_FLOW": "Giga-Multihieb",
+    "RAGE_FIST": "Zornesfaust"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

@@ -1304,7 +1304,7 @@
     "FORCE_PALM_FAST": "พลังฝามือ",
     "SPARKLING_ARIA": "บทเพลงแหงฟองน้ำ",
     "NATURES_MADNESS": "ธรรมชาติพิโรธ",
-    "AURA_WHEEL": "Aura Wheel",
+    "AURA_WHEEL": "กงลอออรา",
     "MAX_FLARE": "ไดเบิรน",
     "MAX_FLUTTERBY": "ไดเวิรม",
     "MAX_LIGHTNING": "ไดธันเดอร",
@@ -1355,6 +1355,7 @@
     "GMAX_FIREBALL": "กิกะลูกบอลไฟ",
     "GMAX_HYDROSNIPE": "กิกะซุมยิง",
     "GMAX_ONE_BLOW": "กิกะจูโจมครั้งเดียว",
-    "GMAX_RAPID_FLOW": "กิกะจูโจมตอเนื่อง"
+    "GMAX_RAPID_FLOW": "กิกะจูโจมตอเนื่อง",
+    "RAGE_FIST": "กำป้นพิโรธ"
   }
 }

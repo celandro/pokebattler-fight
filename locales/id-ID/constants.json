@@ -1304,7 +1304,7 @@
     "FORCE_PALM_FAST": "Telapak Tenaga Dalam",
     "SPARKLING_ARIA": "Aria Gemerlap",
     "NATURES_MADNESS": "Amukan Alam",
-    "AURA_WHEEL": "Aura Wheel",
+    "AURA_WHEEL": "Roda Aura",
     "MAX_FLARE": "Max Flare",
     "MAX_FLUTTERBY": "Max Flutterby",
     "MAX_LIGHTNING": "Max Lightning",
@@ -1355,6 +1355,7 @@
     "GMAX_FIREBALL": "G-Max Fireball",
     "GMAX_HYDROSNIPE": "G-Max Hydrosnipe",
     "GMAX_ONE_BLOW": "G-Max One Blow",
-    "GMAX_RAPID_FLOW": "G-Max Rapid Flow"
+    "GMAX_RAPID_FLOW": "G-Max Rapid Flow",
+    "RAGE_FIST": "Tinju Amarah"
   }
 }

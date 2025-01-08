@@ -2916,7 +2916,8 @@
     "GMAX_FIREBALL": "Gigafiammopalla",
     "GMAX_HYDROSNIPE": "Gigasparomirato",
     "GMAX_ONE_BLOW": "Gigasingolcolpo",
-    "GMAX_RAPID_FLOW": "Gigapluricolpo"
+    "GMAX_RAPID_FLOW": "Gigapluricolpo",
+    "RAGE_FIST": "Pugno Furibondo"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",

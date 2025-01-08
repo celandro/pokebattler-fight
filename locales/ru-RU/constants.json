@@ -2850,7 +2850,8 @@
     "GMAX_FIREBALL": "Огненный Шар G-Макс",
     "GMAX_HYDROSNIPE": "Гидроснайпер G-Макс",
     "GMAX_ONE_BLOW": "Единый Удар G-Макс",
-    "GMAX_RAPID_FLOW": "Серийный Поток G-Макс"
+    "GMAX_RAPID_FLOW": "Серийный Поток G-Макс",
+    "RAGE_FIST": "Кулак Ярости"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

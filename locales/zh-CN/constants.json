@@ -2884,7 +2884,7 @@
     "FORCE_PALM_FAST": "發勁",
     "SPARKLING_ARIA": "泡影的詠歎調",
     "NATURES_MADNESS": "自然之怒",
-    "AURA_WHEEL": "Aura Wheel",
+    "AURA_WHEEL": "氣場輪",
     "MAX_FLARE": "極巨火爆",
     "MAX_FLUTTERBY": "極巨蟲蠱",
     "MAX_LIGHTNING": "極巨閃電",
@@ -2899,7 +2899,7 @@
     "MAX_WYRMWIND": "極巨龍騎",
     "MAX_MINDSTORM": "極巨超能",
     "MAX_ROCKFALL": "極巨岩石",
-    "MAX_QUAKE": "極巨寒冰",
+    "MAX_QUAKE": "極巨大地",
     "MAX_DARKNESS": "極巨惡霸",
     "MAX_OVERGROWTH": "極巨草原",
     "MAX_STEELSPIKE": "極巨鋼鐵",
@@ -2935,7 +2935,8 @@
     "GMAX_FIREBALL": "超極巨破陣火球",
     "GMAX_HYDROSNIPE": "超極巨狙擊神射",
     "GMAX_ONE_BLOW": "超極巨奪命一擊",
-    "GMAX_RAPID_FLOW": "超極巨流水連擊"
+    "GMAX_RAPID_FLOW": "超極巨流水連擊",
+    "RAGE_FIST": "憤怒之拳"
   },
   "types": {
     "POKEMON_TYPE_NONE": "未知",

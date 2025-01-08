@@ -2982,7 +2982,8 @@
     "GMAX_FIREBALL": "Pyroball G-Max",
     "GMAX_HYDROSNIPE": "Gâchette G-Max",
     "GMAX_ONE_BLOW": "Coup Final G-Max",
-    "GMAX_RAPID_FLOW": "Multicoup G-Max"
+    "GMAX_RAPID_FLOW": "Multicoup G-Max",
+    "RAGE_FIST": "Poing de Colère"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

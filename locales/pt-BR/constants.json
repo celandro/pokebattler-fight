@@ -3182,7 +3182,8 @@
     "GMAX_FIREBALL": "Bola de Chamas G-Max",
     "GMAX_HYDROSNIPE": "Hidroatirador G-Max",
     "GMAX_ONE_BLOW": "Golpe Único G-Max",
-    "GMAX_RAPID_FLOW": "Fluxo Veloz G-Max"
+    "GMAX_RAPID_FLOW": "Fluxo Veloz G-Max",
+    "RAGE_FIST": "Punho Feroz"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

@@ -3024,7 +3024,8 @@
     "GMAX_FIREBALL": "Gigaesfera Ígnea",
     "GMAX_HYDROSNIPE": "Gigadisparo",
     "GMAX_ONE_BLOW": "Gigagolpe Brusco",
-    "GMAX_RAPID_FLOW": "Gigagolpe Fluido"
+    "GMAX_RAPID_FLOW": "Gigagolpe Fluido",
+    "RAGE_FIST": "Puño Furia"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",
