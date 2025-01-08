@@ -62,8 +62,8 @@
     "weakness": "Weakness",
     "difficulty":  "Difficulty",
     "version": "Version {{version}}",
-    "mega": "Mega",
     "dynamax": "Dynamax",
+    "gigantamax": "Gigantamax",
     "unavailable"   : "Unavailable",
     "rejoin": {
         "label": "Rejoin Time",
@@ -128,7 +128,8 @@
         "maxCP": "Max $t(common:cp)",
         "level": "$t(common:level)",
         "rank": "Rank",
-        "points": "Points"
+        "points": "Points",
+        "dynamaxEnergy": "Max Energy"
     },
     "sectionLinks": {
         "help": "Help section",

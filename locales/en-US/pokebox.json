@@ -66,7 +66,7 @@
         },
         "advanced": {
           "title": "Advanced Settings",
-          "description": "Custom support or 3rd party apps"
+          "description": "Custom support for 3rd party apps"
         },
         "pasteUpload": {
             "title": "Upload from Copy/Paste",
