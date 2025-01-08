@@ -2782,7 +2782,7 @@
     "GMAX_HYDROSNIPE3": "$t(constants:moves.GMAX_HYDROSNIPE) MAX",
     "GMAX_ONE_BLOW3": "$t(constants:moves.GMAX_ONE_BLOW) MAX",
     "AURA_WHEEL_MOVE": "Aura Wheel",
-    "AURA_WHEEL": "Aura Wheel",
+    "AURA_WHEEL": "$t(constants:moves.AURA_WHEEL_MOVE) $t{constants:types.POKEMON_TYPE_ELECTRIC}",
     "AURA_WHEEL_DARK": "$t(constants:moves.AURA_WHEEL_MOVE) $t{constants:types.POKEMON_TYPE_DARK}",
     "RAGE_FIST": "Rage Fist",
     "FLOWER_TRICK": "Flower Trick",
