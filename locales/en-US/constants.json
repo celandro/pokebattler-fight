@@ -2226,6 +2226,11 @@
     "WEEZING_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING_GALARIAN_FORM)",
     "PRIMARINA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PRIMARINA)",
     "ANNIHILAPE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ANNIHILAPE)",
+    "PALKIA_ORIGIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PALKIA_ORIGIN_FORM)",
+    "DIALGA_ORIGIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DIALGA_ORIGIN_FORM)",
+    "SAMUROTT_HISUIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SAMUROTT_HISUIAN_FORM)",
+    "BUNNELBY_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.BUNNELBY)",
+    "DIGGERSBY_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DIGGERSBY)",
     "VENUSAUR_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.VENUSAUR)",
     "CHARIZARD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.CHARIZARD)",
     "BLASTOISE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.BLASTOISE)",
@@ -2795,7 +2800,9 @@
     "DYNAMAX_START": "Dynamax Start",
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
-    "DYNAMAX_ENRAGE": "Dynamax Enrage"
+    "DYNAMAX_ENRAGE": "Dynamax Enrage",
+    "FREEZE_SHOCK": "Freeze Shock",
+    "ICE_BURN": "Ice Burn"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
