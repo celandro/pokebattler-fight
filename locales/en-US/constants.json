@@ -2802,7 +2802,8 @@
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
     "FREEZE_SHOCK": "Freeze Shock",
-    "ICE_BURN": "Ice Burn"
+    "ICE_BURN": "Ice Burn",
+    "TORCH_SONG": "Torch Song"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
