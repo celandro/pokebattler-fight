@@ -34,20 +34,30 @@
             "subtitle": "Scheduled Raids",
             "intro": "Currently scheduled Pokemon Go raids."
         },
-        "RAID_LEVEL_GROUP": {
-            "title": "Group",
+        "RAID_LEVEL_REMOTE": {
+            "title": "Remote",
             "subtitle": "Multi-person raids",
             "intro": "Difficult Pokemon Go raids, designed for 2 or more players."
+        },
+        "RAID_LEVEL_MAX": {
+            "title": "Max",
+            "subtitle": "In person Dynamax and Gigantamax Raids raids",
+            "intro": "Very difficult max battles you can only fight with Max Pokemon that reward Max Pokemon"
         },
         "RAID_LEVEL_SHADOW": {
             "title": "Shadow",
             "subtitle": "In person shadow raids",
             "intro": "More difficult raids that reward Shadow Pokemon"
         },
-        "RAID_LEVEL_SOLO": {
-            "title": "Solo",
-            "subtitle": "Single-person raids",
+        "RAID_LEVEL_LOCAL": {
+            "title": "Local",
+            "subtitle": "Local raids",
             "intro": "Easy Pokemon Go raids, designed to be defeated by a single player."
+        },
+        "RAID_LEVEL_ALL_RAIDS": {
+            "title": "Raids",
+            "subtitle": "Standard raids",
+            "intro": "The original Pokemon Go raids, uses a standard raid pass or remote raid pass."
         },
         "RAID_LEVEL_1": {
             "title": "Tier 1",
