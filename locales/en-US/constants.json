@@ -2221,6 +2221,7 @@
     "PIKACHU_GOTOUR_2025_A_02_FORM": "$t(constants:pokemon.PIKACHU) - Gotour 2025 A2",
     "PIKACHU_GOTOUR_2025_B_FORM": "$t(constants:pokemon.PIKACHU) - Gotour 2025 B",
     "PIKACHU_GOTOUR_2025_B_02_FORM": "$t(constants:pokemon.PIKACHU) - Gotour 2025 B2",
+    "PIKACHU_KURTA_FORM": "$t(constants:pokemon.PIKACHU) - Kurta",
     "ZIGZAGOON_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ZIGZAGOON)",
     "LINOONE_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
     "WEEZING_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING_GALARIAN_FORM)",
