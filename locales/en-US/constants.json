@@ -2267,7 +2267,11 @@
     "INTELEON_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.INTELEON)",
     "URSHIFU_SINGLE_STRIKE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.URSHIFU_SINGLE_STRIKE_FORM)",
     "URSHIFU_RAPID_STRIKE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.URSHIFU_RAPID_STRIKE_FORM)",
-    "URSHIFU_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.URSHIFU)"
+    "URSHIFU_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.URSHIFU)",
+    "ZACIAN_CROWNED_SWORD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZACIAN_CROWNED_SWORD_FORM)",
+    "ZACIAN_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZACIAN)",
+    "ZAMAZENTA_CROWNED_SHIELD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA_CROWNED_SHIELD_FORM)",
+    "ZAMAZENTA_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA)"
   },
   "moves": {
     "undefined": "",
@@ -2668,6 +2672,8 @@
     "GMAX_HYDROSNIPE": "Hydrosnipe",
     "GMAX_ONE_BLOW": "One Blow",
     "GMAX_RAPID_FLOW": "Rapid Flow",
+    "MAX_BEHEMOTH_BLADE": "Behemoth Blade",
+    "MAX_BEHEMOTH_BASH": "Behemoth Bash",
     "MAX_SHIELD": "Shield",
     "MAX_HEAL": "Heal",
     "VN_BM_001": "$t(constants:moves.MAX_FLARE) 1",
@@ -2688,6 +2694,8 @@
     "VN_BM_016": "$t(constants:moves.MAX_DARKNESS) 1",
     "VN_BM_017": "$t(constants:moves.MAX_OVERGROWTH) 1",
     "VN_BM_018": "$t(constants:moves.MAX_STEELSPIKE) 1",
+    "VN_BM_060": "$t(constants:moves.MAX_BEHEMOTH_BLADE) 1",
+    "VN_BM_061": "$t(constants:moves.MAX_BEHEMOTH_BASH) 1",
     "MAX_FLARE2": "$t(constants:moves.MAX_FLARE) 2",
     "MAX_FLUTTERBY2": "$t(constants:moves.MAX_FLUTTERBY) 2",
     "MAX_LIGHTNING2": "$t(constants:moves.MAX_LIGHTNING) 2",
@@ -2706,6 +2714,8 @@
     "MAX_DARKNESS2": "$t(constants:moves.MAX_DARKNESS) 2",
     "MAX_OVERGROWTH2": "$t(constants:moves.MAX_OVERGROWTH) 2",
     "MAX_STEELSPIKE2": "$t(constants:moves.MAX_STEELSPIKE) 2",
+    "MAX_BEHEMOTH_BLADE2": "$t(constants:moves.MAX_BEHEMOTH_BLADE) 2",
+    "MAX_BEHEMOTH_BASH2": "$t(constants:moves.MAX_BEHEMOTH_BASH) 2",
     "MAX_SHIELD2": "Shield 2",
     "MAX_HEAL2": "Heal 2",
     "GMAX_WILDFIRE2": "$t(constants:moves.GMAX_WILDFIRE) 2",
@@ -2759,6 +2769,8 @@
     "MAX_DARKNESS3": "$t(constants:moves.MAX_DARKNESS) MAX",
     "MAX_OVERGROWTH3": "$t(constants:moves.MAX_OVERGROWTH) MAX",
     "MAX_STEELSPIKE3": "$t(constants:moves.MAX_STEELSPIKE) MAX",
+    "MAX_BEHEMOTH_BLADE3": "$t(constants:moves.MAX_BEHEMOTH_BLADE) 3",
+    "MAX_BEHEMOTH_BASH3": "$t(constants:moves.MAX_BEHEMOTH_BASH) 3",
     "MAX_SHIELD3": "Shield MAX",
     "MAX_HEAL3": "Heal MAX",
     "GMAX_WILDFIRE3": "$t(constants:moves.GMAX_WILDFIRE) MAX",
@@ -2804,7 +2816,10 @@
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
     "FREEZE_SHOCK": "Freeze Shock",
     "ICE_BURN": "Ice Burn",
-    "TORCH_SONG": "Torch Song"
+    "TORCH_SONG": "Torch Song",
+    "BEHEMOTH_BLADE":"Behemoth Blade",
+    "BEHEMOTH_BASH": "Behemoth Bash",
+    "UPPER_HAND": "Upper Hand"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
