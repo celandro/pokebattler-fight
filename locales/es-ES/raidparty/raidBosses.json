@@ -4,50 +4,61 @@
     "countersTitle": "Tus Atacantes",
     "createParty": "Alojar Equipo",
     "loadParty": "Ver Equipo de Incursión #{{id}}",
+    "raidParties": "$t(raidParties:title)",
     "joinParty": "Unirse a Equipo",
+    "joinPrivate": "Unirse a Grupo Privado",
     "leaveParty": "Abandonar Equipo",
-    "viewParty": "Ver Equipo",
+    "finishParty": "Completar Incursión",
     "copyTrainers": "Copiar Entrenadores",
+    "confirmFriend": "Confirmar amigo",
+    "viewParty": "Ver Equipo",
     "remote": "Remoto",
     "ready": "Local",
+    "remoteReady": "Remoto ✅",
+    "needsFriend": "Solicitud de amistad enviada",
     "customBoss": "Personalizar",
     "actionButtonsDescription": "Simula tu grupo de incursión",
     "quickSettings": {
         "title": "Configuración Rápida"
     },
-    "counters": {
-        "title": "{{defender}} - Atacantes",
-        "description": "Estos son tus mejores 6 atacantes para derrotar al jefe de incursiones {{tier}} {{defender}}. Clickea Crear Equipo o Unirse a Equipo para obtener ayuda en derrotar a este jefe!",
+    "summary": {
+        "title": "Simulación de Incursión {{defender}}",
+        "tab": "Resumen",
+        "tabIcon": "poll",
+        "description": "Estos son tus 6 mejores atacantes para derrotar a un jefe de incursión {{tier}} {{defender}}. ¡Haz clic en Crear Equipo o Unirse a Equipo para obtener ayuda contra este jefe!",
         "rejoin": "Reunido en {{rejoinSeconds}}s",
         "settings": {
             "suggestPokebox": "Una vez que te acostumbres a esto, deberías ajustar tus configuraciones para utilizar tu Pokebox, la que puedes completar rápidamente desde la pestaña Alternativas",
-            "BATTLE_PARTY_LEVEL_20": "Utilizando los mejores atacantes de nivel 20. Esta es una gran configuración por defecto para iniciar.   $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_25": "Utilizando los mejores atacantes de nivel 25.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_30": "Utilizando los mejores atacantes de nivel 30.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_35": "Utilizando los mejores atacantes de nivel 35.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_40": "Utilizando los mejores atacantes de nivel 40.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox, a la que puedes completar rápidamente desde la pestaña Alternativas",
-            "BATTLE_PARTY_LEVEL_45": "Utilizando los mejores atacantes de nivel 45.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_50": "Utilizando los mejores atacantes de nivel 50. $t(raidBosses:counters.settings.suggestPokebox)"
-        },
-        "details": {
-            "title": "Detalles de Combate",
-            "description": "Pokebattler realizó 200 simulaciones de combate de incursión para cada posible atacante para elegir cuáles Pokemon usar. Los 6 primeros fueron ejecutados en 200 simulaciones. Lo siguiente son los detalles de combate salidos de un resultado típico."
+            "BATTLE_PARTY_LEVEL_20": "Utilizando los mejores atacantes de nivel 20. Esta es una gran configuración por defecto para iniciar. $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_25": "Utilizando los mejores atacantes de nivel 25. $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_30": "Utilizando los mejores atacantes de nivel 30. $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_35": "Utilizando los mejores atacantes de nivel 35. $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_40": "Utilizando los mejores atacantes de nivel 40. $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_45": "Utilizando los mejores atacantes de nivel 45. $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_LEVEL_50": "Utilizando los mejores atacantes de nivel 50. $t(raidBosses:counters.settings.suggestPokebox)",
+            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox, a la que puedes completar rápidamente desde la pestaña Alternativas"
         },
         "emptyPokebox": "Los resultados personalizados estarán aquí luego que agregues tus Pokemon a tu Pokebox. Intenta agregar los Pokemon que tienes en la 3era pestaña."
     },
-    "alternatives": {
-        "description": "Estos son tus 6 mejores atacantes para derrotar a un jefe de incursión {{tier}} {{defender}}. Agrega Pokemon alternativos a tu equipo abajo!"
+    "counters": {
+        "title": "Atacantes contra {{defender}}",
+        "tab": "Atacantes",
+        "description": "Estos son tus 6 mejores atacantes para derrotar a un jefe de incursiones {{tier}} {{defender}}. ¡Agrega Pokemon alternativos a tu equipo abajo!"
+    },
+    "combatants": {
+        "title": "Combatientes contra {{defender}}",
+        "tab": "Combatientes",
+        "description": "Pokebattler realizó 200 simulaciones de combate de incursiones para cada posible atacante para elegir cuáles Pokemon usar. Los 6 primeros fueron ejecutados en 200 simulaciones. Lo siguiente son los detalles de combate salidos de un resultado típico."
     },
     "joinPartyDialog": {
         "title": "Unirse a Equipo",
-        "description": "Ingresa el identificador del equipo de tu amigo para ver tus resultados del equipo de incursión",
+        "description": "Ingresa el identificador del equipo de tu amigo para ver tus resultados del equipo de incursiones",
         "partyIdPlaceholder": "Pokebattler Raid Party #",
         "join": "Unirse",
         "cancel": "Cancelar",
         "fetch": "Obtener",
         "errors": {
-            "pokemonMismatch": "Equipo de Incursión {{id}} es para {{raidPartyPokemon}}, no {{pokemon}}."
+            "pokemonMismatch": "Equipo de Incursiones {{id}} es para {{raidPartyPokemon}}, no {{pokemon}}."
         }
     },
     "multiParty": {
@@ -56,10 +67,9 @@
     "raidPartyCard": {
         "title": "{{defender}}",
         "id": "$t(raidBosses:joinParty) #{{id}}",
-        "sumamry": "{{players}} jugadores se unieron. El grupo de {{ownerName}} fue creado el {{createdAt}}",
+        "summary": "{{numReadyPlayers}} de {{players}} jugadores están listos. El grupo de {{ownerName}} fue creado el {{createdAt}}",
         "emptyPokebox": "Pokebox vacía, utilizando predeterminados",
-        "egg": "Huevo",
-        "summary": "{{numReadyPlayers}} de {{players}} jugadores están listos. El grupo de {{ownerName}} fue creado el {{createdAt}}"
+        "egg": "Huevo"
     },
     "raidPartyPlayer": {
         "title": "{{name}}",
@@ -84,11 +94,5 @@
         "until": "Hasta",
         "localTime": "HORA LOCAL"
     },
-    "autocomplete": "Elige Jefe de Incursión personalizado",
-    "finishParty": "Completar Incursión",
-    "remoteReady": "Remoto",
-    "joinPrivate": "Unirse a Grupo Privado",
-    "needsFriend": "Solicitud de amistad enviada",
-    "raidParties": "$t(raidParties:title)",
-    "confirmFriend": "Confirmar amigo"
+    "autocomplete": "Elige Jefe de Incursiones personalizado"
 }

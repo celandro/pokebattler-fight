@@ -21,8 +21,10 @@
     "quickSettings": {
         "title": "Quick Settings"
     },
-    "counters": {
-        "title": "{{defender}} Counters",
+    "summary": {
+        "title": "{{defender}} Raid Simulation",
+        "tab": "Summary",
+        "tabIcon": "poll",
         "description": "These are your top 6 counters to defeat a {{tier}} {{defender}} raid boss. Click Create RaidParty or Join Raid Party to get help vs. this boss!",
         "rejoin": "Rejoined in {{rejoinSeconds}}s",
         "settings": {
@@ -34,16 +36,19 @@
             "BATTLE_PARTY_LEVEL_40": "Using best level 40 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_45": "Using best level 45 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
             "BATTLE_PARTY_LEVEL_50": "Using best level 50 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_POKEBOX": "Using your best counters. Don't see what you have here? Add Pokemon in your Pokebox which you can quickly fill on the alternative tab"
-        },
-        "details": {
-            "title": "Combat Details",
-            "description" :"Pokebattler performed 200 simulations of the raid battle for each possible counter to choose which Pokemon to use. The top 6 were then run in 200 simulations as a party. The following is the combat details from a typical result."
+            "BATTLE_PARTY_POKEBOX": "Using your best counters. Don't see what you have here? Add Pokemon in your Pokebox which you can quickly fill on the counters tab"
         },
         "emptyPokebox": "Custom results will be here after you add Pokemon to your Pokebox. Try adding pokemon that you have on the 3rd tab."
     },
-    "alternatives": {
+    "counters": {
+        "title": "{{defender}} Counters",
+        "tab": "Counters",
         "description": "These are your top 6 counters to defeat a {{tier}} {{defender}} raid boss. Add alternative Pokemon to your party below!"
+    },
+    "combatants": {
+        "title": "{{defender}} Combatants",
+        "tab": "Combatants",
+        "description" :"Pokebattler performed 200 simulations of the raid battle for each possible counter to choose which Pokemon to use. The top 6 were then run in 200 simulations as a party. The following is the combatant details from a typical result."
     },
     "joinPartyDialog": {
         "title": "Join Party",
