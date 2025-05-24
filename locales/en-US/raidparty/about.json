@@ -71,6 +71,9 @@
         "heading11": "Data Retention",
         "paragraph18": "Account data is retained as long as necessary to enable users to return in the future. Accounts may be deleted in the app account section, website account section or via email to admin@pokebattler.com from the registered email account."
     },
+    "dev": {
+        "title": "Developer"
+    },
     "about": {
         "title": "About Pokebattler",
         "pokebattler": {

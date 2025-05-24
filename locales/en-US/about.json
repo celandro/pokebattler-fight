@@ -11,5 +11,51 @@
     "sponsor": "Pokebattler.com has been sponsored by {{link}}. Check them out!",
     "privacy": "",
     "privacyLink": "",
-    "images": ""
+    "images": "",
+    "dev": {
+        "push": {
+            "title": "Push Token",
+            "description": "Your expo push token: {{token}}",
+            "noToken": "No push token found"
+        },
+        "lastReceivedNotification": {
+            "title": "Last Received Notification",
+            "subtitle": "Subtitle: {{subtitle}}",
+            "body": "Body: {{body}}",
+            "data": "Data: {{data}}",
+            "date": "Date: {{date}}",
+            "noNotification": "No notification received while app open"
+        },
+        "lastClickedNotification": {
+            "title": "Last Clicked Notification",
+            "subtitle": "Subtitle: {{subtitle}}",
+            "body": "Body: {{body}}",
+            "data": "Data: {{data}}",
+            "date": "Date: {{date}}",
+            "noNotification": "No notification clicked while app open"
+        },
+        "expoSideNotification": {
+            "title": "Expo Side Notification",
+            "sendExpoMessage": "Send create message via Expo"
+        },
+        "clientSideNotification": {
+            "title": "Client Side Notification",
+            "showRaidStartingNow": "Show raid starting now message in 1s"
+        },
+        "gluestackToasts": {
+            "title": "Gluestack Toasts",
+            "showDefaultToast": "Show default toast",
+            "showErrorToast": "Show error toast",
+            "showSuccessToast": "Show success toast",
+            "showWarningToast": "Show warning toast"
+        },
+        "sentryTest": {
+            "title": "Sentry Test",
+            "sendSentryException": "Send Sentry Exception"
+        },
+        "pokemonList": {
+            "title": "Pokemon List",
+            "subtitle": "Supported Pokemon"
+        }
+    }
 }

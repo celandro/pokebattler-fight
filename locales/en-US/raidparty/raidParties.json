@@ -230,7 +230,8 @@
     "raidComplete": "This raid is complete. Thank you for raiding with Pokebattler Raid Party!",
     "raidPartyList": {
         "unavailable": "Unavailable Raid Parties",
-        "available": "Available Raid Parties"
+        "available": "Available Raid Parties",
+        "recent": "Recent Raid Parties"
     },
     "clipboard": {
         "copyAttackers": "Copy Attackers",
@@ -266,7 +267,7 @@
     "coins": {
         "spendCard": {
             "title": "Earn coins or subscribe to join raids early.",
-            "button": "Join early"
+            "button": "Join early ⏩"
         },
         "upgradePopup": {
             "title": "Upgrade for Coins!",
