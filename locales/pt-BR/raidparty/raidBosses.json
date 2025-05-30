@@ -74,7 +74,8 @@
     "raidPartyPlayer": {
         "title": "{{name}}",
         "id": "#{{id}}",
-        "addFriendCode": "Adicionar Código de Amigo"
+        "addFriendCode": "Adicionar Código de Amigo",
+        "userLevel": "Nível {{level}}"
     },
     "errors": {
         "failed": "Falha ao obter chefes de reide!",

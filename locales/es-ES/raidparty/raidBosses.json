@@ -74,7 +74,8 @@
     "raidPartyPlayer": {
         "title": "{{name}}",
         "id": "#{{id}}",
-        "addFriendCode": "Agregar Código de amigo"
+        "addFriendCode": "Agregar Código de amigo",
+        "userLevel": "Nivel {{level}}"
     },
     "errors": {
         "failed": "Falló al cargar jefes de incursiones!",

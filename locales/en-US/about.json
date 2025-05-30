@@ -13,6 +13,7 @@
     "privacyLink": "",
     "images": "",
     "dev": {
+        "title": "Dev",
         "push": {
             "title": "Push Token",
             "description": "Your expo push token: {{token}}",

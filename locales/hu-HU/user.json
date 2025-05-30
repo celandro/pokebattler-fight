@@ -65,7 +65,7 @@
         "currentProduct": "Jelenlegi előnyök",
         "plans": {
             "6month": {
-                "shortTitle": "6 hónap",
+                "shortTitle": "6 hónap {{localizedPrice}}",
                 "discount": "Spóroljon {{discount}}% - {{trialPeriodDays}} napos ingyenes próbaverziót",
                 "monthlyPrice": "Vásároljon 6 hónapot előre havonta {{currency}} {{intervalCost}} áron.",
                 "shortDiscount": "-{{discount}}%",
@@ -78,11 +78,11 @@
                 "title": "3 hónap - ${{intervalCost}} / hó",
                 "shortDiscount": "-{{discount}}%",
                 "discount": "Spóroljon {{discount}}% - {{trialPeriodDays}} napos ingyenes próbaverziót",
-                "shortTitle": "3 hónap"
+                "shortTitle": "3 hónap {{localizedPrice}}"
             },
             "1month": {
                 "monthlyPrice": "Vásároljon egyetlen hónapot. Takarítson meg egy több hónapos csomag kiválasztásával!",
-                "shortTitle": "1 hónap",
+                "shortTitle": "1 hónap {{localizedPrice}}",
                 "discount": "Megtakarítás több hónapos csomag kiválasztásával",
                 "subtitle": "A (z) {{trialPeriodDays}} napos ingyenes próbaidőszak után havonta {{cost}} dollárt kell fizetnie.",
                 "title": "1 hónap - ${{intervalCost}} / hó"

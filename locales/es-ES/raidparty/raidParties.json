@@ -50,7 +50,7 @@
     },
     "placeholder": "Ingresa a un jefe personalizado para simular",
     "discord": {
-        "joinServer": "Unirse al Servidor'",
+        "joinServer": "Unirse al Servidor",
         "privateServer": "Servidor Privado",
         "joinChat": "Unirse al Chat",
         "oneClickJoin": "Únete al Instante",
@@ -60,11 +60,11 @@
     "raidStartingIn": "Inicia la incursión",
     "noTimeSpecified": "No hay una hora especificada",
     "startingTime": {
-        "default": "Selecciona tiempo de inicio",
+        "default": "Seleccionar Hora de Inicio",
+        "15": "15 segundos",
         "30": "30 segundos",
         "120": "2 minutos",
-        "300": "5 minutos",
-        "15": "15 segundos"
+        "300": "5 minutos"
     },
     "helpModal": {
         "raidNetwork": {
@@ -74,7 +74,8 @@
             "description2": "Para utilizar la red, necesitas ingresar tu nombre de entrenador y código de amistad. Estos son compartidos con los bots de Discord para permitir la coordinación de incursiones.",
             "description3": "Las incursiones en Discord son creadas por medio de los bots PokeNav o Nexus y son controladas por los dueños de los servidores. Estas incursiones globales son enviadas a la red luego de un pequeño lapso de tiempo, permitiendo usuarios locales en el servidor a unirse primero. Puedes unirte cuando el contador de tiempo llega a 0 o el botón ⏩ aparece.",
             "description4": "Suscriptores de Pokebattler actualmente obtienen un pequeño aviso para unirse a incursiones. Los beneficios finales no han sido definidos aún y están sujetos a cambios sin previo aviso",
-            "joinDescription": "",
+            "description5": "",
+            "joinDescription": "Las incursiones con chat son compatibles a través de integraciones de bots de Discord y se pueden alojar en cualquier Discord que tenga Nexus o PokeNav configurado para la Red de Incursiones.",
             "joinButton": "Únete al Discord de Pokebattler Raid Party",
             "beConsiderate": "¡Por favor, sé considerado de los servidores a los que te unes y muestra tu mejor comportamiento! Jugadores abusivos, conducta escandalosa y jugadores que no coordinan en la incursión serán permanentemente baneados de la red de incursiones."
         },
@@ -135,7 +136,8 @@
     },
     "raidPartySummaryCard": {
         "title": "{{defender}}",
-        "subtitle": "{{ownerName}} - #{{id}}"
+        "subtitle": "{{ownerName}} - #{{id}}",
+        "linkTo": "Friends"
     },
     "raidPartyHost": {
         "title": "Anfitrión",
@@ -186,6 +188,7 @@
     },
     "selfRaidList": {
         "title": "Tus Incursiones",
+        "tab": "Historial",
         "subtitle": "Las incursiones que has creado o te has unido están aquí. Busca en tus incursiones para encontrar amigos que agregar en la Pokebattler Raid Network"
     },
     "goCommand": "Vamos",
@@ -198,7 +201,8 @@
     "raidComplete": "Esta incursión ha finalizado. Gracias por hacer incursiones con Pokebattler Raid Party!",
     "raidPartyList": {
         "unavailable": "Grupos de Incursión No Disponibles",
-        "available": "Grupos de Incursión Disponibles"
+        "available": "Grupos de Incursión Disponibles",
+        "recent": "Grupos de Incursión Recientes"
     },
     "clipboard": {
         "friendCodeCopied": "¡Código de amigo de {{ownerName}} copiado! ¡Pégalo en el juego para enviar una invitación de amistad al anfitrión!",
@@ -211,11 +215,26 @@
         "title": "Únete de nuevo a la incursión",
         "subtitle": "Sólo puedes unirte a una incursión a la vez. Por favor, clickea para volver a unirte y completar la incursión"
     },
+    "raidPartyStatus": {
+        "INTERESTED": "Disponible",
+        "FULL": "Lleno",
+        "LOBBY": "Sala de espera",
+        "DONE": "Hecho",
+        "READY": "En curso"
+    },
     "raidVotingPopup": {
-        "title": "Grupo de incursión finalizado",
-        "thankYouMessage": "¡Gracias por jugar con Pokebattler Raid Party! ¿Qué tal estuvo la incursión de {{ownerName}}?",
-        "thankYouMessageHost": "¡Gracias por organizar una incursión con Pokebattler Raid Party!",
-        "closeButton": "Cerrar"
+        "player": {
+            "title": "Confirmación - Abandonar Incursión",
+            "thankYou": "¡Gracias por participar en incursiones con Pokebattler Raid Party!",
+            "rate": "¿Califica la partida de {{ownerName}}?",
+            "close": "$t(raidBosses:leaveParty)"
+        },
+        "host": {
+            "title": "Confirmación - Finalizar Incursión",
+            "thankYou": "¡Gracias por organizar con Pokebattler Raid Party!",
+            "rate": "¿Cómo calificarías tu experiencia como anfitrión?",
+            "close": "$t(raidBosses:finishParty)"
+        }
     },
     "kickUserPreviewPopup": {
         "title": "Quitar Jugador",
@@ -262,5 +281,11 @@
     },
     "createRaidForm": {
         "title": "Crear equipo de incursión"
+    },
+    "highMaxPlayers": {
+        "title": "ADVERTENCIA",
+        "description": "¡Invitar a más de 5 jugadores remotos es bastante complicado! Por favor, asegúrate de que sabes cómo hacerlo.",
+        "button": "¡Mira cómo invitar a 10 jugadores!",
+        "url": "https://youtube.com/shorts/Bn9kwYhm1M0"
     }
 }

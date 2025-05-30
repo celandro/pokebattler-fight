@@ -145,7 +145,7 @@
         "errors": {
             "createRaidPartyGeneral": "Raid party could not be created for {{raidPartyPokemon}}",
             "updateRaidPartyGeneral": "Raid party could not be updated for {{raidPartyPokemon}}",
-            "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyPokemon}}",
+            "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyId}}",
             "getRaidResultsGeneral": "Raid results from party {{raidPartyId}} could not be retrieved",
             "removeUserFromRaidPartyGeneral": "You could not leave party #{{raidPartyId}}",
             "addUserToRaidPartyGeneral": "You could not join party #{{raidPartyId}}",

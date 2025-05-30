@@ -74,7 +74,8 @@
     "raidPartyPlayer": {
         "title": "{{name}}",
         "id": "#{{id}}",
-        "addFriendCode": "Add Friend Code"
+        "addFriendCode": "Add Friend Code",
+        "userLevel": "Level {{level}}"
     },
     "errors": {
         "failed": "Failed to get raid bosses!",
