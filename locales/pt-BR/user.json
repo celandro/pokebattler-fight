@@ -155,14 +155,14 @@
                 "title": "1 mês - ${{intervalCost}}/mo",
                 "subtitle": "Você será cobrado ${{cost}} por mês após o seu teste de {{trialPeriodDays}} dias grátis.",
                 "discount": "Economize selecionando um plano de vários meses",
-                "shortTitle": "1 Mês {{localizedPrice}}",
+                "shortTitle": "1 Mês",
                 "monthlyPrice": "Comprar apenas um mês. Economize ao selecionar um plano de vários meses!"
             },
             "3month": {
                 "title": "3 meses - ${{intervalCost}}/mo",
                 "subtitle": "Você será cobrado ${{cost}} a cada 3 meses após seu período de {{trialPeriodDays}} dias grátis.",
                 "discount": "Economize {{discount}}% - {{trialPeriodDays}} dias de teste grátis",
-                "shortTitle": "3 Meses {{localizedPrice}}",
+                "shortTitle": "3 Meses",
                 "shortDiscount": "-{{discount}}%",
                 "monthlyPrice": "Compre 3 meses adiantado para {{currency}}{{intervalCost}} por mês."
             },
@@ -170,7 +170,7 @@
                 "title": "6 meses - ${{intervalCost}}/mo",
                 "subtitle": "Você será cobrado ${{cost}} a cada 6 meses após os {{trialPeriodDays}} dias do teste grátis.",
                 "discount": "Economize{{discount}}% - {{trialPeriodDays}} Dias de Teste Grátis",
-                "shortTitle": "6 Meses {{localizedPrice}}",
+                "shortTitle": "6 Meses",
                 "shortDiscount": "-{{discount}}%",
                 "monthlyPrice": "Compre 6 meses adiantados para {{currency}}{{intervalCost}} por mês."
             }
