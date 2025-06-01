@@ -2271,7 +2271,15 @@
     "ZACIAN_CROWNED_SWORD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZACIAN_CROWNED_SWORD_FORM)",
     "ZACIAN_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZACIAN)",
     "ZAMAZENTA_CROWNED_SHIELD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA_CROWNED_SHIELD_FORM)",
-    "ZAMAZENTA_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA)"
+    "ZAMAZENTA_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA)",
+    "PIKACHU_GOFEST_2025_GOGGLES_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Blue Goggles",
+    "PIKACHU_GOFEST_2025_GOGGLES_RED_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Red Goggles",
+    "PIKACHU_GOFEST_2025_GOGGLES_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Goggles",
+    "PIKACHU_GOFEST_2025_MONOCLE_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Blue Monocle",
+    "PIKACHU_GOFEST_2025_MONOCLE_RED_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Red Monocle",
+    "PIKACHU_GOFEST_2025_MONOCLE_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Monocle",
+    "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR_FORM": "$t(constants:pokemon.FALINKS) GiFest 2025 Train Conductor"
+
   },
   "moves": {
     "undefined": "",
@@ -2819,7 +2827,10 @@
     "TORCH_SONG": "Torch Song",
     "BEHEMOTH_BLADE":"Behemoth Blade",
     "BEHEMOTH_BASH": "Behemoth Bash",
-    "UPPER_HAND": "Upper Hand"
+    "UPPER_HAND": "Upper Hand",
+    "THUNDER_CAGE": "Thunder Cage",
+    "CRUSH_GRIP": "Crush Grip",
+    "DRAGON_ENERGY": "Dragon Energy"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
