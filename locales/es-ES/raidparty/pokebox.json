@@ -79,6 +79,7 @@
         "beginImport": "Comenzar importación",
         "paste": "Pegar",
         "errors": {
+            "parse": "Los datos pegados no tenían un formato compatible. Asegúrate de incluir una fila de encabezado.",
             "pokemonId": "$t(common:pokemon) no es válido.",
             "quickMove": "$t(pokeform.quickMove.label) no es válido.",
             "cinematicMove": "$t(pokeform.cinematicMove.label) no es válido.",

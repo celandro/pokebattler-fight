@@ -23,7 +23,8 @@
         "noSearchResults": "No se encontraron amigos, inténtelo de nuevo!"
     },
     "levels": {
-        "FRIENDSHIP_LEVEL_0": "Sin amistad",
+        "FRIENDSHIP_LEVEL_UNSET": "Sin amistad",
+        "FRIENDSHIP_LEVEL_0": "Nuevos amigos",
         "FRIENDSHIP_LEVEL_1": "Buena amistad",
         "FRIENDSHIP_LEVEL_2": "Gran amistad",
         "FRIENDSHIP_LEVEL_3": "Ultraamistad",

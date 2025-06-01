@@ -28,9 +28,12 @@
             "optional": "Optional"
         }
     },
+    "select": "Select",
+    "submit": "Submit",
     "search": "Search",
     "back": "Back",
     "save": "Save",
+    "filter": "Filter",
     "cancel": "Cancel",
     "update": "Update",
     "clear": "Clear",

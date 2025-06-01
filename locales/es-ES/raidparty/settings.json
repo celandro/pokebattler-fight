@@ -76,6 +76,18 @@
             "updateUser": {
                 "name": "Usuario actualizó equipo",
                 "description": "Usuario en tu equipo actualizó sus ajustes."
+            },
+            "kickedUser": {
+                "name": "Usuario expulsado",
+                "description": "El usuario fue expulsado del equipo."
+            },
+            "raidInvitingNow": {
+                "name": "Enviando invitaciones",
+                "description": "Las invitaciones para la incursión se están enviando ahora"
+            },
+            "raidStartingNow": {
+                "name": "Incursión comenzando",
+                "description": "La incursión está comenzando ahora"
             }
         }
     }

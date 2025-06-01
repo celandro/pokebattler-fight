@@ -145,7 +145,7 @@
         "errors": {
             "createRaidPartyGeneral": "Raid party could not be created for {{raidPartyPokemon}}",
             "updateRaidPartyGeneral": "Raid party could not be updated for {{raidPartyPokemon}}",
-            "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyPokemon}}",
+            "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyId}}",
             "getRaidResultsGeneral": "Raid results from party {{raidPartyId}} could not be retrieved",
             "removeUserFromRaidPartyGeneral": "You could not leave party #{{raidPartyId}}",
             "addUserToRaidPartyGeneral": "You could not join party #{{raidPartyId}}",
@@ -181,14 +181,17 @@
     },
     "globalRaidList": {
         "title": "Pokebattler Raid Network",
+        "tab": "Global",
         "subtitle": "Join Remote Raids from around the world! For Discord raids, you will be added to the raid and sent directly to the Discord channel to coordinate."
     },
     "friendRaidList": {
         "title": "Friend Raids",
+        "tab": "Friends",
         "subtitle": "Add friends in the Pokebattler Raid App and join their raids here. You will get push notifications when your friends are raiding and mutual friends can join global raids before others"
     },
     "selfRaidList": {
         "title": "Your Raids",
+        "tab": "History",
         "subtitle": "The raids you have hosted or joined are here. Look through your raids to find friends to add in the Pokebattler Raid Network"
     },
     "refresh": "Refresh",
@@ -227,7 +230,8 @@
     "raidComplete": "This raid is complete. Thank you for raiding with Pokebattler Raid Party!",
     "raidPartyList": {
         "unavailable": "Unavailable Raid Parties",
-        "available": "Available Raid Parties"
+        "available": "Available Raid Parties",
+        "recent": "Recent Raid Parties"
     },
     "clipboard": {
         "copyAttackers": "Copy Attackers",
@@ -263,7 +267,7 @@
     "coins": {
         "spendCard": {
             "title": "Earn coins or subscribe to join raids early.",
-            "button": "Join early"
+            "button": "Join early ⏩"
         },
         "upgradePopup": {
             "title": "Upgrade for Coins!",

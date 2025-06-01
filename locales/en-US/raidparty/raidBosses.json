@@ -46,8 +46,8 @@
         "description": "These are your top 6 counters to defeat a {{tier}} {{defender}} raid boss. Add alternative Pokemon to your party below!"
     },
     "combatants": {
-        "title": "{{defender}} Combatants",
-        "tab": "Combatants",
+        "title": "{{defender}} Raid Party",
+        "tab": "Party",
         "description" :"Pokebattler performed 200 simulations of the raid battle for each possible counter to choose which Pokemon to use. The top 6 were then run in 200 simulations as a party. The following is the combatant details from a typical result."
     },
     "joinPartyDialog": {
@@ -74,7 +74,8 @@
     "raidPartyPlayer": {
         "title": "{{name}}",
         "id": "#{{id}}",
-        "addFriendCode": "Add Friend Code"
+        "addFriendCode": "Add Friend Code",
+        "userLevel": "Level {{level}}"
     },
     "errors": {
         "failed": "Failed to get raid bosses!",

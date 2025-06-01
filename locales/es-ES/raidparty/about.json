@@ -67,7 +67,12 @@
         "heading9": "Política Infantil",
         "paragraph16": "Estos Servicios no están dirigidos para ningún individuo menor de 13 años de edad. Nosotros no recolectamos información personal identificable a sabiendas de que pertenecen a niños menores a 13 años. En el caso que descubramos que un niño menor de 13 años nos ha provisto de información personal, nosotros la eliminamos inmediatamente de nuestros servidores. Si usted es un padre o guardián legal y está al tanto de que su niño nos ha provisto de información personal, por favor, contáctese con nosotros de forma de poder realizar las acciones necesarias.",
         "heading10": "Cambios a Esta Política de Privacidad",
-        "paragraph17": "Nosotros podemos actualizar nuestra Política de Privacidad en el transcurso del tiempo. De esta manera, le recomendamos revisar esta página periódicamente por cualquier cambio. Nosotros le notificaremos de cualquier cambio publicando la nueva Política de Privacidad en esta página. Estos cambios serán efectivos inmediatamente luego de ser publicados en esta página."
+        "paragraph17": "Nosotros podemos actualizar nuestra Política de Privacidad en el transcurso del tiempo. De esta manera, le recomendamos revisar esta página periódicamente por cualquier cambio. Nosotros le notificaremos de cualquier cambio publicando la nueva Política de Privacidad en esta página. Estos cambios serán efectivos inmediatamente luego de ser publicados en esta página.",
+        "heading11": "Retención de Datos",
+        "paragraph18": "Los datos de la cuenta se conservan durante el tiempo necesario para permitir que los usuarios regresen en el futuro. Las cuentas pueden eliminarse en la sección de cuentas de la aplicación, en la sección de cuentas del sitio web o por correo electrónico a admin@pokebattler.com desde la cuenta de correo electrónico registrada."
+    },
+    "dev": {
+        "title": "Desarrollador"
     },
     "about": {
         "title": "Acerca de Pokebattler",
