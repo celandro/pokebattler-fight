@@ -50,10 +50,12 @@
 
   "pokeform": {
     "cp": {
-      "label": "Cp"
+      "label": "Cp",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
     "nickname": {
-      "label": "Nickname"
+      "label": "Nickname",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
     "quickMove": {
       "label": "Quick Move",

@@ -20,6 +20,12 @@
         "friendLevel": "Friendship",
         "discordUsername": "Discord Username",
         "language": "Language",
+        "theme": "Theme",
+        "themeOptions": {
+            "system": "System Default (requires app restart)",
+            "light": "Light",
+            "dark": "Dark"
+        },
         "disclaimerText": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids",
         "raidCounterSettings": "Raid Counter Settings",
         "pushNotificationSettings": "Push Notification Settings",
@@ -43,7 +49,8 @@
         "autoBattleParty": "Switching counters to your Pokebox",
         "errors": {
             "updateSettingGeneral": "There was an error updating your settings",
-            "friendCodeLength": "Friend code must be exactly 12 numbers long"
+            "friendCodeLength": "Friend code must be exactly 12 numbers long",
+            "themeSaveFailed": "Failed to save theme preference"
         }
     },
     "notifications": {
@@ -90,9 +97,6 @@
                 "name": "Raid Starting",
                 "description": "Raid starting now"
             }
-
-
         }
-
     }
 }
