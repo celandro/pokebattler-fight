@@ -2232,6 +2232,8 @@
     "SAMUROTT_HISUIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SAMUROTT_HISUIAN_FORM)",
     "BUNNELBY_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.BUNNELBY)",
     "DIGGERSBY_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DIGGERSBY)",
+    "TYRUNT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.TYRUNT)",
+    "TYRANTRUM_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.TYRANTRUM)",
     "VENUSAUR_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.VENUSAUR)",
     "CHARIZARD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.CHARIZARD)",
     "BLASTOISE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.BLASTOISE)",
