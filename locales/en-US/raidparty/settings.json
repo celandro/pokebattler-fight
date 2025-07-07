@@ -22,9 +22,14 @@
         "language": "Language",
         "theme": "Theme",
         "themeOptions": {
-            "system": "System Default (requires app restart)",
+            "system": "System Default",
             "light": "Light",
             "dark": "Dark"
+        },
+        "themeWarnings": {
+            "light": "",
+            "dark": "",
+            "system": "Requires app restart"
         },
         "disclaimerText": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids",
         "raidCounterSettings": "Raid Counter Settings",
