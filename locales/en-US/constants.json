@@ -2280,7 +2280,8 @@
     "PIKACHU_GOFEST_2025_MONOCLE_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Blue Monocle",
     "PIKACHU_GOFEST_2025_MONOCLE_RED_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Red Monocle",
     "PIKACHU_GOFEST_2025_MONOCLE_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Monocle",
-    "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR_FORM": "$t(constants:pokemon.FALINKS) GiFest 2025 Train Conductor"
+    "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR_FORM": "$t(constants:pokemon.FALINKS) GiFest 2025 Train Conductor",
+    "GIMMIGHOUL_COIN_A1_FORM": "$t(constants:pokemon.GIMMIGHOUL) A1 Coin"
 
   },
   "moves": {
