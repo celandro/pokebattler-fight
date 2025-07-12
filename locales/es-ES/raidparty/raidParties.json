@@ -69,15 +69,15 @@
     "helpModal": {
         "raidNetwork": {
             "title": "Pokebattler Raid Network",
-            "subtitle": "Unirse a incursiones Discord remotas",
-            "description": "¡Unirse a incursiones en la Pokebattler Raid Network es rápido y sencillo! Simplemente únete a la incursión y te unirá temporalmente al servidor Discord, te agregará a la incursión, y te enviará al canal para comunicarte con el anfitrión. Serás removido automáticamente del servidor luego de algún tiempo por el propio Discord. Tu puesto en la incursión se mantendrá por un corto período de tiempo hasta que te unas momentáneamente al servidor en Discord ",
-            "description2": "Para utilizar la red, necesitas ingresar tu nombre de entrenador y código de amistad. Estos son compartidos con los bots de Discord para permitir la coordinación de incursiones.",
-            "description3": "Las incursiones en Discord son creadas por medio de los bots PokeNav o Nexus y son controladas por los dueños de los servidores. Estas incursiones globales son enviadas a la red luego de un pequeño lapso de tiempo, permitiendo usuarios locales en el servidor a unirse primero. Puedes unirte cuando el contador de tiempo llega a 0 o el botón ⏩ aparece.",
-            "description4": "Suscriptores de Pokebattler actualmente obtienen un pequeño aviso para unirse a incursiones. Los beneficios finales no han sido definidos aún y están sujetos a cambios sin previo aviso",
-            "description5": "",
-            "joinDescription": "Las incursiones con chat son compatibles a través de integraciones de bots de Discord y se pueden alojar en cualquier Discord que tenga Nexus o PokeNav configurado para la Red de Incursiones.",
+            "subtitle": "Unirse a incursiones remotas",
+            "description": "Pokebattler Raid Network es una forma de unirte a incursiones con tus amigos en la aplicación Pokebattler, aplicaciones de terceros o en Discord.",
+            "description2": "¡Unirse a incursiones de Discord en la Pokebattler Raid Network es rápido y fácil! Simplemente únete a la incursión y te unirá temporalmente al servidor de Discord, te agregará a la incursión y te enviará al canal de Discord para comunicarte con el anfitripon. Serás eliminado automáticamente del servidor después de un tiempo por el propio Discord. Tu lugar en la incursión se guardará por un corto período de tiempo hasta que hagas clic para unirte temporalmente al servidor en Discord.",
+            "description3": "Para poder usar la red, necesitarás ingresar tu nombre de entrenador y tu código de amigo. Esto se comparte con los bots de Discord para permitir la coordinación de la incursión. Las incursiones de Discord también requieren vincular tu cuenta de Discord.",
+            "description4": "Las incursiones de Discord son alojadas por los bots Pokenav o Nexus y son controladas por los propietarios de los servidores. Estas incursiones globales se envían a la red con un retraso, permitiendo que los usuarios locales del servidor se unan primero. Puedes unirte cuando el temporizador de cuenta regresiva llegue a 0 o aparezca el botón ⏩.",
+            "description5": "Los suscriptores de Pokebattler actualmente tienen una pequeña ventaja para unirse a las incursiones. Esto también se puede usar gastando monedas. Puedes unirte a la incursión antes haciendo clic en el botón ⏩.",
+            "joinDescription": "Las incursiones con chat son compatibles a través de integraciones de bots de discord y pueden ser alojadas en cualquier Discord que tenga Nexus o PokeNav configurado para la Red de Incursiones.",
             "joinButton": "Únete al Discord de Pokebattler Raid Party",
-            "beConsiderate": "¡Por favor, sé considerado de los servidores a los que te unes y muestra tu mejor comportamiento! Jugadores abusivos, conducta escandalosa y jugadores que no coordinan en la incursión serán permanentemente baneados de la red de incursiones."
+            "beConsiderate": "¡Por favor, sé considerado con los servidores a los que te unes y compórtate de la mejor manera! Los jugadores abusivos, la conducta desordenada y los jugadores que no coordinen con la incursión serán baneados permanentemente de la red de incursiones."
         },
         "raidHost": {
             "title": "Pokebattler Raid Party - Incursiones en la app",
