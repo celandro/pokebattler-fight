@@ -426,8 +426,18 @@
         "meta": {
             "description": "The best overall {{type}} raid attackers in Pokemon Go raids based on performance against all possible raids!  Points are assigned based on relative ranking performance and by tier of raid boss"
         },
-        "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 1x for tier 1)"
+        "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 0x for tier 1)"
     },
+    "raidAttackerDetails": {
+        "title": "{{attackerName}} Raid Attacker Analysis",
+        "subtitle": "{{move1Name}} {{move2Name}}",
+        "meta": {
+            "title": "Raid Attacker - {{attackerName}} {{move1Name}} {{move2Name}}",
+            "description": "The best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Find the best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}}. Find out exactly how useful {{attackerName}} is in Pokemon Go raids!"
+        },
+        "availableMoves": "Available Moves",
+        "counters": "Counters"
+    },    
     "raidParty": {
         "title": "Pokebattler Raid Party",
         "meta": {

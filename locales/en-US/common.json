@@ -97,7 +97,7 @@
     "includeShadow": "Show Shadow Pokemon",
     "includeLegendary": "Show Legendary Pokemon",
     "includeMegas": "Show Mega Pokemon",
-    "includeTypes": "Show By Pokemon Type",
+    "includeTypes": "Choose Type",
     "primalAssistants": "Active Primal Boosts",
     "properties": {
         "overall": "Overall",
@@ -132,6 +132,8 @@
         "level": "$t(common:level)",
         "rank": "Rank",
         "points": "Points",
+        "matchups": "Matchups",
+        "avg_estimator": "Avg. Estimator",
         "dynamaxEnergy": "Max Energy"
     },
     "sectionLinks": {
