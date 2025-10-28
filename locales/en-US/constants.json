@@ -2199,7 +2199,7 @@
     "IRONBOULDER": "Iron Boulder",
     "IRONCROWN": "Iron Crown",
     "TERAPAGOS": "Terapagos",
-    "PECHARUNT": "Pecharunt",    
+    "PECHARUNT": "Pecharunt",
     "PIKACHU_JEJU_FORM": "$t(constants:pokemon.PIKACHU) - Jeju",
     "PIKACHU_WCS_2023_FORM": "$t(constants:pokemon.PIKACHU) - 2023 WCS",
     "PIKACHU_GOTOUR_2024_A_FORM": "$t(constants:pokemon.PIKACHU) - 2024 A",
@@ -2264,7 +2264,6 @@
     "PIKIPEK_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PIKIPEK)",
     "TRUMBEAK_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.TRUMBEAK)",
     "TOUCANNON_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.TOUCANNON)",
-
     "VENUSAUR_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.VENUSAUR)",
     "CHARIZARD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.CHARIZARD)",
     "BLASTOISE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.BLASTOISE)",
@@ -2313,7 +2312,6 @@
     "PIKACHU_GOFEST_2025_MONOCLE_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Monocle",
     "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR_FORM": "$t(constants:pokemon.FALINKS) GiFest 2025 Train Conductor",
     "GIMMIGHOUL_COIN_A1_FORM": "$t(constants:pokemon.GIMMIGHOUL) A1 Coin"
-
   },
   "moves": {
     "undefined": "",
@@ -2847,8 +2845,8 @@
     "GMAX_FIREBALL3": "$t(constants:moves.GMAX_FIREBALL) MAX",
     "GMAX_HYDROSNIPE3": "$t(constants:moves.GMAX_HYDROSNIPE) MAX",
     "GMAX_ONE_BLOW3": "$t(constants:moves.GMAX_ONE_BLOW) MAX",
-    "AURA_WHEEL_MOVE": "Aura Wheel",
     "AURA_WHEEL": "$t(constants:moves.AURA_WHEEL_MOVE) $t{constants:types.POKEMON_TYPE_ELECTRIC}",
+    "AURA_WHEEL": "Aura Wheel",
     "AURA_WHEEL_DARK": "$t(constants:moves.AURA_WHEEL_MOVE) $t{constants:types.POKEMON_TYPE_DARK}",
     "RAGE_FIST": "Rage Fist",
     "FLOWER_TRICK": "Flower Trick",
@@ -2859,7 +2857,7 @@
     "FREEZE_SHOCK": "Freeze Shock",
     "ICE_BURN": "Ice Burn",
     "TORCH_SONG": "Torch Song",
-    "BEHEMOTH_BLADE":"Behemoth Blade",
+    "BEHEMOTH_BLADE": "Behemoth Blade",
     "BEHEMOTH_BASH": "Behemoth Bash",
     "UPPER_HAND": "Upper Hand",
     "THUNDER_CAGE": "Thunder Cage",

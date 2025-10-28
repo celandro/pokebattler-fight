@@ -2983,7 +2983,20 @@
     "GMAX_HYDROSNIPE": "Gâchette G-Max",
     "GMAX_ONE_BLOW": "Coup Final G-Max",
     "GMAX_RAPID_FLOW": "Multicoup G-Max",
-    "RAGE_FIST": "Poing de Colère"
+    "RAGE_FIST": "Poing de Colère",
+    "FLOWER_TRICK": "Magie Florale",
+    "FREEZE_SHOCK": "Éclair Gelé",
+    "ICE_BURN": "Feu Glacé",
+    "TORCH_SONG": "Chant Flamboyant",
+    "BEHEMOTH_BLADE": "Gladius Maximus",
+    "BEHEMOTH_BASH": "Aegis Maxima",
+    "UPPER_HAND": "Prio-Parade",
+    "THUNDER_CAGE": "Voltageôle",
+    "DYNAMAX_CANNON": "Canon Dynamax",
+    "CLANGING_SCALES": "Vibrécaille",
+    "CRUSH_GRIP": "Presse",
+    "DRAGON_ENERGY": "Draco-Énergie",
+    "AQUA_STEP": "Danse Aquatique"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

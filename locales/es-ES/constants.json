@@ -3025,7 +3025,20 @@
     "GMAX_HYDROSNIPE": "Gigadisparo",
     "GMAX_ONE_BLOW": "Gigagolpe Brusco",
     "GMAX_RAPID_FLOW": "Gigagolpe Fluido",
-    "RAGE_FIST": "Puño Furia"
+    "RAGE_FIST": "Puño Furia",
+    "FLOWER_TRICK": "Truco Floral",
+    "FREEZE_SHOCK": "Rayo Gélido",
+    "ICE_BURN": "Llama Gélida",
+    "TORCH_SONG": "Canto Ardiente",
+    "BEHEMOTH_BLADE": "Tajo Supremo",
+    "BEHEMOTH_BASH": "Embate Supremo",
+    "UPPER_HAND": "Palma Rauda",
+    "THUNDER_CAGE": "Electrojaula",
+    "DYNAMAX_CANNON": "Cañón Dinamax",
+    "CLANGING_SCALES": "Fragor Escamas",
+    "CRUSH_GRIP": "Agarrón",
+    "DRAGON_ENERGY": "Dracoenergía",
+    "AQUA_STEP": "Danza Acuática"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",
