@@ -27,7 +27,8 @@
         "guessTier": "Guess Tier",
         "common": {
             "boss": "Boss",
-            "raidTier": "Raid Tier"
+            "raidTier": "Raid Tier",
+            "difficulty": "Difficulty"
         },
         "RAID_LEVEL_NEWS": {
             "title": "News",
