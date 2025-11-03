@@ -2199,7 +2199,7 @@
     "IRONBOULDER": "Iron Boulder",
     "IRONCROWN": "Iron Crown",
     "TERAPAGOS": "Terapagos",
-    "PECHARUNT": "Pecharunt",    
+    "PECHARUNT": "Pecharunt",
     "PIKACHU_JEJU_FORM": "$t(constants:pokemon.PIKACHU) - Jeju",
     "PIKACHU_WCS_2023_FORM": "$t(constants:pokemon.PIKACHU) - 2023 WCS",
     "PIKACHU_GOTOUR_2024_A_FORM": "$t(constants:pokemon.PIKACHU) - 2024 A",
@@ -2268,7 +2268,6 @@
     "THUNDURUS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.THUNDURUS)",
     "LANDORUS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LANDORUS)",
     "OVERQWIL_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.OVERQWIL)",	    
-
     "VENUSAUR_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.VENUSAUR)",
     "CHARIZARD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.CHARIZARD)",
     "BLASTOISE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.BLASTOISE)",
@@ -2317,7 +2316,6 @@
     "PIKACHU_GOFEST_2025_MONOCLE_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Monocle",
     "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR_FORM": "$t(constants:pokemon.FALINKS) GiFest 2025 Train Conductor",
     "GIMMIGHOUL_COIN_A1_FORM": "$t(constants:pokemon.GIMMIGHOUL) A1 Coin"
-
   },
   "moves": {
     "undefined": "",
@@ -2863,7 +2861,7 @@
     "FREEZE_SHOCK": "Freeze Shock",
     "ICE_BURN": "Ice Burn",
     "TORCH_SONG": "Torch Song",
-    "BEHEMOTH_BLADE":"Behemoth Blade",
+    "BEHEMOTH_BLADE": "Behemoth Blade",
     "BEHEMOTH_BASH": "Behemoth Bash",
     "UPPER_HAND": "Upper Hand",
     "THUNDER_CAGE": "Thunder Cage",

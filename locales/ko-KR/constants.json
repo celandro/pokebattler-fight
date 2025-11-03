@@ -2987,7 +2987,20 @@
     "GMAX_HYDROSNIPE": "거다이저격",
     "GMAX_ONE_BLOW": "거다이일격",
     "GMAX_RAPID_FLOW": "거다이연격",
-    "RAGE_FIST": "분노의주먹"
+    "RAGE_FIST": "분노의주먹",
+    "FLOWER_TRICK": "트릭플라워",
+    "FREEZE_SHOCK": "프리즈볼트",
+    "ICE_BURN": "콜드플레어",
+    "TORCH_SONG": "플레어송",
+    "BEHEMOTH_BLADE": "거수참",
+    "BEHEMOTH_BASH": "거수탄",
+    "UPPER_HAND": "기선제압",
+    "THUNDER_CAGE": "썬더프리즌",
+    "DYNAMAX_CANNON": "다이맥스포",
+    "CLANGING_SCALES": "스케일노이즈",
+    "CRUSH_GRIP": "묵사발",
+    "DRAGON_ENERGY": "드래곤에너지",
+    "AQUA_STEP": "아쿠아스텝"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "노멀",

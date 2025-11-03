@@ -3126,7 +3126,20 @@
     "GMAX_HYDROSNIPE": "Giga-Schütze",
     "GMAX_ONE_BLOW": "Giga-Einzelhieb",
     "GMAX_RAPID_FLOW": "Giga-Multihieb",
-    "RAGE_FIST": "Zornesfaust"
+    "RAGE_FIST": "Zornesfaust",
+    "FLOWER_TRICK": "Blumentrick",
+    "FREEZE_SHOCK": "Frostvolt",
+    "ICE_BURN": "Frosthauch",
+    "TORCH_SONG": "Loderlied",
+    "BEHEMOTH_BLADE": "Gigantenhieb",
+    "BEHEMOTH_BASH": "Gigantenstoß",
+    "UPPER_HAND": "Schnellkonter",
+    "THUNDER_CAGE": "Blitzgefängnis",
+    "DYNAMAX_CANNON": "Dynamax-Kanone",
+    "CLANGING_SCALES": "Schuppenrasseln",
+    "CRUSH_GRIP": "Quetschgriff",
+    "DRAGON_ENERGY": "Drachenkräfte",
+    "AQUA_STEP": "Wogentanz"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

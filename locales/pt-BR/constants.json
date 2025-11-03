@@ -3183,7 +3183,20 @@
     "GMAX_HYDROSNIPE": "Hidroatirador G-Max",
     "GMAX_ONE_BLOW": "Golpe Único G-Max",
     "GMAX_RAPID_FLOW": "Fluxo Veloz G-Max",
-    "RAGE_FIST": "Punho Feroz"
+    "RAGE_FIST": "Punho Feroz",
+    "FLOWER_TRICK": "Truque Floral",
+    "FREEZE_SHOCK": "Choque Congelante",
+    "ICE_BURN": "Queimadura de Gelo",
+    "TORCH_SONG": "Canção Ardente",
+    "BEHEMOTH_BLADE": "Espada Colossal",
+    "BEHEMOTH_BASH": "Pancada Colossal",
+    "UPPER_HAND": "Supermão",
+    "THUNDER_CAGE": "Prisão Elétrica",
+    "DYNAMAX_CANNON": "Canhão Dinamax",
+    "CLANGING_SCALES": "Batida de Escamas",
+    "CRUSH_GRIP": "Aperto Esmagador",
+    "DRAGON_ENERGY": "Energia Dracônica",
+    "AQUA_STEP": "Passo Aquático"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {
