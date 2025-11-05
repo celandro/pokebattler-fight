@@ -380,5 +380,8 @@
         "error": "Sorry, there was a problem loading the page. Check your connection",
         "retry": "Retry"
     },
-    "legacyDate": "{{legacyDate,shortDate}}"
+    "legacyDate": "{{legacyDate,shortDate}}",
+    "from": "From",
+    "until": "Until",
+    "localTime": "Local Time"
 }
