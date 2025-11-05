@@ -2917,7 +2917,20 @@
     "GMAX_HYDROSNIPE": "Gigasparomirato",
     "GMAX_ONE_BLOW": "Gigasingolcolpo",
     "GMAX_RAPID_FLOW": "Gigapluricolpo",
-    "RAGE_FIST": "Pugno Furibondo"
+    "RAGE_FIST": "Pugno Furibondo",
+    "FLOWER_TRICK": "Prestigiafiore",
+    "FREEZE_SHOCK": "Elettrogelo",
+    "ICE_BURN": "Vampagelida",
+    "TORCH_SONG": "Canzone Ardente",
+    "BEHEMOTH_BLADE": "Taglio Maestoso",
+    "BEHEMOTH_BASH": "Colpo Maestoso",
+    "UPPER_HAND": "Colpo di Mano",
+    "THUNDER_CAGE": "Elettrogabbia",
+    "DYNAMAX_CANNON": "Cannone Dynamax",
+    "CLANGING_SCALES": "Clamorsquame",
+    "CRUSH_GRIP": "Sbriciolmano",
+    "DRAGON_ENERGY": "Dragoenergia",
+    "AQUA_STEP": "Idroballetto"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",
