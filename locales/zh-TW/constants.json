@@ -412,10 +412,10 @@
     "MEGA_EVO": "Mega",
     "MEGA_X_EVO": "X",
     "MEGA_Y_EVO": "Y",
-    "NORMAL_FORM": "Normal",
+    "NORMAL_FORM": "一般形態",
     "SHADOW_FORM": "暗影",
     "ALOLA_FORM": "阿羅拉形態",
-    "GALARIAN_FORM": "Galarian",
+    "GALARIAN_FORM": "伽勒爾形態",
     "UNOWN_A_FORM": "未知圖騰 - A",
     "UNOWN_B_FORM": "未知圖騰 - B",
     "UNOWN_C_FORM": "未知圖騰 - C",
@@ -1186,18 +1186,18 @@
     "SPINDA_18_FORM": "晃晃斑 - 18",
     "SPINDA_19_FORM": "晃晃斑 - 19",
     "undefined": "",
-    "DEERLING_SPRING_FORM": "Spring Deerling",
-    "DEERLING_SUMMER_FORM": "Summer Deerling",
-    "DEERLING_AUTUMN_FORM": "Autumn Deerling",
-    "DEERLING_WINTER_FORM": "Winter Deerling",
-    "SAWSBUCK_SPRING_FORM": "Spring Sawsbuck",
-    "SAWSBUCK_SUMMER_FORM": "Summer Sawsbuck",
-    "SAWSBUCK_AUTUMN_FORM": "Autumn Sawsbuck",
-    "SAWSBUCK_WINTER_FORM": "Winter Sawsbuck",
-    "GENESECT_SHOCK_FORM": "Shock Genesect",
-    "GENESECT_BURN_FORM": "Burn Genesect",
-    "GENESECT_CHILL_FORM": "Chill Genesect",
-    "GENESECT_DOUSE_FORM": "Douse Genesect",
+    "DEERLING_SPRING_FORM": "春之四季鹿",
+    "DEERLING_SUMMER_FORM": "夏之四季鹿",
+    "DEERLING_AUTUMN_FORM": "秋之四季鹿",
+    "DEERLING_WINTER_FORM": "冬之四季鹿",
+    "SAWSBUCK_SPRING_FORM": "春之萌芽鹿",
+    "SAWSBUCK_SUMMER_FORM": "夏之萌芽鹿",
+    "SAWSBUCK_AUTUMN_FORM": "秋之萌芽鹿",
+    "SAWSBUCK_WINTER_FORM": "冬之萌芽鹿",
+    "GENESECT_SHOCK_FORM": "蓋諾賽克特（電擊）",
+    "GENESECT_BURN_FORM": "蓋諾賽克特（灼燒）",
+    "GENESECT_CHILL_FORM": "蓋諾賽克特（冰凍）",
+    "GENESECT_DOUSE_FORM": "蓋諾賽克特（水流）",
     "MAROWAK_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.MAROWAK)",
     "CHINGLING": "Chingling",
     "STUNKY": "Stunky",
@@ -1438,7 +1438,7 @@
     "KYUREM": "Kyurem",
     "KELDEO": "Keldeo",
     "MELOETTA": "Meloetta",
-    "GENESECT": "Genesect",
+    "GENESECT": "蓋諾賽克特",
     "ZACIAN": "Zacian",
     "ZAMAZENTA": "Zamazenta",
     "ETERNATUS": "Eternatus",
@@ -1814,7 +1814,7 @@
     "SIRFETCHD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SIRFETCHD)",
     "CURSOLA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon:CURSOLA)",
     "MR_RIME_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon:MR_RIME)",
-    "PIKACHU_COSTUME_2020_FORM": "Flying Pikachu",
+    "PIKACHU_COSTUME_2020_FORM": "飛行皮卡丘",
     "DRAGONITE_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.DRAGONITE)",
     "ONIX_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.ONIX)",
     "NOEVOLVE_FORM": "No Evolve",
@@ -1943,16 +1943,16 @@
     "HOOPA_CONFINED_FORM": "$t(constants:pokemon.HOOPA) - Confined",
     "HOOPA_UNBOUND_FORM": "$t(constants:pokemon.HOOPA) - Unbound",
     "SABLEYE_COSTUME_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.SABLEYE)",
-    "PIKACHU_ADVENTURE_HAT_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Adventure Hat $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_ADVENTURE_HAT_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) 冒險帽 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) 冬季 $t(constants:pokemon.PIKACHU)",
     "DELIBIRD_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.DELIBIRD)",
     "CUBCHOO_WINTER_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) Winter $t(constants:pokemon.CUBCHOO)",
     "SLOWPOKE_2020_FORM": "$t(constants:pokemon.2020_COSTUME_FORM) $t(constants:pokemon.SLOWPOKE)",
     "SLOWBRO_2021_FORM": "$t(constants:pokemon.2021_COSTUME_FORM) $t(constants:pokemon.SLOWBRO)",
     "PIKACHU_KARIYUSHI_FORM": "Kariyushi $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_POP_STAR_FORM": "Pop Star $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_ROCK_STAR_FORM": "Rock Star $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_FLYING_5TH_ANNIV_FORM": "Flying 5th Anniversary $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_POP_STAR_FORM": "流行巨星 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_ROCK_STAR_FORM": "搖滾巨星 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_FLYING_5TH_ANNIV_FORM": "飛行 5 週年 $t(constants:pokemon.PIKACHU)",
     "ORICORIO_BAILE_FORM": "$t(constants:pokemon.ORICORIO) - Baile",
     "ORICORIO_POMPOM_FORM": "$t(constants:pokemon.ORICORIO) - Pompom",
     "ORICORIO_PAU_FORM": "$t(constants:pokemon.ORICORIO) - Pau",
@@ -2012,9 +2012,9 @@
     "SUICUNE_S_FORM": "$t(constants:pokemon.APEX) $t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SUICUNE)",
     "SLOWKING_2022_FORM": "$t(constants:pokemon.SLOWKING) - 2022",
     "ELECTRODE_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.ELECTRODE)",
-    "PIKACHU_FLYING_OKINAWA_FORM": "Okinawa Flying $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_FLYING_OKINAWA_FORM": "沖繩 飛行 $t(constants:pokemon.PIKACHU)",
     "BASCULIN_WHITE_STRIPED_FORM": "White Striped $t(constants:pokemon.BASCULIN)",
-    "PIKACHU_GOFEST_2022_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2022",
+    "PIKACHU_GOFEST_2022_FORM": "$t(constants:pokemon.PIKACHU) - GO Fest 2022",
     "ROCKRUFF_DUSK_FORM": "$t(constants:pokemon.ROCKRUFF) Dusk",
     "DECIDUEYE_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.DECIDUEYE)",
     "TYPHLOSION_HISUIAN_FORM": "$t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.TYPHLOSION)",
@@ -2037,10 +2037,10 @@
     "ENAMORUS_INCARNATE_FORM": "$t(constants:pokemon.ENAMORUS) Incarnate",
     "ENAMORUS_THERIAN_FORM": "$t(constants:pokemon.ENAMORUS) Therian",
     "PIKACHU_WCS_2022_FORM": "WCS 2022 $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_FLYING_01_FORM": "Flying 1 $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_FLYING_02_FORM": "Flying 2 $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_TSHIRT_01_FORM": "Tshirt 1 $t(constants:pokemon.PIKACHU)",
-    "PIKACHU_TSHIRT_02_FORM": "Tshirt 2 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_FLYING_01_FORM": "飛行 1 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_FLYING_02_FORM": "飛行 2 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_TSHIRT_01_FORM": "T 恤 1 $t(constants:pokemon.PIKACHU)",
+    "PIKACHU_TSHIRT_02_FORM": "T 恤 2 $t(constants:pokemon.PIKACHU)",
     "PRIMAL_FORM": "Primal",
     "GROUDON_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.GROUDON)",
     "KYOGRE_PRIMAL": "$t(constants:pokemon.PRIMAL_FORM) $t(constants:pokemon.KYOGRE)",
@@ -2066,10 +2066,10 @@
     "KORAIDON_APEX_FORM": "$t(constants:pokemon.KORAIDON) - Apex",
     "MIRAIDON_ULTIMATE_FORM": "$t(constants:pokemon.MIRAIDON) - Ultimate",
     "AERODACTYL_SUMMER_2023_FORM": "$t(constants:pokemon.AERODACTYL) - Summer 2023",
-    "PIKACHU_SUMMER_2023_A_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
-    "PIKACHU_SUMMER_2023_B_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 B",
-    "PIKACHU_SUMMER_2023_C_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 C",
-    "PIKACHU_SUMMER_2023_D_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 D",
+    "PIKACHU_SUMMER_2023_A_FORM": "$t(constants:pokemon.PIKACHU) - 2023 夏季 A",
+    "PIKACHU_SUMMER_2023_B_FORM": "$t(constants:pokemon.PIKACHU) - 2023 夏季 B",
+    "PIKACHU_SUMMER_2023_C_FORM": "$t(constants:pokemon.PIKACHU) - 2023 夏季 C",
+    "PIKACHU_SUMMER_2023_D_FORM": "$t(constants:pokemon.PIKACHU) - 2023 夏季 D",
     "TAUROS_PALDEA_COMBAT_FORM": "$t(constants:pokemon.TAUROS) - Paldea Combat",
     "TAUROS_PALDEA_BLAZE_FORM": "$t(constants:pokemon.TAUROS) - Paldea Blaze",
     "TAUROS_PALDEA_AQUA_FORM": "$t(constants:pokemon.TAUROS) - Paldea Aqua",
@@ -2077,9 +2077,9 @@
     "GEODUDE_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GEODUDE)",
     "GRAVELER_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GRAVELER)",
     "GOLEM_ALOLA_SHADOW_FORM": "$t(constants:pokemon:SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.GOLEM)",
-    "PIKACHU_SUMMER_2023_E_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
-    "PIKACHU_FLYING_03_FORM": "$t(constants:pokemon.PIKACHU) - Summer 2023 A",
-    "PIKACHU_FLYING_04_FORM": "$t(constants:pokemon.PIKACHU) - Flying 4",
+    "PIKACHU_SUMMER_2023_E_FORM": "$t(constants:pokemon.PIKACHU) - 2023 夏季 A",
+    "PIKACHU_FLYING_03_FORM": "$t(constants:pokemon.PIKACHU) - 2023 夏季 A",
+    "PIKACHU_FLYING_04_FORM": "$t(constants:pokemon.PIKACHU) - 飛行 4",
     "ZYGARDE_COMPLETE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - Complete 10%",
     "ZYGARDE_COMPLETE_FIFTY_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) - Complete 50%",
     "SPRIGATITO": "Sprigatito",
@@ -2200,17 +2200,17 @@
     "IRONCROWN": "Iron Crown",
     "TERAPAGOS": "Terapagos",
     "PECHARUNT": "Pecharunt",
-    "PIKACHU_JEJU_FORM": "$t(constants:pokemon.PIKACHU) - Jeju",
+    "PIKACHU_JEJU_FORM": "$t(constants:pokemon.PIKACHU) - 濟州",
     "PIKACHU_WCS_2023_FORM": "$t(constants:pokemon.PIKACHU) - 2023 WCS",
-    "PIKACHU_GOTOUR_2024_A_FORM": "$t(constants:pokemon.PIKACHU) - 2024 A",
-    "PIKACHU_GOTOUR_2024_A_02_FORM": "$t(constants:pokemon.PIKACHU) - 2024 A 2",
-    "PIKACHU_GOTOUR_2024_B_FORM": "$t(constants:pokemon.PIKACHU) - 2024 B",
-    "PIKACHU_GOTOUR_2024_B_02_FORM": "$t(constants:pokemon.PIKACHU) - 2024 B 2",
+    "PIKACHU_GOTOUR_2024_A_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2024 A",
+    "PIKACHU_GOTOUR_2024_A_02_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2024 A 2",
+    "PIKACHU_GOTOUR_2024_B_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2024 B",
+    "PIKACHU_GOTOUR_2024_B_02_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2024 B 2",
     "DIALGA_ORIGIN_FORM": "$t(constants:pokemon.DIALGA) - Origin",
     "PALKIA_ORIGIN_FORM": "$t(constants:pokemon.PALKIA) - Origin",
-    "PIKACHU_DOCTOR_FORM": "$t(constants:pokemon.PIKACHU) - Doctor",
+    "PIKACHU_DOCTOR_FORM": "$t(constants:pokemon.PIKACHU) - 醫生",
     "PIKACHU_HORIZONS_FORM": "$t(constants:pokemon.PIKACHU) - Horizons",
-    "PIKACHU_TSHIRT_03_FORM": "$t(constants:pokemon.PIKACHU) - Tshirt 3",
+    "PIKACHU_TSHIRT_03_FORM": "$t(constants:pokemon.PIKACHU) - T 恤 3",
     "PERSIAN_ALOLA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ALOLA_FORM) $t(constants:pokemon.PERSIAN)",
     "ARCANINE_HISUIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HISUIAN_FORM) $t(constants:pokemon.ARCANINE)",
     "WYRDEER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WYRDEER)",
@@ -2221,9 +2221,9 @@
     "EEVEE_GOFEST_2024_MTIARA_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 M Tiara",
     "EEVEE_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 S Tiara",
     "EEVEE_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.EEVEE) - Gofest 2024 S Scarf",
-    "PIKACHU_GOFEST_2024_MTIARA_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 M Tiara",
-    "PIKACHU_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 S Tiara",
-    "PIKACHU_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.PIKACHU) - Gofest 2024 S Scarf",
+    "PIKACHU_GOFEST_2024_MTIARA_FORM": "$t(constants:pokemon.PIKACHU) - GO Fest 2024 王冠（公）",
+    "PIKACHU_GOFEST_2024_STIARA_FORM": "$t(constants:pokemon.PIKACHU) - GO Fest 2024 王冠（母）",
+    "PIKACHU_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.PIKACHU) - GO Fest 2024 圍巾（母）",
     "UMBREON_GOFEST_2024_MSCARF_FORM": "$t(constants:pokemon.UMBREON) - Gofest 2024 M Scarf",
     "UMBREON_GOFEST_2024_SSCARF_FORM": "$t(constants:pokemon.UMBREON) - Gofest 2024 S Scarf",
     "ESPEON_GOFEST_2024_MSCARF_FORM": "$t(constants:pokemon.ESPEON) - Gofest 2024 M Scarf",
@@ -2231,13 +2231,13 @@
     "TANDEMAUS_FAMILY_OF_FOUR_FORM": "$t(constants:pokemon.ESPEON) - Family of Four",
     "TANDEMAUS_FAMILY_OF_THREE_FORM": "$t(constants:pokemon.ESPEON) - Family of Three",
     "PIKACHU_WCS_2024_FORM": "$t(constants:pokemon.PIKACHU) - WCS 2024",
-    "PIKACHU_DIWALI_2024_FORM": "$t(constants:pokemon.PIKACHU) - Diwali 2024",
+    "PIKACHU_DIWALI_2024_FORM": "$t(constants:pokemon.PIKACHU) - 排燈節 2024",
     "SNORLAX_WILDAREA_2024_FORM": "$t(constants:pokemon.SNORLAX) - Wild Area 2024",
-    "PIKACHU_JIJU_FORM": "$t(constants:pokemon.PIKACHU) - Gotour 2025 A",
-    "PIKACHU_GOTOUR_2025_A_FORM": "$t(constants:pokemon.PIKACHU) - Gotour 2025 A",
-    "PIKACHU_GOTOUR_2025_A_02_FORM": "$t(constants:pokemon.PIKACHU) - Gotour 2025 A2",
-    "PIKACHU_GOTOUR_2025_B_FORM": "$t(constants:pokemon.PIKACHU) - Gotour 2025 B",
-    "PIKACHU_GOTOUR_2025_B_02_FORM": "$t(constants:pokemon.PIKACHU) - Gotour 2025 B2",
+    "PIKACHU_JIJU_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2025 A",
+    "PIKACHU_GOTOUR_2025_A_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2025 A",
+    "PIKACHU_GOTOUR_2025_A_02_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2025 A2",
+    "PIKACHU_GOTOUR_2025_B_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2025 B",
+    "PIKACHU_GOTOUR_2025_B_02_FORM": "$t(constants:pokemon.PIKACHU) - GO Tour 2025 B2",
     "PIKACHU_KURTA_FORM": "$t(constants:pokemon.PIKACHU) - Kurta",
     "ZIGZAGOON_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ZIGZAGOON)",
     "LINOONE_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
@@ -2308,12 +2308,12 @@
     "ZACIAN_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZACIAN)",
     "ZAMAZENTA_CROWNED_SHIELD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA_CROWNED_SHIELD_FORM)",
     "ZAMAZENTA_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA)",
-    "PIKACHU_GOFEST_2025_GOGGLES_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Blue Goggles",
-    "PIKACHU_GOFEST_2025_GOGGLES_RED_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Red Goggles",
-    "PIKACHU_GOFEST_2025_GOGGLES_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Goggles",
-    "PIKACHU_GOFEST_2025_MONOCLE_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Blue Monocle",
-    "PIKACHU_GOFEST_2025_MONOCLE_RED_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Red Monocle",
-    "PIKACHU_GOFEST_2025_MONOCLE_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Monocle",
+    "PIKACHU_GOFEST_2025_GOGGLES_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GO Fest 2025 護目鏡（藍）",
+    "PIKACHU_GOFEST_2025_GOGGLES_RED_FORM": "$t(constants:pokemon.PIKACHU) GO Fest 2025 護目鏡（紅）",
+    "PIKACHU_GOFEST_2025_GOGGLES_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GO Fest 2025 護目鏡（黃）",
+    "PIKACHU_GOFEST_2025_MONOCLE_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GO Fest 2025 單片鏡（藍）",
+    "PIKACHU_GOFEST_2025_MONOCLE_RED_FORM": "$t(constants:pokemon.PIKACHU) GO Fest 2025 單片鏡（紅）",
+    "PIKACHU_GOFEST_2025_MONOCLE_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GO Fest 2025 單片鏡（黃）",
     "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR_FORM": "$t(constants:pokemon.FALINKS) GiFest 2025 Train Conductor",
     "GIMMIGHOUL_COIN_A1_FORM": "$t(constants:pokemon.GIMMIGHOUL) A1 Coin"
   },
@@ -2644,7 +2644,7 @@
     "SHADOW_SUPPRESS": "Shadow Suppress",
     "SHADOW_PURIFICATION": "Shadow Purification",
     "SPACIAL_REND": "Spacial Rend",
-    "NATURES_MADNESS": "Nature’s Madness",
+    "NATURES_MADNESS": "Nature's Madness",
     "TRIPLE_AXEL": "Triple Axel",
     "TRAILBLAZE": "Trailblaze",
     "SCORCHING_SANDS": "Scorching Sands",
@@ -2930,7 +2930,7 @@
       },
       "PVP": {
         "label": "PvP",
-        "description": "This strategy uses pvp mechanices."
+        "description": "此策略使用 PvP 規則進行模擬。"
       }
     },
     "dodge": {
@@ -3269,82 +3269,86 @@
   "friendLevels": {
     "FRIENDSHIP_LEVEL_UNSET": {
       "label": "非朋友",
-      "description": "If you are not friends with anyone else in the raid, you get no bonus to attack."
+      "description": "若在團戰中與其他人皆非朋友，則不會有任何攻擊加成。"
     },
     "FRIENDSHIP_LEVEL_0": {
       "label": "新朋友",
-      "description": "If you are new friends with anyone else in the raid, you get no bonus to attack. You can only trade regular Pokemon both players already own."
+      "description": "若在團戰中為『新朋友』，不會有攻擊加成。交換僅限雙方已擁有的一般寶可夢。"
     },
     "FRIENDSHIP_LEVEL_1": {
       "label": "好朋友",
-      "description": "The maximum friend level you have with anyone at the raid. Good Friends get a 3% bonus to attack and can trade non-mythical Pokemon."
+      "description": "你在此團戰中的最高朋友等級。好朋友可獲攻擊 +3% 加成，並可交換非幻之寶可夢。"
     },
     "FRIENDSHIP_LEVEL_2": {
       "label": "給力好朋友",
-      "description": "The maximum friend level you have with anyone at the raid. Great Friends get a 5% bonus to attack, 1 extra bonus ball in raids. They can trade non-mythical Pokemon with a 20% stardust discount."
+      "description": "你在此團戰中的最高朋友等級。給力好朋友可獲攻擊 +5% 加成，團戰多 1 顆獎勵球，交換非幻之寶可夢享 20% 星塵折扣。"
     },
     "FRIENDSHIP_LEVEL_3": {
       "label": "麻吉好朋友",
-      "description": "The maximum friend level you have with anyone at the raid. Ultra Friends get a 7% bonus to attack, 2 extra bonus balls in raids. They can trade non-mythical Pokemon with a 92% stardust discount."
+      "description": "你在此團戰中的最高朋友等級。麻吉好朋友可獲攻擊 +7% 加成，團戰多 2 顆獎勵球，交換非幻之寶可夢享 92% 星塵折扣。"
     },
     "FRIENDSHIP_LEVEL_4": {
       "label": "正港好朋友",
-      "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 10% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
+      "description": "你在此團戰中的最高朋友等級。正港好朋友可獲攻擊 +10% 加成，團戰多 4 顆獎勵球，交換非幻之寶可夢享 96% 星塵折扣。"
     }
   },
   "battlePartyTypes": {
     "COMBAT_LEAGUE_RAIDS_GYMS": {
-      "description": "6隻寶可夢(不限CP)。",
-      "label": "Raids & Gyms"
+      "description": "6 隻寶可夢（不限 CP）。",
+      "label": "團體戰與道館"
     },
     "COMBAT_LEAGUE_DEFAULT_GREAT": {
-      "label": "超級聯盟",
-      "description": "3 Pokemon with a maximum CP of 1500."
+      "label": "高級聯盟",
+      "description": "3 隻寶可夢，最大 CP 1500。"
     },
-    "label": "League",
+    "label": "聯盟",
     "COMBAT_LEAGUE_DEFAULT_ULTRA": {
-      "label": "Ultra League",
-      "description": "3 Pokemon with a maximum CP of 2500."
+      "label": "超級聯盟",
+      "description": "3 隻寶可夢，最大 CP 2500。"
     },
     "COMBAT_LEAGUE_DEFAULT_MASTER": {
-      "label": "Master League",
-      "description": "3 Pokemon with no limits."
+      "label": "大師聯盟",
+      "description": "3 隻寶可夢，無 CP 上限。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
-      "label": "Flying Cup",
-      "description": "3 Flying Pokemon with a maximum CP of 1500."
+      "label": "飛行盃",
+      "description": "3 隻飛行屬性寶可夢，最大 CP 1500。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
-      "label": "Halloween Cup",
-      "description": "3 Pokemon of Poison, Bug, Ghost, Dark or Fairy types with a maximum CP of 1500."
+      "label": "萬聖節盃",
+      "description": "3 隻毒／蟲／幽靈／惡／妖精屬性寶可夢，最大 CP 1500。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
-      "label": "Kanto Cup",
-      "description": "3 Pokemon from Gen 1 with a maximum CP of 1500."
+      "label": "關都盃",
+      "description": "3 隻第一世代寶可夢，最大 CP 1500。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
-      "label": "Holiday Cup",
-      "description": "3 Pokemon of Normal, Grass, Electric, Ice, Flying, or Ghost types with a maximum CP of 1500."
+      "label": "假日盃",
+      "description": "3 隻一般／草／電／冰／飛行／幽靈屬性寶可夢，最大 CP 1500。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
-      "label": "Great League - Remix",
-      "description": "10 most popular Great League Pokemon are banned with a maximum CP of 1500."
+      "label": "高級聯盟 - Remix",
+      "description": "封禁高級聯盟最熱門的 10 隻寶可夢，最大 CP 1500。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELEMENT": {
-      "label": "Great League - Element",
-      "description": "A restricted cup with a maximum CP of 500."
+      "label": "高級聯盟 - 元素",
+      "description": "受限制的盃賽，最大 CP 500。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
-      "label": "Great League - Bidoof",
-      "description": "Bidoof? Bidoof!"
+      "label": "高級聯盟 - 大牙狸",
+      "description": "大牙狸？大牙狸！"
     },
     "COMBAT_LEAGUE_PREMIER_CUP": {
-      "label": "Premier Cup",
-      "description": "3 non-legendary, non-mythical Pokemon."
+      "label": "頂級盃",
+      "description": "3 隻非傳說、非幻之寶可夢。"
     },
     "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
-      "label": "Ultra Premier Cup",
-      "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+      "label": "超級頂級盃",
+      "description": "3 隻非傳說、非幻之寶可夢，最大 CP 2500。"
+    },
+    "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
+      "label": "Silph 競技場 Sunrise 盃",
+      "description": "Silph 競技場第 3 賽季 10 月盃賽。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER_CLASSIC": {
       "label": "Premier Cup Classic",
@@ -3354,21 +3358,17 @@
       "label": "Ultra Premier Cup Classic",
       "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
     },
-    "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
-      "label": "Silph Arena Sunrise Cup",
-      "description": "The October Silph Arena Season 3 Cup tournament."
-    },
     "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
-      "label": "Silph Arena Marsh Cup",
-      "description": "The November Silph Arena Season 3 Cup tournament."
+      "label": "Silph 競技場 Marsh 盃",
+      "description": "Silph 競技場第 3 賽季 11 月盃賽。"
     },
     "COMBAT_LEAGUE_SILPH_NIGHTFALL_CUP": {
-      "label": "Silph Arena Nightfall Cup",
-      "description": "The December Silph Arena Season 3 Cup tournament."
+      "label": "Silph 競技場 Nightfall 盃",
+      "description": "Silph 競技場第 3 賽季 12 月盃賽。"
     },
     "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
-      "label": "Silph Arena Labyrinth Cup",
-      "description": "The February Silph Arena Season 3 Cup tournament."
+      "label": "Silph 競技場 Labyrinth 盃",
+      "description": "Silph 競技場第 3 賽季 2 月盃賽。"
     }
   },
   "aggregations": {
