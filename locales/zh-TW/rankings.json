@@ -1,48 +1,76 @@
 {
-    "index": {
-        "title": "排行",
-        "welcome": {
-            "title": "歡迎來到Pokebattler 排行 2.0版"
-        },
-        "recommendations": {
-            "title": "設定建議",
-            "paragraph1": {
-                "link1": "預設攻擊排行",
-                "link2": "低等級閃招攻擊者",
-                "link3": "40級戰鬥"
-            },
-            "paragraph2": {
-                "link1": "預設防守排行",
-                "link2": "30級全閃躲防守排行",
-                "link3": "高等級對戰"
-            }
-        },
-        "buttons": {
-            "attacker": "攻擊者",
-            "defender": "防守者",
-            "gotoRankings": "前往排行"
-        }
+  "index": {
+    "title": "排行",
+    "meta": {
+      "description": "Pokebattler 的 Pokémon GO 道館排行是世界第一準確，依你的偏好顯示最佳攻擊者與防守者。",
+      "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
     },
-    "list": {
-        "title": "寶可夢對戰排行",
-        "descriptions": {
-            "title": "關於這些排行",
-            "attackers": "攻擊方",
-            "defenders": "防守方"
-        },
-        "typeSelection": {
-            "attacker": "攻擊排行",
-            "defender": "防守排行"
-        },
-        "settings": {
-            "level": "寶可夢等級"
-        }
+    "welcome": {
+      "title": "歡迎來到 Pokebattler 排行 2.0！",
+      "paragraph1": "歡迎來到 Pokebattler 全新、最先進的個人化排行專區。與其他網站不同，你可以自由選擇想要的設定組合，打造專屬於你的自訂排行！本網站高度可自訂，允許你選擇攻擊者等級、防守者等級、攻擊策略、閃躲策略、排序與分組選項。",
+      "paragraph2": "此頁面會針對每種排行設定執行超過 30,000,000 次對戰模擬。涵蓋你選擇設定下的每一種攻擊者、攻擊者招式、防守者與防守者招式的所有組合。攻擊與防守兩種排行一共有數十萬種設定組合可選！盡情嘗試直到找到你喜歡的組合。"
+    },
+    "recommendations": {
+      "title": "設定建議",
+      "paragraph1": {
+        "text": "多數玩家的好起點是 {{link1}}。假設攻擊者等級 25，並模擬攻打一座困難的等級 30 道館。我個人習慣能出招就出，並嘗試閃躲特殊招式。結果可能會讓你驚訝。你也可以試試像 {{link2}} 或 {{link3}} 這樣有趣的設定。",
+        "link1": "預設攻擊排行",
+        "link2": "低等級閃招攻擊者",
+        "link3": "40級戰鬥"
+      },
+      "paragraph2": {
+        "text": "若你想知道哪些防守者在等級不足時較難擊敗，可以試試 {{link1}}。此設定假設攻擊者等級 25，並用等級 30 的寶可夢防守。你也可以用 {{link2}} 或 {{link3}} 讓對戰更公平一些。",
+        "link1": "預設防守排行",
+        "link2": "30級全閃躲防守排行",
+        "link3": "高等級對戰"
+      }
+    },
+    "buttons": {
+      "attacker": "攻擊者",
+      "defender": "防守者",
+      "gotoRankings": "前往排行"
+    }
+  },
+  "list": {
+    "title": "道館 {{typeSelection}}",
+    "meta": {
+      "description": "Pokebattler 的 Pokémon GO {{typeSelection}} 可以依攻擊者等級、防守者等級、閃躲能力等自訂！",
+      "image": "https://static.pokebattler.com/images/og_pvp_rankings.jpg"
+    },
+    "descriptions": {
+      "title": "關於這些排行",
+      "text": "此 {{type}} 排行是基於等級為 {{levels.attacker}} 的攻擊者對上等級為 {{levels.defender}} 的防守者進行模擬而得。排名模擬採用 {{strategies.attack}} 攻擊策略與 {{strategies.dodge}} 閃躲策略，並基於 $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 模擬類型。$t(common:simulation, {'count': {{numSims}}}) 已依據 {{details}} 完成。",
+      "textPokeboxAttackers": "此 {{type}} 排行是基於訓練家 {{userId}} 的攻擊者對上等級為 {{levels.defender}} 的防守者進行模擬而得。排名模擬採用 {{strategies.attack}} 攻擊策略與 {{strategies.dodge}} 閃躲策略，並基於 $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 模擬類型。$t(common:simulation, {'count': {{numSims}}}) 已依據 {{details}} 完成。",
+      "textPokeboxDefenders": "此 {{type}} 排行是基於等級為 {{levels.attacker}} 的攻擊者對上訓練家 {{userId}} 的防守者進行模擬而得。排名模擬採用 {{strategies.attack}} 攻擊策略與 {{strategies.dodge}} 閃躲策略，並基於 $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) 模擬類型。$t(common:simulation, {'count': {{numSims}}}) 已依據 {{details}} 完成。",
+      "attackers": "攻擊方",
+      "defenders": "防守方",
+      "details": {
+        "attackers": "以預期策略，將每隻完全進化的攻擊方寶可夢在所有可能的招式組合下，與最佳 30 名防守者在所有可能的招式組合下互相模擬。依 {{sort}} 指標保留最佳 30 名攻擊者與其最佳招式組，並在此顯示。",
+        "defenders": "以預期策略，針對每一種可能的招式組合進行模擬，找出每隻寶可夢最差的 6 名剋星，據此決定依 {{sort}} 指標的最佳 30 名防守者與其最佳招式組，並在此顯示。"
+      },
+      "help1": "You can click on any of the {{type}} to see the results for different movesets or click the grouping icon second from the right in the top right to see them ungrouped. Sort order can be changed by clicking the top right sort icon and selecting the type of sort you prefer.",
+      "help2": "Additional information regarding these advanced ranking simulations can be found in the {{link}}."
+    },
+    "loading": "正在產生 {{type}} 排行結果。此分析需要數以百萬計的模擬，但很快就會完成",
+    "typeSelection": {
+      "attacker": "攻擊排行",
+      "defender": "防守排行",
+      "attackers": "$t(rankings:list.typeSelection.attacker)",
+      "defenders": "$t(rankings:list.typeSelection.defender)"
+    },
+    "settings": {
+      "level": "寶可夢等級"
     },
     "featured": {
-        "title": {
-            "attacker": "與最佳30位防守者的對戰數據",
-            "defender": "與6位最強對手的平均對戰數據"
-        },
-        "deepLink": "詳情請見"
+      "title": "排名 {{rank}}"
     }
+  },
+  "featured": {
+    "title": {
+      "attacker": "與最佳 30 名防守者的平均對戰數據",
+      "defender": "與最差 6 個對位的平均對戰數據",
+      "raid": "對 {{pokemon}} 的平均對戰數據"
+    },
+    "deepLink": "查看更多 {{pokemon}} 的詳細資訊"
+  }
 }

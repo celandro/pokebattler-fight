@@ -1,2 +1,14 @@
 {
+  "title": "對戰結果",
+  "decimalPlaces": 2,
+  "winPerc": "% 勝率",
+  "seconds": "秒",
+  "totalCombatTime": "時間",
+  "effectiveCombatTime": "獲勝所需時間",
+  "tdo": "總輸出 (TDO)",
+  "deaths": "瀕死數",
+  "estimator": "估算人數",
+  "effectiveDeaths": "獲勝代價",
+  "missingData": "???",
+  "yourSummary": "你的摘要"
 }

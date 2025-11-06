@@ -1,7 +1,18 @@
 {
   "title": "Pokebattler隱私政策",
+  "meta": {
+    "description": "Pokebattler 隱私：Pokebattler 非常重視您的隱私，絕不會在網站以外分享任何私人使用者資料。",
+    "image": "https://static.pokebattler.com/images/og_more_privacy.jpg"
+  },
   "policy": "Pokebattler.com關心您的隱私。我們不會與第三方分享您的個人訊息，也不會儲存您訪問本網站的任何訊息，除了通過使用Cookie和本地儲存以分析和優化您在網站上的體驗。本地儲存特別用於儲存您的自定義設定以方便您訪問本站。",
+  "pokebox": "Pokebattler 不會以任何方式連線至 Niantic 的伺服器。寶可盒、訓練家資訊與其他個人化設定，使用 Google 與 Facebook 的單一登入功能，僅用於在不同裝置間提供一致的客製化體驗。我們不會擷取或儲存任何個人資訊，除了用於登入與帳號問題處理的識別編號與電子郵件地址。這些資料完全不會用於行銷或聯盟用途。這些功能為選用，僅為了讓你受益。像是訓練家名稱與寶可盒內容等資料，會用於支援網址分享、找朋友與其他網站功能。若你對隱私有所顧慮，請考慮不要輸入你的訓練家名稱或寶可夢的暱稱。",
   "browserSettings": "您隨時可以通過更改特定的瀏覽器設置來關閉Cookie和本地儲存的使用。",
   "changeNote": "本隱私政策如有更改，恕不另行通知，最後更新於{{changed_date}}。如有任何疑問請{{contactLink}}",
-  "contactLink": "聯繫我們。"
+  "contactLink": "聯繫我們。",
+  "terms": {
+    "title": "使用條款",
+    "meta": {
+      "description": "使用本網站或 App 的 Pokebattler 使用條款"
+    }
+  }
 }

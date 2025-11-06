@@ -1,40 +1,68 @@
 {
-    "title": "建議",
-    "linkLabel": "團體戰導引",
-    "inputs": {
-        "title": "你需要哪方面的建議？"
+  "title": "團體戰建議",
+  "meta": {
+    "description": "Pokémon GO 團體戰建議幫助你找出該強化哪些寶可夢，最有效率地花費糖果與星塵來擊敗頭目",
+    "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+  },
+  "linkLabel": "團體戰指南",
+  "inputs": {
+    "title": "建議設定",
+    "subtitle": "你需要哪方面的建議？"
+  },
+  "buttonLabel": "強化寶可夢",
+  "results": {
+    "title": "{{attacker}} 對 {{defender}} 的團體戰建議",
+    "meta": {
+      "description": "{{attacker}} 對 {{defender}} 的 Pokémon GO 團體戰建議結果，找出為了擊敗每位團體戰頭目最適合強化的寶可夢。",
+      "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
     },
-    "buttonLabel": "強化寶可夢",
-    "results": {
-        "title": "團體戰建議",
-        "calculating": "團體戰建議計算中",
-        "counters": {
-            "title": "剋星",
-            "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
-            "chooseMovesetLabel": "頭目的配招"
-        },
-        "hardestMovesets": {
-            "title": "頭目各種配招的挑戰難度",
-            "tableTitle": "頭目配招的挑戰難度(排名越上面越困難)",
-            "description": "防守寶可夢的招式組可決定團體戰難易度！",
-            "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
-        },
-        "analysis": {
-            "title": "關於此分析",
-            "attackers": {
-                "byLevel": "等級{{attackerLevel}}攻擊者",
-                "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
-            }
-        }
+    "calculating": "團體戰建議計算中",
+    "counters": {
+      "title": "剋星",
+      "subtitle": "最佳強化後的攻擊者，依",
+      "description": "以下分析顯示在 {{sort}} 指標上，對 {{pokemon}} 來說最有潛力成為最強打手的寶可夢。",
+      "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
+      "chooseMovesetLabel": "頭目的配招"
     },
-    "pokeboxRequired": "Pokebattler Advice 需要你輸入寶可夢。登入並加入你最強的寶可夢到 Pokebox，我們會協助你找到最合適強化的寶可夢。",
-    "result": {
-        "summaryStart": "起始結果",
-        "summaryEnd": "強化後結果",
-        "graphTitle": "{{yAxis}} vs. {{xAxis}}",
-        "detail": "每次強化對應的結果",
-        "back": "回到 Advice 設定"
+    "hardestMovesets": {
+      "title": "最難的團體戰",
+      "subtitle": "{{pokemon}} 依 {{sort}}",
+      "tableTitle": "最難對付的頭目配招",
+      "description": "團體戰的難度會隨防守方的招式組而大幅變化！"
     },
-    "raidLink": "看強化前的結果",
-    "helpLink": "看 Raid Advice 教學影片"
+    "analysis": {
+      "title": "關於此分析",
+      "description": "此團體戰建議係以 {{defender.cp}} CP 的 {{defender.pokemon}} 作為防守方，並搭配 {{attackers}} 進行模擬而得。模擬採用 {{attackStrategy}} 攻擊策略與 {{defenseStrategy}} 模擬類型。針對 {{defender.pokemon}} 的每種可能招式，都與所有寶可夢在每種可能招式組合下對戰，共執行 {{numSims}} 次模擬。依 {{sort}} 指標保留最佳 20 名攻擊者與其最佳招式組，並在此顯示。你可以點擊任何攻擊方查看該次模擬並嘗試不同招式。",
+      "attackers": {
+        "byLevel": "等級{{attackerLevel}}攻擊者",
+        "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
+      }
+    },
+    "description": "歡迎查看 {{pokemon}} 的 Pokebattler 團體戰建議。你可以依頭目的不同配招找到最佳的潛在剋星。此指南可從多種面向自訂：你可以選擇攻擊等級、攻擊策略與各種排序方式，也能設定你可用的星塵與糖果數量。"
+  },
+  "pokeboxRequired": "Pokebattler Advice 需要你輸入寶可夢。登入並加入你最強的寶可夢到 Pokebox，我們會協助你找到最合適強化的寶可夢。",
+  "result": {
+    "title": "{{attacker}} 對 {{defender}} 的建議詳情",
+    "meta": {
+      "description": "{{attacker}} 對 {{defender}} 的 Pokémon GO 團體戰建議詳情，顯示臨界點與星塵效率",
+      "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
+    },
+    "subTitle": "{{attacker}} vs. {{defender}}",
+    "description": "以下顯示 {{attacker}} 對 {{defender}} 的每次強化結果。結果會依 {{defender}} 的招式而有所不同。",
+    "summaryStart": "起始結果",
+    "summaryEnd": "強化後結果",
+    "graphTitle": "{{yAxis}} 對 {{xAxis}}",
+    "detail": "每次強化對應的結果",
+    "back": "回到建議設定",
+    "powerUpDialog": {
+      "title": "強化",
+      "description": "你要將 {{pokemon}} 強化 {{powerUps}} 次到 {{cp}} 嗎？",
+      "submit": "是",
+      "cancel": "否"
+    }
+  },
+  "raidLink": "看強化前的結果",
+  "helpLink": "看 Raid Advice 教學影片",
+  "intro": "Pokebattler 團體戰建議是一個客製化功能，幫助你針對特定團戰最佳化你的寶可夢盒子。只要選擇想要挑戰的頭目，輸入你可用的星塵與糖果，即可查看強化後的樣貌。這個工具會幫助你判斷哪些寶可夢最值得投入星塵與糖果，讓你的資源花得最有效率。",
+  "intro2": "執行模擬後，點擊任一寶可夢即可查看每次強化所帶來的提升。常常會出現臨界點，達到後就可以停手，省下星塵與糖果！與你看過的其他臨界點工具不同，本工具以實證方式找出不明顯的臨界點。"
 }

@@ -1,2 +1,10 @@
 {
+  "title": "協助翻譯 Pokebattler",
+  "meta": {
+    "description": "Pokebattler 翻譯讓使用者協助我們將網站在地化，讓所有人都能使用世界第一準確的 Pokémon GO 模擬器。",
+    "image": "https://static.pokebattler.com/images/og_more_translate.jpg"
+  },
+  "info": "本站支援多國語言！你可以幫助不懂英文的朋友更容易使用本網站。",
+  "how": "翻譯是透過名為 Weblate 的線上工具進行，可在 {{link}} 找到。你需要建立帳號、選擇語言，然後開始提出翻譯建議。這些翻譯會被審核，通常會自動接受。",
+  "rewards": "做出顯著貢獻的翻譯者可獲得一般僅訂閱者可用的特別回饋，包括可在你的寶可盒新增更多寶可夢，以及更高品質的自訂模擬。"
 }

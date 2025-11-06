@@ -1,5 +1,28 @@
 {
+  "title": "Pokémon GO 模擬器與排行",
+  "meta": {
+    "description": "全球最權威的 Pokémon GO 詳細分析。最佳模擬、可自訂排行，以及最準確的團體戰剋星！",
+    "image": "https://static.pokebattler.com/images/og_home.png"
+  },
+  "articles": {
+    "title": "深入的 Pokémon GO 文章",
+    "subtitle": "其他地方找不到的新聞與研究",
+    "more": "閱讀更多文章"
+  },
+  "article": {
+    "title": "{{title}}",
     "meta": {
-        "image": "https://static.pokebattler.com/images/og_home.png"
+      "description": "{{author}} 以{{format}} 於 {{date}} 發表，主題包含 {{categories}}。本文關於 {{tags}}。",
+      "image": "{{featuredURL}}"
     }
+  },
+  "news": {
+    "title": "更新日誌",
+    "meta": {
+      "description": "Pokebattler 最新發布資訊：世界第一準確 Pokémon GO 模擬器的更新日誌",
+      "image": "https://static.pokebattler.com/images/og_more_news.jpg"
+    },
+    "old": "較舊的消息",
+    "new": "較新的消息"
+  }
 }

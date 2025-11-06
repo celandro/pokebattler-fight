@@ -1,175 +1,212 @@
 {
-    "title": "如何使用Pokebattler",
-    "intro": "歡迎來到Pokebattler.com！您從未見過的最好最尖端的Pokemon GO道館模擬器。想知道卡比獸是否是個廢物？測試您的每一個寶可夢，看看他們在道館中將如何與其他寶可夢對抗。在每場戰鬥結束後，您都將獲得一份報告結果。",
-    "outro": "確認您檢查即將開放的功能，例如：登入以儲存您最好的道館戰寶可夢等功能。",
-    "now-battle": "寶可夢戰鬥吧！",
-    "sections": {
-        "battle": {
-            "title": "戰鬥",
-            "intro": {
-                "title": "建立戰鬥",
-                "text": "Pokebattler戰鬥模擬器是高度準確的，允許您以多種方式自定義您的戰鬥選項。選項包括："
-            },
-            "outro": {
-                "title": "戰鬥！",
-                "text": "展示完整的戰鬥結果。隨意選擇與嘗試其他組合"
-            },
-            "steps[0]": {
-                "label": "輸入搜索欄",
-                "description": "選擇您想參與戰鬥的攻擊方與防禦方"
-            },
-            "steps[1]": {
-                "label": "基本模式",
-                "description": "輸入CP值，不用擔心隱藏的數據，我們會儘可能地為您計算。"
-            },
-            "steps[2]": {
-                "label": "進階模式",
-                "description": "輸入您的寶可夢的確切等級與隱藏數據乙獲得最精準的模擬"
-            },
-            "steps[3]": {
-                "label": "選擇您的招式",
-                "description": "嘗試快速招式與能量招式的所有組合"
-            },
-            "steps[4]": {
-                "label": "選擇您的策略",
-                "description": "客製化寶可夢的攻擊與防禦方式。請參閱下面的定義部分。"
-            }
-        },
-        "rankings": {
-            "title": "排行",
-            "intro": {
-                "title": "自定義您的排行",
-                "text": "Pokebattler的排行系統是最先進的！沒有網站允許您更改您的設置，並比較每一個寶可夢在不同限制下的表現。自定義選項包括："
-            },
-            "outro": {
-                "title": "調查！",
-                "text": "顯示每個寶可夢的最佳招式組合。點擊寶可夢會顯示所有招式組合的詳細資訊"
-            },
-            "steps[0]": {
-                "label": "攻擊方/防禦方",
-                "description": "選擇攻擊方或防守方，攻擊方顯示與所有可能的防守方寶可夢的戰鬥結果；防守方顯示與最好的5個可能的攻擊方寶可夢的結果"
-            },
-            "steps[1]": {
-                "label": "分類",
-                "description": "選擇你想要的排行類型（見下文）"
-            },
-            "steps[2]": {
-                "label": "等級",
-                "description": "選擇攻擊方和防禦方寶可夢的等級"
-            },
-            "steps[3]": {
-                "label": "單一/全部",
-                "description": "選擇是否看到寶可夢每一個招式組合，或是只顯示寶可夢最好的招式組合"
-            },
-            "steps[4]": {
-                "label": "選擇您的策略",
-                "description": "自定義您的偏好（見下文）。"
-            }
-        },
-        "pokedex": {
-            "title": "圖鑑",
-            "intro": {
-                "title": "客製化寶可夢",
-                "text": "圖鑑頁面是深入分析寶可夢的好地方，自定義選項包括："
-            },
-            "outro": {
-                "title": "分析",
-                "text": "查詢任何您感興趣的寶可夢。找出最好的攻擊與防禦招式組合。發現您應該避免哪些寶可夢與如何擊倒他們"
-            },
-            "steps[0]": {
-                "label": "分類",
-                "description": "選擇你想要的排行類型（見下文）"
-            },
-            "steps[1]": {
-                "label": "等級",
-                "description": "選擇攻擊方和防禦方寶可夢的等級"
-            },
-            "steps[2]": {
-                "label": "選擇您的策略",
-                "description": "自定義您的偏好（見下文）。"
-            }
-        },
-        "articles": {
-            "title": "文章",
-            "text": "文章部分包含所有與當前活動和討論項目相關的最佳研究成果。如果您希望將您的文章放在這裡， ",
-            "contact-link": "聯繫我們"
-        }
+  "title": "如何使用Pokebattler",
+  "intro": "歡迎來到Pokebattler.com！您從未見過的最好最尖端的Pokemon GO道館模擬器。想知道卡比獸是否是個廢物？測試您的每一個寶可夢，看看他們在道館中將如何與其他寶可夢對抗。在每場戰鬥結束後，您都將獲得一份報告結果。",
+  "outro": "確認您檢查即將開放的功能，例如：登入以儲存您最好的道館戰寶可夢等功能。",
+  "now-battle": "寶可夢戰鬥吧！",
+  "backlink": "返回說明",
+  "pageNotFound": {
+    "title": "此頁面不存在",
+    "text": "很抱歉，我們找不到你要的頁面"
+  },
+  "pages": {
+    "raids": {
+      "link": "/help/raid-counter",
+      "title": "團體戰",
+      "description": "使用可自訂的指南，為任何頭目挑選最佳剋星"
     },
-    "definitions": {
-        "title": "定義",
-        "attack": {
-            "title": "攻擊策略"
-        },
-        "dodge": {
-            "title": "閃躲策略",
-            "intro": {
-                "text": "閃躲策略是微調攻擊策略演算法以提供更逼真的結果的一種方式。它們可以被用來視為人為操作失誤、程式錯誤或其他因素"
-            }
-        },
-        "defense": {
-            "title": "防禦模擬"
-        },
-        "sort": {
-            "title": "排序選項",
-            "options[0]": {
-                "label": "整體",
-                "description": "給予寶可夢的整體評分，採用力量50%、時間30%、藥水20%的權重計算"
-            },
-            "options[1]": {
-                "label": "力量",
-                "description": "一個百分比，用來代表一個寶可夢擊敗另一個寶可夢多少次，250%意味著可以擊敗對手兩次，並在第三次嘗試於50%進度時被擊敗。75%意味著被擊敗時只能消耗對手75%的血量。"
-            },
-            "options[2]": {
-                "label": "時間",
-                "description": "顯示寶可夢獲勝所需的時間。每次寶可夢被擊敗時會增加2秒。"
-            },
-            "options[3]": {
-                "label": "勝率",
-                "description": "按獲勝的機率百分比排名"
-            },
-            "options[4]": {
-                "label": "DPS",
-                "description": "按每秒的傷害排名"
-            },
-            "options[5]": {
-                "label": "藥水",
-                "description": "按基本藥水的數量排列。每次寶可夢被擊敗、需要復活時，該數值加5。"
-            }
-        }
+    "battleSimulator": {
+      "link": "/help/battle-simulator",
+      "title": "對戰模擬器",
+      "description": "使用世界上最精準的 Pokemon Go 模擬器，模擬任意對戰組合"
     },
-    "pages": {
-        "raids": {
-            "link": "/help/raid-counter"
-        },
-        "battleSimulator": {
-            "link": "/help/battle-simulator"
-        },
-        "pokebox": {
-            "link": "/help/pokebox"
-        },
-        "pokedex": {
-            "link": "/help/pokedex"
-        },
-        "rankings": {
-            "link": "/help/rankings"
-        },
-        "simulations": {
-            "link": "/help/simulations"
-        },
-        "attackStrategies": {
-            "link": "/help/attack-strategies"
-        },
-        "dodgeStrategies": {
-            "link": "/help/dodge-strategies"
-        },
-        "patreon": {
-            "link": "/help/patreon"
-        },
-        "glossary": {
-            "link": "/help/glossary"
-        },
-        "faqs": {
-            "link": "/help/faqs"
-        }
+    "pokebox": {
+      "link": "/help/pokebox",
+      "title": "寶可夢盒子",
+      "description": "將你的寶可夢儲存在我們的伺服器，並在整個網站中使用"
+    },
+    "pokedex": {
+      "link": "/help/pokedex",
+      "title": "圖鑑",
+      "description": "找出每隻寶可夢的最佳剋星與對戰組合"
+    },
+    "rankings": {
+      "link": "/help/rankings",
+      "title": "排名",
+      "description": "瞭解哪些寶可夢是整體最強的攻擊者與防禦者"
+    },
+    "simulations": {
+      "link": "/help/simulations",
+      "title": "模擬",
+      "description": "所有 Pokebattler 模擬類型的定義"
+    },
+    "attackStrategies": {
+      "link": "/help/attack-strategies",
+      "title": "攻擊策略",
+      "description": "攻擊策略的定義"
+    },
+    "dodgeStrategies": {
+      "link": "/help/dodge-strategies",
+      "title": "閃躲策略",
+      "description": "閃躲策略的定義"
+    },
+    "patreon": {
+      "link": "/help/patreon",
+      "title": "Patreon",
+      "description": "瞭解如何以及為何透過 Patreon 支持我們"
+    },
+    "glossary": {
+      "link": "/help/glossary",
+      "title": "術語表",
+      "description": "Pokemon Go 辭典"
+    },
+    "faqs": {
+      "link": "/help/faqs",
+      "title": "常見問題",
+      "description": "我們收到許多問題，有時還會重複。這裡整理了常見問題與答案"
+    },
+    "raidAdvice": {
+      "title": "團體戰建議",
+      "link": "/help/raid-advice",
+      "description": "找出該強化哪些寶可夢以擊敗團體戰頭目"
+    },
+    "pvpMatrix": {
+      "title": "PvP 矩陣",
+      "link": "/help/pvp-matrix-help-guide",
+      "description": "瞭解如何為 PvP 建立自訂排名"
     }
+  },
+  "sections": {
+    "battle": {
+      "title": "戰鬥",
+      "intro": {
+        "title": "建立戰鬥",
+        "text": "Pokebattler戰鬥模擬器是高度準確的，允許您以多種方式自定義您的戰鬥選項。選項包括："
+      },
+      "outro": {
+        "title": "戰鬥！",
+        "text": "展示完整的戰鬥結果。隨意選擇與嘗試其他組合"
+      },
+      "steps[0]": {
+        "label": "輸入搜索欄",
+        "description": "選擇您想參與戰鬥的攻擊方與防禦方"
+      },
+      "steps[1]": {
+        "label": "基本模式",
+        "description": "輸入CP值，不用擔心隱藏的數據，我們會儘可能地為您計算。"
+      },
+      "steps[2]": {
+        "label": "進階模式",
+        "description": "輸入您的寶可夢的確切等級與隱藏數據乙獲得最精準的模擬"
+      },
+      "steps[3]": {
+        "label": "選擇您的招式",
+        "description": "嘗試快速招式與能量招式的所有組合"
+      },
+      "steps[4]": {
+        "label": "選擇您的策略",
+        "description": "客製化寶可夢的攻擊與防禦方式。請參閱下面的定義部分。"
+      }
+    },
+    "rankings": {
+      "title": "排行",
+      "intro": {
+        "title": "自定義您的排行",
+        "text": "Pokebattler的排行系統是最先進的！沒有網站允許您更改您的設置，並比較每一個寶可夢在不同限制下的表現。自定義選項包括："
+      },
+      "outro": {
+        "title": "調查！",
+        "text": "顯示每個寶可夢的最佳招式組合。點擊寶可夢會顯示所有招式組合的詳細資訊"
+      },
+      "steps[0]": {
+        "label": "攻擊方/防禦方",
+        "description": "選擇攻擊方或防守方，攻擊方顯示與所有可能的防守方寶可夢的戰鬥結果；防守方顯示與最好的5個可能的攻擊方寶可夢的結果"
+      },
+      "steps[1]": {
+        "label": "分類",
+        "description": "選擇你想要的排行類型（見下文）"
+      },
+      "steps[2]": {
+        "label": "等級",
+        "description": "選擇攻擊方和防禦方寶可夢的等級"
+      },
+      "steps[3]": {
+        "label": "單一/全部",
+        "description": "選擇是否看到寶可夢每一個招式組合，或是只顯示寶可夢最好的招式組合"
+      },
+      "steps[4]": {
+        "label": "選擇您的策略",
+        "description": "自定義您的偏好（見下文）。"
+      }
+    },
+    "pokedex": {
+      "title": "圖鑑",
+      "intro": {
+        "title": "客製化寶可夢",
+        "text": "圖鑑頁面是深入分析寶可夢的好地方，自定義選項包括："
+      },
+      "outro": {
+        "title": "分析",
+        "text": "查詢任何您感興趣的寶可夢。找出最好的攻擊與防禦招式組合。發現您應該避免哪些寶可夢與如何擊倒他們"
+      },
+      "steps[0]": {
+        "label": "分類",
+        "description": "選擇你想要的排行類型（見下文）"
+      },
+      "steps[1]": {
+        "label": "等級",
+        "description": "選擇攻擊方和防禦方寶可夢的等級"
+      },
+      "steps[2]": {
+        "label": "選擇您的策略",
+        "description": "自定義您的偏好（見下文）。"
+      }
+    },
+    "articles": {
+      "title": "文章",
+      "text": "文章部分包含所有與當前活動和討論項目相關的最佳研究成果。如果您希望將您的文章放在這裡， ",
+      "contact-link": "聯繫我們"
+    }
+  },
+  "definitions": {
+    "title": "定義",
+    "attack": {
+      "title": "攻擊策略"
+    },
+    "dodge": {
+      "title": "閃躲策略",
+      "intro": {
+        "text": "閃躲策略是微調攻擊策略演算法以提供更逼真的結果的一種方式。它們可以被用來視為人為操作失誤、程式錯誤或其他因素"
+      }
+    },
+    "defense": {
+      "title": "防禦模擬"
+    },
+    "sort": {
+      "title": "排序選項",
+      "options[0]": {
+        "label": "整體",
+        "description": "給予寶可夢的整體評分，採用力量50%、時間30%、藥水20%的權重計算"
+      },
+      "options[1]": {
+        "label": "力量",
+        "description": "一個百分比，用來代表一個寶可夢擊敗另一個寶可夢多少次，250%意味著可以擊敗對手兩次，並在第三次嘗試於50%進度時被擊敗。75%意味著被擊敗時只能消耗對手75%的血量。"
+      },
+      "options[2]": {
+        "label": "時間",
+        "description": "顯示寶可夢獲勝所需的時間。每次寶可夢被擊敗時會增加2秒。"
+      },
+      "options[3]": {
+        "label": "勝率",
+        "description": "按獲勝的機率百分比排名"
+      },
+      "options[4]": {
+        "label": "DPS",
+        "description": "按每秒的傷害排名"
+      },
+      "options[5]": {
+        "label": "藥水",
+        "description": "按基本藥水的數量排列。每次寶可夢被擊敗、需要復活時，該數值加5。"
+      }
+    }
+  }
 }

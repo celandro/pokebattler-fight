@@ -1,2 +1,86 @@
 {
+  "tutorials": {
+    "title": "教學",
+    "heading": "Pokebattler 太太將引導你使用 Pokebattler Raid Party App",
+    "description": "我先生有時候會忘記寫使用說明。我總得提醒他：大家有時候需要一點指引！以下是 Pokebattler Raid Party App 較複雜部分的教學！",
+    "caution": "這些教學圖像較多，檔案有數 MB，建議在 Wi‑Fi 環境下載入。",
+    "load": "載入教學"
+  },
+  "tutorial": {
+    "joinRaid": {
+      "iconName": "link",
+      "title": "加入團戰",
+      "subtitle": "學習如何在 Pokebattler Raid Party App 加入團戰",
+      "heading": "重點：Pokebattler 太太將示範如何加入團戰",
+      "slices": "9",
+      "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "600",
+        "height": "2400",
+        "finalHeight": "175"
+      }
+    },
+    "joinRaidAndroid": {
+      "iconName": "link",
+      "title": "加入團戰",
+      "subtitle": "學習如何在 Pokebattler Raid Party App 加入團戰",
+      "slices": "9",
+      "fileName": "https://static.pokebattler.com/help/300/en-US/join_raid/join_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "1200",
+        "finalHeight": "88"
+      }
+    },
+    "hostRaid": {
+      "iconName": "plus-circle",
+      "title": "主持團戰",
+      "subtitle": "學習如何在 Pokebattler Raid Party App 主持團戰",
+      "heading": "不確定如何主持？Pokebattler 太太來幫你",
+      "slices": "16",
+      "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "600",
+        "height": "1910",
+        "finalHeight": "800"
+      }
+    },
+    "hostRaidAndroid": {
+      "iconName": "plus-circle",
+      "title": "主持團戰",
+      "subtitle": "學習如何在 Pokebattler Raid Party App 主持團戰",
+      "slices": "16",
+      "fileName": "https://static.pokebattler.com/help/300/en-US/host_raid/host_raid_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "955",
+        "finalHeight": "400"
+      }
+    },
+    "copyPaste": {
+      "iconName": "clipboard",
+      "title": "如何貼上",
+      "heading": "不確定怎麼在手機上複製貼上？Pokebattler 太太有快速教學！",
+      "subtitle": "學習如何在 Pokebattler Raid Party App 貼上好友代碼",
+      "slices": "1",
+      "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "1200",
+        "finalHeight": "775"
+      }
+    },
+    "copyPasteAndroid": {
+      "iconName": "clipboard",
+      "title": "如何貼上",
+      "subtitle": "學習如何在 Pokebattler Raid Party App 貼上好友代碼",
+      "slices": "1",
+      "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_android_{{slice}}.png",
+      "dimensions": {
+        "width": "300",
+        "height": "1200",
+        "finalHeight": "775"
+      }
+    }
+  }
 }

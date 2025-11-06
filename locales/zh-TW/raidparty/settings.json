@@ -1,25 +1,107 @@
 {
-    "title": "Settings",
-    "form": {
-        "playerName": "Trainer Name",
-        "playerLevel": "Level",
-        "playerFaction": "Faction",
-        "autoRaidParty": "Auto Raid Party",
-        "discordUsername": "Discord Username",
-        "language": "Language"
+  "title": "設定",
+  "form": {
+    "title": "全球團戰設定",
+    "subtitle": "必填玩家資訊",
+    "basics": "基本資料",
+    "playerName": "訓練家名稱",
+    "playerLevel": "等級",
+    "playerFaction": "陣營",
+    "autoRaidParty": "剋星",
+    "includeShadow": "暗影",
+    "includeLegendary": "傳說",
+    "includeMegas": "超級",
+    "weather": "天氣",
+    "sort": "排序",
+    "karma": "業力",
+    "coins": "硬幣",
+    "numRemoteInvites": "遠距邀請數",
+    "randomAssistants": "額外玩家",
+    "friendLevel": "好友等級",
+    "discordUsername": "Discord 使用者名稱",
+    "language": "語言",
+    "theme": "主題",
+    "themeOptions": {
+      "system": "系統預設",
+      "light": "淺色",
+      "dark": "深色"
     },
-    "autoRaidPartyOptions": {
-        "BATTLE_PARTY_POKEBOX": "Pokebox",
-        "BATTLE_PARTY_LEVEL_20": "Level 20",
-        "BATTLE_PARTY_LEVEL_25": "Level 25",
-        "BATTLE_PARTY_LEVEL_30": "Level 30",
-        "BATTLE_PARTY_LEVEL_35": "Level 35",
-        "BATTLE_PARTY_LEVEL_40": "Level 40"
+    "themeWarnings": {
+      "light": "",
+      "dark": "",
+      "system": "需要重新啟動 App"
     },
-    "updateSetting": {
-        "success": "User settings updated correctly",
-        "errors": {
-            "updateSettingGeneral": "There was an error updating your settings"
-        }
+    "disclaimerText": "連結遇到問題？請寄信至 admin@pokebattler.com 並提供你的兩個 Pokebattler 使用者編號",
+    "raidCounterSettings": "團體戰剋星設定",
+    "pushNotificationSettings": "推播通知設定",
+    "friendCode": "好友代碼",
+    "discordConnect": "Pokebattler Raid Party Network 包含由 Discord 協調的團戰。要加入 Discord 團戰，請將你的 Pokebattler 帳號連結至新或既有的 Discord 帳號。",
+    "correctness": "正確的訓練家名稱與好友代碼可讓團戰協調更順暢",
+    "friendCodeHint": "在此貼上你的好友代碼。應為 12 位數字，不含空白"
+  },
+  "autoRaidPartyOptions": {
+    "BATTLE_PARTY_POKEBOX": "寶可夢盒子",
+    "BATTLE_PARTY_LEVEL_20": "等級 20",
+    "BATTLE_PARTY_LEVEL_25": "等級 25",
+    "BATTLE_PARTY_LEVEL_30": "等級 30",
+    "BATTLE_PARTY_LEVEL_35": "等級 35",
+    "BATTLE_PARTY_LEVEL_40": "等級 40",
+    "BATTLE_PARTY_LEVEL_45": "等級 45",
+    "BATTLE_PARTY_LEVEL_50": "等級 50"
+  },
+  "updateSetting": {
+    "success": "已成功更新使用者設定",
+    "autoBattleParty": "正在切換為使用你的寶可夢盒子",
+    "errors": {
+      "updateSettingGeneral": "更新設定時發生錯誤",
+      "friendCodeLength": "好友代碼必須正好為 12 位數字",
+      "themeSaveFailed": "無法儲存主題偏好"
     }
+  },
+  "notifications": {
+    "groups": {
+      "raidParty": {
+        "name": "對戰小隊",
+        "description": "通知你感興趣的團戰"
+      }
+    },
+    "channels": {
+      "createParty": {
+        "name": "建立對戰小隊",
+        "description": "你的好友建立對戰小隊。"
+      },
+      "updateParty": {
+        "name": "更新對戰小隊",
+        "description": "你的小隊設定有所變更。"
+      },
+      "deleteParty": {
+        "name": "取消對戰小隊",
+        "description": "對戰小隊已取消。"
+      },
+      "addUser": {
+        "name": "玩家加入小隊",
+        "description": "有玩家加入你的小隊。"
+      },
+      "removeUser": {
+        "name": "玩家離開小隊",
+        "description": "有玩家離開你的小隊。"
+      },
+      "updateUser": {
+        "name": "玩家更新資訊",
+        "description": "你的小隊成員更新了設定。"
+      },
+      "kickedUser": {
+        "name": "移除玩家",
+        "description": "有玩家被移出小隊。"
+      },
+      "raidInvitingNow": {
+        "name": "發送邀請",
+        "description": "正在發送團戰邀請"
+      },
+      "raidStartingNow": {
+        "name": "團戰開始",
+        "description": "團戰現在開始"
+      }
+    }
+  }
 }

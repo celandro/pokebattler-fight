@@ -1,42 +1,136 @@
 {
-    "title": "寶可夢盒子",
-    "blurb": "添加你的寶可夢來獲得定制化的結果吧！你可以點擊右側的藍色圓圈逐個添加你的寶可夢。你也可以使用批量導入功能來從其他APP添加寶可夢。右上角有排序按鈕幫助你搜索你的寶可夢",
-    "pokemonList": {
-        "title": "你的寶可夢盒子",
-        "zero": "按下左側方格選擇你要加入的寶可夢",
-        "zeroDescription": "如果您過去已經增添了寶可夢，您可能是使用了不同的帳號來登入。\n如果您使用相同的電子郵件地址，您的帳號會自動連結。",
-        "email": "寫email給Pokebattler網站"
-    },
-    "add": {
-        "title": "寶可夢盒子",
-        "description": "新增寶可夢",
-        "pokemon": "選擇寶可夢種類",
-        "pokemonSelect": "選擇寶可夢種類"
-    },
-    "deleteAll": {
-        "button": "全部刪掉",
-        "title": "全部刪掉",
-        "confirmation": "你卻定要全部刪掉，一隻不留?",
-        "irreversible": "注意!刪掉之後無法復原喔!"
-    },
-    "import": {
-        "hintText": "我們有支援許多種的檔案格式，請確認你的檔案有包含正確的欄位名稱列.",
-        "floatingLabel": "將你的寶可夢複製到此處",
-        "table": {
-            "header": "選擇你要增加到盒子裡的寶可夢",
-            "selectAll": "全選"
-        }
-    },
-    "update": {
-        "title": "寶可夢背包",
-        "description": "{{name}}"
-    },
-    "backPokebox": "回到寶可夢背包",
-    "powerUp": "強化",
-    "full": {
-        "title": "寶可夢盒子滿了"
-    },
+  "title": "寶可夢盒子",
+  "meta": {
+    "description": "將你的 Pokémon GO 寶可夢儲存在這裡，用於自訂團體戰結果與更多功能！"
+  },
+  "blurb": "新增你的寶可夢以獲得自訂結果！你可以點擊右側的藍色圓圈逐一新增，也可以使用批次匯入功能從其他 App 匯入。右上角有排序按鈕可協助你找到寶可夢。",
+  "pokemonList": {
+    "title": "你的自訂寶可夢盒子",
     "meta": {
-        "description": "存储您的Pokemon Go Pokemon，以获得自定义的突袭结果以及更多！"
+      "description": "將你的 Pokémon GO 寶可夢儲存在這裡，用於自訂團體戰結果與更多功能！"
+    },
+    "zero": "按下左側方格新增你的寶可夢。",
+    "zeroDescription": "如果你之前已新增過寶可夢，可能是用不同帳號登入。若兩個帳號使用相同電子郵件，系統會自動連結。",
+    "zeroHelp": "若電子郵件不同，請 {{link}} 並提供需要連結的使用者 ID",
+    "email": "email Pokebattler",
+    "showMore": "顯示更多",
+    "filter": {
+      "label": "篩選寶可夢",
+      "hint": "輸入以逗號分隔的寶可夢或屬性"
     }
+  },
+  "add": {
+    "title": "寶可夢盒子",
+    "meta": {
+      "description": "將寶可夢加入你的寶可夢盒子"
+    },
+    "description": "新增寶可夢",
+    "pokemon": "選擇寶可夢",
+    "pokemonSelect": "選擇寶可夢"
+  },
+  "deleteAll": {
+    "button": "全部刪除",
+    "title": "全部刪除",
+    "meta": {
+      "description": "從你的寶可夢盒子移除寶可夢"
+    },
+    "confirmation": "這會刪除你寶可夢盒子中的所有寶可夢，確定嗎？",
+    "irreversible": "此動作無法復原！"
+  },
+  "export": {
+    "button": "批次匯出"
+  },
+  "import": {
+    "button": "批次匯入",
+    "title": "寶可夢盒子匯入",
+    "meta": {
+      "description": "從第三方程式把寶可夢加入你的寶可夢盒子。"
+    },
+    "description": "匯入寶可夢",
+    "parse": "開始匯入",
+    "hintText": "支援多種格式。請確保包含標題列。",
+    "floatingLabel": "將你的寶可夢資料貼到這裡",
+    "reverseSort": "反向排序",
+    "table": {
+      "header": "在下方選取你想匯入的寶可夢",
+      "selectAll": "全選"
+    },
+    "urlUpload": {
+      "title": "從網址上傳",
+      "description": "從像 Dropbox 的網址匯入寶可夢",
+      "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0"
+    },
+    "fileUpload": {
+      "title": "從檔案上傳",
+      "description": "從檔案（如 csv）匯入寶可夢"
+    },
+    "advanced": {
+      "title": "進階設定",
+      "description": "為第三方 App 提供自訂支援"
+    },
+    "pasteUpload": {
+      "title": "從貼上上傳",
+      "hintText": "$t(pokebox:import.hintText)",
+      "description": "$t(pokebox:import.floatingLabel)"
+    }
+  },
+  "pokeGenieImport": {
+    "button": "Poke Genie 匯入",
+    "title": "Poke Genie Dropbox 匯入",
+    "meta": {
+      "description": "從 Poke Genie 的 Dropbox 備份把寶可夢加入你的寶可夢盒子。"
+    },
+    "description": "從 Poke Genie 的 Dropbox 備份匯入寶可夢",
+    "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0",
+    "floatingLabel": "貼上 scan_data.json 的 Dropbox 分享連結",
+    "shinyStartLabel": "異色寶可夢星標（Poke Genie）",
+    "stars": {
+      "none": "異色寶可夢不加星標",
+      "yellow": "黃色",
+      "blue": "藍色",
+      "green": "綠色",
+      "orange": "橘色",
+      "purple": "紫色"
+    }
+  },
+  "update": {
+    "title": "寶可夢盒子",
+    "meta": {
+      "description": "更新你在寶可夢盒子中的寶可夢"
+    },
+    "description": "修改 {{name}}"
+  },
+  "loading": "正在載入你的寶可夢",
+  "backPokebox": "回到寶可夢盒子",
+  "powerUp": "強化",
+  "powerDown": "降級",
+  "full": {
+    "title": "寶可夢盒子已滿",
+    "subtitle": "空間不足",
+    "explanation": "以你目前的會員等級，寶可夢盒子的寶可夢數量已達上限。你是 Pokebattler 帳號中的前 5%，以及 Pokebattler 使用者中的前 0.1%！Pokebattler 仰賴像你這樣的重度使用者的支持，才能為所有人提供高品質的模擬。你可以升級訂閱方案以增加儲存空間。"
+  },
+  "upgrade": {
+    "title": "$t(common:upgrade)",
+    "subtitle": "此功能需要更高的訂閱等級",
+    "explanation": "Pokebattler 能夠持續營運，靠的就是像你這樣僅 0.1% 的訪客。升級你的帳號，讓 Pokebattler 繼續前進，並享受更多功能！專屬功能、強化分析、更大的寶可夢盒子等你體驗！"
+  },
+  "explanation": "Pokebattler 寶可夢盒子是一項令人興奮的新功能，讓你能根據你實際擁有的寶可夢來自訂 Pokebattler 的體驗！你新增到寶可夢盒子的寶可夢可在整個網站使用。留意箱子圖示：綠色代表正在使用寶可夢盒子，黑色代表未使用。",
+  "delete": {
+    "title": "刪除",
+    "meta": {
+      "description": "從你的寶可夢盒子刪除寶可夢"
+    },
+    "blurb": "你可以在此一次快速刪除多隻寶可夢，快速釋出更多空間。只要選取想刪除的每隻寶可夢。完成後，捲到最下方找到『批次刪除』按鈕。",
+    "button": "批次刪除",
+    "bulk": {
+      "title": "刪除",
+      "meta": {
+        "description": "從你的寶可夢盒子批次刪除寶可夢。"
+      },
+      "toolbarTitle": "批次刪除",
+      "confirmation": "這會從你的寶可夢盒子刪除 {{num}} 隻寶可夢，確定嗎？"
+    },
+    "confirmation": "確定要刪除嗎？",
+    "irreversible": "此動作無法復原！"
+  }
 }

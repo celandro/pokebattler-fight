@@ -1,10 +1,29 @@
 {
-    "title": "聯繫我們",
-    "contactInfo": "聯繫訊息",
-    "feedbackText": "Pokebattler歡迎您的回饋！無論是功能要求或是錯誤報告，還是感謝的話，我們真誠地感謝我們的使用戶，並儘最大努力維持這個於Pokemon Go道館戰您唯一需要使用的網站。",
-    "email": "寄封私人信件給我",
-    "facebook": "用Facebook與我們聯繫",
-    "meta": {
-        "description": "給麼發私人訊息或者在社交網路上獲取世界第一準確的寶可夢go模擬器的最新訊息"
+  "title": "聯繫我們",
+  "contactInfo": "聯繫訊息",
+  "feedbackText": "Pokebattler歡迎您的回饋！無論是功能要求或是錯誤報告，還是感謝的話，我們真誠地感謝我們的使用戶，並儘最大努力維持這個於Pokemon Go道館戰您唯一需要使用的網站。",
+  "email": "寄封私人信件給我",
+  "facebook": "用Facebook與我們聯繫",
+  "meta": {
+    "description": "給麼發私人訊息或者在社交網路上獲取世界第一準確的寶可夢go模擬器的最新訊息",
+    "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  },
+  "button": {
+    "reddit": {
+      "title": "在 Reddit 討論",
+      "subtitle": "/r/pokebattler 的新聞與公告"
+    },
+    "twitter": {
+      "title": "在 X 上私訊我",
+      "subtitle": "@Pokebattler_com 的最新消息與隨機貼文"
+    },
+    "youtube": {
+      "title": "觀看我們的影片",
+      "subtitle": "團體戰指南與 Pokebattler 教學影片"
+    },
+    "facebook": {
+      "title": "Facebook 連結",
+      "subtitle": "讓你的朋友知道我們"
     }
+  }
 }

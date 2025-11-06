@@ -1,2 +1,33 @@
 {
+  "title": "好友",
+  "levels": {
+    "FRIENDSHIP_LEVEL_UNSET": "尚未成為好友",
+    "FRIENDSHIP_LEVEL_0": "新朋友",
+    "FRIENDSHIP_LEVEL_1": "好朋友",
+    "FRIENDSHIP_LEVEL_2": "超好朋友",
+    "FRIENDSHIP_LEVEL_3": "親密朋友",
+    "FRIENDSHIP_LEVEL_4": "最佳好友"
+  },
+  "add": {
+    "friendId": "Pokebattler ID",
+    "addFriend": "新增 Pokebattler 好友",
+    "friendLevel": "好友等級",
+    "cancelAddFriend": "取消",
+    "searchPlaceholder": "名稱、代碼或 ID",
+    "supportedSearches": "在搜尋欄輸入好友代碼、訓練家名稱、Discord 名稱或 Pokebattler ID，並設定好友等級。",
+    "noSearchResults": "找不到好友，請再試一次！",
+    "noSearchText": "尋找你的朋友",
+    "clearSearch": "清除"
+  },
+  "noFriend": {
+    "title": "把你的朋友加到 Pokebattler！",
+    "description": "新增好友後，當他們建立對戰小隊時你會收到通知，並能看到他們最近建立的小隊。請務必設定正確的好友等級，以便在對戰小隊模擬中自動套用。",
+    "addFriend": "點擊右下角新增按鈕以加入好友。"
+  },
+  "errors": {
+    "add": "新增好友失敗",
+    "update": "更新好友失敗",
+    "delete": "刪除好友失敗",
+    "failed": "無法取得好友列表"
+  }
 }

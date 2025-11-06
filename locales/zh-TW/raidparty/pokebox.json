@@ -1,1 +1,104 @@
-{}
+{
+  "title": "寶可夢盒子",
+  "addPokemon": "新增寶可夢",
+  "errors": {
+    "failed": "無法載入寶可夢盒子"
+  },
+  "add": {
+    "title": "新增寶可夢",
+    "failed": "無法新增此寶可夢",
+    "full": "你的寶可夢盒子已滿。訂閱以獲得更多伺服器儲存空間",
+    "autocomplete": "輸入寶可夢名稱或屬性"
+  },
+  "edit": {
+    "title": "編輯寶可夢",
+    "full": "你的寶可夢盒子超出上限。請重新訂閱或刪除多餘寶可夢",
+    "failed": "很遺憾，編輯此寶可夢失敗"
+  },
+  "delete": {
+    "title": "刪除寶可夢",
+    "failed": "很遺憾，刪除此寶可夢失敗"
+  },
+  "bulkImport": {
+    "title": "批次匯入寶可夢",
+    "failed": "很遺憾，批次匯入失敗",
+    "selectAll": "全選",
+    "clearSelection": "清除選取",
+    "importNPokemon": "匯入 {{count}}/{{total}}",
+    "beginImport": "開始匯入",
+    "paste": "貼上",
+    "errors": {
+      "parse": "貼上的資料格式不支援。請確認包含標題列。",
+      "pokemonId": "$t(common:pokemon) 無效。",
+      "quickMove": "$t(pokeform.quickMove.label) 無效。",
+      "cinematicMove": "$t(pokeform.cinematicMove.label) 無效。",
+      "cinematicMove2": "$t(pokeform.cinematicMove2.label) 無效。",
+      "level": "$t(pokeform.level.label) 不是 1 到 41 之間的數字",
+      "individualAttack": "$t(pokeform.individualAttack.label) 不是 0 到 15 之間的數字",
+      "individualDefense": "$t(pokeform.individualDefense.label) 不是 0 到 15 之間的數字",
+      "individualStamina": "$t(pokeform.individualStamina.label) 不是 0 到 15 之間的數字",
+      "cp": "$t(pokeform.cp.label) 不是數字"
+    }
+  },
+  "bulkDelete": {
+    "title": "批次刪除寶可夢",
+    "failed": "很遺憾，批次刪除失敗",
+    "selectAll": "全選",
+    "clearSelection": "清除選取",
+    "deleteNPokemon": "刪除 {{count}} 隻寶可夢"
+  },
+  "pokeform": {
+    "cp": {
+      "label": "CP",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "nickname": {
+      "label": "暱稱",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "quickMove": {
+      "label": "小招",
+      "placeholder": "$t(common:placeholders.dropdown.required)"
+    },
+    "cinematicMove": {
+      "label": "大招",
+      "placeholder": "$t(common:placeholders.dropdown.required)"
+    },
+    "cinematicMove2": {
+      "label": "第二大招",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualAttack": {
+      "label": "攻擊",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualDefense": {
+      "label": "防禦",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualStamina": {
+      "label": "體力",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "level": {
+      "label": "等級",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "submit": {
+      "label": "$t(common:buttons.create)"
+    },
+    "edit": {
+      "label": "$t(common:save)"
+    }
+  },
+  "poketile": {
+    "cp": "$t(cp)",
+    "temporary": "正在儲存到伺服器"
+  },
+  "noPokemon": {
+    "title": "找不到寶可夢",
+    "clearFilter": "清除搜尋條件",
+    "description": "Pokebattler Raid Party 需要你新增最強的寶可夢，才能找到最佳剋星！新增越多，建議越準確！",
+    "addPokemon": "最快新增方式是到頭目剋星頁面點擊加號。你也可以逐一新增或使用批次匯入功能。"
+  }
+}

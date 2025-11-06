@@ -1,3 +1,99 @@
 {
-
+  "title": "團體戰頭目",
+  "selectWeather": "選擇天氣",
+  "countersTitle": "你的剋星",
+  "createParty": "建立小隊",
+  "loadParty": "查看對戰小隊 #{{id}}",
+  "raidParties": "$t(raidParties:title)",
+  "joinParty": "加入小隊",
+  "joinPrivate": "加入私人小隊",
+  "leaveParty": "離開小隊",
+  "finishParty": "結束團戰",
+  "copyTrainers": "複製訓練家",
+  "confirmFriend": "確認好友",
+  "viewParty": "查看小隊",
+  "remote": "遠距",
+  "ready": "在地",
+  "remoteReady": "遠距 ✅",
+  "needsFriend": "已送出好友邀請",
+  "customBoss": "自訂",
+  "actionButtonsDescription": "模擬你的團戰小隊",
+  "quickSettings": {
+    "title": "快速設定"
+  },
+  "summary": {
+    "title": "{{defender}} 團戰模擬",
+    "tab": "摘要",
+    "tabIcon": "poll",
+    "description": "以下是你擊敗 {{tier}} {{defender}} 的前 6 名剋星。點擊建立或加入對戰小隊來尋求支援！",
+    "rejoin": "{{rejoinSeconds}} 秒後重新進場",
+    "settings": {
+      "suggestPokebox": "熟悉後，建議改用你的寶可夢盒子設定，你可以在另一個分頁快速填入",
+      "BATTLE_PARTY_LEVEL_20": "使用等級 20 的最佳剋星。這是很好的起始預設。$t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_25": "使用等級 25 的最佳剋星。$t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_30": "使用等級 30 的最佳剋星。$t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_35": "使用等級 35 的最佳剋星。$t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_40": "使用等級 40 的最佳剋星。$t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_45": "使用等級 45 的最佳剋星。$t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_50": "使用等級 50 的最佳剋星。$t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_POKEBOX": "使用你的最佳剋星。沒有看到你擁有的？請在剋星分頁快速新增寶可夢到寶可夢盒子"
+    },
+    "emptyPokebox": "新增寶可夢至寶可夢盒子後會顯示自訂結果。可嘗試在第三個分頁新增寶可夢。"
+  },
+  "counters": {
+    "title": "{{defender}} 剋星",
+    "tab": "剋星",
+    "description": "以下是你擊敗 {{tier}} {{defender}} 的前 6 名剋星。可在下方將其他寶可夢加入小隊！"
+  },
+  "combatants": {
+    "title": "{{defender}} 對戰小隊",
+    "tab": "小隊",
+    "description": "Pokebattler 對每個可能的剋星各執行 200 次模擬，選出要使用的寶可夢；再用前 6 隻作為小隊執行 200 次模擬。以下為典型結果的對戰詳情。"
+  },
+  "joinPartyDialog": {
+    "title": "加入小隊",
+    "description": "輸入朋友的小隊 ID 以查看你的團戰結果",
+    "partyIdPlaceholder": "Pokebattler 對戰小隊 #",
+    "join": "加入",
+    "cancel": "取消",
+    "fetch": "取得",
+    "errors": {
+      "pokemonMismatch": "對戰小隊 {{id}} 的頭目為 {{raidPartyPokemon}}，而非 {{pokemon}}。"
+    }
+  },
+  "multiParty": {
+    "title": "#{{id}} {{defender}}"
+  },
+  "raidPartyCard": {
+    "title": "{{defender}}",
+    "id": "$t(raidBosses:joinParty) #{{id}}",
+    "summary": "{{players}} 位玩家中有 {{numReadyPlayers}} 位已就緒。{{ownerName}} 的小隊建立於 {{createdAt}}",
+    "emptyPokebox": "未使用寶可夢盒子，使用預設值",
+    "egg": "蛋"
+  },
+  "raidPartyPlayer": {
+    "title": "{{name}}",
+    "id": "#{{id}}",
+    "addFriendCode": "新增好友代碼",
+    "userLevel": "等級 {{level}}"
+  },
+  "errors": {
+    "failed": "取得團體戰頭目失敗！",
+    "party": "找不到最佳小隊",
+    "rankings": "無法取得攻擊方排行"
+  },
+  "chips": {
+    "estimator": "需要人數",
+    "power": "團隊輸出",
+    "deaths": "瀕死數",
+    "tdo": "總輸出",
+    "win": "勝率",
+    "time": "戰鬥時間"
+  },
+  "breakingNews": {
+    "from": "開始",
+    "until": "結束",
+    "localTime": "本地時間"
+  },
+  "autocomplete": "選擇自訂團戰頭目"
 }

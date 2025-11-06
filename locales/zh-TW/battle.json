@@ -1,87 +1,137 @@
 {
-    "title": "道館對戰模擬器",
-    "startButton": "對戰",
-    "attacker": "攻擊方",
-    "attackerPlaceHolder": "選擇 $t(attacker)",
-    "defender": "防守方",
-    "defenderPlaceHolder": "選擇 $t(defender)",
-    "relatedBattles": {
-        "title": "相關戰役",
-        "description": "選擇下方你想更改的參數，點擊連結以使用新參數重新開始模擬。模擬結果將立即更改。",
-        "modify": "修改",
-        "switch": "切換以修改{{type}}",
-        "parameterTitle": "改變參數"
-    },
-    "pokemonListTypes": {
-        "pokebox": "我的寶可夢盒子",
-        "all": "所有寶可夢"
-    },
-    "results": {
-        "title": {
-            "base": "對戰結果：",
-            "win": "勝利！",
-            "lose": "失敗！"
-        },
-        "about": "戰鬥詳情",
-        "result": {
-            "win": "擊敗",
-            "lose": "輸給"
-        },
-        "logTitle": "對戰日誌",
-        "description": "戰鬥模擬的結果為{{attacker.level}}級CP{{attacker.cp}}的{{attacker.name}}{{result}} {{defender.level}}級CP{{defender.cp}}的{{defender.name}}.挑戰者 {{attacker.name}}使用的小招{{attacker.quickMove}}及大招{{attacker.specialMove}}.道館防守方{{defender.name}}的小招是{{defender.quickMove}}及大招{{defender.specialMove}}.這場模擬採用的攻擊策略為{{strategies.attack}}，閃躲策略為 {{strategies.dodge}}，防守方防守策略為{{strategies.defense}}，天氣為{{weatherCondition}}. 戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。",
-        "battleParty": {
-            "description": "模擬結果為玩家{{attacker.userId}}使用戰鬥小組「{{attacker.battlePartyId}}」 {{result}} CP {{defender.cp}}的 {{defender.tier}}星{{defender.name}}。本次模擬採用攻擊策略 {{strategies.attack}} 閃躲策略{{strategies.dodge}} 以及防守策略{{strategies.defense}}，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。"
-        },
-        "help": {
-            "links": {
-                "repo": "開放原始碼軟體專案網站"
-            },
-            "text": "{{helpLink}}中對於戰鬥模擬是如何計算有詳細的說明。如果你想多了解本遊戲的戰鬥相關研究資料，請參閱{{aboutLink}}。"
-        },
-        "pvp": {
-            "description": "模擬結果為玩家{{attacker.userId}}使用戰鬥小組「{{attacker.battlePartyId}}」 {{result}} 防守方{{defender.userId}}的戰鬥小組「{{defender.battlePartyId}}」。本次模擬進攻方採用的攻擊策略為 {{strategies.attack}} 閃躲策略{{strategies.dodge}} ，而防守方的防守策略{{strategies.defense}}攻擊策略為{{strategies.defenseDodge}} ，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。"
-        },
-        "gym": {
-            "title": "{{attacker.name}} vs. {{defender.name}} 戰鬥模擬",
-            "meta": {
-                "description": "進攻方  {{attacker.name}} 技能 {{attacker.quickMove}} 和 {{attacker.specialMove}} vs 防守方 {{defender.name}} 技能 {{defender.quickMove}} 和 {{defender.specialMove}} 的道館對戰結果",
-                "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
-            }
-        },
-        "explore": {
-            "title": "瀏覽結果",
-            "subtitle": "點擊查看明細",
-            "columns": {
-                "attackerId": "ID",
-                "attackerGroup": "組",
-                "attackerOrder": "順序",
-                "battlePartyUserId": "用戶",
-                "battlePartyTrainer": "訓練家",
-                "combatTime": "戰鬥時間",
-                "currentTime": "當前時間",
-                "damageDealt": "傷害輸出",
-                "damageReceived": "承受傷害",
-                "energy": "能量",
-                "move": "技能",
-                "moveType": "技能類型",
-                "attacker": "攻擊方",
-                "defender": "防守方"
-            }
-        }
-    },
-    "runAgain": "重新模擬",
+  "title": "道館對戰模擬器",
+  "meta": {
+    "description": "Pokebattler 道館戰鬥模擬器通過包含天氣加成的逐秒模擬，爲您提供世界上最精確的道館戰鬥結果。",
+    "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
+  },
+  "raidBattlePartyTitle": "團體戰戰鬥小隊模擬器",
+  "raid": {
+    "title": "團體戰模擬器",
     "meta": {
-        "description": "Pokebattler 道館戰鬥模擬器通過包含天氣加成的逐秒模擬，爲您提供世界上最精確的道館戰鬥結果。"
+      "description": "Pokebattler 團體戰模擬器通過分析至多20個戰鬥小隊，好友團體戰獎勵和天氣加成，爲您提供世界上最精確的團體戰結果。",
+      "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+    }
+  },
+  "pvp": {
+    "title": "PVP模擬器",
+    "meta": {
+      "description": "Pokebattler PvP 模擬器讓你與朋友的寶可夢進行對戰，使用世界第一精準的模擬器看看誰能勝出。",
+      "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+    }
+  },
+  "startButton": "對戰",
+  "attacker": "攻擊方",
+  "attackerPlaceHolder": "選擇 $t(attacker)",
+  "defender": "防守方",
+  "defenderPlaceHolder": "選擇 $t(defender)",
+  "relatedBattles": {
+    "title": "相關戰役",
+    "description": "選擇下方你想更改的參數，點擊連結以使用新參數重新開始模擬。模擬結果將立即更改。",
+    "modify": "修改",
+    "switch": "切換以修改{{type}}",
+    "parameterTitle": "改變參數"
+  },
+  "pokemonListTypes": {
+    "pokebox": "我的寶可夢盒子",
+    "all": "所有寶可夢"
+  },
+  "results": {
+    "title": {
+      "base": "對戰結果：",
+      "win": "$t(battle:results.title.base) 勝利！",
+      "lose": "$t(battle:results.title.base) 失敗！"
     },
-    "raidBattlePartyTitle": "團體戰戰鬥小隊模擬器",
-    "raid": {
-        "title": "團體戰模擬器",
-        "meta": {
-            "description": "Pokebattler 團體戰模擬器通過分析至多20個戰鬥小隊，好友團體戰獎勵和天氣加成，爲您提供世界上最精確的團體戰結果。"
-        }
+    "about": "戰鬥詳情",
+    "result": {
+      "win": "擊敗",
+      "lose": "輸給"
+    },
+    "logTitle": "對戰日誌",
+    "description": "戰鬥模擬的結果為{{attacker.level}}級CP{{attacker.cp}}的{{attacker.name}}{{result}} {{defender.level}}級CP{{defender.cp}}的{{defender.name}}.挑戰者 {{attacker.name}}使用的小招{{attacker.quickMove}}及大招{{attacker.specialMove}}.道館防守方{{defender.name}}的小招是{{defender.quickMove}}及大招{{defender.specialMove}}.這場模擬採用的攻擊策略為{{strategies.attack}}，閃躲策略為 {{strategies.dodge}}，防守方防守策略為{{strategies.defense}}，天氣為{{weatherCondition}}. 戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。",
+    "battleParty": {
+      "description": "模擬結果為玩家{{attacker.userId}}使用戰鬥小組「{{attacker.battlePartyId}}」 {{result}} CP {{defender.cp}}的 {{defender.tier}}星{{defender.name}}。本次模擬採用攻擊策略 {{strategies.attack}} 閃躲策略{{strategies.dodge}} 以及防守策略{{strategies.defense}}，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。",
+      "title": "{{attacker.name}} vs. {{defender.name}} Raid Simulation",
+      "meta": {
+        "description": "Raid simulator results for {{attacker.name}} vs. {{defender.name}} with {{defender.quickMove}} and {{defender.specialMove}}",
+        "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+      }
+    },
+    "help": {
+      "links": {
+        "repo": "開放原始碼軟體專案網站"
+      },
+      "text": "{{helpLink}}中對於戰鬥模擬是如何計算有詳細的說明。如果你想多了解本遊戲的戰鬥相關研究資料，請參閱{{aboutLink}}。"
     },
     "pvp": {
-        "title": "PVP模擬器"
+      "description": "模擬結果為玩家{{attacker.userId}}使用戰鬥小組「{{attacker.battlePartyId}}」 {{result}} 防守方{{defender.userId}}的戰鬥小組「{{defender.battlePartyId}}」。本次模擬進攻方採用的攻擊策略為 {{strategies.attack}} 閃躲策略{{strategies.dodge}} ，而防守方的防守策略{{strategies.defense}}攻擊策略為{{strategies.defenseDodge}} ，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。",
+      "title": "{{attacker.name}} vs. {{defender.name}} PvP Simulation",
+      "meta": {
+        "description": "PvP simulator results for {{attacker.name}} vs. {{defender.name}}",
+        "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+      }
     },
-    "recommended": "推薦"
+    "gym": {
+      "title": "{{attacker.name}} vs. {{defender.name}} 戰鬥模擬",
+      "meta": {
+        "description": "進攻方  {{attacker.name}} 技能 {{attacker.quickMove}} 和 {{attacker.specialMove}} vs 防守方 {{defender.name}} 技能 {{defender.quickMove}} 和 {{defender.specialMove}} 的道館對戰結果",
+        "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+      }
+    },
+    "explore": {
+      "title": "瀏覽結果",
+      "subtitle": "點擊查看明細",
+      "columns": {
+        "attackerId": "ID",
+        "attackerGroup": "組",
+        "attackerOrder": "順序",
+        "battlePartyUserId": "用戶",
+        "battlePartyTrainer": "訓練家",
+        "combatTime": "戰鬥時間",
+        "currentTime": "當前時間",
+        "damageDealt": "傷害輸出",
+        "damageReceived": "承受傷害",
+        "energy": "能量",
+        "move": "技能",
+        "moveType": "技能類型",
+        "attacker": "攻擊方",
+        "defender": "防守方",
+        "actor": "角色"
+      },
+      "pivotTypes": {
+        "damageByTrainer": {
+          "title": "依訓練家的傷害",
+          "description": "顯示各訓練家的傷害輸出。"
+        },
+        "damageByPokemon": {
+          "title": "依寶可夢的傷害",
+          "description": "顯示你的每隻寶可夢的傷害輸出。"
+        },
+        "dpsByPokemon": {
+          "title": "依寶可夢的 DPS",
+          "description": "顯示你的每隻寶可夢的 DPS。"
+        },
+        "damageByGroup": {
+          "title": "依群組的傷害",
+          "description": "顯示每個群組的傷害輸出。"
+        },
+        "custom": {
+          "title": "自訂分析",
+          "description": "你可以在此進行進階分析！在桌機或橫向模式效果最佳。"
+        }
+      },
+      "select": "Chart Type"
+    },
+    "assistants": {
+      "title": "Extra Trainers Feature",
+      "both": "The results below include {{numExplicit}} additional trainers and {{numRandom}} random level additional battle parties level 30-40.  This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. There is also be a better interface for selecting how many trainers and additional battle parties helping you on the ",
+      "explicit": "The results below include {{numExplicit}} additional trainers.  This is intended to simulate a realistic actual combat scenario.  The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will make you win. The power, time to win, potions and overall rating are all based on what your entire battle party of 6 can do. This page will eventually show much more information only the combat log is complete at this time. There is also be a better UI for selecting how many and which battle parties are helping you on the",
+      "random": "The results below include {{numRandom}} random additional battle parties between levels 30-40. This is intended to simulate a realistic raid combat outcome with multiple trainers. The win% above shows the chance to win before your battle party faints if you have these additional people helping you. Often rejoining in this scenario will allow you to win. The power, time to win, potions and overall rating are all based on what your own battle party of 6 can do and does not include the other battle parties. This page will eventually show much more information - only the combat log is complete at this time. ",
+      "link": "raid simulation page.",
+      "name": "Assistant"
+    }
+  },
+  "runAgain": "再次執行此隨機模擬",
+  "runSolo": "以單人嘗試執行",
+  "addBattleParty": "儲存此對戰小隊",
+  "recommended": "推薦"
 }

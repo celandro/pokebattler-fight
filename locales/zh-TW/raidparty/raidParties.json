@@ -1,2 +1,323 @@
 {
+  "title": "對戰小隊",
+  "result": {
+    "title": "#{{id}} {{defender}}"
+  },
+  "helpModal": {
+    "raidNetwork": {
+      "title": "Pokebattler 團戰網路",
+      "subtitle": "加入遠距團戰",
+      "description": "Pokebattler 團戰網路讓你能在 App、第三方 App 或 Discord 與朋友一起加入團戰。",
+      "description2": "在 Pokebattler 團戰網路加入 Discord 團戰又快又簡單！只要加入團戰，就會暫時把你加入該 Discord 伺服器、把你加進團戰，並帶你前往與主持人溝通的頻道。稍後 Discord 會自動將你移出伺服器。你在團戰中的名額會暫時保留，直到你在 Discord 按下暫時加入伺服器。",
+      "description3": "使用此網路時，你需要輸入訓練家名稱與好友代碼。這會分享給 Discord 機器人以利協調團戰。要加入 Discord 團戰，還需要連結你的 Discord 帳號。",
+      "description4": "Discord 團戰由 PokeNav 或 Nexus 機器人主持，並由伺服器擁有者管理。這些全球團戰會延遲送到網路，讓伺服器上的在地使用者能優先加入。當倒數計時歸零或出現 ⏩ 按鈕時就能加入。",
+      "description5": "目前 Pokebattler 訂閱者在加入團戰時會有些微的優先權。未來也可能能使用硬幣加速。點擊 ⏩ 按鈕可提前加入。",
+      "joinDescription": "支援含聊天室的團戰，透過 Discord 機器人整合實現；任何有設定 Nexus 或 PokeNav 團戰網路的 Discord 都可主持。",
+      "joinButton": "加入 Pokebattler Raid Party Discord",
+      "beConsiderate": "請體諒你所加入的伺服器，並保持良好禮貌！辱罵、不守秩序或不配合團戰的玩家將被永久禁止使用團戰網路。"
+    },
+    "raidPlayer": {
+      "title": "Pokebattler 對戰小隊 App 團戰",
+      "subtitle": "加入團戰",
+      "description": "你可以在 Pokebattler 團戰網路中加入兩種類型的團戰",
+      "description2": "Pokebattler 團戰在 App 內主持，提供引導式流程；Discord 團戰由合作的 Discord 社群主持並提供聊天功能。",
+      "appRaid": "Pokebattler 團戰",
+      "appRaid1": "加入 Pokebattler 團戰後，依下列步驟進行：",
+      "appRaid1Step1": "選擇你是當地玩家或遠距玩家。",
+      "appRaid1Step2": "如果是遠距，主持人的好友代碼會自動複製。打開 Pokémon GO，新增好友並貼上代碼",
+      "appRaid1Step3": "回到 Pokebattler Raid Party App，點選『已送出好友邀請』",
+      "appRaid2": "你現在已經準備好團戰！當主持人開始團戰時，你會收到推播，並出現倒數計時器",
+      "discordRaid": "Discord 團戰",
+      "discordRaid1": "Pokebattler 團戰網路支援 PokeNav 與 Nexus 機器人。",
+      "discordRaid2": "當你加入 Discord 團戰時，Pokebattler 會自動把你加進團戰頻道並加入 Discord 團戰",
+      "discordRaid3": "請在 Discord 與團戰成員溝通！",
+      "discordRaid4": "Discord 團戰需要手機安裝 Discord App。機器人使用說明可在其網站查看"
+    },
+    "raidHost": {
+      "title": "Pokebattler 對戰小隊 App 團戰",
+      "subtitle": "主持團戰",
+      "description": "在 Pokebattler App 主持團戰比你想像的更簡單！App 內團戰設計成引導式流程，幫助你的團戰更容易成功。Pokebattler 會告訴所有成員下一步該做什麼，並告訴你們能不能贏！",
+      "description2": "首先選擇隱私層級、團戰星級與頭目並點擊開始。你的團戰會立刻開放給 App 內好友。若選擇公開，所有 App 使用者與團戰網路的 Discord 伺服器會在幾秒後收到通知並可加入。",
+      "description3": "玩家加入後，你的好友代碼會自動分享給他們，並提醒他們需在 Pokémon GO 傳送好友邀請。當玩家傳送邀請時，他們會被標記為就緒，你也會收到推播提醒去查看遊戲內的好友邀請。請接受邀請。",
+      "description4": "最後回到 Pokebattler Raid Party App，準備好後點擊『GO！』",
+      "advanced": "進階",
+      "advanced1": "了解基本流程後，主持功能還有更多進階設定，讓你能更有把握地團戰",
+      "advanced2": "預設已為你選好。不過可點擊編輯按鈕，自行調整你的團戰設定。",
+      "options": {
+        "weatherCondition": {
+          "label": "天氣",
+          "description": "如果真的會有流星，請保持『極端天氣』。否則請選擇實際天氣！"
+        },
+        "quickMove": {
+          "label": "小招",
+          "description": "頭目的小招。老實說，選這個你通常會猜錯"
+        },
+        "cinematicMove": {
+          "label": "大招",
+          "description": "頭目的大招。如果你知道會來電招，可以在此選擇"
+        },
+        "privacy": {
+          "label": "隱私",
+          "description": "主持小隊時可選擇誰能加入。公開：任何人可加入；好友：你的 App 內好友可加入；私人：僅能靠小隊編號加入"
+        },
+        "maxInvites": {
+          "label": "最大邀請數",
+          "description": "你最多可以邀請的玩家數量"
+        },
+        "randomAssistants": {
+          "label": "額外玩家",
+          "description": "未使用 App 但會加入團戰的其他玩家數量"
+        }
+      }
+    }
+  },
+  "raidPartyRejoinCard": {
+    "title": "重新加入目前團戰",
+    "subtitle": "一次只能加入一場團戰。請點擊以重新加入並完成團戰"
+  },
+  "raidPartyCard": {
+    "title": "{{ownerName}} 的小隊",
+    "id": "#{{id}}",
+    "createdAt": "建立於 {{createdAt}}",
+    "globalTime": "{{globalTime}}"
+  },
+  "raidPartySummaryCard": {
+    "title": "{{defender}}",
+    "subtitle": "{{ownerName}}"
+  },
+  "raidPartyKicked": {
+    "title": "已被移出團戰",
+    "description": "主持人已將你移出此團戰。",
+    "reasonHeading": "常見移除原因",
+    "reason1": "你沒有傳送好友邀請給主持人。",
+    "reason2": "你的暱稱或好友代碼與 Pokémon GO 的資料不完全相符。",
+    "reason3": "主持人認為團戰不會成功。有些頭目極度困難，無法在低等玩家且未使用高傷害剋星的情況下完成。",
+    "pokebox": "把你的寶可夢加入寶可夢盒子，讓主持人看到你使用了正確的剋星"
+  },
+  "raidPartyHost": {
+    "title": "團戰主持人",
+    "description": "請在 Pokémon GO 傳送好友邀請給 {{name}}",
+    "hostInfo": "{{name}}",
+    "friendInviteSent": "已送出好友邀請",
+    "confirmFriend": "確認與 {{name}} 的好友關係",
+    "PRIVATE": {
+      "instructions": "這是一場私人團戰。請使用右上角分享圖示，把你的對戰小隊分享給朋友。"
+    },
+    "FRIEND": {
+      "instructions": "已將通知發送給你的 App 內好友。亦可使用右上角分享圖示分享給其他人。"
+    },
+    "GLOBAL": {
+      "instructions": "你的公開團戰已可供任何人加入！請留意遊戲內的好友邀請。人數足夠後，開始倒數計時"
+    }
+  },
+  "raidPartyUserStatus": {
+    "NONE": {
+      "hostDescription": "請選擇你是當地或遠距"
+    },
+    "READY": {
+      "hostDescription": "看看 {{name}} 在哪裡！"
+    },
+    "INTERESTED": {
+      "hostDescription": "請選擇你是當地或遠距"
+    },
+    "REMOTE": {
+      "hostDescription": "請在 Pokémon GO 傳送好友邀請給 {{name}}"
+    },
+    "REMOTE_READY": {
+      "hostDescription": "請等待 {{name}} 在 Pokémon GO 的團戰邀請"
+    },
+    "DONE": {
+      "hostDescription": "你已離開此小隊"
+    }
+  },
+  "raidPartyPlayer": {
+    "title": "{{name}}",
+    "id": "#{{id}}"
+  },
+  "raidPartyStatus": {
+    "INTERESTED": "可加入",
+    "FULL": "已滿",
+    "LOBBY": "等候室",
+    "DONE": "已結束",
+    "READY": "進行中"
+  },
+  "raidPartyActions": {
+    "errors": {
+      "createRaidPartyGeneral": "無法為 {{raidPartyPokemon}} 建立對戰小隊",
+      "updateRaidPartyGeneral": "無法更新 {{raidPartyPokemon}} 的對戰小隊",
+      "fetchRaidPartyGeneral": "找不到對戰小隊 #{{raidPartyId}}",
+      "getRaidResultsGeneral": "無法取得小隊 {{raidPartyId}} 的團戰結果",
+      "removeUserFromRaidPartyGeneral": "你無法離開小隊 #{{raidPartyId}}",
+      "addUserToRaidPartyGeneral": "你無法加入小隊 #{{raidPartyId}}",
+      "getUserRaidPartiesGeneral": "無法取得對戰小隊",
+      "addUserToRaidPartyGone": "對戰小隊 #{{raidPartyId}} 已完成",
+      "addUserToRaidPartyFull": "對戰小隊 #{{raidPartyId}} 已滿",
+      "addUserToRaidPartyGlobal": "對戰小隊 #{{raidPartyId}} 尚未開放加入，請等待倒數計時"
+    }
+  },
+  "share": {
+    "title": "{{name}} #{{id}}",
+    "message": "加入 $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) 對戰小隊 #{{id}}。",
+    "friendMessage": "加入 $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) 對戰小隊 #{{id}}。",
+    "error": "分享對戰小隊時發生錯誤"
+  },
+  "noRaidParty": {
+    "title": "找不到對戰小隊",
+    "description": "Pokebattler 對戰小隊能快速簡單地讓你知道與朋友一起能否打贏頭目。你可以在頭目剋星中選擇頭目後點擊加入對戰小隊，或點擊藍色加號自行主持。",
+    "link": "目前團戰",
+    "linkTo": "RaidBosses"
+  },
+  "noFriendRaidParty": {
+    "title": "找不到好友的小隊",
+    "description": "將你的朋友加到 Pokebattler Raid Party，就能知道他們何時在團戰並快速加入。可在好友列表或團戰結果中加入好友。",
+    "link": "好友列表",
+    "linkTo": "Friends"
+  },
+  "noGlobalRaidParty": {
+    "title": "目前所有公開小隊都已滿",
+    "description": "目前沒有可加入的團戰。主持你自己的小隊，讓其他人從你的 Discord 伺服器或 App 加入",
+    "link": "目前團戰",
+    "linkTo": "RaidBosses"
+  },
+  "globalRaidList": {
+    "title": "Pokebattler 團戰網路",
+    "tab": "全球",
+    "subtitle": "加入世界各地的遠距團戰！對於 Discord 團戰，你會被加入團戰，並直接前往與主持人協調的 Discord 頻道。"
+  },
+  "friendRaidList": {
+    "title": "好友團戰",
+    "tab": "好友",
+    "subtitle": "在 Pokebattler Raid App 新增好友，並在此加入他們的團戰。當好友開團時你會收到推播通知；互為好友者可比其他人更早加入公開團戰"
+  },
+  "selfRaidList": {
+    "title": "你的團戰",
+    "tab": "歷史",
+    "subtitle": "你主持或加入過的團戰都在這裡。回顧你的團戰，找到想加入 Pokebattler 團戰網路的朋友"
+  },
+  "refresh": "重新整理",
+  "highMaxPlayers": {
+    "title": "警告",
+    "description": "邀請超過 5 位遠距玩家非常困難！請確保你知道怎麼做。",
+    "button": "觀看如何邀請 10 位玩家！",
+    "url": "https://youtube.com/shorts/Bn9kwYhm1M0"
+  },
+  "placeholder": "輸入自訂頭目以模擬",
+  "discord": {
+    "joinServer": "加入伺服器",
+    "privateServer": "私人伺服器",
+    "joinChat": "加入聊天室",
+    "oneClickJoin": "一鍵加入",
+    "joinToServerInfo": "此團戰需要你在 Discord 內加入。請加入伺服器、依照歡迎訊息操作，然後透過機器人提供的圖示加入團戰",
+    "coordinateInChannel": "此團戰在 Discord 協調。請在頻道內溝通。遇到問題？請確認你的 Discord 登入帳號與連結到此 Pokebattler 帳號的相同。"
+  },
+  "goCommand": "GO",
+  "raidStartingIn": "團戰將在",
+  "startRaidIn": "開始於",
+  "noTimeSpecified": "未設定時間",
+  "raidNotStarted": "{{ownerName}} 尚未開始團戰",
+  "countdownTitle": "團戰開始時間",
+  "startingTime": {
+    "15": "15 秒",
+    "30": "30 秒",
+    "120": "2 分鐘",
+    "300": "5 分鐘",
+    "default": "選擇開始時間"
+  },
+  "countdownDone": "GO",
+  "goCommandInstruction": "按下 GO 後將關閉新增玩家，並通知所有人團戰即將開始！請確認你已接受所有好友邀請。按下 GO 後無法返回！",
+  "raidStarting": "團戰即將開始，請進入遊戲！",
+  "raidStartingOwner": "還在等什麼？現在該你開始團戰了，所有人都在等你！複製訓練家名單並在遊戲內邀請所有人！",
+  "raidComplete": "此團戰已結束。感謝使用 Pokebattler Raid Party！",
+  "raidPartyList": {
+    "unavailable": "未開放",
+    "available": "可加入",
+    "recent": "最近"
+  },
+  "clipboard": {
+    "copyAttackers": "複製攻擊者",
+    "friendCodeCopied": "已複製 {{ownerName}} 的好友代碼！貼到遊戲中傳送好友邀請給主持人！",
+    "attackersCopied": "已複製建議的攻擊者！貼到遊戲內的對戰小隊搜尋！",
+    "partyTrainersCopied": "已複製團戰訓練家名單！貼到遊戲中邀請他們加入你的團戰！"
+  },
+  "raidVotingPopup": {
+    "player": {
+      "title": "確認 - 離開團戰",
+      "thankYou": "感謝你使用 Pokebattler Raid Party！",
+      "rate": "請為 {{ownerName}} 的小隊評分",
+      "close": "$t(raidBosses:leaveParty)"
+    },
+    "host": {
+      "title": "確認 - 結束團戰",
+      "thankYou": "感謝你在 Pokebattler Raid Party 主持團戰！",
+      "rate": "請左右滑動以評分小隊成員",
+      "close": "$t(raidBosses:finishParty)"
+    },
+    "abandon": {
+      "title": "確認 - 放棄團戰",
+      "thankYou": "很遺憾沒有任何人加入你的團戰 😔",
+      "rate": "",
+      "close": "放棄團戰"
+    }
+  },
+  "kickUserPreviewPopup": {
+    "title": "移除玩家",
+    "questionMessage": "你要移除",
+    "rateMessage": "（選填）評分"
+  },
+  "coins": {
+    "spendCard": {
+      "title": "賺取硬幣或訂閱以提前加入團戰。",
+      "button": "提前加入 ⏩"
+    },
+    "upgradePopup": {
+      "title": "用硬幣升級！",
+      "cardSubtitle": "花費硬幣升級到更高訂閱等級",
+      "nonUpgradeRole": {
+        "title": "感謝你的訂閱！",
+        "topText": "感謝你訂閱最高的快轉設定！",
+        "bottomText": "我們由衷感謝你的支持"
+      },
+      "disabled": {
+        "message": "你沒有足夠硬幣可升級到此等級"
+      },
+      "allowed": {
+        "message": "升級後你就能提前加入團戰，當出現 ⏩ 時點擊即可！",
+        "upgrade": "升級",
+        "noteText": "每次提前加入都會消耗硬幣。失敗的團戰將在 24 小時後自動退還硬幣。"
+      },
+      "subtitle": "目前可獲得硬幣的方式：",
+      "rewards1": "• 評 👍 或 👎 +1 硬幣",
+      "rewards2": "• 收到 👍 +5 硬幣",
+      "maximumGain": "每場團戰最高收益：主持人 30、參與者 6",
+      "noteText": "收到 👎 不會扣硬幣，但會扣業力。業力會顯示給其他使用者看，讓世界變得更美好"
+    }
+  },
+  "hostForm": {
+    "noRaidsForTier": "目前 Pokémon GO 沒有 {{tier}} 的團戰。"
+  },
+  "createRaidForm": {
+    "title": "建立對戰小隊",
+    "priority": {
+      "header": "警告，優先度低",
+      "headerExtreme": "極低優先度",
+      "line1": "目前有 {{numHigherKarmaParties}} 位優先權比你高的主持人。",
+      "line2": "警告！提升優先度為測試功能。除非附上詳細錯誤回報至 admin@pokebattler.com，否則不退款。風險自負！優先度基於你的業力，僅能用硬幣提升。",
+      "insufficientCoins": "你還需要 {{moreCoins}} 枚硬幣才能提升優先度。建議加入其他團戰累積業力，或在非熱門時段主持。",
+      "sortBoostTitle": "花硬幣提升優先度",
+      "sortBoostSubTitle": "較高優先度會讓你在可加入的團戰列表中更靠前，讓你的團更快集滿。",
+      "placeholder": "不提升",
+      "option1": "最高優先",
+      "option2": "次高優先",
+      "option3": "第三優先"
+    },
+    "suggestedParty": {
+      "header": "可加入的公開團戰",
+      "line1": "建議考慮加入而非主持"
+    },
+    "hostParty": "建立小隊"
+  },
+  "filterRaidForm": {
+    "title": "篩選對戰小隊",
+    "apply": "套用"
+  }
 }

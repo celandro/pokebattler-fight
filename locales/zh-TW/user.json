@@ -1,41 +1,492 @@
 {
-    "title": "登入",
-    "privacy": "更多的資訊請參閱我們的隱私政策",
-    "loading": "載入使用者資料",
-    "user": "使用者",
-    "login": {
-        "google": "使用Google帳號登入",
-        "facebook": "使用Facebook帳號登入",
-        "success": {
-            "title": "登入成功",
-            "fromApi": "$t(login.success.title)! 請稍等片刻再繼續."
-        },
-        "patreon": "使用Patreon賬號登入",
-        "patreonDescription": "Pokebattler现在支持 Stripe订阅啦！我們強烈建議Patreon訂閱者遷移到新的訂閱計劃來。所在國家不支持Stripe或是希望通過Paypal付款的用戶可以繼續使用Patreon。",
-        "autoCreate": "認證會自動建立你的 Pokebattler 帳號並登入"
-    },
-    "details": {
-        "welcome": "歡迎",
-        "description": "以下您的訓練師信息會被用於個性化站點並且會展示給其他用戶."
-    },
-    "description": "登入來使用寶可夢盒子與個人化模擬器",
-    "explanation": "Pokebattler 不會也無法登入您的寶可夢遊戲中，我們不會與Niantic官方伺服器進行任何聯繫，我們只利用登入來確認各裝置的身份。你可以透過手機、平板、電腦登入後，看到你輸入至網頁的所有寶可夢。我們不會將您的資訊外洩、作為商業或其他用途。",
-    "logout": {
-        "title": "登出",
-        "description": "您已經成功登出。您的Pokebox將在這裡等著您隨時使用任何裝置登入。",
-        "back": "回到登入頁面",
-        "button": "登出"
-    },
-    "roles": {
-        "title": "帳號資訊"
-    },
-    "meta": {
-        "description": "Pokebattler存儲您寶可夢 Go裡的寶可夢到寶可夢圖鑒中來快速提供團體戰指南和更多資訊！"
-    },
-    "loggedIn": {
-        "title": "公開資料"
-    },
-    "settings": {
-        "showListImages": "顯示圖片"
+  "title": "登入 Pokebattler",
+  "meta": {
+    "description": "Pokebattler 會將你的 Pokémon GO 寶可夢儲存在 Pokebox，用於快速團體戰剋星與更多功能！"
+  },
+  "description": "免費註冊帳號以使用你的寶可夢盒子，並獲得你的專屬剋星！",
+  "explanation": "Pokebattler 不會、也無法登入你的 Pokémon GO 帳號；我們不會以任何方式連線至 Niantic 伺服器。此登入僅用於辨識你在各裝置間的身分。你可以在手機、平板、電腦上登入，看到你儲存在網站上的所有寶可夢。我們不會分享你的資訊，也不會用於行銷或其他用途。",
+  "privacy": "更多資訊請參考我們的隱私政策",
+  "loading": "正在擷取 Pokebattler 資料",
+  "user": "使用者",
+  "defaultName": "$t(user:user) #{{userId}}",
+  "login": {
+    "connect": "連結你的帳號",
+    "autoCreate": "驗證後會自動建立你的 Pokebattler 帳號並登入",
+    "google": "使用 Google 登入",
+    "facebook": "使用 Facebook 繼續",
+    "discord": "使用 Discord 登入",
+    "patreon": "使用 Patreon 登入",
+    "patreonDescription": "Pokebattler 現在支援網站（Stripe）直接訂閱！我們強烈建議現有 Patreon 訂閱者遷移到新的訂閱方案。Stripe 不支援的國家（如巴西、墨西哥）以及想使用 Paypal 付款的使用者可繼續使用 Patreon。",
+    "device": "略過",
+    "loginReason": "登入可讓你在 Pokebattler.com 與第三方（例如 Discord 機器人）使用跨裝置與跨平台的功能",
+    "emailReason": "你的電子郵件僅用於帳號連結與客服用途。",
+    "success": {
+      "title": "登入成功",
+      "fromApi": "$t(login.success.title)！請稍候"
     }
+  },
+  "link": {
+    "shortTitle": "連結帳號",
+    "title": "連結你的社群登入",
+    "description": "你可以將 Pokebattler 帳號與多種登入方式連結。執行此操作時，將你嘗試連結的帳號合併到目前的帳號。請確認你是以想保留的帳號登入！",
+    "google": "連結 Google 帳號",
+    "facebook": "連結 Facebook 帳號",
+    "discord": "連結 Discord 帳號",
+    "patreon": "連結 Patreon 帳號",
+    "allLinked": "太強了！你已連結所有帳號。恭喜成為 Pokebattler 帳號大師！",
+    "success": {
+      "title": "已成功連結帳號"
+    }
+  },
+  "settings": {
+    "showListImages": "顯示圖片"
+  },
+  "details": {
+    "welcome": "歡迎",
+    "description": "下方的訓練家資訊將用於客製化網站，並會顯示給其他使用者。"
+  },
+  "raidParty": {
+    "title": "對戰小隊設定",
+    "description": "Pokebattler Raid Party App 的設定。"
+  },
+  "loggedIn": {
+    "title": "公開檔案",
+    "description": "你已成功登入。填寫下方訓練家資訊，然後點擊寶可夢盒子新增你的寶可夢以獲得自訂結果；接著建立對戰小隊，用於自訂團體戰結果。",
+    "meta": {
+      "description": "儲存你的 Pokémon GO 使用者資訊與寶可夢。"
+    },
+    "profileButton": "你的檔案",
+    "discordLink": {
+      "instructions": "要連結 Discord 帳號，請先登出，並使用與此帳號相同信箱的 Discord 選項重新登入。",
+      "linkAccounts": "將你的 Discord 帳號連結至此 Pokebattler 帳號以啟用 Pokebattler 團戰網路",
+      "error": "連結遇到問題？請寄信 admin@pokebattler.com，並附上你的兩個 Pokebattler 使用者編號。"
+    }
+  },
+  "logout": {
+    "title": "已登出",
+    "meta": {
+      "description": "你已成功登出 Pokebattler。"
+    },
+    "description": "你已成功登出。之後在任何裝置回來，你的寶可夢盒子都會在這裡等你！",
+    "back": "回到登入",
+    "connectAccount": "連結帳號",
+    "button": "登出"
+  },
+  "delete": {
+    "title": "刪除你的 Pokebattler 帳號",
+    "privacy": "Pokebattler 重視你的隱私。帳號唯一收集的個資為電子郵件，僅用於客服與帳號連結，絕不發送垃圾郵件。",
+    "description": "不再使用且永不回來？你可以從 Pokebattler 伺服器刪除你的帳號。這不會影響你的 Pokémon GO 帳號，因為我們不是 Niantic。",
+    "confirmation": "帳號刪除為永久且無法復原！確定嗎？",
+    "success": "你的帳號已成功刪除。之後重新登入即可建立空白帳號。",
+    "back": "回到 Pokebattler",
+    "button": "刪除帳號"
+  },
+  "subscribed": {
+    "title": "感謝你的支持",
+    "meta": {
+      "description": "Pokebattler 能免費提供給所有人使用，全靠像你一樣的人慷慨訂閱！訂閱會移除廣告，並解鎖強大功能，幫你擊敗團體戰或在 PvP 擊敗你的朋友！"
+    },
+    "patreon": "鼓勵 Patreon 訂閱者改用下方的 Stripe 選項以獲得更低價格與更佳支援。你可以寄信 admin@pokebattler.com，當你切換至新訂閱方案時，我們會提供折扣碼；折扣金額會依你剩餘的 Patreon 訂閱而定。Stripe 不支援的國家，以及想使用 Paypal 付款者，請繼續使用 Patreon。",
+    "chooseProduct": "變更你的訂閱",
+    "currentSubscription": "目前訂閱資訊",
+    "choosePlan": "選擇你的方案",
+    "purchase": "更新你的期間",
+    "currentPlan": "目前方案",
+    "chargeAmount": "你將立刻被收取 ${{chargeAmount}} 的按比例金額。每個週期開始時會收取全額。",
+    "duringTrial": {
+      "button": "變更訂閱",
+      "description": "試用期間，你可以自由更改訂閱"
+    },
+    "upgradeSubscription": {
+      "button": "升級訂閱",
+      "description": "立刻升級你的訂閱。"
+    },
+    "downgradeSubscription": {
+      "button": "降級訂閱",
+      "description": "在目前訂閱結束時降級。"
+    },
+    "changeCreditCard": {
+      "title": "變更付款資訊",
+      "button": "更新資訊"
+    }
+  },
+  "subscription": {
+    "title": "訂閱 Pokebattler",
+    "meta": {
+      "description": "Pokebattler 能免費提供給所有人使用，全靠像你一樣的人慷慨訂閱！訂閱會移除廣告，並解鎖強大功能，幫你擊敗團體戰或在 PvP 擊敗你的朋友！",
+      "image": "https://static.pokebattler.com/images/og_user_subscription.png"
+    },
+    "app": {
+      "description": "Pokebattler 訂閱與你的帳號綁定，在所有裝置（App、行動網頁、桌面）提供加強功能與更詳細的分析。",
+      "allDevices": "功能",
+      "desktopOnly": "僅限桌面功能",
+      "support": {
+        "description": "訂閱有問題嗎？Pokebattler 訂閱與你購買時登入的帳號綁定。請用舊與新 Pokebattler ID 聯絡客服以合併帳號",
+        "restorePurchases": "恢復購買",
+        "contactSupport": "聯絡客服"
+      },
+      "restore": {
+        "begin": "重新處理交易",
+        "complete": "重新處理完成",
+        "noneFound": "此 Apple ID 沒有過去的購買"
+      },
+      "freeTrial": "免費試用結束後才會收費。你可在試用結束前取消以避免任何費用。"
+    },
+    "paymentRequest": "一鍵訂閱",
+    "paymentRequestDescription": "一鍵訂閱在大多數行動裝置支援。你也可以改為在下方輸入資訊。",
+    "currentProduct": "目前權益",
+    "chooseProduct": "選擇方案",
+    "choosePlan": "選擇期間",
+    "purchase": "開始免費試用！",
+    "creditCard": "輸入你的信用卡資訊",
+    "paymentType": "付款方式",
+    "name": "姓名",
+    "email": "電子郵件",
+    "line1": "地址第一行",
+    "line2": "地址第二行",
+    "city": "城市",
+    "state": "州/省",
+    "country": "國家",
+    "idealBank": "iDEAL 銀行",
+    "description": "你的信用卡資訊由 Stripe 安全處理，永不傳送至 Pokebattler。Stripe 會處理你的訂閱，並告知 Pokebattler 你的訂閱狀態。",
+    "multiMonth": "選擇多月方案更划算！",
+    "requiresLogin": "你必須先登入才能訂閱",
+    "ibanDescription": "提供 IBAN 並確認付款，即授權 Pokebattler.com 與我們的付款服務商 Stripe，向你的銀行發送扣款指示，並依據指示扣款。你有權依銀行協議向銀行申請退款；退款需在帳戶被扣款後 8 週內提出。",
+    "notNeccessary": "以下欄位通常不需要。只有當你的付款被拒時才需填寫。",
+    "freeTrial": "{{trialPeriodDays}} 天免費試用",
+    "paymentTypes": {
+      "creditCard": "信用卡",
+      "iban": "IBAN",
+      "ideal": "iDEAL"
+    },
+    "confirmation": {
+      "button": "訂閱",
+      "description": "$t(user:subscription.choosePlan)"
+    },
+    "plans": {
+      "1month": {
+        "title": "1 個月 - ${{intervalCost}}/月",
+        "subtitle": "在 {{trialPeriodDays}} 天免費試用後，每月將收取 ${{cost}}。",
+        "discount": "選擇多月方案更省",
+        "shortTitle": "1 個月",
+        "monthlyPrice": "購買單月方案。選擇多月方案更省！"
+      },
+      "3month": {
+        "title": "3 個月 - ${{intervalCost}}/月",
+        "subtitle": "在 {{trialPeriodDays}} 天免費試用後，每 3 個月將收取 ${{cost}}。",
+        "discount": "省 {{discount}}% - {{trialPeriodDays}} 天免費試用",
+        "shortTitle": "3 個月",
+        "shortDiscount": "-{{discount}}%",
+        "monthlyPrice": "預付 3 個月，每月 {{currency}}{{intervalCost}}。"
+      },
+      "6month": {
+        "title": "6 個月 - ${{intervalCost}}/月",
+        "subtitle": "在 {{trialPeriodDays}} 天免費試用後，每 6 個月將收取 ${{cost}}。",
+        "discount": "省 {{discount}}% - {{trialPeriodDays}} 天免費試用",
+        "shortTitle": "6 個月",
+        "shortDiscount": "-{{discount}}%",
+        "monthlyPrice": "預付 6 個月，每月 {{currency}}{{intervalCost}}。"
+      }
+    },
+    "products": {
+      "ROLE_BASIC": {
+        "title": "基本方案",
+        "subtitle": "實惠且高 CP 值"
+      },
+      "ROLE_STANDARD": {
+        "title": "標準方案",
+        "subtitle": "多數玩家建議選擇"
+      },
+      "ROLE_BATTLER": {
+        "title": "對戰家方案",
+        "subtitle": "進階玩家的更高等級"
+      },
+      "ROLE_CHAMPION": {
+        "title": "冠軍方案",
+        "subtitle": "硬派玩家的最佳選擇"
+      },
+      "ROLE_USER": {
+        "title": "非訂閱者",
+        "subtitle": "所有使用者皆享有的免費權益"
+      },
+      "ROLE_ADMIN": {
+        "title": "Pokebattler 管理員",
+        "subtitle": "你可以訂閱，但反而會降級"
+      },
+      "ROLE_FAN": {
+        "title": "Patreon 粉絲",
+        "subtitle": "若在下方訂閱，請記得取消 Patreon 贊助"
+      },
+      "ROLE_SUPPORTER": {
+        "title": "Patreon 支持者",
+        "subtitle": "若在下方訂閱，請記得取消 Patreon 贊助"
+      },
+      "ROLE_PATREON": {
+        "title": "Patreon 贊助者",
+        "subtitle": "若在下方訂閱，請記得取消 Patreon 贊助"
+      },
+      "ROLE_FANATIC": {
+        "title": "Patreon 狂熱者",
+        "subtitle": "若在下方訂閱，請記得取消 Patreon 贊助"
+      },
+      "ROLE_CONTEST": {
+        "title": "比賽得主",
+        "subtitle": "等同於下方冠軍方案"
+      },
+      "ROLE_PATREON_USER": {
+        "title": "Patreon 使用者",
+        "subtitle": "注意：你的等級將很快回復至非訂閱者"
+      },
+      "ROLE_SUPPORTER2": {
+        "title": "Patreon 支持者",
+        "subtitle": "若在下方訂閱，請記得取消 Patreon 贊助"
+      }
+    },
+    "upsell": {
+      "rankingByType": "訂閱者可使用昂貴的排行功能，包括隊伍火力、依屬性篩選與原始增益！",
+      "premium": "進階排行功能"
+    },
+    "transaction": {
+      "start": "處理訂閱中",
+      "verify": "升級你的帳號中",
+      "confirm": "帳號升級成功",
+      "complete": "感謝你的支持",
+      "restore": "正在恢復你的訂閱，這可能需要一些時間"
+    },
+    "error": {
+      "playLogin": "無法完成交易。請登入 Google Play 後再試一次",
+      "unknown": "無法完成交易！請聯絡 admin@pokebattler.com",
+      "cancelled": "已取消訂閱",
+      "verification": "無法驗證交易！請聯絡 admin@pokebattler.com",
+      "store": "連線商店時發生錯誤",
+      "restore": "無法恢復交易！請聯絡 admin@pokebattler.com",
+      "transactionRestore": "無法套用交易。請用原始帳號登入或聯絡 admin@pokebattler.com"
+    }
+  },
+  "roles": {
+    "title": "帳號資訊",
+    "heading": "目前權益",
+    "description": "贊助 Pokebattler 以獲得進階權益，包括更大的寶可夢盒子與無廣告體驗。Pokebattler 得以存在，全靠像你一樣的人慷慨支持，承擔網站日益增加的伺服器成本。",
+    "maxPokemon": "Pokebox 上限",
+    "maxBattleParties": "對戰小隊上限",
+    "maxNumParty": "隊伍火力上限",
+    "globalRaidHeadStartMs": "全球團戰搶先",
+    "quality": "模擬品質",
+    "thanks": "感謝你支持 Pokebattler！我們非常感激你的贊助。",
+    "support": "支持 Pokebattler",
+    "matrixMaxPokemon": "矩陣 - 寶可夢上限",
+    "matrixMaxType": "矩陣 - 屬性上限",
+    "matrixMetaTypes": "矩陣 - 主流屬性",
+    "hideAds": "無廣告體驗",
+    "enabled": "啟用",
+    "disabled": "停用",
+    "rankingByType": "依屬性篩選排行",
+    "role": {
+      "ROLE_USER": "Pokebattler 使用者",
+      "ROLE_ADMIN": "Pokebattler 管理員",
+      "ROLE_FAN": "Pokebattler 粉絲",
+      "ROLE_SUPPORTER": "Pokebattler 支持者（舊）",
+      "ROLE_PATREON": "Pokebattler Patreon",
+      "ROLE_FANATIC": "Pokebattler 狂熱者",
+      "ROLE_CONTEST": "Pokebattler 比賽得主",
+      "ROLE_PATREON_USER": "Pokebattler Patreon 使用者",
+      "ROLE_SUPPORTER2": "Pokebattler 支持者",
+      "ROLE_BASIC": "基本",
+      "ROLE_STANDARD": "標準",
+      "ROLE_BATTLER": "對戰家",
+      "ROLE_CHAMPION": "冠軍"
+    }
+  },
+  "userSubscription": {
+    "createdAt": {
+      "label": "建立時間",
+      "value": "{{createdAt,shortdate}}"
+    },
+    "endedAt": {
+      "label": "結束時間",
+      "value": "{{endedAt,shortdate}}"
+    },
+    "currentPeriodStart": {
+      "label": "當期開始",
+      "value": "{{currentPeriodStart,shortdate}}"
+    },
+    "currentPeriodEnd": {
+      "label": "當期結束",
+      "value": "{{currentPeriodEnd,shortdate}}"
+    },
+    "trialStart": {
+      "label": "試用開始",
+      "value": "{{trialStart,shortdate}}"
+    },
+    "trialEnd": {
+      "label": "試用結束",
+      "value": "{{trialEnd,shortdate}}"
+    },
+    "lastUpdate": {
+      "label": "最後更新",
+      "value": "{{lastUpdate,shortdate}}"
+    },
+    "subscriptionPlatform": {
+      "label": "",
+      "value": "{{subscriptionPlatform}} - {{role}}"
+    },
+    "planId": "方案 ID",
+    "cancel": "取消訂閱",
+    "renew": "續訂",
+    "platform": {
+      "ios": {
+        "title": "App Store 訂閱",
+        "manageSubscription": "管理此 App Store 訂閱",
+        "platformLink": "itms-apps://apps.apple.com/account/subscriptions",
+        "link": "https://apps.apple.com/account/subscriptions",
+        "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+      },
+      "android": {
+        "title": "Play 商店訂閱",
+        "manageSubscription": "管理此 Play 商店訂閱",
+        "platformLink": "https://play.google.com/store/account/subscriptions",
+        "link": "https://play.google.com/store/account/subscriptions",
+        "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+      },
+      "stripe": {
+        "title": "網站訂閱",
+        "manageSubscription": "在網站管理此 Stripe 訂閱",
+        "platformLink": "https://www.pokebattler.com/user/subscription",
+        "link": "https://www.pokebattler.com/user/subscription",
+        "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+      },
+      "patreon": {
+        "title": "Patreon 訂閱",
+        "manageSubscription": "管理此 Patreon 訂閱",
+        "platformLink": "https://www.patreon.com/pokebattler",
+        "link": "https://www.patreon.com/pokebattler",
+        "icon": "https://static.pokebattler.com/images/pokebattler_square.png"
+      }
+    },
+    "statuses": {
+      "trialing": {
+        "title": "免費試用期",
+        "description": "你的 Pokebattler 訂閱包含試用期；若不滿意可在試用期結束前取消以避免收費。",
+        "cancelled": "你的 Pokebattler 訂閱已取消。要不要再試試我們？"
+      },
+      "active": {
+        "title": "有效會員",
+        "description": "你的 Pokebattler 會員已啟用。你的會員將在 {{currentPeriodEnd}} 續訂。",
+        "cancelled": "你的 Pokebattler 會員將於 {{currentPeriodEnd}} 取消。在此之前請繼續享受訂閱權益！"
+      },
+      "incomplete": {
+        "title": "未完成的會員",
+        "description": "你的 Pokebattler 會員需要你採取動作才能完成。請向付款服務商確認你的訂閱。"
+      },
+      "incomplete_expired": {
+        "title": "未完成的會員",
+        "description": "你的 Pokebattler 會員曾需要你採取動作，但已超過期限。你需要重新訂閱。"
+      },
+      "past_due": {
+        "title": "逾期的會員",
+        "description": "你的 Pokebattler 會員付款未通過。你需要更新付款資訊並重新訂閱"
+      },
+      "canceled": {
+        "title": "已取消的會員",
+        "description": "你的 Pokebattler 會員已取消。最後會員日期為 {{currentPeriodEnd}}。",
+        "cancelled": "$t(userSubscription.statuses.canceled.description)"
+      },
+      "cancelled": {
+        "title": "$t(userSubscription.statuses.canceled.title)",
+        "description": "$t(userSubscription.statuses.canceled.description)",
+        "cancelled": "$t(userSubscription.statuses.canceled.description)"
+      }
+    }
+  },
+  "sponsor": {
+    "title": "贊助 {{app}}",
+    "meta": {
+      "description": "將你的 Pokebattler 會員收入的一部分分配給 {{app}}"
+    },
+    "description": "Pokebattler 現在提供一種方式來贊助精選的夥伴，他們為社群提供有價值的服務。Pokebattler 希望你考慮支持這些創作者，幫助社群蓬勃發展",
+    "cancel": "取消贊助",
+    "how": {
+      "title": "運作方式",
+      "description": "若你選擇贊助創作者，他們將在任何稅金、手續費或折扣前，獲得你訂閱的一定比例。你的訂閱等級越高，比例越高。每月初，Pokebattler 會依該月的有效訂閱向各創作者付款，並提供贊助者清單以及部分公開檔案資訊與訂閱等級。",
+      "description2": "此贊助不會產生任何額外費用，也不影響你的 Pokebattler 訂閱條款。"
+    },
+    "legal": {
+      "title": "法律",
+      "description": "贊助第三方即授權 Pokebattler 將你的公開檔案資料分享給該第三方，包含使用者 ID、訓練家名稱與 Discord 名稱，以及訂閱日期與等級等非公開資料。不分享電子郵件與帳號 ID。贊助僅適用 Stripe、Apple 與 Google 訂閱；不包含 Patreon 訂閱。"
+    },
+    "button": {
+      "title": "贊助 {{name}}"
+    },
+    "currentSponsored": "目前贊助 {{name}}（{{app}}）",
+    "notSubscribed": "你目前尚未訂閱 Pokebattler。需要訂閱才能支持 {{app}}",
+    "sponsored": {
+      "pokenav": {
+        "description": "PokeNav 是一個用於團戰、交換等的 Pokémon GO Discord 機器人。它在 Discord 伺服器提供 Pokebattler 剋星與對戰小隊",
+        "quote": "贊助 PokeNav 有助於其開發與營運成本",
+        "thanks": "感謝你贊助 PokeNav！你的貢獻幫助我們持續營運與開發。",
+        "name": "IVpips",
+        "app": "Pokenav",
+        "iconUrl": "https://pokenavbot.com/assets/images/logo.png"
+      },
+      "clembotdark": {
+        "description": "Clembot Dark 是一個用於團戰的 Pokémon GO Discord 機器人",
+        "quote": "Pokebattler 是你所有團戰相關問題的絕佳資源（可依使用者客製化）。Pokebattler 與 Clembot 的整合，將這些資訊帶到 Discord！太令人興奮了！",
+        "thanks": "非常感謝你支持 Clembot。",
+        "name": "B!",
+        "app": "Clembot Dark",
+        "iconUrl": "https://cdn.discordapp.com/app-icons/363917328880107522/2f4e04668ff5ef15d309faaec40f9418.png?size=256"
+      },
+      "pvpoke": {
+        "description": "Pvpoke 是開源工具，用於 Pokémon GO PvP 的模擬、排行與隊伍組成",
+        "quote": "很高興與 Pokebattler 合作帶來最棒的戰鬥模擬！訂閱 Pokebattler 後，你就能在 Pokebattler 與 PvPoke.com 儲存數百隻 PvP 寶可夢。",
+        "thanks": "非常感謝你訂閱並支持 PvPoke！競技場見！",
+        "name": "Matt",
+        "app": "PvPoke.com",
+        "iconUrl": "https://pvpoke.com/img/app_192.png"
+      },
+      "nexus": {
+        "description": "Nexus 是一個 Discord 機器人，用於協調團戰、交易並提供 Pokémon GO 資訊",
+        "quote": "贊助 Nexus 有助於應用成長時的成本",
+        "thanks": "感謝你贊助 Nexus！你的支持讓機器人得以持續運作",
+        "name": "10Criz",
+        "app": "Nexus",
+        "iconUrl": "https://static.pokebattler.com/images/nexus_logo.png"
+      },
+      "minpoke": {
+        "description": "Minpoke 是個 Pokémon GO 網站，提供團戰、模擬等功能，並有 Discord 機器人",
+        "quote": "贊助 Minpoke 有助於應用成長時的成本",
+        "thanks": "感謝你贊助 Minpoke！你的支持讓網站得以持續運作",
+        "name": "Minpoke",
+        "app": "Minpoke",
+        "iconUrl": "https://static.pokebattler.com/images/minpokelogo.png"
+      }
+    }
+  },
+  "countryCodes": {
+    "AR": "阿根廷",
+    "AU": "澳洲",
+    "AT": "奧地利",
+    "BE": "比利時",
+    "BG": "保加利亞",
+    "CA": "加拿大",
+    "DK": "丹麥",
+    "FI": "芬蘭",
+    "FR": "法國",
+    "DE": "德國",
+    "HK": "香港",
+    "HU": "匈牙利",
+    "IE": "愛爾蘭",
+    "IT": "義大利",
+    "JP": "日本",
+    "LU": "盧森堡",
+    "NL": "荷蘭",
+    "NZ": "紐西蘭",
+    "NO": "挪威",
+    "PT": "葡萄牙",
+    "ES": "西班牙",
+    "SE": "瑞典",
+    "CH": "瑞士",
+    "GB": "英國",
+    "US": "美國"
+  }
 }

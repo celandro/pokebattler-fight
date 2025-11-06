@@ -1,3 +1,302 @@
 {
-
+  "news": {
+    "title": "Pokémon GO 對戰聯盟 PvP 新聞",
+    "description": "掌握 Pokémon GO PvP 最新動態。GO 對戰聯盟與 Silph 盃是最受歡迎的 PvP 模式。Pokebattler 提供由頂尖 PvP 訓練家撰寫的競技分析，教你如何在正面對決中擊敗朋友！",
+    "meta": {
+      "description": "$t(pvp:news.description)",
+      "image": "https://static.pokebattler.com/images/og_news_rankings.PNG"
+    },
+    "join": "徵求所有 GO 對戰聯盟 PvP 影響者與準影響者：把你的影片、文章與資訊圖表發表在 Pokebattler.com，讓更多人聽見你的聲音。",
+    "joinCTA": "聯繫我們了解詳情"
+  },
+  "matrix": {
+    "title": "PvP 矩陣模擬器",
+    "description": "查看你的寶可夢隊伍對上對手隊伍的對戰結果",
+    "loggedOut": "基於效能，此功能僅供登入用戶使用。它能讓你檢視兩組寶可夢之間所有可能的對戰組合。免費註冊帳號，立即試用這個新功能！",
+    "benefits": "訂閱者可在更多寶可夢與招式組合上執行矩陣模擬，並享有其他好處。",
+    "zeroTypes": "你的訂閱等級不支援依屬性進行矩陣模擬。立即升級！",
+    "meta": {
+      "description": "$t(pvp:matrix.description)",
+      "image": "https://static.pokebattler.com/images/og_pvp_matrix.PNG"
+    },
+    "submit": "計算",
+    "swap": "交換",
+    "copy": "複製",
+    "results": {
+      "description": "左側顯示所選攻擊方，依 {{sort}} 排序。每位攻擊方的對位結果隨後列出，最佳對位在前、最差在後。橢圓中的數字是該對位的 {{sort}}，藍色代表有利、紅色代表不利、白色代表五五波。",
+      "error": {
+        "title": "沒有結果",
+        "description": "沒有寶可夢符合你的結果。此工具僅涵蓋相關寶可夢。你可能需要更改聯盟或選擇更接近該聯盟上限 CP 的寶可夢。"
+      },
+      "shared": {
+        "title": "自訂矩陣結果",
+        "subtitle": "建立於 {{date}}",
+        "description": "此結果由使用者 #{{userId}} 建立。登入後你也可以執行自己的免費矩陣模擬來查看不同對位！",
+        "params": "以下為建立此結果所用的參數。登入並執行矩陣模擬，建立你自己的結果"
+      },
+      "share": {
+        "title": "你的自訂矩陣結果",
+        "subtitle": "建立於 {{date}}",
+        "description": "此結果由你建立。你可以分享給沒有 Pokebattler 帳號的朋友！",
+        "params": "在下方修改你的模擬設定以查看其他對位"
+      }
+    },
+    "params": {
+      "addPokemon": "新增寶可夢",
+      "showMoveTypes": "顯示招式屬性",
+      "showPokemonTypes": "顯示寶可夢屬性",
+      "chooseParty": "選擇對戰小隊",
+      "requiresSubscription": {
+        "title": "超過矩陣大小上限",
+        "description": "支持 Pokebattler 以獲得更高上限"
+      },
+      "attackerLeague": {
+        "title": "選擇攻擊方",
+        "subtitle": "矩陣限制依你的訂閱等級而定",
+        "pokemonCategory": {
+          "title": "選擇你的寶可夢",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} 隻寶可夢",
+          "description": "點選寶可夢以自訂招式或能力值。"
+        },
+        "pokemonType": {
+          "title": "選擇你的屬性",
+          "subtitle": "{{numTypes}}/{{maxTypes}} 種屬性",
+          "description": "將這些屬性的所有寶可夢加入攻擊方。"
+        }
+      },
+      "defenderLeague": {
+        "title": "選擇防守方",
+        "subtitle": "升級以支援更大型矩陣模擬",
+        "pokemonCategory": {
+          "title": "選擇對手的寶可夢",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} 隻寶可夢",
+          "description": "點選寶可夢以自訂招式或能力值。"
+        },
+        "pokemonType": {
+          "title": "選擇對手的屬性",
+          "subtitle": "{{numTypes}}/{{maxTypes}} 種屬性",
+          "description": "將這些屬性的所有寶可夢加入防守方。"
+        }
+      }
+    }
+  },
+  "rankings": {
+    "title": "PvP 排行",
+    "description": "Pokémon GO 對戰聯盟 PvP 排行，看看哪些寶可夢最強。",
+    "meta": {
+      "description": "Pokebattler 的 Pokémon GO 對戰聯盟 PvP 排行找出 PvP 最強寶可夢！了解誰在超級聯盟、高級聯盟、大師聯盟與各 Silph 盃最強！",
+      "image": "https://static.pokebattler.com/images/og_pvp_rankings.PNG"
+    },
+    "welcome": {
+      "title": "Pokémon GO 對戰聯盟 PvP 登場！",
+      "paragraph1": "Pokebattler 支援 GO 對戰聯盟與 Silph 競技場盃。我們的隨機盾設定能快速分析在不同盾牌情境下誰佔優勢，也可深入查看所有盾牌情境。",
+      "paragraph2": "前 30 名排行告訴你對整體環境而言誰更能獲勝；剋星排行讓你知道哪些寶可夢打得贏前 30 名；最後，現行主流與預測主流的矩陣連結，讓你看到 24 隻最熱門寶可夢對上少數主流寶可夢的表現。PvP 很複雜，但這些排行能幫你起步！",
+      "closing": "希望你跟我們一樣對 PvP 充滿熱情。也希望這些列表能幫你打造強力隊伍。Pokebattler 會持續提供更精緻的列表與更多 PvP 功能。",
+      "link": "舊的 Silph 盃排行"
+    },
+    "old": {
+      "title": "舊的 Silph 盃！",
+      "paragraph1": "Silph 競技場是線下的 Pokémon GO PvP 錦標賽，每季會更換規則。每個月規則不同，最強的寶可夢也會隨之改變！",
+      "paragraph2": "以下為 Pokebattler 仍支援的舊 Silph 盃",
+      "closing": "Silph 盃非常有趣！希望這些舊排行能幫你了解在不同規則下哪些類型的寶可夢表現最佳",
+      "link": "目前的 Pokémon GO PvP 排行"
+    },
+    "buttons": {
+      "attacker": "全方位",
+      "defender": "剋星",
+      "gotoRankings": "前往排行",
+      "predicted": {
+        "label": "預測主流",
+        "description": "頂尖寶可夢的矩陣分析"
+      },
+      "current": {
+        "label": "現行主流",
+        "description": "頂尖寶可夢的矩陣分析"
+      },
+      "defenders": {
+        "label": "前 30 名",
+        "description": "最難被擊敗的寶可夢"
+      },
+      "attackers": {
+        "label": "剋星",
+        "description": "能打贏前 30 名的最佳剋星"
+      },
+      "pokedex": {
+        "label": "圖鑑",
+        "description": "每隻寶可夢的對位與剋星"
+      }
+    },
+    "featured": {
+      "title": {
+        "attacker": "對上前 30 名全方位寶可夢的平均對戰數據",
+        "defender": "對上所有可能對手的平均對戰數據"
+      },
+      "deepLink": "查看更多 {{pokemon}} 的詳細資訊"
+    },
+    "list": {
+      "title": "PvP {{league}} 排行 - {{typeSelection}}",
+      "titleBar": "PvP {{league}} 排行",
+      "subtitle": "前 30 名 {{typeSelection}}",
+      "meta": {
+        "description": "查看 Pokebattler 基於自訂模擬的 {{league}} PvP {{typeSelection}}！",
+        "image": "https://static.pokebattler.com/images/og_pvp_rankings.png"
+      },
+      "descriptions": {
+        "title": "關於這些排行",
+        "text": "此 PvP {{type}} 排行基於 {{league}} 的對戰模擬。排名模擬使用 {{strategies.attack}} 攻擊策略。$t(common:simulation, {'count': {{numSims}}}) 已依據 {{details}} 完成。",
+        "help1": "你可以點擊任何寶可夢查看不同招式組合的結果，或點擊右上第二個圖示切換群組/不群組顯示。點擊右上排序圖示可更換你偏好的排序。",
+        "helpAlert": "沒有這些招式？更改上方的招式主流，查看非雙充能與非 TM 排行！",
+        "attackers": "剋星",
+        "defenders": "全方位",
+        "details": {
+          "attackers": "將目前可用的每隻寶可夢在所有可能招式組合下，與前 30 名全方位寶可夢在所有可能招式組合下對戰模擬。依 {{sort}} 與每位寶可夢各自的 {{shieldStrategy}} 保留最佳 30 名剋星與其最佳招式組，並在此顯示。",
+          "defenders": "針對所有可能招式組合與所有可能對手模擬，將所有對戰平均，依 {{sort}} 與每位寶可夢各自的 {{shieldStrategy}} 保留最佳 30 名全方位寶可夢與其最佳招式組，並在此顯示。"
+        }
+      },
+      "loading": "正在產生 {{type}} 排行結果。此分析需要數以百萬計的模擬，請不要重新整理頁面。",
+      "typeSelection": {
+        "label": "排行類型",
+        "attacker": "剋星",
+        "defender": "全方位",
+        "attackers": "$t(pvp:rankings.list.typeSelection.attacker)",
+        "defenders": "$t(pvp:rankings.list.typeSelection.defender)"
+      },
+      "settings": {
+        "level": "寶可夢等級"
+      }
+    }
+  },
+  "pokedex": {
+    "title": "{{league}} 圖鑑",
+    "meta": {
+      "description": "Pokémon GO 對戰聯盟 {{league}} 圖鑑是可自訂的指南，說明哪些寶可夢能剋制 {{defender}}，以及 {{defender}} 在 PvP 中最佳的進攻對位。",
+      "image": "https://static.pokebattler.com/images/og_pvp_pokedex.jpg"
+    },
+    "intro": "歡迎來到 Pokebattler Pokémon GO 對戰聯盟 PvP 圖鑑：{{defender}}。你可以找到 {{defender}} 的最佳 PvP 招式組合，以及在 {{league}} 中對上最常見對手的對位。此外也能找到 {{defender}} 的最佳剋星，以及最能防守這些剋星的招式。隨時調整下方選項，查看不同情境的影響，或更改排序方式來符合你的偏好。與往常一樣，本頁結果由 Pokebattler Pokémon GO PvP 模擬器產生。點擊對手寶可夢圖像即可深入查看該次模擬。",
+    "loading": "正在為 {{defender}} 產生詳細 PvP 分析。此頁面需要超過一百萬次模擬，但不會花太久時間。",
+    "invalid": "Pokebattler 認為 {{defender}} 不屬於 {{league}}。可能是 CP 過低、無法取得符合 CP 限制的個體，或在禁用清單內。以下結果僅供娛樂。",
+    "about": {
+      "title": "關於此 Pokémon GO 對戰聯盟 {{league}} 分析",
+      "text1": "此 {{pokemon}} 的分析基於 {{league}} PvP 對戰模擬。排名模擬使用 {{shieldStrategy}}，並以蒙地卡羅模擬為基礎。考慮所有可能寶可夢與招式組合，以找出擊敗 {{defender}} 的最佳剋星。針對這些剋星/對位的最佳招式，最多各執行 10 次模擬，總計 {{simulationCount}} 次。依 {{sort}} 顯示最佳 30 名剋星，並附上其與 {{league}} 全方位防守者的對位結果。",
+      "text2": "點擊任何攻擊方可查看其他招式組合的結果。可於右上角點擊排序圖示以更換排序類型",
+      "text3": {
+        "text": "更多資訊可見 {{link}}",
+        "link": "說明文件"
+      }
+    },
+    "bestAttack": {
+      "title": "最佳通用招式組",
+      "subtitle": "依 {{sort}}",
+      "rankingTitle": "對全方位防守者的平均對戰數據"
+    },
+    "bestDefense": {
+      "title": "最佳防守招式組",
+      "subtitle": "依 {{sort}}",
+      "rankingTitle": "前 6 名剋星對 {{defender}} 的平均對戰數據"
+    },
+    "attackMatchups": {
+      "title": "通用對位",
+      "subtitle": "依 {{sort}}",
+      "text": "以下可找到 {{defender}} 對上 {{league}} 中最全方位對手的對位。排行會先顯示 {{sort}} 指標上最好的對位。"
+    },
+    "bestCounters": {
+      "title": "{{defender}} 的剋星",
+      "subtitle": "依 {{sort}}",
+      "text": "以下為 {{defender}} 在 {{league}} 的最佳剋星。你會在清單頂端看到依 {{sort}} 指標最佳的剋星。這些寶可夢可能在整體上不強，但在擊敗 {{defender}} 時最有效。"
+    }
+  },
+  "rankingTypes": {
+    "label": "排行類型",
+    "attackers": {
+      "label": "剋星",
+      "description": "針對前 30 名全方位寶可夢的最佳剋星"
+    },
+    "defenders": {
+      "label": "全方位",
+      "description": "對上所有可能對手與招式組合的前 30 名全方位寶可夢"
+    }
+  },
+  "articles": {
+    "title": "最新 PvP 新聞！",
+    "subtitle": "頂尖 PvP 玩家撰寫的文章與影片"
+  },
+  "navigation": {
+    "leagues": {
+      "COMBAT_LEAGUE_DEFAULT_GREAT": {
+        "title": "超級聯盟",
+        "intro": "每季 GO 對戰聯盟都以超級聯盟開場。此聯盟多半沒有傳說，能使用的寶可夢非常多樣。以低攻高坦的寶可夢如 伽勒爾 泥巴魚 與 瑪力露麗 為主。"
+      },
+      "COMBAT_LEAGUE_DEFAULT_ULTRA": {
+        "title": "高級聯盟",
+        "intro": "每季第二個輪到高級聯盟。此聯盟偏好高坦重砲如 騎拉帝納 與 克雷色利亞。多數強勢寶可夢培養成本較高，但也有低星塵的選擇。"
+      },
+      "COMBAT_LEAGUE_DEFAULT_MASTER": {
+        "title": "大師聯盟",
+        "intro": "每季第三個是大師聯盟。無 CP 限制，常見等級 40 的防禦型傳說與雙充能龍系。培養成本極高，不建議新手參戰。"
+      },
+      "COMBAT_LEAGUE_PREMIER_CUP": {
+        "title": "高級聯盟菁英賽",
+        "intro": "與大師聯盟同時進行的菁英賽，類似大師聯盟但禁止幻之與傳說寶可夢。以等級 40 的準傳說搭配雙充能為主，相對較省但仍不建議新手。"
+      },
+      "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
+        "title": "高級聯盟菁英賽",
+        "intro": "與高級聯盟同時進行的菁英賽，禁止幻之與傳說寶可夢。常見社群日限定招式且須頂級招式學習器。"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
+        "title": "超級聯盟 Remix",
+        "intro": "特殊的超級聯盟，禁用最熱門的 10 隻寶可夢。"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELEMENT": {
+        "title": "超級聯盟元素盃",
+        "intro": "限制盃，最大 CP 500。"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
+        "title": "大牙狸盃",
+        "intro": "Bidoof? Bidoof!"
+      },
+      "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
+        "title": "{{title}}",
+        "intro": "Silph 競技場第 3 季 10 月盃，僅限飛行、草、火、地面或一般屬性，禁止岩石與超級進化。詳見 https://silph.gg/。"
+      },
+      "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
+        "title": "{{title}}",
+        "intro": "Silph 競技場第 3 季 11 月盃，僅限毒、幽靈、蟲、草或水屬性，禁止熱帶龍、暴雪王與超級。詳見 https://silph.gg/。"
+      },
+      "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
+        "title": "{{title}}",
+        "intro": "Silph 競技場第 3 季 2 月盃，要求 3 隻寶可夢屬性皆不同，並禁用最強勢的寶可夢。詳見 https://silph.gg/。"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
+        "title": "萬聖節盃",
+        "intro": "Niantic 第一個官方主題盃。僅限毒、蟲、幽靈、惡、妖精。舉辦時間 10/26 至 11/3，晚間 6 點至午夜。"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
+        "title": "飛行盃",
+        "intro": "Niantic 第二個官方主題盃。僅限會飛的寶可夢。11/5 晚間 6 點至午夜舉行。"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
+        "title": "關都盃",
+        "intro": "官方主題盃 11/16 至 11/23，僅限關都編號 1-151 的寶可夢。"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
+        "title": "節慶盃",
+        "intro": "官方主題盃 12/28 至 1/4，僅限一般、草、電、冰、飛行與幽靈屬性。"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER_CLASSIC": {
+        "title": "Premier Cup Classic",
+        "intro": "Pokemon GO Battle League has added Premier Cup to run at the same time as Master League. Premier Cup is like Master League but does not allow Mythical or Legendary Pokemon. It  is dominated by level 40 pseudo-legendaries with dual charge moves. This is a slightly more affordable league than Master league but is also not recommended for beginners."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_ULTRA_PREMIER_CLASSIC": {
+        "title": "Ultra Premier Cup Classic",
+        "intro": "Pokemon GO Battle League has added an Ultra League version of Premier Cup to run at the same time as Ultra League. Ultra Premier Cup is like Ultra League but does not allow Mythical or Legendary Pokemon.  It is dominated by community day Pokemon with powerful legacy moves that are not available without elite TMs."
+      }
+    },
+    "pokemonCondition": {
+      "WITH_POKEMON_CP_LIMIT": "最大 CP",
+      "WITH_POKEMON_TYPE": "寶可夢屬性",
+      "WITH_POKEMON_CATEGORY": "分類",
+      "WITH_POKEDEX_GENERATION": "世代",
+      "NONE": "無限制"
+    }
+  }
 }
