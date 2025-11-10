@@ -1,72 +1,76 @@
 {
-    "index": {
-        "title": "Arena-Ranglisten",
-        "welcome": {
-            "title": "Willkommen zu Pokebattler Ranglisten 2.0!",
-            "paragraph1": "Willkommen zum neuen, personalisierten Ranglistenbereich von Pokebattler. Anders als bei anderen Seiten kannst du bei uns genau die Einstellungen wählen, mit denen du deine eigenen angepassten Ranglisten erstellen kannst. Diese Seite ist besonders stark anpassbar, sie erlaubt dir das Angreiferlevel, das Verteidigerlevel, Angriffsstrategie, Verteidigungsstrategie, Sortierung und Gruppierungsoptionen zu wählen.",
-            "paragraph2": "Diese Seite arbeitet durch das Ausführen von über 30,000,000 Kampfsimulationen für jede Ranglisteneinstellung. Dies deckt jede mögliche Kombination aus Angreifer, Angreiferattacken, Verteidiger und Verteidigerattacken ab für deine gewählten Einstellungen. Es gibt hunderttausende verschiedene Kombinationen von Einstellungen für Angriffs- und Verteidigerranglisten aus denen du wählen kannst. Also probiere doch verschiedene aus, bis du genau das bekommst, was du möchtest."
-        },
-        "recommendations": {
-            "title": "Einstellungsempfehlungen",
-            "paragraph1": {
-                "text": "Ein guter Einstig für die meisten Spieler ist die {{link1}}. Sie nimmt einen einen Level 25 Angreifer an und simuliert den Angriff auf eine schwere Level 30 Arena. Ich mag es meine Angriffe so schnell wie möglich zu benutzen und versuche den Spezialangriffen auszuweichen. Die Ergebnisse könnten dich überraschen. Du kannst außerdem einige lustige Sachen ausprobieren wie {{link2}} oder {{link3}}.",
-                "link1": "Standardangreiferrangliste",
-                "link2": "unterlevelter ausweichender Angreifer",
-                "link3": "Level 40 Kämpfe"
-            },
-            "paragraph2": {
-                "text": "Für alle die wissen wollen welche Verteidiger mit einem unterleveltem schwierig zu schlagen sind, schaut in die {{link1}}. Sie nimmt einen Level 25 Angreifer an and simuliert die Verteidigung mit einem Level 30 Pokemon. Du kannst auch versuchen die Sache etwas fairer zu gestalten mit der {{link2}} oder {{link3}}.",
-                "link1": "Standardverteidigerrangliste",
-                "link2": "Level 30 Allem-Ausweichen-Verteidigerrangliste",
-                "link3": "hochleveligem Kampf"
-            }
-        },
-        "buttons": {
-            "attacker": "Angreifer",
-            "defender": "Verteidiger",
-            "gotoRankings": "Zu den Ranglisten"
-        },
-        "meta": {
-            "description": "Pokebattler's Pokemon Go Arena-Randglisten sind die weltweit genausten. Sie zeigen die besten Angreifer und Verteidiger für Arenen basierend auf deinen Einstellungen.",
-            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
-        }
+  "index": {
+    "title": "Arena-Ranglisten",
+    "welcome": {
+      "title": "Willkommen zu Pokebattler Ranglisten 2.0!",
+      "paragraph1": "Willkommen zum neuen, personalisierten Ranglistenbereich von Pokebattler. Anders als bei anderen Seiten kannst du bei uns genau die Einstellungen wählen, mit denen du deine eigenen angepassten Ranglisten erstellen kannst. Diese Seite ist besonders stark anpassbar, sie erlaubt dir das Angreiferlevel, das Verteidigerlevel, Angriffsstrategie, Verteidigungsstrategie, Sortierung und Gruppierungsoptionen zu wählen.",
+      "paragraph2": "Diese Seite arbeitet durch das Ausführen von über 30,000,000 Kampfsimulationen für jede Ranglisteneinstellung. Dies deckt jede mögliche Kombination aus Angreifer, Angreiferattacken, Verteidiger und Verteidigerattacken ab für deine gewählten Einstellungen. Es gibt hunderttausende verschiedene Kombinationen von Einstellungen für Angriffs- und Verteidigerranglisten aus denen du wählen kannst. Also probiere doch verschiedene aus, bis du genau das bekommst, was du möchtest."
     },
-    "list": {
-        "title": "Pokemon Go {{typeSelection}}",
-        "descriptions": {
-            "title": "Über diese Rangliste",
-            "text": "Diese {{type}}rangliste basiert darauf Kämpfe von Level {{levels.attacker}} Angreifern mit Level {{levels.defender}} Verteidigern zu simulieren. Die Ranglistensimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} Ausweichstrategie benutzend auf Basis des $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) Simulationstyps. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, wobei {{details}}.",
-            "textPokeboxAttackers": "Diese {{type}}rangliste basiert darauf Kämpfe von Angreifern von Trainer {{userId}} mit Level {{levels.defender}} Verteidigern zu simulieren. Die Ranglistensimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} Ausweichstrategie benutzend auf Basis des $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) Simulationstyps. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, wobei {{details}}.",
-            "textPokeboxDefenders": "Diese {{type}}rangliste basiert darauf Kämpfe von Level {{levels.attacker}} Angreifern mit Verteidigern von Trainer {{userId}} zu simulieren. Die Ranglistensimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} Ausweichstrategie benutzend auf Basis des $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) Simulationstyps. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, wobei {{details}}.",
-            "help1": "Du kannst auf jeden der {{type}} klicken, um die Ergebnisse für jedes einzelne Attackenmuster zu sehen oder du wählst das Gruppierungssymbol rechts oben (das zweite Symbol von rechts) um sie ungruppiert zu sehen. Die Sortierung kannst du ändern indem du rechts oben auf das Sortierungssymbol klickst und deine gewünschte Sortierung wählst.",
-            "help2": "Zusätzliche Informationen über die erweiterten Ranglisten Simulationen findest du im {{link}}.",
-            "attackers": "Angreifer",
-            "defenders": "Verteidiger",
-            "details": {
-                "attackers": "jedes voll entwickelte Pokemon als Angreifer, mit jedem möglichen Attackenmuster, simuliert gegen jeden der Verteidiger unter den Top 30, mit jedem möglichen Attackenmuster. Die besten 30 Angreifer nach {{sort}} wurden herausgefiltert und werden hier angezeigt.",
-                "defenders": "jedes mögliche Attackenmuster gegen die Angreifer mit jedem möglichen Attackenmuster simuliert wurde. Die schlimmsten 6 Konter für jedes Pokemon wurden betrachtet und daraus wurden die besten 30 Verteidiger gefunden und nach {{sort}} sortiert hier angezeigt."
-            }
-        },
-        "typeSelection": {
-            "attacker": "Angreiferranglisten",
-            "defender": "Verteidigerranglisten",
-            "attackers": "$t(rankings:list.typeSelection.attacker)",
-            "defenders": "$t(rankings:list.typeSelection.defender)"
-        },
-        "settings": {
-            "level": "Pokemon-Level"
-        },
-        "loading": "Generiere {{type}} Ranglistenergebnisse. Viele Millionen Simulationen sind notwendig um diese Analyse auszuführen, aber die Ergebnisse werden gleich verfügbar sein",
-        "meta": {
-            "description": "Pokebattler's Pokemon Go {{typeSelection}} sind anpassbar basierend auf dem Angreiferlevel, Verteidigerlevel, Ausweichfähigkeit und mehr!",
-            "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
-        }
+    "recommendations": {
+      "title": "Einstellungsempfehlungen",
+      "paragraph1": {
+        "text": "Ein guter Einstig für die meisten Spieler ist die {{link1}}. Sie nimmt einen einen Level 25 Angreifer an und simuliert den Angriff auf eine schwere Level 30 Arena. Ich mag es meine Angriffe so schnell wie möglich zu benutzen und versuche den Spezialangriffen auszuweichen. Die Ergebnisse könnten dich überraschen. Du kannst außerdem einige lustige Sachen ausprobieren wie {{link2}} oder {{link3}}.",
+        "link1": "Standardangreiferrangliste",
+        "link2": "unterlevelter ausweichender Angreifer",
+        "link3": "Level 40 Kämpfe"
+      },
+      "paragraph2": {
+        "text": "Für alle die wissen wollen welche Verteidiger mit einem unterleveltem schwierig zu schlagen sind, schaut in die {{link1}}. Sie nimmt einen Level 25 Angreifer an and simuliert die Verteidigung mit einem Level 30 Pokemon. Du kannst auch versuchen die Sache etwas fairer zu gestalten mit der {{link2}} oder {{link3}}.",
+        "link1": "Standardverteidigerrangliste",
+        "link2": "Level 30 Allem-Ausweichen-Verteidigerrangliste",
+        "link3": "hochleveligem Kampf"
+      }
+    },
+    "buttons": {
+      "attacker": "Angreifer",
+      "defender": "Verteidiger",
+      "gotoRankings": "Zu den Ranglisten"
+    },
+    "meta": {
+      "description": "Pokebattler's Pokemon Go Arena-Randglisten sind die weltweit genausten. Sie zeigen die besten Angreifer und Verteidiger für Arenen basierend auf deinen Einstellungen.",
+      "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
+    }
+  },
+  "list": {
+    "title": "Pokemon Go {{typeSelection}}",
+    "descriptions": {
+      "title": "Über diese Rangliste",
+      "text": "Diese {{type}}rangliste basiert darauf Kämpfe von Level {{levels.attacker}} Angreifern mit Level {{levels.defender}} Verteidigern zu simulieren. Die Ranglistensimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} Ausweichstrategie benutzend auf Basis des $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) Simulationstyps. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, wobei {{details}}.",
+      "textPokeboxAttackers": "Diese {{type}}rangliste basiert darauf Kämpfe von Angreifern von Trainer {{userId}} mit Level {{levels.defender}} Verteidigern zu simulieren. Die Ranglistensimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} Ausweichstrategie benutzend auf Basis des $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) Simulationstyps. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, wobei {{details}}.",
+      "textPokeboxDefenders": "Diese {{type}}rangliste basiert darauf Kämpfe von Level {{levels.attacker}} Angreifern mit Verteidigern von Trainer {{userId}} zu simulieren. Die Ranglistensimulation lief mit der {{strategies.attack}} Angriffsstrategie die {{strategies.dodge}} Ausweichstrategie benutzend auf Basis des $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) Simulationstyps. $t(common:simulation, {'count': {{numSims}}}) ausgeführt, wobei {{details}}.",
+      "help1": "Du kannst auf jeden der {{type}} klicken, um die Ergebnisse für jedes einzelne Attackenmuster zu sehen oder du wählst das Gruppierungssymbol rechts oben (das zweite Symbol von rechts) um sie ungruppiert zu sehen. Die Sortierung kannst du ändern indem du rechts oben auf das Sortierungssymbol klickst und deine gewünschte Sortierung wählst.",
+      "help2": "Zusätzliche Informationen über die erweiterten Ranglisten Simulationen findest du im {{link}}.",
+      "attackers": "Angreifer",
+      "defenders": "Verteidiger",
+      "details": {
+        "attackers": "jedes voll entwickelte Pokemon als Angreifer, mit jedem möglichen Attackenmuster, simuliert gegen jeden der Verteidiger unter den Top 30, mit jedem möglichen Attackenmuster. Die besten 30 Angreifer nach {{sort}} wurden herausgefiltert und werden hier angezeigt.",
+        "defenders": "jedes mögliche Attackenmuster gegen die Angreifer mit jedem möglichen Attackenmuster simuliert wurde. Die schlimmsten 6 Konter für jedes Pokemon wurden betrachtet und daraus wurden die besten 30 Verteidiger gefunden und nach {{sort}} sortiert hier angezeigt."
+      }
+    },
+    "typeSelection": {
+      "attacker": "Angreiferranglisten",
+      "defender": "Verteidigerranglisten",
+      "attackers": "$t(rankings:list.typeSelection.attacker)",
+      "defenders": "$t(rankings:list.typeSelection.defender)"
+    },
+    "settings": {
+      "level": "Pokemon-Level"
+    },
+    "loading": "Generiere {{type}} Ranglistenergebnisse. Viele Millionen Simulationen sind notwendig um diese Analyse auszuführen, aber die Ergebnisse werden gleich verfügbar sein",
+    "meta": {
+      "description": "Pokebattler's Pokemon Go {{typeSelection}} sind anpassbar basierend auf dem Angreiferlevel, Verteidigerlevel, Ausweichfähigkeit und mehr!",
+      "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
     },
     "featured": {
-        "title": {
-            "attacker": "Durchschnittliche Kampfstatistiken gegen die 30 besten Verteidiger",
-            "defender": "Gemittelte Kampfstatistiken gegen die 6 schlechtesten Herausforderer"
-        },
-        "deepLink": "Mehr Details für {{pokemon}}"
+      "title": "Rank {{rank}}"
     }
+  },
+  "featured": {
+    "title": {
+      "attacker": "Durchschnittliche Kampfstatistiken gegen die 30 besten Verteidiger",
+      "defender": "Gemittelte Kampfstatistiken gegen die 6 schlechtesten Herausforderer",
+      "raid": "Avg Combat Stats Vs. {{pokemon}}"
+    },
+    "deepLink": "Mehr Details für {{pokemon}}"
+  }
 }

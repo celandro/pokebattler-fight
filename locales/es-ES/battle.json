@@ -1,29 +1,137 @@
 {
-    "startButton": "Batalla",
-    "attacker": "Atacante",
-    "title": "Simulador de batallas de gimnasio",
-    "raidBattlePartyTitle": "Simulador de Grupos de Combate para excursiones",
-    "attackerPlaceHolder": "Elige el $t(attacker)",
-    "defender": "Defensor",
-    "defenderPlaceHolder": "Elige el $t(defender)",
-    "pokemonListTypes": {
-        "pokebox": "Mi Pokebox",
-        "all": "Todos los Pokemon"
+  "startButton": "Batalla",
+  "attacker": "Atacante",
+  "title": "Simulador de batallas de gimnasio",
+  "raidBattlePartyTitle": "Simulador de Grupos de Combate para excursiones",
+  "attackerPlaceHolder": "Elige el $t(attacker)",
+  "defender": "Defensor",
+  "defenderPlaceHolder": "Elige el $t(defender)",
+  "pokemonListTypes": {
+    "pokebox": "Mi Pokebox",
+    "all": "Todos los Pokemon"
+  },
+  "relatedBattles": {
+    "title": "Batallas Relacionadas",
+    "description": "Elige el parámetro que deseas cambiar debajo y clickea el enlace para volver a correr la simulación actual con el nuevo parámetro. Los resultados son modificados inmediatamente.",
+    "modify": "Modificar",
+    "switch": "Cambia para modificar {{type}}",
+    "parameterTitle": "Cambiar parametro"
+  },
+  "results": {
+    "title": {
+      "base": "Resultado del Combate: Tu",
+      "win": "$t(results.title.base) Ganaste!",
+      "lose": "$t(results.title.base) Haz Perdido!"
     },
-    "relatedBattles": {
-        "title": "Batallas Relacionadas",
-        "description": "Elige el parámetro que deseas cambiar debajo y clickea el enlace para volver a correr la simulación actual con el nuevo parámetro. Los resultados son modificados inmediatamente.",
-        "modify": "Modificar",
-        "switch": "Cambia para modificar {{type}}",
-        "parameterTitle": "Cambiar parametro"
+    "about": "Acerca de esta batalla",
+    "description": "Un {{attacker.name}} de nivel {{attacker.level}} con {{attacker.cp}} PC {{result}} un {{defender.name}} de Nivel {{defender.level}} con {{defender.cp}} PC en esta simulacion de batalla. El atacante {{attacker.name}} estaba utilizando {{attacker.quickMove}} como movimiento rápido y {{attacker.specialMove}} como movimiento cargado. El defensor {{defender.name}} estaba usando {{defender.quickMove}} como movimiento rápido y {{defender.specialMove}} como movimiento cargado. La simulación de combate fue efectuada con la estrategia de ataque: {{strategies.attack}} usando {{strategies.dodge}} basado en la simulacion tipo {{strategies.defense}} con clima {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) fueron realizadas para generar este resultado de batalla.",
+    "gym": {
+      "title": "Simulación de batalla de {{attacker.name}} vs. {{defender.name}}",
+      "meta": {
+        "description": "Resultados de batalla de gimnasio para {{attacker.name}} con {{attacker.quickMove}} y {{attacker.specialMove}} vs. {{defender.name}} con {{defender.quickMove}} y {{defender.specialMove}}",
+        "image": "https://static.pokebattler.com/gym/{{attacker.id}}/{{defender.id}}.png"
+      }
     },
-    "results": {
-        "title": {
-            "base": "Resultado del Combate: Tu",
-            "win": "$t(results.title.base) Ganaste!",
-            "lose": "$t(results.title.base) Haz Perdido!"
+    "explore": {
+      "title": "Explora este resultado",
+      "subtitle": "Haz clic para cargar tu desglose",
+      "select": "Tipo de gráfico",
+      "columns": {
+        "attackerId": "Id",
+        "attackerGroup": "Grupo",
+        "attackerOrder": "Orden",
+        "battlePartyUserId": "Usuario",
+        "battlePartyTrainer": "Entrenador",
+        "combatTime": "Tiempo de combate",
+        "currentTime": "Tiempo actual",
+        "damageDealt": "Daño infligido",
+        "damageReceived": "Daño recibido",
+        "energy": "Energía",
+        "move": "Movimiento",
+        "moveType": "Tipo de movimiento",
+        "attacker": "Atacante",
+        "defender": "Defensor",
+        "actor": "Actor"
+      },
+      "pivotTypes": {
+        "damageByTrainer": {
+          "title": "Daño por entrenador",
+          "description": "El daño infligido por cada entrenador se muestra aquí."
         },
-        "about": "Acerca de esta batalla",
-        "description": "Un {{attacker.name}} de nivel {{attacker.level}} con {{attacker.cp}} PC {{result}} un {{defender.name}} de Nivel {{defender.level}} con {{defender.cp}} PC en esta simulacion de batalla. El atacante {{attacker.name}} estaba utilizando {{attacker.quickMove}} como movimiento rápido y {{attacker.specialMove}} como movimiento cargado. El defensor {{defender.name}} estaba usando {{defender.quickMove}} como movimiento rápido y {{defender.specialMove}} como movimiento cargado. La simulación de combate fue efectuada con la estrategia de ataque: {{strategies.attack}} usando {{strategies.dodge}} basado en la simulacion tipo {{strategies.defense}} con clima {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) fueron realizadas para generar este resultado de batalla."
+        "damageByPokemon": {
+          "title": "Daño por Pokémon",
+          "description": "El daño infligido por cada uno de tus Pokémon se muestra aquí."
+        },
+        "dpsByPokemon": {
+          "title": "DPS por Pokémon",
+          "description": "El DPS de cada uno de tus Pokémon se muestra aquí."
+        },
+        "damageByGroup": {
+          "title": "Daño por grupo",
+          "description": "Se muestra el daño infligido por cada grupo por Pokémon."
+        },
+        "custom": {
+          "title": "Análisis personalizado",
+          "description": "¡Puedes realizar análisis avanzados aquí! Esto funciona mejor en el escritorio o en modo horizontal."
+        }
+      }
+    },
+    "battleParty": {
+      "title": "Simulación de incursión de {{attacker.name}} vs. {{defender.name}}",
+      "meta": {
+        "description": "Resultados del simulador de incursión para {{attacker.name}} vs. {{defender.name}} con {{defender.quickMove}} y {{defender.specialMove}}",
+        "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
+      },
+      "description": "El usuario {{attacker.userId}} con el grupo de batalla {{attacker.battlePartyId}} {{result}} un {{defender.tier}} {{defender.name}} con {{defender.cp}} CP en esta simulación de batalla. La simulación de combate se ejecutó con la estrategia de ataque {{strategies.attack}} usando {{strategies.dodge}} basada en el tipo de simulación {{strategies.defense}} con clima {{weatherCondition}}. Se realizaron $t(common:simulation, {'count': {{numSims}}}) para generar este resultado de batalla."
+    },
+    "pvp": {
+      "title": "Simulación de PvP de {{attacker.name}} vs. {{defender.name}}",
+      "meta": {
+        "description": "Resultados del simulador de PvP para {{attacker.name}} vs. {{defender.name}}",
+        "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+      },
+      "description": "El usuario {{attacker.userId}} con el grupo de batalla {{attacker.battlePartyId}} {{result}} al usuario {{defender.userId}} con el grupo de batalla {{defender.battlePartyId}} en esta simulación de batalla. La simulación de combate se ejecutó con la estrategia de ataque {{strategies.attack}} usando {{strategies.dodge}} contra la estrategia de ataque {{strategies.defense}} usando {{strategies.defenseDodge}} con clima {{weatherCondition}}. Se realizaron $t(common:simulation, {'count': {{numSims}}}) para generar este resultado de batalla."
+    },
+    "help": {
+      "text": "Puedes obtener más información sobre la forma en que se calculan estas simulaciones consultando el {{helpLink}}. Las referencias a la investigación de combate de Pokemon Go se pueden encontrar en el {{aboutLink}}.",
+      "links": {
+        "repo": "sitio del proyecto"
+      }
+    },
+    "result": {
+      "win": "derrotas",
+      "lose": "es derrotado por"
+    },
+    "assistants": {
+      "title": "Función de entrenadores adicionales",
+      "both": "Los resultados a continuación incluyen {{numExplicit}} entrenadores adicionales y {{numRandom}} grupos de batalla adicionales de nivel aleatorio 30-40. Esto tiene la intención de simular un resultado de combate de incursión realista con múltiples entrenadores. El % de victorias anterior muestra la probabilidad de ganar antes de que tu grupo de batalla se desmaye si tienes estas personas adicionales ayudándote. A menudo, volver a unirte en este escenario te permitirá ganar. La potencia, el tiempo para ganar, las pociones y la calificación general se basan en lo que tu propio grupo de batalla de 6 puede hacer y no incluye los otros grupos de batalla. Esta página eventualmente mostrará mucha más información; solo el registro de combate está completo en este momento. También habrá una mejor interfaz para seleccionar cuántos entrenadores y grupos de batalla adicionales te ayudarán en la ",
+      "explicit": "Los resultados a continuación incluyen {{numExplicit}} entrenadores adicionales. Esto tiene la intención de simular un escenario de combate real realista. El % de victorias anterior muestra la probabilidad de ganar antes de que tu grupo de batalla se desmaye si tienes estas personas adicionales ayudándote. A menudo, volver a unirte en este escenario te hará ganar. La potencia, el tiempo para ganar, las pociones y la calificación general se basan en lo que puede hacer todo tu grupo de batalla de 6. Esta página eventualmente mostrará mucha más información; solo el registro de combate está completo en este momento. También habrá una mejor interfaz de usuario para seleccionar cuántos y qué grupos de batalla te están ayudando en la",
+      "random": "Los resultados a continuación incluyen {{numRandom}} grupos de batalla adicionales aleatorios entre los niveles 30-40. Esto tiene la intención de simular un resultado de combate de incursión realista con múltiples entrenadores. El % de victorias anterior muestra la probabilidad de ganar antes de que tu grupo de batalla se desmaye si tienes estas personas adicionales ayudándote. A menudo, volver a unirte en este escenario te permitirá ganar. La potencia, el tiempo para ganar, las pociones y la calificación general se basan en lo que tu propio grupo de batalla de 6 puede hacer y no incluye los otros grupos de batalla. Esta página eventualmente mostrará mucha más información; solo el registro de combate está completo en este momento. ",
+      "link": "página de simulación de incursión.",
+      "name": "Asistente"
+    },
+    "logTitle": "Registro de combate"
+  },
+  "meta": {
+    "description": "El simulador de gimnasios de Pokebattler ofrece los resultados más precisos del mundo para las batallas de gimnasios, incluidas las bonificaciones meteorológicas y el análisis segundo a segundo.",
+    "image": "https://static.pokebattler.com/images/og_gym_simulator.jpg"
+  },
+  "raid": {
+    "title": "Simulador de incursiones",
+    "meta": {
+      "description": "El simulador de incursiones de Pokebattler es el número 1 más preciso del mundo. Obtén resultados para hasta 20 grupos de batalla, bonificaciones de amigos y bonificaciones meteorológicas.",
+      "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
     }
+  },
+  "pvp": {
+    "title": "Simulador de PvP",
+    "meta": {
+      "description": "El simulador de PvP de Pokebattler te permite luchar contra los Pokémon de tus amigos para ver quién sale victorioso con el simulador número 1 más preciso del mundo.",
+      "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
+    }
+  },
+  "recommended": "Recomendado",
+  "runAgain": "Ejecutar esta simulación aleatoria de nuevo",
+  "runSolo": "Ejecutar como intento en solitario",
+  "addBattleParty": "Guardar este grupo de batalla"
 }

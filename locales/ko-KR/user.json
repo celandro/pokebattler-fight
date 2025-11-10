@@ -1,294 +1,492 @@
 {
-    "title": "포케배틀러 로그인",
+  "title": "포케배틀러 로그인",
+  "meta": {
+    "description": "포케배틀러는 빠른 레이드 카운터와 다른 여러 기능을 위해 여러분의 포켓몬 고 포켓몬을 도감에 저장합니다!"
+  },
+  "description": "포케박스를 사용하고 맞춤 시뮬레이션을 보기 위해서는 로그인하세요",
+  "explanation": "포케배틀러는 여러분의 포켓몬고 계정에 로그인 하지 않고 할수도 없습니다. 우리는 나이언틱 서버와 어떤 식으로든 연결되어있지 않습니다. 포케배틀러는 여러분의 기기들 사이로 여러분이 누군지 확인하기 위해서만 이 로그인을 사용합니다. 여러분은 폰/태블릿/컴퓨터에서 로그인해서 사이트에 입력했던 모든 포켓몬을 볼 수 있슶니다. 우리는 여러분의 정도를 공유하지 않고 마케팅 목적으로 사용하지도 않습니다.",
+  "privacy": "더 많은 정보를 위해서는, 우리의 프라이버시 정책을 봐주세요.",
+  "loading": "사용자 데이터 로딩 중",
+  "user": "사용자",
+  "login": {
+    "autoCreate": "인증은 자동으로 여러분의 포케배틀러 계정을 만들어서 로그인 시켜줄 것입니다.",
+    "google": "Google로 로그인",
+    "facebook": "Facebook으로 로그인",
+    "patreon": "Patreon으로 로그인",
+    "patreonDescription": "포케배틀러는 이제 직접적인 Stripe 구독을 지원합니다! 우리는 현재 Patreon 구독자분들에게 새로운 구독 플랜으로 옮겨탈것을 권해드립니다. 브라질이나 멕시코같은 Stripe가 지원되지 않는 국가들의 사용자분들, 혹은 Paypal을 통해 지불하길 원하는 분들은 Patreon을 계속 사용하세요.",
+    "success": {
+      "title": "성공적으로 로그인",
+      "fromApi": "$t(login.success.title)! 잠시 후 진행됩니다."
+    },
+    "connect": "Connect Your Account",
+    "discord": "Log in with Discord",
+    "device": "Skip",
+    "loginReason": "Log in to enable cross device and platform functionality for your account on the Pokebattler.com website and with third party apps such as discord bots",
+    "emailReason": "Pokebattler uses your email address for account linking and customer support purposes only."
+  },
+  "settings": {
+    "showListImages": "이미지 보이기"
+  },
+  "details": {
+    "welcome": "환영합니다",
+    "description": "하단의 여러분의 트레이너 정보는 사이트를 커스터마이즈 하기 위해 사용되고 다른 유저들에게 보여집니다."
+  },
+  "loggedIn": {
+    "title": "공공 프로필",
+    "description": "성공적으로 로그인하였습니다. 하단의 트레이너 정보를 채워주시고, 맞춤 결과를 위해서는 포케박스를 눌러서 포켓몬을 추가해 주세요. 그 후 맞춤 레이드 결과를 위해서 배틀 파티를 만들어주세요.",
     "meta": {
-        "description": "포케배틀러는 빠른 레이드 카운터와 다른 여러 기능을 위해 여러분의 포켓몬 고 포켓몬을 도감에 저장합니다!"
+      "description": "포켓몬고 사용자 정보와 포켓몬을 저장하세요."
     },
-    "description": "포케박스를 사용하고 맞춤 시뮬레이션을 보기 위해서는 로그인하세요",
-    "explanation": "포케배틀러는 여러분의 포켓몬고 계정에 로그인 하지 않고 할수도 없습니다. 우리는 나이언틱 서버와 어떤 식으로든 연결되어있지 않습니다. 포케배틀러는 여러분의 기기들 사이로 여러분이 누군지 확인하기 위해서만 이 로그인을 사용합니다. 여러분은 폰/태블릿/컴퓨터에서 로그인해서 사이트에 입력했던 모든 포켓몬을 볼 수 있슶니다. 우리는 여러분의 정도를 공유하지 않고 마케팅 목적으로 사용하지도 않습니다.",
-    "privacy": "더 많은 정보를 위해서는, 우리의 프라이버시 정책을 봐주세요.",
-    "loading": "사용자 데이터 로딩 중",
-    "user": "사용자",
-    "login": {
-        "autoCreate": "인증은 자동으로 여러분의 포케배틀러 계정을 만들어서 로그인 시켜줄 것입니다.",
-        "google": "Google로 로그인",
-        "facebook": "Facebook으로 로그인",
-        "patreon": "Patreon으로 로그인",
-        "patreonDescription": "포케배틀러는 이제 직접적인 Stripe 구독을 지원합니다! 우리는 현재 Patreon 구독자분들에게 새로운 구독 플랜으로 옮겨탈것을 권해드립니다. 브라질이나 멕시코같은 Stripe가 지원되지 않는 국가들의 사용자분들, 혹은 Paypal을 통해 지불하길 원하는 분들은 Patreon을 계속 사용하세요.",
-        "success": {
-            "title": "성공적으로 로그인",
-            "fromApi": "$t(login.success.title)! 잠시 후 진행됩니다."
-        }
-    },
-    "settings": {
-        "showListImages": "이미지 보이기"
-    },
-    "details": {
-        "welcome": "환영합니다",
-        "description": "하단의 여러분의 트레이너 정보는 사이트를 커스터마이즈 하기 위해 사용되고 다른 유저들에게 보여집니다."
-    },
-    "loggedIn": {
-        "title": "공공 프로필",
-        "description": "성공적으로 로그인하였습니다. 하단의 트레이너 정보를 채워주시고, 맞춤 결과를 위해서는 포케박스를 눌러서 포켓몬을 추가해 주세요. 그 후 맞춤 레이드 결과를 위해서 배틀 파티를 만들어주세요.",
-        "meta": {
-            "description": "포켓몬고 사용자 정보와 포켓몬을 저장하세요."
-        },
-        "profileButton": "여러분의 프로필"
-    },
-    "logout": {
-        "title": "로그아웃",
-        "meta": {
-            "description": "포케배틀러에서 성공적으로 로그아웃되었습니다."
-        },
-        "description": "성공적으로 로그아웃 되었습니다. 어떤 기기에서 돌아오시든 포케박스가 보존되어 있을 것입니다!",
-        "back": "다시 로그인",
-        "button": "로그아웃"
-    },
-    "subscribed": {
-        "title": "후원에 감사드립니다",
-        "meta": {
-            "description": "포케배틀러는 여러분 같은 관대한 구독자분들에 의해서 무료로 운영됩니다! 구독하면 광고가 사라지고 레이드 보스를 이기거나 pvp에서 친구들을 이기는 것을 도와줄 강력한 요소들을 사용할 수 있습니다!"
-        },
-        "patreon": "Patreon 구독자분들은 더 저렴하고 지원도 좋은 하단에 있는 Stripe 선택지로 바꾸시길 추천드립니다. 여러분은 전환시 구독에 적용된 쿠폰을 받기 위해 admin@pokebattler.com으로 이메일을 주실 수 있습니다. 남아있는 Patreon 구독에 따라서 쿠폰의 양이 결정될 것입니다. 브라질이나 멕시코처럼 Stripe가 지원되지 않는 국가의 사용자분들이나 Paypal을 통해 지불하고자 하는 사용자분들은 Patreon을 계속 사용하세요.",
-        "chooseProduct": "구독 변경",
-        "currentSubscription": "현재 구독 정보",
-        "choosePlan": "여러분의 플랜을 고르세요",
-        "purchase": "여러분의 구독기간을 업데이트하세요",
-        "currentPlan": "현재 플랜",
-        "chargeAmount": "여러분은 ${{chargeAmount}}의 할당된 액수을 즉시 청구받을 것입니다. 전체 액수는 각 지불 사이클에 시작때 청구될 것입니다.",
-        "duringTrial": {
-            "button": "구독 변경",
-            "description": "시험사용기간 동안, 여러분은 구독을 자유롭게 변경할 수 있습니다."
-        },
-        "upgradeSubscription": {
-            "button": "구독권 업그레이드",
-            "description": "바로 구독권을 업그레이드 합니다."
-        },
-        "downgradeSubscription": {
-            "button": "구독권 다운그레이드",
-            "description": "현재의 구독권 종료시 구독권을 다운그레이드 합니다."
-        },
-        "changeCreditCard": {
-            "title": "지불 정보 변경",
-            "button": "정보 업데이트"
-        }
-    },
-    "subscription": {
-        "title": "포케배틀러 구독",
-        "meta": {
-            "description": "포케배틀러는 여러분 같은 관대한 구독자분들에 의해서 무료 운영이 가능합니다! 구독하시면 광고가 없어지고 레이드보스를 이기고 pvp에서 친구들을 이길 수 있게 해주는 강력한 요소들이 사용가능해집니다!",
-            "image": "https://static.pokebattler.com/images/og_user_subscription.png"
-        },
-        "paymentRequest": "원클릭 구독",
-        "paymentRequestDescription": "원클릭 구독은 대부분의 모바일 기기에서 지원됩니다. 여러분은 대신 하단에 여러분의 정보를 입력할 수도 있습니다.",
-        "currentProduct": "현재 혜택",
-        "chooseProduct": "플랜 선택",
-        "choosePlan": "기간 선택",
-        "purchase": "무료 시험을 시작하세요!",
-        "creditCard": "신용 카드 정보를 입력하세요",
-        "paymentType": "지불 유형",
-        "name": "이름과 성",
-        "email": "이메일",
-        "line1": "주소 1",
-        "line2": "주소 2",
-        "city": "도시",
-        "state": "주 (지방)",
-        "country": "국가",
-        "idealBank": "iDEAL Bank",
-        "description": "여러분의 신용카드 정보는 Stripe에 의해서 안전하게 처리되고 포케배틀러에 보내지지 않습니다. Stripe는 여러분의 구독권을 처리하고 포케배틀러에 구독권 상태를 알려줍니다.",
-        "multiMonth": "여러달 플랜으로 돈을 절약하세요!",
-        "requiresLogin": "구독하기 위해서는 로그인해야합니다.",
-        "ibanDescription": "IBAN을 제공하고 이 지불을 확인하는 것으로, 여러분은 지불 서비스 공급자인 Pokebattler.com과 스트라이프에게 여러분의 은행으로 여러분의 계좌에서 돈을 지불하도록 안내를 보냅니다. 여러분은 은행과의 계약 조건에 따라 환불을 받을 수 있습니다. 환불은 계좌에 대금이 청구된 날로부터 8주 이내에만 가능합니다.",
-        "notNeccessary": "다음 공란들은 보통 입력할 필요가 없습니다. 여러분의 지불이 거절당할 경우에만 입력하세요.",
-        "paymentTypes": {
-            "creditCard": "신용카드",
-            "iban": "IBAN",
-            "ideal": "IDEAL"
-        },
-        "confirmation": {
-            "button": "구독"
-        },
-        "plans": {
-            "1month": {
-                "title": "1달 - ${{intervalCost}}/mo",
-                "subtitle": "여러분은 {{trialPeriodDays}} 일의 무료 시험기간 이후에 매달 ${{cost}}를 청구받을 것입니다.",
-                "discount": "여러달 플랜을 선택해서 절약하세요"
-            },
-            "3month": {
-                "title": "3달 - ${{intervalCost}}/mo",
-                "subtitle": "여러분은 {{trialPeriodDays}}일의 무료 시험기간 이후에 매 3달마다 ${{cost}}를 청구받을 것입니다.",
-                "discount": "{{discount}}%를 절약하세요 - {{trialPeriodDays}} 일 무료 체험"
-            },
-            "6month": {
-                "title": "6달 - ${{intervalCost}}/mo",
-                "subtitle": "여러분은 {{trialPeriodDays}}일의 무료 체험 이후에 매 6달마다 ${{cost}}를 청구받을 것입니다.",
-                "discount": "{{discount}} % 를 절약하세요 - {{trialPeriodDays}}일 무료 체험"
-            }
-        },
-        "products": {
-            "ROLE_BASIC": {
-                "title": "기본 플랜",
-                "subtitle": "큰 가치의 저렴한 구독권"
-            },
-            "ROLE_STANDARD": {
-                "title": "표준 플랜",
-                "subtitle": "대부분의 플레이어들에게 추천되는 구독권"
-            },
-            "ROLE_BATTLER": {
-                "title": "배틀러 플랜",
-                "subtitle": "더 분석적인 플레이어들을 위한 높은 레벨"
-            },
-            "ROLE_CHAMPION": {
-                "title": "챔피언 플랜",
-                "subtitle": "하드코어 플레이어들을 위한 최고의 구독권"
-            },
-            "ROLE_USER": {
-                "title": "비구독자",
-                "subtitle": "모든 사용자를 위한 무료 혜택"
-            },
-            "ROLE_ADMIN": {
-                "title": "포케배틀러 관리자",
-                "subtitle": "구독할 수 있으나 다운그레이드가 될 것입니다."
-            },
-            "ROLE_FAN": {
-                "title": "Patreon 팬",
-                "subtitle": "구독하게되면, Patreon 기부를 취소하는 것을 기억하세요."
-            },
-            "ROLE_SUPPORTER": {
-                "title": "Patreon 후원자",
-                "subtitle": "구독하게되면, Patreon 기부를 취소하는 것을 기억하세요"
-            },
-            "ROLE_PATREON": {
-                "title": "Patreon Patreon",
-                "subtitle": "구독하게되면, Patreon 기부를 취소해야하는 것을 기억하세요"
-            },
-            "ROLE_FANATIC": {
-                "title": "Patreon 파나틱",
-                "subtitle": "구독하게되면, Patreon 기부를 취소하는 것을 기억하세요"
-            },
-            "ROLE_CONTEST": {
-                "title": "컨테스트 우승자",
-                "subtitle": "챔피언 플랜과 동일"
-            },
-            "ROLE_PATREON_USER": {
-                "title": "Patreon 사용자",
-                "subtitle": "곧 비구독자로 바뀔 것입니다."
-            },
-            "ROLE_SUPPORTER2": {
-                "title": "Patreon 후원자",
-                "subtitle": "구독하게되면, Patreon 기부를 취소해야하는 것을 기억하세요"
-            }
-        }
-    },
-    "roles": {
-        "title": "계정 정보",
-        "heading": "현재 혜택",
-        "description": "포케배틀러에 기부해서 더 큰 포케박스와 광고 없는 경험을 하세요. 포케배틀러는 여러분 같은 관대한 후원자이 사이트를 운영하는 서버 비용을 기부함으로써 운영가능합니다.",
-        "maxPokemon": "최다 포켓몬",
-        "maxBattleParties": "최다 배틀파티",
-        "quality": "시뮬레이션 품질",
-        "thanks": "포케배틀러를 후원해주셔서 감사합니다! 여러분의 후원에 깊이 감사드립니다.",
-        "support": "포케배틀러 후원",
-        "matrixMaxPokemon": "행렬 - 최다 포켓몬",
-        "matrixMaxType": "행렬 - 최다 타입",
-        "matrixMetaTypes": "행렬 - 메타 타입",
-        "hideAds": "광고 없는 경험",
-        "role": {
-            "ROLE_USER": "포케배틀러 사용자",
-            "ROLE_ADMIN": "포케배틀러 관리자",
-            "ROLE_FAN": "포케배틀러 팬",
-            "ROLE_SUPPORTER": "포케배틀러 후원자 (레거시)",
-            "ROLE_PATREON": "포케배틀러 Patreon",
-            "ROLE_FANATIC": "포케배틀러 파나틱",
-            "ROLE_CONTEST": "포케배틀러 컨테스트 우승자",
-            "ROLE_PATREON_USER": "포케배틀러 Patreon 사용자",
-            "ROLE_SUPPORTER2": "포케배틀러 후원자",
-            "ROLE_BASIC": "기본",
-            "ROLE_STANDARD": "표준",
-            "ROLE_BATTLER": "배틀러",
-            "ROLE_CHAMPION": "챔피언"
-        }
-    },
-    "userSubscription": {
-        "createdAt": {
-            "label": "다음에서 생성:",
-            "value": "{{createdAt,shortdate}}"
-        },
-        "endedAt": {
-            "label": "다음에서 끝:",
-            "value": "{{endedAt,shortdate}}"
-        },
-        "currentPeriodStart": {
-            "label": "현재 구독기간 시작",
-            "value": "{{currentPeriodStart,shortdate}}"
-        },
-        "currentPeriodEnd": {
-            "label": "현재 구독기간 끝",
-            "value": "{{currentPeriodEnd,shortdate}}"
-        },
-        "trialStart": {
-            "label": "체험기간 시작",
-            "value": "{{trialStart,shortdate}}"
-        },
-        "trialEnd": {
-            "label": "체험기간 끝",
-            "value": "{{trialEnd,shortdate}}"
-        },
-        "lastUpdate": {
-            "label": "마지막 업데이트",
-            "value": "{{lastUpdate,shortdate}}"
-        },
-        "planId": "플랜 Id",
-        "cancel": "구독권 취소",
-        "renew": "구독권 갱신",
-        "statuses": {
-            "trialing": {
-                "title": "무료 체험 기간",
-                "description": "여러분의 포케배틀러 구독에는 무료체험기간이 선행되어 여러분이 서비스에 만족하지 못하신다면 비용 없이 취소가 가능합니다."
-            },
-            "active": {
-                "title": "활동중인 멤버십",
-                "description": "당신의 포케배틀러 멤버십이 시작되었습니다. 당신의 멤버십은 {{currentPeriodEnd}}에 갱신됩니다."
-            },
-            "incomplete": {
-                "title": "불완전한 멤버십",
-                "description": "당신의 포케배틀러 멤버십은 조치가 필요합니다. 대금 지불 회사와 구독권 지불을 확인하세요."
-            },
-            "incomplete_expired": {
-                "title": "불완전한 멤버십",
-                "description": "당신의 포케배틀러 멤버십은 조치가 필요했으나 이미 기간이 지났습니다. 다시 구독하셔야합니다."
-            },
-            "past_due": {
-                "title": "만료 멤버십",
-                "description": "당신의 포케배틀러 멤버십은 시행되지 못했습니다. 지불 정보를 업데이트하고 다시 구독하세요."
-            },
-            "canceled": {
-                "title": "취소된 멤버십",
-                "description": "당신의 포케배틀러 멤버십은 취소되었습니다. 당신의 마지막 멤버십 날짜는 {{currentPeriodEnd}}."
-            }
-        }
-    },
-    "countryCodes": {
-        "AU": "오스트레일리아",
-        "AT": "오스트리아",
-        "BE": "벨기에",
-        "CA": "캐나다",
-        "DK": "덴마크",
-        "FI": "핀란드",
-        "FR": "프랑스",
-        "DE": "독일",
-        "HK": "홍콩",
-        "IE": "아일랜드",
-        "IT": "이탈리아",
-        "JP": "일본",
-        "LU": "룩셈부르크",
-        "NL": "네덜란드",
-        "NZ": "뉴질랜드",
-        "NO": "노르웨이",
-        "PT": "포르투갈",
-        "ES": "스페인",
-        "SE": "스웨덴",
-        "CH": "스위스",
-        "GB": "영국",
-        "US": "미국"
+    "profileButton": "여러분의 프로필",
+    "discordLink": {
+      "instructions": "To link your discord account, log out and log back in using the discord login option and the email address tied to this account.",
+      "linkAccounts": "Link your Discord account to this Pokebattler account to enable the Pokebattler Raid Network",
+      "error": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids."
     }
+  },
+  "logout": {
+    "title": "로그아웃",
+    "meta": {
+      "description": "포케배틀러에서 성공적으로 로그아웃되었습니다."
+    },
+    "description": "성공적으로 로그아웃 되었습니다. 어떤 기기에서 돌아오시든 포케박스가 보존되어 있을 것입니다!",
+    "back": "다시 로그인",
+    "button": "로그아웃",
+    "connectAccount": "Connect Account"
+  },
+  "subscribed": {
+    "title": "후원에 감사드립니다",
+    "meta": {
+      "description": "포케배틀러는 여러분 같은 관대한 구독자분들에 의해서 무료로 운영됩니다! 구독하면 광고가 사라지고 레이드 보스를 이기거나 pvp에서 친구들을 이기는 것을 도와줄 강력한 요소들을 사용할 수 있습니다!"
+    },
+    "patreon": "Patreon 구독자분들은 더 저렴하고 지원도 좋은 하단에 있는 Stripe 선택지로 바꾸시길 추천드립니다. 여러분은 전환시 구독에 적용된 쿠폰을 받기 위해 admin@pokebattler.com으로 이메일을 주실 수 있습니다. 남아있는 Patreon 구독에 따라서 쿠폰의 양이 결정될 것입니다. 브라질이나 멕시코처럼 Stripe가 지원되지 않는 국가의 사용자분들이나 Paypal을 통해 지불하고자 하는 사용자분들은 Patreon을 계속 사용하세요.",
+    "chooseProduct": "구독 변경",
+    "currentSubscription": "현재 구독 정보",
+    "choosePlan": "여러분의 플랜을 고르세요",
+    "purchase": "여러분의 구독기간을 업데이트하세요",
+    "currentPlan": "현재 플랜",
+    "chargeAmount": "여러분은 ${{chargeAmount}}의 할당된 액수을 즉시 청구받을 것입니다. 전체 액수는 각 지불 사이클에 시작때 청구될 것입니다.",
+    "duringTrial": {
+      "button": "구독 변경",
+      "description": "시험사용기간 동안, 여러분은 구독을 자유롭게 변경할 수 있습니다."
+    },
+    "upgradeSubscription": {
+      "button": "구독권 업그레이드",
+      "description": "바로 구독권을 업그레이드 합니다."
+    },
+    "downgradeSubscription": {
+      "button": "구독권 다운그레이드",
+      "description": "현재의 구독권 종료시 구독권을 다운그레이드 합니다."
+    },
+    "changeCreditCard": {
+      "title": "지불 정보 변경",
+      "button": "정보 업데이트"
+    }
+  },
+  "subscription": {
+    "title": "포케배틀러 구독",
+    "meta": {
+      "description": "포케배틀러는 여러분 같은 관대한 구독자분들에 의해서 무료 운영이 가능합니다! 구독하시면 광고가 없어지고 레이드보스를 이기고 pvp에서 친구들을 이길 수 있게 해주는 강력한 요소들이 사용가능해집니다!",
+      "image": "https://static.pokebattler.com/images/og_user_subscription.png"
+    },
+    "paymentRequest": "원클릭 구독",
+    "paymentRequestDescription": "원클릭 구독은 대부분의 모바일 기기에서 지원됩니다. 여러분은 대신 하단에 여러분의 정보를 입력할 수도 있습니다.",
+    "currentProduct": "현재 혜택",
+    "chooseProduct": "플랜 선택",
+    "choosePlan": "기간 선택",
+    "purchase": "무료 시험을 시작하세요!",
+    "creditCard": "신용 카드 정보를 입력하세요",
+    "paymentType": "지불 유형",
+    "name": "이름과 성",
+    "email": "이메일",
+    "line1": "주소 1",
+    "line2": "주소 2",
+    "city": "도시",
+    "state": "주 (지방)",
+    "country": "국가",
+    "idealBank": "iDEAL Bank",
+    "description": "여러분의 신용카드 정보는 Stripe에 의해서 안전하게 처리되고 포케배틀러에 보내지지 않습니다. Stripe는 여러분의 구독권을 처리하고 포케배틀러에 구독권 상태를 알려줍니다.",
+    "multiMonth": "여러달 플랜으로 돈을 절약하세요!",
+    "requiresLogin": "구독하기 위해서는 로그인해야합니다.",
+    "ibanDescription": "IBAN을 제공하고 이 지불을 확인하는 것으로, 여러분은 지불 서비스 공급자인 Pokebattler.com과 스트라이프에게 여러분의 은행으로 여러분의 계좌에서 돈을 지불하도록 안내를 보냅니다. 여러분은 은행과의 계약 조건에 따라 환불을 받을 수 있습니다. 환불은 계좌에 대금이 청구된 날로부터 8주 이내에만 가능합니다.",
+    "notNeccessary": "다음 공란들은 보통 입력할 필요가 없습니다. 여러분의 지불이 거절당할 경우에만 입력하세요.",
+    "paymentTypes": {
+      "creditCard": "신용카드",
+      "iban": "IBAN",
+      "ideal": "IDEAL"
+    },
+    "confirmation": {
+      "button": "구독",
+      "description": "$t(user:subscription.choosePlan)"
+    },
+    "plans": {
+      "1month": {
+        "title": "1달 - ${{intervalCost}}/mo",
+        "subtitle": "여러분은 {{trialPeriodDays}} 일의 무료 시험기간 이후에 매달 ${{cost}}를 청구받을 것입니다.",
+        "discount": "여러달 플랜을 선택해서 절약하세요",
+        "shortTitle": "1 Month",
+        "monthlyPrice": "Buy a single month. Save by selecting a multi month plan!"
+      },
+      "3month": {
+        "title": "3달 - ${{intervalCost}}/mo",
+        "subtitle": "여러분은 {{trialPeriodDays}}일의 무료 시험기간 이후에 매 3달마다 ${{cost}}를 청구받을 것입니다.",
+        "discount": "{{discount}}%를 절약하세요 - {{trialPeriodDays}} 일 무료 체험",
+        "shortTitle": "3 Month",
+        "shortDiscount": "-{{discount}}%",
+        "monthlyPrice": "Buy 3 months upfront for {{currency}}{{intervalCost}} per month."
+      },
+      "6month": {
+        "title": "6달 - ${{intervalCost}}/mo",
+        "subtitle": "여러분은 {{trialPeriodDays}}일의 무료 체험 이후에 매 6달마다 ${{cost}}를 청구받을 것입니다.",
+        "discount": "{{discount}} % 를 절약하세요 - {{trialPeriodDays}}일 무료 체험",
+        "shortTitle": "6 Month",
+        "shortDiscount": "-{{discount}}%",
+        "monthlyPrice": "Buy 6 months upfront for {{currency}}{{intervalCost}} per month."
+      }
+    },
+    "products": {
+      "ROLE_BASIC": {
+        "title": "기본 플랜",
+        "subtitle": "큰 가치의 저렴한 구독권"
+      },
+      "ROLE_STANDARD": {
+        "title": "표준 플랜",
+        "subtitle": "대부분의 플레이어들에게 추천되는 구독권"
+      },
+      "ROLE_BATTLER": {
+        "title": "배틀러 플랜",
+        "subtitle": "더 분석적인 플레이어들을 위한 높은 레벨"
+      },
+      "ROLE_CHAMPION": {
+        "title": "챔피언 플랜",
+        "subtitle": "하드코어 플레이어들을 위한 최고의 구독권"
+      },
+      "ROLE_USER": {
+        "title": "비구독자",
+        "subtitle": "모든 사용자를 위한 무료 혜택"
+      },
+      "ROLE_ADMIN": {
+        "title": "포케배틀러 관리자",
+        "subtitle": "구독할 수 있으나 다운그레이드가 될 것입니다."
+      },
+      "ROLE_FAN": {
+        "title": "Patreon 팬",
+        "subtitle": "구독하게되면, Patreon 기부를 취소하는 것을 기억하세요."
+      },
+      "ROLE_SUPPORTER": {
+        "title": "Patreon 후원자",
+        "subtitle": "구독하게되면, Patreon 기부를 취소하는 것을 기억하세요"
+      },
+      "ROLE_PATREON": {
+        "title": "Patreon Patreon",
+        "subtitle": "구독하게되면, Patreon 기부를 취소해야하는 것을 기억하세요"
+      },
+      "ROLE_FANATIC": {
+        "title": "Patreon 파나틱",
+        "subtitle": "구독하게되면, Patreon 기부를 취소하는 것을 기억하세요"
+      },
+      "ROLE_CONTEST": {
+        "title": "컨테스트 우승자",
+        "subtitle": "챔피언 플랜과 동일"
+      },
+      "ROLE_PATREON_USER": {
+        "title": "Patreon 사용자",
+        "subtitle": "곧 비구독자로 바뀔 것입니다."
+      },
+      "ROLE_SUPPORTER2": {
+        "title": "Patreon 후원자",
+        "subtitle": "구독하게되면, Patreon 기부를 취소해야하는 것을 기억하세요"
+      }
+    },
+    "app": {
+      "description": "Pokebattler subscriptions are connected to your account and provide enhanced functionality and more detailed analytics across all your devices, app, mobile web and desktop.",
+      "allDevices": "Features",
+      "desktopOnly": "Desktop Only Features",
+      "support": {
+        "description": "Having problems with your subscription?  Pokebattler subscriptions are connected to the account you were logged in with at purchase time. Contact support with your old and new Pokebattler ids to merge your accounts",
+        "restorePurchases": "Restore Purchases",
+        "contactSupport": "Contact Support"
+      },
+      "restore": {
+        "begin": "Reprocessing transactions",
+        "complete": "Reprocessing complete",
+        "noneFound": "No prior purchases on this Apple Id"
+      },
+      "freeTrial": "Your account will be charged after the free trial period ends. You may cancel your subscription before the free trial ends to avoid any charges."
+    },
+    "freeTrial": "{{trialPeriodDays}} Day Free Trial",
+    "upsell": {
+      "rankingByType": "Subscribers have access to ranking features that are too expensive to give to everyone including party power, ranking by type and primal boosts!",
+      "premium": "Premium ranking features"
+    },
+    "transaction": {
+      "start": "Processing subscription",
+      "verify": "Upgrading your account",
+      "confirm": "Account successfully upgraded",
+      "complete": "Thank you for your support",
+      "restore": "Restoring your subscriptions. This may take some time"
+    },
+    "error": {
+      "playLogin": "Could not complete transaction. Please log in to Google Play and try again",
+      "unknown": "Could not complete transaction! Please contact admin@pokebattler.com",
+      "cancelled": "Subscription cancelled",
+      "verification": "Could not verify transaction! Please contact admin@pokebattler.com",
+      "store": "Error connecting to store",
+      "restore": "Could not restore transactions! Please contact admin@pokebattler.com",
+      "transactionRestore": "Can not apply transaction. Please log in on original account or contact admin@pokebattler.com"
+    }
+  },
+  "roles": {
+    "title": "계정 정보",
+    "heading": "현재 혜택",
+    "description": "포케배틀러에 기부해서 더 큰 포케박스와 광고 없는 경험을 하세요. 포케배틀러는 여러분 같은 관대한 후원자이 사이트를 운영하는 서버 비용을 기부함으로써 운영가능합니다.",
+    "maxPokemon": "최다 포켓몬",
+    "maxBattleParties": "최다 배틀파티",
+    "quality": "시뮬레이션 품질",
+    "thanks": "포케배틀러를 후원해주셔서 감사합니다! 여러분의 후원에 깊이 감사드립니다.",
+    "support": "포케배틀러 후원",
+    "matrixMaxPokemon": "행렬 - 최다 포켓몬",
+    "matrixMaxType": "행렬 - 최다 타입",
+    "matrixMetaTypes": "행렬 - 메타 타입",
+    "hideAds": "광고 없는 경험",
+    "role": {
+      "ROLE_USER": "포케배틀러 사용자",
+      "ROLE_ADMIN": "포케배틀러 관리자",
+      "ROLE_FAN": "포케배틀러 팬",
+      "ROLE_SUPPORTER": "포케배틀러 후원자 (레거시)",
+      "ROLE_PATREON": "포케배틀러 Patreon",
+      "ROLE_FANATIC": "포케배틀러 파나틱",
+      "ROLE_CONTEST": "포케배틀러 컨테스트 우승자",
+      "ROLE_PATREON_USER": "포케배틀러 Patreon 사용자",
+      "ROLE_SUPPORTER2": "포케배틀러 후원자",
+      "ROLE_BASIC": "기본",
+      "ROLE_STANDARD": "표준",
+      "ROLE_BATTLER": "배틀러",
+      "ROLE_CHAMPION": "챔피언"
+    },
+    "maxNumParty": "Max Party Power Size",
+    "globalRaidHeadStartMs": "Global Raid Head Start",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "rankingByType": "Ranking Filter By Types"
+  },
+  "userSubscription": {
+    "createdAt": {
+      "label": "다음에서 생성:",
+      "value": "{{createdAt,shortdate}}"
+    },
+    "endedAt": {
+      "label": "다음에서 끝:",
+      "value": "{{endedAt,shortdate}}"
+    },
+    "currentPeriodStart": {
+      "label": "현재 구독기간 시작",
+      "value": "{{currentPeriodStart,shortdate}}"
+    },
+    "currentPeriodEnd": {
+      "label": "현재 구독기간 끝",
+      "value": "{{currentPeriodEnd,shortdate}}"
+    },
+    "trialStart": {
+      "label": "체험기간 시작",
+      "value": "{{trialStart,shortdate}}"
+    },
+    "trialEnd": {
+      "label": "체험기간 끝",
+      "value": "{{trialEnd,shortdate}}"
+    },
+    "lastUpdate": {
+      "label": "마지막 업데이트",
+      "value": "{{lastUpdate,shortdate}}"
+    },
+    "planId": "플랜 Id",
+    "cancel": "구독권 취소",
+    "renew": "구독권 갱신",
+    "statuses": {
+      "trialing": {
+        "title": "무료 체험 기간",
+        "description": "여러분의 포케배틀러 구독에는 무료체험기간이 선행되어 여러분이 서비스에 만족하지 못하신다면 비용 없이 취소가 가능합니다.",
+        "cancelled": "Your Pokebattler subscription was cancelled. Why not try us again?"
+      },
+      "active": {
+        "title": "활동중인 멤버십",
+        "description": "당신의 포케배틀러 멤버십이 시작되었습니다. 당신의 멤버십은 {{currentPeriodEnd}}에 갱신됩니다.",
+        "cancelled": "Your Pokebattler membership will cancel as of {{currentPeriodEnd}}. Please continue to enjoy your subscription until then!"
+      },
+      "incomplete": {
+        "title": "불완전한 멤버십",
+        "description": "당신의 포케배틀러 멤버십은 조치가 필요합니다. 대금 지불 회사와 구독권 지불을 확인하세요."
+      },
+      "incomplete_expired": {
+        "title": "불완전한 멤버십",
+        "description": "당신의 포케배틀러 멤버십은 조치가 필요했으나 이미 기간이 지났습니다. 다시 구독하셔야합니다."
+      },
+      "past_due": {
+        "title": "만료 멤버십",
+        "description": "당신의 포케배틀러 멤버십은 시행되지 못했습니다. 지불 정보를 업데이트하고 다시 구독하세요."
+      },
+      "canceled": {
+        "title": "취소된 멤버십",
+        "description": "당신의 포케배틀러 멤버십은 취소되었습니다. 당신의 마지막 멤버십 날짜는 {{currentPeriodEnd}}.",
+        "cancelled": "$t(userSubscription.statuses.canceled.description)"
+      },
+      "cancelled": {
+        "title": "$t(userSubscription.statuses.canceled.title)",
+        "description": "$t(userSubscription.statuses.canceled.description)",
+        "cancelled": "$t(userSubscription.statuses.canceled.description)"
+      }
+    },
+    "subscriptionPlatform": {
+      "label": "",
+      "value": "{{subscriptionPlatform}} - {{role}}"
+    },
+    "platform": {
+      "ios": {
+        "title": "App Store Subscription",
+        "manageSubscription": "Manage this App Store subscription ",
+        "platformLink": "itms-apps://apps.apple.com/account/subscriptions",
+        "link": "https://apps.apple.com/account/subscriptions",
+        "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+      },
+      "android": {
+        "title": "Play Store Subscription",
+        "manageSubscription": "Manage this Play Store subscription",
+        "platformLink": "https://play.google.com/store/account/subscriptions",
+        "link": "https://play.google.com/store/account/subscriptions",
+        "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+      },
+      "stripe": {
+        "title": "Website Subscription",
+        "manageSubscription": "Manage this Stripe subscription on the website.",
+        "platformLink": "https://www.pokebattler.com/user/subscription",
+        "link": "https://www.pokebattler.com/user/subscription",
+        "icon": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+      },
+      "patreon": {
+        "title": "Patreon Subscription",
+        "manageSubscription": "Manage this Patreon subscription",
+        "platformLink": "https://www.patreon.com/pokebattler",
+        "link": "https://www.patreon.com/pokebattler",
+        "icon": "https://static.pokebattler.com/images/pokebattler_square.png"
+      }
+    }
+  },
+  "countryCodes": {
+    "AU": "오스트레일리아",
+    "AT": "오스트리아",
+    "BE": "벨기에",
+    "CA": "캐나다",
+    "DK": "덴마크",
+    "FI": "핀란드",
+    "FR": "프랑스",
+    "DE": "독일",
+    "HK": "홍콩",
+    "IE": "아일랜드",
+    "IT": "이탈리아",
+    "JP": "일본",
+    "LU": "룩셈부르크",
+    "NL": "네덜란드",
+    "NZ": "뉴질랜드",
+    "NO": "노르웨이",
+    "PT": "포르투갈",
+    "ES": "스페인",
+    "SE": "스웨덴",
+    "CH": "스위스",
+    "GB": "영국",
+    "US": "미국",
+    "AR": "Argentina",
+    "BG": "Bulgaria",
+    "HU": "Hungary"
+  },
+  "defaultName": "$t(user:user) #{{userId}}",
+  "link": {
+    "shortTitle": "Connect Accounts",
+    "title": "Connect Your Social Logins",
+    "description": "You can link your Pokebattler account with multiple login methods. When you perform this action, the account you attempt to link to will be merged into the current account. Make sure you are logged in with the account you wish to keep!",
+    "google": "Connect Google Account",
+    "facebook": "Connect Facebook Account",
+    "discord": "Connect Discord Account",
+    "patreon": "Connect Patreon Account",
+    "allLinked": "Wow! You have linked all your accounts. Congratulations on becoming a Pokebattler Account Master!",
+    "success": {
+      "title": "Account Linked Successfully"
+    }
+  },
+  "raidParty": {
+    "title": "Raid Party Settings",
+    "description": "Settings for the Pokebattler Raid Party App."
+  },
+  "delete": {
+    "title": "Remove your Pokebattler account",
+    "privacy": "Pokebattler protects your privacy. The only personal data collected for your account is your email address. We only use the email address for account support and linking accounts, never for spam emails. ",
+    "description": "Not using your account and never coming back? You can delete your account from the Pokebattler servers. This will NOT affect your actual Pokemon Go account because we aren't Niantic",
+    "confirmation": "Account removal is permanent and can not be undone! Are you sure?",
+    "success": "Your account has been successfully deleted. You can recreate an empty account by logging back in again.",
+    "back": "Back to Pokebattler",
+    "button": "Delete Account"
+  },
+  "sponsor": {
+    "title": "Support {{app}}",
+    "meta": {
+      "description": "Assign a percentage of your Pokebattler membership to {{app}}"
+    },
+    "description": "Pokebattler now offers a way to sponsor selected Pokebattler partners who provide valuable services for the community. Pokebattler hopes you consider supporting these creators to help keep the community alive and thriving",
+    "cancel": "Cancel Sponsorship",
+    "how": {
+      "title": "How it works",
+      "description": "If you choose to sponsor a creator, they will receive a percentage of your subscription before any taxes, fees or discounts.  The higher your subscription level, the higher the percentage.  At the beginning of each month, Pokebattler cuts a check to each creator based on the active subscriptions for the month.  The creators are provided a list of sponsors along with a portion of their public profile information and subscription level.",
+      "description2": "This sponsorship does not cost anything extra and  does not change the terms of your Pokebattler subscription in any way."
+    },
+    "legal": {
+      "title": "Legal",
+      "description": "Sponsoring a 3rd party authorizes Pokebattler to share public profile data with that third party including user id, trainer name and discord name as well as non-public data regarding subscription dates and levels. Email address and account ids are not shared with sponsored creators. Sponsorship applies to Stripe, Apple and Google subscriptions only, Patreon subscriptions are not included."
+    },
+    "button": {
+      "title": "Sponsor {{name}}"
+    },
+    "currentSponsored": "Currently Sponsoring {{name}} ({{app}})",
+    "notSubscribed": "You are not currently subscribed to Pokebattler. You will need to subscribe in order to support {{app}}",
+    "sponsored": {
+      "pokenav": {
+        "description": "PokeNav is a Pokemon Go Discord Bot for raiding, trading and more. It provides Pokebattler counters and raid parties to Discord servers",
+        "quote": "Sponsoring PokeNav helps support its development and cover it’s ongoing costs",
+        "thanks": "Thank you for sponsoring PokeNav! Your contribution helps cover its ongoing costs and development.",
+        "name": "IVpips",
+        "app": "Pokenav",
+        "iconUrl": "https://pokenavbot.com/assets/images/logo.png"
+      },
+      "clembotdark": {
+        "description": "Clembot Dark is a Pokemon Go Discord Bot for raiding",
+        "quote": "Pokebattler is an amazing resource to all your answers related to raiding (customizable per user). Pokebattler integration with Clembot is aimed to bring all that information on discord servers as well, so excited!",
+        "thanks": "Thank you so much for supporting Clembot.",
+        "name": "B!",
+        "app": "Clembot Dark",
+        "iconUrl": "https://cdn.discordapp.com/app-icons/363917328880107522/2f4e04668ff5ef15d309faaec40f9418.png?size=256"
+      },
+      "pvpoke": {
+        "description": "Pvpoke is open-source tool for simulating, ranking, and building teams for Pokemon GO PvP (player versus player) battles",
+        "quote": "I'm very excited to partner with Pokebattler to help bring the best of battle simulation! With a Pokebattler subscription, you'll be able to store hundreds of your PvP Pokemon to analyze on Pokebattler and PvPoke.com.",
+        "thanks": "Thanks so much for subscribing and for your support for PvPoke! I'll see you in the arena!",
+        "name": "Matt",
+        "app": "PvPoke.com",
+        "iconUrl": "https://pvpoke.com/img/app_192.png"
+      },
+      "nexus": {
+        "description": "Nexus is a discord bot for coordinating raids, trades and getting useful information for Pokémon Go",
+        "quote": "By sponsoring Nexus you are helping to cover costs as the application grows",
+        "thanks": "Thank you for sponsoring Nexus! You make it possible to keep the bot up and running",
+        "name": "10Criz",
+        "app": "Nexus",
+        "iconUrl": "https://static.pokebattler.com/images/nexus_logo.png"
+      },
+      "minpoke": {
+        "description": "Minpoke is a Pokémon Go website that provides is a discord bot for coordinating raids, trades and getting useful information for Pokémon Go",
+        "quote": "By sponsoring Minpoke you are helping to cover costs as the application grows",
+        "thanks": "Thank you for sponsoring Minpoke! You make it possible to keep the website up and running",
+        "name": "Minpoke",
+        "app": "Minpoke",
+        "iconUrl": "https://static.pokebattler.com/images/minpokelogo.png"
+      }
+    }
+  }
 }

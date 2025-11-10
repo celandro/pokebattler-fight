@@ -1,105 +1,133 @@
 {
-    "CREATE_PARTY": {
-        "title": "{{attackerName}} Criou {{tier}} {{defender}}",
-        "subtitle": "Grupo de Reide #{{raidPartyId}}",
-        "line1": "$t(pushNotifications:defaultBody.line1)",
-        "line2": "$t(pushNotifications:defaultBody.line2)",
-        "line3": "$t(pushNotifications:defaultBody.line3)",
-        "line4": "$t(pushNotifications:defaultBody.line4)"
+  "CREATE_PARTY": {
+    "title": "{{attackerName}} Criou {{tier}} {{defender}}",
+    "subtitle": "Grupo de Reide #{{raidPartyId}}",
+    "line1": "$t(pushNotifications:defaultBody.line1)",
+    "line2": "$t(pushNotifications:defaultBody.line2)",
+    "line3": "$t(pushNotifications:defaultBody.line3)",
+    "line4": "$t(pushNotifications:defaultBody.line4)"
+  },
+  "ADD_USER": {
+    "title": "{{attackerName}} entrou na Reide de {{defender}}",
+    "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
+    "line1": "$t(pushNotifications:defaultBody.line1)",
+    "line2": "$t(pushNotifications:defaultBody.line2)",
+    "line3": "$t(pushNotifications:defaultBody.line3)",
+    "line4": "$t(pushNotifications:defaultBody.line4)"
+  },
+  "REMOVE_USER": {
+    "title": "{{attackerName}} saiu da Reide de {{defender}}",
+    "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
+    "line1": "$t(pushNotifications:defaultBody.line1)",
+    "line2": "$t(pushNotifications:defaultBody.line2)",
+    "line3": "$t(pushNotifications:defaultBody.line3)",
+    "line4": "$t(pushNotifications:defaultBody.line4)"
+  },
+  "UPDATE_USER": {
+    "title": "Atualização no Grupo de Reide de{{defender}}",
+    "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
+    "line1": "$t(pushNotifications:defaultBody.line1)",
+    "line2": "$t(pushNotifications:defaultBody.line2)",
+    "line3": "$t(pushNotifications:defaultBody.line3)",
+    "line4": "$t(pushNotifications:defaultBody.line4)"
+  },
+  "UPDATE_PARTY": {
+    "title": "Atualização no Grupo de Reide de {{defender}}",
+    "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
+    "line1": "$t(pushNotifications:defaultBody.line1)",
+    "line2": "$t(pushNotifications:defaultBody.line2)",
+    "line3": "$t(pushNotifications:defaultBody.line3)",
+    "line4": "$t(pushNotifications:defaultBody.line4)"
+  },
+  "RAID_STARTING": {
+    "title": "Reide de {{defender}} começando em {{timeUntilRaidSeconds}} segundos",
+    "subtitle": "Procure o convite no jogo",
+    "line1": "$t(pushNotifications:defaultBody.line1)",
+    "line2": "$t(pushNotifications:defaultBody.line2)",
+    "line3": "$t(pushNotifications:defaultBody.line3)",
+    "line4": "$t(pushNotifications:defaultBody.line4)"
+  },
+  "RAID_STARTING_NOW": {
+    "title": "Reide começando agora!",
+    "subtitle": "Procure o convite no jogo",
+    "line1": "",
+    "line2": "",
+    "line3": "",
+    "line4": ""
+  },
+  "RAID_INVITING_NOW": {
+    "title": "Envie convites para o Raid agora!",
+    "line1": "Primeiro copie os nomes dos treinadores com o botão Copy Trainers no aplicativo Pokebattler Raid Party",
+    "line2": "Então, em Pokémon Go, participe da reide, clique em convidar amigos e cole os nomes dos treinadores",
+    "subtitle": "",
+    "line3": "",
+    "line4": ""
+  },
+  "RAID_DONE": {
+    "title": "Reide de {{defender}} concluída",
+    "line1": "Obrigado por criar reides com Pokebattler Raid Party",
+    "subtitle": "",
+    "line2": "",
+    "line3": "",
+    "line4": ""
+  },
+  "defaultBody": {
+    "subtitle": "{{tier}} {{defender}} #{{raidPartyId}}",
+    "line1": "{{numReadyAttackers}} de {{numAttackers}} prontos",
+    "line2": "Chance de vitória %{{winPercent}}",
+    "line3": "Dano de Grupo %{{powerPercent}}",
+    "line4": "{{estimator}} Jogadores Necessários"
+  },
+  "discordLine": "#{{discordChannel}} - {{discordServerName}}",
+  "globalRaidNetwork": {
+    "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
+    "username": "Rede de Reides Pokebattler",
+    "title": "{{discordFlag}}**{{defender}}** - {{tier}} ({{discordLanguage}})",
+    "description": "{{remoteSlotsEmoji}} espeços abertos - # {{raidPartyId}}\n\n>>> Participe com 1 toque usando o [Pokebattler Raid Party App] (https://www.pokebattler.com/raidParty/ {{raidPartyId}} / join) ou entrando permanentemente no servidor Discord.\n",
+    "descriptionNonDiscord": "{{remoteSlotsEmoji}} espaços abertos - #{{raidPartyId}}\n",
+    "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
+    "field1": {
+      "name": "Participar do Servidor Discord",
+      "value": "[{{discordGuildName}}]({{discordGuildInviteUrl}})"
     },
-    "ADD_USER": {
-        "title": "{{attackerName}} entrou na Reide de {{defender}}",
-        "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
-        "line1": "$t(pushNotifications:defaultBody.line1)",
-        "line2": "$t(pushNotifications:defaultBody.line2)",
-        "line3": "$t(pushNotifications:defaultBody.line3)",
-        "line4": "$t(pushNotifications:defaultBody.line4)"
+    "field2": {
+      "name": "Link da Reide - Discord",
+      "value": "[via {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"
     },
-    "REMOVE_USER": {
-        "title": "{{attackerName}} saiu da Reide de {{defender}}",
-        "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
-        "line1": "$t(pushNotifications:defaultBody.line1)",
-        "line2": "$t(pushNotifications:defaultBody.line2)",
-        "line3": "$t(pushNotifications:defaultBody.line3)",
-        "line4": "$t(pushNotifications:defaultBody.line4)"
+    "field3": {
+      "name": "1 - Toque em Participar",
+      "value": "[via Pokebattler Raid Network](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
     },
-    "UPDATE_USER": {
-        "title": "Atualização no Grupo de Reide de{{defender}}",
-        "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
-        "line1": "$t(pushNotifications:defaultBody.line1)",
-        "line2": "$t(pushNotifications:defaultBody.line2)",
-        "line3": "$t(pushNotifications:defaultBody.line3)",
-        "line4": "$t(pushNotifications:defaultBody.line4)"
+    "field1NonDiscord": {
+      "name": "Disponível apenas no aplicativo",
+      "value": "[Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
     },
-    "UPDATE_PARTY": {
-        "title": "Atualização no Grupo de Reide de {{defender}}",
-        "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
-        "line1": "$t(pushNotifications:defaultBody.line1)",
-        "line2": "$t(pushNotifications:defaultBody.line2)",
-        "line3": "$t(pushNotifications:defaultBody.line3)",
-        "line4": "$t(pushNotifications:defaultBody.line4)"
+    "thumbnail": "{{pokemonIcon}}",
+    "author": {
+      "name": "{{botName}}",
+      "icon_url": "{{botIcon}}"
     },
-    "RAID_STARTING": {
-        "title": "Reide de {{defender}} começando em {{timeUntilRaidSeconds}} segundos",
-        "subtitle": "Procure o convite no jogo",
-        "line1": "$t(pushNotifications:defaultBody.line1)",
-        "line2": "$t(pushNotifications:defaultBody.line2)",
-        "line3": "$t(pushNotifications:defaultBody.line3)",
-        "line4": "$t(pushNotifications:defaultBody.line4)"
+    "appAuthor": {
+      "name": "Pokebattler Raid Party App",
+      "icon_url": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png"
     },
-    "RAID_STARTING_NOW": {
-        "title": "Reide começando agora!",
-        "subtitle": "Procure o convite no jogo"
-    },
-    "RAID_INVITING_NOW": {
-        "title": "Envie convites para o Raid agora!",
-        "line1": "Primeiro copie os nomes dos treinadores com o botão Copy Trainers no aplicativo Pokebattler Raid Party",
-        "line2": "Então, em Pokémon Go, participe da reide, clique em convidar amigos e cole os nomes dos treinadores"
-    },
-    "RAID_DONE": {
-        "title": "Reide de {{defender}} concluída",
-        "line1": "Obrigado por criar reides com Pokebattler Raid Party"
-    },
-    "defaultBody": {
-        "subtitle": "{{tier}} {{defender}} #{{raidPartyId}}",
-        "line1": "{{numReadyAttackers}} de {{numAttackers}} prontos",
-        "line2": "Chance de vitória %{{winPercent}}",
-        "line3": "Dano de Grupo %{{powerPercent}}",
-        "line4": "{{estimator}} Jogadores Necessários"
-    },
-    "discordLine": "#{{discordChannel}} - {{discordServerName}}",
-    "globalRaidNetwork": {
-        "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
-        "username": "Rede de Reides Pokebattler",
-        "title": "{{discordFlag}}**{{defender}}** - {{tier}} ({{discordLanguage}})",
-        "description": "{{remoteSlotsEmoji}} espeços abertos - # {{raidPartyId}}\n\n>>> Participe com 1 toque usando o [Pokebattler Raid Party App] (https://www.pokebattler.com/raidParty/ {{raidPartyId}} / join) ou entrando permanentemente no servidor Discord.\n",
-        "descriptionNonDiscord": "{{remoteSlotsEmoji}} espaços abertos - #{{raidPartyId}}\n",
-        "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
-        "field1": {
-            "name": "Participar do Servidor Discord",
-            "value": "[{{discordGuildName}}]({{discordGuildInviteUrl}})"
-        },
-        "field2": {
-            "name": "Link da Reide - Discord",
-            "value": "[via {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"
-        },
-        "field3": {
-            "name": "1 - Toque em Participar",
-            "value": "[via Pokebattler Raid Network](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
-        },
-        "field1NonDiscord": {
-            "name": "Disponível apenas no aplicativo",
-            "value": "[Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
-        },
-        "thumbnail": "{{pokemonIcon}}",
-        "author": {
-            "name": "{{botName}}",
-            "icon_url": "{{botIcon}}"
-        },
-        "appAuthor": {
-            "name": "Pokebattler Raid Party App",
-            "icon_url": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png"
-        },
-        "footer": "{{numAttackers}} Jogaores - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)"
-    }
+    "footer": "{{numAttackers}} Jogaores - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)",
+    "titleUnknownLanguage": "{{discordFlag}}**{{defender}}** - {{tier}}"
+  },
+  "UPDATE_PRIVACY": {
+    "title": "{{defender}} Raid Party Global",
+    "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
+    "line1": "$t(pushNotifications:defaultBody.line1)",
+    "line2": "$t(pushNotifications:defaultBody.line2)",
+    "line3": "$t(pushNotifications:defaultBody.line3)",
+    "line4": "$t(pushNotifications:defaultBody.line4)"
+  },
+  "KICKED_USER": {
+    "title": "You have been kicked from the {{defender}} raid",
+    "subtitle": "The host has removed you.",
+    "line1": "Hosts can remove you for a variety of reasons. The most common are:",
+    "line2": "1. You have not sent the friend invite to the host",
+    "line3": "2. Trainer name or level does not match your settings",
+    "line4": "3. The boss is too difficult for someone of your level"
+  }
 }

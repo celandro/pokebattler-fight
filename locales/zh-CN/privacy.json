@@ -3,5 +3,16 @@
   "policy": "Pokebattler.com關心您的隱私。我們不會與第三方分享您的個人訊息，也不會儲存您訪問本網站的任何訊息，除了通過使用Cookie和本地儲存以分析和優化您在網站上的體驗。本地儲存特別用於儲存您的自定義設定以方便您訪問本站。",
   "browserSettings": "您隨時可以通過更改特定的瀏覽器設置來關閉Cookie和本地儲存的使用。",
   "changeNote": "本隱私政策如有更改，恕不另行通知，最後更新於{{changed_date}}。如有任何疑問請{{contactLink}}",
-  "contactLink": "聯繫我們。"
+  "contactLink": "聯繫我們。",
+  "meta": {
+    "description": "Pokebattler Privacy Pokebattler takes your privacy seriously and does not share any private user data of any kind outside of the site.",
+    "image": "https://static.pokebattler.com/images/og_more_privacy.jpg"
+  },
+  "pokebox": "Pokebattler does not connect to Niantic servers in any way. The pokebox, trainer information and other personalization options use Google and Facebook single sign on capability and are used to provide a custom experience across devices. No personal information is retrieved or stored other than an identification number and email address which are only used for login purposes and account troubleshooting. This data is not used for marketing or affiliate purposes in any way. Use of these features is optional and is intended for your benefit only. Data such as trainer name and pokebox content is used to support sharing of urls, finding your friends and other site features. If you are concerned about your privacy, consider not entering your trainer name or the names of your Pokemon.",
+  "terms": {
+    "title": "Terms & Conditions",
+    "meta": {
+      "description": "Pokebattler Terms & Conditions for using the website or app"
+    }
+  }
 }

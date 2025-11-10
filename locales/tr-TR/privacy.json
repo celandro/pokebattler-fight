@@ -1,1 +1,18 @@
-{}
+{
+  "title": "Privacy Policy",
+  "meta": {
+    "description": "Pokebattler Privacy Pokebattler takes your privacy seriously and does not share any private user data of any kind outside of the site.",
+    "image": "https://static.pokebattler.com/images/og_more_privacy.jpg"
+  },
+  "policy": "Pokebattler.com cares about your privacy. We do not share your personal information with third parties nor do we store any information about your visit to this website other than to analyze and optimize your experience on the site through the use of cookies and local storage. Local storage in particular is used to store your site customizations between visits for your convenience.",
+  "pokebox": "Pokebattler does not connect to Niantic servers in any way. The pokebox, trainer information and other personalization options use Google and Facebook single sign on capability and are used to provide a custom experience across devices. No personal information is retrieved or stored other than an identification number and email address which are only used for login purposes and account troubleshooting. This data is not used for marketing or affiliate purposes in any way. Use of these features is optional and is intended for your benefit only. Data such as trainer name and pokebox content is used to support sharing of urls, finding your friends and other site features. If you are concerned about your privacy, consider not entering your trainer name or the names of your Pokemon.",
+  "browserSettings": "You can turn off the use of cookies and local storage at any time by changing your specific browser settings.",
+  "changeNote": "This privacy policy is subject to change without notice and was last updated on {{changed_date}}. If you have any questions or wish to remove all of your date from this website, contact us at {{contactLink}}",
+  "contactLink": "contact us.",
+  "terms": {
+    "title": "Terms & Conditions",
+    "meta": {
+      "description": "Pokebattler Terms & Conditions for using the website or app"
+    }
+  }
+}

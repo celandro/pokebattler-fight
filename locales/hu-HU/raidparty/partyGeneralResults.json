@@ -1,14 +1,14 @@
 {
-    "effectiveCombatTime": "Mióta nyersz",
-    "effectiveDeaths": "Deaths to win",
-    "tdo": "TDO",
-    "seconds": "mp",
-    "winPerc": "% nyer",
-    "missingData": "???",
-    "totalCombatTime": "Idő",
-    "yourSummary": "Az Ön összefoglalója",
-    "deaths": "Halálozások",
-    "decimalPlaces": 2,
-    "title": "Csata eredménye",
-    "estimator": "Becslés"
+  "effectiveCombatTime": "Mióta nyersz",
+  "effectiveDeaths": "Deaths to win",
+  "tdo": "TDO",
+  "seconds": "mp",
+  "winPerc": "% nyer",
+  "missingData": "???",
+  "totalCombatTime": "Idő",
+  "yourSummary": "Az Ön összefoglalója",
+  "deaths": "Halálozások",
+  "decimalPlaces": 2,
+  "title": "Csata eredménye",
+  "estimator": "Becslés"
 }

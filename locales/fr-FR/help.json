@@ -1,61 +1,212 @@
 {
-    "title": "Comment utiliser Pokebattler",
-    "pageNotFound": {
-        "title": "Cette page n'existe pas",
-        "text": "Désolé, nous n'avons pas trouvé la page que vous cherchiez"
+  "title": "Comment utiliser Pokebattler",
+  "pageNotFound": {
+    "title": "Cette page n'existe pas",
+    "text": "Désolé, nous n'avons pas trouvé la page que vous cherchiez"
+  },
+  "pages": {
+    "raids": {
+      "title": "Raids",
+      "link": "/help/raid-counter",
+      "description": "Choisissez les meilleurs contres pour n'importe quel boss avec notre guide de raid personnalisable"
     },
-    "pages": {
-        "raids": {
-            "title": "Raids",
-            "link": "/help/raid-counter",
-            "description": "Choisissez les meilleurs contres pour n'importe quel boss avec notre guide de raid personnalisable"
-        },
-        "battleSimulator": {
-            "title": "Simulateur de combat",
-            "link": "/help/battle-simulator",
-            "description": "Simuler n'importe quel match avec le simulateur de Pokémon Go le plus précis au monde"
-        },
-        "pokebox": {
-            "link": "/help/pokebox",
-            "description": "Stockez vos pokémons sur nos serveurs et utilisez-les sur le site",
-            "title": "Pokébox"
-        },
-        "pokedex": {
-            "link": "/help/pokedex",
-            "description": "Trouvez les meilleurs contres et les meilleurs matchs pour chaque pokémon",
-            "title": "Pokedex"
-        },
-        "rankings": {
-            "title": "Classements",
-            "link": "/help/rankings",
-            "description": "Découvrez quels pokémons sont les meilleurs attaquants et défenseurs"
-        },
-        "simulations": {
-            "title": "Simulations",
-            "link": "/help/simulations"
-        },
-        "attackStrategies": {
-            "link": "/help/attack-strategies"
-        },
-        "dodgeStrategies": {
-            "link": "/help/dodge-strategies"
-        },
-        "patreon": {
-            "link": "/help/patreon"
-        },
-        "glossary": {
-            "link": "/help/glossary"
-        },
-        "faqs": {
-            "link": "/help/faqs"
-        },
-        "raidAdvice": {
-            "title": "",
-            "link": "/help/raid-advice"
-        }
+    "battleSimulator": {
+      "title": "Simulateur de combat",
+      "link": "/help/battle-simulator",
+      "description": "Simuler n'importe quel match avec le simulateur de Pokémon Go le plus précis au monde"
     },
-    "intro": "Bienvenue sur Pokebattler.com ! Le plus sophistiqué et le meilleur simulateur d'arènes et de raid jamais inventé sur Pokemon GO. Vous voulez savoir ce qu'il en est de ce Ronflex ? Essayez chacun de vos pokémons pour voir comment il se comportent en combat d'arène. Un rapport complet du combat, attaque après attaque, est disponible.",
-    "outro": "Restez attentif aux prochaines mises à jour comme la possibilité de sauvegarder ses pokémon et plus encore.",
-    "now-battle": "Maintenant sus aux pokémons !",
-    "backlink": "Retour à l'aide"
+    "pokebox": {
+      "link": "/help/pokebox",
+      "description": "Stockez vos pokémons sur nos serveurs et utilisez-les sur le site",
+      "title": "Pokébox"
+    },
+    "pokedex": {
+      "link": "/help/pokedex",
+      "description": "Trouvez les meilleurs contres et les meilleurs matchs pour chaque pokémon",
+      "title": "Pokedex"
+    },
+    "rankings": {
+      "title": "Classements",
+      "link": "/help/rankings",
+      "description": "Découvrez quels pokémons sont les meilleurs attaquants et défenseurs"
+    },
+    "simulations": {
+      "title": "Simulations",
+      "link": "/help/simulations",
+      "description": "Definitions for all Pokebattler simulation types"
+    },
+    "attackStrategies": {
+      "link": "/help/attack-strategies",
+      "title": "Attack Strategies",
+      "description": "Definitions for attack strategies"
+    },
+    "dodgeStrategies": {
+      "link": "/help/dodge-strategies",
+      "title": "Dodge Strategies",
+      "description": "Definitions for dodge strategies"
+    },
+    "patreon": {
+      "link": "/help/patreon",
+      "title": "Patreon",
+      "description": "Learn how and why to support us through Patreon"
+    },
+    "glossary": {
+      "link": "/help/glossary",
+      "title": "Glossary",
+      "description": "A Pokemon Go dictionary"
+    },
+    "faqs": {
+      "link": "/help/faqs",
+      "title": "FAQs",
+      "description": "We get a lot of questions. Sometimes we get a lot of the same questions. Those questions and their answers lie here"
+    },
+    "raidAdvice": {
+      "title": "",
+      "link": "/help/raid-advice",
+      "description": "Discover which Pokemon to power up to beat a raid boss"
+    },
+    "pvpMatrix": {
+      "title": "PVP Matrix",
+      "link": "/help/pvp-matrix-help-guide",
+      "description": "Discover how to create custom rankings for pvp"
+    }
+  },
+  "intro": "Bienvenue sur Pokebattler.com ! Le plus sophistiqué et le meilleur simulateur d'arènes et de raid jamais inventé sur Pokemon GO. Vous voulez savoir ce qu'il en est de ce Ronflex ? Essayez chacun de vos pokémons pour voir comment il se comportent en combat d'arène. Un rapport complet du combat, attaque après attaque, est disponible.",
+  "outro": "Restez attentif aux prochaines mises à jour comme la possibilité de sauvegarder ses pokémon et plus encore.",
+  "now-battle": "Maintenant sus aux pokémons !",
+  "backlink": "Retour à l'aide",
+  "sections": {
+    "battle": {
+      "title": "Battle",
+      "intro": {
+        "title": "Set up a battle",
+        "text": "The Pokebattler battle simulator is highly accurate and allows you to customize your combat options in many ways. Options include:"
+      },
+      "outro": {
+        "title": "Battle!",
+        "text": "Full combat results will be shown. Feel free to X out and try out other combinations."
+      },
+      "steps[0]": {
+        "label": "Type in the search bar",
+        "description": "Choose the attackers and defenders you wish to battle"
+      },
+      "steps[1]": {
+        "label": "Basic mode",
+        "description": "Enter the CP, don't worry about your hidden stats, we will figure it out for you as best we can."
+      },
+      "steps[2]": {
+        "label": "Advanced mode",
+        "description": "Enter the exact level and hidden stats of your pokemon for the most accurate simulation"
+      },
+      "steps[3]": {
+        "label": "Choose your moves",
+        "description": "Try out all the combinations of quick and charge moves"
+      },
+      "steps[4]": {
+        "label": "Choose your strategies",
+        "description": "Customize the way the pokemon attack and defend. See the definitions section below."
+      }
+    },
+    "rankings": {
+      "title": "Rankings",
+      "intro": {
+        "title": "Customize your rankings",
+        "text": "Pokebattler rankings are the most advanced around! No other site lets you change your settings and compare every pokemon under different constraints. Customization options include:"
+      },
+      "outro": {
+        "title": "Investigate!",
+        "text": "The best move combinations for each pokemon are shown. Clicking on a pokemon will give detailed information about all the move combinations."
+      },
+      "steps[0]": {
+        "label": "Attacker/Defender",
+        "description": "Choose whether you are attacking or defending. Attacker shows the results vs. all possible defenders. Defender shows the results vs. the best 6 possible attackers"
+      },
+      "steps[1]": {
+        "label": "Sort",
+        "description": "Choose the type of ranking you want (see below)"
+      },
+      "steps[2]": {
+        "label": "Level",
+        "description": "Choose the level of the attacker and defender pokemon"
+      },
+      "steps[3]": {
+        "label": "Single/Group",
+        "description": "Choose whether to see every move combination or only show the best per pokemon"
+      },
+      "steps[4]": {
+        "label": "Choose your strategies",
+        "description": "Customize to your preferences, (see below)."
+      }
+    },
+    "pokedex": {
+      "title": "Pokedex",
+      "intro": {
+        "title": "Customize Pokemon",
+        "text": "The Pokedex page is a great place to analyze Pokemon in depth. Customization options include:"
+      },
+      "outro": {
+        "title": "Analyze",
+        "text": "Lookup any pokemon you are interested in. Find out what there best movesets are on both attack and defense. Discover which pokemon you should avoid and how to beat this pokemon on attack."
+      },
+      "steps[0]": {
+        "label": "Sort",
+        "description": "Choose the type of ranking you want (see below)"
+      },
+      "steps[1]": {
+        "label": "Level",
+        "description": "Choose the level of the attacker and defender pokemon"
+      },
+      "steps[2]": {
+        "label": "Choose your strategies",
+        "description": "Customize to your preferences, (see below)."
+      }
+    },
+    "articles": {
+      "title": "Articles",
+      "text": "The articles section contains all the best research posts from a select set of curated authors as well as some articles related to current events and discussion items. If you would like your articles hosted here, ",
+      "contact-link": "contact us"
+    }
+  },
+  "definitions": {
+    "title": "Definitions",
+    "attack": {
+      "title": "Attack Strategies"
+    },
+    "dodge": {
+      "title": "Dodge Strategies",
+      "intro": {
+        "text": "Dodge strategies are a way to fine tune the attack strategy algorithm to give more realistic results. They are used to account for human error, bugs and other things."
+      }
+    },
+    "defense": {
+      "title": "Defense Simulations"
+    },
+    "sort": {
+      "title": "Sort Options",
+      "options[0]": {
+        "label": "Overall",
+        "description": "A rating that gives an overall score for a particular pokemon. The rating is gives 50% weighting to power, 30% weighting to time to win and 20% to potions"
+      },
+      "options[1]": {
+        "label": "Power",
+        "description": "A percent that represents how many times a pokemon would kill another. 250% means it would kill it 2 times and then die half way through the 3rd attempt. 75% means it died after only doing 75% of the targets health."
+      },
+      "options[2]": {
+        "label": "Time to Win",
+        "description": "Shows the amount of time it would take for the Pokemon to win. 2 seconds is added for each time the pokemon feinted."
+      },
+      "options[3]": {
+        "label": "Win %",
+        "description": "Ranks by percentage chance to win"
+      },
+      "options[4]": {
+        "label": "DPS",
+        "description": "Ranks by damage per second"
+      },
+      "options[5]": {
+        "label": "Potions",
+        "description": "Ranks by number of basic potions it would take to heal plus 5 for each time the pokemon feinted and would need a revive."
+      }
+    }
+  }
 }

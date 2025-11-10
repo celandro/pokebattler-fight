@@ -1,29 +1,29 @@
 {
-    "title": "Kontakt",
-    "contactInfo": "Kontaktinformationen",
-    "feedbackText": "Wir bei Pokebattler freuen uns über dein Feedback! Ob ein Feature Wunsch, ein Fehlerbericht oder nur ein Wort des Dankes, wir schätzen unsere Benutzer sehr und versuchen unser Bestes um diese Seite zur einzigen zu machen, die du für den Pokemon Go Arenakampf benötigst.",
-    "email": "Sendet mir eine private Nachricht an",
-    "facebook": "Verknüpft euch auf Facebook",
-    "button": {
-        "reddit": {
-            "title": "Diskutiere auf Reddit",
-            "subtitle": "Neuigkeiten und Ankündigungen in /r/pokebattler"
-        },
-        "twitter": {
-            "title": "Tweet mir zu",
-            "subtitle": "Neuigkeiten und zufällige Nachrichten vom @Pokebattler_com"
-        },
-        "youtube": {
-            "title": "Schau unsere Videos",
-            "subtitle": "Raid Guides und Pokebattler Tutorial Videos"
-        },
-        "facebook": {
-            "title": "Facebook Verbindung",
-            "subtitle": "Lass deine Freunde von uns wissen"
-        }
+  "title": "Kontakt",
+  "contactInfo": "Kontaktinformationen",
+  "feedbackText": "Wir bei Pokebattler freuen uns über dein Feedback! Ob ein Feature Wunsch, ein Fehlerbericht oder nur ein Wort des Dankes, wir schätzen unsere Benutzer sehr und versuchen unser Bestes um diese Seite zur einzigen zu machen, die du für den Pokemon Go Arenakampf benötigst.",
+  "email": "Sendet mir eine private Nachricht an",
+  "facebook": "Verknüpft euch auf Facebook",
+  "button": {
+    "reddit": {
+      "title": "Diskutiere auf Reddit",
+      "subtitle": "Neuigkeiten und Ankündigungen in /r/pokebattler"
     },
-    "meta": {
-        "description": "Sende uns eine Nachricht oder folge uns in den sozialen Medien um die neusten Updates für den weltweit genausten Pokemon Go Simulator zu erhalten",
-        "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+    "twitter": {
+      "title": "Tweet mir zu",
+      "subtitle": "Neuigkeiten und zufällige Nachrichten vom @Pokebattler_com"
+    },
+    "youtube": {
+      "title": "Schau unsere Videos",
+      "subtitle": "Raid Guides und Pokebattler Tutorial Videos"
+    },
+    "facebook": {
+      "title": "Facebook Verbindung",
+      "subtitle": "Lass deine Freunde von uns wissen"
     }
+  },
+  "meta": {
+    "description": "Sende uns eine Nachricht oder folge uns in den sozialen Medien um die neusten Updates für den weltweit genausten Pokemon Go Simulator zu erhalten",
+    "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  }
 }

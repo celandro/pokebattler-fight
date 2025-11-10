@@ -1,99 +1,335 @@
 {
-    "breakingNews": {
-        "title": "快訊",
-        "subtitle": "火箭隊入侵Pokemon Go",
-        "header": "$t(constants:pokemon.{{pokemonId}}) 火箭隊打手"
+  "breakingNews": {
+    "title": "快訊",
+    "subtitle": "火箭隊入侵Pokemon Go",
+    "header": "$t(constants:pokemon.{{pokemonId}}) 火箭隊打手"
+  },
+  "title": "火箭隊打手",
+  "linkLabel": "火箭隊打手",
+  "intro": "火箭隊已經入侵Pokemon Go，Pokebattler可以幫助你擊敗他們！戰鬥將通過3v3的模式在你和火箭隊強化過的寶可夢間進行。戰鬥可能會極其艱苦請在挑戰前做好準備！",
+  "articles": {
+    "title": "最新的火箭隊消息！",
+    "subtitle": "來自頂級玩家和研究者的關於火箭隊的文章和視頻"
+  },
+  "tierList": {
+    "common": {
+      "boss": "暗影入侵",
+      "raidTier": "暗影難度"
     },
-    "title": "火箭隊打手",
-    "linkLabel": "火箭隊打手",
-    "intro": "火箭隊已經入侵Pokemon Go，Pokebattler可以幫助你擊敗他們！戰鬥將通過3v3的模式在你和火箭隊強化過的寶可夢間進行。戰鬥可能會極其艱苦請在挑戰前做好準備！",
-    "articles": {
-        "title": "最新的火箭隊消息！",
-        "subtitle": "來自頂級玩家和研究者的關於火箭隊的文章和視頻"
+    "RAID_LEVEL_1": {
+      "title": "一星火箭隊",
+      "subtitle": "常見暗影對戰",
+      "intro": "一星火箭隊對戰比較簡單，任何人選擇正確的打手應該都能擊敗。對於40級的玩家而言對手是增強過的27級寶可夢。低等級的玩家會面對更簡單的寶可夢"
     },
-    "tierList": {
-        "common": {
-            "boss": "暗影入侵",
-            "raidTier": "暗影難度"
-        },
-        "RAID_LEVEL_1": {
-            "title": "一星火箭隊",
-            "subtitle": "常見暗影對戰",
-            "intro": "一星火箭隊對戰比較簡單，任何人選擇正確的打手應該都能擊敗。對於40級的玩家而言對手是增強過的27級寶可夢。低等級的玩家會面對更簡單的寶可夢"
-        },
-        "RAID_LEVEL_1_LEGACY": {
-            "title": "一星火箭隊(已下架)",
-            "subtitle": "常見暗影對戰"
-        },
-        "RAID_LEVEL_2": {
-            "title": "二星火箭隊",
-            "subtitle": "稀有暗影對戰",
-            "intro": "二星火箭隊對戰有一些難度，任何人選用正確的強化過的打手該都能擊敗。對於40級的玩家而言對手是增強過的30級寶可夢。低等級的玩家會面對更簡單的寶可夢"
-        },
-        "RAID_LEVEL_3": {
-            "title": "三星火箭隊",
-            "subtitle": "傳說暗影對戰",
-            "intro": "三星火箭隊對戰尚未推出"
-        },
-        "RAID_LEVEL_4": {
-            "title": "四星火箭隊",
-            "subtitle": "高難度傳說暗影對戰",
-            "intro": "四星火箭隊對戰尚未推出"
-        },
-        "RAID_LEVEL_5": {
-            "title": "五星火箭隊",
-            "subtitle": "幻獸暗影對戰",
-            "intro": "五星火箭隊對戰尚未推出"
-        },
-        "RAID_LEVEL_6": {
-            "title": "三星火箭隊",
-            "subtitle": "高難度幻獸暗影對戰",
-            "intro": "三星火箭隊對戰尚未推出"
-        },
-        "RAID_LEVEL_UNSET": {
-            "title": "？星火箭隊",
-            "subtitle": "未知暗影對戰"
-        },
-        "RAID_LEVEL_6_LEGACY": {
-            "title": "六星級傳說頭目",
-            "subtitle": "高難度幻獸暗影對戰",
-            "intro": "這些戰鬥暫時不在當前的火箭隊輪轉陣容中"
-        },
-        "CHARACTER_EXECUTIVE_CLIFF": {
-            "title": "幹部 克里夫"
-        },
-        "CHARACTER_EXECUTIVE_SIERRA": {
-            "title": "幹部 希爾拉"
-        },
-        "CHARACTER_EXECUTIVE_ARLO": {
-            "title": "幹部 亞洛"
-        }
+    "RAID_LEVEL_1_LEGACY": {
+      "title": "一星火箭隊(已下架)",
+      "subtitle": "常見暗影對戰",
+      "intro": "These battles are not currently in the team GO Rocket rotations."
     },
-    "custom": {
-        "levelsLabel": "攻擊方等級",
-        "attackersLabel": "攻擊方"
+    "RAID_LEVEL_2": {
+      "title": "二星火箭隊",
+      "subtitle": "稀有暗影對戰",
+      "intro": "二星火箭隊對戰有一些難度，任何人選用正確的強化過的打手該都能擊敗。對於40級的玩家而言對手是增強過的30級寶可夢。低等級的玩家會面對更簡單的寶可夢"
     },
-    "results": {
-        "title": "{{defender}} 打手",
-        "counters": {
-            "title": "剋星",
-            "subtitle": "排名順序依照",
-            "chooseMovesetLabel": "頭目的配招"
-        },
-        "hardestMovesets": {
-            "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
-        },
-        "analysis": {
-            "title": "關於此分析",
-            "attackers": {
-                "byLevel": "等級{{attackerLevel}}攻擊者",
-                "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
-            }
-        },
-        "patreon": {
-            "description": "訂閱者的支持讓我們得以提供更準確的針對未知技能組合的模擬結果。訂閱者可以獲得額外的寶可夢盒空間，更加準確的模擬結果等多項特權。",
-            "link": "查看注冊可以獲得的所有獎勵",
-            "thanks": "感謝您的支持！"
-        }
+    "RAID_LEVEL_3": {
+      "title": "三星火箭隊",
+      "subtitle": "傳說暗影對戰",
+      "intro": "三星火箭隊對戰尚未推出"
+    },
+    "RAID_LEVEL_4": {
+      "title": "四星火箭隊",
+      "subtitle": "高難度傳說暗影對戰",
+      "intro": "四星火箭隊對戰尚未推出"
+    },
+    "RAID_LEVEL_5": {
+      "title": "五星火箭隊",
+      "subtitle": "幻獸暗影對戰",
+      "intro": "五星火箭隊對戰尚未推出"
+    },
+    "RAID_LEVEL_6": {
+      "title": "三星火箭隊",
+      "subtitle": "高難度幻獸暗影對戰",
+      "intro": "三星火箭隊對戰尚未推出"
+    },
+    "RAID_LEVEL_UNSET": {
+      "title": "？星火箭隊",
+      "subtitle": "未知暗影對戰",
+      "intro": "These Shadow Pokemon will be parts of future Team GO Rocket invastions. Use this if a new invasion has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Shadow Squirtle Team GO Rocket invasion too!"
+    },
+    "RAID_LEVEL_6_LEGACY": {
+      "title": "六星級傳說頭目",
+      "subtitle": "高難度幻獸暗影對戰",
+      "intro": "這些戰鬥暫時不在當前的火箭隊輪轉陣容中"
+    },
+    "CHARACTER_EXECUTIVE_CLIFF": {
+      "title": "幹部 克里夫",
+      "subtitle": "Team GO Rocket Leader ",
+      "intro": "My strength comes from my loyalty to Team GO Rocket.",
+      "intro2": "I will do anything and everything for Team GO Rocket.",
+      "intro3": "I owe the boss my life. I’d do anything for him.",
+      "intro4": "Team GO Rocket saved me. It’s time to return the favor!",
+      "intro5": "Add my name to your list of weaknesses."
+    },
+    "CHARACTER_EXECUTIVE_SIERRA": {
+      "title": "幹部 希爾拉",
+      "subtitle": "Team GO Rocket Leader",
+      "intro": "I envy you—you get to battle me!",
+      "intro2": "This will be a battle I’m sure you’ll never forget.",
+      "intro3": "You already know this, but you don’t stand a chance.",
+      "intro4": "You can’t possibly match my skill, dear.",
+      "intro5": "I do hope you like the taste of failure!"
+    },
+    "CHARACTER_EXECUTIVE_ARLO": {
+      "title": "幹部 亞洛",
+      "subtitle": "Team GO Rocket Leader",
+      "intro": "It’s time to learn your place in the world.",
+      "intro2": "I never lose.",
+      "intro3": "Prepare yourself for a world of hurt.",
+      "intro4": "Arrogance leads to failure.",
+      "intro5": "Your defeat comes on swift wings."
+    },
+    "rocketTier": "GO Rocket Tier",
+    "RAID_LEVEL_1_FUTURE": {
+      "title": "Future GO Rocket Tier 1",
+      "subtitle": "Common Shadow Battles",
+      "intro": "Our best guess of future Tier 1 Team GO Rocket Invasions"
+    },
+    "RAID_LEVEL_2_FUTURE": {
+      "title": "Future GO Rocket Tier 2",
+      "subtitle": "Rare Shadow Battles",
+      "intro": "Our best guess of future Tier 2 Team GO Rocket Invasions"
+    },
+    "RAID_LEVEL_2_LEGACY": {
+      "title": "Legacy GO Rocket Tier 2",
+      "subtitle": "Rare Shadow Battles",
+      "intro": "These battles are not currently in the team GO Rocket rotations."
+    },
+    "RAID_LEVEL_3_LEGACY": {
+      "title": "Legacy GO Rocket Tier 3",
+      "subtitle": "Legendary Shadow Battles",
+      "intro": "These battles are not currently in the team GO Rocket rotations."
+    },
+    "RAID_LEVEL_4_LEGACY": {
+      "title": "Legacy GO Rocket Tier 4",
+      "subtitle": "Hard Legendary Shadow Battles",
+      "intro": "These battles are not currently in the team GO Rocket rotations."
+    },
+    "RAID_LEVEL_5_LEGACY": {
+      "title": "Legacy GO Rocket Tier 5",
+      "subtitle": "Mythical Shadow Battles",
+      "intro": "These battles are not currently in the team GO Rocket rotations"
+    },
+    "CHARACTER_GIOVANNI": {
+      "title": "Giovanni",
+      "subtitle": "The Boss",
+      "intro": "I will not tolerate your interference.",
+      "intro2": "You cannot stop me...but I’m amused by your attempt.",
+      "intro3": "Your professor has not prepared you for what is to come.",
+      "intro4": "You’ve made it this far. Let me see just how strong you are.",
+      "intro5": "You will never defeat Team GO Rocket."
+    },
+    "CHARACTER_GRUNTB_MALE": {
+      "title": "James",
+      "subtitle": "Team GO Rocket Balloon",
+      "intro": "To unite all people within our nation!",
+      "intro2": "To extend our reach to the stars above!",
+      "intro3": "Hey, would you like to join Team Rocket?",
+      "intro4": "You’ll regret this!",
+      "intro5": "Surrender now, or prepare to fight!"
+    },
+    "CHARACTER_GRUNTB_FEMALE": {
+      "title": "Jessie",
+      "subtitle": "Team GO Rocket Balloon",
+      "intro": "To protect the world from devastation!",
+      "intro2": "To denounce the evils of truth and love!",
+      "intro3": "Hey, do you want to join Team Rocket?",
+      "intro4": "The Boss's Persian is so elegant...",
+      "intro5": "Who are these Team GO Rocket Leaders, anyway?"
+    },
+    "CHARACTER_NORMAL_GRUNT_MALE": {
+      "title": "Normal Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Normal does not mean weak."
+    },
+    "CHARACTER_FAIRY_GRUNT_FEMALE": {
+      "title": "Fairy Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Check out my cute Pokémon!"
+    },
+    "CHARACTER_FIGHTING_GRUNT_FEMALE": {
+      "title": "Fighting Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "This buff physique isn't just for show!"
+    },
+    "CHARACTER_FLYING_GRUNT_FEMALE": {
+      "title": "Flying Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Battle against my Flying-type Pokemon!"
+    },
+    "CHARACTER_POISON_GRUNT_FEMALE": {
+      "title": "Poison Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Coiled and ready to strike!"
+    },
+    "CHARACTER_GROUND_GRUNT_MALE": {
+      "title": "Ground Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "You'll be defeated into the ground"
+    },
+    "CHARACTER_ROCK_GRUNT_MALE": {
+      "title": "Rock Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Let's rock and roll!"
+    },
+    "CHARACTER_BUG_GRUNT_MALE": {
+      "title": "Bug Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Go, my super bug Pokemon!"
+    },
+    "CHARACTER_GHOST_GRUNT_MALE": {
+      "title": "Ghost Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Ke... ke... ke... ke... ke... ke!"
+    },
+    "CHARACTER_FIRE_GRUNT_FEMALE": {
+      "title": "Fire Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Do you know how hot Pokemon fire breath can get?"
+    },
+    "CHARACTER_ICE_GRUNT_FEMALE": {
+      "title": "Ice Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "You're gonna be frozen in your tracks"
+    },
+    "CHARACTER_WATER_GRUNT_MALE": {
+      "title": "Water Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "These waters are treacherous!"
+    },
+    "CHARACTER_WATER_GRUNT_FEMALE": {
+      "title": "Water Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "These waters are treacherous!"
+    },
+    "CHARACTER_GRASS_GRUNT_MALE": {
+      "title": "Grass Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Don't tangle with us!"
+    },
+    "CHARACTER_ELECTRIC_GRUNT_FEMALE": {
+      "title": "Electric Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Get ready to be shocked!"
+    },
+    "CHARACTER_PSYCHIC_GRUNT_MALE": {
+      "title": "Psychic Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Are you scared of psychics that use unseen power?"
+    },
+    "CHARACTER_DRAGON_GRUNT_FEMALE": {
+      "title": "Dragon Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "ROAR! ...How'd that sound?"
+    },
+    "CHARACTER_DARK_GRUNT_FEMALE": {
+      "title": "Dark Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Wherever there is light, there is also shadow."
+    },
+    "CHARACTER_STEEL_GRUNT_MALE": {
+      "title": "Steel Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "You’re no match for my iron will!"
+    },
+    "CHARACTER_GRUNT_MALE": {
+      "title": "Starter Grunt",
+      "subtitle": "Team GO Rocket",
+      "intro": "Don't bother - I've already won",
+      "intro2": "Get ready to be defeated",
+      "intro3": "Winning is for winners"
+    },
+    "CHARACTER_GRUNT_FEMALE": {
+      "title": "Hard Grunt",
+      "subtitle": "Team GO Rocket",
+      "intro": "Don't bother - I've already won",
+      "intro2": "Get ready to be defeated",
+      "intro3": "Winning is for winners"
+    },
+    "CHARACTER_DECOY_GRUNT_MALE": {
+      "title": "Decoy Grunt ♂",
+      "subtitle": "Boss Decoy",
+      "intro": "Fooled ya, twerp.",
+      "intro2": "I can’t believe you fell for it!",
+      "intro3": "In the name of the boss, I’ll destroy you!",
+      "intro4": "You’ll never get to him!",
+      "intro5": "It feels good to see you disappointed."
+    },
+    "CHARACTER_DECOY_GRUNT_FEMALE": {
+      "title": "Decoy Grunt ♀",
+      "subtitle": "Boss Decoy",
+      "intro": "Fooled ya, twerp.",
+      "intro2": "I can’t believe you fell for it!",
+      "intro3": "In the name of the boss, I’ll destroy you!",
+      "intro4": "You’ll never get to him!",
+      "intro5": "It feels good to see you disappointed."
     }
+  },
+  "custom": {
+    "levelsLabel": "攻擊方等級",
+    "attackersLabel": "攻擊方",
+    "title": "Custom Team GO Rocket Counters",
+    "buttonLabel": "Find best counters"
+  },
+  "results": {
+    "title": "{{defender}} 打手",
+    "counters": {
+      "title": "剋星",
+      "subtitle": "排名順序依照",
+      "chooseMovesetLabel": "頭目的配招",
+      "description": "The following analysis shows the Pokemon that are the strongest counters in terms of {{sort}} against {{pokemon}}.",
+      "moveSetOrderingDescription": "The move sets are ordered from hardest to battle against to the easiest, make sure to check multiple, the results can vary greatly!",
+      "difficultyNote": "Team GO Rocket Invasion Shadow Pokemon are much harder than a normal battle, you should consider carefully your options."
+    },
+    "hardestMovesets": {
+      "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)",
+      "title": "Most Difficult Battles",
+      "tableTitle": "Hardest movesets to battle against",
+      "description": "Team GO Rocket Battle difficulty can vary greatly based on the moveset of the defending pokemon!"
+    },
+    "analysis": {
+      "title": "關於此分析",
+      "attackers": {
+        "byLevel": "等級{{attackerLevel}}攻擊者",
+        "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
+      },
+      "description": "This Team GO Rocket Battle analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with a Team GO Rocket Invasion simulator. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here. "
+    },
+    "patreon": {
+      "description": "訂閱者的支持讓我們得以提供更準確的針對未知技能組合的模擬結果。訂閱者可以獲得額外的寶可夢盒空間，更加準確的模擬結果等多項特權。",
+      "link": "查看注冊可以獲得的所有獎勵",
+      "thanks": "感謝您的支持！"
+    },
+    "meta": {
+      "description": "The best Team GO Rocket {{defender}} Counters with configurable levels and shielding",
+      "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+    },
+    "calculating": "Analyzing Team GO Rocket Defenses",
+    "description": "Welcome to the Pokebattler Team GO Rocket counters guide for {{pokemon}}. You can find the best counters based on the moveset of each shadow Pokemon. This guide is customizable in several different ways. You can log in and enter your Pokemon into your Pokebox for the highest accuracy result as view these general results using various sort options."
+  },
+  "meta": {
+    "description": "Find Pokemon Go Team GO Rocket counters. Get the 30 best counters with the world's #1 custom Team GO Rocket counter guide.",
+    "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+  },
+  "note": {
+    "default": "Team GO Rocket Grunts are not very difficult as they do not shield. Team GO Rocket Executives and Giovanni have higher stats and will shield the first two specials used. Resisting the quick attack and using Pokemon that can force the shadow Pokemon to use their shields is the best way to beat these tough foes!",
+    "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team GO Rocket Pokemon but player level is a factor. Team GO Rocket Pokemon are no longer as powerful as they once were, make sure to check your custom counters again"
+  },
+  "executives": {
+    "title": "Team GO Rocket Leaders",
+    "description": "Team GO Rocket leaders feature more difficult fights including shielding! Make sure you are prepared for all Team GO Rocket has in store for you!"
+  },
+  "grunts": {
+    "title": "Team GO Rocket Grunts",
+    "description": "Team GO Rocket grunts are easier fights with no shields."
+  }
 }

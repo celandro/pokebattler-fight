@@ -1,99 +1,99 @@
 {
-    "title": "Jefes de Incursiones",
-    "selectWeather": "Elige Clima",
-    "countersTitle": "Tus Atacantes",
-    "createParty": "Alojar Equipo",
-    "loadParty": "Ver Equipo de Incursión #{{id}}",
-    "raidParties": "$t(raidParties:title)",
-    "joinParty": "Unirse a Equipo",
-    "joinPrivate": "Unirse a Grupo Privado",
-    "leaveParty": "Abandonar Equipo",
-    "finishParty": "Completar Incursión",
-    "copyTrainers": "Copiar Entrenadores",
-    "confirmFriend": "Confirmar amigo",
-    "viewParty": "Ver Equipo",
-    "remote": "Remoto",
-    "ready": "Local",
-    "remoteReady": "Remoto ✅",
-    "needsFriend": "Solicitud de amistad enviada",
-    "customBoss": "Personalizar",
-    "actionButtonsDescription": "Simula tu grupo de incursión",
-    "quickSettings": {
-        "title": "Configuración Rápida"
+  "title": "Jefes de incursión",
+  "selectWeather": "Elegir clima",
+  "countersTitle": "Tus contadores",
+  "createParty": "Alojar grupo",
+  "loadParty": "Ver grupo de incursión #{{id}}",
+  "raidParties": "$t(raidParties:title)",
+  "joinParty": "Unirse al grupo",
+  "joinPrivate": "Unirse a grupo privado",
+  "leaveParty": "Abandonar grupo",
+  "finishParty": "Finalizar incursión",
+  "copyTrainers": "Copiar entrenadores",
+  "confirmFriend": "Confirmar amigo",
+  "viewParty": "Ver grupo",
+  "remote": "Remoto",
+  "ready": "Local",
+  "remoteReady": "Remoto ✅",
+  "needsFriend": "Invitación de amistad enviada",
+  "customBoss": "Personalizar",
+  "actionButtonsDescription": "Simula tu grupo de incursión",
+  "quickSettings": {
+    "title": "Configuración rápida"
+  },
+  "summary": {
+    "title": "Simulación de incursión de {{defender}}",
+    "tab": "Resumen",
+    "tabIcon": "encuesta",
+    "description": "¡Estos son tus 6 mejores contadores para derrotar a un jefe de incursión de {{tier}} {{defender}}. Haz clic en Crear grupo de incursión o Unirse a grupo de incursión para obtener ayuda contra este jefe!",
+    "rejoin": "Reincorporado en {{rejoinSeconds}}s",
+    "settings": {
+      "suggestPokebox": "Una vez que te acostumbres, deberías ajustar tu configuración para usar tu Pokebox, que puedes llenar rápidamente en la pestaña de alternativas",
+      "BATTLE_PARTY_LEVEL_20": "Usando los mejores contadores de nivel 20. Esta es una excelente configuración predeterminada para empezar. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_25": "Usando los mejores contadores de nivel 25. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_30": "Usando los mejores contadores de nivel 30. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_35": "Usando los mejores contadores de nivel 35. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_40": "Usando los mejores contadores de nivel 40. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_45": "Usando los mejores contadores de nivel 45. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_50": "Usando los mejores contadores de nivel 50. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_POKEBOX": "Usando tus mejores contadores. ¿No ves lo que tienes aquí? Agrega Pokémon a tu Pokebox, que puedes llenar rápidamente en la pestaña de contadores"
     },
-    "summary": {
-        "title": "Simulación de Incursión {{defender}}",
-        "tab": "Resumen",
-        "tabIcon": "poll",
-        "description": "Estos son tus 6 mejores atacantes para derrotar a un jefe de incursión {{tier}} {{defender}}. ¡Haz clic en Crear Equipo o Unirse a Equipo para obtener ayuda contra este jefe!",
-        "rejoin": "Reunido en {{rejoinSeconds}}s",
-        "settings": {
-            "suggestPokebox": "Una vez que te acostumbres a esto, deberías ajustar tus configuraciones para utilizar tu Pokebox, la que puedes completar rápidamente desde la pestaña Alternativas",
-            "BATTLE_PARTY_LEVEL_20": "Utilizando los mejores atacantes de nivel 20. Esta es una gran configuración por defecto para iniciar. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_25": "Utilizando los mejores atacantes de nivel 25. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_30": "Utilizando los mejores atacantes de nivel 30. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_35": "Utilizando los mejores atacantes de nivel 35. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_40": "Utilizando los mejores atacantes de nivel 40. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_45": "Utilizando los mejores atacantes de nivel 45. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_50": "Utilizando los mejores atacantes de nivel 50. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_POKEBOX": "Utilizando tus mejores atacantes. ¿No ves lo que tienes aquí? Agrega Pokemon a tu Pokebox, a la que puedes completar rápidamente desde la pestaña Alternativas"
-        },
-        "emptyPokebox": "Los resultados personalizados estarán aquí luego que agregues tus Pokemon a tu Pokebox. Intenta agregar los Pokemon que tienes en la 3era pestaña."
-    },
-    "counters": {
-        "title": "Atacantes contra {{defender}}",
-        "tab": "Atacantes",
-        "description": "Estos son tus 6 mejores atacantes para derrotar a un jefe de incursiones {{tier}} {{defender}}. ¡Agrega Pokemon alternativos a tu equipo abajo!"
-    },
-    "combatants": {
-        "title": "Combatientes contra {{defender}}",
-        "tab": "Combatientes",
-        "description": "Pokebattler realizó 200 simulaciones de combate de incursiones para cada posible atacante para elegir cuáles Pokemon usar. Los 6 primeros fueron ejecutados en 200 simulaciones. Lo siguiente son los detalles de combate salidos de un resultado típico."
-    },
-    "joinPartyDialog": {
-        "title": "Unirse a Equipo",
-        "description": "Ingresa el identificador del equipo de tu amigo para ver tus resultados del equipo de incursiones",
-        "partyIdPlaceholder": "Pokebattler Raid Party #",
-        "join": "Unirse",
-        "cancel": "Cancelar",
-        "fetch": "Obtener",
-        "errors": {
-            "pokemonMismatch": "Equipo de Incursiones {{id}} es para {{raidPartyPokemon}}, no {{pokemon}}."
-        }
-    },
-    "multiParty": {
-        "title": "#{{id}} {{defender}}"
-    },
-    "raidPartyCard": {
-        "title": "{{defender}}",
-        "id": "$t(raidBosses:joinParty) #{{id}}",
-        "summary": "{{numReadyPlayers}} de {{players}} jugadores están listos. El grupo de {{ownerName}} fue creado el {{createdAt}}",
-        "emptyPokebox": "Pokebox vacía, utilizando predeterminados",
-        "egg": "Huevo"
-    },
-    "raidPartyPlayer": {
-        "title": "{{name}}",
-        "id": "#{{id}}",
-        "addFriendCode": "Agregar Código de amigo",
-        "userLevel": "Nivel {{level}}"
-    },
+    "emptyPokebox": "Los resultados personalizados estarán aquí después de que agregues Pokémon a tu Pokebox. Intenta agregar los Pokémon que tienes en la tercera pestaña."
+  },
+  "counters": {
+    "title": "Contadores de {{defender}}",
+    "tab": "Contadores",
+    "description": "¡Estos son tus 6 mejores contadores para derrotar a un jefe de incursión de {{tier}} {{defender}}. ¡Agrega Pokémon alternativos a tu grupo a continuación!"
+  },
+  "combatants": {
+    "title": "Grupo de incursión de {{defender}}",
+    "tab": "Grupo",
+    "description": "Pokebattler realizó 200 simulaciones de la batalla de incursión para cada posible contador para elegir qué Pokémon usar. Los 6 primeros se ejecutaron en 200 simulaciones como grupo. A continuación se muestran los detalles de los combatientes de un resultado típico."
+  },
+  "joinPartyDialog": {
+    "title": "Unirse al grupo",
+    "description": "Ingresa el ID del grupo de tu amigo para ver los resultados de tu grupo de incursión",
+    "partyIdPlaceholder": "Pokebattler Raid Party #",
+    "join": "Unirse",
+    "cancel": "Cancelar",
+    "fetch": "Obtener",
     "errors": {
-        "failed": "Falló al cargar jefes de incursiones!",
-        "party": "Falló al encontrar un equipo óptimo",
-        "rankings": "Falló al obtener clasificaciones de atacantes"
-    },
-    "chips": {
-        "estimator": "Jugadores Req.",
-        "power": "Daño de Grupo",
-        "deaths": "Pokemon Debilit.",
-        "tdo": "Daño Inflingido",
-        "win": "Oportunidad de Victoria",
-        "time": "Tiempo de Combate"
-    },
-    "breakingNews": {
-        "from": "Desde",
-        "until": "Hasta",
-        "localTime": "HORA LOCAL"
-    },
-    "autocomplete": "Elige Jefe de Incursiones personalizado"
+      "pokemonMismatch": "El grupo de incursión {{id}} es para {{raidPartyPokemon}}, no para {{pokemon}}."
+    }
+  },
+  "multiParty": {
+    "title": "#{{id}} {{defender}}"
+  },
+  "raidPartyCard": {
+    "title": "{{defender}}",
+    "id": "$t(raidBosses:joinParty) #{{id}}",
+    "summary": "{{numReadyPlayers}} de {{players}} jugadores están listos. El grupo de {{ownerName}} se creó a las {{createdAt}}",
+    "emptyPokebox": "Pokebox vacía, usando valores predeterminados",
+    "egg": "Huevo"
+  },
+  "raidPartyPlayer": {
+    "title": "{{name}}",
+    "id": "#{{id}}",
+    "addFriendCode": "Agregar código de amigo",
+    "userLevel": "Nivel {{level}}"
+  },
+  "errors": {
+    "failed": "¡Error al obtener los jefes de incursión!",
+    "party": "Error al encontrar el grupo óptimo",
+    "rankings": "Error al recuperar las clasificaciones de atacantes"
+  },
+  "chips": {
+    "estimator": "Jugadores necesarios",
+    "power": "Daño de grupo",
+    "deaths": "Desmayos de Pokémon",
+    "tdo": "Daño infligido",
+    "win": "Probabilidad de ganar",
+    "time": "Tiempo de combate"
+  },
+  "breakingNews": {
+    "from": "Desde",
+    "until": "Hasta",
+    "localTime": "Hora local"
+  },
+  "autocomplete": "Elegir jefe de incursión personalizado"
 }

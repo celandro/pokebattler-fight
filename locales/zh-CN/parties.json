@@ -1,18 +1,44 @@
 {
-    "title": "對戰小隊 - 測試版",
+  "title": "對戰小隊 - 測試版",
+  "meta": {
+    "description": "保存您的寶可夢GO對戰小隊"
+  },
+  "explanation": "對戰小隊的用法和遊戲內一致。您可以用您的寶可夢組成對戰小隊，然後在後續的對戰中使用他們。您的對戰小隊可以被其他玩家用來模擬團體戰或pvp對戰。",
+  "battlePartyList": {
+    "title": "您的對戰小隊"
+  },
+  "add": {
+    "title": "對戰小隊",
     "meta": {
-        "description": "保存您的寶可夢GO對戰小隊"
+      "description": "添加一個寶可夢GO對戰小隊"
     },
-    "explanation": "對戰小隊的用法和遊戲內一致。您可以用您的寶可夢組成對戰小隊，然後在後續的對戰中使用他們。您的對戰小隊可以被其他玩家用來模擬團體戰或pvp對戰。",
-    "battlePartyList": {
-        "title": "您的對戰小隊"
+    "description": "創建您的對戰小隊",
+    "modify": "Add Pokemon From Your Pokebox"
+  },
+  "select": {
+    "label": "Choose Your $t(common:battleParty)",
+    "emptyName": "$t(common:battleParty) {{value}}",
+    "noneFound": "No $t(common:battleParties) found for this league",
+    "create": "Create $t(common:battleParty)",
+    "edit": "Edit",
+    "title": "Choose A Battle Party",
+    "open": "Choose  $t(common:battleParty)",
+    "close": "Select"
+  },
+  "full": {
+    "title": "Party Full",
+    "description": "You have reached the party size limit for this league"
+  },
+  "empty": {
+    "title": "Party Empty",
+    "description": "You have not added any Pokemon from your Pokebox to this Party"
+  },
+  "edit": {
+    "title": "Battle Party Edit",
+    "meta": {
+      "description": "Edit Your Battle Party"
     },
-    "add": {
-        "title": "對戰小隊",
-        "meta": {
-            "description": "添加一個寶可夢GO對戰小隊"
-        },
-        "description": "創建您的對戰小隊",
-        "full": "您的小隊已經滿了"
-    }
+    "description": "Update the name of your Battle Party below in the text box. You can also change the league with the drop down. Then change the party members by clicking the 'change your battle party members' button. Finally, modify the stats of each Pokemon by clicking on it!",
+    "modify": "Change Your Battle Party Members"
+  }
 }

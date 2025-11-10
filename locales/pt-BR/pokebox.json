@@ -1,98 +1,136 @@
 {
-    "pokemonList": {
-        "zeroDescription": "Se você já adicionou Pokemons antes, você pode ter logado em uma conta diferente. Suas contas serão automaticamente conectadas se elas usam o mesmo endereço de email.",
-        "zeroHelp": "Se elas não tem o mesmo endereço de email, {{link}} com os userIds das contas que você precisa conectar",
-        "email": "envie email ao Pokebattler",
-        "title": "Sua Pokebox Customizada",
-        "zero": "Adicione seus Pokemons clicando na caixa à esquerda.",
-        "showMore": "Mostrar Mais",
-        "meta": {
-            "description": "Salve seus Pokémons de Pokémon Go para resultados de reide customizados e mais!"
-        },
-        "filter": {
-            "label": "Filtrar Pokémons",
-            "hint": "Insira uma vírgula para separar Pokémons ou Tipos"
-        }
-    },
-    "add": {
-        "title": "Pokebox",
-        "description": "Adicione Pokemon",
-        "pokemon": "Escolha Pokemon",
-        "pokemonSelect": "Selecione Pokemon",
-        "meta": {
-            "description": "Adicione um Pokémon à sua Pokebox"
-        }
-    },
-    "delete": {
-        "title": "Apagar",
-        "bulk": {
-            "title": "Apagar",
-            "toolbarTitle": "Apagar em massa",
-            "confirmation": "Isto vai apagar {{num}} Pokemons da sua Pokebox, tem certeza?",
-            "meta": {
-                "description": "Apagar Pokémons de sua Pokebox em massa."
-            }
-        },
-        "irreversible": "Isto não poderá ser desfeito!",
-        "blurb": "Você pode apagar rapidamente múltiplos pokemons aqui quando quiser. Você pode rapidamente liberar espaço na sua pokebox. Basta selecionar cada pokemon que você quer apagar. Quando terminar, role para o final da página para achar o botão Apagar.",
-        "button": "Apagar em Massa",
-        "confirmation": "Tem certeza que quer apagar?",
-        "meta": {
-            "description": "Apague um Pokémon de sua Pokebox"
-        }
-    },
-    "deleteAll": {
-        "button": "Apagar Tudo",
-        "title": "Apagar Tudo",
-        "confirmation": "Isto vai apagar todos os Pokemons na sua Pokebox, tem certeza?",
-        "irreversible": "Isto não poderá ser desfeito!",
-        "meta": {
-            "description": "Remova um Pokémon de sua Pokebox."
-        }
-    },
-    "import": {
-        "button": "Importação em massa",
-        "title": "Importação da Pokebox",
-        "description": "Importar Pokemon",
-        "parse": "Começar Importação",
-        "hintText": "Muitos formatos são suportados. Lembre-se de incluir uma linha de cabeçalho.",
-        "floatingLabel": "Copie e cole seu Pokemon aqui",
-        "table": {
-            "header": "Selecione o Pokemon que você deseja importar abaixo",
-            "selectAll": "Selecionar Tudo"
-        },
-        "meta": {
-            "description": "Adicionar Pokémons à sua Pokebox através de programas de terceiros."
-        }
-    },
-    "update": {
-        "title": "Pokebox",
-        "description": "Modificar {{name}}",
-        "meta": {
-            "description": "Atualize seus Pokémons em sua Pokebox"
-        }
-    },
-    "loading": "Carregando seu Pokemon",
-    "backPokebox": "Retornar à Pokebox",
-    "powerUp": "Fortalecer",
-    "full": {
-        "title": "Pokebox - Sem espaço",
-        "explanation": "Você alcançou o número máximo de Pokemons para a sua Pokebox no nível atual de suporte. Isto te coloca nos primeiros 5% dos usuários do Pokebattler! O Pokebattler depende do suporte de usuários muito ativos como você para entregar simulações de alta qualidade para todos. Você pode aumentar seu espaço para Pokemons contribuindo como Patreon do Pokebattler.",
-        "subtitle": "Sem Espaço"
-    },
-    "explanation": "A Pokebox do Pokebattler é uma nova e excitante funcionalidade que te permite customizar sua experiência no Pokebattler baseado nos Pokemons que você realmente tem! O Pokemon que você adicionar na sua Pokebox pode ser usado pelo site. Fique atento ao ícone da Pokebox. Um ícone verde significa que você está usando a Pokebox, um ícone preto significa que não está.",
-    "title": "Pokebox",
-    "blurb": "Adicione seus Pokemons para resultados customizados!",
+  "pokemonList": {
+    "zeroDescription": "Se você já adicionou Pokemons antes, você pode ter logado em uma conta diferente. Suas contas serão automaticamente conectadas se elas usam o mesmo endereço de email.",
+    "zeroHelp": "Se elas não tem o mesmo endereço de email, {{link}} com os userIds das contas que você precisa conectar",
+    "email": "envie email ao Pokebattler",
+    "title": "Sua Pokebox Customizada",
+    "zero": "Adicione seus Pokemons clicando na caixa à esquerda.",
+    "showMore": "Mostrar Mais",
     "meta": {
-        "description": "Salve seus Pokémons de Pokémon Go para resultados de reide customizados e mais!"
+      "description": "Salve seus Pokémons de Pokémon Go para resultados de reide customizados e mais!"
     },
-    "export": {
-        "button": "Exportar em Massa"
+    "filter": {
+      "label": "Filtrar Pokémons",
+      "hint": "Insira uma vírgula para separar Pokémons ou Tipos"
+    }
+  },
+  "add": {
+    "title": "Pokebox",
+    "description": "Adicione Pokemon",
+    "pokemon": "Escolha Pokemon",
+    "pokemonSelect": "Selecione Pokemon",
+    "meta": {
+      "description": "Adicione um Pokémon à sua Pokebox"
+    }
+  },
+  "delete": {
+    "title": "Apagar",
+    "bulk": {
+      "title": "Apagar",
+      "toolbarTitle": "Apagar em massa",
+      "confirmation": "Isto vai apagar {{num}} Pokemons da sua Pokebox, tem certeza?",
+      "meta": {
+        "description": "Apagar Pokémons de sua Pokebox em massa."
+      }
     },
-    "upgrade": {
-        "title": "$t(common:upgrade)",
-        "subtitle": "Este recurso requer um nível de assinatura maior",
-        "explanation": "Pokebattler é mantido por apenas 0,1% dos visitantes do site como você. Dê um upgrade sua conta para manter o Pokebattler funcionando e tirar mais proveito do aplicativo! Recursos exclusivos, análise aprimorada, uma Pokebox maior e muito mais esperam por você!"
+    "irreversible": "Isto não poderá ser desfeito!",
+    "blurb": "Você pode apagar rapidamente múltiplos pokemons aqui quando quiser. Você pode rapidamente liberar espaço na sua pokebox. Basta selecionar cada pokemon que você quer apagar. Quando terminar, role para o final da página para achar o botão Apagar.",
+    "button": "Apagar em Massa",
+    "confirmation": "Tem certeza que quer apagar?",
+    "meta": {
+      "description": "Apague um Pokémon de sua Pokebox"
+    }
+  },
+  "deleteAll": {
+    "button": "Apagar Tudo",
+    "title": "Apagar Tudo",
+    "confirmation": "Isto vai apagar todos os Pokemons na sua Pokebox, tem certeza?",
+    "irreversible": "Isto não poderá ser desfeito!",
+    "meta": {
+      "description": "Remova um Pokémon de sua Pokebox."
+    }
+  },
+  "import": {
+    "button": "Importação em massa",
+    "title": "Importação da Pokebox",
+    "description": "Importar Pokemon",
+    "parse": "Começar Importação",
+    "hintText": "Muitos formatos são suportados. Lembre-se de incluir uma linha de cabeçalho.",
+    "floatingLabel": "Copie e cole seu Pokemon aqui",
+    "table": {
+      "header": "Selecione o Pokemon que você deseja importar abaixo",
+      "selectAll": "Selecionar Tudo"
     },
-    "powerDown": "Power Down"
+    "meta": {
+      "description": "Adicionar Pokémons à sua Pokebox através de programas de terceiros."
+    },
+    "reverseSort": "Reverse Sort",
+    "urlUpload": {
+      "title": "Upload from URL",
+      "description": "Import Pokemon from a URL such as Dropbox",
+      "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0"
+    },
+    "fileUpload": {
+      "title": "Upload from File",
+      "description": "Import Pokemon from a file download such as csv"
+    },
+    "advanced": {
+      "title": "Advanced Settings",
+      "description": "Custom support for 3rd party apps"
+    },
+    "pasteUpload": {
+      "title": "Upload from Copy/Paste",
+      "hintText": "$t(pokebox:import.hintText)",
+      "description": "$t(pokebox:import.floatingLabel)"
+    }
+  },
+  "update": {
+    "title": "Pokebox",
+    "description": "Modificar {{name}}",
+    "meta": {
+      "description": "Atualize seus Pokémons em sua Pokebox"
+    }
+  },
+  "loading": "Carregando seu Pokemon",
+  "backPokebox": "Retornar à Pokebox",
+  "powerUp": "Fortalecer",
+  "full": {
+    "title": "Pokebox - Sem espaço",
+    "explanation": "Você alcançou o número máximo de Pokemons para a sua Pokebox no nível atual de suporte. Isto te coloca nos primeiros 5% dos usuários do Pokebattler! O Pokebattler depende do suporte de usuários muito ativos como você para entregar simulações de alta qualidade para todos. Você pode aumentar seu espaço para Pokemons contribuindo como Patreon do Pokebattler.",
+    "subtitle": "Sem Espaço"
+  },
+  "explanation": "A Pokebox do Pokebattler é uma nova e excitante funcionalidade que te permite customizar sua experiência no Pokebattler baseado nos Pokemons que você realmente tem! O Pokemon que você adicionar na sua Pokebox pode ser usado pelo site. Fique atento ao ícone da Pokebox. Um ícone verde significa que você está usando a Pokebox, um ícone preto significa que não está.",
+  "title": "Pokebox",
+  "blurb": "Adicione seus Pokemons para resultados customizados!",
+  "meta": {
+    "description": "Salve seus Pokémons de Pokémon Go para resultados de reide customizados e mais!"
+  },
+  "export": {
+    "button": "Exportar em Massa"
+  },
+  "upgrade": {
+    "title": "$t(common:upgrade)",
+    "subtitle": "Este recurso requer um nível de assinatura maior",
+    "explanation": "Pokebattler é mantido por apenas 0,1% dos visitantes do site como você. Dê um upgrade sua conta para manter o Pokebattler funcionando e tirar mais proveito do aplicativo! Recursos exclusivos, análise aprimorada, uma Pokebox maior e muito mais esperam por você!"
+  },
+  "powerDown": "Power Down",
+  "pokeGenieImport": {
+    "button": "Poke Genie Import",
+    "title": "Poke Genie Dropbox Import",
+    "meta": {
+      "description": "Add Pokemon to your Pokebox from a Poke Genie Dropbox backup."
+    },
+    "description": "Import Pokemon from Poke Genie Dropbox backup",
+    "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0",
+    "floatingLabel": "Paste dropbox shared link to scan_data.json",
+    "shinyStartLabel": "Shiny Pokemon Star (Poke Genie)",
+    "stars": {
+      "none": "No star for shiny Pokemon",
+      "yellow": "Yellow",
+      "blue": "Blue",
+      "green": "Green",
+      "orange": "Orange",
+      "purple": "Purple"
+    }
+  }
 }

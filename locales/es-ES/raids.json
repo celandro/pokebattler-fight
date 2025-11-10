@@ -1,287 +1,567 @@
 {
-    "title": "Guía para incursiones",
-    "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
-        "description": "Encuentra contrincantes para jefes de incursión en Pokemon Go considerando Clima, Amistad e incluso tu propia Pokebox. Obtén las 30 mejores contrincantes con la guía de incursión personalizable #1 del mundo."
+  "title": "Guía de incursiones",
+  "meta": {
+    "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
+    "description": "Encuentra contadores de jefes de incursión de Pokémon Go con clima, amistad e incluso tu propia Pokebox. Obtén los 30 mejores contadores con la guía de incursiones personalizable número 1 del mundo."
+  },
+  "linkLabel": "Contadores de incursiones",
+  "intro": "¡Las incursiones de Pokémon Go ya están aquí! Descubre qué Pokémon contrarrestará mejor a los jefes de incursión con la guía de incursiones de Pokémon Go personalizada más precisa del mundo. ¡Simplemente selecciona la incursión a continuación para ver los mejores contadores para cada conjunto de movimientos!",
+  "breakingNews": {
+    "title": "Últimas noticias",
+    "subtitle": "Incursiones populares en Pokémon Go",
+    "header": "Contadores de $t(constants:pokemon.{{pokemonId}})"
+  },
+  "articles": {
+    "title": "¡Últimas noticias de incursiones!",
+    "subtitle": "Artículos y videos sobre incursiones de Pokémon Go de los mejores jugadores e investigadores"
+  },
+  "guide": {
+    "subtitle": "Cómo derrotar a $t(constants:pokemon.{{pokemonId}}) en Pokémon Go",
+    "infographicDownload": "Descargar infografía de $t(constants:pokemon.{{pokemonId}})",
+    "title": "Guías de contadores de incursiones de $t(constants:pokemon.{{pokemonId}}) de Pokebattler",
+    "article": "Lee la guía completa de contadores de incursiones de $t(constants:pokemon.{{pokemonId}}) a continuación",
+    "infographicDownloadButton": "Descargar infografía de alta resolución"
+  },
+  "tierList": {
+    "common": {
+      "boss": "Jefe",
+      "raidTier": "Nivel de incursión",
+      "difficulty": "Dificultad"
     },
-    "linkLabel": "Guía para incursiones",
-    "intro": "¡Las incursiones han llegado a Pokémon Go! Encuentra qué Pokémon es el más adecuado para vencer a los jefes de incursión con la guía para incursiones más precisa del mundo. ¡Simplemente selecciona la incursión para ver los mejores atacantes para cada combinación de movimientos!",
-    "breakingNews": {
-        "title": "Último minuto",
-        "subtitle": "Incursiones de moda en Pokémon Go",
-        "header": "Lista interactiva de contrincantes para enfrentar a $t(constants:pokemon.{{pokemonId}})"
+    "RAID_LEVEL_1": {
+      "title": "Nivel 1",
+      "subtitle": "Incursión en solitario",
+      "intro": "Las incursiones de nivel 1 son bastante fáciles de derrotar por ti mismo. Un jugador de nivel 20 con pokemon imperfectos debería poder vencer esto por sí mismo. Estas incursiones son una buena manera de recolectar caramelos para pokemon que no son comunes en tu área."
+    },
+    "RAID_LEVEL_2": {
+      "title": "Nivel 2",
+      "subtitle": "Incursión difícil en solitario",
+      "intro": "Las incursiones de nivel 2 están dirigidas a jugadores de nivel 30-40 que pueden derrotar fácilmente a estos Pokémon. Los jugadores de nivel inferior deben formar equipo para vencer a estos Pokémon."
+    },
+    "RAID_LEVEL_3": {
+      "title": "Nivel 3",
+      "subtitle": "Incursión en grupo",
+      "intro": "Las incursiones de nivel 3 están dirigidas a grupos de 2 jugadores de nivel 30-40. Pueden ser realizadas en solitario por un jugador de nivel 40 con un poco de suerte y un juego perfecto con Pokémon increíbles."
+    },
+    "RAID_LEVEL_4": {
+      "title": "Nivel 4",
+      "subtitle": "Incursión difícil en grupo",
+      "intro": "Las incursiones de nivel 4 están dirigidas a grupos de 2-3 jugadores de nivel 30-40 con mayor ataque y defensa que una incursión legendaria pero con menos PS"
+    },
+    "RAID_LEVEL_5": {
+      "title": "Nivel 5",
+      "subtitle": "Incursión legendaria",
+      "intro": "¡Las incursiones legendarias actuales son una excelente manera de obtener pokemon fuertes! A menudo se realizan con grupos de 4 a 10 jugadores de nivel 30 a 40. Algunos expertos intrépidos han realizado algunas de estas incursiones con tan solo 2-3 jugadores."
+    },
+    "RAID_LEVEL_UNSET": {
+      "title": "Nivel ?",
+      "subtitle": "Incursiones desconocidas",
+      "intro": "Estos Pokémon pueden formar parte de futuros niveles de incursión de Pokémon. Usa esto si ha salido una nueva incursión y el sitio aún no se ha actualizado. ¡También puedes usar esta sección para analizar qué pasaría si tuvieras una incursión legendaria de Magikarp!"
+    },
+    "RAID_LEVEL_4_EVENTS": {
+      "title": "Nivel 4 especial",
+      "subtitle": "Incursiones de eventos especiales",
+      "intro": "Estos Pokémon han sido incursiones en eventos pasados como el de Yokohama. Pueden volver sin previo aviso."
+    },
+    "RAID_LEVEL_1_LEGACY": {
+      "title": "Nivel 1 antiguo",
+      "subtitle": "Incursión fácil en solitario",
+      "intro": "Estas incursiones no se encuentran actualmente en las rotaciones de incursiones."
+    },
+    "RAID_LEVEL_2_LEGACY": {
+      "title": "Nivel 2 antiguo",
+      "subtitle": "Incursión difícil en solitario",
+      "intro": "Estas incursiones no se encuentran actualmente en las rotaciones de incursiones."
+    },
+    "RAID_LEVEL_3_LEGACY": {
+      "title": "Nivel 3 antiguo",
+      "subtitle": "Incursión fácil en grupo",
+      "intro": "Estas incursiones no se encuentran actualmente en las rotaciones de incursiones."
+    },
+    "RAID_LEVEL_4_LEGACY": {
+      "title": "Nivel 4 antiguo",
+      "subtitle": "Incursión difícil en grupo",
+      "intro": "Estas incursiones no se encuentran actualmente en las rotaciones de incursiones."
+    },
+    "RAID_LEVEL_5_LEGACY": {
+      "title": "Nivel 5 antiguo",
+      "subtitle": "Incursión legendaria",
+      "intro": "Estas incursiones han estado disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_5_FUTURE": {
+      "intro": "¡Estas incursiones de nivel 5 aún no están en el juego! Sus estadísticas y movimientos aún están sujetos a cambios.",
+      "title": "Nivel 5 futuro",
+      "subtitle": "Incursión legendaria"
+    },
+    "RAID_LEVEL_6": {
+      "title": "Nivel 6",
+      "subtitle": "Incursión legendaria - PS extra",
+      "intro": "Estas incursiones tienen PS extra en comparación con las incursiones de nivel 5. Estas son incursiones presenciales que generalmente se realizan con grupos de 5 a 10 jugadores."
+    },
+    "RAID_LEVEL_6_LEGACY": {
+      "title": "Nivel 6 antiguo",
+      "subtitle": "Incursión legendaria - PS extra",
+      "intro": "Estas incursiones legendarias con PS extra han estado disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_4_5": {
+      "title": "Nivel 4.5",
+      "subtitle": "Incursión legendaria fácil",
+      "intro": "Las incursiones de nivel 4.5 son versiones más fáciles de los jefes legendarios destinadas a grupos de 2 a 4 jugadores de nivel 30 a 40. Generalmente se ven durante eventos de corta duración."
+    },
+    "RAID_LEVEL_4_5_LEGACY": {
+      "title": "Nivel 4.5 antiguo",
+      "subtitle": "Incursión legendaria fácil",
+      "intro": "Estos son jefes de incursión legendarios fáciles vistos anteriormente."
+    },
+    "RAID_LEVEL_4_5_FUTURE": {
+      "title": "Nivel 4.5 futuro",
+      "subtitle": "Incursión legendaria fácil",
+      "intro": "Estos son jefes de incursión legendarios fáciles que aún no están en el juego. Sus estadísticas y movimientos aún están sujetos a cambios"
+    },
+    "RAID_LEVEL_MEGA": {
+      "title": "Nivel Mega",
+      "subtitle": "Incursión Mega fácil",
+      "intro": "¡Las incursiones mega actuales son la mejor manera de obtener megaenergía para potenciar a los pokemon más fuertes! A menudo se realizan con grupos de 2 a 3 jugadores de nivel 30 a 40."
+    },
+    "RAID_LEVEL_MEGA_5": {
+      "title": "Nivel Mega Legendaria",
+      "subtitle": "Incursión Mega Legendaria",
+      "intro": "¡Las incursiones mega actuales son la mejor manera de obtener megaenergía para potenciar a los pokemon más fuertes! A menudo se realizan con grupos de 6 a 10 jugadores de nivel 30 a 40. Algunos expertos intrépidos han realizado algunas de estas incursiones con tan solo 2-5 jugadores."
+    },
+    "RAID_LEVEL_MEGA_LEGACY": {
+      "title": "Nivel Mega antiguo",
+      "subtitle": "Incursión Mega fácil",
+      "intro": "Estas mega incursiones ya no están disponibles en las incursiones."
+    },
+    "RAID_LEVEL_MEGA_5_LEGACY": {
+      "title": "Nivel Mega Legendaria antigua",
+      "subtitle": "Incursión Mega",
+      "intro": "Estas mega incursiones legendarias ya no están disponibles en las incursiones."
+    },
+    "RAID_LEVEL_MEGA_FUTURE": {
+      "title": "Nivel Mega futuro",
+      "subtitle": "Incursión Mega",
+      "intro": "¡Estas mega incursiones aún no están en el juego!"
+    },
+    "raidTier": "Nivel de incursión",
+    "guessTier": "Adivinar nivel",
+    "RAID_LEVEL_NEWS": {
+      "title": "Noticias",
+      "subtitle": "Incursiones programadas",
+      "intro": "Incursiones de Pokémon Go actualmente programadas."
+    },
+    "RAID_LEVEL_BREAKING_NEWS": {
+      "title": "Noticias",
+      "subtitle": "Incursiones programadas",
+      "intro": "Incursiones de Pokémon Go actualmente programadas."
+    },
+    "RAID_LEVEL_REMOTE": {
+      "title": "Remoto",
+      "subtitle": "Incursiones de varias personas",
+      "intro": "Incursiones difíciles de Pokémon Go, diseñadas para 2 o más jugadores."
+    },
+    "RAID_LEVEL_MAX": {
+      "title": "Máximo",
+      "subtitle": "Incursiones presenciales de Dinamax y Gigamax",
+      "intro": "Batallas máximas muy difíciles que solo puedes librar con Pokémon Máximos que recompensan con Pokémon Máximos"
+    },
+    "RAID_LEVEL_SHADOW": {
+      "title": "Oscuro",
+      "subtitle": "Incursiones oscuras presenciales",
+      "intro": "Incursiones más difíciles que recompensan con Pokémon Oscuros"
+    },
+    "RAID_LEVEL_LOCAL": {
+      "title": "Local",
+      "subtitle": "Incursiones locales",
+      "intro": "Incursiones fáciles de Pokémon Go, diseñadas para ser derrotadas por un solo jugador."
+    },
+    "RAID_LEVEL_ALL_RAIDS": {
+      "title": "Incursiones",
+      "subtitle": "Incursiones estándar",
+      "intro": "Las incursiones originales de Pokémon Go, utilizan un pase de incursión estándar o un pase de incursión remota."
+    },
+    "RAID_LEVEL_ULTRA_BEAST": {
+      "title": "Nivel Ultraente",
+      "subtitle": "Incursión de Ultraente",
+      "intro": "Las incursiones de Ultraentes son equivalentes en dificultad al nivel legendario"
+    },
+    "RAID_LEVEL_ELITE": {
+      "title": "Nivel Élite",
+      "subtitle": "Incursión de élite - PS extra",
+      "intro": "Estas incursiones tienen PS y estadísticas extra en comparación con las incursiones de nivel 5. Estas son incursiones presenciales que generalmente se realizan con grupos de 6 a 12 jugadores."
+    },
+    "RAID_LEVEL_1_SHADOW": {
+      "title": "Nivel 1 Oscuro",
+      "subtitle": "Incursión oscura fácil",
+      "intro": "Las incursiones de nivel 1 oscuras son bastante fáciles de derrotar por ti mismo. Un jugador de nivel 20 con pokemon imperfectos debería poder vencer esto por sí mismo. Estas incursiones son una buena manera de recolectar caramelos para pokemon que no son comunes en tu área."
+    },
+    "RAID_LEVEL_3_SHADOW": {
+      "title": "Nivel 3 Oscuro",
+      "subtitle": "Incursión oscura fácil en grupo",
+      "intro": "Las incursiones de nivel 3 oscuras están dirigidas a grupos de 2 jugadores de nivel 30-40. Pueden ser realizadas en solitario por un jugador de nivel 40+ con un poco de suerte y un juego perfecto con Pokémon increíbles."
+    },
+    "RAID_LEVEL_5_SHADOW": {
+      "title": "Nivel 5 Oscuro",
+      "subtitle": "Incursión legendaria oscura",
+      "intro": "¡Las incursiones legendarias oscuras son extremadamente difíciles pero son la mejor manera de obtener pokemon fuertes! Son incursiones solo presenciales que a menudo se realizan con grupos de 5 a 10 jugadores de nivel 30 a 50. Algunos expertos intrépidos han realizado algunas de estas incursiones con tan solo 2-3 jugadores. La función Campfire es una excelente manera de encontrar a otros jugadores para estas incursiones tan difíciles"
+    },
+    "RAID_LEVEL_1_MAX": {
+      "title": "Nivel 1 Máximo",
+      "subtitle": "Batalla Máxima Dinamax fácil",
+      "intro": "Las incursiones de nivel 1 máximo de Dinamax son bastante fáciles de derrotar por ti mismo, pero solo puedes usar pokemon Dinamax. Un jugador de nivel 20 con pokemon imperfectos debería poder vencer esto por sí mismo. Estas incursiones son una buena manera de comenzar tu colección de pokemon Dinamax."
+    },
+    "RAID_LEVEL_2_MAX": {
+      "title": "Nivel 2 Máximo",
+      "subtitle": "Batalla Máxima Dinamax difícil",
+      "intro": "Las incursiones de nivel 2 máximo de Dinamax son posibles de derrotar por ti mismo, pero solo puedes usar pokemon Dinamax. Un jugador de nivel 20 con pokemon evolucionados imperfectos debería poder vencer esto por sí mismo. Estas incursiones son una buena manera de comenzar tu colección de pokemon Dinamax."
+    },
+    "RAID_LEVEL_3_MAX": {
+      "title": "Nivel 3 Máximo",
+      "subtitle": "Batalla Máxima Dinamax fácil en grupo",
+      "intro": "Las incursiones de nivel 3 máximo de Dinamax están dirigidas a grupos de 2 a 4 jugadores presenciales de nivel 30 a 40 con 3 Pokémon Dinamax potenciados de nivel 30 a 40. Generalmente pueden ser realizadas en solitario por un jugador de nivel 40+ con esquiva y Pokémon increíbles."
+    },
+    "RAID_LEVEL_4_MAX": {
+      "title": "Nivel 4 de Evento Máximo",
+      "subtitle": "Batalla Máxima de Grupo Dinamax de Evento",
+      "intro": "¡Las batallas de nivel 4 máximo de Dinamax de evento se encuentran en eventos especiales! Son incursiones solo presenciales que a menudo se realizan con grupos de 2 a 4 jugadores de nivel 30 a 50. La función Campfire es una excelente manera de encontrar a otros jugadores para estas incursiones tan difíciles"
+    },
+    "RAID_LEVEL_5_MAX": {
+      "title": "Nivel 5 Máximo Legendario",
+      "subtitle": "Batalla Máxima Legendaria en Grupo",
+      "intro": "¡Las batallas de nivel 5 máximo legendarias son difíciles pero son la mejor manera de obtener Pokémon Dinamax fuertes! Son incursiones solo presenciales que a menudo se realizan con grupos de 2 a 8 jugadores de nivel 30 a 50. La función Campfire es una excelente manera de encontrar a otros jugadores para estas incursiones tan difíciles"
+    },
+    "RAID_LEVEL_6_MAX": {
+      "title": "Nivel 6 G-Máx",
+      "subtitle": "Batalla Máxima Gigamax en Grupo",
+      "intro": "¡Las batallas de nivel 6 máximo de Gigamax son difíciles pero son la fuente de Pokémon Gigamax! Son incursiones solo presenciales que a menudo se realizan con grupos de 5 a 20 jugadores de nivel 30 a 40. La función Campfire es una excelente manera de encontrar a otros jugadores para estas incursiones tan difíciles"
+    },
+    "RAID_LEVEL_6_5_MAX": {
+      "title": "Nivel 6.5 G-Máx",
+      "subtitle": "Batalla Máxima Gigamax difícil en Grupo",
+      "intro": "¡Las batallas de nivel 6.5 máximo de Gigamax son aún más difíciles! Son incursiones solo presenciales que a menudo se realizan con grupos de 10 a 30 jugadores de nivel 30 a 40. La función Campfire es una excelente manera de encontrar a otros jugadores para estas incursiones tan difíciles"
+    },
+    "RAID_LEVEL_ULTRA_BEAST_LEGACY": {
+      "title": "Nivel Ultraente antiguo",
+      "subtitle": "Incursión de Ultraente",
+      "intro": "Se han encontrado datos de incursiones de Ultraentes, pero la información no está disponible actualmente. La suposición actual es que son equivalentes en dificultad al nivel mega legendario"
+    },
+    "RAID_LEVEL_ELITE_LEGACY": {
+      "title": "Nivel Élite antiguo",
+      "subtitle": "Incursión de élite - PS extra",
+      "intro": "Estas incursiones de élite han estado disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_1_SHADOW_LEGACY": {
+      "title": "Nivel 1 Oscuro antiguo",
+      "subtitle": "Incursión oscura fácil",
+      "intro": "Estas incursiones de nivel 1 oscuras estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_3_SHADOW_LEGACY": {
+      "title": "Nivel 3 Oscuro antiguo",
+      "subtitle": "Incursión oscura fácil en grupo",
+      "intro": "Estas incursiones de nivel 3 oscuras estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_5_SHADOW_LEGACY": {
+      "title": "Nivel 5 Oscuro antiguo",
+      "subtitle": "Incursión legendaria oscura",
+      "intro": "Estas incursiones legendarias oscuras estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_1_MAX_LEGACY": {
+      "title": "Nivel 1 Máximo antiguo",
+      "subtitle": "Batalla Máxima Dinamax fácil",
+      "intro": "Estas batallas de nivel 1 máximo de Dinamax estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_2_MAX_LEGACY": {
+      "title": "Nivel 2 Máximo antiguo",
+      "subtitle": "Batalla Máxima Dinamax difícil",
+      "intro": "Estas batallas de nivel 2 máximo de Dinamax estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_3_MAX_LEGACY": {
+      "title": "Nivel 3 Máximo antiguo",
+      "subtitle": "Batalla Máxima Dinamax fácil en grupo",
+      "intro": "Estas batallas de nivel 3 máximo de Dinamax estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_4_MAX_LEGACY": {
+      "title": "Nivel 4 de Evento Máximo antiguo",
+      "subtitle": "Batalla Máxima de Grupo Dinamax de Evento",
+      "intro": "¡Las batallas de nivel 4 máximo de Dinamax de evento se encuentran en eventos especiales! Son incursiones solo presenciales que a menudo se realizan con grupos de 4 a 8 jugadores de nivel 30 a 50. La función Campfire es una excelente manera de encontrar a otros jugadores para estas incursiones tan difíciles"
+    },
+    "RAID_LEVEL_5_MAX_LEGACY": {
+      "title": "Nivel 5 Máximo antiguo",
+      "subtitle": "Batalla Máxima Legendaria en Grupo de Dinamax",
+      "intro": "Estas batallas legendarias de nivel 5 máximo de Dinamax estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_6_MAX_LEGACY": {
+      "title": "Nivel 6 G-Máx antiguo",
+      "subtitle": "Batalla Máxima Gigamax en Grupo",
+      "intro": "Estas batallas de nivel 6 de Gigamax estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_6_5_MAX_LEGACY": {
+      "title": "Nivel 6.5 G-Máx difícil antiguo",
+      "subtitle": "Batalla Máxima Gigamax difícil en Grupo",
+      "intro": "Estas batallas de nivel 6.5 de Gigamax estuvieron disponibles en el pasado pero no se encuentran actualmente en las rotaciones de incursiones. Pueden regresar en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_6_FUTURE": {
+      "title": "Nivel 6 futuro",
+      "subtitle": "Incursión legendaria - PS extra",
+      "intro": "¡Estas incursiones legendarias con PS extra aún no están en el juego! Sus estadísticas y movimientos aún están sujetos a cambios."
+    },
+    "RAID_LEVEL_ELITE_FUTURE": {
+      "title": "Nivel Élite futuro",
+      "subtitle": "Incursión de élite - PS extra",
+      "intro": "¡Estas incursiones de élite aún no están en el juego! Sus estadísticas y movimientos aún están sujetos a cambios."
+    },
+    "RAID_LEVEL_MEGA_5_FUTURE": {
+      "title": "Nivel Mega Legendaria futuro",
+      "subtitle": "Incursión Mega Legendaria",
+      "intro": "¡Estas incursiones mega legendarias aún no están en el juego!"
+    },
+    "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
+      "title": "Nivel Ultraente futuro",
+      "subtitle": "Incursión de Ultraente",
+      "intro": "Se han encontrado datos de incursiones de Ultraentes, pero la información no está disponible actualmente. Son equivalentes en dificultad al nivel mega legendario"
+    },
+    "RAID_LEVEL_1_SHADOW_FUTURE": {
+      "title": "Nivel 1 Oscuro futuro",
+      "subtitle": "Incursión oscura fácil",
+      "intro": "Estas incursiones de nivel 1 oscuras aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_3_SHADOW_FUTURE": {
+      "title": "Nivel 3 Oscuro futuro",
+      "subtitle": "Incursión oscura fácil en grupo",
+      "intro": "Estas incursiones de nivel 3 oscuras aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_5_SHADOW_FUTURE": {
+      "title": "Nivel 5 Oscuro futuro",
+      "subtitle": "Incursión legendaria oscura",
+      "intro": "Estas incursiones de nivel 5 oscuras aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_1_MAX_FUTURE": {
+      "title": "Nivel 1 Máximo futuro",
+      "subtitle": "Batalla Máxima Dinamax fácil",
+      "intro": "Estas batallas de nivel 1 máximo de Dinamax aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_2_MAX_FUTURE": {
+      "title": "Nivel 2 Máximo futuro",
+      "subtitle": "Batalla Máxima Dinamax difícil",
+      "intro": "Estas batallas de nivel 2 máximo de Dinamax aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_3_MAX_FUTURE": {
+      "title": "Nivel 3 Máximo futuro",
+      "subtitle": "Batalla Máxima Dinamax fácil en Grupo",
+      "intro": "Estas batallas de nivel 3 máximo de Dinamax aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_4_MAX_FUTURE": {
+      "title": "Nivel 4 de Evento Máximo futuro",
+      "subtitle": "Batalla Máxima de Grupo Dinamax de Evento",
+      "intro": "¡Estas batallas de nivel 4 máximo de Dinamax se encuentran en eventos especiales! Son incursiones solo presenciales que a menudo se realizan con grupos de 2 a 8 jugadores de nivel 30 a 50. La función Campfire es una excelente manera de encontrar a otros jugadores para estas incursiones tan difíciles"
+    },
+    "RAID_LEVEL_5_MAX_FUTURE": {
+      "title": "Nivel 5 Máximo Legendario futuro",
+      "subtitle": "Batalla Máxima Legendaria difícil en Grupo",
+      "intro": "Estas batallas de nivel 5 máximo legendarias aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_6_MAX_FUTURE": {
+      "title": "Nivel 6 G-Máx futuro",
+      "subtitle": "Batalla Máxima Gigamax difícil en Grupo",
+      "intro": "Estas batallas de nivel 6 máximo de Gigamax aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    },
+    "RAID_LEVEL_6_5_MAX_FUTURE": {
+      "title": "Nivel 6.5 G-Máx futuro",
+      "subtitle": "Batalla Máxima Gigamax difícil en Grupo",
+      "intro": "Estas batallas de nivel 6 máximo de Gigamax aún no están en el juego. Pueden aparecer en el futuro para eventos especiales."
+    }
+  },
+  "custom": {
+    "title": "Incursión personalizada",
+    "levelsLabel": "Niveles de atacantes",
+    "buttonLabel": "Encontrar el mejor incursor",
+    "attackersLabel": "Atacantes"
+  },
+  "results": {
+    "title": "Contadores de {{defender}}",
+    "meta": {
+      "description": "Los mejores contadores de {{defender}} en Pokémon Go son {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} y {{counter6}}. ¡Inicia sesión para ver tus resultados personalizados!",
+      "image": "{{infographicShareURL}}"
+    },
+    "calculating": "Calculando resultados de la incursión",
+    "counters": {
+      "title": "contadores",
+      "subtitle": "Mejores atacantes por",
+      "description": "El siguiente análisis muestra los Pokémon que son los incursores más fuertes en términos de {{sort}} contra {{pokemon}}.",
+      "moveSetOrderingDescription": "Los conjuntos de movimientos se ordenan del más difícil al más fácil de incursionar, ¡asegúrate de verificar varios, los resultados pueden variar mucho!",
+      "difficultyNote": "Los jefes de incursión son mucho más difíciles que una batalla normal, debes considerar cuidadosamente tus opciones.",
+      "chooseMovesetLabel": "Elegir conjunto de movimientos"
+    },
+    "hardestMovesets": {
+      "title": "Incursiones más difíciles",
+      "subtitle": "Para {{pokemon}} por {{sort}}",
+      "tableTitle": "Conjuntos de movimientos más difíciles de incursionar",
+      "description": "¡La dificultad de la incursión puede variar mucho según el conjunto de movimientos del pokemon defensor!"
+    },
+    "analysis": {
+      "title": "Acerca de este análisis",
+      "description": "Este análisis de incursión se basó en la simulación de combate con un {{defender.pokemon}} defensor con {{defender.cp}} de PC y {{attackers}}. La simulación se ejecutó con la estrategia de ataque {{attackStrategy}} basada en el tipo de simulación {{defenseStrategy}}. Se realizaron {{numSims}} simulaciones con cada posible conjunto de movimientos de {{defender.pokemon}} simulado contra cada Pokémon con cada posible conjunto de movimientos. Los mejores 30 atacantes con su mejor conjunto de movimientos basados en {{sort}} se mantuvieron y se muestran aquí. Puedes hacer clic en cualquiera de los atacantes para ver la simulación que se realizó y probar diferentes conjuntos de movimientos.",
+      "attackers": {
+        "byLevel": "atacantes de nivel {{attackerLevel}}",
+        "pokebox": "el Pokémon personalizado de la pokebox del usuario #{{userId}}"
+      },
+      "numParty": "El poder del grupo es complicado de simular, los resultados a continuación son estimaciones."
+    },
+    "related": {
+      "title": "Contadores relacionados"
+    },
+    "description": "La guía de contadores de incursiones de {{pokemon}} de Pokebattler está diseñada para ayudarte a vencer a {{pokemon}} con tus mejores contadores. Puedes encontrar los mejores contadores en general para derrotar a {{pokemon}} en la infografía y el artículo y usar nuestra herramienta personalizable para obtener resultados de millones de simulaciones de Pokémon, o tu propia Pokebox llena de Pokémon para una experiencia verdaderamente personalizada.",
+    "patreon": {
+      "description": "Resultados más precisos para conjuntos de movimientos desconocidos proporcionados gracias al apoyo de los suscriptores. Los suscriptores reciben espacio adicional en la pokebox, resultados aún más precisos para todos los conjuntos de movimientos y más.",
+      "link": "Ver todos los beneficios que obtienes al registrarte",
+      "thanks": "¡Gracias por tu apoyo!"
+    }
+  },
+  "raidAttackers": {
+    "title": "Atacantes de incursión - {{type}}",
+    "meta": {
+      "description": "¡Los mejores atacantes de incursión de {{type}} en general en las incursiones de Pokémon Go según el rendimiento contra todas las incursiones posibles! Los puntos se asignan en función del rendimiento relativo de la clasificación y por nivel de jefe de incursión"
+    },
+    "details": "Los atacantes se agregan usando un algoritmo de clasificación que otorga puntos en función del rendimiento, en el nivel 40 sin bonificación de amigo o clima, ordenados por estimador. Se otorgan 5 puntos por un primer lugar, 4 puntos por un segundo lugar, 3 puntos por un cuarto lugar, 2 puntos por un octavo lugar, 1 punto por un decimosexto lugar. Luego, los puntos se ponderan por el nivel (10x para el nivel 5/mega, 4x para el nivel 3 y 0x para el nivel 1)"
+  },
+  "raidAttackerDetails": {
+    "title": "Análisis del atacante de incursión {{attackerName}}",
+    "subtitle": "{{move1Name}} {{move2Name}}",
+    "meta": {
+      "title": "Atacante de incursión - {{attackerName}} {{move1Name}} {{move2Name}}",
+      "description": "Los mejores jefes de incursión para que {{attackerName}} derrote en Pokémon Go usando {{move1Name}} y {{move2Name}} son {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} y {{counter6}}. Encuentra los mejores jefes de incursión para que {{attackerName}} derrote en Pokémon Go usando {{move1Name}} y {{move2Name}}. ¡Descubre exactamente qué tan útil es {{attackerName}} en las incursiones de Pokémon Go!"
+    },
+    "availableMoves": "Movimientos disponibles",
+    "counters": "Contadores"
+  },
+  "raidParty": {
+    "title": "Pokebattler Raid Party",
+    "meta": {
+      "description": "¡Pokebattler Raid Party v1.0 ya está aquí! Diseñado para ayudarte a incursionar con confianza y un esfuerzo mínimo para derrotar a esos jefes de incursión al primer intento. La aplicación Pokebattler Raid Party fue creada por Pokebattler.com para ayudar a organizar y promover las incursiones de Pokémon Go al proporcionar características clave que no proporciona el juego.",
+      "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+    },
+    "result": {
+      "title": "Pokebattler Raid Party #{{raidPartyId}}",
+      "info": "Pokebattler Raid Party actualmente solo está disponible en forma de aplicación. ¡La versión del sitio web llegará pronto! Para ver este grupo de incursión, simplemente descarga la aplicación, inicia sesión y vuelve a cargar esta página.",
+      "deepLink": "Si tienes la aplicación instalada, esta página debería abrir la aplicación automáticamente. En iOS, es posible que debas abrir este enlace en Safari y deslizar hacia abajo la página para que aparezca la opción de abrir en Pokebattler Raid Party.",
+      "deepLink2": "Si tienes problemas, puedes unirte manualmente al grupo de incursión #{{raidPartyId}}."
+    },
+    "download": {
+      "installation": "Descarga la aplicación Pokebattler Raid Party para tu dispositivo",
+      "android": {
+        "title": "Android",
+        "subtitle": "Descargar de la Play Store"
+      },
+      "ios": {
+        "title": "iOS",
+        "subtitle": "Descargar de la Apple App Store"
+      }
+    },
+    "screenshots": {
+      "title": "Prepárate para incursiones remotas con amigos",
+      "description": "Estas son solo algunas de las características de la aplicación Pokebattler Raid Party. Se están agregando funcionalidades adicionales rápidamente, descarga la aplicación para ver las características más nuevas"
+    }
+  },
+  "raidPartyResult": {
+    "title": "Pokebattler Raid Party #{{raidPartyId}}",
+    "meta": {
+      "description": "Únete al Pokebattler Raid Party #{{raidPartyId}} para ver si tu grupo ganará. ¡Descarga la aplicación e incursiona con confianza con un solo clic!",
+      "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+    },
+    "info": "Pokebattler Raid Party actualmente solo está disponible en forma de aplicación. ¡La versión del sitio web llegará pronto! Para ver este grupo de incursión, simplemente descarga la aplicación, inicia sesión y vuelve a cargar esta página.",
+    "deepLink": "Si tienes la aplicación instalada, esta página debería abrir la aplicación automáticamente. En iOS, es posible que debas abrir este enlace en Safari y deslizar hacia abajo la página para que aparezca la opción de abrir en Pokebattler Raid Party.",
+    "deepLink2": "Si tienes problemas, puedes unirte manually al grupo de incursión #{{raidPartyId}}.",
+    "deepLink3": "Usuarios de Discord: Deberán cambiar la configuración de su navegador en Discord para abrir en Safari o Chrome",
+    "customLink": "Abrir en la aplicación"
+  },
+  "raidNetworkDiscords": {
+    "title": "Red de incursiones",
+    "info": "Los servidores de Discord en la Red de Incursiones de Pokebattler están disponibles para unirse en la aplicación Pokebattler Raid Party si no se llenan. ¡Puedes unirte a sus servidores directamente para llenar las incursiones antes!",
+    "join": "¿Tienes un discord de incursiones y estás interesado en unirte a la Red de Incursiones de Pokebattler? Únete al discord de la aplicación Pokebattler Raid y envía un ping a un administrador",
+    "discordLink": "Ir al servidor de Discord de {{guildName}}",
+    "properties": {
+      "activeRaidersCount": "Incursores promedio",
+      "raidsCreated": "# de incursiones",
+      "yesterday": "Ayer",
+      "lastWeek": "La semana pasada",
+      "lastMonth": "El mes pasado",
+      "lastYear": "El año pasado",
+      "country": "País",
+      "language": "Idioma",
+      "name": "$t(common:name)"
+    }
+  },
+  "infographics": {
+    "title": "Infografías",
+    "subTitle": "Infografías de contadores de incursiones de Pokémon Go",
+    "meta": {
+      "description": "Obtén tus infografías de incursiones de Pokémon Go de CaptGoldfish y JaceMakings. Estas infografías están destinadas a jugadores nuevos y no incluyen megas ni oscuros. ¡Estos contadores de incursiones te ayudarán a vencer al jefe de incursión con el menor número de entrenadores!",
+      "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "articles": {
-        "title": "¡Últimas noticias de incursiones!",
-        "subtitle": "Artículos y vídeos sobre incursiones de Pokemon Go de jugadores top e investigadores"
+      "title": "Infografías de incursiones de Pokémon Go",
+      "subtitle": "Contadores de alta calidad con gráficos dibujados a mano"
     },
-    "guide": {
-        "subtitle": "Como derrotar a $t(constants:pokemon.{{pokemonId}}) en Pokemon Go",
-        "infographicDownload": "Descargar $t(constants:pokemon.{{pokemonId}}) infografía",
-        "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Guía de Contrincantes de Incursión",
-        "article": "Lee toda la Guía de Incursión de $t(constants:pokemon.{{pokemonId}}) a continuación"
-    },
-    "tierList": {
-        "common": {
-            "boss": "Jefe",
-            "raidTier": "Nivel de incursión"
+    "authors": {
+      "captgoldfish": {
+        "name": "CaptGoldfish",
+        "link": "https://twitter.com/CaptGoldfish",
+        "title": "Infografías de contadores de incursiones de CaptGoldfish",
+        "button": {
+          "title": "CaptGoldfish",
+          "subtitle": "Infografías de jefes de incursión de Pokémon Go dibujadas a mano y diseñadas para modo vertical"
         },
-        "RAID_LEVEL_1": {
-            "title": "Nivel 1",
-            "subtitle": "Incursión sencilla de forma individual",
-            "intro": "Las incursiones de nivel 1 son muy fáciles de vencer en solitario. Un jugador de nivel 20 sin los mejores Pokémon debería de ser capaz de hacerlo por su cuenta. Estas incursiones son útiles para obtener caramelos de Pokémon que no son comunes en tu zona."
-        },
-        "RAID_LEVEL_2": {
-            "title": "Nivel 2",
-            "subtitle": "Difícil incursión en solitario",
-            "intro": "Incursiones de nivel 2 están enfocadas a jugadores de nivel 30 a 40 que fácilmente pueden derrotar estos Pokémon. Jugadores de menor nivel deben hacer equipo para vencer estos Pokémon."
-        },
-        "RAID_LEVEL_3": {
-            "title": "Nivel 3",
-            "subtitle": "Incursión fácil en grupo",
-            "intro": "Incursiones de nivel 3 están enfocadas a grupos de 2 jugadores de nivel 30 a 4p. Estas pueden ser hechas en solitario por un jugador nivel 40 con un poco de suerte y con Pokémon excelentes."
-        },
-        "RAID_LEVEL_4": {
-            "title": "Nivel 4",
-            "subtitle": "Incursión difícil en grupo",
-            "intro": "Incursiones de nivel 4 están enfocadas a grupos de 5 o 6 jugadores de nivel 30 a 40. Reportes han llegado de estos Pokémon siendo vencidos por jugadores de máximo nivel con 3 o 4 de los atacantes ideales."
-        },
-        "RAID_LEVEL_5": {
-            "title": "Nivel 5",
-            "subtitle": "Incursión legendaria",
-            "intro": "Las incursiones actuales son la mejor manera de obtener Pokémon poderosos. Usualmente pueden completarse con grupos de 6 a 10 jugadores de nivel 30 o más. Avezados entrenadores pueden superar estas incursiones con 5, o incluso menos jugadores."
-        },
-        "RAID_LEVEL_UNSET": {
-            "title": "Nivel ¿?",
-            "subtitle": "Incursiones desconocidas",
-            "intro": "Estos Pokémon pueden ser parte de futuros niveles de incursiones. Use esto si una nueva incursión ha salido y el sitio web no ha sido actualizado aún. ¡También puedes usar esta sección para analizar que pasaría si tuvieses una incursión legendaria de Magikarp!"
-        },
-        "RAID_LEVEL_4_EVENTS": {
-            "title": "Especial de nivel 4",
-            "subtitle": "Incursiones de eventos especiales",
-            "intro": "Estos Pokémon han sido incursiones en pasados eventos como el de Yokohama. Podrían volver sin anunciar."
-        },
-        "RAID_LEVEL_1_LEGACY": {
-            "title": "Antigua nivel 1",
-            "subtitle": "Incursión en solitario fácil",
-            "intro": "Estás incursiones no están actualmente en la rotación de incursiones."
-        },
-        "RAID_LEVEL_2_LEGACY": {
-            "title": "Antigua nivel 2",
-            "subtitle": "Difícil incursión en solitario",
-            "intro": "Estas incursiones no están actualmente en la rotación de incursiones."
-        },
-        "RAID_LEVEL_3_LEGACY": {
-            "title": "Antigua nivel 3",
-            "subtitle": "Incursión fácil en grupo",
-            "intro": "Estás incursiones no están actualmente en la rotación de incursiones."
-        },
-        "RAID_LEVEL_4_LEGACY": {
-            "title": "Antigua nivel 4",
-            "subtitle": "Incursión difícil en grupo",
-            "intro": "Estas incursiones no están actualmente en la rotación de incursiones."
-        },
-        "RAID_LEVEL_5_LEGACY": {
-            "title": "Nivel 5 - Descontinuadas",
-            "subtitle": "Incursión Legendaria",
-            "intro": "Estas incursiones estuvieron disponibles previamente, pero ya no forman parte de la rotación actual de incursiones. Podrían regresar en el futuro como parte de eventos especiales."
-        },
-        "RAID_LEVEL_5_FUTURE": {
-            "intro": "Estas incursiones de nivel 5 aún no han sido lanzadas en el juego. Sus estadísticas y movimientos podrían cambiar.",
-            "title": "Nivel 5 por venir",
-            "subtitle": "Incursión legendaria"
-        },
-        "RAID_LEVEL_6": {
-            "title": "Nivel 6",
-            "subtitle": "Incursión legendaria con PS adicionales",
-            "intro": "Estos jefes de incursión tienen mayor PS comparados con las incursiones de nivel 5. Se desconoce si este es un cambio permanente para todas las incursiones de nivel 5. Usualmente son completadas de a 6 a 10 jugadores de nivel 30 o más. Avezados entrenadores han podido superar estas incursiones con 5 o menos jugadores."
-        },
-        "RAID_LEVEL_6_LEGACY": {
-            "title": "Nivel 6 - descontinuada",
-            "subtitle": "Incursión legendaria con PS adicionales",
-            "intro": "Estas incursiones han estado disponible anteriormente, pero no fueron incluidas en la rotación actual. Eventualmente podrían regresar en el futuro para eventos especiales."
-        },
-        "RAID_LEVEL_4_5": {
-            "title": "Nivel 4.5",
-            "subtitle": "Incursión Legendaria Sencilla",
-            "intro": "Las incursiones de Nivel 4.5 son versiones más fáciles de jefes Legendarios y están dirigidas a grupos de 2-4 jugadores de niveles 30-40. Son usualmente vistas durante eventos de corta duración."
-        },
-        "RAID_LEVEL_4_5_LEGACY": {
-            "title": "Antigua Nivel 4.5",
-            "subtitle": "Incursión Legendaria Sencilla",
-            "intro": "Estos son jefes de incursiones legendarias sencillas previamente vistos."
-        },
-        "RAID_LEVEL_4_5_FUTURE": {
-            "title": "Futura Nivel 4.5",
-            "subtitle": "Incursión Legendaria Sencilla",
-            "intro": "Estos son jefes de incursión legendarios sencillos que aún no están en el juego. Sus características y ataques están aún sujetos a cambiar"
-        },
-        "RAID_LEVEL_MEGA": {
-            "title": "Nivel Mega",
-            "subtitle": "Megaincursión",
-            "intro": "Las megaincursiones actuales son la mejor forma de obtener megaenergía para dar poder a los Pokémon más poderosos! Generalmente se pueden completar con grupos de 6-10 jugadores de nivel 30-40. Algunos expertos intrépidos han hecho algunas de estas incursiones con tan solo 2-5 jugadores."
-        },
-        "RAID_LEVEL_MEGA_5": {
-            "title": "Nivel Mega Legendaria",
-            "subtitle": "Incursión Mega Legendaria",
-            "intro": "Las megaincursiones actuales son la mejor forma de obtener megaenergía para dar poder a los Pokémon más poderosos! Generalmente se pueden completar con grupos de 6-10 jugadores de nivel 30-40. Algunos expertos intrépidos han hecho algunas de estas incursiones con tan solo 2-5 jugadores."
-        },
-        "RAID_LEVEL_MEGA_LEGACY": {
-            "title": "Nivel Mega Descontinuadas",
-            "subtitle": "Megaincursión Descontinuada",
-            "intro": "Estas megaincursiones ya no están disponibles."
-        },
-        "RAID_LEVEL_MEGA_5_LEGACY": {
-            "title": "Nivel Mega Legendaria Descontinuada",
-            "subtitle": "Megaincursión Legendaria Descontinuada",
-            "intro": "Estas megaincursiones ya no están disponibles."
-        },
-        "RAID_LEVEL_MEGA_FUTURE": {
-            "title": "Futura Nivel Mega",
-            "subtitle": "Futura Megaincursión",
-            "intro": "Estas megaincursiones no están en el juego aún."
-        }
-    },
-    "custom": {
-        "title": "Incursión personalizada",
-        "levelsLabel": "Niveles de atacantes",
-        "buttonLabel": "Encontrar mejor oponente",
-        "attackersLabel": "Atacantes"
-    },
-    "results": {
-        "title": "Contrincantes para {{defender}}",
         "meta": {
-            "description": "Los mejores contrincantes para {{defender}} en Pokémon Go son {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. ¡Autentícate para ver tus resultados personalizados!",
-            "image": "{{infographicShareURL}}"
-        },
-        "calculating": "Calculando resultados de incursión",
-        "counters": {
-            "title": "Rivales óptimos",
-            "subtitle": "Mejores atacantes por",
-            "description": "El siguiente análisis muestra los Pokemon que son más fuertes basándose en {{sort}} contra {{pokemon}}.",
-            "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente!",
-            "difficultyNote": "Los jefes de incursión son mucho más difíciles de vencer que batallas normales, debe considerar cuidadosamente sus opciones.",
-            "chooseMovesetLabel": "Elegir movimientos"
-        },
-        "hardestMovesets": {
-            "title": "Incursiones más difíciles",
-            "subtitle": "Para {{pokemon}} por {{sort}}",
-            "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
-            "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor!"
-        },
-        "analysis": {
-            "title": "Acerca de este análisis",
-            "description": "El análisis de esta incursión fue realizado simulando un combate con {{defender.pokemon}} como defensor, con {{defender.cp}} PC y {{attackers}}. La simulación se ejecuto con la estrategia de ataque {{attackStrategy}} basado en el tipo de simulación {{defenseStrategy}}. {{numSims}} de simulaciones fueron realizadas con cada combinación de movimientos de {{defender.pokemon}} contra cada uno de los Pokemon y cada uno de sus posibles movimientos. Los 20 mejores atacantes con su mejor combinación de movimiento basándose en {{sort}} fueron guardados y mostrados aquí. Puedes hacer clic en cualquiera de los atacantes para ver los detalles de la simulación y probar combinaciones de movimientos diferentes.",
-            "attackers": {
-                "byLevel": "Atacantes nivel {{attackerLevel}}",
-                "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
-            }
-        },
-        "related": {
-            "title": "Contrincantes Relacionados"
-        },
-        "description": "Bienvenido a la guía de incursión de Pokebattler para {{pokemon}}. Puedes encontrar los mejores oponentes basados en los movimientos de cada jefe. Esta guía es personalizable en muchas maneras diferentes. Puedes seleccionar el nivel de ataque y la estrategia de ataque que le gustaría usar así como también varias opciones para ordenar. ",
-        "patreon": {
-            "description": "Resultados más exactos para combinaciones de ataques desconocidas provistas gracias al apoyo de los suscriptores. Los suscriptores reciben espacio de Pokebox adicional, mayor exactitud de resultados para todas las combinaciones y más.",
-            "link": "Mira todos los beneficios que obtienes por registrarte",
-            "thanks": "¡Gracias por tu apoyo!"
+          "description": "¡Infografías de incursiones de Pokémon Go de CaptGoldfish! Estas infografías están destinadas a jugadores nuevos y no incluyen megas ni oscuros. ¡Estos contadores de incursiones te ayudarán a vencer al jefe de incursión con el menor número de entrenadores!",
+          "image": "https://static.pokebattler.com/CaptGoldfish/icon.png"
         }
-    },
-    "raidAttackers": {
-        "title": "Contrincantes de incursiones - {{type}}",
+      },
+      "jace": {
+        "name": "Jace",
+        "link": "https://twitter.com/JaceMakings",
+        "title": "Infografías de contadores de incursiones de Jace",
+        "button": {
+          "title": "Jace",
+          "subtitle": "Infografías de jefes de incursión de Pokémon Go de alta calidad diseñadas para modo horizontal"
+        },
         "meta": {
-            "description": "¡Los mejores contrincantes {{type}} de incursiones en Pokémon Go basados en el rendimiento contra todas las posibles incursiones! Los puntos son asignados basados en rendimiento relativo ponderado y por nivel de jefes de incursión"
-        },
-        "details": "Los contrincantes son agregados usando un algoritmo de calificación que da puntos basados en rendimiento, a nivel 40 sin bonificación de amistad ni de clima y ordenados por estimador. 5 puntos son otorgados para mostrarse en primer lugar, 4 puntos para el segundo lugar, 3 puntos para un cuarto lugar, 2 puntos para un octavo lugar y 1 punto para un dieciseisavo lugar. Los puntos son ponderados por nivel (10x para nivel 5 / mega, 4x para nivel 3 y 1x para nivel 1)"
-    },
-    "raidParty": {
-        "title": "Pokebattler Raid Party",
-        "meta": {
-            "description": "Pokebattler Raid Party v1.0 está aquí! Diseñada para ayudarte a completar incursiones con confianza y esfuerzo mínimo para derrotar estos jefes de incursión al primer intento. La app Pokebattler Raid Party fue creada por Pokebattler.com para ayudarte a organizar y promocionar incursiones en Pokémon Go proveyendo de funcionalidades importantes que no lo están en el juego.",
-            "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
-        },
-        "result": {
-            "title": "Pokebattler Raid Party #{{raidPartyId}}",
-            "info": "Pokebattler Raid Party está disponible actualmente solo como una app. ¡La versión web estará disponible en breve! Para ver este equipo de incursión, simplemente descarga la app, autentícate y recarga esta página.",
-            "deepLink": "Si tienes la app instalada, esta página debería abrir la app automáticamente. En iOS, quizás debas abrir este enlace en Safari y recorrer la página para que aparezca abrir en Pokebattler Raid Party.",
-            "deepLink2": "Si estás encontrando problemas, puedes unirte manualmente al grupo de la incursión #{{raidPartyId}}."
-        },
-        "download": {
-            "installation": "Descarga la app Pokebattler Raid Party a tu dispositivo",
-            "android": {
-                "title": "Android",
-                "subtitle": "Descargar desde Play Store"
-            },
-            "ios": {
-                "title": "iOS",
-                "subtitle": "Descargar desde la Apple App Store"
-            }
-        },
-        "screenshots": {
-            "title": "Prepárate para incursiones remotas con amigos",
-            "description": "A continuación verás algunas de las funciones de la app Pokebattler Raid party. Funcionalidad adicional está siendo agregada rápidamente, descarga la app para ver las funciones más nuevas"
+          "description": "¡Infografías de incursiones de Pokémon Go de Jace! Estas infografías están destinadas a jugadores nuevos y no incluyen megas ni oscuros. ¡Estos contadores de incursiones te ayudarán a vencer al jefe de incursión con el menor número de entrenadores!",
+          "image": "https://static.pokebattler.com/graphics/Jace.jpg"
         }
-    },
-    "raidPartyResult": {
-        "title": "Pokebattler Raid Party #{{raidPartyId}}",
-        "meta": {
-            "description": "Únete al grupo de Pokebattler Raid Party #{{raidPartyId}} para ver si tu grupo puede ganar. ¡Descarga la app y realiza incursiones con confianza con solo un click!",
-            "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
-        },
-        "info": "Pokebattler Raid Party actualmente solo está disponible como app. ¡La versión web estará disponible muy pronto! Para ver este grupo de incursión simplemente descarga la app, autentícate y recarga esta página.",
-        "deepLink": "Si tienes la app instalada, esta página debería abrirla automáticamente. En iOS, quizás debas abrir este enlace en Safari y recorrer la página para que aparezca abrir en Pokebattler Raid Party.",
-        "deepLink2": "Si estás teniendo problemas, puedes unirte manualmente al grupo de la incursión #{{raidPartyId}}.",
-        "deepLink3": "Usuarios Discord: necesitarán cambiar su configuración Discord para el Navegador para abrir en Safari o Chrome",
-        "customLink": "Abrir en la app"
-    },
-    "raidNetworkDiscords": {
-        "title": "Raid Network",
-        "info": "Los servidores Discord en la Pokebattler Raid Network están disponibles para unirse en la app Pokebattler Raid Party si no se completan. ¡Puedes unirte a sus servidores directamente para completar incursiones rápidamente!",
-        "join": "¿Tienes un Discord de incursiones y están interesados en unirse a la Pokebattler Raid Network? Únete al Discord de la app Pokebattler Raid Party y contacta a un administrador",
-        "discordLink": "Ir al servidor de {{guildName}}",
-        "properties": {
-            "activeRaidersCount": "Jugadores activos",
-            "raidsCreated": "Incursiones creadas ",
-            "yesterday": "Ayer",
-            "lastWeek": "Semana pasada",
-            "lastMonth": "Mes pasado",
-            "lastYear": "Año pasado",
-            "country": "País",
-            "language": "Idioma",
-            "name": "$t(common:name)"
-        }
-    },
-    "pokebox": {
-        "login": "La guía de incursiones de Pokebattler puede ser personalizada solo para incluir Pokémon que posees usando tu propia caja de Pokémon. Ingresa, añade tus mejores Pokémon, a luego puedes alternar entre los mejores Pokémon que hay en tu colección y los mejores oponentes en general para planear tus peleas de incursión.",
-        "enabled": "Mostrando resultados personalizados para tu caja de Pokémon. Los 30 mejores contendores que posees se muestran debajo.",
-        "disabled": "Mostrando resultados para atacantes nivel {{level}}. Los 30 mejores contendores a ese nivel son mostrados debajo.",
-        "friend": "Mostrando resultados para el usuario {{userId}}. Los mejores 30 contendores se muestran debajo.",
-        "switchLevel": "Cambiar a $t(common:attackerTypes.level)",
-        "switchPokebox": "Cambiar a $t(common:attackerTypes.pokebox)"
-    },
-    "emptyResults": {
-        "LEVEL": "No hubo resultados arrojados para este cálculo. El servidor puede estar presentando fallas.",
-        "POKEBOX": "No hubo resultados arrojados para este cálculo. Quizá no has ingresado ningún Pokémon en tu caja de Pokémon aún?",
-        "FRIEND": "No hubo resultados arrojados para este cálculo. Quizá tú amigo no ha ingresado ningún Pokémon en su caja de Pokémon aún. Intenta un entrenador diferente."
-    },
-    "people": {
-        "title": "Estimación de Pokebattler",
-        "difficultyRating": "Estimado de dificultad: {{rating}}",
-        "adviceLink": "Ver qué pasa si das más poder",
-        "estimate": {
-            "close": "Vencer a {{pokemon}} debería tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla muy cercana. Trae otro entrenador si puedes para estar seguro.",
-            "almost": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Si tienes mucha suerte, podrías lograrlo con 1 entrenador menos.",
-            "normal": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Asegúrate que tu grupo esté preparado antes de la batalla.",
-            "difficult": "Vencer a {{pokemon}} debe tomar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una batalla difícil, asegúrate que todos usen sus mejores Pokémon.",
-            "trivial": "Derrotar a {{pokemon}} debería tomar {{numPeople}} entenadores con Pokémon de este poder. Esta pelea terminará antes de comenzar. Es tan sencillo que puedes utilizar las recomendaciones del juego y ganar."
-        }
-    },
-    "battle": {
-        "resultLink": "Revisa este resultado como grupo de batalla"
-    },
-    "helpLink": "Ve el video tutorial sobre incursiones",
-    "silph": {
-        "text": "Lista de incursiones actualizada proporcionada por",
-        "link": "The Silph Road"
+      }
     }
+  },
+  "pokebox": {
+    "login": "Los contadores de incursiones de Pokebattler se pueden personalizar para mostrarte los Pokémon exactos que realmente posees usando tu propia Pokebox personal. ¡Inicia sesión, agrega tus mejores Pokémon a tu Pokebox personal y ve cuáles de los pokemon que posees son los mejores!",
+    "enabled": "Mostrando resultados personalizados para tu Pokebox. Los 30 mejores contadores que posees se muestran a continuación.",
+    "disabled": "Mostrando resultados para atacantes de nivel {{level}}. Los mejores 30 contadores en ese nivel se muestran a continuación.",
+    "friend": "Mostrando resultados para el usuario {{userId}}. Sus mejores 30 contadores se muestran a continuación.",
+    "switchLevel": "Cambiar a $t(common:attackerTypes.level)",
+    "switchPokebox": "Cambiar a $t(common:attackerTypes.pokebox)"
+  },
+  "emptyResults": {
+    "LEVEL": "No se devolvieron resultados para este cálculo. El servidor puede tener problemas.",
+    "POKEBOX": "¿No se devolvieron resultados para este cálculo. ¿Quizás aún no has introducido ningún pokemon en tu pokebox?",
+    "FRIEND": "No se devolvieron resultados para este cálculo. ¿Quizás tu amigo aún no ha introducido ningún Pokémon en su pokebox? Prueba con otro entrenador."
+  },
+  "people": {
+    "title": "Estimador de Pokebattler",
+    "difficultyRating": "Calificación de dificultad: {{rating}}",
+    "adviceLink": "Ver qué pasa si potencias",
+    "estimate": {
+      "close": "Vencer a {{pokemon}} debería llevar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una pelea muy reñida. Trae a otro entrenador si puedes para estar seguro.",
+      "almost": "Vencer a {{pokemon}} debería llevar {{numPeople}} entrenadores con Pokémon de esta fuerza. Si tienes mucha suerte, podrías vencerlo con 1 entrenador menos.",
+      "trivial": "Vencer a {{pokemon}} debería llevar {{numPeople}} entrenadores con Pokémon de esta fuerza. Esta pelea terminará antes de que comience. Es tan fácil que podrías usar las sugerencias del juego y ganar.",
+      "normal": "Vencer a {{pokemon}} debería llevar {{numPeople}} entrenadores con Pokémon de esta fuerza. Asegúrate de que tu grupo esté preparado antes de la pelea.",
+      "difficult": "Vencer a {{pokemon}} debería llevar {{numPeople}} entrenadores con Pokémon de esta fuerza. Será una pelea difícil, asegúrate de que todos usen sus mejores Pokémon."
+    }
+  },
+  "battle": {
+    "resultLink": "Ver este resultado como un grupo de batalla"
+  },
+  "helpLink": "Ver el video tutorial de la incursión",
+  "silph": {
+    "text": "Lista actual de jefes de incursión proporcionada por",
+    "link": "The Silph Road"
+  }
 }

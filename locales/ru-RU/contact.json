@@ -1,7 +1,29 @@
 {
-    "title": "Свяжитесь с нами",
-    "contactInfo": "Контактная информация",
-    "feedbackText": "На Pokebattler мы всегда рады Вашим отзывам! Не важно, сообщаете ли Вы о баге, предлагаете какую-то идею или просто хотите сказать спасибо - мы действительно это ценим и стараемся сделать всё что в наших силах, чтобы сделать этот сайт единственным необходимым Вам для битв в Pokemon GO.",
-    "email": "Прислать мне личное сообщение в",
-    "facebook": "Подключить Facebook"
+  "title": "Свяжитесь с нами",
+  "contactInfo": "Контактная информация",
+  "feedbackText": "На Pokebattler мы всегда рады Вашим отзывам! Не важно, сообщаете ли Вы о баге, предлагаете какую-то идею или просто хотите сказать спасибо - мы действительно это ценим и стараемся сделать всё что в наших силах, чтобы сделать этот сайт единственным необходимым Вам для битв в Pokemon GO.",
+  "email": "Прислать мне личное сообщение в",
+  "facebook": "Подключить Facebook",
+  "meta": {
+    "description": "Send us a message or follow us on social to get the latest updates on the World's #1 Most Accurate Pokemon Go Simulator",
+    "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  },
+  "button": {
+    "reddit": {
+      "title": "Discuss on Reddit",
+      "subtitle": "News and Announcements in /r/pokebattler"
+    },
+    "twitter": {
+      "title": "Tweet at me",
+      "subtitle": "News and random messages from @Pokebattler_com"
+    },
+    "youtube": {
+      "title": "Watch our videos",
+      "subtitle": "Raid Guides and Pokebattler Tutorial Videos"
+    },
+    "facebook": {
+      "title": "Facebook Connect",
+      "subtitle": "Let your friends know about us"
+    }
+  }
 }

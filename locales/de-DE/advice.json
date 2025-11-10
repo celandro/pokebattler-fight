@@ -1,68 +1,68 @@
 {
-    "linkLabel": "Raid-Guide",
-    "intro": "Die Pokebattler-Beratung ist ein Feature, das dir dabei hilft, deine Pokebox passgenau für einzelne Raids zu verbessern. Wähl einfach den Raid-Boss aus, gegen den du deine besten möglichen Kandidaten zum Angreifen finden willst, und gib den Sternenstaub und die Bonbons ein, die du zur Verfügung hast, damit du sehen kannst, wie sich deine Pokemon nach ein paar Power-Ups verhalten. Dieses Tool hilft dir bei der Beurteilung, welche Pokemon am meisten von Sternenstaub und Bonbons profitieren, damit du weißt, wie du deine Ressourcen mit maximaler Effizienz einsetzen kannst.",
-    "results": {
-        "counters": {
-            "title": "Konter",
-            "moveSetOrderingDescription": "Die Angriffsmuster sind von schwer nach leicht sortiert. Schau dir auf jeden Fall mehrere an, die Ergebnisse können sehr unterschiedlich ausfallen!",
-            "chooseMovesetLabel": "Attacke auswählen",
-            "subtitle": "Die besten Angreifer nach Power-Ups sortiert nach",
-            "description": "Die folgende Analyse zeigt die Pokemon, die das Potential haben, die stärksten Angreifer hinsichtlich {{sort}} gegen {{pokemon}} zu sein."
-        },
-        "hardestMovesets": {
-            "title": "Schwierigste Raids",
-            "subtitle": "Für {{pokemon}} nach {{sort}}",
-            "tableTitle": "Schwerstes Angriffsmuster",
-            "description": "Die Schwierigkeit des Raids kann sehr unterschiedlich ausfallen, je nachdem welches Angriffsmuster das verteidigende Pokemon hat!"
-        },
-        "analysis": {
-            "title": "Über diese Analyse",
-            "attackers": {
-                "byLevel": "Level {{attackerLevel}} Angreifern",
-                "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
-            },
-            "description": "Diese Raid-Beratung basiert auf der Kampfsimulation eines verteidigenden {{defender.pokemon}} mit {{defender.cp}} WP und {{attackers}}. Die Simulation wurde mit der {{attackStrategy}} Angriffstrategie basierend auf dem {{defenseStrategy}} Simulationstyp durchgefürt. {{numSims}} Simulationen wurden durchgeführt, mit jedem möglichen Attackenmuster von {{defender.pokemon}}, gegen jedes einzelne Pokemon mit jedem möglichen Attackenmuster. Die 20 besten Angreifer mit ihren besten Attacken wurde basierend auf {{sort}} behalten und hier dargestellt. Du kannst auf jeden der Angreifer klicken, um die Simulationen zu sehen und verschiedene Attacken auszuprobieren."
-        },
-        "title": "Raid-Beratung für {{attacker}} gegen {{defender}}",
-        "calculating": "Raid-Beratung wird ermittelt",
-        "description": "Willkommen zur Pokebattler Raid-Beratung für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung. Außerdem kannst du die Menge an Sternenstaub und Bonbons wählen, die du zur Verfügung hast.",
-        "meta": {
-            "description": "Pokemon Go Raid Beratungsergebnisse für {{attacker}} gegen {{defender}} findet die besten zu trainierenden Pokemon um jeden Raidboss zu besiegen.",
-            "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
-        }
+  "linkLabel": "Raid-Guide",
+  "intro": "Die Pokebattler-Beratung ist ein Feature, das dir dabei hilft, deine Pokebox passgenau für einzelne Raids zu verbessern. Wähl einfach den Raid-Boss aus, gegen den du deine besten möglichen Kandidaten zum Angreifen finden willst, und gib den Sternenstaub und die Bonbons ein, die du zur Verfügung hast, damit du sehen kannst, wie sich deine Pokemon nach ein paar Power-Ups verhalten. Dieses Tool hilft dir bei der Beurteilung, welche Pokemon am meisten von Sternenstaub und Bonbons profitieren, damit du weißt, wie du deine Ressourcen mit maximaler Effizienz einsetzen kannst.",
+  "results": {
+    "counters": {
+      "title": "Konter",
+      "moveSetOrderingDescription": "Die Angriffsmuster sind von schwer nach leicht sortiert. Schau dir auf jeden Fall mehrere an, die Ergebnisse können sehr unterschiedlich ausfallen!",
+      "chooseMovesetLabel": "Attacke auswählen",
+      "subtitle": "Die besten Angreifer nach Power-Ups sortiert nach",
+      "description": "Die folgende Analyse zeigt die Pokemon, die das Potential haben, die stärksten Angreifer hinsichtlich {{sort}} gegen {{pokemon}} zu sein."
     },
-    "title": "Raid Beratung",
-    "pokeboxRequired": "Damit die Pokebattler-Beratung richtig funktioniert, musst du deine Pokemon in deine Pokebox eintragen. Melde dich einfach an und füge deine stärksten Pokemon zu deiner Pokebox hinzu, damit die besten Pokemon für Power-Ups gefunden werden können.",
-    "intro2": "Nachdem du eine Simulation durchgeführt hast, kannst du auf jedes Pokemon klicken, um zu sehen, wie viel es sich mit jedem Power-Up verbessert. Oft gibt es Breakpoints, bei denen du aufhören kannst, deinem Pokemon Power-Ups zu geben, um dir Sternenstaub und Bonbons zu sparen! Im Gegensatz zu anderen Breakpoint-Tools, die du vielleicht kennst, findet diese Seite sie mit empirischen Mitteln, und deshalb auch solche, die nicht auf der Hand liegen.",
-    "inputs": {
-        "title": "Beratungseinstellungen",
-        "subtitle": "Wofür brauchst du eine Beratung?"
+    "hardestMovesets": {
+      "title": "Schwierigste Raids",
+      "subtitle": "Für {{pokemon}} nach {{sort}}",
+      "tableTitle": "Schwerstes Angriffsmuster",
+      "description": "Die Schwierigkeit des Raids kann sehr unterschiedlich ausfallen, je nachdem welches Angriffsmuster das verteidigende Pokemon hat!"
     },
-    "buttonLabel": "Pokemon Power-Up",
-    "result": {
-        "description": "Das Ergebnis von jedem Power-Up von {{attacker}} gegen {{defender}} als Raid-Boss ist hier zu sehen. Die Ergebnisse fallen unterschiedlich aus, je nach dem Angriffsmuster von {{defender}}.",
-        "summaryStart": "Anfangsergebnisse",
-        "summaryEnd": "Aufwertungsergebnisse",
-        "graphTitle": "{{yAxis}} Gegen {{xAxis}}",
-        "detail": "Detaillierte Ergebnisse für jede Aufwertung",
-        "back": "Zurück zu den Beratungseinstellungen",
-        "title": "Raid Beratungsdetails für {{attacker}} gegen {{defender}}",
-        "meta": {
-            "description": "Pokemon Go Raid Beratungsdetails für {{attacker}} gegen {{defender}} zeigt Breakpoints und Sternenstaub-Effizienz",
-            "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
-        },
-        "subTitle": "{{attacker}} gegen {{defender}}",
-        "powerUpDialog": {
-            "title": "Aufwerten",
-            "description": "Möchtest du {{pokemon}} {{powerUps}} mal auf {{cp}} aufwerten?",
-            "submit": "Ja",
-            "cancel": "Nein"
-        }
+    "analysis": {
+      "title": "Über diese Analyse",
+      "attackers": {
+        "byLevel": "Level {{attackerLevel}} Angreifern",
+        "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
+      },
+      "description": "Diese Raid-Beratung basiert auf der Kampfsimulation eines verteidigenden {{defender.pokemon}} mit {{defender.cp}} WP und {{attackers}}. Die Simulation wurde mit der {{attackStrategy}} Angriffstrategie basierend auf dem {{defenseStrategy}} Simulationstyp durchgefürt. {{numSims}} Simulationen wurden durchgeführt, mit jedem möglichen Attackenmuster von {{defender.pokemon}}, gegen jedes einzelne Pokemon mit jedem möglichen Attackenmuster. Die 20 besten Angreifer mit ihren besten Attacken wurde basierend auf {{sort}} behalten und hier dargestellt. Du kannst auf jeden der Angreifer klicken, um die Simulationen zu sehen und verschiedene Attacken auszuprobieren."
     },
-    "raidLink": "Dieses Ergebnis ohne Power-Ups anzeigen",
-    "helpLink": "Sieh dir das Raid Hinweis Tutorial an",
+    "title": "Raid-Beratung für {{attacker}} gegen {{defender}}",
+    "calculating": "Raid-Beratung wird ermittelt",
+    "description": "Willkommen zur Pokebattler Raid-Beratung für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung. Außerdem kannst du die Menge an Sternenstaub und Bonbons wählen, die du zur Verfügung hast.",
     "meta": {
-        "description": "Die Pokemon Go Raid Beratung hilft dir die Pokemon zu finden, die du für Raid Bosse trainieren solltest dabei Bonbons und Sternenstaub effektive auszugeben",
-        "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+      "description": "Pokemon Go Raid Beratungsergebnisse für {{attacker}} gegen {{defender}} findet die besten zu trainierenden Pokemon um jeden Raidboss zu besiegen.",
+      "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
     }
+  },
+  "title": "Raid Beratung",
+  "pokeboxRequired": "Damit die Pokebattler-Beratung richtig funktioniert, musst du deine Pokemon in deine Pokebox eintragen. Melde dich einfach an und füge deine stärksten Pokemon zu deiner Pokebox hinzu, damit die besten Pokemon für Power-Ups gefunden werden können.",
+  "intro2": "Nachdem du eine Simulation durchgeführt hast, kannst du auf jedes Pokemon klicken, um zu sehen, wie viel es sich mit jedem Power-Up verbessert. Oft gibt es Breakpoints, bei denen du aufhören kannst, deinem Pokemon Power-Ups zu geben, um dir Sternenstaub und Bonbons zu sparen! Im Gegensatz zu anderen Breakpoint-Tools, die du vielleicht kennst, findet diese Seite sie mit empirischen Mitteln, und deshalb auch solche, die nicht auf der Hand liegen.",
+  "inputs": {
+    "title": "Beratungseinstellungen",
+    "subtitle": "Wofür brauchst du eine Beratung?"
+  },
+  "buttonLabel": "Pokemon Power-Up",
+  "result": {
+    "description": "Das Ergebnis von jedem Power-Up von {{attacker}} gegen {{defender}} als Raid-Boss ist hier zu sehen. Die Ergebnisse fallen unterschiedlich aus, je nach dem Angriffsmuster von {{defender}}.",
+    "summaryStart": "Anfangsergebnisse",
+    "summaryEnd": "Aufwertungsergebnisse",
+    "graphTitle": "{{yAxis}} Gegen {{xAxis}}",
+    "detail": "Detaillierte Ergebnisse für jede Aufwertung",
+    "back": "Zurück zu den Beratungseinstellungen",
+    "title": "Raid Beratungsdetails für {{attacker}} gegen {{defender}}",
+    "meta": {
+      "description": "Pokemon Go Raid Beratungsdetails für {{attacker}} gegen {{defender}} zeigt Breakpoints und Sternenstaub-Effizienz",
+      "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
+    },
+    "subTitle": "{{attacker}} gegen {{defender}}",
+    "powerUpDialog": {
+      "title": "Aufwerten",
+      "description": "Möchtest du {{pokemon}} {{powerUps}} mal auf {{cp}} aufwerten?",
+      "submit": "Ja",
+      "cancel": "Nein"
+    }
+  },
+  "raidLink": "Dieses Ergebnis ohne Power-Ups anzeigen",
+  "helpLink": "Sieh dir das Raid Hinweis Tutorial an",
+  "meta": {
+    "description": "Die Pokemon Go Raid Beratung hilft dir die Pokemon zu finden, die du für Raid Bosse trainieren solltest dabei Bonbons und Sternenstaub effektive auszugeben",
+    "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+  }
 }

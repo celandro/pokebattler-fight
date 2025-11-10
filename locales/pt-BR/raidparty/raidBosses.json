@@ -1,99 +1,99 @@
 {
-    "title": "Chefes de Reide",
-    "selectWeather": "Escolher clima",
-    "countersTitle": "Seus Counters",
-    "createParty": "Criar grupo",
-    "loadParty": "Ver #{{id}} do Grupo de Reide",
-    "raidParties": "$t(raidParties:title)",
-    "joinParty": "Entrar no Grupo",
-    "joinPrivate": "Entrar em Grupo Privado",
-    "leaveParty": "Sair do Grupo",
-    "finishParty": "Terminar Reide",
-    "copyTrainers": "Copiar Treinadores",
-    "confirmFriend": "Confirmar amigo",
-    "viewParty": "Ver Grupo",
-    "remote": "Remoto",
-    "ready": "Local",
-    "remoteReady": "Remoto ✅",
-    "needsFriend": "Solicitação de amizade enviada",
-    "customBoss": "Personalizar",
-    "actionButtonsDescription": "Simular seu grupo de reide",
-    "quickSettings": {
-        "title": "Configurações Rápidas"
+  "title": "Chefes de Reide",
+  "selectWeather": "Escolher clima",
+  "countersTitle": "Seus Counters",
+  "createParty": "Criar grupo",
+  "loadParty": "Ver #{{id}} do Grupo de Reide",
+  "raidParties": "$t(raidParties:title)",
+  "joinParty": "Entrar no Grupo",
+  "joinPrivate": "Entrar em Grupo Privado",
+  "leaveParty": "Sair do Grupo",
+  "finishParty": "Terminar Reide",
+  "copyTrainers": "Copiar Treinadores",
+  "confirmFriend": "Confirmar amigo",
+  "viewParty": "Ver Grupo",
+  "remote": "Remoto",
+  "ready": "Local",
+  "remoteReady": "Remoto ✅",
+  "needsFriend": "Solicitação de amizade enviada",
+  "customBoss": "Personalizar",
+  "actionButtonsDescription": "Simular seu grupo de reide",
+  "quickSettings": {
+    "title": "Configurações Rápidas"
+  },
+  "summary": {
+    "title": "Simulação de Reide {{defender}}",
+    "tab": "Resumo",
+    "tabIcon": "poll",
+    "description": "Esses são seus 6 melhores counters para derrotar um chefe de reide {{defender}} {{tier}}. Toque em Criar Grupo de Reide ou Entrar em Grupo de Reide para pedir ajuda e derrotar este chefe!",
+    "rejoin": "Reunido em {{rejoinSeconds}}s",
+    "settings": {
+      "suggestPokebox": "Depois de pegar o jeito, você deve ajustar suas configurações para usar sua Pokebox, que você pode preencher rapidamente na guia alternativa",
+      "BATTLE_PARTY_LEVEL_20": "Usando os melhores counters de nível 20. Esta é uma ótima configuração padrão para começar. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_25": "Usando os melhores counters de nível 25. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_30": "Usando os melhores counters de nível 30. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_35": "Usando os melhores contadores de nível 35. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_40": "Usando os melhores contadores de nível 40. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_45": "Usando os melhores contadores de nível 45. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_50": "Usando os melhores contadores de nível 50. $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_POKEBOX": "Usando seus melhores counters. Não vê o que você tem aqui? Adicione Pokémons à sua Pokebox, que você pode preencher rapidamente na guia alternativa"
     },
-    "summary": {
-        "title": "Simulação de Reide {{defender}}",
-        "tab": "Resumo",
-        "tabIcon": "poll",
-        "description": "Esses são seus 6 melhores counters para derrotar um chefe de reide {{defender}} {{tier}}. Toque em Criar Grupo de Reide ou Entrar em Grupo de Reide para pedir ajuda e derrotar este chefe!",
-        "rejoin": "Reunido em {{rejoinSeconds}}s",
-        "settings": {
-            "suggestPokebox": "Depois de pegar o jeito, você deve ajustar suas configurações para usar sua Pokebox, que você pode preencher rapidamente na guia alternativa",
-            "BATTLE_PARTY_LEVEL_20": "Usando os melhores counters de nível 20. Esta é uma ótima configuração padrão para começar. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_25": "Usando os melhores counters de nível 25. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_30": "Usando os melhores counters de nível 30. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_35": "Usando os melhores contadores de nível 35. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_40": "Usando os melhores contadores de nível 40. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_45": "Usando os melhores contadores de nível 45. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_50": "Usando os melhores contadores de nível 50. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_POKEBOX": "Usando seus melhores counters. Não vê o que você tem aqui? Adicione Pokémons à sua Pokebox, que você pode preencher rapidamente na guia alternativa"
-        },
-        "emptyPokebox": "Resultados personalizados aparecerão aqui depois de adicionar Pokémons à sua Pokebox. Tente adicionar o Pokémon que você tem na terceira guia."
-    },
-    "counters": {
-        "title": "Counters do {{defender}}",
-        "tab": "Counters",
-        "description": "Esses são seus 6 melhores counters para derrotar um chefe de reide {{defender}} {{tier}}. Adicione um Pokémon alternativo ao seu grupo abaixo!"
-    },
-    "combatants": {
-        "title": "Combatentes do {{defender}}",
-        "tab": "Combatentes",
-        "description": "O Pokebattler realizou 200 simulações de reides para cada counter possível para escolher qual Pokémon usar. Os 6 primeiros colocados foram rodados em 200 simulações como um grupo. A seguir estão os detalhes de combate de um resultado típico."
-    },
-    "joinPartyDialog": {
-        "title": "Entrar no Grupo",
-        "description": "Digite a identificação do grupo do seu amigo para ver os resultados do grupo de reide",
-        "partyIdPlaceholder": "Grupo de Reide Pokebattler #",
-        "join": "Entrar",
-        "cancel": "Cancelar",
-        "fetch": "Buscar",
-        "errors": {
-            "pokemonMismatch": "O Grupo de Reide {{id}} é para {{raidPartyPokemon}}, não {{pokemon}}."
-        }
-    },
-    "multiParty": {
-        "title": "#{{id}} {{defender}}"
-    },
-    "raidPartyCard": {
-        "title": "{{defender}}",
-        "id": "$t(raidBosses:joinParty) #{{id}}",
-        "summary": "{{numReadyPlayers}} de {{players}} jogadores estão prontos. O grupo de {{ownerName}} foi criado em {{createdAt}}",
-        "emptyPokebox": "Pokebox vazia, usando padrões",
-        "egg": "Ovo"
-    },
-    "raidPartyPlayer": {
-        "title": "{{name}}",
-        "id": "#{{id}}",
-        "addFriendCode": "Adicionar Código de Amigo",
-        "userLevel": "Nível {{level}}"
-    },
+    "emptyPokebox": "Resultados personalizados aparecerão aqui depois de adicionar Pokémons à sua Pokebox. Tente adicionar o Pokémon que você tem na terceira guia."
+  },
+  "counters": {
+    "title": "Counters do {{defender}}",
+    "tab": "Counters",
+    "description": "Esses são seus 6 melhores counters para derrotar um chefe de reide {{defender}} {{tier}}. Adicione um Pokémon alternativo ao seu grupo abaixo!"
+  },
+  "combatants": {
+    "title": "Combatentes do {{defender}}",
+    "tab": "Combatentes",
+    "description": "O Pokebattler realizou 200 simulações de reides para cada counter possível para escolher qual Pokémon usar. Os 6 primeiros colocados foram rodados em 200 simulações como um grupo. A seguir estão os detalhes de combate de um resultado típico."
+  },
+  "joinPartyDialog": {
+    "title": "Entrar no Grupo",
+    "description": "Digite a identificação do grupo do seu amigo para ver os resultados do grupo de reide",
+    "partyIdPlaceholder": "Grupo de Reide Pokebattler #",
+    "join": "Entrar",
+    "cancel": "Cancelar",
+    "fetch": "Buscar",
     "errors": {
-        "failed": "Falha ao obter chefes de reide!",
-        "party": "Falha ao encontrar o grupo ideal",
-        "rankings": "Falha ao recuperar classificações de atacantes"
-    },
-    "chips": {
-        "estimator": "Jogadores Necessários",
-        "power": "Dano do Grupo",
-        "deaths": "Pokémons Derrotados",
-        "tdo": "Dano Causado",
-        "win": "Chance de Vitória",
-        "time": "Tempo do Combate"
-    },
-    "breakingNews": {
-        "from": "De",
-        "until": "Até",
-        "localTime": "HORÁRIO LOCAL"
-    },
-    "autocomplete": "Escolha o Chefe da Reide Personalizada"
+      "pokemonMismatch": "O Grupo de Reide {{id}} é para {{raidPartyPokemon}}, não {{pokemon}}."
+    }
+  },
+  "multiParty": {
+    "title": "#{{id}} {{defender}}"
+  },
+  "raidPartyCard": {
+    "title": "{{defender}}",
+    "id": "$t(raidBosses:joinParty) #{{id}}",
+    "summary": "{{numReadyPlayers}} de {{players}} jogadores estão prontos. O grupo de {{ownerName}} foi criado em {{createdAt}}",
+    "emptyPokebox": "Pokebox vazia, usando padrões",
+    "egg": "Ovo"
+  },
+  "raidPartyPlayer": {
+    "title": "{{name}}",
+    "id": "#{{id}}",
+    "addFriendCode": "Adicionar Código de Amigo",
+    "userLevel": "Nível {{level}}"
+  },
+  "errors": {
+    "failed": "Falha ao obter chefes de reide!",
+    "party": "Falha ao encontrar o grupo ideal",
+    "rankings": "Falha ao recuperar classificações de atacantes"
+  },
+  "chips": {
+    "estimator": "Jogadores Necessários",
+    "power": "Dano do Grupo",
+    "deaths": "Pokémons Derrotados",
+    "tdo": "Dano Causado",
+    "win": "Chance de Vitória",
+    "time": "Tempo do Combate"
+  },
+  "breakingNews": {
+    "from": "De",
+    "until": "Até",
+    "localTime": "HORÁRIO LOCAL"
+  },
+  "autocomplete": "Escolha o Chefe da Reide Personalizada"
 }

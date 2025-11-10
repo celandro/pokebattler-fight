@@ -1,29 +1,33 @@
 {
-    "add": {
-        "clearSearch": "Törlés",
-        "searchPlaceholder": "Név, kód vagy azonosító",
-        "cancelAddFriend": "Visszavonás",
-        "supportedSearches": "Írja be a barátkódot, az edző nevét, a discord nevet vagy a Pokebattler azonosítót a keresősávba, és állítsa be a barátja szintjét.",
-        "addFriend": "Add hozzá Pokebattler-barátod",
-        "friendId": "Pokebattler azonosító",
-        "noSearchText": "Találd meg a barátaidat",
-        "friendLevel": "Barátság szint",
-        "noSearchResults": "Nem található barát, próbálkozzon újra!"
-    },
-    "noFriend": {
-        "addFriend": "Add hozzá ismerőseidet a jobb alsó sarokban található Hozzáadás gombra kattintva.",
-        "description": "Barátok hozzáadása utan értesítéseket küld Önnek, amikor raid partikat hoznak létre, és lehetővé teszi, hogy megtekinthesse a nemrégiben létrehozott raideket. Győződjön meg arról, hogy a megfelelő ismerős szintet állította be, hogy a barátság szintje automatikusan beálljon a raid parti szimulációkban.",
-        "title": "Adja hozzá barátait a Pokebattlerhez!"
-    },
-    "errors": {
-        "failed": "Nem sikerült lekérni a barátlistát",
-        "update": "Az ismerős frissítése nem sikerült",
-        "delete": "Az ismerős törlése nem sikerült",
-        "add": "Az ismerős hozzáadása nem sikerült"
-    },
-    "levels": {
-        "FRIENDSHIP_LEVEL": "Not friends\nGood friends\nGreat friends\nUltra friends\nBest friends",
-        "FRIENDSHIP_LEVEL_plural": "Nem barátok\nJó barátok\nRemek barátok\nUltra barátok\nLegjobb barátok"
-    },
-    "title": "Barátok"
+  "add": {
+    "clearSearch": "Törlés",
+    "searchPlaceholder": "Név, kód vagy azonosító",
+    "cancelAddFriend": "Visszavonás",
+    "supportedSearches": "Írja be a barátkódot, az edző nevét, a discord nevet vagy a Pokebattler azonosítót a keresősávba, és állítsa be a barátja szintjét.",
+    "addFriend": "Add hozzá Pokebattler-barátod",
+    "friendId": "Pokebattler azonosító",
+    "noSearchText": "Találd meg a barátaidat",
+    "friendLevel": "Barátság szint",
+    "noSearchResults": "Nem található barát, próbálkozzon újra!"
+  },
+  "noFriend": {
+    "addFriend": "Add hozzá ismerőseidet a jobb alsó sarokban található Hozzáadás gombra kattintva.",
+    "description": "Barátok hozzáadása utan értesítéseket küld Önnek, amikor raid partikat hoznak létre, és lehetővé teszi, hogy megtekinthesse a nemrégiben létrehozott raideket. Győződjön meg arról, hogy a megfelelő ismerős szintet állította be, hogy a barátság szintje automatikusan beálljon a raid parti szimulációkban.",
+    "title": "Adja hozzá barátait a Pokebattlerhez!"
+  },
+  "errors": {
+    "failed": "Nem sikerült lekérni a barátlistát",
+    "update": "Az ismerős frissítése nem sikerült",
+    "delete": "Az ismerős törlése nem sikerült",
+    "add": "Az ismerős hozzáadása nem sikerült"
+  },
+  "levels": {
+    "FRIENDSHIP_LEVEL_UNSET": "Not friends",
+    "FRIENDSHIP_LEVEL_0": "New friends",
+    "FRIENDSHIP_LEVEL_1": "Good friends",
+    "FRIENDSHIP_LEVEL_2": "Great friends",
+    "FRIENDSHIP_LEVEL_3": "Ultra friends",
+    "FRIENDSHIP_LEVEL_4": "Best friends"
+  },
+  "title": "Barátok"
 }

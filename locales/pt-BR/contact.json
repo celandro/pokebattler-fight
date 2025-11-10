@@ -1,29 +1,29 @@
 {
-    "title": "Contate-nos",
-    "contactInfo": "Informações de Contato",
-    "feedbackText": "Nós do Pokebattler amamos receber seu feedback! Seja para pedir uma nova funcionalidade, ou reportar um a bug ou apenas um agradecimento, nós apreciamos de verdade nossos usuários e fazemos nosso melhor para que este seja o único site que você precisa usar para as batalhas em ginásios do Pokemon Go.",
-    "email": "Envie-me uma mensagem privada em",
-    "facebook": "Conecte-se no Facebook",
-    "meta": {
-        "description": "Envie-nos uma mensagem ou siga nossas redes sociais para receber as última novidades no Simulador Pokemon GO Mais Preciso #1 do Mundo",
-        "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  "title": "Contate-nos",
+  "contactInfo": "Informações de Contato",
+  "feedbackText": "Nós do Pokebattler amamos receber seu feedback! Seja para pedir uma nova funcionalidade, ou reportar um a bug ou apenas um agradecimento, nós apreciamos de verdade nossos usuários e fazemos nosso melhor para que este seja o único site que você precisa usar para as batalhas em ginásios do Pokemon Go.",
+  "email": "Envie-me uma mensagem privada em",
+  "facebook": "Conecte-se no Facebook",
+  "meta": {
+    "description": "Envie-nos uma mensagem ou siga nossas redes sociais para receber as última novidades no Simulador Pokemon GO Mais Preciso #1 do Mundo",
+    "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  },
+  "button": {
+    "reddit": {
+      "title": "Discussões no Reddit",
+      "subtitle": "Notícias e Anúncios em /r/pokebattler"
     },
-    "button": {
-        "reddit": {
-            "title": "Discussões no Reddit",
-            "subtitle": "Notícias e Anúncios em /r/pokebattler"
-        },
-        "twitter": {
-            "title": "Me mande um Tweet",
-            "subtitle": "Notícias e mensagens gerais de @Pokebattler_com"
-        },
-        "youtube": {
-            "title": "Assista nossos vídeos",
-            "subtitle": "Vídeos de Guias de Reide e Tutoriais do Pokebattler"
-        },
-        "facebook": {
-            "title": "Conecte no Facebook",
-            "subtitle": "Conte aos seus amigos sobre nós"
-        }
+    "twitter": {
+      "title": "Me mande um Tweet",
+      "subtitle": "Notícias e mensagens gerais de @Pokebattler_com"
+    },
+    "youtube": {
+      "title": "Assista nossos vídeos",
+      "subtitle": "Vídeos de Guias de Reide e Tutoriais do Pokebattler"
+    },
+    "facebook": {
+      "title": "Conecte no Facebook",
+      "subtitle": "Conte aos seus amigos sobre nós"
     }
+  }
 }

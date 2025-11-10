@@ -1,80 +1,107 @@
 {
-    "title": "Configurações",
-    "form": {
-        "playerName": "Nome do Treinador",
-        "playerLevel": "Level",
-        "playerFaction": "Facção",
-        "autoRaidParty": "Auto Raid Party",
-        "discordUsername": "Usuário do Discord",
-        "language": "Idioma",
-        "title": "Configuração de Raid Global",
-        "basics": "Básico",
-        "includeShadow": "Sombroso",
-        "includeLegendary": "Lendário",
-        "includeMegas": "Megas",
-        "weather": "Clima",
-        "sort": "Organizar",
-        "friendLevel": "Amizade",
-        "disclaimerText": "Está tendo problemas para vincular? Envie um e-mail para admin@pokebattler.com com as duas IDs de usuário do Pokebattler",
-        "raidCounterSettings": "Configurações de Counter de Reide",
-        "pushNotificationSettings": "Configurações de Notificação",
-        "friendCode": "Código de Amigo",
-        "subtitle": "Informações de jogador necessárias",
-        "discordConnect": "A rede de Pokebattler Raid Party inclui reides que são coordenadas usando o Discord. Para participar de uma reide pelo Discord, conecte sua conta Pokebattler a uma conta Discord nova ou existente.",
-        "correctness": "O nome correto do Treinador e o código do amigo são necessários para uma boa coordenação do grupo de reide",
-        "numRemoteInvites": "Convites Remotos",
-        "randomAssistants": "Jogadores Adicionais"
+  "title": "Configurações",
+  "form": {
+    "playerName": "Nome do Treinador",
+    "playerLevel": "Level",
+    "playerFaction": "Facção",
+    "autoRaidParty": "Auto Raid Party",
+    "discordUsername": "Usuário do Discord",
+    "language": "Idioma",
+    "title": "Configuração de Raid Global",
+    "basics": "Básico",
+    "includeShadow": "Sombroso",
+    "includeLegendary": "Lendário",
+    "includeMegas": "Megas",
+    "weather": "Clima",
+    "sort": "Organizar",
+    "friendLevel": "Amizade",
+    "disclaimerText": "Está tendo problemas para vincular? Envie um e-mail para admin@pokebattler.com com as duas IDs de usuário do Pokebattler",
+    "raidCounterSettings": "Configurações de Counter de Reide",
+    "pushNotificationSettings": "Configurações de Notificação",
+    "friendCode": "Código de Amigo",
+    "subtitle": "Informações de jogador necessárias",
+    "discordConnect": "A rede de Pokebattler Raid Party inclui reides que são coordenadas usando o Discord. Para participar de uma reide pelo Discord, conecte sua conta Pokebattler a uma conta Discord nova ou existente.",
+    "correctness": "O nome correto do Treinador e o código do amigo são necessários para uma boa coordenação do grupo de reide",
+    "numRemoteInvites": "Convites Remotos",
+    "randomAssistants": "Jogadores Adicionais",
+    "karma": "Karma",
+    "coins": "Coins",
+    "theme": "Theme",
+    "themeOptions": {
+      "system": "System Default",
+      "light": "Light",
+      "dark": "Dark"
     },
-    "autoRaidPartyOptions": {
-        "BATTLE_PARTY_POKEBOX": "Pokebox",
-        "BATTLE_PARTY_LEVEL_20": "Nível 20",
-        "BATTLE_PARTY_LEVEL_25": "Nível 25",
-        "BATTLE_PARTY_LEVEL_30": "Nível 30",
-        "BATTLE_PARTY_LEVEL_35": "Nível 35",
-        "BATTLE_PARTY_LEVEL_40": "Nível 40",
-        "BATTLE_PARTY_LEVEL_45": "Nível 45",
-        "BATTLE_PARTY_LEVEL_50": "Nível 50"
+    "themeWarnings": {
+      "light": "",
+      "dark": "",
+      "system": "Requires app restart"
     },
-    "updateSetting": {
-        "success": "Configurações do usuário atualizadas corretamente",
-        "errors": {
-            "updateSettingGeneral": "Houve um erro ao alterar suas configurações",
-            "friendCodeLength": "O código de amigo deve ter exatamente 12 caracteres"
-        },
-        "autoBattleParty": "Alternando counters para sua Pokebox"
+    "friendCodeHint": "Paste your friend code here. It should be 12 digits, no spaces"
+  },
+  "autoRaidPartyOptions": {
+    "BATTLE_PARTY_POKEBOX": "Pokebox",
+    "BATTLE_PARTY_LEVEL_20": "Nível 20",
+    "BATTLE_PARTY_LEVEL_25": "Nível 25",
+    "BATTLE_PARTY_LEVEL_30": "Nível 30",
+    "BATTLE_PARTY_LEVEL_35": "Nível 35",
+    "BATTLE_PARTY_LEVEL_40": "Nível 40",
+    "BATTLE_PARTY_LEVEL_45": "Nível 45",
+    "BATTLE_PARTY_LEVEL_50": "Nível 50"
+  },
+  "updateSetting": {
+    "success": "Configurações do usuário atualizadas corretamente",
+    "errors": {
+      "updateSettingGeneral": "Houve um erro ao alterar suas configurações",
+      "friendCodeLength": "O código de amigo deve ter exatamente 12 caracteres",
+      "themeSaveFailed": "Failed to save theme preference"
     },
-    "notifications": {
-        "groups": {
-            "raidParty": {
-                "name": "Grupo de Reide",
-                "description": "Notifica sobre reides que podem ser do seu interesse"
-            }
-        },
-        "channels": {
-            "createParty": {
-                "name": "Criar Grupo de Reide",
-                "description": "Criação de grupos de reide pelos seus amigos."
-            },
-            "updateParty": {
-                "name": "Atualizar grupo de reide",
-                "description": "Configurando mudanças para seus grupos de reide."
-            },
-            "deleteParty": {
-                "name": "Cancelar grupo de reide",
-                "description": "Grupo de reide cancelado."
-            },
-            "addUser": {
-                "name": "Um jogador entrou no grupo",
-                "description": "Um jogador se juntou ao seu grupo."
-            },
-            "removeUser": {
-                "name": "O jogador saiu do grupo",
-                "description": "O jogador saiu do seu grupo de reide."
-            },
-            "updateUser": {
-                "name": "Grupo atualizado pelo jogador",
-                "description": "Um jogador no seu grupo atualizou suas configurações."
-            }
-        }
+    "autoBattleParty": "Alternando counters para sua Pokebox"
+  },
+  "notifications": {
+    "groups": {
+      "raidParty": {
+        "name": "Grupo de Reide",
+        "description": "Notifica sobre reides que podem ser do seu interesse"
+      }
+    },
+    "channels": {
+      "createParty": {
+        "name": "Criar Grupo de Reide",
+        "description": "Criação de grupos de reide pelos seus amigos."
+      },
+      "updateParty": {
+        "name": "Atualizar grupo de reide",
+        "description": "Configurando mudanças para seus grupos de reide."
+      },
+      "deleteParty": {
+        "name": "Cancelar grupo de reide",
+        "description": "Grupo de reide cancelado."
+      },
+      "addUser": {
+        "name": "Um jogador entrou no grupo",
+        "description": "Um jogador se juntou ao seu grupo."
+      },
+      "removeUser": {
+        "name": "O jogador saiu do grupo",
+        "description": "O jogador saiu do seu grupo de reide."
+      },
+      "updateUser": {
+        "name": "Grupo atualizado pelo jogador",
+        "description": "Um jogador no seu grupo atualizou suas configurações."
+      },
+      "kickedUser": {
+        "name": "Kicked User",
+        "description": "User was kicked from party."
+      },
+      "raidInvitingNow": {
+        "name": "Raid Inviting",
+        "description": "Raid invites going out now"
+      },
+      "raidStartingNow": {
+        "name": "Raid Starting",
+        "description": "Raid starting now"
+      }
     }
+  }
 }

@@ -1,28 +1,28 @@
 {
-    "profile": {
-        "meta": {
-            "image": "https://static.pokebattler.com/images/og_home.png",
-            "description": "Veja o perfil público do Usuário #{{profileId}}. Veja quais Pokémons {{name}} está usando!"
-        },
-        "title": "Perfil Público do Usuário #{{profileId}}",
-        "description": "Os perfis Pokebattler agora são compartilháveis. Por enquanto, tudo que você pode fazer é mostrar aos seus amigos os Pokémons que você tem, mas prometemos novidades em breve! "
+  "profile": {
+    "meta": {
+      "image": "https://static.pokebattler.com/images/og_home.png",
+      "description": "Veja o perfil público do Usuário #{{profileId}}. Veja quais Pokémons {{name}} está usando!"
     },
-    "search": {
-        "description": "Encontre seus amigos! Você pode pesquisar pelo nome do treinador ou pela ID de usuário Pokebattler. Este recurso foi projetado para permitir que você compartilhe rapidamente com seus amigos o conteúdo de sua pokebox!",
-        "input": {
-            "title": "Encontre seu amigo",
-            "subtitle": "O ID do usuário pode ser encontrado no canto superior direito",
-            "label": "# de usuário Pokebattler ou Nome do Treinador"
-        },
-        "title": "Perfis Públicos do Pokebattler",
-        "meta": {
-            "description": "Veja o perfil público de outros usuários Pokebattler.",
-            "image": "https://static.pokebattler.com/images/og_home.png"
-        },
-        "results": {
-            "subtitle": "Página {{currentPage}}/{{totalPages}}",
-            "empty": "Nenhum treinador encontrado nesta busca",
-            "title": "{{totalElements}} Treinador(es) encontrado(s)"
-        }
+    "title": "Perfil Público do Usuário #{{profileId}}",
+    "description": "Os perfis Pokebattler agora são compartilháveis. Por enquanto, tudo que você pode fazer é mostrar aos seus amigos os Pokémons que você tem, mas prometemos novidades em breve! "
+  },
+  "search": {
+    "description": "Encontre seus amigos! Você pode pesquisar pelo nome do treinador ou pela ID de usuário Pokebattler. Este recurso foi projetado para permitir que você compartilhe rapidamente com seus amigos o conteúdo de sua pokebox!",
+    "input": {
+      "title": "Encontre seu amigo",
+      "subtitle": "O ID do usuário pode ser encontrado no canto superior direito",
+      "label": "# de usuário Pokebattler ou Nome do Treinador"
+    },
+    "title": "Perfis Públicos do Pokebattler",
+    "meta": {
+      "description": "Veja o perfil público de outros usuários Pokebattler.",
+      "image": "https://static.pokebattler.com/images/og_home.png"
+    },
+    "results": {
+      "subtitle": "Página {{currentPage}}/{{totalPages}}",
+      "empty": "Nenhum treinador encontrado nesta busca",
+      "title": "{{totalElements}} Treinador(es) encontrado(s)"
     }
+  }
 }

@@ -1,36 +1,99 @@
 {
-    "title": "Raid Bosse",
-    "selectWeather": "Wähle Wetter",
-    "countersTitle": "Deine Konter",
-    "createParty": "Erstelle Party",
-    "loadParty": "Raid Party #{{id}} anzeigen",
-    "joinParty": "Party beitreten",
-    "leaveParty": "Party verlassen",
-    "viewParty": "Party anzeigen",
-    "customBoss": "Anpassen",
-    "actionButtonsDescription": "Simuliere deine Raid Party Gruppe",
-    "quickSettings": {
-        "title": "Schnell-Einstellungen"
+  "title": "Raid Bosse",
+  "selectWeather": "Wähle Wetter",
+  "countersTitle": "Deine Konter",
+  "createParty": "Erstelle Party",
+  "loadParty": "Raid Party #{{id}} anzeigen",
+  "joinParty": "Party beitreten",
+  "leaveParty": "Party verlassen",
+  "viewParty": "Party anzeigen",
+  "customBoss": "Anpassen",
+  "actionButtonsDescription": "Simuliere deine Raid Party Gruppe",
+  "quickSettings": {
+    "title": "Schnell-Einstellungen"
+  },
+  "counters": {
+    "title": "{{defender}} Konter",
+    "description": "Dies sind deine Top 6 Konter um ein {{tier}} {{defender}} Raid Boss zu besiegen. Klicke Erstelle Raid Party oder Raid Party beitreten um Hilfe gegen diesen Boss zu erhalten.",
+    "tab": "Counters"
+  },
+  "copyTrainers": "Kopiere Trainer",
+  "remote": "Fern",
+  "ready": "Bereit",
+  "raidParties": "$t(raidParties:title)",
+  "joinPrivate": "Join Private Party",
+  "finishParty": "Finish Raid",
+  "confirmFriend": "Confirm Friend",
+  "remoteReady": "Remote ✅",
+  "needsFriend": "Friend Invite Sent",
+  "summary": {
+    "title": "{{defender}} Raid Simulation",
+    "tab": "Summary",
+    "tabIcon": "poll",
+    "description": "These are your top 6 counters to defeat a {{tier}} {{defender}} raid boss. Click Create RaidParty or Join Raid Party to get help vs. this boss!",
+    "rejoin": "Rejoined in {{rejoinSeconds}}s",
+    "settings": {
+      "suggestPokebox": "Once you get a hang of things, you should tweak your settings to use your Pokebox which you can quickly fill on the alternative tab",
+      "BATTLE_PARTY_LEVEL_20": "Using best level 20 counters. This is a great default setting to get started.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_25": "Using best level 25 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_30": "Using best level 30 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_35": "Using best level 35 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_40": "Using best level 40 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_45": "Using best level 45 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_50": "Using best level 50 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_POKEBOX": "Using your best counters. Don't see what you have here? Add Pokemon in your Pokebox which you can quickly fill on the counters tab"
     },
-    "counters": {
-        "title": "{{defender}} Konter",
-        "description": "Dies sind deine Top 6 Konter um ein {{tier}} {{defender}} Raid Boss zu besiegen. Klicke Erstelle Raid Party oder Raid Party beitreten um Hilfe gegen diesen Boss zu erhalten.",
-        "rejoin": "Erneut beigetreten in {{rejoinSeconds}}s",
-        "settings": {
-            "suggestPokebox": "Wenn du dich etwas mit allem vertraut gemacht hast, solltest du einstellen, dass deine Pokebox verwendet wird, welche du schnell im alternativen Tab füllen kannst",
-            "BATTLE_PARTY_LEVEL_20": "Benutzt die besten Level 20 Konter. Dies ist eine gute Standardeinstellung um anzufangen.  $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_25": "Benutzt die besten Level 25 Konter.",
-            "BATTLE_PARTY_LEVEL_30": "Benutzt die besten Level 30 Konter. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_35": "Benutzt die besten Level 35 Konter. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_40": "Benutzt die besten Level 40 Konter. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_45": "Benutzt die besten Level 45 Konter. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_50": "Benutzt die besten Level 50 Konter. $t(raidBosses:counters.settings.suggestPokebox)"
-        },
-        "details": {
-            "title": "Kampf Details"
-        }
-    },
-    "copyTrainers": "Kopiere Trainer",
-    "remote": "Fern",
-    "ready": "Bereit"
+    "emptyPokebox": "Custom results will be here after you add Pokemon to your Pokebox. Try adding pokemon that you have on the 3rd tab."
+  },
+  "combatants": {
+    "title": "{{defender}} Raid Party",
+    "tab": "Party",
+    "description": "Pokebattler performed 200 simulations of the raid battle for each possible counter to choose which Pokemon to use. The top 6 were then run in 200 simulations as a party. The following is the combatant details from a typical result."
+  },
+  "joinPartyDialog": {
+    "title": "Join Party",
+    "description": "Enter your friend's party id to see your raid party results",
+    "partyIdPlaceholder": "Pokebattler Raid Party #",
+    "join": "Join",
+    "cancel": "Cancel",
+    "fetch": "Fetch",
+    "errors": {
+      "pokemonMismatch": "Raid Party {{id}} is for {{raidPartyPokemon}} not {{pokemon}}."
+    }
+  },
+  "multiParty": {
+    "title": "#{{id}} {{defender}}"
+  },
+  "raidPartyCard": {
+    "title": "{{defender}}",
+    "id": "$t(raidBosses:joinParty) #{{id}}",
+    "summary": "{{numReadyPlayers}} out of {{players}} players are ready. {{ownerName}}'s party was created at {{createdAt}}",
+    "emptyPokebox": "Empty Pokebox, Using Defaults",
+    "egg": "Egg"
+  },
+  "raidPartyPlayer": {
+    "title": "{{name}}",
+    "id": "#{{id}}",
+    "addFriendCode": "Add Friend Code",
+    "userLevel": "Level {{level}}"
+  },
+  "errors": {
+    "failed": "Failed to get raid bosses!",
+    "party": "Failed to find optimal party",
+    "rankings": "Failed to retrieve attacker rankings"
+  },
+  "chips": {
+    "estimator": "Players Needed",
+    "power": "Group Damage",
+    "deaths": "Pokemon Faints",
+    "tdo": "Damage Dealt",
+    "win": "Chance To Win",
+    "time": "Combat Time"
+  },
+  "breakingNews": {
+    "from": "From",
+    "until": "Until",
+    "localTime": "Local Time"
+  },
+  "autocomplete": "Choose Custom Raid Boss"
 }

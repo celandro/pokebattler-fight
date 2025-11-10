@@ -1,94 +1,107 @@
 {
-    "title": "Preferencias",
-    "form": {
-        "basics": "Información Básica",
-        "playerName": "Nombre Entrenador",
-        "playerLevel": "Nivel",
-        "playerFaction": "Facción",
-        "autoRaidParty": "Grupo de Incursión Automático",
-        "includeShadow": "Oscuros",
-        "includeLegendary": "Legendarios",
-        "weather": "Clima",
-        "sort": "Ordenar",
-        "friendLevel": "Nivel de Amistad",
-        "discordUsername": "Usuario Discord",
-        "language": "Idioma",
-        "disclaimerText": "Problemas para enlazarse? Envie un email a admin@pokebattler.com con ambos identificadores de usuario de Pokebattler",
-        "raidCounterSettings": "Configuración de Atacantes de Incursión",
-        "includeMegas": "Megas",
-        "pushNotificationSettings": "Configuración de Notificaciones push",
-        "friendCode": "Código de amigo",
-        "title": "Configuración Global de Incursiones",
-        "subtitle": "Información requerida del jugador",
-        "discordConnect": "Pokebattler Raid Party Network incluye incursiones que son coordinadas por medio de Discord. Para unirte a una incursión Discord conecta tu cuenta Pokebattler con una cuenta Discord nueva o existente.",
-        "correctness": "Nombre del Entrenador y Código de Amigo correctos son requeridos para una fluida coordinación del grupo de incursión",
-        "numRemoteInvites": "Invitaciones remotas",
-        "randomAssistants": "Jugadores adicionales",
-        "karma": "Karma",
-        "coins": "Monedas"
+  "title": "Configuración",
+  "form": {
+    "basics": "Información básica",
+    "playerName": "Nombre de entrenador",
+    "playerLevel": "Nivel",
+    "playerFaction": "Facción",
+    "autoRaidParty": "Contadores",
+    "includeShadow": "Oscuro",
+    "includeLegendary": "Legendario",
+    "weather": "Clima",
+    "sort": "Ordenar",
+    "friendLevel": "Amistad",
+    "discordUsername": "Nombre de usuario de Discord",
+    "language": "Idioma",
+    "disclaimerText": "¿Tienes problemas para vincular? Envía un correo electrónico a admin@pokebattler.com con tus dos ID de usuario de Pokebattler",
+    "raidCounterSettings": "Configuración de contadores de incursión",
+    "includeMegas": "Megas",
+    "pushNotificationSettings": "Configuración de notificaciones push",
+    "friendCode": "Código de amigo",
+    "title": "Configuración global de incursiones",
+    "subtitle": "Información requerida del jugador",
+    "discordConnect": "La Red de Incursiones de Pokebattler incluye incursiones que se coordinan mediante Discord. Para unirte a una incursión de Discord, conecta tu cuenta de Pokebattler con una cuenta de Discord nueva o existente.",
+    "correctness": "Se requiere un nombre de entrenador y un código de amigo correctos para una coordinación fluida del grupo de incursión",
+    "numRemoteInvites": "Invitaciones remotas",
+    "randomAssistants": "Jugadores adicionales",
+    "karma": "Karma",
+    "coins": "Monedas",
+    "theme": "Tema",
+    "themeOptions": {
+      "system": "Predeterminado del sistema",
+      "light": "Claro",
+      "dark": "Oscuro"
     },
-    "autoRaidPartyOptions": {
-        "BATTLE_PARTY_POKEBOX": "Pokebox",
-        "BATTLE_PARTY_LEVEL_20": "Nivel 20",
-        "BATTLE_PARTY_LEVEL_25": "Nivel 25",
-        "BATTLE_PARTY_LEVEL_30": "Nivel 30",
-        "BATTLE_PARTY_LEVEL_35": "Nivel 35",
-        "BATTLE_PARTY_LEVEL_40": "Nivel 40",
-        "BATTLE_PARTY_LEVEL_45": "Nivel 45",
-        "BATTLE_PARTY_LEVEL_50": "Nivel 50"
+    "themeWarnings": {
+      "light": "",
+      "dark": "",
+      "system": "Requiere reiniciar la aplicación"
     },
-    "updateSetting": {
-        "success": "Preferencias de usuario actualizadas correctamente",
-        "autoBattleParty": "Contadores de brujas a tu Pokebox",
-        "errors": {
-            "updateSettingGeneral": "Ocurrió un error actualizando tus preferencias",
-            "friendCodeLength": "El código de amigo debe tener exactamente 12 números de largo"
-        }
-    },
-    "notifications": {
-        "groups": {
-            "raidParty": {
-                "name": "Equipo de incursión",
-                "description": "Avisar de incursiones en que estás interesado"
-            }
-        },
-        "channels": {
-            "createParty": {
-                "name": "Crear equipo de incursión",
-                "description": "Creación de equipos de incursión por tus amigos."
-            },
-            "updateParty": {
-                "name": "Actualizar equipo de incursión",
-                "description": "Cambios en los ajustes para tus Equipos de incursión."
-            },
-            "deleteParty": {
-                "name": "Cancelar equipo de incursión",
-                "description": "Equipo de incursión cancelado."
-            },
-            "addUser": {
-                "name": "Usuario se unió al equipo",
-                "description": "Usuario se unió a tu equipo de incursión."
-            },
-            "removeUser": {
-                "name": "Usuario abandonó equipo",
-                "description": "Usuario abandonó tu equipo de incursión."
-            },
-            "updateUser": {
-                "name": "Usuario actualizó equipo",
-                "description": "Usuario en tu equipo actualizó sus ajustes."
-            },
-            "kickedUser": {
-                "name": "Usuario expulsado",
-                "description": "El usuario fue expulsado del equipo."
-            },
-            "raidInvitingNow": {
-                "name": "Enviando invitaciones",
-                "description": "Las invitaciones para la incursión se están enviando ahora"
-            },
-            "raidStartingNow": {
-                "name": "Incursión comenzando",
-                "description": "La incursión está comenzando ahora"
-            }
-        }
+    "friendCodeHint": "Pega tu código de amigo aquí. Debe tener 12 dígitos, sin espacios"
+  },
+  "autoRaidPartyOptions": {
+    "BATTLE_PARTY_POKEBOX": "Pokebox",
+    "BATTLE_PARTY_LEVEL_20": "Nivel 20",
+    "BATTLE_PARTY_LEVEL_25": "Nivel 25",
+    "BATTLE_PARTY_LEVEL_30": "Nivel 30",
+    "BATTLE_PARTY_LEVEL_35": "Nivel 35",
+    "BATTLE_PARTY_LEVEL_40": "Nivel 40",
+    "BATTLE_PARTY_LEVEL_45": "Nivel 45",
+    "BATTLE_PARTY_LEVEL_50": "Nivel 50"
+  },
+  "updateSetting": {
+    "success": "Configuración de usuario actualizada correctamente",
+    "autoBattleParty": "Cambiando los contadores a tu Pokebox",
+    "errors": {
+      "updateSettingGeneral": "Hubo un error al actualizar tu configuración",
+      "friendCodeLength": "El código de amigo debe tener exactamente 12 números de largo",
+      "themeSaveFailed": "Error al guardar la preferencia de tema"
     }
+  },
+  "notifications": {
+    "groups": {
+      "raidParty": {
+        "name": "Grupo de incursión",
+        "description": "Te informa de las incursiones que te interesan"
+      }
+    },
+    "channels": {
+      "createParty": {
+        "name": "Crear grupo de incursión",
+        "description": "Creación de grupos de incursión por tus amigos."
+      },
+      "updateParty": {
+        "name": "Actualizar grupo de incursión",
+        "description": "Cambios en la configuración de tus grupos de incursión."
+      },
+      "deleteParty": {
+        "name": "Cancelar grupo de incursión",
+        "description": "Grupo de incursión cancelado."
+      },
+      "addUser": {
+        "name": "Usuario se unió al grupo",
+        "description": "Un usuario se unió a tu grupo de incursión."
+      },
+      "removeUser": {
+        "name": "Usuario abandonó el grupo",
+        "description": "Un usuario abandonó tu grupo de incursión."
+      },
+      "updateUser": {
+        "name": "Usuario actualizó el grupo",
+        "description": "Un usuario de tu grupo actualizó su configuración."
+      },
+      "kickedUser": {
+        "name": "Usuario expulsado",
+        "description": "El usuario fue expulsado del grupo."
+      },
+      "raidInvitingNow": {
+        "name": "Invitando a la incursión",
+        "description": "Las invitaciones a la incursión se están enviando ahora"
+      },
+      "raidStartingNow": {
+        "name": "La incursión comienza ahora",
+        "description": "La incursión comienza ahora"
+      }
+    }
+  }
 }

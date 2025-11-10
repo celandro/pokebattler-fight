@@ -1,8 +1,15 @@
 {
-    "title": "A propos de Pokebattler",
-    "history": "Ce site a été créé par {{link}} (aka Ryan Barker) en Juillet 2016 avec l'aide de certains de ses collègues. Sa femme, Shelley Barker, fournit également une aide précieuse sur ce travail d'amour.",
-    "privacy": "Pokebattler prend votre vie privée très au sérieux, plus d'informations sur notre lien {{lien}}",
-    "privacyLink": "Vie privée",
-    "images": "Les images Pokémon de ce site sont utilisées sous licence Creative Commons Attribution. Elles peuvent être trouvées à l'adresse {{lien}}.",
-    "sponsor": "Pokebattler.com est sponsorisé par {{link}}. N'hésitez pas à les consulter !"
+  "title": "A propos de Pokebattler",
+  "history": "Ce site a été créé par {{link}} (aka Ryan Barker) en Juillet 2016 avec l'aide de certains de ses collègues. Sa femme, Shelley Barker, fournit également une aide précieuse sur ce travail d'amour.",
+  "privacy": "Pokebattler prend votre vie privée très au sérieux, plus d'informations sur notre lien {{lien}}",
+  "privacyLink": "Vie privée",
+  "images": "Les images Pokémon de ce site sont utilisées sous licence Creative Commons Attribution. Elles peuvent être trouvées à l'adresse {{lien}}.",
+  "sponsor": "Pokebattler.com est sponsorisé par {{link}}. N'hésitez pas à les consulter !",
+  "meta": {
+    "description": "Pokebattler About Is all about Pokebattler and how it came to be the World's #1 Most Accurate Pokemon Go Simulator.",
+    "image": "https://static.pokebattler.com/images/og_more_about.jpg"
+  },
+  "engine": "The original calculation engine for this site was {{link}} and a newer version of it now backs this free to all battle simulator site. Funding for this site is primary coming from the kind subscriptions of a small percentage of our users.",
+  "githubLink": "open sourced",
+  "thanks": "Special thanks to all the redditors who did research along the way including "
 }

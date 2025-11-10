@@ -1,15 +1,15 @@
 {
-    "title": "Sobre",
-    "history": "Este site foi criado por {{link}} (aka Ryan Barker) em Julho de 2016  com a ajuda de alguns colegas de trabalho.  A esposa do Ryan, Shelley Barker, também está dando uma ajuda muito bem-vinda neste trabalho feito por amor.",
-    "engine": "O motor de cálculo original deste site era {{link}} e uma nova versão dele agora sustenta este site gratuito de simulação de batalhas. O financiamento para este site vem primariamente das generosas assinaturas de uma pequena porcentagem de nossos usuários.",
-    "githubLink": "código aberto",
-    "thanks": "Um agradecimento especial a todos os redditors que fizeram pesquisas ao longo do caminho, incluindo ",
-    "sponsor": "Pokebattler.com é patrocinado por {{link}}. Vá conferi-los!",
-    "privacy": "...",
-    "privacyLink": "...",
-    "images": "...",
-    "meta": {
-        "description": "Sobre o Pokebattler traz tudo sobre o Pokebattler e como se tornou o Simulador de Pokemon Go #1 do Mundo em Precisão.",
-        "image": "https://static.pokebattler.com/images/og_more_about.jpg"
-    }
+  "title": "Sobre",
+  "history": "Este site foi criado por {{link}} (aka Ryan Barker) em Julho de 2016  com a ajuda de alguns colegas de trabalho.  A esposa do Ryan, Shelley Barker, também está dando uma ajuda muito bem-vinda neste trabalho feito por amor.",
+  "engine": "O motor de cálculo original deste site era {{link}} e uma nova versão dele agora sustenta este site gratuito de simulação de batalhas. O financiamento para este site vem primariamente das generosas assinaturas de uma pequena porcentagem de nossos usuários.",
+  "githubLink": "código aberto",
+  "thanks": "Um agradecimento especial a todos os redditors que fizeram pesquisas ao longo do caminho, incluindo ",
+  "sponsor": "Pokebattler.com é patrocinado por {{link}}. Vá conferi-los!",
+  "privacy": "...",
+  "privacyLink": "...",
+  "images": "...",
+  "meta": {
+    "description": "Sobre o Pokebattler traz tudo sobre o Pokebattler e como se tornou o Simulador de Pokemon Go #1 do Mundo em Precisão.",
+    "image": "https://static.pokebattler.com/images/og_more_about.jpg"
+  }
 }

@@ -1,12 +1,15 @@
 {
-    "title": "포케배틀러 정보",
-    "meta": {
-        "description": "포케배틀러 정보는 포케배틀러가 어떻게 세계에서 가장 정확한 포켓몬고 시뮬레이터가 되었는지 등에 대한 것입니다.",
-        "image": "https://static.pokebattler.com/images/og_more_about.jpg"
-    },
-    "history": "이 사이트는 {{link}} (Ryan Barker로도 알려진) 에 의해 동료들의 도움을 받아 2016년 7월에 생성되었습니다. Ryan의 아내 Shelley Barker 또한 이 사랑의 노동에 많은 도움을 주었습니다.",
-    "engine": "이 사이트에 원래 계산 엔진은 {{link}} 였고 새로운 버전은 이것은 모든 배틀 시뮬레이터 사이트에 공짜로 제공합니다. 이 사이트의 펀딩은 저희 사용자 중 소수의 관대한 구독에서 옵니다.",
-    "githubLink": "오픈 소스",
-    "thanks": "이동안 연구를 같이 해온 다음 레딧 유저들에게 감사를 표합니다: ",
-    "sponsor": "포케배틀러는 {{link}} 에 의해 후원됩니다. 확인해보세요!"
+  "title": "포케배틀러 정보",
+  "meta": {
+    "description": "포케배틀러 정보는 포케배틀러가 어떻게 세계에서 가장 정확한 포켓몬고 시뮬레이터가 되었는지 등에 대한 것입니다.",
+    "image": "https://static.pokebattler.com/images/og_more_about.jpg"
+  },
+  "history": "이 사이트는 {{link}} (Ryan Barker로도 알려진) 에 의해 동료들의 도움을 받아 2016년 7월에 생성되었습니다. Ryan의 아내 Shelley Barker 또한 이 사랑의 노동에 많은 도움을 주었습니다.",
+  "engine": "이 사이트에 원래 계산 엔진은 {{link}} 였고 새로운 버전은 이것은 모든 배틀 시뮬레이터 사이트에 공짜로 제공합니다. 이 사이트의 펀딩은 저희 사용자 중 소수의 관대한 구독에서 옵니다.",
+  "githubLink": "오픈 소스",
+  "thanks": "이동안 연구를 같이 해온 다음 레딧 유저들에게 감사를 표합니다: ",
+  "sponsor": "포케배틀러는 {{link}} 에 의해 후원됩니다. 확인해보세요!",
+  "privacy": "",
+  "privacyLink": "",
+  "images": ""
 }

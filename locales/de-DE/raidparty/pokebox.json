@@ -5,26 +5,100 @@
   },
   "add": {
     "title": "Neues Pokemon",
-    "failed": "Leider hat das Hinzufügen des Pokemons nicht geklappt"
+    "failed": "Leider hat das Hinzufügen des Pokemons nicht geklappt",
+    "full": "Your pokebox is full. Subscribe for more server storage",
+    "autocomplete": "Enter Pokemon Name Or Type"
   },
   "pokeform": {
     "cp": {
-      "label": "WP"
+      "label": "WP",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
     "nickname": {
-      "label": "Spitzname"
+      "label": "Spitzname",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
     "quickMove": {
-      "label": "Schnellattacke"
+      "label": "Schnellattacke",
+      "placeholder": "$t(common:placeholders.dropdown.required)"
     },
     "cinematicMove": {
-      "label": "Ladeattacke"
+      "label": "Ladeattacke",
+      "placeholder": "$t(common:placeholders.dropdown.required)"
     },
     "cinematicMove2": {
-      "label": "Zweite Ladeattacke"
+      "label": "Zweite Ladeattacke",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualAttack": {
+      "label": "Attack",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualDefense": {
+      "label": "Defense",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualStamina": {
+      "label": "Stamina",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "level": {
+      "label": "Level",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "submit": {
+      "label": "$t(common:buttons.create)"
+    },
+    "edit": {
+      "label": "$t(common:save)"
     }
   },
   "poketile": {
-    "temporary": "Speichere auf dem Server"
+    "temporary": "Speichere auf dem Server",
+    "cp": "$t(cp)"
+  },
+  "addPokemon": "Add Pokemon",
+  "edit": {
+    "title": "Edit Pokemon",
+    "full": "Your pokebox is overflowing. Resubscribe or delete excess Pokemon",
+    "failed": "Sadly editing this pokemon failed"
+  },
+  "delete": {
+    "title": "Delete Pokemon",
+    "failed": "Sadly deleting this pokemon failed"
+  },
+  "bulkImport": {
+    "title": "Bulk Import Pokemon",
+    "failed": "Sadly bulk importing pokemon failed",
+    "selectAll": "Select All",
+    "clearSelection": "Clear Selection",
+    "importNPokemon": "Import {{count}}/{{total}}",
+    "beginImport": "Begin Import",
+    "paste": "Paste",
+    "errors": {
+      "parse": "Pasted data was not a supported format. Please make sure to include a header row.",
+      "pokemonId": "$t(common:pokemon) is not valid.",
+      "quickMove": "$t(pokeform.quickMove.label) is not valid.",
+      "cinematicMove": "$t(pokeform.cinematicMove.label) is not valid.",
+      "cinematicMove2": "$t(pokeform.cinematicMove2.label) is not valid.",
+      "level": "$t(pokeform.level.label) is not  is not a number between 1 and 41",
+      "individualAttack": "$t(pokeform.individualAttack.label) is not a number between 0 and 15.",
+      "individualDefense": "$t(pokeform.individualDefense.label) is not a number between 0 and 15",
+      "individualStamina": "$t(pokeform.individualStamina.label) is not a number between 0 and 15",
+      "cp": "$t(pokeform.cp.label) is not a number"
+    }
+  },
+  "bulkDelete": {
+    "title": "Bulk Delete Pokemon",
+    "failed": "Sadly bulk deleting pokemon failed",
+    "selectAll": "Select All",
+    "clearSelection": "Clear Selection",
+    "deleteNPokemon": "Delete {{count}} pokemon"
+  },
+  "noPokemon": {
+    "title": "No Pokemon Found",
+    "clearFilter": "Clear Search Filter",
+    "description": "Pokebattler Raid Party requires you to add your best Pokemon in order to find the best counters! The more you add, the more accurate the raid party suggestions will be!",
+    "addPokemon": "The fastest way to add Pokemon is by clicking the plus button on the boss counters page. You can also add Pokemon one by one or by using the bulk import functionality."
   }
 }

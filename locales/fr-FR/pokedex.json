@@ -1,8 +1,38 @@
 {
-    "title": "{{defender}} Analyse de Bataille",
-    "intro": "Bienvenue dans le Pokédex Pokebattler pour $t(constants:pokemon.{{pokemon}}). Vous y trouverez les meilleures attaques défensives et offensives de $t(constants:pokemon.{{pokemon}}), ainsi que leurs pires adversaires en attaque et leurs meilleurs contres en défense. Vous pouvez ainsi savoir quels Pokémon éviter en combat, et comment battre un certain défenseur en particulier. N'hésitez pas à modifier les options ci-dessous pour voir l'effet des différentes situations de combat, ou pour changer l'ordre à votre convenance. Comme toujours, les résultats sur cette page sont générés par le simulateur de bataille. Vous pouvez examiner n'importe quelle simulation individuellement en cliquant simplement sur l'image du Pokémon adverse",
-    "loading": "Génération de l'analyse de bataille détaillée pour $t(constants:pokemon.{{pokemon}}) en cours. Plus d'un million de simulations sont nécessaires pour générer cette page, mais ça ne prendra pas longtemps.",
-    "about": {
-        "title": "A propos de cette Analyse de Bataille"
+  "title": "{{defender}} Analyse de Bataille",
+  "intro": "Bienvenue dans le Pokédex Pokebattler pour $t(constants:pokemon.{{pokemon}}). Vous y trouverez les meilleures attaques défensives et offensives de $t(constants:pokemon.{{pokemon}}), ainsi que leurs pires adversaires en attaque et leurs meilleurs contres en défense. Vous pouvez ainsi savoir quels Pokémon éviter en combat, et comment battre un certain défenseur en particulier. N'hésitez pas à modifier les options ci-dessous pour voir l'effet des différentes situations de combat, ou pour changer l'ordre à votre convenance. Comme toujours, les résultats sur cette page sont générés par le simulateur de bataille. Vous pouvez examiner n'importe quelle simulation individuellement en cliquant simplement sur l'image du Pokémon adverse",
+  "loading": "Génération de l'analyse de bataille détaillée pour $t(constants:pokemon.{{pokemon}}) en cours. Plus d'un million de simulations sont nécessaires pour générer cette page, mais ça ne prendra pas longtemps.",
+  "about": {
+    "title": "A propos de cette Analyse de Bataille",
+    "text1": "This analysis for {{pokemon}} is based off simulating combat with level {{attackerLevel}} attackers battling level {{defenderLevel}} defenders. The ranking simulation was run with the {{attackStrategy}} attack strategy using {{dodgeStrategy}} based on the Monte Carlo simulation type. First the best 32 counters and worst 32 matchups were found using the expected strategy comparing each fully evolved pokemon with every possible moveset as both attacker and defender vs. {{pokemon}}. Hundreds of monte carlo simulations were performed against each of the 5 best movesets for those 32 counters/matchups for a total of {{simulationCount}} simulations. The best 30 counters as well as the worst 30 matchups with their best moveset based on {{sort}} were kept and are displayed here.",
+    "text2": "You can click on any of the attackers to see the results for that particular simulation. Sort order can be changed by clicking the sort icon in the top right of each result and selecting the type of sort you prefer",
+    "text3": {
+      "text": "Additional information can be found in the {{link}}",
+      "link": "help section"
     }
+  },
+  "meta": {
+    "description": "Pokemon Go {{defender}} Pokedex is a customizable guide to what Pokemon counter {{defender}} and what Pokemon {{defender}} has the best attack matchups against.",
+    "image": "https://static.pokebattler.com/images/og_gym_pokedex.jpg"
+  },
+  "bestAttack": {
+    "title": "Best Attack Movesets",
+    "subtitle": "By $t(common:properties.{{sort}})",
+    "rankingTitle": "Avg Combat Stats Vs. Worst 30 Matchups"
+  },
+  "bestDefense": {
+    "title": "Best Defense Movesets",
+    "subtitle": "By $t(common:properties.{{sort}})",
+    "rankingTitle": "Avg Combat Stats Vs. Top 6 Counters"
+  },
+  "attackMatchups": {
+    "title": "Attack Matchups",
+    "subtitle": "By $t(common:properties.{{sort}})",
+    "text": "The following analysis shows the results versus the most difficult {{defenderLevel}} defenders for a level {{attackerLevel}} $t(constants:pokemon.{{pokemon}}). This ranking is relative to how well all attackers do versus the defenders in terms of $t(common:properties.{{sort}}). In short, use $t(constants:pokemon.{{pokemon}}) against the pokemon at the top of this list!"
+  },
+  "bestCounters": {
+    "title": "Best Counters",
+    "subtitle": "By $t(common:properties.{{sort}})",
+    "text": "The following analysis shows the level {{attackerLevel}} pokemon that are the strongest attackers in terms of $t(common:properties.{{sort}}) against a level {{defenderLevel}} $t(constants:pokemon.{{pokemon}}). These are the best pokemon to use if $t(constants:pokemon.{{pokemon}}) is defending the gym."
+  }
 }

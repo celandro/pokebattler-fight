@@ -1,28 +1,28 @@
 {
-    "title": "Simulador de Pokemon Go y Rankings",
-    "articles": {
-        "title": "Articulos de Pokemon Go A Fondo",
-        "subtitle": "Noticias e Investigacion no disponibles en ningun otro lugar",
-        "more": "Leer Mas Articulos"
-    },
+  "title": "Simulador de Pokemon Go y Rankings",
+  "articles": {
+    "title": "Articulos de Pokemon Go A Fondo",
+    "subtitle": "Noticias e Investigacion no disponibles en ningun otro lugar",
+    "more": "Leer Mas Articulos"
+  },
+  "meta": {
+    "description": "El recurso #1 del mundo para análisis detallado para Pokémon Go. ¡Las mejores simulaciones, clasificaciones personalizables y los contrincantes de incursiones más acertados!",
+    "image": "https://static.pokebattler.com/images/og_home.png"
+  },
+  "article": {
+    "title": "{{title}}",
     "meta": {
-        "description": "El recurso #1 del mundo para análisis detallado para Pokémon Go. ¡Las mejores simulaciones, clasificaciones personalizables y los contrincantes de incursiones más acertados!",
-        "image": "https://static.pokebattler.com/images/og_home.png"
-    },
-    "article": {
-        "title": "{{title}}",
-        "meta": {
-            "description": "{{author}} {{format}} en los temas de {{categories}} el {{date}}. Este artículo es sobre {{tags}}.",
-            "image": "{{featuredURL}}"
-        }
-    },
-    "news": {
-        "title": "Notas de la versión",
-        "meta": {
-            "description": "Noticias de Pokebattler - las últimas notas de la versión para el Simulador #1 y más exacto del mundo para Pokémon Go ",
-            "image": "https://static.pokebattler.com/images/og_more_news.jpg"
-        },
-        "old": "Noticias Anteriores",
-        "new": "Noticias nuevas"
+      "description": "{{author}} {{format}} en los temas de {{categories}} el {{date}}. Este artículo es sobre {{tags}}.",
+      "image": "{{featuredURL}}"
     }
+  },
+  "news": {
+    "title": "Notas de la versión",
+    "meta": {
+      "description": "Noticias de Pokebattler - las últimas notas de la versión para el Simulador #1 y más exacto del mundo para Pokémon Go ",
+      "image": "https://static.pokebattler.com/images/og_more_news.jpg"
+    },
+    "old": "Noticias Anteriores",
+    "new": "Noticias nuevas"
+  }
 }

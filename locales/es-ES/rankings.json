@@ -1,8 +1,76 @@
 {
-    "index": {
-        "title": "Lista de clasificación",
-        "welcome": {
-            "title": "Bienvenido a las Listas de Clasificación 2.0 de Pokebattler!"
-        }
+  "index": {
+    "title": "Clasificaciones de Gimnasio",
+    "welcome": {
+      "title": "¡Bienvenido a las Clasificaciones 2.0 de Pokebattler!",
+      "paragraph1": "Bienvenido a la nueva y vanguardista sección de clasificaciones personalizadas de Pokebattler. A diferencia de otros sitios, ¡puedes elegir exactamente qué combinación de configuraciones deseas para crear tus propias clasificaciones personalizadas! Este sitio es extremadamente personalizable, lo que te permite elegir el nivel de tu atacante, el nivel del defensor, la estrategia de ataque, la estrategia de esquivar, las opciones de clasificación y agrupación.",
+      "paragraph2": "Esta página funciona ejecutando más de 30,000,000 de simulaciones de combate para cada configuración de clasificación. Esto cubre cada posible combinación de atacante, movimiento de atacante, defensor y movimientos de defensor para la configuración elegida. ¡Hay cientos de miles de combinaciones diferentes de configuraciones para elegir tanto para las clasificaciones de atacantes como de defensores! Siéntete libre de probar diferentes hasta que obtengas lo que te gusta."
+    },
+    "meta": {
+      "description": "Las clasificaciones de gimnasios de Pokémon Go de Pokebattler son las número 1 más precisas del mundo, y muestran los mejores atacantes y defensores para gimnasios según tus preferencias.",
+      "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
+    },
+    "recommendations": {
+      "title": "Recomendaciones de configuración",
+      "paragraph1": {
+        "text": "Un buen punto de partida para la mayoría de los jugadores son las {{link1}}. Asume un atacante de nivel 25 y simula el ataque a un gimnasio difícil de nivel 30. Me gusta usar mis ataques tan pronto como puedo e intentar esquivar los especiales. Los resultados pueden sorprenderte. También puedes probar algunas cosas divertidas como {{link2}} o {{link3}}.",
+        "link1": "clasificaciones de atacantes predeterminadas",
+        "link2": "atacante de bajo nivel que esquiva",
+        "link3": "batallas de nivel 40"
+      },
+      "paragraph2": {
+        "text": "Para aquellos que buscan qué defensores son difíciles de vencer con un defensor de nivel inferior, prueben las {{link1}}. Asume un atacante de nivel 25 y simula la defensa con un pokemon de nivel 30. También puedes intentar hacer las cosas un poco más justas con {{link2}} o {{link3}}.",
+        "link1": "clasificaciones de defensores predeterminadas",
+        "link2": "clasificaciones de defensores de nivel 30 que esquivan todo",
+        "link3": "combate de alto nivel"
+      }
+    },
+    "buttons": {
+      "attacker": "Atacante",
+      "defender": "Defensor",
+      "gotoRankings": "Ir a la clasificación"
     }
+  },
+  "list": {
+    "title": "Gimnasio {{typeSelection}}",
+    "meta": {
+      "description": "¡Las {{typeSelection}} de Pokémon Go de Pokebattler son personalizables según el nivel del atacante, el nivel del defensor, la capacidad de esquivar y más!",
+      "image": "https://static.pokebattler.com/images/og_pvp_rankings.jpg"
+    },
+    "descriptions": {
+      "title": "Acerca de estas clasificaciones",
+      "text": "Esta clasificación de {{type}} se basa en la simulación de combate con atacantes de nivel {{levels.attacker}} que luchan contra defensores de nivel {{levels.defender}}. La simulación de clasificación se ejecutó con la estrategia de ataque {{strategies.attack}} usando {{strategies.dodge}} basada en el tipo de simulación $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label). Se realizaron $t(common:simulation, {'count': {{numSims}}}) con {{details}}.",
+      "textPokeboxAttackers": "Esta clasificación de {{type}} se basa en la simulación de combate con los atacantes del entrenador {{userId}} que luchan contra defensores de nivel {{levels.defender}}. La simulación de clasificación se ejecutó con la estrategia de ataque {{strategies.attack}} usando {{strategies.dodge}} basada en el tipo de simulación $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label). Se realizaron $t(common:simulation, {'count': {{numSims}}}) con {{details}}.",
+      "textPokeboxDefenders": "Esta clasificación de {{type}} se basa en la simulación de combate con atacantes de nivel {{levels.attacker}} que luchan contra los defensores del entrenador {{userId}}. La simulación de clasificación se ejecutó con la estrategia de ataque {{strategies.attack}} usando {{strategies.dodge}} basada en el tipo de simulación $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label). Se realizaron $t(common:simulation, {'count': {{numSims}}}) con {{details}}.",
+      "help1": "Puedes hacer clic en cualquiera de los {{type}} para ver los resultados de diferentes conjuntos de movimientos o hacer clic en el icono de agrupación, el segundo desde la derecha en la parte superior derecha, para verlos desagrupados. El orden de clasificación se puede cambiar haciendo clic en el icono de clasificación de la parte superior derecha y seleccionando el tipo de clasificación que prefieras.",
+      "help2": "Se puede encontrar información adicional sobre estas simulaciones de clasificación avanzadas en la {{link}}.",
+      "attackers": "atacantes",
+      "defenders": "defensores",
+      "details": {
+        "attackers": "cada atacante pokemon completamente evolucionado con cada posible conjunto de movimientos simulado contra los mejores 30 defensores con cada posible conjunto de movimientos con la estrategia Esperada. Los mejores 30 atacantes con su mejor conjunto de movimientos basados en {{sort}} se mantuvieron y se muestran aquí.",
+        "defenders": "cada posible conjunto de movimientos simulado contra atacantes con cada posible conjunto de movimientos con la estrategia esperada. Se encontraron los 6 peores contadores para cada pokemon y se usaron para determinar los mejores 30 defensores con su mejor conjunto de movimientos basados en {{sort}} que se mantuvieron y se muestran aquí."
+      }
+    },
+    "loading": "Generando resultados de clasificación de {{type}}. Se necesitaron muchos millones de simulaciones para realizar este análisis, pero los resultados llegarán pronto",
+    "typeSelection": {
+      "attacker": "Clasificaciones de atacantes",
+      "defender": "Clasificaciones de defensores",
+      "attackers": "$t(rankings:list.typeSelection.attacker)",
+      "defenders": "$t(rankings:list.typeSelection.defender)"
+    },
+    "settings": {
+      "level": "Niveles de Pokémon"
+    },
+    "featured": {
+      "title": "Rango {{rank}}"
+    }
+  },
+  "featured": {
+    "title": {
+      "attacker": "Estadísticas de combate promedio contra los 30 mejores defensores",
+      "defender": "Estadísticas de combate promedio contra los 6 peores enfrentamientos",
+      "raid": "Estadísticas de combate promedio contra {{pokemon}}"
+    },
+    "deepLink": "Ver más detalles para {{pokemon}}"
+  }
 }

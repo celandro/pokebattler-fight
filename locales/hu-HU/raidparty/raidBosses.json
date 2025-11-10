@@ -1,87 +1,99 @@
 {
-    "joinPartyDialog": {
-        "cancel": "Visszavonás",
-        "partyIdPlaceholder": "Pokebattler Raid Party #",
-        "errors": {
-            "pokemonMismatch": "A Raid Party {{id}} a {{raidPartyPokemon}} számára készült, nem pedig {{pokemon}}."
-        },
-        "description": "Írja be barátja parti azonosítóját, hogy lássa a raid parti eredményeit",
-        "fetch": "Fetch",
-        "join": "Csatlakozás",
-        "title": "Csatlakozz a párthoz"
-    },
+  "joinPartyDialog": {
+    "cancel": "Visszavonás",
+    "partyIdPlaceholder": "Pokebattler Raid Party #",
     "errors": {
-        "rankings": "Nem sikerült lekérni a támadók rangsorát",
-        "failed": "Nem sikerült megszerezni a raid főnököket!",
-        "party": "Nem sikerült megtalálni az optimális partit"
+      "pokemonMismatch": "A Raid Party {{id}} a {{raidPartyPokemon}} számára készült, nem pedig {{pokemon}}."
     },
-    "chips": {
-        "estimator": "Szükséges játékosok",
-        "win": "Esély nyerni",
-        "power": "Csoportos sebzés",
-        "time": "Harci idő",
-        "deaths": "Pokemon Faints",
-        "tdo": "Sebzés"
+    "description": "Írja be barátja parti azonosítóját, hogy lássa a raid parti eredményeit",
+    "fetch": "Fetch",
+    "join": "Csatlakozás",
+    "title": "Csatlakozz a párthoz"
+  },
+  "errors": {
+    "rankings": "Nem sikerült lekérni a támadók rangsorát",
+    "failed": "Nem sikerült megszerezni a raid főnököket!",
+    "party": "Nem sikerült megtalálni az optimális partit"
+  },
+  "chips": {
+    "estimator": "Szükséges játékosok",
+    "win": "Esély nyerni",
+    "power": "Csoportos sebzés",
+    "time": "Harci idő",
+    "deaths": "Pokemon Faints",
+    "tdo": "Sebzés"
+  },
+  "loadParty": "Raid Party #{{id}} megtekintése",
+  "breakingNews": {
+    "until": "Amíg",
+    "localTime": "HELYI IDŐ",
+    "from": "Tól,től"
+  },
+  "remote": "Távoli",
+  "raidPartyPlayer": {
+    "id": "#{{id}}",
+    "title": "{{name}}",
+    "addFriendCode": "Add hozzá a Friend Code-ot",
+    "userLevel": "Level {{level}}"
+  },
+  "counters": {
+    "description": "Ez az első 6 ellenfeled egy {{tier}} {{defender}} raidfőnök legyőzéséhez. Kattintson a RaidParty létrehozása vagy a Csatlakozás a Raid Party-hoz elemre, ha segítséget szeretne kapni ehhez a főnökhöz!",
+    "title": "{{defender}} counterek",
+    "tab": "Counters"
+  },
+  "customBoss": "Testreszab",
+  "copyTrainers": "Oktatók másolása",
+  "raidPartyCard": {
+    "title": "{{defender}}",
+    "egg": "Tojás",
+    "id": "$t(raidBosses:joinParty) #{{id}}",
+    "emptyPokebox": "Üres Pokebox, az alapértelmezések használatával",
+    "summary": "{{numReadyPlayers}} out of {{players}} players are ready. {{ownerName}}'s party was created at {{createdAt}}"
+  },
+  "joinParty": "Csatlakozz a partihoz",
+  "quickSettings": {
+    "title": "Gyorsbeállítások"
+  },
+  "countersTitle": "A counterei",
+  "viewParty": "Parti megtekintése",
+  "leaveParty": "Kilépés a partiból",
+  "multiParty": {
+    "title": "#{{id}} {{defender}}"
+  },
+  "title": "Raid főnökök",
+  "autocomplete": "Válassza a Raid főnök lehetőséget",
+  "selectWeather": "Válasszon időjárást",
+  "actionButtonsDescription": "Szimulálja a raid parti csoportját",
+  "createParty": "Hozz létre partit",
+  "ready": "Kész",
+  "raidParties": "$t(raidParties:title)",
+  "joinPrivate": "Join Private Party",
+  "finishParty": "Finish Raid",
+  "confirmFriend": "Confirm Friend",
+  "remoteReady": "Remote ✅",
+  "needsFriend": "Friend Invite Sent",
+  "summary": {
+    "title": "{{defender}} Raid Simulation",
+    "tab": "Summary",
+    "tabIcon": "poll",
+    "description": "These are your top 6 counters to defeat a {{tier}} {{defender}} raid boss. Click Create RaidParty or Join Raid Party to get help vs. this boss!",
+    "rejoin": "Rejoined in {{rejoinSeconds}}s",
+    "settings": {
+      "suggestPokebox": "Once you get a hang of things, you should tweak your settings to use your Pokebox which you can quickly fill on the alternative tab",
+      "BATTLE_PARTY_LEVEL_20": "Using best level 20 counters. This is a great default setting to get started.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_25": "Using best level 25 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_30": "Using best level 30 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_35": "Using best level 35 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_40": "Using best level 40 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_45": "Using best level 45 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_LEVEL_50": "Using best level 50 counters.  $t(raidBosses:counters.settings.suggestPokebox)",
+      "BATTLE_PARTY_POKEBOX": "Using your best counters. Don't see what you have here? Add Pokemon in your Pokebox which you can quickly fill on the counters tab"
     },
-    "loadParty": "Raid Party #{{id}} megtekintése",
-    "breakingNews": {
-        "until": "Amíg",
-        "localTime": "HELYI IDŐ",
-        "from": "Tól,től"
-    },
-    "remote": "Távoli",
-    "raidPartyPlayer": {
-        "id": "#{{id}}",
-        "title": "{{name}}",
-        "addFriendCode": "Add hozzá a Friend Code-ot"
-    },
-    "counters": {
-        "emptyPokebox": "Az egyéni eredmények itt lesznek, miután hozzáadta a Pokemont a Pokebox-hoz. Próbálja meg hozzáadni a 3. lapon található pokemont.",
-        "settings": {
-            "BATTLE_PARTY_LEVEL_50": "A legjobb 50-es counterek használata. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_45": "A legjobb 45-ös counterek használata. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_POKEBOX": "A legjobb counterek használata. Nem látja, mi van itt? Adjon hozzá Pokemont a Pokebox-ba, amelyet gyorsan kitölthet az alternatív fülön",
-            "suggestPokebox": "Amint kap egy csomó dolgot, módosítania kell a beállításokat a Pokebox használatához, amelyet gyorsan kitölthet az alternatív fülön",
-            "BATTLE_PARTY_LEVEL_20": "A legjobb 20-as counterek használata. Ez egy remek alapértelmezett beállítás a kezdéshez. $t(raidBosses: counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_40": "A legjobb 40-es counterek használata. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_25": "A legjobb 25-ös counterek használata. $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_35": "A legjobb 35-ös counterek használata $t(raidBosses:counters.settings.suggestPokebox)",
-            "BATTLE_PARTY_LEVEL_30": "A legjobb 30-as counterek használata $t(raidBosses:counters.settings.suggestPokebox)"
-        },
-        "description": "Ez az első 6 ellenfeled egy {{tier}} {{defender}} raidfőnök legyőzéséhez. Kattintson a RaidParty létrehozása vagy a Csatlakozás a Raid Party-hoz elemre, ha segítséget szeretne kapni ehhez a főnökhöz!",
-        "rejoin": "Újra csatlakozás {{rejoinSeconds}} a lobbyhoz",
-        "title": "{{defender}} counterek",
-        "details": {
-            "title": "Harc részletei",
-            "description": "A Pokebattler 200 lehetséges szimulációt hajtott végre a rajtaütésről minden lehetséges számlálónál, hogy melyik Pokemont használja. A top 6-ot ezután 200 szimulációban futtatták partyként. Az alábbiakban bemutatjuk a harci részleteket egy tipikus eredményből."
-        }
-    },
-    "customBoss": "Testreszab",
-    "copyTrainers": "Oktatók másolása",
-    "raidPartyCard": {
-        "title": "{{defender}}",
-        "egg": "Tojás",
-        "id": "$t(raidBosses:joinParty) #{{id}}",
-        "sumamry": "{{players}} játékos csatlakozott. A (z) {{ownerName}} partija itt jött létre: {{createdAt}}",
-        "emptyPokebox": "Üres Pokebox, az alapértelmezések használatával"
-    },
-    "joinParty": "Csatlakozz a partihoz",
-    "quickSettings": {
-        "title": "Gyorsbeállítások"
-    },
-    "countersTitle": "A counterei",
-    "alternatives": {
-        "description": "Ez az első 6 legjobb countered egy {{tier}} {{defender}} raidfőnök legyőzéséhez. Adjon hozzá alternatív Pokemon-ot az alábbiakhoz tartozó partijához!"
-    },
-    "viewParty": "Parti megtekintése",
-    "leaveParty": "Kilépés a partiból",
-    "multiParty": {
-        "title": "#{{id}} {{defender}}"
-    },
-    "title": "Raid főnökök",
-    "autocomplete": "Válassza a Raid főnök lehetőséget",
-    "selectWeather": "Válasszon időjárást",
-    "actionButtonsDescription": "Szimulálja a raid parti csoportját",
-    "createParty": "Hozz létre partit",
-    "ready": "Kész"
+    "emptyPokebox": "Custom results will be here after you add Pokemon to your Pokebox. Try adding pokemon that you have on the 3rd tab."
+  },
+  "combatants": {
+    "title": "{{defender}} Raid Party",
+    "tab": "Party",
+    "description": "Pokebattler performed 200 simulations of the raid battle for each possible counter to choose which Pokemon to use. The top 6 were then run in 200 simulations as a party. The following is the combatant details from a typical result."
+  }
 }

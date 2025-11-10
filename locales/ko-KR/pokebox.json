@@ -1,97 +1,136 @@
 {
+  "title": "포케박스",
+  "meta": {
+    "description": "맞춤 레이드 결과 및 다른 기능들을 위해 포켓몬고 포켓몬을 저장하세요!"
+  },
+  "blurb": "맞춤 결과를 위해 포켓몬을 추가하세요! 여러분은 오른쪽의 파란 원을 사용해서 한번에 한 마리씩 추가할 수 있습니다. 또한 다른 앱들로부터 포켓몬을 다수 불러오는 기능도 있습니다. 포켓몬 검색을 용이하게 하기 위해 우측 상단에 정렬 버튼이 있습니다.",
+  "pokemonList": {
+    "title": "맞춤 포케박스",
+    "meta": {
+      "description": "맞춤 레이드 결과 및 다른 기능들을 위해 포켓몬고 포켓몬을 저장하세요!"
+    },
+    "zero": "왼쪽의 박스를 눌러서 포켓몬을 추가하세요",
+    "zeroDescription": "여러분이 과거에 포켓몬을 추가한 적이 있다면, 다른 계정으로 로그인하셨을 수 있습니다. 여러분의 계정은 같은 메일주소를 가지고 있다면 자동으로 연동될 것입니다.",
+    "zeroHelp": "그 계정들이 같은 이메일 주소를 가지고 있지 않다면, 연동할 계정들의 사용자 Id를 가지고 {{link}}하세요",
+    "email": "포케배틀러에 이메일 보내기",
+    "showMore": "더 보이기",
+    "filter": {
+      "label": "포켓몬 필터링",
+      "hint": "여러 포켓몬/타입을 검색하려면 쉼표를 입력하세요"
+    }
+  },
+  "add": {
     "title": "포케박스",
     "meta": {
-        "description": "맞춤 레이드 결과 및 다른 기능들을 위해 포켓몬고 포켓몬을 저장하세요!"
+      "description": "포케박스에 포켓몬을 추가하세요"
     },
-    "blurb": "맞춤 결과를 위해 포켓몬을 추가하세요! 여러분은 오른쪽의 파란 원을 사용해서 한번에 한 마리씩 추가할 수 있습니다. 또한 다른 앱들로부터 포켓몬을 다수 불러오는 기능도 있습니다. 포켓몬 검색을 용이하게 하기 위해 우측 상단에 정렬 버튼이 있습니다.",
-    "pokemonList": {
-        "title": "맞춤 포케박스",
-        "meta": {
-            "description": "맞춤 레이드 결과 및 다른 기능들을 위해 포켓몬고 포켓몬을 저장하세요!"
-        },
-        "zero": "왼쪽의 박스를 눌러서 포켓몬을 추가하세요",
-        "zeroDescription": "여러분이 과거에 포켓몬을 추가한 적이 있다면, 다른 계정으로 로그인하셨을 수 있습니다. 여러분의 계정은 같은 메일주소를 가지고 있다면 자동으로 연동될 것입니다.",
-        "zeroHelp": "그 계정들이 같은 이메일 주소를 가지고 있지 않다면, 연동할 계정들의 사용자 Id를 가지고 {{link}}하세요",
-        "email": "포케배틀러에 이메일 보내기",
-        "showMore": "더 보이기",
-        "filter": {
-            "label": "포켓몬 필터링",
-            "hint": "여러 포켓몬/타입을 검색하려면 쉼표를 입력하세요"
-        }
+    "description": "포켓몬 추가",
+    "pokemon": "포켓몬 선택",
+    "pokemonSelect": "포켓몬 선택"
+  },
+  "deleteAll": {
+    "button": "모두 삭제",
+    "title": "모두 삭제",
+    "meta": {
+      "description": "포케박스에서 포켓몬을 삭제하세요"
     },
-    "add": {
-        "title": "포케박스",
-        "meta": {
-            "description": "포케박스에 포켓몬을 추가하세요"
-        },
-        "description": "포켓몬 추가",
-        "pokemon": "포켓몬 선택",
-        "pokemonSelect": "포켓몬 선택"
+    "confirmation": "이것은 포케박스의 모든 포켓몬을 삭제할 것입니다. 확실합니까?",
+    "irreversible": "이것은 되돌릴 수 없습니다!"
+  },
+  "export": {
+    "button": "다수 내보내기"
+  },
+  "import": {
+    "button": "다수 불러오기",
+    "title": "포케박스 불러오기",
+    "meta": {
+      "description": "서드파티 프로그램에서 포켓몬을 포케박스에 더하세요"
     },
-    "deleteAll": {
-        "button": "모두 삭제",
-        "title": "모두 삭제",
-        "meta": {
-            "description": "포케박스에서 포켓몬을 삭제하세요"
-        },
-        "confirmation": "이것은 포케박스의 모든 포켓몬을 삭제할 것입니다. 확실합니까?",
-        "irreversible": "이것은 되돌릴 수 없습니다!"
+    "description": "포켓몬 불러오기",
+    "parse": "불러오기 시작",
+    "hintText": "많은 형식이 지원됩니다. 헤더 열을 포함시키는 것을 잊지마세요.",
+    "floatingLabel": "여러분의 포켓몬을 복사해서 여기에 붙여넣기 하세요.",
+    "table": {
+      "header": "불러오기할 포켓몬을 밑에서 선택하세요.",
+      "selectAll": "모두 선택"
     },
-    "export": {
-        "button": "다수 내보내기"
+    "reverseSort": "Reverse Sort",
+    "urlUpload": {
+      "title": "Upload from URL",
+      "description": "Import Pokemon from a URL such as Dropbox",
+      "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0"
     },
-    "import": {
-        "button": "다수 불러오기",
-        "title": "포케박스 불러오기",
-        "meta": {
-            "description": "서드파티 프로그램에서 포켓몬을 포케박스에 더하세요"
-        },
-        "description": "포켓몬 불러오기",
-        "parse": "불러오기 시작",
-        "hintText": "많은 형식이 지원됩니다. 헤더 열을 포함시키는 것을 잊지마세요.",
-        "floatingLabel": "여러분의 포켓몬을 복사해서 여기에 붙여넣기 하세요.",
-        "table": {
-            "header": "불러오기할 포켓몬을 밑에서 선택하세요.",
-            "selectAll": "모두 선택"
-        }
+    "fileUpload": {
+      "title": "Upload from File",
+      "description": "Import Pokemon from a file download such as csv"
     },
-    "update": {
-        "title": "포케박스",
-        "meta": {
-            "description": "포케박스의 포켓몬을 업데이트하세요"
-        },
-        "description": "{{name}} 수정"
+    "advanced": {
+      "title": "Advanced Settings",
+      "description": "Custom support for 3rd party apps"
     },
-    "loading": "포켓몬 로딩 중",
-    "backPokebox": "포케박스로 되돌아가기",
-    "powerUp": "강화",
-    "full": {
-        "title": "포케박스 가득 참",
-        "subtitle": "공간이 없습니다",
-        "explanation": "여러분은 현재 멤버십 레벨에서 포케박스의 최대치에 다다랐습니다. 이것은 여러분이 포케배틀러 계정의 상위 5%이고 사용자의 상위 0.1%라는 뜻입니다! 포케배틀러는 모두에게 고품질 시뮬레이션을 제공하기 위해 여러분 같은 헤비 사용자의 후원에 의존합니다. 여러분은 더 높은 플랜을 구독해서 포켓몬 저장용량을 넓힐 수 있습니다."
-    },
-    "upgrade": {
-        "title": "$t(common:upgrade)",
-        "subtitle": "이 기능은 더 높은 구독 레벨을 필요로 합니다.",
-        "explanation": "포케배틀러는 여러분 같은 0.1%의 사이트 방문자로 유지됩니다. 포케배틀러를 유지하고 더 많은 것을 얻어가기 위해서 계정을 업그레이드하세요! 전용 기능들과, 개선된 분석, 더 큰 포케박스 등등이 기다립니다!"
-    },
-    "explanation": "포케배틀러 포케박스는 포케배틀러를 여러분의 포켓몬에 맞게 커스터마이즈 해주는 새로운 기능입니다! 포케박스에 여러분이 추가한 포켓몬은 사이트 모든 곳에서 사용될 수 있습니다. 박스 아이콘을 찾아보세요. 초록색 아이콘은 여러분이 포케박스를 쓰고 있다는 뜻이고, 검은 아이콘은 그렇지 않다는 뜻입니다.",
-    "delete": {
-        "title": "삭제",
-        "meta": {
-            "description": "포켓몬을 포케박스에서 삭제"
-        },
-        "blurb": "여러분은 여기서 다수의 포켓몬을 빠르게 삭제할 수 있습니다. 여러분의 포케박스에 더 많은 공간을 빠르게 청소할 수 있습니다. 삭제하고 싶은 포켓몬들을 선택하세요. 그 후에, 맨 아래로 스크롤을 내려서 삭제 버튼을 누르세요.",
-        "button": "다수 삭제",
-        "bulk": {
-            "title": "삭제",
-            "meta": {
-                "description": "포케박스에서 다수 포켓몬을 삭제합니다."
-            },
-            "toolbarTitle": "다수 삭제",
-            "confirmation": "이것은 {{num}} 포켓몬을 여러분의 포케박스에서 삭제할 것입니다, 확실합니까?"
-        },
-        "confirmation": "확실히 삭제를 원하십니까?",
-        "irreversible": "이것은 되돌릴 수 없습니다!"
+    "pasteUpload": {
+      "title": "Upload from Copy/Paste",
+      "hintText": "$t(pokebox:import.hintText)",
+      "description": "$t(pokebox:import.floatingLabel)"
     }
+  },
+  "update": {
+    "title": "포케박스",
+    "meta": {
+      "description": "포케박스의 포켓몬을 업데이트하세요"
+    },
+    "description": "{{name}} 수정"
+  },
+  "loading": "포켓몬 로딩 중",
+  "backPokebox": "포케박스로 되돌아가기",
+  "powerUp": "강화",
+  "full": {
+    "title": "포케박스 가득 참",
+    "subtitle": "공간이 없습니다",
+    "explanation": "여러분은 현재 멤버십 레벨에서 포케박스의 최대치에 다다랐습니다. 이것은 여러분이 포케배틀러 계정의 상위 5%이고 사용자의 상위 0.1%라는 뜻입니다! 포케배틀러는 모두에게 고품질 시뮬레이션을 제공하기 위해 여러분 같은 헤비 사용자의 후원에 의존합니다. 여러분은 더 높은 플랜을 구독해서 포켓몬 저장용량을 넓힐 수 있습니다."
+  },
+  "upgrade": {
+    "title": "$t(common:upgrade)",
+    "subtitle": "이 기능은 더 높은 구독 레벨을 필요로 합니다.",
+    "explanation": "포케배틀러는 여러분 같은 0.1%의 사이트 방문자로 유지됩니다. 포케배틀러를 유지하고 더 많은 것을 얻어가기 위해서 계정을 업그레이드하세요! 전용 기능들과, 개선된 분석, 더 큰 포케박스 등등이 기다립니다!"
+  },
+  "explanation": "포케배틀러 포케박스는 포케배틀러를 여러분의 포켓몬에 맞게 커스터마이즈 해주는 새로운 기능입니다! 포케박스에 여러분이 추가한 포켓몬은 사이트 모든 곳에서 사용될 수 있습니다. 박스 아이콘을 찾아보세요. 초록색 아이콘은 여러분이 포케박스를 쓰고 있다는 뜻이고, 검은 아이콘은 그렇지 않다는 뜻입니다.",
+  "delete": {
+    "title": "삭제",
+    "meta": {
+      "description": "포켓몬을 포케박스에서 삭제"
+    },
+    "blurb": "여러분은 여기서 다수의 포켓몬을 빠르게 삭제할 수 있습니다. 여러분의 포케박스에 더 많은 공간을 빠르게 청소할 수 있습니다. 삭제하고 싶은 포켓몬들을 선택하세요. 그 후에, 맨 아래로 스크롤을 내려서 삭제 버튼을 누르세요.",
+    "button": "다수 삭제",
+    "bulk": {
+      "title": "삭제",
+      "meta": {
+        "description": "포케박스에서 다수 포켓몬을 삭제합니다."
+      },
+      "toolbarTitle": "다수 삭제",
+      "confirmation": "이것은 {{num}} 포켓몬을 여러분의 포케박스에서 삭제할 것입니다, 확실합니까?"
+    },
+    "confirmation": "확실히 삭제를 원하십니까?",
+    "irreversible": "이것은 되돌릴 수 없습니다!"
+  },
+  "pokeGenieImport": {
+    "button": "Poke Genie Import",
+    "title": "Poke Genie Dropbox Import",
+    "meta": {
+      "description": "Add Pokemon to your Pokebox from a Poke Genie Dropbox backup."
+    },
+    "description": "Import Pokemon from Poke Genie Dropbox backup",
+    "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0",
+    "floatingLabel": "Paste dropbox shared link to scan_data.json",
+    "shinyStartLabel": "Shiny Pokemon Star (Poke Genie)",
+    "stars": {
+      "none": "No star for shiny Pokemon",
+      "yellow": "Yellow",
+      "blue": "Blue",
+      "green": "Green",
+      "orange": "Orange",
+      "purple": "Purple"
+    }
+  },
+  "powerDown": "Power Down"
 }

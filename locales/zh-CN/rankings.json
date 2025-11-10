@@ -1,48 +1,76 @@
 {
-    "index": {
-        "title": "排行",
-        "welcome": {
-            "title": "歡迎來到Pokebattler 排行 2.0版"
-        },
-        "recommendations": {
-            "title": "設定建議",
-            "paragraph1": {
-                "link1": "預設攻擊排行",
-                "link2": "低等級閃招攻擊者",
-                "link3": "40級戰鬥"
-            },
-            "paragraph2": {
-                "link1": "預設防守排行",
-                "link2": "30級全閃躲防守排行",
-                "link3": "高等級對戰"
-            }
-        },
-        "buttons": {
-            "attacker": "攻擊者",
-            "defender": "防守者",
-            "gotoRankings": "前往排行"
-        }
+  "index": {
+    "title": "排行",
+    "welcome": {
+      "title": "歡迎來到Pokebattler 排行 2.0版",
+      "paragraph1": "Welcome to the new, state of the art personalized rankings section of Pokebattler. Unlike other sites, you get to choose exactly what combination of settings you wish to build your own customized rankings! This site is extremely customizable, allowing you to choose your attacker level, defender level, attack strategy, dodge strategy, sort and grouping options.",
+      "paragraph2": "This page works by running over 30,000,000 combat simulations for each ranking setting. This covers every single possible combination of attacker, attacker move, defender and defender moves for your chosen setting. There are hundreds of thousands of different combinations of settings to choose from for both attacker and defender rankings! Feel free to try different ones until you get what you like."
     },
-    "list": {
-        "title": "寶可夢對戰排行",
-        "descriptions": {
-            "title": "關於這些排行",
-            "attackers": "攻擊方",
-            "defenders": "防守方"
-        },
-        "typeSelection": {
-            "attacker": "攻擊排行",
-            "defender": "防守排行"
-        },
-        "settings": {
-            "level": "寶可夢等級"
-        }
+    "recommendations": {
+      "title": "設定建議",
+      "paragraph1": {
+        "link1": "預設攻擊排行",
+        "link2": "低等級閃招攻擊者",
+        "link3": "40級戰鬥",
+        "text": "A good starting point for most players is the {{link1}}. It assumes a level 25 attacker and simulates attacking a hard level 30 gym. I like to use my attacks as soon as I can and try and dodge the specials. The results may surprise you. You can also try some fun things like {{link2}} or {{link3}}."
+      },
+      "paragraph2": {
+        "link1": "預設防守排行",
+        "link2": "30級全閃躲防守排行",
+        "link3": "高等級對戰",
+        "text": "For those looking on what defenders are difficult to beat with an underleveled defender try the {{link1}}. It assumes a level 25 attacker and simulates defending with a level 30 pokemon. You can also try and make things a bit more fair with {{link2}} or {{link3}}."
+      }
     },
-    "featured": {
-        "title": {
-            "attacker": "與最佳30位防守者的對戰數據",
-            "defender": "與6位最強對手的平均對戰數據"
-        },
-        "deepLink": "詳情請見"
+    "buttons": {
+      "attacker": "攻擊者",
+      "defender": "防守者",
+      "gotoRankings": "前往排行"
+    },
+    "meta": {
+      "description": "Pokebattler's Pokemon Go Gym Rankings are the world's #1 most accurate, showing the top attackers and defenders for gyms based on your preferences.",
+      "image": "https://static.pokebattler.com/images/og_gym_rankings.jpg"
     }
+  },
+  "list": {
+    "title": "寶可夢對戰排行",
+    "descriptions": {
+      "title": "關於這些排行",
+      "attackers": "攻擊方",
+      "defenders": "防守方",
+      "text": "This {{type}} ranking is based off simulating combat with level {{levels.attacker}} attackers battling level {{levels.defender}} defenders. The ranking simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) simulation type. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
+      "textPokeboxAttackers": "This {{type}} ranking is based off simulating combat with trainer {{userId}}'s attackers battling level {{levels.defender}} defenders. The ranking simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) simulation type. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
+      "textPokeboxDefenders": "This {{type}} ranking is based off simulating combat with level {{levels.attacker}} attackers battling trainer {{userId}}'s defenders. The ranking simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} based on the $t(constants:strategies.defense.DEFENSE_RANDOM_MC.label) simulation type. $t(common:simulation, {'count': {{numSims}}}) performed with {{details}}.",
+      "help1": "You can click on any of the {{type}} to see the results for different movesets or click the grouping icon second from the right in the top right to see them ungrouped. Sort order can be changed by clicking the top right sort icon and selecting the type of sort you prefer.",
+      "help2": "Additional information regarding these advanced ranking simulations can be found in the {{link}}.",
+      "details": {
+        "attackers": "each fully evolved pokemon attacker with every possible moveset simulated against the best 30 defenders with every possible moveset with the Expected strategy. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here.",
+        "defenders": "each possible moveset simulated against attackers with every possible moveset with the expected strategy. The worst 6 counters for each pokemon were found and used to determine the best 30 defenders with their best moveset based on {{sort}} were kept and are displayed here."
+      }
+    },
+    "typeSelection": {
+      "attacker": "攻擊排行",
+      "defender": "防守排行",
+      "attackers": "$t(rankings:list.typeSelection.attacker)",
+      "defenders": "$t(rankings:list.typeSelection.defender)"
+    },
+    "settings": {
+      "level": "寶可夢等級"
+    },
+    "meta": {
+      "description": "Pokebattler's Pokemon Go {{typeSelection}} are customizable based on level of attacker, level of defender, dodging ability and more!",
+      "image": "https://static.pokebattler.com/images/og_pvp_rankings.jpg"
+    },
+    "loading": "Generating {{type}} ranking results. Many millions of simulations were required to perform this analysis but the results will be soon",
+    "featured": {
+      "title": "Rank {{rank}}"
+    }
+  },
+  "featured": {
+    "title": {
+      "attacker": "與最佳30位防守者的對戰數據",
+      "defender": "與6位最強對手的平均對戰數據",
+      "raid": "Avg Combat Stats Vs. {{pokemon}}"
+    },
+    "deepLink": "詳情請見"
+  }
 }

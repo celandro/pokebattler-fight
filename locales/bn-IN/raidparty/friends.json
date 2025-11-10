@@ -1,2 +1,33 @@
 {
+  "title": "Friends",
+  "levels": {
+    "FRIENDSHIP_LEVEL_UNSET": "Not friends",
+    "FRIENDSHIP_LEVEL_0": "New friends",
+    "FRIENDSHIP_LEVEL_1": "Good friends",
+    "FRIENDSHIP_LEVEL_2": "Great friends",
+    "FRIENDSHIP_LEVEL_3": "Ultra friends",
+    "FRIENDSHIP_LEVEL_4": "Best friends"
+  },
+  "add": {
+    "friendId": "Pokebattler ID",
+    "addFriend": "Add Pokebattler Friend",
+    "friendLevel": "Friend Level",
+    "cancelAddFriend": "Cancel",
+    "searchPlaceholder": "Name, Code or Id",
+    "supportedSearches": "Enter the Friend Code, Trainer Name, Discord Name or Pokebattler Id in the search bar and set your friend level.",
+    "noSearchResults": "No friends found, try again!",
+    "noSearchText": "Find your friends",
+    "clearSearch": "Clear"
+  },
+  "noFriend": {
+    "title": "Add your friends to Pokebattler!",
+    "description": "Adding friends will send you notifications when they are creating raid parties and allow you to see raid parties they have created recently.  Make sure to set the correct friend level so that your friendship level will be automatically set in raid party simulations.",
+    "addFriend": "Add friends by clicking on the add button in the bottom right."
+  },
+  "errors": {
+    "add": "Adding friend failed",
+    "update": "Updating friend failed",
+    "delete": "Deleting friend failed",
+    "failed": "Unable to retrieve friend list"
+  }
 }

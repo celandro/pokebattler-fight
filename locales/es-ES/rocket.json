@@ -1,40 +1,335 @@
 {
-    "breakingNews": {
-        "title": "Último minuto"
+  "breakingNews": {
+    "title": "Últimas noticias",
+    "subtitle": "Invasiones del Team GO Rocket en Pokémon Go",
+    "header": "Contadores del Team GO Rocket para $t(constants:pokemon.{{pokemonId}})"
+  },
+  "tierList": {
+    "RAID_LEVEL_6_LEGACY": {
+      "title": "Nivel 6 antiguo",
+      "subtitle": "Batallas oscuras míticas difíciles",
+      "intro": "Estas batallas no se encuentran actualmente en las rotaciones del Team GO Rocket"
     },
-    "tierList": {
-        "RAID_LEVEL_6_LEGACY": {
-            "title": "Nivel 6 - descontinuada"
-        }
+    "rocketTier": "Nivel de GO Rocket",
+    "common": {
+      "boss": "Invasión oscura",
+      "raidTier": "Nivel oscuro"
+    },
+    "RAID_LEVEL_1": {
+      "title": "Nivel 1 de GO Rocket",
+      "subtitle": "Batallas oscuras comunes",
+      "intro": "Las batallas de nivel 1 de GO Rocket son más fáciles y deberían poder ser vencidas por cualquiera que use los contadores apropiados. Estas batallas son contra Pokémon de nivel 27 potenciados para jugadores de nivel 40. Los jugadores de nivel inferior se enfrentarán a Pokémon más fáciles"
+    },
+    "RAID_LEVEL_1_FUTURE": {
+      "title": "Futuro Nivel 1 de GO Rocket",
+      "subtitle": "Batallas oscuras comunes",
+      "intro": "Nuestra mejor suposición de las futuras invasiones del Team GO Rocket de nivel 1"
+    },
+    "RAID_LEVEL_2": {
+      "title": "Nivel 2 de GO Rocket",
+      "subtitle": "Batallas oscuras raras",
+      "intro": "Las batallas de nivel 2 de GO Rocket son difíciles pero deberían poder ser vencidas por cualquiera que use contadores apropiados y potenciados. Estas batallas son contra Pokémon de nivel 30 potenciados para jugadores de nivel 40. Los jugadores de nivel inferior se enfrentarán a Pokémon más fáciles"
+    },
+    "RAID_LEVEL_2_FUTURE": {
+      "title": "Futuro Nivel 2 de GO Rocket",
+      "subtitle": "Batallas oscuras raras",
+      "intro": "Nuestra mejor suposición de las futuras invasiones del Team GO Rocket de nivel 2"
+    },
+    "RAID_LEVEL_3": {
+      "title": "Nivel 3 de GO Rocket",
+      "subtitle": "Batallas oscuras legendarias",
+      "intro": "Las batallas de nivel 3 de GO Rocket no existen actualmente"
+    },
+    "RAID_LEVEL_4": {
+      "title": "Nivel 4 de GO Rocket",
+      "subtitle": "Batallas oscuras legendarias difíciles",
+      "intro": "Las batallas de nivel 4 de GO Rocket no existen actualmente"
+    },
+    "RAID_LEVEL_5": {
+      "title": "Nivel 5 de GO Rocket",
+      "subtitle": "Batallas oscuras míticas",
+      "intro": "Las batallas de nivel 5 de GO Rocket no existen actualmente"
+    },
+    "RAID_LEVEL_6": {
+      "title": "Nivel 3 de GO Rocket",
+      "subtitle": "Batallas oscuras míticas difíciles",
+      "intro": "Las batallas de nivel 3 de GO Rocket no existen actualmente"
+    },
+    "RAID_LEVEL_UNSET": {
+      "title": "Nivel ? de GO Rocket",
+      "subtitle": "Batallas oscuras desconocidas",
+      "intro": "Estos Pokémon oscuros formarán parte de futuras invasiones del Team GO Rocket. Usa esto si ha salido una nueva invasión y el sitio aún no se ha actualizado. ¡También puedes usar esta sección para analizar qué pasaría si tuvieras una invasión legendaria del Team GO Rocket de Squirtle Oscuro!"
+    },
+    "RAID_LEVEL_1_LEGACY": {
+      "title": "Nivel 1 de GO Rocket antiguo",
+      "subtitle": "Batallas oscuras comunes",
+      "intro": "Estas batallas no se encuentran actualmente en las rotaciones del Team GO Rocket."
+    },
+    "RAID_LEVEL_2_LEGACY": {
+      "title": "Nivel 2 de GO Rocket antiguo",
+      "subtitle": "Batallas oscuras raras",
+      "intro": "Estas batallas no se encuentran actualmente en las rotaciones del Team GO Rocket."
+    },
+    "RAID_LEVEL_3_LEGACY": {
+      "title": "Nivel 3 de GO Rocket antiguo",
+      "subtitle": "Batallas oscuras legendarias",
+      "intro": "Estas batallas no se encuentran actualmente en las rotaciones del Team GO Rocket."
+    },
+    "RAID_LEVEL_4_LEGACY": {
+      "title": "Nivel 4 de GO Rocket antiguo",
+      "subtitle": "Batallas oscuras legendarias difíciles",
+      "intro": "Estas batallas no se encuentran actualmente en las rotaciones del Team GO Rocket."
+    },
+    "RAID_LEVEL_5_LEGACY": {
+      "title": "Nivel 5 de GO Rocket antiguo",
+      "subtitle": "Batallas oscuras míticas",
+      "intro": "Estas batallas no se encuentran actualmente en las rotaciones del Team GO Rocket"
+    },
+    "CHARACTER_EXECUTIVE_CLIFF": {
+      "title": "Ejecutivo Cliff",
+      "subtitle": "Líder del Team GO Rocket",
+      "intro": "Mi fuerza proviene de mi lealtad al Team GO Rocket.",
+      "intro2": "Haré cualquier cosa y todo por el Team GO Rocket.",
+      "intro3": "Le debo la vida al jefe. Haría cualquier cosa por él.",
+      "intro4": "El Team GO Rocket me salvó. ¡Es hora de devolver el favor!",
+      "intro5": "Añade mi nombre a tu lista de debilidades."
+    },
+    "CHARACTER_EXECUTIVE_SIERRA": {
+      "title": "Ejecutiva Sierra",
+      "subtitle": "Líder del Team GO Rocket",
+      "intro": "Te envidio, ¡tienes la oportunidad de luchar contra mí!",
+      "intro2": "Esta será una batalla que estoy segura de que nunca olvidarás.",
+      "intro3": "Ya lo sabes, pero no tienes ninguna oportunidad.",
+      "intro4": "No puedes igualar mi habilidad, cariño.",
+      "intro5": "¡Espero que te guste el sabor del fracaso!"
+    },
+    "CHARACTER_EXECUTIVE_ARLO": {
+      "title": "Ejecutivo Arlo",
+      "subtitle": "Líder del Team GO Rocket",
+      "intro": "Es hora de que aprendas tu lugar en el mundo.",
+      "intro2": "Nunca pierdo.",
+      "intro3": "Prepárate para un mundo de dolor.",
+      "intro4": "La arrogancia lleva al fracaso.",
+      "intro5": "Tu derrota llega en alas veloces."
+    },
+    "CHARACTER_GIOVANNI": {
+      "title": "Giovanni",
+      "subtitle": "El Jefe",
+      "intro": "No toleraré tu interferencia.",
+      "intro2": "No puedes detenerme... pero me divierte tu intento.",
+      "intro3": "Tu profesor no te ha preparado para lo que está por venir.",
+      "intro4": "Has llegado hasta aquí. Déjame ver cuán fuerte eres.",
+      "intro5": "Nunca derrotarás al Team GO Rocket."
+    },
+    "CHARACTER_GRUNTB_MALE": {
+      "title": "James",
+      "subtitle": "Globo del Team GO Rocket",
+      "intro": "¡Para unir a todas las personas de nuestra nación!",
+      "intro2": "¡Para extender nuestro alcance a las estrellas de arriba!",
+      "intro3": "Oye, ¿te gustaría unirte al Team Rocket?",
+      "intro4": "¡Te arrepentirás!",
+      "intro5": "¡Ríndete ahora o prepárate para luchar!"
+    },
+    "CHARACTER_GRUNTB_FEMALE": {
+      "title": "Jessie",
+      "subtitle": "Globo del Team GO Rocket",
+      "intro": "¡Para proteger al mundo de la devastación!",
+      "intro2": "¡Para denunciar los males de la verdad y el amor!",
+      "intro3": "Oye, ¿quieres unirte al Team Rocket?",
+      "intro4": "El Persian del Jefe es tan elegante...",
+      "intro5": "¿Quiénes son estos líderes del Team GO Rocket, de todos modos?"
+    },
+    "CHARACTER_NORMAL_GRUNT_MALE": {
+      "title": "Recluta normal ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Normal no significa débil."
+    },
+    "CHARACTER_FAIRY_GRUNT_FEMALE": {
+      "title": "Recluta hada ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Mira mi lindo Pokémon!"
+    },
+    "CHARACTER_FIGHTING_GRUNT_FEMALE": {
+      "title": "Recluta lucha ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Este físico musculoso no es solo para mostrar!"
+    },
+    "CHARACTER_FLYING_GRUNT_FEMALE": {
+      "title": "Recluta volador ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Lucha contra mi Pokémon de tipo Volador!"
+    },
+    "CHARACTER_POISON_GRUNT_FEMALE": {
+      "title": "Recluta veneno ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Enroscada y lista para atacar!"
+    },
+    "CHARACTER_GROUND_GRUNT_MALE": {
+      "title": "Recluta tierra ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Serás derrotado hasta el suelo"
+    },
+    "CHARACTER_ROCK_GRUNT_MALE": {
+      "title": "Recluta roca ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Vamos a darle caña!"
+    },
+    "CHARACTER_BUG_GRUNT_MALE": {
+      "title": "Recluta bicho ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Ve, mi súper Pokémon bicho!"
+    },
+    "CHARACTER_GHOST_GRUNT_MALE": {
+      "title": "Recluta fantasma ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Ke... ke... ke... ke... ke... ke!"
+    },
+    "CHARACTER_FIRE_GRUNT_FEMALE": {
+      "title": "Recluta fuego ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "¿Sabes qué tan caliente puede llegar a ser el aliento de fuego de un Pokémon?"
+    },
+    "CHARACTER_ICE_GRUNT_FEMALE": {
+      "title": "Recluta hielo ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Te quedarás helado en el sitio"
+    },
+    "CHARACTER_WATER_GRUNT_MALE": {
+      "title": "Recluta agua ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Estas aguas son traicioneras!"
+    },
+    "CHARACTER_WATER_GRUNT_FEMALE": {
+      "title": "Recluta agua ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Estas aguas son traicioneras!"
+    },
+    "CHARACTER_GRASS_GRUNT_MALE": {
+      "title": "Recluta planta ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡No te metas con nosotros!"
+    },
+    "CHARACTER_ELECTRIC_GRUNT_FEMALE": {
+      "title": "Recluta eléctrico ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡Prepárate para una descarga!"
+    },
+    "CHARACTER_PSYCHIC_GRUNT_MALE": {
+      "title": "Recluta psíquico ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "¿Tienes miedo de los psíquicos que usan un poder invisible?"
+    },
+    "CHARACTER_DRAGON_GRUNT_FEMALE": {
+      "title": "Recluta dragón ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡RUGIDO! ...¿Qué tal sonó?"
+    },
+    "CHARACTER_DARK_GRUNT_FEMALE": {
+      "title": "Recluta siniestro ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Donde hay luz, también hay sombra."
+    },
+    "CHARACTER_STEEL_GRUNT_MALE": {
+      "title": "Recluta acero ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "¡No eres rival para mi voluntad de hierro!"
+    },
+    "CHARACTER_GRUNT_MALE": {
+      "title": "Recluta inicial",
+      "subtitle": "Team GO Rocket",
+      "intro": "No te molestes, ya he ganado",
+      "intro2": "Prepárate para ser derrotado",
+      "intro3": "Ganar es de ganadores"
+    },
+    "CHARACTER_GRUNT_FEMALE": {
+      "title": "Recluta difícil",
+      "subtitle": "Team GO Rocket",
+      "intro": "No te molestes, ya he ganado",
+      "intro2": "Prepárate para ser derrotado",
+      "intro3": "Ganar es de ganadores"
+    },
+    "CHARACTER_DECOY_GRUNT_MALE": {
+      "title": "Recluta señuelo ♂",
+      "subtitle": "Señuelo del jefe",
+      "intro": "Te engañé, gusano.",
+      "intro2": "¡No puedo creer que hayas caído!",
+      "intro3": "¡En nombre del jefe, te destruiré!",
+      "intro4": "¡Nunca llegarás a él!",
+      "intro5": "Me alegra verte decepcionado."
+    },
+    "CHARACTER_DECOY_GRUNT_FEMALE": {
+      "title": "Recluta señuelo ♀",
+      "subtitle": "Señuelo del jefe",
+      "intro": "Te engañé, gusano.",
+      "intro2": "¡No puedo creer que hayas caído!",
+      "intro3": "¡En nombre del jefe, te destruiré!",
+      "intro4": "¡Nunca llegarás a él!",
+      "intro5": "Me alegra verte decepcionada."
+    }
+  },
+  "meta": {
+    "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
+    "description": "Encuentra contadores del Team GO Rocket de Pokémon Go. Obtén los 30 mejores contadores con la guía de contadores del Team GO Rocket personalizada número 1 del mundo."
+  },
+  "custom": {
+    "levelsLabel": "Niveles de atacantes",
+    "attackersLabel": "Atacantes",
+    "title": "Contadores personalizados del Team GO Rocket",
+    "buttonLabel": "Encontrar los mejores contadores"
+  },
+  "results": {
+    "counters": {
+      "title": "Contadores óptimos",
+      "subtitle": "Mejores atacantes por",
+      "chooseMovesetLabel": "Elegir movimientos",
+      "description": "El siguiente análisis muestra los Pokémon que son los contadores más fuertes en términos de {{sort}} contra {{pokemon}}.",
+      "moveSetOrderingDescription": "¡Los conjuntos de movimientos se ordenan del más difícil al más fácil de combatir, asegúrate de verificar varios, los resultados pueden variar mucho!",
+      "difficultyNote": "Los Pokémon oscuros de la invasión del Team GO Rocket son mucho más difíciles que una batalla normal, debes considerar cuidadosamente tus opciones."
+    },
+    "hardestMovesets": {
+      "subtitle": "Para {{pokemon}} por {{sort}}",
+      "title": "Batallas más difíciles",
+      "tableTitle": "Conjuntos de movimientos más difíciles de combatir",
+      "description": "¡La dificultad de la batalla del Team GO Rocket puede variar mucho según el conjunto de movimientos del pokemon defensor!"
+    },
+    "analysis": {
+      "title": "Acerca de este análisis",
+      "attackers": {
+        "byLevel": "Atacantes de nivel {{attackerLevel}}",
+        "pokebox": "El Pokémon personalizado de la Pokebox del usuario #{{userId}}"
+      },
+      "description": "Este análisis de batalla del Team GO Rocket se basó en la simulación de combate con un {{defender.pokemon}} defensor con {{defender.cp}} de PC y {{attackers}}. La simulación se ejecutó con un simulador de invasión del Team GO Rocket. Se realizaron {{numSims}} simulaciones con cada posible conjunto de movimientos de {{defender.pokemon}} simulado contra cada Pokémon con cada posible conjunto de movimientos. Los mejores 30 atacantes con su mejor conjunto de movimientos basados en {{sort}} se mantuvieron y se muestran aquí."
+    },
+    "title": "Contadores para {{defender}}",
+    "patreon": {
+      "description": "Resultados más precisos para conjuntos de movimientos desconocidos proporcionados gracias al apoyo de los suscriptores. Los suscriptores reciben espacio de Pokebox adicional, resultados de mayor precisión para todas las combinaciones y más.",
+      "link": "Mira todos los beneficios que obtienes al registrarte",
+      "thanks": "¡Gracias por tu apoyo!"
     },
     "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+      "description": "Los mejores contadores del Team GO Rocket para {{defender}} con niveles y escudos configurables",
+      "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
     },
-    "custom": {
-        "levelsLabel": "Niveles de atacantes",
-        "attackersLabel": "Atacantes"
-    },
-    "results": {
-        "counters": {
-            "title": "Rivales óptimos",
-            "subtitle": "Mejores atacantes por",
-            "chooseMovesetLabel": "Elegir movimientos"
-        },
-        "hardestMovesets": {
-            "subtitle": "Para {{pokemon}} por {{sort}}"
-        },
-        "analysis": {
-            "title": "Acerca de este análisis",
-            "attackers": {
-                "byLevel": "Atacantes nivel {{attackerLevel}}",
-                "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
-            }
-        },
-        "title": "Contrincantes para {{defender}}",
-        "patreon": {
-            "description": "Resultados más exactos para combinaciones de ataques desconocidas provistas gracias al apoyo de los suscriptores. Los suscriptores reciben espacio de Pokebox adicional, mayor exactitud de resultados para todas las combinaciones y más.",
-            "link": "Mira todos los beneficios que obtienes por registrarte",
-            "thanks": "¡Gracias por tu apoyo!"
-        }
-    }
+    "calculating": "Analizando las defensas del Team GO Rocket",
+    "description": "Bienvenido a la guía de contadores del Team GO Rocket de Pokebattler para {{pokemon}}. Puedes encontrar los mejores contadores basados en el conjunto de movimientos de cada Pokémon oscuro. Esta guía es personalizable de varias maneras diferentes. Puedes iniciar sesión e introducir tus Pokémon en tu Pokebox para obtener el resultado más preciso, así como ver estos resultados generales usando varias opciones de clasificación."
+  },
+  "title": "Contadores del Team GO Rocket",
+  "linkLabel": "Contadores del Team GO Rocket",
+  "intro": "¡El Team GO Rocket ha invadido Pokémon Go y Pokebattler está aquí para ayudarte a combatirlos! Las batallas son 3v3 en las que te enfrentas con tus 3 Pokémon a los Pokémon potenciados del Team GO Rocket. ¡Estas batallas pueden ser extremadamente desafiantes, así que asegúrate de prepararte antes de desafiarlos!",
+  "articles": {
+    "title": "¡Últimas noticias del Team GO Rocket!",
+    "subtitle": "Artículos y videos sobre el Team GO Rocket de los mejores jugadores e investigadores"
+  },
+  "note": {
+    "default": "Los reclutas del Team GO Rocket no son muy difíciles ya que no usan escudos. Los ejecutivos del Team GO Rocket y Giovanni tienen estadísticas más altas y usarán escudos en los dos primeros especiales utilizados. ¡Resistir el ataque rápido y usar Pokémon que puedan obligar al Pokémon oscuro a usar sus escudos es la mejor manera de vencer a estos duros enemigos!",
+    "loggedIn": "Nota: Asegúrate de que tu nivel de entrenador esté configurado correctamente. La investigación aún está en curso sobre la mecánica exacta de los Pokémon del Team GO Rocket, pero el nivel del jugador es un factor. Los Pokémon del Team GO Rocket ya no son tan poderosos como antes, asegúrate de volver a revisar tus contadores personalizados"
+  },
+  "executives": {
+    "title": "Líderes del Team GO Rocket",
+    "description": "¡Los líderes del Team GO Rocket presentan combates más difíciles que incluyen el uso de escudos! ¡Asegúrate de estar preparado para todo lo que el Team GO Rocket tiene reservado para ti!"
+  },
+  "grunts": {
+    "title": "Reclutas del Team GO Rocket",
+    "description": "Los combates contra los reclutas del Team GO Rocket son más fáciles y sin escudos."
+  }
 }

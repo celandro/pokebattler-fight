@@ -1,11 +1,44 @@
 {
-    "title": "Battle Parties - Beta",
-    "explanation": "Battle Parties на Pokebattler работают аналогично представленным в самой игре. Вы составляете из своих покемонов, после чего можете использовать их в битвах. Ваши battle parties могут быть использованы другими игроками для симуляции рейдов или pvp сражений.",
-    "battlePartyList": {
-        "title": "Ваши Battle Parties"
+  "title": "Battle Parties - Beta",
+  "explanation": "Battle Parties на Pokebattler работают аналогично представленным в самой игре. Вы составляете из своих покемонов, после чего можете использовать их в битвах. Ваши battle parties могут быть использованы другими игроками для симуляции рейдов или pvp сражений.",
+  "battlePartyList": {
+    "title": "Ваши Battle Parties"
+  },
+  "add": {
+    "title": "Battle Party",
+    "description": "Создайте Вашу battle party",
+    "meta": {
+      "description": "Create your battle party"
     },
-    "add": {
-        "title": "Battle Party",
-        "description": "Создайте Вашу battle party"
-    }
+    "modify": "Add Pokemon From Your Pokebox"
+  },
+  "select": {
+    "label": "Choose Your $t(common:battleParty)",
+    "emptyName": "$t(common:battleParty) {{value}}",
+    "noneFound": "No $t(common:battleParties) found for this league",
+    "create": "Create $t(common:battleParty)",
+    "edit": "Edit",
+    "title": "Choose A Battle Party",
+    "open": "Choose  $t(common:battleParty)",
+    "close": "Select"
+  },
+  "meta": {
+    "description": "Store your Pokemon Go battle party"
+  },
+  "full": {
+    "title": "Party Full",
+    "description": "You have reached the party size limit for this league"
+  },
+  "empty": {
+    "title": "Party Empty",
+    "description": "You have not added any Pokemon from your Pokebox to this Party"
+  },
+  "edit": {
+    "title": "Battle Party Edit",
+    "meta": {
+      "description": "Edit Your Battle Party"
+    },
+    "description": "Update the name of your Battle Party below in the text box. You can also change the league with the drop down. Then change the party members by clicking the 'change your battle party members' button. Finally, modify the stats of each Pokemon by clicking on it!",
+    "modify": "Change Your Battle Party Members"
+  }
 }

@@ -1,212 +1,212 @@
 {
-    "title": "Jak używać Pokebattlera",
-    "intro": "Witaj na Pokebattler.com! NAJLEPSZYM i najbardziej wyszukanym symulatorze Pokemon GO jaki kiedykolwiek został stworzony.   Chcesz się dowiedzieć jak ominąć Snorlaxa? Testuj każdego możliwego z twoich pokemonów i sprawdź jak sobie poradzą w walkach przeciw innym pokemonom na arenie. Dostaniesz raport sekunda po sekundzie z każdej walki!",
-    "outro": "Upewnij się, że sprawdziłeś wszystkie możliwe opcje, jak np. logowanie dzięki któremu będziesz mógł przeprowadzać spersonalizowane symulacje i nie tylko.",
-    "now-battle": "Zostań mistrzem Pokemon!",
-    "backlink": "Wróć do pomocy",
-    "pageNotFound": {
-        "title": "Ta strona nie istnieje",
-        "text": "Przepraszamy, nie mogliśmy znaleźć strony, której szukasz"
+  "title": "Jak używać Pokebattlera",
+  "intro": "Witaj na Pokebattler.com! NAJLEPSZYM i najbardziej wyszukanym symulatorze Pokemon GO jaki kiedykolwiek został stworzony.   Chcesz się dowiedzieć jak ominąć Snorlaxa? Testuj każdego możliwego z twoich pokemonów i sprawdź jak sobie poradzą w walkach przeciw innym pokemonom na arenie. Dostaniesz raport sekunda po sekundzie z każdej walki!",
+  "outro": "Upewnij się, że sprawdziłeś wszystkie możliwe opcje, jak np. logowanie dzięki któremu będziesz mógł przeprowadzać spersonalizowane symulacje i nie tylko.",
+  "now-battle": "Zostań mistrzem Pokemon!",
+  "backlink": "Wróć do pomocy",
+  "pageNotFound": {
+    "title": "Ta strona nie istnieje",
+    "text": "Przepraszamy, nie mogliśmy znaleźć strony, której szukasz"
+  },
+  "pages": {
+    "raids": {
+      "title": "Raidy",
+      "link": "/help/raid-counter",
+      "description": "Wybierz najlepsze kontry na dowolnego bossa z naszym konfigurowalnym poradników Raidów!"
     },
-    "pages": {
-        "raids": {
-            "title": "Raidy",
-            "link": "/help/raid-counter",
-            "description": "Wybierz najlepsze kontry na dowolnego bossa z naszym konfigurowalnym poradników Raidów!"
-        },
-        "battleSimulator": {
-            "title": "Symulator Walk",
-            "link": "/help/battle-simulator",
-            "description": "Symuluj dowolną walkę z najdokładniejszym na świecie symulatorem Pokemon GO!"
-        },
-        "pokebox": {
-            "title": "Pokebox",
-            "link": "/help/pokebox",
-            "description": "Zachowaj swoje Pokemony na naszych serwerach i używaj ich na całej stronie"
-        },
-        "pokedex": {
-            "title": "Pokedex",
-            "link": "/help/pokedex",
-            "description": "Znajdź najlepsze kontry i najłatwiejszych rywali dla każdego Pokemona"
-        },
-        "rankings": {
-            "title": "Rankingi",
-            "link": "/help/rankings",
-            "description": "Dowiedz się jakie Pokemony są ogólnie najlepszymi atakującymi i obrońcami"
-        },
-        "raidAdvice": {
-            "title": "Porady do Raidów",
-            "link": "/help/raid-advice",
-            "description": "Odkryj, które Pokemony musisz wzmocnić żeby pokonać Raid bossy"
-        },
-        "pvpMatrix": {
-            "title": "PVP Matrix",
-            "link": "/help/pvp-matrix-help-guide",
-            "description": "Odkryj jak tworzyć spersonalizowane rankingi do pvp"
-        },
-        "simulations": {
-            "title": "Symulacje",
-            "link": "/help/simulations",
-            "description": "Definicje dla wszystkich typów symulacje na Pokebattlerze"
-        },
-        "attackStrategies": {
-            "title": "Strategie Ataku",
-            "link": "/help/attack-strategies",
-            "description": "Definicje dla wszystkich strategii ataku"
-        },
-        "dodgeStrategies": {
-            "title": "Strategie Uniku",
-            "link": "/help/dodge-strategies",
-            "description": "Definicje dla strategii uniku"
-        },
-        "patreon": {
-            "title": "Patreon",
-            "link": "/help/patreon",
-            "description": "Dowiedz się jak i dlaczego wspierać nas poprzez Patreon"
-        },
-        "glossary": {
-            "title": "Słownik",
-            "link": "/help/glossary",
-            "description": "Słownik Pokemon GO"
-        },
-        "faqs": {
-            "title": "FAQ - Często zadawane pytania",
-            "link": "/help/faqs",
-            "description": "Otrzymujemy sporo pytań. Czasami niektóre z nich się często powtarzają. Te pytania i odpowiedzi na nie znajdziesz tutaj."
-        }
+    "battleSimulator": {
+      "title": "Symulator Walk",
+      "link": "/help/battle-simulator",
+      "description": "Symuluj dowolną walkę z najdokładniejszym na świecie symulatorem Pokemon GO!"
     },
-    "sections": {
-        "battle": {
-            "title": "Walka",
-            "intro": {
-                "title": "Ustaw walkę",
-                "text": "Symulator walk Pokebattler jest bardzo dokładny i pozwala ci na personalizowanie twoich opcji walki na wiele sposobów. Wśród opcji znajdziesz:"
-            },
-            "outro": {
-                "title": "Walczmy!",
-                "text": "Pełne wyniki walki zostaną pokazane. Możesz śmiało zamknąć symulację i spróbować innych kombinacji."
-            },
-            "steps[0]": {
-                "label": "Wpisz w pasku wyszukiwania",
-                "description": "Wybierz atakujących i obrońców, którzy mają ze sobą walczyć"
-            },
-            "steps[1]": {
-                "label": "Tryb podstawowy",
-                "description": "Wprowadź CP, nie przejmuj się ukrytymi statystykami (IVs), postaramy się je rozgryźć dla ciebie najlepiej jak możemy."
-            },
-            "steps[2]": {
-                "label": "Tryb zaawansowany",
-                "description": "Wprowadź dokładny poziom oraz ukryte statystyki (IVs) twojego Pokemona dla najdokładniejszych symulacji"
-            },
-            "steps[3]": {
-                "label": "Wybierz swoje ataki",
-                "description": "Sprawdź wszystkie kombinacje szybkich i specjalnych ataków"
-            },
-            "steps[4]": {
-                "label": "Wybierz swoje strategie",
-                "description": "Dostosuj sposób w jaki Pokemon atakuje i się broni. Możesz sprawdzić definicje w sekcji poniżej."
-            }
-        },
-        "rankings": {
-            "title": "Rankingi",
-            "intro": {
-                "title": "Dostosuj swoje rankingi",
-                "text": "Rankingi Pokebttlera są najbardziej zaawansowane! Żadna inna strona nie pozwala zmieniać ci ustawień i porównywać Pokemony w różnych okolicznościach. W opcjach personalizacji znajdziesz:"
-            },
-            "outro": {
-                "title": "Zbadaj!",
-                "text": "Przedstawione są najlepsze możliwe zestawy ataków dla każdego Pokemona. Kliknięcie na Pokemona pokaże ci szczegółowe informacje o wszystkich zestawach ataków."
-            },
-            "steps[0]": {
-                "label": "Atakujący/Obrońca",
-                "description": "Wybierz czy atakujesz czy bronisz. Atakujący pokazuje wyniki przeciw wszystkim możliwym obrońcom. Obrońca pokazuje wyniki przeciw 6 najlepszym możliwym atakującym."
-            },
-            "steps[1]": {
-                "label": "Sortuj",
-                "description": "Wybierz rodzaj rankingu jaki chcesz zobaczyć (patrz niżej)"
-            },
-            "steps[2]": {
-                "label": "Poziom",
-                "description": "Wybierz poziom atakującego i broniącego Pokemona"
-            },
-            "steps[3]": {
-                "label": "Pojedyncze/Grupowe",
-                "description": "Wybierz czy chcesz widzieć wszystkie możliwe zestawy ataków Pokemona czy tylko te najlepsze "
-            },
-            "steps[4]": {
-                "label": "Wybierz swoje strategie",
-                "description": "Spersonalizuj do swoich preferencji (patrz poniżej)."
-            }
-        },
-        "pokedex": {
-            "title": "Pokedex",
-            "intro": {
-                "title": "Personalizuj Pokemona",
-                "text": "Strona Pokedex jest idealnym miejscem do prowadzenia głębokich analiz Pokemonów. Wśród opcji personalizacji znajdziesz:"
-            },
-            "outro": {
-                "title": "Analizuj",
-                "text": "Wyszukaj dowolnego Pokemona, którym jesteś zainteresowany. Znajdź jakie jego zestawy ataków są najlepsze do ataku i obrony. Dowiedz się których Pokemonów powinieneś unikać używając tego Pokemona oraz jak go najłatwiej pokonać."
-            },
-            "steps[0]": {
-                "label": "Sortuj",
-                "description": "Wybierz rodzaj rankingu jaki chcesz zobaczyć (patrz niżej)"
-            },
-            "steps[1]": {
-                "label": "Poziom",
-                "description": "Wybierz poziom atakującego i broniącego Pokemona"
-            },
-            "steps[2]": {
-                "label": "Wybierz swoje strategie",
-                "description": "Spersonalizuj do swoich preferencji (patrz poniżej)."
-            }
-        },
-        "articles": {
-            "title": "Artykuły",
-            "text": "Sekcja artykułów zawiera wszystkie najlepsze badania wybranej grupy doświadczonych autorów, a także artykuły powiązane z obecnymi eventami i elementy dyskusji. Jeśli chciałbyś, by twoje artykuły zostało tu opublikowane, ",
-            "contact-link": "Kontakt"
-        }
+    "pokebox": {
+      "title": "Pokebox",
+      "link": "/help/pokebox",
+      "description": "Zachowaj swoje Pokemony na naszych serwerach i używaj ich na całej stronie"
     },
-    "definitions": {
-        "title": "Definicje",
-        "attack": {
-            "title": "Strategie Ataku"
-        },
-        "dodge": {
-            "title": "Strategie Uniku",
-            "intro": {
-                "text": "Strategie uniku są sposobem dostrojenia się do algorytmu strategii ataku, po to by zyskać bardziej realistyczne wyniki. Używane są do uwzględnienia rachunku błędu ludzkiego, błędów i innych rzeczy."
-            }
-        },
-        "defense": {
-            "title": "Strategie Obrony"
-        },
-        "sort": {
-            "title": "Opcje Sortowania",
-            "options[0]": {
-                "label": "Ogólnie",
-                "description": "Ocena która pokazuje jak poszczególny Pokemon spisuje się ogólnie. Na tą ocenę 50% wpływu ma siła, 30% czas potrzebny do zwycięstwa i 20% mikstury."
-            },
-            "options[1]": {
-                "label": "Siła",
-                "description": "Procent, który przedstawia ile razy pokemon pokonałby innego. 250% oznacza, że pokonałby go 2 razy i przegrał w połowie trzeciej próby. 75% oznacza, że przegrałby po zbiciu 75% punktów życia celu."
-            },
-            "options[2]": {
-                "label": "Czas do Zwycięstwa",
-                "description": "Pokazuje ilość czasu, jakiej potrzebuje Pokemon do zwycięstwa. 2 sekundy dodawane są za każde zemdlenie Pokemona."
-            },
-            "options[3]": {
-                "label": "% Na Zwycięstwo",
-                "description": "Szereguje ze względu na największą % szansę na zwycięstwo"
-            },
-            "options[4]": {
-                "label": "DPS",
-                "description": "Szereguje ze względu na liczbę obrażeń zadanych średnio w ciągu sekundy"
-            },
-            "options[5]": {
-                "label": "Mikstury",
-                "description": "Szereguje ze względu na ilość podstawowych mikstur jakiej Pokemon potrzebowałby do pełnego wyleczenia + 5 punktów za każde zemdlenie, czyli potrzebę użycia wskrzeszenia."
-            }
-        }
+    "pokedex": {
+      "title": "Pokedex",
+      "link": "/help/pokedex",
+      "description": "Znajdź najlepsze kontry i najłatwiejszych rywali dla każdego Pokemona"
+    },
+    "rankings": {
+      "title": "Rankingi",
+      "link": "/help/rankings",
+      "description": "Dowiedz się jakie Pokemony są ogólnie najlepszymi atakującymi i obrońcami"
+    },
+    "raidAdvice": {
+      "title": "Porady do Raidów",
+      "link": "/help/raid-advice",
+      "description": "Odkryj, które Pokemony musisz wzmocnić żeby pokonać Raid bossy"
+    },
+    "pvpMatrix": {
+      "title": "PVP Matrix",
+      "link": "/help/pvp-matrix-help-guide",
+      "description": "Odkryj jak tworzyć spersonalizowane rankingi do pvp"
+    },
+    "simulations": {
+      "title": "Symulacje",
+      "link": "/help/simulations",
+      "description": "Definicje dla wszystkich typów symulacje na Pokebattlerze"
+    },
+    "attackStrategies": {
+      "title": "Strategie Ataku",
+      "link": "/help/attack-strategies",
+      "description": "Definicje dla wszystkich strategii ataku"
+    },
+    "dodgeStrategies": {
+      "title": "Strategie Uniku",
+      "link": "/help/dodge-strategies",
+      "description": "Definicje dla strategii uniku"
+    },
+    "patreon": {
+      "title": "Patreon",
+      "link": "/help/patreon",
+      "description": "Dowiedz się jak i dlaczego wspierać nas poprzez Patreon"
+    },
+    "glossary": {
+      "title": "Słownik",
+      "link": "/help/glossary",
+      "description": "Słownik Pokemon GO"
+    },
+    "faqs": {
+      "title": "FAQ - Często zadawane pytania",
+      "link": "/help/faqs",
+      "description": "Otrzymujemy sporo pytań. Czasami niektóre z nich się często powtarzają. Te pytania i odpowiedzi na nie znajdziesz tutaj."
     }
+  },
+  "sections": {
+    "battle": {
+      "title": "Walka",
+      "intro": {
+        "title": "Ustaw walkę",
+        "text": "Symulator walk Pokebattler jest bardzo dokładny i pozwala ci na personalizowanie twoich opcji walki na wiele sposobów. Wśród opcji znajdziesz:"
+      },
+      "outro": {
+        "title": "Walczmy!",
+        "text": "Pełne wyniki walki zostaną pokazane. Możesz śmiało zamknąć symulację i spróbować innych kombinacji."
+      },
+      "steps[0]": {
+        "label": "Wpisz w pasku wyszukiwania",
+        "description": "Wybierz atakujących i obrońców, którzy mają ze sobą walczyć"
+      },
+      "steps[1]": {
+        "label": "Tryb podstawowy",
+        "description": "Wprowadź CP, nie przejmuj się ukrytymi statystykami (IVs), postaramy się je rozgryźć dla ciebie najlepiej jak możemy."
+      },
+      "steps[2]": {
+        "label": "Tryb zaawansowany",
+        "description": "Wprowadź dokładny poziom oraz ukryte statystyki (IVs) twojego Pokemona dla najdokładniejszych symulacji"
+      },
+      "steps[3]": {
+        "label": "Wybierz swoje ataki",
+        "description": "Sprawdź wszystkie kombinacje szybkich i specjalnych ataków"
+      },
+      "steps[4]": {
+        "label": "Wybierz swoje strategie",
+        "description": "Dostosuj sposób w jaki Pokemon atakuje i się broni. Możesz sprawdzić definicje w sekcji poniżej."
+      }
+    },
+    "rankings": {
+      "title": "Rankingi",
+      "intro": {
+        "title": "Dostosuj swoje rankingi",
+        "text": "Rankingi Pokebttlera są najbardziej zaawansowane! Żadna inna strona nie pozwala zmieniać ci ustawień i porównywać Pokemony w różnych okolicznościach. W opcjach personalizacji znajdziesz:"
+      },
+      "outro": {
+        "title": "Zbadaj!",
+        "text": "Przedstawione są najlepsze możliwe zestawy ataków dla każdego Pokemona. Kliknięcie na Pokemona pokaże ci szczegółowe informacje o wszystkich zestawach ataków."
+      },
+      "steps[0]": {
+        "label": "Atakujący/Obrońca",
+        "description": "Wybierz czy atakujesz czy bronisz. Atakujący pokazuje wyniki przeciw wszystkim możliwym obrońcom. Obrońca pokazuje wyniki przeciw 6 najlepszym możliwym atakującym."
+      },
+      "steps[1]": {
+        "label": "Sortuj",
+        "description": "Wybierz rodzaj rankingu jaki chcesz zobaczyć (patrz niżej)"
+      },
+      "steps[2]": {
+        "label": "Poziom",
+        "description": "Wybierz poziom atakującego i broniącego Pokemona"
+      },
+      "steps[3]": {
+        "label": "Pojedyncze/Grupowe",
+        "description": "Wybierz czy chcesz widzieć wszystkie możliwe zestawy ataków Pokemona czy tylko te najlepsze "
+      },
+      "steps[4]": {
+        "label": "Wybierz swoje strategie",
+        "description": "Spersonalizuj do swoich preferencji (patrz poniżej)."
+      }
+    },
+    "pokedex": {
+      "title": "Pokedex",
+      "intro": {
+        "title": "Personalizuj Pokemona",
+        "text": "Strona Pokedex jest idealnym miejscem do prowadzenia głębokich analiz Pokemonów. Wśród opcji personalizacji znajdziesz:"
+      },
+      "outro": {
+        "title": "Analizuj",
+        "text": "Wyszukaj dowolnego Pokemona, którym jesteś zainteresowany. Znajdź jakie jego zestawy ataków są najlepsze do ataku i obrony. Dowiedz się których Pokemonów powinieneś unikać używając tego Pokemona oraz jak go najłatwiej pokonać."
+      },
+      "steps[0]": {
+        "label": "Sortuj",
+        "description": "Wybierz rodzaj rankingu jaki chcesz zobaczyć (patrz niżej)"
+      },
+      "steps[1]": {
+        "label": "Poziom",
+        "description": "Wybierz poziom atakującego i broniącego Pokemona"
+      },
+      "steps[2]": {
+        "label": "Wybierz swoje strategie",
+        "description": "Spersonalizuj do swoich preferencji (patrz poniżej)."
+      }
+    },
+    "articles": {
+      "title": "Artykuły",
+      "text": "Sekcja artykułów zawiera wszystkie najlepsze badania wybranej grupy doświadczonych autorów, a także artykuły powiązane z obecnymi eventami i elementy dyskusji. Jeśli chciałbyś, by twoje artykuły zostało tu opublikowane, ",
+      "contact-link": "Kontakt"
+    }
+  },
+  "definitions": {
+    "title": "Definicje",
+    "attack": {
+      "title": "Strategie Ataku"
+    },
+    "dodge": {
+      "title": "Strategie Uniku",
+      "intro": {
+        "text": "Strategie uniku są sposobem dostrojenia się do algorytmu strategii ataku, po to by zyskać bardziej realistyczne wyniki. Używane są do uwzględnienia rachunku błędu ludzkiego, błędów i innych rzeczy."
+      }
+    },
+    "defense": {
+      "title": "Strategie Obrony"
+    },
+    "sort": {
+      "title": "Opcje Sortowania",
+      "options[0]": {
+        "label": "Ogólnie",
+        "description": "Ocena która pokazuje jak poszczególny Pokemon spisuje się ogólnie. Na tą ocenę 50% wpływu ma siła, 30% czas potrzebny do zwycięstwa i 20% mikstury."
+      },
+      "options[1]": {
+        "label": "Siła",
+        "description": "Procent, który przedstawia ile razy pokemon pokonałby innego. 250% oznacza, że pokonałby go 2 razy i przegrał w połowie trzeciej próby. 75% oznacza, że przegrałby po zbiciu 75% punktów życia celu."
+      },
+      "options[2]": {
+        "label": "Czas do Zwycięstwa",
+        "description": "Pokazuje ilość czasu, jakiej potrzebuje Pokemon do zwycięstwa. 2 sekundy dodawane są za każde zemdlenie Pokemona."
+      },
+      "options[3]": {
+        "label": "% Na Zwycięstwo",
+        "description": "Szereguje ze względu na największą % szansę na zwycięstwo"
+      },
+      "options[4]": {
+        "label": "DPS",
+        "description": "Szereguje ze względu na liczbę obrażeń zadanych średnio w ciągu sekundy"
+      },
+      "options[5]": {
+        "label": "Mikstury",
+        "description": "Szereguje ze względu na ilość podstawowych mikstur jakiej Pokemon potrzebowałby do pełnego wyleczenia + 5 punktów za każde zemdlenie, czyli potrzebę użycia wskrzeszenia."
+      }
+    }
+  }
 }

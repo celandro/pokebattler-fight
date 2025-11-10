@@ -1,21 +1,44 @@
 {
-    "title": "Drużyny - Beta",
+  "title": "Drużyny - Beta",
+  "meta": {
+    "description": "Zachowaj swoje drużyny z Pokemon GO"
+  },
+  "explanation": "Drużyny stworzone są by działać tak jak w grze. Ustawiasz je używając swoich Pokemonów, a następnie możesz użyć podczas projektowania symulacji walk. Twoje drużyny mogą zostać użyte przez innych graczy do symulowania Raidów oraz walk pvp.",
+  "battlePartyList": {
+    "title": "Twoje Drużyny"
+  },
+  "add": {
+    "title": "Drużyna",
     "meta": {
-        "description": "Zachowaj swoje drużyny z Pokemon GO"
+      "description": "Dodaj Drużynę Pokemon GO"
     },
-    "explanation": "Drużyny stworzone są by działać tak jak w grze. Ustawiasz je używając swoich Pokemonów, a następnie możesz użyć podczas projektowania symulacji walk. Twoje drużyny mogą zostać użyte przez innych graczy do symulowania Raidów oraz walk pvp.",
-    "battlePartyList": {
-        "title": "Twoje Drużyny"
+    "description": "Stwórz swoją drużynę",
+    "modify": "Add Pokemon From Your Pokebox"
+  },
+  "select": {
+    "emptyName": "$t(common:battleParty) {{value}}",
+    "label": "Choose Your $t(common:battleParty)",
+    "noneFound": "No $t(common:battleParties) found for this league",
+    "create": "Create $t(common:battleParty)",
+    "edit": "Edit",
+    "title": "Choose A Battle Party",
+    "open": "Choose  $t(common:battleParty)",
+    "close": "Select"
+  },
+  "full": {
+    "title": "Party Full",
+    "description": "You have reached the party size limit for this league"
+  },
+  "empty": {
+    "title": "Party Empty",
+    "description": "You have not added any Pokemon from your Pokebox to this Party"
+  },
+  "edit": {
+    "title": "Battle Party Edit",
+    "meta": {
+      "description": "Edit Your Battle Party"
     },
-    "add": {
-        "title": "Drużyna",
-        "meta": {
-            "description": "Dodaj Drużynę Pokemon GO"
-        },
-        "description": "Stwórz swoją drużynę",
-        "full": "Twoja drużyna jest pełna"
-    },
-    "select": {
-        "emptyName": "$t(common:battleParty) {{value}}"
-    }
+    "description": "Update the name of your Battle Party below in the text box. You can also change the league with the drop down. Then change the party members by clicking the 'change your battle party members' button. Finally, modify the stats of each Pokemon by clicking on it!",
+    "modify": "Change Your Battle Party Members"
+  }
 }

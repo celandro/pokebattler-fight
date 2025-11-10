@@ -1,40 +1,68 @@
 {
-    "title": "建議",
-    "linkLabel": "團體戰導引",
-    "inputs": {
-        "title": "你需要哪方面的建議？"
+  "title": "建議",
+  "linkLabel": "團體戰導引",
+  "inputs": {
+    "title": "你需要哪方面的建議？",
+    "subtitle": "What Do You Need Advice For?"
+  },
+  "buttonLabel": "強化寶可夢",
+  "results": {
+    "title": "團體戰建議",
+    "calculating": "團體戰建議計算中",
+    "counters": {
+      "title": "剋星",
+      "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
+      "chooseMovesetLabel": "頭目的配招",
+      "subtitle": "Best Powered Up Attackers by",
+      "description": "The following analysis shows the Pokemon that have the potential to be the strongest raiders in terms of {{sort}} against {{pokemon}}."
     },
-    "buttonLabel": "強化寶可夢",
-    "results": {
-        "title": "團體戰建議",
-        "calculating": "團體戰建議計算中",
-        "counters": {
-            "title": "剋星",
-            "moveSetOrderingDescription": "頭目配招是從最難打到最容易的順序排列。提醒雖然是同一個頭目，但是遇到不同的配招，適合的打手可能完全不同。",
-            "chooseMovesetLabel": "頭目的配招"
-        },
-        "hardestMovesets": {
-            "title": "頭目各種配招的挑戰難度",
-            "tableTitle": "頭目配招的挑戰難度(排名越上面越困難)",
-            "description": "防守寶可夢的招式組可決定團體戰難易度！",
-            "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
-        },
-        "analysis": {
-            "title": "關於此分析",
-            "attackers": {
-                "byLevel": "等級{{attackerLevel}}攻擊者",
-                "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
-            }
-        }
+    "hardestMovesets": {
+      "title": "頭目各種配招的挑戰難度",
+      "tableTitle": "頭目配招的挑戰難度(排名越上面越困難)",
+      "description": "防守寶可夢的招式組可決定團體戰難易度！",
+      "subtitle": "{{pokemon}}頭目的難打程度(依{{sort}}排序)"
     },
-    "pokeboxRequired": "Pokebattler Advice 需要你輸入寶可夢。登入並加入你最強的寶可夢到 Pokebox，我們會協助你找到最合適強化的寶可夢。",
-    "result": {
-        "summaryStart": "起始結果",
-        "summaryEnd": "強化後結果",
-        "graphTitle": "{{yAxis}} vs. {{xAxis}}",
-        "detail": "每次強化對應的結果",
-        "back": "回到 Advice 設定"
+    "analysis": {
+      "title": "關於此分析",
+      "attackers": {
+        "byLevel": "等級{{attackerLevel}}攻擊者",
+        "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
+      },
+      "description": "This raid advice was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 20 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets."
     },
-    "raidLink": "看強化前的結果",
-    "helpLink": "看 Raid Advice 教學影片"
+    "meta": {
+      "description": "Pokemon Go Raid Advice Results for {{attacker}} vs. {{defender}} finds the best pokemon to powerup to defeat every raid boss.",
+      "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+    },
+    "description": "Welcome to the Pokebattler raid advice for {{pokemon}}. You can find the best potential counters based on the moveset of each boss. This guide is customizable in several different ways. You can choose the attack level and attack strategy that you like to use as well as various sort options. You can also choose the amount of stardust and candies you have available."
+  },
+  "pokeboxRequired": "Pokebattler Advice 需要你輸入寶可夢。登入並加入你最強的寶可夢到 Pokebox，我們會協助你找到最合適強化的寶可夢。",
+  "result": {
+    "summaryStart": "起始結果",
+    "summaryEnd": "強化後結果",
+    "graphTitle": "{{yAxis}} vs. {{xAxis}}",
+    "detail": "每次強化對應的結果",
+    "back": "回到 Advice 設定",
+    "title": "Raid Advice Details for {{attacker}} vs {{defender}}",
+    "meta": {
+      "description": "Pokemon Go Raid Advice Details for {{attacker}} vs. {{defender}} shows breakpoints and stardust efficiency",
+      "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
+    },
+    "subTitle": "{{attacker}} vs. {{defender}}",
+    "description": "The result of each Power Up of a {{attacker}} vs. a {{defender}} raid boss is shown below. The results will vary based on the moves of {{defender}}.",
+    "powerUpDialog": {
+      "title": "Power Up",
+      "description": "Do you want to power up {{pokemon}} {{powerUps}} times to {{cp}}?",
+      "submit": "Yes",
+      "cancel": "No"
+    }
+  },
+  "raidLink": "看強化前的結果",
+  "helpLink": "看 Raid Advice 教學影片",
+  "meta": {
+    "description": "Pokemon Go Raid Advice helps you find out which Pokemon to Power up to beat Raid Bosses and spend candy and stardust most efficiently",
+    "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+  },
+  "intro": "Pokebattler Advice is a custom feature designed to help you optimize your Pokebox for specific raids. Simply select the raid boss you wish to find the best potential Pokemon to fight against it with, and enter the stardust and candy you have available to see how your Pokemon will look after they are powered up. This tool will help you decide which Pokemon will gain the most from that stardust and candy so you know how to spend it with maximum efficiency.",
+  "intro2": "After you have run a simulation, click on any Pokemon to see how much improvement you get after each Power Up. There are often breakpoints where you can stop powering your Pokemon up after you hit them to save yourself some stardust and candy! This is different than other breakpoint tools you have seen as it empirically finds breakpoints, even ones that are not obvious."
 }

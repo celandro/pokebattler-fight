@@ -1,2 +1,323 @@
 {
+  "title": "Raid Parties",
+  "result": {
+    "title": "#{{id}} {{defender}}"
+  },
+  "helpModal": {
+    "raidNetwork": {
+      "title": "Pokebattler Raid Network",
+      "subtitle": "Join Remote Raids",
+      "description": "Pokebattler Raid Network is a way to join raids with your friends in the Pokebattler app, third party apps or on Discord. ",
+      "description2": "Joining Discord raids in the Pokebattler Raid Network is quick and easy! Simply join the raid and it will temporarily join you to the discord server, add you into the raid, and send you to the discord channel for communication with the host. You will automatically be removed from the server after some time by Discord itself.  Your spot in the raid will be saved for a short amount of time until you click to temporarily join the server in Discord ",
+      "description3": "In order to use the network, you will need to enter your trainer name and friend code. This is shared with the discord bots to allow for raid coordination. Discord Raids require linking your Discord account as well.",
+      "description4": "Discord Raids are hosted in either Pokenav or Nexus bots and are controlled by the server owners. These global raids are sent to the network after a delay, allowing users local on the server to join first.  You can join when the countdown timer hits 0 or the ⏩ button appears.",
+      "description5": "Pokebattler subscribers currently have a small head start for joining raids. This may also be used by spending coins. You can join the raid early by clicking the ⏩ button.",
+      "joinDescription": "Raids with chat are supported via discord bot integrations and can be hosted in any Discord that has Nexus or PokeNav configured for the Raid Network.",
+      "joinButton": "Join Pokebattler Raid Party Discord",
+      "beConsiderate": "Please be considerate of the servers you are joining and be on your best behavior! Abusive players, disorderly conduct and players who do not coordinate with the raid will be permanently banned from the raid network."
+    },
+    "raidPlayer": {
+      "title": "Pokebattler Raid Party App Raids",
+      "subtitle": "Joining a Raid",
+      "description": "There are two types of raids you can join in the Pokebattler Raid Network",
+      "description2": "Pokebattler raids are hosted in this app and supports a guided raid flow. Discord Raids are hosted inside partner Discord communities and supports chat.",
+      "appRaid": "Pokebattler Raids",
+      "appRaid1": "Upon joining a Pokebattler Raid there are simple steps to follow",
+      "appRaid1Step1": "Select if you are local or remote.",
+      "appRaid1Step2": "If remote, the host's trainer code is automatically copied for you. Enter Pokemon Go, add a friend and paste the code",
+      "appRaid1Step3": "Return to the Pokebattler Raid Party app and click Friend Invite Sent",
+      "appRaid2": "You are now ready to raid! When the host starts the raid, you will receive a push notification and a countdown timer will appear",
+      "discordRaid": "Discord Raids",
+      "discordRaid1": "Pokebattler Raid Network supports both PokeNav bot and Nexus bot.",
+      "discordRaid2": "When you join a Discord raid, Pokebattler will automatically send you into the raid channel and add you to the discord raid",
+      "discordRaid3": "Communicate inside Discord with the raid members!",
+      "discordRaid4": "Discord Raids require Discord app to be installed on your phone. Instructions for using the bots can be found at their websites"
+    },
+    "raidHost": {
+      "title": "Pokebattler Raid Party App Raids",
+      "subtitle": "Hosting a Raid",
+      "description": "Hosting a raid in the Pokebattler app is simpler than you think! In app raids are designed to be a guided flow to help the raid be successful. Pokebattler will tell all party members what to do and let you know whether your group will win!",
+      "description2": "First Choose your privacy level, raid tier and raid boss and click Play. Your raid will be available to join immediately for in app friends. If you chose global, all app users and discord servers in the raid network will be notified of your raids and will be able to join after a few seconds",
+      "description3": "As players join, your friend code will automatically be shared with them and they will be informed they need to send you friend invites in Pokemon Go. As users send invites, they will be marked as ready and you will receive a push notification to let you know to check your Pokemon Go friend invites. Accept the invites",
+      "description4": "Last step, come back to the Pokebattler Raid Party App and when you are ready, click Go!",
+      "advanced": "Advanced",
+      "advanced1": "Now that you know the basics, there's a lot more features packed into hosting for players who truly want to raid with confidence",
+      "advanced2": "Default settings have been chosen on your behalf, but click the edit button to configure your raid to your liking.",
+      "options": {
+        "weatherCondition": {
+          "label": "Weather Condition",
+          "description": "If meteors truly are expected, keep the weather at Extreme. Otherwise choose the appropriate weather!"
+        },
+        "quickMove": {
+          "label": "Quick Move",
+          "description": "The quick move of the boss. Honestly you probably will get this wrong if you pick it"
+        },
+        "cinematicMove": {
+          "label": "Charge Move",
+          "description": "The charge move of the boss. If you somehow know an electric move is coming you can choose this"
+        },
+        "privacy": {
+          "label": "Privacy",
+          "description": "When you host a party, you can choose who can join. Global can be joined by anyone. Friends can be joined by your friends. Private can only be joined by raid party id"
+        },
+        "maxInvites": {
+          "label": "Max Invites",
+          "description": "Number of players who you can invite into the raid"
+        },
+        "randomAssistants": {
+          "label": "Extra Players",
+          "description": "Number of extra players that are joining the raid who are not using the app"
+        }
+      }
+    }
+  },
+  "raidPartyRejoinCard": {
+    "title": "Rejoin Current Raid",
+    "subtitle": "You may only join one raid at a time. Please click to rejoin and finish the raid"
+  },
+  "raidPartyCard": {
+    "title": "{{ownerName}}'s Party",
+    "id": "#{{id}}",
+    "createdAt": "Created at {{createdAt}}.",
+    "globalTime": "{{globalTime}}"
+  },
+  "raidPartySummaryCard": {
+    "title": "{{defender}}",
+    "subtitle": "{{ownerName}}"
+  },
+  "raidPartyKicked": {
+    "title": "Removed From Raid",
+    "description": "The host has removed you from the raid.",
+    "reasonHeading": "Common Reasons For Removal",
+    "reason1": "You did not send a friend invite to the host.",
+    "reason2": "Your username and friend code do not exactly match what is in Pokemon Go.",
+    "reason3": "The host does not believe the raid will be successful. Some bosses are extremely difficult and can not be completed with lower level players who often do not use high damage counters.",
+    "pokebox": "Add your pokemon to your Pokebox to show the host you are using the proper counters"
+  },
+  "raidPartyHost": {
+    "title": "Raid Host",
+    "description": "Send a friend invite to {{name}} in Pokemon Go",
+    "hostInfo": "{{name}}",
+    "friendInviteSent": "Friend Invite Sent",
+    "confirmFriend": "Confirm friendship with {{name}}",
+    "PRIVATE": {
+      "instructions": "This is a private raid. Share your raid party with your friends using the share icon in the top right."
+    },
+    "FRIEND": {
+      "instructions": "Notifications have been sent to your in app friends. Share your raid party with others using the share icon in the top right."
+    },
+    "GLOBAL": {
+      "instructions": "Your global raid is available for anyone to join! Look for friend invites in game. Once you have enough players, start the raid countdown"
+    }
+  },
+  "raidPartyUserStatus": {
+    "NONE": {
+      "hostDescription": "Select whether you are local or remote"
+    },
+    "READY": {
+      "hostDescription": "Look around for {{name}}!"
+    },
+    "INTERESTED": {
+      "hostDescription": "Select whether you are local or remote"
+    },
+    "REMOTE": {
+      "hostDescription": "Send a friend invite to {{name}} in Pokemon Go"
+    },
+    "REMOTE_READY": {
+      "hostDescription": "Wait for the raid invite from {{name}} in Pokemon Go"
+    },
+    "DONE": {
+      "hostDescription": "You have left the party"
+    }
+  },
+  "raidPartyPlayer": {
+    "title": "{{name}}",
+    "id": "#{{id}}"
+  },
+  "raidPartyStatus": {
+    "INTERESTED": "Available",
+    "FULL": "Full",
+    "LOBBY": "Lobby",
+    "DONE": "Done",
+    "READY": "In Progress"
+  },
+  "raidPartyActions": {
+    "errors": {
+      "createRaidPartyGeneral": "Raid party could not be created for {{raidPartyPokemon}}",
+      "updateRaidPartyGeneral": "Raid party could not be updated for {{raidPartyPokemon}}",
+      "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyId}}",
+      "getRaidResultsGeneral": "Raid results from party {{raidPartyId}} could not be retrieved",
+      "removeUserFromRaidPartyGeneral": "You could not leave party #{{raidPartyId}}",
+      "addUserToRaidPartyGeneral": "You could not join party #{{raidPartyId}}",
+      "getUserRaidPartiesGeneral": "Could not fetch raid parties",
+      "addUserToRaidPartyGone": "Raid party #{{raidPartyId}} is complete",
+      "addUserToRaidPartyFull": "Raid party #{{raidPartyId}} is now full",
+      "addUserToRaidPartyGlobal": "Raid party #{{raidPartyId}} is not available to join yet, wait for the countdown timer"
+    }
+  },
+  "share": {
+    "title": "{{name}} #{{id}}",
+    "message": "Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
+    "friendMessage": "Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
+    "error": "Error sharing raid party"
+  },
+  "noRaidParty": {
+    "title": "No Raid Parties Found",
+    "description": "Pokebattler Raid Parties are a quick and easy way to know whether you will beat a raid boss with your friends. You can host a raid party by selecting the blue plus button or from the raid counters by clicking on a raid and then clicking Join Raid Party",
+    "link": "Current Raids",
+    "linkTo": "RaidBosses"
+  },
+  "noFriendRaidParty": {
+    "title": "No Friend Raid Parties Found",
+    "description": "Add your friends to Pokebattler Raid Party to know when your friends are raiding and quickly join their parties. Friends can be added on the Friend List or in raid party results.",
+    "link": "Friend List",
+    "linkTo": "Friends"
+  },
+  "noGlobalRaidParty": {
+    "title": "All Global Raid Parties Are Full",
+    "description": "No raids are currently available. Host your own for others to join from your discord server or in the app",
+    "link": "Current Raids",
+    "linkTo": "RaidBosses"
+  },
+  "globalRaidList": {
+    "title": "Pokebattler Raid Network",
+    "tab": "Global",
+    "subtitle": "Join Remote Raids from around the world! For Discord raids, you will be added to the raid and sent directly to the Discord channel to coordinate."
+  },
+  "friendRaidList": {
+    "title": "Friend Raids",
+    "tab": "Friends",
+    "subtitle": "Add friends in the Pokebattler Raid App and join their raids here. You will get push notifications when your friends are raiding and mutual friends can join global raids before others"
+  },
+  "selfRaidList": {
+    "title": "Your Raids",
+    "tab": "History",
+    "subtitle": "The raids you have hosted or joined are here. Look through your raids to find friends to add in the Pokebattler Raid Network"
+  },
+  "refresh": "Refresh",
+  "highMaxPlayers": {
+    "title": "WARNING",
+    "description": "Inviting more than 5 remote players is quite tricky! Please make sure you know how to do it.",
+    "button": "Watch how to invite 10 players!",
+    "url": "https://youtube.com/shorts/Bn9kwYhm1M0"
+  },
+  "placeholder": "Enter custom boss to simulate",
+  "discord": {
+    "joinServer": "Join Server",
+    "privateServer": "Private Server",
+    "joinChat": "Join Chat",
+    "oneClickJoin": "Instant Join",
+    "joinToServerInfo": "This raid requires you to join within discord. Please join the server, follow the welcome messages, then join the raid via the icons provided on the bot",
+    "coordinateInChannel": "This raid is coordinated in discord. Please communicate in the channel. Having trouble? Make sure your Discord is logged in with the same Discord account that you linked to this Pokebattler account."
+  },
+  "goCommand": "Go",
+  "raidStartingIn": "Raid Starting In",
+  "startRaidIn": "Start Raid In",
+  "noTimeSpecified": "No time specified",
+  "raidNotStarted": "{{ownerName}} has not started the raid yet",
+  "countdownTitle": "Raid Start Time",
+  "startingTime": {
+    "15": "15 seconds",
+    "30": "30 seconds",
+    "120": "2 minutes",
+    "300": "5 minutes",
+    "default": "Select Starting Time"
+  },
+  "countdownDone": "Go",
+  "goCommandInstruction": "Hitting GO will close the raid to additional players and notify all players the raid is starting! Make sure you have accepted all friend invites. Once you hit GO you can't go back!",
+  "raidStarting": "Raid is starting, enter the game!",
+  "raidStartingOwner": "What are you waiting for? It's your responsibility to start the raid now, your raid is waiting on you! Copy the trainer names and invite them all to the raid in game!",
+  "raidComplete": "This raid is complete. Thank you for raiding with Pokebattler Raid Party!",
+  "raidPartyList": {
+    "unavailable": "Unavailable Raid Parties",
+    "available": "Available Raid Parties",
+    "recent": "Recent Raid Parties"
+  },
+  "clipboard": {
+    "copyAttackers": "Copy Attackers",
+    "friendCodeCopied": "Copied {{ownerName}}'s friend code! Paste it on the game to send a friend invite to the host!",
+    "attackersCopied": "Copied your suggested attackers! Paste them on your in-game battle party search!",
+    "partyTrainersCopied": "Copied the trainer names ready for the raid! Paste the text on your game and invite them to your raid!"
+  },
+  "raidVotingPopup": {
+    "player": {
+      "title": "Confirmation - Leave Raid",
+      "thankYou": "Thank you for raiding with Pokebattler Raid Party!",
+      "rate": "Please rate {{ownerName}}'s party?",
+      "close": "$t(raidBosses:leaveParty)"
+    },
+    "host": {
+      "title": "Confirmation - Finish Raid",
+      "thankYou": "Thank you for hosting a raid with Pokebattler Raid Party!",
+      "rate": "Please swipe left or right to rate party members",
+      "close": "$t(raidBosses:finishParty)"
+    },
+    "abandon": {
+      "title": "Confirmation - Abandon Raid",
+      "thankYou": "Unfortunately no one joined your raid 😔",
+      "rate": "",
+      "close": "Abandon Raid"
+    }
+  },
+  "kickUserPreviewPopup": {
+    "title": "Kick Player",
+    "questionMessage": "Do you want to kick",
+    "rateMessage": "(Optional) rating"
+  },
+  "coins": {
+    "spendCard": {
+      "title": "Earn coins or subscribe to join raids early.",
+      "button": "Join early ⏩"
+    },
+    "upgradePopup": {
+      "title": "Upgrade for Coins!",
+      "cardSubtitle": "Spend coins to upgrade to a higher subscription level",
+      "nonUpgradeRole": {
+        "title": "Thank you for subscribing!",
+        "topText": "Thank you for subscribing to the maximum fast forward setting!",
+        "bottomText": "We deeply appreciate your support"
+      },
+      "disabled": {
+        "message": "You do not have enough coins to upgrade to this level"
+      },
+      "allowed": {
+        "message": "After you upgrade you will be able to join raids early, click to join when the ⏩ appears!",
+        "upgrade": "Upgrade",
+        "noteText": "Each raid you join early will cost you. Failed raids will auto refund coins after 24 hours."
+      },
+      "subtitle": "Current ways to gain coins:",
+      "rewards1": "• +1 coin rating a 👍 or 👎",
+      "rewards2": "• +5 coins receiving a 👍",
+      "maximumGain": "Maximum gain per raid: 30 for hosts and 6 for guests",
+      "noteText": "You do not lose coins by receiving a 👎 but you do lose Karma. Karma is shown to other users and makes the world a better place"
+    }
+  },
+  "hostForm": {
+    "noRaidsForTier": "There are no {{tier}} raids currently available in Pokemon Go."
+  },
+  "createRaidForm": {
+    "title": "Create Raid Party",
+    "priority": {
+      "header": "Warning, Low Priority",
+      "headerExtreme": "Extremely Low Priority",
+      "line1": "There are {{numHigherKarmaParties}} hosts with higher priority than you.",
+      "line2": "Warning! Boosting priority is a beta feature. No refunds will be granted unless accompanied by a detailed bug report to admin@pokebattler.com. Use at your own risk! Priority is based on your karma and can only be boosted by coins.",
+      "insufficientCoins": "You need {{moreCoins}} more coins to boost your priority. Joining other raids to gain more Karma or hosting on non-raid hours is highly recommended!",
+      "sortBoostTitle": "Spend coins to boost priority",
+      "sortBoostSubTitle": "Higher priority will place you higher in the list of available raids, filling your raid faster.",
+      "placeholder": "No Boost",
+      "option1": "Top Priority",
+      "option2": "Second Priority",
+      "option3": "Third Priority"
+    },
+    "suggestedParty": {
+      "header": "Available Global Raid",
+      "line1": "Consider joining instead of hosting"
+    },
+    "hostParty": "Host Party"
+  },
+  "filterRaidForm": {
+    "title": "Filter Raid Parties",
+    "apply": "Apply"
+  }
 }

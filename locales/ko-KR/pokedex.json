@@ -1,38 +1,38 @@
 {
-    "title": "{{defender}} 카운터와 공격 매치업",
-    "meta": {
-        "description": "포켓몬고 {{defender}} 도감은 어떤 포켓몬이 {{defender}}를 카운터하고 {{defender}}가 어떤 포켓몬 대상 매치업에서 가장 잘 싸우는지에 대한 커스터마이징 가능한 가이드입니다.",
-        "image": "https://static.pokebattler.com/images/og_gym_pokedex.jpg"
-    },
-    "intro": "$t(constants:pokemon.{{pokemon}})의 포케배틀러 도감에 오신 것을 환영합니다. 여러분은 $t(constants:pokemon.{{pokemon}})의 최고의 공격자와 최고의 방어 기술조합, 그리고 최악의 매치업과 방어시 그에 대한 최고의 카운터를 찾을 수 있습니다. 이 방법으로 여러분은 전투에서 어떤 포켓몬을 피해야 하는지와 어떻게 그 성가신 방어자를 이길 수 있는지 알 수 있습니다. 하단의 옵션을 자유롭게 변경하여 다른 전투 상황의 효과를 보거나 정렬을 원하는 대로 변경하세요. 항상 그랬듯이, 이 페이지의 결과는 포케배틀러 포켓몬고 배틀 시뮬레이터에 의해 생성됩니다. 여러분은 상대 포켓몬 이미지를 클릭하여 각각의 시뮬레이션을 파고들 수 있습니다",
-    "loading": "$t(constants:pokemon.{{pokemon}})에 대한 상세 배틀 분석을 생성중입니다. 이 페이지를 생성하기 위해서 백만번 이상의 시뮬레이션이 요구됩니다. 하지만 오래 걸리진 않을 것입니다.",
-    "about": {
-        "title": "이 배틀 분석에 대해",
-        "text1": "{{pokemon}}에 대한 이 분석은 {{attackerLevel}} 레벨의 공격자와 {{defenderLevel}}의 방어자 간 전투의 시뮬레이션에 기초합니다. 랭킹 시뮬레이션은 {{attackStrategy}} 공격전략과 {{dodgeStrategy}}방어 전략을 사용해서 몬테카를로 시뮬레이션으로 행해졌습니다. 상위 32 카운터와 최악의 32 매치업은 모든 가능한 기술조합을 지닌 각 최종진화형 포켓몬을 공격자와 방어자 모두로 {{pokemon}} 대상의 전투 시뮬레이션으로 찾아졌습니다. 이 32 카운터/매치업의 각 상위 5개 기술조합에 대해 수백번의 몬테카를로 시뮬레이션이 행해져서, 총 {{simulationCount}}번의 시뮬레이션이 행해졌습니다. {{sort}} 기준으로 상위 30개 카운터와 최악 30 매치업 그리고 그들의 최고 기술조합이 저장되어 여기 표시됩니다.",
-        "text2": "여러분은 아무 공격자나 눌러서 그 특정 시뮬레이션의 결과를 볼 수 있습니다. 정렬 순서는 각 결과의 우측 상단의 정렬 아이콘을 클릭하고 선호하는 정렬 타입을 선택하여 변경할 수 있습니다",
-        "text3": {
-            "text": "더 많은 정보를 {{link}} 에서 찾을 수 있습니다",
-            "link": "도움말 섹션"
-        }
-    },
-    "bestAttack": {
-        "title": "최고 공격 기술조합",
-        "subtitle": "$t(common:properties.{{sort}}) 기준",
-        "rankingTitle": "평균 전투 스탯 Vs. 최악 30개 매치업"
-    },
-    "bestDefense": {
-        "title": "최고 방어 기술조합",
-        "subtitle": "$t(common:properties.{{sort}}) 기준",
-        "rankingTitle": "평균 전투 스탯 Vs. 최고 6개 카운터"
-    },
-    "attackMatchups": {
-        "title": "공격 매치업",
-        "subtitle": "$t(common:properties.{{sort}}) 기준",
-        "text": "다음 분석은 가장 어려운 {{defenderLevel}}레벨 방어자 대 {{attackerLevel}} 레벨 $t(constants:pokemon.{{pokemon}})의 결과를 보여줍니다. 랭킹은 공격자가 $t(common:properties.{{sort}})기준 방어자에 대해 얼마나 잘 하는지입니다. 쉽게 말해서, 이 목록의 제일 위에 있는 포켓몬을 상대할때 $t(constants:pokemon.{{pokemon}}) 를 쓰세요!"
-    },
-    "bestCounters": {
-        "title": "최고 카운터",
-        "subtitle": "$t(common:properties.{{sort}}) 기준",
-        "text": "다음 분석은  $t(common:properties.{{sort}}) 기준으로 {{defenderLevel}} 레벨 $t(constants:pokemon.{{pokemon}}) 상대로 {{attackerLevel}}레벨의 가장 강력한 포켓몬을 보여줍니다. 이들은 $t(constants:pokemon.{{pokemon}})이 체육관을 지키고 있을 경우 사용하기 가장 좋은 포켓몬입니다."
+  "title": "{{defender}} 카운터와 공격 매치업",
+  "meta": {
+    "description": "포켓몬고 {{defender}} 도감은 어떤 포켓몬이 {{defender}}를 카운터하고 {{defender}}가 어떤 포켓몬 대상 매치업에서 가장 잘 싸우는지에 대한 커스터마이징 가능한 가이드입니다.",
+    "image": "https://static.pokebattler.com/images/og_gym_pokedex.jpg"
+  },
+  "intro": "$t(constants:pokemon.{{pokemon}})의 포케배틀러 도감에 오신 것을 환영합니다. 여러분은 $t(constants:pokemon.{{pokemon}})의 최고의 공격자와 최고의 방어 기술조합, 그리고 최악의 매치업과 방어시 그에 대한 최고의 카운터를 찾을 수 있습니다. 이 방법으로 여러분은 전투에서 어떤 포켓몬을 피해야 하는지와 어떻게 그 성가신 방어자를 이길 수 있는지 알 수 있습니다. 하단의 옵션을 자유롭게 변경하여 다른 전투 상황의 효과를 보거나 정렬을 원하는 대로 변경하세요. 항상 그랬듯이, 이 페이지의 결과는 포케배틀러 포켓몬고 배틀 시뮬레이터에 의해 생성됩니다. 여러분은 상대 포켓몬 이미지를 클릭하여 각각의 시뮬레이션을 파고들 수 있습니다",
+  "loading": "$t(constants:pokemon.{{pokemon}})에 대한 상세 배틀 분석을 생성중입니다. 이 페이지를 생성하기 위해서 백만번 이상의 시뮬레이션이 요구됩니다. 하지만 오래 걸리진 않을 것입니다.",
+  "about": {
+    "title": "이 배틀 분석에 대해",
+    "text1": "{{pokemon}}에 대한 이 분석은 {{attackerLevel}} 레벨의 공격자와 {{defenderLevel}}의 방어자 간 전투의 시뮬레이션에 기초합니다. 랭킹 시뮬레이션은 {{attackStrategy}} 공격전략과 {{dodgeStrategy}}방어 전략을 사용해서 몬테카를로 시뮬레이션으로 행해졌습니다. 상위 32 카운터와 최악의 32 매치업은 모든 가능한 기술조합을 지닌 각 최종진화형 포켓몬을 공격자와 방어자 모두로 {{pokemon}} 대상의 전투 시뮬레이션으로 찾아졌습니다. 이 32 카운터/매치업의 각 상위 5개 기술조합에 대해 수백번의 몬테카를로 시뮬레이션이 행해져서, 총 {{simulationCount}}번의 시뮬레이션이 행해졌습니다. {{sort}} 기준으로 상위 30개 카운터와 최악 30 매치업 그리고 그들의 최고 기술조합이 저장되어 여기 표시됩니다.",
+    "text2": "여러분은 아무 공격자나 눌러서 그 특정 시뮬레이션의 결과를 볼 수 있습니다. 정렬 순서는 각 결과의 우측 상단의 정렬 아이콘을 클릭하고 선호하는 정렬 타입을 선택하여 변경할 수 있습니다",
+    "text3": {
+      "text": "더 많은 정보를 {{link}} 에서 찾을 수 있습니다",
+      "link": "도움말 섹션"
     }
+  },
+  "bestAttack": {
+    "title": "최고 공격 기술조합",
+    "subtitle": "$t(common:properties.{{sort}}) 기준",
+    "rankingTitle": "평균 전투 스탯 Vs. 최악 30개 매치업"
+  },
+  "bestDefense": {
+    "title": "최고 방어 기술조합",
+    "subtitle": "$t(common:properties.{{sort}}) 기준",
+    "rankingTitle": "평균 전투 스탯 Vs. 최고 6개 카운터"
+  },
+  "attackMatchups": {
+    "title": "공격 매치업",
+    "subtitle": "$t(common:properties.{{sort}}) 기준",
+    "text": "다음 분석은 가장 어려운 {{defenderLevel}}레벨 방어자 대 {{attackerLevel}} 레벨 $t(constants:pokemon.{{pokemon}})의 결과를 보여줍니다. 랭킹은 공격자가 $t(common:properties.{{sort}})기준 방어자에 대해 얼마나 잘 하는지입니다. 쉽게 말해서, 이 목록의 제일 위에 있는 포켓몬을 상대할때 $t(constants:pokemon.{{pokemon}}) 를 쓰세요!"
+  },
+  "bestCounters": {
+    "title": "최고 카운터",
+    "subtitle": "$t(common:properties.{{sort}}) 기준",
+    "text": "다음 분석은  $t(common:properties.{{sort}}) 기준으로 {{defenderLevel}} 레벨 $t(constants:pokemon.{{pokemon}}) 상대로 {{attackerLevel}}레벨의 가장 강력한 포켓몬을 보여줍니다. 이들은 $t(constants:pokemon.{{pokemon}})이 체육관을 지키고 있을 경우 사용하기 가장 좋은 포켓몬입니다."
+  }
 }

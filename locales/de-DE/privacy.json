@@ -1,11 +1,18 @@
 {
-    "title": "Datenschutzrichtlinie",
-    "policy": "Pokebattler.com kümmert deine Privatsphäre. Wir teilen weder deiner privaten Daten mit Drittanbietern noch speichern wir Informationen über deinen Besuch mit einem anderen Zweck als deinen Umgang mit der Webseite zu analysieren und optimieren. Dafür benutzen wir Cookies und den Local Storage. Besonders Zweiteres wird benutzt, um deine persönlichen Einstellungen zwischen Besuchen unsere Seite zu deinem Komfort zu speichern.",
-    "pokebox": "Pokebattler verbindet sich in keiner Weise mit den Servern von Niantic. Die Pokebox, das Trainer-Profil und andere Personalisierungseinstellungen nutzen Googles und Facebooks Anmeldmöglichkeiten und werden benutzt um eine angepasste Erfahrung über alle Geräte bereitzustellen. Es werden keine persönlichen Daten ausgelesen oder gespeichert, außer einer Identifikationsnummer und der Emailaddresse, welche nur für den Anmeldeprozess und der Lösung möglicher Accountschwierigkeiten benutzt wird. Diese Daten werden in keiner Weise für Werbungszwecke benutzt. Das Benutzen dieser Features ist freiwillig und ist nur zu eurem Vorteil gedacht. Daten wie Trainername und Pokebox-Inhalt werden verwendet um das Teilen von URLs, das Finden deiner Freunde und andere Funktionen der Seite zu unterstützen.  Wenn Du Dir Sorgen um deine Privatsphäre machst, ziehe in Betracht, deinen Trainernamen oder die Namen deiner Pokémon nicht einzugeben.",
-    "browserSettings": "Du kannst den Gebrauch von Cookies und Local Storage jederzeit in deinen Browser Einstellungen ausschalten.",
-    "changeNote": "Diese Richtlinie kann sich ohne Hinweis ändern und wurde zuletzt am {{changed_date}} aktualisiert. Bei Fragen oder wenn du dein Konto vollständig löschen möchtest, kontaktiere uns unter {{contactLink}}",
-    "contactLink": "schreibt uns.",
+  "title": "Datenschutzrichtlinie",
+  "policy": "Pokebattler.com kümmert deine Privatsphäre. Wir teilen weder deiner privaten Daten mit Drittanbietern noch speichern wir Informationen über deinen Besuch mit einem anderen Zweck als deinen Umgang mit der Webseite zu analysieren und optimieren. Dafür benutzen wir Cookies und den Local Storage. Besonders Zweiteres wird benutzt, um deine persönlichen Einstellungen zwischen Besuchen unsere Seite zu deinem Komfort zu speichern.",
+  "pokebox": "Pokebattler verbindet sich in keiner Weise mit den Servern von Niantic. Die Pokebox, das Trainer-Profil und andere Personalisierungseinstellungen nutzen Googles und Facebooks Anmeldmöglichkeiten und werden benutzt um eine angepasste Erfahrung über alle Geräte bereitzustellen. Es werden keine persönlichen Daten ausgelesen oder gespeichert, außer einer Identifikationsnummer und der Emailaddresse, welche nur für den Anmeldeprozess und der Lösung möglicher Accountschwierigkeiten benutzt wird. Diese Daten werden in keiner Weise für Werbungszwecke benutzt. Das Benutzen dieser Features ist freiwillig und ist nur zu eurem Vorteil gedacht. Daten wie Trainername und Pokebox-Inhalt werden verwendet um das Teilen von URLs, das Finden deiner Freunde und andere Funktionen der Seite zu unterstützen.  Wenn Du Dir Sorgen um deine Privatsphäre machst, ziehe in Betracht, deinen Trainernamen oder die Namen deiner Pokémon nicht einzugeben.",
+  "browserSettings": "Du kannst den Gebrauch von Cookies und Local Storage jederzeit in deinen Browser Einstellungen ausschalten.",
+  "changeNote": "Diese Richtlinie kann sich ohne Hinweis ändern und wurde zuletzt am {{changed_date}} aktualisiert. Bei Fragen oder wenn du dein Konto vollständig löschen möchtest, kontaktiere uns unter {{contactLink}}",
+  "contactLink": "schreibt uns.",
+  "meta": {
+    "image": "https://static.pokebattler.com/images/og_more_privacy.jpg",
+    "description": "Pokebattler Privacy Pokebattler takes your privacy seriously and does not share any private user data of any kind outside of the site."
+  },
+  "terms": {
+    "title": "Terms & Conditions",
     "meta": {
-        "image": "https://static.pokebattler.com/images/og_more_privacy.jpg"
+      "description": "Pokebattler Terms & Conditions for using the website or app"
     }
+  }
 }

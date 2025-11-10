@@ -1,15 +1,28 @@
 {
-    "title": "Pokemon Go Szimulátor és Ranglista",
+  "title": "Pokemon Go Szimulátor és Ranglista",
+  "meta": {
+    "image": "https://static.pokebattler.com/images/og_home.png",
+    "description": "World's #1 source for detailed Pokemon Go analysis. The best simulations, customizable rankings and the most accurate raid counters!"
+  },
+  "articles": {
+    "more": "Olvass több cikket",
+    "title": "In Depth Pokemon Go Articles",
+    "subtitle": "News And Research Available Nowhere Else"
+  },
+  "article": {
+    "title": "{{title}}\n",
     "meta": {
-        "image": "https://static.pokebattler.com/images/og_home.png"
-    },
-    "articles": {
-        "more": "Olvass több cikket"
-    },
-    "article": {
-        "title": "{{title}}\n"
-    },
-    "news": {
-        "old": "Régebbi Cikkek"
+      "description": "{{author}} {{format}} on the topics of {{categories}} on {{date}}. This article is about {{tags}}.",
+      "image": "{{featuredURL}}"
     }
+  },
+  "news": {
+    "old": "Régebbi Cikkek",
+    "title": "Release Notes",
+    "meta": {
+      "description": "Pokebattler News the latest release notes for the world's #1 Most accurate Pokemon Go Simulator ",
+      "image": "https://static.pokebattler.com/images/og_more_news.jpg"
+    },
+    "new": "Newer News"
+  }
 }

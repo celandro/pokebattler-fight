@@ -1,12 +1,567 @@
 {
-    "title": "Raid Counterek",
-    "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+  "title": "Raid Counterek",
+  "meta": {
+    "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
+    "description": "Find Pokemon Go raid counters with weather, friendship and even your own Pokebox. Get the 30 best counters with the world's #1 custom raid guide."
+  },
+  "linkLabel": "Raid számlálók",
+  "intro": "Itt vannak a Pokemon Go raidek! A világ legpontosabb egyedi Pokemon Go Raid Guide segítségével megtudhatja, melyik Pokémon fogja a legjobban sebezni a raidfőnököket. Csak válassza ki az alábbi raidet, hogy megnézze az egyes támadások  legjobb counterét!",
+  "breakingNews": {
+    "title": "Friss hírek",
+    "subtitle": "Népszerű raidek a Pokemon Go-ban",
+    "header": "$t(constants:pokemon.{{pokemonId}}) Counters"
+  },
+  "articles": {
+    "title": "Latest Raid News!",
+    "subtitle": "Articles and Videos About Pokemon Go Raids From Top Players And Researchers"
+  },
+  "guide": {
+    "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Raid Counter Guides",
+    "subtitle": "How To Defeat $t(constants:pokemon.{{pokemonId}}) in Pokemon Go",
+    "infographicDownload": "Download $t(constants:pokemon.{{pokemonId}}) Infographic",
+    "infographicDownloadButton": "Download High Resolution Infographic",
+    "article": "Read The Full $t(constants:pokemon.{{pokemonId}}) Raid Counter Guide Below"
+  },
+  "tierList": {
+    "raidTier": "Raid Tier",
+    "guessTier": "Guess Tier",
+    "common": {
+      "boss": "Boss",
+      "raidTier": "Raid Tier",
+      "difficulty": "Difficulty"
     },
-    "linkLabel": "Raid számlálók",
-    "intro": "Itt vannak a Pokemon Go raidek! A világ legpontosabb egyedi Pokemon Go Raid Guide segítségével megtudhatja, melyik Pokémon fogja a legjobban sebezni a raidfőnököket. Csak válassza ki az alábbi raidet, hogy megnézze az egyes támadások  legjobb counterét!",
-    "breakingNews": {
-        "title": "Friss hírek",
-        "subtitle": "Népszerű raidek a Pokemon Go-ban"
+    "RAID_LEVEL_NEWS": {
+      "title": "News",
+      "subtitle": "Scheduled Raids",
+      "intro": "Currently scheduled Pokemon Go raids."
+    },
+    "RAID_LEVEL_BREAKING_NEWS": {
+      "title": "News",
+      "subtitle": "Scheduled Raids",
+      "intro": "Currently scheduled Pokemon Go raids."
+    },
+    "RAID_LEVEL_REMOTE": {
+      "title": "Remote",
+      "subtitle": "Multi-person raids",
+      "intro": "Difficult Pokemon Go raids, designed for 2 or more players."
+    },
+    "RAID_LEVEL_MAX": {
+      "title": "Max",
+      "subtitle": "In person Dynamax and Gigantamax Raids raids",
+      "intro": "Very difficult max battles you can only fight with Max Pokemon that reward Max Pokemon"
+    },
+    "RAID_LEVEL_SHADOW": {
+      "title": "Shadow",
+      "subtitle": "In person shadow raids",
+      "intro": "More difficult raids that reward Shadow Pokemon"
+    },
+    "RAID_LEVEL_LOCAL": {
+      "title": "Local",
+      "subtitle": "Local raids",
+      "intro": "Easy Pokemon Go raids, designed to be defeated by a single player."
+    },
+    "RAID_LEVEL_ALL_RAIDS": {
+      "title": "Raids",
+      "subtitle": "Standard raids",
+      "intro": "The original Pokemon Go raids, uses a standard raid pass or remote raid pass."
+    },
+    "RAID_LEVEL_1": {
+      "title": "Tier 1",
+      "subtitle": "Solo Raid",
+      "intro": "Tier 1 raids are quite easy to defeat by yourself. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to collect candy for pokemon that are not common in your area."
+    },
+    "RAID_LEVEL_2": {
+      "title": "Tier 2",
+      "subtitle": "Hard Solo Raid",
+      "intro": "Tier 2 raids are targeted at level 30-40 players who can easily defeat these Pokemon. Lower level players should team up to beat these Pokemon."
+    },
+    "RAID_LEVEL_3": {
+      "title": "Tier 3",
+      "subtitle": "Group Raid",
+      "intro": "Tier 3 raids are targeted at groups of 2 level 30-40 players. They can be soloed by a level 40 player with a little luck and perfect play with awesome Pokemon."
+    },
+    "RAID_LEVEL_4": {
+      "title": "Tier 4",
+      "subtitle": "Hard Group Raid",
+      "intro": "Tier 4 raids are targeted at groups of 2-3 level 30-40 players with higher attack and defense than a legendary raid but lower hp"
+    },
+    "RAID_LEVEL_4_5": {
+      "title": "Tier 4.5",
+      "subtitle": "Easy Legendary Raid",
+      "intro": "Tier 4.5 raids are easier versions of legendary bosses intended at groups of 2-4 level 30-40 players. They are typically seen during short duration events."
+    },
+    "RAID_LEVEL_5": {
+      "title": "Tier 5",
+      "subtitle": "Legendary Raid",
+      "intro": "The current legendary raids are a great way to obtain strong pokemon! They are often done with groups of 4-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-3 players."
+    },
+    "RAID_LEVEL_MEGA": {
+      "title": "Mega Tier",
+      "subtitle": "Easy Mega Raid",
+      "intro": "The current mega raids are the best way to obtain mega energy to power up the strongest pokemon! They are often done with groups of 2-3 level 30-40 players. "
+    },
+    "RAID_LEVEL_MEGA_5": {
+      "title": "Mega Legendary Tier",
+      "subtitle": "Mega Legendary Raid",
+      "intro": "The current mega raids are the best way to obtain mega energy to power up the strongest pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
+    },
+    "RAID_LEVEL_ULTRA_BEAST": {
+      "title": "Ultra Beast Tier",
+      "subtitle": "Ultra Beast Raid",
+      "intro": "Ultra Beast raids are equivalent to the legendary tier in difficulty"
+    },
+    "RAID_LEVEL_6": {
+      "title": "Tier 6",
+      "subtitle": "Legendary Raid - Bonus Hp",
+      "intro": "These raids have bonus hp compared to Tier 5 raids.  These are in person raids typically done with groups of 5-10 players."
+    },
+    "RAID_LEVEL_ELITE": {
+      "title": "Elite Tier",
+      "subtitle": "Elite Raid - Bonus Hp",
+      "intro": "These raids have bonus hp and stats compared to Tier 5 raids.   These are in person raids typically done with groups of 6-12 players."
+    },
+    "RAID_LEVEL_1_SHADOW": {
+      "title": "Shadow Tier 1",
+      "subtitle": "Easy Shadow Raid",
+      "intro": "Shadow Tier 1 raids are fairly easy to defeat by yourself. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to collect candy for pokemon that are not common in your area."
+    },
+    "RAID_LEVEL_3_SHADOW": {
+      "title": "Shadow Tier 3",
+      "subtitle": "Easy Group Shadow Raid",
+      "intro": "Shadow Tier 3 raids are targeted at groups of 2 level 30-40 players. They can be soloed by a level 40+ player with a little luck and perfect play with awesome Pokemon."
+    },
+    "RAID_LEVEL_5_SHADOW": {
+      "title": "Shadow Tier 5",
+      "subtitle": "Shadow Legendary Raid",
+      "intro": "Shadow Legendary raids are extremely difficult but are the best way to obtain strong pokemon! They are in person only raids that are often done with groups of 5-10 level 30-50 players. Some intrepid experts have done some of these raids with as few as 2-3 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_1_MAX": {
+      "title": "Max Tier 1",
+      "subtitle": "Easy Dynamax Max Battle",
+      "intro": "Max Tier 1 Dynamax raids are fairly easy to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+    },
+    "RAID_LEVEL_2_MAX": {
+      "title": "Max Tier 2",
+      "subtitle": "Difficult Dynamax Max Battle",
+      "intro": "Max Tier 2 Dynamax raids are possible to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect evolved pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+    },
+    "RAID_LEVEL_3_MAX": {
+      "title": "Max Tier 3",
+      "subtitle": "Easy Group Dynamax Max Battle",
+      "intro": "Max Tier 3 Dynamax raids are targeted at groups of 2-4 in person level 30-40 players with 3x lvl 30-40 powered up Dynamax Pokemon. They can typically be soloed by a level 40+ player with dodging and awesome Pokemon."
+    },
+    "RAID_LEVEL_4_MAX": {
+      "title": "Max Event Tier 4",
+      "subtitle": "Event Dynamax Group Max Battle",
+      "intro": "Max Tier 4 Event Dynamax battles are found in special events! They are in person only raids that are often done with groups of 2-4 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_5_MAX": {
+      "title": "Legendary Max Tier 5",
+      "subtitle": "Group Legendary Max Battle",
+      "intro": "Max Tier 5 Legendary battles are difficult but are the best way to obtain strong Dynamax Pokemon! They are in person only raids that are often done with groups of 2-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_6_MAX": {
+      "title": "G-Max Tier 6",
+      "subtitle": "Group Gigantamax Max Battle",
+      "intro": "Max Tier 6 Gigantamax battles are difficult but are the source of  Gigantamax Pokemon! They are in person only raids that are often done with groups of 5-20 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_6_5_MAX": {
+      "title": "G-Max Tier 6.5",
+      "subtitle": "Difficult Group Gigantamax Max Battle",
+      "intro": "Max Tier 6.5 Gigantamax battles are even more difficult! They are in person only raids that are often done with groups of 10-30 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_UNSET": {
+      "title": "Tier ?",
+      "subtitle": "Unknown Raids",
+      "intro": "These Pokemon may be parts of future Pokemon raid tiers. Use this if a new raid has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Magikarp raid too!"
+    },
+    "RAID_LEVEL_4_EVENTS": {
+      "title": "Special Tier 4",
+      "subtitle": "Special Event Raids",
+      "intro": "These Pokemon have been raids at past events such as Yokohama. They may come back again unannounced."
+    },
+    "RAID_LEVEL_1_LEGACY": {
+      "title": "Legacy Tier 1",
+      "subtitle": "Easy Solo Raid",
+      "intro": "These raids are not currently in the raid rotations."
+    },
+    "RAID_LEVEL_2_LEGACY": {
+      "title": "Legacy Tier 2",
+      "subtitle": "Hard Solo Raid",
+      "intro": "These raids are not currently in the raid rotations."
+    },
+    "RAID_LEVEL_3_LEGACY": {
+      "title": "Legacy Tier 3",
+      "subtitle": "Easy Group Raid",
+      "intro": "These raids are not currently in the raid rotations."
+    },
+    "RAID_LEVEL_4_LEGACY": {
+      "title": "Legacy Tier 4",
+      "subtitle": "Hard Group Raid",
+      "intro": "These raids are not currently in the raid rotations."
+    },
+    "RAID_LEVEL_4_5_LEGACY": {
+      "title": "Legacy Tier 4.5",
+      "subtitle": "Easy Legendary Raid",
+      "intro": "These are previously seen easy legendary raid bosses."
+    },
+    "RAID_LEVEL_5_LEGACY": {
+      "title": "Legacy Tier 5",
+      "subtitle": "Legendary Raid",
+      "intro": "These raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_MEGA_LEGACY": {
+      "title": "Legacy Mega Tier",
+      "subtitle": "Easy Mega Raid",
+      "intro": "These mega raids are no longer available in raids."
+    },
+    "RAID_LEVEL_MEGA_5_LEGACY": {
+      "title": "Legacy Legendary Mega Tier",
+      "subtitle": "Mega Raid",
+      "intro": "These legendary mega raids are no longer available in raids."
+    },
+    "RAID_LEVEL_ULTRA_BEAST_LEGACY": {
+      "title": "Legacy Ultra Beast Tier",
+      "subtitle": "Ultra Beast Raid",
+      "intro": "Ultra Beast raids have been datamined but information is not currently available. Current assumption is they are equivalent to the mega legendary tier in difficulty"
+    },
+    "RAID_LEVEL_6_LEGACY": {
+      "title": "Legacy Tier 6",
+      "subtitle": "Legendary Raid - Bonus Hp",
+      "intro": "These legendary raids with bonus hp have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_ELITE_LEGACY": {
+      "title": "Legacy Elite Tier",
+      "subtitle": "Elite Raid - Bonus Hp",
+      "intro": "These elite raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_1_SHADOW_LEGACY": {
+      "title": "Legacy Shadow Tier 1",
+      "subtitle": "Easy Shadow Raid",
+      "intro": "These Shadow Tier 1 raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_3_SHADOW_LEGACY": {
+      "title": "Legacy Shadow Tier 3",
+      "subtitle": "Easy Group Shadow Raid",
+      "intro": "These Shadow Tier 3 raids were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_5_SHADOW_LEGACY": {
+      "title": "Legacy Shadow Tier 5",
+      "subtitle": "Shadow Legendary Raid",
+      "intro": "These Shadow Legendary raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_1_MAX_LEGACY": {
+      "title": "Legacy Max Tier 1",
+      "subtitle": "Easy Max Dynamax Battle",
+      "intro": "These Max Tier 1 Dynamax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_2_MAX_LEGACY": {
+      "title": "Legacy Max Tier 2",
+      "subtitle": "Difficult Dynamax Max Battle",
+      "intro": "These Max Tier 2 Dynamax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_3_MAX_LEGACY": {
+      "title": "Legacy Max Tier 3",
+      "subtitle": "Easy Group Dynamax Max Battle",
+      "intro": "These Max Tier 3 Dynamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_4_MAX_LEGACY": {
+      "title": "Legacy Max Event Tier 4",
+      "subtitle": "Event Dynamax Group Max Battle",
+      "intro": "Max Tier 4 Event Dynamax battles are found in special events! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_5_MAX_LEGACY": {
+      "title": "Legacy Max Tier 5",
+      "subtitle": "Legendary Group Dynamax Max Battle",
+      "intro": "These Legendaary Max Tier 5 Dynamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_6_MAX_LEGACY": {
+      "title": "Legacy G-Max Tier 6",
+      "subtitle": "Group Gigantamax Max Battle",
+      "intro": "These Tier 6 Gigantamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_6_5_MAX_LEGACY": {
+      "title": "Legacy Difficult G-Max Tier 6.5",
+      "subtitle": "Difficult Group Gigantamax Max Battle",
+      "intro": "These Tier 6.5 Gigantamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_4_5_FUTURE": {
+      "title": "Future Tier 4.5",
+      "subtitle": "Easy Legendary Raid",
+      "intro": "These are  easy legendary raid bosses that are not in the game yet. Their stats and moves are still subject to change"
+    },
+    "RAID_LEVEL_5_FUTURE": {
+      "title": "Future Tier 5",
+      "subtitle": "Legendary Raid",
+      "intro": "These tier 5 raids are not in the game yet! Their stats and moves are still subject to change."
+    },
+    "RAID_LEVEL_6_FUTURE": {
+      "title": "Future Tier 6",
+      "subtitle": "Legendary Raid - Bonus Hp",
+      "intro": "These legendary raids with bonus hp are not in the game yet! Their stats and moves are still subject to change."
+    },
+    "RAID_LEVEL_ELITE_FUTURE": {
+      "title": "Future Elite Tier",
+      "subtitle": "Elite Raid - Bonus Hp",
+      "intro": "These elite raids are not in the game yet! Their stats and moves are still subject to change."
+    },
+    "RAID_LEVEL_MEGA_FUTURE": {
+      "title": "Future Mega Tier",
+      "subtitle": "Mega Raid",
+      "intro": "These mega raids are not in the game yet."
+    },
+    "RAID_LEVEL_MEGA_5_FUTURE": {
+      "title": "Future Mega Legendary Tier",
+      "subtitle": "Mega Legendary Raid",
+      "intro": "These mega legendary raids are not in the game yet."
+    },
+    "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
+      "title": "Future Ultra Beast Tier",
+      "subtitle": "Ultra Beast Raid",
+      "intro": "Ultra Beast raids have been datamined but information is not currently available. They are equivalent to the mega legendary tier in difficulty"
+    },
+    "RAID_LEVEL_1_SHADOW_FUTURE": {
+      "title": "Future Shadow Tier 1",
+      "subtitle": "Easy Shadow Raid",
+      "intro": "These Shadow Tier 1 raids are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_3_SHADOW_FUTURE": {
+      "title": "Future Shadow Tier 3",
+      "subtitle": "Easy Group Shadow Raid",
+      "intro": "These Shadow Tier 3 raids are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_5_SHADOW_FUTURE": {
+      "title": "Future Shadow Tier 5",
+      "subtitle": "Shadow Legendary Raid",
+      "intro": "These Shadow Tier 5 raids are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_1_MAX_FUTURE": {
+      "title": "Future Max Tier 1",
+      "subtitle": "Easy Dynamax Max Battle",
+      "intro": "These Max Tier 1 Dynamax battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_2_MAX_FUTURE": {
+      "title": "Future Max Tier 2",
+      "subtitle": "Difficult Dynamax Max Battle",
+      "intro": "These Max Tier 2 Dynamax battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_3_MAX_FUTURE": {
+      "title": "Future Max Tier 3",
+      "subtitle": "Easy Dynamax Group Max Battle",
+      "intro": "These Max Tier 3 Dynamax battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_4_MAX_FUTURE": {
+      "title": "Future Max Event Tier 4",
+      "subtitle": "Event Dynamax Group Max Battle",
+      "intro": "These Max Tier 4 Dynamax battles that are found in special events! They are in person only raids that are often done with groups of 2-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_5_MAX_FUTURE": {
+      "title": "Future Legendary Max Tier 5",
+      "subtitle": "Difficult Group Legendary Max Battle",
+      "intro": "These Max Tier 5 Legendary battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_6_MAX_FUTURE": {
+      "title": "Future G-Max Tier 6",
+      "subtitle": "Difficult Group Gigantamax Max Battle",
+      "intro": "These Max Tier 6 Gigantamax battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_6_5_MAX_FUTURE": {
+      "title": "Future G-Max Tier 6.5",
+      "subtitle": "Difficult Group Gigantamax Max Battle",
+      "intro": "These Max Tier 6 Gigantamax battles are not in the game yet. They may appear in the future for special events."
     }
+  },
+  "custom": {
+    "title": "Custom Raid",
+    "levelsLabel": "Attacker Levels",
+    "buttonLabel": "Find best raider",
+    "attackersLabel": "Attackers"
+  },
+  "results": {
+    "title": "{{defender}} Counters",
+    "meta": {
+      "description": "The best Pokemon Go {{defender}} counters are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Login to see your custom results!",
+      "image": "{{infographicShareURL}}"
+    },
+    "calculating": "Calculating Raid Results",
+    "counters": {
+      "title": "counters",
+      "subtitle": "Best Attackers by",
+      "description": "The following analysis shows the Pokemon that are the strongest raiders in terms of {{sort}} against {{pokemon}}.",
+      "moveSetOrderingDescription": "The move sets are ordered from hardest to raid against to the easiest, make sure to check multiple, the results can vary greatly!",
+      "difficultyNote": "Raid bosses are much harder than a normal battle, you should consider carefully your options.",
+      "chooseMovesetLabel": "Choose Moveset"
+    },
+    "hardestMovesets": {
+      "title": "Most Difficult Raids",
+      "subtitle": "For {{pokemon}} by {{sort}}",
+      "tableTitle": "Hardest movesets to raid against",
+      "description": "Raid difficulty can vary greatly based on the moveset of the defending pokemon!"
+    },
+    "analysis": {
+      "title": "About This Analysis",
+      "description": "This raid analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with the {{attackStrategy}} attack strategy based on the {{defenseStrategy}} simulation type. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here. You can click on any of the attackers to see the simulation that was performed and to try different movesets.",
+      "attackers": {
+        "byLevel": "level {{attackerLevel}} attackers",
+        "pokebox": "the custom Pokemon from user #{{userId}}'s pokebox"
+      },
+      "numParty": "Party power is complicated to simulate, the results below are estimates."
+    },
+    "related": {
+      "title": "Related Counters"
+    },
+    "description": "Pokebattler's {{pokemon}} raid counters guide is designed to help you beat {{pokemon}} with your best counters. You can find the best counters overall to defeat {{pokemon}} in the infographic and article and use our customizable tool for results from millions of simulations of Pokemon, or your own Pokebox full of Pokemon for a truly personalized experience. ",
+    "patreon": {
+      "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
+      "link": "See all the benefits you get for signing up",
+      "thanks": "Thanks for your support!"
+    }
+  },
+  "raidAttackers": {
+    "title": "Raid Attackers - {{type}}",
+    "meta": {
+      "description": "The best overall {{type}} raid attackers in Pokemon Go raids based on performance against all possible raids!  Points are assigned based on relative ranking performance and by tier of raid boss"
+    },
+    "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 0x for tier 1)"
+  },
+  "raidAttackerDetails": {
+    "title": "{{attackerName}} Raid Attacker Analysis",
+    "subtitle": "{{move1Name}} {{move2Name}}",
+    "meta": {
+      "title": "Raid Attacker - {{attackerName}} {{move1Name}} {{move2Name}}",
+      "description": "The best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Find the best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}}. Find out exactly how useful {{attackerName}} is in Pokemon Go raids!"
+    },
+    "availableMoves": "Available Moves",
+    "counters": "Counters"
+  },
+  "raidParty": {
+    "title": "Pokebattler Raid Party",
+    "meta": {
+      "description": "Pokebattler Raid Party v1.0 is here!  Designed to help you raid with confidence and minimal effort to defeat those raid bosses the first try. Pokebattler Raid Party App was created by Pokebattler.com to help organize and promote Pokemon Go raids by providing key features that are not provided by the game.",
+      "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+    },
+    "result": {
+      "title": "Pokebattler Raid Party #{{raidPartyId}}",
+      "info": "Pokebattler Raid Party is currently only available in app form. Website version coming soon! To see this raid party, simply download the app, login and reload this page.",
+      "deepLink": "If you have the app installed, this page should automatically open the app. On IOS, you may need to open this link in Safari and pull down the page for the open in Pokebattler Raid Party to appear.",
+      "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}."
+    },
+    "download": {
+      "installation": "Download the Pokebattler Raid Party App for your device",
+      "android": {
+        "title": "Android",
+        "subtitle": "Download from the Play Store"
+      },
+      "ios": {
+        "title": "iOS",
+        "subtitle": "Download from the Apple App Store"
+      }
+    },
+    "screenshots": {
+      "title": "Prepare for remote raids with friends",
+      "description": "Here are just a few of the features in the Pokebattler Raid Party App. Additional functionality is being added rapidly, download the app to see the newest features"
+    }
+  },
+  "raidPartyResult": {
+    "title": "Pokebattler Raid Party #{{raidPartyId}}",
+    "meta": {
+      "description": "Join the Pokebattler Raid Party #{{raidPartyId}} to see if your group will win. Download the app and raid with confidence with just one click!",
+      "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+    },
+    "info": "Pokebattler Raid Party is currently only available in app form. Website version coming soon! To see this raid party, simply download the app, login and reload this page.",
+    "deepLink": "If you have the app installed, this page should automatically open the app. On IOS, you may need to open this link in Safari and pull down the page for the open in Pokebattler Raid Party to appear.",
+    "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}.",
+    "deepLink3": "Discord users: You will need to change your Discord settings for Browser to open in Safari or Chrome",
+    "customLink": "Open in App"
+  },
+  "raidNetworkDiscords": {
+    "title": "Raid Network",
+    "info": "Discord servers in the Pokebattler Raid Network are available to join in the Pokebattler Raid Party app if they do not fill up. You can join their servers directly to fill raids sooner!",
+    "join": "Have a raiding discord and interested in joining the Pokebattler Raid Network? Join the Pokebattler Raid App discord and ping an admin",
+    "discordLink": "Go to {{guildName}} Discord server",
+    "properties": {
+      "activeRaidersCount": "Avg Raiders",
+      "raidsCreated": "# Raids",
+      "yesterday": "Yesterday",
+      "lastWeek": "Last Week",
+      "lastMonth": "Last Month",
+      "lastYear": "Last Year",
+      "country": "Country",
+      "language": "Language",
+      "name": "$t(common:name)"
+    }
+  },
+  "infographics": {
+    "title": "Infographics",
+    "subTitle": "Pokemon Go Raid Counter Infographics",
+    "meta": {
+      "description": "Get your Pokemon Go Raid Infographics from CaptGoldfish and JaceMakings. These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+      "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "articles": {
+      "title": "Pokemon Go Raid Infographics",
+      "subtitle": "High quality counters with hand drawn graphics"
+    },
+    "authors": {
+      "captgoldfish": {
+        "name": "CaptGoldfish",
+        "link": "https://twitter.com/CaptGoldfish",
+        "title": "CaptGoldfish's Raid Counter Infographics",
+        "button": {
+          "title": "CaptGoldfish",
+          "subtitle": "Hand drawn Pokemon Go raid boss infographics designed for portrait mode"
+        },
+        "meta": {
+          "description": "Pokemon Go Raid Infographics from CaptGoldfish! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+          "image": "https://static.pokebattler.com/CaptGoldfish/icon.png"
+        }
+      },
+      "jace": {
+        "name": "Jace",
+        "link": "https://twitter.com/JaceMakings",
+        "title": "Jace's Raid Counter Infographics",
+        "button": {
+          "title": "Jace",
+          "subtitle": "High quality Pokemon Go raid boss infographics designed for landscape mode"
+        },
+        "meta": {
+          "description": "Pokemon Go Raid Infographics from Jace! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+          "image": "https://static.pokebattler.com/graphics/Jace.jpg"
+        }
+      }
+    }
+  },
+  "pokebox": {
+    "login": "Pokebattler Raid counters can be customized to show you the exact Pokemon you actually own using your own personal Pokebox. Log in, add your best Pokemon to your personal Pokebox, and  see which pokemon you own are the best!",
+    "enabled": "Showing custom results for your Pokebox. The 30 best counters that you own are shown below.",
+    "disabled": "Showing results for level {{level}} attackers. The best 30 counters at that level are shown below.",
+    "friend": "Showing results for user {{userId}}. Their best 30 counters are shown below.",
+    "switchLevel": "Switch To $t(common:attackerTypes.level)",
+    "switchPokebox": "Switch To $t(common:attackerTypes.pokebox)"
+  },
+  "emptyResults": {
+    "LEVEL": "There were no results returned for this calculation. The server may be having issues.",
+    "POKEBOX": "There were no results returned for this calculation. Perhaps you have not entered any pokemon in your pokebox yet?",
+    "FRIEND": "There were no results returned for this calculation. Perhaps your friend has not entered any Pokemon in their pokebox yet? Try a different trainer."
+  },
+  "people": {
+    "title": "Pokebattler Estimator",
+    "difficultyRating": "Difficulty rating: {{rating}}",
+    "adviceLink": "See what happens if you power up",
+    "estimate": {
+      "close": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a very close fight. Bring one more trainer if you can to be safe.",
+      "almost": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. If you are very lucky, you might be able to beat it with 1 less trainer.",
+      "trivial": "Beating {{pokemon}} should take {{numPeople}} trainer with Pokemon of this strength. This fight will be over before it's begun. It's so easy you could just use the in game suggestions and win.",
+      "normal": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. Make sure your group is prepared before the fight.",
+      "difficult": "Beating {{pokemon}} should take {{numPeople}} trainers with Pokemon of this strength. It will be a difficult fight, make sure everyone uses their best Pokemon."
+    }
+  },
+  "battle": {
+    "resultLink": "See this result as a battle party"
+  },
+  "helpLink": "Watch the Raid tutorial video",
+  "silph": {
+    "text": "Current raid boss list provided by",
+    "link": "The Silph Road"
+  }
 }

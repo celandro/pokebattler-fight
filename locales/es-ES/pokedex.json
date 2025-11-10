@@ -1,1 +1,38 @@
-{}
+{
+  "title": "{{defender}} Contadores y enfrentamientos de ataque",
+  "meta": {
+    "description": "La Pokédex de {{defender}} de Pokémon Go es una guía personalizable sobre qué Pokémon contrarrestan a {{defender}} y contra qué Pokémon {{defender}} tiene los mejores enfrentamientos de ataque.",
+    "image": "https://static.pokebattler.com/images/og_gym_pokedex.jpg"
+  },
+  "intro": "Bienvenido a la Pokédex de Pokebattler para $t(constants:pokemon.{{pokemon}}). Puedes encontrar los mejores conjuntos de movimientos de ataque y defensa de $t(constants:pokemon.{{pokemon}}), así como sus peores enfrentamientos en ataque y los mejores contadores para ellos en defensa. De esta manera, puedes saber qué pokémon evitar en combate y cómo derrotar a ese molesto defensor. Siéntete libre de cambiar las opciones a continuación para ver el efecto de diferentes situaciones de combate o para cambiar el orden a tu gusto. Como siempre, los resultados de esta página son generados por el Simulador de Batalla de Pokémon Go de Pokebattler. Puedes profundizar en cualquier simulación individual simplemente haciendo clic en la imagen del oponente pokemon",
+  "loading": "Generando análisis de batalla detallado para $t(constants:pokemon.{{pokemon}}). Se requieren más de un millón de simulaciones para generar esta página. Sin embargo, no tardará mucho.",
+  "about": {
+    "title": "Acerca de este análisis de batalla",
+    "text1": "Este análisis para {{pokemon}} se basa en la simulación de combate con atacantes de nivel {{attackerLevel}} luchando contra defensores de nivel {{defenderLevel}}. La simulación de clasificación se ejecutó con la estrategia de ataque {{attackStrategy}} usando {{dodgeStrategy}} basada en el tipo de simulación de Monte Carlo. Primero se encontraron los mejores 32 contadores y los peores 32 enfrentamientos usando la estrategia esperada comparando cada pokemon completamente evolucionado con cada posible conjunto de movimientos como atacante y defensor contra {{pokemon}}. Se realizaron cientos de simulaciones de Monte Carlo contra cada uno de los 5 mejores conjuntos de movimientos para esos 32 contadores/enfrentamientos para un total de {{simulationCount}} simulaciones. Los mejores 30 contadores, así como los peores 30 enfrentamientos con su mejor conjunto de movimientos basados en {{sort}}, se mantuvieron y se muestran aquí.",
+    "text2": "Puedes hacer clic en cualquiera de los atacantes para ver los resultados de esa simulación en particular. El orden de clasificación se puede cambiar haciendo clic en el icono de clasificación en la parte superior derecha de cada resultado y seleccionando el tipo de clasificación que prefieras",
+    "text3": {
+      "text": "Se puede encontrar información adicional en la {{link}}",
+      "link": "sección de ayuda"
+    }
+  },
+  "bestAttack": {
+    "title": "Mejores conjuntos de movimientos de ataque",
+    "subtitle": "Por $t(common:properties.{{sort}})",
+    "rankingTitle": "Estadísticas de combate promedio contra los peores 30 enfrentamientos"
+  },
+  "bestDefense": {
+    "title": "Mejores conjuntos de movimientos de defensa",
+    "subtitle": "Por $t(common:properties.{{sort}})",
+    "rankingTitle": "Estadísticas de combate promedio contra los 6 mejores contadores"
+  },
+  "attackMatchups": {
+    "title": "Enfrentamientos de ataque",
+    "subtitle": "Por $t(common:properties.{{sort}})",
+    "text": "El siguiente análisis muestra los resultados contra los defensores de nivel {{defenderLevel}} más difíciles para un $t(constants:pokemon.{{pokemon}}) de nivel {{attackerLevel}}. Esta clasificación es relativa a qué tan bien les va a todos los atacantes contra los defensores en términos de $t(common:properties.{{sort}}). En resumen, ¡usa $t(constants:pokemon.{{pokemon}}) contra los pokemon en la parte superior de esta lista!"
+  },
+  "bestCounters": {
+    "title": "Mejores contadores",
+    "subtitle": "Por $t(common:properties.{{sort}})",
+    "text": "El siguiente análisis muestra los pokemon de nivel {{attackerLevel}} que son los atacantes más fuertes en términos de $t(common:properties.{{sort}}) contra un $t(constants:pokemon.{{pokemon}}) de nivel {{defenderLevel}}. Estos son los mejores pokemon para usar si $t(constants:pokemon.{{pokemon}}) está defendiendo el gimnasio."
+  }
+}

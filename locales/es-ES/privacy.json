@@ -1,3 +1,18 @@
 {
-    "title": "Política de Privacidad"
+  "title": "Política de Privacidad",
+  "meta": {
+    "description": "Privacidad de Pokebattler. Pokebattler se toma muy en serio tu privacidad y no comparte ningún tipo de dato privado de usuario fuera del sitio.",
+    "image": "https://static.pokebattler.com/images/og_more_privacy.jpg"
+  },
+  "policy": "En Pokebattler.com nos preocupamos por tu privacidad. No compartimos tu información personal con terceros ni almacenamos ninguna información sobre tu visita a este sitio web más que para analizar y optimizar tu experiencia en el sitio mediante el uso de cookies y almacenamiento local. El almacenamiento local en particular se utiliza para almacenar las personalizaciones de tu sitio entre visitas para tu comodidad.",
+  "pokebox": "Pokebattler no se conecta a los servidores de Niantic de ninguna manera. La pokebox, la información del entrenador y otras opciones de personalización utilizan la capacidad de inicio de sesión único de Google y Facebook y se utilizan para proporcionar una experiencia personalizada en todos los dispositivos. No se recupera ni almacena ninguna información personal que no sea un número de identificación y una dirección de correo electrónico que solo se utilizan para fines de inicio de sesión y solución de problemas de la cuenta. Estos datos no se utilizan para fines de marketing o de afiliados de ninguna manera. El uso de estas funciones es opcional y está destinado únicamente a tu beneficio. Datos como el nombre del entrenador y el contenido de la pokebox se utilizan para permitir compartir urls, encontrar a tus amigos y otras funciones del sitio. Si te preocupa tu privacidad, considera no introducir tu nombre de entrenador ni los nombres de tus Pokémon.",
+  "browserSettings": "Puedes desactivar el uso de cookies y el almacenamiento local en cualquier momento cambiando la configuración específica de tu navegador.",
+  "changeNote": "Esta política de privacidad está sujeta a cambios sin previo aviso y fue actualizada por última vez el {{changed_date}}. Si tienes alguna pregunta o deseas eliminar todos tus datos de este sitio web, contáctanos en {{contactLink}}",
+  "contactLink": "contáctanos.",
+  "terms": {
+    "title": "Términos y condiciones",
+    "meta": {
+      "description": "Términos y condiciones de Pokebattler para usar el sitio web o la aplicación"
+    }
+  }
 }

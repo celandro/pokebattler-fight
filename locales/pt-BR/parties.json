@@ -1,44 +1,44 @@
 {
+  "title": "Equipes de Batalha",
+  "battlePartyList": {
+    "title": "Suas Equipes de Batalha"
+  },
+  "add": {
     "title": "Equipes de Batalha",
-    "battlePartyList": {
-        "title": "Suas Equipes de Batalha"
-    },
-    "add": {
-        "title": "Equipes de Batalha",
-        "description": "Escolha um nome para sua Equipe de Batalha na caixa abaixo. Adicione então os membros do time clicando no botão 'adicione pokemon da sua pokebox'. Finalmente ajuste as estatísticas do seu Pokemon clicando nele",
-        "modify": "Adicione Pokemon Da Sua Pokebox",
-        "meta": {
-            "description": "Crie sua equipe de batalha"
-        }
-    },
-    "explanation": "Equipes de batalha são projetadas para funcionar assim como no jogo. Você as monta com seus Pokémon, e então as usa quando estiver batalhando. Suas equipes de batalha podem ser usadas por outros jogadores para simular reides ou combates PvP.",
-    "full": {
-        "description": "Você atingiu o tamanho limite do time para esta liga",
-        "title": "Equipe Cheia"
-    },
-    "select": {
-        "open": "Escolha $t(common:battleParty)",
-        "emptyName": "$t(common:battleParty) {{value}}",
-        "edit": "Editar",
-        "close": "Escolha",
-        "noneFound": "Nenhuma $t(common:battleParties) encontrada para esta liga",
-        "title": "Escolha uma Equipe",
-        "label": "Escolha sua $t(common:battleParty)",
-        "create": "Criar $t(common:battleParty)"
-    },
-    "edit": {
-        "title": "Editar Equipe de Batalha",
-        "description": "Atualize o nome da sua Equipe de Batalha na caixa de texto abaixo. Você pode também mudar a liga no menu. Mude então os membros da equipe clicando o botão 'mude os membros da sua equipe de batalha. Finalmente, modifique as estatísticas de cada Pokemon clicando nele!",
-        "meta": {
-            "description": "Editar Sua Equipe de Batalha"
-        },
-        "modify": "Mude os Membros da Sua Equipe de Batalha"
-    },
-    "empty": {
-        "description": "Você não adicionou nenhum Pokemon da sua Pokebox para esta Equipe",
-        "title": "Equipe Vazia"
-    },
+    "description": "Escolha um nome para sua Equipe de Batalha na caixa abaixo. Adicione então os membros do time clicando no botão 'adicione pokemon da sua pokebox'. Finalmente ajuste as estatísticas do seu Pokemon clicando nele",
+    "modify": "Adicione Pokemon Da Sua Pokebox",
     "meta": {
-        "description": "Salve sua Equipe de Batalha Pokemon"
+      "description": "Crie sua equipe de batalha"
     }
+  },
+  "explanation": "Equipes de batalha são projetadas para funcionar assim como no jogo. Você as monta com seus Pokémon, e então as usa quando estiver batalhando. Suas equipes de batalha podem ser usadas por outros jogadores para simular reides ou combates PvP.",
+  "full": {
+    "description": "Você atingiu o tamanho limite do time para esta liga",
+    "title": "Equipe Cheia"
+  },
+  "select": {
+    "open": "Escolha $t(common:battleParty)",
+    "emptyName": "$t(common:battleParty) {{value}}",
+    "edit": "Editar",
+    "close": "Escolha",
+    "noneFound": "Nenhuma $t(common:battleParties) encontrada para esta liga",
+    "title": "Escolha uma Equipe",
+    "label": "Escolha sua $t(common:battleParty)",
+    "create": "Criar $t(common:battleParty)"
+  },
+  "edit": {
+    "title": "Editar Equipe de Batalha",
+    "description": "Atualize o nome da sua Equipe de Batalha na caixa de texto abaixo. Você pode também mudar a liga no menu. Mude então os membros da equipe clicando o botão 'mude os membros da sua equipe de batalha. Finalmente, modifique as estatísticas de cada Pokemon clicando nele!",
+    "meta": {
+      "description": "Editar Sua Equipe de Batalha"
+    },
+    "modify": "Mude os Membros da Sua Equipe de Batalha"
+  },
+  "empty": {
+    "description": "Você não adicionou nenhum Pokemon da sua Pokebox para esta Equipe",
+    "title": "Equipe Vazia"
+  },
+  "meta": {
+    "description": "Salve sua Equipe de Batalha Pokemon"
+  }
 }

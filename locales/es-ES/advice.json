@@ -1,28 +1,68 @@
 {
-    "linkLabel": "Guía para incursiones",
-    "results": {
-        "counters": {
-            "title": "Rivales óptimos",
-            "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente!",
-            "chooseMovesetLabel": "Elegir movimientos"
-        },
-        "hardestMovesets": {
-            "title": "Incursiones más difíciles",
-            "subtitle": "Para {{pokemon}} por {{sort}}",
-            "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
-            "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor!"
-        },
-        "analysis": {
-            "title": "Acerca de este análisis",
-            "attackers": {
-                "byLevel": "Atacantes nivel {{attackerLevel}}",
-                "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
-            }
-        }
+  "linkLabel": "Guía para incursiones",
+  "results": {
+    "counters": {
+      "title": "Rivales óptimos",
+      "moveSetOrderingDescription": "Los movimientos o ataques están ordenados desde el más difícil contra el cual incursionar a el más fácil, asegúrese de chequear múltiples opciones, los resultados pueden varían considerablemente!",
+      "chooseMovesetLabel": "Elegir movimientos",
+      "subtitle": "Mejores atacantes con poder por",
+      "description": "El siguiente análisis muestra los Pokémon que tienen el potencial de ser los incursores más fuertes en términos de {{sort}} contra {{pokemon}}."
     },
-    "title": "Sugerencias para Incursiones",
+    "hardestMovesets": {
+      "title": "Incursiones más difíciles",
+      "subtitle": "Para {{pokemon}} por {{sort}}",
+      "tableTitle": "Movimientos más difíciles contra los cuales enfrentarse",
+      "description": "La dificultad de la incursión puede variar mucho basado en los movimientos del Pokémon defensor!"
+    },
+    "analysis": {
+      "title": "Acerca de este análisis",
+      "attackers": {
+        "byLevel": "Atacantes nivel {{attackerLevel}}",
+        "pokebox": "Los Pokémon personalizados en la Pokebox o caja de Pokémon del usuario # {{userId}}"
+      },
+      "description": "Este consejo de incursión se basó en la simulación de combate con un {{defender.pokemon}} defensor con {{defender.cp}} CP y {{attackers}}. La simulación se ejecutó con la estrategia de ataque {{attackStrategy}} basada en el tipo de simulación {{defenseStrategy}}. Se realizaron {{numSims}} simulaciones con cada posible conjunto de movimientos de {{defender.pokemon}} simulado contra cada Pokémon con cada posible conjunto de movimientos. Los mejores 20 atacantes con su mejor conjunto de movimientos basados en {{sort}} se mantuvieron y se muestran aquí. Puedes hacer clic en cualquiera de los atacantes para ver la simulación que se realizó y probar diferentes conjuntos de movimientos."
+    },
+    "title": "Consejos de incursión para {{attacker}} vs {{defender}}",
     "meta": {
-        "description": "Las Sugerencias para Incursiones en Pokemon Go te ayudan a encontrar que Pokemon debes dar poder para poder vencer a los jefes de incursión y gastar tus caramelos y polvos mas eficientemente",
-        "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+      "description": "Los resultados de los consejos de incursión de Pokemon Go para {{attacker}} vs. {{defender}} encuentran los mejores Pokémon para potenciar y derrotar a cada jefe de incursión.",
+      "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+    },
+    "calculating": "Calculando consejos de incursión",
+    "description": "Bienvenido a los consejos de incursión de Pokebattler para {{pokemon}}. Puedes encontrar los mejores contadores potenciales basados en el conjunto de movimientos de cada jefe. Esta guía es personalizable de varias maneras diferentes. Puedes elegir el nivel de ataque y la estrategia de ataque que te gusta usar, así como varias opciones de clasificación. También puedes elegir la cantidad de polvo estelar y caramelos que tienes disponibles."
+  },
+  "title": "Sugerencias para Incursiones",
+  "meta": {
+    "description": "Las Sugerencias para Incursiones en Pokemon Go te ayudan a encontrar que Pokemon debes dar poder para poder vencer a los jefes de incursión y gastar tus caramelos y polvos mas eficientemente",
+    "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
+  },
+  "pokeboxRequired": "Los consejos de Pokebattler requieren que ingreses tus Pokémon en tu Pokebox para que funcionen correctamente. Simplemente inicia sesión y agrega tus Pokémon más fuertes a tu Pokebox para ayudar a encontrar los mejores Pokémon para potenciar.",
+  "intro": "Los consejos de Pokebattler son una función personalizada diseñada para ayudarte a optimizar tu Pokebox para incursiones específicas. Simplemente selecciona el jefe de incursión contra el que deseas encontrar los mejores Pokémon potenciales para luchar, e ingresa el polvo estelar y los caramelos que tienes disponibles para ver cómo se verán tus Pokémon después de que se potencien. Esta herramienta te ayudará a decidir qué Pokémon se beneficiará más de ese polvo estelar y caramelos para que sepas cómo gastarlo con la máxima eficiencia.",
+  "intro2": "Después de ejecutar una simulación, haz clic en cualquier Pokémon para ver cuánta mejora obtienes después de cada potenciación. ¡A menudo hay puntos de interrupción en los que puedes dejar de potenciar a tus Pokémon después de alcanzarlos para ahorrarte algo de polvo estelar y caramelos! Esto es diferente de otras herramientas de puntos de interrupción que has visto, ya que encuentra empíricamente puntos de interrupción, incluso los que no son obvios.",
+  "inputs": {
+    "title": "Configuración de consejos",
+    "subtitle": "¿Para qué necesitas consejos?"
+  },
+  "buttonLabel": "Potenciar Pokémon",
+  "result": {
+    "title": "Detalles de consejos de incursión para {{attacker}} vs {{defender}}",
+    "meta": {
+      "description": "Los detalles de consejos de incursión de Pokemon Go para {{attacker}} vs. {{defender}} muestran los puntos de interrupción y la eficiencia del polvo estelar.",
+      "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
+    },
+    "subTitle": "{{attacker}} vs. {{defender}}",
+    "description": "El resultado de cada potenciación de un {{attacker}} contra un jefe de incursión {{defender}} se muestra a continuación. Los resultados variarán según los movimientos de {{defender}}.",
+    "summaryStart": "Resultados iniciales",
+    "summaryEnd": "Resultados potenciados",
+    "graphTitle": "{{yAxis}} contra {{xAxis}}",
+    "detail": "Resultados detallados para cada potenciación",
+    "back": "Volver a la configuración de consejos",
+    "powerUpDialog": {
+      "title": "Potenciar",
+      "description": "¿Quieres potenciar a {{pokemon}} {{powerUps}} veces a {{cp}}?",
+      "submit": "Sí",
+      "cancel": "No"
     }
+  },
+  "raidLink": "Ver este resultado sin las potenciaciones",
+  "helpLink": "Ver el video tutorial de consejos de incursión"
 }

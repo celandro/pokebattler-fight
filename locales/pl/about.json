@@ -1,12 +1,15 @@
 {
-    "title": "Więcej o nas",
-    "meta": {
-        "description": "W więcej o nas w Pokebattler znajdziesz informacje na temat jak Pokebattler został Najdokładniejszym Na Świecie Symulatorem Pokemon GO.",
-        "image": "https://static.pokebattler.com/images/og_more_about.jpg"
-    },
-    "history": "Strona ta została stworzona przez {{link}} (aka Ryan Barker) w Lipcu 2016 z pomocą kilku jego współpracowników. Żona Ryana - Shelley Barker również zapewnia potrzebną pomoc w tej miłosnej pracy.",
-    "engine": "Oryginalnym silnikiem kalkulacyjnym dla tej strony był {{link}}, zastąpiony od jakiegoś czasu jego nowszą wersją podczas tworzenia wszystkich symulacji na stronie. Finansowanie tej strony wpływa głównie od uczynnych subskrybentów, którzy stanowią niewielki procent użytkowników.",
-    "githubLink": "pozyskany z otwartych źródeł",
-    "thanks": "Specjalne podziękowania dla wszystkich użytkowników reddita, którzy wspólnie przeprowadzili badania, w tym ",
-    "sponsor": "Pokebattler.com został zasponsorowany przez {{link}}. Sprawdź ich!"
+  "title": "Więcej o nas",
+  "meta": {
+    "description": "W więcej o nas w Pokebattler znajdziesz informacje na temat jak Pokebattler został Najdokładniejszym Na Świecie Symulatorem Pokemon GO.",
+    "image": "https://static.pokebattler.com/images/og_more_about.jpg"
+  },
+  "history": "Strona ta została stworzona przez {{link}} (aka Ryan Barker) w Lipcu 2016 z pomocą kilku jego współpracowników. Żona Ryana - Shelley Barker również zapewnia potrzebną pomoc w tej miłosnej pracy.",
+  "engine": "Oryginalnym silnikiem kalkulacyjnym dla tej strony był {{link}}, zastąpiony od jakiegoś czasu jego nowszą wersją podczas tworzenia wszystkich symulacji na stronie. Finansowanie tej strony wpływa głównie od uczynnych subskrybentów, którzy stanowią niewielki procent użytkowników.",
+  "githubLink": "pozyskany z otwartych źródeł",
+  "thanks": "Specjalne podziękowania dla wszystkich użytkowników reddita, którzy wspólnie przeprowadzili badania, w tym ",
+  "sponsor": "Pokebattler.com został zasponsorowany przez {{link}}. Sprawdź ich!",
+  "privacy": "",
+  "privacyLink": "",
+  "images": ""
 }

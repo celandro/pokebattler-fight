@@ -1,153 +1,567 @@
 {
-    "results": {
-        "analysis": {
-            "attackers": {
-                "byLevel": "уровень {{attackerLevel}} атакующих",
-                "pokebox": "настроенным покемоном из pokebox пользователя #{{userId}}'s"
-            },
-            "title": "О данном анализе",
-            "description": "Данный совет по рейду был основан на симуляции битвы с защищающимся {{defender.pokemon}} с {{defender.cp}} CP и {{attackers}}. Симуляция была проведена с учётом {{attackStrategy}} атакующей стратегии и {{defenseStrategy}} типе симуляции. Всего было проведено {{numSims}} симуляций с каждым возможным набором атак {{defender.pokemon}} против каждого отдельного покемона с каждым возможным набором атак. Здесь отображены 20 лучших атакующих с их лучшими наборами атак {{sort}}. Вы можете нажать на любого атакующего чтобы просмотреть результаты проведённых с ним симуляций и испробовать различные наборы атак."
-        },
-        "title": "{{defender}} Атакующие",
-        "calculating": "Рассчитываем результаты рейда",
-        "counters": {
-            "title": "сильнейшие противники",
-            "subtitle": "Лучшие атакующие от",
-            "description": "Данный анализ покажет Вам покемонов, которые являются сильнейшими рейдерами в расчёте на {{sort}} против {{pokemon}}.",
-            "moveSetOrderingDescription": "Наборы атак рейд-босса отсортированы в порядке уменьшения сложности битвы против них. Убедитесь, что Вы проверили результаты с учётом каждого из них, так как они могут сильно отличаться!",
-            "difficultyNote": "Рейд-боссов куда сложнее победить, чем обычных покемонов, так что будьте осторожны.",
-            "chooseMovesetLabel": "Выберите набор атак"
-        },
-        "hardestMovesets": {
-            "title": "Наиболее сложные рейды",
-            "subtitle": "Для {{pokemon}} {{sort}}",
-            "tableTitle": "Наиболее опасные наборы атак",
-            "description": "Сложность рейда может сильно различаться в зависимости от набора атак защищающегося покемона!"
-        },
-        "description": "Руководство Pokebattler для рейдов против {{pokemon}} разработано, чтобы помочь вам победить {{pokemon}} с помощью лучших покемонов. Вы можете найти в инфографике и статьях лучших покемонов для победы над {{pokemon}}, а также использовать наш настраиваемый симулятор для анализа результатов миллионов симуляций всех возможных покемонов или вашего собственного Pokebox, наполненного вашими покемонами, для максимально персонализированного анализа и подбора атакующей команды.",
-        "patreon": {
-            "description": "Более точные результаты для неизвестных наборов атак обеспечены благодаря поддержке подписчиков. Подписчики получают дополнительное место в Pokebox, и соответственно еще более точные результаты для всех наборов атак и многое другое.",
-            "thanks": "Спасибо за Вашу поддержку!",
-            "link": "Просмотрите все преимущества, которые Вы можете получить зарегистрировавшись"
-        }
+  "results": {
+    "analysis": {
+      "attackers": {
+        "byLevel": "уровень {{attackerLevel}} атакующих",
+        "pokebox": "настроенным покемоном из pokebox пользователя #{{userId}}'s"
+      },
+      "title": "О данном анализе",
+      "description": "Данный совет по рейду был основан на симуляции битвы с защищающимся {{defender.pokemon}} с {{defender.cp}} CP и {{attackers}}. Симуляция была проведена с учётом {{attackStrategy}} атакующей стратегии и {{defenseStrategy}} типе симуляции. Всего было проведено {{numSims}} симуляций с каждым возможным набором атак {{defender.pokemon}} против каждого отдельного покемона с каждым возможным набором атак. Здесь отображены 20 лучших атакующих с их лучшими наборами атак {{sort}}. Вы можете нажать на любого атакующего чтобы просмотреть результаты проведённых с ним симуляций и испробовать различные наборы атак.",
+      "numParty": "Party power is complicated to simulate, the results below are estimates."
     },
-    "title": "Гид по рейдам",
-    "linkLabel": "Гид по рейдам",
-    "intro": "Здесь рейды по Pokemon GO! Узнайте, какой покемон лучше всего подходит для битвы с боссом с помощью самого точного в мире гида по Pokemon GO. Просто выберите рейд, чтоб увидеть лучших покемонов против каждой атаки босса!",
-    "tierList": {
-        "common": {
-            "boss": "Босс",
-            "raidTier": "Уровень рейда"
-        },
-        "RAID_LEVEL_1": {
-            "title": "Уровень 1",
-            "subtitle": "Легко проходиться в одиночку",
-            "intro": "Пройти рейд 1 уровня очень легко даже в одиночку. Игрок 20 уровня с не идеальными покемонами вполне сможет победить даже самого сильного из них самостоятельно. Эти рейды отлично подходят для сбора конфет (candy) для покемонов, которые обычно не встречаются в Вашем регионе."
-        },
-        "RAID_LEVEL_2": {
-            "title": "Уровень 2",
-            "subtitle": "Более тяжёлый рейд, который возможно пройти в одиночку",
-            "intro": "Рейды 2 уровня нацелены на игроков 30-40 уровня, которые легко могут пройти их. Тренеры более низкого уровня, скорее всего, должны будут объединяться для победы над этими боссами."
-        },
-        "RAID_LEVEL_3": {
-            "title": "Уровень 3",
-            "subtitle": "Простой для прохождения группой рейд",
-            "intro": "Рейды 3 уровня нацелены на прохождение даже группой из 2 игроков 30-40 уровня. Также их вполне реально победить в одиночку 40-уровневому тренеру с практически идеальной игрой, сильными покемонами и небольшой удачей."
-        },
-        "RAID_LEVEL_4": {
-            "title": "Уровень 4",
-            "subtitle": "Рейды, которые нелегко пройти даже группой",
-            "intro": "Рейды 4 уровня нацелены на группу из 5-6 игроков 30-40 уровня. Правда, их довольно легко можно побежать и 3-4 тренерам при наличии лучших противников для босса."
-        },
-        "RAID_LEVEL_5": {
-            "title": "Уровень 5",
-            "subtitle": "Легендарный рейд",
-            "intro": "На данный момент легендарные рейды это лучший способ получить сильнейшего покемона! Обычно они проходятся группой из 6-10 тренеров 30-40 уровня. Иногда  вполне возможно победить и группой из 2-5 игроков."
-        },
-        "RAID_LEVEL_UNSET": {
-            "title": "Уровень ?",
-            "subtitle": "Неизвестные рейды",
-            "intro": "Эти рейды могут появиться в будущем. Вы сможете использовать информацию о них, если рейд появится в игре, но сайт ещё не успеет обновиться. Также можете проверить, что случилось бы, если бы рейд на Magikarp был бы легендарным!"
-        },
-        "RAID_LEVEL_4_EVENTS": {
-            "title": "Особые рейды 4 уровня",
-            "subtitle": "Рейды для особых событий",
-            "intro": "Эти рейды появлялись на прошедших в городе Yokohama особых мероприятиях. Возможно они ещё вернуться."
-        },
-        "RAID_LEVEL_1_LEGACY": {
-            "title": "Наследие 1 уровня",
-            "subtitle": "Легко проходиться в одиночку",
-            "intro": "Эти рейды уже прошли."
-        },
-        "RAID_LEVEL_2_LEGACY": {
-            "title": "Наследие 2 уровня",
-            "subtitle": "Более тяжёлый рейд, который возможно пройти в одиночку",
-            "intro": "Эти рейды уже прошли."
-        },
-        "RAID_LEVEL_3_LEGACY": {
-            "title": "Наследие 3 уровня",
-            "subtitle": "Простой для прохождения группой рейд",
-            "intro": "Эти рейды уже прошли."
-        },
-        "RAID_LEVEL_4_LEGACY": {
-            "title": "Наследие 4 уровня",
-            "subtitle": "Рейды, которые нелегко пройти даже группой",
-            "intro": "Эти рейды уже прошли."
-        },
-        "RAID_LEVEL_5_LEGACY": {
-            "title": "Наследие 5 уровня",
-            "subtitle": "Легендарный рейд",
-            "intro": "Эти рейды уже прошли, но вполне могут появиться снова во время особых событий."
-        },
-        "RAID_LEVEL_5_FUTURE": {
-            "title": "Будущие рейды 5 уровня",
-            "subtitle": "Легендарный рейд",
-            "intro": "Эти рейды ещё не были добавлены в игру. Их наборы атак и характеристики ещё могут измениться."
-        },
-        "RAID_LEVEL_6": {
-            "subtitle": "Легендарный рейд - бонусное здоровье",
-            "intro": "В этих рейдах босс имеет больше здоровья по сравнению с обычным Tier 5 рейдом. Пока неизвестно, будет ли это действовать на все остальные рейды Tier 5. Обычно такого рейд босса можно победить группой из 6-10 человек с 30-40 уровнями. Самые бесстрашные эксперты могут победить такого босса в 2-5 человек."
-        }
+    "title": "{{defender}} Атакующие",
+    "calculating": "Рассчитываем результаты рейда",
+    "counters": {
+      "title": "сильнейшие противники",
+      "subtitle": "Лучшие атакующие от",
+      "description": "Данный анализ покажет Вам покемонов, которые являются сильнейшими рейдерами в расчёте на {{sort}} против {{pokemon}}.",
+      "moveSetOrderingDescription": "Наборы атак рейд-босса отсортированы в порядке уменьшения сложности битвы против них. Убедитесь, что Вы проверили результаты с учётом каждого из них, так как они могут сильно отличаться!",
+      "difficultyNote": "Рейд-боссов куда сложнее победить, чем обычных покемонов, так что будьте осторожны.",
+      "chooseMovesetLabel": "Выберите набор атак"
     },
-    "custom": {
-        "title": "Настраиваемый рейд",
-        "levelsLabel": "Уровень атакующего",
-        "buttonLabel": "Найти лучшего рейдера",
-        "attackersLabel": "Атакующие"
+    "hardestMovesets": {
+      "title": "Наиболее сложные рейды",
+      "subtitle": "Для {{pokemon}} {{sort}}",
+      "tableTitle": "Наиболее опасные наборы атак",
+      "description": "Сложность рейда может сильно различаться в зависимости от набора атак защищающегося покемона!"
     },
-    "pokebox": {
-        "login": "Гид по рейдам от Pokebattler может быть настроен на основе имеющихся у Вас в Pokemon Go, которых Вы добавили в Ваш Pokebox на Pokebattler. Зайдите в свой аккаунт, добавьте Ваших лучших покемонов в Ваш Pokebox на Pokebattler, после чего Вы сможете сравнить эффективность Ваших покемонов и сильнейших противников этого босса среди всех.",
-        "enabled": "Результаты настроенного Вами Pokebox, отображённые в виде 30 Ваших лучших атакующих.",
-        "disabled": "Результаты игрока {{level}} уровня, отображённые в виде 30 лучших атакующих для этого уровня.",
-        "friend": "Показаны результаты для пользователя {{userId}}. Его лучшие 30 атакующих покемонов показаны ниже.",
-        "switchLevel": "Перейти к $t(common:attackerTypes.level)",
-        "switchPokebox": "Перейти к $t(common:attackerTypes.pokebox)"
-    },
-    "emptyResults": {
-        "LEVEL": "Расчёт не дал никаких результатов, возможно это связано с проблемами на сервере.",
-        "POKEBOX": "Расчёт не дал никаких результатов. Возможно Вы не добавили ни одного покемона в Ваш Pokebox?",
-        "FRIEND": "Расчёт не дал никаких результатов. Возможно Ваш друг не добавил ни одного покемона в его Pokebox. Попробуйте выбрать другого тренера."
-    },
-    "people": {
-        "title": "Оценщик Pokebattler",
-        "difficultyRating": "Рейтинг сложности: {{rating}}",
-        "adviceLink": "Посмотрите, что произойдёт если Вы усилите покемонов",
-        "estimate": {
-            "close": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Битва будет проходить на грани, так что советуем взять с собой на 1 тренера больше, чтобы быть уверенным наверняка.",
-            "almost": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Если повезёт, то Вам может понадобиться на 1 тренера меньше.",
-            "trivial": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Эта битва пройдёт без каких-либо проблем, так что можете даже не менять стандартно рекомендованных Pokemon Go покемонов. ",
-            "normal": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Убедитесь что Ваша группа готова, прежде чем начать битву.",
-            "difficult": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Битва будет тяжёлой, так что убедитесь, что все используют своих лучших покемонов."
-        }
-    },
-    "battle": {
-        "resultLink": "Просмотреть результаты battle party"
-    },
-    "helpLink": "Просмотрите обучающее видео по рейдам",
-    "breakingNews": {
-        "title": "Срочные новости"
+    "description": "Руководство Pokebattler для рейдов против {{pokemon}} разработано, чтобы помочь вам победить {{pokemon}} с помощью лучших покемонов. Вы можете найти в инфографике и статьях лучших покемонов для победы над {{pokemon}}, а также использовать наш настраиваемый симулятор для анализа результатов миллионов симуляций всех возможных покемонов или вашего собственного Pokebox, наполненного вашими покемонами, для максимально персонализированного анализа и подбора атакующей команды.",
+    "patreon": {
+      "description": "Более точные результаты для неизвестных наборов атак обеспечены благодаря поддержке подписчиков. Подписчики получают дополнительное место в Pokebox, и соответственно еще более точные результаты для всех наборов атак и многое другое.",
+      "thanks": "Спасибо за Вашу поддержку!",
+      "link": "Просмотрите все преимущества, которые Вы можете получить зарегистрировавшись"
     },
     "meta": {
-        "description": "Узнайте лучших покемонов для рейда с учетом погоды, уровня дружбы, и оценивая именно ваших покемонов. Получите 30 лучших контеров вместе с настраиваемым рейд гайдом №1 в мире."
+      "description": "The best Pokemon Go {{defender}} counters are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Login to see your custom results!",
+      "image": "{{infographicShareURL}}"
+    },
+    "related": {
+      "title": "Related Counters"
     }
+  },
+  "title": "Гид по рейдам",
+  "linkLabel": "Гид по рейдам",
+  "intro": "Здесь рейды по Pokemon GO! Узнайте, какой покемон лучше всего подходит для битвы с боссом с помощью самого точного в мире гида по Pokemon GO. Просто выберите рейд, чтоб увидеть лучших покемонов против каждой атаки босса!",
+  "tierList": {
+    "common": {
+      "boss": "Босс",
+      "raidTier": "Уровень рейда",
+      "difficulty": "Difficulty"
+    },
+    "RAID_LEVEL_1": {
+      "title": "Уровень 1",
+      "subtitle": "Легко проходиться в одиночку",
+      "intro": "Пройти рейд 1 уровня очень легко даже в одиночку. Игрок 20 уровня с не идеальными покемонами вполне сможет победить даже самого сильного из них самостоятельно. Эти рейды отлично подходят для сбора конфет (candy) для покемонов, которые обычно не встречаются в Вашем регионе."
+    },
+    "RAID_LEVEL_2": {
+      "title": "Уровень 2",
+      "subtitle": "Более тяжёлый рейд, который возможно пройти в одиночку",
+      "intro": "Рейды 2 уровня нацелены на игроков 30-40 уровня, которые легко могут пройти их. Тренеры более низкого уровня, скорее всего, должны будут объединяться для победы над этими боссами."
+    },
+    "RAID_LEVEL_3": {
+      "title": "Уровень 3",
+      "subtitle": "Простой для прохождения группой рейд",
+      "intro": "Рейды 3 уровня нацелены на прохождение даже группой из 2 игроков 30-40 уровня. Также их вполне реально победить в одиночку 40-уровневому тренеру с практически идеальной игрой, сильными покемонами и небольшой удачей."
+    },
+    "RAID_LEVEL_4": {
+      "title": "Уровень 4",
+      "subtitle": "Рейды, которые нелегко пройти даже группой",
+      "intro": "Рейды 4 уровня нацелены на группу из 5-6 игроков 30-40 уровня. Правда, их довольно легко можно побежать и 3-4 тренерам при наличии лучших противников для босса."
+    },
+    "RAID_LEVEL_5": {
+      "title": "Уровень 5",
+      "subtitle": "Легендарный рейд",
+      "intro": "На данный момент легендарные рейды это лучший способ получить сильнейшего покемона! Обычно они проходятся группой из 6-10 тренеров 30-40 уровня. Иногда  вполне возможно победить и группой из 2-5 игроков."
+    },
+    "RAID_LEVEL_UNSET": {
+      "title": "Уровень ?",
+      "subtitle": "Неизвестные рейды",
+      "intro": "Эти рейды могут появиться в будущем. Вы сможете использовать информацию о них, если рейд появится в игре, но сайт ещё не успеет обновиться. Также можете проверить, что случилось бы, если бы рейд на Magikarp был бы легендарным!"
+    },
+    "RAID_LEVEL_4_EVENTS": {
+      "title": "Особые рейды 4 уровня",
+      "subtitle": "Рейды для особых событий",
+      "intro": "Эти рейды появлялись на прошедших в городе Yokohama особых мероприятиях. Возможно они ещё вернуться."
+    },
+    "RAID_LEVEL_1_LEGACY": {
+      "title": "Наследие 1 уровня",
+      "subtitle": "Легко проходиться в одиночку",
+      "intro": "Эти рейды уже прошли."
+    },
+    "RAID_LEVEL_2_LEGACY": {
+      "title": "Наследие 2 уровня",
+      "subtitle": "Более тяжёлый рейд, который возможно пройти в одиночку",
+      "intro": "Эти рейды уже прошли."
+    },
+    "RAID_LEVEL_3_LEGACY": {
+      "title": "Наследие 3 уровня",
+      "subtitle": "Простой для прохождения группой рейд",
+      "intro": "Эти рейды уже прошли."
+    },
+    "RAID_LEVEL_4_LEGACY": {
+      "title": "Наследие 4 уровня",
+      "subtitle": "Рейды, которые нелегко пройти даже группой",
+      "intro": "Эти рейды уже прошли."
+    },
+    "RAID_LEVEL_5_LEGACY": {
+      "title": "Наследие 5 уровня",
+      "subtitle": "Легендарный рейд",
+      "intro": "Эти рейды уже прошли, но вполне могут появиться снова во время особых событий."
+    },
+    "RAID_LEVEL_5_FUTURE": {
+      "title": "Будущие рейды 5 уровня",
+      "subtitle": "Легендарный рейд",
+      "intro": "Эти рейды ещё не были добавлены в игру. Их наборы атак и характеристики ещё могут измениться."
+    },
+    "RAID_LEVEL_6": {
+      "subtitle": "Легендарный рейд - бонусное здоровье",
+      "intro": "В этих рейдах босс имеет больше здоровья по сравнению с обычным Tier 5 рейдом. Пока неизвестно, будет ли это действовать на все остальные рейды Tier 5. Обычно такого рейд босса можно победить группой из 6-10 человек с 30-40 уровнями. Самые бесстрашные эксперты могут победить такого босса в 2-5 человек.",
+      "title": "Tier 6"
+    },
+    "raidTier": "Raid Tier",
+    "guessTier": "Guess Tier",
+    "RAID_LEVEL_NEWS": {
+      "title": "News",
+      "subtitle": "Scheduled Raids",
+      "intro": "Currently scheduled Pokemon Go raids."
+    },
+    "RAID_LEVEL_BREAKING_NEWS": {
+      "title": "News",
+      "subtitle": "Scheduled Raids",
+      "intro": "Currently scheduled Pokemon Go raids."
+    },
+    "RAID_LEVEL_REMOTE": {
+      "title": "Remote",
+      "subtitle": "Multi-person raids",
+      "intro": "Difficult Pokemon Go raids, designed for 2 or more players."
+    },
+    "RAID_LEVEL_MAX": {
+      "title": "Max",
+      "subtitle": "In person Dynamax and Gigantamax Raids raids",
+      "intro": "Very difficult max battles you can only fight with Max Pokemon that reward Max Pokemon"
+    },
+    "RAID_LEVEL_SHADOW": {
+      "title": "Shadow",
+      "subtitle": "In person shadow raids",
+      "intro": "More difficult raids that reward Shadow Pokemon"
+    },
+    "RAID_LEVEL_LOCAL": {
+      "title": "Local",
+      "subtitle": "Local raids",
+      "intro": "Easy Pokemon Go raids, designed to be defeated by a single player."
+    },
+    "RAID_LEVEL_ALL_RAIDS": {
+      "title": "Raids",
+      "subtitle": "Standard raids",
+      "intro": "The original Pokemon Go raids, uses a standard raid pass or remote raid pass."
+    },
+    "RAID_LEVEL_4_5": {
+      "title": "Tier 4.5",
+      "subtitle": "Easy Legendary Raid",
+      "intro": "Tier 4.5 raids are easier versions of legendary bosses intended at groups of 2-4 level 30-40 players. They are typically seen during short duration events."
+    },
+    "RAID_LEVEL_MEGA": {
+      "title": "Mega Tier",
+      "subtitle": "Easy Mega Raid",
+      "intro": "The current mega raids are the best way to obtain mega energy to power up the strongest pokemon! They are often done with groups of 2-3 level 30-40 players. "
+    },
+    "RAID_LEVEL_MEGA_5": {
+      "title": "Mega Legendary Tier",
+      "subtitle": "Mega Legendary Raid",
+      "intro": "The current mega raids are the best way to obtain mega energy to power up the strongest pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
+    },
+    "RAID_LEVEL_ULTRA_BEAST": {
+      "title": "Ultra Beast Tier",
+      "subtitle": "Ultra Beast Raid",
+      "intro": "Ultra Beast raids are equivalent to the legendary tier in difficulty"
+    },
+    "RAID_LEVEL_ELITE": {
+      "title": "Elite Tier",
+      "subtitle": "Elite Raid - Bonus Hp",
+      "intro": "These raids have bonus hp and stats compared to Tier 5 raids.   These are in person raids typically done with groups of 6-12 players."
+    },
+    "RAID_LEVEL_1_SHADOW": {
+      "title": "Shadow Tier 1",
+      "subtitle": "Easy Shadow Raid",
+      "intro": "Shadow Tier 1 raids are fairly easy to defeat by yourself. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to collect candy for pokemon that are not common in your area."
+    },
+    "RAID_LEVEL_3_SHADOW": {
+      "title": "Shadow Tier 3",
+      "subtitle": "Easy Group Shadow Raid",
+      "intro": "Shadow Tier 3 raids are targeted at groups of 2 level 30-40 players. They can be soloed by a level 40+ player with a little luck and perfect play with awesome Pokemon."
+    },
+    "RAID_LEVEL_5_SHADOW": {
+      "title": "Shadow Tier 5",
+      "subtitle": "Shadow Legendary Raid",
+      "intro": "Shadow Legendary raids are extremely difficult but are the best way to obtain strong pokemon! They are in person only raids that are often done with groups of 5-10 level 30-50 players. Some intrepid experts have done some of these raids with as few as 2-3 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_1_MAX": {
+      "title": "Max Tier 1",
+      "subtitle": "Easy Dynamax Max Battle",
+      "intro": "Max Tier 1 Dynamax raids are fairly easy to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+    },
+    "RAID_LEVEL_2_MAX": {
+      "title": "Max Tier 2",
+      "subtitle": "Difficult Dynamax Max Battle",
+      "intro": "Max Tier 2 Dynamax raids are possible to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect evolved pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+    },
+    "RAID_LEVEL_3_MAX": {
+      "title": "Max Tier 3",
+      "subtitle": "Easy Group Dynamax Max Battle",
+      "intro": "Max Tier 3 Dynamax raids are targeted at groups of 2-4 in person level 30-40 players with 3x lvl 30-40 powered up Dynamax Pokemon. They can typically be soloed by a level 40+ player with dodging and awesome Pokemon."
+    },
+    "RAID_LEVEL_4_MAX": {
+      "title": "Max Event Tier 4",
+      "subtitle": "Event Dynamax Group Max Battle",
+      "intro": "Max Tier 4 Event Dynamax battles are found in special events! They are in person only raids that are often done with groups of 2-4 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_5_MAX": {
+      "title": "Legendary Max Tier 5",
+      "subtitle": "Group Legendary Max Battle",
+      "intro": "Max Tier 5 Legendary battles are difficult but are the best way to obtain strong Dynamax Pokemon! They are in person only raids that are often done with groups of 2-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_6_MAX": {
+      "title": "G-Max Tier 6",
+      "subtitle": "Group Gigantamax Max Battle",
+      "intro": "Max Tier 6 Gigantamax battles are difficult but are the source of  Gigantamax Pokemon! They are in person only raids that are often done with groups of 5-20 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_6_5_MAX": {
+      "title": "G-Max Tier 6.5",
+      "subtitle": "Difficult Group Gigantamax Max Battle",
+      "intro": "Max Tier 6.5 Gigantamax battles are even more difficult! They are in person only raids that are often done with groups of 10-30 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_4_5_LEGACY": {
+      "title": "Legacy Tier 4.5",
+      "subtitle": "Easy Legendary Raid",
+      "intro": "These are previously seen easy legendary raid bosses."
+    },
+    "RAID_LEVEL_MEGA_LEGACY": {
+      "title": "Legacy Mega Tier",
+      "subtitle": "Easy Mega Raid",
+      "intro": "These mega raids are no longer available in raids."
+    },
+    "RAID_LEVEL_MEGA_5_LEGACY": {
+      "title": "Legacy Legendary Mega Tier",
+      "subtitle": "Mega Raid",
+      "intro": "These legendary mega raids are no longer available in raids."
+    },
+    "RAID_LEVEL_ULTRA_BEAST_LEGACY": {
+      "title": "Legacy Ultra Beast Tier",
+      "subtitle": "Ultra Beast Raid",
+      "intro": "Ultra Beast raids have been datamined but information is not currently available. Current assumption is they are equivalent to the mega legendary tier in difficulty"
+    },
+    "RAID_LEVEL_6_LEGACY": {
+      "title": "Legacy Tier 6",
+      "subtitle": "Legendary Raid - Bonus Hp",
+      "intro": "These legendary raids with bonus hp have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_ELITE_LEGACY": {
+      "title": "Legacy Elite Tier",
+      "subtitle": "Elite Raid - Bonus Hp",
+      "intro": "These elite raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_1_SHADOW_LEGACY": {
+      "title": "Legacy Shadow Tier 1",
+      "subtitle": "Easy Shadow Raid",
+      "intro": "These Shadow Tier 1 raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_3_SHADOW_LEGACY": {
+      "title": "Legacy Shadow Tier 3",
+      "subtitle": "Easy Group Shadow Raid",
+      "intro": "These Shadow Tier 3 raids were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_5_SHADOW_LEGACY": {
+      "title": "Legacy Shadow Tier 5",
+      "subtitle": "Shadow Legendary Raid",
+      "intro": "These Shadow Legendary raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_1_MAX_LEGACY": {
+      "title": "Legacy Max Tier 1",
+      "subtitle": "Easy Max Dynamax Battle",
+      "intro": "These Max Tier 1 Dynamax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_2_MAX_LEGACY": {
+      "title": "Legacy Max Tier 2",
+      "subtitle": "Difficult Dynamax Max Battle",
+      "intro": "These Max Tier 2 Dynamax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_3_MAX_LEGACY": {
+      "title": "Legacy Max Tier 3",
+      "subtitle": "Easy Group Dynamax Max Battle",
+      "intro": "These Max Tier 3 Dynamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_4_MAX_LEGACY": {
+      "title": "Legacy Max Event Tier 4",
+      "subtitle": "Event Dynamax Group Max Battle",
+      "intro": "Max Tier 4 Event Dynamax battles are found in special events! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_5_MAX_LEGACY": {
+      "title": "Legacy Max Tier 5",
+      "subtitle": "Legendary Group Dynamax Max Battle",
+      "intro": "These Legendaary Max Tier 5 Dynamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_6_MAX_LEGACY": {
+      "title": "Legacy G-Max Tier 6",
+      "subtitle": "Group Gigantamax Max Battle",
+      "intro": "These Tier 6 Gigantamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_6_5_MAX_LEGACY": {
+      "title": "Legacy Difficult G-Max Tier 6.5",
+      "subtitle": "Difficult Group Gigantamax Max Battle",
+      "intro": "These Tier 6.5 Gigantamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+    },
+    "RAID_LEVEL_4_5_FUTURE": {
+      "title": "Future Tier 4.5",
+      "subtitle": "Easy Legendary Raid",
+      "intro": "These are  easy legendary raid bosses that are not in the game yet. Their stats and moves are still subject to change"
+    },
+    "RAID_LEVEL_6_FUTURE": {
+      "title": "Future Tier 6",
+      "subtitle": "Legendary Raid - Bonus Hp",
+      "intro": "These legendary raids with bonus hp are not in the game yet! Their stats and moves are still subject to change."
+    },
+    "RAID_LEVEL_ELITE_FUTURE": {
+      "title": "Future Elite Tier",
+      "subtitle": "Elite Raid - Bonus Hp",
+      "intro": "These elite raids are not in the game yet! Their stats and moves are still subject to change."
+    },
+    "RAID_LEVEL_MEGA_FUTURE": {
+      "title": "Future Mega Tier",
+      "subtitle": "Mega Raid",
+      "intro": "These mega raids are not in the game yet."
+    },
+    "RAID_LEVEL_MEGA_5_FUTURE": {
+      "title": "Future Mega Legendary Tier",
+      "subtitle": "Mega Legendary Raid",
+      "intro": "These mega legendary raids are not in the game yet."
+    },
+    "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
+      "title": "Future Ultra Beast Tier",
+      "subtitle": "Ultra Beast Raid",
+      "intro": "Ultra Beast raids have been datamined but information is not currently available. They are equivalent to the mega legendary tier in difficulty"
+    },
+    "RAID_LEVEL_1_SHADOW_FUTURE": {
+      "title": "Future Shadow Tier 1",
+      "subtitle": "Easy Shadow Raid",
+      "intro": "These Shadow Tier 1 raids are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_3_SHADOW_FUTURE": {
+      "title": "Future Shadow Tier 3",
+      "subtitle": "Easy Group Shadow Raid",
+      "intro": "These Shadow Tier 3 raids are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_5_SHADOW_FUTURE": {
+      "title": "Future Shadow Tier 5",
+      "subtitle": "Shadow Legendary Raid",
+      "intro": "These Shadow Tier 5 raids are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_1_MAX_FUTURE": {
+      "title": "Future Max Tier 1",
+      "subtitle": "Easy Dynamax Max Battle",
+      "intro": "These Max Tier 1 Dynamax battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_2_MAX_FUTURE": {
+      "title": "Future Max Tier 2",
+      "subtitle": "Difficult Dynamax Max Battle",
+      "intro": "These Max Tier 2 Dynamax battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_3_MAX_FUTURE": {
+      "title": "Future Max Tier 3",
+      "subtitle": "Easy Dynamax Group Max Battle",
+      "intro": "These Max Tier 3 Dynamax battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_4_MAX_FUTURE": {
+      "title": "Future Max Event Tier 4",
+      "subtitle": "Event Dynamax Group Max Battle",
+      "intro": "These Max Tier 4 Dynamax battles that are found in special events! They are in person only raids that are often done with groups of 2-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+    },
+    "RAID_LEVEL_5_MAX_FUTURE": {
+      "title": "Future Legendary Max Tier 5",
+      "subtitle": "Difficult Group Legendary Max Battle",
+      "intro": "These Max Tier 5 Legendary battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_6_MAX_FUTURE": {
+      "title": "Future G-Max Tier 6",
+      "subtitle": "Difficult Group Gigantamax Max Battle",
+      "intro": "These Max Tier 6 Gigantamax battles are not in the game yet. They may appear in the future for special events."
+    },
+    "RAID_LEVEL_6_5_MAX_FUTURE": {
+      "title": "Future G-Max Tier 6.5",
+      "subtitle": "Difficult Group Gigantamax Max Battle",
+      "intro": "These Max Tier 6 Gigantamax battles are not in the game yet. They may appear in the future for special events."
+    }
+  },
+  "custom": {
+    "title": "Настраиваемый рейд",
+    "levelsLabel": "Уровень атакующего",
+    "buttonLabel": "Найти лучшего рейдера",
+    "attackersLabel": "Атакующие"
+  },
+  "pokebox": {
+    "login": "Гид по рейдам от Pokebattler может быть настроен на основе имеющихся у Вас в Pokemon Go, которых Вы добавили в Ваш Pokebox на Pokebattler. Зайдите в свой аккаунт, добавьте Ваших лучших покемонов в Ваш Pokebox на Pokebattler, после чего Вы сможете сравнить эффективность Ваших покемонов и сильнейших противников этого босса среди всех.",
+    "enabled": "Результаты настроенного Вами Pokebox, отображённые в виде 30 Ваших лучших атакующих.",
+    "disabled": "Результаты игрока {{level}} уровня, отображённые в виде 30 лучших атакующих для этого уровня.",
+    "friend": "Показаны результаты для пользователя {{userId}}. Его лучшие 30 атакующих покемонов показаны ниже.",
+    "switchLevel": "Перейти к $t(common:attackerTypes.level)",
+    "switchPokebox": "Перейти к $t(common:attackerTypes.pokebox)"
+  },
+  "emptyResults": {
+    "LEVEL": "Расчёт не дал никаких результатов, возможно это связано с проблемами на сервере.",
+    "POKEBOX": "Расчёт не дал никаких результатов. Возможно Вы не добавили ни одного покемона в Ваш Pokebox?",
+    "FRIEND": "Расчёт не дал никаких результатов. Возможно Ваш друг не добавил ни одного покемона в его Pokebox. Попробуйте выбрать другого тренера."
+  },
+  "people": {
+    "title": "Оценщик Pokebattler",
+    "difficultyRating": "Рейтинг сложности: {{rating}}",
+    "adviceLink": "Посмотрите, что произойдёт если Вы усилите покемонов",
+    "estimate": {
+      "close": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Битва будет проходить на грани, так что советуем взять с собой на 1 тренера больше, чтобы быть уверенным наверняка.",
+      "almost": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Если повезёт, то Вам может понадобиться на 1 тренера меньше.",
+      "trivial": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Эта битва пройдёт без каких-либо проблем, так что можете даже не менять стандартно рекомендованных Pokemon Go покемонов. ",
+      "normal": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Убедитесь что Ваша группа готова, прежде чем начать битву.",
+      "difficult": "Для победы над {{pokemon}} понадобится {{numPeople}} тренеров с учётом таких покемонов. Битва будет тяжёлой, так что убедитесь, что все используют своих лучших покемонов."
+    }
+  },
+  "battle": {
+    "resultLink": "Просмотреть результаты battle party"
+  },
+  "helpLink": "Просмотрите обучающее видео по рейдам",
+  "breakingNews": {
+    "title": "Срочные новости",
+    "subtitle": "Popular Raids In Pokemon Go",
+    "header": "$t(constants:pokemon.{{pokemonId}}) Counters"
+  },
+  "meta": {
+    "description": "Узнайте лучших покемонов для рейда с учетом погоды, уровня дружбы, и оценивая именно ваших покемонов. Получите 30 лучших контеров вместе с настраиваемым рейд гайдом №1 в мире.",
+    "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+  },
+  "articles": {
+    "title": "Latest Raid News!",
+    "subtitle": "Articles and Videos About Pokemon Go Raids From Top Players And Researchers"
+  },
+  "guide": {
+    "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Raid Counter Guides",
+    "subtitle": "How To Defeat $t(constants:pokemon.{{pokemonId}}) in Pokemon Go",
+    "infographicDownload": "Download $t(constants:pokemon.{{pokemonId}}) Infographic",
+    "infographicDownloadButton": "Download High Resolution Infographic",
+    "article": "Read The Full $t(constants:pokemon.{{pokemonId}}) Raid Counter Guide Below"
+  },
+  "raidAttackers": {
+    "title": "Raid Attackers - {{type}}",
+    "meta": {
+      "description": "The best overall {{type}} raid attackers in Pokemon Go raids based on performance against all possible raids!  Points are assigned based on relative ranking performance and by tier of raid boss"
+    },
+    "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 0x for tier 1)"
+  },
+  "raidAttackerDetails": {
+    "title": "{{attackerName}} Raid Attacker Analysis",
+    "subtitle": "{{move1Name}} {{move2Name}}",
+    "meta": {
+      "title": "Raid Attacker - {{attackerName}} {{move1Name}} {{move2Name}}",
+      "description": "The best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Find the best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}}. Find out exactly how useful {{attackerName}} is in Pokemon Go raids!"
+    },
+    "availableMoves": "Available Moves",
+    "counters": "Counters"
+  },
+  "raidParty": {
+    "title": "Pokebattler Raid Party",
+    "meta": {
+      "description": "Pokebattler Raid Party v1.0 is here!  Designed to help you raid with confidence and minimal effort to defeat those raid bosses the first try. Pokebattler Raid Party App was created by Pokebattler.com to help organize and promote Pokemon Go raids by providing key features that are not provided by the game.",
+      "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+    },
+    "result": {
+      "title": "Pokebattler Raid Party #{{raidPartyId}}",
+      "info": "Pokebattler Raid Party is currently only available in app form. Website version coming soon! To see this raid party, simply download the app, login and reload this page.",
+      "deepLink": "If you have the app installed, this page should automatically open the app. On IOS, you may need to open this link in Safari and pull down the page for the open in Pokebattler Raid Party to appear.",
+      "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}."
+    },
+    "download": {
+      "installation": "Download the Pokebattler Raid Party App for your device",
+      "android": {
+        "title": "Android",
+        "subtitle": "Download from the Play Store"
+      },
+      "ios": {
+        "title": "iOS",
+        "subtitle": "Download from the Apple App Store"
+      }
+    },
+    "screenshots": {
+      "title": "Prepare for remote raids with friends",
+      "description": "Here are just a few of the features in the Pokebattler Raid Party App. Additional functionality is being added rapidly, download the app to see the newest features"
+    }
+  },
+  "raidPartyResult": {
+    "title": "Pokebattler Raid Party #{{raidPartyId}}",
+    "meta": {
+      "description": "Join the Pokebattler Raid Party #{{raidPartyId}} to see if your group will win. Download the app and raid with confidence with just one click!",
+      "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
+    },
+    "info": "Pokebattler Raid Party is currently only available in app form. Website version coming soon! To see this raid party, simply download the app, login and reload this page.",
+    "deepLink": "If you have the app installed, this page should automatically open the app. On IOS, you may need to open this link in Safari and pull down the page for the open in Pokebattler Raid Party to appear.",
+    "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}.",
+    "deepLink3": "Discord users: You will need to change your Discord settings for Browser to open in Safari or Chrome",
+    "customLink": "Open in App"
+  },
+  "raidNetworkDiscords": {
+    "title": "Raid Network",
+    "info": "Discord servers in the Pokebattler Raid Network are available to join in the Pokebattler Raid Party app if they do not fill up. You can join their servers directly to fill raids sooner!",
+    "join": "Have a raiding discord and interested in joining the Pokebattler Raid Network? Join the Pokebattler Raid App discord and ping an admin",
+    "discordLink": "Go to {{guildName}} Discord server",
+    "properties": {
+      "activeRaidersCount": "Avg Raiders",
+      "raidsCreated": "# Raids",
+      "yesterday": "Yesterday",
+      "lastWeek": "Last Week",
+      "lastMonth": "Last Month",
+      "lastYear": "Last Year",
+      "country": "Country",
+      "language": "Language",
+      "name": "$t(common:name)"
+    }
+  },
+  "infographics": {
+    "title": "Infographics",
+    "subTitle": "Pokemon Go Raid Counter Infographics",
+    "meta": {
+      "description": "Get your Pokemon Go Raid Infographics from CaptGoldfish and JaceMakings. These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+      "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "articles": {
+      "title": "Pokemon Go Raid Infographics",
+      "subtitle": "High quality counters with hand drawn graphics"
+    },
+    "authors": {
+      "captgoldfish": {
+        "name": "CaptGoldfish",
+        "link": "https://twitter.com/CaptGoldfish",
+        "title": "CaptGoldfish's Raid Counter Infographics",
+        "button": {
+          "title": "CaptGoldfish",
+          "subtitle": "Hand drawn Pokemon Go raid boss infographics designed for portrait mode"
+        },
+        "meta": {
+          "description": "Pokemon Go Raid Infographics from CaptGoldfish! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+          "image": "https://static.pokebattler.com/CaptGoldfish/icon.png"
+        }
+      },
+      "jace": {
+        "name": "Jace",
+        "link": "https://twitter.com/JaceMakings",
+        "title": "Jace's Raid Counter Infographics",
+        "button": {
+          "title": "Jace",
+          "subtitle": "High quality Pokemon Go raid boss infographics designed for landscape mode"
+        },
+        "meta": {
+          "description": "Pokemon Go Raid Infographics from Jace! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+          "image": "https://static.pokebattler.com/graphics/Jace.jpg"
+        }
+      }
+    }
+  },
+  "silph": {
+    "text": "Current raid boss list provided by",
+    "link": "The Silph Road"
+  }
 }

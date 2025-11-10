@@ -1,29 +1,29 @@
 {
-    "title": "저희에게 연락하세요",
-    "meta": {
-        "description": "저희에게 메시지를 보내거나 소셜미디어에서 팔로우하여 세계에서 가장 정확한 포켓몬고 시뮬레이터에 최신 소식을 받으세요",
-        "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  "title": "저희에게 연락하세요",
+  "meta": {
+    "description": "저희에게 메시지를 보내거나 소셜미디어에서 팔로우하여 세계에서 가장 정확한 포켓몬고 시뮬레이터에 최신 소식을 받으세요",
+    "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  },
+  "contactInfo": "연락처 정보",
+  "feedbackText": "포케배틀러의 우리는 여러분들의 피드백을 듣고 싶습니다! 기능 제안이나 버그 리포트나 감사의 말이나, 우리는 사용자들에게 감사하고 이 포켓몬고 배틀을 위해 여러분이 사용하는 이 사이트를 유지하기 위해 최선을 다합니다.",
+  "email": "다음을 통해 비공개 메시지를 보내세요:",
+  "facebook": "페이스북으로 소통하기",
+  "button": {
+    "reddit": {
+      "title": "레딧에서 의논하기",
+      "subtitle": "/r/pokebattler 의 뉴스와 공지사항"
     },
-    "contactInfo": "연락처 정보",
-    "feedbackText": "포케배틀러의 우리는 여러분들의 피드백을 듣고 싶습니다! 기능 제안이나 버그 리포트나 감사의 말이나, 우리는 사용자들에게 감사하고 이 포켓몬고 배틀을 위해 여러분이 사용하는 이 사이트를 유지하기 위해 최선을 다합니다.",
-    "email": "다음을 통해 비공개 메시지를 보내세요:",
-    "facebook": "페이스북으로 소통하기",
-    "button": {
-        "reddit": {
-            "title": "레딧에서 의논하기",
-            "subtitle": "/r/pokebattler 의 뉴스와 공지사항"
-        },
-        "twitter": {
-            "title": "저에게 트윗하세요",
-            "subtitle": "@Pokebattler_com 에서의 뉴스와 기타 메시지"
-        },
-        "youtube": {
-            "title": "우리의 비디오를 시청하세요",
-            "subtitle": "레이드 가이드와 포케배틀러 튜토리얼 비디오"
-        },
-        "facebook": {
-            "title": "페이스북 소통",
-            "subtitle": "여러분의 친구에게도 저희를 알려주세요"
-        }
+    "twitter": {
+      "title": "저에게 트윗하세요",
+      "subtitle": "@Pokebattler_com 에서의 뉴스와 기타 메시지"
+    },
+    "youtube": {
+      "title": "우리의 비디오를 시청하세요",
+      "subtitle": "레이드 가이드와 포케배틀러 튜토리얼 비디오"
+    },
+    "facebook": {
+      "title": "페이스북 소통",
+      "subtitle": "여러분의 친구에게도 저희를 알려주세요"
     }
+  }
 }

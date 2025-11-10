@@ -1,3 +1,302 @@
 {
-  
+  "news": {
+    "title": "Noticias de PvP de la Liga de Combates GO de Pokémon GO",
+    "description": "Lo que está sucediendo en Pokémon Go PvP en este momento. La Liga de Combates GO y las Copas Silph son la forma más popular de pvp. Pokebattler tiene análisis de los mejores entrenadores de Pokémon Go PvP para PvP competitivo. ¡Aprende de los mejores cómo vencer a tus amigos en combate cara a cara!",
+    "meta": {
+      "description": "$t(pvp:news.description)",
+      "image": "https://static.pokebattler.com/images/og_news_rankings.PNG"
+    },
+    "join": "Llamando a todos los influencers de PvP de la Liga de Combates GO de Pokémon GO y aspirantes a influencers: Haz que tu voz se escuche presentando tus videos, artículos e infografías en Pokebattler.com.",
+    "joinCTA": "Contáctanos para más detalles"
+  },
+  "matrix": {
+    "title": "Simulador de Matriz PvP",
+    "description": "Mira los resultados de tu equipo de Pokémon luchando contra un equipo de Pokémon oponente",
+    "loggedOut": "Esta función es solo para usuarios registrados por razones de rendimiento. Te permite investigar cada posible combinación de resultados de dos conjuntos de pokemon. ¡Crea una cuenta gratuita en segundos para probar esta nueva y emocionante función!",
+    "benefits": "Los suscriptores pueden ejecutar simulaciones de matriz en un mayor número de Pokémon y combinaciones de movimientos, entre otros beneficios.",
+    "zeroTypes": "Tu nivel de suscripción no permite simulaciones de Matriz por tipo. ¡Actualiza hoy!",
+    "meta": {
+      "description": "$t(pvp:matrix.description)",
+      "image": "https://static.pokebattler.com/images/og_pvp_matrix.PNG"
+    },
+    "submit": "Calcular",
+    "swap": "Intercambiar",
+    "copy": "Copiar",
+    "results": {
+      "description": "Los atacantes que se eligieron se muestran a la izquierda en orden de {{sort}}. A continuación, siguen los enfrentamientos para cada uno de los atacantes, con los mejores enfrentamientos primero y los peores enfrentamientos al final. Los números en los óvalos son el {{sort}} para el enfrentamiento, siendo el azul favorable, el rojo desfavorable y el blanco un enfrentamiento parejo",
+      "error": {
+        "title": "No se devolvieron resultados",
+        "description": "Ningún pokemon coincidió con tu resultado. Solo los Pokémon relevantes están cubiertos por esta herramienta. Es probable que necesites cambiar tu tipo de Liga o elegir Pokémon más cercanos al PC máximo para esta liga."
+      },
+      "shared": {
+        "title": "Resultado de Matriz Personalizada",
+        "subtitle": "Creado el {{date}}",
+        "description": "Este resultado fue creado por el usuario #{{userId}}. ¡Puedes ver diferentes enfrentamientos ejecutando tus propias simulaciones de matriz gratuitas!",
+        "params": "A continuación se muestran los parámetros utilizados para crear este resultado. Puedes crear tu propio resultado iniciando sesión y ejecutando una simulación de matriz"
+      },
+      "share": {
+        "title": "Tu resultado de Matriz Personalizada",
+        "subtitle": "Creado el {{date}}",
+        "description": "Este resultado fue creado por ti. ¡Puedes compartir este resultado con tus amigos que no tienen cuentas de Pokebattler!",
+        "params": "Modifica la configuración de tu simulación a continuación para ver otros enfrentamientos"
+      }
+    },
+    "params": {
+      "addPokemon": "Añadir Pokémon",
+      "showMoveTypes": "Mostrar tipos de movimiento",
+      "showPokemonTypes": "Mostrar tipos de Pokémon",
+      "chooseParty": "Elegir equipo de batalla",
+      "requiresSubscription": {
+        "title": "Se alcanzó el tamaño máximo de la matriz",
+        "description": "Apoya a Pokebattler para límites más altos"
+      },
+      "attackerLeague": {
+        "title": "Elegir atacantes",
+        "subtitle": "Los límites de la matriz se basan en tu suscripción",
+        "pokemonCategory": {
+          "title": "Elige tus Pokémon",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokémon",
+          "description": "Toca un Pokémon para personalizar los movimientos o las estadísticas."
+        },
+        "pokemonType": {
+          "title": "Elige tus tipos",
+          "subtitle": "{{numTypes}}/{{maxTypes}} Tipos",
+          "description": "Añade todos los Pokémon de estos tipos a tus atacantes."
+        }
+      },
+      "defenderLeague": {
+        "title": "Elegir defensores",
+        "subtitle": "Actualiza para simulaciones de matriz más grandes",
+        "pokemonCategory": {
+          "title": "Elige sus Pokémon",
+          "subtitle": "{{numPokemon}}/{{maxPokemon}} Pokémon",
+          "description": "Toca un Pokémon para personalizar los movimientos o las estadísticas."
+        },
+        "pokemonType": {
+          "title": "Elige sus tipos",
+          "subtitle": "{{numTypes}}/{{maxTypes}} Tipos",
+          "description": "Añade todos los Pokémon de estos tipos a tus defensores."
+        }
+      }
+    }
+  },
+  "rankings": {
+    "title": "Clasificaciones PvP",
+    "description": "Clasificaciones PvP de la Liga de Combates GO de Pokémon GO sobre qué Pokémon son los más fuertes.",
+    "meta": {
+      "description": "¡Las clasificaciones PvP de la Liga de Combates GO de Pokémon GO de Pokebattler encuentran los mejores Pokémon PvP en Pvp! ¡Descubre quién es el más fuerte en la Liga Super Ball, la Liga Master Ball, la Liga Ultra Ball y todas las Copas Silph!",
+      "image": "https://static.pokebattler.com/images/og_pvp_rankings.PNG"
+    },
+    "welcome": {
+      "title": "¡El PvP de la Liga de Combates GO de Pokémon GO ya está aquí!",
+      "paragraph1": "Pokebattler es compatible tanto con la Liga de Combates GO como con las Copas de la Arena Silph. Nuestra configuración de Escudo Aleatorio es una excelente manera de analizar rápidamente qué Pokémon tienen ventaja sobre otros. Pero sumérgete para ver todos los diferentes escenarios de escudos.",
+      "paragraph2": "Las clasificaciones del Top 30 te dan una idea de lo que gana contra el campo general. Las clasificaciones de Contadores te permiten saber qué Pokémon vencen a los 30 mejores. Finalmente, los enlaces de la matriz del meta actual y del meta previsto te permiten ver cómo les va a los 24 Pokémon más populares contra una breve lista de Pokémon del meta. ¡El PVP de la Liga de Combates GO de Pokémon GO es muy complejo, pero estas clasificaciones deberían ayudarte a empezar!",
+      "closing": "Esperamos que estés tan emocionado como nosotros por lo que el PvP aporta a Pokémon Go. Esperamos que estas listas te ayuden a crear un equipo fuerte. Pokebattler seguirá trabajando para proporcionar listas más refinadas y funciones PvP adicionales a medida que pase el tiempo.",
+      "link": "Clasificaciones de Copas Silph más antiguas"
+    },
+    "old": {
+      "title": "¡Copas Silph antiguas!",
+      "paragraph1": "Las Ligas Silph son torneos presenciales de Pokémon Go PvP con reglas que rotan cada temporada. ¡Tienen reglas diferentes cada mes y los Pokémon que son los mejores cambian bastante de un mes a otro!",
+      "paragraph2": "A continuación se muestran las Ligas Silph más antiguas que Pokebattler todavía admite",
+      "closing": "¡Las Ligas Silph son muy divertidas! Espero que estas antiguas clasificaciones de la Copa Silph te ayuden a ver qué tipos de Pokémon pueden ser los mejores dadas las diferentes reglas",
+      "link": "Clasificaciones actuales de Pvp de Pokémon GO"
+    },
+    "buttons": {
+      "attacker": "Completos",
+      "defender": "Contadores",
+      "gotoRankings": "Ir a la clasificación",
+      "predicted": {
+        "label": "Meta previsto",
+        "description": "Análisis de matriz de los Pokémon de primer nivel"
+      },
+      "current": {
+        "label": "Meta actual",
+        "description": "Análisis de matriz de los Pokémon de primer nivel"
+      },
+      "defenders": {
+        "label": "Top 30",
+        "description": "Pokémon más difíciles de vencer en general"
+      },
+      "attackers": {
+        "label": "Contadores",
+        "description": "Mejores contadores para el Top 30"
+      },
+      "pokedex": {
+        "label": "Pokédex",
+        "description": "Enfrentamientos y contadores para cada Pokémon"
+      }
+    },
+    "featured": {
+      "title": {
+        "attacker": "Estadísticas de combate promedio contra los 30 mejores Pokémon completos",
+        "defender": "Estadísticas de combate promedio contra todos los Pokémon posibles"
+      },
+      "deepLink": "Ver más detalles para {{pokemon}}"
+    },
+    "list": {
+      "title": "Clasificaciones de PvP de {{league}} - {{typeSelection}}",
+      "titleBar": "Clasificaciones de PvP de {{league}}",
+      "subtitle": "Top 30 {{typeSelection}}",
+      "meta": {
+        "description": "¡Consulta la {{typeSelection}} de Pokémon GO para el PvP de {{league}} con las clasificaciones de PvP personalizadas basadas en simulación de Pokebattler!",
+        "image": "https://static.pokebattler.com/images/og_pvp_rankings.png"
+      },
+      "descriptions": {
+        "title": "Acerca de estas clasificaciones",
+        "text": "Esta clasificación de {{type}} de PvP se basa en la simulación de combate con Pokémon de {{league}}. La simulación de clasificación se ejecutó con la estrategia de ataque {{strategies.attack}}. Se realizaron $t(common:simulation, {'count': {{numSims}}}) con {{details}}.",
+        "help1": "Puedes hacer clic en cualquiera de los Pokémon a continuación para ver los resultados de diferentes conjuntos de movimientos o hacer clic en el icono de agrupación, el segundo desde la derecha en la parte superior derecha, para verlos desagrupados. El orden de clasificación se puede cambiar haciendo clic en el icono de clasificación de la parte superior derecha y seleccionando el tipo de clasificación que prefieras.",
+        "helpAlert": "¿No tienes todos estos movimientos? ¡Cambia el Meta de movimientos de arriba para ver las clasificaciones no duales y no-MT!",
+        "attackers": "contadores",
+        "defenders": "completos",
+        "details": {
+          "attackers": "cada Pokémon actualmente disponible con cada posible conjunto de movimientos simulado contra los 30 mejores Pokémon completos con cada posible conjunto de movimientos. Los mejores 30 contadores con su mejor conjunto de movimientos basados en {{sort}} con todos los Pokémon que cada {{shieldStrategy}} se mantuvieron y se muestran aquí.",
+          "defenders": "cada posible conjunto de movimientos simulado contra Pokémon con cada posible conjunto de movimientos. Los resultados de todos los combates posibles se promediaron y los mejores 30 Pokémon completos con su mejor conjunto de movimientos basados en {{sort}} con todos los Pokémon que cada {{shieldStrategy}} se mantuvieron y se muestran aquí."
+        }
+      },
+      "loading": "Generando resultados de clasificación de {{type}}. Se necesitaron muchos millones de simulaciones para realizar este análisis, pero los resultados llegarán pronto. No actualices tu navegador.",
+      "typeSelection": {
+        "label": "Tipo de clasificación",
+        "attacker": "Contadores",
+        "defender": "Completos",
+        "attackers": "$t(pvp:rankings.list.typeSelection.attacker)",
+        "defenders": "$t(pvp:rankings.list.typeSelection.defender)"
+      },
+      "settings": {
+        "level": "Niveles de Pokémon"
+      }
+    }
+  },
+  "pokedex": {
+    "title": "Pokédex de {{league}}",
+    "meta": {
+      "description": "La Pokédex de {{league}} de la Liga de Combates GO de Pokémon GO es una guía personalizable sobre qué Pokémon contrarrestan a {{defender}} y contra qué Pokémon {{defender}} tiene los mejores enfrentamientos de ataque en PVP.",
+      "image": "https://static.pokebattler.com/images/og_pvp_pokedex.jpg"
+    },
+    "intro": "Bienvenido a la Pokédex de PvP de la Liga de Combates GO de Pokémon Go de Pokebattler para {{defender}}. Puedes encontrar los mejores conjuntos de movimientos de PvP de {{defender}}, así como sus enfrentamientos contra los defensores más comunes en {{league}}. También puedes encontrar los mejores contadores para {{defender}}, así como los movimientos que ayudan a defenderse mejor contra esos contadores. Siéntete libre de cambiar las opciones a continuación para ver el efecto de diferentes situaciones de combate o para cambiar el orden a tu gusto. Como siempre, los resultados de esta página son generados por el Simulador de PvP de Pokémon Go de Pokebattler. Puedes profundizar en cualquier simulación individual simplemente haciendo clic en la imagen del oponente pokemon",
+    "loading": "Generando análisis de PvP detallado para {{defender}}. Se requieren más de un millón de simulaciones para generar esta página. Sin embargo, no tardará mucho.",
+    "invalid": "{{defender}} no se considera parte de {{league}} por Pokebattler. O su PC es demasiado bajo para ser útil o no es posible obtener uno que tenga un PC lo suficientemente bajo como para calificar o está en la lista de prohibidos. Los resultados a continuación son solo para fines de entretenimiento.",
+    "about": {
+      "title": "Acerca de este análisis de PvP de la Liga de Combates GO de Pokémon GO de {{league}}",
+      "text1": "Este análisis para {{pokemon}} se basa en la simulación de combate de PvP de {{league}}. La simulación de clasificación se ejecutó usando {{shieldStrategy}} basada en el tipo de simulación de Monte Carlo. Se consideró cada Pokémon posible con cada posible conjunto de movimientos para encontrar los mejores contadores para vencer a {{defender}}. Se realizaron hasta 10 simulaciones contra cada uno de los mejores conjuntos de movimientos para esos contadores/enfrentamientos para un total de {{simulationCount}} simulaciones. Los mejores 30 contadores, así como los resultados de los enfrentamientos contra los defensores completos de {{league}}, se muestran aquí basados en {{sort}}.",
+      "text2": "Puedes hacer clic en cualquiera de los atacantes para ver los resultados de conjuntos de movimientos adicionales. El orden de clasificación se puede cambiar haciendo clic en el icono de clasificación en la parte superior derecha de cada resultado y seleccionando el tipo de clasificación que prefieras",
+      "text3": {
+        "text": "TBD Se puede encontrar información adicional en la {{link}}",
+        "link": "sección de ayuda"
+      }
+    },
+    "bestAttack": {
+      "title": "Mejores conjuntos de movimientos generales",
+      "subtitle": "Por {{sort}}",
+      "rankingTitle": "Estadísticas de combate promedio contra defensores completos"
+    },
+    "bestDefense": {
+      "title": "Mejores conjuntos de movimientos defensivos",
+      "subtitle": "Por {{sort}}",
+      "rankingTitle": "Estadísticas de combate promedio de los 6 mejores contadores contra {{defender}}"
+    },
+    "attackMatchups": {
+      "title": "Enfrentamientos generales",
+      "subtitle": "Por {{sort}}",
+      "text": "A continuación puedes encontrar los enfrentamientos para {{defender}} contra los oponentes de {{league}} más completos. Esta clasificación muestra primero los mejores enfrentamientos en términos de {{sort}}."
+    },
+    "bestCounters": {
+      "title": "Contadores de {{defender}}",
+      "subtitle": "Por {{sort}}",
+      "text": "Los mejores contadores para {{defender}} en {{league}} están a continuación. Encontrarás los mejores contadores en términos de {{sort}} en la parte superior de esta lista. Puede que estos Pokémon no sean geniales en general, pero son los mejores para derrotar a {{defender}}"
+    }
+  },
+  "rankingTypes": {
+    "label": "Tipo de clasificación",
+    "attackers": {
+      "label": "Contadores",
+      "description": "Los mejores contadores contra los 30 mejores Pokémon completos"
+    },
+    "defenders": {
+      "label": "Completos",
+      "description": "Los 30 mejores Pokémon completos contra todos los oponentes y conjuntos de movimientos posibles"
+    }
+  },
+  "articles": {
+    "title": "¡Últimas noticias de PvP!",
+    "subtitle": "Artículos y videos de los mejores jugadores de PvP"
+  },
+  "navigation": {
+    "leagues": {
+      "COMBAT_LEAGUE_DEFAULT_GREAT": {
+        "title": "Liga Super Ball",
+        "intro": "La Liga de Combates GO de Pokémon GO comienza cada temporada con la Liga Super Ball. Está mayormente libre de legendarios y tiene una amplia gama de Pokémon posibles. Está dominada por Pokémon defensivos de bajo ataque como Stunfisk de Galar y Azumarill."
+      },
+      "COMBAT_LEAGUE_DEFAULT_ULTRA": {
+        "title": "Liga Ultra Ball",
+        "intro": "La Liga de Combates GO de Pokémon GO continúa con la Liga Ultra Ball en segundo lugar en cada temporada. La Liga Ultra Ball es un formato de Pokémon Go PvP que favorece a los pesos pesados defensivos como Giratina y Cresselia. La mayoría de los Pokémon competitivos son caros de potenciar, pero hay algunas opciones de menor costo de polvo estelar."
+      },
+      "COMBAT_LEAGUE_DEFAULT_MASTER": {
+        "title": "Liga Master Ball",
+        "intro": "La Liga de Combates GO de Pokémon GO tendrá luego la Liga Master Ball en tercer lugar en cada temporada. La Liga Master Ball es un formato de Pokémon Go PvP sin límites y está dominada por legendarios defensivos de nivel 40 y tipos de dragón con movimientos de doble carga. Esta es una liga muy cara para ser competitivo y no se recomienda para principiantes."
+      },
+      "COMBAT_LEAGUE_PREMIER_CUP": {
+        "title": "Copa Premier",
+        "intro": "La Liga de Combates GO de Pokémon GO ha añadido la Copa Premier para que se ejecute al mismo tiempo que la Liga Master Ball. La Copa Premier es como la Liga Master Ball pero no permite Pokémon míticos o legendarios. Está dominada por pseudo-legendarios de nivel 40 con movimientos de doble carga. Esta es una liga un poco más asequible que la Liga Master Ball, pero tampoco se recomienda para principiantes."
+      },
+      "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
+        "title": "Copa Premier Ultra",
+        "intro": "La Liga de Combates GO de Pokémon GO ha añadido una versión de la Liga Ultra Ball de la Copa Premier para que se ejecute al mismo tiempo que la Liga Ultra Ball. La Copa Premier Ultra es como la Liga Ultra Ball pero no permite Pokémon míticos o legendarios. Está dominada por Pokémon del día de la comunidad con poderosos movimientos de legado que no están disponibles sin MTs de élite."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER_CLASSIC": {
+        "title": "Copa Premier Clásica",
+        "intro": "La Liga de Combates GO de Pokémon GO ha añadido la Copa Premier para que se ejecute al mismo tiempo que la Liga Master Ball. La Copa Premier es como la Liga Master Ball pero no permite Pokémon míticos o legendarios. Está dominada por pseudo-legendarios de nivel 40 con movimientos de doble carga. Esta es una liga un poco más asequible que la Liga Master Ball, pero tampoco se recomienda para principiantes."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_ULTRA_PREMIER_CLASSIC": {
+        "title": "Copa Premier Ultra Clásica",
+        "intro": "La Liga de Combates GO de Pokémon GO ha añadido una versión de la Liga Ultra Ball de la Copa Premier para que se ejecute al mismo tiempo que la Liga Ultra Ball. La Copa Premier Ultra es como la Liga Ultra Ball pero no permite Pokémon míticos o legendarios. Está dominada por Pokémon del día de la comunidad con poderosos movimientos de legado que no están disponibles sin MTs de élite."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
+        "title": "Remix de la Liga Super Ball",
+        "intro": "Una forma especial de la Liga Super Ball en la que se han prohibido los 10 Pokémon más populares de la Liga de Combates GO de Pokémon GO"
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELEMENT": {
+        "title": "Elemento de la Liga Super Ball",
+        "intro": "Una copa restringida con un PC máximo de 500."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
+        "title": "Liga Super Ball Bidoof",
+        "intro": "¿Bidoof? ¡Bidoof!"
+      },
+      "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
+        "title": "{{title}}",
+        "intro": "La copa de la tercera temporada de la Arena Silph para octubre, con Pokémon de tipo Volador, Planta, Fuego, Tierra o Normal que no son de tipo Roca, o Megas. La Arena Silph es un conjunto mensual de torneos comunitarios que tiene reglas diferentes cada mes. Para obtener más información, visita https://silph.gg/."
+      },
+      "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
+        "title": "{{title}}",
+        "intro": "La copa de la tercera temporada de la Arena Silph para noviembre, con Pokémon de tipo Veneno, Fantasma, Bicho, Planta o Agua, excepto Tropius, Abomasnow y Megas. La Arena Silph es un conjunto mensual de torneos comunitarios que tiene reglas diferentes cada mes. Para obtener más información, visita https://silph.gg/."
+      },
+      "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
+        "title": "{{title}}",
+        "intro": "La copa de la tercera temporada de la Arena Silph para febrero, que requiere que todos los Pokémon sean de tipos diferentes y prohíbe a los Pokémon más fuertes. La Arena Silph es un conjunto mensual de torneos comunitarios que tiene reglas diferentes cada mes. Para obtener más información, visita https://silph.gg/."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
+        "title": "Copa de Halloween",
+        "intro": "La Copa de Halloween de la Liga Super Ball es la primera copa de tipo oficial de Niantic. Solo se permiten Pokémon de tipo Veneno, Bicho, Fantasma, Siniestro o Hada. Se llevará a cabo del 26 de octubre al 3 de noviembre de 6 p. m. a medianoche."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
+        "title": "Copa Voladora",
+        "intro": "La Copa Voladora de la Liga Super Ball es la segunda copa de tipo oficial de Niantic. Solo se permiten Pokémon que pueden volar. Se llevará a cabo el 5 de noviembre de 6 p. m. a medianoche."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
+        "title": "Copa Kanto",
+        "intro": "La Copa Kanto de la Liga Super Ball es una copa de tipo oficial de Niantic del 16 al 23 de noviembre. Solo son elegibles los Pokémon de la región de Kanto con números de pokédex entre 1 y 151."
+      },
+      "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
+        "title": "Copa Festiva",
+        "intro": "La Copa Festiva de la Liga Super Ball es una copa de tipo oficial de Niantic del 28 de diciembre al 4 de enero. Solo son elegibles los Pokémon de tipo Normal, Planta, Eléctrico, Hielo, Volador y Fantasma."
+      }
+    },
+    "pokemonCondition": {
+      "WITH_POKEMON_CP_LIMIT": "PC Máx",
+      "WITH_POKEMON_TYPE": "Tipos de Pokémon",
+      "WITH_POKEMON_CATEGORY": "Categoría",
+      "WITH_POKEDEX_GENERATION": "Generaciones",
+      "NONE": "Sin límites"
+    }
+  }
 }

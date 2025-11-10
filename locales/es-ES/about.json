@@ -1,15 +1,15 @@
 {
-    "title": "Acerca de Pokebattler",
-    "history": "Este sitio fue creado por {{link}} (conocido como Ryan Barker) en Julio de 2016 con la ayuda de algunos de sus compañeros de trabajo. Shelley Barker, la esposa de Ryan, también provee de valiosa ayuda en esta labor de amor.",
-    "engine": "El motor de calculos original para este sitio es {{link}} y una version mas nueva de este respalda actualmente a este sitio de simulacion de batallas gratis. El financiamiento de este sitio proviene de usuarios de patreon.",
-    "githubLink": "Fuente abierta",
-    "thanks": "Agradecimientos especiales a todos los redditores que han investigado todo lo que acá se incluye ",
-    "sponsor": "Pokebattler.com ha sido auspiciado por {{link}}. Da un vistazo!",
-    "privacy": "",
-    "privacyLink": "",
-    "images": "",
-    "meta": {
-        "description": "En esta sección te explicamos qué es Pokebattler y cómo se convirtió en Simulador de Pokemon Go más preciso del mundo.",
-        "image": "https://static.pokebattler.com/images/og_more_about.jpg"
-    }
+  "title": "Acerca de Pokebattler",
+  "history": "Este sitio fue creado por {{link}} (conocido como Ryan Barker) en Julio de 2016 con la ayuda de algunos de sus compañeros de trabajo. Shelley Barker, la esposa de Ryan, también provee de valiosa ayuda en esta labor de amor.",
+  "engine": "El motor de cálculo original para este sitio fue {{link}} y una versión más nueva ahora respalda este sitio de simulador de batalla gratuito para todos. La financiación de este sitio proviene principalmente de las amables suscripciones de un pequeño porcentaje de nuestros usuarios.",
+  "githubLink": "Fuente abierta",
+  "thanks": "Agradecimientos especiales a todos los redditores que han investigado todo lo que acá se incluye ",
+  "sponsor": "Pokebattler.com ha sido auspiciado por {{link}}. Da un vistazo!",
+  "privacy": "",
+  "privacyLink": "",
+  "images": "",
+  "meta": {
+    "description": "En esta sección te explicamos qué es Pokebattler y cómo se convirtió en Simulador de Pokemon Go más preciso del mundo.",
+    "image": "https://static.pokebattler.com/images/og_more_about.jpg"
+  }
 }

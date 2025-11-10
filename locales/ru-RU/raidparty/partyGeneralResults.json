@@ -1,14 +1,14 @@
 {
-    "effectiveCombatTime": "Время необходимое для победы",
-    "effectiveDeaths": "Погибли ради победы",
-    "tdo": "TDO",
-    "seconds": " ",
-    "winPerc": "% Win",
-    "missingData": "???",
-    "totalCombatTime": "Время",
-    "yourSummary": "Ваша сводка",
-    "deaths": "Погибли",
-    "decimalPlaces": 2,
-    "title": "Результат битвы",
-    "estimator": "Оценщик"
+  "effectiveCombatTime": "Время необходимое для победы",
+  "effectiveDeaths": "Погибли ради победы",
+  "tdo": "TDO",
+  "seconds": " ",
+  "winPerc": "% Win",
+  "missingData": "???",
+  "totalCombatTime": "Время",
+  "yourSummary": "Ваша сводка",
+  "deaths": "Погибли",
+  "decimalPlaces": 2,
+  "title": "Результат битвы",
+  "estimator": "Оценщик"
 }

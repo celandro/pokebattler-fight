@@ -1,14 +1,14 @@
 {
-    "title": "Resultado de Batalla",
-    "decimalPlaces": 2,
-    "winPerc": "% Para Ganar",
-    "seconds": "s",
-    "totalCombatTime": "Tiempo",
-    "effectiveCombatTime": "Tiempo P. Ganar",
-    "tdo": "TDO",
-    "deaths": "Muertes",
-    "estimator": "Estimador",
-    "effectiveDeaths": "Muertes p. ganar",
-    "missingData": "???",
-    "yourSummary": "Tu Resumen"
+  "title": "Resultado de la batalla",
+  "decimalPlaces": 2,
+  "winPerc": "% de victoria",
+  "seconds": "s",
+  "totalCombatTime": "Tiempo",
+  "effectiveCombatTime": "Tiempo para ganar",
+  "tdo": "TDO",
+  "deaths": "Muertes",
+  "estimator": "Estimador",
+  "effectiveDeaths": "Muertes para ganar",
+  "missingData": "???",
+  "yourSummary": "Tu resumen"
 }

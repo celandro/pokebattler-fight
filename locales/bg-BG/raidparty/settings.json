@@ -1,2 +1,107 @@
 {
+  "title": "Settings",
+  "form": {
+    "title": "Global Raid Setup",
+    "subtitle": "Required player information",
+    "basics": "Basics",
+    "playerName": "Trainer Name",
+    "playerLevel": "Level",
+    "playerFaction": "Faction",
+    "autoRaidParty": "Counters",
+    "includeShadow": "Shadow",
+    "includeLegendary": "Legendary",
+    "includeMegas": "Megas",
+    "weather": "Weather",
+    "sort": "Sort",
+    "karma": "Karma",
+    "coins": "Coins",
+    "numRemoteInvites": "Remote Invites",
+    "randomAssistants": "Additional Players",
+    "friendLevel": "Friendship",
+    "discordUsername": "Discord Username",
+    "language": "Language",
+    "theme": "Theme",
+    "themeOptions": {
+      "system": "System Default",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "themeWarnings": {
+      "light": "",
+      "dark": "",
+      "system": "Requires app restart"
+    },
+    "disclaimerText": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids",
+    "raidCounterSettings": "Raid Counter Settings",
+    "pushNotificationSettings": "Push Notification Settings",
+    "friendCode": "Friend Code",
+    "discordConnect": "Pokebattler Raid Party Network includes raids that are coordinated using Discord. To join a Discord raid connect your Pokebattler account with a new or existing Discord account.",
+    "correctness": "Correct Trainer Name and Friend Code are required for smooth Raid Party coordination",
+    "friendCodeHint": "Paste your friend code here. It should be 12 digits, no spaces"
+  },
+  "autoRaidPartyOptions": {
+    "BATTLE_PARTY_POKEBOX": "Pokebox",
+    "BATTLE_PARTY_LEVEL_20": "Level 20",
+    "BATTLE_PARTY_LEVEL_25": "Level 25",
+    "BATTLE_PARTY_LEVEL_30": "Level 30",
+    "BATTLE_PARTY_LEVEL_35": "Level 35",
+    "BATTLE_PARTY_LEVEL_40": "Level 40",
+    "BATTLE_PARTY_LEVEL_45": "Level 45",
+    "BATTLE_PARTY_LEVEL_50": "Level 50"
+  },
+  "updateSetting": {
+    "success": "User settings updated correctly",
+    "autoBattleParty": "Switching counters to your Pokebox",
+    "errors": {
+      "updateSettingGeneral": "There was an error updating your settings",
+      "friendCodeLength": "Friend code must be exactly 12 numbers long",
+      "themeSaveFailed": "Failed to save theme preference"
+    }
+  },
+  "notifications": {
+    "groups": {
+      "raidParty": {
+        "name": "Raid party",
+        "description": "Informs you of raids you are interested in"
+      }
+    },
+    "channels": {
+      "createParty": {
+        "name": "Create raid party",
+        "description": "Raid party creation by your friends."
+      },
+      "updateParty": {
+        "name": "Update raid party",
+        "description": "Setting changes for your Raid Parties."
+      },
+      "deleteParty": {
+        "name": "Cancel raid party",
+        "description": "Raid party cancelled."
+      },
+      "addUser": {
+        "name": "User joined party",
+        "description": "User joined  your raid party."
+      },
+      "removeUser": {
+        "name": "User left party",
+        "description": "User left your raid party."
+      },
+      "updateUser": {
+        "name": "User updated party",
+        "description": "User in your party updated their settings."
+      },
+      "kickedUser": {
+        "name": "Kicked User",
+        "description": "User was kicked from party."
+      },
+      "raidInvitingNow": {
+        "name": "Raid Inviting",
+        "description": "Raid invites going out now"
+      },
+      "raidStartingNow": {
+        "name": "Raid Starting",
+        "description": "Raid starting now"
+      }
+    }
+  }
 }

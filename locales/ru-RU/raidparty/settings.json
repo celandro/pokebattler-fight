@@ -1,80 +1,107 @@
 {
-    "title": "Настройки",
-    "form": {
-        "playerName": "Имя тренера",
-        "playerLevel": "Level",
-        "playerFaction": "Фракция",
-        "autoRaidParty": "Auto Raid Party",
-        "discordUsername": "Имя пользователя в Discord",
-        "language": "Язык",
-        "basics": "Основы",
-        "includeShadow": "Зараженный",
-        "includeLegendary": "Легендарный",
-        "includeMegas": "Мега",
-        "weather": "Погода",
-        "sort": "Классификация",
-        "friendLevel": "Дружба",
-        "disclaimerText": "Возникли проблемы со ссылкой? Напишите на адрес admin@pokebattler.com оба ваши идентификатора пользователя в Pokebattler",
-        "raidCounterSettings": "Настройки Соперника в Рейде",
-        "pushNotificationSettings": "Настройки push-уведомлений",
-        "friendCode": "Код друга",
-        "title": "Настройка глобального Рейда",
-        "subtitle": "Требуемая информация об игроке",
-        "discordConnect": "Pokebattler Raid Party Network включает в себя рейды, которые координируются с помощью Discord. Чтобы присоединиться к рейду в Discord, подключите свою учетную запись Pokebattler к новой или существующей учетной записи Discord.",
-        "correctness": "Исправьте имя тренера и код друга, которые необходимы для беспрепятственной координации рейдового отряда",
-        "numRemoteInvites": "Удаленные приглашения",
-        "randomAssistants": "Дополнительные игроки"
+  "title": "Настройки",
+  "form": {
+    "playerName": "Имя тренера",
+    "playerLevel": "Level",
+    "playerFaction": "Фракция",
+    "autoRaidParty": "Auto Raid Party",
+    "discordUsername": "Имя пользователя в Discord",
+    "language": "Язык",
+    "basics": "Основы",
+    "includeShadow": "Зараженный",
+    "includeLegendary": "Легендарный",
+    "includeMegas": "Мега",
+    "weather": "Погода",
+    "sort": "Классификация",
+    "friendLevel": "Дружба",
+    "disclaimerText": "Возникли проблемы со ссылкой? Напишите на адрес admin@pokebattler.com оба ваши идентификатора пользователя в Pokebattler",
+    "raidCounterSettings": "Настройки Соперника в Рейде",
+    "pushNotificationSettings": "Настройки push-уведомлений",
+    "friendCode": "Код друга",
+    "title": "Настройка глобального Рейда",
+    "subtitle": "Требуемая информация об игроке",
+    "discordConnect": "Pokebattler Raid Party Network включает в себя рейды, которые координируются с помощью Discord. Чтобы присоединиться к рейду в Discord, подключите свою учетную запись Pokebattler к новой или существующей учетной записи Discord.",
+    "correctness": "Исправьте имя тренера и код друга, которые необходимы для беспрепятственной координации рейдового отряда",
+    "numRemoteInvites": "Удаленные приглашения",
+    "randomAssistants": "Дополнительные игроки",
+    "karma": "Karma",
+    "coins": "Coins",
+    "theme": "Theme",
+    "themeOptions": {
+      "system": "System Default",
+      "light": "Light",
+      "dark": "Dark"
     },
-    "autoRaidPartyOptions": {
-        "BATTLE_PARTY_POKEBOX": "Pokebox",
-        "BATTLE_PARTY_LEVEL_20": "Level 20",
-        "BATTLE_PARTY_LEVEL_25": "Level 25",
-        "BATTLE_PARTY_LEVEL_30": "Level 30",
-        "BATTLE_PARTY_LEVEL_35": "Level 35",
-        "BATTLE_PARTY_LEVEL_40": "Level 40",
-        "BATTLE_PARTY_LEVEL_45": "Level 45",
-        "BATTLE_PARTY_LEVEL_50": "Level 50"
+    "themeWarnings": {
+      "light": "",
+      "dark": "",
+      "system": "Requires app restart"
     },
-    "updateSetting": {
-        "success": "Настройки пользователя изменены корректно",
-        "errors": {
-            "updateSettingGeneral": "При обновлении настроек произошла ошибка",
-            "friendCodeLength": "Код друга должен состоять ровно из 12 цифр."
-        },
-        "autoBattleParty": "Переключение атакующих в вашем Pokebox"
+    "friendCodeHint": "Paste your friend code here. It should be 12 digits, no spaces"
+  },
+  "autoRaidPartyOptions": {
+    "BATTLE_PARTY_POKEBOX": "Pokebox",
+    "BATTLE_PARTY_LEVEL_20": "Level 20",
+    "BATTLE_PARTY_LEVEL_25": "Level 25",
+    "BATTLE_PARTY_LEVEL_30": "Level 30",
+    "BATTLE_PARTY_LEVEL_35": "Level 35",
+    "BATTLE_PARTY_LEVEL_40": "Level 40",
+    "BATTLE_PARTY_LEVEL_45": "Level 45",
+    "BATTLE_PARTY_LEVEL_50": "Level 50"
+  },
+  "updateSetting": {
+    "success": "Настройки пользователя изменены корректно",
+    "errors": {
+      "updateSettingGeneral": "При обновлении настроек произошла ошибка",
+      "friendCodeLength": "Код друга должен состоять ровно из 12 цифр.",
+      "themeSaveFailed": "Failed to save theme preference"
     },
-    "notifications": {
-        "groups": {
-            "raidParty": {
-                "name": "Рейдовый отряд",
-                "description": "Информировать об интересующих вас рейдах"
-            }
-        },
-        "channels": {
-            "createParty": {
-                "name": "Создать рейдовый отряд",
-                "description": "Создание рейдового отряда вашими друзьями."
-            },
-            "updateParty": {
-                "name": "Обновить рейдовый отряд.",
-                "description": "Изменения настроек для ваших рейдовых отрядов."
-            },
-            "deleteParty": {
-                "name": "Отмена рейдового отряда",
-                "description": "Рейдовый отряд отменен."
-            },
-            "addUser": {
-                "name": "Пользователь присоединился к отряду",
-                "description": "Пользователь присоединился к вашему рейдовому отряду."
-            },
-            "removeUser": {
-                "name": "Пользователь покинул отряд",
-                "description": "Пользователь покинул ваш рейдовый отряд."
-            },
-            "updateUser": {
-                "name": "Пользователь изменил отряд",
-                "description": "Пользователь в вашем отряде изменил его настройки."
-            }
-        }
+    "autoBattleParty": "Переключение атакующих в вашем Pokebox"
+  },
+  "notifications": {
+    "groups": {
+      "raidParty": {
+        "name": "Рейдовый отряд",
+        "description": "Информировать об интересующих вас рейдах"
+      }
+    },
+    "channels": {
+      "createParty": {
+        "name": "Создать рейдовый отряд",
+        "description": "Создание рейдового отряда вашими друзьями."
+      },
+      "updateParty": {
+        "name": "Обновить рейдовый отряд.",
+        "description": "Изменения настроек для ваших рейдовых отрядов."
+      },
+      "deleteParty": {
+        "name": "Отмена рейдового отряда",
+        "description": "Рейдовый отряд отменен."
+      },
+      "addUser": {
+        "name": "Пользователь присоединился к отряду",
+        "description": "Пользователь присоединился к вашему рейдовому отряду."
+      },
+      "removeUser": {
+        "name": "Пользователь покинул отряд",
+        "description": "Пользователь покинул ваш рейдовый отряд."
+      },
+      "updateUser": {
+        "name": "Пользователь изменил отряд",
+        "description": "Пользователь в вашем отряде изменил его настройки."
+      },
+      "kickedUser": {
+        "name": "Kicked User",
+        "description": "User was kicked from party."
+      },
+      "raidInvitingNow": {
+        "name": "Raid Inviting",
+        "description": "Raid invites going out now"
+      },
+      "raidStartingNow": {
+        "name": "Raid Starting",
+        "description": "Raid starting now"
+      }
     }
+  }
 }

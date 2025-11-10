@@ -1,18 +1,44 @@
 {
-    "title": "배틀 파티 - 베타",
+  "title": "배틀 파티 - 베타",
+  "meta": {
+    "description": "여러분의 포켓몬고 배틀 파티를 저장하세요"
+  },
+  "explanation": "배틀 파티는 게임에서와 같은 원리로 작동합니다. 여러분의 포켓몬으로 셋업해 놓고, 배틀시 사용하세요. 배틀파티는 다른 플레이어들에 의해 레이드 시뮬레이션이나 pvp 전투에 사용될 수 있습니다.",
+  "battlePartyList": {
+    "title": "여러분의 배틀 파티"
+  },
+  "add": {
+    "title": "배틀 파티",
     "meta": {
-        "description": "여러분의 포켓몬고 배틀 파티를 저장하세요"
+      "description": "포켓몬고 배틀 파티를 추가하세요"
     },
-    "explanation": "배틀 파티는 게임에서와 같은 원리로 작동합니다. 여러분의 포켓몬으로 셋업해 놓고, 배틀시 사용하세요. 배틀파티는 다른 플레이어들에 의해 레이드 시뮬레이션이나 pvp 전투에 사용될 수 있습니다.",
-    "battlePartyList": {
-        "title": "여러분의 배틀 파티"
+    "description": "배틀파티 생성",
+    "modify": "Add Pokemon From Your Pokebox"
+  },
+  "select": {
+    "label": "Choose Your $t(common:battleParty)",
+    "emptyName": "$t(common:battleParty) {{value}}",
+    "noneFound": "No $t(common:battleParties) found for this league",
+    "create": "Create $t(common:battleParty)",
+    "edit": "Edit",
+    "title": "Choose A Battle Party",
+    "open": "Choose  $t(common:battleParty)",
+    "close": "Select"
+  },
+  "full": {
+    "title": "Party Full",
+    "description": "You have reached the party size limit for this league"
+  },
+  "empty": {
+    "title": "Party Empty",
+    "description": "You have not added any Pokemon from your Pokebox to this Party"
+  },
+  "edit": {
+    "title": "Battle Party Edit",
+    "meta": {
+      "description": "Edit Your Battle Party"
     },
-    "add": {
-        "title": "배틀 파티",
-        "meta": {
-            "description": "포켓몬고 배틀 파티를 추가하세요"
-        },
-        "description": "배틀파티 생성",
-        "full": "파티가 꽉 찼습니다."
-    }
+    "description": "Update the name of your Battle Party below in the text box. You can also change the league with the drop down. Then change the party members by clicking the 'change your battle party members' button. Finally, modify the stats of each Pokemon by clicking on it!",
+    "modify": "Change Your Battle Party Members"
+  }
 }

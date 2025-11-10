@@ -1,102 +1,104 @@
 {
-    "title": "Pokebox",
-    "errors": {
-        "failed": "No se pudo cargar la Pokebox"
+  "title": "Pokebox",
+  "errors": {
+    "failed": "No se pudo cargar la Pokebox"
+  },
+  "add": {
+    "title": "Nuevo Pokémon",
+    "failed": "No se pudo agregar este pokémon",
+    "autocomplete": "Ingresa el nombre o tipo de Pokémon",
+    "full": "Tu pokebox está llena. Suscríbete para obtener más almacenamiento en el servidor"
+  },
+  "edit": {
+    "title": "Editar Pokémon",
+    "failed": "Lamentablemente, la edición de este pokémon falló",
+    "full": "¡Tu pokebox se está desbordando! Vuelve a suscribirte o elimina el exceso de Pokémon"
+  },
+  "delete": {
+    "title": "Eliminar Pokémon",
+    "failed": "Lamentablemente, la eliminación de este pokémon falló"
+  },
+  "pokeform": {
+    "cp": {
+      "label": "PC",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
-    "add": {
-        "title": "Nuevo Pokemon",
-        "failed": "La adición de este Pokemon falló",
-        "autocomplete": "Ingrese Nombre de Pokemon o Tipo",
-        "full": "Tu Pokebox está completa. Suscríbete para mayor almacenamiento en servidor"
+    "nickname": {
+      "label": "Apodo",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "quickMove": {
+      "label": "Ataque rápido",
+      "placeholder": "$t(common:placeholders.dropdown.required)"
+    },
+    "cinematicMove": {
+      "label": "Ataque cargado",
+      "placeholder": "$t(common:placeholders.dropdown.required)"
+    },
+    "cinematicMove2": {
+      "label": "Segundo ataque cargado",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualAttack": {
+      "label": "Ataque",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualDefense": {
+      "label": "Defensa",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "individualStamina": {
+      "label": "Resistencia",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "level": {
+      "label": "Nivel",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
+    "submit": {
+      "label": "$t(common:buttons.create)"
     },
     "edit": {
-        "title": "Editar Pokemon",
-        "failed": "La edición de este Pokemon falló",
-        "full": "Tu Pokebox se está desbordando! Vuelve a suscribirte o elimina Pokemon sobrantes"
-    },
-    "delete": {
-        "title": "Eliminar Pokemon",
-        "failed": "La remoción de este Pokemon falló"
-    },
-    "pokeform": {
-        "cp": {
-            "label": "PC"
-        },
-        "nickname": {
-            "label": "Alias"
-        },
-        "quickMove": {
-            "label": "Ataque Rápido",
-            "placeholder": "$t(common:placeholders.dropdown.required)"
-        },
-        "cinematicMove": {
-            "label": "Ataque Cargado",
-            "placeholder": "$t(common:placeholders.dropdown.required)"
-        },
-        "cinematicMove2": {
-            "label": "Segundo Ataque Cargado",
-            "placeholder": "$t(common:placeholders.dropdown.optional)"
-        },
-        "individualAttack": {
-            "label": "Ataque",
-            "placeholder": "$t(common:placeholders.dropdown.optional)"
-        },
-        "individualDefense": {
-            "label": "Defensa",
-            "placeholder": "$t(common:placeholders.dropdown.optional)"
-        },
-        "individualStamina": {
-            "label": "Salud",
-            "placeholder": "$t(common:placeholders.dropdown.optional)"
-        },
-        "level": {
-            "label": "Nivel",
-            "placeholder": "$t(common:placeholders.dropdown.optional)"
-        },
-        "submit": {
-            "label": "$t(common:buttons.create)"
-        },
-        "edit": {
-            "label": "$t(common:save)"
-        }
-    },
-    "poketile": {
-        "cp": "$t(cp)",
-        "temporary": "Guardando al servidor"
-    },
-    "noPokemon": {
-        "title": "No se encontraron Pokemon",
-        "clearFilter": "Limpiar filtro de búsqueda",
-        "description": "Pokebattler Raid Party requiere que agregues tus mejores Pokemon de forma de encontrar los mejores atacantes! Mientras más agregues, más precisas serán las sugerencias de los equipos de incursiones!",
-        "addPokemon": "El método más rápido de agregar Pokémon es clickeando el botón de más en la página de atacantes del jefe. Puedes también agregar Pokémon uno a uno o utilizando la funcionalidad de Importación masiva."
-    },
-    "bulkImport": {
-        "title": "Importación Masiva de Pokemon",
-        "failed": "Desgraciadamente, la importación masiva de Pokemon falló",
-        "selectAll": "Selecciona todos",
-        "clearSelection": "Limpiar selección",
-        "importNPokemon": "Importar {{count}}/{{total}}",
-        "beginImport": "Comenzar importación",
-        "paste": "Pegar",
-        "errors": {
-            "parse": "Los datos pegados no tenían un formato compatible. Asegúrate de incluir una fila de encabezado.",
-            "pokemonId": "$t(common:pokemon) no es válido.",
-            "quickMove": "$t(pokeform.quickMove.label) no es válido.",
-            "cinematicMove": "$t(pokeform.cinematicMove.label) no es válido.",
-            "cinematicMove2": "$t(pokeform.cinematicMove2.label) no es válido.",
-            "level": "$t(pokeform.level.label) debe ser un número entre 1 y 41",
-            "individualAttack": "$t(pokeform.individualAttack.label) debe ser un número entre 0 y 15.",
-            "individualDefense": "$t(pokeform.individualDefense.label) debe ser un número entre 0 y 15",
-            "individualStamina": "$t(pokeform.individualStamina.label) debe ser un número entre 0 y 15",
-            "cp": "$t(pokeform.cp.label) no es un número"
-        }
-    },
-    "bulkDelete": {
-        "title": "Eliminación Masiva de Pokemon",
-        "failed": "Desgraciadamente, la eliminación masiva de Pokemon falló",
-        "selectAll": "Seleccionar todos",
-        "clearSelection": "Limpiar selección",
-        "deleteNPokemon": "Elimina {{count}} Pokemon"
-    },
-    "addPokemon": "Agregar Pokémon"
+      "label": "$t(common:save)"
+    }
+  },
+  "poketile": {
+    "cp": "$t(cp)",
+    "temporary": "Guardando en el servidor"
+  },
+  "noPokemon": {
+    "title": "No se encontraron Pokémon",
+    "clearFilter": "Limpiar filtro de búsqueda",
+    "description": "¡Pokebattler Raid Party requiere que agregues tus mejores Pokémon para encontrar los mejores contadores! ¡Cuantos más agregues, más precisas serán las sugerencias del grupo de incursión!",
+    "addPokemon": "La forma más rápida de agregar Pokémon es haciendo clic en el botón de más en la página de contadores de jefes. También puedes agregar Pokémon uno por uno o usando la funcionalidad de importación masiva."
+  },
+  "bulkImport": {
+    "title": "Importación masiva de Pokémon",
+    "failed": "Lamentablemente, la importación masiva de pokémon falló",
+    "selectAll": "Seleccionar todo",
+    "clearSelection": "Limpiar selección",
+    "importNPokemon": "Importar {{count}}/{{total}}",
+    "beginImport": "Comenzar importación",
+    "paste": "Pegar",
+    "errors": {
+      "parse": "Los datos pegados no tenían un formato compatible. Asegúrate de incluir una fila de encabezado.",
+      "pokemonId": "$t(common:pokemon) no es válido.",
+      "quickMove": "$t(pokeform.quickMove.label) no es válido.",
+      "cinematicMove": "$t(pokeform.cinematicMove.label) no es válido.",
+      "cinematicMove2": "$t(pokeform.cinematicMove2.label) no es válido.",
+      "level": "$t(pokeform.level.label) no es un número entre 1 y 41",
+      "individualAttack": "$t(pokeform.individualAttack.label) no es un número entre 0 y 15.",
+      "individualDefense": "$t(pokeform.individualDefense.label) no es un número entre 0 y 15",
+      "individualStamina": "$t(pokeform.individualStamina.label) no es un número entre 0 y 15",
+      "cp": "$t(pokeform.cp.label) no es un número"
+    }
+  },
+  "bulkDelete": {
+    "title": "Eliminación masiva de Pokémon",
+    "failed": "Lamentablemente, la eliminación masiva de pokémon falló",
+    "selectAll": "Seleccionar todo",
+    "clearSelection": "Limpiar selección",
+    "deleteNPokemon": "Eliminar {{count}} pokémon"
+  },
+  "addPokemon": "Agregar Pokémon"
 }

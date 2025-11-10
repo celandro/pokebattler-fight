@@ -1,131 +1,335 @@
 {
-    "meta": {
-        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
-        "description": "Znajdź Kontry Zespołu R dla Pokemon GO. Sprawdź 24 najlepszych kontr z najlepszym na świecie poradnikiem dotyczącym kontr Zespołu R."
+  "meta": {
+    "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
+    "description": "Znajdź Kontry Zespołu R dla Pokemon GO. Sprawdź 24 najlepszych kontr z najlepszym na świecie poradnikiem dotyczącym kontr Zespołu R."
+  },
+  "breakingNews": {
+    "title": "Wiadomości z Ostatniej Chwili",
+    "subtitle": "Inwazja Zespołu R Na Pokemon GO",
+    "header": "$t(constants:pokemon.{{pokemonId}}) Kontry Zespołu R"
+  },
+  "tierList": {
+    "RAID_LEVEL_6_LEGACY": {
+      "title": "Legacy Poziom 6",
+      "subtitle": "Trudne Mityczne Walki Cienia",
+      "intro": "Te walki nie są obecnie w rotacji zespołu R."
     },
-    "breakingNews": {
-        "title": "Wiadomości z Ostatniej Chwili",
-        "subtitle": "Inwazja Zespołu R Na Pokemon GO",
-        "header": "$t(constants:pokemon.{{pokemonId}}) Kontry Zespołu R"
+    "common": {
+      "boss": "Inwazja Cieni",
+      "raidTier": "Poziom Cienia"
     },
-    "tierList": {
-        "RAID_LEVEL_6_LEGACY": {
-            "title": "Legacy Poziom 6",
-            "subtitle": "Trudne Mityczne Walki Cienia",
-            "intro": "Te walki nie są obecnie w rotacji zespołu R."
-        },
-        "common": {
-            "boss": "Inwazja Cieni",
-            "raidTier": "Poziom Cienia"
-        },
-        "RAID_LEVEL_1": {
-            "title": "Zespół R Poziom 1",
-            "subtitle": "Zwykłe Walki Cienia",
-            "intro": "Walki z Zespołem R Poziomu 1 są łatwiejsze i powinny być łatwe do wygrania przez każdego, kto używa odpowiednich kontr. Walki te są przeciw wzmocnionym Pokemonom 27 poziomu dla 40 poziomowych graczy. Gracze niższych poziomów będą mierzyć się z łatwiejszymi Pokemonami"
-        },
-        "RAID_LEVEL_2": {
-            "title": "Zespół R Poziom 2",
-            "subtitle": "Rzadkie Walki Cienia",
-            "intro": "Walki z Zespołem R Poziomu 2 są trudne, ale powinne być wygrywane przez każdego, kto używa wzmocnionych odpowiednich kontr. Walki te są przeciw wzmocnionym Pokemonom 30 poziomu dla 40 poziomowych graczy. Gracze niższych poziomów będą mierzyć się z łatwiejszymi Pokemonami"
-        },
-        "RAID_LEVEL_3": {
-            "title": "Zespół R Poziom 3",
-            "subtitle": "Legendarne Walki Cienia",
-            "intro": "Walki z Zespołem R Poziomu 3 obecnie nie istnieją"
-        },
-        "RAID_LEVEL_4": {
-            "title": "Zespół R Poziomu 4",
-            "subtitle": "Trudne Legendarne Walki Cienia",
-            "intro": "Walki z Zespołem R Poziomu 4 obecnie nie istnieją"
-        },
-        "RAID_LEVEL_5": {
-            "title": "Zespół R Poziomu 5",
-            "subtitle": "Mityczne Walki Cienia",
-            "intro": "Walki z Zespołem R Poziomu 5 obecnie nie istnieją"
-        },
-        "RAID_LEVEL_6": {
-            "title": "Zespół R Poziom 3",
-            "subtitle": "Trudne Mityczne Walki Cienia",
-            "intro": "Walki z Zespołem R Poziomu 3 obecnie nie istnieją"
-        },
-        "RAID_LEVEL_UNSET": {
-            "title": "Zespół R Poziom ?",
-            "subtitle": "Nieznane Walki Cienia",
-            "intro": "Te Pokemony Cienia będą częścią przyszłych inwazji Zespołu R. Użyj tego jeśli nowa inwazja nawiedziła Pokemon GO a strona nie została jeszcze zaktualizowana. Możesz też użyć tej sekcji do prowadzenia analiz, jak np. co by się stało gdyby miejsce miała inwazja legendarnych Squirtli zespołu R!"
-        },
-        "RAID_LEVEL_1_LEGACY": {
-            "title": "Legacy Zespół R Poziomu 1",
-            "subtitle": "Zwykłe Walki Cienia",
-            "intro": "Te walki nie są obecnie w rotacji zespołu R."
-        },
-        "RAID_LEVEL_2_LEGACY": {
-            "title": "Legacy Zespół R Poziom 2",
-            "subtitle": "Rzadkie Walki Cienia",
-            "intro": "Te walki nie są obecnie w rotacji zespołu R."
-        },
-        "RAID_LEVEL_3_LEGACY": {
-            "title": "Legacy Zespół R Poziom 3",
-            "subtitle": "Legendarne Walki Cienia",
-            "intro": "Te walki nie są obecnie w rotacji zespołu R."
-        },
-        "RAID_LEVEL_4_LEGACY": {
-            "title": "Legacy Zespół R Poziom 4",
-            "subtitle": "Trudne Legendarne Walki Cienia",
-            "intro": "Te walki nie są obecnie w rotacji zespołu R."
-        },
-        "RAID_LEVEL_5_LEGACY": {
-            "title": "Legacy Zespół R Poziom 5",
-            "subtitle": "Mityczne Walki Cienia",
-            "intro": "Te walki nie są obecnie w rotacji zespołu R."
-        }
+    "RAID_LEVEL_1": {
+      "title": "Zespół R Poziom 1",
+      "subtitle": "Zwykłe Walki Cienia",
+      "intro": "Walki z Zespołem R Poziomu 1 są łatwiejsze i powinny być łatwe do wygrania przez każdego, kto używa odpowiednich kontr. Walki te są przeciw wzmocnionym Pokemonom 27 poziomu dla 40 poziomowych graczy. Gracze niższych poziomów będą mierzyć się z łatwiejszymi Pokemonami"
     },
-    "custom": {
-        "levelsLabel": "Poziomy Atakujących",
-        "attackersLabel": "Atakujący",
-        "title": "Zwyczajne Kontry Zespołu R",
-        "buttonLabel": "Znajdź najlepsze kontry"
+    "RAID_LEVEL_2": {
+      "title": "Zespół R Poziom 2",
+      "subtitle": "Rzadkie Walki Cienia",
+      "intro": "Walki z Zespołem R Poziomu 2 są trudne, ale powinne być wygrywane przez każdego, kto używa wzmocnionych odpowiednich kontr. Walki te są przeciw wzmocnionym Pokemonom 30 poziomu dla 40 poziomowych graczy. Gracze niższych poziomów będą mierzyć się z łatwiejszymi Pokemonami"
     },
-    "results": {
-        "title": "{{defender}} Kontry",
-        "counters": {
-            "title": "kontry",
-            "subtitle": "Najlepsi Atakujący ze względu na",
-            "chooseMovesetLabel": "Wybierz Zestaw Ataków",
-            "description": "Poniższa analiza pokazuje Pokemony, które są najlepszymi kontrami ze względu na {{sort}} przeciw {{pokemon}}.",
-            "moveSetOrderingDescription": "Zestawy ataków są uporządkowane w kolejności od najtrudniejszych do walki do najłatwiejszych, upewnij się że sprawdziłeś kilkukrotnie. Wyniki mogą się bardzo różnić!",
-            "difficultyNote": "Pokemony Cienia z Inwazji Zespołu R są znacznie trudniejszym przeciwnikiem niż normalna walka, powinieneś uważnie przemyśleć swoje opcje."
-        },
-        "hardestMovesets": {
-            "subtitle": "Dla {{pokemon}} ze względu na {{sort}}",
-            "title": "Najtrudniejsze Walki",
-            "tableTitle": "Najtrudniejsze zestawy ataków do walczenia przeciw",
-            "description": "Poziom trudności walk z Zespołem R może się znacznie różnić zależnie od zestawu ataków broniącego Pokemona!"
-        },
-        "analysis": {
-            "title": "Więcej o Tej Analizie",
-            "attackers": {
-                "byLevel": "{{attackerLevel}} poziomy atakujących",
-                "pokebox": "własny Pokemon z Pokeboxa #{{userId}} użytkownika"
-            },
-            "description": "Ta Analiza Walki z Zespołem R jest bazowana na symulacji walki broniącego {{defender.pokemon}} z {{defender.cp}} CP oraz {{attackers}}. Symulacja przeprowadzona została przy użyciu symulatora Inwazji Zespołu R. {{numSims}} symulacji zostało przeprowadzonych z każdym możliwym zestawem ataków {{defender.pokemon}} użytych przeciw każdemu Pokemonowi z każdym możliwym zestawem ataków. 24 najlepsze kontry z ich najlepszymi zestawami ataków ze względu na {{sort}} zostały zapisane i przedstawione poniżej."
-        },
-        "patreon": {
-            "description": "Dokładniejsze wyniki dla niewiadomych zestawów ataków dostarczone zostały dzięki pomocy subskrybentów. Subskrybenci dostaję więcej miejsca w Pokeboxie, jeszcze bardziej precyzyjne wyniki dla wszystkich zestawów ataków a także więcej innych korzyści.",
-            "link": "Zobacz wszystkie korzyści, jakie możesz zyskać po zalogowaniu się",
-            "thanks": "Dziękujemy za wsparcie!"
-        },
-        "meta": {
-            "description": "Najlepsze Kontry {{defender}} w Pokemon GO to {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Sprawdź ich wyniki!",
-            "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
-        },
-        "calculating": "Analizowanie Obrony Zespołu R",
-        "description": "Witaj w poradniku na temat kontr Zespołu R Pokebattlera dla {{pokemon}}. Możesz znaleźć najlepsze kontry ze względu na zestaw ataków każdego z Pokemonów cienia. Poradnik ten jest konfigurowalny na wiele sposobów. Możesz zalogować się i wprowadzić swoje Pokemony do swojego Pokeboxa, co pomoże Ci w uzyskaniu najdokładniejszych wyników. Możesz też przeglądać te ogólne wyniki używając wielu opcji sortowania."
+    "RAID_LEVEL_3": {
+      "title": "Zespół R Poziom 3",
+      "subtitle": "Legendarne Walki Cienia",
+      "intro": "Walki z Zespołem R Poziomu 3 obecnie nie istnieją"
     },
-    "title": "Kontry Zespołu R",
-    "linkLabel": "Kontry Zespołu R",
-    "intro": "Zespół R najechał Pokemon GO i Pokebattler jest tutaj by pomóc ci go zwalczyć! Walki są na zasadzie 3v3, gdzie Ty oraz 3 twoje Pokemony walczą z wzmocnionymi Pokemonami Zespołu R. Te walki mogą być ekstremalnie trudne, więc upewnij się że jesteś odpowiednio przygotowany przed walką z nimi!",
-    "articles": {
-        "title": "Najświeższe Aktualności o Zespole R!",
-        "subtitle": "Artykuły oraz Filmy o Zespole R stworzone przez Najlepszych Graczy i Badaczy"
+    "RAID_LEVEL_4": {
+      "title": "Zespół R Poziomu 4",
+      "subtitle": "Trudne Legendarne Walki Cienia",
+      "intro": "Walki z Zespołem R Poziomu 4 obecnie nie istnieją"
+    },
+    "RAID_LEVEL_5": {
+      "title": "Zespół R Poziomu 5",
+      "subtitle": "Mityczne Walki Cienia",
+      "intro": "Walki z Zespołem R Poziomu 5 obecnie nie istnieją"
+    },
+    "RAID_LEVEL_6": {
+      "title": "Zespół R Poziom 3",
+      "subtitle": "Trudne Mityczne Walki Cienia",
+      "intro": "Walki z Zespołem R Poziomu 3 obecnie nie istnieją"
+    },
+    "RAID_LEVEL_UNSET": {
+      "title": "Zespół R Poziom ?",
+      "subtitle": "Nieznane Walki Cienia",
+      "intro": "Te Pokemony Cienia będą częścią przyszłych inwazji Zespołu R. Użyj tego jeśli nowa inwazja nawiedziła Pokemon GO a strona nie została jeszcze zaktualizowana. Możesz też użyć tej sekcji do prowadzenia analiz, jak np. co by się stało gdyby miejsce miała inwazja legendarnych Squirtli zespołu R!"
+    },
+    "RAID_LEVEL_1_LEGACY": {
+      "title": "Legacy Zespół R Poziomu 1",
+      "subtitle": "Zwykłe Walki Cienia",
+      "intro": "Te walki nie są obecnie w rotacji zespołu R."
+    },
+    "RAID_LEVEL_2_LEGACY": {
+      "title": "Legacy Zespół R Poziom 2",
+      "subtitle": "Rzadkie Walki Cienia",
+      "intro": "Te walki nie są obecnie w rotacji zespołu R."
+    },
+    "RAID_LEVEL_3_LEGACY": {
+      "title": "Legacy Zespół R Poziom 3",
+      "subtitle": "Legendarne Walki Cienia",
+      "intro": "Te walki nie są obecnie w rotacji zespołu R."
+    },
+    "RAID_LEVEL_4_LEGACY": {
+      "title": "Legacy Zespół R Poziom 4",
+      "subtitle": "Trudne Legendarne Walki Cienia",
+      "intro": "Te walki nie są obecnie w rotacji zespołu R."
+    },
+    "RAID_LEVEL_5_LEGACY": {
+      "title": "Legacy Zespół R Poziom 5",
+      "subtitle": "Mityczne Walki Cienia",
+      "intro": "Te walki nie są obecnie w rotacji zespołu R."
+    },
+    "rocketTier": "GO Rocket Tier",
+    "RAID_LEVEL_1_FUTURE": {
+      "title": "Future GO Rocket Tier 1",
+      "subtitle": "Common Shadow Battles",
+      "intro": "Our best guess of future Tier 1 Team GO Rocket Invasions"
+    },
+    "RAID_LEVEL_2_FUTURE": {
+      "title": "Future GO Rocket Tier 2",
+      "subtitle": "Rare Shadow Battles",
+      "intro": "Our best guess of future Tier 2 Team GO Rocket Invasions"
+    },
+    "CHARACTER_EXECUTIVE_CLIFF": {
+      "title": "Executive Cliff",
+      "subtitle": "Team GO Rocket Leader ",
+      "intro": "My strength comes from my loyalty to Team GO Rocket.",
+      "intro2": "I will do anything and everything for Team GO Rocket.",
+      "intro3": "I owe the boss my life. I’d do anything for him.",
+      "intro4": "Team GO Rocket saved me. It’s time to return the favor!",
+      "intro5": "Add my name to your list of weaknesses."
+    },
+    "CHARACTER_EXECUTIVE_SIERRA": {
+      "title": "Executive Sierra",
+      "subtitle": "Team GO Rocket Leader",
+      "intro": "I envy you—you get to battle me!",
+      "intro2": "This will be a battle I’m sure you’ll never forget.",
+      "intro3": "You already know this, but you don’t stand a chance.",
+      "intro4": "You can’t possibly match my skill, dear.",
+      "intro5": "I do hope you like the taste of failure!"
+    },
+    "CHARACTER_EXECUTIVE_ARLO": {
+      "title": "Executive Arlo",
+      "subtitle": "Team GO Rocket Leader",
+      "intro": "It’s time to learn your place in the world.",
+      "intro2": "I never lose.",
+      "intro3": "Prepare yourself for a world of hurt.",
+      "intro4": "Arrogance leads to failure.",
+      "intro5": "Your defeat comes on swift wings."
+    },
+    "CHARACTER_GIOVANNI": {
+      "title": "Giovanni",
+      "subtitle": "The Boss",
+      "intro": "I will not tolerate your interference.",
+      "intro2": "You cannot stop me...but I’m amused by your attempt.",
+      "intro3": "Your professor has not prepared you for what is to come.",
+      "intro4": "You’ve made it this far. Let me see just how strong you are.",
+      "intro5": "You will never defeat Team GO Rocket."
+    },
+    "CHARACTER_GRUNTB_MALE": {
+      "title": "James",
+      "subtitle": "Team GO Rocket Balloon",
+      "intro": "To unite all people within our nation!",
+      "intro2": "To extend our reach to the stars above!",
+      "intro3": "Hey, would you like to join Team Rocket?",
+      "intro4": "You’ll regret this!",
+      "intro5": "Surrender now, or prepare to fight!"
+    },
+    "CHARACTER_GRUNTB_FEMALE": {
+      "title": "Jessie",
+      "subtitle": "Team GO Rocket Balloon",
+      "intro": "To protect the world from devastation!",
+      "intro2": "To denounce the evils of truth and love!",
+      "intro3": "Hey, do you want to join Team Rocket?",
+      "intro4": "The Boss's Persian is so elegant...",
+      "intro5": "Who are these Team GO Rocket Leaders, anyway?"
+    },
+    "CHARACTER_NORMAL_GRUNT_MALE": {
+      "title": "Normal Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Normal does not mean weak."
+    },
+    "CHARACTER_FAIRY_GRUNT_FEMALE": {
+      "title": "Fairy Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Check out my cute Pokémon!"
+    },
+    "CHARACTER_FIGHTING_GRUNT_FEMALE": {
+      "title": "Fighting Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "This buff physique isn't just for show!"
+    },
+    "CHARACTER_FLYING_GRUNT_FEMALE": {
+      "title": "Flying Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Battle against my Flying-type Pokemon!"
+    },
+    "CHARACTER_POISON_GRUNT_FEMALE": {
+      "title": "Poison Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Coiled and ready to strike!"
+    },
+    "CHARACTER_GROUND_GRUNT_MALE": {
+      "title": "Ground Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "You'll be defeated into the ground"
+    },
+    "CHARACTER_ROCK_GRUNT_MALE": {
+      "title": "Rock Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Let's rock and roll!"
+    },
+    "CHARACTER_BUG_GRUNT_MALE": {
+      "title": "Bug Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Go, my super bug Pokemon!"
+    },
+    "CHARACTER_GHOST_GRUNT_MALE": {
+      "title": "Ghost Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Ke... ke... ke... ke... ke... ke!"
+    },
+    "CHARACTER_FIRE_GRUNT_FEMALE": {
+      "title": "Fire Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Do you know how hot Pokemon fire breath can get?"
+    },
+    "CHARACTER_ICE_GRUNT_FEMALE": {
+      "title": "Ice Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "You're gonna be frozen in your tracks"
+    },
+    "CHARACTER_WATER_GRUNT_MALE": {
+      "title": "Water Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "These waters are treacherous!"
+    },
+    "CHARACTER_WATER_GRUNT_FEMALE": {
+      "title": "Water Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "These waters are treacherous!"
+    },
+    "CHARACTER_GRASS_GRUNT_MALE": {
+      "title": "Grass Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Don't tangle with us!"
+    },
+    "CHARACTER_ELECTRIC_GRUNT_FEMALE": {
+      "title": "Electric Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Get ready to be shocked!"
+    },
+    "CHARACTER_PSYCHIC_GRUNT_MALE": {
+      "title": "Psychic Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "Are you scared of psychics that use unseen power?"
+    },
+    "CHARACTER_DRAGON_GRUNT_FEMALE": {
+      "title": "Dragon Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "ROAR! ...How'd that sound?"
+    },
+    "CHARACTER_DARK_GRUNT_FEMALE": {
+      "title": "Dark Grunt ♀",
+      "subtitle": "Team GO Rocket",
+      "intro": "Wherever there is light, there is also shadow."
+    },
+    "CHARACTER_STEEL_GRUNT_MALE": {
+      "title": "Steel Grunt ♂",
+      "subtitle": "Team GO Rocket",
+      "intro": "You’re no match for my iron will!"
+    },
+    "CHARACTER_GRUNT_MALE": {
+      "title": "Starter Grunt",
+      "subtitle": "Team GO Rocket",
+      "intro": "Don't bother - I've already won",
+      "intro2": "Get ready to be defeated",
+      "intro3": "Winning is for winners"
+    },
+    "CHARACTER_GRUNT_FEMALE": {
+      "title": "Hard Grunt",
+      "subtitle": "Team GO Rocket",
+      "intro": "Don't bother - I've already won",
+      "intro2": "Get ready to be defeated",
+      "intro3": "Winning is for winners"
+    },
+    "CHARACTER_DECOY_GRUNT_MALE": {
+      "title": "Decoy Grunt ♂",
+      "subtitle": "Boss Decoy",
+      "intro": "Fooled ya, twerp.",
+      "intro2": "I can’t believe you fell for it!",
+      "intro3": "In the name of the boss, I’ll destroy you!",
+      "intro4": "You’ll never get to him!",
+      "intro5": "It feels good to see you disappointed."
+    },
+    "CHARACTER_DECOY_GRUNT_FEMALE": {
+      "title": "Decoy Grunt ♀",
+      "subtitle": "Boss Decoy",
+      "intro": "Fooled ya, twerp.",
+      "intro2": "I can’t believe you fell for it!",
+      "intro3": "In the name of the boss, I’ll destroy you!",
+      "intro4": "You’ll never get to him!",
+      "intro5": "It feels good to see you disappointed."
     }
+  },
+  "custom": {
+    "levelsLabel": "Poziomy Atakujących",
+    "attackersLabel": "Atakujący",
+    "title": "Zwyczajne Kontry Zespołu R",
+    "buttonLabel": "Znajdź najlepsze kontry"
+  },
+  "results": {
+    "title": "{{defender}} Kontry",
+    "counters": {
+      "title": "kontry",
+      "subtitle": "Najlepsi Atakujący ze względu na",
+      "chooseMovesetLabel": "Wybierz Zestaw Ataków",
+      "description": "Poniższa analiza pokazuje Pokemony, które są najlepszymi kontrami ze względu na {{sort}} przeciw {{pokemon}}.",
+      "moveSetOrderingDescription": "Zestawy ataków są uporządkowane w kolejności od najtrudniejszych do walki do najłatwiejszych, upewnij się że sprawdziłeś kilkukrotnie. Wyniki mogą się bardzo różnić!",
+      "difficultyNote": "Pokemony Cienia z Inwazji Zespołu R są znacznie trudniejszym przeciwnikiem niż normalna walka, powinieneś uważnie przemyśleć swoje opcje."
+    },
+    "hardestMovesets": {
+      "subtitle": "Dla {{pokemon}} ze względu na {{sort}}",
+      "title": "Najtrudniejsze Walki",
+      "tableTitle": "Najtrudniejsze zestawy ataków do walczenia przeciw",
+      "description": "Poziom trudności walk z Zespołem R może się znacznie różnić zależnie od zestawu ataków broniącego Pokemona!"
+    },
+    "analysis": {
+      "title": "Więcej o Tej Analizie",
+      "attackers": {
+        "byLevel": "{{attackerLevel}} poziomy atakujących",
+        "pokebox": "własny Pokemon z Pokeboxa #{{userId}} użytkownika"
+      },
+      "description": "Ta Analiza Walki z Zespołem R jest bazowana na symulacji walki broniącego {{defender.pokemon}} z {{defender.cp}} CP oraz {{attackers}}. Symulacja przeprowadzona została przy użyciu symulatora Inwazji Zespołu R. {{numSims}} symulacji zostało przeprowadzonych z każdym możliwym zestawem ataków {{defender.pokemon}} użytych przeciw każdemu Pokemonowi z każdym możliwym zestawem ataków. 24 najlepsze kontry z ich najlepszymi zestawami ataków ze względu na {{sort}} zostały zapisane i przedstawione poniżej."
+    },
+    "patreon": {
+      "description": "Dokładniejsze wyniki dla niewiadomych zestawów ataków dostarczone zostały dzięki pomocy subskrybentów. Subskrybenci dostaję więcej miejsca w Pokeboxie, jeszcze bardziej precyzyjne wyniki dla wszystkich zestawów ataków a także więcej innych korzyści.",
+      "link": "Zobacz wszystkie korzyści, jakie możesz zyskać po zalogowaniu się",
+      "thanks": "Dziękujemy za wsparcie!"
+    },
+    "meta": {
+      "description": "Najlepsze Kontry {{defender}} w Pokemon GO to {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Sprawdź ich wyniki!",
+      "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
+    },
+    "calculating": "Analizowanie Obrony Zespołu R",
+    "description": "Witaj w poradniku na temat kontr Zespołu R Pokebattlera dla {{pokemon}}. Możesz znaleźć najlepsze kontry ze względu na zestaw ataków każdego z Pokemonów cienia. Poradnik ten jest konfigurowalny na wiele sposobów. Możesz zalogować się i wprowadzić swoje Pokemony do swojego Pokeboxa, co pomoże Ci w uzyskaniu najdokładniejszych wyników. Możesz też przeglądać te ogólne wyniki używając wielu opcji sortowania."
+  },
+  "title": "Kontry Zespołu R",
+  "linkLabel": "Kontry Zespołu R",
+  "intro": "Zespół R najechał Pokemon GO i Pokebattler jest tutaj by pomóc ci go zwalczyć! Walki są na zasadzie 3v3, gdzie Ty oraz 3 twoje Pokemony walczą z wzmocnionymi Pokemonami Zespołu R. Te walki mogą być ekstremalnie trudne, więc upewnij się że jesteś odpowiednio przygotowany przed walką z nimi!",
+  "articles": {
+    "title": "Najświeższe Aktualności o Zespole R!",
+    "subtitle": "Artykuły oraz Filmy o Zespole R stworzone przez Najlepszych Graczy i Badaczy"
+  },
+  "note": {
+    "default": "Team GO Rocket Grunts are not very difficult as they do not shield. Team GO Rocket Executives and Giovanni have higher stats and will shield the first two specials used. Resisting the quick attack and using Pokemon that can force the shadow Pokemon to use their shields is the best way to beat these tough foes!",
+    "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team GO Rocket Pokemon but player level is a factor. Team GO Rocket Pokemon are no longer as powerful as they once were, make sure to check your custom counters again"
+  },
+  "executives": {
+    "title": "Team GO Rocket Leaders",
+    "description": "Team GO Rocket leaders feature more difficult fights including shielding! Make sure you are prepared for all Team GO Rocket has in store for you!"
+  },
+  "grunts": {
+    "title": "Team GO Rocket Grunts",
+    "description": "Team GO Rocket grunts are easier fights with no shields."
+  }
 }

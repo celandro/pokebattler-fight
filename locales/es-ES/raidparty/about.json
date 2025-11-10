@@ -1,117 +1,161 @@
 {
-    "contact": {
-        "title": "Contáctanos",
-        "heading": "Información de Contacto",
-        "paragraph1": "Envíanos un mensaje o síguenos en redes sociales para obtener las últimas actualizaciones sobre el Simulador #1 Mundial Más Acertado para Pokemon Go",
-        "paragraph2": "En Pokebattler amamos escuchar tus comentarios! Sea una nueva funcionalidad o un reporte de error o solo una palabra de agradecimiento, sinceramente apreciamos a nuestros usuarios y tratamos de hacer lo mejor para mantener ésta como la única herramienta que necesitas para combates de gimnasios en Pokémon Go.",
-        "email": "e-mail admin@pokebattler.com",
-        "emailError": "No se pudo abrir la aplicación de e-mail",
-        "button": {
-            "reddit": {
-                "title": "Discute en Reddit",
-                "subtitle": "Noticias y Anuncios en /r/pokebattler"
-            },
-            "twitter": {
-                "title": "Envíame un Tweet",
-                "subtitle": "Noticias y mensajes variados de @Pokebattler_com"
-            },
-            "youtube": {
-                "title": "Ve nuestros videos",
-                "subtitle": "Guías de Incursiones y Videotutoriales de Pokebattler"
-            },
-            "facebook": {
-                "title": "Conéctate por Facebook",
-                "subtitle": "Házle saber a tus amigos sobre nosotros"
-            }
-        }
-    },
-    "terms": {
-        "title": "Términos",
-        "heading": "Términos y Condiciones",
-        "paragraph1": "Por medio de descargar o utilizar la app, estos términos aplicarán automáticamente a usted - asegúrese de haberlos leido cuidadosamente antes de usar la app. No tiene permitido copiar, o modificar la app, o parte de la misma, o nuestras marcas registradas en cualquier forma. No tiene permitido intentar extraer el código fuente de la app, así como tampoco debería intentar traducir la app a otros idiomas, o hacer versiones derivadas. La app misma, y todas las marcas registradas, copyright, derechos de la base de datos y otros derechos de propiedad intelectual relacionados a la misma, aún pertenecen a Battler Empire, LLC.",
-        "paragraph2": "Battler Empire, LLC se compromete a asegurar que la app es tan útil y eficiente como sea posible. Por esta razón, nos reservamos el derecho a realizar cambios a la app o cobrar por sus servicios, en cualquier momento y por cualquier razón. Nunca le cobraremos por la app o sus servicios sin especificarle exactamente por lo que va a pagar.",
-        "paragraph3": "La app Pokebattler Raid Party almacena y procesa datos personales que nos haya provisto, de forma de poder proveer nuestro Servicio. Es su responsabilidad mantener su teléfono y acceso a la app de forma seguro. De esta manera, recomendamos que usted no realice jailbreak o root de su teléfono, el cual es el proceso para remover restricciones de software y limitaciones impuestas por el sistema operativo oficial de su dispositivo. Puede volver su teléfono vulnerable a malware/virus/programas maliciosos, comprometer las características de seguridad de su teléfono y puede causar que la app Pokebattler Raid Party app no funcione de forma correcta o en absoluto.",
-        "paragraph4": "Usted debe estar al tanto que hay algunas cosas por las que Battler Empire, LLC no se responsabiliza. Algunas funciones de la app requerirán que dicha app tenga una conexión activa a internet. La conexión puede ser Wi-Fi, o provista por su proveedor de redes móviles, pero Battler Empire, LLC no puede hacerse responsable de que la app no funcione a su capacidad completa si usted no tiene acceso a Wi-Fi, ni si usted no tiene suficiente crédito disponible de datos.",
-        "paragraph5": "Si usted está usando la app por fuera de un área con cobertura de Wi-Fi, debería recordar que sus términos del acuerdo con su proveedor de redes móviles aún aplicarán. Como resultado, su proveedor de redes móviles puede cobrarle el costo de los datos por la duración de la conexión mientras accede a la app, u otros cargos de terceros. Al usar la app, usted está aceptando la responsabilidad por cualquiera de dichos cargos, incluyendo cargos de roaming de datos si usa la app fuera de su territorio natal (ej.: región o país) sin apagar el roaming de datos. Si usted no es el titular de la cuenta del dispositivo donde está usando la app, por favor tenga en cuenta que asumimos que ha recibido permiso del titular de la cuenta para utilizar la app.",
-        "paragraph6": "En la misma línea, Battler Empire, LLC no puede tomar siempre la responsabilidad por la forma que usted use la app, ej.: debe asegurarse que su dispositivo permanezca cargado - si se agota la batería y no puede encenderlo para acceder al Servicio, Battler Empire, LLC no puede aceptar la responsabilidad.",
-        "paragraph7": "Con respecto a la responsabilidad de Battler Empire, LLC por su uso de la app, cuando usted esté usando la app, es importante tener en cuenta que aunque nuestro objetivo es asegurar que esté actualizada y correcta en todo momento, nosotros dependemos de terceros para proveernos información de forma que podamos tenerla disponible para usted. Battler Empire, LLC no acepta responsabilidad legal por cualquier pérdida, directa o indirecta, que experimente como resultado de depender completamente en esta funcionalidad de la app.",
-        "paragraph8": "En algún punto, podemos desear actualizar la app. La app está disponible actualmente para Android y iOS – los requisitos para ambos sistemas (y para algunos sistemas adicionales que decidamos para extender la disponibilidad de la app) pueden cambiar, y usted necesitará descargar las actualizaciones si quiere continuar usando la app. Battler Empire, LLC no promete que siempre que actualizará la app ésta se mantendrá relevante para usted y/o funciona con la versión de Android &amp; iOS que tenga instalada en su dispositivo. Sin embargo, usted promete siempre aceptar actualizaciones a la aplicación cuando le sean ofrecidas. Podemos también desear interrumpir la distribución de la app, y podemos finalizar el uso de la misma en cualquier momento sin darle previo aviso de la terminación a usted. A menos que le indiquemos lo contrario, en el evento de cualquier terminación, (a) los derechos y licencias cedidos a usted en esos términos llegarán a su fin; (b) usted debe interrumpir el uso de la app, y (de ser necesario) borrarla de su dispositivo.",
-        "heading2": "Cambios a estos Términos y Condiciones",
-        "paragraph9": "Podemos actualizar nuestros Términos y Condiciones en el transcurso del tiempo. De esta manera, le recomendamos revisar esta página periódicamente por cualquier cambio. Nosotros le notificaremos de cualquier cambio publicando los nuevos Términos y Condiciones en esta página. Estos cambios serán efectivos inmediatamente luego de ser publicados en esta página."
-    },
-    "privacy": {
-        "title": "Privacidad",
-        "heading": "Política de Privacidad - Versión para humanos",
-        "paragraph1": "Pokebattler Raid App requiere información de autenticación de terceros de forma de almacenar sus Pokemon y configuración para uso entre dispositivos y para facilitar simulaciones server-side. ",
-        "paragraph2": "Pokebattler no se conecta a los servidores de Niantic de ninguna manera. Ninguna información personal es obtenida o almacenada por fuera de un número de identificación y/o dirección de e-mail, las cuales son almacenadas de forma segura con el propósito de autenticarlo y solución de problemas. Estos datos no son usados para promoción ni propósitos afiliados de cualquier índole. Datos como nombre de entrenador y contenido de la Pokebox son utilizados para soportar funciones como compartir URLs, encontrar a tus amigos y otras funcionalidades del sitio. Si usted está preocupado acerca de su privacidad, considere no brindar su nombre de entrenador o los nombres de sus Pokemon. Pokebattler utiliza servicios de terceros para recolección de datos de uso y de bugs (ej.: Google Analytics/Stackdriver) para asistirnos a saber dónde enfocar nuevos desarrollos de funcionalidades.",
-        "heading2": "Política de Privacidad - Versión Legal",
-        "paragraph3": "Battler Empire, LLC construyó el sitio web Pokebattler y la app Pokebattler Raid Party como una app Freemium, Soportada por Anuncios. Este SERVICIO es provisto por Battler Empire, LLC sin costo y para uso como tal.",
-        "paragraph4": "Esta página es usada para informar a los visitantes acerca de nuestras políticas con la recolección, uso y difusión de la Información Personal en caso de que cualquiera haya decidido usar nuestro Servicio.",
-        "paragraph5": "Si usted decide utilizar nuestro Servicio, está de acuerdo con la recolección y el uso de información en relación a estas políticas.La Información Personal que recolectamos es usada para proveer y mejorar el Servicio. Nosotros no utilizaremos o divulgaremos su infomación con nadie excepto a lo descripto en estas Políticas de Privacidad.",
-        "heading3": "Recolección de Información y Uso",
-        "paragraph6": "Para una mejor experiencia, mientras utiliza nuestro Servicio, podemos requerirle que nos provea de cierta información identificable personalmente, incluyendo pero no limitada a la Dirección de e-Mail. La información que solicitemos será retenida por nosotros y usada como está descripto en estas Políticas de Privacidad.",
-        "paragraph7": "La app utiliza servicios de terceros que pueden recolectar información utilizada para identificarlo a usted.",
-        "paragraph8": "Enlace a la política de privacidad de proveedores de terceros usados por la app",
-        "heading4": "Datos de Registro",
-        "paragraph9": "Queremos informarle que cuando sea que utilice nuestro Servicio, en el evento de un error en la app nosotros recolectamos datos e información (por medio de productos de terceros) en su teléfono llamados Datos de Registro. Estos Datos de Registro pueden incluir infomación como la dirección del Protocolo de Internet (“IP”) de su dispositivo, nombre del dispositivo, versión del sistema operativo, configuración de la app al utilizar nuestro Servicio, la fecha y hora de su uso del Servicio y otras estadísticas.",
-        "heading5": "Cookies",
-        "paragraph10": "Las Cookies son archivos con una pequeña cantidad de datos que son utilizados comúnmente como identificadores únicos anónimos. Estos son enviados a su navegador desde los sitios web que usted visita y son almacenados en la memoria interna de su dispositivo.",
-        "paragraph11": "Este Servicio no utiliza dichas “cookies” explícitamente. Sin embargo, la app puede usar código de terceros y librerías que usan “cookies” para recolectar información y mejorar sus servicios. Usted tiene la opción de o aceptar o rechazar estas cookies y de saber cuándo una cookie está siendo enviada a su dispositivo. Si usted elige rechazar nuestras cookies, usted podría no llegar a utilizar algunas partes de este Servicio.",
-        "heading6": "Proveedores de Servicio",
-        "paragraph12": "Podemos emplear a compañías e individuos de terceros debido a las siguientes razones:",
-        "paragraph13": "Facilitar nuestro Servicio. Para proveer el Servicio en nuestra representación. Para realizar servicios relacionados al Servicio. Para asistirnos en analizar la utilización de nuestro Servicio. Queremos informarle a los usuarios de este Servicio que estos terceros tienen acceso a su Información Personal. La razón es para realizar las tareas asignados a ellos en nuestra representación. Sin embargo, están obligados a no revelar ni usar la información para cualquier otro propósito.",
-        "heading7": "Seguridad",
-        "paragraph14": "Nosotros valorarmos su confianza en proveernos su Información Personal, de esta manera nos esforzamos para utilizar métodos comercialmente aceptables para protegerla. Pero recuerde que ningún método de transmisión sobre la Internet, ni método de almacenamiento electrónico es 100% seguro y confiable, y no podemos garantizar su completa seguridad.",
-        "heading8": "Enlaces a Otros Sitios",
-        "paragraph15": "Este Servicio puede contener enlaces a otros sitios. Si usted clickea en un enlace de terceros, será redirigido a dicho sitio. Note que estos sitios externos no son operados por nosotros. De esta manera, le aconsejamos firmemente que revise las Políticas de Privacidad de estos sitios. No tenemos control sobre ni asumimos ninguna responsabilidad por el contenido, políticas de privacidad o prácticas de cualquier sitio o servicio de terceros.",
-        "heading9": "Política Infantil",
-        "paragraph16": "Estos Servicios no están dirigidos para ningún individuo menor de 13 años de edad. Nosotros no recolectamos información personal identificable a sabiendas de que pertenecen a niños menores a 13 años. En el caso que descubramos que un niño menor de 13 años nos ha provisto de información personal, nosotros la eliminamos inmediatamente de nuestros servidores. Si usted es un padre o guardián legal y está al tanto de que su niño nos ha provisto de información personal, por favor, contáctese con nosotros de forma de poder realizar las acciones necesarias.",
-        "heading10": "Cambios a Esta Política de Privacidad",
-        "paragraph17": "Nosotros podemos actualizar nuestra Política de Privacidad en el transcurso del tiempo. De esta manera, le recomendamos revisar esta página periódicamente por cualquier cambio. Nosotros le notificaremos de cualquier cambio publicando la nueva Política de Privacidad en esta página. Estos cambios serán efectivos inmediatamente luego de ser publicados en esta página.",
-        "heading11": "Retención de Datos",
-        "paragraph18": "Los datos de la cuenta se conservan durante el tiempo necesario para permitir que los usuarios regresen en el futuro. Las cuentas pueden eliminarse en la sección de cuentas de la aplicación, en la sección de cuentas del sitio web o por correo electrónico a admin@pokebattler.com desde la cuenta de correo electrónico registrada."
-    },
-    "dev": {
-        "title": "Desarrollador"
-    },
-    "about": {
-        "title": "Acerca de Pokebattler",
-        "pokebattler": {
-            "title": "Pokebattler Raid Party",
-            "meta": "Guía y Atacantes para Incursiones",
-            "version": "Versión {{version}}",
-            "description": "Bienvenido a la app Pokebattler Raid Party. Diseñada para ayudarte a realizar incursiones con confianza y mínimo esfuerzo para derrotar a esos jefes de incursión en el primer intento. La app Pokebattler Raid Party fue creada por Pokebattler.com para ayudar a organizar y promover incursiones en Pokemon Go, proveyendo características cruciales que no son provistas en el juego.",
-            "description2": "Pokebattler.com está respaldado por un poderoso conjunto de servidores en la nube que permiten simulaciones más sofisticadas que las que pueden ser realizadas en un teléfono. Provee de almacenamiento server-side para brindar funcionalidad entre plataformas y entre apps incluyendo Discord",
-            "cta": "Invita a tus amigos a descargar la app!",
-            "shareMessage": "Únete a equipos de incursiones conmigo!",
-            "url": "https://www.pokebattler.com/raidParty"
-        },
-        "thirdParty": {
-            "title": "Integraciones con Terceros",
-            "pokeNav": {
-                "title": "PokeNav - Bot para Discord",
-                "meta": "Un bot Discord para Pokemon Go para realizar incursiones, intercambios y más.",
-                "description": "PokeNav es un bot Discord de terceros que se integra en las APIs de Pokebattler Raid Party. Esto te permite crear y comunicar sobre una incursión en Discord con enlaces profundos directamente dentro de la app. ",
-                "description2": "Los jugadores pueden unirse a la incursión en la app o en Discord.",
-                "cta": "Agrega PokeNav a tu servidor Discord",
-                "url": "https://pokenavbot.com/"
-            },
-            "nexus": {
-                "title": "Nexus - Bot Discord",
-                "meta": "Un bot Discord de Pokémon Go para incursiones a través de servidores, intercambios y más.",
-                "description": "Nexus es un bot Discord de terceros que se integra en las API de Pokebattler Raid Party. Esto te permite crear y comunicar acerca de una incursión en Discord con enlaces directos en la app O para unirte a la incursión puramente usando la app. ",
-                "description2": "Los jugadores pueden unirse a la incursión en la app o en Discord. Discord no está requerido",
-                "cta": "Agrega Nexus a tu servidor Discord",
-                "url": "https://nexusraidbot.com/"
-            },
-            "minpoke": {
-                "title": "Minpoke - Sitio web de Pokémon Go",
-                "meta": "Un sitio web de Pokémon Go para incursiones, simulaciones y más.",
-                "description": "Minpoke es un sitio web de Pokémon Go muy similar a Pokebattler pero personalizado al mercado japonés. Puedes unirte a las incursiones en Minpoke desde la app Pokebattler Raid Party así como puedes unirte a las incursiones de Pokebattler Raid Party en el sitio web de Minpoke",
-                "description2": "Los jugadores pueden unirse a incursiones en Minpoke y Pokebattler Raid Party tanto en el sitio web como en esta app",
-                "cta": "Únete a colas de incursiones en el sitio web de Minpoke",
-                "url": "https://9db.jp/pokego/data/62"
-            }
-        }
+  "contact": {
+    "title": "Contáctanos",
+    "heading": "Información de contacto",
+    "paragraph1": "Envíanos un mensaje o síguenos en las redes sociales para obtener las últimas actualizaciones sobre el simulador de Pokémon Go número 1 más preciso del mundo",
+    "paragraph2": "¡En Pokebattler nos encanta escuchar tus comentarios! Ya sea una solicitud de función, un informe de error o simplemente una palabra de agradecimiento, realmente apreciamos a nuestros usuarios y hacemos todo lo posible para que este sea el único que necesites usar para el combate en gimnasios de Pokémon Go.",
+    "email": "Enviar correo electrónico a admin@pokebattler.com",
+    "emailError": "No se pudo abrir el programa de correo electrónico",
+    "button": {
+      "reddit": {
+        "title": "Discutir en Reddit",
+        "subtitle": "Noticias y anuncios en /r/pokebattler"
+      },
+      "twitter": {
+        "title": "Tuiteame",
+        "subtitle": "Noticias y mensajes aleatorios de @Pokebattler_com"
+      },
+      "youtube": {
+        "title": "Mira nuestros videos",
+        "subtitle": "Guías de incursiones y videos tutoriales de Pokebattler"
+      },
+      "facebook": {
+        "title": "Conectar en Facebook",
+        "subtitle": "Haz que tus amigos sepan de nosotros"
+      }
     }
+  },
+  "terms": {
+    "title": "Términos",
+    "heading": "Términos y condiciones",
+    "paragraph1": "Al descargar o usar la aplicación, estos términos se aplicarán automáticamente a ti; por lo tanto, debes asegurarte de leerlos detenidamente antes de usar la aplicación. No tienes permitido copiar ni modificar la aplicación, ninguna parte de la aplicación ni nuestras marcas comerciales de ninguna manera. No tienes permitido intentar extraer el código fuente de la aplicación, y tampoco debes intentar traducir la aplicación a otros idiomas ni crear versiones derivadas. La aplicación en sí, y todas las marcas comerciales, derechos de autor, derechos de base de datos y otros derechos de propiedad intelectual relacionados con ella, siguen perteneciendo a Battler Empire, LLC.",
+    "paragraph2": "Battler Empire, LLC se compromete a garantizar que la aplicación sea lo más útil y eficiente posible. Por esa razón, nos reservamos el derecho de realizar cambios en la aplicación o de cobrar por sus servicios, en cualquier momento y por cualquier motivo. Nunca te cobraremos por la aplicación o sus servicios sin dejarte muy claro exactamente por lo que estás pagando.",
+    "paragraph3": "La aplicación Pokebattler Raid Party almacena y procesa los datos personales que nos has proporcionado para poder prestar nuestro Servicio. Es tu responsabilidad mantener tu teléfono y el acceso a la aplicación seguros. Por lo tanto, te recomendamos que no hagas jailbreak ni rootees tu teléfono, que es el proceso de eliminar las restricciones y limitaciones de software impuestas por el sistema operativo oficial de tu dispositivo. Podría hacer que tu teléfono sea vulnerable a malware/virus/programas maliciosos, comprometer las funciones de seguridad de tu teléfono y podría significar que la aplicación Pokebattler Raid Party no funcione correctamente o no funcione en absoluto.",
+    "paragraph4": "Debes tener en cuenta que hay ciertas cosas de las que Battler Empire, LLC no se responsabilizará. Ciertas funciones de la aplicación requerirán que la aplicación tenga una conexión a Internet activa. La conexión puede ser Wi-Fi o proporcionada por tu proveedor de red móvil, pero Battler Empire, LLC no puede asumir la responsabilidad de que la aplicación no funcione con todas sus funciones si no tienes acceso a Wi-Fi y no te queda nada de tu asignación de datos.",
+    "paragraph5": "Si estás usando la aplicación fuera de un área con Wi-Fi, debes recordar que los términos del acuerdo con tu proveedor de red móvil seguirán aplicándose. Como resultado, tu proveedor de telefonía móvil puede cobrarte el costo de los datos durante la duración de la conexión mientras accedes a la aplicación u otros cargos de terceros. Al usar la aplicación, aceptas la responsabilidad de dichos cargos, incluidos los cargos por roaming de datos si usas la aplicación fuera de tu territorio de origen (es decir, región o país) sin desactivar el roaming de datos. Si no eres el pagador de la factura del dispositivo en el que estás usando la aplicación, ten en cuenta que asumimos que has recibido permiso del pagador de la factura para usar la aplicación.",
+    "paragraph6": "Del mismo modo, Battler Empire, LLC no siempre puede asumir la responsabilidad por la forma en que usas la aplicación, es decir, debes asegurarte de que tu dispositivo permanezca cargado; si se queda sin batería y no puedes encenderlo para aprovechar el Servicio, Battler Empire, LLC no puede aceptar la responsabilidad.",
+    "paragraph7": "Con respecto a la responsabilidad de Battler Empire, LLC por tu uso de la aplicación, cuando la estás utilizando, es importante tener en cuenta que, aunque nos esforzamos por garantizar que esté actualizada y sea correcta en todo momento, dependemos de terceros para que nos proporcionen información para que podamos ponerla a tu disposición. Battler Empire, LLC no acepta ninguna responsabilidad por cualquier pérdida, directa o indirecta, que experimentes como resultado de confiar totalmente en esta funcionalidad de la aplicación.",
+    "paragraph8": "En algún momento, es posible que deseemos actualizar la aplicación. La aplicación está disponible actualmente en Android e iOS: los requisitos para ambos sistemas (y para cualquier sistema adicional al que decidamos extender la disponibilidad de la aplicación) pueden cambiar, y deberás descargar las actualizaciones si deseas seguir usando la aplicación. Battler Empire, LLC no promete que siempre actualizará la aplicación para que sea relevante para ti y/o funcione con la versión de Android e iOS que tienes instalada en tu dispositivo. Sin embargo, te comprometes a aceptar siempre las actualizaciones de la aplicación cuando se te ofrezcan. También es posible que deseemos dejar de proporcionar la aplicación y podemos terminar su uso en cualquier momento sin darte un aviso de terminación. A menos que te indiquemos lo contrario, en caso de cualquier terminación, (a) los derechos y licencias que se te otorgan en estos términos terminarán; (b) debes dejar de usar la aplicación y (si es necesario) eliminarla de tu dispositivo.",
+    "heading2": "Cambios a estos Términos y condiciones",
+    "paragraph9": "Podemos actualizar nuestros Términos y condiciones de vez en cuando. Por lo tanto, se te recomienda que revises esta página periódicamente para ver si hay cambios. Te notificaremos cualquier cambio publicando los nuevos Términos y condiciones en esta página. Estos cambios entran en vigencia inmediatamente después de su publicación en esta página."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "heading": "Política de privacidad - Versión para humanos",
+    "paragraph1": "La aplicación Pokebattler Raid requiere información de inicio de sesión de terceros para almacenar tus Pokémon y configuraciones para su uso en varios dispositivos y para facilitar las simulaciones del lado del servidor. Pokebattler utiliza algunos servicios de terceros para proporcionar capacidades de inicio de sesión, realizar un seguimiento del uso de la aplicación y supervisar errores.",
+    "paragraph2": "Pokebattler no se conecta a los servidores de Niantic de ninguna manera. No se recupera ni almacena ninguna información personal que no sea un número de identificación y/o una dirección de correo electrónico, que se almacenan de forma segura para fines de inicio de sesión y solución de problemas de la cuenta. Estos datos no se utilizan para fines de marketing o de afiliados de ninguna manera. Datos como el nombre del entrenador y el contenido de la pokebox se utilizan para permitir compartir urls, encontrar a tus amigos y otras funciones del sitio. Si te preocupa tu privacidad, considera no introducir tu nombre de entrenador ni los nombres de tus Pokémon. Pokebattler sí utiliza servicios de recopilación de uso de aplicaciones de terceros y recopilación de errores (p. ej., Google Analytics/Stackdriver) para ayudar a saber dónde enfocar el desarrollo de nuevas funciones.",
+    "heading2": "Política de privacidad - Versión legal",
+    "paragraph3": "Battler Empire, LLC creó el sitio web de Pokebattler y la aplicación Pokebattler Raid Party como una aplicación Freemium con publicidad. Este SERVICIO es proporcionado por Battler Empire, LLC sin costo alguno y está destinado a ser utilizado tal como está.",
+    "paragraph4": "Esta página se utiliza para informar a los visitantes sobre nuestras políticas con la recopilación, el uso y la divulgación de información personal si alguien decide usar nuestro Servicio.",
+    "paragraph5": "Si eliges usar nuestro Servicio, entonces aceptas la recopilación y el uso de información en relación con esta política. La información personal que recopilamos se utiliza para proporcionar y mejorar el Servicio. No usaremos ni compartiremos tu información con nadie, excepto como se describe en esta Política de privacidad.",
+    "heading3": "Recopilación y uso de información",
+    "paragraph6": "Para una mejor experiencia, mientras usas nuestro Servicio, es posible que te solicitemos que nos proporciones cierta información de identificación personal, que incluye, entre otros, una mejor experiencia, mientras usas nuestro Servicio, es posible que te solicitemos que nos proporciones cierta información de identificación personal, que incluye, entre otros, la dirección de correo electrónico, el ID de usuario y el ID del dispositivo. La información que solicitemos será retenida por nosotros y utilizada como se describe en esta política de privacidad.",
+    "paragraph7": "La aplicación utiliza servicios de terceros que pueden recopilar información utilizada para identificarte.",
+    "paragraph8": "Enlace a la política de privacidad de los proveedores de servicios de terceros utilizados por la aplicación",
+    "heading4": "Datos de registro",
+    "paragraph9": "Queremos informarte que cada vez que utilizas nuestro Servicio, en caso de un error en la aplicación, recopilamos datos e información (a través de productos de terceros) en tu teléfono llamados Datos de registro. Estos Datos de registro pueden incluir información como la dirección del Protocolo de Internet (\"IP\") de tu dispositivo, el nombre del dispositivo, la versión del sistema operativo, la configuración de la aplicación al utilizar nuestro Servicio, la hora y la fecha de tu uso del Servicio y otras estadísticas.",
+    "heading5": "Cookies",
+    "paragraph10": "Las cookies son archivos con una pequeña cantidad de datos que se utilizan comúnmente como identificadores únicos anónimos. Estos se envían a tu navegador desde los sitios web que visitas y se almacenan en la memoria interna de tu dispositivo.",
+    "paragraph11": "Este Servicio no utiliza estas \"cookies\" explícitamente. Sin embargo, la aplicación puede utilizar código de terceros y bibliotecas que utilizan \"cookies\" para recopilar información y mejorar sus servicios. Tienes la opción de aceptar o rechazar estas cookies y saber cuándo se envía una cookie a tu dispositivo. Si eliges rechazar nuestras cookies, es posible que no puedas utilizar algunas partes de este Servicio.",
+    "heading6": "Proveedores de servicios",
+    "paragraph12": "Podemos emplear a empresas e individuos de terceros por las siguientes razones:",
+    "paragraph13": "Para facilitar nuestro Servicio. Para proporcionar el Servicio en nuestro nombre. Para realizar servicios relacionados con el Servicio. Para ayudarnos a analizar cómo se utiliza nuestro Servicio. Queremos informar a los usuarios de este Servicio que estos terceros tienen acceso a tu información personal. La razón es para realizar las tareas que se les asignan en nuestro nombre. Sin embargo, están obligados a no divulgar ni utilizar la información para ningún otro propósito.",
+    "heading7": "Seguridad",
+    "paragraph14": "Valoramos tu confianza al proporcionarnos tu información personal, por lo que nos esforzamos por utilizar medios comercialmente aceptables para protegerla. Todos los datos se cifran en tránsito y en reposo y todos los puntos finales se protegen mediante la verificación de tokens de inicio de sesión social. Pero recuerda que ningún método de transmisión por Internet o método de almacenamiento electrónico es 100% seguro y confiable, y no podemos garantizar su seguridad absoluta.",
+    "heading8": "Enlaces a otros sitios",
+    "paragraph15": "Este Servicio puede contener enlaces a otros sitios. Si haces clic en un enlace de un tercero, serás dirigido a ese sitio. Ten en cuenta que estos sitios externos no son operados por nosotros. Por lo tanto, te recomendamos encarecidamente que revises la Política de privacidad de estos sitios web. No tenemos control ni asumimos ninguna responsabilidad por el contenido, las políticas de privacidad o las prácticas de los sitios o servicios de terceros.",
+    "heading9": "Política de menores",
+    "paragraph16": "Estos Servicios no se dirigen a nadie menor de 13 años. No recopilamos a sabiendas información de identificación personal de niños menores de 13 años. En caso de que descubramos que un niño menor de 13 años nos ha proporcionado información personal, la eliminamos inmediatamente de nuestros servidores. Si eres padre o tutor y sabes que tu hijo nos ha proporcionado información personal, contáctanos para que podamos tomar las medidas necesarias.",
+    "heading10": "Cambios a esta política de privacidad",
+    "paragraph17": "Podemos actualizar nuestra Política de privacidad de vez en cuando. Por lo tanto, se te recomienda que revises esta página periódicamente para ver si hay cambios. Te notificaremos cualquier cambio publicando la nueva Política de privacidad en esta página. Estos cambios entran en vigencia inmediatamente después de su publicación en esta página.",
+    "heading11": "Retención de datos",
+    "paragraph18": "Los datos de la cuenta se conservan durante el tiempo que sea necesario para permitir que los usuarios regresen en el futuro. Las cuentas se pueden eliminar en la sección de cuentas de la aplicación, en la sección de cuentas del sitio web o por correo electrónico a admin@pokebattler.com desde la cuenta de correo electrónico registrada."
+  },
+  "dev": {
+    "title": "Desarrollador",
+    "push": {
+      "title": "Token de inserción",
+      "description": "Tu token de inserción de expo: {{token}}",
+      "noToken": "No se encontró ningún token de inserción"
+    },
+    "lastReceivedNotification": {
+      "title": "Última notificación recibida",
+      "subtitle": "Subtítulo: {{subtitle}}",
+      "body": "Cuerpo: {{body}}",
+      "data": "Datos: {{data}}",
+      "date": "Fecha: {{date}}",
+      "noNotification": "No se recibió ninguna notificación mientras la aplicación estaba abierta"
+    },
+    "lastClickedNotification": {
+      "title": "Última notificación en la que se hizo clic",
+      "subtitle": "Subtítulo: {{subtitle}}",
+      "body": "Cuerpo: {{body}}",
+      "data": "Datos: {{data}}",
+      "date": "Fecha: {{date}}",
+      "noNotification": "No se hizo clic en ninguna notificación mientras la aplicación estaba abierta"
+    },
+    "expoSideNotification": {
+      "title": "Notificación del lado de la exposición",
+      "sendExpoMessage": "Enviar mensaje de creación a través de Expo"
+    },
+    "clientSideNotification": {
+      "title": "Notificación del lado del cliente",
+      "showRaidStartingNow": "Mostrar mensaje de inicio de incursión ahora en 1 s"
+    },
+    "gluestackToasts": {
+      "title": "Tostadas de Gluestack",
+      "showDefaultToast": "Mostrar tostada predeterminada",
+      "showErrorToast": "Mostrar tostada de error",
+      "showSuccessToast": "Mostrar tostada de éxito",
+      "showWarningToast": "Mostrar tostada de advertencia"
+    },
+    "sentryTest": {
+      "title": "Prueba de Sentry",
+      "sendSentryException": "Enviar excepción de Sentry"
+    },
+    "pokemonList": {
+      "title": "Lista de Pokémon",
+      "subtitle": "Pokémon compatibles"
+    }
+  },
+  "about": {
+    "title": "Acerca de Pokebattler",
+    "pokebattler": {
+      "title": "Pokebattler Raid Party",
+      "meta": "Contadores y guía de incursiones",
+      "version": "Versión {{version}}",
+      "description": "Bienvenido a la aplicación Pokebattler Raid Party. Diseñada para ayudarte a incursionar con confianza y un esfuerzo mínimo para derrotar a esos jefes de incursión al primer intento. La aplicación Pokebattler Raid Party fue creada por Pokebattler.com para ayudar a organizar y promover las incursiones de Pokémon Go al proporcionar características clave que no proporciona el juego.",
+      "description2": "Pokebattler.com está respaldado por un potente conjunto de servidores en la nube que permite simulaciones más sofisticadas de las que se pueden realizar en un teléfono. Proporciona almacenamiento del lado del servidor para ayudar a la funcionalidad multiplataforma y entre aplicaciones, incluido Discord",
+      "cta": "¡Invita a tus amigos a descargar la aplicación!",
+      "shareMessage": "¡Descarga la aplicación Pokebattler para unirte a las incursiones conmigo!",
+      "url": "https://www.pokebattler.com/raidParty"
+    },
+    "thirdParty": {
+      "title": "Integraciones de terceros",
+      "pokeNav": {
+        "title": "PokeNav - Bot de Discord",
+        "meta": "Un bot de Discord de Pokémon Go para incursiones, intercambios y más.",
+        "description": "PokeNav es un bot de Discord de terceros que se integra en las API de Pokebattler Raid Party. Esto te permite crear y comunicar sobre una incursión en Discord con enlaces profundos directamente en la aplicación.",
+        "description2": "Los jugadores pueden unirse a la incursión en la aplicación o en Discord.",
+        "cta": "Añadir PokeNav a tu servidor de Discord",
+        "url": "https://pokenavbot.com/"
+      },
+      "nexus": {
+        "title": "Nexus - Bot de Discord",
+        "meta": "Un bot de Discord de Pokémon Go para incursiones entre servidores, intercambios y más.",
+        "description": "Nexus es un bot de Discord de terceros que se integra en las API de Pokebattler Raid Party. Esto te permite crear y comunicar sobre una incursión en Discord con enlaces profundos directamente en la aplicación O unirte a la incursión simplemente usando la aplicación.",
+        "description2": "Los jugadores pueden unirse a la incursión en la aplicación o en Discord. No se requiere Discord",
+        "cta": "Añadir Nexus a tu servidor de Discord",
+        "url": "https://nexusraidbot.com/"
+      },
+      "minpoke": {
+        "title": "Minpoke - Sitio web de Pokémon Go",
+        "meta": "Un sitio web de Pokémon Go para incursiones, simulaciones y más.",
+        "description": "Minpoke es un sitio web de Pokémon Go muy similar a Pokebattler pero dirigido al mercado japonés. Se puede unir a las incursiones de Minpoke desde la aplicación Pokebattler Raid Party y se puede unir a las incursiones de Pokebattler Raid Party en el sitio web de Minpoke",
+        "description2": "Los jugadores pueden unirse a las incursiones de Minpoke y Pokebattler Raid Party tanto en el sitio web como en esta aplicación",
+        "cta": "Únete a las colas de incursiones en el sitio web de Minpoke",
+        "url": "https://9db.jp/pokego/data/62"
+      }
+    }
+  }
 }

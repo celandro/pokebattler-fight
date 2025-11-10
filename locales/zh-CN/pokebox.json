@@ -1,42 +1,136 @@
 {
-    "title": "寶可夢盒子",
-    "blurb": "添加你的寶可夢來獲得定制化的結果吧！你可以點擊右側的藍色圓圈逐個添加你的寶可夢。你也可以使用批量導入功能來從其他APP添加寶可夢。右上角有排序按鈕幫助你搜索你的寶可夢",
-    "pokemonList": {
-        "title": "你的寶可夢盒子",
-        "zero": "按下左側方格選擇你要加入的寶可夢",
-        "zeroDescription": "如果您過去已經增添了寶可夢，您可能是使用了不同的帳號來登入。\n如果您使用相同的電子郵件地址，您的帳號會自動連結。",
-        "email": "寫email給Pokebattler網站"
-    },
-    "add": {
-        "title": "寶可夢盒子",
-        "description": "新增寶可夢",
-        "pokemon": "選擇寶可夢種類",
-        "pokemonSelect": "選擇寶可夢種類"
-    },
-    "deleteAll": {
-        "button": "全部刪掉",
-        "title": "全部刪掉",
-        "confirmation": "你卻定要全部刪掉，一隻不留?",
-        "irreversible": "注意!刪掉之後無法復原喔!"
-    },
-    "import": {
-        "hintText": "我們有支援許多種的檔案格式，請確認你的檔案有包含正確的欄位名稱列.",
-        "floatingLabel": "將你的寶可夢複製到此處",
-        "table": {
-            "header": "選擇你要增加到盒子裡的寶可夢",
-            "selectAll": "全選"
-        }
-    },
-    "update": {
-        "title": "寶可夢背包",
-        "description": "{{name}}"
-    },
-    "backPokebox": "回到寶可夢背包",
-    "powerUp": "強化",
-    "full": {
-        "title": "寶可夢盒子滿了"
-    },
+  "title": "寶可夢盒子",
+  "blurb": "添加你的寶可夢來獲得定制化的結果吧！你可以點擊右側的藍色圓圈逐個添加你的寶可夢。你也可以使用批量導入功能來從其他APP添加寶可夢。右上角有排序按鈕幫助你搜索你的寶可夢",
+  "pokemonList": {
+    "title": "你的寶可夢盒子",
+    "zero": "按下左側方格選擇你要加入的寶可夢",
+    "zeroDescription": "如果您過去已經增添了寶可夢，您可能是使用了不同的帳號來登入。\n如果您使用相同的電子郵件地址，您的帳號會自動連結。",
+    "email": "寫email給Pokebattler網站",
     "meta": {
-        "description": "存储您的Pokemon Go Pokemon，以获得自定义的突袭结果以及更多！"
+      "description": "Store your Pokemon Go Pokemon for custom raid results and more!"
+    },
+    "zeroHelp": "If they do not have the same email address, {{link}} with the userIds of the accounts you need to link",
+    "showMore": "Show More",
+    "filter": {
+      "label": "Filter pokemon",
+      "hint": "Enter comma separated Pokemon or Types"
     }
+  },
+  "add": {
+    "title": "寶可夢盒子",
+    "description": "新增寶可夢",
+    "pokemon": "選擇寶可夢種類",
+    "pokemonSelect": "選擇寶可夢種類",
+    "meta": {
+      "description": "Add a Pokemon to your Pokebox"
+    }
+  },
+  "deleteAll": {
+    "button": "全部刪掉",
+    "title": "全部刪掉",
+    "confirmation": "你卻定要全部刪掉，一隻不留?",
+    "irreversible": "注意!刪掉之後無法復原喔!",
+    "meta": {
+      "description": "Remove a Pokemon from your Pokebox."
+    }
+  },
+  "import": {
+    "hintText": "我們有支援許多種的檔案格式，請確認你的檔案有包含正確的欄位名稱列.",
+    "floatingLabel": "將你的寶可夢複製到此處",
+    "table": {
+      "header": "選擇你要增加到盒子裡的寶可夢",
+      "selectAll": "全選"
+    },
+    "button": "Bulk Import",
+    "title": "Pokebox Import",
+    "meta": {
+      "description": "Add Pokemon to your Pokebox from 3rd party programs."
+    },
+    "description": "Import Pokemon",
+    "parse": "Begin Import",
+    "reverseSort": "Reverse Sort",
+    "urlUpload": {
+      "title": "Upload from URL",
+      "description": "Import Pokemon from a URL such as Dropbox",
+      "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0"
+    },
+    "fileUpload": {
+      "title": "Upload from File",
+      "description": "Import Pokemon from a file download such as csv"
+    },
+    "advanced": {
+      "title": "Advanced Settings",
+      "description": "Custom support for 3rd party apps"
+    },
+    "pasteUpload": {
+      "title": "Upload from Copy/Paste",
+      "hintText": "$t(pokebox:import.hintText)",
+      "description": "$t(pokebox:import.floatingLabel)"
+    }
+  },
+  "update": {
+    "title": "寶可夢背包",
+    "description": "{{name}}",
+    "meta": {
+      "description": "Update your Pokemon in your Pokebox"
+    }
+  },
+  "backPokebox": "回到寶可夢背包",
+  "powerUp": "強化",
+  "full": {
+    "title": "寶可夢盒子滿了",
+    "subtitle": "Out of Space",
+    "explanation": "You have reached the maximum number of Pokemon for your Pokebox at your current membership level. This puts you in the top 5% of Pokebattler accounts and top 0.1% of Pokebattler users! Pokebattler depends on the support of heavy users like yourself to serve high quality simulations to everyone. You can increase your Pokemon storage by subscribing to a higher level plan."
+  },
+  "meta": {
+    "description": "存储您的Pokemon Go Pokemon，以获得自定义的突袭结果以及更多！"
+  },
+  "export": {
+    "button": "Bulk Export"
+  },
+  "pokeGenieImport": {
+    "button": "Poke Genie Import",
+    "title": "Poke Genie Dropbox Import",
+    "meta": {
+      "description": "Add Pokemon to your Pokebox from a Poke Genie Dropbox backup."
+    },
+    "description": "Import Pokemon from Poke Genie Dropbox backup",
+    "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0",
+    "floatingLabel": "Paste dropbox shared link to scan_data.json",
+    "shinyStartLabel": "Shiny Pokemon Star (Poke Genie)",
+    "stars": {
+      "none": "No star for shiny Pokemon",
+      "yellow": "Yellow",
+      "blue": "Blue",
+      "green": "Green",
+      "orange": "Orange",
+      "purple": "Purple"
+    }
+  },
+  "loading": "Loading your Pokemon",
+  "powerDown": "Power Down",
+  "upgrade": {
+    "title": "$t(common:upgrade)",
+    "subtitle": "This feature requires a higher subscription level",
+    "explanation": "Pokebattler is kept alive by just 0.1% of site visitors like yourself. Upgrade your account to keep Pokebattler going and to get more out of Pokebattler! Exclusive features, enhanced analysis, a larger Pokebox and more await!"
+  },
+  "explanation": "Pokebattler Pokebox is an exciting new feature that lets you customize your Pokebattler experience based on the Pokemon you actually own! The Pokemon you add to your Pokebox can be used throughout the site. Be on the lookout for the box icon. A green icon means you are using the Pokebox, a black icon means you are not.",
+  "delete": {
+    "title": "Delete",
+    "meta": {
+      "description": "Delete a Pokemon from your Pokebox"
+    },
+    "blurb": "You can quickly delete multiple pokemon at a time here. You can quickly clear out more space in your pokebox. Just select each pokemon you want to delete. When you are done, scroll to the bottom to find the Delete button.",
+    "button": "Bulk Delete",
+    "bulk": {
+      "title": "Delete",
+      "meta": {
+        "description": "Bulk Delete Pokemon from your Pokebox."
+      },
+      "toolbarTitle": "Bulk Delete",
+      "confirmation": "This will delete {{num}} Pokemon from your Pokebox, are you sure?"
+    },
+    "confirmation": "Are you sure you want to delete?",
+    "irreversible": "This cannot be undone!"
+  }
 }

@@ -1,29 +1,29 @@
 {
-    "title": "Kontakt",
-    "meta": {
-        "description": "Wyślij nam wiadomość lub śledź nas w mediach, by otrzymywać najnowsze wiadomości z Najdokładniejszego Na Świecie Symulatora Pokemon GO",
-        "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  "title": "Kontakt",
+  "meta": {
+    "description": "Wyślij nam wiadomość lub śledź nas w mediach, by otrzymywać najnowsze wiadomości z Najdokładniejszego Na Świecie Symulatora Pokemon GO",
+    "image": "https://static.pokebattler.com/images/og_more_contact_us.jpg"
+  },
+  "contactInfo": "Informacje Kontaktowe",
+  "feedbackText": "Obsługa Pokebattlera chciałaby usłyszeć twoją opinię! Czy jest to prośba o dodanie usprawnienia, zgłoszenie błędu czy po prostu słowa podziękowania - prawdziwie doceniamy naszych użytkowników i staramy się jak możemy sprawić, by była to jedyna strona jakiej potrzebujesz w swojej przygodzie z Pokemon GO.",
+  "email": "Wyślij mi prywatną wiadomość na",
+  "facebook": "Kontakt przez Facebooka",
+  "button": {
+    "reddit": {
+      "title": "Dyskutuj na Reddicie",
+      "subtitle": "Aktualności i Ogłoszenia na /r/pokebattler"
     },
-    "contactInfo": "Informacje Kontaktowe",
-    "feedbackText": "Obsługa Pokebattlera chciałaby usłyszeć twoją opinię! Czy jest to prośba o dodanie usprawnienia, zgłoszenie błędu czy po prostu słowa podziękowania - prawdziwie doceniamy naszych użytkowników i staramy się jak możemy sprawić, by była to jedyna strona jakiej potrzebujesz w swojej przygodzie z Pokemon GO.",
-    "email": "Wyślij mi prywatną wiadomość na",
-    "facebook": "Kontakt przez Facebooka",
-    "button": {
-        "reddit": {
-            "title": "Dyskutuj na Reddicie",
-            "subtitle": "Aktualności i Ogłoszenia na /r/pokebattler"
-        },
-        "twitter": {
-            "title": "Zatweetuj do mnie",
-            "subtitle": "Aktualności i losowe informacje z @Pokebattler_com"
-        },
-        "youtube": {
-            "title": "Oglądaj nasze filmiki",
-            "subtitle": "Video-poradniki dotyczące Pokebattlera i Raidów"
-        },
-        "facebook": {
-            "title": "Połącz z Facebookiem",
-            "subtitle": "Daj znać o nas swoim przyjaciołom!"
-        }
+    "twitter": {
+      "title": "Zatweetuj do mnie",
+      "subtitle": "Aktualności i losowe informacje z @Pokebattler_com"
+    },
+    "youtube": {
+      "title": "Oglądaj nasze filmiki",
+      "subtitle": "Video-poradniki dotyczące Pokebattlera i Raidów"
+    },
+    "facebook": {
+      "title": "Połącz z Facebookiem",
+      "subtitle": "Daj znać o nas swoim przyjaciołom!"
     }
+  }
 }

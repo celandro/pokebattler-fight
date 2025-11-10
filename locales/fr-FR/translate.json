@@ -1,6 +1,10 @@
 {
-    "title": "Aider à Traduire Pokebattler",
-    "info": "Ce site est conçu pour être traduisible dans de nombreuses langues ! La version française que vous consultez actuellement a été traduite à partir de l'anglais : vous pouvez nous aider à l'améliorer.",
-    "how": "La traduction s'effectue à l'aide d'un outil web appelé Weblate, disponible à l'adresse {{link}}. Vous aurez besoin de créer un compte et de choisir les langues que vous parlez avant de commencer à donner des suggestions pour les traductions. Ces suggestions seront vérifiées et, en général, automatiquement acceptées.",
-    "rewards": "Des récompenses spéciales, normalement disponibles uniquement pour les donateurs sur Patreon, sont accessibles à ceux qui fournissent un effort important pour la traduction de ce site. Cela inclut plus d'espace dans votre Pokébox, et des simulations personnalisées de meilleure qualité."
+  "title": "Aider à Traduire Pokebattler",
+  "info": "Ce site est conçu pour être traduisible dans de nombreuses langues ! La version française que vous consultez actuellement a été traduite à partir de l'anglais : vous pouvez nous aider à l'améliorer.",
+  "how": "La traduction s'effectue à l'aide d'un outil web appelé Weblate, disponible à l'adresse {{link}}. Vous aurez besoin de créer un compte et de choisir les langues que vous parlez avant de commencer à donner des suggestions pour les traductions. Ces suggestions seront vérifiées et, en général, automatiquement acceptées.",
+  "rewards": "Des récompenses spéciales, normalement disponibles uniquement pour les donateurs sur Patreon, sont accessibles à ceux qui fournissent un effort important pour la traduction de ce site. Cela inclut plus d'espace dans votre Pokébox, et des simulations personnalisées de meilleure qualité.",
+  "meta": {
+    "description": "Pokebattler Translate lets users help us translate the site so everyone can use the World's #1 Most accurate Pokemon Go Simulator.",
+    "image": "https://static.pokebattler.com/images/og_more_translate.jpg"
+  }
 }

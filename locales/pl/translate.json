@@ -1,10 +1,10 @@
 {
-    "title": "Pomóż Tłumaczyć Pokebattler",
-    "meta": {
-        "description": "Tłumaczenie Pokebattlera pozwala użytkownikom na pomoc w tłumaczeniu naszej strony, dzięki czemu każdy może korzystać z Najdokładniejszego Na Świecie Symulatora Pokemon GO.",
-        "image": "https://static.pokebattler.com/images/og_more_translate.jpg"
-    },
-    "info": "Ta strona jest skonfigurowana w taki sposób, że może być tłumaczona na wiele języków! Możesz pomóc tej stronie, by była łatwiejsza do użytku dla twoich przyjaciół, którzy nie mówią w dostępnych językach.",
-    "how": "Tłumaczenie jest możliwe dzięki narzędziu internetowemu zwanemu Weblate i możesz znaleźć je pod {{link}}. Jedyne co musisz to utworzyć konto, wybrać języki jakimi się posługujesz i zacząć tworzenie sugestii do translacji. Translacje te będą sprawdzone i zazwyczaj automatycznie zaakceptowane.",
-    "rewards": "Specjalne nagrody normalnie dostępne tylko dla subskrybentów są dostępne również dla tłumaczy, którzy wnieśli znaczący wkład. Zawiera się w tym więcej miejsca dla Pokemonów w twoim Pokeboxie oraz spersonalizowane symulacje wyższej jakości."
+  "title": "Pomóż Tłumaczyć Pokebattler",
+  "meta": {
+    "description": "Tłumaczenie Pokebattlera pozwala użytkownikom na pomoc w tłumaczeniu naszej strony, dzięki czemu każdy może korzystać z Najdokładniejszego Na Świecie Symulatora Pokemon GO.",
+    "image": "https://static.pokebattler.com/images/og_more_translate.jpg"
+  },
+  "info": "Ta strona jest skonfigurowana w taki sposób, że może być tłumaczona na wiele języków! Możesz pomóc tej stronie, by była łatwiejsza do użytku dla twoich przyjaciół, którzy nie mówią w dostępnych językach.",
+  "how": "Tłumaczenie jest możliwe dzięki narzędziu internetowemu zwanemu Weblate i możesz znaleźć je pod {{link}}. Jedyne co musisz to utworzyć konto, wybrać języki jakimi się posługujesz i zacząć tworzenie sugestii do translacji. Translacje te będą sprawdzone i zazwyczaj automatycznie zaakceptowane.",
+  "rewards": "Specjalne nagrody normalnie dostępne tylko dla subskrybentów są dostępne również dla tłumaczy, którzy wnieśli znaczący wkład. Zawiera się w tym więcej miejsca dla Pokemonów w twoim Pokeboxie oraz spersonalizowane symulacje wyższej jakości."
 }

@@ -1,9 +1,136 @@
 {
-    "title": "Caja Pokémon",
-    "blurb": "Añade tus Pokémon para resultados personalizados!",
-    "pokemonList": {
-        "title": "Tu caja de Pokémon personalizada",
-        "zero": "Añade tus Pokémon haciendo clic en la  caja a la izquierda.",
-        "zeroDescription": "Si ya añadiste Pokémon en el pasado, pudiste haber ingresado con una cuenta diferente. Tus cuentas serán automáticamente vinculadas si usan el mismo correo electrónico."
+  "title": "Caja Pokémon",
+  "blurb": "Añade tus Pokémon para resultados personalizados!",
+  "pokemonList": {
+    "title": "Tu caja de Pokémon personalizada",
+    "zero": "Añade tus Pokémon haciendo clic en la  caja a la izquierda.",
+    "zeroDescription": "Si ya añadiste Pokémon en el pasado, pudiste haber ingresado con una cuenta diferente. Tus cuentas serán automáticamente vinculadas si usan el mismo correo electrónico.",
+    "meta": {
+      "description": "¡Guarda tus Pokémon de Pokémon Go para obtener resultados de incursiones personalizados y más!"
+    },
+    "zeroHelp": "Si no tienen la misma dirección de correo electrónico, {{link}} con los ID de usuario de las cuentas que necesitas vincular",
+    "email": "envía un correo electrónico a Pokebattler",
+    "showMore": "Mostrar más",
+    "filter": {
+      "label": "Filtrar pokemon",
+      "hint": "Ingresa Pokémon o tipos separados por comas"
     }
+  },
+  "meta": {
+    "description": "¡Guarda tus Pokémon de Pokémon Go para obtener resultados de incursiones personalizados y más!"
+  },
+  "add": {
+    "title": "Pokebox",
+    "meta": {
+      "description": "Añadir un Pokémon a tu Pokebox"
+    },
+    "description": "Añadir Pokémon",
+    "pokemon": "Elegir Pokémon",
+    "pokemonSelect": "Elegir Pokémon"
+  },
+  "deleteAll": {
+    "button": "Eliminar todo",
+    "title": "Eliminar todo",
+    "meta": {
+      "description": "Eliminar un Pokémon de tu Pokebox."
+    },
+    "confirmation": "Esto eliminará todos los Pokémon de tu Pokebox, ¿estás seguro?",
+    "irreversible": "¡Esto no se puede deshacer!"
+  },
+  "export": {
+    "button": "Exportación masiva"
+  },
+  "import": {
+    "button": "Importación masiva",
+    "title": "Importación de Pokebox",
+    "meta": {
+      "description": "Añadir Pokémon a tu Pokebox desde programas de terceros."
+    },
+    "description": "Importar Pokémon",
+    "parse": "Comenzar importación",
+    "hintText": "Se admiten muchos formatos. Asegúrate de incluir una fila de encabezado.",
+    "floatingLabel": "Copia y pega tus Pokémon aquí",
+    "reverseSort": "Orden inverso",
+    "table": {
+      "header": "Selecciona los Pokémon que deseas importar a continuación",
+      "selectAll": "Seleccionar todo"
+    },
+    "urlUpload": {
+      "title": "Subir desde URL",
+      "description": "Importar Pokémon desde una URL como Dropbox",
+      "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0"
+    },
+    "fileUpload": {
+      "title": "Subir desde archivo",
+      "description": "Importar Pokémon desde un archivo descargado como csv"
+    },
+    "advanced": {
+      "title": "Configuración avanzada",
+      "description": "Soporte personalizado para aplicaciones de terceros"
+    },
+    "pasteUpload": {
+      "title": "Subir desde Copiar/Pegar",
+      "hintText": "$t(pokebox:import.hintText)",
+      "description": "$t(pokebox:import.floatingLabel)"
+    }
+  },
+  "pokeGenieImport": {
+    "button": "Importación de Poke Genie",
+    "title": "Importación de Dropbox de Poke Genie",
+    "meta": {
+      "description": "Añade Pokémon a tu Pokebox desde una copia de seguridad de Dropbox de Poke Genie."
+    },
+    "description": "Importar Pokémon desde la copia de seguridad de Dropbox de Poke Genie",
+    "hintText": "https://www.dropbox.com/s/###############/scan_data.json?dl=0",
+    "floatingLabel": "Pega el enlace compartido de Dropbox a scan_data.json",
+    "shinyStartLabel": "Estrella de Pokémon shiny (Poke Genie)",
+    "stars": {
+      "none": "Sin estrella para Pokémon shiny",
+      "yellow": "Amarillo",
+      "blue": "Azul",
+      "green": "Verde",
+      "orange": "Naranja",
+      "purple": "Morado"
+    }
+  },
+  "update": {
+    "title": "Pokebox",
+    "meta": {
+      "description": "Actualiza tus Pokémon en tu Pokebox"
+    },
+    "description": "Modificar {{name}}"
+  },
+  "loading": "Cargando tus Pokémon",
+  "backPokebox": "Volver a Pokebox",
+  "powerUp": "Potenciar",
+  "powerDown": "Reducir potencia",
+  "full": {
+    "title": "Pokebox llena",
+    "subtitle": "Sin espacio",
+    "explanation": "Has alcanzado el número máximo de Pokémon para tu Pokebox en tu nivel de membresía actual. ¡Esto te sitúa en el 5% superior de las cuentas de Pokebattler y en el 0,1% superior de los usuarios de Pokebattler! Pokebattler depende del apoyo de usuarios intensivos como tú para ofrecer simulaciones de alta calidad a todo el mundo. Puedes aumentar tu almacenamiento de Pokémon suscribiéndote a un plan de nivel superior."
+  },
+  "upgrade": {
+    "title": "$t(common:upgrade)",
+    "subtitle": "Esta función requiere un nivel de suscripción superior",
+    "explanation": "Pokebattler se mantiene vivo gracias a solo el 0,1% de los visitantes del sitio como tú. ¡Actualiza tu cuenta para que Pokebattler siga funcionando y para sacarle más partido! ¡Te esperan funciones exclusivas, análisis mejorados, una Pokebox más grande y mucho más!"
+  },
+  "explanation": "La Pokebox de Pokebattler es una nueva y emocionante función que te permite personalizar tu experiencia en Pokebattler basándote en los Pokémon que realmente posees. Los Pokémon que añadas a tu Pokebox se pueden usar en todo el sitio. Estate atento al icono de la caja. Un icono verde significa que estás usando la Pokebox, un icono negro significa que no.",
+  "delete": {
+    "title": "Eliminar",
+    "meta": {
+      "description": "Eliminar un Pokémon de tu Pokebox"
+    },
+    "blurb": "Puedes eliminar rápidamente varios pokemon a la vez aquí. Puedes liberar rápidamente más espacio en tu pokebox. Solo tienes que seleccionar cada pokemon que quieras eliminar. Cuando hayas terminado, desplázate hasta la parte inferior para encontrar el botón Eliminar.",
+    "button": "Eliminación masiva",
+    "bulk": {
+      "title": "Eliminar",
+      "meta": {
+        "description": "Eliminación masiva de Pokémon de tu Pokebox."
+      },
+      "toolbarTitle": "Eliminación masiva",
+      "confirmation": "Esto eliminará {{num}} Pokémon de tu Pokebox, ¿estás seguro?"
+    },
+    "confirmation": "¿Estás seguro de que quieres eliminar?",
+    "irreversible": "¡Esto no se puede deshacer!"
+  }
 }

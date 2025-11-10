@@ -1,2 +1,28 @@
 {
+  "title": "Pokemon Go Simulator and Rankings",
+  "meta": {
+    "description": "World's #1 source for detailed Pokemon Go analysis. The best simulations, customizable rankings and the most accurate raid counters!",
+    "image": "https://static.pokebattler.com/images/og_home.png"
+  },
+  "articles": {
+    "title": "In Depth Pokemon Go Articles",
+    "subtitle": "News And Research Available Nowhere Else",
+    "more": "Read more articles"
+  },
+  "article": {
+    "title": "{{title}}",
+    "meta": {
+      "description": "{{author}} {{format}} on the topics of {{categories}} on {{date}}. This article is about {{tags}}.",
+      "image": "{{featuredURL}}"
+    }
+  },
+  "news": {
+    "title": "Release Notes",
+    "meta": {
+      "description": "Pokebattler News the latest release notes for the world's #1 Most accurate Pokemon Go Simulator ",
+      "image": "https://static.pokebattler.com/images/og_more_news.jpg"
+    },
+    "old": "Older News",
+    "new": "Newer News"
+  }
 }

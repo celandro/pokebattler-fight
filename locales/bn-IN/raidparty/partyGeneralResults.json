@@ -1,2 +1,14 @@
 {
+  "title": "Battle Result",
+  "decimalPlaces": 2,
+  "winPerc": "% Win",
+  "seconds": "s",
+  "totalCombatTime": "Time",
+  "effectiveCombatTime": "Time To Win",
+  "tdo": "TDO",
+  "deaths": "Deaths",
+  "estimator": "Estimator",
+  "effectiveDeaths": "Deaths to win",
+  "missingData": "???",
+  "yourSummary": "Your Summary"
 }
