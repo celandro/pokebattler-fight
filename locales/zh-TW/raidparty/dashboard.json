@@ -1,4 +1,4 @@
 {
   "title": "Pokebattler",
-  "welcome": "Welcome, {{name}}!"
+  "welcome": "{{name}}，歡迎！"
 }
