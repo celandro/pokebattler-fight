@@ -2,11 +2,11 @@
   "title": "好友",
   "levels": {
     "FRIENDSHIP_LEVEL_UNSET": "尚未成為好友",
-    "FRIENDSHIP_LEVEL_0": "新朋友",
+    "FRIENDSHIP_LEVEL_0": "朋友",
     "FRIENDSHIP_LEVEL_1": "好朋友",
-    "FRIENDSHIP_LEVEL_2": "超好朋友",
-    "FRIENDSHIP_LEVEL_3": "親密朋友",
-    "FRIENDSHIP_LEVEL_4": "最佳好友"
+    "FRIENDSHIP_LEVEL_2": "給力好朋友",
+    "FRIENDSHIP_LEVEL_3": "麻吉好朋友",
+    "FRIENDSHIP_LEVEL_4": "正港好朋友"
   },
   "add": {
     "friendId": "Pokebattler ID",
