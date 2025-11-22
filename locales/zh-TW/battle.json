@@ -30,7 +30,7 @@
     "all": "所有寶可夢"
   },
   "relatedBattles": {
-    "title": "相關對戰,
+    "title": "相關對戰",
     "description": "選擇下方你想更改的參數，點擊連結以使用新參數重新開始模擬。模擬結果將立即更改。",
     "modify": "修改",
     "switch": "切換以修改 {{type}}",
