@@ -3,14 +3,14 @@
     "self": "繁體中文",
     "bn": "孟加拉語",
     "bg": "保加利亞語",
-    "en": "English",
+    "en": "英語",
     "es": "西班牙語",
     "de": "德語",
     "hu": "匈牙利語",
-    "jp": "Japanese",
+    "jp": "日語",
     "fr": "法語",
     "it": "義大利語",
-    "ja": "Japanese",
+    "ja": "日語",
     "ko": "韓語",
     "nl": "荷蘭語",
     "pl": "波蘭語",
@@ -43,11 +43,11 @@
   "cp": "CP",
   "win": "勝",
   "loss": "敗",
-  "quickMove": "小招",
-  "specialMove": "大招",
-  "specialMove2": "第二大招",
-  "quickMoves": "小招",
-  "specialMoves": "大招",
+  "quickMove": "一般招式",
+  "specialMove": "特殊招式",
+  "specialMove2": "第二特殊招式",
+  "quickMoves": "一般招式",
+  "specialMoves": "特殊招式",
   "attackStrategy": "攻擊策略",
   "defenseStrategy": "模擬類型",
   "dodgeStrategy": "閃躲策略",
@@ -56,7 +56,7 @@
   "choosePokemon": "選擇寶可夢",
   "friendLevels": "好友等級",
   "friendCode": "好友代碼",
-  "shieldStrategy": "盾牌策略",
+  "shieldStrategy": "防禦網策略",
   "shiny": "異色",
   "lucky": "亮晶晶",
   "id": "ID",
@@ -98,14 +98,14 @@
   "includeLegendary": "顯示傳說寶可夢",
   "includeMegas": "顯示超級寶可夢",
   "includeTypes": "選擇屬性",
-  "primalAssistants": "啟用原始增益",
+  "primalAssistants": "啟用原始回歸",
   "properties": {
     "overall": "整體",
     "estimator": "估算人數",
-    "power": "火力",
+    "power": "威力",
     "win": "勝率",
     "deaths": "瀕死數",
-    "effectiveDeaths": "獲勝代價",
+    "effectiveDeaths": "瀕死次數",
     "time": "獲勝時間",
     "realTime": "時間",
     "prestige": "聲望",
@@ -113,7 +113,7 @@
     "dps": "DPS",
     "dpe": "DPE",
     "eps": "EPS",
-    "potions": "藥水",
+    "potions": "傷藥",
     "damage": "傷害",
     "energy": "能量",
     "grouped": "群組",
@@ -124,17 +124,17 @@
     "name": "$t(common:name)",
     "type": "$t(common:type)",
     "powerups": "強化次數",
-    "stardust": "星塵",
+    "stardust": "星星沙子",
     "candy": "糖果",
-    "xlcandy": "XL 糖果",
+    "xlcandy": "糖果XL",
     "tdo": "輸出 (TDO)",
     "maxCP": "最大 $t(common:cp)",
     "level": "$t(common:level)",
     "rank": "名次",
     "points": "分數",
-    "matchups": "對位",
+    "matchups": "對賽",
     "avg_estimator": "平均估算",
-    "dynamaxEnergy": "極巨化能量上限"
+    "dynamaxEnergy": "極巨能量"
   },
   "sectionLinks": {
     "help": "說明區",
@@ -142,7 +142,7 @@
   },
   "simulation": "已執行一次模擬",
   "simulation_plural": "已執行 {{count, commas}} 次模擬",
-  "chooseMovesetLabel": "選擇招式組",
+  "chooseMovesetLabel": "選擇招式組合",
   "choosePokemonLabel": "選擇寶可夢",
   "hd": {
     "text": "$t(simulation, {'count': {{numSims}} }) 以產生此高品質模擬",
@@ -152,11 +152,11 @@
   },
   "name": "名稱",
   "nickname": "暱稱",
-  "faction": "陣營",
-  "mystic": "睿智隊",
-  "valor": "勇武隊",
-  "harmony": "和諧隊",
-  "instinct": "本能隊",
+  "faction": "隊伍",
+  "mystic": "叡智隊",
+  "valor": "武勇隊",
+  "harmony": "沒有隊伍",
+  "instinct": "靈犀隊",
   "ivs": "IV",
   "trainerName": "訓練家名稱",
   "discordName": "Discord 使用者名稱",
@@ -168,7 +168,7 @@
   "pokebox": "寶可夢盒子",
   "advice": "團體戰建議",
   "login": "登入",
-  "upgrade": "升級",
+  "upgrade": "升級你的帳號",
   "trainer": "訓練家",
   "trainers": "訓練家",
   "mega": "超級",
@@ -204,7 +204,7 @@
     "success": "成功",
     "network": "網路錯誤。本應用需要網路連線。",
     "serverDown": "Pokebattler 伺服器離線中，很快就會恢復",
-    "appUpdate": "小版本更新失敗。下次開啟時會再試一次",
+    "appUpdate": "次要版本更新失敗。下次開啟時會再試一次",
     "error": "糟糕，發生錯誤。請稍候數秒再試一次。",
     "newVersion": "有新版本可用，請重新載入頁面。",
     "newAppVersion": "已下載更新，15 秒內更新...",
@@ -242,21 +242,21 @@
     "title": "可用糖果"
   },
   "xlcandy": {
-    "title": "可用 XL 糖果"
+    "title": "可用糖果XL"
   },
   "stardust": {
-    "title": "可用星塵"
+    "title": "可用星星沙子"
   },
   "xAxis": "X 軸",
   "yAxis": "Y 軸",
   "spinner": {
-    "battle": "正在模擬戰鬥結果，不會太久",
-    "raid": "正在搜尋所有可能的攻擊者以找出最佳剋星，不會太久。",
-    "pokedex": "正在尋找最佳對位與剋星，稍等一下。",
+    "battle": "正在模擬對戰結果，不會太久",
+    "raid": "正在搜尋所有可能的攻擊手以找出最佳剋星，不會太久。",
+    "pokedex": "正在尋找最佳對賽與剋星，稍等一下。",
     "rankings": "正在模擬所有可能的對戰以找出最強寶可夢，這會花一點時間。"
   },
   "patreon": {
-    "ad1": "訂閱以移除廣告、獲得更大寶可夢盒子、運行更準確的模擬、更多功能等！",
+    "ad1": "訂閱以移除廣告、獲得更大的寶可夢盒子、運行更準確的模擬、更多功能等！",
     "ad2": "多月期 Pokebattler 訂閱超值優惠",
     "ad3": "最佳化你的團體戰。訂閱 Pokebattler 標準方案以獲得更準確結果與專屬功能。",
     "ad4": "喜歡 Pokebattler？立即訂閱，取得更多空間、更佳結果、專屬工具等。",
@@ -307,12 +307,12 @@
       "pvp": "$t(pvp)",
       "pvprankings": "$t(pvp)",
       "pvppokedex": "$t(pvp)",
-      "news": "新聞",
+      "news": "公告",
       "profiles": "公開檔案",
       "matrix": "矩陣",
       "subscription": "訂閱",
-      "attackers": "攻擊者",
-      "raidNetworkDiscords": "團戰網路",
+      "attackers": "攻擊手",
+      "raidNetworkDiscords": "團體戰網路",
       "infographics": "資訊圖表"
     },
     "description": {
@@ -320,22 +320,22 @@
       "raids": "頂級剋星、團體戰小隊模擬與強化建議",
       "rocket": "準確的火箭隊剋星",
       "pvp": "PvP 新聞、排行、圖鑑與模擬",
-      "pvppokedex": "$t(pvp) 每隻寶可夢的剋星與對位",
-      "pvprankings": "$t(pvp) 聯盟與 Silph 盃的剋星與對位",
+      "pvppokedex": "$t(pvp) 每隻寶可夢的剋星與對賽",
+      "pvprankings": "$t(pvp) 聯盟與 Silph Cup 的剋星與對賽",
       "pvpsimulator": "對戰小隊 $t(pvp) 模擬器",
       "pvpmatrix": "你的寶可夢 VS. 對手寶可夢的自訂結果",
       "help": "教學、條款與定義",
       "account": "新增寶可夢到你的寶可夢盒子與對戰小隊，客製化 Pokebattler",
       "profiles": "找找你的朋友在寶可夢盒子裡有哪些寶可夢",
-      "more": "新聞、文章、翻譯、聯絡我們等"
+      "more": "公告、文章、翻譯、聯絡我們等"
     },
     "tooltip": {
-      "gym": "道館對戰模擬、圖鑑、攻擊者與防守者排行等",
+      "gym": "道館對戰模擬、圖鑑、攻擊手與防守者排行等",
       "raids": "找出頂級剋星，執行完整團體戰模擬，獲得強化建議等",
       "pvp": "看看與朋友對戰會發生什麼事",
       "help": "",
       "account": "",
-      "more": "閱讀新聞與文章、下載資訊圖表、協助翻譯、關於我們與隱私政策"
+      "more": "閱讀公告與文章、下載資訊圖表、協助翻譯、關於我們與隱私政策"
     }
   },
   "randomAssistants": {
@@ -344,8 +344,8 @@
     "description": "幫你擊敗頭目的額外隨機訓練家數量。對 4、5 星頭目，預設會有 5 組隨機小隊幫你。"
   },
   "numParty": {
-    "title": "隊伍人數",
-    "description": "與你一起參與團戰的玩家數量。"
+    "title": "小隊之力",
+    "description": "與你一起參與團體戰的小隊成員數量。"
   },
   "numMegas": {
     "title": "額外超級寶可夢",
@@ -353,7 +353,7 @@
   },
   "explicitAssistants": {
     "title": "額外訓練家",
-    "description": "幫你擊敗頭目的額外訓練家數量。你可為每位攻擊者選擇對戰小隊。好友等級應為他們與團內其他玩家的最高等級，而非你與他們的等級。"
+    "description": "幫助你擊敗頭目的額外訓練家數量。你可為每位攻擊者選擇對戰小隊。好友等級應為他們與團內其他玩家的最高等級，而非你與他們的等級。"
   },
   "monteCarlo": {
     "title": "模擬類型",
