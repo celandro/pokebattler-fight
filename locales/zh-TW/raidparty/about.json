@@ -1,159 +1,159 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "heading": "Contact Information",
-    "paragraph1": "Send us a message or follow us on social to get the latest updates on the World's #1 Most Accurate Pokemon Go Simulator",
-    "paragraph2": "We at Pokebattler love to hear your feedback! Whether it's a feature request or a bug report or just a word of thanks, we truly appreciate our users and try our best to keep this the only one you need to use for Pokemon Go gym combat.",
-    "email": "Email admin@pokebattler.com",
-    "emailError": "Could not open email program",
+    "title": "聯絡我們",
+    "heading": "聯絡資訊",
+    "paragraph1": "傳送訊息給我們，或追蹤我們的社群，以獲得全球最準確的 Pokémon Go 模擬器最新消息。",
+    "paragraph2": "Pokebattler 非常樂意聽到你的回饋！無論是功能請求、錯誤回報，或只是一句感謝，我們都真心感激所有使用者，並努力讓這成為你進行 Pokémon Go 道館及團體戰對戰唯一需要的工具。",
+    "email": "電郵至 admin@pokebattler.com",
+    "emailError": "無法開啟電子郵件程式",
     "button": {
       "reddit": {
-        "title": "Discuss on Reddit",
-        "subtitle": "News and Announcements in /r/pokebattler"
+        "title": "在 Reddit 討論",
+        "subtitle": "/r/pokebattler 的新聞與公告"
       },
       "twitter": {
-        "title": "Tweet at me",
-        "subtitle": "News and random messages from @Pokebattler_com"
+        "title": "在 Twitter 上推文給我",
+        "subtitle": "@Pokebattler_com 的新聞與隨機訊息"
       },
       "youtube": {
-        "title": "Watch our videos",
-        "subtitle": "Raid Guides and Pokebattler Tutorial Videos"
+        "title": "觀看我們的影片",
+        "subtitle": "團體戰攻略與 Pokebattler 教學影片"
       },
       "facebook": {
-        "title": "Facebook Connect",
-        "subtitle": "Let your friends know about us"
+        "title": "Facebook 連結",
+        "subtitle": "讓你的朋友知道我們的存在"
       }
     }
   },
   "terms": {
-    "title": "Terms",
-    "heading": "Terms & Conditions",
-    "paragraph1": "By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Battler Empire, LLC.",
-    "paragraph2": "Battler Empire, LLC is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for.",
-    "paragraph3": "The Pokebattler Raid Party app stores and processes personal data that you have provided to us, in order to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Pokebattler Raid Party app won’t work properly or at all.",
-    "paragraph4": "You should be aware that there are certain things that Battler Empire, LLC will not take responsibility for. Certain functions of the app will require the app to have an active internet connection. The connection can be Wi-Fi, or provided by your mobile network provider, but Battler Empire, LLC cannot take responsibility for the app not working at full functionality if you don’t have access to Wi-Fi, and you don’t have any of your data allowance left.",
-    "paragraph5": "If you’re using the app outside of an area with Wi-Fi, you should remember that your terms of the agreement with your mobile network provider will still apply. As a result, you may be charged by your mobile provider for the cost of data for the duration of the connection while accessing the app, or other third party charges. In using the app, you’re accepting responsibility for any such charges, including roaming data charges if you use the app outside of your home territory (i.e. region or country) without turning off data roaming. If you are not the bill payer for the device on which you’re using the app, please be aware that we assume that you have received permission from the bill payer for using the app.",
-    "paragraph6": "Along the same lines, Battler Empire, LLC cannot always take responsibility for the way you use the app i.e. You need to make sure that your device stays charged – if it runs out of battery and you can’t turn it on to avail the Service, Battler Empire, LLC cannot accept responsibility.",
-    "paragraph7": "With respect to Battler Empire, LLC’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Battler Empire, LLC accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.",
-    "paragraph8": "At some point, we may wish to update the app. The app is currently available on Android &amp; iOS – the requirements for both systems (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. Battler Empire, LLC does not promise that it will always update the app so that it is relevant to you and/or works with the Android &amp; iOS version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.",
-    "heading2": "Changes to This Terms and Conditions",
-    "paragraph9": "We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page."
+    "title": "條款",
+    "heading": "條款與條件",
+    "paragraph1": "下載或使用本應用程式即表示你自動接受這些條款——因此在使用前請務必仔細閱讀。你不得以任何方式複製或修改本應用程式或其任何部分，也不得試圖擷取其原始碼，亦不得嘗試將本應用程式翻譯成其他語言或製作衍生版本。應用程式及所有相關商標、版權、資料庫權利與其他智慧財產權仍屬於 Battler Empire, LLC。",
+    "paragraph2": "Battler Empire, LLC 致力於確保本應用程式實用且高效。因此，我們保留隨時因任何理由更改應用程式或收取服務費用的權利。我們絕不會在未明確告知你具體收費內容的情況下向你收費。",
+    "paragraph3": "Pokebattler Raid Party 會儲存並處理你提供的個人資料，以提供本服務。你有責任保持手機及應用程式的存取安全。因此我們建議不要越獄或 root 你的裝置，因為移除原廠系統限制可能會讓你的手機暴露於惡意軟體和電腦病毒，造成安全風險，也可能導致應用程式無法正常運作。",
+    "paragraph4": "你應注意 Battler Empire, LLC 對部分情況不負責任。應用程式的部分功能需要有效的網路連線，無論是 Wi-Fi 或行動網路。如果你沒有 Wi-Fi，並已用完網路流量，我們無法負責因此而無法正常運作的應用程式。",
+    "paragraph5": "如果你在沒有 Wi-Fi 的區域使用應用程式，你與行動網路業者的合約依然適用，因此你可能因使用應用程式而產生行動數據費用或其他第三方費用。在使用本應用程式時，你需自行承擔相關費用，包括在國外使用時因數據漫遊所產生的費用。如果你不是此裝置的帳單付款人，請注意，我們假設你已獲得付款人的使用許可。",
+    "paragraph6": "同樣地，Battler Empire, LLC 無法對你使用本應用程式的方式負完全責任。例如，你需確保裝置保持電量——若手機沒電導致無法使用本服務，我們無法負責。",
+    "paragraph7": "關於我們對你使用應用程式的責任，雖然我們努力確保資料隨時更新且正確，但我們仍依賴第三方提供資訊。Battler Empire, LLC 不對因依賴應用程式功能而導致的任何直接或間接損失負責。",
+    "paragraph8": "我們可能會在某個時間點更新應用程式。應用程式目前適用於 Android 與 iOS，未來可能會調整相關系統需求，你需要更新應用程式才能繼續使用。我們不保證應用程式會永遠維持與你的裝置的版本相容，不過你承諾在提供更新時會接受更新。我們也可能隨時停止提供此應用程式並終止其使用，且不需提前通知。除非另有說明，終止後：(a) 你基於本條款獲得的所有權利與授權將結束；(b) 你必須停止使用應用程式並在必要時將其從裝置中刪除。",
+    "heading2": "條款與條件的變更",
+    "paragraph9": "我們可能會不時更新本條款，因此建議你定期查看本頁面以了解變更。我們將透過在此頁發布新條款來通知你。這些變更自發布後立即生效。"
   },
   "privacy": {
-    "title": "Privacy Policy",
-    "heading": "Privacy Policy - Human Version",
-    "paragraph1": "Pokebattler Raid App requires 3rd party login information in order to store your Pokemon and settings for cross device use and to facilitate server side simulations. Pokebattler uses some 3rd party services to provide login capabilities, track app usage and to monitor for bugs.",
-    "paragraph2": "Pokebattler does not connect to Niantic servers in any way. No personal information is retrieved or stored other than an identification number and/or email address which are securely store for login purposes and account troubleshooting. This data is not used for marketing or affiliate purposes in any way. Data such as trainer name and pokebox content is used to support sharing of urls, finding your friends and other site features. If you are concerned about your privacy, consider not entering your trainer name or the names of your Pokemon. Pokebattler does use 3rd party app usage collection services and bug collection (eg. Google Analytics/Stackdriver) to help know where to focus new feature development.",
-    "heading2": "Privacy Policy - Legal Version",
-    "paragraph3": "Battler Empire, LLC built the Pokebattler website and  Pokebattler Raid Party app as a Freemium, Ad Supported app. This SERVICE is provided by Battler Empire, LLC at no cost and is intended for use as is.",
-    "paragraph4": "This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.",
-    "paragraph5": "If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.",
-    "heading3": "Information Collection and Use",
-    "paragraph6": "For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to email address, user id, and device id. The information that we request will be retained by us and used as described in this privacy policy.",
-    "paragraph7": "The app does use third party services that may collect information used to identify you.",
-    "paragraph8": "Link to privacy policy of third party service providers used by the app",
-    "heading4": "Log Data",
-    "paragraph9": "We want to inform you that whenever you use our Service, in a case of an error in the app we collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.",
-    "heading5": "Cookies",
-    "paragraph10": "Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.",
-    "paragraph11": "This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.",
-    "heading6": "Service Providers",
-    "paragraph12": "We may employ third-party companies and individuals due to the following reasons:",
-    "paragraph13": "To facilitate our Service. To provide the Service on our behalf. To perform Service-related services. To assist us in analyzing how our Service is used. We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.",
-    "heading7": "Security",
-    "paragraph14": "We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. All data is encrypted in transit and at rest and all endpoints are secured via social login token verification. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.",
-    "heading8": "Links to Other Sites",
-    "paragraph15": "This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.",
-    "heading9": "Children's Policy",
-    "paragraph16": "These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.",
-    "heading10": "Changes to This Privacy Policy",
-    "paragraph17": "We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.",
-    "heading11": "Data Retention",
-    "paragraph18": "Account data is retained as long as necessary to enable users to return in the future. Accounts may be deleted in the app account section, website account section or via email to admin@pokebattler.com from the registered email account."
+    "title": "隱私政策",
+    "heading": "隱私政策 - 人性化版本",
+    "paragraph1": "Pokebattler Raid App 需要第三方登入資訊，以儲存你的寶可夢和設定，並支援跨裝置使用與伺服器端模擬。我們也使用部分第三方服務來提供登入功能、追蹤應用程式使用情況，以及監控錯誤。",
+    "paragraph2": "Pokebattler 不會以任何方式連接 Niantic 伺服器。除了登入用途所需的識別編號和/或電子郵件地址，我們不會取得或儲存個人資訊，並會妥善保護這些資料。這些資料不會被用於行銷或推廣。像訓練家名稱與寶可夢盒子的內容等資訊僅用於分享連結、尋找朋友等網站功能。如果你對隱私有疑慮，可以選擇不輸入訓練家名稱或寶可夢名稱。Pokebattler 使用第三方服務（例如 Google Analytics / Stackdriver）以協助了解使用趨勢並改善功能。",
+    "heading2": "隱私政策 - 法律版本",
+    "paragraph3": "Battler Empire, LLC 建立了 Pokebattler 網站與 Pokebattler Raid Party 應用程式，採用以廣告支持運作的免費增值模式。本服務由 Battler Empire, LLC 免費提供並按原樣提供。",
+    "paragraph4": "本頁面用於告知使用者我們在收集、使用與揭露個人資訊方面的政策。",
+    "paragraph5": "若你選擇使用我們的服務，即表示你同意根據本政策收集與使用資訊。我們收集的個人資訊僅用於提供與改進本服務，且不會與任何第三方分享，除非本政策另有說明。",
+    "heading3": "資訊收集與使用",
+    "paragraph6": "為提供更佳體驗，在使用我們的服務時，我們可能會要求你提供某些可識別個人身分的資訊，包括但不限於電子郵件地址、使用者 ID 與裝置 ID。所要求的資訊會被我們保留並依本政策使用。",
+    "paragraph7": "本應用程式可能會使用能蒐集識別用戶資訊的第三方服務。",
+    "paragraph8": "第三方服務提供者之隱私政策連結",
+    "heading4": "記錄資料",
+    "paragraph9": "當你使用本服務時，若應用程式發生錯誤，我們會透過第三方產品收集你手機上的日誌資料。這些資料可能包括你的 IP 位址、裝置名稱、系統版本、使用服務時的應用程式設定、使用時間與日期等統計資訊。",
+    "heading5": "Cookie",
+    "paragraph10": "Cookie 是包含少量資料的檔案，通常用作匿名唯一識別碼。這些檔案會由你造訪的網站傳送至你的瀏覽器並儲存在裝置的內部記憶體中。",
+    "paragraph11": "本服務並未直接使用這些 Cookie。然而應用程式可能會使用第三方程式碼與函式庫，它們可能會利用 Cookie 收集資訊並改進服務。你可以選擇接受或拒絕 Cookie，並在 Cookie 傳送至你的裝置時收到通知。若你拒絕本服務的 Cookie，部分功能可能無法使用。",
+    "heading6": "服務供應商",
+    "paragraph12": "我們可能會因下列原因聘用第三方公司與個人：",
+    "paragraph13": "協助我們的服務、代為提供服務、執行與服務相關的任務、分析服務的使用方式。我們希望使用者知道，這些第三方能存取你的個人資訊，原因是他們需代表我們執行任務，但不得揭露或將資訊用於其他目的。",
+    "heading7": "安全性",
+    "paragraph14": "我們重視你對我們提供個人資訊的信任，因此致力採用商業上可接受的方式來保護這些資料。所有資料在傳輸與儲存時均加密，所有端點皆透過社群登入權杖驗證保護。但請記住，網路傳輸與電子儲存並非百分之百安全，我們無法保證其絕對安全。",
+    "heading8": "連結至其他網站",
+    "paragraph15": "本服務可能包含指向其他網站的連結。一旦你點擊第三方連結，你將離開本服務並前往該網站。我們無法控制且不負責任何第三方網站的內容、隱私政策或行為。",
+    "heading9": "兒童政策",
+    "paragraph16": "本服務不針對 13 歲以下兒童。我們不會故意收集 13 歲以下兒童的個人資訊。若發現兒童提供了個人資訊，我們會立即從伺服器移除。若你是家長或監護人並意識到你的孩子提供了個人資訊，請與我們聯繫以便採取必要措施。",
+    "heading10": "隱私政策的變更",
+    "paragraph17": "我們可能會不時更新本隱私政策。因此，我們建議你定期查看此頁面以了解變更。我們將透過於此頁發布新政策來通知你。變更將在發布後立即生效。",
+    "heading11": "資料保留",
+    "paragraph18": "帳號資料將在有必要時保留，使使用者能在未來回來使用。帳號可於應用程式帳號區、網站帳號區或透過註冊信箱寄信至 admin@pokebattler.com 來刪除。"
   },
   "dev": {
-    "title": "Dev",
+    "title": "開發",
     "push": {
-      "title": "Push Token",
-      "description": "Your expo push token: {{token}}",
-      "noToken": "No push token found"
+      "title": "推播 Token",
+      "description": "你的 Expo 推播 token：{{token}}",
+      "noToken": "未找到推播 token"
     },
     "lastReceivedNotification": {
-      "title": "Last Received Notification",
-      "subtitle": "Subtitle: {{subtitle}}",
-      "body": "Body: {{body}}",
-      "data": "Data: {{data}}",
-      "date": "Date: {{date}}",
-      "noNotification": "No notification received while app open"
+      "title": "上次收到的通知",
+      "subtitle": "副標題：{{subtitle}}",
+      "body": "內容：{{body}}",
+      "data": "資料：{{data}}",
+      "date": "日期：{{date}}",
+      "noNotification": "應用程式開啟期間未收到通知"
     },
     "lastClickedNotification": {
-      "title": "Last Clicked Notification",
-      "subtitle": "Subtitle: {{subtitle}}",
-      "body": "Body: {{body}}",
-      "data": "Data: {{data}}",
-      "date": "Date: {{date}}",
-      "noNotification": "No notification clicked while app open"
+      "title": "上次點擊的通知",
+      "subtitle": "副標題：{{subtitle}}",
+      "body": "內容：{{body}}",
+      "data": "資料：{{data}}",
+      "date": "日期：{{date}}",
+      "noNotification": "應用程式開啟期間無通知"
     },
     "expoSideNotification": {
-      "title": "Expo Side Notification",
-      "sendExpoMessage": "Send create message via Expo"
+      "title": "Expo 側欄通知",
+      "sendExpoMessage": "透過 Expo 傳送建立訊息"
     },
     "clientSideNotification": {
-      "title": "Client Side Notification",
-      "showRaidStartingNow": "Show raid starting now message in 1s"
+      "title": "客戶端通知",
+      "showRaidStartingNow": "於 1 秒後顯示團體戰開始提示"
     },
     "gluestackToasts": {
       "title": "Gluestack Toasts",
-      "showDefaultToast": "Show default toast",
-      "showErrorToast": "Show error toast",
-      "showSuccessToast": "Show success toast",
-      "showWarningToast": "Show warning toast"
+      "showDefaultToast": "顯示一般 toast",
+      "showErrorToast": "顯示錯誤 toast",
+      "showSuccessToast": "顯示成功 toast",
+      "showWarningToast": "顯示警告 toast"
     },
     "sentryTest": {
-      "title": "Sentry Test",
-      "sendSentryException": "Send Sentry Exception"
+      "title": "Sentry 測試",
+      "sendSentryException": "傳送 Sentry 錯誤"
     },
     "pokemonList": {
-      "title": "Pokemon List",
-      "subtitle": "Supported Pokemon"
+      "title": "寶可夢列表",
+      "subtitle": "支援的寶可夢"
     }
   },
   "about": {
-    "title": "About Pokebattler",
+    "title": "關於 Pokebattler",
     "pokebattler": {
       "title": "Pokebattler Raid Party",
-      "meta": "Raid Counters and Guide",
-      "version": "Version {{version}}",
-      "description": "Welcome to the Pokebattler Raid Party App. Designed to help you raid with confidence and minimal effort to defeat those raid bosses the first try. Pokebattler Raid Party App was created by Pokebattler.com to help organize and promote Pokemon Go raids by providing key features that are not provided by the game.",
-      "description2": "Pokebattler.com is backed by a powerful set of servers in the cloud that allows for more sophisticated simulations that can be performed on a phone. It provides server side storage to help cross platform and cross app functionality including discord",
-      "cta": "Invite your friends to download the app!",
-      "shareMessage": "Download the Pokebattler app to join raids with me!",
+      "meta": "團體戰對策與指南",
+      "version": "版本 {{version}}",
+      "description": "歡迎使用 Pokebattler Raid Party 應用程式。它旨在讓你能自信地以最小的氣力，首次就打敗團體戰頭目。Pokebattler Raid Party App 由 Pokebattler.com 建立，提供 Pokémon Go 未提供的功能，協助組織並推廣團體戰。",
+      "description2": "Pokebattler.com 建立在強大雲端伺服器上，能進行手機無法完成的更高階模擬，並提供伺服器端儲存，使跨平台與跨應用（包含 Discord）功能得以運作。",
+      "cta": "邀請你的朋友下載應用程式！",
+      "shareMessage": "下載 Pokebattler App，一起加入我的團體戰！",
       "url": "https://www.pokebattler.com/raidParty"
     },
     "thirdParty": {
-      "title": "Third Party Integrations",
+      "title": "第三方系統整合",
       "pokeNav": {
-        "title": "PokeNav - Discord Bot",
-        "meta": "A Pokemon Go Discord Bot for raiding, trading and more.",
-        "description": "PokeNav is a 3rd Party Discord bot that integrates into the Pokebattler Raid Party apis. This allows you to create and communicate about a raid in Discord with deep links directly into the app. ",
-        "description2": "Players can join the raid in the app or in discord.",
-        "cta": "Add PokeNav to your Discord Server",
+        "title": "PokeNav - Discord 機器人",
+        "meta": "一款用於團體戰、交換等功能的 Pokémon Go Discord 機器人。",
+        "description": "PokeNav 是一款第三方 Discord 機器人，能與 Pokebattler Raid Party API 整合，使你能在 Discord 中建立團體戰並進行交流，並提供深度連結回到應用程式。",
+        "description2": "玩家可以透過應用程式或 Discord 加入團體戰。",
+        "cta": "將 PokeNav 加入你的 Discord 伺服器",
         "url": "https://pokenavbot.com/"
       },
       "nexus": {
-        "title": "Nexus - Discord Bot",
-        "meta": "A Pokemon Go Discord Bot for cross server raiding, trades and more.",
-        "description": "Nexus is a 3rd Party Discord bot that integrates into the Pokebattler Raid Party apis. This allows you to create and communicate about a raid in Discord with deep links directly into the app OR to join the raid purely using the app. ",
-        "description2": "Players can join the raid in the app or in discord. Discord is not required",
-        "cta": "Add Nexus to your Discord Server",
+        "title": "Nexus - Discord 機器人",
+        "meta": "一款支援跨伺服器團體戰、交換等功能的 Pokémon Go Discord 機器人。",
+        "description": "Nexus 是一款第三方 Discord 機器人，能與 Pokebattler Raid Party API 整合。你可以在 Discord 建立團體戰並進行交流，或僅使用應用程式加入團體戰。",
+        "description2": "玩家可以在應用程式或 Discord 加入團體戰，Discord 並非必需。",
+        "cta": "將 Nexus 加入你的 Discord 伺服器",
         "url": "https://nexusraidbot.com/"
       },
       "minpoke": {
-        "title": "Minpoke - Pokemon Go Website",
-        "meta": "A Pokemon Go Website for raids, simulations and more.",
-        "description": "Minpoke is a Pokemon Go website very similar to Pokebattler but catering to the Japanese market. Minpoke raids can be joined within the Pokebattler Raid Party app and Pokebattler Raid Party raids can be joined on the Minpoke website",
-        "description2": "Players can join both Minpoke and Pokebattler Raid Party raids on either the website or in this app",
-        "cta": "Join raid queues on the Minpoke website",
+        "title": "Minpoke - Pokémon Go 網站",
+        "meta": "一個提供團體戰、模擬等功能的 Pokémon Go 網站。",
+        "description": "Minpoke 是一個與 Pokebattler 類似，但迎合日本玩家的 Pokémon Go 網站。Minpoke 的團體戰可在 Pokebattler Raid Party App 內加入，而 Pokebattler Raid Party App 的團體戰也可在 Minpoke 內加入。",
+        "description2": "玩家可在 Minpoke 網站或本應用程式加入 Minpoke 與 Pokebattler Raid Party 的團體戰。",
+        "cta": "在 Minpoke 網站中排隊加入團體戰",
         "url": "https://9db.jp/pokego/data/62"
       }
     }
