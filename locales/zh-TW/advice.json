@@ -1,10 +1,13 @@
 {
   "title": "團體戰建議",
   "meta": {
-    "description": "Pokémon GO 團體戰建議幫助你找出該強化哪些寶可夢，最有效率地花費糖果與星塵來擊敗頭目",
+    "description": "Pokémon GO 團體戰建議幫助你找出該強化哪些寶可夢，最有效率地花費糖果與星星沙子來擊敗頭目",
     "image": "https://static.pokebattler.com/images/og_raid_advice.jpg"
   },
   "linkLabel": "團體戰指南",
+  "pokeboxRequired": "Pokebattler Advice 需要你先把寶可夢加入你的寶可夢盒子才能正常運作。只要登入並把你最強的寶可夢加入寶可夢盒子，系統就能幫你找出最值得強化的寶可夢。",
+  "intro": "Pokebattler Advice 是一項自訂功能，用來協助你為特定團體戰最佳化你的寶可夢盒子。只要選擇你想挑戰的團體戰頭目，輸入你目前擁有的星星沙子與糖果，系統就會顯示你的寶可夢在強化後的狀態。這個工具能幫你判斷哪些寶可夢能從這些資源中獲得最大收益，讓你能以最高效率分配星星沙子與糖果。",
+  "intro2": "完成模擬後，你可以點擊任何一隻寶可夢查看每次強化後的提升幅度。通常會有一些關鍵等級，達到後你就可以停止繼續強化，節省星星沙子和糖果！這與你見過的其他關鍵等級工具不同，它是用模擬實證方式找出所有關鍵點，甚至包含那些不明顯的。",
   "inputs": {
     "title": "建議設定",
     "subtitle": "你需要哪方面的建議？"
@@ -32,19 +35,18 @@
     },
     "analysis": {
       "title": "關於此分析",
-      "description": "此團體戰建議係以 {{defender.cp}} CP 的 {{defender.pokemon}} 作為防守方，並搭配 {{attackers}} 進行模擬而得。模擬採用 {{attackStrategy}} 攻擊策略與 {{defenseStrategy}} 模擬類型。針對 {{defender.pokemon}} 的每種可能招式，都與所有寶可夢在每種可能招式組合下對戰，共執行 {{numSims}} 次模擬。依 {{sort}} 指標保留最佳 20 名攻擊者與其最佳招式組，並在此顯示。你可以點擊任何攻擊方查看該次模擬並嘗試不同招式。",
+      "description": "此團體戰建議是以 {{defender.cp}} CP 的 {{defender.pokemon}} 作為防守方，並搭配 {{attackers}} 進行模擬而得。模擬採用 {{attackStrategy}} 攻擊策略與 {{defenseStrategy}} 模擬類型。針對 {{defender.pokemon}} 的每種可能招式，都與所有寶可夢在每種可能招式組合下對戰，共執行 {{numSims}} 次模擬。依 {{sort}} 指標保留最佳 20 名攻擊者與其最佳招式組，並在此顯示。你可以點擊任何攻擊方查看該次模擬並嘗試不同招式。",
       "attackers": {
-        "byLevel": "等級{{attackerLevel}}攻擊者",
-        "pokebox": "#{{userId}}的寶可夢盒子中的定制化寶可夢"
+        "byLevel": "等級 {{attackerLevel}} 攻擊者",
+        "pokebox": "#{{userId}} 的寶可夢盒子中的定制化寶可夢"
       }
     },
-    "description": "歡迎查看 {{pokemon}} 的 Pokebattler 團體戰建議。你可以依頭目的不同配招找到最佳的潛在剋星。此指南可從多種面向自訂：你可以選擇攻擊等級、攻擊策略與各種排序方式，也能設定你可用的星塵與糖果數量。"
+    "description": "歡迎查看 {{pokemon}} 的 Pokebattler 團體戰建議。你可以依頭目的不同配招找到最佳的潛在剋星。此指南可從多種面向自訂：你可以選擇攻擊等級、攻擊策略與各種排序方式，也能設定你可用的星星沙子與糖果數量。"
   },
-  "pokeboxRequired": "Pokebattler Advice 需要你輸入寶可夢。登入並加入你最強的寶可夢到 Pokebox，我們會協助你找到最合適強化的寶可夢。",
   "result": {
     "title": "{{attacker}} 對 {{defender}} 的建議詳情",
     "meta": {
-      "description": "{{attacker}} 對 {{defender}} 的 Pokémon GO 團體戰建議詳情，顯示臨界點與星塵效率",
+      "description": "{{attacker}} 對 {{defender}} 的 Pokémon GO 團體戰建議詳情，顯示臨界點與星星沙子效率",
       "image": "https://static.pokebattler.com/images/og_raid_advice_details.jpg"
     },
     "subTitle": "{{attacker}} vs. {{defender}}",
@@ -63,6 +65,4 @@
   },
   "raidLink": "看強化前的結果",
   "helpLink": "看 Raid Advice 教學影片",
-  "intro": "Pokebattler 團體戰建議是一個客製化功能，幫助你針對特定團戰最佳化你的寶可夢盒子。只要選擇想要挑戰的頭目，輸入你可用的星塵與糖果，即可查看強化後的樣貌。這個工具會幫助你判斷哪些寶可夢最值得投入星塵與糖果，讓你的資源花得最有效率。",
-  "intro2": "執行模擬後，點擊任一寶可夢即可查看每次強化所帶來的提升。常常會出現臨界點，達到後就可以停手，省下星塵與糖果！與你看過的其他臨界點工具不同，本工具以實證方式找出不明顯的臨界點。"
 }
