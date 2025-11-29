@@ -8,7 +8,7 @@
   "tdo": "總輸出 (TDO)",
   "deaths": "瀕死數",
   "estimator": "估算人數",
-  "effectiveDeaths": "獲勝代價",
+  "effectiveDeaths": "獲勝瀕死數",
   "missingData": "???",
   "yourSummary": "你的摘要"
 }
