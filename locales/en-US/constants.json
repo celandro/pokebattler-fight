@@ -2267,7 +2267,7 @@
     "TORNADUS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.TORNADUS)",
     "THUNDURUS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.THUNDURUS)",
     "LANDORUS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LANDORUS)",
-    "OVERQWIL_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.OVERQWIL)",	    
+    "OVERQWIL_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.OVERQWIL)",
     "VENUSAUR_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.VENUSAUR)",
     "CHARIZARD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.CHARIZARD)",
     "BLASTOISE_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.BLASTOISE)",
