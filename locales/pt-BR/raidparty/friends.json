@@ -8,7 +8,8 @@
     "friendId": "ID Pokebattler",
     "noSearchText": "Encontre seus amigos",
     "friendLevel": "Nível de Amizade",
-    "noSearchResults": "Nenhum amigo encontrado, tente novamente!"
+    "noSearchResults": "Nenhum amigo encontrado, tente novamente!",
+    "setFriendLevel": "Adicione um amigo selecionando seu nível de amizade."
   },
   "noFriend": {
     "addFriend": "Adicione amigos ao tocar no botão \"adicionar\" no canto inferior direito.",
