@@ -2870,7 +2870,10 @@
     "DRAGON_ENERGY": "Dragon Energy",
     "DYNAMAX_CANNON": "Dynamax Cannon",
     "AQUA_STEP": "Aqua Step",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "SECRET_SWORD": "Secret Sword",
+    "BEAK_BLAST": "Beak Blast",
+    "MIND_BLOWN": "Mind Blown"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
