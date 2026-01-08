@@ -1,44 +1,44 @@
 {
-  "title": "對戰小隊 - 測試版",
-  "meta": {
-    "description": "保存您的寶可夢GO對戰小隊"
-  },
-  "explanation": "對戰小隊的用法和遊戲內一致。您可以用您的寶可夢組成對戰小隊，然後在後續的對戰中使用他們。您的對戰小隊可以被其他玩家用來模擬團體戰或pvp對戰。",
-  "battlePartyList": {
-    "title": "您的對戰小隊"
-  },
+  "title": "對戰隊伍",
   "select": {
-    "label": "選擇你的$t(common:battleParty)",
+    "label": "選擇你的 $t(common:battleParty)",
     "emptyName": "$t(common:battleParty) {{value}}",
-    "noneFound": "此聯盟沒有找到$t(common:battleParties)",
+    "noneFound": "此聯盟中找不到 $t(common:battleParties)",
     "create": "建立 $t(common:battleParty)",
     "edit": "編輯",
-    "title": "選擇對戰小隊",
+    "title": "選擇對戰隊伍",
     "open": "選擇 $t(common:battleParty)",
     "close": "選取"
   },
+  "meta": {
+    "description": "儲存你的 Pokémon GO 對戰隊伍"
+  },
+  "explanation": "對戰隊伍的設計方式與遊戲內完全相同。你可以使用自己的寶可夢來建立隊伍，並在進行對戰時使用。你的對戰隊伍也可以被其他玩家使用，用來模擬團體戰或 PVP 對戰。",
+  "battlePartyList": {
+    "title": "你的對戰隊伍"
+  },
   "full": {
-    "title": "小隊已滿",
-    "description": "你已達到此聯盟的小隊人數上限"
+    "title": "隊伍已滿",
+    "description": "你已達到此聯盟的隊伍寶可夢上限"
   },
   "empty": {
-    "title": "小隊為空",
-    "description": "你尚未從寶可盒新增任何寶可夢到此小隊"
+    "title": "隊伍為空",
+    "description": "你尚未從寶可夢盒子中將任何寶可夢加入此隊伍"
   },
   "add": {
-    "title": "對戰小隊",
+    "title": "對戰隊伍",
     "meta": {
-      "description": "添加一個寶可夢GO對戰小隊"
+      "description": "建立你的對戰隊伍"
     },
-    "description": "請在下方輸入框為你的對戰小隊命名。接著點擊『從寶可盒新增寶可夢』按鈕加入成員。最後點擊寶可夢來調整其屬性。",
-    "modify": "從寶可盒新增寶可夢"
+    "description": "請在下方輸入框中為你的對戰隊伍命名，接著點擊「從寶可夢盒子中新增寶可夢」按鈕加入隊伍成員。最後，點擊寶可夢即可調整其能力數值。",
+    "modify": "從你的寶可夢盒子中新增寶可夢"
   },
   "edit": {
-    "title": "編輯對戰小隊",
+    "title": "編輯對戰隊伍",
     "meta": {
-      "description": "編輯你的對戰小隊"
+      "description": "編輯你的對戰隊伍"
     },
-    "description": "在下方文字框更新你的對戰小隊名稱。你也可以透過下拉選單變更聯盟。接著點擊『變更對戰小隊成員』按鈕調整成員。最後點擊各寶可夢以修改其屬性！",
-    "modify": "變更對戰小隊成員"
+    "description": "在下方文字框中更新你的對戰隊伍名稱，也可以透過下拉選單更換聯盟。接著點擊「變更你的對戰隊伍成員」按鈕來調整成員，最後點擊每一隻寶可夢即可修改其能力數值！",
+    "modify": "變更你的對戰隊伍成員"
   }
 }
