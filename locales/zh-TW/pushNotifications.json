@@ -1,14 +1,14 @@
 {
   "CREATE_PARTY": {
-    "title": "{{attackerName}} 已建立 {{tier}} {{defender}}",
-    "subtitle": "對戰小隊 #{{raidPartyId}}",
+    "title": "{{attackerName}} 建立了 {{tier}} {{defender}}",
+    "subtitle": "團體戰隊伍 #{{raidPartyId}}",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
     "line3": "$t(pushNotifications:defaultBody.line3)",
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "ADD_USER": {
-    "title": "{{attackerName}} 已加入 {{defender}} 團戰",
+    "title": "{{attackerName}} 加入了 {{defender}} 團體戰",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -16,7 +16,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "REMOVE_USER": {
-    "title": "{{attackerName}} 已離開 {{defender}} 團戰",
+    "title": "{{attackerName}} 離開了 {{defender}} 團體戰",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -24,7 +24,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "UPDATE_USER": {
-    "title": "{{defender}} 對戰小隊更新",
+    "title": "{{defender}} 團體戰隊伍更新",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -32,7 +32,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "UPDATE_PARTY": {
-    "title": "{{defender}} 對戰小隊更新",
+    "title": "{{defender}} 團體戰隊伍更新",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -40,7 +40,7 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "UPDATE_PRIVACY": {
-    "title": "{{defender}} 對戰小隊改為公開",
+    "title": "{{defender}} 團體戰隊伍公開狀態更新",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -48,72 +48,72 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "RAID_STARTING": {
-    "title": "{{defender}} 團戰將於 {{timeUntilRaidSeconds}} 秒後開始",
-    "subtitle": "請留意遊戲內的邀請",
+    "title": "{{defender}} 團體戰將於 {{timeUntilRaidSeconds}} 秒後開始",
+    "subtitle": "請在遊戲內留意邀請",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
     "line3": "$t(pushNotifications:defaultBody.line3)",
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "RAID_STARTING_NOW": {
-    "title": "團戰現在開始！",
-    "subtitle": "請留意遊戲內的邀請",
+    "title": "團體戰現在開始！",
+    "subtitle": "請在遊戲內留意邀請",
     "line1": "",
     "line2": "",
     "line3": "",
     "line4": ""
   },
   "RAID_INVITING_NOW": {
-    "title": "請立即發送團戰邀請！",
+    "title": "現在發送團體戰邀請！",
     "subtitle": "",
-    "line1": "先在 Pokebattler Raid Party App 點擊複製訓練家名稱",
-    "line2": "接著在 Pokémon GO 中加入團戰 → 邀請朋友 → 貼上訓練家名稱",
+    "line1": "先在 Pokebattler Raid Party App 中使用「複製訓練家」按鈕複製訓練家名稱",
+    "line2": "接著在 Pokémon GO 中加入團體戰，點選邀請朋友，並貼上訓練家名稱",
     "line3": "",
     "line4": ""
   },
   "RAID_DONE": {
-    "title": "{{defender}} 團戰已完成",
+    "title": "{{defender}} 團體戰完成",
     "subtitle": "",
-    "line1": "感謝使用 Pokebattler Raid Party 一起團戰！",
+    "line1": "感謝你使用 Pokebattler Raid Party 進行團體戰",
     "line2": "",
     "line3": "",
     "line4": ""
   },
   "KICKED_USER": {
-    "title": "你已被移出 {{defender}} 團戰",
+    "title": "你已被移出 {{defender}} 團體戰",
     "subtitle": "主持人已將你移除。",
-    "line1": "主持人可能因各種原因移除你。最常見包括：",
-    "line2": "1. 你尚未傳送好友邀請給主持人",
-    "line3": "2. 訓練家名稱或等級與設定不符",
-    "line4": "3. 以你的等級，此頭目難度過高"
+    "line1": "主持人可能因以下原因將你移除，最常見的包括：",
+    "line2": "1. 你尚未向主持人發送好友邀請",
+    "line3": "2. 訓練家名稱或等級與你的設定不符",
+    "line4": "3. 該頭目對你的等級來說過於困難"
   },
   "defaultBody": {
     "subtitle": "{{tier}} {{defender}} #{{raidPartyId}}",
-    "line1": "{{numReadyAttackers}} / {{numAttackers}} 位玩家已就緒",
+    "line1": "{{numReadyAttackers}} / {{numAttackers}} 名玩家已準備",
     "line2": "{{winPercent}}% 勝率",
-    "line3": "{{powerPercent}}% 團隊輸出",
-    "line4": "需要 {{estimator}} 位玩家"
+    "line3": "{{powerPercent}}% 團隊傷害",
+    "line4": "需要 {{estimator}} 名玩家"
   },
   "discordLine": "#{{discordChannel}} - {{discordServerName}}",
   "globalRaidNetwork": {
     "avatar": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png",
-    "username": "Pokebattler Raid Network",
-    "title": "{{discordFlag}}**{{defender}}** - {{tier}} ({{discordLanguage}})",
+    "username": "Pokebattler 團體戰網絡",
+    "title": "{{discordFlag}}**{{defender}}** - {{tier}}（{{discordLanguage}}）",
     "titleUnknownLanguage": "{{discordFlag}}**{{defender}}** - {{tier}}",
-    "description": "{{remoteSlotsEmoji}} 空位 - {{hostName}} ({{hostKarma}}:+1:)\n\n>>> 一鍵加入：使用 [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join) 或永久加入該 Discord 伺服器。\n",
-    "descriptionNonDiscord": "{{remoteSlotsEmoji}} 空位 - {{hostName}} ({{hostKarma}}:+1:)\n",
+    "description": "{{remoteSlotsEmoji}} 尚有空位 - {{hostName}}（{{hostKarma}}:+1:）\n\n>>> 使用 [Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join) 一鍵加入，或永久加入 Discord 伺服器。\n",
+    "descriptionNonDiscord": "{{remoteSlotsEmoji}} 尚有空位 - {{hostName}}（{{hostKarma}}:+1:）\n",
     "url": "https://www.pokebattler.com/raidParty/{{raidPartyId}}",
     "field1": {
       "name": "加入 Discord 伺服器",
       "value": "[{{discordGuildName}}]({{discordGuildInviteUrl}})"
     },
     "field2": {
-      "name": "Discord 團戰連結",
+      "name": "Discord 團體戰連結",
       "value": "[透過 {{botName}}](https://discord.com/channels/{{discordGuildId}}/{{discordChannelId}}/{{discordMessageId}})"
     },
     "field3": {
       "name": "一鍵加入",
-      "value": "[透過 Pokebattler Raid Network](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
+      "value": "[透過 Pokebattler 團體戰網絡](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
     },
     "field1NonDiscord": {
       "name": "僅限 App 使用",
@@ -128,6 +128,6 @@
       "name": "Pokebattler Raid Party App",
       "icon_url": "https://static.pokebattler.com/images/pokebattler_raid_party_logo.png"
     },
-    "footer": "{{numAttackers}} 位玩家 - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)"
+    "footer": "{{numAttackers}} 名玩家 - $t(pushNotifications:defaultBody.line2) - $t(pushNotifications:defaultBody.line3) - $t(pushNotifications:defaultBody.line4)"
   }
 }
