@@ -1,27 +1,27 @@
 {
   "search": {
     "title": "Pokebattler 公開個人檔案",
-    "description": "找朋友！你可以用訓練家名稱或 Pokebattler 使用者 ID 搜尋。此功能讓你能快速把你的寶可盒內容分享給朋友！",
+    "description": "尋找你的朋友！你可以依訓練家名稱或 Pokebattler 使用者 ID 進行搜尋。此功能讓你能快速與朋友分享你寶可夢盒子的內容！",
     "meta": {
-      "description": "檢視其他 Pokebattler 使用者的公開檔案。",
+      "description": "查看其他 Pokebattler 使用者的公開個人檔案。",
       "image": "https://static.pokebattler.com/images/og_home.png"
     },
     "input": {
-      "title": "找到你的朋友",
+      "title": "尋找你的朋友",
       "subtitle": "使用者 ID 可在右上角找到",
       "label": "Pokebattler 使用者編號或訓練家名稱"
     },
     "results": {
-      "empty": "沒有符合的訓練家",
-      "title": "{{totalElements}} 位訓練家",
-      "subtitle": "第 {{currentPage}} / {{totalPages}} 頁"
+      "empty": "找不到符合條件的訓練家",
+      "title": "找到 {{totalElements}} 位訓練家",
+      "subtitle": "第 {{currentPage}} 頁／共 {{totalPages}} 頁"
     }
   },
   "profile": {
-    "title": "使用者 #{{profileId}} 的公開檔案",
-    "description": "Pokebattler 檔案現在可以分享。目前你可以讓朋友看到你擁有的寶可夢，之後還會有更多功能！",
+    "title": "使用者 #{{profileId}} 公開個人檔案",
+    "description": "Pokebattler 的個人檔案現在可以分享了。目前你可以向朋友展示你擁有的寶可夢，未來還會加入更多功能！",
     "meta": {
-      "description": "檢視使用者 #{{profileId}} 的公開檔案。看看 {{name}} 正在使用哪些寶可夢",
+      "description": "查看使用者 #{{profileId}} 的公開個人檔案，看看 {{name}} 正在使用哪些寶可夢",
       "image": "https://static.pokebattler.com/images/og_home.png"
     }
   }
