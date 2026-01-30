@@ -1,38 +1,38 @@
 {
   "title": "{{defender}} 剋星與對戰分析",
   "meta": {
-    "description": "Pokémon GO {{defender}} 圖鑑是一個可自訂的指南，說明哪些寶可夢能剋制 {{defender}}，以及 {{defender}} 在進攻時對位最佳的對手。",
+    "description": "Pokémon GO {{defender}} 圖鑑是一個可自訂的指南，說明哪些寶可夢能有效剋制 {{defender}}，以及 {{defender}} 在進攻時最有利的對戰對象。",
     "image": "https://static.pokebattler.com/images/og_gym_pokedex.jpg"
   },
-  "intro": "歡迎來到 Pokebattler 的 $t(constants:pokemon.{{pokemon}}) 圖鑑。你可以查到 $t(constants:pokemon.{{pokemon}}) 最佳的進攻與防守招式組合，以及在進攻時最不利的對位與在防守時最佳的剋星。如此一來，你就能知道在對戰中該避免哪些寶可夢，以及如何擊敗惱人的防守者。你可以隨時調整下方選項，看看不同對戰情境的影響，或改變排序方式以符合你的偏好。一如既往，本頁結果由 Pokebattler Pokémon GO 對戰模擬器所產生。只要點擊對手寶可夢的圖片，就能深入查看單一模擬結果。",
-  "loading": "正在為 $t(constants:pokemon.{{pokemon}}) 產生詳細對戰分析。此頁面需要超過一百萬次模擬，但不會花太久時間。",
+  "intro": "歡迎來到 Pokebattler 的 $t(constants:pokemon.{{pokemon}}) 圖鑑。在這裡你可以查看 $t(constants:pokemon.{{pokemon}}) 最佳的進攻與防守招式組合，以及進攻時最不利的對位與防守時最具威脅的剋星。這能幫助你在對戰中避開不利的寶可夢，並有效擊敗惱人的防守者。你可以隨時調整下方選項，觀察不同對戰條件帶來的影響，或更改排序方式以符合你的偏好。一如既往，本頁所有結果皆由 Pokebattler 的 Pokémon GO 對戰模擬器產生。只要點擊對手寶可夢的圖片，即可查看單場模擬的詳細數據。",
+  "loading": "正在為 $t(constants:pokemon.{{pokemon}}) 產生詳細對戰分析。本頁需要執行超過一百萬次模擬，但請放心，所需時間不會太久。",
   "about": {
     "title": "關於此對戰分析",
-    "text1": "此份 {{pokemon}} 的分析是以 {{attackerLevel}} 等級的攻擊方對上 {{defenderLevel}} 等級的防守方進行模擬而成。排名模擬採用 {{attackStrategy}} 攻擊策略與 {{dodgeStrategy}} 閃避策略，並基於蒙地卡羅（Monte Carlo）模擬。首先，將每隻完全進化的寶可夢在所有可能的招式組合作為攻擊方與防守方，彼此對戰 {{pokemon}}，找出預期策略下最好的 32 名剋星與最差的 32 個對位。接著針對這些 32 名剋星／對位的前 5 套最佳招式，各執行數百次蒙地卡羅模擬，總計 {{simulationCount}} 次模擬。最後保留依據 {{sort}} 的最佳 30 名剋星與最差 30 個對位並呈現在此。",
-    "text2": "你可以點擊任何攻擊方以查看該場模擬的詳細結果。可於每個結果右上角點擊排序圖示並選擇你偏好的排序類型。",
+    "text1": "此份 {{pokemon}} 的分析是以等級 {{attackerLevel}} 的攻擊方對上等級 {{defenderLevel}} 的防守方進行模擬。排名計算採用 {{attackStrategy}} 攻擊策略與 {{dodgeStrategy}} 閃避策略，並以蒙地卡羅（Monte Carlo）模擬為基礎。首先，系統會將每一隻完全進化的寶可夢，搭配所有可能的招式組合，分別作為攻擊方與防守方與 {{pokemon}} 對戰，找出在該策略下表現最好的 32 名剋星與最差的 32 個對位。接著，針對這些剋星與對位的前 5 套最佳招式組合，各執行數百次蒙地卡羅模擬，總計 {{simulationCount}} 次。最後，依據 {{sort}} 指標保留最佳 30 名剋星與最差 30 個對位，並顯示於本頁。",
+    "text2": "你可以點擊任何攻擊方寶可夢，以查看該場模擬的完整細節。也可在每個結果右上角點擊排序圖示，選擇你偏好的排序方式。",
     "text3": {
-      "text": "更多資訊可見 {{link}}",
+      "text": "更多相關資訊請參閱 {{link}}",
       "link": "說明文件"
     }
   },
   "bestAttack": {
     "title": "最佳進攻招式組",
-    "subtitle": "依 $t(common:properties.{{sort}})",
+    "subtitle": "依 $t(common:properties.{{sort}}) 排序",
     "rankingTitle": "對最差 30 個對位的平均對戰數據"
   },
   "bestDefense": {
     "title": "最佳防守招式組",
-    "subtitle": "依 $t(common:properties.{{sort}})",
+    "subtitle": "依 $t(common:properties.{{sort}}) 排序",
     "rankingTitle": "對前 6 名剋星的平均對戰數據"
   },
   "attackMatchups": {
     "title": "進攻對位",
-    "subtitle": "依 $t(common:properties.{{sort}})",
-    "text": "以下分析顯示等級為 {{attackerLevel}} 的 $t(constants:pokemon.{{pokemon}}) 對上最難纏的 {{defenderLevel}} 防守者時的結果。此排行是相對於所有攻擊方在 $t(common:properties.{{sort}}) 指標上的表現。簡單來說，把 $t(constants:pokemon.{{pokemon}}) 用在這份清單頂端的對手就對了！"
+    "subtitle": "依 $t(common:properties.{{sort}}) 排序",
+    "text": "以下分析顯示等級 {{attackerLevel}} 的 $t(constants:pokemon.{{pokemon}}) 對上等級 {{defenderLevel}}、最難應付的防守者時的對戰結果。此排名是根據所有攻擊方在 $t(common:properties.{{sort}}) 指標上的相對表現而定。簡單來說，想進攻的話，優先選擇這份清單頂端的對手準沒錯！"
   },
   "bestCounters": {
     "title": "最佳剋星",
-    "subtitle": "依 $t(common:properties.{{sort}})",
-    "text": "以下分析顯示在 $t(common:properties.{{sort}}) 指標上，等級為 {{attackerLevel}} 的寶可夢對上等級 {{defenderLevel}} 的 $t(constants:pokemon.{{pokemon}}) 時最強的攻擊方。若 $t(constants:pokemon.{{pokemon}}) 正在防守道館，這些就是你最該使用的寶可夢。"
+    "subtitle": "依 $t(common:properties.{{sort}}) 排序",
+    "text": "以下分析顯示在 $t(common:properties.{{sort}}) 指標下，等級 {{attackerLevel}} 的寶可夢對上等級 {{defenderLevel}} 的 $t(constants:pokemon.{{pokemon}}) 時，表現最強勢的攻擊方。如果 $t(constants:pokemon.{{pokemon}}) 正在防守道館，這些就是你最值得派出的寶可夢。"
   }
 }
