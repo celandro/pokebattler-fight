@@ -3247,6 +3247,10 @@
     "FRIENDSHIP_LEVEL_4": {
       "label": "Beste Freunde",
       "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Beste freunde bekommen 15% Angriffsbonus, 4 extra Bonus Ball im Raid und können nicht-mythische Pokemon mit 96% Sternenstaubrabbat tauschen."
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "Ewige Freunde",
+      "description": "Das maximale Freundschaftslevel was du mit irgendjemandem im Raid haben kannst. Ewige Freunde bekommen 12% Angriffsbonus und können remote tauschen."
     }
   },
   "battlePartyTypes": {

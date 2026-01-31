@@ -3387,6 +3387,10 @@
     "FRIENDSHIP_LEVEL_4": {
       "label": "Best Friends",
       "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 10% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "Forever Friends",
+      "description": "The maximum friend level you have with anyone at the raid. Forever Friends get a 12% bonus to attack and can trade remotely."
     }
   },
   "autoBattlePartyTypes": {

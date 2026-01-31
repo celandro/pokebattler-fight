@@ -3295,6 +3295,10 @@
     "FRIENDSHIP_LEVEL_4": {
       "label": "Najlepsi Przyjaciele",
       "description": "Maxymalny poziom przyjaźni, który masz z kimkolwiek w raidzie. Wspaniali Przyjaciele otrzymują bonus 10% do ataku oraz 4 dodatkowe pokeballe w raidach. Mogą również wymieniać się nie-mitycznymi Pokemonami ze zniżką 96% gwiezdnego pyłu."
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "Przyjaciele na Zawsze",
+      "description": "Maxymalny poziom przyjaźni, który masz z kimkolwiek w raidzie. Przyjaciele na Zawsze otrzymują bonus 12% do ataku i mogą wymieniać się na odległość."
     }
   },
   "battlePartyTypes": {

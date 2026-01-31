@@ -6,7 +6,8 @@
     "FRIENDSHIP_LEVEL_1": "好朋友",
     "FRIENDSHIP_LEVEL_2": "給力好朋友",
     "FRIENDSHIP_LEVEL_3": "麻吉好朋友",
-    "FRIENDSHIP_LEVEL_4": "正港好朋友"
+    "FRIENDSHIP_LEVEL_4": "正港好朋友",
+    "FRIENDSHIP_LEVEL_5": "永遠的好朋友"
   },
   "add": {
     "friendId": "Pokebattler ID",

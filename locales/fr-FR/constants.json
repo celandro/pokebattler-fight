@@ -3245,6 +3245,10 @@
     "FRIENDSHIP_LEVEL_4": {
       "label": "Meilleurs Amis",
       "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Meilleurs Amis obtiennent un bonus d'attaque de 15% et 4 Honor Balls supplémentaires pendant les raids. Ils peuvent s'échanger tous les Pokémon (excepté les mythiques) pour 96% de poussière d'étoile en moins."
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "Amis pour Toujours",
+      "description": "Votre niveau maximum d'amitié avec les autres membres du raid. Les Amis pour Toujours obtiennent un bonus d'attaque de 12% et peuvent échanger à distance."
     }
   },
   "levelVs": "Attaquant Niveau {{attackerLevel}} VS Défenseur Niveau {{defenderLevel}}",

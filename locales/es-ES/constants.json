@@ -3191,19 +3191,19 @@
     },
     "PERCENTILE_75": {
       "label": "Afortunado - 75%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 75th percentile."
+      "description": "Ordena los resultados de las simulaciones de Monte Carlo por clasificación general y entrega el percentil 75."
     },
     "PERCENTILE_25": {
       "label": "Desafortunado - 25%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 25th percentile."
+      "description": "Ordena los resultados de las simulaciones de Monte Carlo por clasificación general y entrega el percentil 25."
     },
     "PERCENTILE_5": {
-      "label": "Very Unlucky - 5%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 5th percentile."
+      "label": "Muy desafortunado - 5%",
+      "description": "Ordena los resultados de las simulaciones de Monte Carlo por clasificación general y entrega el percentil 5."
     },
     "PERCENTILE_1": {
-      "label": "Extremely unlucky - 1%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 1st percentile."
+      "label": "Extremadamente desafortunado - 1%",
+      "description": "Ordena los resultados de las simulaciones de Monte Carlo por clasificación general y entrega el percentil 1."
     }
   },
   "levelVs": "Atacante de nivel {{attackerLevel}} Vs. Defensor de nivel {{defenderLevel}}",
@@ -3237,208 +3237,212 @@
     }
   },
   "sorts": {
-    "label": "Sort Order",
+    "label": "Orden",
     "OVERALL": {
       "label": "$t(common:properties.overall)",
-      "description": "A weighted strength score"
+      "description": "Puntuación de fuerza ponderada"
     },
     "POWER": {
       "label": "$t(common:properties.power)",
-      "description": "The percent of opponents health removed within the time limit"
+      "description": "El porcentaje de salud del oponente eliminada dentro del límite de tiempo"
     },
     "WIN": {
       "label": "$t(common:properties.win)",
-      "description": "Chance of victory"
+      "description": "Probabilidad de victoria"
     },
     "TIME": {
       "label": "$t(common:properties.time)",
-      "description": "Time to win assuming infinite number of Pokemon"
+      "description": "Tiempo para ganar asumiendo un número infinito de Pokémon"
     },
     "POTIONS": {
       "label": "$t(common:properties.potions)",
-      "description": "1 point for each potion and 5 points for each revive"
+      "description": "1 punto por cada poción y 5 puntos por cada revivir"
     },
     "TDO": {
       "label": "$t(common:properties.tdo)",
-      "description": "Damage done per Pokemon"
+      "description": "Daño hecho por Pokémon"
     },
     "ESTIMATOR": {
       "label": "$t(common:properties.estimator)",
-      "description": "Approximate number of players required to win"
+      "description": "Número aproximado de jugadores necesarios para ganar"
     },
     "WEATHER": {
-      "label": "Weather",
-      "description": "Best in weather"
+      "label": "Clima",
+      "description": "Mejor con clima"
     },
     "DODGE_SPECIALS": {
-      "label": "Dodge Specials",
-      "description": "Best when dodging"
+      "label": "Esquivar especiales",
+      "description": "Mejor al esquivar"
     },
     "40+W+F": {
-      "label": "40 + Boosts",
-      "description": "Level 40, Weather, Best Friends"
+      "label": "40 + Bonificaciones",
+      "description": "Nivel 40, Clima, Mejores Amigos"
     }
   },
   "levels": {
-    "20": "Level 20",
-    "25": "Level 25",
-    "30": "Level 30",
-    "35": "Level 35",
-    "40": "Level 40",
-    "40+W+F": "40 + Boosts"
+    "20": "Nivel 20",
+    "25": "Nivel 25",
+    "30": "Nivel 30",
+    "35": "Nivel 35",
+    "40": "Nivel 40",
+    "40+W+F": "40 + Bonificaciones"
   },
   "friendLevels": {
     "FRIENDSHIP_LEVEL_UNSET": {
-      "label": "Not Friends",
-      "description": "If you are not friends with anyone else in the raid, you get no bonus to attack."
+      "label": "No son amigos",
+      "description": "Si no eres amigo de nadie en la incursión, no recibes bonificación de ataque."
     },
     "FRIENDSHIP_LEVEL_0": {
-      "label": "New Friends",
-      "description": "If you are new friends with anyone else in the raid, you get no bonus to attack. You can only trade regular Pokemon both players already own."
+      "label": "Nuevos amigos",
+      "description": "Si eres nuevo amigo de alguien en la incursión, no recibes bonificación de ataque. Solo puedes intercambiar Pokémon normales que ambos jugadores ya posean."
     },
     "FRIENDSHIP_LEVEL_1": {
-      "label": "Good Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Good Friends get a 3% bonus to attack and can trade non-mythical Pokemon."
+      "label": "Buena amistad",
+      "description": "El nivel máximo de amistad que tienes con alguien en la incursión. La Buena Amistad otorga un 3% de bonificación de ataque y permite intercambiar Pokémon no míticos."
     },
     "FRIENDSHIP_LEVEL_2": {
-      "label": "Great Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Great Friends get a 5% bonus to attack, 1 extra bonus ball in raids. They can trade non-mythical Pokemon with a 20% stardust discount."
+      "label": "Gran amistad",
+      "description": "El nivel máximo de amistad que tienes con alguien en la incursión. La Gran Amistad otorga un 5% de bonificación de ataque y 1 bola extra en incursiones. Pueden intercambiar Pokémon no míticos con 20% de descuento en polvo estelar."
     },
     "FRIENDSHIP_LEVEL_3": {
-      "label": "Ultra Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Ultra Friends get a 7% bonus to attack, 2 extra bonus balls in raids. They can trade non-mythical Pokemon with a 92% stardust discount."
+      "label": "Ultraamistad",
+      "description": "El nivel máximo de amistad que tienes con alguien en la incursión. La Ultraamistad otorga un 7% de bonificación de ataque y 2 bolas extra en incursiones. Pueden intercambiar Pokémon no míticos con 92% de descuento en polvo estelar."
     },
     "FRIENDSHIP_LEVEL_4": {
-      "label": "Best Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 10% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
+      "label": "Mejores amigos",
+      "description": "El nivel máximo de amistad que tienes con alguien en la incursión. Los Mejores Amigos obtienen un 10% de bonificación de ataque y 4 bolas extra en incursiones. Pueden intercambiar Pokémon no míticos con 96% de descuento en polvo estelar."
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "Amigos para siempre",
+      "description": "El nivel máximo de amistad que tienes con alguien en la incursión. Los Amigos para Siempre obtienen un 12% de bonificación de ataque y pueden intercambiar de forma remota."
     }
   },
   "autoBattlePartyTypes": {
-    "label": "Auto Raid Party",
+    "label": "Equipo de incursión automático",
     "BATTLE_PARTY_POKEBOX": {
       "label": "Pokebox",
-      "description": "Use the best Pokemon from your Pokebox"
+      "description": "Usa los mejores Pokémon de tu Pokebox"
     },
     "BATTLE_PARTY_LEVEL_20": {
-      "label": "Level 20",
-      "description": "Use the best level 20 Pokemon"
+      "label": "Nivel 20",
+      "description": "Usa los mejores Pokémon de nivel 20"
     },
     "BATTLE_PARTY_LEVEL_25": {
-      "label": "Level 25",
-      "description": "Use the best level 25 Pokemon"
+      "label": "Nivel 25",
+      "description": "Usa los mejores Pokémon de nivel 25"
     },
     "BATTLE_PARTY_LEVEL_30": {
-      "label": "Level 30",
-      "description": "Use the best level 30 Pokemon"
+      "label": "Nivel 30",
+      "description": "Usa los mejores Pokémon de nivel 30"
     },
     "BATTLE_PARTY_LEVEL_35": {
-      "label": "Level 35",
-      "description": "Use the best level 35 Pokemon"
+      "label": "Nivel 35",
+      "description": "Usa los mejores Pokémon de nivel 35"
     },
     "BATTLE_PARTY_LEVEL_40": {
-      "label": "Level 40",
-      "description": "Use the best level 40 Pokemon"
+      "label": "Nivel 40",
+      "description": "Usa los mejores Pokémon de nivel 40"
     },
     "BATTLE_PARTY_LEVEL_45": {
-      "label": "Level 45",
-      "description": "Use the best level 45 Pokemon"
+      "label": "Nivel 45",
+      "description": "Usa los mejores Pokémon de nivel 45"
     },
     "BATTLE_PARTY_LEVEL_50": {
-      "label": "Level 50",
-      "description": "Use the best level 50 Pokemon"
+      "label": "Nivel 50",
+      "description": "Usa los mejores Pokémon de nivel 50"
     }
   },
   "battlePartyTypes": {
-    "label": "League",
+    "label": "Liga",
     "COMBAT_LEAGUE_RAIDS_GYMS": {
-      "label": "Raids & Gyms",
-      "description": "6 pokemon with no limits."
+      "label": "Incursiones y Gimnasios",
+      "description": "6 Pokémon sin límites."
     },
     "COMBAT_LEAGUE_DEFAULT_GREAT": {
-      "label": "Great League",
-      "description": "3 Pokemon with a maximum CP of 1500."
+      "label": "Liga Super Ball",
+      "description": "3 Pokémon con un PC máximo de 1500."
     },
     "COMBAT_LEAGUE_DEFAULT_ULTRA": {
-      "label": "Ultra League",
-      "description": "3 Pokemon with a maximum CP of 2500."
+      "label": "Liga Ultra Ball",
+      "description": "3 Pokémon con un PC máximo de 2500."
     },
     "COMBAT_LEAGUE_DEFAULT_MASTER": {
-      "label": "Master League",
-      "description": "3 Pokemon with no limits."
+      "label": "Liga Master Ball",
+      "description": "3 Pokémon sin límites."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
-      "label": "Flying Cup",
-      "description": "3 Flying Pokemon with a maximum CP of 1500."
+      "label": "Copa Vuelo",
+      "description": "3 Pokémon de tipo Volador con un PC máximo de 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
-      "label": "Halloween Cup",
-      "description": "3 Pokemon of Poison, Bug, Ghost, Dark or Fairy types with a maximum CP of 1500."
+      "label": "Copa Halloween",
+      "description": "3 Pokémon de tipo Veneno, Bicho, Fantasma, Siniestro o Hada con un PC máximo de 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
-      "label": "Kanto Cup",
-      "description": "3 Pokemon from Gen 1 with a maximum CP of 1500."
+      "label": "Copa Kanto",
+      "description": "3 Pokémon de la Gen 1 con un PC máximo de 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
-      "label": "Holiday Cup",
-      "description": "3 Pokemon of Normal, Grass, Electric, Ice, Flying, or Ghost types with a maximum CP of 1500."
+      "label": "Copa Festiva",
+      "description": "3 Pokémon de tipo Normal, Planta, Eléctrico, Hielo, Volador o Fantasma con un PC máximo de 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
-      "label": "Great League - Remix",
-      "description": "10 most popular Great League Pokemon are banned with a maximum CP of 1500."
+      "label": "Liga Super Ball - Remix",
+      "description": "Los 10 Pokémon más populares de la Liga Super Ball están prohibidos, con un PC máximo de 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELEMENT": {
-      "label": "Great League - Element",
-      "description": "A restricted cup with a maximum CP of 500."
+      "label": "Liga Super Ball - Elemento",
+      "description": "Una copa restringida con un PC máximo de 500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
-      "label": "Great League - Bidoof",
-      "description": "Bidoof? Bidoof!"
+      "label": "Liga Super Ball - Bidoof",
+      "description": "¿Bidoof? ¡Bidoof!"
     },
     "COMBAT_LEAGUE_PREMIER_CUP": {
-      "label": "Premier Cup",
-      "description": "3 non-legendary, non-mythical Pokemon."
+      "label": "Copa Élite",
+      "description": "3 Pokémon no legendarios ni míticos."
     },
     "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
-      "label": "Ultra Premier Cup",
-      "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+      "label": "Copa Élite Ultra",
+      "description": "3 Pokémon no legendarios ni míticos con un PC máximo de 2500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER_CLASSIC": {
-      "label": "Premier Cup Classic",
-      "description": "3 non-legendary, non-mythical Pokemon."
+      "label": "Copa Élite Clásica",
+      "description": "3 Pokémon no legendarios ni míticos."
     },
     "COMBAT_LEAGUE_VS_SEEKER_ULTRA_PREMIER_CLASSIC": {
-      "label": "Ultra Premier Cup Classic",
-      "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+      "label": "Copa Élite Ultra Clásica",
+      "description": "3 Pokémon no legendarios ni míticos con un PC máximo de 2500."
     },
     "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
-      "label": "Silph Arena Sunrise Cup",
-      "description": "The October Silph Arena Season 3 Cup tournament."
+      "label": "Copa Amanecer de Silph Arena",
+      "description": "El torneo de la temporada 3 de Silph Arena de octubre."
     },
     "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
-      "label": "Silph Arena Marsh Cup",
-      "description": "The November Silph Arena Season 3 Cup tournament."
+      "label": "Copa Pantano de Silph Arena",
+      "description": "El torneo de la temporada 3 de Silph Arena de noviembre."
     },
     "COMBAT_LEAGUE_SILPH_NIGHTFALL_CUP": {
-      "label": "Silph Arena Nightfall Cup",
-      "description": "The December Silph Arena Season 3 Cup tournament."
+      "label": "Copa Anochecer de Silph Arena",
+      "description": "El torneo de la temporada 3 de Silph Arena de diciembre."
     },
     "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
-      "label": "Silph Arena Labyrinth Cup",
-      "description": "The February Silph Arena Season 3 Cup tournament."
+      "label": "Copa Laberinto de Silph Arena",
+      "description": "El torneo de la temporada 3 de Silph Arena de febrero."
     }
   },
   "privacy": {
     "PRIVATE": {
-      "label": "Private",
-      "description": "A raid that can only be joined by people who know the raid party id"
+      "label": "Privado",
+      "description": "Una incursión a la que solo pueden unirse personas que conozcan el ID del grupo"
     },
     "FRIEND": {
-      "label": "Friend",
-      "description": "A raid for your friends to join. A push notification will be sent to your friends"
+      "label": "Amigos",
+      "description": "Una incursión para que se unan tus amigos. Se enviará una notificación a tus amigos"
     },
     "GLOBAL": {
       "label": "Global",
-      "description": "A raid for anyone to join"
+      "description": "Una incursión abierta para cualquiera"
     }
   },
   "resists": {

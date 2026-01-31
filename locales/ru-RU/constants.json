@@ -3224,241 +3224,245 @@
   "levelVsPokebox": "Атакующий {{attackerLevel}} уровня Vs. Защитников из {{userId}} Pokebox",
   "pokeboxVsLevel": "Атакующие из {{userId}} Pokebox Vs. Защитник {{defenderLevel}} уровня",
   "generations": {
-    "label": "Generations",
+    "label": "Поколения",
     "GEN_1": {
-      "label": "Gen 1"
+      "label": "Поколение 1"
     },
     "GEN_2": {
-      "label": "Gen 2"
+      "label": "Поколение 2"
     },
     "GEN_3": {
-      "label": "Gen 3"
+      "label": "Поколение 3"
     },
     "GEN_4": {
-      "label": "Gen 4"
+      "label": "Поколение 4"
     },
     "GEN_5": {
-      "label": "Gen 5"
+      "label": "Поколение 5"
     },
     "GEN_6": {
-      "label": "Gen 6"
+      "label": "Поколение 6"
     },
     "GEN_7": {
-      "label": "Gen 7"
+      "label": "Поколение 7"
     },
     "GEN_8": {
-      "label": "Gen 8"
+      "label": "Поколение 8"
     }
   },
   "sorts": {
-    "label": "Sort Order",
+    "label": "Сортировка",
     "OVERALL": {
       "label": "$t(common:properties.overall)",
-      "description": "A weighted strength score"
+      "description": "Взвешенная оценка силы"
     },
     "POWER": {
       "label": "$t(common:properties.power)",
-      "description": "The percent of opponents health removed within the time limit"
+      "description": "Процент здоровья противника, снятый за отведённое время"
     },
     "WIN": {
       "label": "$t(common:properties.win)",
-      "description": "Chance of victory"
+      "description": "Шанс победы"
     },
     "TIME": {
       "label": "$t(common:properties.time)",
-      "description": "Time to win assuming infinite number of Pokemon"
+      "description": "Время до победы при бесконечном количестве покемонов"
     },
     "POTIONS": {
       "label": "$t(common:properties.potions)",
-      "description": "1 point for each potion and 5 points for each revive"
+      "description": "1 очко за каждое зелье и 5 очков за каждое воскрешение"
     },
     "TDO": {
       "label": "$t(common:properties.tdo)",
-      "description": "Damage done per Pokemon"
+      "description": "Урон, нанесённый одним покемоном"
     },
     "ESTIMATOR": {
       "label": "$t(common:properties.estimator)",
-      "description": "Approximate number of players required to win"
+      "description": "Приблизительное количество игроков для победы"
     },
     "WEATHER": {
-      "label": "Weather",
-      "description": "Best in weather"
+      "label": "Погода",
+      "description": "Лучший при погодном бонусе"
     },
     "DODGE_SPECIALS": {
-      "label": "Dodge Specials",
-      "description": "Best when dodging"
+      "label": "Уклонение от спецатак",
+      "description": "Лучший при уклонении"
     },
     "40+W+F": {
-      "label": "40 + Boosts",
-      "description": "Level 40, Weather, Best Friends"
+      "label": "40 + Бонусы",
+      "description": "Уровень 40, Погода, Лучшие друзья"
     }
   },
   "levels": {
-    "20": "Level 20",
-    "25": "Level 25",
-    "30": "Level 30",
-    "35": "Level 35",
-    "40": "Level 40",
-    "40+W+F": "40 + Boosts"
+    "20": "Уровень 20",
+    "25": "Уровень 25",
+    "30": "Уровень 30",
+    "35": "Уровень 35",
+    "40": "Уровень 40",
+    "40+W+F": "40 + Бонусы"
   },
   "friendLevels": {
     "FRIENDSHIP_LEVEL_UNSET": {
-      "label": "Not Friends",
-      "description": "If you are not friends with anyone else in the raid, you get no bonus to attack."
+      "label": "Не друзья",
+      "description": "Если вы ни с кем не дружите в рейде, вы не получаете бонус к атаке."
     },
     "FRIENDSHIP_LEVEL_0": {
-      "label": "New Friends",
-      "description": "If you are new friends with anyone else in the raid, you get no bonus to attack. You can only trade regular Pokemon both players already own."
+      "label": "Новые друзья",
+      "description": "Если вы новые друзья с кем-то в рейде, вы не получаете бонус к атаке. Можно обмениваться только обычными покемонами, которые есть у обоих игроков."
     },
     "FRIENDSHIP_LEVEL_1": {
-      "label": "Good Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Good Friends get a 3% bonus to attack and can trade non-mythical Pokemon."
+      "label": "Хорошие друзья",
+      "description": "Максимальный уровень дружбы в рейде. Хорошие друзья получают 3% бонус к атаке и могут обмениваться не мифическими покемонами."
     },
     "FRIENDSHIP_LEVEL_2": {
-      "label": "Great Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Great Friends get a 5% bonus to attack, 1 extra bonus ball in raids. They can trade non-mythical Pokemon with a 20% stardust discount."
+      "label": "Отличные друзья",
+      "description": "Максимальный уровень дружбы в рейде. Отличные друзья получают 5% бонус к атаке и 1 дополнительный мяч в рейдах. Могут обмениваться не мифическими покемонами со скидкой 20% на звёздную пыль."
     },
     "FRIENDSHIP_LEVEL_3": {
-      "label": "Ultra Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Ultra Friends get a 7% bonus to attack, 2 extra bonus balls in raids. They can trade non-mythical Pokemon with a 92% stardust discount."
+      "label": "Лучшие друзья",
+      "description": "Максимальный уровень дружбы в рейде. Лучшие друзья получают 7% бонус к атаке и 2 дополнительных мяча в рейдах. Могут обмениваться не мифическими покемонами со скидкой 92% на звёздную пыль."
     },
     "FRIENDSHIP_LEVEL_4": {
-      "label": "Best Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 10% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
+      "label": "Закадычные друзья",
+      "description": "Максимальный уровень дружбы в рейде. Закадычные друзья получают 10% бонус к атаке и 4 дополнительных мяча в рейдах. Могут обмениваться не мифическими покемонами со скидкой 96% на звёздную пыль."
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "Друзья навеки",
+      "description": "Максимальный уровень дружбы в рейде. Друзья навеки получают 12% бонус к атаке и могут обмениваться дистанционно."
     }
   },
   "autoBattlePartyTypes": {
-    "label": "Auto Raid Party",
+    "label": "Авто-рейд группа",
     "BATTLE_PARTY_POKEBOX": {
-      "label": "Pokebox",
-      "description": "Use the best Pokemon from your Pokebox"
+      "label": "Покебокс",
+      "description": "Использовать лучших покемонов из вашего покебокса"
     },
     "BATTLE_PARTY_LEVEL_20": {
-      "label": "Level 20",
-      "description": "Use the best level 20 Pokemon"
+      "label": "Уровень 20",
+      "description": "Использовать лучших покемонов 20 уровня"
     },
     "BATTLE_PARTY_LEVEL_25": {
-      "label": "Level 25",
-      "description": "Use the best level 25 Pokemon"
+      "label": "Уровень 25",
+      "description": "Использовать лучших покемонов 25 уровня"
     },
     "BATTLE_PARTY_LEVEL_30": {
-      "label": "Level 30",
-      "description": "Use the best level 30 Pokemon"
+      "label": "Уровень 30",
+      "description": "Использовать лучших покемонов 30 уровня"
     },
     "BATTLE_PARTY_LEVEL_35": {
-      "label": "Level 35",
-      "description": "Use the best level 35 Pokemon"
+      "label": "Уровень 35",
+      "description": "Использовать лучших покемонов 35 уровня"
     },
     "BATTLE_PARTY_LEVEL_40": {
-      "label": "Level 40",
-      "description": "Use the best level 40 Pokemon"
+      "label": "Уровень 40",
+      "description": "Использовать лучших покемонов 40 уровня"
     },
     "BATTLE_PARTY_LEVEL_45": {
-      "label": "Level 45",
-      "description": "Use the best level 45 Pokemon"
+      "label": "Уровень 45",
+      "description": "Использовать лучших покемонов 45 уровня"
     },
     "BATTLE_PARTY_LEVEL_50": {
-      "label": "Level 50",
-      "description": "Use the best level 50 Pokemon"
+      "label": "Уровень 50",
+      "description": "Использовать лучших покемонов 50 уровня"
     }
   },
   "battlePartyTypes": {
-    "label": "League",
+    "label": "Лига",
     "COMBAT_LEAGUE_RAIDS_GYMS": {
-      "label": "Raids & Gyms",
-      "description": "6 pokemon with no limits."
+      "label": "Рейды и Залы",
+      "description": "6 покемонов без ограничений."
     },
     "COMBAT_LEAGUE_DEFAULT_GREAT": {
-      "label": "Great League",
-      "description": "3 Pokemon with a maximum CP of 1500."
+      "label": "Суперлига",
+      "description": "3 покемона с максимальным CP 1500."
     },
     "COMBAT_LEAGUE_DEFAULT_ULTRA": {
-      "label": "Ultra League",
-      "description": "3 Pokemon with a maximum CP of 2500."
+      "label": "Гиперлига",
+      "description": "3 покемона с максимальным CP 2500."
     },
     "COMBAT_LEAGUE_DEFAULT_MASTER": {
-      "label": "Master League",
-      "description": "3 Pokemon with no limits."
+      "label": "Мастерлига",
+      "description": "3 покемона без ограничений."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
-      "label": "Flying Cup",
-      "description": "3 Flying Pokemon with a maximum CP of 1500."
+      "label": "Летающий кубок",
+      "description": "3 летающих покемона с максимальным CP 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
-      "label": "Halloween Cup",
-      "description": "3 Pokemon of Poison, Bug, Ghost, Dark or Fairy types with a maximum CP of 1500."
+      "label": "Хэллоуин кубок",
+      "description": "3 покемона типа Яд, Жук, Призрак, Тёмный или Фея с максимальным CP 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
-      "label": "Kanto Cup",
-      "description": "3 Pokemon from Gen 1 with a maximum CP of 1500."
+      "label": "Кубок Канто",
+      "description": "3 покемона из 1 поколения с максимальным CP 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
-      "label": "Holiday Cup",
-      "description": "3 Pokemon of Normal, Grass, Electric, Ice, Flying, or Ghost types with a maximum CP of 1500."
+      "label": "Праздничный кубок",
+      "description": "3 покемона типа Нормальный, Трава, Электрический, Лёд, Летающий или Призрак с максимальным CP 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
-      "label": "Great League - Remix",
-      "description": "10 most popular Great League Pokemon are banned with a maximum CP of 1500."
+      "label": "Суперлига - Ремикс",
+      "description": "10 самых популярных покемонов Суперлиги запрещены, максимальный CP 1500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELEMENT": {
-      "label": "Great League - Element",
-      "description": "A restricted cup with a maximum CP of 500."
+      "label": "Суперлига - Элемент",
+      "description": "Ограниченный кубок с максимальным CP 500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
-      "label": "Great League - Bidoof",
-      "description": "Bidoof? Bidoof!"
+      "label": "Суперлига - Бидуф",
+      "description": "Бидуф? Бидуф!"
     },
     "COMBAT_LEAGUE_PREMIER_CUP": {
-      "label": "Premier Cup",
-      "description": "3 non-legendary, non-mythical Pokemon."
+      "label": "Премьер кубок",
+      "description": "3 не легендарных и не мифических покемона."
     },
     "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
-      "label": "Ultra Premier Cup",
-      "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+      "label": "Ультра Премьер кубок",
+      "description": "3 не легендарных и не мифических покемона с максимальным CP 2500."
     },
     "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER_CLASSIC": {
-      "label": "Premier Cup Classic",
-      "description": "3 non-legendary, non-mythical Pokemon."
+      "label": "Премьер кубок Классика",
+      "description": "3 не легендарных и не мифических покемона."
     },
     "COMBAT_LEAGUE_VS_SEEKER_ULTRA_PREMIER_CLASSIC": {
-      "label": "Ultra Premier Cup Classic",
-      "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+      "label": "Ультра Премьер кубок Классика",
+      "description": "3 не легендарных и не мифических покемона с максимальным CP 2500."
     },
     "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
-      "label": "Silph Arena Sunrise Cup",
-      "description": "The October Silph Arena Season 3 Cup tournament."
+      "label": "Кубок Silph Arena Восход",
+      "description": "Октябрьский турнир Silph Arena Сезон 3."
     },
     "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
-      "label": "Silph Arena Marsh Cup",
-      "description": "The November Silph Arena Season 3 Cup tournament."
+      "label": "Кубок Silph Arena Болото",
+      "description": "Ноябрьский турнир Silph Arena Сезон 3."
     },
     "COMBAT_LEAGUE_SILPH_NIGHTFALL_CUP": {
-      "label": "Silph Arena Nightfall Cup",
-      "description": "The December Silph Arena Season 3 Cup tournament."
+      "label": "Кубок Silph Arena Сумерки",
+      "description": "Декабрьский турнир Silph Arena Сезон 3."
     },
     "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
-      "label": "Silph Arena Labyrinth Cup",
-      "description": "The February Silph Arena Season 3 Cup tournament."
+      "label": "Кубок Silph Arena Лабиринт",
+      "description": "Февральский турнир Silph Arena Сезон 3."
     }
   },
   "privacy": {
     "PRIVATE": {
-      "label": "Private",
-      "description": "A raid that can only be joined by people who know the raid party id"
+      "label": "Приватный",
+      "description": "Рейд, к которому могут присоединиться только люди, знающие ID группы"
     },
     "FRIEND": {
-      "label": "Friend",
-      "description": "A raid for your friends to join. A push notification will be sent to your friends"
+      "label": "Друзья",
+      "description": "Рейд для ваших друзей. Вашим друзьям будет отправлено уведомление"
     },
     "GLOBAL": {
-      "label": "Global",
-      "description": "A raid for anyone to join"
+      "label": "Глобальный",
+      "description": "Рейд для всех желающих"
     }
   },
   "resists": {
-    "title": "{{name}} Weaknesses in Pokemon Go",
-    "subtitle": "{{name}} is weak to {{types}} attacks",
-    "resistAlt": "{{name}} is {{resistType}} weak to {{resist}} attacks`}",
+    "title": "Слабости {{name}} в Pokemon Go",
+    "subtitle": "{{name}} слаб к атакам типа {{types}}",
+    "resistAlt": "{{name}} {{resistType}} слаб к атакам типа {{resist}}",
     "types": {
       "1_600000": "1.6 ×",
       "2_560000": "2.56 ×",

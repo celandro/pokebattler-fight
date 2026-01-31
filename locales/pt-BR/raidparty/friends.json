@@ -28,7 +28,8 @@
     "FRIENDSHIP_LEVEL_1": "Good friends",
     "FRIENDSHIP_LEVEL_2": "Great friends",
     "FRIENDSHIP_LEVEL_3": "Ultra friends",
-    "FRIENDSHIP_LEVEL_4": "Best friends"
+    "FRIENDSHIP_LEVEL_4": "Best friends",
+    "FRIENDSHIP_LEVEL_5": "Forever friends"
   },
   "title": "Amigos"
 }
