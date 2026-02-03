@@ -1,15 +1,15 @@
 {
   "title": "Über uns",
-  "history": "Diese Seite wurde im Juli 2016 von {{link}} (aka Ryan Barker) mit der Hilfe einiger seiner Kollegen erstellt. Ryans Frau Shelley Barker leistet ebenfalls gern gesehene Hilfe.",
-  "engine": "Der originale Antrieb dieser Seite war {{link}} und eine neuere Version davon bildet die Basis dieser frei verfügbaren Kampfsimulationsseite. Bezahlt wird das Ganze zur Zeit durch die viele Patreon Unterstützer.",
+  "history": "Diese Seite wurde im Juli 2016 von {{link}} (aka Ryan Barker) mit der Hilfe einiger seiner Kollegen erstellt. Ryans Frau Shelley Barker leistet ebenfalls wertvolle Hilfe bei diesem Herzensprojekt.",
+  "engine": "Der originale Simalator dieser Seite war {{link}} und eine neuere Version davon bildet die Basis dieser frei verfügbaren Kampfsimulationsseite. Die Finanzierung dieser Website erfolgt in erster Linie durch die Abonnements eines kleinen Prozentsatzes unserer Nutzer.",
   "githubLink": "Open-Source",
-  "thanks": "Besonderen Dank an alle Redditors welche Forschungen betrieben und voran gebracht haben, vor allem ",
-  "sponsor": "Pokebattler.com wurde gesponsert von {{link}}. Schaut euch das an!",
+  "thanks": "Besonderen Dank geht an alle Redditoren, welche Forschungen betrieben und voran gebracht haben, vor allem ",
+  "sponsor": "Pokebattler.com wurde gesponsert von {{link}}. Schau dir diese an!",
   "privacy": " ",
   "privacyLink": " ",
   "images": " ",
   "meta": {
-    "description": "Über Pokebattler erzählt über Pokebattler und wie es zu weltbestem und akuratestem Pokemon Go Simulator wurde.",
+    "description": "Über Pokebattler Hier erfährst du alles über Pokebattler und wie es zum weltweit genauesten Pokémon Go-Simulator wurde.",
     "image": "https://static.pokebattler.com/images/og_more_about.jpg"
   }
 }

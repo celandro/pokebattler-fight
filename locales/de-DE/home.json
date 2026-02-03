@@ -7,22 +7,22 @@
   },
   "meta": {
     "image": "https://static.pokebattler.com/images/og_home.png",
-    "description": "World's #1 source for detailed Pokemon Go analysis. The best simulations, customizable rankings and the most accurate raid counters!"
+    "description": "Die weltweit führende Quelle für detaillierte Analysen zu Pokémon Go. Die besten Simulationen, anpassbare Ranglisten und die genauesten Raid-Konter!"
   },
   "article": {
     "title": "{{title}}",
     "meta": {
       "image": "{{featuredURL}}",
-      "description": "{{author}} {{format}} on the topics of {{categories}} on {{date}}. This article is about {{tags}}."
+      "description": "{{author}} {{format}} zu den Themen {{categories}} vom {{date}}. Dieser Artikel ist über {{tags}}."
     }
   },
   "news": {
     "title": "Releaseinformationen",
     "meta": {
       "image": "https://static.pokebattler.com/images/og_more_news.jpg",
-      "description": "Pokebattler News the latest release notes for the world's #1 Most accurate Pokemon Go Simulator "
+      "description": "Pokebattler Neuigkeiten die neuesten Versionshinweise für den weltweit genauesten Pokémon Go-Simulator"
     },
-    "old": "Older News",
-    "new": "Newer News"
+    "old": "Ältere Neuigkeiten",
+    "new": "Neuere Neuigkeiten"
   }
 }

@@ -1,34 +1,34 @@
 {
-  "title": "Friends",
+  "title": "Freunde",
   "levels": {
-    "FRIENDSHIP_LEVEL_UNSET": "Not friends",
-    "FRIENDSHIP_LEVEL_0": "New friends",
-    "FRIENDSHIP_LEVEL_1": "Good friends",
-    "FRIENDSHIP_LEVEL_2": "Great friends",
-    "FRIENDSHIP_LEVEL_3": "Ultra friends",
-    "FRIENDSHIP_LEVEL_4": "Best friends",
-    "FRIENDSHIP_LEVEL_5": "Forever friends"
+    "FRIENDSHIP_LEVEL_UNSET": "Keine Freunde",
+    "FRIENDSHIP_LEVEL_0": "Freunde",
+    "FRIENDSHIP_LEVEL_1": "Guter Freunde",
+    "FRIENDSHIP_LEVEL_2": "Superfreunde",
+    "FRIENDSHIP_LEVEL_3": "Hyperfreunde",
+    "FRIENDSHIP_LEVEL_4": "Beste Freunde",
+    "FRIENDSHIP_LEVEL_5": "Allerbeste Freunde"
   },
   "add": {
     "friendId": "Pokebattler ID",
-    "addFriend": "Add Pokebattler Friend",
-    "friendLevel": "Friend Level",
-    "cancelAddFriend": "Cancel",
+    "addFriend": "Pokebattler-Freund hinzufügen",
+    "friendLevel": "Freundeschaftslevel",
+    "cancelAddFriend": "Abbrechen",
     "searchPlaceholder": "Name, Code or Id",
-    "supportedSearches": "Enter the Friend Code, Trainer Name, Discord Name or Pokebattler Id in the search bar and set your friend level.",
-    "noSearchResults": "No friends found, try again!",
-    "noSearchText": "Find your friends",
-    "clearSearch": "Clear"
+    "supportedSearches": "Gib den Freundescode, den Trainernamen, den Discord-Namen oder die Pokebattler-ID in die Suchleiste ein und lege deine Freundesstufe fest.",
+    "noSearchResults": "Keine Freunde gefunden, versuche es erneut!",
+    "noSearchText": "Finde deine Freunde",
+    "clearSearch": "Löschen"
   },
   "noFriend": {
-    "title": "Add your friends to Pokebattler!",
-    "description": "Adding friends will send you notifications when they are creating raid parties and allow you to see raid parties they have created recently.  Make sure to set the correct friend level so that your friendship level will be automatically set in raid party simulations.",
-    "addFriend": "Add friends by clicking on the add button in the bottom right."
+    "title": "Füge deine Freunde zu Pokebattler hinzu!",
+    "description": "Wenn du Freunde hinzufügst, erhältst du Benachrichtigungen, wenn diese Raid-Gruppen erstellen, und kannst die von ihnen kürzlich erstellten Raid-Gruppen sehen.  Stellen Sie sicher, dass Sie die richtige Freundschaftsstufe einstellen, damit Ihre Freundschaftsstufe automatisch in Raid-Party-Simulationen festgelegt wird.",
+    "addFriend": "Füge Freunde hinzu, indem du auf die Schaltfläche „Hinzufügen“ unten rechts klicken."
   },
   "errors": {
-    "add": "Adding friend failed",
-    "update": "Updating friend failed",
-    "delete": "Deleting friend failed",
-    "failed": "Unable to retrieve friend list"
+    "add": "Hinzufügen des Freundes fehlgeschlagen",
+    "update": "Aktualisieren des Freundes fehlgeschlagen",
+    "delete": "Löschen des Freundes fehlgeschlagen",
+    "failed": "Freundesliste kann nicht abgerufen werden"
   }
 }
