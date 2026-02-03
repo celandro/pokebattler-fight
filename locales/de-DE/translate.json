@@ -1,10 +1,10 @@
 {
-  "title": "Hilf Pokebattler zu übersetzen",
-  "info": "Diese Seite ist dafür vorbereitet in verschiedene Sprachen übersetzt zu werden. Du kannst dabei helfen, diese Seite einfacher zu benutzen machen für deine die kein English sprechen.",
-  "how": "Übersetzen wird über ein Werkzeug names Weblate gemacht und kann hier {{link}} gefunden werden. Leg dir einen Account an, wähle deine Sprachen und starte damit Vorschläge zu machen. Die Übersetzungen werden geprüft und normalerweise automatisch aktzeptiert.",
-  "rewards": "Spezielle Belohnungen, die normalerweise nur für Patreon Unterstützer verfügbar sind, werden auch für Übersetzer verfügbar sein, die bedeutende Beteiligungen machen. Diese beinhalten mehr Pokemon für deine Pokebox und qualitativ bessere angepasste Simulationen.",
+  "title": "Hilf, Pokebattler zu übersetzen",
+  "info": "Diese Seite ist vorbereitet, in verschiedene Sprachen übersetzt zu werden. Du kannst dazu beitragen, die Website für alle, die kein Englisch sprechen, benutzerfreundlicher zu gestalten.",
+  "how": "Die Übersetzung erfolgt mit einem Web-Tool namens Weblate, das unter {{link}} zu finden ist. Du musst dir ein Konto erstellen, deine Sprachen auswählen und kannst dann Vorschläge für Übersetzungen machen. Diese Übersetzungen werden geprüft und in der Regel automatisch akzeptiert.",
+  "rewards": "Übersetzer, die einen bedeutenden Beitrag leisten, erhalten spezielle Belohnungen, die normalerweise nur Abonnenten vorbehalten sind. Dazu gehören mehr Pokémon für Ihre Pokebox und hochwertigere benutzerdefinierte Simulationen.",
   "meta": {
-    "description": "Pokebattler Translate ermöglicht es Nutzern, uns bei der Übersetzung der Webseite zu helfen, so dass jeder die Nummer 1 des weltweit genauesten Pokemon Go Simulators nutzen kann.",
+    "description": "Pokebattler Translate ermöglicht es Nutzern, bei der Übersetzung der Webseite zu helfen, so dass jeder die Nummer 1 des weltweit genauesten Pokemon Go Simulators nutzen kann.",
     "image": "https://static.pokebattler.com/images/og_more_translate.jpg"
   }
 }
