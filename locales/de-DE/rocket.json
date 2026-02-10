@@ -1,120 +1,120 @@
 {
   "tierList": {
     "RAID_LEVEL_6_LEGACY": {
-      "title": "Alt-Tier 6",
-      "subtitle": "Hard Mythical Shadow Battles",
-      "intro": "These battles are not currently in the team GO Rocket rotations"
+      "title": "Legacy-Stufe 6",
+      "subtitle": "Schwierige mystische crypto Kämpfe",
+      "intro": "Diese Kämpfe sind derzeit nicht in der Team GO Rocket Rotation."
     },
-    "rocketTier": "GO Rocket Tier",
+    "rocketTier": "GO Rocket Stufe",
     "common": {
-      "boss": "Shadow Invasion",
-      "raidTier": "Shadow Tier"
+      "boss": "Crypto Invasion",
+      "raidTier": "Crypto Stufe"
     },
     "RAID_LEVEL_1": {
-      "title": "GO Rocket Tier 1",
-      "subtitle": "Common Shadow Battles",
-      "intro": "GO Rocket Tier 1 battles are easier and should be beatable by anyone using appropriate counters. These battles are against boosted level 27 Pokemon for level 40 players. Lower level players will face easier Pokemon"
+      "title": "GO Rocket Stufe 1",
+      "subtitle": "Common Crypto Kämpfe",
+      "intro": "GO Rocket Stufe 1 Kämpfe are easier and should be beatable by anyone using appropriate counters. These Kämpfe are against boosted level 27 Pokemon for level 40 players. Lower level players will face easier Pokemon"
     },
     "RAID_LEVEL_1_FUTURE": {
-      "title": "Future GO Rocket Tier 1",
-      "subtitle": "Common Shadow Battles",
-      "intro": "Our best guess of future Tier 1 Team GO Rocket Invasions"
+      "title": "Future GO Rocket Stufe 1",
+      "subtitle": "Common Crypto Kämpfe",
+      "intro": "Our best guess of future Stufe 1 Team GO Rocket Invasions"
     },
     "RAID_LEVEL_2": {
-      "title": "GO Rocket Tier 2",
-      "subtitle": "Rare Shadow Battles",
-      "intro": "GO Rocket Tier 2 battles are difficult but should be beatable by anyone using powered up appropriate counters. These battles are against boosted level 30 Pokemon for level 40 players. Lower level players will face easier Pokemon"
+      "title": "GO Rocket Stufe 2",
+      "subtitle": "Rare Crypto Kämpfe",
+      "intro": "GO Rocket Stufe 2 Kämpfe are difficult but should be beatable by anyone using powered up appropriate counters. These Kämpfe are against boosted level 30 Pokemon for level 40 players. Lower level players will face easier Pokemon"
     },
     "RAID_LEVEL_2_FUTURE": {
-      "title": "Future GO Rocket Tier 2",
-      "subtitle": "Rare Shadow Battles",
-      "intro": "Our best guess of future Tier 2 Team GO Rocket Invasions"
+      "title": "Future GO Rocket Stufe 2",
+      "subtitle": "Rare Crypto Kämpfe",
+      "intro": "Our best guess of future Stufe 2 Team GO Rocket Invasions"
     },
     "RAID_LEVEL_3": {
-      "title": "GO Rocket Tier 3",
-      "subtitle": "Legendary Shadow Battles",
-      "intro": "GO Rocket Tier 3 battles do not currently exist"
+      "title": "GO Rocket Stufe 3",
+      "subtitle": "Legendary Crypto Kämpfe",
+      "intro": "GO Rocket Stufe 3 Kämpfe do not currently exist"
     },
     "RAID_LEVEL_4": {
-      "title": "GO Rocket Tier 4",
-      "subtitle": "Hard Legendary Shadow Battles",
-      "intro": "GO Rocket Tier 4 battles do not currently exist"
+      "title": "GO Rocket Stufe 4",
+      "subtitle": "Hard Legendary Crypto Kämpfe",
+      "intro": "GO Rocket Stufe 4 Kämpfe do not currently exist"
     },
     "RAID_LEVEL_5": {
-      "title": "GO Rocket Tier 5",
-      "subtitle": "Mythical Shadow Battles",
-      "intro": "GO Rocket Tier 5 battles do not currently exist"
+      "title": "GO Rocket Stufe 5",
+      "subtitle": "Mythical Crypto Kämpfe",
+      "intro": "GO Rocket Stufe 5 Kämpfe do not currently exist"
     },
     "RAID_LEVEL_6": {
-      "title": "GO Rocket Tier 3",
-      "subtitle": "Hard Mythical Shadow Battles",
-      "intro": "GO Rocket Tier 3 battles do not currently exist"
+      "title": "GO Rocket Stufe 3",
+      "subtitle": "Hard Mythical Crypto Kämpfe",
+      "intro": "GO Rocket Stufe 3 Kämpfe do not currently exist"
     },
     "RAID_LEVEL_UNSET": {
-      "title": "GO Rocket Tier ?",
-      "subtitle": "Unknown Shadow Battles",
-      "intro": "These Shadow Pokemon will be parts of future Team GO Rocket invastions. Use this if a new invasion has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Shadow Squirtle Team GO Rocket invasion too!"
+      "title": "GO Rocket Stufe ?",
+      "subtitle": "Unknown Crypto Kämpfe",
+      "intro": "These Crypto Pokemon will be parts of future Team GO Rocket invastions. Use this if a new invasion has come out and the site has not been updated yet. You can also use this section for analysis of what would happen if you had a legendary Crypto Squirtle Team GO Rocket invasion too!"
     },
     "RAID_LEVEL_1_LEGACY": {
-      "title": "Legacy GO Rocket Tier 1",
-      "subtitle": "Common Shadow Battles",
-      "intro": "These battles are not currently in the team GO Rocket rotations."
+      "title": "Legacy GO Rocket Stufe 1",
+      "subtitle": "Common Crypto Kämpfe",
+      "intro": "Diese Kämpfe sind derzeit nicht in der Team GO Rocket Rotation."
     },
     "RAID_LEVEL_2_LEGACY": {
-      "title": "Legacy GO Rocket Tier 2",
-      "subtitle": "Rare Shadow Battles",
-      "intro": "These battles are not currently in the team GO Rocket rotations."
+      "title": "Legacy GO Rocket Stufe 2",
+      "subtitle": "Rare Crypto Kämpfe",
+      "intro": "TDiese Kämpfe sind derzeit nicht in der Team GO Rocket Rotation."
     },
     "RAID_LEVEL_3_LEGACY": {
-      "title": "Legacy GO Rocket Tier 3",
-      "subtitle": "Legendary Shadow Battles",
-      "intro": "These battles are not currently in the team GO Rocket rotations."
+      "title": "Legacy GO Rocket Stufe 3",
+      "subtitle": "Legendary Crypto Kämpfe",
+      "intro": "Diese Kämpfe sind derzeit nicht in der Team GO Rocket Rotation."
     },
     "RAID_LEVEL_4_LEGACY": {
-      "title": "Legacy GO Rocket Tier 4",
-      "subtitle": "Hard Legendary Shadow Battles",
-      "intro": "These battles are not currently in the team GO Rocket rotations."
+      "title": "Legacy GO Rocket Stufe 4",
+      "subtitle": "Hard Legendary Crypto Kämpfe",
+      "intro": "Diese Kämpfe sind derzeit nicht in der Team GO Rocket Rotation."
     },
     "RAID_LEVEL_5_LEGACY": {
-      "title": "Legacy GO Rocket Tier 5",
-      "subtitle": "Mythical Shadow Battles",
-      "intro": "These battles are not currently in the team GO Rocket rotations"
+      "title": "Legacy GO Rocket Stufe 5",
+      "subtitle": "Mythical Crypto Kämpfe",
+      "intro": "These Kämpfe are not currently in the team GO Rocket rotations"
     },
     "CHARACTER_EXECUTIVE_CLIFF": {
-      "title": "Executive Cliff",
-      "subtitle": "Team GO Rocket Leader ",
-      "intro": "My strength comes from my loyalty to Team GO Rocket.",
-      "intro2": "I will do anything and everything for Team GO Rocket.",
-      "intro3": "I owe the boss my life. I’d do anything for him.",
-      "intro4": "Team GO Rocket saved me. It’s time to return the favor!",
-      "intro5": "Add my name to your list of weaknesses."
+      "title": "Anführer Cliff",
+      "subtitle": "Team GO Rocket Boss ",
+      "intro": "Meine Stärke liegt in meiner Loyalität zu Team GO Rocket.",
+      "intro2": "Ich werde alles für Team GO Rocket tun.",
+      "intro3": "Ich schulde dem Boss mein Leben. Ich würde alles für ihn tun.",
+      "intro4": "Team GO Rocket hat mich gerettet. Es ist Zeit, den Gefallen zu erwidern!",
+      "intro5": "Füge meinen Namen zu deiner Liste der Schwächen hinzu."
     },
     "CHARACTER_EXECUTIVE_SIERRA": {
-      "title": "Executive Sierra",
-      "subtitle": "Team GO Rocket Leader",
-      "intro": "I envy you—you get to battle me!",
-      "intro2": "This will be a battle I’m sure you’ll never forget.",
-      "intro3": "You already know this, but you don’t stand a chance.",
-      "intro4": "You can’t possibly match my skill, dear.",
-      "intro5": "I do hope you like the taste of failure!"
+      "title": "Anführer Sierra",
+      "subtitle": "Team GO Rocket Boss",
+      "intro": "Ich beneide dich – du darfst gegen mich kämpfen!",
+      "intro2": "Ich bin mir sicher, dass du diesen Kampf nie vergessen wirst.",
+      "intro3": "Dir ist ja schon klar, dass du keine Chance hast.",
+      "intro4": "Es ist unmöglich, dass du mit meinem Können mithalten kannst.",
+      "intro5": "Ich hoffe, du magst den Geschmack des Scheiterns!"
     },
     "CHARACTER_EXECUTIVE_ARLO": {
-      "title": "Executive Arlo",
-      "subtitle": "Team GO Rocket Leader",
-      "intro": "It’s time to learn your place in the world.",
-      "intro2": "I never lose.",
-      "intro3": "Prepare yourself for a world of hurt.",
-      "intro4": "Arrogance leads to failure.",
-      "intro5": "Your defeat comes on swift wings."
+      "title": "Anführer Arlo",
+      "subtitle": "Team GO Rocket Boss",
+      "intro": "Es ist Zeit, dass du lernst, wo dein Platz in der Welt ist.",
+      "intro2": "Ich verliere nie.",
+      "intro3": "Bereite dich auf eine Welt voller Schmerzen vor.",
+      "intro4": "Arroganz führt zum Scheitern.",
+      "intro5": "Deine Niederlage kommt schnell wie der Wind."
     },
     "CHARACTER_GIOVANNI": {
       "title": "Giovanni",
-      "subtitle": "The Boss",
-      "intro": "I will not tolerate your interference.",
-      "intro2": "You cannot stop me...but I’m amused by your attempt.",
-      "intro3": "Your professor has not prepared you for what is to come.",
-      "intro4": "You’ve made it this far. Let me see just how strong you are.",
-      "intro5": "You will never defeat Team GO Rocket."
+      "subtitle": "Der Boss",
+      "intro": "Ich werde deine Einmischung nicht tolerieren.",
+      "intro2": "Du kannst mich nicht aufhalten, aber dein Versuch amüsiert mich.",
+      "intro3": "Dein Professor hat dich nicht auf das vorbereitet, was kommen wird.",
+      "intro4": "Du hast es bis hierhin geschafft. Lass mich sehen, wie stark du bist.",
+      "intro5": "Du wirst Team GO Rocket niemals besiegen."
     },
     "CHARACTER_GRUNTB_MALE": {
       "title": "James",
@@ -135,131 +135,131 @@
       "intro5": "Who are these Team GO Rocket Leaders, anyway?"
     },
     "CHARACTER_NORMAL_GRUNT_MALE": {
-      "title": "Normal Grunt ♂",
+      "title": "Normal Rüpel ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "Normal does not mean weak."
+      "intro": "Normal heißt noch lange nicht schwach."
     },
     "CHARACTER_FAIRY_GRUNT_FEMALE": {
-      "title": "Fairy Grunt ♀",
+      "title": "Fee Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "Check out my cute Pokémon!"
+      "intro": "Sieh mal, wie niedlich mein Pokémon ist!"
     },
     "CHARACTER_FIGHTING_GRUNT_FEMALE": {
-      "title": "Fighting Grunt ♀",
+      "title": "Kampf Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "This buff physique isn't just for show!"
+      "intro": "Dieser muskulöse Körper dient nicht nur der Show!"
     },
     "CHARACTER_FLYING_GRUNT_FEMALE": {
-      "title": "Flying Grunt ♀",
+      "title": "Flug Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "Battle against my Flying-type Pokemon!"
+      "intro": "Kämpfe gegen mein Flug-Pokémon!"
     },
     "CHARACTER_POISON_GRUNT_FEMALE": {
-      "title": "Poison Grunt ♀",
+      "title": "Gift Rüpel ♀",
       "subtitle": "Team GO Rocket",
       "intro": "Coiled and ready to strike!"
     },
     "CHARACTER_GROUND_GRUNT_MALE": {
-      "title": "Ground Grunt ♂",
+      "title": "Boden Rüpel ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "You'll be defeated into the ground"
+      "intro": "Wir werden dich in den Boden stampfen!"
     },
     "CHARACTER_ROCK_GRUNT_MALE": {
-      "title": "Rock Grunt ♂",
+      "title": "Gestein Rüpel ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "Let's rock and roll!"
+      "intro": "Bringen wir den Stein ins Rollen!"
     },
     "CHARACTER_BUG_GRUNT_MALE": {
-      "title": "Bug Grunt ♂",
+      "title": "Käfer Rüpel ♂",
       "subtitle": "Team GO Rocket",
       "intro": "Go, my super bug Pokemon!"
     },
     "CHARACTER_GHOST_GRUNT_MALE": {
-      "title": "Ghost Grunt ♂",
+      "title": "Geist Rüpel ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "Ke... ke... ke... ke... ke... ke!"
+      "intro": "Buhu... Buhuhu...!"
     },
     "CHARACTER_FIRE_GRUNT_FEMALE": {
-      "title": "Fire Grunt ♀",
+      "title": "Feuer Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "Do you know how hot Pokemon fire breath can get?"
+      "intro": "Weißt du eigentlich, wie heiß der Feueratem eines Pokémon sein kann?"
     },
     "CHARACTER_ICE_GRUNT_FEMALE": {
-      "title": "Ice Grunt ♀",
+      "title": "Eis Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "You're gonna be frozen in your tracks"
+      "intro": "Du bewegst dich auf dünnem Eis!"
     },
     "CHARACTER_WATER_GRUNT_MALE": {
-      "title": "Water Grunt ♂",
+      "title": "Wasser Rüpel ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "These waters are treacherous!"
+      "intro": "Hey, du! Diese Gewässer sind trügerisch!"
     },
     "CHARACTER_WATER_GRUNT_FEMALE": {
-      "title": "Water Grunt ♀",
+      "title": "Wasser Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "These waters are treacherous!"
+      "intro": "Hey, du! Diese Gewässer sind trügerisch!"
     },
     "CHARACTER_GRASS_GRUNT_MALE": {
-      "title": "Grass Grunt ♂",
+      "title": "Pflanze Rüpel ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "Don't tangle with us!"
+      "intro": "Mit uns ist nicht gut Beeren essen!"
     },
     "CHARACTER_ELECTRIC_GRUNT_FEMALE": {
-      "title": "Electric Grunt ♀",
+      "title": "Elektro Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "Get ready to be shocked!"
+      "intro": "Du wirst schockiert sein!"
     },
     "CHARACTER_PSYCHIC_GRUNT_MALE": {
-      "title": "Psychic Grunt ♂",
+      "title": "Psycho Rüpel ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "Are you scared of psychics that use unseen power?"
+      "intro": "Hast du Angst vor unsichtbaren Kräften?"
     },
     "CHARACTER_DRAGON_GRUNT_FEMALE": {
-      "title": "Dragon Grunt ♀",
+      "title": "Drachen Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "ROAR! ...How'd that sound?"
+      "intro": "Gut gebrüllt ist halb gewonnen!"
     },
     "CHARACTER_DARK_GRUNT_FEMALE": {
-      "title": "Dark Grunt ♀",
+      "title": "Unlicht Rüpel ♀",
       "subtitle": "Team GO Rocket",
-      "intro": "Wherever there is light, there is also shadow."
+      "intro": "Es mag etwas abgedroschen klingen, aber wo Licht ist, da ist auch Schatten."
     },
     "CHARACTER_STEEL_GRUNT_MALE": {
-      "title": "Steel Grunt ♂",
+      "title": "Stahl Rüpel ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "You’re no match for my iron will!"
+      "intro": "Gegen meinen eisernen Willen kommst du nicht an!"
     },
     "CHARACTER_GRUNT_MALE": {
-      "title": "Starter Grunt",
+      "title": "Starter Rüpel",
       "subtitle": "Team GO Rocket",
-      "intro": "Don't bother - I've already won",
-      "intro2": "Get ready to be defeated",
-      "intro3": "Winning is for winners"
+      "intro": "Versuch‘s gar nicht erst – der Sieg gehört mir.",
+      "intro2": "Bereite dich schon mal auf eine Niederlage vor!",
+      "intro3": "Siegen ist für Sieger."
     },
     "CHARACTER_GRUNT_FEMALE": {
-      "title": "Hard Grunt",
+      "title": "Schwieriger Rüpel",
       "subtitle": "Team GO Rocket",
-      "intro": "Don't bother - I've already won",
-      "intro2": "Get ready to be defeated",
-      "intro3": "Winning is for winners"
+      "intro": "Versuch‘s gar nicht erst – der Sieg gehört mir.",
+      "intro2": "Bereite dich schon mal auf eine Niederlage vor!",
+      "intro3": "Siegen ist für Sieger."
     },
     "CHARACTER_DECOY_GRUNT_MALE": {
-      "title": "Decoy Grunt ♂",
-      "subtitle": "Boss Decoy",
-      "intro": "Fooled ya, twerp.",
-      "intro2": "I can’t believe you fell for it!",
-      "intro3": "In the name of the boss, I’ll destroy you!",
-      "intro4": "You’ll never get to him!",
-      "intro5": "It feels good to see you disappointed."
+      "title": "Täusch-Rüpel ♂",
+      "subtitle": "Boss Täusch-Rüpel",
+      "intro": "Reingelegt, Knirps.",
+      "intro2": "Ich kann nicht glauben, dass du darauf reingefallen bist!",
+      "intro3": "Ich werde dich im Namen des Bosses vernichten!",
+      "intro4": "An ihn kommst du nicht ran!",
+      "intro5": "Deine Enttäuschung ist mir eine große Freude."
     },
     "CHARACTER_DECOY_GRUNT_FEMALE": {
-      "title": "Decoy Grunt ♀",
-      "subtitle": "Boss Decoy",
-      "intro": "Fooled ya, twerp.",
-      "intro2": "I can’t believe you fell for it!",
-      "intro3": "In the name of the boss, I’ll destroy you!",
-      "intro4": "You’ll never get to him!",
-      "intro5": "It feels good to see you disappointed."
+      "title": "Täusch-Rüpel ♀",
+      "subtitle": "Boss Täusch-Rüpel",
+      "intro": "Reingelegt, Knirps.",
+      "intro2": "Ich kann nicht glauben, dass du darauf reingefallen bist!",
+      "intro3": "Ich werde dich im Namen des Bosses vernichten!",
+      "intro4": "An ihn kommst du nicht ran!",
+      "intro5": "Deine Enttäuschung ist mir eine große Freude."
     }
   },
   "results": {
@@ -267,15 +267,15 @@
       "title": "Konter",
       "subtitle": "Die besten Angreifer nach",
       "chooseMovesetLabel": "Attacke auswählen",
-      "description": "The following analysis shows the Pokemon that are the strongest counters in terms of {{sort}} against {{pokemon}}.",
-      "moveSetOrderingDescription": "The move sets are ordered from hardest to battle against to the easiest, make sure to check multiple, the results can vary greatly!",
-      "difficultyNote": "Team GO Rocket Invasion Shadow Pokemon are much harder than a normal battle, you should consider carefully your options."
+      "description": "Die folgende Analyse zeigt die Pokemon, die sortiert nach {{sort}} am stärksten gegen {{pokemon}} sind.",
+      "moveSetOrderingDescription": "Die Attackensets sind vom schwierigsten bis zum einfachsten sortiert. Probiere mehrere aus, da die Ergebnisse sehr unterschiedlich ausfallen können!",
+      "difficultyNote": "Team GO Rocket Invasion Crypto-Pokemon sind viel schwieriger als normale Kämpfe. Du solltest deine Pokemon Wahl mit Bedacht wählen."
     },
     "hardestMovesets": {
       "subtitle": "Für {{pokemon}} nach {{sort}}",
       "title": "Schwierigste Raids",
       "tableTitle": "Schwerstes Angriffsmuster",
-      "description": "Team GO Rocket Battle difficulty can vary greatly based on the moveset of the defending pokemon!"
+      "description": "Team GO Rocket Kampfschwierigkeit kann je nach Attackenset des verteidigenden Pokemon stark variieren!"
     },
     "analysis": {
       "title": "Über diese Analyse",
@@ -283,53 +283,53 @@
         "byLevel": "Level {{attackerLevel}} Angreifern",
         "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
       },
-      "description": "This Team GO Rocket Battle analysis was based off simulating combat with a defending {{defender.pokemon}} with {{defender.cp}} CP and {{attackers}}. The simulation was run with a Team GO Rocket Invasion simulator. {{numSims}} simulations were performed with each possible moveset of {{defender.pokemon}} simulated against every single Pokemon with every possible moveset. The best 30 attackers with their best moveset based on {{sort}} were kept and are displayed here. "
+      "description": "Diese Team GO Rocket-Kampfanalyse basierte auf der Simulation eines Kampfes mit einem verteidigenden {{defender.pokemon}} mit {{defender.cp}} KP und {{attackers}}. Die Simulation wurde mit einem Team GO Rocket Invasion-Simulator durchgeführt. {{numSims}} Simulationen wurden mit jedem möglichen Attackenset von {{defender.pokemon}} gegen jedes einzelne Pokemon mit jedem möglichen Moveset durchgeführt. Die besten 30 Angreifer mit ihrem besten Moveset basierend auf {{sort}} wurden beibehalten und werden hier angezeigt."
     },
     "patreon": {
       "thanks": "Danke für deine Unterstützung!",
-      "link": "Sieh dir alle Vorteile an, die du fürs anmelden erhälst",
-      "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more."
+      "link": "Sieh dir alle Vorteile an, die du fürs Anmelden erhälst",
+      "description": "Dank der Unterstützung unserer Abonnenten können wir nun genauere Ergebnisse für unbekannte Movesets liefern. Abonnenten erhalten zusätzlichen Pokebox-Speicherplatz, noch genauere Ergebnisse für alle Movesets und vieles mehr."
     },
     "title": "{{defender}} Konter",
     "meta": {
-      "description": "The best Team GO Rocket {{defender}} Counters with configurable levels and shielding",
+      "description": "Der beste Team GO Rocket {{defender}} Konter mit konfigurierbaren Levels und Schilden.",
       "image": "https://static.pokebattler.com/raid/{{defenderId}}.png"
     },
-    "calculating": "Analyzing Team GO Rocket Defenses",
-    "description": "Welcome to the Pokebattler Team GO Rocket counters guide for {{pokemon}}. You can find the best counters based on the moveset of each shadow Pokemon. This guide is customizable in several different ways. You can log in and enter your Pokemon into your Pokebox for the highest accuracy result as view these general results using various sort options."
+    "calculating": "Analyse der Verteidigung von Team GO Rocket",
+    "description": "Willkommen beim Pokebattler Team GO Rocket Konter-Leitfaden für {{pokemon}}. Hier findest du die besten Konter basierend auf den Movesets der einzelnen Crypto-Pokemon. Dieser Leitfaden kann auf verschiedene Weise angepasst werden. Du kannst dich einloggen und deine Pokemon in deine Pokebox eingeben, um die genauesten Ergebnisse zu erhalten, und diese allgemeinen Ergebnisse mit verschiedenen Sortieroptionen anzeigen lassen."
   },
   "meta": {
     "image": "https://static.pokebattler.com/images/og_raid_counters.jpg",
-    "description": "Find Pokemon Go Team GO Rocket counters. Get the 30 best counters with the world's #1 custom Team GO Rocket counter guide."
+    "description": "Finde Pokemon Go Team GO Rocket Konter. Hol dir die 30 besten Konter mit dem weltweit führenden individuellen Team GO Rocket Konter-Guide."
   },
   "custom": {
     "levelsLabel": "Angreifer-Level",
     "attackersLabel": "Angreifer",
-    "title": "Custom Team GO Rocket Counters",
-    "buttonLabel": "Find best counters"
+    "title": "Individuelle Team GO Rocket-Konter",
+    "buttonLabel": "Finde bessere Konter"
   },
   "breakingNews": {
     "title": "Neuigkeiten",
-    "subtitle": "Team GO Rocket Invasions In Pokemon Go",
-    "header": "$t(constants:pokemon.{{pokemonId}}) GO Rocket Counters"
+    "subtitle": "Team GO Rocket Invasionen in Pokemon Go",
+    "header": "$t(constants:pokemon.{{pokemonId}}) GO Rocket Konter"
   },
-  "title": "Team GO Rocket Counters",
-  "linkLabel": "Team GO Rocket Counters",
-  "intro": "Team GO Rocket has invaded Pokemon Go and Pokebattler is here to help you fight them off! Battles are 3v3 with you facing your 3 Pokemon off against Team GO Rocket's boosted Pokemon. These battles can be extremely challenging so make sure you prepare before you challenge them!",
+  "title": "Team GO Rocket Konter",
+  "linkLabel": "Team GO Rocket Konter",
+  "intro": "Team GO Rocket ist in Pokémon Go eingedrungen, und Pokebattler hilft dir dabei, sie zu bekämpfen! Die Kämpfe finden im 3-gegen-3-Modus statt, wobei du mit deinen 3 Pokemon gegen die verstärkten Pokemon von Team GO Rocket antrittst. Diese Kämpfe können extrem herausfordernd sein, also bereite dich gut vor, bevor du sie herausforderst!",
   "articles": {
-    "title": "Latest Team GO Rocket News!",
-    "subtitle": "Articles and Videos About Team GO Rocket From Top Players And Researchers"
+    "title": "Neueste Nachrichten zu Team GO Rocket!",
+    "subtitle": "Artikel und Videos über Team GO Rocket von Top-Spielern und Forschern"
   },
   "note": {
-    "default": "Team GO Rocket Grunts are not very difficult as they do not shield. Team GO Rocket Executives and Giovanni have higher stats and will shield the first two specials used. Resisting the quick attack and using Pokemon that can force the shadow Pokemon to use their shields is the best way to beat these tough foes!",
-    "loggedIn": "Note: Please make sure your trainer level is correctly set. Research is still on going as to the exact mechanics of Team GO Rocket Pokemon but player level is a factor. Team GO Rocket Pokemon are no longer as powerful as they once were, make sure to check your custom counters again"
+    "default": "Team GO Rocket Rüpel sind nicht besonders schwer zu besiegen, da sie keinen Schild einsetzen. Team GO Rocket Anführer und Giovanni haben höhere Werte und schilden die ersten beiden Ladeattacken. Der beste Weg, diese starken Gegner zu besiegen, ist die Sofortattakcken zu überstehen und Pokemon einzusetzen, die die Crypto-Pokemon dazu zwingen, ihre Schilde einzusetzen!",
+    "loggedIn": "Hinweis: Bitte stelle sicher, dass dein Trainerlevel richtig eingestellt ist. Die genauen Mechanismen der Team GO Rocket-Pokemon werden noch erforscht, aber das Spielerlevel ist ein Faktor. Team GO Rocket-Pokemon sind nicht mehr so stark wie früher. Überprüfe daher noch einmal deine individuellen Konter."
   },
   "executives": {
-    "title": "Team GO Rocket Leaders",
-    "description": "Team GO Rocket leaders feature more difficult fights including shielding! Make sure you are prepared for all Team GO Rocket has in store for you!"
+    "title": "Team GO Rocket Anführer",
+    "description": "Die Anführer von Team GO Rocket bieten schwierigere Kämpfe, da sie auch Schilde nutzen! Bereite dich gut vor, damit du für alles gewappnet bist, was Team GO Rocket für dich bereithält!"
   },
   "grunts": {
-    "title": "Team GO Rocket Grunts",
-    "description": "Team GO Rocket grunts are easier fights with no shields."
+    "title": "Team GO Rocket Rüpel",
+    "description": "Team GO Rocket Rüpel sind einfachere zu bekäpfen, da sie nicht schilden."
   }
 }
