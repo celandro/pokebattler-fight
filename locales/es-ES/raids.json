@@ -180,6 +180,11 @@
       "subtitle": "Incursiones estándar",
       "intro": "Las incursiones originales de Pokémon Go, utilizan un pase de incursión estándar o un pase de incursión remota."
     },
+            "RAID_LEVEL_PRIMAL": {
+      "title": "Primal Tier",
+      "subtitle": "Primal Raid",
+      "intro": "Primal raids feature Primal Reversion pokemon and are among the most difficult raids available. They are typically done with groups of 6-10 level 30-40 players."
+    },
     "RAID_LEVEL_ULTRA_BEAST": {
       "title": "Nivel Ultraente",
       "subtitle": "Incursión de Ultraente",

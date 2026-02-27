@@ -144,6 +144,11 @@
       "subtitle": "Mega Legendary Raid",
       "intro": "The current mega raids are the best way to obtain mega energy to power up the strongest pokemon! They are often done with groups of 6-10 level 30-40 players. Some intrepid experts have done some of these raids with as few as 2-5 players."
     },
+            "RAID_LEVEL_PRIMAL": {
+      "title": "Primal Tier",
+      "subtitle": "Primal Raid",
+      "intro": "Primal raids feature Primal Reversion pokemon and are among the most difficult raids available. They are typically done with groups of 6-10 level 30-40 players."
+    },
     "RAID_LEVEL_ULTRA_BEAST": {
       "title": "Ultra Beast Tier",
       "subtitle": "Ultra Beast Raid",

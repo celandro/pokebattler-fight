@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "noFriend": {
     "addFriend": "Agrega amigos haciendo clic en el botón de agregar en la parte inferior derecha.",
     "description": "Agregar amigos te enviará notificaciones cuando estén creando grupos de incursión y te permitirá ver los grupos de incursión que han creado recientemente. Asegúrate de establecer el nivel de amigo correcto para que tu nivel de amistad se establezca automáticamente en las simulaciones de grupos de incursión.",
@@ -33,39 +32,4 @@
     "FRIENDSHIP_LEVEL_4": "Mejores amigos",
     "FRIENDSHIP_LEVEL_5": "Amigos para siempre"
   }
-=======
-    "noFriend": {
-        "addFriend": "Agrega amigos clickeando en el botón \"Agregar\" ubicado debajo a la derecha.",
-        "description": "Al agregar amigos recibirás notificaciones cuando estén creando incursiones y te permitirá ver las incursiones que han creado recientemente.  Asegúrate de establecer el nivel correcto de amistad ya que se usará automáticamente en las simulaciones de incursión.",
-        "title": "Agrega tus amigos a Pokebattler!"
-    },
-    "title": "Amigos",
-    "errors": {
-        "add": "Agregar amigo falló",
-        "failed": "No se puede recuperar la lista de amigos",
-        "update": "Error al actualizar amigo",
-        "delete": "Error al eliminar amigo"
-    },
-    "add": {
-        "clearSearch": "Limpiar",
-        "searchPlaceholder": "Nombre, Código o ID",
-        "cancelAddFriend": "Cancelar",
-        "supportedSearches": "Ingrese el Codigo de Amistad, Nombre de Entrenador, Nombre en Discord o ID Pokebattler en la barra de búsqueda y establezca su nivel de amistad.",
-        "addFriend": "Agregar Amigo Pokebattler",
-        "friendId": "ID Pokebattler",
-        "noSearchText": "Encuentra a tus amigos",
-        "friendLevel": "Nivel de amistad",
-        "noSearchResults": "No se encontraron amigos, inténtelo de nuevo!",
-        "setFriendLevel": "Añade un amigo seleccionando su nivel de amistad."
-
-    },
-    "levels": {
-        "FRIENDSHIP_LEVEL_UNSET": "Sin amistad",
-        "FRIENDSHIP_LEVEL_0": "Nuevos amigos",
-        "FRIENDSHIP_LEVEL_1": "Buena amistad",
-        "FRIENDSHIP_LEVEL_2": "Gran amistad",
-        "FRIENDSHIP_LEVEL_3": "Ultraamistad",
-        "FRIENDSHIP_LEVEL_4": "Amistad sin igua"
-    }
->>>>>>> d0eed404 (fixes for friends)
 }

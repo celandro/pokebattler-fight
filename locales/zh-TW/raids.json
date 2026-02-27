@@ -105,6 +105,11 @@
       "subtitle": "超級傳說團戰",
       "intro": "目前的超級團戰最適合獲取超級能量以強化最強寶可夢！常見 6-10 名 30-40 級玩家，少數達人可 2-5 人完成。"
     },
+            "RAID_LEVEL_PRIMAL": {
+      "title": "Primal Tier",
+      "subtitle": "Primal Raid",
+      "intro": "Primal raids feature Primal Reversion pokemon and are among the most difficult raids available. They are typically done with groups of 6-10 level 30-40 players."
+    },
     "RAID_LEVEL_ULTRA_BEAST": {
       "title": "究極異獸",
       "subtitle": "究極異獸團戰",

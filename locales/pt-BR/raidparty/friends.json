@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "add": {
     "clearSearch": "Limpar",
     "searchPlaceholder": "Nome, Código ou ID",
@@ -33,34 +32,4 @@
     "FRIENDSHIP_LEVEL_5": "Forever friends"
   },
   "title": "Amigos"
-=======
-    "add": {
-        "clearSearch": "Limpar",
-        "searchPlaceholder": "Nome, Código ou ID",
-        "cancelAddFriend": "Cancelar",
-        "supportedSearches": "Digite o código do amigo, o nome do treinador, o nome do Discord ou a ID do Pokebattler na barra de pesquisa e defina seu nível de amizade.",
-        "addFriend": "Adicionar Amigo Pokebattle",
-        "friendId": "ID Pokebattler",
-        "noSearchText": "Encontre seus amigos",
-        "friendLevel": "Nível de Amizade",
-        "noSearchResults": "Nenhum amigo encontrado, tente novamente!",
-        "setFriendLevel": "Adicione um amigo selecionando seu nível de amizade."
-    },
-    "noFriend": {
-        "addFriend": "Adicione amigos ao tocar no botão \"adicionar\" no canto inferior direito.",
-        "description": "Adicionar amigos enviará a você notificações quando eles estiverem criando grupos de reide e permitirá que você veja os grupos criados recentemente. Certifique-se de definir o nível de amizade correto para que ele seja definido automaticamente nas simulações de grupo de reide.",
-        "title": "Adicione seus amigos no Pokebattler!"
-    },
-    "errors": {
-        "failed": "Impossível recuperar a lista de amigos",
-        "update": "Falha ao atualizar amigo",
-        "delete": "Falha ao excluir amigo",
-        "add": "Falha ao adicionar amigo"
-    },
-    "levels": {
-        "FRIENDSHIP_LEVEL": "Desconhecidos",
-        "FRIENDSHIP_LEVEL_plural": "Conhecidos\nAmigos\nBons Amigos\nMelhores Amigos"
-    },
-    "title": "Amigos"
->>>>>>> d0eed404 (fixes for friends)
 }
