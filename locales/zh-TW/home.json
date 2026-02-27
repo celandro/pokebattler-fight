@@ -1,25 +1,25 @@
 {
-  "title": "Pokémon GO 模擬器與排行",
+  "title": "Pokémon GO 模擬器與排行榜",
   "meta": {
-    "description": "全球最權威的 Pokémon GO 詳細分析。最佳模擬、可自訂排行，以及最準確的團體戰剋星！",
+    "description": "全球第一的 Pokémon GO 深度分析來源。最佳模擬、可自訂排行榜，以及最準確的團體戰剋星！",
     "image": "https://static.pokebattler.com/images/og_home.png"
   },
   "articles": {
     "title": "深入的 Pokémon GO 文章",
-    "subtitle": "其他地方找不到的新聞與研究",
+    "subtitle": "其他地方找不到的新聞與研究內容",
     "more": "閱讀更多文章"
   },
   "article": {
     "title": "{{title}}",
     "meta": {
-      "description": "{{author}} 以{{format}} 於 {{date}} 發表，主題包含 {{categories}}。本文關於 {{tags}}。",
+      "description": "{{author}} 於 {{date}} 以 {{format}} 發表，主題涵蓋 {{categories}}。本文內容關於 {{tags}}。",
       "image": "{{featuredURL}}"
     }
   },
   "news": {
     "title": "更新日誌",
     "meta": {
-      "description": "Pokebattler 最新發布資訊：世界第一準確 Pokémon GO 模擬器的更新日誌",
+      "description": "Pokebattler 最新消息：全球最準確的 Pokémon GO 模擬器更新日誌",
       "image": "https://static.pokebattler.com/images/og_more_news.jpg"
     },
     "old": "較舊的消息",
