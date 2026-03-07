@@ -6,7 +6,8 @@
         "FRIENDSHIP_LEVEL_1": "Good friends",
         "FRIENDSHIP_LEVEL_2": "Great friends",
         "FRIENDSHIP_LEVEL_3": "Ultra friends",
-        "FRIENDSHIP_LEVEL_4": "Best friends"
+        "FRIENDSHIP_LEVEL_4": "Best friends",
+        "FRIENDSHIP_LEVEL_5": "Forever friends"
     },
     "add": {
         "friendId": "Pokebattler ID",
@@ -17,7 +18,8 @@
         "supportedSearches": "Enter the Friend Code, Trainer Name, Discord Name or Pokebattler Id in the search bar and set your friend level.",
         "noSearchResults": "No friends found, try again!",
         "noSearchText": "Find your friends",
-        "clearSearch": "Clear"
+        "clearSearch": "Clear",
+        "setFriendLevel": "Add a friend by selecting their friend level."
     },
     "noFriend": {
         "title": "Add your friends to Pokebattler!",

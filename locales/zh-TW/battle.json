@@ -101,7 +101,7 @@
         "description": "{{attacker.name}} vs. {{defender.name}} 使用的一般招式為 {{defender.quickMove}}，特殊招式為 {{defender.specialMove}} 的團體戰結果",
         "image": "https://static.pokebattler.com/images/og_raid_simulator.jpg"
       },
-      "description": "模擬結果為玩家 {{attacker.userId}} 使用對戰小組 {{attacker.battlePartyId}} {{result}} CP {{defender.cp}} ，團體戰等級為 {{defender.tier}} 的 {{defender.name}}。本次模擬採用攻擊策略 {{strategies.attack}}，閃躲策略{{strategies.dodge}}，以及防守策略{{strategies.defense}}，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。",
+      "description": "模擬結果為玩家 {{attacker.userId}} 使用對戰小組 {{attacker.battlePartyId}} {{result}} CP {{defender.cp}} ，團體戰等級為 {{defender.tier}} 的 {{defender.name}}。本次模擬採用攻擊策略 {{strategies.attack}}，閃躲策略{{strategies.dodge}}，以及防守策略{{strategies.defense}}，天氣為{{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。"
     },
     "pvp": {
       "title": "{{attacker.name}} vs. {{defender.name}} PvP模擬",
@@ -109,10 +109,10 @@
         "description": "{{attacker.name}} vs. {{defender.name}}的PvP對戰模擬結果",
         "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
       },
-      "description": "模擬結果為玩家 {{attacker.userId}} 使用的戰鬥小組 {{attacker.battlePartyId}} {{result}} 防守方 {{defender.userId}} 的戰鬥小組 {{defender.battlePartyId}}。本次模擬攻擊方採用的攻擊策略為 {{strategies.attack}}，閃躲策略為 {{strategies.dodge}} ，而防守方的防守策略為 {{strategies.defense}}，攻擊策略為 {{strategies.defenseDodge}}，天氣為 {{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。",
+      "description": "模擬結果為玩家 {{attacker.userId}} 使用的戰鬥小組 {{attacker.battlePartyId}} {{result}} 防守方 {{defender.userId}} 的戰鬥小組 {{defender.battlePartyId}}。本次模擬攻擊方採用的攻擊策略為 {{strategies.attack}}，閃躲策略為 {{strategies.dodge}} ，而防守方的防守策略為 {{strategies.defense}}，攻擊策略為 {{strategies.defenseDodge}}，天氣為 {{weatherCondition}}。戰鬥結果是計算$t(common:simulation, {'count': {{numSims}}})次的模擬平均值。"
     },
     "help": {
-      "text": "{{helpLink}}中對於對戰模擬是如何計算有詳細的說明。如果你想多了解本遊戲和對戰相關的研究資料，請參閱{{aboutLink}}。"
+      "text": "{{helpLink}}中對於對戰模擬是如何計算有詳細的說明。如果你想多了解本遊戲和對戰相關的研究資料，請參閱{{aboutLink}}。",
       "links": {
         "repo": "開放原始碼軟體專案網站"
       }
@@ -129,9 +129,9 @@
       "link": "團體戰模擬頁面。",
       "name": "協助者"
     },
-    "logTitle": "對戰日誌",
+    "logTitle": "對戰日誌"
   },
   "runAgain": "再次執行此隨機模擬",
   "runSolo": "以單人嘗試執行",
-  "addBattleParty": "儲存此對戰小隊",
+  "addBattleParty": "儲存此對戰小隊"
 }

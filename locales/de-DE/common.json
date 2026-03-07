@@ -234,10 +234,10 @@
       "more": "Neuigkeiten, Artikel, Übersetzungen, Wie du zu uns Kontakt aufnimmst und mehr",
       "profiles": "Finde die Pokemon aus den Pokeboxen deiner Freunde",
       "rocket": "Akkurate Team-Rocket-Konter",
-      "pvppokedex": "$t(pvp) Counters and Matchups  for every Pokemon",
-      "pvprankings": "Top Counters and Matchups for $t(pvp) Leagues and Silph Cup",
-      "pvpsimulator": "Battle Party $t(pvp) Simulator",
-      "pvpmatrix": "Custom Results Of Your Pokemon Vs. Their Pokemon"
+      "pvppokedex": "$t(pvp) Konter und Matchups  für jedes Pokemon",
+      "pvprankings": "Top-Konter und Matchups für $t(pvp) Ligen und Silph Cup",
+      "pvpsimulator": "Kampfparty $t(pvp) Simulator",
+      "pvpmatrix": "Individuelle Ergebnisse deiner Pokemon gegen deren Pokemon"
     },
     "tooltip": {
       "gym": "Arena Kampfsimulationen, Pokedex, Angreifer- und Verteidigerranglisten und mehr für Pokemon Go",
@@ -270,7 +270,7 @@
   },
   "friendLevels": "Freundschaftslevel",
   "shiny": "Schillernd",
-  "lucky": "Glück",
+  "lucky": "Glücks",
   "seconds": "Sekunden",
   "rejoin": {
     "label": "Wiederbeitrittszeit",
@@ -314,7 +314,7 @@
   "includeShadow": "Crypto-Pokémon anzeigen",
   "includeLegendary": "Legendäre Pokémon anzeigen",
   "includeTypes": "Nach Pokémon-Typ anzeigen",
-  "discordName": "Discord Username",
+  "discordName": "Discord Nutzername",
   "upgrade": "Upgraden Sie Ihren Account",
   "battlePartyType": "Kampfparty-Typ",
   "share": {
@@ -336,7 +336,7 @@
     "error": "Fehler",
     "info": "Info",
     "message": "Nachricht",
-    "stack": "Stack"
+    "stack": "Stapel"
   },
   "loading": {
     "wait": "Laden...",
@@ -357,29 +357,29 @@
   "xlcandy": {
     "title": "Verfügbare XL Bonbons"
   },
-  "select": "Select",
-  "submit": "Submit",
+  "select": "Auswählen",
+  "submit": "Einreichen",
   "filter": "Filter",
-  "weakness": "Weakness",
-  "difficulty": "Difficulty",
+  "weakness": "Schwäche",
+  "difficulty": "Schwierigkeit",
   "dynamax": "Dynamax",
-  "gigantamax": "Gigantamax",
-  "unavailable": "Unavailable",
-  "primalAssistants": "Active Primal Boosts",
+  "gigantamax": "Gigadynamax",
+  "unavailable": "Nicht verfügbar",
+  "primalAssistants": "Aktive Proto-Boost",
   "genericError": {
     "title": "$t(common:status.error)",
     "description": "$t(common:message.error)"
   },
   "numParty": {
-    "title": "Party Power",
-    "description": "The number of players in your party who are in the raid with you."
+    "title": "Team-Power",
+    "description": "Die Anzahl der Spieler in deienr Gruppe, die mit dir am Raid teilnehmen."
   },
   "numMegas": {
-    "title": "Additional Megas",
-    "description": "The number of additional megas brought by other players. Megas will be staggered to increase the uptime of the mega buff."
+    "title": "Weitere Megas",
+    "description": "Die Anzahl zusätzlicher Megas, die von anderen Spielern eingesetzt werden. Megas werden gestaffelt eingesetzt, um die Wirkungsdauer des Mega-Buffs zu verlängern."
   },
   "legacyDate": "{{legacyDate,shortDate}}",
-  "from": "From",
-  "until": "Until",
-  "localTime": "Local Time"
+  "from": "Vom",
+  "until": "Bis",
+  "localTime": "Ortszeit"
 }

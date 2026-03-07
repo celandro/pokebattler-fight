@@ -1,6 +1,6 @@
 {
   "title": "Wie man Pokebattler benutzt",
-  "intro": "Willkommen zu Pokebattler.com! Dem BESTEN und anspruchsvollste Pokemon Go Arena Simulator, der jemals entwickelt wurde. Möchtest du wissen, ob dein Relaxo das Zeug zum Sieger hat? Teste jedes einzelne deiner Pokemon um zu sehen, wie sie in einem Kopf an Kopf gegen andere Pokemon in der Arena abschneiden. Für jeden Kampf bekommst du einen sekündlichen Schadensbericht.",
+  "intro": "Willkommen zu Pokebattler.com! Dem BESTEN und anspruchsvollste Pokemon Go Arena Simulator, der jemals entwickelt wurde. Möchtest du wissen, ob dein Relaxo das Zeug zum Sieger hat? Teste jedes einzelne deiner Pokemon, um zu sehen, wie sie in einem Kopf an Kopf gegen andere Pokemon in der Arena abschneiden. Für jeden Kampf bekommst du einen sekündlichen Schadensbericht.",
   "outro": "Und schau wieder vorbei für künftige Features wie Einloggen zum Speichern deiner besten Arenakämpfe und vieles mehr.",
   "now-battle": "Jetzt ab zum Pokemonkampf!",
   "backlink": "Zurück zur Hilfe",
@@ -67,7 +67,7 @@
     "raidAdvice": {
       "title": "Raid-Beratung",
       "link": "/help/raid-advice",
-      "description": "Entdecke welche Pokemon du aufwerten kannst, um diesen Raid Boss zu besiegen"
+      "description": "Entdecke, welche Pokemon du verbessern solltest, um diesen Raid Boss zu besiegen"
     },
     "pvpMatrix": {
       "title": "PVP Matrix",

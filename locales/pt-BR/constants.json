@@ -3247,6 +3247,10 @@
     "FRIENDSHIP_LEVEL_4": {
       "label": "Amizade Sem Igual",
       "description": "O nível máximo de amizade que você possui com alguém na reide. Amigos com Amizade Sem Igual ganham um bônus de 10% de ataque e 4 bolas extras em reides. Podem trocar Pokémon não-míticos com 96% de desconto em Poeira Estelar."
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "Amigos para Sempre",
+      "description": "O nível máximo de amizade que você possui com alguém na reide. Amigos para Sempre ganham um bônus de 12% de ataque e podem trocar remotamente."
     }
   },
   "generations": {

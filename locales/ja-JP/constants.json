@@ -3180,285 +3180,289 @@
     }
   },
   "sorts": {
-    "label": "Sort Order",
+    "label": "並び順",
     "OVERALL": {
       "label": "$t(common:properties.overall)",
-      "description": "A weighted strength score"
+      "description": "総合的な強さスコア"
     },
     "POWER": {
       "label": "$t(common:properties.power)",
-      "description": "The percent of opponents health removed within the time limit"
+      "description": "制限時間内に与えた相手HPの割合"
     },
     "WIN": {
       "label": "$t(common:properties.win)",
-      "description": "Chance of victory"
+      "description": "勝利確率"
     },
     "TIME": {
       "label": "$t(common:properties.time)",
-      "description": "Time to win assuming infinite number of Pokemon"
+      "description": "無限のポケモンを想定した勝利までの時間"
     },
     "POTIONS": {
       "label": "$t(common:properties.potions)",
-      "description": "1 point for each potion and 5 points for each revive"
+      "description": "キズぐすり1個で1ポイント、げんきのかけら1個で5ポイント"
     },
     "TDO": {
       "label": "$t(common:properties.tdo)",
-      "description": "Damage done per Pokemon"
+      "description": "ポケモン1体あたりのダメージ"
     },
     "ESTIMATOR": {
       "label": "$t(common:properties.estimator)",
-      "description": "Approximate number of players required to win"
+      "description": "勝利に必要な推定プレイヤー数"
     },
     "WEATHER": {
-      "label": "Weather",
-      "description": "Best in weather"
+      "label": "天候",
+      "description": "天候ブースト時に最適"
     },
     "DODGE_SPECIALS": {
-      "label": "Dodge Specials",
-      "description": "Best when dodging"
+      "label": "スペシャル回避",
+      "description": "回避時に最適"
     },
     "40+W+F": {
-      "label": "40 + Boosts",
-      "description": "Level 40, Weather, Best Friends"
+      "label": "40 + ブースト",
+      "description": "レベル40、天候、大親友"
     }
   },
   "levels": {
-    "20": "Level 20",
-    "25": "Level 25",
-    "30": "Level 30",
-    "35": "Level 35",
-    "40": "Level 40",
-    "40+W+F": "40 + Boosts"
+    "20": "レベル 20",
+    "25": "レベル 25",
+    "30": "レベル 30",
+    "35": "レベル 35",
+    "40": "レベル 40",
+    "40+W+F": "40 + ブースト"
   },
   "weatherConditions": {
     "NO_WEATHER": {
-      "label": "Extreme",
-      "description": "No bonus to any Pokemon"
+      "label": "異常気象",
+      "description": "どのポケモンにもボーナスなし"
     },
     "CLEAR": {
-      "label": "Sunny/Clear",
-      "description": "20% bonus to Grass, Ground and Fire attacks"
+      "label": "晴れ",
+      "description": "くさ、じめん、ほのおタイプの技に20%ボーナス"
     },
     "RAINY": {
-      "label": "Rainy",
-      "description": "20% bonus to Water, Electric and Bug attacks"
+      "label": "雨",
+      "description": "みず、でんき、むしタイプの技に20%ボーナス"
     },
     "PARTLY_CLOUDY": {
-      "label": "Partly Cloudy",
-      "description": "20% bonus to Normal and Rock attacks"
+      "label": "ときどき曇り",
+      "description": "ノーマル、いわタイプの技に20%ボーナス"
     },
     "OVERCAST": {
-      "label": "Cloudy",
-      "description": "20% bonus to Fairy, Fighting and Poison attacks"
+      "label": "曇り",
+      "description": "フェアリー、かくとう、どくタイプの技に20%ボーナス"
     },
     "WINDY": {
-      "label": "Windy",
-      "description": "20% bonus to Dragon, Flying and Psychic attacks"
+      "label": "強風",
+      "description": "ドラゴン、ひこう、エスパータイプの技に20%ボーナス"
     },
     "SNOW": {
-      "label": "Snow",
-      "description": "20% bonus to Ice and Steel attacks"
+      "label": "雪",
+      "description": "こおり、はがねタイプの技に20%ボーナス"
     },
     "FOG": {
-      "label": "Fog",
-      "description": "20% bonus to Dark and Ghost attacks"
+      "label": "霧",
+      "description": "あく、ゴーストタイプの技に20%ボーナス"
     }
   },
   "aggregations": {
     "AVERAGE": {
-      "label": "Average",
-      "description": "Average the results of the Monte Carlo simulations together. Note: The combat log and detailed damage reports are based on the median"
+      "label": "平均",
+      "description": "モンテカルロシミュレーションの結果を平均します。注：戦闘ログと詳細ダメージレポートは中央値に基づいています"
     },
     "MEDIAN": {
-      "label": "Expected - 50%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 50th percentile."
+      "label": "期待値 - 50%",
+      "description": "モンテカルロシミュレーションの結果を総合評価で並べ替え、50パーセンタイルを返します。"
     },
     "PERCENTILE_99": {
-      "label": "Extremely lucky - 99%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 99th percentile."
+      "label": "超幸運 - 99%",
+      "description": "モンテカルロシミュレーションの結果を総合評価で並べ替え、99パーセンタイルを返します。"
     },
     "PERCENTILE_95": {
-      "label": "Very lucky - 95%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 95th percentile."
+      "label": "とても幸運 - 95%",
+      "description": "モンテカルロシミュレーションの結果を総合評価で並べ替え、95パーセンタイルを返します。"
     },
     "PERCENTILE_75": {
-      "label": "Lucky - 75%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 75th percentile."
+      "label": "幸運 - 75%",
+      "description": "モンテカルロシミュレーションの結果を総合評価で並べ替え、75パーセンタイルを返します。"
     },
     "PERCENTILE_25": {
-      "label": "Unlucky - 25%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 25th percentile."
+      "label": "不運 - 25%",
+      "description": "モンテカルロシミュレーションの結果を総合評価で並べ替え、25パーセンタイルを返します。"
     },
     "PERCENTILE_5": {
-      "label": "Very Unlucky - 5%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 5th percentile."
+      "label": "とても不運 - 5%",
+      "description": "モンテカルロシミュレーションの結果を総合評価で並べ替え、5パーセンタイルを返します。"
     },
     "PERCENTILE_1": {
-      "label": "Extremely unlucky - 1%",
-      "description": "Order the results of the Monte Carlo simulations together by Overall Rating and return the 1st percentile."
+      "label": "超不運 - 1%",
+      "description": "モンテカルロシミュレーションの結果を総合評価で並べ替え、1パーセンタイルを返します。"
     }
   },
   "friendLevels": {
     "FRIENDSHIP_LEVEL_UNSET": {
-      "label": "Not Friends",
-      "description": "If you are not friends with anyone else in the raid, you get no bonus to attack."
+      "label": "フレンドでない",
+      "description": "レイドで誰ともフレンドでない場合、攻撃ボーナスはありません。"
     },
     "FRIENDSHIP_LEVEL_0": {
-      "label": "New Friends",
-      "description": "If you are new friends with anyone else in the raid, you get no bonus to attack. You can only trade regular Pokemon both players already own."
+      "label": "知り合い",
+      "description": "レイドで知り合いフレンドがいる場合、攻撃ボーナスはありません。両プレイヤーが既に所有している通常のポケモンのみ交換できます。"
     },
     "FRIENDSHIP_LEVEL_1": {
-      "label": "Good Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Good Friends get a 3% bonus to attack and can trade non-mythical Pokemon."
+      "label": "仲良し",
+      "description": "レイドで最も高いフレンドレベル。仲良しは攻撃に3%ボーナスがあり、幻以外のポケモンを交換できます。"
     },
     "FRIENDSHIP_LEVEL_2": {
-      "label": "Great Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Great Friends get a 5% bonus to attack, 1 extra bonus ball in raids. They can trade non-mythical Pokemon with a 20% stardust discount."
+      "label": "親友",
+      "description": "レイドで最も高いフレンドレベル。親友は攻撃に5%ボーナスがあり、レイドで1個の追加ボールがもらえます。幻以外のポケモンを20%のほしのすな割引で交換できます。"
     },
     "FRIENDSHIP_LEVEL_3": {
-      "label": "Ultra Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Ultra Friends get a 7% bonus to attack, 2 extra bonus balls in raids. They can trade non-mythical Pokemon with a 92% stardust discount."
+      "label": "大親友",
+      "description": "レイドで最も高いフレンドレベル。大親友は攻撃に7%ボーナスがあり、レイドで2個の追加ボールがもらえます。幻以外のポケモンを92%のほしのすな割引で交換できます。"
     },
     "FRIENDSHIP_LEVEL_4": {
-      "label": "Best Friends",
-      "description": "The maximum friend level you have with anyone at the raid. Best Friends get a 10% bonus to attack and 4 extra bonus balls in raids. They can trade non-mythical Pokemon with a 96% stardust discount."
+      "label": "キラフレンド",
+      "description": "レイドで最も高いフレンドレベル。キラフレンドは攻撃に10%ボーナスがあり、レイドで4個の追加ボールがもらえます。幻以外のポケモンを96%のほしのすな割引で交換できます。"
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "フォーエバーフレンド",
+      "description": "レイドで最も高いフレンドレベル。フォーエバーフレンドは攻撃に12%ボーナスがあり、リモートで交換できます。"
     }
   },
   "autoBattlePartyTypes": {
-    "label": "Auto Raid Party",
+    "label": "自動レイドパーティ",
     "BATTLE_PARTY_POKEBOX": {
-      "label": "Pokebox",
-      "description": "Use the best Pokemon from your Pokebox"
+      "label": "ポケボックス",
+      "description": "ポケボックスから最適なポケモンを使用"
     },
     "BATTLE_PARTY_LEVEL_20": {
-      "label": "Level 20",
-      "description": "Use the best level 20 Pokemon"
+      "label": "レベル 20",
+      "description": "最適なレベル20のポケモンを使用"
     },
     "BATTLE_PARTY_LEVEL_25": {
-      "label": "Level 25",
-      "description": "Use the best level 25 Pokemon"
+      "label": "レベル 25",
+      "description": "最適なレベル25のポケモンを使用"
     },
     "BATTLE_PARTY_LEVEL_30": {
-      "label": "Level 30",
-      "description": "Use the best level 30 Pokemon"
+      "label": "レベル 30",
+      "description": "最適なレベル30のポケモンを使用"
     },
     "BATTLE_PARTY_LEVEL_35": {
-      "label": "Level 35",
-      "description": "Use the best level 35 Pokemon"
+      "label": "レベル 35",
+      "description": "最適なレベル35のポケモンを使用"
     },
     "BATTLE_PARTY_LEVEL_40": {
-      "label": "Level 40",
-      "description": "Use the best level 40 Pokemon"
+      "label": "レベル 40",
+      "description": "最適なレベル40のポケモンを使用"
     },
     "BATTLE_PARTY_LEVEL_45": {
-      "label": "Level 45",
-      "description": "Use the best level 45 Pokemon"
+      "label": "レベル 45",
+      "description": "最適なレベル45のポケモンを使用"
     },
     "BATTLE_PARTY_LEVEL_50": {
-      "label": "Level 50",
-      "description": "Use the best level 50 Pokemon"
+      "label": "レベル 50",
+      "description": "最適なレベル50のポケモンを使用"
     }
   },
   "battlePartyTypes": {
-    "label": "League",
+    "label": "リーグ",
     "COMBAT_LEAGUE_RAIDS_GYMS": {
-      "label": "Raids & Gyms",
-      "description": "6 pokemon with no limits."
+      "label": "レイド＆ジム",
+      "description": "制限なしの6体のポケモン。"
     },
     "COMBAT_LEAGUE_DEFAULT_GREAT": {
-      "label": "Great League",
-      "description": "3 Pokemon with a maximum CP of 1500."
+      "label": "スーパーリーグ",
+      "description": "CP1500以下のポケモン3体。"
     },
     "COMBAT_LEAGUE_DEFAULT_ULTRA": {
-      "label": "Ultra League",
-      "description": "3 Pokemon with a maximum CP of 2500."
+      "label": "ハイパーリーグ",
+      "description": "CP2500以下のポケモン3体。"
     },
     "COMBAT_LEAGUE_DEFAULT_MASTER": {
-      "label": "Master League",
-      "description": "3 Pokemon with no limits."
+      "label": "マスターリーグ",
+      "description": "制限なしのポケモン3体。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_FLYING": {
-      "label": "Flying Cup",
-      "description": "3 Flying Pokemon with a maximum CP of 1500."
+      "label": "フライングカップ",
+      "description": "CP1500以下のひこうタイプのポケモン3体。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_HALLOWEEN": {
-      "label": "Halloween Cup",
-      "description": "3 Pokemon of Poison, Bug, Ghost, Dark or Fairy types with a maximum CP of 1500."
+      "label": "ハロウィンカップ",
+      "description": "CP1500以下のどく、むし、ゴースト、あく、フェアリータイプのポケモン3体。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_KANTO": {
-      "label": "Kanto Cup",
-      "description": "3 Pokemon from Gen 1 with a maximum CP of 1500."
+      "label": "カントーカップ",
+      "description": "CP1500以下の第1世代のポケモン3体。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_HOLIDAY": {
-      "label": "Holiday Cup",
-      "description": "3 Pokemon of Normal, Grass, Electric, Ice, Flying, or Ghost types with a maximum CP of 1500."
+      "label": "ホリデーカップ",
+      "description": "CP1500以下のノーマル、くさ、でんき、こおり、ひこう、ゴーストタイプのポケモン3体。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_REMIX": {
-      "label": "Great League - Remix",
-      "description": "10 most popular Great League Pokemon are banned with a maximum CP of 1500."
+      "label": "スーパーリーグ リミックス",
+      "description": "スーパーリーグで人気のポケモン10体が禁止、CP1500以下。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_ELEMENT": {
-      "label": "Great League - Element",
-      "description": "A restricted cup with a maximum CP of 500."
+      "label": "スーパーリーグ エレメント",
+      "description": "CP500以下の制限カップ。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_GREAT_BIDOOF": {
-      "label": "Great League - Bidoof",
-      "description": "Bidoof? Bidoof!"
+      "label": "スーパーリーグ ビッパ",
+      "description": "ビッパ？ビッパ！"
     },
     "COMBAT_LEAGUE_PREMIER_CUP": {
-      "label": "Premier Cup",
-      "description": "3 non-legendary, non-mythical Pokemon."
+      "label": "プレミアカップ",
+      "description": "伝説・幻以外のポケモン3体。"
     },
     "COMBAT_LEAGUE_ULTRA_PREMIER_CUP": {
-      "label": "Ultra Premier Cup",
-      "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+      "label": "ハイパープレミアカップ",
+      "description": "CP2500以下の伝説・幻以外のポケモン3体。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_MASTER_PREMIER_CLASSIC": {
-      "label": "Premier Cup Classic",
-      "description": "3 non-legendary, non-mythical Pokemon."
+      "label": "プレミアカップ クラシック",
+      "description": "伝説・幻以外のポケモン3体。"
     },
     "COMBAT_LEAGUE_VS_SEEKER_ULTRA_PREMIER_CLASSIC": {
-      "label": "Ultra Premier Cup Classic",
-      "description": "3 non-legendary, non-mythical Pokemon with a maximum CP of 2500."
+      "label": "ハイパープレミアカップ クラシック",
+      "description": "CP2500以下の伝説・幻以外のポケモン3体。"
     },
     "COMBAT_LEAGUE_SILPH_SUNRISE_CUP": {
-      "label": "Silph Arena Sunrise Cup",
-      "description": "The October Silph Arena Season 3 Cup tournament."
+      "label": "シルフアリーナ サンライズカップ",
+      "description": "シルフアリーナシーズン3の10月カップトーナメント。"
     },
     "COMBAT_LEAGUE_SILPH_MARSH_CUP": {
-      "label": "Silph Arena Marsh Cup",
-      "description": "The November Silph Arena Season 3 Cup tournament."
+      "label": "シルフアリーナ マーシュカップ",
+      "description": "シルフアリーナシーズン3の11月カップトーナメント。"
     },
     "COMBAT_LEAGUE_SILPH_NIGHTFALL_CUP": {
-      "label": "Silph Arena Nightfall Cup",
-      "description": "The December Silph Arena Season 3 Cup tournament."
+      "label": "シルフアリーナ ナイトフォールカップ",
+      "description": "シルフアリーナシーズン3の12月カップトーナメント。"
     },
     "COMBAT_LEAGUE_SILPH_LABYRINTH_CUP": {
-      "label": "Silph Arena Labyrinth Cup",
-      "description": "The February Silph Arena Season 3 Cup tournament."
+      "label": "シルフアリーナ ラビリンスカップ",
+      "description": "シルフアリーナシーズン3の2月カップトーナメント。"
     }
   },
   "privacy": {
     "PRIVATE": {
-      "label": "Private",
-      "description": "A raid that can only be joined by people who know the raid party id"
+      "label": "プライベート",
+      "description": "レイドパーティIDを知っている人のみ参加できるレイド"
     },
     "FRIEND": {
-      "label": "Friend",
-      "description": "A raid for your friends to join. A push notification will be sent to your friends"
+      "label": "フレンド",
+      "description": "フレンドが参加するためのレイド。フレンドにプッシュ通知が送信されます"
     },
     "GLOBAL": {
-      "label": "Global",
-      "description": "A raid for anyone to join"
+      "label": "グローバル",
+      "description": "誰でも参加できるレイド"
     }
   },
-  "levelVs": "Level {{attackerLevel}} Attacker Vs. Level {{defenderLevel}} Defender",
-  "levelVsPokebox": "Level {{attackerLevel}} Attacker Vs. Pokebox {{userId}} Defenders",
-  "pokeboxVsLevel": "Pokebox {{userId}} Attackers Vs. Level {{defenderLevel}} Defender",
+  "levelVs": "レベル{{attackerLevel}}の攻撃側 vs レベル{{defenderLevel}}の防御側",
+  "levelVsPokebox": "レベル{{attackerLevel}}の攻撃側 vs ポケボックス{{userId}}の防御側",
+  "pokeboxVsLevel": "ポケボックス{{userId}}の攻撃側 vs レベル{{defenderLevel}}の防御側",
   "resists": {
-    "title": "{{name}} Weaknesses in Pokemon Go",
-    "subtitle": "{{name}} is weak to {{types}} attacks",
-    "resistAlt": "{{name}} is {{resistType}} weak to {{resist}} attacks`}",
+    "title": "ポケモンGOでの{{name}}の弱点",
+    "subtitle": "{{name}}は{{types}}タイプの技に弱い",
+    "resistAlt": "{{name}}は{{resist}}タイプの技に{{resistType}}弱い",
     "types": {
       "1_600000": "1.6 ×",
       "2_560000": "2.56 ×",

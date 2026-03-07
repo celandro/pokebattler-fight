@@ -3119,6 +3119,10 @@
     "FRIENDSHIP_LEVEL_4": {
       "label": "正港好朋友",
       "description": "你在此團戰中的最高朋友等級。正港好朋友可獲攻擊 +10% 加成，團戰多 4 顆獎勵球，交換非幻之寶可夢享 96% 星塵折扣。"
+    },
+    "FRIENDSHIP_LEVEL_5": {
+      "label": "永遠的好朋友",
+      "description": "你在此團戰中的最高朋友等級。永遠的好朋友可獲攻擊 +12% 加成，並可進行遠程交換。"
     }
   },
   "battlePartyTypes": {

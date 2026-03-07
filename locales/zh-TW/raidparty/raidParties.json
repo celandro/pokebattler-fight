@@ -217,11 +217,11 @@
   "raidNotStarted": "{{ownerName}} 尚未開始團體戰",
   "countdownTitle": "團體戰開始時間",
   "startingTime": {
-    "default": "選擇開始時間"
+    "default": "選擇開始時間",
     "15": "15 秒",
     "30": "30 秒",
     "120": "2 分鐘",
-    "300": "5 分鐘",
+    "300": "5 分鐘"
   },
   "countdownDone": "GO",
   "goCommandInstruction": "按下 GO 後新玩家將不能加入，並通知所有人團體戰即將開始！請確認你已接受所有好友邀請。按下 GO 後無法返回！",

@@ -20,7 +20,8 @@
     "friendId": "ID de Pokebattler",
     "noSearchText": "Encuentra a tus amigos",
     "friendLevel": "Nivel de amistad",
-    "noSearchResults": "¡No se encontraron amigos, inténtalo de nuevo!"
+    "noSearchResults": "¡No se encontraron amigos, inténtalo de nuevo!",
+    "setFriendLevel": "Añade un amigo seleccionando su nivel de amistad."
   },
   "levels": {
     "FRIENDSHIP_LEVEL_UNSET": "No son amigos",
@@ -28,6 +29,7 @@
     "FRIENDSHIP_LEVEL_1": "Buena amistad",
     "FRIENDSHIP_LEVEL_2": "Gran amistad",
     "FRIENDSHIP_LEVEL_3": "Ultraamistad",
-    "FRIENDSHIP_LEVEL_4": "Mejores amigos"
+    "FRIENDSHIP_LEVEL_4": "Mejores amigos",
+    "FRIENDSHIP_LEVEL_5": "Amigos para siempre"
   }
 }
