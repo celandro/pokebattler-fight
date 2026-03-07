@@ -110,6 +110,11 @@
             "subtitle": "Primal Raid",
             "intro": "Primal raids feature Primal Reversion pokemon and are among the most difficult raids available. They are typically done with groups of 6-10 level 30-40 players."
         },
+        "RAID_LEVEL_MEGA_ENHANCED_4": {
+            "title": "Super Mega Tier",
+            "subtitle": "Super Mega Raid",
+            "intro": "Super Mega Raids are Tier 7 raids. Their mechanics are still under active research and assumptions may change as more data is verified."
+        },
         "RAID_LEVEL_ULTRA_BEAST": {
             "title": "Ultra Beast Tier",
             "subtitle": "Ultra Beast Raid",
@@ -228,6 +233,11 @@
             "subtitle": "Mega Raid",
             "intro": "These legendary mega raids are no longer available in raids."
         },
+        "RAID_LEVEL_MEGA_ENHANCED_4_LEGACY": {
+            "title": "Legacy Super Mega Tier",
+            "subtitle": "Super Mega Raid",
+            "intro": "These Super Mega Raids are no longer available in raids."
+        },
         "RAID_LEVEL_ULTRA_BEAST_LEGACY": {
             "title": "Legacy Ultra Beast Tier",
             "subtitle": "Ultra Beast Raid",
@@ -323,6 +333,11 @@
             "title": "Future Mega Legendary Tier",
             "subtitle": "Mega Legendary Raid",
             "intro": "These mega legendary raids are not in the game yet."
+        },
+        "RAID_LEVEL_MEGA_ENHANCED_4_FUTURE": {
+            "title": "Future Super Mega Tier",
+            "subtitle": "Super Mega Raid",
+            "intro": "These Super Mega Raids are not in the game yet."
         },
         "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
             "title": "Future Ultra Beast Tier",
