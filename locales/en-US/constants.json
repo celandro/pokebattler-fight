@@ -2309,13 +2309,15 @@
     "ZACIAN_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZACIAN)",
     "ZAMAZENTA_CROWNED_SHIELD_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA_CROWNED_SHIELD_FORM)",
     "ZAMAZENTA_GIGANTAMAX": "$t(constants:pokemon.GIGANTAMAX) $t(constants:pokemon.ZAMAZENTA)",
-    "PIKACHU_GOFEST_2025_GOGGLES_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Blue Goggles",
-    "PIKACHU_GOFEST_2025_GOGGLES_RED_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Red Goggles",
-    "PIKACHU_GOFEST_2025_GOGGLES_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Goggles",
-    "PIKACHU_GOFEST_2025_MONOCLE_BLUE_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Blue Monocle",
-    "PIKACHU_GOFEST_2025_MONOCLE_RED_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Red Monocle",
-    "PIKACHU_GOFEST_2025_MONOCLE_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) GoFest 2025 Yellow Monocle",
-    "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR_FORM": "$t(constants:pokemon.FALINKS) GiFest 2025 Train Conductor",
+    "PIKACHU_GOFEST_2025_GOGGLES_BLUE_FORM": "$t(constants:pokemon.PIKACHU) - GoFest 2025 Blue Goggles",
+    "PIKACHU_GOFEST_2025_GOGGLES_RED_FORM": "$t(constants:pokemon.PIKACHU) - GoFest 2025 Red Goggles",
+    "PIKACHU_GOFEST_2025_GOGGLES_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) - GoFest 2025 Yellow Goggles",
+    "PIKACHU_GOFEST_2025_MONOCLE_BLUE_FORM": "$t(constants:pokemon.PIKACHU) - GoFest 2025 Blue Monocle",
+    "PIKACHU_GOFEST_2025_MONOCLE_RED_FORM": "$t(constants:pokemon.PIKACHU) - GoFest 2025 Red Monocle",
+    "PIKACHU_GOFEST_2025_MONOCLE_YELLOW_FORM": "$t(constants:pokemon.PIKACHU) - GoFest 2025 Yellow Monocle",
+    "FALINKS_GOFEST_2025_TRAIN_CONDUCTOR_FORM": "$t(constants:pokemon.FALINKS) - GoFest 2025 Train Conductor",
+    "DITTO_SPRING_2026_A_FORM": "$t(constants:pokemon.DITTO) - Spring 2026 A",
+    "DITTO_SPRING_2026_B_FORM": "$t(constants:pokemon.DITTO) - Spring 2026 B",
     "GIMMIGHOUL_COIN_A1_FORM": "$t(constants:pokemon.GIMMIGHOUL) A1 Coin",
     "CHESPIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CHESPIN)",
     "QUILLADIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.QUILLADIN)",
@@ -2992,7 +2994,11 @@
       },
       "PVP": {
         "label": "PvP",
-        "description": "This strategy uses pvp mechanices."
+        "description": "This strategy uses pvp mechanics."
+      },
+      "LEGACY_RAID_STRATEGY": {
+        "label": "Optimal",
+        "description": "This strategy avoids a bug. See https://www.reddit.com/r/TheSilphRoad/comments/1rrf4ef/_/"
       },
       "undefined": {
         "label": "Unknown",
