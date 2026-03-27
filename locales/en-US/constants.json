@@ -2938,7 +2938,8 @@
     "CHILLING_WATER": "Chilling Water",
     "SECRET_SWORD": "Secret Sword",
     "BEAK_BLAST": "Beak Blast",
-    "MIND_BLOWN": "Mind Blown"
+    "MIND_BLOWN": "Mind Blown",
+    "PYROBALL": "Pyroball"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
