@@ -297,6 +297,12 @@
     },
     "createRaidForm": {
         "title": "Create Raid Party",
+        "noRaidsForTier": "No raids available for this tier",
+        "notInScheduleWarning": "This Pokémon is not in the current raid schedule. The server may limit this raid to Friends Only.",
+        "karmaWarning": {
+            "title": "Warning, Low Priority",
+            "description": "There are existing hosts with higher priority. Consider joining one of their raids instead."
+        },
         "priority": {
             "header": "Warning, Low Priority",
             "headerExtreme": "Extremely Low Priority",
