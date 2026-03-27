@@ -496,9 +496,9 @@
     "customLink": "Abrir no Aplicativo"
   },
   "raidAttackers": {
-    "title": "Atacantes da Reide - {{type}}",
+    "title": "Melhores Atacantes de Reide Pokémon Go - {{type}} {{move}} | Pokebattler",
     "meta": {
-      "description": "Os melhores {{type}} de invasores em ataques Pokémon Go com base no desempenho contra todos as reides possíveis! Os pontos são atribuídos com base no desempenho relativo da classificação e por nível do chefe da reide"
+      "description": "Os melhores atacantes de reide {{type}} {{move}} no Pokémon Go são {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} e {{top6}}. Encontre os melhores atacantes para todas as reides com Pokebattler!"
     },
     "details": "Os atacantes são agregados usando um algorítmo de classificação que dá pontos com base no desempenho, no nível 40 sem amigo ou bônus de clima ordenado pelo estimador. 5 pontos são dados para um primeiro lugar exibido, 4 pontos para um segundo lugar, 3 pontos para um quarto lugar, 2 pontos para um oitavo lugar, 1 ponto para um 16º lugar. Os pontos são então ponderados pelo nível (10x para o nível 5 / mega, 4x para o nível 3 e 1x para o nível 1)"
   },

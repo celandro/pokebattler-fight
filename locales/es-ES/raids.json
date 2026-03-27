@@ -423,9 +423,9 @@
     }
   },
   "raidAttackers": {
-    "title": "Atacantes de incursión - {{type}}",
+    "title": "Mejores Atacantes de Incursión Pokémon Go - {{type}} {{move}} | Pokebattler",
     "meta": {
-      "description": "¡Los mejores atacantes de incursión de {{type}} en general en las incursiones de Pokémon Go según el rendimiento contra todas las incursiones posibles! Los puntos se asignan en función del rendimiento relativo de la clasificación y por nivel de jefe de incursión"
+      "description": "Los mejores atacantes de incursión de {{type}} {{move}} en Pokémon Go son {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} y {{top6}}. ¡Encuentra los mejores atacantes para todos los jefes de incursión con Pokebattler!"
     },
     "details": "Los atacantes se agregan usando un algoritmo de clasificación que otorga puntos en función del rendimiento, en el nivel 40 sin bonificación de amigo o clima, ordenados por estimador. Se otorgan 5 puntos por un primer lugar, 4 puntos por un segundo lugar, 3 puntos por un cuarto lugar, 2 puntos por un octavo lugar, 1 punto por un decimosexto lugar. Luego, los puntos se ponderan por el nivel (10x para el nivel 5/mega, 4x para el nivel 3 y 0x para el nivel 1)"
   },

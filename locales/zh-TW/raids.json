@@ -423,9 +423,9 @@
     }
   },
   "raidAttackers": {
-    "title": "團體戰攻擊者 - {{type}}",
+    "title": "Pokémon GO 最強 {{type}} {{move}} 團體戰攻擊者 | Pokebattler",
     "meta": {
-      "description": "依在所有可能團戰中的表現，找出 Pokémon GO 最強的 {{type}} 團體戰攻擊者！分數依相對排行與頭目階級而加權"
+      "description": "Pokémon GO 最強的 {{type}} {{move}} 團體戰攻擊者是 {{top1}}、{{top2}}、{{top3}}、{{top4}}、{{top5}} 和 {{top6}}。使用 Pokebattler 找出最佳攻擊者！"
     },
     "details": "攻擊者整體評分的演算法：等級 40、無好友與無天氣加成、依估算值排序。第一名 5 分、第二名 4 分、第四名 3 分、第八名 2 分、第十六名 1 分。傳說/超級 10 倍、三星 4 倍、一星 0 倍加權。"
   },

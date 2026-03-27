@@ -456,9 +456,9 @@
     "infographicDownloadButton": "Download High Resolution Infographic"
   },
   "raidAttackers": {
-    "title": "Raid Attackers - {{type}}",
+    "title": "Best Raid Attackers Pokemon GO - {{type}} {{move}} | Pokebattler",
     "meta": {
-      "description": "The best overall {{type}} raid attackers in Pokemon Go raids based on performance against all possible raids!  Points are assigned based on relative ranking performance and by tier of raid boss"
+      "description": "The best Pokemon Go {{type}} {{move}} raid attackers are {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} & {{top6}}. Find the best attackers for all raid bosses with Pokebattler!"
     },
     "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 0x for tier 1)"
   },
