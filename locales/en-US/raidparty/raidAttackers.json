@@ -1,0 +1,47 @@
+{
+  "title": "Raid Attackers",
+  "filterBar": {
+    "shadow": "Shadow",
+    "mega": "Mega",
+    "legendary": "Legendary",
+    "type": "Type",
+    "move": "Move",
+    "sort": "Sort",
+    "all": "All"
+  },
+  "sorts": {
+    "POINTS_DESC": "Points",
+    "ESTIMATOR_ASC": "Estimator",
+    "MATCHUPS_DESC": "Matchups",
+    "NAME_ASC": "Name"
+  },
+  "detailSorts": {
+    "POINTS_DESC": "Points",
+    "ESTIMATOR_ASC": "Estimator",
+    "RANK_ASC": "Rank",
+    "BOSS_ASC": "Boss",
+    "TIER_DESC": "Tier"
+  },
+  "columns": {
+    "rank": "#",
+    "move1": "Fast",
+    "move2": "Charged",
+    "matchups": "Matchups",
+    "estimator": "Estimator",
+    "points": "Points",
+    "tier": "Tier",
+    "boss": "Boss",
+    "alt": "(alt)"
+  },
+  "tabs": {
+    "movesets": "Movesets",
+    "raidsCountered": "Raids Countered"
+  },
+  "status": {
+    "checking": "Checking for updates...",
+    "downloading": "Downloading raid attacker data...",
+    "error": "Could not load attacker data. Check your connection.",
+    "noData": "No attackers match your filters.",
+    "refresh": "Refresh"
+  }
+}
