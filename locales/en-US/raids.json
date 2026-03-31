@@ -447,31 +447,35 @@
         "meta": {
             "description": "The best Pokemon Go {{type}} {{move}} raid attackers are {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} & {{top6}}. Find the best attackers for all raid bosses with Pokebattler!"
         },
-        "moveTypeFilterLabel": "Move type (fast or charged)",
+        "moveTypeFilterLabel": "Move type",
         "filterHints": {
-            "pokemonType": "Pokémon type — either type slot must match (same species can appear under multiple types).",
-            "moveType": "Move type — either fast or charged move must be this type (e.g. Poison like DialgaDex strongest-by-type lists)."
+            "pokemonType": "Either type slot must match",
+            "moveType": "Either fast or charged move must be this type"
         },
         "pageTitles": {
             "all": "Best raid attackers in Pokémon GO",
             "pokemon": "Best {{typeNamePokemon}} raid attackers in Pokémon GO",
-            "move": "Best raid attackers using {{typeNameMove}} moves"
+            "move": "Best raid attackers using {{typeNameMove}} moves",
+            "both": "Best {{typeNamePokemon}} raid attackers using {{typeNameMove}} moves"
         },
         "intros": {
             "all": "Top raid attackers aggregated across raid bosses (no Pokémon-type or move-type filter). Leaders right now: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Toggle Shadow, Mega, and Legendary; change sort from the menu.",
             "pokemon": "Filtered to {{typeNamePokemon}} Pokémon only (type or dual-type must include {{typeNamePokemon}}). Top attackers: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}.",
-            "move": "Filtered to attackers with at least one {{typeNameMove}}-type move (fast or charged). Top attackers: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}."
+            "move": "Filtered to attackers with at least one {{typeNameMove}}-type move (fast or charged). Top attackers: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}.",
+            "both": "Filtered to {{typeNamePokemon}} Pokémon with at least one {{typeNameMove}}-type move. Top attackers: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}."
         },
         "seo": {
             "titles": {
                 "all": "Best Raid Attackers in Pokémon GO (all types) | Pokebattler",
                 "pokemon": "Best {{typeNamePokemon}} Raid Attackers in Pokémon GO | Pokebattler",
-                "move": "Best Raid Attackers Using {{typeNameMove}} Moves | Pokémon GO | Pokebattler"
+                "move": "Best Raid Attackers Using {{typeNameMove}} Moves | Pokémon GO | Pokebattler",
+                "both": "Best {{typeNamePokemon}} Raid Attackers Using {{typeNameMove}} Moves | Pokebattler"
             },
             "descriptions": {
                 "all": "Pokémon GO raid attacker rankings with no type filter. Top picks include {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, and {{top6}}. Compare by points, matchups, or estimator on Pokebattler.",
                 "pokemon": "Pokémon GO raid attackers filtered to {{typeNamePokemon}} species (either type slot). Highlights: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Unique page — not the same as move-type rankings.",
-                "move": "Pokémon GO raid attackers with at least one {{typeNameMove}}-type fast or charged move. Highlights: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Unique page — not the same as Pokémon-type rankings."
+                "move": "Pokémon GO raid attackers with at least one {{typeNameMove}}-type fast or charged move. Highlights: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Unique page — not the same as Pokémon-type rankings.",
+                "both": "Pokémon GO {{typeNamePokemon}} raid attackers with {{typeNameMove}}-type moves. Highlights: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Filtered by both species type and move type."
             }
         },
         "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 0x for tier 1)"
