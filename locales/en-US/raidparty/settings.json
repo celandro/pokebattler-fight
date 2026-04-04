@@ -31,6 +31,15 @@
             "dark": "",
             "system": "Requires app restart"
         },
+        "artStyle": "Pokemon Art",
+        "artStyleOptions": {
+            "default": "Classic",
+            "goldfish": "CaptGoldfish"
+        },
+        "artStyleWarnings": {
+            "default": "",
+            "goldfish": "Stylized art available for select Pokemon"
+        },
         "disclaimerText": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids",
         "raidCounterSettings": "Raid Counter Settings",
         "pushNotificationSettings": "Push Notification Settings",

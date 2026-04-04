@@ -156,7 +156,9 @@
                 "cta": "Join raid queues on the Minpoke website",
                 "url": "https://9db.jp/pokego/data/62"
             }
-
+        },
+        "releaseNotes": {
+            "tabTitle": "What's New"
         }
     }
 }

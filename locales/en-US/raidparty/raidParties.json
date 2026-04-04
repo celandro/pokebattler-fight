@@ -10,8 +10,8 @@
             "description": "Pokebattler Raid Network is a way to join raids with your friends in the Pokebattler app, third party apps or on Discord. ",
             "description2": "Joining Discord raids in the Pokebattler Raid Network is quick and easy! Simply join the raid and it will temporarily join you to the discord server, add you into the raid, and send you to the discord channel for communication with the host. You will automatically be removed from the server after some time by Discord itself.  Your spot in the raid will be saved for a short amount of time until you click to temporarily join the server in Discord ",
             "description3": "In order to use the network, you will need to enter your trainer name and friend code. This is shared with the discord bots to allow for raid coordination. Discord Raids require linking your Discord account as well.",
-            "description4": "Discord Raids are hosted in either Pokenav or Nexus bots and are controlled by the server owners. These global raids are sent to the network after a delay, allowing users local on the server to join first.  You can join when the countdown timer hits 0 or the ⏩ button appears.",
-            "description5": "Pokebattler subscribers currently have a small head start for joining raids. This may also be used by spending coins. You can join the raid early by clicking the ⏩ button.",
+            "description4": "Discord Raids are hosted in either Pokenav or Nexus bots and are controlled by the server owners. These global raids are sent to the network after a delay, allowing users local on the server to join first.  You can join when the countdown timer hits 0 or the \u23e9 button appears.",
+            "description5": "Pokebattler subscribers currently have a small head start for joining raids. This may also be used by spending coins. You can join the raid early by clicking the \u23e9 button.",
             "joinDescription": "Raids with chat are supported via discord bot integrations and can be hosted in any Discord that has Nexus or PokeNav configured for the Raid Network.",
             "joinButton": "Join Pokebattler Raid Party Discord",
             "beConsiderate": "Please be considerate of the servers you are joining and be on your best behavior! Abusive players, disorderly conduct and players who do not coordinate with the raid will be permanently banned from the raid network."
@@ -254,7 +254,7 @@
         },
         "abandon": {
             "title": "Confirmation - Abandon Raid",
-            "thankYou": "Unfortunately no one joined your raid \uD83D\uDE14",
+            "thankYou": "Unfortunately no one joined your raid \ud83d\ude14",
             "rate": "",
             "close": "Abandon Raid"
         }
@@ -267,7 +267,7 @@
     "coins": {
         "spendCard": {
             "title": "Earn coins or subscribe to join raids early.",
-            "button": "Join early ⏩"
+            "button": "Join early \u23e9"
         },
         "upgradePopup": {
             "title": "Upgrade for Coins!",
@@ -281,15 +281,15 @@
                 "message": "You do not have enough coins to upgrade to this level"
             },
             "allowed": {
-                "message": "After you upgrade you will be able to join raids early, click to join when the ⏩ appears!",
+                "message": "After you upgrade you will be able to join raids early, click to join when the \u23e9 appears!",
                 "upgrade": "Upgrade",
                 "noteText": "Each raid you join early will cost you. Failed raids will auto refund coins after 24 hours."
             },
             "subtitle": "Current ways to gain coins:",
-            "rewards1": "• +1 coin rating a 👍 or 👎",
-            "rewards2": "• +5 coins receiving a 👍",
+            "rewards1": "\u2022 +1 coin rating a \ud83d\udc4d or \ud83d\udc4e",
+            "rewards2": "\u2022 +5 coins receiving a \ud83d\udc4d",
             "maximumGain": "Maximum gain per raid: 30 for hosts and 6 for guests",
-            "noteText": "You do not lose coins by receiving a 👎 but you do lose Karma. Karma is shown to other users and makes the world a better place"
+            "noteText": "You do not lose coins by receiving a \ud83d\udc4e but you do lose Karma. Karma is shown to other users and makes the world a better place"
         }
     },
     "hostForm": {
@@ -298,7 +298,7 @@
     "createRaidForm": {
         "title": "Create Raid Party",
         "noRaidsForTier": "No raids available for this tier",
-        "notInScheduleWarning": "This Pokémon is not in the current raid schedule. The server may limit this raid to Friends Only.",
+        "notInScheduleWarning": "This Pok\u00e9mon is not in the current raid schedule. The server may limit this raid to Friends Only.",
         "karmaWarning": {
             "title": "Warning, Low Priority",
             "description": "There are existing hosts with higher priority. Consider joining one of their raids instead."
@@ -325,5 +325,9 @@
     "filterRaidForm": {
         "title": "Filter Raid Parties",
         "apply": "Apply"
+    },
+    "notifications": {
+        "banner": "Enable push notifications to coordinate raids with your party in real-time.",
+        "enable": "Enable"
     }
 }

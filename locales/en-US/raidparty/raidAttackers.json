@@ -38,8 +38,12 @@
     "raidsCountered": "Raids Countered"
   },
   "status": {
-    "checking": "Checking for updates...",
-    "downloading": "Downloading raid attacker data...",
+    "loading": "Loading attacker data...",
+    "downloading": "Downloading database...",
+    "decompressing": "Installing update...",
+    "complete": "Database updated!",
+    "updateAvailable": "Database update available",
+    "updateDB": "Update Database",
     "error": "Could not load attacker data. Check your connection.",
     "noData": "No attackers match your filters.",
     "refresh": "Refresh"
