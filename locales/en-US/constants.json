@@ -2379,8 +2379,7 @@
     "TATSUGIRI_MEGA": "$t(constants:pokemon.MEGA) $t(constants:pokemon.TATSUGIRI)",
     "VICTREEBEL_MEGA": "$t(constants:pokemon.MEGA) $t(constants:pokemon.VICTREEBEL)",
     "ZERAORA_MEGA": "$t(constants:pokemon.MEGA) $t(constants:pokemon.ZERAORA)",
-    "ZYGARDE_MEGA_C": "$t(constants:pokemon.MEGA) $t(constants:pokemon.ZYGARDE)-C"    
-	    
+    "ZYGARDE_MEGA_C": "$t(constants:pokemon.MEGA) $t(constants:pokemon.ZYGARDE)-C"
   },
   "moves": {
     "undefined": "",
