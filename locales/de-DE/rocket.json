@@ -122,7 +122,7 @@
       "intro": "To unite all people within our nation!",
       "intro2": "To extend our reach to the stars above!",
       "intro3": "Hey, would you like to join Team Rocket?",
-      "intro4": "You’ll regret this!",
+      "intro4": "You'll regret this!",
       "intro5": "Surrender now, or prepare to fight!"
     },
     "CHARACTER_GRUNTB_FEMALE": {
@@ -232,14 +232,14 @@
     "CHARACTER_GRUNT_MALE": {
       "title": "Starter Rüpel",
       "subtitle": "Team GO Rocket",
-      "intro": "Versuch‘s gar nicht erst – der Sieg gehört mir.",
+      "intro": "Versuch's gar nicht erst – der Sieg gehört mir.",
       "intro2": "Bereite dich schon mal auf eine Niederlage vor!",
       "intro3": "Siegen ist für Sieger."
     },
     "CHARACTER_GRUNT_FEMALE": {
       "title": "Schwieriger Rüpel",
       "subtitle": "Team GO Rocket",
-      "intro": "Versuch‘s gar nicht erst – der Sieg gehört mir.",
+      "intro": "Versuch's gar nicht erst – der Sieg gehört mir.",
       "intro2": "Bereite dich schon mal auf eine Niederlage vor!",
       "intro3": "Siegen ist für Sieger."
     },
