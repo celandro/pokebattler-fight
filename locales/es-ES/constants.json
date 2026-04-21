@@ -1452,7 +1452,7 @@
     "DIANCIE": "Diancie",
     "OBSTAGOON": "Obstagoon",
     "PERRSERKER": "Perrserker",
-    "SIRFETCHD": "Sirfetch’d",
+    "SIRFETCHD": "Sirfetch'd",
     "RUNERIGUS": "Runerigus",
     "MEGA_EVO": "Mega",
     "MEGA_X_EVO": "X",
@@ -2856,7 +2856,9 @@
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DRACO_METEOR": "Cometa Draco",
+    "DOOM_DESIRE": "Deseo Oculto"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Desconocido",

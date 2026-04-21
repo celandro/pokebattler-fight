@@ -23,7 +23,7 @@
   "noFriend": {
     "title": "Füge deine Freunde zu Pokebattler hinzu!",
     "description": "Wenn du Freunde hinzufügst, erhältst du Benachrichtigungen, wenn diese Raid-Gruppen erstellen, und kannst die von ihnen kürzlich erstellten Raid-Gruppen sehen.  Stellen Sie sicher, dass Sie die richtige Freundschaftsstufe einstellen, damit Ihre Freundschaftsstufe automatisch in Raid-Party-Simulationen festgelegt wird.",
-    "addFriend": "Füge Freunde hinzu, indem du auf die Schaltfläche „Hinzufügen“ unten rechts klicken."
+    "addFriend": "Füge Freunde hinzu, indem du auf die Schaltfläche „Hinzufügen\" unten rechts klicken."
   },
   "errors": {
     "add": "Hinzufügen des Freundes fehlgeschlagen",

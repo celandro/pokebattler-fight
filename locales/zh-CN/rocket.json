@@ -66,23 +66,23 @@
       "subtitle": "Team GO Rocket Leader ",
       "intro": "My strength comes from my loyalty to Team GO Rocket.",
       "intro2": "I will do anything and everything for Team GO Rocket.",
-      "intro3": "I owe the boss my life. I’d do anything for him.",
-      "intro4": "Team GO Rocket saved me. It’s time to return the favor!",
+      "intro3": "I owe the boss my life. I'd do anything for him.",
+      "intro4": "Team GO Rocket saved me. It's time to return the favor!",
       "intro5": "Add my name to your list of weaknesses."
     },
     "CHARACTER_EXECUTIVE_SIERRA": {
       "title": "幹部 希爾拉",
       "subtitle": "Team GO Rocket Leader",
       "intro": "I envy you—you get to battle me!",
-      "intro2": "This will be a battle I’m sure you’ll never forget.",
-      "intro3": "You already know this, but you don’t stand a chance.",
-      "intro4": "You can’t possibly match my skill, dear.",
+      "intro2": "This will be a battle I'm sure you'll never forget.",
+      "intro3": "You already know this, but you don't stand a chance.",
+      "intro4": "You can't possibly match my skill, dear.",
       "intro5": "I do hope you like the taste of failure!"
     },
     "CHARACTER_EXECUTIVE_ARLO": {
       "title": "幹部 亞洛",
       "subtitle": "Team GO Rocket Leader",
-      "intro": "It’s time to learn your place in the world.",
+      "intro": "It's time to learn your place in the world.",
       "intro2": "I never lose.",
       "intro3": "Prepare yourself for a world of hurt.",
       "intro4": "Arrogance leads to failure.",
@@ -123,9 +123,9 @@
       "title": "Giovanni",
       "subtitle": "The Boss",
       "intro": "I will not tolerate your interference.",
-      "intro2": "You cannot stop me...but I’m amused by your attempt.",
+      "intro2": "You cannot stop me...but I'm amused by your attempt.",
       "intro3": "Your professor has not prepared you for what is to come.",
-      "intro4": "You’ve made it this far. Let me see just how strong you are.",
+      "intro4": "You've made it this far. Let me see just how strong you are.",
       "intro5": "You will never defeat Team GO Rocket."
     },
     "CHARACTER_GRUNTB_MALE": {
@@ -134,7 +134,7 @@
       "intro": "To unite all people within our nation!",
       "intro2": "To extend our reach to the stars above!",
       "intro3": "Hey, would you like to join Team Rocket?",
-      "intro4": "You’ll regret this!",
+      "intro4": "You'll regret this!",
       "intro5": "Surrender now, or prepare to fight!"
     },
     "CHARACTER_GRUNTB_FEMALE": {
@@ -239,7 +239,7 @@
     "CHARACTER_STEEL_GRUNT_MALE": {
       "title": "Steel Grunt ♂",
       "subtitle": "Team GO Rocket",
-      "intro": "You’re no match for my iron will!"
+      "intro": "You're no match for my iron will!"
     },
     "CHARACTER_GRUNT_MALE": {
       "title": "Starter Grunt",
@@ -259,18 +259,18 @@
       "title": "Decoy Grunt ♂",
       "subtitle": "Boss Decoy",
       "intro": "Fooled ya, twerp.",
-      "intro2": "I can’t believe you fell for it!",
-      "intro3": "In the name of the boss, I’ll destroy you!",
-      "intro4": "You’ll never get to him!",
+      "intro2": "I can't believe you fell for it!",
+      "intro3": "In the name of the boss, I'll destroy you!",
+      "intro4": "You'll never get to him!",
       "intro5": "It feels good to see you disappointed."
     },
     "CHARACTER_DECOY_GRUNT_FEMALE": {
       "title": "Decoy Grunt ♀",
       "subtitle": "Boss Decoy",
       "intro": "Fooled ya, twerp.",
-      "intro2": "I can’t believe you fell for it!",
-      "intro3": "In the name of the boss, I’ll destroy you!",
-      "intro4": "You’ll never get to him!",
+      "intro2": "I can't believe you fell for it!",
+      "intro3": "In the name of the boss, I'll destroy you!",
+      "intro4": "You'll never get to him!",
       "intro5": "It feels good to see you disappointed."
     }
   },

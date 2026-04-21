@@ -2379,8 +2379,7 @@
     "TATSUGIRI_MEGA": "$t(constants:pokemon.MEGA) $t(constants:pokemon.TATSUGIRI)",
     "VICTREEBEL_MEGA": "$t(constants:pokemon.MEGA) $t(constants:pokemon.VICTREEBEL)",
     "ZERAORA_MEGA": "$t(constants:pokemon.MEGA) $t(constants:pokemon.ZERAORA)",
-    "ZYGARDE_MEGA_C": "$t(constants:pokemon.MEGA) $t(constants:pokemon.ZYGARDE)-C"    
-	    
+    "ZYGARDE_MEGA_C": "$t(constants:pokemon.MEGA) $t(constants:pokemon.ZYGARDE)-C"
   },
   "moves": {
     "undefined": "",
@@ -2707,7 +2706,7 @@
     "SHADOW_SUPPRESS": "Shadow Suppress",
     "SHADOW_PURIFICATION": "Shadow Purification",
     "SPACIAL_REND": "Spacial Rend",
-    "NATURES_MADNESS": "Nature’s Madness",
+    "NATURES_MADNESS": "Nature's Madness",
     "TRIPLE_AXEL": "Triple Axel",
     "TRAILBLAZE": "Trailblaze",
     "SCORCHING_SANDS": "Scorching Sands",

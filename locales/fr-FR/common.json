@@ -11,7 +11,7 @@
   "specialMove": "Attaque Chargée",
   "attackStrategy": "Stratégie d'attaque",
   "defenseStrategy": "Type de simulation",
-  "dodgeStrategy": "Stratégie d’esquive",
+  "dodgeStrategy": "Stratégie d'esquive",
   "weatherCondition": "Météo",
   "stats": {
     "attack": "Attaque",
