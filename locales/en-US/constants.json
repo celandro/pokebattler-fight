@@ -2939,7 +2939,8 @@
     "SECRET_SWORD": "Secret Sword",
     "BEAK_BLAST": "Beak Blast",
     "MIND_BLOWN": "Mind Blown",
-    "PYROBALL": "Pyro Ball"
+    "PYROBALL": "Pyro Ball",
+    "GIGGATON_HAMMER": "Gigaton Hammer"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",

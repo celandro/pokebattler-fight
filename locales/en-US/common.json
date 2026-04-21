@@ -313,7 +313,8 @@
             "subscription": "Subscription",
             "attackers": "Attackers",
             "raidNetworkDiscords": "Raid Network",
-            "infographics": "Infographics"
+            "infographics": "Infographics",
+            "guides": "Guides"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
