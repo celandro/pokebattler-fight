@@ -2243,6 +2243,30 @@
     "ZIGZAGOON_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.ZIGZAGOON)",
     "LINOONE_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GALARIAN_FORM) $t(constants:pokemon.LINOONE)",
     "WEEZING_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING_GALARIAN_FORM)",
+    "PHANTUMP_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PHANTUMP)",
+    "TREVENANT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.TREVENANT)",
+
+    "CHESPIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CHESPIN)",
+    "QUILLADIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.QUILLADIN)",
+    "CHESNAUGHT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CHESNAUGHT)",
+    "FROAKIE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FROAKIE)",
+    "FROGADIER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FROGADIER)",
+    "GRENINJA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GRENINJA)",
+    "FENNEKIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FENNEKIN)",
+    "BRAIXEN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.BRAIXEN)",
+    "DELPHOX_SHADOW_FORM":	 "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DELPHOX)",
+    "HELIOPTILE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HELIOPTILE)",
+    "HELIOLISK_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HELIOLISK)",
+    "DEWPIDER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DEWPIDER)",
+    "ARAQUANID_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ARAQUANID)",
+    "MORELULL_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.MORELULL)",
+    "SHIINOTIC_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SHIINOTIC)",
+    "STUFFUL_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.STUFFUL)",
+    "BEWEAR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.BEWEAR)",
+
+
+
+
     "PRIMARINA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PRIMARINA)",
     "ANNIHILAPE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ANNIHILAPE)",
     "PALKIA_ORIGIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PALKIA_ORIGIN_FORM)",
