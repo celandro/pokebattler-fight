@@ -590,20 +590,20 @@
 
     "guides": {
         "title": "Guides",
-        "subTitle": "Pokemon Go Raid Guides by Professor Noctowl",
+        "subTitle": "Pokemon Go Raid Guides by Professor Geekbeak",
         "meta": {
-            "description": "Get your Pokemon Go Raid Guides from Professor Noctowl. These visual guides help you prepare for raid bosses with the best counters and strategies!",
+            "description": "Get your Pokemon Go Raid Guides from Professor Geekbeak. These visual guides help you prepare for raid bosses with the best counters and strategies!",
             "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
         },
         "articles": {
             "title": "Pokemon Go Raid Guides",
-            "subtitle": "Visual raid guides by Professor Noctowl"
+            "subtitle": "Visual raid guides by Professor Geekbeak"
         },
         "author": {
-            "name": "Professor Noctowl",
-            "title": "Professor Noctowl's Raid Guides",
+            "name": "Professor Geekbeak",
+            "title": "Professor Geekbeak's Raid Guides",
             "meta": {
-                "description": "Pokemon Go Raid Guides from Professor Noctowl! These visual guides help you prepare for raid bosses with the best counters and strategies!",
+                "description": "Pokemon Go Raid Guides from Professor Geekbeak! These visual guides help you prepare for raid bosses with the best counters and strategies!",
                 "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
             }
         }
