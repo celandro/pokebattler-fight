@@ -593,7 +593,7 @@
         "subTitle": "Pokemon Go Raid Guides by Professor Geekbeak",
         "meta": {
             "description": "Get your Pokemon Go Raid Guides from Professor Geekbeak. These visual guides help you prepare for raid bosses with the best counters and strategies!",
-            "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+            "image": "https://static.pokebattler.com/images/professor_geekbeek_generic.jpg"
         },
         "articles": {
             "title": "Pokemon Go Raid Guides",
@@ -604,7 +604,7 @@
             "title": "Professor Geekbeak's Raid Guides",
             "meta": {
                 "description": "Pokemon Go Raid Guides from Professor Geekbeak! These visual guides help you prepare for raid bosses with the best counters and strategies!",
-                "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+                "image": "https://static.pokebattler.com/images/professor_geekbeek_generic.jpg"
             }
         }
     },
