@@ -1,4 +1,20 @@
 {
+    "ads": {
+        "watchToEarn": "Watch an ad to earn {{coins}} coins",
+        "rewardPending": "Crediting your coins…",
+        "rewardGranted": "You earned {{coins}} coins!",
+        "notReady": "No ad is ready yet. Please try again in a moment.",
+        "failed": "The ad could not be shown. Please try again later."
+    },
+    "store": {
+        "coins": {
+            "title": "Buy Coins",
+            "description": "Coins unlock raid host boosts and more. Earn them free by watching an ad, or grab a pack — bigger packs include bonus coins.",
+            "bonus": "+{{percent}}% bonus",
+            "unavailable": "Coin packs are unavailable right now. Please try again later.",
+            "purchaseComplete": "{{coins}} coins added!"
+        }
+    },
     "title": "Log in to Pokebattler",
     "meta": {
         "description": "Pokebattler stores your Pokemon Go Pokemon in its Pokedex for fast raid counters and more!"
