@@ -9,8 +9,9 @@
     "store": {
         "coins": {
             "title": "Buy Coins",
-            "description": "Coins unlock raid host boosts and more. Earn them free by watching an ad, or grab a pack — bigger packs include bonus coins.",
+            "description": "Coins unlock raid host boosts and more. Earn them free by getting a thumbs up, by watching an ad, or support the app by buying a pack.  Bigger packs have big discounts!",
             "bonus": "+{{percent}}% bonus",
+            "save": "Save {{percent}}%",
             "unavailable": "Coin packs are unavailable right now. Please try again later.",
             "purchaseComplete": "{{coins}} coins added!"
         }
