@@ -2263,10 +2263,11 @@
     "SHIINOTIC_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SHIINOTIC)",
     "STUFFUL_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.STUFFUL)",
     "BEWEAR_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.BEWEAR)",
-
-
-
-
+    "NOIBAT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.NOIBAT)",
+    "NOIVERN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.NOIVERN)",
+    "ROOKIDEE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ROOKIDEE)",
+    "CORVISQUIRE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CORVISQUIRE)",
+    "CORVIKNIGHT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CORVIKNIGHT)",
     "PRIMARINA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PRIMARINA)",
     "ANNIHILAPE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ANNIHILAPE)",
     "PALKIA_ORIGIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PALKIA_ORIGIN_FORM)",
