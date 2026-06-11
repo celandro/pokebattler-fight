@@ -416,6 +416,20 @@
             }
         }
     },
+    "mcp": {
+        "title": "Claude MCP Access",
+        "subtitle": "Use Pokebattler simulations inside your own Claude",
+        "description": "Subscribers can connect Claude (Claude Code or Claude Desktop) directly to Pokebattler's battle simulator. Ask Claude for raid counters, fight simulations, movesets, and type matchups — powered by the same engine as this site.",
+        "generateButton": "Generate MCP Token",
+        "tokenLabel": "Your MCP token",
+        "commandLabel": "Claude Code setup command",
+        "geminiCommandLabel": "Gemini CLI setup command",
+        "codexConfigLabel": "OpenAI Codex setup — add to ~/.codex/config.toml",
+        "expires": "This token is valid until",
+        "keepSecret": "Treat it like a password — anyone with this token can use your subscription. Generate a new token to replace it.",
+        "subscribePrompt": "MCP access is included with Standard subscriptions and above.",
+        "error": "Could not generate a token. Please try again or contact support."
+    },
     "sponsor": {
         "title": "Support {{app}}",
         "meta": {
