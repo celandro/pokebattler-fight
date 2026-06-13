@@ -13,7 +13,8 @@
             "bonus": "+{{percent}}% bonus",
             "save": "Save {{percent}}%",
             "unavailable": "Coin packs are unavailable right now. Please try again later.",
-            "purchaseComplete": "{{coins}} coins added!"
+            "purchaseComplete": "{{coins}} coins added!",
+            "disclosure": "Coins are a consumable virtual currency for use within Pokebattler Raid Party only. They have no monetary value, are non-refundable, and cannot be exchanged for cash."
         }
     },
     "title": "Log in to Pokebattler",
