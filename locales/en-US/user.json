@@ -4,7 +4,13 @@
         "rewardPending": "Crediting your coins…",
         "rewardGranted": "You earned {{coins}} coins!",
         "notReady": "No ad is ready yet. Please try again in a moment.",
-        "failed": "The ad could not be shown. Please try again later."
+        "failed": "The ad could not be shown. Please try again later.",
+        "primer": {
+            "title": "Pokebattler now has ads",
+            "body1": "Pokebattler's server costs have increased significantly as the community has grown. We've added ads to help cover them and keep Pokebattler running.",
+            "body2": "On the next screen, iOS will ask whether to allow tracking. Opting in lets us show more relevant ads — which earns more and helps keep Pokebattler running and free for everyone. You can change this any time in Settings > Privacy & Security > Tracking.",
+            "continue": "Continue"
+        }
     },
     "store": {
         "coins": {
