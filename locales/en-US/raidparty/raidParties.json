@@ -320,6 +320,14 @@
             "header": "Available Global Raid",
             "line1": "Consider joining instead of hosting"
         },
+        "superMega": {
+            "helpTitle": "How to beat Super Mega raids",
+            "helpBody": "Super Mega bosses enrage partway through and raise shields. While the shields are up the boss is invulnerable and can ONLY be damaged by a true Mega evolution's charge move (for example Mega Rayquaza — Primals like Primal Groudon and Primal Kyogre do NOT count). Put a Mega in your last team slot so it auto-swaps in when the boss enrages and breaks a shield with its charge move. Primals and non-Megas still deal great damage but cannot break shields, so a mythical Super Mega boss with about 12 shields needs a full lobby of roughly 12 or more players all bringing Megas.",
+            "megaSlotWarning": {
+                "title": "Put a Mega in your last slot",
+                "description": "Only a true Mega evolution can break this boss's shields. Place a Mega in your last team slot — Primals and non-Megas cannot break shields."
+            }
+        },
         "hostParty": "Host Party"
     },
     "filterRaidForm": {
