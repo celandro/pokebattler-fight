@@ -12,6 +12,21 @@
             "continue": "Continue"
         }
     },
+    "coinHistory": {
+        "title": "Coin History",
+        "recent": "Recent transactions",
+        "empty": "No transactions yet.",
+        "loading": "Loading…",
+        "types": {
+            "earnedAds": "Watched an ad",
+            "payment": "Purchased coins",
+            "refund": "Refund",
+            "incomingVote": "Received a vote",
+            "outgoingVote": "Cast a vote",
+            "joinEarly": "Joined a raid early",
+            "hostBoost": "Boosted a raid"
+        }
+    },
     "store": {
         "coins": {
             "title": "Buy Coins",
