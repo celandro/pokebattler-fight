@@ -83,7 +83,7 @@
         "rankings": "Failed to retrieve attacker rankings"
     },
     "chips" : {
-        "estimator": "Players Needed",
+        "estimator": "Estimator",
         "power": "Group Damage",
         "deaths": "Pokemon Faints",
         "tdo": "Damage Dealt",

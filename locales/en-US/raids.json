@@ -115,6 +115,11 @@
             "subtitle": "Super Mega Raid",
             "intro": "Super Mega Raids are Tier 7 raids. Their mechanics are still under active research and assumptions may change as more data is verified."
         },
+        "RAID_LEVEL_MEGA_ENHANCED_5": {
+            "title": "Super Mega Legendary Tier",
+            "subtitle": "Super Mega Legendary Raid",
+            "intro": "Super Mega Legendary Raids (Tier 7) have 12 shields and the boss is invulnerable while shielded. Only Mega Pokemon can break shields and deal damage, so a Mega is required - Primals cannot break shields and are excluded from all raid results."
+        },
         "RAID_LEVEL_ULTRA_BEAST": {
             "title": "Ultra Beast Tier",
             "subtitle": "Ultra Beast Raid",
@@ -238,6 +243,11 @@
             "subtitle": "Super Mega Raid",
             "intro": "These Super Mega Raids are no longer available in raids."
         },
+        "RAID_LEVEL_MEGA_ENHANCED_5_LEGACY": {
+            "title": "Legacy Super Mega Legendary Tier",
+            "subtitle": "Super Mega Legendary Raid",
+            "intro": "These Super Mega Legendary Raids are no longer available in raids."
+        },
         "RAID_LEVEL_ULTRA_BEAST_LEGACY": {
             "title": "Legacy Ultra Beast Tier",
             "subtitle": "Ultra Beast Raid",
@@ -338,6 +348,11 @@
             "title": "Future Super Mega Tier",
             "subtitle": "Super Mega Raid",
             "intro": "These Super Mega Raids are not in the game yet."
+        },
+        "RAID_LEVEL_MEGA_ENHANCED_5_FUTURE": {
+            "title": "Future Super Mega Legendary Tier",
+            "subtitle": "Super Mega Legendary Raid",
+            "intro": "These Super Mega Legendary Raids are not in the game yet."
         },
         "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
             "title": "Future Ultra Beast Tier",
