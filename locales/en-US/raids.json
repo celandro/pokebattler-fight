@@ -494,7 +494,12 @@
                 "both": "Pokémon GO {{typeNamePokemon}} raid attackers with {{typeNameMove}}-type moves. Highlights: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Filtered by both species type and move type."
             }
         },
-        "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 0x for tier 1)"
+        "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 0x for tier 1)",
+        "superMega": {
+            "helpTitle": "How to beat Super Mega raids",
+            "helpBody": "Super Mega bosses enrage partway through and raise shields. While the shields are up the boss is invulnerable and can ONLY be damaged by a true Mega evolution's charge move (for example Mega Rayquaza — Primals like Primal Groudon and Primal Kyogre do NOT count). Bring a Mega in your last team slot so it auto-swaps in when the boss enrages and breaks a shield with its charge move. Primals and non-Megas still deal great damage but cannot break shields, so a mythical Super Mega boss with about 12 shields needs a full lobby of roughly 12 or more players all bringing Megas.",
+            "primalNote": "Note: the suggested counter list excludes Primals. Primals deal strong damage but cannot break a Super Mega boss's shields — only true Mega evolutions can."
+        }
     },
     "raidAttackerDetails": {
         "title": "{{attackerName}} {{move1Name}} {{move2Name}} - Raid Attacker Pokemon GO | Pokebattler",
