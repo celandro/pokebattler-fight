@@ -246,5 +246,113 @@
   "notifications": {
     "banner": "Activa las notificaciones push para coordinar incursiones con tu grupo en tiempo real.",
     "enable": "Activar"
+  },
+  "helpModal": {
+    "raidNetwork": {
+      "title": "Red de Incursiones de Pokebattler",
+      "subtitle": "Únete a incursiones remotas",
+      "description": "La Red de Incursiones de Pokebattler es una forma de unirte a incursiones con tus amigos en la app de Pokebattler, en apps de terceros o en Discord. ",
+      "description2": "¡Unirte a incursiones de Discord en la Red de Incursiones de Pokebattler es rápido y fácil! Simplemente únete a la incursión y te unirás temporalmente al servidor de Discord, te añadirá a la incursión y te enviará al canal de Discord para comunicarte con el anfitrión. Discord te eliminará automáticamente del servidor después de un tiempo. Tu lugar en la incursión se guardará durante un breve periodo hasta que hagas clic para unirte temporalmente al servidor en Discord ",
+      "description3": "Para usar la red, deberás introducir tu nombre de entrenador y tu código de amigo. Esto se comparte con los bots de Discord para permitir la coordinación de incursiones. Las incursiones de Discord también requieren vincular tu cuenta de Discord.",
+      "description4": "Las incursiones de Discord se organizan en los bots Pokenav o Nexus y las controlan los dueños de los servidores. Estas incursiones globales se envían a la red tras un retraso, lo que permite que los usuarios locales del servidor se unan primero. Puedes unirte cuando el temporizador llegue a 0 o aparezca el botón ⏩.",
+      "description5": "Actualmente, los suscriptores de Pokebattler tienen una pequeña ventaja para unirse a las incursiones. Esto también se puede usar gastando monedas. Puedes unirte a la incursión antes haciendo clic en el botón ⏩.",
+      "joinDescription": "Las incursiones con chat son compatibles mediante integraciones con bots de Discord y se pueden organizar en cualquier Discord que tenga Nexus o PokeNav configurado para la Red de Incursiones.",
+      "joinButton": "Únete al Discord de Pokebattler Raid Party",
+      "beConsiderate": "¡Por favor, sé considerado con los servidores a los que te unes y compórtate de la mejor manera! Los jugadores abusivos, la conducta desordenada y los jugadores que no se coordinan con la incursión serán expulsados permanentemente de la red de incursiones."
+    },
+    "raidPlayer": {
+      "title": "Incursiones de la app Pokebattler Raid Party",
+      "subtitle": "Unirse a una incursión",
+      "description": "Hay dos tipos de incursiones a las que puedes unirte en la Red de Incursiones de Pokebattler",
+      "description2": "Las incursiones de Pokebattler se organizan en esta app y son compatibles con un flujo de incursión guiado. Las incursiones de Discord se organizan dentro de comunidades de Discord asociadas y son compatibles con el chat.",
+      "appRaid": "Incursiones de Pokebattler",
+      "appRaid1": "Al unirte a una incursión de Pokebattler, hay unos pasos sencillos a seguir",
+      "appRaid1Step1": "Selecciona si eres local o remoto.",
+      "appRaid1Step2": "Si eres remoto, el código de entrenador del anfitrión se copia automáticamente. Entra en Pokémon GO, añade un amigo y pega el código",
+      "appRaid1Step3": "Vuelve a la app Pokebattler Raid Party y haz clic en «Invitación de amigo enviada»",
+      "appRaid2": "¡Ya estás listo para la incursión! Cuando el anfitrión inicie la incursión, recibirás una notificación push y aparecerá un temporizador de cuenta regresiva",
+      "discordRaid": "Incursiones de Discord",
+      "discordRaid1": "La Red de Incursiones de Pokebattler es compatible con los bots PokeNav y Nexus.",
+      "discordRaid2": "Cuando te unes a una incursión de Discord, Pokebattler te enviará automáticamente al canal de la incursión y te añadirá a la incursión de Discord",
+      "discordRaid3": "¡Comunícate dentro de Discord con los miembros de la incursión!",
+      "discordRaid4": "Las incursiones de Discord requieren que la app de Discord esté instalada en tu teléfono. Encontrarás instrucciones para usar los bots en sus sitios web"
+    },
+    "raidHost": {
+      "title": "Incursiones de la app Pokebattler Raid Party",
+      "subtitle": "Organizar una incursión",
+      "description": "¡Organizar una incursión en la app de Pokebattler es más fácil de lo que crees! Las incursiones en la app están diseñadas como un flujo guiado para ayudar a que la incursión sea exitosa. ¡Pokebattler les dirá a todos los miembros del grupo qué hacer y te avisará si tu grupo va a ganar!",
+      "description2": "Primero, elige tu nivel de privacidad, el nivel de incursión y el jefe de incursión, y haz clic en Jugar. Tu incursión estará disponible de inmediato para que se unan tus amigos de la app. Si elegiste global, se notificará a todos los usuarios de la app y a los servidores de Discord de la red de incursiones, que podrán unirse tras unos segundos",
+      "description3": "A medida que los jugadores se unan, tu código de amigo se compartirá automáticamente con ellos y se les informará de que deben enviarte invitaciones de amistad en Pokémon GO. Cuando los usuarios envíen invitaciones, se marcarán como listos y recibirás una notificación push para que revises tus invitaciones de amistad en Pokémon GO. Acepta las invitaciones",
+      "description4": "Último paso: vuelve a la app Pokebattler Raid Party y, cuando estés listo, ¡haz clic en Ir!",
+      "advanced": "Avanzado",
+      "advanced1": "Ahora que conoces lo básico, hay muchas más funciones para organizar incursiones para jugadores que de verdad quieren incursionar con confianza",
+      "advanced2": "Se han elegido ajustes predeterminados por ti, pero haz clic en el botón de editar para configurar tu incursión a tu gusto.",
+      "options": {
+        "weatherCondition": {
+          "label": "Condición meteorológica",
+          "description": "Si de verdad se esperan meteoros, mantén el clima en Extremo. ¡De lo contrario, elige el clima apropiado!"
+        },
+        "quickMove": {
+          "label": "Ataque rápido",
+          "description": "El ataque rápido del jefe. Sinceramente, probablemente te equivoques si lo eliges"
+        },
+        "cinematicMove": {
+          "label": "Ataque cargado",
+          "description": "El ataque cargado del jefe. Si de algún modo sabes que viene un ataque de tipo eléctrico, puedes elegirlo"
+        },
+        "privacy": {
+          "label": "Privacidad",
+          "description": "Cuando organizas un grupo, puedes elegir quién puede unirse. A los globales puede unirse cualquiera. A los de amigos pueden unirse tus amigos. A los privados solo se puede unir con el ID del grupo de incursión"
+        },
+        "maxInvites": {
+          "label": "Invitaciones máximas",
+          "description": "Número de jugadores que puedes invitar a la incursión"
+        },
+        "randomAssistants": {
+          "label": "Jugadores adicionales",
+          "description": "Número de jugadores adicionales que se unen a la incursión y que no usan la app"
+        }
+      }
+    }
+  },
+  "raidPartySummaryCard": {
+    "title": "{{defender}}",
+    "subtitle": "{{ownerName}}"
+  },
+  "raidPartyHost": {
+    "title": "Anfitrión de la incursión",
+    "description": "Envía una invitación de amigo a {{name}} en Pokémon GO",
+    "hostInfo": "{{name}}",
+    "friendInviteSent": "Invitación de amigo enviada",
+    "confirmFriend": "Confirma la amistad con {{name}}",
+    "PRIVATE": {
+      "instructions": "Esta es una incursión privada. Comparte tu grupo de incursión con tus amigos usando el icono de compartir en la esquina superior derecha."
+    },
+    "FRIEND": {
+      "instructions": "Se han enviado notificaciones a tus amigos de la app. Comparte tu grupo de incursión con otros usando el icono de compartir en la esquina superior derecha."
+    },
+    "GLOBAL": {
+      "instructions": "¡Tu incursión global está disponible para que se una cualquiera! Busca invitaciones de amigo en el juego. Cuando tengas suficientes jugadores, inicia la cuenta regresiva de la incursión"
+    }
+  },
+  "raidPartyUserStatus": {
+    "NONE": {
+      "hostDescription": "Selecciona si eres local o remoto"
+    },
+    "READY": {
+      "hostDescription": "¡Busca a {{name}} a tu alrededor!"
+    },
+    "INTERESTED": {
+      "hostDescription": "Selecciona si eres local o remoto"
+    },
+    "REMOTE": {
+      "hostDescription": "Envía una invitación de amigo a {{name}} en Pokémon GO"
+    },
+    "REMOTE_READY": {
+      "hostDescription": "Espera la invitación a la incursión de {{name}} en Pokémon GO"
+    },
+    "DONE": {
+      "hostDescription": "Has abandonado el grupo"
+    }
   }
 }
