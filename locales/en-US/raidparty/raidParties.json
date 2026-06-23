@@ -152,7 +152,9 @@
             "getUserRaidPartiesGeneral": "Could not fetch raid parties",
             "addUserToRaidPartyGone": "Raid party #{{raidPartyId}} is complete",
             "addUserToRaidPartyFull": "Raid party #{{raidPartyId}} is now full",
-            "addUserToRaidPartyGlobal": "Raid party #{{raidPartyId}} is not available to join yet, wait for the countdown timer"
+            "addUserToRaidPartyGlobal": "Raid party #{{raidPartyId}} is not available to join yet, wait for the countdown timer",
+            "addUserToRaidPartyNotEnoughCoins": "You don't have enough coins to join this Karma Boost raid. Get more coins to join.",
+            "createRaidPartyNotEnoughCoins": "You don't have enough coins to host this Karma Boost raid. Get more coins to host."
         }
     },
     "share": {
@@ -327,6 +329,21 @@
                 "title": "Put a Mega in your last slot",
                 "description": "Only a true Mega evolution can break this boss's shields. Place a Mega in your last team slot — Primals and non-Megas cannot break shields."
             }
+        },
+        "karmaBoost": {
+            "selectLabel": "Karma Boost",
+            "helpTitle": "Karma Boost Raids",
+            "helpBody": "Karma Boost raids reward everyone with extra karma for the raid — 2x for Super Karma, 5x for Mega Karma. Hosting costs the host coins and every player who joins also pays coins, so you only raid with other invested, experienced trainers. These raids show up in the app but are never shared to the Discord or bot network.",
+            "none": "No Karma Boost",
+            "superTitle": "Super Karma (2x)",
+            "megaTitle": "Mega Karma (5x)",
+            "hostCost": "Hosting costs {{coins}} coins",
+            "joinCost": "Joining costs {{coins}} coins for {{multiplier}}x karma",
+            "confirmJoinTitle": "Karma Boost Raid",
+            "confirmJoin": "Joining this {{multiplier}}x Karma Boost raid costs {{coins}} coins. You'll earn {{multiplier}}x karma for the raid. Continue?",
+            "insufficientCoins": "You need {{moreCoins}} more coins to host this Karma Boost raid. Earn coins by watching ads, completing raids, or buying a coin pack.",
+            "insufficientCoinsJoin": "You need {{moreCoins}} more coins to join this Karma Boost raid.",
+            "getCoins": "Get Coins"
         },
         "hostParty": "Host Party"
     },

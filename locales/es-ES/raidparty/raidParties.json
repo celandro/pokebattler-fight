@@ -24,7 +24,9 @@
       "getUserRaidPartiesGeneral": "No se pudieron obtener los grupos de incursión",
       "addUserToRaidPartyGone": "El grupo de incursión #{{raidPartyId}} está completo",
       "addUserToRaidPartyFull": "El grupo de incursión #{{raidPartyId}} ya está lleno",
-      "addUserToRaidPartyGlobal": "El grupo de incursión #{{raidPartyId}} aún no está disponible para unirse, espera el temporizador de cuenta regresiva"
+      "addUserToRaidPartyGlobal": "El grupo de incursión #{{raidPartyId}} aún no está disponible para unirse, espera el temporizador de cuenta regresiva",
+      "addUserToRaidPartyNotEnoughCoins": "No tienes suficientes monedas para unirte a esta incursión Karma Boost. Consigue más monedas para unirte.",
+      "createRaidPartyNotEnoughCoins": "No tienes suficientes monedas para organizar esta incursión Karma Boost. Consigue más monedas para organizarla."
     }
   },
   "share": {
@@ -89,11 +91,11 @@
   "raidNotStarted": "{{ownerName}} aún no ha iniciado la incursión",
   "countdownTitle": "Hora de inicio de la incursión",
   "startingTime": {
-    "default": "Seleccionar hora de inicio",
     "15": "15 segundos",
     "30": "30 segundos",
     "120": "2 minutos",
-    "300": "5 minutos"
+    "300": "5 minutos",
+    "default": "Seleccionar hora de inicio"
   },
   "countdownDone": "Ir",
   "goCommandInstruction": "¡Al presionar IR se cerrará la incursión a jugadores adicionales y se notificará a todos los jugadores que la incursión está comenzando! Asegúrate de haber aceptado todas las invitaciones de amistad. ¡Una vez que presiones IR, no podrás volver atrás!",
@@ -206,10 +208,43 @@
       "header": "Incursión global disponible",
       "line1": "Considera unirte en lugar de organizar"
     },
-    "hostParty": "Organizar grupo"
+    "hostParty": "Organizar grupo",
+    "noRaidsForTier": "No hay incursiones disponibles para este nivel",
+    "notInScheduleWarning": "Este Pokémon no está en el calendario de incursiones actual. El servidor puede limitar esta incursión solo a amigos.",
+    "karmaWarning": {
+      "title": "Advertencia: prioridad baja",
+      "description": "Ya hay anfitriones con mayor prioridad. Considera unirte a una de sus incursiones en su lugar."
+    },
+    "superMega": {
+      "helpTitle": "Cómo vencer las incursiones Súper Mega",
+      "helpBody": "Los jefes Súper Mega se enfurecen a mitad del combate y levantan escudos. Mientras los escudos están activos, el jefe es invulnerable y SOLO puede recibir daño del ataque cargado de una verdadera megaevolución (por ejemplo, Mega Rayquaza; los Primigenios como Groudon Primigenio y Kyogre Primigenio NO cuentan). Coloca un Mega en la última ranura de tu equipo para que entre automáticamente cuando el jefe se enfurezca y rompa un escudo con su ataque cargado. Los Primigenios y los que no son Mega siguen haciendo mucho daño, pero no pueden romper escudos, así que un jefe Súper Mega mítico con unos 12 escudos necesita una sala completa de aproximadamente 12 jugadores o más, todos con Megas.",
+      "megaSlotWarning": {
+        "title": "Coloca un Mega en tu última ranura",
+        "description": "Solo una verdadera megaevolución puede romper los escudos de este jefe. Coloca un Mega en la última ranura de tu equipo: los Primigenios y los que no son Mega no pueden romper escudos."
+      }
+    },
+    "karmaBoost": {
+      "selectLabel": "Karma Boost",
+      "helpTitle": "Incursiones Karma Boost",
+      "helpBody": "Las incursiones Karma Boost recompensan a todos con karma extra por la incursión: 2x con Karma Súper y 5x con Karma Mega. Organizarlas le cuesta monedas al anfitrión y cada jugador que se une también paga monedas, así que solo participarás con entrenadores comprometidos y experimentados. Estas incursiones aparecen en la app, pero nunca se comparten en Discord ni en la red de bots.",
+      "none": "Sin Karma Boost",
+      "superTitle": "Karma Súper (2x)",
+      "megaTitle": "Karma Mega (5x)",
+      "hostCost": "Organizar cuesta {{coins}} monedas",
+      "joinCost": "Unirse cuesta {{coins}} monedas por {{multiplier}}x de karma",
+      "confirmJoinTitle": "Incursión Karma Boost",
+      "confirmJoin": "Unirte a esta incursión Karma Boost de {{multiplier}}x cuesta {{coins}} monedas. Ganarás {{multiplier}}x de karma por la incursión. ¿Continuar?",
+      "insufficientCoins": "Necesitas {{moreCoins}} monedas más para organizar esta incursión Karma Boost. Consigue monedas viendo anuncios, completando incursiones o comprando un paquete de monedas.",
+      "insufficientCoinsJoin": "Necesitas {{moreCoins}} monedas más para unirte a esta incursión Karma Boost.",
+      "getCoins": "Conseguir monedas"
+    }
   },
   "filterRaidForm": {
     "title": "Filtrar grupos de incursión",
     "apply": "Aplicar"
+  },
+  "notifications": {
+    "banner": "Activa las notificaciones push para coordinar incursiones con tu grupo en tiempo real.",
+    "enable": "Activar"
   }
 }

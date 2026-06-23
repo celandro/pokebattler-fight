@@ -24,7 +24,9 @@
       "getUserRaidPartiesGeneral": "Impossível encontrar grupos de reide",
       "addUserToRaidPartyGone": "O grupo de rede #{{raidPartyId}} não existe mais",
       "addUserToRaidPartyFull": "O grupo de reide #{{raidPartyId}} está cheio",
-      "addUserToRaidPartyGlobal": "O grupo de reide #{{raidPartyId}} ainda não está disponível. Aguarde a contagem regressiva."
+      "addUserToRaidPartyGlobal": "O grupo de reide #{{raidPartyId}} ainda não está disponível. Aguarde a contagem regressiva.",
+      "addUserToRaidPartyNotEnoughCoins": "Você não tem moedas suficientes para entrar nesta incursão Karma Boost. Consiga mais moedas para entrar.",
+      "createRaidPartyNotEnoughCoins": "Você não tem moedas suficientes para hospedar esta incursão Karma Boost. Consiga mais moedas para hospedar."
     }
   },
   "share": {
@@ -243,7 +245,36 @@
       "header": "Available Global Raid",
       "line1": "Consider joining instead of hosting"
     },
-    "hostParty": "Host Party"
+    "hostParty": "Host Party",
+    "noRaidsForTier": "Nenhuma incursão disponível para este nível",
+    "notInScheduleWarning": "Este Pokémon não está no calendário de incursões atual. O servidor pode limitar esta incursão apenas a amigos.",
+    "karmaWarning": {
+      "title": "Aviso: prioridade baixa",
+      "description": "Já existem anfitriões com prioridade mais alta. Considere entrar em uma das incursões deles."
+    },
+    "superMega": {
+      "helpTitle": "Como vencer incursões Super Mega",
+      "helpBody": "Os chefes Super Mega ficam furiosos no meio da batalha e erguem escudos. Enquanto os escudos estão ativos, o chefe é invulnerável e SÓ pode receber dano do ataque carregado de uma verdadeira megaevolução (por exemplo, Mega Rayquaza — Primais como Groudon Primal e Kyogre Primal NÃO contam). Coloque um Mega no último espaço da sua equipe para que ele entre automaticamente quando o chefe ficar furioso e quebre um escudo com o ataque carregado. Primais e não-Megas ainda causam muito dano, mas não conseguem quebrar escudos, então um chefe Super Mega mítico com cerca de 12 escudos precisa de uma sala cheia com aproximadamente 12 jogadores ou mais, todos levando Megas.",
+      "megaSlotWarning": {
+        "title": "Coloque um Mega no seu último espaço",
+        "description": "Apenas uma verdadeira megaevolução pode quebrar os escudos deste chefe. Coloque um Mega no último espaço da sua equipe — Primais e não-Megas não conseguem quebrar escudos."
+      }
+    },
+    "karmaBoost": {
+      "selectLabel": "Karma Boost",
+      "helpTitle": "Incursões Karma Boost",
+      "helpBody": "As incursões Karma Boost recompensam todos com karma extra pela incursão — 2x com Karma Super e 5x com Karma Mega. Hospedar custa moedas ao anfitrião e cada jogador que entra também paga moedas, então você só participa com treinadores dedicados e experientes. Essas incursões aparecem no app, mas nunca são compartilhadas no Discord nem na rede de bots.",
+      "none": "Sem Karma Boost",
+      "superTitle": "Karma Super (2x)",
+      "megaTitle": "Karma Mega (5x)",
+      "hostCost": "Hospedar custa {{coins}} moedas",
+      "joinCost": "Entrar custa {{coins}} moedas por {{multiplier}}x de karma",
+      "confirmJoinTitle": "Incursão Karma Boost",
+      "confirmJoin": "Entrar nesta incursão Karma Boost de {{multiplier}}x custa {{coins}} moedas. Você ganhará {{multiplier}}x de karma pela incursão. Continuar?",
+      "insufficientCoins": "Você precisa de mais {{moreCoins}} moedas para hospedar esta incursão Karma Boost. Ganhe moedas assistindo anúncios, completando incursões ou comprando um pacote de moedas.",
+      "insufficientCoinsJoin": "Você precisa de mais {{moreCoins}} moedas para entrar nesta incursão Karma Boost.",
+      "getCoins": "Conseguir moedas"
+    }
   },
   "raidPartyKicked": {
     "title": "Removed From Raid",
@@ -319,5 +350,9 @@
   "filterRaidForm": {
     "title": "Filter Raid Parties",
     "apply": "Apply"
+  },
+  "notifications": {
+    "banner": "Ative as notificações push para coordenar incursões com seu grupo em tempo real.",
+    "enable": "Ativar"
   }
 }
