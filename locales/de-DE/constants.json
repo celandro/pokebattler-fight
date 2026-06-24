@@ -1535,7 +1535,7 @@
     "ZYGARDE": "Zygarde",
     "HOOPA": "Hoopa",
     "VOLCANION": "Volcanion",
-    "ZYGARDE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE (10%) ",
+    "ZYGARDE_TEN_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) (10%)",
     "ZYGARDE_FIFTY_PERCENT_FORM": "$t(constants:pokemon.ZYGARDE) (50%)",
     "ZYGARDE_COMPLETE_FORM": "$t(constants:pokemon.ZYGARDE) (Optimum)",
     "OBSTAGOON": "Barrikadax",
