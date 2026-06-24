@@ -2965,7 +2965,9 @@
     "BEAK_BLAST": "Beak Blast",
     "MIND_BLOWN": "Mind Blown",
     "PYROBALL": "Pyro Ball",
-    "GIGGATON_HAMMER": "Gigaton Hammer"
+    "GIGATON_HAMMER": "Gigaton Hammer",
+    "PLASMA_FISTS": "Plasma Fists",
+    "GLAIVE_RUSH": "Glaive Rush"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
