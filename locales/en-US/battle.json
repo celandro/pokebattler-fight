@@ -133,5 +133,39 @@
     },
     "runAgain": "Run this random simulation again",
     "runSolo": "Run as solo attempt",
-    "addBattleParty": "Save this battle party"
+    "addBattleParty": "Save this battle party",
+    "maxSim": {
+        "title": "Max Battle Simulator",
+        "meta": {
+            "description": "Simulate Pokemon Go Max Battles with your own battle party, custom boss stats, healers and shielders.",
+            "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+        },
+        "description": "Simulate a full Max Battle. Pick a Dynamax or Gigantamax boss (or set fully custom boss stats), choose your battle party and see the full battle log including Max Phase heals and shields. Share the results page URL to share your exact simulation.",
+        "boss": {
+            "title": "Max Boss",
+            "custom": "Custom Boss Stats",
+            "customHp": "Custom Boss HP",
+            "customCpm": "Custom Boss CPM",
+            "customAtkMult": "Custom Attack Multiplier",
+            "customEnergyGainMult": "Custom Energy Gain Multiplier"
+        },
+        "players": "Players",
+        "healers": "Healer Assistants",
+        "shielders": "Shielder Assistants",
+        "maxStrategy": {
+            "title": "Max Move Strategy",
+            "POWER_ONLY": "Max Power Only",
+            "HEAL_ONLY": "Max Heal Only",
+            "SHIELD_ONLY": "Max Shield Only",
+            "MAX_POWER_NONE": "No Max Moves"
+        },
+        "party": {
+            "title": "Your Battle Party"
+        },
+        "results": {
+            "description": "This Max Battle simulation against {{defender.name}} was calculated with {{numSims}} full battle simulations by the Pokebattler simulator, including Max Phase power, heal and shield moves."
+        },
+        "edit": "Edit Simulation",
+        "error": "The simulation could not be completed. Please check your inputs and try again."
+    }
 }
