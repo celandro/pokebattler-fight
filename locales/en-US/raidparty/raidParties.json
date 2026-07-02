@@ -199,8 +199,8 @@
     "refresh": "Refresh",
     "highMaxPlayers": {
         "title": "WARNING",
-        "description": "Inviting more than 5 remote players is quite tricky! Please make sure you know how to do it.",
-        "button": "Watch how to invite 10 players!",
+        "description": "Inviting more than 10 remote players is quite tricky! Please make sure you know how to do it. The video shows the technique with the old 5-invite waves — it works exactly the same today, just with 10 invites per wave.",
+        "button": "Watch how to invite a full lobby!",
         "url": "https://youtube.com/shorts/Bn9kwYhm1M0"
     },
     "placeholder": "Enter custom boss to simulate",

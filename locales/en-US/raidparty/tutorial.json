@@ -7,6 +7,17 @@
     "load": "Load the tutorial"
   },
   "tutorial": {
+    "superMega": {
+      "iconName": "shield-alt",
+      "title": "Super Mega Raids",
+      "subtitle": "Shields, enrage, and why you MUST bring a Mega",
+      "heading": "TLDR: Mrs. Pokebattler explains the shield wall — only true Megas can break it",
+      "body1": "Oh my, my husband has really outdone himself this time! Super Mega raids are his newest, nastiest creation — the strongest Mega Legendaries hiding behind a whole wall of shields. Let me walk you through it before your raid group gets caught by surprise.",
+      "body2": "Partway through the battle the boss gets ANGRY. It enrages, its defenses shoot up, and a set of shields goes up around it. While even ONE shield is standing, the boss is completely invulnerable — you can whack it all day long and it won't take a scratch.",
+      "body3": "Here's the secret: only a TRUE Mega Evolution's charge move can break a shield. Primal Groudon and Primal Kyogre may look the part, but Primals can NOT break shields — and neither can regular Pokémon. So every trainer should put a Mega in their LAST party slot: the moment the boss enrages, your Mega jumps in automatically with enough energy to fire a charge move and smash one shield.",
+      "body4": "The biggest bosses — the mythical ones — raise about a dozen shields, so it takes a full lobby of roughly 12 or more trainers, EACH bringing their own Mega, to tear the wall down. Everyone breaks one, and down they all come!",
+      "body5": "The rest of your party can be your usual best attackers — they don't need to be Megas, they just can't break shields. Once the shields fall the boss calms back down and it's a normal (well, very BIG) raid. If you use the app's auto battle party it will tuck a Mega into your last slot for you. Good luck out there, dears!"
+    },
     "joinRaid": {
       "iconName": "link",
       "title": "Join Raids",
