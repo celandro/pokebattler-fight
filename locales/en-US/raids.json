@@ -450,6 +450,14 @@
             "description": "More accurate results for unknown movesets provided thanks to the support of subscribers. Subscribers receive additional pokebox space, even higher accuracy results for all movesets and more.",
             "link": "See all the benefits you get for signing up",
             "thanks": "Thanks for your support!"
+        },
+        "superMegaWarning": {
+            "title": "Super Mega Raid Warning",
+            "invulnerable": "During the enrage phase the boss is INVULNERABLE while it has any shields left — no Pokemon can damage it until every shield is broken.",
+            "shieldBreaking": "Only a true Mega Evolution's charge move can break a shield, and each player can break at most one shield per enrage. Primal Groudon and Primal Kyogre canNOT break shields, so they are excluded from the suggested counters.",
+            "playersNeeded": "Because every shield needs its own Mega player, plan on roughly 12 players with Mega Pokemon to break all shields.",
+            "megaMewtwoX": "Exception: Mega Mewtwo X using Dynamic Punch breaks TWO shields instead of one.",
+            "research": "Please share raid logs and findings in the Pokebattler Raid Party Discord research channel:"
         }
     },
     "raidAttackers": {
