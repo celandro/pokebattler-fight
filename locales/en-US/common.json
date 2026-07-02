@@ -386,5 +386,26 @@
     "legacyDate": "{{legacyDate,shortDate}}",
     "from": "From",
     "until": "Until",
-    "localTime": "Local Time"
+    "localTime": "Local Time",
+    "partyGrid": {
+        "title": "Choose Pokemon",
+        "addPokemon": "Add Pokemon",
+        "pokebox": "My Pokebox",
+        "generic": "Custom Pokemon",
+        "choosePokemon": "Choose Pokemon",
+        "use": "Use Pokemon",
+        "edit": "Edit",
+        "remove": "Remove",
+        "moveLeft": "Move Left",
+        "moveRight": "Move Right",
+        "saveToPokebox": "Save To Pokebox",
+        "savedToPokebox": "Saved To Pokebox!",
+        "loginPrompt": "Log in to pick Pokemon from your Pokebox. You can still build a party with custom Pokemon.",
+        "pokeboxEmpty": "No Dynamax Pokemon found in your Pokebox.",
+        "savePartyName": "Battle Party Name",
+        "saveParty": "Save As Battle Party",
+        "savePartyLogin": "Log in to save this party",
+        "savePartyPokeboxOnly": "Save each custom Pokemon to your Pokebox before saving the party.",
+        "customParty": "Or build a custom party - no login needed:"
+    }
 }
