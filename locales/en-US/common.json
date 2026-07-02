@@ -63,11 +63,11 @@
     "seconds": "Seconds",
     "find": "Find",
     "weakness": "Weakness",
-    "difficulty":  "Difficulty",
+    "difficulty": "Difficulty",
     "version": "Version {{version}}",
     "dynamax": "Dynamax",
     "gigantamax": "Gigantamax",
-    "unavailable"   : "Unavailable",
+    "unavailable": "Unavailable",
     "rejoin": {
         "label": "Rejoin Time",
         "default": "Never"
@@ -314,7 +314,8 @@
             "attackers": "Attackers",
             "raidNetworkDiscords": "Raid Network",
             "infographics": "Infographics",
-            "guides": "Guides"
+            "guides": "Guides",
+            "max": "Max Battles"
         },
         "description": {
             "gym": "Gym Battle Simulations, Pokedex and Rankings",
@@ -328,7 +329,8 @@
             "help": "Tutorials, Terms and Definitions",
             "account": "Customize Pokebattler By Adding Pokemon To Your Pokebox and Battle Parties",
             "profiles": "Find what Pokemon your friends have in their Pokebox",
-            "more": "News, Articles, Translations, How To Contact Us and More"
+            "more": "News, Articles, Translations, How To Contact Us and More",
+            "max": "Top Counters and Simulations for Dynamax and Gigantamax Battles"
         },
         "tooltip": {
             "gym": "Gym battle simulations, Pokedex, attacker and defender rankings and more for Pokemon Go",
@@ -344,12 +346,10 @@
         "default": "Auto",
         "description": "The number of additional random trainers to help you beat the boss. For tier 4 and 5 raid bosses, 5 random battle parties assist you with the fight by default."
     },
-
     "numParty": {
         "title": "Party Power",
         "description": "The number of players in your party who are in the raid with you."
     },
-
     "numMegas": {
         "title": "Additional Megas",
         "description": "The number of additional megas brought by other players. Megas will be staggered to increase the uptime of the mega buff."

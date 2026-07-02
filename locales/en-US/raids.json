@@ -125,9 +125,6 @@
             "subtitle": "Ultra Beast Raid",
             "intro": "Ultra Beast raids are equivalent to the legendary tier in difficulty"
         },
-
-
-
         "RAID_LEVEL_6": {
             "title": "Tier 6",
             "subtitle": "Legendary Raid - Bonus Hp",
@@ -333,7 +330,6 @@
             "subtitle": "Elite Raid - Bonus Hp",
             "intro": "These elite raids are not in the game yet! Their stats and moves are still subject to change."
         },
-
         "RAID_LEVEL_MEGA_FUTURE": {
             "title": "Future Mega Tier",
             "subtitle": "Mega Raid",
@@ -409,7 +405,6 @@
             "subtitle": "Difficult Group Gigantamax Max Battle",
             "intro": "These Max Tier 6 Gigantamax battles are not in the game yet. They may appear in the future for special events."
         }
-
     },
     "custom": {
         "title": "Custom Raid",
@@ -456,7 +451,7 @@
             "link": "See all the benefits you get for signing up",
             "thanks": "Thanks for your support!"
         }
-     },
+    },
     "raidAttackers": {
         "title": "Best Raid Attackers Pokemon GO - {{type}} {{move}} | Pokebattler",
         "meta": {
@@ -510,7 +505,7 @@
         },
         "availableMoves": "Available Moves",
         "counters": "Counters"
-    },    
+    },
     "raidParty": {
         "title": "Pokebattler Raid Party",
         "meta": {
@@ -526,7 +521,7 @@
         "download": {
             "installation": "Download the Pokebattler Raid Party App for your device",
             "android": {
-                "title":"Android",
+                "title": "Android",
                 "subtitle": "Download from the Play Store"
             },
             "ios": {
@@ -608,7 +603,6 @@
             }
         }
     },
-
     "guides": {
         "title": "Guides",
         "subTitle": "Pokemon Go Raid Guides by Professor Geekbeak",
@@ -661,5 +655,26 @@
     "silph": {
         "text": "Current raid boss list provided by",
         "link": "The Silph Road"
+    },
+    "max": {
+        "title": "Max Battle Counters",
+        "linkLabel": "Max Battle Counters",
+        "meta": {
+            "description": "Find Pokemon Go Dynamax and Gigantamax Max Battle counters. Get the best attackers, healers and shielders with the world's #1 custom Max Battle guide.",
+            "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+        },
+        "intro": "Max Battles are here! Find out which Pokemon counter Dynamax and Gigantamax bosses the best with the world's most accurate custom Pokemon Go Max Battle guide. Just select a Max Battle boss below to see the best counters for each moveset!",
+        "current": {
+            "title": "Current Max Battles",
+            "description": "Dynamax and Gigantamax bosses currently appearing at Power Spots."
+        },
+        "upcoming": {
+            "title": "Upcoming Max Battles",
+            "description": "Dynamax and Gigantamax bosses that will appear at Power Spots soon."
+        },
+        "legacy": {
+            "title": "Legacy Max Battles",
+            "description": "Dynamax and Gigantamax bosses that appeared at Power Spots in the past."
+        }
     }
 }
