@@ -99,6 +99,10 @@
     "includeMegas": "Show Mega Pokemon",
     "includeTypes": "Choose Type",
     "primalAssistants": "Active Primal Boosts",
+    "adventureEffects": {
+        "title": "Adventure Effects",
+        "description": "Active Adventure Effects. Behemoth Blade (Zacian): +10% damage dealt in Raids, +5% in Max Battles. Behemoth Bash (Zamazenta): +10% defense in Raids, +5% in Max Battles."
+    },
     "properties": {
         "overall": "Overall",
         "estimator": "Estimator",
