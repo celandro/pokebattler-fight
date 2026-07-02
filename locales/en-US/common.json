@@ -134,7 +134,9 @@
         "points": "Points",
         "matchups": "Matchups",
         "avg_estimator": "Avg. Estimator",
-        "dynamaxEnergy": "Max Energy"
+        "dynamaxEnergy": "Max Energy",
+        "total_heal": "Total Heal",
+        "total_shield": "Total Shield"
     },
     "sectionLinks": {
         "help": "Help section",
