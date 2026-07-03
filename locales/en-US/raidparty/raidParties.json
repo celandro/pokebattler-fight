@@ -199,7 +199,7 @@
     "refresh": "Refresh",
     "highMaxPlayers": {
         "title": "WARNING",
-        "description": "Inviting more than 10 remote players is quite tricky! Please make sure you know how to do it. The video shows the technique with the old 5-invite waves — it works exactly the same today, just with 10 invites per wave.",
+        "description": "Inviting more than 10 remote players is quite tricky! Please make sure you know how to do it. The video shows the technique with the old 5-invite waves \u2014 it works exactly the same today, just with 10 invites per wave.",
         "button": "Watch how to invite a full lobby!",
         "url": "https://youtube.com/shorts/Bn9kwYhm1M0"
     },
@@ -324,16 +324,16 @@
         },
         "superMega": {
             "helpTitle": "How to beat Super Mega raids",
-            "helpBody": "Super Mega bosses enrage partway through and raise shields. While the shields are up the boss is invulnerable and can ONLY be damaged by a true Mega evolution's charge move (for example Mega Rayquaza — Primals like Primal Groudon and Primal Kyogre do NOT count). Put a Mega in your last team slot so it auto-swaps in when the boss enrages and breaks a shield with its charge move. Primals and non-Megas still deal great damage but cannot break shields, so a mythical Super Mega boss with about 12 shields needs a full lobby of roughly 12 or more players all bringing Megas.",
+            "helpBody": "Super Mega bosses enrage partway through and raise shields. While the shields are up the boss is invulnerable and can ONLY be damaged by a true Mega evolution's charge move (for example Mega Rayquaza \u2014 Primals like Primal Groudon and Primal Kyogre do NOT count). Put a Mega in your last team slot so it auto-swaps in when the boss enrages and breaks a shield with its charge move. Primals and non-Megas still deal great damage but cannot break shields, so a mythical Super Mega boss with about 12 shields needs a full lobby of roughly 12 or more players all bringing Megas.",
             "megaSlotWarning": {
                 "title": "Put a Mega in your last slot",
-                "description": "Only a true Mega evolution can break this boss's shields. Place a Mega in your last team slot — Primals and non-Megas cannot break shields."
+                "description": "Only a true Mega evolution can break this boss's shields. Place a Mega in your last team slot \u2014 Primals and non-Megas cannot break shields."
             }
         },
         "karmaBoost": {
             "selectLabel": "Karma Boost",
             "helpTitle": "Karma Boost Raids",
-            "helpBody": "Karma Boost raids reward everyone with extra karma for the raid — 2x for Super Karma, 5x for Mega Karma. Hosting costs the host coins and every player who joins also pays coins, so you only raid with other invested, experienced trainers. These raids show up in the app but are never shared to the Discord or bot network.",
+            "helpBody": "Karma Boost raids reward everyone with extra karma for the raid \u2014 2x for Super Karma, 5x for Mega Karma. Hosting costs the host coins and every player who joins also pays coins, so you only raid with other invested, experienced trainers. These raids show up in the app but are never shared to the Discord or bot network.",
             "none": "No Karma Boost",
             "superTitle": "Super Karma (2x)",
             "megaTitle": "Mega Karma (5x)",
@@ -345,7 +345,12 @@
             "insufficientCoinsJoin": "You need {{moreCoins}} more coins to join this Karma Boost raid.",
             "getCoins": "Get Coins"
         },
-        "hostParty": "Host Party"
+        "hostParty": "Host Party",
+        "demand": {
+            "shortageTitle": "\u26a1 Hosts needed right now!",
+            "shortageBody": "{{count}} trainers are waiting for this boss \u2014 your raid will fill fast and you'll earn double karma for hosting during the rush.",
+            "glutBody": "\ud83c\udf0a There are lots of open lobbies for this boss right now. Joining an almost-full raid may be faster than hosting a new one."
+        }
     },
     "filterRaidForm": {
         "title": "Filter Raid Parties",
