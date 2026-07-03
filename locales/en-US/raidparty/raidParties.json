@@ -359,5 +359,26 @@
     "notifications": {
         "banner": "Enable push notifications to coordinate raids with your party in real-time.",
         "enable": "Enable"
+    },
+    "chat": {
+        "costHint": "Preset messages cost 1 coin \u2014 translated for every trainer's language.",
+        "notEnoughCoins": "You need coins to send chat messages. Earn them by raiding or visit the Store.",
+        "presets": {
+            "READY": "I'm ready! \u2705",
+            "LETS_GO": "Let's go! \ud83d\ude80",
+            "WAITING_FOR_INVITE": "Still waiting for the friend invite \u23f3",
+            "INVITE_SENT": "Invite sent \u2709\ufe0f",
+            "FRIEND_REQUEST_SENT": "Friend request sent \ud83e\udd1d",
+            "ONE_MORE_INVITE_WAVE": "One more invite wave coming \ud83c\udf0a",
+            "JOINING_NOW": "Joining now \ud83c\udfc3",
+            "SORRY_HAVE_TO_LEAVE": "Sorry, I have to leave \ud83d\ude22",
+            "THANKS": "Thanks! \ud83d\ude4f",
+            "GG": "GG! \ud83c\udf89"
+        }
+    },
+    "wants": {
+        "notifyMe": "\ud83d\udd14 Notify me when someone hosts this boss",
+        "notifyMeSet": "\u2705 You'll be notified when this boss is hosted",
+        "limitReached": "You already have the maximum number of raid notifications set."
     }
 }
