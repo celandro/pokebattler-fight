@@ -60,6 +60,17 @@
         "BATTLE_PARTY_LEVEL_45": "Level 45",
         "BATTLE_PARTY_LEVEL_50": "Level 50"
     },
+    "adventureEffects": {
+        "title": "Adventure Effects",
+        "BEHEMOTH_BLADE": {
+            "label": "Behemoth Blade (Crowned Zacian)",
+            "description": "+10% damage dealt in Raids, +5% in Max Battles"
+        },
+        "BEHEMOTH_BASH": {
+            "label": "Behemoth Bash (Crowned Zamazenta)",
+            "description": "+10% defense in Raids, +5% in Max Battles"
+        }
+    },
     "updateSetting": {
         "success": "User settings updated correctly",
         "autoBattleParty": "Switching counters to your Pokebox",
