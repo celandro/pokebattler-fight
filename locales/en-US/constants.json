@@ -3569,5 +3569,15 @@
       "2_560000": "2.56 ×",
       "4_096000": "4.096 ×"
     }
+  },
+  "adventureEffects": {
+    "BEHEMOTH_BLADE": {
+      "label": "Behemoth Blade (Zacian)",
+      "description": "+10% damage dealt in Raids, +5% in Max Battles."
+    },
+    "BEHEMOTH_BASH": {
+      "label": "Behemoth Bash (Zamazenta)",
+      "description": "+10% defense in Raids, +5% in Max Battles."
+    }
   }
 }
