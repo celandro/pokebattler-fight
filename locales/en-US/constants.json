@@ -2967,7 +2967,8 @@
     "PYROBALL": "Pyro Ball",
     "GIGATON_HAMMER": "Gigaton Hammer",
     "PLASMA_FISTS": "Plasma Fists",
-    "GLAIVE_RUSH": "Glaive Rush"
+    "GLAIVE_RUSH": "Glaive Rush",
+    "SNIPE_SHOT": "Snipe Shot"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
