@@ -123,7 +123,12 @@
             "raidStartingNow": {
                 "name": "Raid Starting",
                 "description": "Raid starting now"
+            },
+            "raidMarket": {
+                "name": "Raid supply & demand",
+                "description": "Bosses that need hosts, raids you asked to be told about, and other raid market updates."
             }
-        }
+        },
+        "pausedOffline": "Paused while you're Offline on the Raid page — flip the toggle there to resume raid notifications."
     }
 }

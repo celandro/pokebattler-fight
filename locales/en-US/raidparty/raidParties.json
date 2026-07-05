@@ -76,7 +76,13 @@
         "subtitle": "You may only join one raid at a time. Please click to rejoin and finish the raid"
     },
     "demandChip": {
-      "shortage": "🔥 Needed"
+      "shortage": "🔥 High demand",
+      "glut": "🧊 Well stocked"
+    },
+    "hostingToggle": {
+        "online": "Online",
+        "offline": "Offline",
+        "offlineHint": "Raid creation notifications are paused while you're offline."
     },
     "raidPartyCard": {
         "title": "{{ownerName}}'s Party",
@@ -300,7 +306,8 @@
             "rewards1": "\u2022 +1 coin rating a \ud83d\udc4d or \ud83d\udc4e",
             "rewards2": "\u2022 +5 coins receiving a \ud83d\udc4d",
             "maximumGain": "Maximum gain per raid: 30 for hosts and 6 for guests",
-            "noteText": "You do not lose coins by receiving a \ud83d\udc4e but you do lose Karma. Karma is shown to other users and makes the world a better place"
+            "noteText": "You do not lose coins by receiving a \ud83d\udc4e but you do lose Karma. Karma is shown to other users and makes the world a better place",
+            "surgeNote": "\u26a1 Surge pricing: this boss is in high demand, so joining early costs more than the usual {{base}} coins right now. Cancelled raids auto-refund."
         }
     },
     "hostForm": {
@@ -366,6 +373,7 @@
         "demand": {
             "shortageTitle": "\u26a1 Hosts needed right now!",
             "shortageBody": "{{count}} trainers are waiting for this boss \u2014 your raid will fill fast and you'll earn double karma for hosting during the rush.",
+            "shortageBodyGeneric": "Trainers are waiting for this boss \u2014 your raid will fill fast and hosting during the rush earns bonus karma.",
             "glutBody": "\ud83c\udf0a There are lots of open lobbies for this boss right now. Joining an almost-full raid may be faster than hosting a new one."
         }
     },
