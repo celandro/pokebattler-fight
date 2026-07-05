@@ -75,6 +75,9 @@
         "title": "Rejoin Current Raid",
         "subtitle": "You may only join one raid at a time. Please click to rejoin and finish the raid"
     },
+    "demandChip": {
+      "shortage": "🔥 Needed"
+    },
     "raidPartyCard": {
         "title": "{{ownerName}}'s Party",
         "id": "#{{id}}",
