@@ -79,7 +79,9 @@
         "title": "{{ownerName}}'s Party",
         "id": "#{{id}}",
         "createdAt": "Created at {{createdAt}}.",
-        "globalTime": "{{globalTime}}"
+        "globalTime": "{{globalTime}}",
+        "verifiedRaidNote": "✓ Verified Raid — all trainers here have server-verified battle parties.",
+        "verifiedRaidMegaNote": "✓ Verified Raid — verified parties required, and every party must include a Mega or Primal."
     },
     "raidPartySummaryCard": {
         "title": "{{defender}}",
@@ -154,6 +156,10 @@
             "addUserToRaidPartyFull": "Raid party #{{raidPartyId}} is now full",
             "addUserToRaidPartyGlobal": "Raid party #{{raidPartyId}} is not available to join yet, wait for the countdown timer",
             "addUserToRaidPartyNotEnoughCoins": "You don't have enough coins to join this Karma Boost raid. Get more coins to join.",
+            "addUserToRaidPartyAccountNotVerified": "This is a Verified Raid — verify your account with a Pokébox screenshot first (Pokébox → Verify).",
+            "addUserToRaidPartyPartyNotVerified": "This is a Verified Raid — every Pokémon in your battle party must be verified. Verify them in Pokébox → Verify.",
+            "addUserToRaidPartyMegaRequired": "The host requires a Mega or Primal in your battle party for this Verified Raid.",
+            "addUserToRaidPartyEstimatorTooHigh": "Your battle party doesn't meet this Verified Raid's strength requirement. Bring stronger (verified) attackers.",
             "createRaidPartyNotEnoughCoins": "You don't have enough coins to host this Karma Boost raid. Get more coins to host."
         }
     },
@@ -346,6 +352,14 @@
             "getCoins": "Get Coins"
         },
         "hostParty": "Host Party",
+        "verified": {
+          "selectLabel": "Verified Raid",
+          "helpBody": "Verified Raids only admit trainers whose account and battle party were verified from a real Pokémon GO screenshot, so everyone brings the Pokémon they actually own. Hosting costs a few coins; joining is free for verified trainers.",
+          "enableLabel": "Require verified trainers",
+          "requireMegaLabel": "Require a Mega or Primal in every party",
+          "hostCost": "Hosting this Verified Raid costs {{coins}} coins.",
+          "insufficientCoins": "You need {{moreCoins}} more coins to host a Verified Raid."
+        },
         "demand": {
             "shortageTitle": "\u26a1 Hosts needed right now!",
             "shortageBody": "{{count}} trainers are waiting for this boss \u2014 your raid will fill fast and you'll earn double karma for hosting during the rush.",

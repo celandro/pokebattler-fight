@@ -96,7 +96,22 @@
     "cp": "$t(cp)",
     "temporary": "Saving to server"
   },
-  "noPokemon": {
+  "verify": {
+    "title": "Verify",
+    "helpBody": "Select the Pokémon to verify, copy the search string, paste it into Pokémon GO's box search, screenshot the result, then upload it here. Verification costs {{coins}} coins and lasts {{days}} days — re-scans are free while it's active.",
+    "helpBodyVerified": "Your account is verified. Select Pokémon, copy the search string, screenshot your filtered box in Pokémon GO, and upload — re-scans are free while your verification is active.",
+    "copySearchString": "Copy search",
+    "searchStringCopied": "Search string copied — paste it into Pokémon GO's box search, then screenshot.",
+    "numSelected": "{{count}} selected",
+    "clearSelection": "Clear",
+    "uploadButton": "Upload screenshot & verify ({{count}})",
+    "noPermission": "Photo library permission is needed to upload your screenshot.",
+    "success": "Verified {{count}} Pokémon! ✓",
+    "noneMatched": "The server couldn't match any selected Pokémon in that screenshot. Clear nicknames, make sure the CP is visible, and try again.",
+    "notEnoughCoins": "Not enough coins for verification.",
+    "failed": "Verification failed. Please try again."
+  },
+    "noPokemon": {
     "title": "No Pokemon Found",
     "clearFilter": "Clear Search Filter",
     "description": "Pokebattler Raid Party requires you to add your best Pokemon in order to find the best counters! The more you add, the more accurate the raid party suggestions will be!",
