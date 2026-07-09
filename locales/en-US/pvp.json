@@ -1,4 +1,9 @@
 {
+  "maintenance": {
+    "title": "PvP is down for maintenance during GoFest",
+    "body": "We're focusing our servers on raids during GoFest, so PvP rankings and the battle simulator are temporarily unavailable. For PvP rankings in the meantime, we recommend pvpoke.com.",
+    "cta": "Go to pvpoke.com"
+  },
   "news": {
     "title": "Pokemon GO Battle League PvP News",
     "description": "What's happening in Pokemon Go PvP right now. GO Battle League and Silph Cups are the most popular way to pvp. Pokebattler has analysis from top Pokemon Go PvP Trainers for competitive PvP. Learn from the best on how to beat your friends in head to head combat!",

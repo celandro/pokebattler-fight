@@ -683,6 +683,34 @@
         "legacy": {
             "title": "Legacy Max Battles",
             "description": "Dynamax and Gigantamax bosses that appeared at Power Spots in the past."
+        },
+        "boss": {
+            "title": "{{pokemon}} Max Battle Counters ({{tier}})",
+            "intro": "Here are the best counters for the {{pokemon}} Max Battle. Pick an attacker, healer or shielder role below to see the top Pokemon for your team, then tap through for the full custom counters list.",
+            "meta": {
+                "description": "Find the best counters, healers and shielders for the {{pokemon}} Max Battle in Pokemon Go with the world's #1 custom Max Battle guide.",
+                "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+            },
+            "rankings": {
+                "attack": {
+                    "label": "Attackers",
+                    "description": "Deal the most damage to defeat the boss faster."
+                },
+                "heal": {
+                    "label": "Healers",
+                    "description": "Restore your team's health to keep everyone in the fight."
+                },
+                "shield": {
+                    "label": "Shielders",
+                    "description": "Block incoming damage to protect your team."
+                }
+            },
+            "counters": {
+                "attack": "Best {{pokemon}} Attackers",
+                "heal": "Best {{pokemon}} Healers",
+                "shield": "Best {{pokemon}} Shielders"
+            },
+            "fullCounters": "See the full {{pokemon}} counters list"
         }
     }
 }
