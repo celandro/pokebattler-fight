@@ -399,6 +399,10 @@
     },
     "related": {
       "title": "Counters Relacionados"
+    },
+    "superMegaWarning": {
+      "shieldBreaking": "Somente o ataque carregado de uma Megaevolução verdadeira pode quebrar um escudo, e cada jogador pode quebrar no máximo um escudo por enfurecimento. Você NÃO pode usar Pokémon Primais: Groudon Primal e Kyogre Primal não podem quebrar escudos, portanto são excluídos dos atacantes sugeridos.",
+      "playersNeeded": "A partir de 11 de julho, as reides de Mega Mewtwo exigem 10 jogadores usando uma Megaevolução para quebrar o escudo."
     }
   },
   "pokebox": {

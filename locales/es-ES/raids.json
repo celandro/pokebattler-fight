@@ -420,6 +420,10 @@
       "description": "Resultados más precisos para conjuntos de movimientos desconocidos proporcionados gracias al apoyo de los suscriptores. Los suscriptores reciben espacio adicional en la pokebox, resultados aún más precisos para todos los conjuntos de movimientos y más.",
       "link": "Ver todos los beneficios que obtienes al registrarte",
       "thanks": "¡Gracias por tu apoyo!"
+    },
+    "superMegaWarning": {
+      "shieldBreaking": "Solo el ataque cargado de una verdadera Megaevolución puede romper un escudo, y cada jugador puede romper como máximo un escudo por fase de enfurecimiento. NO puedes usar Pokémon Primigenios: Groudon Primigenio y Kyogre Primigenio no pueden romper escudos, por lo que quedan excluidos de los contadores sugeridos.",
+      "playersNeeded": "A partir del 11 de julio, las incursiones de Mega-Mewtwo requieren 10 jugadores que usen una Megaevolución para romper el escudo."
     }
   },
   "raidAttackers": {
