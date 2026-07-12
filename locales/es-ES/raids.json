@@ -180,6 +180,16 @@
       "subtitle": "Incursiones estándar",
       "intro": "Las incursiones originales de Pokémon Go, utilizan un pase de incursión estándar o un pase de incursión remota."
     },
+    "RAID_LEVEL_MEGAS": {
+        "title": "Megas",
+        "subtitle": "Incursiones Mega",
+        "intro": "Solo incursiones Mega y súper Mega."
+    },
+    "RAID_LEVEL_NO_MEGAS": {
+        "title": "Sin mega",
+        "subtitle": "Incursiones sin Mega",
+        "intro": "Todas las incursiones estándar excepto las Mega."
+    },
             "RAID_LEVEL_PRIMAL": {
       "title": "Primal Tier",
       "subtitle": "Primal Raid",

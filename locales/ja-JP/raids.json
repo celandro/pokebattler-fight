@@ -42,6 +42,16 @@
       "subtitle": "Standard raids",
       "intro": "The original Pokemon Go raids, uses a standard raid pass or remote raid pass."
     },
+    "RAID_LEVEL_MEGAS": {
+        "title": "メガ",
+        "subtitle": "メガレイド",
+        "intro": "メガおよびスーパーメガレイドのみ。"
+    },
+    "RAID_LEVEL_NO_MEGAS": {
+        "title": "メガ以外",
+        "subtitle": "メガ以外のレイド",
+        "intro": "メガを除くすべての通常レイド。"
+    },
     "RAID_LEVEL_1": {
       "title": "Tier 1",
       "subtitle": "Solo Raid",

@@ -120,6 +120,16 @@
       "subtitle": "Standard Raids",
       "intro": "Die ursprünglichen Pokemon Go-Raids verwenden einen Raid-Pass oder einen Fern-Raid-Pass."
     },
+    "RAID_LEVEL_MEGAS": {
+        "title": "Megas",
+        "subtitle": "Mega-Raids",
+        "intro": "Nur Mega- und Super-Mega-Raids."
+    },
+    "RAID_LEVEL_NO_MEGAS": {
+        "title": "Ohne Mega",
+        "subtitle": "Nicht-Mega-Raids",
+        "intro": "Alle Standard-Raids außer Mega."
+    },
     "RAID_LEVEL_4_5": {
       "title": "Stufe 4.5",
       "subtitle": "Einfacher legendärer Raid",

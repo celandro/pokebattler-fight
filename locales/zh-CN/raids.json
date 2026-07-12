@@ -159,6 +159,16 @@
       "subtitle": "Standard raids",
       "intro": "The original Pokemon Go raids, uses a standard raid pass or remote raid pass."
     },
+    "RAID_LEVEL_MEGAS": {
+        "title": "Mega",
+        "subtitle": "Mega团战",
+        "intro": "仅Mega和超级Mega团战。"
+    },
+    "RAID_LEVEL_NO_MEGAS": {
+        "title": "非Mega",
+        "subtitle": "非Mega团战",
+        "intro": "除Mega外的所有标准团战。"
+    },
     "RAID_LEVEL_4_5": {
       "title": "Tier 4.5",
       "subtitle": "Easy Legendary Raid",

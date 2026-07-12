@@ -65,6 +65,16 @@
       "subtitle": "一般團戰",
       "intro": "原始的 Pokémon GO 團體戰，使用一般或遠距團戰券。"
     },
+    "RAID_LEVEL_MEGAS": {
+        "title": "Mega",
+        "subtitle": "Mega團戰",
+        "intro": "僅Mega和超級Mega團戰。"
+    },
+    "RAID_LEVEL_NO_MEGAS": {
+        "title": "非Mega",
+        "subtitle": "非Mega團戰",
+        "intro": "除Mega外的所有標準團戰。"
+    },
     "RAID_LEVEL_1": {
       "title": "一星",
       "subtitle": "單人團戰",

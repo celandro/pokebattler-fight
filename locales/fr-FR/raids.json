@@ -149,6 +149,16 @@
       "subtitle": "Standard raids",
       "intro": "The original Pokemon Go raids, uses a standard raid pass or remote raid pass."
     },
+    "RAID_LEVEL_MEGAS": {
+        "title": "Mégas",
+        "subtitle": "Raids Méga",
+        "intro": "Uniquement les raids Méga et super Méga."
+    },
+    "RAID_LEVEL_NO_MEGAS": {
+        "title": "Sans méga",
+        "subtitle": "Raids sans Méga",
+        "intro": "Tous les raids standard sauf les Méga."
+    },
     "RAID_LEVEL_4_5": {
       "title": "Tier 4.5",
       "subtitle": "Easy Legendary Raid",

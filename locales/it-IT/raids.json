@@ -102,6 +102,16 @@
             "subtitle": "Livello Mega",
             "intro": "I mega raid attuali sono il modo migliore per ottenere mega energia per potenziare i pokemon più forti! Sono spesso fatti con gruppi di 6-10 giocatori di livello 30-40. Alcuni intrepidi esperti hanno fatto alcuni di questi raid con soli 2-5 giocatori."
         },
+        "RAID_LEVEL_MEGAS": {
+            "title": "Mega",
+            "subtitle": "Raid Mega",
+            "intro": "Solo raid Mega e super Mega."
+        },
+        "RAID_LEVEL_NO_MEGAS": {
+            "title": "Senza Mega",
+            "subtitle": "Raid senza Mega",
+            "intro": "Tutti i raid standard tranne i Mega."
+        },
         "RAID_LEVEL_MEGA_LEGACY": {
             "title": "Livello Legacy Mega",
             "subtitle": "Raid Mega Legacy",
