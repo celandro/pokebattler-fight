@@ -169,7 +169,8 @@
             "addUserToRaidPartyPartyNotVerified": "This is a Verified Raid — every Pokémon in your battle party must be verified. Verify them in Pokébox → Verify.",
             "addUserToRaidPartyMegaRequired": "The host requires a Mega or Primal in your battle party for this Verified Raid.",
             "addUserToRaidPartyEstimatorTooHigh": "Your battle party doesn't meet this Verified Raid's strength requirement. Bring stronger (verified) attackers.",
-            "createRaidPartyNotEnoughCoins": "You don't have enough coins to host this Karma Boost raid. Get more coins to host."
+            "createRaidPartyNotEnoughCoins": "You don't have enough coins to host this Karma Boost raid. Get more coins to host.",
+            "createRaidPartyPrecondition": "This raid can't be hosted with these settings. Please update to the latest version of the app and try again."
         }
     },
     "share": {
