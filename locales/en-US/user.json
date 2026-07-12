@@ -300,7 +300,8 @@
             "verification": "Could not verify transaction! Please contact admin@pokebattler.com",
             "store": "Error connecting to store",
             "restore": "Could not restore transactions! Please contact admin@pokebattler.com",
-            "transactionRestore": "Can not apply transaction. Please log in on original account or contact admin@pokebattler.com"
+            "transactionRestore": "Can not apply transaction. Please log in on original account or contact admin@pokebattler.com",
+            "differentAccount": "This purchase belongs to a different Pokébattler account, so it wasn't restored."
         }
     },
     "roles": {
