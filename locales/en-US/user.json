@@ -513,6 +513,14 @@
                 "name": "Minpoke",
                 "app": "Minpoke",
                 "iconUrl": "https://static.pokebattler.com/images/minpokelogo.png"
+            },
+            "leekduck": {
+                "description": "LeekDuck.com is the go-to source for Pokémon GO event schedules, raid boss lists, research tasks and egg pools",
+                "quote": "Excited to team up with Pokebattler! Your subscription helps keep LeekDuck's event guides and tools free for every trainer.",
+                "thanks": "Thank you for sponsoring LeekDuck! Your support keeps the event guides coming.",
+                "name": "LeekDuck",
+                "app": "LeekDuck.com",
+                "iconUrl": "https://leekduck.com/assets/img/favicon/apple-touch-icon.png"
             }
         }
     },
