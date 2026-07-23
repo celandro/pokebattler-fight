@@ -713,12 +713,28 @@
                 "shield": {
                     "label": "Shielders",
                     "description": "Block incoming damage to protect your team."
+                },
+                "party": {
+                    "label": "Party",
+                    "description": "Simulate the recommended team in battle."
                 }
             },
             "counters": {
                 "attack": "Best {{pokemon}} Attackers",
                 "heal": "Best {{pokemon}} Healers",
                 "shield": "Best {{pokemon}} Shielders"
+            },
+            "party": {
+                "title": "Recommended {{pokemon}} Party",
+                "description": "The top 2 attackers plus the best shielder and healer from the rankings, simulated together against {{pokemon}}.",
+                "healerNote": "The healer joins the simulation as a heal-focused teammate.",
+                "roles": {
+                    "attack": "Attacker",
+                    "heal": "Healer",
+                    "shield": "Shielder"
+                },
+                "error": "Could not simulate this party. Please try again later.",
+                "openSimulator": "Customize in the Max Battle Simulator"
             },
             "fullCounters": "See the full {{pokemon}} counters list"
         }

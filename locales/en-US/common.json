@@ -140,7 +140,9 @@
         "avg_estimator": "Avg. Estimator",
         "dynamaxEnergy": "Max Energy",
         "total_heal": "Total Heal",
-        "total_shield": "Total Shield"
+        "total_shield": "Total Shield",
+        "heal_rating": "Heal Rating",
+        "shield_rating": "Shield Rating"
     },
     "sectionLinks": {
         "help": "Help section",
