@@ -726,15 +726,26 @@
             },
             "party": {
                 "title": "Recommended {{pokemon}} Party",
-                "description": "The top 2 attackers plus the best shielder and healer from the rankings, simulated together against {{pokemon}}.",
-                "healerNote": "The healer joins the simulation as a heal-focused teammate.",
+                "description": "The best attackers, shielders and healers from the rankings, combined into one party and simulated together against {{pokemon}}.",
                 "roles": {
                     "attack": "Attacker",
                     "heal": "Healer",
                     "shield": "Shielder"
                 },
                 "error": "Could not simulate this party. Please try again later.",
-                "openSimulator": "Customize in the Max Battle Simulator"
+                "openSimulator": "Customize in the Max Battle Simulator",
+                "presets": {
+                    "dps": "3 DPS",
+                    "shield": "2 + 1 Shield",
+                    "balanced": "1 + 1 + 1"
+                },
+                "compositionHint": "Pick 3 Pokemon total to build the party.",
+                "pokeboxToggle": "Use my Pokebox",
+                "genericFallback": "Generic pick",
+                "alternatives": "Swap",
+                "unavailable": "We couldn't build a party for this boss right now. Please try again in a moment.",
+                "retry": "Retry",
+                "tankUptime": "Tank uptime"
             },
             "fullCounters": "See the full {{pokemon}} counters list"
         }
