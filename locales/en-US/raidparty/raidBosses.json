@@ -112,7 +112,12 @@
         "id": "$t(raidBosses:joinParty) #{{id}}",
         "summary": "{{numReadyPlayers}} out of {{players}} players are ready. {{ownerName}}'s party was created at {{createdAt}}",
         "emptyPokebox": "Empty Pokebox, Using Defaults",
-        "egg": "Egg"
+        "egg": "Egg",
+        "maxComposition": {
+            "DPS": "{{num}} ATK",
+            "TANK": "{{num}} SHD",
+            "HEALER": "{{num}} HEAL"
+        }
     },
     "raidPartyPlayer": {
         "title": "{{name}}",
