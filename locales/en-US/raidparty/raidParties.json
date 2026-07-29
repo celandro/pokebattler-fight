@@ -171,6 +171,7 @@
             "addUserToRaidPartyEstimatorTooHigh": "Your battle party doesn't meet this Verified Raid's strength requirement. Bring stronger (verified) attackers.",
             "createRaidPartyNotEnoughCoins": "You don't have enough coins to host this Karma Boost raid. Get more coins to host.",
             "createRaidPartyPrecondition": "This raid can't be hosted with these settings. Please update to the latest version of the app and try again.",
+            "addUserToRaidPartyRoleSlotFull": "That role is full for this raid — pick another role or Any.",
             "createRaidPartyCompositionConflict": "Those role slots don't work for this raid. Adjust the Attacker/Shielder/Healer counts and try again.",
             "updateRaidPartyCompositionConflict": "You can't remove role slots that trainers have already filled. Add slots instead, or wait for them to leave."
         }
@@ -412,6 +413,11 @@
             "THANKS": "Thanks! \ud83d\ude4f",
             "GG": "GG! \ud83c\udf89"
         }
+    },
+    "joinMaxRole": {
+        "title": "Choose Your Role",
+        "subtitle": "The host may reserve lobby slots for each role. Pick the role you'll play — or Any to fill whatever's needed.",
+        "join": "Join Raid"
     },
     "wants": {
         "notifyMe": "\ud83d\udd14 Notify me when someone hosts this boss",
