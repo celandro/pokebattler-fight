@@ -88,6 +88,14 @@
         "tab": "Counters",
         "description": "These are your top 6 counters to defeat a {{tier}} {{defender}} raid boss. Add alternative Pokemon to your party below!"
     },
+    "roleBadge": {
+        "ATTACK": "Attacker",
+        "DPS": "Attacker",
+        "TANK": "Shielder",
+        "SHIELD": "Shielder",
+        "HEAL": "Healer",
+        "HEALER": "Healer"
+    },
     "combatants": {
         "title": "{{defender}} Raid Party",
         "tab": "Party",
