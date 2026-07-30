@@ -170,7 +170,10 @@
             "addUserToRaidPartyMegaRequired": "The host requires a Mega or Primal in your battle party for this Verified Raid.",
             "addUserToRaidPartyEstimatorTooHigh": "Your battle party doesn't meet this Verified Raid's strength requirement. Bring stronger (verified) attackers.",
             "createRaidPartyNotEnoughCoins": "You don't have enough coins to host this Karma Boost raid. Get more coins to host.",
-            "createRaidPartyPrecondition": "This raid can't be hosted with these settings. Please update to the latest version of the app and try again."
+            "createRaidPartyPrecondition": "This raid can't be hosted with these settings. Please update to the latest version of the app and try again.",
+            "addUserToRaidPartyRoleSlotFull": "That role is full for this raid — pick another role or Any.",
+            "createRaidPartyCompositionConflict": "Those role slots don't work for this raid. Adjust the Attacker/Shielder/Healer counts and try again.",
+            "updateRaidPartyCompositionConflict": "You can't remove role slots that trainers have already filled. Add slots instead, or wait for them to leave."
         }
     },
     "share": {
@@ -363,6 +366,15 @@
             "getCoins": "Get Coins"
         },
         "hostParty": "Host Party",
+        "maxRoles": {
+            "title": "Lobby Roles",
+            "helpBody": "Max battle lobbies fit 4 trainers. Leave Any roles on to let everyone in, or reserve slots for Attackers, Shielders and Healers.",
+            "anyRoles": "Any roles",
+            "DPS": "Attackers",
+            "TANK": "Shielders",
+            "HEALER": "Healers",
+            "slotTotal": "{{total}} of {{max}} trainers"
+        },
         "verified": {
           "selectLabel": "Verified Raid",
           "helpBody": "Verified Raids only admit trainers whose account and battle party were verified from a real Pokémon GO screenshot, so everyone brings the Pokémon they actually own. Hosting costs a few coins; joining is free for verified trainers.",
@@ -401,6 +413,11 @@
             "THANKS": "Thanks! \ud83d\ude4f",
             "GG": "GG! \ud83c\udf89"
         }
+    },
+    "joinMaxRole": {
+        "title": "Choose Your Role",
+        "subtitle": "The host may reserve lobby slots for each role. Pick the role you'll play — or Any to fill whatever's needed.",
+        "join": "Join Raid"
     },
     "wants": {
         "notifyMe": "\ud83d\udd14 Notify me when someone hosts this boss",
