@@ -370,10 +370,23 @@
             "title": "Lobby Roles",
             "helpBody": "Max battle lobbies fit 4 trainers. Leave Any roles on to let everyone in, or reserve slots for Attackers, Shielders and Healers.",
             "anyRoles": "Any roles",
-            "DPS": "Attackers",
-            "TANK": "Shielders",
-            "HEALER": "Healers",
+            "DPS": {
+                "label": "Attackers",
+                "description": "Bring your 3 strongest attackers. Deal damage and build Max energy fast."
+            },
+            "TANK": {
+                "label": "Shielders",
+                "description": "Bring bulky Pokémon. Dynamax first and use Max Guard to shield your team."
+            },
+            "HEALER": {
+                "label": "Healers",
+                "description": "Bring high-HP support Pokémon like Blissey. Use Max Spirit to keep the team alive."
+            },
             "slotTotal": "{{total}} of {{max}} trainers"
+        },
+        "yourRole": {
+            "title": "Your Role",
+            "subtitle": "Pick the role you'll play in this lobby. It's saved as your default for future max battles."
         },
         "verified": {
           "selectLabel": "Verified Raid",
@@ -392,7 +405,11 @@
     },
     "filterRaidForm": {
         "title": "Filter Raid Parties",
-        "apply": "Apply"
+        "apply": "Apply",
+        "tier": "Raid tier",
+        "allTiers": "All tiers",
+        "openRole": "Open role slot",
+        "anyRole": "Any role"
     },
     "notifications": {
         "banner": "Enable push notifications to coordinate raids with your party in real-time.",
@@ -417,7 +434,16 @@
     "joinMaxRole": {
         "title": "Choose Your Role",
         "subtitle": "The host may reserve lobby slots for each role. Pick the role you'll play — or Any to fill whatever's needed.",
-        "join": "Join Raid"
+        "join": "Join Raid",
+        "DPS": {
+            "description": "Bring your 3 strongest attackers. Deal damage and build Max energy fast."
+        },
+        "TANK": {
+            "description": "Bring bulky Pokémon. Dynamax first and use Max Guard to shield your team."
+        },
+        "HEALER": {
+            "description": "Bring high-HP support Pokémon like Blissey. Use Max Spirit to keep the team alive."
+        }
     },
     "wants": {
         "notifyMe": "\ud83d\udd14 Notify me when someone hosts this boss",
