@@ -137,7 +137,7 @@
     "maxSim": {
         "title": "Max Battle Simulator",
         "meta": {
-            "description": "Simulate Pokemon Go Max Battles with your own battle party, custom boss stats, healers and shielders.",
+            "description": "Simulate Pokemon Go Max Battles with your own battle party, custom boss stats, healers and tanks.",
             "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
         },
         "description": "Simulate a full Max Battle. Pick a Dynamax or Gigantamax boss (or set fully custom boss stats), choose your battle party and see the full battle log including Max Phase heals and shields. Share the results page URL to share your exact simulation.",
@@ -151,7 +151,7 @@
         },
         "players": "Players",
         "healers": "Healer Assistants",
-        "shielders": "Shielder Assistants",
+        "shielders": "Tank Assistants",
         "maxStrategy": {
             "title": "Max Move Strategy",
             "POWER_ONLY": "Max Power Only",

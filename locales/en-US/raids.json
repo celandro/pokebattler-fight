@@ -678,7 +678,7 @@
         "title": "Max Battle Counters",
         "linkLabel": "Max Battle Counters",
         "meta": {
-            "description": "Find Pokemon Go Dynamax and Gigantamax Max Battle counters. Get the best attackers, healers and shielders with the world's #1 custom Max Battle guide.",
+            "description": "Find Pokemon Go Dynamax and Gigantamax Max Battle counters. Get the best attackers, healers and tanks with the world's #1 custom Max Battle guide.",
             "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
         },
         "intro": "Max Battles are here! Find out which Pokemon counter Dynamax and Gigantamax bosses the best with the world's most accurate custom Pokemon Go Max Battle guide. Just select a Max Battle boss below to see the best counters for each moveset!",
@@ -696,9 +696,9 @@
         },
         "boss": {
             "title": "{{pokemon}} Max Battle Counters ({{tier}})",
-            "intro": "Here are the best counters for the {{pokemon}} Max Battle. Pick an attacker, healer or shielder role below to see the top Pokemon for your team, then tap through for the full custom counters list.",
+            "intro": "Here are the best counters for the {{pokemon}} Max Battle. Pick an attacker, healer or tank role below to see the top Pokemon for your team, then tap through for the full custom counters list.",
             "meta": {
-                "description": "Find the best counters, healers and shielders for the {{pokemon}} Max Battle in Pokemon Go with the world's #1 custom Max Battle guide.",
+                "description": "Find the best counters, healers and tanks for the {{pokemon}} Max Battle in Pokemon Go with the world's #1 custom Max Battle guide.",
                 "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
             },
             "rankings": {
@@ -711,39 +711,40 @@
                     "description": "Restore your team's health to keep everyone in the fight."
                 },
                 "shield": {
-                    "label": "Shielders",
+                    "label": "Tanks",
                     "description": "Block incoming damage to protect your team."
                 },
                 "party": {
-                    "label": "Party",
-                    "description": "Simulate the recommended team in battle."
+                    "label": "Lobby",
+                    "description": "Build a 4 trainer lobby and simulate it in battle."
                 }
             },
             "counters": {
                 "attack": "Best {{pokemon}} Attackers",
                 "heal": "Best {{pokemon}} Healers",
-                "shield": "Best {{pokemon}} Shielders"
+                "shield": "Best {{pokemon}} Tanks"
             },
             "party": {
-                "title": "Recommended {{pokemon}} Party",
-                "description": "The best attackers, shielders and healers from the rankings, combined into one party and simulated together against {{pokemon}}.",
+                "title": "{{pokemon}} Max Battle Lobby",
+                "description": "A Max Battle lobby is 4 trainers bringing 3 Pokemon each. Pick your role and the roles of the other three trainers, then see how the whole lobby does against {{pokemon}}.",
                 "roles": {
                     "attack": "Attacker",
                     "heal": "Healer",
-                    "shield": "Shielder"
+                    "shield": "Tank"
                 },
-                "error": "Could not simulate this party. Please try again later.",
+                "you": "You",
+                "trainer": "Trainer {{number}}",
+                "yourRole": "Your role",
+                "theirRole": "Their role",
+                "lobbyNote": "The other three trainers are simulated as generic teams for the role you gave them.",
+                "teamUnavailable": "We couldn't pick a {{role}} team for this boss right now.",
+                "teamFailed": "Could not load the {{role}} team. Please try again.",
+                "error": "Could not simulate this lobby. Please try again later.",
                 "openSimulator": "Customize in the Max Battle Simulator",
-                "presets": {
-                    "dps": "3 DPS",
-                    "shield": "2 + 1 Shield",
-                    "balanced": "1 + 1 + 1"
-                },
-                "compositionHint": "Pick 3 Pokemon total to build the party.",
                 "pokeboxToggle": "Use my Pokebox",
                 "genericFallback": "Generic pick",
                 "alternatives": "Swap",
-                "unavailable": "We couldn't build a party for this boss right now. Please try again in a moment.",
+                "unavailable": "We couldn't build your team for this boss right now. Please try again in a moment.",
                 "retry": "Retry",
                 "tankUptime": "Tank uptime"
             },

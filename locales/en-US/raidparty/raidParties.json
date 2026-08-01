@@ -172,7 +172,7 @@
             "createRaidPartyNotEnoughCoins": "You don't have enough coins to host this Karma Boost raid. Get more coins to host.",
             "createRaidPartyPrecondition": "This raid can't be hosted with these settings. Please update to the latest version of the app and try again.",
             "addUserToRaidPartyRoleSlotFull": "That role is full for this raid — pick another role or Any.",
-            "createRaidPartyCompositionConflict": "Those role slots don't work for this raid. Adjust the Attacker/Shielder/Healer counts and try again.",
+            "createRaidPartyCompositionConflict": "Those role slots don't work for this raid. Adjust the Attacker/Tank/Healer counts and try again.",
             "updateRaidPartyCompositionConflict": "You can't remove role slots that trainers have already filled. Add slots instead, or wait for them to leave."
         }
     },
@@ -368,14 +368,14 @@
         "hostParty": "Host Party",
         "maxRoles": {
             "title": "Lobby Roles",
-            "helpBody": "Max battle lobbies fit 4 trainers. Leave Any roles on to let everyone in, or reserve slots for Attackers, Shielders and Healers.",
+            "helpBody": "Max battle lobbies fit 4 trainers. Leave Any roles on to let everyone in, or reserve slots for Attackers, Tanks and Healers.",
             "anyRoles": "Any roles",
             "DPS": {
                 "label": "Attackers",
                 "description": "Bring your 3 strongest attackers. Deal damage and build Max energy fast."
             },
             "TANK": {
-                "label": "Shielders",
+                "label": "Tanks",
                 "description": "Bring bulky Pokémon. Dynamax first and use Max Guard to shield your team."
             },
             "HEALER": {
