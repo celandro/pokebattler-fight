@@ -79,6 +79,23 @@
             "title": "Account Linked Successfully"
         }
     },
+    "account": {
+        "title": "Your Account",
+        "email": "Email",
+        "noEmail": "No email on file",
+        "linkedAccounts": "Linked accounts",
+        "linked": "Linked",
+        "notLinked": "Not linked",
+        "noneLinked": "No login is linked to this account yet. Link one below so you don't lose your Pokebox if you change devices.",
+        "providers": {
+            "google": "Google",
+            "apple": "Apple",
+            "facebook": "Facebook",
+            "discord": "Discord",
+            "patreon": "Patreon",
+            "device": "This device only"
+        }
+    },
     "settings": {
         "showListImages": "Show Images"
     },
