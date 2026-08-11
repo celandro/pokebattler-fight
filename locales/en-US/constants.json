@@ -3046,6 +3046,26 @@
         "label": "PvP",
         "description": "This strategy uses pvp mechanics."
       },
+      "PVP_POKE": {
+        "label": "PvPoke AI",
+        "description": "PvPoke battle AI: shield baiting and move optimization, powered by Pokébattler Monte Carlo simulations."
+      },
+      "BAIT_NONE": {
+        "label": "PvPoke AI - Never Bait",
+        "description": "PvPoke battle AI that never baits shields: it always throws its strongest charged move."
+      },
+      "BAIT_17": {
+        "label": "PvPoke AI - Bait 17%",
+        "description": "PvPoke battle AI that baits shields in 17% of simulations."
+      },
+      "BAIT_33": {
+        "label": "PvPoke AI - Bait 33%",
+        "description": "PvPoke battle AI that baits shields in 33% of simulations."
+      },
+      "BAIT_50": {
+        "label": "PvPoke AI - Bait 50%",
+        "description": "PvPoke battle AI that baits shields in 50% of simulations."
+      },
       "LEGACY_RAID_STRATEGY": {
         "label": "Optimal",
         "description": "This strategy avoids a bug. See https://www.reddit.com/r/TheSilphRoad/comments/1rrf4ef/_/"
