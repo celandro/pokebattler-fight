@@ -394,7 +394,21 @@
           "enableLabel": "Require verified trainers",
           "requireMegaLabel": "Require a Mega or Primal in every party",
           "hostCost": "Hosting this Verified Raid costs {{coins}} coins.",
-          "insufficientCoins": "You need {{moreCoins}} more coins to host a Verified Raid."
+          "insufficientCoins": "You need {{moreCoins}} more coins to host a Verified Raid.",
+          "hostNotVerified": "Hosts must be verified too. Verify your own Pok\u00e9box with a screenshot to unlock Verified Raids.",
+          "verifyNowCta": "Verify my Pok\u00e9box",
+          "estimatorLabel": "Party strength required to join",
+          "estimatorHelp": "Stricter bars admit only stronger battle parties \u2014 you must meet your own bar.",
+          "estimator": {
+            "any": "Any",
+            "relaxed": "Relaxed",
+            "strong": "Strong",
+            "elite": "Elite",
+            "solo": "Solo",
+            "duo": "Duo",
+            "trio": "Trio",
+            "upTo": "\u2264{{count}}"
+          }
         },
         "demand": {
             "shortageTitle": "\u26a1 Hosts needed right now!",
