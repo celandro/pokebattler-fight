@@ -109,7 +109,24 @@
     "success": "Verified {{count}} Pokémon! ✓",
     "noneMatched": "The server couldn't match any selected Pokémon in that screenshot. Clear nicknames, make sure the CP is visible, and try again.",
     "notEnoughCoins": "Not enough coins for verification.",
-    "failed": "Verification failed. Please try again."
+    "failed": "Verification failed. Please try again.",
+    "review": {
+      "title": "What we read",
+      "subtitle": "This is what the server read from your screenshot. Only the server decides what counts as verified — flagging a row just asks for another look.",
+      "empty": "Nothing was read from that screenshot.",
+      "cp": "CP {{cp}}",
+      "unknownSpecies": "Not recognized",
+      "unknownCp": "CP not read",
+      "wrong": "Wrong?",
+      "reportUnavailable": "Reporting a misread isn't available yet.",
+      "pickerTitle": "Which Pokémon is it?",
+      "pickerPlaceholder": "Search Pokémon",
+      "submit": "Report",
+      "cancel": "Cancel",
+      "pending": "Pending review",
+      "failed": "Couldn't send that report. Please try again.",
+      "done": "Done"
+    }
   },
     "noPokemon": {
     "title": "No Pokemon Found",
