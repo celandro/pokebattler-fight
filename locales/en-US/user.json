@@ -570,5 +570,10 @@
         "CH": "Switzerland",
         "GB": "United Kingdom",
         "US": "United States"
+    },
+    "lostAccess": {
+        "title": "Lost access to your account, or paying but don't see a subscription?",
+        "description": "If you subscribed in the past but nothing shows here, or you can no longer log in to the email or account you subscribed with, we can find it — please email us before filing a bank dispute. Include anything from your receipt (receipt number, invoice number, or the last 4 digits of your card) and we will locate your subscription and move it to your current account, cancel it, or refund it. We usually respond within 24 hours.",
+        "emailSubject": "Help me find my Pokebattler account or subscription"
     }
 }
