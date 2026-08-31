@@ -363,6 +363,16 @@
         "title": "Additional Megas",
         "description": "The number of additional megas brought by other players. Megas will be staggered to increase the uptime of the mega buff."
     },
+    "megaLevel": {
+        "title": "Mega Level",
+        "description": "The Mega Level of the megas in the battle. Mega Levels 2-4 power up a mega's exclusive \"+\" charged attack. Level 1 is used by default.",
+        "options": {
+            "1": "Mega Level 1 (Default)",
+            "2": "Mega Level 2",
+            "3": "Mega Level 3",
+            "4": "Mega Level 4"
+        }
+    },
     "explicitAssistants": {
         "title": "Extra Trainers",
         "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers. The friend level should be the maximum friend level that they have with other players at the raid, not your friend level with them."
