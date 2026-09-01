@@ -365,12 +365,12 @@
     },
     "megaLevel": {
         "title": "Mega Level",
-        "description": "The Mega Level of the megas in the battle. Mega Levels 2-4 power up a mega's exclusive \"+\" charged attack. Level 1 is used by default.",
+        "description": "The Mega Level of the megas in the battle. Mega Levels 2-4 power up a mega's exclusive \"+\" charged attack. The top level 4 is used by default.",
         "options": {
-            "1": "Mega Level 1 (Default)",
+            "1": "Mega Level 1",
             "2": "Mega Level 2",
             "3": "Mega Level 3",
-            "4": "Mega Level 4"
+            "4": "Mega Level 4 (Default)"
         }
     },
     "explicitAssistants": {
