@@ -2894,7 +2894,20 @@
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DYNAMIC_PUNCH_PLUS": "Dynamo-Poing+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "Canon Graine+",
+    "MYSTICAL_FIRE_PLUS": "Feu Ensorcelé+",
+    "SURF_PLUS": "Surf+",
+    "VOLT_TACKLE_PLUS": "Électacle+",
+    "ZAP_CANNON_PLUS": "Élecanon+",
+    "DRILL_PECK_PLUS": "Bec Vrille+",
+    "BRICK_BREAK_PLUS": "Casse-Brique+",
+    "LIQUIDATION_PLUS": "Aqua-Brèche+",
+    "ACID_SPRAY_PLUS": "Bombe Acide+",
+    "PSYBEAM_PLUS": "Rafale Psy+",
+    "OUTRAGE_PLUS": "Colère+"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "Normal",

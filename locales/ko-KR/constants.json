@@ -2894,7 +2894,20 @@
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DYNAMIC_PUNCH_PLUS": "폭발펀치+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "씨폭탄+",
+    "MYSTICAL_FIRE_PLUS": "매지컬플레임+",
+    "SURF_PLUS": "파도타기+",
+    "VOLT_TACKLE_PLUS": "볼트태클+",
+    "ZAP_CANNON_PLUS": "전자포+",
+    "DRILL_PECK_PLUS": "회전부리+",
+    "BRICK_BREAK_PLUS": "깨트리기+",
+    "LIQUIDATION_PLUS": "아쿠아브레이크+",
+    "ACID_SPRAY_PLUS": "애시드봄+",
+    "PSYBEAM_PLUS": "환상빔+",
+    "OUTRAGE_PLUS": "역린+"
   },
   "types": {
     "POKEMON_TYPE_NORMAL": "노멀",

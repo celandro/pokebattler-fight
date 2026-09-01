@@ -2894,7 +2894,20 @@
     "DYNAMAX_END": "Dynamax Ende",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax wütend",
-    "CHILLING_WATER": "Kalte Dusche"
+    "CHILLING_WATER": "Kalte Dusche",
+    "DYNAMIC_PUNCH_PLUS": "Wuchtschlag+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "Samenbomben+",
+    "MYSTICAL_FIRE_PLUS": "Magieflamme+",
+    "SURF_PLUS": "Surfer+",
+    "VOLT_TACKLE_PLUS": "Volttackle+",
+    "ZAP_CANNON_PLUS": "Blitzkanone+",
+    "DRILL_PECK_PLUS": "Bohrschnabel+",
+    "BRICK_BREAK_PLUS": "Durchbruch+",
+    "LIQUIDATION_PLUS": "Aquadurchstoß+",
+    "ACID_SPRAY_PLUS": "Säurespeier+",
+    "PSYBEAM_PLUS": "Psystrahl+",
+    "OUTRAGE_PLUS": "Wutanfall+"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Unbekannt",

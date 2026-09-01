@@ -2991,7 +2991,20 @@
     "CLANGING_SCALES": "Clamorsquame",
     "CRUSH_GRIP": "Sbriciolmano",
     "DRAGON_ENERGY": "Dragoenergia",
-    "AQUA_STEP": "Idroballetto"
+    "AQUA_STEP": "Idroballetto",
+    "DYNAMIC_PUNCH_PLUS": "Dinamipugno+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "Semebomba+",
+    "MYSTICAL_FIRE_PLUS": "Magifiamma+",
+    "SURF_PLUS": "Surf+",
+    "VOLT_TACKLE_PLUS": "Locomovolt+",
+    "ZAP_CANNON_PLUS": "Falcecannone+",
+    "DRILL_PECK_PLUS": "Perforbecco+",
+    "BRICK_BREAK_PLUS": "Breccia+",
+    "LIQUIDATION_PLUS": "Idrobreccia+",
+    "ACID_SPRAY_PLUS": "Acidobomba+",
+    "PSYBEAM_PLUS": "Psicoraggio+",
+    "OUTRAGE_PLUS": "Oltraggio+"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Sconosciuto",
