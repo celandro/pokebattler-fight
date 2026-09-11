@@ -2894,7 +2894,20 @@
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DYNAMIC_PUNCH_PLUS": "Динамический Удар+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "Семя-Бомба+",
+    "MYSTICAL_FIRE_PLUS": "Мистический Огонь+",
+    "SURF_PLUS": "Сёрф+",
+    "VOLT_TACKLE_PLUS": "Вольт-Бросок+",
+    "ZAP_CANNON_PLUS": "Грохот Пушек+",
+    "DRILL_PECK_PLUS": "Сверлящий Клюв+",
+    "BRICK_BREAK_PLUS": "Кирпичный Пролом+",
+    "LIQUIDATION_PLUS": "Ликвидация+",
+    "ACID_SPRAY_PLUS": "Кислотные Брызги+",
+    "PSYBEAM_PLUS": "Психолуч+",
+    "OUTRAGE_PLUS": "Гнев+"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

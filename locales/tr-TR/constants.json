@@ -2894,7 +2894,20 @@
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DYNAMIC_PUNCH_PLUS": "Dinamik Yumruk+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "Tohum Bombası+",
+    "MYSTICAL_FIRE_PLUS": "Mistik Alev+",
+    "SURF_PLUS": "Sörf+",
+    "VOLT_TACKLE_PLUS": "Volt Vuruşu+",
+    "ZAP_CANNON_PLUS": "Elektrik Topu+",
+    "DRILL_PECK_PLUS": "Matkap Gaga+",
+    "BRICK_BREAK_PLUS": "Tuğla Kırma+",
+    "LIQUIDATION_PLUS": "Sıvılaştırma+",
+    "ACID_SPRAY_PLUS": "Asit Püskürtme+",
+    "PSYBEAM_PLUS": "Psişik Işın+",
+    "OUTRAGE_PLUS": "Öfke Krizi+"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",

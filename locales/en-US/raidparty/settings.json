@@ -20,6 +20,7 @@
         "maxBattleRole": "Max Battle Role",
         "megaPokemon": "Your Mega",
         "megaAuto": "Auto (best ranked)",
+        "megaLevel": "Mega Level",
         "friendLevel": "Friendship",
         "discordUsername": "Discord Username",
         "language": "Language",
@@ -50,6 +51,12 @@
         "discordConnect": "Pokebattler Raid Party Network includes raids that are coordinated using Discord. To join a Discord raid connect your Pokebattler account with a new or existing Discord account.",
         "correctness": "Correct Trainer Name and Friend Code are required for smooth Raid Party coordination",
         "friendCodeHint": "Paste your friend code here. It should be 12 digits, no spaces"
+    },
+    "megaLevelOptions": {
+        "1": "Level 1",
+        "2": "Level 2",
+        "3": "Level 3",
+        "4": "Level 4"
     },
     "maxBattleRoleOptions": {
         "ANY": "Any",

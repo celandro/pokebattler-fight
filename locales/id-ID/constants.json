@@ -2894,7 +2894,20 @@
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DYNAMIC_PUNCH_PLUS": "Pukulan Peledak+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "Bom Benih+",
+    "MYSTICAL_FIRE_PLUS": "Magical Flame+",
+    "SURF_PLUS": "Berselancar+",
+    "VOLT_TACKLE_PLUS": "Volt Tackle+",
+    "ZAP_CANNON_PLUS": "Meriam Elektromagnetik+",
+    "DRILL_PECK_PLUS": "Patukan Bor+",
+    "BRICK_BREAK_PLUS": "Memecahkan Bata+",
+    "LIQUIDATION_PLUS": "Aqua Break+",
+    "ACID_SPRAY_PLUS": "Semprotan Asam+",
+    "PSYBEAM_PLUS": "Sinar Psikedelik+",
+    "OUTRAGE_PLUS": "Kemarahan Tak Terkendali+"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
