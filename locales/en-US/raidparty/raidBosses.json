@@ -109,7 +109,8 @@
         "cancel": "Cancel",
         "fetch": "Fetch",
         "errors": {
-            "pokemonMismatch": "Raid Party {{id}} is for {{raidPartyPokemon}} not {{pokemon}}."
+            "pokemonMismatch": "Raid Party {{id}} is for {{raidPartyPokemon}} not {{pokemon}}.",
+            "notFound": "Raid party #{{id}} was not found. Check the party code and try again."
         }
     },
     "multiParty": {
