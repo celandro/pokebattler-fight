@@ -2246,7 +2246,6 @@
     "WEEZING_GALARIAN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WEEZING_GALARIAN_FORM)",
     "PHANTUMP_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PHANTUMP)",
     "TREVENANT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.TREVENANT)",
-
     "CHESPIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CHESPIN)",
     "QUILLADIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.QUILLADIN)",
     "CHESNAUGHT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CHESNAUGHT)",
@@ -2255,7 +2254,7 @@
     "GRENINJA_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GRENINJA)",
     "FENNEKIN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FENNEKIN)",
     "BRAIXEN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.BRAIXEN)",
-    "DELPHOX_SHADOW_FORM":	 "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DELPHOX)",
+    "DELPHOX_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DELPHOX)",
     "HELIOPTILE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HELIOPTILE)",
     "HELIOLISK_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.HELIOLISK)",
     "DEWPIDER_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.DEWPIDER)",
@@ -2415,7 +2414,21 @@
     "CORSOLA_SPRING_2026_FORM": "$t(constants:pokemon.CORSOLA) - Spring 2026",
     "SUDOWOODO_WINTER_2025_FORM": "$t(constants:pokemon.SUDOWOODO) - Winter 2025",
     "CHARJABUG_WINTER_2025_FORM": "$t(constants:pokemon.CHARJABUG) - Winter 2025",
-    "VIKAVOLT_WINTER_2025_FORM": "$t(constants:pokemon.VIKAVOLT) - Winter 2025"
+    "VIKAVOLT_WINTER_2025_FORM": "$t(constants:pokemon.VIKAVOLT) - Winter 2025",
+    "CHARMANDER_GOGGLES_2026_FORM": "$t(constants:pokemon.CHARMANDER) - Goggles 2026",
+    "CHARMELEON_GOGGLES_2026_FORM": "$t(constants:pokemon.CHARMELEON) - Goggles 2026",
+    "CHARIZARD_GOGGLES_2026_FORM": "$t(constants:pokemon.CHARIZARD) - Goggles 2026",
+    "PIKACHU_K_2026_A_01_FORM": "$t(constants:pokemon.PIKACHU) - K 2026",
+    "PIKACHU_ANNIVERSARY_2026_FORM": "$t(constants:pokemon.PIKACHU) - Anniversary 2026",
+    "PIKACHU_ANNIVERSARY_2026_MALAYSIA_01_FORM": "$t(constants:pokemon.PIKACHU) - Anniversary 2026 Malaysia",
+    "PIKACHU_ANNIVERSARY_2026_PHILIPPINE_01_FORM": "$t(constants:pokemon.PIKACHU) - Anniversary 2026 Philippines",
+    "PIKACHU_ANNIVERSARY_2026_SINGAPORE_01_FORM": "$t(constants:pokemon.PIKACHU) - Anniversary 2026 Singapore",
+    "PIKACHU_ANNIVERSARY_2026_TAIWAN_01_FORM": "$t(constants:pokemon.PIKACHU) - Anniversary 2026 Taiwan",
+    "PIKACHU_PXP_2026_FORM": "$t(constants:pokemon.PIKACHU) - PXP 2026",
+    "PIKACHU_WCS_2026_FORM": "$t(constants:pokemon.PIKACHU) - WCS 2026",
+    "CRAMORANT_GULPING_FORM": "$t(constants:pokemon.CRAMORANT) - Gulping",
+    "CRAMORANT_GORGING_FORM": "$t(constants:pokemon.CRAMORANT) - Gorging",
+    "GIMMIGHOUL_COIN_A2_2026_FORM": "$t(constants:pokemon.GIMMIGHOUL) A2 Coin 2026"
   },
   "moves": {
     "undefined": "",
@@ -2992,7 +3005,10 @@
     "GIGATON_HAMMER": "Gigaton Hammer",
     "PLASMA_FISTS": "Plasma Fists",
     "GLAIVE_RUSH": "Glaive Rush",
-    "SNIPE_SHOT": "Snipe Shot"
+    "SNIPE_SHOT": "Snipe Shot",
+    "DIVE": "Dive",
+    "GULP_MISSILE_GULPING": "Gulp Missile",
+    "GULP_MISSILE_GORGING": "Gulp Missile"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
