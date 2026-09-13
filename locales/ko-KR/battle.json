@@ -109,7 +109,7 @@
         "description": "{{attacker.name}} vs. {{defender.name}} 의 트레이너 배틀 시뮬레이터 결과",
         "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
       },
-      "description": "사용자 {{attacker.userId}}의 배틀파티 {{attacker.battlePartyId}} 가 사용자 {{defender.userId}} 의 배틀파티 {{defender.battlePartyId}} 를 상대로 이 전투 시뮬레이션에서 {{result}}했습니다. 이 전투 시뮬레이션은 {{strategies.attack}} 공격 전략과 {{strategies.dodge}} 대 {{strategies.defense}} 공격전략과 {{strategies.defenseDodge}}로 {{weatherCondition}} 날씨에서 행해졌습니다. $t(common:simulation, {'count': {{numSims}}}) 가 이 전투 결과를 생성하기 위해 행해졌습니다."
+      "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.shield}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseShield}}. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
     },
     "help": {
       "text": "여러분은 {{helpLink}}를 확인해서 이 시뮬레이션들이 어떻게 계산되는 지 알 수 있습니다. 포켓몬고의 전투 연구에 대한 참고는 {{aboutLink}}에서 확인하실 수 있습니다.",

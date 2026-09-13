@@ -2728,6 +2728,7 @@
     "REVIVE": "Fainted",
     "HEAL": "Heal",
     "REJOIN": "Rejoined",
+    "MINI_GAME": "Shield check",
     "RANDOM": "Unknown",
     "MOVE_UNSET": "Unset",
     "MOVE_NONE": "None",
