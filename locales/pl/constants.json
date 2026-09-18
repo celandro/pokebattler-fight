@@ -3045,7 +3045,20 @@
     "DRAGON_ENERGY": "Dragon Energy",
     "DYNAMAX_CANNON": "Dynamax Cannon",
     "AQUA_STEP": "Aqua Step",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DYNAMIC_PUNCH_PLUS": "Dynamic Punch+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "Seed Bomb+",
+    "MYSTICAL_FIRE_PLUS": "Mystical Fire+",
+    "SURF_PLUS": "Surf+",
+    "VOLT_TACKLE_PLUS": "Volt Tackle+",
+    "ZAP_CANNON_PLUS": "Zap Cannon+",
+    "DRILL_PECK_PLUS": "Drill Peck+",
+    "BRICK_BREAK_PLUS": "Brick Break+",
+    "LIQUIDATION_PLUS": "Liquidation+",
+    "ACID_SPRAY_PLUS": "Acid Spray+",
+    "PSYBEAM_PLUS": "Psybeam+",
+    "OUTRAGE_PLUS": "Outrage+"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Nieznany",

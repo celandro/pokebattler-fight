@@ -109,7 +109,7 @@
         "description": "PvP simulator results for {{attacker.name}} vs. {{defender.name}}",
         "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
       },
-      "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.dodge}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseDodge}} with {{weatherCondition}} weather. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
+      "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.shield}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseShield}}. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
       "descriptionShields": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.shield}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseShield}}. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
     },
     "help": {

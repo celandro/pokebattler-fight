@@ -44,7 +44,7 @@
       }
     },
     "pvp": {
-      "description": "O usuário {{attacker.userId}} com o time de batalha {{attacker.battlePartyId}} {{result}} o usuário {{defender.userId}} com o time de batalha {{defender.battlePartyId}} nesta simulação de batalha.  A simulação de combate foi executada com a estratégia de ataque {{strategies.attack}} usando {{strategies.dodge}} versus a estratégia de ataque {{strategies.defense}} usando {{strategies.defenseDodge}} com clima {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) execuções para gerar este resultado de batalha.",
+      "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.shield}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseShield}}. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
       "descriptionShields": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.shield}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseShield}}. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
       "title": "Simulação de PvP entre {{attacker.name}} vs. {{defender.name}}",
       "meta": {

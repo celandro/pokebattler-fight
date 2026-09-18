@@ -109,7 +109,7 @@
         "description": "Wyniki Symulacji PvP dla {{attacker.name}} vs. {{defender.name}}",
         "image": "https://static.pokebattler.com/images/og_pvp_simulator.jpg"
       },
-      "description": "Użytkownik {{attacker.userId}} wraz z drużyną {{attacker.battlePartyId}} {{result}} z użytkownikiem {{defender.userId}} używającym drużyny {{defender.battlePartyId}} w tej symulacji walki. Symulacja walki została przeprowadzona z {{strategies.attack}} strategią ataku oraz {{strategies.dodge}} przeciwko {{strategies.defense}} strategii ataku oraz {{strategies.defenseDodge}}, w czasie pogody {{weatherCondition}}. $t(common:simulation, {'count': {{numSims}}}) zostało przeprowadzonych do uzyskania wyniku tej walki.",
+      "description": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.shield}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseShield}}. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result.",
       "descriptionShields": "User {{attacker.userId}} with battle party {{attacker.battlePartyId}} {{result}} user {{defender.userId}} with battle party {{defender.battlePartyId}} in this battle simulation.  The combat simulation was run with the {{strategies.attack}} attack strategy using {{strategies.shield}} versus the {{strategies.defense}} attack strategy using {{strategies.defenseShield}}. $t(common:simulation, {'count': {{numSims}}}) performed to generate this battle result."
     },
     "help": {

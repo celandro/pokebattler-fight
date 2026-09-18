@@ -3045,7 +3045,20 @@
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DYNAMIC_PUNCH_PLUS": "Soco Dinâmico+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "Bomba de Sementes+",
+    "MYSTICAL_FIRE_PLUS": "Fogo Místico+",
+    "SURF_PLUS": "Surfar+",
+    "VOLT_TACKLE_PLUS": "Investida Trovão+",
+    "ZAP_CANNON_PLUS": "Canhão Zap+",
+    "DRILL_PECK_PLUS": "Bico Broca+",
+    "BRICK_BREAK_PLUS": "Quebra-telha+",
+    "LIQUIDATION_PLUS": "Aquaríete+",
+    "ACID_SPRAY_PLUS": "Spray Ácido+",
+    "PSYBEAM_PLUS": "Feixe Psíquico+",
+    "OUTRAGE_PLUS": "Ultraje+"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

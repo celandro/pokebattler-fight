@@ -85,6 +85,10 @@
       "label": "Level",
       "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
+    "megaLevel": {
+      "label": "Mega Level",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
     "submit": {
       "label": "$t(common:buttons.create)"
     },

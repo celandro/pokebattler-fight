@@ -3045,7 +3045,20 @@
     "DYNAMAX_END": "Dynamax End",
     "DYNAMAX_ORB": "Dynamax Orb",
     "DYNAMAX_ENRAGE": "Dynamax Enrage",
-    "CHILLING_WATER": "Chilling Water"
+    "CHILLING_WATER": "Chilling Water",
+    "DYNAMIC_PUNCH_PLUS": "หมัดดินระเบิด+",
+    "FUTURE_SIGHT_PLUS": "Future Sight+",
+    "SEED_BOMB_PLUS": "ระเบิดเมล็ดพืช+",
+    "MYSTICAL_FIRE_PLUS": "เมจิคัลเฟลม+",
+    "SURF_PLUS": "โตคลื่น+",
+    "VOLT_TACKLE_PLUS": "โวลตแท็กเกิล+",
+    "ZAP_CANNON_PLUS": "ปนใหญแมเหล็กไฟฟา+",
+    "DRILL_PECK_PLUS": "จะงอยสวาน+",
+    "BRICK_BREAK_PLUS": "ผาอิฐ+",
+    "LIQUIDATION_PLUS": "อควาเบรก+",
+    "ACID_SPRAY_PLUS": "ระเบิดกรด+",
+    "PSYBEAM_PLUS": "ลำแสงพลังจิต+",
+    "OUTRAGE_PLUS": "อารมณเดือดพลาน+"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
