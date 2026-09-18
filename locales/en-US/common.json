@@ -373,6 +373,12 @@
             "4": "Mega Level 4 (Default)"
         }
     },
+    "mega": {
+        "title": "Your Mega",
+        "description": "Which of your Megas leads the battle party built from your Pok\u00e9box. Auto keeps the top ranked mega. Turn on bonus candy to list the megas that share a type with the boss first - mega evolving one of those earns extra candy when you catch it.",
+        "auto": "Auto (best ranked)",
+        "candyFirst": "\ud83c\udf6c Bonus candy first"
+    },
     "explicitAssistants": {
         "title": "Extra Trainers",
         "description": "The number of additional trainers to help you beat the boss. You choose the battle parties for each of these attackers. The friend level should be the maximum friend level that they have with other players at the raid, not your friend level with them."
