@@ -706,6 +706,10 @@
                     "label": "Max Attackers",
                     "description": "Hit the hardest during the max phase. Swap to them when the Max Meter is full."
                 },
+                "charge": {
+                    "label": "Attackers",
+                    "description": "Charge the Max Meter fast and survive the boss's spread attacks while they do it."
+                },
                 "heal": {
                     "label": "Healers",
                     "description": "Restore your team's health to keep everyone in the fight."
@@ -721,6 +725,7 @@
             },
             "counters": {
                 "attack": "Best {{pokemon}} Max Attackers",
+                "charge": "Best {{pokemon}} Attackers",
                 "heal": "Best {{pokemon}} Healers",
                 "shield": "Best {{pokemon}} Tanks"
             },
