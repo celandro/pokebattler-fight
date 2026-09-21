@@ -696,15 +696,15 @@
         },
         "boss": {
             "title": "{{pokemon}} Max Battle Counters ({{tier}})",
-            "intro": "Here are the best counters for the {{pokemon}} Max Battle. Pick an attacker, healer or tank role below to see the top Pokemon for your team, then tap through for the full custom counters list.",
+            "intro": "Here are the best counters for the {{pokemon}} Max Battle. Pick a max attacker, healer or tank role below to see the top Pokemon for your team, then tap through for the full custom counters list.",
             "meta": {
                 "description": "Find the best counters, healers and tanks for the {{pokemon}} Max Battle in Pokemon Go with the world's #1 custom Max Battle guide.",
                 "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
             },
             "rankings": {
                 "attack": {
-                    "label": "Attackers",
-                    "description": "Deal the most damage to defeat the boss faster."
+                    "label": "Max Attackers",
+                    "description": "Hit the hardest during the max phase. Swap to them when the Max Meter is full."
                 },
                 "heal": {
                     "label": "Healers",
@@ -712,7 +712,7 @@
                 },
                 "shield": {
                     "label": "Tanks",
-                    "description": "Block incoming damage to protect your team."
+                    "description": "Shield the team with Max Guard and soak the boss's targeted attacks."
                 },
                 "party": {
                     "label": "Lobby",
@@ -720,23 +720,36 @@
                 }
             },
             "counters": {
-                "attack": "Best {{pokemon}} Attackers",
+                "attack": "Best {{pokemon}} Max Attackers",
                 "heal": "Best {{pokemon}} Healers",
                 "shield": "Best {{pokemon}} Tanks"
             },
             "party": {
                 "title": "{{pokemon}} Max Battle Lobby",
-                "description": "A Max Battle lobby is 4 trainers bringing 3 Pokemon each. Pick your role and the roles of the other three trainers, then see how the whole lobby does against {{pokemon}}.",
+                "description": "A Max Battle lobby is 4 trainers bringing 3 Pokemon each: an Attacker brings 1 Max Attacker and 2 Attackers, a Healer brings 1 Healer and 2 Attackers, a Tank brings 3 Tanks. Pick your role and the roles of the other three trainers, then see how the whole lobby does against {{pokemon}}.",
                 "roles": {
                     "attack": "Attacker",
                     "heal": "Healer",
                     "shield": "Tank"
+                },
+                "slotRoles": {
+                    "attack": "Max Attacker",
+                    "charge": "Attacker",
+                    "shield": "Tank",
+                    "heal": "Healer"
+                },
+                "slotHints": {
+                    "attack": "Max phase only",
+                    "charge": "Charges the Max Meter",
+                    "shield": "Shields the team",
+                    "heal": "Heals the team"
                 },
                 "you": "You",
                 "trainer": "Trainer {{number}}",
                 "yourRole": "Your role",
                 "theirRole": "Their role",
                 "lobbyNote": "The other three trainers are simulated as generic teams for the role you gave them.",
+                "swapNote": "Attackers hold the field and charge the Max Meter. The Max Attacker swaps in for the max phase only, then swaps back out.",
                 "teamUnavailable": "We couldn't pick a {{role}} team for this boss right now.",
                 "teamFailed": "Could not load the {{role}} team. Please try again.",
                 "error": "Could not simulate this lobby. Please try again later.",
