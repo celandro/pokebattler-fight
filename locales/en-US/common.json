@@ -146,7 +146,8 @@
         "tank_rating": "Tank Rating",
         "survival": "Survival",
         "attack_rating": "Max Attack Rating",
-        "tank": "Tank Rating"
+        "tank": "Tank Rating",
+        "charger": "Attacker Rating"
     },
     "sectionLinks": {
         "help": "Help section",
