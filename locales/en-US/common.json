@@ -143,6 +143,9 @@
         "total_shield": "Total Shield",
         "heal_rating": "Heal Rating",
         "shield_rating": "Tank Rating",
+        "tank_rating": "Tank Rating",
+        "survival": "Survival",
+        "attack_rating": "Max Attack Rating",
         "tank": "Tank Rating"
     },
     "sectionLinks": {
