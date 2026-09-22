@@ -2621,6 +2621,7 @@
     "REVIVE": "Fainted",
     "HEAL": "Heal",
     "REJOIN": "Rejoined",
+    "PARTY_SWAP": "Swapped in",
     "MINI_GAME": "Shield check",
     "DRUM_BEATING": "Drum Beating",
     "VN_BM_019": "$t(constants:moves.GMAX_WILDFIRE) 1",

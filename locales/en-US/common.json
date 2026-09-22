@@ -145,9 +145,9 @@
         "shield_rating": "Tank Rating",
         "tank_rating": "Tank Rating",
         "survival": "Survival",
-        "attack_rating": "Max Attack Rating",
+        "attack_rating": "Attack Rating",
         "tank": "Tank Rating",
-        "charger": "Attacker Rating"
+        "charger": "Defender Rating"
     },
     "sectionLinks": {
         "help": "Help section",

@@ -160,6 +160,10 @@
             "SHIELD_ONLY": "Max Shield Only",
             "MAX_POWER_NONE": "No Max Moves"
         },
+        "slotRole": {
+            "title": "Role",
+            "none": "-"
+        },
         "party": {
             "title": "Your Battle Party"
         },
