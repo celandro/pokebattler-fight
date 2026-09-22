@@ -188,8 +188,10 @@
         },
         "chart": {
             "axis": "Losses: boss HP left when time ran out. Wins: seconds to spare.",
+            "axisNoSpare": "Losses: boss HP left when time ran out. Wins are shown as one bar - this result did not report the raid timer.",
             "lossBin": "{{from}}-{{to}}% HP left",
             "winBin": "{{from}}-{{to}}s to spare",
+            "winsAll": "Wins",
             "tooltip": "{{attempts}} attempts - seeds {{seeds}}",
             "moreSeeds": "{{seeds}} +{{extra}} more",
             "empty": "No attempts"
@@ -202,6 +204,7 @@
             "win": "Win",
             "loss": "Loss",
             "spare": "{{seconds}}s to spare",
+            "unknownSpare": "-",
             "hpLeft": "{{percent}} HP left",
             "showing": "Showing the first {{shown}} of {{total}} attempts"
         },
