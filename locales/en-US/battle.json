@@ -172,5 +172,46 @@
         },
         "edit": "Edit Simulation",
         "error": "The simulation could not be completed. Please check your inputs and try again."
+    },
+    "soloAttempts": {
+        "title": "Solo attempts",
+        "description": "The same fight run many times. Each attempt is its own raid: the chart shows how close every one came, and any of them can be opened as a full battle log.",
+        "attemptsLabel": "Attempts",
+        "loading": "Running the attempts...",
+        "failed": "Could not run the attempts right now. Change the number of attempts or try again.",
+        "clickHint": "Click a bar or a row to open that attempt as a single battle with its full combat log.",
+        "headline": {
+            "winRatio": "Chance to win one attempt",
+            "withinFive": "Chance to win within 5 tries",
+            "winsLosses": "Wins / losses",
+            "attempts": "Attempts simulated"
+        },
+        "chart": {
+            "axis": "Losses: boss HP left when time ran out. Wins: seconds to spare.",
+            "lossBin": "{{from}}-{{to}}% HP left",
+            "winBin": "{{from}}-{{to}}s to spare",
+            "tooltip": "{{attempts}} attempts - seeds {{seeds}}",
+            "moreSeeds": "{{seeds}} +{{extra}} more",
+            "empty": "No attempts"
+        },
+        "attempts": {
+            "seed": "Seed",
+            "result": "Result",
+            "margin": "Margin",
+            "deaths": "Faints",
+            "win": "Win",
+            "loss": "Loss",
+            "spare": "{{seconds}}s to spare",
+            "hpLeft": "{{percent}} HP left",
+            "showing": "Showing the first {{shown}} of {{total}} attempts"
+        },
+        "slots": {
+            "slot": "Slot",
+            "pokemon": "Pokemon",
+            "damage": "Total damage",
+            "alive": "Seconds alive",
+            "chargeMoves": "Charge moves",
+            "deaths": "Faints"
+        }
     }
 }
