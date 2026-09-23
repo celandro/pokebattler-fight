@@ -142,12 +142,14 @@
         "total_heal": "Total Heal",
         "total_shield": "Total Shield",
         "heal_rating": "Heal Rating",
-        "shield_rating": "Tank Rating",
-        "tank_rating": "Tank Rating",
+        "shield_rating": "Shielder Rating",
+        "tank_rating": "Shielder Rating",
         "survival": "Survival",
         "attack_rating": "Attack Rating",
-        "tank": "Tank Rating",
-        "charger": "Defender Rating"
+        "tank": "Shielder Rating",
+        "charger": "Defender Rating",
+        "meter_charge": "Charger Rating",
+        "spread_survival": "Survives 2 Spreads"
     },
     "sectionLinks": {
         "help": "Help section",
