@@ -696,9 +696,9 @@
         },
         "boss": {
             "title": "{{pokemon}} Max Battle Counters ({{tier}})",
-            "intro": "Here are the best counters for the {{pokemon}} Max Battle. Pick an attacker, defender, healer or tank role below to see the top Pokemon for your team, then tap through for the full custom counters list.",
+            "intro": "Here are the best counters for the {{pokemon}} Max Battle. Pick an attacker, defender, charger, healer or shielder role below to see the top Pokemon for your team, then tap through for the full custom counters list.",
             "meta": {
-                "description": "Find the best counters, healers and tanks for the {{pokemon}} Max Battle in Pokemon Go with the world's #1 custom Max Battle guide.",
+                "description": "Find the best counters, healers and shielders for the {{pokemon}} Max Battle in Pokemon Go with the world's #1 custom Max Battle guide.",
                 "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
             },
             "rankings": {
@@ -710,12 +710,16 @@
                     "label": "Defenders",
                     "description": "Charges max meter while taking some hits"
                 },
+                "meterCharge": {
+                    "label": "Chargers",
+                    "description": "Fills the max meter fast and survives two spread attacks"
+                },
                 "heal": {
                     "label": "Healers",
                     "description": "Heals you up"
                 },
                 "shield": {
-                    "label": "Tanks",
+                    "label": "Shielders",
                     "description": "Shields and taunts"
                 },
                 "party": {
@@ -726,27 +730,31 @@
             "counters": {
                 "attack": "Best {{pokemon}} Attackers",
                 "charge": "Best {{pokemon}} Defenders",
+                "meterCharge": "Best {{pokemon}} Chargers",
                 "heal": "Best {{pokemon}} Healers",
-                "shield": "Best {{pokemon}} Tanks"
+                "shield": "Best {{pokemon}} Shielders"
             },
             "party": {
                 "title": "{{pokemon}} Max Battle Lobby",
-                "description": "A Max Battle lobby is up to 4 trainers bringing 3 Pokemon each: an Attacker brings 1 Attacker and 2 Defenders, a Healer brings 1 Healer and 2 Defenders, a Tank brings 3 Tanks. Pick your role and the roles of the other trainers - or set a spot to None for a smaller lobby - then see how the whole lobby does against {{pokemon}}.",
+                "description": "A Max Battle lobby is up to 4 trainers bringing 3 Pokemon each: an Attacker brings 2 Chargers and 1 Attacker, a Defensive trainer brings 2 Defenders and 1 Attacker, a Healer brings 1 Healer and 2 Defenders, a Shielder brings 3 Shielders. Pick your role and the roles of the other trainers - or set a spot to None for a smaller lobby - then see how the whole lobby does against {{pokemon}}.",
                 "roles": {
                     "attack": "Attacker",
+                    "defensive": "Defensive",
                     "heal": "Healer",
-                    "shield": "Tank",
+                    "shield": "Shielder",
                     "none": "None"
                 },
                 "slotRoles": {
                     "attack": "Attacker",
                     "charge": "Defender",
-                    "shield": "Tank",
+                    "meter_charge": "Charger",
+                    "shield": "Shielder",
                     "heal": "Healer"
                 },
                 "slotHints": {
                     "attack": "Max phase only",
                     "charge": "Charges the Max Meter",
+                    "meter_charge": "Fills the Max Meter fast",
                     "shield": "Shields the team",
                     "heal": "Heals the team"
                 },
@@ -755,7 +763,7 @@
                 "yourRole": "Your role",
                 "theirRole": "Their role",
                 "lobbyNote": "The other trainers are simulated as generic teams for the role you gave them.",
-                "swapNote": "Defenders hold the field and charge the Max Meter. The Attacker swaps in for the max phase only, then swaps back out.",
+                "swapNote": "Chargers fill the Max Meter fast and survive two spread attacks; Defenders charge it more slowly but hold the field for longer. The Attacker swaps in for the max phase only, then swaps back out.",
                 "teamUnavailable": "We couldn't pick a {{role}} team for this boss right now.",
                 "teamFailed": "Could not load the {{role}} team. Please try again.",
                 "error": "Could not simulate this lobby. Please try again later.",
@@ -766,7 +774,7 @@
                 "alternatives": "Swap",
                 "unavailable": "We couldn't build your team for this boss right now. Please try again in a moment.",
                 "retry": "Retry",
-                "tankUptime": "Tank uptime"
+                "tankUptime": "Shielder uptime"
             },
             "pokeboxToggle": "Use my Pokebox",
             "fullCounters": "See the full {{pokemon}} counters list"
