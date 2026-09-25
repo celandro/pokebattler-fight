@@ -180,6 +180,8 @@
         "loading": "Running the attempts...",
         "failed": "Could not run the attempts right now. Change the number of attempts or try again.",
         "clickHint": "Click a bar or a row to open that attempt as a single battle with its full combat log.",
+        "notSolo": "Solo attempts are shown for a solo raid: one trainer, no other players assisting. This fight has other trainers in it.",
+        "runSolo": "Run this fight solo",
         "headline": {
             "winRatio": "Chance to win one attempt",
             "withinFive": "Chance to win within 5 tries",
@@ -215,6 +217,41 @@
             "alive": "Seconds alive",
             "chargeMoves": "Charge moves",
             "deaths": "Faints"
+        }
+    },
+    "soloTechniques": {
+        "title": "Solo raid techniques",
+        "description": "Manual techniques from the Solo Raid Archive glossary. Tick the ones you will actually execute and the fight is simulated with them. All are off by default.",
+        "subscribersOnly": "Solo raid techniques are a subscriber feature. Subscribe to switch them on.",
+        "types": {
+            "TICK_PERFECT_CAST": {
+                "label": "Tick-Perfect Cast",
+                "description": "Time the last fast-move tap just before casting so the charge move avoids the energy-resolve delay."
+            },
+            "REJOIN": {
+                "label": "Rejoin",
+                "description": "A 6.5-7 second rejoin that only uses potions to get back into the fight quickly."
+            },
+            "EXECUTE": {
+                "label": "Execute",
+                "description": "Finish the boss with a short-animation or low-cost charge move."
+            },
+            "COMBO_CHARGE_MOVE": {
+                "label": "Combo Charge Move",
+                "description": "Cast a small charge move when the boss's incoming charge move would overflow your energy."
+            },
+            "ADVANCED_REJOIN": {
+                "label": "Advanced Rejoin",
+                "description": "A 5.5 second rejoin: swipe to the party and buffer the animation with a heal-bag tap on the way out."
+            },
+            "CHARGE_MOVE_DELAY": {
+                "label": "Charge Move Delay",
+                "description": "Against 1-bar bosses, hold your charge move so the boss is forced into fast moves instead."
+            },
+            "DOUBLE_BATTLE_PARTY": {
+                "label": "Double Battle Party",
+                "description": "Two identical battle parties: every other rejoin is about 40% shorter."
+            }
         }
     }
 }

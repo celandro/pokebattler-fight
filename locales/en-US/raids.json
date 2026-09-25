@@ -667,7 +667,8 @@
         }
     },
     "battle": {
-        "resultLink": "See this result as a battle party"
+        "resultLink": "See this result as a battle party",
+        "soloAttemptsLink": "Simulate solo attempts with the top counter"
     },
     "helpLink": "Watch the Raid tutorial video",
     "silph": {
