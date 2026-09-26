@@ -149,7 +149,9 @@
         "tank": "Shielder Rating",
         "charger": "Defender Rating",
         "meter_charge": "Charger Rating",
-        "spread_survival": "Survives 2 Spreads"
+        "spread_survival": "Survives 2 Spreads",
+        "charge_moves_absorbed": "Charge Moves Absorbed",
+        "max_energy_charged": "Max Meter Energy"
     },
     "sectionLinks": {
         "help": "Help section",
