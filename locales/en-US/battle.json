@@ -175,6 +175,22 @@
         "party": {
             "title": "Your Battle Party"
         },
+        "seats": {
+            "title": "Other trainers",
+            "trainer": "Trainer {{number}}",
+            "generated": "Simulated assistant (auto-filled team)",
+            "addFriend": "Add a friend's team",
+            "remove": "Use a simulated assistant",
+            "friend": "Friend",
+            "noFriends": "No friends yet - enter a user id",
+            "userId": "User id",
+            "load": "Load",
+            "loading": "Loading this trainer's Pokebox...",
+            "notFound": "No trainer found for this id",
+            "empty": "This trainer's Pokebox has no Pokemon",
+            "pickHint": "Pick up to 3 Pokemon from {{name}}'s Pokebox and a role for each",
+            "loginOnly": "Sign in and pick your own Pokebox team to add friends' teams"
+        },
         "results": {
             "description": "This Max Battle simulation against {{defender.name}} was calculated with {{numSims}} full battle simulations by the Pokebattler simulator, including Max Phase power, heal and shield moves."
         },
