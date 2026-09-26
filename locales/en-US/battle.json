@@ -164,6 +164,14 @@
             "title": "Role",
             "none": "-"
         },
+        "picker": {
+            "role": "Role for this slot",
+            "sortedBy": "Best {{role}} for this boss first, then by CP",
+            "sortedByCp": "Sorted by CP (ranking unavailable)",
+            "loadingRanking": "Loading the ranking... (sorted by CP until then)",
+            "notDynamax": "Can't Dynamax - not allowed in Max Battles",
+            "unavailable": "Not available"
+        },
         "party": {
             "title": "Your Battle Party"
         },
