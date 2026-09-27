@@ -9,7 +9,8 @@
     "breakingNews": {
         "title": "Breaking News",
         "subtitle": "Popular Raids In Pokemon Go",
-        "header": "$t(constants:pokemon.{{pokemonId}}) Counters"
+        "header": "$t(constants:pokemon.{{pokemonId}}) Counters",
+        "maxLink": "Current max battles"
     },
     "articles": {
         "title": "Latest Raid News!",
@@ -678,6 +679,11 @@
     "max": {
         "title": "Max Battle Counters",
         "linkLabel": "Max Battle Counters",
+        "raidsLink": "Current raids",
+        "breakingNews": {
+            "title": "Max Battle News",
+            "subtitle": "Max Battles live now or starting within a week"
+        },
         "meta": {
             "description": "Find Pokemon Go Dynamax and Gigantamax Max Battle counters. Get the best attackers, healers and tanks with the world's #1 custom Max Battle guide.",
             "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
