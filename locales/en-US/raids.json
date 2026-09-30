@@ -711,19 +711,19 @@
             "rankings": {
                 "attack": {
                     "label": "Attackers",
-                    "description": "Deals heavy damage during max phase"
+                    "description": "Big damage in max phase"
                 },
                 "charge": {
                     "label": "Defenders",
-                    "description": "Charges max meter while taking some hits"
+                    "description": "Charges meter, takes hits"
                 },
                 "meterCharge": {
                     "label": "Chargers",
-                    "description": "Fills the max meter fast and survives two spread attacks"
+                    "description": "Fast meter, survives spreads"
                 },
                 "heal": {
                     "label": "Healers",
-                    "description": "Heals you up"
+                    "description": "Heals the team"
                 },
                 "shield": {
                     "label": "Shielders",
