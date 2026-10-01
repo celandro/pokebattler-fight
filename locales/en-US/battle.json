@@ -228,10 +228,52 @@
         }
     },
     "soloTechniques": {
-        "title": "Solo raid techniques",
-        "description": "Manual techniques from the Solo Raid Archive glossary. Tick the ones you will actually execute and the fight is simulated with them. All are off by default.",
+        "title": "Advanced solo raid techniques",
+        "description": "Manual techniques from the Solo Raid Archive glossary. Tick the ones you will actually execute and the fight is re-simulated with them; the link keeps your choices, so you can share it. All are off by default.",
         "subscribersOnly": "Solo raid techniques are a subscriber feature. Subscribe to switch them on.",
+        "archiveLink": "Solo Raid Archive",
+        "archiveDescription": "explains every technique, with example clips.",
+        "learnMore": "Learn more",
+        "clearAll": "Turn all off",
+        "summaryOn": "{{count}} on",
+        "summaryOff": "All off: the standard simulation",
+        "notSimulated": {
+            "title": "Also in the archive, not simulated yet",
+            "description": "These techniques are not modelled by the simulator yet, so they cannot be switched on."
+        },
         "types": {
+            "CATCH_TANK": {
+                "label": "Catch Tank",
+                "description": "Swap in a tank to absorb a big boss charge move, then fire back a fast charge move with the energy gained."
+            },
+            "CLEAN_EXIT": {
+                "label": "Clean Exit",
+                "description": "Leave and relobby during a boss charge move animation, wasting no energy or time."
+            },
+            "HOT_SWAP": {
+                "label": "Hot Swap",
+                "description": "Switch to the next attacker as soon as the current one cannot reach another charge move."
+            },
+            "HOTSWAP_CHAIN": {
+                "label": "Hotswap Chain",
+                "description": "Catch tank from one attacker straight into the next when the boss casts charge moves back to back."
+            },
+            "CHARGE_MOVE_BUFFER": {
+                "label": "Charge Move Buffer",
+                "description": "Buffer a charge move while swapping so the incoming attacker casts it immediately."
+            },
+            "TRAILING_CATCH_TANK": {
+                "label": "Trailing Catch Tank",
+                "description": "A 6th Pokemon on cheap moves, kept to catch trailing charge moves just before a rejoin."
+            },
+            "DOUBLE_CATCH_TANK": {
+                "label": "Double Catch Tank",
+                "description": "One catch tank absorbs two charge moves on separate swaps, then fires one heavy charge move."
+            },
+            "SUBSTITUTE": {
+                "label": "Substitute",
+                "description": "From the 2nd cycle, your main attacker sits in slot 2 so you never rejoin into a lethal charge move."
+            },
             "TICK_PERFECT_CAST": {
                 "label": "Tick-Perfect Cast",
                 "description": "Time the last fast-move tap just before casting so the charge move avoids the energy-resolve delay."
