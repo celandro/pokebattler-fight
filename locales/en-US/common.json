@@ -70,7 +70,13 @@
     "unavailable": "Unavailable",
     "rejoin": {
         "label": "Rejoin Time",
-        "default": "Never"
+        "default": "Never",
+        "techniques": "Solo raid techniques",
+        "techniqueOptions": {
+            "REJOIN": "Rejoin (7 seconds)",
+            "ADVANCED_REJOIN": "Advanced rejoin (5.5 seconds)",
+            "DOUBLE_BATTLE_PARTY": "Double battle party (every other rejoin 40% faster)"
+        }
     },
     "stats": {
         "attack": "Attack",
