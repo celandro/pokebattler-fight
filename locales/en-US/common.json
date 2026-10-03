@@ -71,6 +71,8 @@
     "rejoin": {
         "label": "Rejoin Time",
         "default": "Never",
+        "never": "Never",
+        "defaultSuffix": "(default)",
         "techniques": "Solo raid techniques",
         "techniqueOptions": {
             "REJOIN": "Rejoin (7 seconds)",
