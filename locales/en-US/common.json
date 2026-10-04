@@ -245,6 +245,8 @@
         "subscriptionCardUpdateSuccess": "Successfully updated payment information",
         "subscriptionCardUpdateFailure": "Could not update payment information",
         "calculating": "Still calculating. {{elapsed}} seconds so far.",
+        "simulationTimeout": "The simulation is taking longer than expected. Try again in a minute and it may be ready.",
+        "simulationFailed": "The simulation failed. Try again in a minute.",
         "clipboard": "Copied! Ready For Paste",
         "share": "Share With Your Friends"
     },
@@ -415,6 +417,12 @@
         "info": "Info",
         "message": "Message",
         "stack": "Stack"
+    },
+    "simulation": {
+        "starting": "Starting the simulation…",
+        "running": "Simulating…",
+        "eta": "Simulating… ~{{eta}} s",
+        "busy": "Busy, retrying…"
     },
     "loading": {
         "wait": "Loading...",
