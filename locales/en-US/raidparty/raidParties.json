@@ -463,5 +463,28 @@
         "notifyMe": "\ud83d\udd14 Notify me when someone hosts this boss",
         "notifyMeSet": "\u2705 You'll be notified when this boss is hosted",
         "limitReached": "You already have the maximum number of raid notifications set."
+    },
+    "provisional": {
+        "estimateUpdating": "Estimate, updating",
+        "estimateUpdatingDescription": "Some players' counters are still simulating. This is an estimate from default settings and updates automatically.",
+        "servedTitle": "Estimated with default settings while yours simulate",
+        "setting": "{{label}}: {{served}} (requested {{requested}})",
+        "on": "On",
+        "off": "Off",
+        "default": "Default",
+        "fields": {
+            "autoBattleParty": "Party",
+            "weatherCondition": "Weather",
+            "friendLevel": "Friendship",
+            "strategy": "Strategy",
+            "dodgeStrategy": "Dodging",
+            "sort": "Sort",
+            "includeLegendary": "Legendaries",
+            "includeShadow": "Shadows",
+            "includeMegas": "Megas",
+            "numParty": "Parties",
+            "primalAssistants": "Primal assistants",
+            "adventureEffects": "Adventure effects"
+        }
     }
 }
