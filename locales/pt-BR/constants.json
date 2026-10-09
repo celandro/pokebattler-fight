@@ -820,7 +820,7 @@
     "MELMETAL": "Melmetal",
     "OBSTAGOON": "Obstagoon",
     "PERRSERKER": "Perrserker",
-    "SIRFETCHD": "Sirfetch'd",
+    "SIRFETCHD": "Sirfetch’d",
     "RUNERIGUS": "Runerigus",
     "ROTOM_FROST_FORM": "Rotom - Frost",
     "ROTOM_FAN_FORM": "Rotom - Fan",
@@ -2339,7 +2339,17 @@
     "NOIVERN_SHADOW_FORM": "$t(constants:pokemon.NOIVERN) $t(constants:pokemon.SHADOW_FORM)",
     "ROOKIDEE_SHADOW_FORM": "$t(constants:pokemon.ROOKIDEE) $t(constants:pokemon.SHADOW_FORM)",
     "CORVISQUIRE_SHADOW_FORM": "$t(constants:pokemon.CORVISQUIRE) $t(constants:pokemon.SHADOW_FORM)",
-    "CORVIKNIGHT_SHADOW_FORM": "$t(constants:pokemon.CORVIKNIGHT) $t(constants:pokemon.SHADOW_FORM)"
+    "CORVIKNIGHT_SHADOW_FORM": "$t(constants:pokemon.CORVIKNIGHT) $t(constants:pokemon.SHADOW_FORM)",
+    "WIMPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WIMPOD)",
+    "GOLISOPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GOLISOPOD)",
+    "SANDYGAST_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SANDYGAST)",
+    "PALOSSAND_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PALOSSAND)",
+    "FOMANTIS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FOMANTIS)",
+    "LURANTIS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LURANTIS)",
+    "PANCHAM_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PANCHAM)",
+    "PANGORO_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PANGORO)",
+    "PIKACHU_GLASS_HELMET_2026_FORM": "$t(constants:pokemon.PIKACHU) - Astronaut",
+    "MACHAMP_WILDAREA_2026_01_FORM": "$t(constants:pokemon.MACHAMP) - Wild Area 2026"
   },
   "moves": {
     "ACID_FAST": "Ácido",
@@ -3058,7 +3068,11 @@
     "LIQUIDATION_PLUS": "Aquaríete+",
     "ACID_SPRAY_PLUS": "Spray Ácido+",
     "PSYBEAM_PLUS": "Feixe Psíquico+",
-    "OUTRAGE_PLUS": "Ultraje+"
+    "OUTRAGE_PLUS": "Ultraje+",
+    "BRAVE_BIRD_PLUS": "Pássaro Bravo+",
+    "BRAVE_BIRD_PLUS_2": "$t(constants:moves.BRAVE_BIRD_PLUS) 2",
+    "BRAVE_BIRD_PLUS_3": "$t(constants:moves.BRAVE_BIRD_PLUS) 3",
+    "BRAVE_BIRD_PLUS_4": "$t(constants:moves.BRAVE_BIRD_PLUS) 4"
   },
   "pokeboxVsLevel": "Atacantes do Pokebox {{userId}} Vs. Defensor nível {{defenderLevel}}",
   "types": {

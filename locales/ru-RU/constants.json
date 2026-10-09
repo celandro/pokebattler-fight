@@ -2339,7 +2339,17 @@
     "NOIVERN_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.NOIVERN)",
     "ROOKIDEE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.ROOKIDEE)",
     "CORVISQUIRE_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CORVISQUIRE)",
-    "CORVIKNIGHT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CORVIKNIGHT)"
+    "CORVIKNIGHT_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.CORVIKNIGHT)",
+    "WIMPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WIMPOD)",
+    "GOLISOPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GOLISOPOD)",
+    "SANDYGAST_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SANDYGAST)",
+    "PALOSSAND_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PALOSSAND)",
+    "FOMANTIS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FOMANTIS)",
+    "LURANTIS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LURANTIS)",
+    "PANCHAM_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PANCHAM)",
+    "PANGORO_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PANGORO)",
+    "PIKACHU_GLASS_HELMET_2026_FORM": "$t(constants:pokemon.PIKACHU) - Astronaut",
+    "MACHAMP_WILDAREA_2026_01_FORM": "$t(constants:pokemon.MACHAMP) - Wild Area 2026"
   },
   "moves": {
     "ACID_FAST": "Кислота",
@@ -3058,7 +3068,11 @@
     "LIQUIDATION_PLUS": "Ликвидация+",
     "ACID_SPRAY_PLUS": "Кислотные Брызги+",
     "PSYBEAM_PLUS": "Психолуч+",
-    "OUTRAGE_PLUS": "Гнев+"
+    "OUTRAGE_PLUS": "Гнев+",
+    "BRAVE_BIRD_PLUS": "Храбрая Птица+",
+    "BRAVE_BIRD_PLUS_2": "$t(constants:moves.BRAVE_BIRD_PLUS) 2",
+    "BRAVE_BIRD_PLUS_3": "$t(constants:moves.BRAVE_BIRD_PLUS) 3",
+    "BRAVE_BIRD_PLUS_4": "$t(constants:moves.BRAVE_BIRD_PLUS) 4"
   },
   "types": {
     "POKEMON_TYPE_NONE": "Неизвестен",

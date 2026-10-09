@@ -2428,7 +2428,17 @@
     "PIKACHU_WCS_2026_FORM": "$t(constants:pokemon.PIKACHU) - WCS 2026",
     "CRAMORANT_GULPING_FORM": "$t(constants:pokemon.CRAMORANT) - Gulping",
     "CRAMORANT_GORGING_FORM": "$t(constants:pokemon.CRAMORANT) - Gorging",
-    "GIMMIGHOUL_COIN_A2_2026_FORM": "$t(constants:pokemon.GIMMIGHOUL) A2 Coin 2026"
+    "GIMMIGHOUL_COIN_A2_2026_FORM": "$t(constants:pokemon.GIMMIGHOUL) A2 Coin 2026",
+    "WIMPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.WIMPOD)",
+    "GOLISOPOD_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.GOLISOPOD)",
+    "SANDYGAST_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.SANDYGAST)",
+    "PALOSSAND_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PALOSSAND)",
+    "FOMANTIS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.FOMANTIS)",
+    "LURANTIS_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.LURANTIS)",
+    "PANCHAM_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PANCHAM)",
+    "PANGORO_SHADOW_FORM": "$t(constants:pokemon.SHADOW_FORM) $t(constants:pokemon.PANGORO)",
+    "PIKACHU_GLASS_HELMET_2026_FORM": "$t(constants:pokemon.PIKACHU) - Astronaut",
+    "MACHAMP_WILDAREA_2026_01_FORM": "$t(constants:pokemon.MACHAMP) - Wild Area 2026"
   },
   "moves": {
     "undefined": "",
@@ -2926,7 +2936,7 @@
     "SHADOW_SUPPRESS": "Shadow Suppress",
     "SHADOW_PURIFICATION": "Shadow Purification",
     "SPACIAL_REND": "Spacial Rend",
-    "NATURES_MADNESS": "Nature's Madness",
+    "NATURES_MADNESS": "Nature’s Madness",
     "TRIPLE_AXEL": "Triple Axel",
     "TRAILBLAZE": "Trailblaze",
     "SCORCHING_SANDS": "Scorching Sands",
