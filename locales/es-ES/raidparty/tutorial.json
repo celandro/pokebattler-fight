@@ -1,5 +1,16 @@
 {
   "tutorial": {
+    "superMega": {
+      "iconName": "shield-alt",
+      "title": "Incursiones súper Mega",
+      "subtitle": "Escudos, furia y por qué DEBES llevar una Mega",
+      "heading": "Resumen: la Sra. Pokebattler explica el muro de escudos; solo las Megas de verdad pueden romperlo",
+      "body1": "¡Ay, mi marido se ha superado esta vez! Las incursiones súper Mega son su creación más nueva y más malvada: las Megas legendarias más fuertes escondidas tras todo un muro de escudos. Déjame explicártelo antes de que tu grupo de incursión se lleve una sorpresa.",
+      "body2": "A mitad del combate el jefe se ENFADA. Entra en furia, su defensa se dispara y se levanta un conjunto de escudos a su alrededor. Mientras quede aunque sea UN escudo en pie, el jefe es totalmente invulnerable: puedes golpearlo todo el día y no recibirá ni un rasguño.",
+      "body3": "Este es el secreto: solo el ataque cargado de una Megaevolución DE VERDAD puede romper un escudo. Groudon Primigenio y Kyogre Primigenio lo parecen, pero los Primigenios NO pueden romper escudos, y los Pokémon normales tampoco. Así que cada Entrenador debería poner una Mega en el ÚLTIMO puesto de su equipo: en cuanto el jefe entre en furia, tu Mega entrará automáticamente con energía suficiente para lanzar un ataque cargado y romper un escudo.",
+      "body4": "Los jefes más grandes, los singulares, levantan una docena de escudos, así que hace falta una sala completa de unos 12 Entrenadores o más, CADA UNO con su propia Mega, para derribar el muro. ¡Cada uno rompe uno y caen todos!",
+      "body5": "El resto de tu equipo pueden ser tus mejores atacantes de siempre: no hace falta que sean Megas, simplemente no pueden romper escudos. Cuando caen los escudos, el jefe se calma y vuelve a ser una incursión normal (bueno, muy GRANDE). Si usas el equipo de combate automático de la app, colocará una Mega en tu último puesto por ti. ¡Mucha suerte, cielos!"
+    },
     "joinRaid": {
       "iconName": "enlace",
       "title": "Unirse a incursiones",

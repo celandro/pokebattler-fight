@@ -121,14 +121,14 @@
       "intro": "Die ursprünglichen Pokemon Go-Raids verwenden einen Raid-Pass oder einen Fern-Raid-Pass."
     },
     "RAID_LEVEL_MEGAS": {
-        "title": "Megas",
-        "subtitle": "Mega-Raids",
-        "intro": "Nur Mega- und Super-Mega-Raids."
+      "title": "Megas",
+      "subtitle": "Mega-Raids",
+      "intro": "Nur Mega- und Super-Mega-Raids."
     },
     "RAID_LEVEL_NO_MEGAS": {
-        "title": "Ohne Mega",
-        "subtitle": "Nicht-Mega-Raids",
-        "intro": "Alle Standard-Raids außer Mega."
+      "title": "Ohne Mega",
+      "subtitle": "Nicht-Mega-Raids",
+      "intro": "Alle Standard-Raids außer Mega."
     },
     "RAID_LEVEL_4_5": {
       "title": "Stufe 4.5",
@@ -145,10 +145,20 @@
       "subtitle": "Mega legendärer Raid",
       "intro": "Die aktuellen Mega-Raids sind die beste Möglichkeit, Mega-Energie zu sammeln, um die stärksten Pokemon zu verstärken! Sie werden oft mit Gruppen von 6 bis 10 Spielern der Stufen 30 bis 40 durchgeführt. Einige Experten haben einige dieser Raids sogar mit nur 2 bis 5 Spielern absolviert."
     },
-            "RAID_LEVEL_PRIMAL": {
-      "title": "Primal Tier",
-      "subtitle": "Primal Raid",
-      "intro": "Primal raids feature Primal Reversion pokemon and are among the most difficult raids available. They are typically done with groups of 6-10 level 30-40 players."
+    "RAID_LEVEL_PRIMAL": {
+      "title": "Proto-Stufe",
+      "subtitle": "Proto-Raid",
+      "intro": "In Proto-Raids treten Pokémon mit Protomorphose an. Sie gehören zu den schwierigsten Raids überhaupt und werden meist in Gruppen von 6–10 Spielern auf Level 30–40 gemacht."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_4": {
+      "title": "Super-Mega-Stufe",
+      "subtitle": "Super-Mega-Raid",
+      "intro": "Super-Mega-Raids sind Raids der Stufe 7. Ihre Mechaniken werden noch aktiv erforscht, und Annahmen können sich ändern, sobald mehr Daten bestätigt sind."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5": {
+      "title": "Legendäre Super-Mega-Stufe",
+      "subtitle": "Legendärer Super-Mega-Raid",
+      "intro": "Legendäre Super-Mega-Raids (Stufe 7) haben 12 Schilde, und der Boss ist unverwundbar, solange er geschützt ist. Nur Mega-Pokémon können Schilde brechen und Schaden verursachen, daher ist ein Mega Pflicht – Proto-Pokémon können keine Schilde brechen und sind von allen Raid-Ergebnissen ausgeschlossen."
     },
     "RAID_LEVEL_ULTRA_BEAST": {
       "title": "Ultrabestie Stufe",
@@ -213,27 +223,37 @@
     "RAID_LEVEL_4_5_LEGACY": {
       "title": "Legacy Stufe 4.5",
       "subtitle": "Einfacher legendärer Raid",
-      "intro": "These are previously seen easy legendary raid bosses."
+      "intro": "Das sind frühere, leichte legendäre Raid-Bosse."
     },
     "RAID_LEVEL_MEGA_LEGACY": {
       "title": "Legacy Mega Stufe",
       "subtitle": "Einfacher Mega Raid",
-      "intro": "These mega raids are no longer available in raids."
+      "intro": "Diese Mega-Raids sind nicht mehr verfügbar."
     },
     "RAID_LEVEL_MEGA_5_LEGACY": {
       "title": "Legacy Legendary Mega Stufe",
       "subtitle": "Legendärer Mega Raid",
-      "intro": "These legendary mega raids are no longer available in raids."
+      "intro": "Diese legendären Mega-Raids sind nicht mehr verfügbar."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_4_LEGACY": {
+      "title": "Frühere Super-Mega-Stufe",
+      "subtitle": "Super-Mega-Raid",
+      "intro": "Diese Super-Mega-Raids sind nicht mehr verfügbar."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5_LEGACY": {
+      "title": "Frühere legendäre Super-Mega-Stufe",
+      "subtitle": "Legendärer Super-Mega-Raid",
+      "intro": "Diese legendären Super-Mega-Raids sind nicht mehr verfügbar."
     },
     "RAID_LEVEL_ULTRA_BEAST_LEGACY": {
       "title": "Legacy Ultrabestie Stufe",
       "subtitle": "Ultrabestie Raid",
-      "intro": "Ultra Beast raids have been datamined but information is not currently available. Current assumption is they are equivalent to the mega legendary tier in difficulty"
+      "intro": "Ultrabestien-Raids wurden per Datamining gefunden, aber es gibt noch keine Informationen dazu. Aktuell wird angenommen, dass sie so schwierig sind wie legendäre Mega-Raids"
     },
     "RAID_LEVEL_ELITE_LEGACY": {
       "title": "Legacy Elite Stufe",
       "subtitle": "Elite Raid - Bonus Lp",
-      "intro": "These elite raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "intro": "Diese Elite-Raids gab es bereits, sie sind aber derzeit nicht in der Raid-Rotation. Bei besonderen Events könnten sie zurückkehren."
     },
     "RAID_LEVEL_1_SHADOW_LEGACY": {
       "title": "Legacy Crypto Stufe 1",
@@ -288,32 +308,42 @@
     "RAID_LEVEL_4_5_FUTURE": {
       "title": "Zukünftige Stufe 4.5",
       "subtitle": "Einfacher legendärer Raid",
-      "intro": "These are  easy legendary raid bosses that are not in the game yet. Their stats and moves are still subject to change"
+      "intro": "Das sind leichte legendäre Raid-Bosse, die noch nicht im Spiel sind. Ihre Werte und Attacken können sich noch ändern"
     },
     "RAID_LEVEL_6_FUTURE": {
       "title": "Zukünftige Stufe 6",
       "subtitle": "Legendärer Raid - Bonus Lp",
-      "intro": "These legendary raids with bonus hp are not in the game yet! Their stats and moves are still subject to change."
+      "intro": "Diese legendären Raids mit zusätzlichen KP sind noch nicht im Spiel! Ihre Werte und Attacken können sich noch ändern."
     },
     "RAID_LEVEL_ELITE_FUTURE": {
       "title": "Zukünftige Elite Stufe",
       "subtitle": "Elite Raid - Bonus Lp",
-      "intro": "These elite raids are not in the game yet! Their stats and moves are still subject to change."
+      "intro": "Diese Elite-Raids sind noch nicht im Spiel! Ihre Werte und Attacken können sich noch ändern."
     },
     "RAID_LEVEL_MEGA_FUTURE": {
       "title": "Zukünftige Mega Stufe",
-      "subtitle": "Mega Raid",
-      "intro": "These mega raids are not in the game yet."
+      "subtitle": "Mega-Raid",
+      "intro": "Diese Mega-Raids sind noch nicht im Spiel."
     },
     "RAID_LEVEL_MEGA_5_FUTURE": {
       "title": "Zukünftige Mega Legendary Stufe",
       "subtitle": "Mega legendärer Raid",
-      "intro": "These mega legendary raids are not in the game yet."
+      "intro": "Diese legendären Mega-Raids sind noch nicht im Spiel."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_4_FUTURE": {
+      "title": "Zukünftige Super-Mega-Stufe",
+      "subtitle": "Super-Mega-Raid",
+      "intro": "Diese Super-Mega-Raids sind noch nicht im Spiel."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5_FUTURE": {
+      "title": "Zukünftige legendäre Super-Mega-Stufe",
+      "subtitle": "Legendärer Super-Mega-Raid",
+      "intro": "Diese legendären Super-Mega-Raids sind noch nicht im Spiel."
     },
     "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
       "title": "Zukünftige Ultra Beast Stufe",
       "subtitle": "Ultrabestie Raid",
-      "intro": "Ultra Beast raids have been datamined but information is not currently available. They are equivalent to the mega legendary tier in difficulty"
+      "intro": "Ultrabestien-Raids wurden per Datamining gefunden, aber es gibt noch keine Informationen dazu. Sie sind so schwierig wie legendäre Mega-Raids"
     },
     "RAID_LEVEL_1_SHADOW_FUTURE": {
       "title": "Zukünftige Crypto Stufe 1",
@@ -396,13 +426,21 @@
         "byLevel": "Level {{attackerLevel}} Angreifern",
         "pokebox": "den Pokemon aus der Pokebox von Benutzer #{{userId}}"
       },
-      "numParty": "Party power is complicated to simulate, the results below are estimates."
+      "numParty": "Die Teamstärke ist schwer zu simulieren, die folgenden Ergebnisse sind Schätzungen."
     },
     "description": "Willkommen zum Pokebattler Raid Konter für {{pokemon}}. Du findest hier die besten Konter, basierend auf dem Attackenmuster jedes Bosses. Dieser Guide lässt sich auf verschiedene Arten anpassen. Du kannst das Angreiferlevel und die Angriffsstrategie wählen, die du benutzen willst, sowie verschiedene Optionen zur Sortierung.",
     "patreon": {
       "description": "Genauere Ergebnisse für unbekannte Attacken dank dem Support unserer Patreon Abonnenten. Patreon Abonnenten erhalten zusätzlichen Pokebox Platz, sogar noch genauere Ergebnisse für alle Attackenmuster und mehr.",
       "link": "Sieh dir alle Vorteile an, die du fürs anmelden erhälst",
       "thanks": "Danke für deine Unterstützung!"
+    },
+    "superMegaWarning": {
+      "title": "Super-Mega-Raid-Warnung",
+      "invulnerable": "Während der Raserei ist der Boss UNVERWUNDBAR, solange er noch Schilde hat – kein Pokémon kann ihm schaden, bis alle Schilde gebrochen sind.",
+      "shieldBreaking": "Nur die Lade-Attacke einer echten Mega-Entwicklung kann einen Schild brechen, und jeder Spieler kann pro Raserei höchstens einen Schild brechen. Du kannst KEINE Proto-Pokémon verwenden: Proto-Groudon und Proto-Kyogre können keine Schilde brechen und sind daher von den vorgeschlagenen Kontern ausgeschlossen.",
+      "playersNeeded": "Stand 11. Juli werden für Mega-Mewtu-Raids 10 Spieler mit einem Mega benötigt, um den Schild zu brechen.",
+      "megaMewtwoX": "Ausnahme: Mega-Mewtu X mit Wuchtschlag bricht ZWEI Schilde statt einem.",
+      "research": "Bitte teile Raid-Logs und Erkenntnisse im Forschungskanal des Pokebattler-Raid-Party-Discords:"
     },
     "meta": {
       "description": "Die besten Pokemon Go Level 35 allgemeinen Raid Konter gegen {{defender}} sind {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Schau dir deine eigenen Ergebnisse an!",
@@ -439,7 +477,9 @@
   },
   "helpLink": "Sieh dir das Raid Tutorial Video an",
   "battle": {
-    "resultLink": "Sieh dir dieses Ergebnis als Kampfgruppe an"
+    "resultLink": "Sieh dir dieses Ergebnis als Kampfgruppe an",
+    "soloAttemptsLink": "Solo-Versuche mit dem Top-Konter simulieren",
+    "soloTechniquesLink": "Fortgeschrittene Solo-Raid-Techniken"
   },
   "meta": {
     "description": "Finde Pokemon Go Raid Konter mit Wetter, Freundschaft und sogar deinen eigenen Pokemon. Erhalte die 30 besten Konter mit dem weltweit besten angepasstem Raid Guide.",
@@ -448,32 +488,70 @@
   "breakingNews": {
     "title": "Neuigkeiten",
     "subtitle": "Populäre Raids in Pokemon Go",
-    "header": "$t(constants:pokemon.{{pokemonId}}) Counters"
+    "header": "$t(constants:pokemon.{{pokemonId}}) Counters",
+    "maxLink": "Aktuelle Dyna-Kämpfe"
   },
   "articles": {
     "title": "Neuigkeiten zu Raids",
     "subtitle": "Artikel und Videos über Pokemon Go-Raids von Top-Spielern und Forschern"
   },
   "guide": {
-    "title": "Pokebattler $t(constants:pokemon.{{pokemonId}}) Raid Counter Guides",
-    "subtitle": "How To Defeat $t(constants:pokemon.{{pokemonId}}) in Pokemon Go",
-    "infographicDownload": "Download $t(constants:pokemon.{{pokemonId}}) Infographic",
-    "infographicDownloadButton": "Download High Resolution Infographic",
-    "article": "Read The Full $t(constants:pokemon.{{pokemonId}}) Raid Counter Guide Below"
+    "title": "Pokebattler-Konter-Guides für $t(constants:pokemon.{{pokemonId}})-Raids",
+    "subtitle": "So besiegst du $t(constants:pokemon.{{pokemonId}}) in Pokémon GO",
+    "infographicDownload": "Infografik zu $t(constants:pokemon.{{pokemonId}}) herunterladen",
+    "infographicDownloadButton": "Infografik in hoher Auflösung herunterladen",
+    "article": "Lies unten den vollständigen Konter-Guide für $t(constants:pokemon.{{pokemonId}})-Raids"
   },
   "raidAttackers": {
-    "title": "Best Raid Attackers Pokemon GO - {{type}} {{move}} | Pokebattler",
+    "title": "Beste Raid-Angreifer in Pokémon GO – {{type}} {{move}} | Pokebattler",
     "meta": {
       "description": "The best Pokemon Go {{type}} {{move}} raid attackers are {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} & {{top6}}. Find the best attackers for all raid bosses with Pokebattler!"
     },
-    "details": "Attackers are aggregated using a ranking algorithm that gives points based on performance, at level 40 with no friend or weather boost ordered by estimator. 5 points are given for a first place showing, 4 points for a second place, 3 points for a fourth place, 2 points for an 8th place, 1 point for a 16th place. Points are then weighted by the tier, (10x for tier 5/mega, 4x for tier 3 and 0x for tier 1)"
+    "pokemonTypeFilterLabel": "Pokémon-Typ",
+    "moveTypeFilterLabel": "Attackentyp",
+    "filterHints": {
+      "pokemonType": "Einer der beiden Typen muss passen",
+      "moveType": "Sofort- oder Lade-Attacke muss diesen Typ haben"
+    },
+    "pageTitles": {
+      "all": "Die besten Raid-Angreifer in Pokémon GO",
+      "pokemon": "Die besten {{typeNamePokemon}}-Raid-Angreifer in Pokémon GO",
+      "move": "Die besten Raid-Angreifer mit {{typeNameMove}}-Attacken",
+      "both": "Die besten {{typeNamePokemon}}-Raid-Angreifer mit {{typeNameMove}}-Attacken"
+    },
+    "intros": {
+      "all": "Die besten Pokémon GO-Raid-Angreifer über alle Raid-Bosse hinweg sind {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} und {{top6}}.",
+      "pokemon": "Die besten Pokémon GO-{{typeNamePokemon}}-Raid-Angreifer sind {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} und {{top6}}.",
+      "move": "Die besten Pokémon GO-Raid-Angreifer mit einer {{typeNameMove}}-Attacke sind {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} und {{top6}}.",
+      "both": "Die besten Pokémon GO-{{typeNamePokemon}}-Raid-Angreifer mit einer {{typeNameMove}}-Attacke sind {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} und {{top6}}."
+    },
+    "seo": {
+      "titles": {
+        "all": "Die besten Raid-Angreifer in Pokémon GO (alle Typen) | Pokebattler",
+        "pokemon": "Die besten {{typeNamePokemon}}-Raid-Angreifer in Pokémon GO | Pokebattler",
+        "move": "Die besten Raid-Angreifer mit {{typeNameMove}}-Attacken | Pokémon GO | Pokebattler",
+        "both": "Die besten {{typeNamePokemon}}-Raid-Angreifer mit {{typeNameMove}}-Attacken | Pokebattler"
+      },
+      "descriptions": {
+        "all": "Pokémon GO-Ranking der Raid-Angreifer ohne Typfilter. Zu den Top-Picks gehören {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} und {{top6}}. Vergleiche auf Pokebattler nach Punkten, Matchups oder Estimator.",
+        "pokemon": "Pokémon GO-Raid-Angreifer, gefiltert nach {{typeNamePokemon}}-Pokémon (beliebiger Typ-Slot). Highlights: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Eigene Seite – nicht dasselbe wie das Ranking nach Attackentyp.",
+        "move": "Pokémon GO-Raid-Angreifer mit mindestens einer Sofort- oder Lade-Attacke vom Typ {{typeNameMove}}. Highlights: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Eigene Seite – nicht dasselbe wie das Ranking nach Pokémon-Typ.",
+        "both": "Pokémon GO-{{typeNamePokemon}}-Raid-Angreifer mit Attacken vom Typ {{typeNameMove}}. Highlights: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Gefiltert nach Pokémon-Typ und Attackentyp."
+      }
+    },
+    "details": "Die Angreifer werden mit einem Ranking-Algorithmus zusammengefasst, der Punkte nach Leistung vergibt – auf Level 40 ohne Freundschafts- oder Wetterbonus, sortiert nach Estimator. Für Platz 1 gibt es 5 Punkte, für Platz 2 4 Punkte, für Platz 4 3 Punkte, für Platz 8 2 Punkte und für Platz 16 1 Punkt. Die Punkte werden dann nach Stufe gewichtet (10x für Stufe 5/Mega, 4x für Stufe 3 und 0x für Stufe 1)",
+    "superMega": {
+      "helpTitle": "So besiegst du Super-Mega-Raids",
+      "helpBody": "Super-Mega-Bosse verfallen mitten im Kampf in Raserei und errichten Schilde. Solange die Schilde stehen, ist der Boss unverwundbar und kann NUR durch die Lade-Attacke einer echten Mega-Entwicklung Schaden nehmen (zum Beispiel Mega-Rayquaza – Proto-Pokémon wie Proto-Groudon und Proto-Kyogre zählen NICHT). Setze ein Mega auf den letzten Platz deines Teams, damit es automatisch eingewechselt wird, wenn der Boss in Raserei verfällt, und mit seiner Lade-Attacke einen Schild bricht. Proto-Pokémon und Nicht-Megas verursachen trotzdem viel Schaden, können aber keine Schilde brechen. Ein mysteriöser Super-Mega-Boss mit etwa 12 Schilden braucht daher eine volle Lobby mit rund 12 oder mehr Spielern, die alle Megas mitbringen.",
+      "primalNote": "Hinweis: Die Liste der vorgeschlagenen Konter enthält keine Proto-Pokémon. Sie verursachen viel Schaden, können die Schilde eines Super-Mega-Bosses aber nicht brechen – das können nur echte Mega-Entwicklungen."
+    }
   },
   "raidAttackerDetails": {
-    "title": "{{attackerName}} Raid Attacker Analysis",
+    "title": "{{attackerName}} {{move1Name}} {{move2Name}} – Raid-Angreifer in Pokémon GO | Pokebattler",
     "subtitle": "{{move1Name}} {{move2Name}}",
     "meta": {
-      "title": "Raid Attacker - {{attackerName}} {{move1Name}} {{move2Name}}",
-      "description": "The best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Find the best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}}. Find out exactly how useful {{attackerName}} is in Pokemon Go raids!"
+      "title": "{{attackerName}} {{move1Name}} {{move2Name}} – Raid-Angreifer in Pokémon GO | Pokebattler",
+      "description": "{{attackerName}} mit {{move1Name}} / {{move2Name}} ist ein Top-Raid-Angreifer in Pokémon GO und besiegt in Raids {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} und {{counter6}}. Finde auf Pokebattler alle Raid-Bosse, gegen die {{attackerName}} ein Konter ist!"
     },
     "availableMoves": "Verfügbare Attacken",
     "counters": "Konter"
@@ -481,14 +559,14 @@
   "raidParty": {
     "title": "Pokebattler Raid Party",
     "meta": {
-      "description": "Pokebattler Raid Party v1.0 is here!  Designed to help you raid with confidence and minimal effort to defeat those raid bosses the first try. Pokebattler Raid Party App was created by Pokebattler.com to help organize and promote Pokemon Go raids by providing key features that are not provided by the game.",
+      "description": "Pokebattler Raid Party v1.0 ist da! Damit raidest du mit Zuversicht und minimalem Aufwand und besiegst Raid-Bosse gleich beim ersten Versuch. Die Pokebattler Raid Party App wurde von Pokebattler.com entwickelt, um Pokémon-GO-Raids zu organisieren und zu fördern – mit wichtigen Funktionen, die das Spiel selbst nicht bietet.",
       "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
     },
     "result": {
       "title": "Pokebattler Raid Party #{{raidPartyId}}",
-      "info": "Pokebattler Raid Party is currently only available in app form. Website version coming soon! To see this raid party, simply download the app, login and reload this page.",
-      "deepLink": "If you have the app installed, this page should automatically open the app. On IOS, you may need to open this link in Safari and pull down the page for the open in Pokebattler Raid Party to appear.",
-      "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}."
+      "info": "Pokebattler Raid Party gibt es derzeit nur als App. Eine Website-Version folgt bald! Um diese Raid Party zu sehen, lade einfach die App herunter, melde dich an und lade diese Seite neu.",
+      "deepLink": "Wenn du die App installiert hast, sollte diese Seite die App automatisch öffnen. Unter iOS musst du diesen Link eventuell in Safari öffnen und die Seite nach unten ziehen, damit „In Pokebattler Raid Party öffnen“ erscheint.",
+      "deepLink2": "Falls es Probleme gibt, kannst du Raid Party #{{raidPartyId}} manuell beitreten."
     },
     "download": {
       "installation": "Lade die Pokebattler Raid Party App für dein Gerät herunter.",
@@ -502,34 +580,34 @@
       }
     },
     "screenshots": {
-      "title": "Prepare for remote raids with friends",
-      "description": "Here are just a few of the features in the Pokebattler Raid Party App. Additional functionality is being added rapidly, download the app to see the newest features"
+      "title": "Bereite Fern-Raids mit Freunden vor",
+      "description": "Hier siehst du nur einige der Funktionen der Pokebattler Raid Party App. Neue Funktionen kommen laufend dazu – lade die App herunter, um die neuesten zu sehen"
     }
   },
   "raidPartyResult": {
     "title": "Pokebattler Raid Party #{{raidPartyId}}",
     "meta": {
-      "description": "Join the Pokebattler Raid Party #{{raidPartyId}} to see if your group will win. Download the app and raid with confidence with just one click!",
+      "description": "Tritt der Pokebattler Raid Party #{{raidPartyId}} bei und sieh nach, ob deine Gruppe gewinnt. Lade die App herunter und raide mit Zuversicht – mit nur einem Klick!",
       "image": "https://static.pokebattler.com/images/pokebattler_raid_party.png"
     },
-    "info": "Pokebattler Raid Party is currently only available in app form. Website version coming soon! To see this raid party, simply download the app, login and reload this page.",
-    "deepLink": "If you have the app installed, this page should automatically open the app. On IOS, you may need to open this link in Safari and pull down the page for the open in Pokebattler Raid Party to appear.",
-    "deepLink2": "If you are having trouble, you can manually join raid party #{{raidPartyId}}.",
-    "deepLink3": "Discord users: You will need to change your Discord settings for Browser to open in Safari or Chrome",
-    "customLink": "Open in App"
+    "info": "Pokebattler Raid Party gibt es derzeit nur als App. Eine Website-Version folgt bald! Um diese Raid Party zu sehen, lade einfach die App herunter, melde dich an und lade diese Seite neu.",
+    "deepLink": "Wenn du die App installiert hast, sollte diese Seite die App automatisch öffnen. Unter iOS musst du diesen Link eventuell in Safari öffnen und die Seite nach unten ziehen, damit „In Pokebattler Raid Party öffnen“ erscheint.",
+    "deepLink2": "Falls es Probleme gibt, kannst du Raid Party #{{raidPartyId}} manuell beitreten.",
+    "deepLink3": "Discord-Nutzer: Stelle in den Discord-Einstellungen den Browser auf Safari oder Chrome um",
+    "customLink": "In der App öffnen"
   },
   "raidNetworkDiscords": {
-    "title": "Raid Network",
-    "info": "Discord servers in the Pokebattler Raid Network are available to join in the Pokebattler Raid Party app if they do not fill up. You can join their servers directly to fill raids sooner!",
-    "join": "Have a raiding discord and interested in joining the Pokebattler Raid Network? Join the Pokebattler Raid App discord and ping an admin",
-    "discordLink": "Go to {{guildName}} Discord server",
+    "title": "Raid-Netzwerk",
+    "info": "Discord-Server im Pokebattler Raid Network stehen dir in der Pokebattler Raid Party App zum Beitreten offen, wenn sie nicht voll werden. Du kannst ihren Servern auch direkt beitreten, um Raids schneller zu füllen!",
+    "join": "Du hast einen Raid-Discord und möchtest dem Pokebattler Raid Network beitreten? Tritt dem Discord der Pokebattler Raid App bei und schreib einen Admin an",
+    "discordLink": "Zum Discord-Server {{guildName}}",
     "properties": {
-      "activeRaidersCount": "Avg Raiders",
+      "activeRaidersCount": "Ø Raider",
       "raidsCreated": "# Raids",
       "yesterday": "Yesterday",
-      "lastWeek": "Last Week",
-      "lastMonth": "Last Month",
-      "lastYear": "Last Year",
+      "lastWeek": "Letzte Woche",
+      "lastMonth": "Letzter Monat",
+      "lastYear": "Letztes Jahr",
       "country": "Country",
       "language": "Language",
       "name": "$t(common:name)"
@@ -556,7 +634,7 @@
           "subtitle": "Handgezeichnete Infografiken zu Raid-Bossen in Pokemon Go, die für den Hochformatmodus entworfen wurden"
         },
         "meta": {
-          "description": "Pokemon Go Raid Infographics from CaptGoldfish! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+          "description": "Pokémon-GO-Raid-Infografiken von CaptGoldfish! Diese Infografiken richten sich an neue Spieler und enthalten keine Megas oder Crypto-Pokémon. Mit diesen Raid-Kontern besiegst du den Raid-Boss mit möglichst wenigen Trainern!",
           "image": "https://static.pokebattler.com/CaptGoldfish/icon.png"
         }
       },
@@ -575,8 +653,139 @@
       }
     }
   },
+  "guides": {
+    "title": "Guides",
+    "subTitle": "Pokémon GO-Raid-Guides von Professor Geekbeak",
+    "meta": {
+      "description": "Hol dir die Pokémon GO-Raid-Guides von Professor Geekbeak. Diese visuellen Guides helfen dir, dich mit den besten Kontern und Strategien auf Raid-Bosse vorzubereiten!",
+      "image": "https://static.pokebattler.com/images/professor_geekbeek_generic.jpg"
+    },
+    "articles": {
+      "title": "Pokémon GO-Raid-Guides",
+      "subtitle": "Visuelle Raid-Guides von Professor Geekbeak"
+    },
+    "author": {
+      "name": "Professor Geekbeak",
+      "title": "Die Raid-Guides von Professor Geekbeak",
+      "meta": {
+        "description": "Pokémon GO-Raid-Guides von Professor Geekbeak! Diese visuellen Guides helfen dir, dich mit den besten Kontern und Strategien auf Raid-Bosse vorzubereiten!",
+        "image": "https://static.pokebattler.com/images/professor_geekbeek_generic.jpg"
+      }
+    }
+  },
   "silph": {
     "text": "Aktuelle Raid-Boss-Liste bereitgestellt von",
     "link": "The Silph Road"
+  },
+  "max": {
+    "title": "Konter für Dyna-Kämpfe",
+    "linkLabel": "Konter für Dyna-Kämpfe",
+    "raidsLink": "Aktuelle Raids",
+    "breakingNews": {
+      "title": "Dyna-Kampf-News",
+      "subtitle": "Dyna-Kämpfe, die jetzt laufen oder innerhalb einer Woche starten"
+    },
+    "meta": {
+      "description": "Finde Konter für Dynamax- und Gigadynamax-Dyna-Kämpfe in Pokémon GO. Hol dir die besten Angreifer, Heiler und Schützer mit dem weltweit führenden individuellen Dyna-Kampf-Guide.",
+      "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "intro": "Dyna-Kämpfe sind da! Finde heraus, welche Pokémon am besten gegen Dynamax- und Gigadynamax-Bosse kontern – mit dem genauesten individuellen Pokémon GO-Dyna-Kampf-Guide der Welt. Wähle einfach unten einen Dyna-Kampf-Boss aus, um die besten Konter für jede Attackenkombination zu sehen!",
+    "current": {
+      "title": "Aktuelle Dyna-Kämpfe",
+      "description": "Dynamax- und Gigadynamax-Bosse, die gerade an Kraftquellen erscheinen."
+    },
+    "upcoming": {
+      "title": "Kommende Dyna-Kämpfe",
+      "description": "Dynamax- und Gigadynamax-Bosse, die bald an Kraftquellen erscheinen."
+    },
+    "legacy": {
+      "title": "Frühere Dyna-Kämpfe",
+      "description": "Dynamax- und Gigadynamax-Bosse, die früher an Kraftquellen erschienen sind."
+    },
+    "boss": {
+      "title": "Konter für den {{pokemon}}-Dyna-Kampf ({{tier}})",
+      "intro": "Hier sind die besten Konter für den {{pokemon}}-Dyna-Kampf. Wähle unten eine Rolle – Angreifer, Verteidiger, Auflader, Heiler oder Schützer –, um die besten Pokémon für dein Team zu sehen, und tippe dann weiter zur vollständigen individuellen Konterliste.",
+      "meta": {
+        "description": "Finde die besten Konter, Heiler und Schützer für den {{pokemon}}-Dyna-Kampf in Pokémon GO mit dem weltweit führenden individuellen Dyna-Kampf-Guide.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+      },
+      "rankings": {
+        "attack": {
+          "label": "Angreifer",
+          "description": "Viel Schaden in der Dyna-Phase"
+        },
+        "charge": {
+          "label": "Verteidiger",
+          "description": "Lädt das Dynameter, steckt ein"
+        },
+        "meterCharge": {
+          "label": "Auflader",
+          "description": "Lädt schnell, übersteht Flächenangriffe"
+        },
+        "heal": {
+          "label": "Heiler",
+          "description": "Heilt das Team"
+        },
+        "shield": {
+          "label": "Schützer",
+          "description": "Schilde und Provokation"
+        },
+        "party": {
+          "label": "Lobby",
+          "description": "Stelle eine Lobby mit 4 Trainern zusammen und simuliere sie im Kampf."
+        }
+      },
+      "counters": {
+        "attack": "Die besten Angreifer gegen {{pokemon}}",
+        "charge": "Die besten Verteidiger gegen {{pokemon}}",
+        "meterCharge": "Die besten Auflader gegen {{pokemon}}",
+        "heal": "Die besten Heiler gegen {{pokemon}}",
+        "shield": "Die besten Schützer gegen {{pokemon}}"
+      },
+      "party": {
+        "title": "Dyna-Kampf-Lobby gegen {{pokemon}}",
+        "description": "Eine Dyna-Kampf-Lobby besteht aus bis zu 4 Trainern mit je 3 Pokémon: Ein Angreifer bringt 2 Auflader und 1 Angreifer mit, ein defensiver Trainer 2 Verteidiger und 1 Angreifer, ein Heiler 1 Heiler und 2 Verteidiger, ein Schützer 3 Schützer. Wähle deine Rolle und die Rollen der anderen Trainer – oder setze einen Platz auf „Keiner“ für eine kleinere Lobby – und sieh dir an, wie die ganze Lobby gegen {{pokemon}} abschneidet.",
+        "roles": {
+          "attack": "Angreifer",
+          "defensive": "Defensiv",
+          "heal": "Heiler",
+          "shield": "Schützer",
+          "none": "Keiner"
+        },
+        "slotRoles": {
+          "attack": "Angreifer",
+          "charge": "Verteidiger",
+          "meter_charge": "Auflader",
+          "shield": "Schützer",
+          "heal": "Heiler"
+        },
+        "slotHints": {
+          "attack": "Nur in der Dyna-Phase",
+          "charge": "Lädt das Dynameter",
+          "meter_charge": "Lädt das Dynameter schnell",
+          "shield": "Schützt das Team",
+          "heal": "Heilt das Team"
+        },
+        "you": "Du",
+        "trainer": "Trainer {{number}}",
+        "yourRole": "Deine Rolle",
+        "theirRole": "Deren Rolle",
+        "lobbyNote": "Die anderen Trainer werden als generische Teams für die ihnen zugewiesene Rolle simuliert.",
+        "swapNote": "Auflader füllen das Dynameter schnell und überstehen zwei Flächenangriffe; Verteidiger laden es langsamer, halten aber länger durch. Der Angreifer wird nur für die Dyna-Phase eingewechselt und danach wieder ausgewechselt.",
+        "teamUnavailable": "Wir konnten gerade kein {{role}}-Team für diesen Boss auswählen.",
+        "teamFailed": "Das {{role}}-Team konnte nicht geladen werden. Bitte versuche es erneut.",
+        "error": "Diese Lobby konnte nicht simuliert werden. Bitte versuche es später erneut.",
+        "openSimulator": "Im Dyna-Kampf-Simulator anpassen",
+        "viewLog": "Kampfprotokoll ansehen",
+        "emptySeat": "Niemand auf diesem Platz.",
+        "genericFallback": "Generische Wahl",
+        "alternatives": "Tauschen",
+        "unavailable": "Wir konnten dein Team für diesen Boss gerade nicht zusammenstellen. Bitte versuche es gleich noch einmal.",
+        "retry": "Erneut versuchen",
+        "tankUptime": "Schützer-Einsatzzeit"
+      },
+      "pokeboxToggle": "Meine Pokébox verwenden",
+      "fullCounters": "Vollständige Konterliste gegen {{pokemon}} ansehen"
+    }
   }
 }

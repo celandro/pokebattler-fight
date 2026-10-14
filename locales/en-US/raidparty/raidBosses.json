@@ -91,8 +91,8 @@
     "roleBadge": {
         "ATTACK": "Attacker",
         "DPS": "Attacker",
-        "TANK": "Tank",
-        "SHIELD": "Tank",
+        "TANK": "Shielder",
+        "SHIELD": "Shielder",
         "HEAL": "Healer",
         "HEALER": "Healer"
     },

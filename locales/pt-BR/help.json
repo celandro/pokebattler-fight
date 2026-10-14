@@ -87,24 +87,24 @@
         "text": "Resultados de batalha completo serão mostrados. Fique a vontade para sair e tentar outras combinações."
       },
       "steps[0]": {
-        "label": "Type in the search bar",
-        "description": "Choose the attackers and defenders you wish to battle"
+        "label": "Digite na barra de pesquisa",
+        "description": "Escolha os atacantes e defensores que você quer colocar para batalhar"
       },
       "steps[1]": {
-        "label": "Basic mode",
-        "description": "Enter the CP, don't worry about your hidden stats, we will figure it out for you as best we can."
+        "label": "Modo básico",
+        "description": "Informe o PC. Não se preocupe com os atributos ocultos, nós os calculamos para você da melhor forma possível."
       },
       "steps[2]": {
-        "label": "Advanced mode",
-        "description": "Enter the exact level and hidden stats of your pokemon for the most accurate simulation"
+        "label": "Modo avançado",
+        "description": "Informe o nível exato e os atributos ocultos do seu Pokémon para a simulação mais precisa"
       },
       "steps[3]": {
-        "label": "Choose your moves",
-        "description": "Try out all the combinations of quick and charge moves"
+        "label": "Escolha seus ataques",
+        "description": "Teste todas as combinações de ataques rápidos e carregados"
       },
       "steps[4]": {
-        "label": "Choose your strategies",
-        "description": "Customize the way the pokemon attack and defend. See the definitions section below."
+        "label": "Escolha suas estratégias",
+        "description": "Personalize como os Pokémon atacam e defendem. Veja a seção de definições abaixo."
       }
     },
     "rankings": {
@@ -119,23 +119,23 @@
       },
       "steps[0]": {
         "label": "Attacker/Defender",
-        "description": "Choose whether you are attacking or defending. Attacker shows the results vs. all possible defenders. Defender shows the results vs. the best 6 possible attackers"
+        "description": "Escolha se você está atacando ou defendendo. Atacante mostra os resultados contra todos os defensores possíveis. Defensor mostra os resultados contra os 6 melhores atacantes possíveis"
       },
       "steps[1]": {
         "label": "Sort",
-        "description": "Choose the type of ranking you want (see below)"
+        "description": "Escolha o tipo de ranking que você quer (veja abaixo)"
       },
       "steps[2]": {
         "label": "Level",
-        "description": "Choose the level of the attacker and defender pokemon"
+        "description": "Escolha o nível dos Pokémon atacante e defensor"
       },
       "steps[3]": {
         "label": "Single/Group",
-        "description": "Choose whether to see every move combination or only show the best per pokemon"
+        "description": "Escolha se quer ver todas as combinações de ataques ou só a melhor de cada Pokémon"
       },
       "steps[4]": {
-        "label": "Choose your strategies",
-        "description": "Customize to your preferences, (see below)."
+        "label": "Escolha suas estratégias",
+        "description": "Personalize de acordo com suas preferências (veja abaixo)."
       }
     },
     "pokedex": {
@@ -150,15 +150,15 @@
       },
       "steps[0]": {
         "label": "Sort",
-        "description": "Choose the type of ranking you want (see below)"
+        "description": "Escolha o tipo de ranking que você quer (veja abaixo)"
       },
       "steps[1]": {
         "label": "Level",
-        "description": "Choose the level of the attacker and defender pokemon"
+        "description": "Escolha o nível dos Pokémon atacante e defensor"
       },
       "steps[2]": {
-        "label": "Choose your strategies",
-        "description": "Customize to your preferences, (see below)."
+        "label": "Escolha suas estratégias",
+        "description": "Personalize de acordo com suas preferências (veja abaixo)."
       }
     },
     "articles": {
@@ -185,27 +185,27 @@
       "title": "Opções de Ordenação",
       "options[0]": {
         "label": "Overall",
-        "description": "A rating that gives an overall score for a particular pokemon. The rating is gives 50% weighting to power, 30% weighting to time to win and 20% to potions"
+        "description": "Uma nota que dá uma pontuação geral para um Pokémon. A nota tem peso de 50% para poder, 30% para tempo até vencer e 20% para poções"
       },
       "options[1]": {
         "label": "Power",
-        "description": "A percent that represents how many times a pokemon would kill another. 250% means it would kill it 2 times and then die half way through the 3rd attempt. 75% means it died after only doing 75% of the targets health."
+        "description": "Uma porcentagem que representa quantas vezes um Pokémon derrotaria outro. 250% significa que ele o derrotaria 2 vezes e depois desmaiaria na metade da 3ª tentativa. 75% significa que ele desmaiou depois de causar só 75% do PS do alvo."
       },
       "options[2]": {
-        "label": "Time to Win",
-        "description": "Shows the amount of time it would take for the Pokemon to win. 2 seconds is added for each time the pokemon feinted."
+        "label": "Tempo até vencer",
+        "description": "Mostra quanto tempo o Pokémon levaria para vencer. São somados 2 segundos para cada vez que o Pokémon desmaiou."
       },
       "options[3]": {
         "label": "Win %",
-        "description": "Ranks by percentage chance to win"
+        "description": "Classifica pela porcentagem de chance de vitória"
       },
       "options[4]": {
         "label": "DPS",
-        "description": "Ranks by damage per second"
+        "description": "Classifica pelo dano por segundo"
       },
       "options[5]": {
         "label": "Potions",
-        "description": "Ranks by number of basic potions it would take to heal plus 5 for each time the pokemon feinted and would need a revive."
+        "description": "Classifica pelo número de poções básicas necessárias para curar, mais 5 para cada vez que o Pokémon desmaiou e precisaria de um reviver."
       }
     }
   }

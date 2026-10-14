@@ -24,6 +24,10 @@
     "correctness": "Se requiere un nombre de entrenador y un código de amigo correctos para una coordinación fluida del grupo de incursión",
     "numRemoteInvites": "Invitaciones remotas",
     "randomAssistants": "Jugadores adicionales",
+    "maxBattleRole": "Rol en Combates Max",
+    "megaPokemon": "Tu Mega",
+    "megaAuto": "Automático (mejor clasificada)",
+    "megaLevel": "Meganivel",
     "karma": "Karma",
     "coins": "Monedas",
     "theme": "Tema",
@@ -37,7 +41,27 @@
       "dark": "",
       "system": "Requiere reiniciar la aplicación"
     },
+    "artStyle": "Arte de Pokémon",
+    "artStyleOptions": {
+      "default": "Clásico",
+      "goldfish": "CaptGoldfish"
+    },
+    "artStyleWarnings": {
+      "goldfish": "Arte estilizado disponible para algunos Pokémon"
+    },
     "friendCodeHint": "Pega tu código de amigo aquí. Debe tener 12 dígitos, sin espacios"
+  },
+  "megaLevelOptions": {
+    "1": "Nivel 1",
+    "2": "Nivel 2",
+    "3": "Nivel 3",
+    "4": "Nivel 4"
+  },
+  "maxBattleRoleOptions": {
+    "ANY": "Cualquiera",
+    "DPS": "Atacante (DPS)",
+    "TANK": "Protector",
+    "HEALER": "Sanador"
   },
   "autoRaidPartyOptions": {
     "BATTLE_PARTY_POKEBOX": "Pokebox",
@@ -48,6 +72,17 @@
     "BATTLE_PARTY_LEVEL_40": "Nivel 40",
     "BATTLE_PARTY_LEVEL_45": "Nivel 45",
     "BATTLE_PARTY_LEVEL_50": "Nivel 50"
+  },
+  "adventureEffects": {
+    "title": "Efectos de aventura",
+    "BEHEMOTH_BLADE": {
+      "label": "Tajo Supremo (Zacian Espada Suprema)",
+      "description": "+10% de daño infligido en incursiones y +5% en Combates Max"
+    },
+    "BEHEMOTH_BASH": {
+      "label": "Embate Supremo (Zamazenta Escudo Supremo)",
+      "description": "+10% de defensa en incursiones y +5% en Combates Max"
+    }
   },
   "updateSetting": {
     "success": "Configuración de usuario actualizada correctamente",
@@ -101,7 +136,28 @@
       "raidStartingNow": {
         "name": "La incursión comienza ahora",
         "description": "La incursión comienza ahora"
+      },
+      "raidMarket": {
+        "name": "Oferta y demanda de incursiones",
+        "description": "Jefes que necesitan anfitriones, incursiones sobre las que pediste aviso y otras novedades del mercado de incursiones."
       }
+    },
+    "pausedOffline": "En pausa mientras estés Desconectado en la página de Incursiones: cambia el interruptor allí para reanudar las notificaciones de incursión."
+  },
+  "betaProgram": {
+    "title": "Programa beta",
+    "useBetaServers": "Usar servidores beta",
+    "hosts": "Usando ahora {{api}} y {{auth}}",
+    "warning": "Los servidores beta reciben las novedades antes y pueden ser más lentos, dar resultados incorrectos o estar caídos. Vuelve a producción si algo parece fallar.",
+    "restartRequired": "Reinicia la app para aplicar este cambio.",
+    "join": {
+      "title": "Únete a la beta de la app",
+      "description": "Las versiones beta de la app llegan días o semanas antes que la versión de la tienda. Esto es independiente del cambio de servidor de arriba.",
+      "ios": "iPhone / iPad — TestFlight",
+      "iosInstructions": "Instala la app gratuita TestFlight de Apple desde la App Store, abre la invitación de abajo y toca Aceptar y luego Instalar. TestFlight te avisará cada vez que haya una nueva versión beta.",
+      "android": "Android — Google Play",
+      "androidInstructions": "Abre la invitación de abajo con la sesión iniciada en Google Play con la cuenta que usas para Pokebattler, toca Convertirse en tester y luego actualiza Pokebattler desde Play Store. Play te mantendrá en las versiones beta automáticamente.",
+      "link": "Abrir la invitación"
     }
   }
 }

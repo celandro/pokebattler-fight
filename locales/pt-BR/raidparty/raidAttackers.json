@@ -1,0 +1,52 @@
+{
+  "title": "Atacantes de Reide",
+  "filterBar": {
+    "shadow": "Sombroso",
+    "mega": "Mega",
+    "legendary": "Lendário",
+    "partyPower": "Poder da Equipe",
+    "type": "Tipo",
+    "move": "Ataque",
+    "sort": "Ordenar",
+    "all": "Todos"
+  },
+  "sorts": {
+    "POINTS_DESC": "Pontos",
+    "ESTIMATOR_ASC": "Estimador",
+    "MATCHUPS_DESC": "Confrontos",
+    "NAME_ASC": "Nome"
+  },
+  "detailSorts": {
+    "POINTS_DESC": "Pontos",
+    "ESTIMATOR_ASC": "Estimador",
+    "RANK_ASC": "Posição",
+    "BOSS_ASC": "Chefe",
+    "TIER_DESC": "Nível"
+  },
+  "columns": {
+    "rank": "#",
+    "move1": "Ágil",
+    "move2": "Carregado",
+    "matchups": "Confrontos",
+    "estimator": "Estimador",
+    "points": "Pontos",
+    "tier": "Nível",
+    "boss": "Chefe",
+    "alt": "(alt)"
+  },
+  "tabs": {
+    "movesets": "Conjuntos de Ataques",
+    "raidsCountered": "Reides Combatidas"
+  },
+  "status": {
+    "loading": "Carregando dados dos atacantes...",
+    "downloading": "Baixando banco de dados...",
+    "decompressing": "Instalando atualização...",
+    "complete": "Banco de dados atualizado!",
+    "updateAvailable": "Atualização do banco de dados disponível",
+    "updateDB": "Atualizar Banco de Dados",
+    "error": "Não foi possível carregar os dados dos atacantes. Verifique sua conexão.",
+    "noData": "Nenhum atacante corresponde aos seus filtros.",
+    "refresh": "Atualizar"
+  }
+}

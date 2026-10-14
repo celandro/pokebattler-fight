@@ -84,7 +84,8 @@
       "body": "Cuerpo: {{body}}",
       "data": "Datos: {{data}}",
       "date": "Fecha: {{date}}",
-      "noNotification": "No se recibió ninguna notificación mientras la aplicación estaba abierta"
+      "noNotification": "No se recibió ninguna notificación mientras la aplicación estaba abierta",
+      "subText": "Subtexto"
     },
     "lastClickedNotification": {
       "title": "Última notificación en la que se hizo clic",
@@ -92,7 +93,8 @@
       "body": "Cuerpo: {{body}}",
       "data": "Datos: {{data}}",
       "date": "Fecha: {{date}}",
-      "noNotification": "No se hizo clic en ninguna notificación mientras la aplicación estaba abierta"
+      "noNotification": "No se hizo clic en ninguna notificación mientras la aplicación estaba abierta",
+      "subText": "Subtexto"
     },
     "expoSideNotification": {
       "title": "Notificación del lado de la exposición",
@@ -128,7 +130,8 @@
       "description2": "Pokebattler.com está respaldado por un potente conjunto de servidores en la nube que permite simulaciones más sofisticadas de las que se pueden realizar en un teléfono. Proporciona almacenamiento del lado del servidor para ayudar a la funcionalidad multiplataforma y entre aplicaciones, incluido Discord",
       "cta": "¡Invita a tus amigos a descargar la aplicación!",
       "shareMessage": "¡Descarga la aplicación Pokebattler para unirte a las incursiones conmigo!",
-      "url": "https://www.pokebattler.com/raidParty"
+      "url": "https://www.pokebattler.com/raidParty",
+      "tabTitle": "Pokebattler"
     },
     "thirdParty": {
       "title": "Integraciones de terceros",
@@ -156,6 +159,15 @@
         "cta": "Únete a las colas de incursiones en el sitio web de Minpoke",
         "url": "https://9db.jp/pokego/data/62"
       }
+    },
+    "releaseNotes": {
+      "tabTitle": "Novedades"
     }
+  },
+  "tabs": {
+    "pokemon": "Pokémon",
+    "notifications": "Notificaciones",
+    "analytics": "Analíticas",
+    "ads": "Anuncios"
   }
 }

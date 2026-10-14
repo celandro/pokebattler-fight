@@ -1,4 +1,47 @@
 {
+  "advice": {
+    "analyzeCta": "Analizar incursiones actuales",
+    "analyzeHint": "Compara tu Pokebox con las {{count}} incursiones actuales.",
+    "analyzing": "Analizando tu Pokebox…",
+    "apply": "Aplicar",
+    "biggestTop6": "Mayor mejora en los 6 mejores Pokémon: {{pct}}% de estimador",
+    "budgetHint": "Los consejos se recalculan con este presupuesto.",
+    "budgetTitle": "Recursos disponibles para potenciar",
+    "candy": "Caramelos",
+    "colCandy": "Caramelos",
+    "colDust": "Polvos",
+    "colEstimator": "Est",
+    "colImprove": "Δ",
+    "colLevel": "Nv",
+    "colNow": "ahora",
+    "colXl": "XL",
+    "current": "Actual",
+    "detailError": "No se pudieron cargar los consejos de potenciación para este Pokémon.",
+    "detailFootnote2": "Toca una fila para elegir un nivel objetivo y luego Aplicar. Δ = cambio del estimador respecto al actual; los costes son acumulados.",
+    "detailNone": "No hay pasos de potenciación disponibles.",
+    "detailTitle": "Consejos de potenciación",
+    "excludeFuture": "Excluir incursiones futuras",
+    "filterHint": "Se aplica a las pestañas Incursiones actuales y Mis Pokémon.",
+    "filterTitle": "Filtrar incursiones",
+    "ifMaxed": "si se potencia",
+    "ifPoweredUp": "Si se potencia",
+    "noBox": "Añade Pokémon a tu Pokebox para recibir consejos personalizados.",
+    "noRaids": "Ahora mismo no hay incursiones actuales sobre las que aconsejar.",
+    "none": "No hay contadores útiles en tu Pokebox para este jefe.",
+    "perMonHint": "Tus Pokémon ordenados por el número de incursiones actuales en las que son contadores destacados. Toca para ver posiciones y potenciaciones.",
+    "processing": "Procesando mejoras de potenciación {{done}}/{{total}}…",
+    "progress": "Analizando {{done}} de {{total}} incursiones…",
+    "progressImprove": "Calculando mejoras de potenciación {{done}}/{{total}}…",
+    "rankN": "puesto n.º {{n}}",
+    "stardust": "Polvos Estelares",
+    "tabPerBoss": "Incursiones actuales",
+    "tabPerMon": "Mis Pokémon",
+    "tabPickBoss": "Analizar",
+    "title": "Consejos de incursión",
+    "topFor": "Contador destacado en {{n}} de {{total}} incursiones",
+    "vs": "vs.",
+    "xlCandy": "Caramelos XL"
+  },
   "title": "Jefes de incursión",
   "selectWeather": "Elegir clima",
   "countersTitle": "Tus contadores",
@@ -45,6 +88,14 @@
     "tab": "Contadores",
     "description": "¡Estos son tus 6 mejores contadores para derrotar a un jefe de incursión de {{tier}} {{defender}}. ¡Agrega Pokémon alternativos a tu grupo a continuación!"
   },
+  "roleBadge": {
+    "ATTACK": "Atacante",
+    "DPS": "Atacante",
+    "TANK": "Protector",
+    "SHIELD": "Protector",
+    "HEAL": "Sanador",
+    "HEALER": "Sanador"
+  },
   "combatants": {
     "title": "Grupo de incursión de {{defender}}",
     "tab": "Grupo",
@@ -58,7 +109,9 @@
     "cancel": "Cancelar",
     "fetch": "Obtener",
     "errors": {
-      "pokemonMismatch": "El grupo de incursión {{id}} es para {{raidPartyPokemon}}, no para {{pokemon}}."
+      "pokemonMismatch": "El grupo de incursión {{id}} es para {{raidPartyPokemon}}, no para {{pokemon}}.",
+      "notFound": "No se encontró el grupo de incursión n.º {{id}}. Revisa el código del grupo y vuelve a intentarlo.",
+      "pokemonMismatchTitle": "Jefe de incursión distinto"
     }
   },
   "multiParty": {
@@ -69,7 +122,12 @@
     "id": "$t(raidBosses:joinParty) #{{id}}",
     "summary": "{{numReadyPlayers}} de {{players}} jugadores están listos. El grupo de {{ownerName}} se creó a las {{createdAt}}",
     "emptyPokebox": "Pokebox vacía, usando valores predeterminados",
-    "egg": "Huevo"
+    "egg": "Huevo",
+    "maxComposition": {
+      "DPS": "{{num}} ATQ",
+      "TANK": "{{num}} ESC",
+      "HEALER": "{{num}} CUR"
+    }
   },
   "raidPartyPlayer": {
     "title": "{{name}}",
@@ -95,5 +153,7 @@
     "until": "Hasta",
     "localTime": "Hora local"
   },
-  "autocomplete": "Elegir jefe de incursión personalizado"
+  "autocomplete": "Elegir jefe de incursión personalizado",
+  "megaBadge": "Mega",
+  "selectTierAndBossError": "Primero elige un nivel de incursión y un jefe."
 }

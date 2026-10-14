@@ -1,33 +1,33 @@
 {
   "contact": {
-    "title": "Contact Us",
-    "heading": "Contact Information",
-    "paragraph1": "Send us a message or follow us on social to get the latest updates on the World's #1 Most Accurate Pokemon Go Simulator",
-    "paragraph2": "We at Pokebattler love to hear your feedback! Whether it's a feature request or a bug report or just a word of thanks, we truly appreciate our users and try our best to keep this the only one you need to use for Pokemon Go gym combat.",
-    "email": "Email admin@pokebattler.com",
-    "emailError": "Could not open email program",
+    "title": "Kontakt",
+    "heading": "Dane kontaktowe",
+    "paragraph1": "Napisz do nas lub obserwuj nas w mediach społecznościowych, aby dostawać najnowsze informacje o najdokładniejszym symulatorze Pokémon GO na świecie",
+    "paragraph2": "W Pokebattlerze uwielbiamy Twoje opinie! Prośba o funkcję, zgłoszenie błędu czy zwykłe podziękowanie — naprawdę doceniamy naszych użytkowników i robimy wszystko, by to było jedyne narzędzie, jakiego potrzebujesz do walk na arenach w Pokémon GO.",
+    "email": "E-mail: admin@pokebattler.com",
+    "emailError": "Nie udało się otworzyć programu pocztowego",
     "button": {
       "reddit": {
-        "title": "Discuss on Reddit",
-        "subtitle": "News and Announcements in /r/pokebattler"
+        "title": "Dyskusja na Reddicie",
+        "subtitle": "Nowości i ogłoszenia na /r/pokebattler"
       },
       "twitter": {
-        "title": "Tweet at me",
-        "subtitle": "News and random messages from @Pokebattler_com"
+        "title": "Napisz do mnie na Twitterze",
+        "subtitle": "Nowości i różne wiadomości od @Pokebattler_com"
       },
       "youtube": {
-        "title": "Watch our videos",
-        "subtitle": "Raid Guides and Pokebattler Tutorial Videos"
+        "title": "Obejrzyj nasze filmy",
+        "subtitle": "Poradniki raidowe i filmy instruktażowe Pokebattlera"
       },
       "facebook": {
-        "title": "Facebook Connect",
-        "subtitle": "Let your friends know about us"
+        "title": "Facebook",
+        "subtitle": "Powiedz o nas znajomym"
       }
     }
   },
   "terms": {
     "title": "Terms",
-    "heading": "Terms & Conditions",
+    "heading": "Regulamin",
     "paragraph1": "By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You're not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You're not allowed to attempt to extract the source code of the app, and you also shouldn't try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Battler Empire, LLC.",
     "paragraph2": "Battler Empire, LLC is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you're paying for.",
     "paragraph3": "The Pokebattler Raid Party app stores and processes personal data that you have provided to us, in order to provide our Service. It's your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone's security features and it could mean that the Pokebattler Raid Party app won't work properly or at all.",
@@ -40,7 +40,7 @@
     "paragraph9": "We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective immediately after they are posted on this page."
   },
   "privacy": {
-    "title": "Privacy Policy",
+    "title": "Polityka prywatności",
     "heading": "Privacy Policy - Human Version",
     "paragraph1": "Pokebattler Raid App requires 3rd party login information in order to store your Pokemon and settings for cross device use and to facilitate server side simulations. Pokebattler uses some 3rd party services to provide login capabilities, track app usage and to monitor for bugs.",
     "paragraph2": "Pokebattler does not connect to Niantic servers in any way. No personal information is retrieved or stored other than an identification number and/or email address which are securely store for login purposes and account troubleshooting. This data is not used for marketing or affiliate purposes in any way. Data such as trainer name and pokebox content is used to support sharing of urls, finding your friends and other site features. If you are concerned about your privacy, consider not entering your trainer name or the names of your Pokemon. Pokebattler does use 3rd party app usage collection services and bug collection (eg. Google Analytics/Stackdriver) to help know where to focus new feature development.",
@@ -84,7 +84,8 @@
       "body": "Body: {{body}}",
       "data": "Data: {{data}}",
       "date": "Date: {{date}}",
-      "noNotification": "No notification received while app open"
+      "noNotification": "No notification received while app open",
+      "subText": "Podtekst"
     },
     "lastClickedNotification": {
       "title": "Last Clicked Notification",
@@ -92,7 +93,8 @@
       "body": "Body: {{body}}",
       "data": "Data: {{data}}",
       "date": "Date: {{date}}",
-      "noNotification": "No notification clicked while app open"
+      "noNotification": "No notification clicked while app open",
+      "subText": "Podtekst"
     },
     "expoSideNotification": {
       "title": "Expo Side Notification",
@@ -119,43 +121,53 @@
     }
   },
   "about": {
-    "title": "About Pokebattler",
+    "title": "O Pokebattlerze",
     "pokebattler": {
       "title": "Pokebattler Raid Party",
-      "meta": "Raid Counters and Guide",
+      "meta": "Kontry i poradnik raidowy",
       "version": "Version {{version}}",
-      "description": "Welcome to the Pokebattler Raid Party App. Designed to help you raid with confidence and minimal effort to defeat those raid bosses the first try. Pokebattler Raid Party App was created by Pokebattler.com to help organize and promote Pokemon Go raids by providing key features that are not provided by the game.",
-      "description2": "Pokebattler.com is backed by a powerful set of servers in the cloud that allows for more sophisticated simulations that can be performed on a phone. It provides server side storage to help cross platform and cross app functionality including discord",
-      "cta": "Invite your friends to download the app!",
-      "shareMessage": "Download the Pokebattler app to join raids with me!",
-      "url": "https://www.pokebattler.com/raidParty"
+      "description": "Witaj w aplikacji Pokebattler Raid Party. Pomaga raidować pewnie i bez wysiłku, by pokonać bossów raidów za pierwszym podejściem. Aplikację Pokebattler Raid Party stworzył Pokebattler.com, aby pomóc organizować i promować raidy w Pokémon GO dzięki kluczowym funkcjom, których nie ma w grze.",
+      "description2": "Pokebattler.com działa na wydajnych serwerach w chmurze, które pozwalają na bardziej zaawansowane symulacje, niż dałoby się wykonać na telefonie. Zapewnia przechowywanie danych na serwerze, co umożliwia działanie na wielu platformach i w wielu aplikacjach, w tym na Discordzie",
+      "cta": "Zaproś znajomych do pobrania aplikacji!",
+      "shareMessage": "Pobierz aplikację Pokebattler i dołączaj ze mną do raidów!",
+      "url": "https://www.pokebattler.com/raidParty",
+      "tabTitle": "Pokebattler"
     },
     "thirdParty": {
-      "title": "Third Party Integrations",
+      "title": "Integracje zewnętrzne",
       "pokeNav": {
-        "title": "PokeNav - Discord Bot",
-        "meta": "A Pokemon Go Discord Bot for raiding, trading and more.",
-        "description": "PokeNav is a 3rd Party Discord bot that integrates into the Pokebattler Raid Party apis. This allows you to create and communicate about a raid in Discord with deep links directly into the app. ",
-        "description2": "Players can join the raid in the app or in discord.",
-        "cta": "Add PokeNav to your Discord Server",
+        "title": "PokeNav - bot Discord",
+        "meta": "Bot Discord do Pokémon GO do raidów, wymian i nie tylko.",
+        "description": "PokeNav to zewnętrzny bot Discord zintegrowany z API Pokebattler Raid Party. Pozwala tworzyć raidy i rozmawiać o nich na Discordzie, z linkami prowadzącymi prosto do aplikacji. ",
+        "description2": "Gracze mogą dołączyć do raidu w aplikacji lub na Discordzie.",
+        "cta": "Dodaj PokeNav do swojego serwera Discord",
         "url": "https://pokenavbot.com/"
       },
       "nexus": {
-        "title": "Nexus - Discord Bot",
-        "meta": "A Pokemon Go Discord Bot for cross server raiding, trades and more.",
-        "description": "Nexus is a 3rd Party Discord bot that integrates into the Pokebattler Raid Party apis. This allows you to create and communicate about a raid in Discord with deep links directly into the app OR to join the raid purely using the app. ",
-        "description2": "Players can join the raid in the app or in discord. Discord is not required",
-        "cta": "Add Nexus to your Discord Server",
+        "title": "Nexus - bot Discord",
+        "meta": "Bot Discord do Pokémon GO do raidów między serwerami, wymian i nie tylko.",
+        "description": "Nexus to zewnętrzny bot Discord zintegrowany z API Pokebattler Raid Party. Pozwala tworzyć raidy i rozmawiać o nich na Discordzie, z linkami prowadzącymi prosto do aplikacji, LUB dołączać do raidu wyłącznie przez aplikację. ",
+        "description2": "Gracze mogą dołączyć do raidu w aplikacji lub na Discordzie. Discord nie jest wymagany",
+        "cta": "Dodaj Nexusa do swojego serwera Discord",
         "url": "https://nexusraidbot.com/"
       },
       "minpoke": {
-        "title": "Minpoke - Pokemon Go Website",
-        "meta": "A Pokemon Go Website for raids, simulations and more.",
-        "description": "Minpoke is a Pokemon Go website very similar to Pokebattler but catering to the Japanese market. Minpoke raids can be joined within the Pokebattler Raid Party app and Pokebattler Raid Party raids can be joined on the Minpoke website",
-        "description2": "Players can join both Minpoke and Pokebattler Raid Party raids on either the website or in this app",
-        "cta": "Join raid queues on the Minpoke website",
+        "title": "Minpoke - strona o Pokémon GO",
+        "meta": "Strona o Pokémon GO z raidami, symulacjami i nie tylko.",
+        "description": "Minpoke to strona o Pokémon GO podobna do Pokebattlera, skierowana do japońskich graczy. Do raidów Minpoke można dołączać w aplikacji Pokebattler Raid Party, a do raidów Pokebattler Raid Party na stronie Minpoke",
+        "description2": "Gracze mogą dołączać do raidów Minpoke i Pokebattler Raid Party zarówno na stronie, jak i w tej aplikacji",
+        "cta": "Dołączaj do kolejek raidowych na stronie Minpoke",
         "url": "https://9db.jp/pokego/data/62"
       }
+    },
+    "releaseNotes": {
+      "tabTitle": "Co nowego"
     }
+  },
+  "tabs": {
+    "pokemon": "Pokemony",
+    "notifications": "Powiadomienia",
+    "analytics": "Analityka",
+    "ads": "Reklamy"
   }
 }

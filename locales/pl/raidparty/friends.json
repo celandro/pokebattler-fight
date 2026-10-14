@@ -1,34 +1,35 @@
 {
   "title": "Friends",
   "levels": {
-    "FRIENDSHIP_LEVEL_UNSET": "Not friends",
-    "FRIENDSHIP_LEVEL_0": "New friends",
-    "FRIENDSHIP_LEVEL_1": "Good friends",
-    "FRIENDSHIP_LEVEL_2": "Great friends",
-    "FRIENDSHIP_LEVEL_3": "Ultra friends",
-    "FRIENDSHIP_LEVEL_4": "Best friends",
-    "FRIENDSHIP_LEVEL_5": "Forever friends"
+    "FRIENDSHIP_LEVEL_UNSET": "Nie przyjaciele",
+    "FRIENDSHIP_LEVEL_0": "Nowi przyjaciele",
+    "FRIENDSHIP_LEVEL_1": "Dobrzy przyjaciele",
+    "FRIENDSHIP_LEVEL_2": "Świetni przyjaciele",
+    "FRIENDSHIP_LEVEL_3": "Ultra przyjaciele",
+    "FRIENDSHIP_LEVEL_4": "Najlepsi przyjaciele",
+    "FRIENDSHIP_LEVEL_5": "Przyjaciele na zawsze"
   },
   "add": {
-    "friendId": "Pokebattler ID",
-    "addFriend": "Add Pokebattler Friend",
-    "friendLevel": "Friend Level",
+    "friendId": "ID Pokebattler",
+    "addFriend": "Dodaj przyjaciela z Pokebattlera",
+    "friendLevel": "Poziom przyjaźni",
     "cancelAddFriend": "Cancel",
-    "searchPlaceholder": "Name, Code or Id",
-    "supportedSearches": "Enter the Friend Code, Trainer Name, Discord Name or Pokebattler Id in the search bar and set your friend level.",
-    "noSearchResults": "No friends found, try again!",
-    "noSearchText": "Find your friends",
-    "clearSearch": "Clear"
+    "searchPlaceholder": "Nazwa, kod lub ID",
+    "supportedSearches": "Wpisz w wyszukiwarce kod przyjaciela, nazwę trenera, nazwę Discord lub ID Pokebattler i ustaw poziom przyjaźni.",
+    "noSearchResults": "Nie znaleziono przyjaciół, spróbuj ponownie!",
+    "noSearchText": "Znajdź swoich przyjaciół",
+    "clearSearch": "Clear",
+    "setFriendLevel": "Dodaj znajomego, wybierając jego poziom przyjaźni."
   },
   "noFriend": {
-    "title": "Add your friends to Pokebattler!",
-    "description": "Adding friends will send you notifications when they are creating raid parties and allow you to see raid parties they have created recently.  Make sure to set the correct friend level so that your friendship level will be automatically set in raid party simulations.",
-    "addFriend": "Add friends by clicking on the add button in the bottom right."
+    "title": "Dodaj przyjaciół do Pokebattlera!",
+    "description": "Gdy dodasz przyjaciół, dostaniesz powiadomienia, kiedy tworzą drużyny raidowe, i zobaczysz drużyny, które niedawno utworzyli. Ustaw właściwy poziom przyjaźni, aby był automatycznie uwzględniany w symulacjach drużyn raidowych.",
+    "addFriend": "Dodaj przyjaciół przyciskiem dodawania w prawym dolnym rogu."
   },
   "errors": {
-    "add": "Adding friend failed",
-    "update": "Updating friend failed",
-    "delete": "Deleting friend failed",
-    "failed": "Unable to retrieve friend list"
+    "add": "Nie udało się dodać przyjaciela",
+    "update": "Nie udało się zaktualizować przyjaciela",
+    "delete": "Nie udało się usunąć przyjaciela",
+    "failed": "Nie udało się pobrać listy przyjaciół"
   }
 }

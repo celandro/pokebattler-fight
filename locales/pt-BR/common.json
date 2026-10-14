@@ -69,14 +69,32 @@
     "points": "Pontos",
     "xlcandy": "XL Candy",
     "matchups": "Matchups",
-    "avg_estimator": "Avg. Estimator",
-    "dynamaxEnergy": "Max Energy"
+    "avg_estimator": "Estimador médio",
+    "dynamaxEnergy": "Energia Max",
+    "total_heal": "Cura Total",
+    "total_shield": "Escudo Total",
+    "heal_rating": "Nota de Cura",
+    "shield_rating": "Nota de Protetor",
+    "tank_rating": "Nota de Protetor",
+    "survival": "Sobrevivência",
+    "attack_rating": "Nota de Ataque",
+    "tank": "Nota de Protetor",
+    "charger": "Nota de Defensor",
+    "meter_charge": "Nota de Carregador",
+    "spread_survival": "Sobrevive a 2 Ataques em Área",
+    "survives_to_enrage": "Sobrevive até a Fúria",
+    "survival_time": "Tempo de Sobrevivência"
   },
   "sectionLinks": {
     "help": "Seção de ajuda",
     "about": "Seção Sobre"
   },
-  "simulation": "uma simulation foi",
+  "simulation": {
+    "starting": "Iniciando a simulação…",
+    "running": "Simulando…",
+    "eta": "Simulando… ~{{eta}} s",
+    "busy": "Ocupado, tentando de novo…"
+  },
   "simulation_plural": "{{count,commas}} simulações foram",
   "chooseMovesetLabel": "Escolha o Ataque",
   "hd": {
@@ -104,7 +122,16 @@
   "trainer": "Treinador",
   "more": "Mais",
   "pokemon": "Pokémon",
+  "edit": "Editar",
+  "close": "Fechar",
+  "form": {
+    "validation": {
+      "required": "Obrigatório"
+    }
+  },
   "status": {
+    "loadingPartyDetails": "Carregando detalhes do grupo…",
+    "noPartySelected": "Nenhum grupo de reide selecionado",
     "add": "Adicionando",
     "edit": "Editando",
     "update": "Atualizando",
@@ -137,6 +164,8 @@
     "subscriptionCardUpdateSuccess": "Informações de pagamento atualizados",
     "subscriptionCardUpdateFailure": "Impossível atualizar informações de pagamento",
     "calculating": "Ainda calculando. {{elapsed}} segundos até agora.",
+    "simulationTimeout": "A simulação está demorando mais que o esperado. Tente de novo em um minuto e ela pode estar pronta.",
+    "simulationFailed": "A simulação falhou. Tente de novo em um minuto.",
     "clipboard": "Copiado!",
     "share": "Compartilhe com Seus Amigos",
     "network": "Erro de rede. É necessário se conectar à internet para usar este aplicativo.",
@@ -190,7 +219,15 @@
   "seconds": "Segundos",
   "rejoin": {
     "label": "Tempo para Reentrar",
-    "default": "Nunca"
+    "default": "Nunca",
+    "never": "Nunca",
+    "defaultSuffix": "(padrão)",
+    "techniques": "Técnicas de reide solo",
+    "techniqueOptions": {
+      "REJOIN": "Reentrar (7 segundos)",
+      "ADVANCED_REJOIN": "Reentrada avançada (5,5 segundos)",
+      "DOUBLE_BATTLE_PARTY": "Equipe de batalha dupla (uma reentrada a cada duas é 40% mais rápida)"
+    }
   },
   "trainers": "Treinadores",
   "menu": {
@@ -231,13 +268,16 @@
       "attackers": "Atacantes",
       "tutorials": "Tutoriais",
       "raidNetworkDiscords": "Servidores Discord da Raid Network",
-      "infographics": "Infographics"
+      "infographics": "Infographics",
+      "guides": "Guias",
+      "max": "Batalhas Max"
     },
     "description": {
       "gym": "Simulações de Batalhas de Ginásios, Pokedex e Rankings",
       "pvp": "Simulações PvP",
       "help": "Tutoriais, Termos e Definições",
       "more": "Notícias, Artigos, Traduções, Como nos contatar e Mais",
+      "max": "Melhores Counters e Simulações para Batalhas Dinamax e Gigamax",
       "raids": "Principais Oponentes, Simulações de Grupos de Batalhas de Reide e Conselho de Fortalecimento",
       "account": "Customize o Pokebattler Ao Adicionar Pokemon A Sua Pokebox e Grupos de Batalhas",
       "rocket": "Counters Precisos da Equipe Rocket",
@@ -355,11 +395,26 @@
   "auto": "Auto",
   "includeMegas": "Mostrar Pokémons Mega",
   "harmony": "Harmony",
-  "mega": "Mega",
+  "mega": {
+    "title": "Sua Mega",
+    "description": "Qual das suas Megas lidera a equipe de batalha montada com a sua Pokebox. Automático mantém a mega mais bem classificada. Ative doces bônus para listar primeiro as megas que compartilham um tipo com o chefe - megaevoluir uma delas rende doces extras quando você o captura.",
+    "auto": "Automático (melhor classificada)",
+    "candyFirst": "🍬 Doces bônus primeiro"
+  },
   "megas": "Megas",
   "numMegas": {
     "title": "Megas Adicionais",
     "description": "O número de Megas adicionais trazidos por outros jogadores. Os Megas serão atordoados para aumentar o tempo do mega buff."
+  },
+  "megaLevel": {
+    "title": "Nível Mega",
+    "description": "O Nível Mega das megas na batalha. Os Níveis Mega 2 a 4 fortalecem o ataque carregado \"+\" exclusivo da mega. O nível máximo 4 é usado por padrão.",
+    "options": {
+      "1": "Nível Mega 1",
+      "2": "Nível Mega 2",
+      "3": "Nível Mega 3",
+      "4": "Nível Mega 4 (Padrão)"
+    }
   },
   "friendCode": "Código de Amizade",
   "choosePokemonLabel": "Escolher Pokémon",
@@ -371,15 +426,40 @@
   "dynamax": "Dynamax",
   "gigantamax": "Gigantamax",
   "unavailable": "Unavailable",
-  "primalAssistants": "Active Primal Boosts",
+  "primalAssistants": "Bônus Primitivos ativos",
+  "adventureEffects": {
+    "title": "Efeitos de Aventura",
+    "description": "Efeitos de Aventura ativos. Espada Colossal (Zacian): +10% de dano causado em Reides, +5% em Batalhas Max. Pancada Colossal (Zamazenta): +10% de defesa em Reides, +5% em Batalhas Max."
+  },
   "xlcandy": {
-    "title": "XL Candy Available"
+    "title": "Doces GG disponíveis"
   },
   "numParty": {
-    "title": "Party Power",
-    "description": "The number of players in your party who are in the raid with you."
+    "title": "Poder de Grupo",
+    "description": "O número de jogadores do seu grupo que estão na reide com você."
   },
   "from": "From",
   "until": "Until",
-  "localTime": "Local Time"
+  "localTime": "Horário local",
+  "partyGrid": {
+    "title": "Escolher Pokémon",
+    "addPokemon": "Adicionar Pokémon",
+    "pokebox": "Minha Pokebox",
+    "generic": "Pokémon Personalizado",
+    "choosePokemon": "Escolher Pokémon",
+    "use": "Usar Pokémon",
+    "edit": "Editar",
+    "remove": "Remover",
+    "moveLeft": "Mover para a Esquerda",
+    "moveRight": "Mover para a Direita",
+    "saveToPokebox": "Salvar na Pokebox",
+    "savedToPokebox": "Salvo na Pokebox!",
+    "loginPrompt": "Entre para escolher Pokémon da sua Pokebox. Você ainda pode montar uma equipe com Pokémon personalizados.",
+    "pokeboxEmpty": "Nenhum Pokémon Dinamax encontrado na sua Pokebox.",
+    "savePartyName": "Nome da Equipe de Batalha",
+    "saveParty": "Salvar como Equipe de Batalha",
+    "savePartyLogin": "Entre para salvar esta equipe",
+    "savePartyPokeboxOnly": "Salve cada Pokémon personalizado na sua Pokebox antes de salvar a equipe.",
+    "customParty": "Ou monte uma equipe personalizada - sem precisar entrar:"
+  }
 }

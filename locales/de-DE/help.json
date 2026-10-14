@@ -70,9 +70,9 @@
       "description": "Entdecke, welche Pokemon du verbessern solltest, um diesen Raid Boss zu besiegen"
     },
     "pvpMatrix": {
-      "title": "PVP Matrix",
+      "title": "PvP-Matrix",
       "link": "/help/pvp-matrix-help-guide",
-      "description": "Discover how to create custom rankings for pvp"
+      "description": "Erfahre, wie du eigene PvP-Rankings erstellst"
     }
   },
   "sections": {

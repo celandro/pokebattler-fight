@@ -55,16 +55,55 @@
       "label": "Nivel",
       "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
+    "megaLevel": {
+      "label": "Meganivel",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
     "submit": {
       "label": "$t(common:buttons.create)"
     },
     "edit": {
       "label": "$t(common:save)"
+    },
+    "form": {
+      "label": "Forma"
     }
   },
   "poketile": {
     "cp": "$t(cp)",
     "temporary": "Guardando en el servidor"
+  },
+  "verify": {
+    "title": "Verificar",
+    "helpBody": "Selecciona los Pokémon que quieres verificar, copia la cadena de búsqueda, pégala en la búsqueda de tu almacenamiento en Pokémon GO, haz una captura del resultado y súbela aquí. La verificación cuesta {{coins}} monedas y dura {{days}} días; volver a escanear es gratis mientras esté activa.",
+    "helpBodyVerified": "Tu cuenta está verificada. Selecciona Pokémon, copia la cadena de búsqueda, haz una captura de tu almacenamiento filtrado en Pokémon GO y súbela; volver a escanear es gratis mientras tu verificación esté activa.",
+    "copySearchString": "Copiar búsqueda",
+    "searchStringCopied": "Cadena de búsqueda copiada: pégala en la búsqueda de tu almacenamiento en Pokémon GO y haz una captura.",
+    "numSelected": "{{count}} seleccionados",
+    "clearSelection": "Borrar",
+    "uploadButton": "Subir captura y verificar ({{count}})",
+    "noPermission": "Se necesita permiso para acceder a tus fotos y subir la captura.",
+    "success": "¡{{count}} Pokémon verificados! ✓",
+    "noneMatched": "El servidor no encontró ninguno de los Pokémon seleccionados en esa captura. Quita los motes, asegúrate de que se vean los PC y vuelve a intentarlo.",
+    "notEnoughCoins": "No tienes suficientes monedas para la verificación.",
+    "failed": "La verificación ha fallado. Inténtalo de nuevo.",
+    "review": {
+      "title": "Lo que hemos leído",
+      "subtitle": "Estos son los Pokémon que encontramos en tu captura. Si alguno es de otra especie, avísanos.",
+      "reportUnavailable": "No se puede informar de una lectura incorrecta para esta subida.",
+      "empty": "No encontramos ningún Pokémon en esta captura.",
+      "unknownSpecies": "Pokémon desconocido",
+      "cp": "PC {{cp}}",
+      "unknownCp": "PC desconocidos",
+      "pending": "Pendiente de revisión",
+      "wrong": "¿Incorrecto?",
+      "failed": "No se pudo enviar tu informe. Inténtalo de nuevo.",
+      "pickerTitle": "¿Qué Pokémon es realmente?",
+      "pickerPlaceholder": "Buscar Pokémon",
+      "cancel": "Cancelar",
+      "submit": "Informar",
+      "done": "Listo"
+    }
   },
   "noPokemon": {
     "title": "No se encontraron Pokémon",
@@ -90,15 +129,19 @@
       "individualAttack": "$t(pokeform.individualAttack.label) no es un número entre 0 y 15.",
       "individualDefense": "$t(pokeform.individualDefense.label) no es un número entre 0 y 15",
       "individualStamina": "$t(pokeform.individualStamina.label) no es un número entre 0 y 15",
-      "cp": "$t(pokeform.cp.label) no es un número"
-    }
+      "cp": "$t(pokeform.cp.label) no es un número",
+      "noDataToImport": "Primero pega algunos Pokémon para importar.",
+      "noPokemonSelected": "Selecciona al menos un Pokémon para importar."
+    },
+    "pastePrompt": "Pega aquí una hoja de cálculo con tus Pokémon, incluida la fila de encabezado (Pokemon, Level, Attack IV, Defense IV, Stamina IV, Fast Move, Charge Move, ...)"
   },
   "bulkDelete": {
     "title": "Eliminación masiva de Pokémon",
     "failed": "Lamentablemente, la eliminación masiva de pokémon falló",
     "selectAll": "Seleccionar todo",
     "clearSelection": "Limpiar selección",
-    "deleteNPokemon": "Eliminar {{count}} pokémon"
+    "deleteNPokemon": "Eliminar {{count}} pokémon",
+    "numSelected": "{{count}} seleccionados"
   },
   "addPokemon": "Agregar Pokémon"
 }

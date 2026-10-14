@@ -7,7 +7,9 @@
     "title": "Grupo de {{ownerName}}",
     "id": "#{{id}}",
     "createdAt": "Creado el {{createdAt}}.",
-    "globalTime": "{{globalTime}}"
+    "globalTime": "{{globalTime}}",
+    "verifiedRaidNote": "✓ Incursión verificada: todos los Entrenadores aquí tienen equipos de combate verificados por el servidor.",
+    "verifiedRaidMegaNote": "✓ Incursión verificada: se exigen equipos verificados y todos los equipos deben incluir una Mega o un Primigenio."
   },
   "raidPartyPlayer": {
     "title": "{{name}}",
@@ -26,7 +28,15 @@
       "addUserToRaidPartyFull": "El grupo de incursión #{{raidPartyId}} ya está lleno",
       "addUserToRaidPartyGlobal": "El grupo de incursión #{{raidPartyId}} aún no está disponible para unirse, espera el temporizador de cuenta regresiva",
       "addUserToRaidPartyNotEnoughCoins": "No tienes suficientes monedas para unirte a esta incursión Karma Boost. Consigue más monedas para unirte.",
-      "createRaidPartyNotEnoughCoins": "No tienes suficientes monedas para organizar esta incursión Karma Boost. Consigue más monedas para organizarla."
+      "addUserToRaidPartyAccountNotVerified": "Esta es una incursión verificada: primero verifica tu cuenta con una captura de tu Pokebox (Pokebox → Verificar).",
+      "addUserToRaidPartyPartyNotVerified": "Esta es una incursión verificada: todos los Pokémon de tu equipo de combate deben estar verificados. Verifícalos en Pokebox → Verificar.",
+      "addUserToRaidPartyMegaRequired": "El anfitrión exige una Mega o un Primigenio en tu equipo de combate para esta incursión verificada.",
+      "addUserToRaidPartyEstimatorTooHigh": "Tu equipo de combate no cumple el requisito de fuerza de esta incursión verificada. Lleva atacantes (verificados) más fuertes.",
+      "createRaidPartyNotEnoughCoins": "No tienes suficientes monedas para organizar esta incursión Karma Boost. Consigue más monedas para organizarla.",
+      "createRaidPartyPrecondition": "No se puede organizar esta incursión con esta configuración. Actualiza a la última versión de la app y vuelve a intentarlo.",
+      "addUserToRaidPartyRoleSlotFull": "Ese rol está completo en esta incursión: elige otro rol o Cualquiera.",
+      "createRaidPartyCompositionConflict": "Esos puestos de rol no sirven para esta incursión. Ajusta el número de Atacantes/Protectores/Sanadores y vuelve a intentarlo.",
+      "updateRaidPartyCompositionConflict": "No puedes quitar puestos de rol que ya han ocupado otros Entrenadores. Añade puestos o espera a que salgan."
     }
   },
   "share": {
@@ -117,6 +127,15 @@
     "title": "Volver a unirse a la incursión actual",
     "subtitle": "Solo puedes unirte a una incursión a la vez. Haz clic para volver a unirte y finalizar la incursión"
   },
+  "demandChip": {
+    "shortage": "🔥 Mucha demanda",
+    "glut": "🧊 Bien surtido"
+  },
+  "hostingToggle": {
+    "online": "Conectado",
+    "offline": "Desconectado",
+    "offlineHint": "Las notificaciones de creación de incursiones están en pausa mientras estés desconectado."
+  },
   "raidPartyStatus": {
     "INTERESTED": "Disponible",
     "FULL": "Lleno",
@@ -183,7 +202,8 @@
       "rewards1": "• +1 moneda por calificar con un 👍 o 👎",
       "rewards2": "• +5 monedas por recibir un 👍",
       "maximumGain": "Ganancia máxima por incursión: 30 para anfitriones y 6 para invitados",
-      "noteText": "No pierdes monedas por recibir un 👎 pero sí pierdes Karma. El Karma se muestra a otros usuarios y hace del mundo un lugar mejor"
+      "noteText": "No pierdes monedas por recibir un 👎 pero sí pierdes Karma. El Karma se muestra a otros usuarios y hace del mundo un lugar mejor",
+      "surgeNote": "⚡ Precio dinámico: este jefe tiene mucha demanda, así que ahora mismo unirse pronto cuesta más de las {{base}} monedas habituales. Las incursiones canceladas se reembolsan automáticamente."
     }
   },
   "hostForm": {
@@ -209,6 +229,58 @@
       "line1": "Considera unirte en lugar de organizar"
     },
     "hostParty": "Organizar grupo",
+    "maxRoles": {
+      "title": "Roles de la sala",
+      "helpBody": "En las salas de Combates Max caben 4 Entrenadores. Deja los roles en Cualquiera para que entre todo el mundo o reserva puestos para Atacantes, Protectores y Sanadores.",
+      "anyRoles": "Cualquier rol",
+      "DPS": {
+        "label": "Atacantes",
+        "description": "Lleva tus 3 atacantes más fuertes. Inflige daño y carga la energía Max rápido."
+      },
+      "TANK": {
+        "label": "Protectores",
+        "description": "Lleva Pokémon resistentes. Dinamaxiza primero y usa Maxibarrera para proteger a tu equipo."
+      },
+      "HEALER": {
+        "label": "Sanadores",
+        "description": "Lleva Pokémon de apoyo con muchos PS, como Blissey. Usa Maxivigor para mantener al equipo con vida."
+      },
+      "slotTotal": "{{total}} de {{max}} Entrenadores"
+    },
+    "yourRole": {
+      "title": "Tu rol",
+      "subtitle": "Elige el rol que tendrás en esta sala. Se guardará como predeterminado para futuros Combates Max."
+    },
+    "verified": {
+      "selectLabel": "Incursión verificada",
+      "helpBody": "Las incursiones verificadas solo admiten Entrenadores cuya cuenta y equipo de combate se verificaron con una captura real de Pokémon GO, así que todos llevan los Pokémon que de verdad tienen. Organizarla cuesta unas pocas monedas; unirse es gratis para los Entrenadores verificados.",
+      "enableLabel": "Exigir Entrenadores verificados",
+      "requireMegaLabel": "Exigir una Mega o un Primigenio en cada equipo",
+      "hostCost": "Organizar esta incursión verificada cuesta {{coins}} monedas.",
+      "insufficientCoins": "Necesitas {{moreCoins}} monedas más para organizar una incursión verificada.",
+      "hostNotVerified": "Los anfitriones también deben estar verificados. Verifica tu propia Pokebox con una captura para desbloquear las incursiones verificadas.",
+      "verifyNowCta": "Verificar mi Pokebox",
+      "estimatorLabel": "Fuerza de equipo necesaria para unirse",
+      "estimatorHelp": "Cuanto más exigente, solo se admiten equipos de combate más fuertes; tú también debes cumplir tu propio requisito.",
+      "estimator": {
+        "any": "Cualquiera",
+        "relaxed": "Relajado",
+        "strong": "Fuerte",
+        "elite": "Élite",
+        "solo": "En solitario",
+        "duo": "Dúo",
+        "trio": "Trío",
+        "upTo": "≤{{count}}"
+      }
+    },
+    "demand": {
+      "shortageTitle": "⚡ ¡Se necesitan anfitriones ahora mismo!",
+      "shortageBody": "{{count}} Entrenadores esperan a este jefe: tu incursión se llenará rápido y ganarás el doble de karma por organizarla durante el pico.",
+      "shortageBodyGeneric": "Hay Entrenadores esperando a este jefe: tu incursión se llenará rápido y organizarla durante el pico da karma extra.",
+      "glutBody": "🌊 Ahora mismo hay muchas salas abiertas para este jefe. Unirte a una incursión casi llena puede ser más rápido que organizar una nueva."
+    },
+    "customRaid": "Organizar una incursión personalizada",
+    "scheduleRaids": "Volver a las incursiones programadas",
     "noRaidsForTier": "No hay incursiones disponibles para este nivel",
     "notInScheduleWarning": "Este Pokémon no está en el calendario de incursiones actual. El servidor puede limitar esta incursión solo a amigos.",
     "karmaWarning": {
@@ -224,7 +296,7 @@
       }
     },
     "karmaBoost": {
-      "selectLabel": "Karma Boost",
+      "selectLabel": "Impulso de karma",
       "helpTitle": "Incursiones Karma Boost",
       "helpBody": "Las incursiones Karma Boost recompensan a todos con karma extra por la incursión: 2x con Karma Súper y 5x con Karma Mega. Organizarlas le cuesta monedas al anfitrión y cada jugador que se une también paga monedas, así que solo participarás con entrenadores comprometidos y experimentados. Estas incursiones aparecen en la app, pero nunca se comparten en Discord ni en la red de bots.",
       "none": "Sin Karma Boost",
@@ -241,12 +313,75 @@
   },
   "filterRaidForm": {
     "title": "Filtrar grupos de incursión",
-    "apply": "Aplicar"
+    "apply": "Aplicar",
+    "tier": "Nivel de incursión",
+    "allTiers": "Todos los niveles",
+    "openRole": "Puesto de rol libre",
+    "anyRole": "Cualquier rol"
   },
   "notifications": {
     "banner": "Activa las notificaciones push para coordinar incursiones con tu grupo en tiempo real.",
     "enable": "Activar"
   },
+  "chat": {
+    "costHint": "Los mensajes predefinidos cuestan 1 moneda y se traducen al idioma de cada Entrenador.",
+    "notEnoughCoins": "Necesitas monedas para enviar mensajes en el chat. Consíguelas haciendo incursiones o visita la Tienda.",
+    "presets": {
+      "READY": "¡Estoy listo! ✅",
+      "LETS_GO": "¡Vamos! 🚀",
+      "WAITING_FOR_INVITE": "Sigo esperando la invitación de amigo ⏳",
+      "INVITE_SENT": "Invitación enviada ✉️",
+      "FRIEND_REQUEST_SENT": "Solicitud de amistad enviada 🤝",
+      "ONE_MORE_INVITE_WAVE": "Viene otra tanda de invitaciones 🌊",
+      "JOINING_NOW": "Me uno ya 🏃",
+      "SORRY_HAVE_TO_LEAVE": "Lo siento, me tengo que ir 😢",
+      "THANKS": "¡Gracias! 🙏",
+      "GG": "¡GG! 🎉"
+    }
+  },
+  "joinMaxRole": {
+    "title": "Elige tu rol",
+    "subtitle": "El anfitrión puede reservar puestos de la sala para cada rol. Elige el rol que tendrás, o Cualquiera para cubrir lo que haga falta.",
+    "join": "Unirse a la incursión",
+    "DPS": {
+      "description": "Lleva tus 3 atacantes más fuertes. Inflige daño y carga la energía Max rápido."
+    },
+    "TANK": {
+      "description": "Lleva Pokémon resistentes. Dinamaxiza primero y usa Maxibarrera para proteger a tu equipo."
+    },
+    "HEALER": {
+      "description": "Lleva Pokémon de apoyo con muchos PS, como Blissey. Usa Maxivigor para mantener al equipo con vida."
+    }
+  },
+  "wants": {
+    "notifyMe": "🔔 Avísame cuando alguien organice este jefe",
+    "notifyMeSet": "✅ Te avisaremos cuando alguien organice este jefe",
+    "limitReached": "Ya tienes el número máximo de avisos de incursión configurados."
+  },
+  "provisional": {
+    "estimateUpdating": "Estimación, actualizando",
+    "estimateUpdatingDescription": "Los contadores de algunos jugadores aún se están simulando. Esto es una estimación con la configuración predeterminada y se actualiza automáticamente.",
+    "servedTitle": "Estimado con la configuración predeterminada mientras se simula la tuya",
+    "setting": "{{label}}: {{served}} (pedido: {{requested}})",
+    "on": "Sí",
+    "off": "No",
+    "default": "Predeterminado",
+    "fields": {
+      "autoBattleParty": "Equipo",
+      "weatherCondition": "Clima",
+      "friendLevel": "Amistad",
+      "strategy": "Estrategia",
+      "dodgeStrategy": "Esquivar",
+      "sort": "Orden",
+      "includeLegendary": "Legendarios",
+      "includeShadow": "Oscuros",
+      "includeMegas": "Megas",
+      "numParty": "Equipos",
+      "primalAssistants": "Asistentes Primigenios",
+      "adventureEffects": "Efectos de aventura"
+    }
+  },
+  "unknownOwner": "Entrenador desconocido",
   "helpModal": {
     "raidNetwork": {
       "title": "Red de Incursiones de Pokebattler",

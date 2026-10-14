@@ -1,5 +1,16 @@
 {
   "tutorial": {
+    "superMega": {
+      "iconName": "shield-alt",
+      "title": "Reides Super Mega",
+      "subtitle": "Escudos, fúria e por que você PRECISA levar uma Mega",
+      "heading": "Resumo: a Sra. Pokebattler explica a muralha de escudos — só Megas de verdade conseguem quebrá-la",
+      "body1": "Nossa, meu marido se superou desta vez! As reides Super Mega são a criação mais nova e mais malvada dele — os Mega Lendários mais fortes escondidos atrás de uma muralha inteira de escudos. Deixe-me explicar antes que o seu grupo de reide seja pego de surpresa.",
+      "body2": "No meio da batalha o chefe fica FURIOSO. Ele entra em fúria, suas defesas disparam e um conjunto de escudos se ergue ao redor dele. Enquanto houver UM escudo de pé, o chefe fica totalmente invulnerável — você pode bater nele o dia inteiro e ele não leva nem um arranhão.",
+      "body3": "O segredo é este: só o ataque carregado de uma Megaevolução DE VERDADE consegue quebrar um escudo. Groudon Primitivo e Kyogre Primitivo até parecem, mas Primitivos NÃO quebram escudos — e Pokémon comuns também não. Então cada treinador deve colocar uma Mega no ÚLTIMO espaço da equipe: no momento em que o chefe entra em fúria, sua Mega entra automaticamente com energia suficiente para disparar um ataque carregado e destruir um escudo.",
+      "body4": "Os maiores chefes — os míticos — erguem cerca de uma dúzia de escudos, então é preciso um grupo cheio de uns 12 ou mais treinadores, CADA UM com sua própria Mega, para derrubar a muralha. Cada um quebra um, e todos caem!",
+      "body5": "O resto da sua equipe pode ser formado pelos seus melhores atacantes de sempre — eles não precisam ser Megas, só não conseguem quebrar escudos. Quando os escudos caem, o chefe se acalma e vira uma reide normal (bem, GRANDE). Se você usar a equipe de batalha automática do app, ela coloca uma Mega no seu último espaço para você. Boa sorte por aí, queridos!"
+    },
     "joinRaid": {
       "dimensions": {
         "width": "600",

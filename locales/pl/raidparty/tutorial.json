@@ -1,17 +1,28 @@
 {
   "tutorials": {
     "title": "Tutorials",
-    "heading": "Mrs. Pokebattler is here to guide you through using the Pokebattler Raid Party App",
-    "description": "My husband sometimes forgets to write instructions on how to use his tools. I always have to remind him that people need a bit of guidance some times! Here are some guides for the more complicated parts of the Pokebattler Raid Party app!",
-    "caution": "These tutorials are heavy on the visuals and are a few megabytes in size, consider loading on wifi.",
-    "load": "Load the tutorial"
+    "heading": "Mrs. Pokebattler przeprowadzi Cię przez korzystanie z aplikacji Pokebattler Raid Party",
+    "description": "Mój mąż czasem zapomina napisać instrukcję do swoich narzędzi. Zawsze muszę mu przypominać, że ludzie czasem potrzebują odrobiny wskazówek! Oto poradniki do bardziej skomplikowanych części aplikacji Pokebattler Raid Party!",
+    "caution": "Te poradniki zawierają dużo grafiki i ważą kilka megabajtów, rozważ wczytanie ich przez Wi-Fi.",
+    "load": "Wczytaj poradnik"
   },
   "tutorial": {
+    "superMega": {
+      "iconName": "shield-alt",
+      "title": "Raidy Super Mega",
+      "subtitle": "Tarcze, wściekłość i dlaczego MUSISZ zabrać Megę",
+      "heading": "TLDR: Pani Pokebattler wyjaśnia ścianę tarcz — tylko prawdziwe Megi mogą ją przełamać",
+      "body1": "Ojej, mój mąż naprawdę przeszedł samego siebie! Raidy Super Mega to jego najnowsze i najbardziej podstępne dzieło — najsilniejsze Mega Legendy ukryte za całą ścianą tarcz. Pozwól, że wszystko Ci wyjaśnię, zanim Twoja grupa raidowa zostanie zaskoczona.",
+      "body2": "W trakcie walki boss się WŚCIEKA. Wpada w furię, jego obrona gwałtownie rośnie, a wokół niego pojawia się zestaw tarcz. Dopóki stoi choćby JEDNA tarcza, boss jest całkowicie nietykalny — możesz go okładać cały dzień, a nie dostanie nawet zadrapania.",
+      "body3": "Oto sekret: tylko atak specjalny PRAWDZIWEJ Mega Ewolucji może przełamać tarczę. Primal Groudon i Primal Kyogre mogą tak wyglądać, ale Primale NIE mogą przełamywać tarcz — tak samo jak zwykłe Pokemony. Dlatego każdy trener powinien umieścić Megę na OSTATNIM miejscu w drużynie: w chwili, gdy boss wpada w furię, Twoja Mega automatycznie wchodzi do walki z energią wystarczającą na atak specjalny i rozbija jedną tarczę.",
+      "body4": "Najwięksi bossowie — ci mityczni — stawiają około tuzina tarcz, więc potrzeba pełnego lobby około 12 lub więcej trenerów, z KTÓRYCH KAŻDY przyniesie własną Megę, aby zburzyć tę ścianę. Każdy rozbija jedną i wszystkie padają!",
+      "body5": "Reszta Twojej drużyny może składać się z Twoich zwykłych najlepszych atakujących — nie muszą być Megami, po prostu nie przełamią tarcz. Gdy tarcze opadną, boss się uspokaja i jest to normalny (no, bardzo DUŻY) raid. Jeśli korzystasz z automatycznej drużyny w aplikacji, sama umieści Megę na Twoim ostatnim miejscu. Powodzenia, moi drodzy!"
+    },
     "joinRaid": {
       "iconName": "link",
-      "title": "Join Raids",
-      "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
-      "heading": "TLDR: Mrs. Pokebattler will show you how to join a raid ",
+      "title": "Dołączanie do raidów",
+      "subtitle": "Dowiedz się, jak dołączać do raidów w aplikacji Pokebattler Raid Party",
+      "heading": "W skrócie: Mrs. Pokebattler pokaże Ci, jak dołączyć do raidu ",
       "slices": "9",
       "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_{{slice}}.png",
       "dimensions": {
@@ -22,8 +33,8 @@
     },
     "joinRaidAndroid": {
       "iconName": "link",
-      "title": "Join Raids",
-      "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
+      "title": "Dołączanie do raidów",
+      "subtitle": "Dowiedz się, jak dołączać do raidów w aplikacji Pokebattler Raid Party",
       "slices": "9",
       "fileName": "https://static.pokebattler.com/help/300/en-US/join_raid/join_raid_{{slice}}.png",
       "dimensions": {
@@ -34,9 +45,9 @@
     },
     "hostRaid": {
       "iconName": "plus-circle",
-      "title": "Host Raids",
-      "subtitle": "Learn how to host raids in the Pokebattler Raid Party app",
-      "heading": "Not sure how to host a raid? Mrs. Pokebattler is here to help",
+      "title": "Hostowanie raidów",
+      "subtitle": "Dowiedz się, jak hostować raidy w aplikacji Pokebattler Raid Party",
+      "heading": "Nie wiesz, jak hostować raid? Mrs. Pokebattler chętnie pomoże",
       "slices": "16",
       "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_{{slice}}.png",
       "dimensions": {
@@ -47,8 +58,8 @@
     },
     "hostRaidAndroid": {
       "iconName": "plus-circle",
-      "title": "Host Raids",
-      "subtitle": "Learn how to host raids in the Pokebattler Raid Party app",
+      "title": "Hostowanie raidów",
+      "subtitle": "Dowiedz się, jak hostować raidy w aplikacji Pokebattler Raid Party",
       "slices": "16",
       "fileName": "https://static.pokebattler.com/help/300/en-US/host_raid/host_raid_{{slice}}.png",
       "dimensions": {
@@ -59,9 +70,9 @@
     },
     "copyPaste": {
       "iconName": "clipboard",
-      "title": "How to Paste",
-      "heading": "Not sure how to copy & paste on your phone? Mrs. Pokebattler has a quick guide for you!",
-      "subtitle": "Learn how to paste a friend code in the Pokebattler Raid Party app",
+      "title": "Jak wkleić",
+      "heading": "Nie wiesz, jak kopiować i wklejać na telefonie? Mrs. Pokebattler ma dla Ciebie krótki poradnik!",
+      "subtitle": "Dowiedz się, jak wkleić kod przyjaciela w aplikacji Pokebattler Raid Party",
       "slices": "1",
       "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_{{slice}}.png",
       "dimensions": {
@@ -72,8 +83,8 @@
     },
     "copyPasteAndroid": {
       "iconName": "clipboard",
-      "title": "How to Paste",
-      "subtitle": "Learn how to paste a friend code in the Pokebattler Raid Party app",
+      "title": "Jak wkleić",
+      "subtitle": "Dowiedz się, jak wkleić kod przyjaciela w aplikacji Pokebattler Raid Party",
       "slices": "1",
       "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_android_{{slice}}.png",
       "dimensions": {

@@ -9,7 +9,8 @@
   "breakingNews": {
     "title": "Últimas noticias",
     "subtitle": "Incursiones populares en Pokémon Go",
-    "header": "Contadores de $t(constants:pokemon.{{pokemonId}})"
+    "header": "Contadores de $t(constants:pokemon.{{pokemonId}})",
+    "maxLink": "Combates Max actuales"
   },
   "articles": {
     "title": "¡Últimas noticias de incursiones!",
@@ -138,6 +139,16 @@
       "subtitle": "Incursión Mega",
       "intro": "Estas mega incursiones legendarias ya no están disponibles en las incursiones."
     },
+    "RAID_LEVEL_MEGA_ENHANCED_4_LEGACY": {
+      "title": "Nivel súper Mega antiguo",
+      "subtitle": "Incursión súper Mega",
+      "intro": "Estas incursiones súper Mega ya no están disponibles."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5_LEGACY": {
+      "title": "Nivel súper Mega Legendaria antiguo",
+      "subtitle": "Incursión súper Mega Legendaria",
+      "intro": "Estas incursiones súper Mega Legendarias ya no están disponibles."
+    },
     "RAID_LEVEL_MEGA_FUTURE": {
       "title": "Nivel Mega futuro",
       "subtitle": "Incursión Mega",
@@ -181,19 +192,29 @@
       "intro": "Las incursiones originales de Pokémon Go, utilizan un pase de incursión estándar o un pase de incursión remota."
     },
     "RAID_LEVEL_MEGAS": {
-        "title": "Megas",
-        "subtitle": "Incursiones Mega",
-        "intro": "Solo incursiones Mega y súper Mega."
+      "title": "Megas",
+      "subtitle": "Incursiones Mega",
+      "intro": "Solo incursiones Mega y súper Mega."
     },
     "RAID_LEVEL_NO_MEGAS": {
-        "title": "Sin mega",
-        "subtitle": "Incursiones sin Mega",
-        "intro": "Todas las incursiones estándar excepto las Mega."
+      "title": "Sin mega",
+      "subtitle": "Incursiones sin Mega",
+      "intro": "Todas las incursiones estándar excepto las Mega."
     },
-            "RAID_LEVEL_PRIMAL": {
-      "title": "Primal Tier",
-      "subtitle": "Primal Raid",
-      "intro": "Primal raids feature Primal Reversion pokemon and are among the most difficult raids available. They are typically done with groups of 6-10 level 30-40 players."
+    "RAID_LEVEL_PRIMAL": {
+      "title": "Nivel Primigenio",
+      "subtitle": "Incursión primigenia",
+      "intro": "Las incursiones primigenias presentan Pokémon con Regresión Primigenia y están entre las incursiones más difíciles disponibles. Normalmente se realizan con grupos de 6 a 10 jugadores de nivel 30 a 40."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_4": {
+      "title": "Nivel súper Mega",
+      "subtitle": "Incursión súper Mega",
+      "intro": "Las incursiones súper Mega son incursiones de nivel 7. Sus mecánicas aún se están investigando y las suposiciones pueden cambiar a medida que se verifiquen más datos."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5": {
+      "title": "Nivel súper Mega Legendaria",
+      "subtitle": "Incursión súper Mega Legendaria",
+      "intro": "Las incursiones súper Mega Legendarias (nivel 7) tienen 12 escudos y el jefe es invulnerable mientras está protegido. Solo los Pokémon Mega pueden romper escudos e infligir daño, así que hace falta una Mega; los Primigenios no pueden romper escudos y se excluyen de todos los resultados de la incursión."
     },
     "RAID_LEVEL_ULTRA_BEAST": {
       "title": "Nivel Ultraente",
@@ -330,6 +351,16 @@
       "subtitle": "Incursión Mega Legendaria",
       "intro": "¡Estas incursiones mega legendarias aún no están en el juego!"
     },
+    "RAID_LEVEL_MEGA_ENHANCED_4_FUTURE": {
+      "title": "Nivel súper Mega futuro",
+      "subtitle": "Incursión súper Mega",
+      "intro": "Estas incursiones súper Mega aún no están en el juego."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5_FUTURE": {
+      "title": "Nivel súper Mega Legendaria futuro",
+      "subtitle": "Incursión súper Mega Legendaria",
+      "intro": "Estas incursiones súper Mega Legendarias aún no están en el juego."
+    },
     "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
       "title": "Nivel Ultraente futuro",
       "subtitle": "Incursión de Ultraente",
@@ -432,8 +463,12 @@
       "thanks": "¡Gracias por tu apoyo!"
     },
     "superMegaWarning": {
+      "title": "Aviso de incursión súper Mega",
+      "invulnerable": "Durante la fase de furia el jefe es INVULNERABLE mientras le quede algún escudo: ningún Pokémon puede dañarlo hasta que se rompan todos los escudos.",
       "shieldBreaking": "Solo el ataque cargado de una verdadera Megaevolución puede romper un escudo, y cada jugador puede romper como máximo un escudo por fase de enfurecimiento. NO puedes usar Pokémon Primigenios: Groudon Primigenio y Kyogre Primigenio no pueden romper escudos, por lo que quedan excluidos de los contadores sugeridos.",
-      "playersNeeded": "A partir del 11 de julio, las incursiones de Mega-Mewtwo requieren 10 jugadores que usen una Megaevolución para romper el escudo."
+      "playersNeeded": "A partir del 11 de julio, las incursiones de Mega-Mewtwo requieren 10 jugadores que usen una Megaevolución para romper el escudo.",
+      "megaMewtwoX": "Excepción: Mega-Mewtwo X con Puño Dinámico rompe DOS escudos en lugar de uno.",
+      "research": "Comparte registros de incursiones y descubrimientos en el canal de investigación del Discord de Pokebattler Raid Party:"
     }
   },
   "raidAttackers": {
@@ -441,14 +476,51 @@
     "meta": {
       "description": "Los mejores atacantes de incursión de {{type}} {{move}} en Pokémon Go son {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} y {{top6}}. ¡Encuentra los mejores atacantes para todos los jefes de incursión con Pokebattler!"
     },
-    "details": "Los atacantes se agregan usando un algoritmo de clasificación que otorga puntos en función del rendimiento, en el nivel 40 sin bonificación de amigo o clima, ordenados por estimador. Se otorgan 5 puntos por un primer lugar, 4 puntos por un segundo lugar, 3 puntos por un cuarto lugar, 2 puntos por un octavo lugar, 1 punto por un decimosexto lugar. Luego, los puntos se ponderan por el nivel (10x para el nivel 5/mega, 4x para el nivel 3 y 0x para el nivel 1)"
+    "pokemonTypeFilterLabel": "Tipo de Pokémon",
+    "moveTypeFilterLabel": "Tipo de movimiento",
+    "filterHints": {
+      "pokemonType": "Debe coincidir cualquiera de sus dos tipos",
+      "moveType": "El ataque rápido o el cargado debe ser de este tipo"
+    },
+    "pageTitles": {
+      "all": "Mejores atacantes de incursión en Pokémon GO",
+      "pokemon": "Mejores atacantes de incursión de tipo {{typeNamePokemon}} en Pokémon GO",
+      "move": "Mejores atacantes de incursión con movimientos de tipo {{typeNameMove}}",
+      "both": "Mejores atacantes de incursión de tipo {{typeNamePokemon}} con movimientos de tipo {{typeNameMove}}"
+    },
+    "intros": {
+      "all": "Los mejores atacantes de incursión de Pokémon GO considerando todos los jefes son {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} y {{top6}}.",
+      "pokemon": "Los mejores atacantes de incursión de tipo {{typeNamePokemon}} de Pokémon GO son {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} y {{top6}}.",
+      "move": "Los mejores atacantes de incursión de Pokémon GO con un movimiento de tipo {{typeNameMove}} son {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} y {{top6}}.",
+      "both": "Los mejores atacantes de incursión de tipo {{typeNamePokemon}} de Pokémon GO con un movimiento de tipo {{typeNameMove}} son {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} y {{top6}}."
+    },
+    "seo": {
+      "titles": {
+        "all": "Mejores atacantes de incursión en Pokémon GO (todos los tipos) | Pokebattler",
+        "pokemon": "Mejores atacantes de incursión de tipo {{typeNamePokemon}} en Pokémon GO | Pokebattler",
+        "move": "Mejores atacantes de incursión con movimientos de tipo {{typeNameMove}} | Pokémon GO | Pokebattler",
+        "both": "Mejores atacantes de incursión de tipo {{typeNamePokemon}} con movimientos de tipo {{typeNameMove}} | Pokebattler"
+      },
+      "descriptions": {
+        "all": "Clasificación de atacantes de incursión de Pokémon GO sin filtro de tipo. Entre los mejores están {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} y {{top6}}. Compara por puntos, enfrentamientos o estimador en Pokebattler.",
+        "pokemon": "Atacantes de incursión de Pokémon GO filtrados por especies de tipo {{typeNamePokemon}} (en cualquiera de sus tipos). Destacados: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Página única, distinta de la clasificación por tipo de movimiento.",
+        "move": "Atacantes de incursión de Pokémon GO con al menos un ataque rápido o cargado de tipo {{typeNameMove}}. Destacados: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Página única, distinta de la clasificación por tipo de Pokémon.",
+        "both": "Atacantes de incursión de tipo {{typeNamePokemon}} de Pokémon GO con movimientos de tipo {{typeNameMove}}. Destacados: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Filtrado por tipo de especie y tipo de movimiento."
+      }
+    },
+    "details": "Los atacantes se agregan usando un algoritmo de clasificación que otorga puntos en función del rendimiento, en el nivel 40 sin bonificación de amigo o clima, ordenados por estimador. Se otorgan 5 puntos por un primer lugar, 4 puntos por un segundo lugar, 3 puntos por un cuarto lugar, 2 puntos por un octavo lugar, 1 punto por un decimosexto lugar. Luego, los puntos se ponderan por el nivel (10x para el nivel 5/mega, 4x para el nivel 3 y 0x para el nivel 1)",
+    "superMega": {
+      "helpTitle": "Cómo ganar las incursiones súper Mega",
+      "helpBody": "Los jefes súper Mega entran en furia a mitad del combate y levantan escudos. Mientras los escudos están activos, el jefe es invulnerable y SOLO puede recibir daño del ataque cargado de una Megaevolución de verdad (por ejemplo Mega-Rayquaza; los Primigenios como Groudon Primigenio y Kyogre Primigenio NO cuentan). Pon una Mega en el último puesto de tu equipo para que entre automáticamente cuando el jefe entre en furia y rompa un escudo con su ataque cargado. Los Primigenios y los Pokémon que no son Mega siguen haciendo mucho daño, pero no pueden romper escudos, así que un jefe súper Mega singular con unos 12 escudos necesita una sala completa de unos 12 jugadores o más, todos con Megas.",
+      "primalNote": "Nota: la lista de contadores sugeridos excluye a los Primigenios. Los Primigenios hacen mucho daño, pero no pueden romper los escudos de un jefe súper Mega; solo las Megaevoluciones de verdad pueden."
+    }
   },
   "raidAttackerDetails": {
-    "title": "Análisis del atacante de incursión {{attackerName}}",
+    "title": "{{attackerName}} {{move1Name}} {{move2Name}} - Atacante de incursión Pokémon GO | Pokebattler",
     "subtitle": "{{move1Name}} {{move2Name}}",
     "meta": {
       "title": "Atacante de incursión - {{attackerName}} {{move1Name}} {{move2Name}}",
-      "description": "Los mejores jefes de incursión para que {{attackerName}} derrote en Pokémon Go usando {{move1Name}} y {{move2Name}} son {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} y {{counter6}}. Encuentra los mejores jefes de incursión para que {{attackerName}} derrote en Pokémon Go usando {{move1Name}} y {{move2Name}}. ¡Descubre exactamente qué tan útil es {{attackerName}} en las incursiones de Pokémon Go!"
+      "description": "{{attackerName}} con {{move1Name}} / {{move2Name}} es uno de los mejores atacantes de incursión de Pokémon GO y derrota a {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} y {{counter6}} en incursiones. ¡Encuentra en Pokebattler todos los jefes de incursión contra los que {{attackerName}} sirve de counter!"
     },
     "availableMoves": "Movimientos disponibles",
     "counters": "Contadores"
@@ -550,6 +622,26 @@
       }
     }
   },
+  "guides": {
+    "title": "Guías",
+    "subTitle": "Guías de incursión de Pokémon GO del Profesor Geekbeak",
+    "meta": {
+      "description": "Consigue las guías de incursión de Pokémon GO del Profesor Geekbeak. ¡Estas guías visuales te ayudan a prepararte para los jefes de incursión con los mejores contadores y estrategias!",
+      "image": "https://static.pokebattler.com/images/professor_geekbeek_generic.jpg"
+    },
+    "articles": {
+      "title": "Guías de incursión de Pokémon GO",
+      "subtitle": "Guías visuales de incursión del Profesor Geekbeak"
+    },
+    "author": {
+      "name": "Profesor Geekbeak",
+      "title": "Guías de incursión del Profesor Geekbeak",
+      "meta": {
+        "description": "¡Guías de incursión de Pokémon GO del Profesor Geekbeak! ¡Estas guías visuales te ayudan a prepararte para los jefes de incursión con los mejores contadores y estrategias!",
+        "image": "https://static.pokebattler.com/images/professor_geekbeek_generic.jpg"
+      }
+    }
+  },
   "pokebox": {
     "login": "Los contadores de incursiones de Pokebattler se pueden personalizar para mostrarte los Pokémon exactos que realmente posees usando tu propia Pokebox personal. ¡Inicia sesión, agrega tus mejores Pokémon a tu Pokebox personal y ve cuáles de los pokemon que posees son los mejores!",
     "enabled": "Mostrando resultados personalizados para tu Pokebox. Los 30 mejores contadores que posees se muestran a continuación.",
@@ -576,11 +668,124 @@
     }
   },
   "battle": {
-    "resultLink": "Ver este resultado como un grupo de batalla"
+    "resultLink": "Ver este resultado como un grupo de batalla",
+    "soloAttemptsLink": "Simular intentos en solitario con el mejor contador",
+    "soloTechniquesLink": "Técnicas avanzadas para incursiones en solitario"
   },
   "helpLink": "Ver el video tutorial de la incursión",
   "silph": {
     "text": "Lista actual de jefes de incursión proporcionada por",
     "link": "The Silph Road"
+  },
+  "max": {
+    "title": "Contadores de Combates Max",
+    "linkLabel": "Contadores de Combates Max",
+    "raidsLink": "Incursiones actuales",
+    "breakingNews": {
+      "title": "Noticias de Combates Max",
+      "subtitle": "Combates Max activos ahora o que empiezan en menos de una semana"
+    },
+    "meta": {
+      "description": "Encuentra contadores para Combates Max Dinamax y Gigamax de Pokémon GO. Consigue los mejores atacantes, sanadores y protectores con la guía de Combates Max personalizada n.º 1 del mundo.",
+      "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "intro": "¡Llegan los Combates Max! Descubre qué Pokémon contrarrestan mejor a los jefes Dinamax y Gigamax con la guía de Combates Max personalizada más precisa del mundo para Pokémon GO. ¡Selecciona abajo un jefe de Combate Max para ver los mejores contadores para cada combinación de movimientos!",
+    "current": {
+      "title": "Combates Max actuales",
+      "description": "Jefes Dinamax y Gigamax que aparecen ahora en los nodos energéticos."
+    },
+    "upcoming": {
+      "title": "Próximos Combates Max",
+      "description": "Jefes Dinamax y Gigamax que pronto aparecerán en los nodos energéticos."
+    },
+    "legacy": {
+      "title": "Combates Max antiguos",
+      "description": "Jefes Dinamax y Gigamax que aparecieron en los nodos energéticos en el pasado."
+    },
+    "boss": {
+      "title": "Contadores del Combate Max de {{pokemon}} ({{tier}})",
+      "intro": "Estos son los mejores contadores para el Combate Max de {{pokemon}}. Elige abajo un rol de atacante, defensor, cargador, sanador o protector para ver los mejores Pokémon para tu equipo y luego toca para ver la lista completa de contadores personalizados.",
+      "meta": {
+        "description": "Encuentra los mejores contadores, sanadores y protectores para el Combate Max de {{pokemon}} en Pokémon GO con la guía de Combates Max personalizada n.º 1 del mundo.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+      },
+      "rankings": {
+        "attack": {
+          "label": "Atacantes",
+          "description": "Mucho daño en la fase Max"
+        },
+        "charge": {
+          "label": "Defensores",
+          "description": "Cargan el contador y aguantan golpes"
+        },
+        "meterCharge": {
+          "label": "Cargadores",
+          "description": "Contador rápido, aguantan ataques en área"
+        },
+        "heal": {
+          "label": "Sanadores",
+          "description": "Curan al equipo"
+        },
+        "shield": {
+          "label": "Protectores",
+          "description": "Escudos y provocación"
+        },
+        "party": {
+          "label": "Sala",
+          "description": "Crea una sala de 4 Entrenadores y simúlala en combate."
+        }
+      },
+      "counters": {
+        "attack": "Mejores atacantes contra {{pokemon}}",
+        "charge": "Mejores defensores contra {{pokemon}}",
+        "meterCharge": "Mejores cargadores contra {{pokemon}}",
+        "heal": "Mejores sanadores contra {{pokemon}}",
+        "shield": "Mejores protectores contra {{pokemon}}"
+      },
+      "party": {
+        "title": "Sala del Combate Max de {{pokemon}}",
+        "description": "Una sala de Combate Max tiene hasta 4 Entrenadores que llevan 3 Pokémon cada uno: un Atacante lleva 2 Cargadores y 1 Atacante, un Entrenador defensivo lleva 2 Defensores y 1 Atacante, un Sanador lleva 1 Sanador y 2 Defensores, y un Protector lleva 3 Protectores. Elige tu rol y el de los demás Entrenadores (o deja un puesto en Ninguno para una sala más pequeña) y mira cómo le va a toda la sala contra {{pokemon}}.",
+        "roles": {
+          "attack": "Atacante",
+          "defensive": "Defensivo",
+          "heal": "Sanador",
+          "shield": "Protector",
+          "none": "Ninguno"
+        },
+        "slotRoles": {
+          "attack": "Atacante",
+          "charge": "Defensor",
+          "meter_charge": "Cargador",
+          "shield": "Protector",
+          "heal": "Sanador"
+        },
+        "slotHints": {
+          "attack": "Solo en la fase Max",
+          "charge": "Carga el contador Max",
+          "meter_charge": "Llena rápido el contador Max",
+          "shield": "Protege al equipo",
+          "heal": "Cura al equipo"
+        },
+        "you": "Tú",
+        "trainer": "Entrenador {{number}}",
+        "yourRole": "Tu rol",
+        "theirRole": "Su rol",
+        "lobbyNote": "Los demás Entrenadores se simulan como equipos genéricos del rol que les asignaste.",
+        "swapNote": "Los Cargadores llenan rápido el contador Max y aguantan dos ataques en área; los Defensores lo cargan más despacio pero resisten en el campo más tiempo. El Atacante entra solo para la fase Max y luego vuelve a salir.",
+        "teamUnavailable": "Ahora mismo no hemos podido elegir un equipo de {{role}} para este jefe.",
+        "teamFailed": "No se pudo cargar el equipo de {{role}}. Inténtalo de nuevo.",
+        "error": "No se pudo simular esta sala. Inténtalo de nuevo más tarde.",
+        "openSimulator": "Personalizar en el simulador de Combates Max",
+        "viewLog": "Ver registro del combate",
+        "emptySeat": "No hay nadie en este puesto.",
+        "genericFallback": "Elección genérica",
+        "alternatives": "Cambiar",
+        "unavailable": "Ahora mismo no hemos podido crear tu equipo para este jefe. Inténtalo de nuevo en un momento.",
+        "retry": "Reintentar",
+        "tankUptime": "Tiempo activo del protector"
+      },
+      "pokeboxToggle": "Usar mi Pokebox",
+      "fullCounters": "Ver la lista completa de contadores de {{pokemon}}"
+    }
   }
 }

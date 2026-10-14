@@ -68,14 +68,32 @@
     "points": "Punkte",
     "xlcandy": "XL Bonbons",
     "matchups": "Matchups",
-    "avg_estimator": "Avg. Estimator",
-    "dynamaxEnergy": "Max Energy"
+    "avg_estimator": "Ø Estimator",
+    "dynamaxEnergy": "Dyna-Energie",
+    "total_heal": "Heilung gesamt",
+    "total_shield": "Schild gesamt",
+    "heal_rating": "Heiler-Wertung",
+    "shield_rating": "Schützer-Wertung",
+    "tank_rating": "Schützer-Wertung",
+    "survival": "Überleben",
+    "attack_rating": "Angriffswertung",
+    "tank": "Schützer-Wertung",
+    "charger": "Verteidiger-Wertung",
+    "meter_charge": "Auflader-Wertung",
+    "spread_survival": "Übersteht 2 Flächenangriffe",
+    "survives_to_enrage": "Überlebt bis zur Raserei",
+    "survival_time": "Überlebenszeit"
   },
   "sectionLinks": {
     "help": "Hilfebereich",
     "about": "Über uns"
   },
-  "simulation": "Eine Simulation wurde",
+  "simulation": {
+    "starting": "Simulation wird gestartet …",
+    "running": "Simuliere …",
+    "eta": "Simuliere … ~{{eta}} s",
+    "busy": "Ausgelastet, neuer Versuch …"
+  },
   "simulation_plural": "{{count, commas}} Simulationen wurden",
   "chooseMovesetLabel": "Attackenmuster auswählen",
   "hd": {
@@ -115,7 +133,9 @@
     "newVersion": "Neue Version",
     "subscription": "Abonnement",
     "calculating": "Am Berechnen",
-    "share": "Teilen"
+    "share": "Teilen",
+    "loadingPartyDetails": "Teamdetails werden geladen …",
+    "noPartySelected": "Keine Raid-Party ausgewählt"
   },
   "message": {
     "bulk": "Massenimport von {{num}} Pokemon, das kann eine Weile dauern",
@@ -136,6 +156,8 @@
     "subscriptionCardUpdateSuccess": "Zahlungsinformationen erfolgreich aktualisiert",
     "subscriptionCardUpdateFailure": "Zahlungsinformationen konnten nicht aktualisiert werden",
     "calculating": "Noch am berechnen. {{elapsed}} Sekunden bisher.",
+    "simulationTimeout": "Die Simulation dauert länger als erwartet. Versuche es in einer Minute erneut, dann ist sie vielleicht fertig.",
+    "simulationFailed": "Die Simulation ist fehlgeschlagen. Versuche es in einer Minute erneut.",
     "clipboard": "Kopiert! Bereit zum Einfügen",
     "share": "Teile mit deinen Freunden",
     "network": "Netzwerkfehler. Eine Netzwerkverbindung ist für diese Anwendung erforderlich.",
@@ -222,6 +244,8 @@
       "tutorials": "Tutorials",
       "raidNetworkDiscords": "Raid Netzwerk",
       "infographics": "Infografiken",
+      "guides": "Guides",
+      "max": "Dyna-Kämpfe",
       "pvprankings": "$t(pvp)",
       "pvppokedex": "$t(pvp)"
     },
@@ -232,6 +256,7 @@
       "help": "Anleitungen, Begriffe und Definitionen",
       "account": "Passe Pokebattler an, in dem du Pokemon zu deiner Pokebox und Kampfgruppen hinzufügst",
       "more": "Neuigkeiten, Artikel, Übersetzungen, Wie du zu uns Kontakt aufnimmst und mehr",
+      "max": "Top-Konter und Simulationen für Dynamax- und Gigadynamax-Kämpfe",
       "profiles": "Finde die Pokemon aus den Pokeboxen deiner Freunde",
       "rocket": "Akkurate Team-Rocket-Konter",
       "pvppokedex": "$t(pvp) Konter und Matchups  für jedes Pokemon",
@@ -274,7 +299,15 @@
   "seconds": "Sekunden",
   "rejoin": {
     "label": "Wiederbeitrittszeit",
-    "default": "Niemals"
+    "default": "Niemals",
+    "never": "Nie",
+    "defaultSuffix": "(Standard)",
+    "techniques": "Solo-Raid-Techniken",
+    "techniqueOptions": {
+      "REJOIN": "Neu beitreten (7 Sekunden)",
+      "ADVANCED_REJOIN": "Fortgeschrittenes Neubeitreten (5,5 Sekunden)",
+      "DOUBLE_BATTLE_PARTY": "Doppeltes Kampfteam (jedes zweite Neubeitreten 40 % schneller)"
+    }
   },
   "find": "Finde",
   "profiles": "Profile",
@@ -351,7 +384,12 @@
   "auto": "Auto",
   "includeMegas": "Mega Pokémon anzeigen",
   "harmony": "Harmonie",
-  "mega": "Mega",
+  "mega": {
+    "title": "Dein Mega",
+    "description": "Welches deiner Megas das Kampfteam aus deiner Pokébox anführt. „Auto“ behält das bestplatzierte Mega. Aktiviere Bonus-Bonbons, um zuerst die Megas aufzulisten, die einen Typ mit dem Boss teilen – wenn du eines davon megaentwickelst, erhältst du beim Fangen zusätzliche Bonbons.",
+    "auto": "Auto (bestplatziert)",
+    "candyFirst": "🍬 Bonus-Bonbons zuerst"
+  },
   "megas": "Mega",
   "choosePokemonLabel": "Pokémon auswählen",
   "xlcandy": {
@@ -366,6 +404,10 @@
   "gigantamax": "Gigadynamax",
   "unavailable": "Nicht verfügbar",
   "primalAssistants": "Aktive Proto-Boost",
+  "adventureEffects": {
+    "title": "Abenteuereffekte",
+    "description": "Aktive Abenteuereffekte. Gigantenhieb (Zacian): +10 % Schaden in Raids, +5 % in Dyna-Kämpfen. Gigantenstoß (Zamazenta): +10 % Verteidigung in Raids, +5 % in Dyna-Kämpfen."
+  },
   "genericError": {
     "title": "$t(common:status.error)",
     "description": "$t(common:message.error)"
@@ -378,8 +420,46 @@
     "title": "Weitere Megas",
     "description": "Die Anzahl zusätzlicher Megas, die von anderen Spielern eingesetzt werden. Megas werden gestaffelt eingesetzt, um die Wirkungsdauer des Mega-Buffs zu verlängern."
   },
+  "megaLevel": {
+    "title": "Mega-Level",
+    "description": "Der Mega-Level der Megas im Kampf. Mega-Level 2–4 verstärken die exklusive „+“-Lade-Attacke eines Megas. Standardmäßig wird der höchste Level 4 verwendet.",
+    "options": {
+      "1": "Mega-Level 1",
+      "2": "Mega-Level 2",
+      "3": "Mega-Level 3",
+      "4": "Mega-Level 4 (Standard)"
+    }
+  },
   "legacyDate": "{{legacyDate,shortDate}}",
   "from": "Vom",
   "until": "Bis",
-  "localTime": "Ortszeit"
+  "localTime": "Ortszeit",
+  "partyGrid": {
+    "title": "Pokémon wählen",
+    "addPokemon": "Pokémon hinzufügen",
+    "pokebox": "Meine Pokébox",
+    "generic": "Eigenes Pokémon",
+    "choosePokemon": "Pokémon wählen",
+    "use": "Pokémon verwenden",
+    "edit": "Bearbeiten",
+    "remove": "Entfernen",
+    "moveLeft": "Nach links",
+    "moveRight": "Nach rechts",
+    "saveToPokebox": "In Pokébox speichern",
+    "savedToPokebox": "In Pokébox gespeichert!",
+    "loginPrompt": "Melde dich an, um Pokémon aus deiner Pokébox zu wählen. Du kannst trotzdem ein Team mit eigenen Pokémon zusammenstellen.",
+    "pokeboxEmpty": "Keine Dynamax-Pokémon in deiner Pokébox gefunden.",
+    "savePartyName": "Name des Kampfteams",
+    "saveParty": "Als Kampfteam speichern",
+    "savePartyLogin": "Melde dich an, um dieses Team zu speichern",
+    "savePartyPokeboxOnly": "Speichere jedes eigene Pokémon in deiner Pokébox, bevor du das Team speicherst.",
+    "customParty": "Oder stelle ein eigenes Team zusammen – ohne Anmeldung:"
+  },
+  "edit": "Bearbeiten",
+  "close": "Schließen",
+  "form": {
+    "validation": {
+      "required": "Pflichtfeld"
+    }
+  }
 }

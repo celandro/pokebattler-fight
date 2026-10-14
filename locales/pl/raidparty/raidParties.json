@@ -1,133 +1,144 @@
 {
-  "title": "Raid Parties",
+  "title": "Drużyny raidowe",
   "result": {
     "title": "#{{id}} {{defender}}"
   },
   "helpModal": {
     "raidNetwork": {
-      "title": "Pokebattler Raid Network",
-      "subtitle": "Join Remote Raids",
-      "description": "Pokebattler Raid Network is a way to join raids with your friends in the Pokebattler app, third party apps or on Discord. ",
-      "description2": "Joining Discord raids in the Pokebattler Raid Network is quick and easy! Simply join the raid and it will temporarily join you to the discord server, add you into the raid, and send you to the discord channel for communication with the host. You will automatically be removed from the server after some time by Discord itself.  Your spot in the raid will be saved for a short amount of time until you click to temporarily join the server in Discord ",
-      "description3": "In order to use the network, you will need to enter your trainer name and friend code. This is shared with the discord bots to allow for raid coordination. Discord Raids require linking your Discord account as well.",
-      "description4": "Discord Raids are hosted in either Pokenav or Nexus bots and are controlled by the server owners. These global raids are sent to the network after a delay, allowing users local on the server to join first.  You can join when the countdown timer hits 0 or the ⏩ button appears.",
-      "description5": "Pokebattler subscribers currently have a small head start for joining raids. This may also be used by spending coins. You can join the raid early by clicking the ⏩ button.",
-      "joinDescription": "Raids with chat are supported via discord bot integrations and can be hosted in any Discord that has Nexus or PokeNav configured for the Raid Network.",
-      "joinButton": "Join Pokebattler Raid Party Discord",
-      "beConsiderate": "Please be considerate of the servers you are joining and be on your best behavior! Abusive players, disorderly conduct and players who do not coordinate with the raid will be permanently banned from the raid network."
+      "title": "Sieć raidów Pokebattler",
+      "subtitle": "Dołączaj do zdalnych raidów",
+      "description": "Sieć raidów Pokebattler to sposób na dołączanie do raidów ze znajomymi w aplikacji Pokebattler, w aplikacjach zewnętrznych lub na Discordzie. ",
+      "description2": "Dołączanie do raidów z Discorda w Sieci raidów Pokebattler jest szybkie i proste! Po prostu dołącz do raidu, a zostaniesz tymczasowo dodany do serwera Discord, wpisany do raidu i przeniesiony na kanał Discord, gdzie porozumiesz się z hostem. Po pewnym czasie Discord sam automatycznie usunie Cię z serwera. Twoje miejsce w raidzie będzie przez chwilę zarezerwowane, dopóki nie klikniesz, aby tymczasowo dołączyć do serwera na Discordzie ",
+      "description3": "Aby korzystać z sieci, musisz podać nazwę trenera i kod przyjaciela. Są one udostępniane botom Discord, aby umożliwić koordynację raidu. Raidy z Discorda wymagają też połączenia konta Discord.",
+      "description4": "Raidy z Discorda są hostowane przez boty PokeNav lub Nexus i zarządzane przez właścicieli serwerów. Te globalne raidy trafiają do sieci z opóźnieniem, aby lokalni użytkownicy serwera mogli dołączyć pierwsi. Możesz dołączyć, gdy licznik dojdzie do 0 lub pojawi się przycisk ⏩.",
+      "description5": "Subskrybenci Pokebattlera mają obecnie niewielką przewagę przy dołączaniu do raidów. Można z niej też skorzystać, wydając monety. Dołączysz wcześniej, klikając przycisk ⏩.",
+      "joinDescription": "Raidy z czatem są obsługiwane przez integracje z botami Discord i mogą być hostowane na każdym serwerze Discord, na którym Nexus lub PokeNav są skonfigurowane dla Sieci raidów.",
+      "joinButton": "Dołącz do Discorda Pokebattler Raid Party",
+      "beConsiderate": "Szanuj serwery, do których dołączasz, i zachowuj się jak najlepiej! Agresywni gracze, osoby zakłócające porządek i gracze, którzy nie współpracują w raidzie, zostaną na stałe zbanowani w sieci raidów."
     },
     "raidPlayer": {
-      "title": "Pokebattler Raid Party App Raids",
-      "subtitle": "Joining a Raid",
-      "description": "There are two types of raids you can join in the Pokebattler Raid Network",
-      "description2": "Pokebattler raids are hosted in this app and supports a guided raid flow. Discord Raids are hosted inside partner Discord communities and supports chat.",
-      "appRaid": "Pokebattler Raids",
-      "appRaid1": "Upon joining a Pokebattler Raid there are simple steps to follow",
-      "appRaid1Step1": "Select if you are local or remote.",
-      "appRaid1Step2": "If remote, the host's trainer code is automatically copied for you. Enter Pokemon Go, add a friend and paste the code",
-      "appRaid1Step3": "Return to the Pokebattler Raid Party app and click Friend Invite Sent",
-      "appRaid2": "You are now ready to raid! When the host starts the raid, you will receive a push notification and a countdown timer will appear",
-      "discordRaid": "Discord Raids",
-      "discordRaid1": "Pokebattler Raid Network supports both PokeNav bot and Nexus bot.",
-      "discordRaid2": "When you join a Discord raid, Pokebattler will automatically send you into the raid channel and add you to the discord raid",
-      "discordRaid3": "Communicate inside Discord with the raid members!",
-      "discordRaid4": "Discord Raids require Discord app to be installed on your phone. Instructions for using the bots can be found at their websites"
+      "title": "Raidy w aplikacji Pokebattler Raid Party",
+      "subtitle": "Dołączanie do raidu",
+      "description": "W Sieci raidów Pokebattler możesz dołączać do dwóch rodzajów raidów",
+      "description2": "Raidy Pokebattler są hostowane w tej aplikacji i prowadzą Cię krok po kroku. Raidy z Discorda są hostowane w partnerskich społecznościach Discord i mają czat.",
+      "appRaid": "Raidy Pokebattler",
+      "appRaid1": "Po dołączeniu do raidu Pokebattler wykonaj kilka prostych kroków",
+      "appRaid1Step1": "Wybierz, czy jesteś na miejscu, czy zdalnie.",
+      "appRaid1Step2": "Jeśli zdalnie, kod trenera hosta zostanie automatycznie skopiowany. Otwórz Pokémon GO, dodaj przyjaciela i wklej kod",
+      "appRaid1Step3": "Wróć do aplikacji Pokebattler Raid Party i kliknij Wysłano zaproszenie do znajomych",
+      "appRaid2": "Możesz raidować! Gdy host rozpocznie raid, dostaniesz powiadomienie push i pojawi się licznik czasu",
+      "discordRaid": "Raidy z Discorda",
+      "discordRaid1": "Sieć raidów Pokebattler obsługuje boty PokeNav i Nexus.",
+      "discordRaid2": "Gdy dołączasz do raidu z Discorda, Pokebattler automatycznie przeniesie Cię na kanał raidu i doda do raidu na Discordzie",
+      "discordRaid3": "Rozmawiaj z uczestnikami raidu na Discordzie!",
+      "discordRaid4": "Raidy z Discorda wymagają zainstalowanej aplikacji Discord na telefonie. Instrukcje korzystania z botów znajdziesz na ich stronach"
     },
     "raidHost": {
-      "title": "Pokebattler Raid Party App Raids",
-      "subtitle": "Hosting a Raid",
-      "description": "Hosting a raid in the Pokebattler app is simpler than you think! In app raids are designed to be a guided flow to help the raid be successful. Pokebattler will tell all party members what to do and let you know whether your group will win!",
-      "description2": "First Choose your privacy level, raid tier and raid boss and click Play. Your raid will be available to join immediately for in app friends. If you chose global, all app users and discord servers in the raid network will be notified of your raids and will be able to join after a few seconds",
-      "description3": "As players join, your friend code will automatically be shared with them and they will be informed they need to send you friend invites in Pokemon Go. As users send invites, they will be marked as ready and you will receive a push notification to let you know to check your Pokemon Go friend invites. Accept the invites",
-      "description4": "Last step, come back to the Pokebattler Raid Party App and when you are ready, click Go!",
+      "title": "Raidy w aplikacji Pokebattler Raid Party",
+      "subtitle": "Hostowanie raidu",
+      "description": "Hostowanie raidu w aplikacji Pokebattler jest prostsze, niż myślisz! Raidy w aplikacji prowadzą krok po kroku, aby raid się udał. Pokebattler powie wszystkim członkom drużyny, co mają robić, i da Ci znać, czy Twoja grupa wygra!",
+      "description2": "Najpierw wybierz poziom prywatności, poziom raidu i bossa, a potem kliknij Graj. Twój raid będzie od razu dostępny dla przyjaciół w aplikacji. Jeśli wybierzesz globalny, wszyscy użytkownicy aplikacji i serwery Discord w sieci raidów dostaną powiadomienie i będą mogli dołączyć po kilku sekundach",
+      "description3": "Gdy gracze dołączają, Twój kod przyjaciela zostanie im automatycznie udostępniony, a oni dowiedzą się, że muszą wysłać Ci zaproszenie do znajomych w Pokémon GO. Gdy wyślą zaproszenia, zostaną oznaczeni jako gotowi, a Ty dostaniesz powiadomienie push, aby sprawdzić zaproszenia w Pokémon GO. Zaakceptuj je",
+      "description4": "Ostatni krok: wróć do aplikacji Pokebattler Raid Party i gdy będziesz gotowy, kliknij Start!",
       "advanced": "Advanced",
-      "advanced1": "Now that you know the basics, there's a lot more features packed into hosting for players who truly want to raid with confidence",
-      "advanced2": "Default settings have been chosen on your behalf, but click the edit button to configure your raid to your liking.",
+      "advanced1": "Znasz już podstawy, ale hostowanie ma o wiele więcej funkcji dla graczy, którzy chcą raidować z pełną pewnością",
+      "advanced2": "Ustawienia domyślne zostały wybrane za Ciebie, ale kliknij przycisk edycji, aby skonfigurować raid po swojemu.",
       "options": {
         "weatherCondition": {
-          "label": "Weather Condition",
-          "description": "If meteors truly are expected, keep the weather at Extreme. Otherwise choose the appropriate weather!"
+          "label": "Pogoda",
+          "description": "Jeśli naprawdę spodziewasz się meteorytów, zostaw pogodę na Ekstremalnej. W przeciwnym razie wybierz właściwą pogodę!"
         },
         "quickMove": {
-          "label": "Quick Move",
-          "description": "The quick move of the boss. Honestly you probably will get this wrong if you pick it"
+          "label": "Szybki ruch",
+          "description": "Szybki ruch bossa. Szczerze mówiąc, prawdopodobnie źle go wybierzesz"
         },
         "cinematicMove": {
-          "label": "Charge Move",
-          "description": "The charge move of the boss. If you somehow know an electric move is coming you can choose this"
+          "label": "Ruch ładowany",
+          "description": "Ruch ładowany bossa. Jeśli jakimś cudem wiesz, że nadchodzi ruch elektryczny, możesz go tu wybrać"
         },
         "privacy": {
           "label": "Privacy",
-          "description": "When you host a party, you can choose who can join. Global can be joined by anyone. Friends can be joined by your friends. Private can only be joined by raid party id"
+          "description": "Hostując drużynę, wybierasz, kto może dołączyć. Do globalnej może dołączyć każdy. Do drużyny dla przyjaciół — Twoi przyjaciele. Do prywatnej — tylko po ID drużyny raidowej"
         },
         "maxInvites": {
-          "label": "Max Invites",
-          "description": "Number of players who you can invite into the raid"
+          "label": "Maks. zaproszeń",
+          "description": "Liczba graczy, których możesz zaprosić do raidu"
         },
         "randomAssistants": {
-          "label": "Extra Players",
-          "description": "Number of extra players that are joining the raid who are not using the app"
+          "label": "Dodatkowi gracze",
+          "description": "Liczba dodatkowych graczy dołączających do raidu bez aplikacji"
         }
       }
     }
   },
   "raidPartyRejoinCard": {
-    "title": "Rejoin Current Raid",
-    "subtitle": "You may only join one raid at a time. Please click to rejoin and finish the raid"
+    "title": "Wróć do bieżącego raidu",
+    "subtitle": "Możesz być w jednym raidzie naraz. Kliknij, aby wrócić i dokończyć raid"
+  },
+  "demandChip": {
+    "shortage": "🔥 Duży popyt",
+    "glut": "🧊 Dużo lobby"
+  },
+  "hostingToggle": {
+    "online": "Online",
+    "offline": "Offline",
+    "offlineHint": "Powiadomienia o tworzeniu raidów są wstrzymane, gdy jesteś offline."
   },
   "raidPartyCard": {
     "title": "{{ownerName}}'s Party",
     "id": "#{{id}}",
-    "createdAt": "Created at {{createdAt}}.",
-    "globalTime": "{{globalTime}}"
+    "createdAt": "Utworzono {{createdAt}}.",
+    "globalTime": "{{globalTime}}",
+    "verifiedRaidNote": "✓ Zweryfikowany Raid — wszyscy trenerzy mają drużyny zweryfikowane przez serwer.",
+    "verifiedRaidMegaNote": "✓ Zweryfikowany Raid — wymagane zweryfikowane drużyny, a każda drużyna musi zawierać Megę lub Primala."
   },
   "raidPartySummaryCard": {
     "title": "{{defender}}",
     "subtitle": "{{ownerName}}"
   },
   "raidPartyKicked": {
-    "title": "Removed From Raid",
-    "description": "The host has removed you from the raid.",
-    "reasonHeading": "Common Reasons For Removal",
-    "reason1": "You did not send a friend invite to the host.",
-    "reason2": "Your username and friend code do not exactly match what is in Pokemon Go.",
-    "reason3": "The host does not believe the raid will be successful. Some bosses are extremely difficult and can not be completed with lower level players who often do not use high damage counters.",
-    "pokebox": "Add your pokemon to your Pokebox to show the host you are using the proper counters"
+    "title": "Usunięto Cię z raidu",
+    "description": "Host usunął Cię z raidu.",
+    "reasonHeading": "Najczęstsze powody usunięcia",
+    "reason1": "Nie wysłałeś hostowi zaproszenia do znajomych.",
+    "reason2": "Twoja nazwa użytkownika i kod przyjaciela nie zgadzają się dokładnie z tymi w Pokémon GO.",
+    "reason3": "Host nie wierzy, że raid się uda. Niektórzy bossowie są wyjątkowo trudni i nie da się ich pokonać z graczami na niższym poziomie, którzy często nie używają mocnych kontr.",
+    "pokebox": "Dodaj swoje Pokémony do Pokéboxa, aby pokazać hostowi, że używasz właściwych kontr"
   },
   "raidPartyHost": {
-    "title": "Raid Host",
-    "description": "Send a friend invite to {{name}} in Pokemon Go",
+    "title": "Host raidu",
+    "description": "Wyślij zaproszenie do znajomych do {{name}} w Pokémon GO",
     "hostInfo": "{{name}}",
-    "friendInviteSent": "Friend Invite Sent",
-    "confirmFriend": "Confirm friendship with {{name}}",
+    "friendInviteSent": "Wysłano zaproszenie do znajomych",
+    "confirmFriend": "Potwierdź przyjaźń z {{name}}",
     "PRIVATE": {
-      "instructions": "This is a private raid. Share your raid party with your friends using the share icon in the top right."
+      "instructions": "To prywatny raid. Udostępnij drużynę raidową znajomym ikoną udostępniania w prawym górnym rogu."
     },
     "FRIEND": {
-      "instructions": "Notifications have been sent to your in app friends. Share your raid party with others using the share icon in the top right."
+      "instructions": "Powiadomienia trafiły do Twoich przyjaciół w aplikacji. Udostępnij drużynę raidową innym ikoną udostępniania w prawym górnym rogu."
     },
     "GLOBAL": {
-      "instructions": "Your global raid is available for anyone to join! Look for friend invites in game. Once you have enough players, start the raid countdown"
+      "instructions": "Twój globalny raid jest otwarty dla wszystkich! Wypatruj zaproszeń do znajomych w grze. Gdy zbierzesz dość graczy, uruchom odliczanie do raidu"
     }
   },
   "raidPartyUserStatus": {
     "NONE": {
-      "hostDescription": "Select whether you are local or remote"
+      "hostDescription": "Wybierz, czy jesteś na miejscu, czy zdalnie"
     },
     "READY": {
-      "hostDescription": "Look around for {{name}}!"
+      "hostDescription": "Rozejrzyj się za {{name}}!"
     },
     "INTERESTED": {
-      "hostDescription": "Select whether you are local or remote"
+      "hostDescription": "Wybierz, czy jesteś na miejscu, czy zdalnie"
     },
     "REMOTE": {
-      "hostDescription": "Send a friend invite to {{name}} in Pokemon Go"
+      "hostDescription": "Wyślij zaproszenie do znajomych do {{name}} w Pokémon GO"
     },
     "REMOTE_READY": {
-      "hostDescription": "Wait for the raid invite from {{name}} in Pokemon Go"
+      "hostDescription": "Czekaj na zaproszenie do raidu od {{name}} w Pokémon GO"
     },
     "DONE": {
-      "hostDescription": "You have left the party"
+      "hostDescription": "Opuściłeś drużynę"
     }
   },
   "raidPartyPlayer": {
@@ -143,56 +154,66 @@
   },
   "raidPartyActions": {
     "errors": {
-      "createRaidPartyGeneral": "Raid party could not be created for {{raidPartyPokemon}}",
-      "updateRaidPartyGeneral": "Raid party could not be updated for {{raidPartyPokemon}}",
-      "fetchRaidPartyGeneral": "Raid party could not be found for {{raidPartyId}}",
-      "getRaidResultsGeneral": "Raid results from party {{raidPartyId}} could not be retrieved",
-      "removeUserFromRaidPartyGeneral": "You could not leave party #{{raidPartyId}}",
-      "addUserToRaidPartyGeneral": "You could not join party #{{raidPartyId}}",
-      "getUserRaidPartiesGeneral": "Could not fetch raid parties",
-      "addUserToRaidPartyGone": "Raid party #{{raidPartyId}} is complete",
-      "addUserToRaidPartyFull": "Raid party #{{raidPartyId}} is now full",
-      "addUserToRaidPartyGlobal": "Raid party #{{raidPartyId}} is not available to join yet, wait for the countdown timer"
+      "createRaidPartyGeneral": "Nie udało się utworzyć drużyny raidowej na {{raidPartyPokemon}}",
+      "updateRaidPartyGeneral": "Nie udało się zaktualizować drużyny raidowej na {{raidPartyPokemon}}",
+      "fetchRaidPartyGeneral": "Nie znaleziono drużyny raidowej {{raidPartyId}}",
+      "getRaidResultsGeneral": "Nie udało się pobrać wyników raidu drużyny {{raidPartyId}}",
+      "removeUserFromRaidPartyGeneral": "Nie udało się opuścić drużyny #{{raidPartyId}}",
+      "addUserToRaidPartyGeneral": "Nie udało się dołączyć do drużyny #{{raidPartyId}}",
+      "getUserRaidPartiesGeneral": "Nie udało się pobrać drużyn raidowych",
+      "addUserToRaidPartyGone": "Drużyna raidowa #{{raidPartyId}} jest zakończona",
+      "addUserToRaidPartyFull": "Drużyna raidowa #{{raidPartyId}} jest już pełna",
+      "addUserToRaidPartyGlobal": "Do drużyny raidowej #{{raidPartyId}} nie można jeszcze dołączyć, poczekaj na koniec odliczania",
+      "addUserToRaidPartyNotEnoughCoins": "Masz za mało monet, aby dołączyć do tego raidu Karma Boost. Zdobądź więcej monet, aby dołączyć.",
+      "addUserToRaidPartyAccountNotVerified": "To Zweryfikowany Raid — najpierw zweryfikuj konto zrzutem ekranu Pokéboxa (Pokébox → Weryfikacja).",
+      "addUserToRaidPartyPartyNotVerified": "To Zweryfikowany Raid — każdy Pokémon w Twojej drużynie musi być zweryfikowany. Zweryfikuj je w Pokébox → Weryfikacja.",
+      "addUserToRaidPartyMegaRequired": "Host wymaga Megi lub Primala w Twojej drużynie w tym Zweryfikowanym Raidzie.",
+      "addUserToRaidPartyEstimatorTooHigh": "Twoja drużyna nie spełnia wymogu siły tego Zweryfikowanego Raidu. Zabierz silniejszych (zweryfikowanych) atakujących.",
+      "createRaidPartyNotEnoughCoins": "Masz za mało monet, aby hostować ten raid Karma Boost. Zdobądź więcej monet, aby hostować.",
+      "createRaidPartyPrecondition": "Tego raidu nie można hostować z tymi ustawieniami. Zaktualizuj aplikację do najnowszej wersji i spróbuj ponownie.",
+      "addUserToRaidPartyRoleSlotFull": "Ta rola jest już pełna w tym raidzie — wybierz inną rolę lub Dowolną.",
+      "createRaidPartyCompositionConflict": "Te miejsca na role nie pasują do tego raidu. Dostosuj liczbę Atakujących/Osłaniających/Leczących i spróbuj ponownie.",
+      "updateRaidPartyCompositionConflict": "Nie możesz usunąć miejsc na role, które trenerzy już zajęli. Zamiast tego dodaj miejsca albo poczekaj, aż wyjdą."
     }
   },
   "share": {
     "title": "{{name}} #{{id}}",
-    "message": "Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
-    "friendMessage": "Join the $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}) Raid Party #{{id}}.",
-    "error": "Error sharing raid party"
+    "message": "Dołącz do drużyny raidowej #{{id}}: $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}).",
+    "friendMessage": "Dołącz do drużyny raidowej #{{id}}: $t(raids:tierList.{{tier}}.title) $t(constants:pokemon.{{defender}}).",
+    "error": "Błąd udostępniania drużyny raidowej"
   },
   "noRaidParty": {
-    "title": "No Raid Parties Found",
-    "description": "Pokebattler Raid Parties are a quick and easy way to know whether you will beat a raid boss with your friends. You can host a raid party by selecting the blue plus button or from the raid counters by clicking on a raid and then clicking Join Raid Party",
-    "link": "Current Raids",
+    "title": "Nie znaleziono drużyn raidowych",
+    "description": "Drużyny raidowe Pokebattler to szybki i prosty sposób, by sprawdzić, czy pokonasz bossa raidu ze znajomymi. Możesz założyć drużynę niebieskim przyciskiem plusa albo z kontr raidowych: kliknij raid, a potem Dołącz do drużyny",
+    "link": "Bieżące raidy",
     "linkTo": "RaidBosses"
   },
   "noFriendRaidParty": {
-    "title": "No Friend Raid Parties Found",
-    "description": "Add your friends to Pokebattler Raid Party to know when your friends are raiding and quickly join their parties. Friends can be added on the Friend List or in raid party results.",
-    "link": "Friend List",
+    "title": "Nie znaleziono drużyn przyjaciół",
+    "description": "Dodaj przyjaciół do Pokebattler Raid Party, aby wiedzieć, kiedy raidują, i szybko dołączać do ich drużyn. Przyjaciół dodasz na Liście przyjaciół lub w wynikach drużyny raidowej.",
+    "link": "Lista przyjaciół",
     "linkTo": "Friends"
   },
   "noGlobalRaidParty": {
-    "title": "All Global Raid Parties Are Full",
-    "description": "No raids are currently available. Host your own for others to join from your discord server or in the app",
-    "link": "Current Raids",
+    "title": "Wszystkie globalne drużyny są pełne",
+    "description": "Obecnie brak dostępnych raidów. Załóż własny, by inni mogli dołączyć z Twojego serwera Discord lub w aplikacji",
+    "link": "Bieżące raidy",
     "linkTo": "RaidBosses"
   },
   "globalRaidList": {
-    "title": "Pokebattler Raid Network",
+    "title": "Sieć raidów Pokebattler",
     "tab": "Global",
-    "subtitle": "Join Remote Raids from around the world! For Discord raids, you will be added to the raid and sent directly to the Discord channel to coordinate."
+    "subtitle": "Dołączaj do zdalnych raidów z całego świata! W raidach z Discorda zostaniesz dodany do raidu i przeniesiony prosto na kanał Discord, by się koordynować."
   },
   "friendRaidList": {
-    "title": "Friend Raids",
+    "title": "Raidy przyjaciół",
     "tab": "Friends",
-    "subtitle": "Add friends in the Pokebattler Raid App and join their raids here. You will get push notifications when your friends are raiding and mutual friends can join global raids before others"
+    "subtitle": "Dodaj przyjaciół w aplikacji Pokebattler Raid i dołączaj tu do ich raidów. Dostaniesz powiadomienia push, gdy Twoi przyjaciele raidują, a wzajemni przyjaciele mogą dołączać do globalnych raidów przed innymi"
   },
   "selfRaidList": {
-    "title": "Your Raids",
+    "title": "Twoje raidy",
     "tab": "History",
-    "subtitle": "The raids you have hosted or joined are here. Look through your raids to find friends to add in the Pokebattler Raid Network"
+    "subtitle": "Tu znajdziesz raidy, które hostowałeś lub do których dołączyłeś. Przejrzyj je, aby znaleźć przyjaciół do dodania w Sieci raidów Pokebattler"
   },
   "refresh": "Refresh",
   "highMaxPlayers": {
@@ -201,123 +222,272 @@
     "button": "Watch how to invite 10 players!",
     "url": "https://youtube.com/shorts/Bn9kwYhm1M0"
   },
-  "placeholder": "Enter custom boss to simulate",
+  "placeholder": "Wpisz własnego bossa do symulacji",
   "discord": {
-    "joinServer": "Join Server",
-    "privateServer": "Private Server",
-    "joinChat": "Join Chat",
-    "oneClickJoin": "Instant Join",
-    "joinToServerInfo": "This raid requires you to join within discord. Please join the server, follow the welcome messages, then join the raid via the icons provided on the bot",
-    "coordinateInChannel": "This raid is coordinated in discord. Please communicate in the channel. Having trouble? Make sure your Discord is logged in with the same Discord account that you linked to this Pokebattler account."
+    "joinServer": "Dołącz do serwera",
+    "privateServer": "Prywatny serwer",
+    "joinChat": "Dołącz do czatu",
+    "oneClickJoin": "Szybkie dołączenie",
+    "joinToServerInfo": "Do tego raidu trzeba dołączyć na Discordzie. Dołącz do serwera, postępuj zgodnie z wiadomościami powitalnymi, a potem dołącz do raidu ikonami bota",
+    "coordinateInChannel": "Ten raid jest koordynowany na Discordzie. Porozumiewaj się na kanale. Masz problem? Upewnij się, że w Discordzie jesteś zalogowany na to samo konto Discord, które połączyłeś z tym kontem Pokebattler."
   },
   "goCommand": "Go",
-  "raidStartingIn": "Raid Starting In",
-  "startRaidIn": "Start Raid In",
-  "noTimeSpecified": "No time specified",
-  "raidNotStarted": "{{ownerName}} has not started the raid yet",
-  "countdownTitle": "Raid Start Time",
+  "raidStartingIn": "Raid zaczyna się za",
+  "startRaidIn": "Rozpocznij raid za",
+  "noTimeSpecified": "Nie podano czasu",
+  "raidNotStarted": "{{ownerName}} jeszcze nie rozpoczął raidu",
+  "countdownTitle": "Czas rozpoczęcia raidu",
   "startingTime": {
     "15": "15 seconds",
     "30": "30 seconds",
     "120": "2 minutes",
     "300": "5 minutes",
-    "default": "Select Starting Time"
+    "default": "Wybierz czas rozpoczęcia"
   },
   "countdownDone": "Go",
-  "goCommandInstruction": "Hitting GO will close the raid to additional players and notify all players the raid is starting! Make sure you have accepted all friend invites. Once you hit GO you can't go back!",
-  "raidStarting": "Raid is starting, enter the game!",
-  "raidStartingOwner": "What are you waiting for? It's your responsibility to start the raid now, your raid is waiting on you! Copy the trainer names and invite them all to the raid in game!",
-  "raidComplete": "This raid is complete. Thank you for raiding with Pokebattler Raid Party!",
+  "goCommandInstruction": "Kliknięcie START zamknie raid dla kolejnych graczy i powiadomi wszystkich, że raid się zaczyna! Upewnij się, że zaakceptowałeś wszystkie zaproszenia do znajomych. Po kliknięciu START nie ma odwrotu!",
+  "raidStarting": "Raid się zaczyna, wejdź do gry!",
+  "raidStartingOwner": "Na co czekasz? To Ty musisz teraz rozpocząć raid, wszyscy czekają na Ciebie! Skopiuj nazwy trenerów i zaproś ich wszystkich do raidu w grze!",
+  "raidComplete": "Ten raid jest zakończony. Dziękujemy za raidowanie z Pokebattler Raid Party!",
   "raidPartyList": {
-    "unavailable": "Unavailable Raid Parties",
-    "available": "Available Raid Parties",
-    "recent": "Recent Raid Parties"
+    "unavailable": "Niedostępne drużyny raidowe",
+    "available": "Dostępne drużyny raidowe",
+    "recent": "Ostatnie drużyny raidowe"
   },
   "clipboard": {
-    "copyAttackers": "Copy Attackers",
-    "friendCodeCopied": "Copied {{ownerName}}'s friend code! Paste it on the game to send a friend invite to the host!",
-    "attackersCopied": "Copied your suggested attackers! Paste them on your in-game battle party search!",
-    "partyTrainersCopied": "Copied the trainer names ready for the raid! Paste the text on your game and invite them to your raid!"
+    "copyAttackers": "Kopiuj atakujących",
+    "friendCodeCopied": "Skopiowano kod przyjaciela gracza {{ownerName}}! Wklej go w grze, aby wysłać hostowi zaproszenie do znajomych!",
+    "attackersCopied": "Skopiowano sugerowanych atakujących! Wklej ich w wyszukiwarce drużyny bojowej w grze!",
+    "partyTrainersCopied": "Skopiowano nazwy trenerów gotowych do raidu! Wklej tekst w grze i zaproś ich do raidu!"
   },
   "raidVotingPopup": {
     "player": {
-      "title": "Confirmation - Leave Raid",
-      "thankYou": "Thank you for raiding with Pokebattler Raid Party!",
-      "rate": "Please rate {{ownerName}}'s party?",
+      "title": "Potwierdzenie - opuść raid",
+      "thankYou": "Dziękujemy za raidowanie z Pokebattler Raid Party!",
+      "rate": "Oceń drużynę gracza {{ownerName}}",
       "close": "$t(raidBosses:leaveParty)"
     },
     "host": {
-      "title": "Confirmation - Finish Raid",
-      "thankYou": "Thank you for hosting a raid with Pokebattler Raid Party!",
-      "rate": "Please swipe left or right to rate party members",
+      "title": "Potwierdzenie - zakończ raid",
+      "thankYou": "Dziękujemy za hostowanie raidu z Pokebattler Raid Party!",
+      "rate": "Przesuń w lewo lub w prawo, aby ocenić członków drużyny",
       "close": "$t(raidBosses:finishParty)"
     },
     "abandon": {
-      "title": "Confirmation - Abandon Raid",
-      "thankYou": "Unfortunately no one joined your raid 😔",
+      "title": "Potwierdzenie - porzuć raid",
+      "thankYou": "Niestety nikt nie dołączył do Twojego raidu 😔",
       "rate": "",
-      "close": "Abandon Raid"
+      "close": "Porzuć raid"
     }
   },
   "kickUserPreviewPopup": {
-    "title": "Kick Player",
-    "questionMessage": "Do you want to kick",
-    "rateMessage": "(Optional) rating"
+    "title": "Wyrzuć gracza",
+    "questionMessage": "Czy chcesz wyrzucić",
+    "rateMessage": "Ocena (opcjonalnie)"
   },
   "coins": {
     "spendCard": {
-      "title": "Earn coins or subscribe to join raids early.",
-      "button": "Join early ⏩"
+      "title": "Zdobywaj monety lub wykup subskrypcję, aby dołączać do raidów wcześniej.",
+      "button": "Dołącz wcześniej ⏩"
     },
     "upgradePopup": {
-      "title": "Upgrade for Coins!",
-      "cardSubtitle": "Spend coins to upgrade to a higher subscription level",
+      "title": "Ulepsz za monety!",
+      "cardSubtitle": "Wydaj monety, aby przejść na wyższy poziom subskrypcji",
       "nonUpgradeRole": {
-        "title": "Thank you for subscribing!",
-        "topText": "Thank you for subscribing to the maximum fast forward setting!",
-        "bottomText": "We deeply appreciate your support"
+        "title": "Dziękujemy za subskrypcję!",
+        "topText": "Dziękujemy za subskrypcję z maksymalnym przyspieszeniem!",
+        "bottomText": "Bardzo doceniamy Twoje wsparcie"
       },
       "disabled": {
-        "message": "You do not have enough coins to upgrade to this level"
+        "message": "Masz za mało monet, aby przejść na ten poziom"
       },
       "allowed": {
-        "message": "After you upgrade you will be able to join raids early, click to join when the ⏩ appears!",
+        "message": "Po ulepszeniu będziesz mógł dołączać do raidów wcześniej — kliknij, gdy pojawi się ⏩!",
         "upgrade": "Upgrade",
-        "noteText": "Each raid you join early will cost you. Failed raids will auto refund coins after 24 hours."
+        "noteText": "Każde wcześniejsze dołączenie do raidu kosztuje. Za nieudane raidy monety zostaną automatycznie zwrócone po 24 godzinach."
       },
-      "subtitle": "Current ways to gain coins:",
-      "rewards1": "• +1 coin rating a 👍 or 👎",
-      "rewards2": "• +5 coins receiving a 👍",
-      "maximumGain": "Maximum gain per raid: 30 for hosts and 6 for guests",
-      "noteText": "You do not lose coins by receiving a 👎 but you do lose Karma. Karma is shown to other users and makes the world a better place"
+      "subtitle": "Obecne sposoby zdobywania monet:",
+      "rewards1": "• +1 moneta za ocenę 👍 lub 👎",
+      "rewards2": "• +5 monet za otrzymane 👍",
+      "maximumGain": "Maksymalny zysk za raid: 30 dla hostów i 6 dla gości",
+      "noteText": "Za otrzymane 👎 nie tracisz monet, ale tracisz Karmę. Karma jest widoczna dla innych użytkowników i czyni świat lepszym",
+      "surgeNote": "⚡ Wyższa cena: na tego bossa jest teraz duży popyt, więc wcześniejsze dołączenie kosztuje więcej niż zwykle (zwykle monety: {{base}}). Anulowane raidy są automatycznie zwracane."
     }
   },
   "hostForm": {
-    "noRaidsForTier": "There are no {{tier}} raids currently available in Pokemon Go."
+    "noRaidsForTier": "W Pokémon GO nie ma obecnie raidów: {{tier}}."
   },
   "createRaidForm": {
-    "title": "Create Raid Party",
+    "title": "Utwórz drużynę raidową",
+    "noRaidsForTier": "Brak dostępnych raidów na tym poziomie",
+    "notInScheduleWarning": "Tego Pokémona nie ma w bieżącym harmonogramie raidów. Serwer może ograniczyć ten raid tylko do znajomych.",
+    "karmaWarning": {
+      "title": "Uwaga, niski priorytet",
+      "description": "Są już hosty z wyższym priorytetem. Rozważ dołączenie do jednego z ich raidów."
+    },
     "priority": {
-      "header": "Warning, Low Priority",
-      "headerExtreme": "Extremely Low Priority",
-      "line1": "There are {{numHigherKarmaParties}} hosts with higher priority than you.",
-      "line2": "Warning! Boosting priority is a beta feature. No refunds will be granted unless accompanied by a detailed bug report to admin@pokebattler.com. Use at your own risk! Priority is based on your karma and can only be boosted by coins.",
-      "insufficientCoins": "You need {{moreCoins}} more coins to boost your priority. Joining other raids to gain more Karma or hosting on non-raid hours is highly recommended!",
-      "sortBoostTitle": "Spend coins to boost priority",
-      "sortBoostSubTitle": "Higher priority will place you higher in the list of available raids, filling your raid faster.",
+      "header": "Uwaga, niski priorytet",
+      "headerExtreme": "Bardzo niski priorytet",
+      "line1": "Hostów z wyższym priorytetem niż Twój: {{numHigherKarmaParties}}.",
+      "line2": "Uwaga! Podbijanie priorytetu to funkcja beta. Zwroty są możliwe tylko ze szczegółowym zgłoszeniem błędu na admin@pokebattler.com. Używasz na własne ryzyko! Priorytet zależy od Twojej karmy i można go podbić tylko monetami.",
+      "insufficientCoins": "Brakuje Ci {{moreCoins}} monet, aby podbić priorytet. Zdecydowanie polecamy dołączać do innych raidów, by zdobyć Karmę, albo hostować poza godzinami raidów!",
+      "sortBoostTitle": "Wydaj monety, aby podbić priorytet",
+      "sortBoostSubTitle": "Wyższy priorytet przesunie Cię wyżej na liście dostępnych raidów, więc Twój raid szybciej się zapełni.",
       "placeholder": "No Boost",
-      "option1": "Top Priority",
-      "option2": "Second Priority",
-      "option3": "Third Priority"
+      "option1": "Najwyższy priorytet",
+      "option2": "Drugi priorytet",
+      "option3": "Trzeci priorytet"
     },
     "suggestedParty": {
-      "header": "Available Global Raid",
-      "line1": "Consider joining instead of hosting"
+      "header": "Dostępny globalny raid",
+      "line1": "Rozważ dołączenie zamiast hostowania"
     },
-    "hostParty": "Host Party"
+    "superMega": {
+      "helpTitle": "Jak wygrać Raidy Super Mega",
+      "helpBody": "Bossowie Super Mega w trakcie walki wpadają w furię i stawiają tarcze. Dopóki tarcze stoją, boss jest nietykalny i można go zranić TYLKO atakiem specjalnym prawdziwej Mega Ewolucji (na przykład Mega Rayquaza — Primale, takie jak Primal Groudon i Primal Kyogre, się NIE liczą). Umieść Megę na ostatnim miejscu w drużynie, aby automatycznie weszła do walki, gdy boss wpadnie w furię, i przełamała tarczę atakiem specjalnym. Primale i Pokemony niebędące Megami nadal zadają duże obrażenia, ale nie przełamują tarcz, więc mityczny boss Super Mega z około 12 tarczami wymaga pełnego lobby około 12 lub więcej graczy, z których każdy przyniesie Megę.",
+      "megaSlotWarning": {
+        "title": "Umieść Megę na ostatnim miejscu",
+        "description": "Tylko prawdziwa Mega Ewolucja może przełamać tarcze tego bossa. Umieść Megę na ostatnim miejscu w drużynie — Primale i Pokemony niebędące Megami nie przełamują tarcz."
+      }
+    },
+    "karmaBoost": {
+      "selectLabel": "Wzmocnienie Karmy",
+      "helpTitle": "Raidy Karma Boost",
+      "helpBody": "Raidy Karma Boost nagradzają wszystkich dodatkową karmą za raid — 2x w Super Karma, 5x w Mega Karma. Hostowanie kosztuje hosta monety i każdy dołączający gracz też płaci monetami, więc raidujesz tylko z innymi zaangażowanymi, doświadczonymi trenerami. Te raidy są widoczne w aplikacji, ale nigdy nie są udostępniane na Discordzie ani w sieci botów.",
+      "none": "Bez Karma Boost",
+      "superTitle": "Super Karma (2x)",
+      "megaTitle": "Mega Karma (5x)",
+      "hostCost": "Koszt hostowania – monety: {{coins}}",
+      "joinCost": "Koszt dołączenia – monety: {{coins}} za {{multiplier}}x karmy",
+      "confirmJoinTitle": "Raid Karma Boost",
+      "confirmJoin": "Dołączenie do tego raidu Karma Boost {{multiplier}}x kosztuje monety: {{coins}}. Za raid zdobędziesz {{multiplier}}x karmy. Kontynuować?",
+      "insufficientCoins": "Brakuje Ci monet ({{moreCoins}}), aby hostować ten raid Karma Boost. Zdobywaj monety, oglądając reklamy, kończąc raidy lub kupując pakiet monet.",
+      "insufficientCoinsJoin": "Brakuje Ci monet ({{moreCoins}}), aby dołączyć do tego raidu Karma Boost.",
+      "getCoins": "Zdobądź monety"
+    },
+    "hostParty": "Załóż drużynę",
+    "maxRoles": {
+      "title": "Role w lobby",
+      "helpBody": "Lobby Walki Max mieści 4 trenerów. Zostaw włączone Dowolne role, aby wpuścić każdego, albo zarezerwuj miejsca dla Atakujących, Osłaniających i Leczących.",
+      "anyRoles": "Dowolne role",
+      "DPS": {
+        "label": "Atakujący",
+        "description": "Zabierz swoich 3 najsilniejszych atakujących. Zadawaj obrażenia i szybko ładuj energię Max."
+      },
+      "TANK": {
+        "label": "Osłaniający",
+        "description": "Zabierz wytrzymałe Pokémony. Dynamaxuj pierwszy i używaj Max Guard, aby osłonić drużynę."
+      },
+      "HEALER": {
+        "label": "Leczący",
+        "description": "Zabierz wspierające Pokémony z dużą ilością HP, jak Blissey. Używaj Max Spirit, aby utrzymać drużynę przy życiu."
+      },
+      "slotTotal": "{{total}} z {{max}} trenerów"
+    },
+    "yourRole": {
+      "title": "Twoja rola",
+      "subtitle": "Wybierz rolę, którą odegrasz w tym lobby. Zostanie zapisana jako domyślna dla przyszłych Walk Max."
+    },
+    "verified": {
+      "selectLabel": "Zweryfikowany Raid",
+      "helpBody": "Zweryfikowane Raidy wpuszczają tylko trenerów, których konto i drużyna zostały zweryfikowane na podstawie prawdziwego zrzutu ekranu z Pokémon GO, więc każdy przynosi Pokémony, które naprawdę posiada. Hostowanie kosztuje kilka monet; dołączanie jest darmowe dla zweryfikowanych trenerów.",
+      "enableLabel": "Wymagaj zweryfikowanych trenerów",
+      "requireMegaLabel": "Wymagaj Megi lub Primala w każdej drużynie",
+      "hostCost": "Hostowanie tego Zweryfikowanego Raidu kosztuje monety: {{coins}}.",
+      "insufficientCoins": "Brakuje Ci monet ({{moreCoins}}), aby hostować Zweryfikowany Raid.",
+      "hostNotVerified": "Hosty też muszą być zweryfikowane. Zweryfikuj swój Pokébox zrzutem ekranu, aby odblokować Zweryfikowane Raidy.",
+      "verifyNowCta": "Zweryfikuj mój Pokébox",
+      "estimatorLabel": "Wymagana siła drużyny",
+      "estimatorHelp": "Surowsze progi wpuszczają tylko silniejsze drużyny — sam musisz spełnić swój próg.",
+      "estimator": {
+        "any": "Dowolna",
+        "relaxed": "Luźna",
+        "strong": "Silna",
+        "elite": "Elitarna",
+        "solo": "Solo",
+        "duo": "Duo",
+        "trio": "Trio",
+        "upTo": "≤{{count}}"
+      }
+    },
+    "demand": {
+      "shortageTitle": "⚡ Potrzebni hosty – teraz!",
+      "shortageBody": "Na tego bossa czekają trenerzy ({{count}}) — Twój raid szybko się zapełni, a za hostowanie w szczycie zdobędziesz podwójną karmę.",
+      "shortageBodyGeneric": "Na tego bossa czekają trenerzy — Twój raid szybko się zapełni, a hostowanie w szczycie daje bonusową karmę.",
+      "glutBody": "🌊 Na tego bossa jest teraz wiele otwartych lobby. Dołączenie do prawie pełnego raidu może być szybsze niż hostowanie nowego."
+    },
+    "customRaid": "Hostuj własny raid",
+    "scheduleRaids": "Wróć do zaplanowanych raidów"
   },
   "filterRaidForm": {
-    "title": "Filter Raid Parties",
-    "apply": "Apply"
-  }
+    "title": "Filtruj drużyny raidowe",
+    "apply": "Apply",
+    "tier": "Poziom raidu",
+    "allTiers": "Wszystkie poziomy",
+    "openRole": "Wolne miejsce na rolę",
+    "anyRole": "Dowolna rola"
+  },
+  "notifications": {
+    "banner": "Włącz powiadomienia push, aby koordynować raidy z drużyną w czasie rzeczywistym.",
+    "enable": "Włącz"
+  },
+  "chat": {
+    "costHint": "Gotowe wiadomości kosztują 1 monetę — są tłumaczone na język każdego trenera.",
+    "notEnoughCoins": "Potrzebujesz monet, aby wysyłać wiadomości na czacie. Zdobywaj je w raidach lub odwiedź Sklep.",
+    "presets": {
+      "READY": "Jestem gotowy! ✅",
+      "LETS_GO": "Startujemy! 🚀",
+      "WAITING_FOR_INVITE": "Wciąż czekam na zaproszenie od znajomego ⏳",
+      "INVITE_SENT": "Zaproszenie wysłane ✉️",
+      "FRIEND_REQUEST_SENT": "Zaproszenie do znajomych wysłane 🤝",
+      "ONE_MORE_INVITE_WAVE": "Będzie jeszcze jedna fala zaproszeń 🌊",
+      "JOINING_NOW": "Już dołączam 🏃",
+      "SORRY_HAVE_TO_LEAVE": "Przepraszam, muszę iść 😢",
+      "THANKS": "Dzięki! 🙏",
+      "GG": "GG! 🎉"
+    }
+  },
+  "joinMaxRole": {
+    "title": "Wybierz swoją rolę",
+    "subtitle": "Host może zarezerwować miejsca w lobby dla każdej roli. Wybierz rolę, którą odegrasz — albo Dowolną, aby zająć to, czego brakuje.",
+    "join": "Dołącz do raidu",
+    "DPS": {
+      "description": "Zabierz swoich 3 najsilniejszych atakujących. Zadawaj obrażenia i szybko ładuj energię Max."
+    },
+    "TANK": {
+      "description": "Zabierz wytrzymałe Pokémony. Dynamaxuj pierwszy i używaj Max Guard, aby osłonić drużynę."
+    },
+    "HEALER": {
+      "description": "Zabierz wspierające Pokémony z dużą ilością HP, jak Blissey. Używaj Max Spirit, aby utrzymać drużynę przy życiu."
+    }
+  },
+  "wants": {
+    "notifyMe": "🔔 Powiadom mnie, gdy ktoś będzie hostować tego bossa",
+    "notifyMeSet": "✅ Dostaniesz powiadomienie, gdy ten boss będzie hostowany",
+    "limitReached": "Masz już ustawioną maksymalną liczbę powiadomień o raidach."
+  },
+  "provisional": {
+    "estimateUpdating": "Szacunek, aktualizowanie",
+    "estimateUpdatingDescription": "Kontry niektórych graczy są wciąż symulowane. To szacunek na domyślnych ustawieniach, który zaktualizuje się automatycznie.",
+    "servedTitle": "Oszacowano na domyślnych ustawieniach, dopóki Twoje się symulują",
+    "setting": "{{label}}: {{served}} (żądano {{requested}})",
+    "on": "Wł.",
+    "off": "Wył.",
+    "default": "Domyślne",
+    "fields": {
+      "autoBattleParty": "Drużyna",
+      "weatherCondition": "Pogoda",
+      "friendLevel": "Przyjaźń",
+      "strategy": "Strategia",
+      "dodgeStrategy": "Uniki",
+      "sort": "Sortowanie",
+      "includeLegendary": "Legendarne",
+      "includeShadow": "Cienie",
+      "includeMegas": "Megi",
+      "numParty": "Drużyny",
+      "primalAssistants": "Asystenci Primal",
+      "adventureEffects": "Efekty Przygody"
+    }
+  },
+  "unknownOwner": "Nieznany trener"
 }

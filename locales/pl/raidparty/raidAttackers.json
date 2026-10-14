@@ -1,0 +1,52 @@
+{
+  "title": "Atakujący w raidach",
+  "filterBar": {
+    "shadow": "Cień",
+    "mega": "Mega",
+    "legendary": "Legendarne",
+    "partyPower": "Siła drużyny",
+    "type": "Typ",
+    "move": "Atak",
+    "sort": "Sortuj",
+    "all": "Wszystkie"
+  },
+  "sorts": {
+    "POINTS_DESC": "Punkty",
+    "ESTIMATOR_ASC": "Estymator",
+    "MATCHUPS_DESC": "Pojedynki",
+    "NAME_ASC": "Nazwa"
+  },
+  "detailSorts": {
+    "POINTS_DESC": "Punkty",
+    "ESTIMATOR_ASC": "Estymator",
+    "RANK_ASC": "Miejsce",
+    "BOSS_ASC": "Boss",
+    "TIER_DESC": "Poziom"
+  },
+  "columns": {
+    "rank": "#",
+    "move1": "Szybki",
+    "move2": "Specjalny",
+    "matchups": "Pojedynki",
+    "estimator": "Estymator",
+    "points": "Punkty",
+    "tier": "Poziom",
+    "boss": "Boss",
+    "alt": "(alt.)"
+  },
+  "tabs": {
+    "movesets": "Zestawy ataków",
+    "raidsCountered": "Kontrowane raidy"
+  },
+  "status": {
+    "loading": "Wczytywanie danych atakujących...",
+    "downloading": "Pobieranie bazy danych...",
+    "decompressing": "Instalowanie aktualizacji...",
+    "complete": "Baza danych zaktualizowana!",
+    "updateAvailable": "Dostępna aktualizacja bazy danych",
+    "updateDB": "Zaktualizuj bazę danych",
+    "error": "Nie udało się wczytać danych atakujących. Sprawdź połączenie.",
+    "noData": "Żaden atakujący nie pasuje do filtrów.",
+    "refresh": "Odśwież"
+  }
+}

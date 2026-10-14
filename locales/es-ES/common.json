@@ -22,7 +22,15 @@
   "seconds": "Segundos",
   "rejoin": {
     "label": "Tiempo para volver a la partida",
-    "default": "Nunca"
+    "default": "Nunca",
+    "never": "Nunca",
+    "defaultSuffix": "(predeterminado)",
+    "techniques": "Técnicas para incursiones en solitario",
+    "techniqueOptions": {
+      "REJOIN": "Volver a unirse (7 segundos)",
+      "ADVANCED_REJOIN": "Volver a unirse avanzado (5,5 segundos)",
+      "DOUBLE_BATTLE_PARTY": "Doble equipo de combate (cada dos reingresos, un 40% más rápido)"
+    }
   },
   "stats": {
     "attack": "Ataque",
@@ -80,13 +88,31 @@
     "xlcandy": "Caramelos XL",
     "matchups": "Enfrentamientos",
     "avg_estimator": "Estimador promedio",
-    "dynamaxEnergy": "Energía máxima"
+    "dynamaxEnergy": "Energía máxima",
+    "total_heal": "Curación total",
+    "total_shield": "Escudo total",
+    "heal_rating": "Puntuación de curación",
+    "shield_rating": "Puntuación de protector",
+    "tank_rating": "Puntuación de protector",
+    "survival": "Supervivencia",
+    "attack_rating": "Puntuación de ataque",
+    "tank": "Puntuación de protector",
+    "charger": "Puntuación de defensor",
+    "meter_charge": "Puntuación de cargador",
+    "spread_survival": "Aguanta 2 ataques en área",
+    "survives_to_enrage": "Aguanta hasta la furia",
+    "survival_time": "Tiempo de supervivencia"
   },
   "sectionLinks": {
     "help": "Sección de Ayuda",
     "about": "Acerca de"
   },
-  "simulation": "una simulación fue",
+  "simulation": {
+    "starting": "Iniciando la simulación…",
+    "running": "Simulando…",
+    "eta": "Simulando… ~{{eta}} s",
+    "busy": "Ocupado, reintentando…"
+  },
   "simulation_plural": "{{count,commas}} simulaciones fueron",
   "chooseMovesetLabel": "Seleccionar Ataques",
   "hd": {
@@ -133,7 +159,9 @@
     "newVersion": "Nuevo lanzamiento",
     "subscription": "Suscripción",
     "calculating": "Calculando",
-    "share": "Compartir"
+    "share": "Compartir",
+    "loadingPartyDetails": "Cargando detalles del grupo…",
+    "noPartySelected": "No hay ningún grupo de incursión seleccionado"
   },
   "message": {
     "bulk": "Importando en grupo {{num}} pokemon, esto puede tardar un poco",
@@ -154,6 +182,8 @@
     "subscriptionCardUpdateSuccess": "Actualización de información de pago completada con éxito",
     "subscriptionCardUpdateFailure": "No se pudo actualizar la información de pago",
     "calculating": "Aún calculando. {{elapsed}} segundos hasta ahora.",
+    "simulationTimeout": "La simulación está tardando más de lo esperado. Vuelve a intentarlo en un minuto y puede que ya esté lista.",
+    "simulationFailed": "La simulación ha fallado. Vuelve a intentarlo en un minuto.",
     "clipboard": "¡Copiado! Listo para pegar",
     "share": "Compartir con tus amigos",
     "network": "Error de red. Conexión a la red es requerida para esta app.",
@@ -230,7 +260,9 @@
       "attackers": "Atacantes",
       "tutorials": "Tutoriales",
       "raidNetworkDiscords": "Red de incursiones",
-      "infographics": "Infografías"
+      "infographics": "Infografías",
+      "guides": "Guías",
+      "max": "Combates Max"
     },
     "description": {
       "gym": "Simulaciones de Batallas en Gimnasios, Pokedex y Rankings",
@@ -239,6 +271,7 @@
       "help": "Tutoriales, Términos y Definiciones",
       "account": "Personaliza Pokebattler añadiendo Pokemon a tu Pokebox y Equipos de Combate",
       "more": "Noticias, Artículos, Traducciones, Cómo Contactarnos y más",
+      "max": "Mejores contadores y simulaciones para Combates Dinamax y Gigamax",
       "rocket": "Contadores precisos del Team Rocket",
       "pvppokedex": "$t(pvp) Contrincantes y emparejamientos para cada Pokémon",
       "pvprankings": "Mejores Contrincantes y Emparejamientos para Ligas de $t(pvp) y Copas Silph",
@@ -355,11 +388,26 @@
   "version": "Versión {{version}}",
   "auto": "Auto",
   "includeMegas": "Mostrar Mega Pokémon",
-  "mega": "Mega",
+  "mega": {
+    "title": "Tu Mega",
+    "description": "Cuál de tus Megas lidera el equipo de combate creado a partir de tu Pokebox. Automático conserva la Mega mejor clasificada. Activa los caramelos extra para mostrar primero las Megas que comparten un tipo con el jefe: megaevolucionar una de ellas te da caramelos extra al capturarlo.",
+    "auto": "Automático (mejor clasificada)",
+    "candyFirst": "🍬 Caramelos extra primero"
+  },
   "megas": "Megas",
   "numMegas": {
     "title": "Megas Adicionales",
     "description": "La cantidad de megas adicionales provistas por otros jugadores. Las megas serán escalonadas para incrementar el tiempo de vida del incremento por mega."
+  },
+  "megaLevel": {
+    "title": "Meganivel",
+    "description": "El Meganivel de las Megas en el combate. Los Meganiveles 2-4 potencian el ataque cargado exclusivo \"+\" de una Mega. Por defecto se usa el nivel máximo, 4.",
+    "options": {
+      "1": "Meganivel 1",
+      "2": "Meganivel 2",
+      "3": "Meganivel 3",
+      "4": "Meganivel 4 (predeterminado)"
+    }
   },
   "friendCode": "Código de amigo",
   "choosePokemonLabel": "Elige Pokémon",
@@ -372,6 +420,10 @@
   "gigantamax": "Gigamax",
   "unavailable": "No disponible",
   "primalAssistants": "Potenciadores primarios activos",
+  "adventureEffects": {
+    "title": "Efectos de aventura",
+    "description": "Efectos de aventura activos. Tajo Supremo (Zacian): +10% de daño infligido en incursiones y +5% en Combates Max. Embate Supremo (Zamazenta): +10% de defensa en incursiones y +5% en Combates Max."
+  },
   "xlcandy": {
     "title": "Caramelos XL disponibles"
   },
@@ -381,5 +433,33 @@
   },
   "from": "Desde",
   "until": "Hasta",
-  "localTime": "Hora local"
+  "localTime": "Hora local",
+  "partyGrid": {
+    "title": "Elige Pokémon",
+    "addPokemon": "Añadir Pokémon",
+    "pokebox": "Mi Pokebox",
+    "generic": "Pokémon personalizado",
+    "choosePokemon": "Elige Pokémon",
+    "use": "Usar Pokémon",
+    "edit": "Editar",
+    "remove": "Quitar",
+    "moveLeft": "Mover a la izquierda",
+    "moveRight": "Mover a la derecha",
+    "saveToPokebox": "Guardar en la Pokebox",
+    "savedToPokebox": "¡Guardado en la Pokebox!",
+    "loginPrompt": "Inicia sesión para elegir Pokémon de tu Pokebox. También puedes crear un equipo con Pokémon personalizados.",
+    "pokeboxEmpty": "No hay Pokémon Dinamax en tu Pokebox.",
+    "savePartyName": "Nombre del equipo de combate",
+    "saveParty": "Guardar como equipo de combate",
+    "savePartyLogin": "Inicia sesión para guardar este equipo",
+    "savePartyPokeboxOnly": "Guarda cada Pokémon personalizado en tu Pokebox antes de guardar el equipo.",
+    "customParty": "O crea un equipo personalizado, sin iniciar sesión:"
+  },
+  "edit": "Editar",
+  "close": "Cerrar",
+  "form": {
+    "validation": {
+      "required": "Obligatorio"
+    }
+  }
 }

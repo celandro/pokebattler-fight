@@ -6,8 +6,8 @@
   "add": {
     "title": "Neues Pokemon",
     "failed": "Leider hat das Hinzufügen des Pokemons nicht geklappt",
-    "full": "Your pokebox is full. Subscribe for more server storage",
-    "autocomplete": "Enter Pokemon Name Or Type"
+    "full": "Deine Pokébox ist voll. Abonniere für mehr Speicherplatz auf dem Server",
+    "autocomplete": "Pokémon-Name oder Typ eingeben"
   },
   "pokeform": {
     "cp": {
@@ -46,59 +46,102 @@
       "label": "Level",
       "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
+    "megaLevel": {
+      "label": "Mega-Level",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
     "submit": {
       "label": "$t(common:buttons.create)"
     },
     "edit": {
       "label": "$t(common:save)"
+    },
+    "form": {
+      "label": "Form"
     }
   },
   "poketile": {
     "temporary": "Speichere auf dem Server",
     "cp": "$t(cp)"
   },
+  "verify": {
+    "title": "Verifizieren",
+    "helpBody": "Wähle die zu verifizierenden Pokémon aus, kopiere den Suchbegriff, füge ihn in die Boxsuche von Pokémon GO ein, mache einen Screenshot vom Ergebnis und lade ihn hier hoch. Die Verifizierung kostet {{coins}} Münzen und gilt {{days}} Tage – erneute Scans sind währenddessen kostenlos.",
+    "helpBodyVerified": "Dein Konto ist verifiziert. Wähle Pokémon aus, kopiere den Suchbegriff, mache in Pokémon GO einen Screenshot deiner gefilterten Box und lade ihn hoch – erneute Scans sind kostenlos, solange deine Verifizierung aktiv ist.",
+    "copySearchString": "Suche kopieren",
+    "searchStringCopied": "Suchbegriff kopiert – füge ihn in die Boxsuche von Pokémon GO ein und mache dann einen Screenshot.",
+    "numSelected": "{{count}} ausgewählt",
+    "clearSelection": "Leeren",
+    "uploadButton": "Screenshot hochladen & verifizieren ({{count}})",
+    "noPermission": "Zum Hochladen deines Screenshots wird Zugriff auf die Fotomediathek benötigt.",
+    "success": "{{count}} Pokémon verifiziert! ✓",
+    "noneMatched": "Der Server konnte keines der ausgewählten Pokémon in diesem Screenshot zuordnen. Entferne Spitznamen, achte darauf, dass die WP sichtbar sind, und versuche es erneut.",
+    "notEnoughCoins": "Nicht genug Münzen für die Verifizierung.",
+    "failed": "Verifizierung fehlgeschlagen. Bitte versuche es erneut.",
+    "review": {
+      "title": "Das haben wir erkannt",
+      "subtitle": "Diese Pokémon haben wir in deinem Screenshot gefunden. Wenn eines die falsche Art ist, sag uns Bescheid.",
+      "reportUnavailable": "Für diesen Upload kann keine falsche Erkennung gemeldet werden.",
+      "empty": "Wir konnten in diesem Screenshot keine Pokémon finden.",
+      "unknownSpecies": "Unbekanntes Pokémon",
+      "cp": "WP {{cp}}",
+      "unknownCp": "WP unbekannt",
+      "pending": "Prüfung ausstehend",
+      "wrong": "Falsch?",
+      "failed": "Deine Meldung konnte nicht gesendet werden. Bitte versuche es erneut.",
+      "pickerTitle": "Welches Pokémon ist es wirklich?",
+      "pickerPlaceholder": "Pokémon suchen",
+      "cancel": "Abbrechen",
+      "submit": "Melden",
+      "done": "Fertig"
+    }
+  },
   "addPokemon": "Pokemon hinzufügen",
   "edit": {
     "title": "Pokemon bearbeiten",
-    "full": "Your pokebox is overflowing. Resubscribe or delete excess Pokemon",
-    "failed": "Sadly editing this pokemon failed"
+    "full": "Deine Pokébox ist übervoll. Abonniere erneut oder lösche überzählige Pokémon",
+    "failed": "Leider konnte dieses Pokémon nicht bearbeitet werden"
   },
   "delete": {
     "title": "Pokemon löschen",
-    "failed": "Sadly deleting this pokemon failed"
+    "failed": "Leider konnte dieses Pokémon nicht gelöscht werden"
   },
   "bulkImport": {
-    "title": "Bulk Import Pokemon",
-    "failed": "Sadly bulk importing pokemon failed",
+    "title": "Pokémon-Massenimport",
+    "failed": "Leider ist der Massenimport fehlgeschlagen",
     "selectAll": "Alle auswählen",
-    "clearSelection": "Clear Selection",
+    "clearSelection": "Auswahl aufheben",
     "importNPokemon": "Import {{count}}/{{total}}",
     "beginImport": "Import beginnen",
     "paste": "Einfügen",
     "errors": {
-      "parse": "Pasted data was not a supported format. Please make sure to include a header row.",
-      "pokemonId": "$t(common:pokemon) is not valid.",
-      "quickMove": "$t(pokeform.quickMove.label) is not valid.",
-      "cinematicMove": "$t(pokeform.cinematicMove.label) is not valid.",
-      "cinematicMove2": "$t(pokeform.cinematicMove2.label) is not valid.",
-      "level": "$t(pokeform.level.label) is not  is not a number between 1 and 41",
-      "individualAttack": "$t(pokeform.individualAttack.label) is not a number between 0 and 15.",
-      "individualDefense": "$t(pokeform.individualDefense.label) is not a number between 0 and 15",
-      "individualStamina": "$t(pokeform.individualStamina.label) is not a number between 0 and 15",
-      "cp": "$t(pokeform.cp.label) is not a number"
-    }
+      "parse": "Die eingefügten Daten haben kein unterstütztes Format. Achte darauf, eine Kopfzeile mitzukopieren.",
+      "pokemonId": "$t(common:pokemon) ist ungültig.",
+      "quickMove": "$t(pokeform.quickMove.label) ist ungültig.",
+      "cinematicMove": "$t(pokeform.cinematicMove.label) ist ungültig.",
+      "cinematicMove2": "$t(pokeform.cinematicMove2.label) ist ungültig.",
+      "level": "$t(pokeform.level.label) ist keine Zahl zwischen 1 und 41",
+      "individualAttack": "$t(pokeform.individualAttack.label) ist keine Zahl zwischen 0 und 15.",
+      "individualDefense": "$t(pokeform.individualDefense.label) ist keine Zahl zwischen 0 und 15",
+      "individualStamina": "$t(pokeform.individualStamina.label) ist keine Zahl zwischen 0 und 15",
+      "cp": "$t(pokeform.cp.label) ist keine Zahl",
+      "noDataToImport": "Füge zuerst Pokémon zum Importieren ein.",
+      "noPokemonSelected": "Wähle mindestens ein Pokémon zum Importieren aus."
+    },
+    "pastePrompt": "Füge hier eine Tabelle deiner Pokémon ein, einschließlich der Kopfzeile (Pokemon, Level, Attack IV, Defense IV, Stamina IV, Fast Move, Charge Move, …)"
   },
   "bulkDelete": {
-    "title": "Bulk Delete Pokemon",
-    "failed": "Sadly bulk deleting pokemon failed",
-    "selectAll": "Select All",
-    "clearSelection": "Clear Selection",
-    "deleteNPokemon": "Delete {{count}} pokemon"
+    "title": "Pokémon-Massenlöschung",
+    "failed": "Leider ist das Massenlöschen fehlgeschlagen",
+    "selectAll": "Alle auswählen",
+    "clearSelection": "Auswahl aufheben",
+    "deleteNPokemon": "{{count}} Pokémon löschen",
+    "numSelected": "{{count}} ausgewählt"
   },
   "noPokemon": {
     "title": "Keine Pokemon gefunden",
-    "clearFilter": "Clear Search Filter",
-    "description": "Pokebattler Raid Party requires you to add your best Pokemon in order to find the best counters! The more you add, the more accurate the raid party suggestions will be!",
-    "addPokemon": "The fastest way to add Pokemon is by clicking the plus button on the boss counters page. You can also add Pokemon one by one or by using the bulk import functionality."
+    "clearFilter": "Suchfilter zurücksetzen",
+    "description": "Pokebattler Raid Party braucht deine besten Pokémon, um die besten Konter zu finden! Je mehr du hinzufügst, desto genauer werden die Raid-Party-Vorschläge!",
+    "addPokemon": "Am schnellsten fügst du Pokémon über den Plus-Button auf der Konter-Seite eines Bosses hinzu. Du kannst Pokémon auch einzeln oder per Massenimport hinzufügen."
   }
 }

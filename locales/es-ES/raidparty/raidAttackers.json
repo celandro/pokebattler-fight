@@ -1,0 +1,52 @@
+{
+  "title": "Atacantes de incursión",
+  "filterBar": {
+    "shadow": "Oscuro",
+    "mega": "Mega",
+    "legendary": "Legendario",
+    "partyPower": "Mejora de equipo",
+    "type": "Tipo",
+    "move": "Movimiento",
+    "sort": "Ordenar",
+    "all": "Todos"
+  },
+  "sorts": {
+    "POINTS_DESC": "Puntos",
+    "ESTIMATOR_ASC": "Estimador",
+    "MATCHUPS_DESC": "Enfrentamientos",
+    "NAME_ASC": "Nombre"
+  },
+  "detailSorts": {
+    "POINTS_DESC": "Puntos",
+    "ESTIMATOR_ASC": "Estimador",
+    "RANK_ASC": "Puesto",
+    "BOSS_ASC": "Jefe",
+    "TIER_DESC": "Nivel"
+  },
+  "columns": {
+    "rank": "#",
+    "move1": "Rápido",
+    "move2": "Cargado",
+    "matchups": "Enfrentamientos",
+    "estimator": "Estimador",
+    "points": "Puntos",
+    "tier": "Nivel",
+    "boss": "Jefe",
+    "alt": "(alt.)"
+  },
+  "tabs": {
+    "movesets": "Movimientos",
+    "raidsCountered": "Incursiones contrarrestadas"
+  },
+  "status": {
+    "loading": "Cargando datos de atacantes...",
+    "downloading": "Descargando base de datos...",
+    "decompressing": "Instalando actualización...",
+    "complete": "¡Base de datos actualizada!",
+    "updateAvailable": "Actualización de la base de datos disponible",
+    "updateDB": "Actualizar base de datos",
+    "error": "No se pudieron cargar los datos de atacantes. Comprueba tu conexión.",
+    "noData": "Ningún atacante coincide con tus filtros.",
+    "refresh": "Actualizar"
+  }
+}

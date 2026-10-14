@@ -100,7 +100,7 @@
     },
     "field1NonDiscord": {
       "name": "Disponível apenas no aplicativo",
-      "value": "[Pokebattler Raid Party App](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
+      "value": "[App Pokebattler Raid Party](https://www.pokebattler.com/raidParty/{{raidPartyId}}/join)"
     },
     "thumbnail": "{{pokemonIcon}}",
     "author": {
@@ -115,7 +115,7 @@
     "titleUnknownLanguage": "{{discordFlag}}**{{defender}}** - {{tier}}"
   },
   "UPDATE_PRIVACY": {
-    "title": "{{defender}} Raid Party Global",
+    "title": "Grupo de reide global de {{defender}}",
     "subtitle": "$t(pushNotifications:defaultBody.subtitle)",
     "line1": "$t(pushNotifications:defaultBody.line1)",
     "line2": "$t(pushNotifications:defaultBody.line2)",
@@ -123,11 +123,11 @@
     "line4": "$t(pushNotifications:defaultBody.line4)"
   },
   "KICKED_USER": {
-    "title": "You have been kicked from the {{defender}} raid",
-    "subtitle": "The host has removed you.",
-    "line1": "Hosts can remove you for a variety of reasons. The most common are:",
-    "line2": "1. You have not sent the friend invite to the host",
-    "line3": "2. Trainer name or level does not match your settings",
-    "line4": "3. The boss is too difficult for someone of your level"
+    "title": "Você foi removido da reide de {{defender}}",
+    "subtitle": "O anfitrião removeu você.",
+    "line1": "Os anfitriões podem remover você por vários motivos. Os mais comuns são:",
+    "line2": "1. Você não enviou o convite de amizade para o anfitrião",
+    "line3": "2. O nome ou o nível de treinador não corresponde às suas configurações",
+    "line4": "3. O chefe é difícil demais para alguém do seu nível"
   }
 }

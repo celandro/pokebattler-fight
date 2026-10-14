@@ -61,7 +61,7 @@
     "maxBattleRoleOptions": {
         "ANY": "Any",
         "DPS": "Attacker (DPS)",
-        "TANK": "Tank",
+        "TANK": "Shielder",
         "HEALER": "Healer"
     },
     "autoRaidPartyOptions": {

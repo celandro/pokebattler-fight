@@ -1,51 +1,55 @@
 {
   "title": "Pokebox",
-  "addPokemon": "Add Pokemon",
+  "addPokemon": "Dodaj Pokémona",
   "errors": {
-    "failed": "Couldn't load Pokebox"
+    "failed": "Nie udało się wczytać Pokéboxa"
   },
   "add": {
-    "title": "New Pokemon",
-    "failed": "Could not add this pokemon",
-    "full": "Your pokebox is full. Subscribe for more server storage",
-    "autocomplete": "Enter Pokemon Name Or Type"
+    "title": "Nowy Pokémon",
+    "failed": "Nie udało się dodać tego Pokémona",
+    "full": "Twój Pokébox jest pełny. Wykup subskrypcję, aby zyskać więcej miejsca na serwerze",
+    "autocomplete": "Wpisz nazwę lub typ Pokémona"
   },
   "edit": {
-    "title": "Edit Pokemon",
-    "full": "Your pokebox is overflowing. Resubscribe or delete excess Pokemon",
-    "failed": "Sadly editing this pokemon failed"
+    "title": "Edytuj Pokémona",
+    "full": "Twój Pokébox jest przepełniony. Odnów subskrypcję lub usuń nadmiarowe Pokémony",
+    "failed": "Niestety nie udało się edytować tego Pokémona"
   },
   "delete": {
-    "title": "Delete Pokemon",
-    "failed": "Sadly deleting this pokemon failed"
+    "title": "Usuń Pokémona",
+    "failed": "Niestety nie udało się usunąć tego Pokémona"
   },
   "bulkImport": {
-    "title": "Bulk Import Pokemon",
-    "failed": "Sadly bulk importing pokemon failed",
-    "selectAll": "Select All",
-    "clearSelection": "Clear Selection",
+    "title": "Import zbiorczy Pokémonów",
+    "failed": "Niestety import zbiorczy Pokémonów się nie powiódł",
+    "selectAll": "Zaznacz wszystko",
+    "clearSelection": "Wyczyść zaznaczenie",
     "importNPokemon": "Import {{count}}/{{total}}",
-    "beginImport": "Begin Import",
+    "beginImport": "Rozpocznij import",
     "paste": "Paste",
     "errors": {
-      "parse": "Pasted data was not a supported format. Please make sure to include a header row.",
-      "pokemonId": "$t(common:pokemon) is not valid.",
-      "quickMove": "$t(pokeform.quickMove.label) is not valid.",
-      "cinematicMove": "$t(pokeform.cinematicMove.label) is not valid.",
-      "cinematicMove2": "$t(pokeform.cinematicMove2.label) is not valid.",
-      "level": "$t(pokeform.level.label) is not  is not a number between 1 and 41",
-      "individualAttack": "$t(pokeform.individualAttack.label) is not a number between 0 and 15.",
-      "individualDefense": "$t(pokeform.individualDefense.label) is not a number between 0 and 15",
-      "individualStamina": "$t(pokeform.individualStamina.label) is not a number between 0 and 15",
-      "cp": "$t(pokeform.cp.label) is not a number"
-    }
+      "parse": "Wklejone dane mają nieobsługiwany format. Upewnij się, że zawierają wiersz nagłówka.",
+      "pokemonId": "$t(common:pokemon) jest nieprawidłowy.",
+      "quickMove": "$t(pokeform.quickMove.label) jest nieprawidłowy.",
+      "cinematicMove": "$t(pokeform.cinematicMove.label) jest nieprawidłowy.",
+      "cinematicMove2": "$t(pokeform.cinematicMove2.label) jest nieprawidłowy.",
+      "level": "$t(pokeform.level.label) nie jest liczbą od 1 do 41",
+      "individualAttack": "$t(pokeform.individualAttack.label) nie jest liczbą od 0 do 15.",
+      "individualDefense": "$t(pokeform.individualDefense.label) nie jest liczbą od 0 do 15",
+      "individualStamina": "$t(pokeform.individualStamina.label) nie jest liczbą od 0 do 15",
+      "cp": "$t(pokeform.cp.label) nie jest liczbą",
+      "noDataToImport": "Najpierw wklej Pokémony do zaimportowania.",
+      "noPokemonSelected": "Wybierz co najmniej jednego Pokémona do zaimportowania."
+    },
+    "pastePrompt": "Wklej tutaj arkusz ze swoimi Pokémonami, łącznie z wierszem nagłówka (Pokemon, Level, Attack IV, Defense IV, Stamina IV, Fast Move, Charge Move, ...)"
   },
   "bulkDelete": {
-    "title": "Bulk Delete Pokemon",
-    "failed": "Sadly bulk deleting pokemon failed",
-    "selectAll": "Select All",
-    "clearSelection": "Clear Selection",
-    "deleteNPokemon": "Delete {{count}} pokemon"
+    "title": "Usuwanie zbiorcze Pokémonów",
+    "failed": "Niestety zbiorcze usuwanie Pokémonów się nie powiodło",
+    "selectAll": "Zaznacz wszystko",
+    "clearSelection": "Wyczyść zaznaczenie",
+    "deleteNPokemon": "Usuń Pokémony: {{count}}",
+    "numSelected": "Wybrano: {{count}}"
   },
   "pokeform": {
     "cp": {
@@ -57,15 +61,15 @@
       "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
     "quickMove": {
-      "label": "Quick Move",
+      "label": "Szybki ruch",
       "placeholder": "$t(common:placeholders.dropdown.required)"
     },
     "cinematicMove": {
-      "label": "Charge Move",
+      "label": "Ruch ładowany",
       "placeholder": "$t(common:placeholders.dropdown.required)"
     },
     "cinematicMove2": {
-      "label": "Second Charge Move",
+      "label": "Drugi ruch ładowany",
       "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
     "individualAttack": {
@@ -84,21 +88,60 @@
       "label": "Level",
       "placeholder": "$t(common:placeholders.dropdown.optional)"
     },
+    "megaLevel": {
+      "label": "Poziom Mega",
+      "placeholder": "$t(common:placeholders.dropdown.optional)"
+    },
     "submit": {
       "label": "$t(common:buttons.create)"
     },
     "edit": {
       "label": "$t(common:save)"
+    },
+    "form": {
+      "label": "Forma"
     }
   },
   "poketile": {
     "cp": "$t(cp)",
-    "temporary": "Saving to server"
+    "temporary": "Zapisywanie na serwerze"
+  },
+  "verify": {
+    "title": "Weryfikacja",
+    "helpBody": "Wybierz Pokémony do weryfikacji, skopiuj frazę wyszukiwania, wklej ją w wyszukiwarkę pudełka w Pokémon GO, zrób zrzut ekranu wyniku i prześlij go tutaj. Weryfikacja kosztuje monety ({{coins}}) i trwa {{days}} dni — ponowne skany są darmowe, dopóki jest aktywna.",
+    "helpBodyVerified": "Twoje konto jest zweryfikowane. Wybierz Pokémony, skopiuj frazę wyszukiwania, zrób zrzut ekranu przefiltrowanego pudełka w Pokémon GO i prześlij go — ponowne skany są darmowe, dopóki weryfikacja jest aktywna.",
+    "copySearchString": "Kopiuj frazę",
+    "searchStringCopied": "Skopiowano frazę wyszukiwania — wklej ją w wyszukiwarkę pudełka w Pokémon GO, a potem zrób zrzut ekranu.",
+    "numSelected": "Wybrano: {{count}}",
+    "clearSelection": "Wyczyść",
+    "uploadButton": "Prześlij zrzut i zweryfikuj ({{count}})",
+    "noPermission": "Aby przesłać zrzut ekranu, potrzebny jest dostęp do zdjęć.",
+    "success": "Zweryfikowane Pokémony: {{count}} ✓",
+    "noneMatched": "Serwer nie dopasował żadnego wybranego Pokémona na tym zrzucie. Usuń przezwiska, upewnij się, że CP jest widoczne, i spróbuj ponownie.",
+    "notEnoughCoins": "Za mało monet na weryfikację.",
+    "failed": "Weryfikacja nie powiodła się. Spróbuj ponownie.",
+    "review": {
+      "title": "Co odczytaliśmy",
+      "subtitle": "To Pokémony, które znaleźliśmy na Twoim zrzucie ekranu. Jeśli któryś to zły gatunek, daj nam znać.",
+      "reportUnavailable": "Zgłoszenie błędnego odczytu nie jest dostępne dla tego przesłania.",
+      "empty": "Nie znaleźliśmy żadnych Pokémonów na tym zrzucie ekranu.",
+      "unknownSpecies": "Nieznany Pokémon",
+      "cp": "CP {{cp}}",
+      "unknownCp": "CP nieznane",
+      "pending": "Oczekuje na sprawdzenie",
+      "wrong": "Błąd?",
+      "failed": "Nie udało się wysłać zgłoszenia. Spróbuj ponownie.",
+      "pickerTitle": "Jaki to naprawdę Pokémon?",
+      "pickerPlaceholder": "Szukaj Pokémona",
+      "cancel": "Anuluj",
+      "submit": "Zgłoś",
+      "done": "Gotowe"
+    }
   },
   "noPokemon": {
-    "title": "No Pokemon Found",
-    "clearFilter": "Clear Search Filter",
-    "description": "Pokebattler Raid Party requires you to add your best Pokemon in order to find the best counters! The more you add, the more accurate the raid party suggestions will be!",
-    "addPokemon": "The fastest way to add Pokemon is by clicking the plus button on the boss counters page. You can also add Pokemon one by one or by using the bulk import functionality."
+    "title": "Nie znaleziono Pokémonów",
+    "clearFilter": "Wyczyść filtr wyszukiwania",
+    "description": "Pokebattler Raid Party potrzebuje Twoich najlepszych Pokémonów, aby znaleźć najlepsze kontry! Im więcej dodasz, tym dokładniejsze będą sugestie drużyn raidowych!",
+    "addPokemon": "Najszybciej dodasz Pokémony, klikając przycisk plusa na stronie kontr bossa. Możesz też dodawać Pokémony pojedynczo lub skorzystać z importu zbiorczego."
   }
 }

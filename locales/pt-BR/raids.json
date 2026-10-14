@@ -122,247 +122,277 @@
       "subtitle": "Mega Léndaria Reide Legacy",
       "intro": "Essas mega reides não estão mais disponíveis."
     },
+    "RAID_LEVEL_MEGA_ENHANCED_4_LEGACY": {
+      "title": "Nível Super Mega - Legacy",
+      "subtitle": "Reide Super Mega",
+      "intro": "Estas Reides Super Mega não estão mais disponíveis."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5_LEGACY": {
+      "title": "Nível Super Mega Lendário - Legacy",
+      "subtitle": "Reide Super Mega Lendária",
+      "intro": "Estas Reides Super Mega Lendárias não estão mais disponíveis."
+    },
     "RAID_LEVEL_MEGA_5_FUTURE": {
       "title": "Futuro Nível Mega Lendária",
       "subtitle": "Mega Lendária Reide",
       "intro": "Essas Mega Reides ainda não estão no jogo."
     },
-    "raidTier": "Raid Tier",
-    "guessTier": "Guess Tier",
+    "RAID_LEVEL_MEGA_ENHANCED_4_FUTURE": {
+      "title": "Reides Super Mega Futuras",
+      "subtitle": "Reide Super Mega",
+      "intro": "Estas Reides Super Mega ainda não estão no jogo."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5_FUTURE": {
+      "title": "Reides Super Mega Lendárias Futuras",
+      "subtitle": "Reide Super Mega Lendária",
+      "intro": "Estas Reides Super Mega Lendárias ainda não estão no jogo."
+    },
+    "raidTier": "Nível da reide",
+    "guessTier": "Nível estimado",
     "RAID_LEVEL_NEWS": {
       "title": "News",
-      "subtitle": "Scheduled Raids",
-      "intro": "Currently scheduled Pokemon Go raids."
+      "subtitle": "Reides programadas",
+      "intro": "Reides de Pokémon GO programadas no momento."
     },
     "RAID_LEVEL_BREAKING_NEWS": {
       "title": "News",
-      "subtitle": "Scheduled Raids",
-      "intro": "Currently scheduled Pokemon Go raids."
+      "subtitle": "Reides programadas",
+      "intro": "Reides de Pokémon GO programadas no momento."
     },
     "RAID_LEVEL_REMOTE": {
       "title": "Remote",
-      "subtitle": "Multi-person raids",
-      "intro": "Difficult Pokemon Go raids, designed for 2 or more players."
+      "subtitle": "Reides para várias pessoas",
+      "intro": "Reides difíceis de Pokémon GO, pensadas para 2 ou mais jogadores."
     },
     "RAID_LEVEL_MAX": {
       "title": "Max",
-      "subtitle": "In person Dynamax and Gigantamax Raids raids",
-      "intro": "Very difficult max battles you can only fight with Max Pokemon that reward Max Pokemon"
+      "subtitle": "Batalhas Max Dinamax e Gigamax presenciais",
+      "intro": "Batalhas Max muito difíceis, em que só é possível lutar com Pokémon Max e que dão Pokémon Max como recompensa"
     },
     "RAID_LEVEL_SHADOW": {
       "title": "Shadow",
-      "subtitle": "In person shadow raids",
-      "intro": "More difficult raids that reward Shadow Pokemon"
+      "subtitle": "Reides Sombrosas presenciais",
+      "intro": "Reides mais difíceis que dão Pokémon Sombrosos como recompensa"
     },
     "RAID_LEVEL_LOCAL": {
       "title": "Local",
-      "subtitle": "Local raids",
-      "intro": "Easy Pokemon Go raids, designed to be defeated by a single player."
+      "subtitle": "Reides locais",
+      "intro": "Reides fáceis de Pokémon GO, pensadas para serem vencidas por um único jogador."
     },
     "RAID_LEVEL_ALL_RAIDS": {
       "title": "Raids",
-      "subtitle": "Standard raids",
-      "intro": "The original Pokemon Go raids, uses a standard raid pass or remote raid pass."
+      "subtitle": "Reides padrão",
+      "intro": "As reides originais de Pokémon GO, que usam um Passe de Reide padrão ou um Passe de Reide a Distância."
     },
     "RAID_LEVEL_MEGAS": {
-        "title": "Megas",
-        "subtitle": "Reides Mega",
-        "intro": "Apenas reides Mega e super Mega."
+      "title": "Megas",
+      "subtitle": "Reides Mega",
+      "intro": "Apenas reides Mega e super Mega."
     },
     "RAID_LEVEL_NO_MEGAS": {
-        "title": "Sem mega",
-        "subtitle": "Reides sem Mega",
-        "intro": "Todos os reides padrão exceto Mega."
+      "title": "Sem mega",
+      "subtitle": "Reides sem Mega",
+      "intro": "Todos os reides padrão exceto Mega."
     },
-            "RAID_LEVEL_PRIMAL": {
-      "title": "Primal Tier",
-      "subtitle": "Primal Raid",
-      "intro": "Primal raids feature Primal Reversion pokemon and are among the most difficult raids available. They are typically done with groups of 6-10 level 30-40 players."
+    "RAID_LEVEL_PRIMAL": {
+      "title": "Nível Primitivo",
+      "subtitle": "Reide Primitiva",
+      "intro": "As reides Primitivas trazem Pokémon com Reversão Primitiva e estão entre as reides mais difíceis disponíveis. Normalmente são feitas com grupos de 6-10 jogadores de nível 30-40."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_4": {
+      "title": "Nível Super Mega",
+      "subtitle": "Reide Super Mega",
+      "intro": "As Reides Super Mega são reides de Nível 7. Suas mecânicas ainda estão sendo pesquisadas e as suposições podem mudar à medida que mais dados forem confirmados."
+    },
+    "RAID_LEVEL_MEGA_ENHANCED_5": {
+      "title": "Nível Super Mega Lendário",
+      "subtitle": "Reide Super Mega Lendária",
+      "intro": "As Reides Super Mega Lendárias (Nível 7) têm 12 escudos e o chefe fica invulnerável enquanto estiver protegido. Só Pokémon Mega conseguem quebrar os escudos e causar dano, então uma Mega é obrigatória - Primitivos não quebram escudos e são excluídos de todos os resultados da reide."
     },
     "RAID_LEVEL_ULTRA_BEAST": {
-      "title": "Ultra Beast Tier",
-      "subtitle": "Ultra Beast Raid",
-      "intro": "Ultra Beast raids are equivalent to the legendary tier in difficulty"
+      "title": "Nível Ultracriatura",
+      "subtitle": "Reide de Ultracriatura",
+      "intro": "As reides de Ultracriaturas têm dificuldade equivalente ao nível lendário"
     },
     "RAID_LEVEL_ELITE": {
-      "title": "Elite Tier",
-      "subtitle": "Elite Raid - Bonus Hp",
-      "intro": "These raids have bonus hp and stats compared to Tier 5 raids.   These are in person raids typically done with groups of 6-12 players."
+      "title": "Nível Elite",
+      "subtitle": "Reide de Elite - Bônus de PS",
+      "intro": "Estas reides têm bônus de PS e atributos em comparação com as reides de Nível 5. São reides presenciais, normalmente feitas com grupos de 6-12 jogadores."
     },
     "RAID_LEVEL_1_SHADOW": {
-      "title": "Shadow Tier 1",
-      "subtitle": "Easy Shadow Raid",
-      "intro": "Shadow Tier 1 raids are fairly easy to defeat by yourself. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to collect candy for pokemon that are not common in your area."
+      "title": "Nível Sombroso 1",
+      "subtitle": "Reide Sombrosa fácil",
+      "intro": "As reides Sombrosas de Nível 1 são bem fáceis de vencer sozinho. Um jogador nível 20 com Pokémon imperfeitos deve conseguir vencer por conta própria. Estas reides são uma boa forma de coletar doces de Pokémon que não são comuns na sua área."
     },
     "RAID_LEVEL_3_SHADOW": {
-      "title": "Shadow Tier 3",
-      "subtitle": "Easy Group Shadow Raid",
-      "intro": "Shadow Tier 3 raids are targeted at groups of 2 level 30-40 players. They can be soloed by a level 40+ player with a little luck and perfect play with awesome Pokemon."
+      "title": "Nível Sombroso 3",
+      "subtitle": "Reide Sombrosa fácil para grupos",
+      "intro": "As reides Sombrosas de Nível 3 são pensadas para grupos de 2 jogadores nível 30-40. Podem ser feitas sozinho por um jogador nível 40+ com um pouco de sorte, jogadas perfeitas e Pokémon ótimos."
     },
     "RAID_LEVEL_5_SHADOW": {
-      "title": "Shadow Tier 5",
-      "subtitle": "Shadow Legendary Raid",
-      "intro": "Shadow Legendary raids are extremely difficult but are the best way to obtain strong pokemon! They are in person only raids that are often done with groups of 5-10 level 30-50 players. Some intrepid experts have done some of these raids with as few as 2-3 players. The Campfire feature is a great way to find other players for these very difficult raids"
+      "title": "Nível Sombroso 5",
+      "subtitle": "Reide Lendária Sombrosa",
+      "intro": "As reides Lendárias Sombrosas são extremamente difíceis, mas são a melhor forma de conseguir Pokémon fortes! São reides apenas presenciais, muitas vezes feitas com grupos de 5-10 jogadores nível 30-50. Alguns especialistas corajosos já fizeram algumas destas reides com apenas 2-3 jogadores. O recurso Campfire é uma ótima forma de encontrar outros jogadores para estas reides muito difíceis"
     },
     "RAID_LEVEL_1_MAX": {
-      "title": "Max Tier 1",
-      "subtitle": "Easy Dynamax Max Battle",
-      "intro": "Max Tier 1 Dynamax raids are fairly easy to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+      "title": "Nível Max 1",
+      "subtitle": "Batalha Max Dinamax fácil",
+      "intro": "As Batalhas Max Dinamax de Nível 1 são bem fáceis de vencer sozinho, mas só é possível usar Pokémon Dinamax. Um jogador nível 20 com Pokémon imperfeitos deve conseguir vencer por conta própria. Estas batalhas são uma boa forma de começar sua coleção de Pokémon Dinamax."
     },
     "RAID_LEVEL_2_MAX": {
-      "title": "Max Tier 2",
-      "subtitle": "Difficult Dynamax Max Battle",
-      "intro": "Max Tier 2 Dynamax raids are possible to defeat by yourself but you can only use Dynamax pokemon. A level 20 player with imperfect evolved pokemon should be able to beat this by themselves. These raids are a good way to begin your dynamax pokemon collection."
+      "title": "Nível Max 2",
+      "subtitle": "Batalha Max Dinamax difícil",
+      "intro": "As Batalhas Max Dinamax de Nível 2 podem ser vencidas sozinho, mas só é possível usar Pokémon Dinamax. Um jogador nível 20 com Pokémon evoluídos imperfeitos deve conseguir vencer por conta própria. Estas batalhas são uma boa forma de começar sua coleção de Pokémon Dinamax."
     },
     "RAID_LEVEL_3_MAX": {
-      "title": "Max Tier 3",
-      "subtitle": "Easy Group Dynamax Max Battle",
-      "intro": "Max Tier 3 Dynamax raids are targeted at groups of 2-4 in person level 30-40 players with 3x lvl 30-40 powered up Dynamax Pokemon. They can typically be soloed by a level 40+ player with dodging and awesome Pokemon."
+      "title": "Nível Max 3",
+      "subtitle": "Batalha Max Dinamax fácil para grupos",
+      "intro": "As Batalhas Max Dinamax de Nível 3 são pensadas para grupos presenciais de 2-4 jogadores nível 30-40 com 3 Pokémon Dinamax fortalecidos até o nível 30-40. Normalmente podem ser feitas sozinho por um jogador nível 40+ que desvie dos ataques e tenha Pokémon ótimos."
     },
     "RAID_LEVEL_4_MAX": {
-      "title": "Max Event Tier 4",
-      "subtitle": "Event Dynamax Group Max Battle",
-      "intro": "Max Tier 4 Event Dynamax battles are found in special events! They are in person only raids that are often done with groups of 2-4 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+      "title": "Nível Max de Evento 4",
+      "subtitle": "Batalha Max Dinamax de evento para grupos",
+      "intro": "As Batalhas Max Dinamax de evento de Nível 4 aparecem em eventos especiais! São reides apenas presenciais, muitas vezes feitas com grupos de 2-4 jogadores nível 30-50. O recurso Campfire é uma ótima forma de encontrar outros jogadores para estas reides muito difíceis"
     },
     "RAID_LEVEL_5_MAX": {
-      "title": "Legendary Max Tier 5",
-      "subtitle": "Group Legendary Max Battle",
-      "intro": "Max Tier 5 Legendary battles are difficult but are the best way to obtain strong Dynamax Pokemon! They are in person only raids that are often done with groups of 2-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+      "title": "Nível Max Lendário 5",
+      "subtitle": "Batalha Max Lendária para grupos",
+      "intro": "As Batalhas Max Lendárias de Nível 5 são difíceis, mas são a melhor forma de conseguir Pokémon Dinamax fortes! São reides apenas presenciais, muitas vezes feitas com grupos de 2-8 jogadores nível 30-50. O recurso Campfire é uma ótima forma de encontrar outros jogadores para estas reides muito difíceis"
     },
     "RAID_LEVEL_6_MAX": {
-      "title": "G-Max Tier 6",
-      "subtitle": "Group Gigantamax Max Battle",
-      "intro": "Max Tier 6 Gigantamax battles are difficult but are the source of  Gigantamax Pokemon! They are in person only raids that are often done with groups of 5-20 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+      "title": "Nível Gigamax 6",
+      "subtitle": "Batalha Max Gigamax para grupos",
+      "intro": "As Batalhas Max Gigamax de Nível 6 são difíceis, mas são a fonte de Pokémon Gigamax! São reides apenas presenciais, muitas vezes feitas com grupos de 5-20 jogadores nível 30-40. O recurso Campfire é uma ótima forma de encontrar outros jogadores para estas reides muito difíceis"
     },
     "RAID_LEVEL_6_5_MAX": {
-      "title": "G-Max Tier 6.5",
-      "subtitle": "Difficult Group Gigantamax Max Battle",
-      "intro": "Max Tier 6.5 Gigantamax battles are even more difficult! They are in person only raids that are often done with groups of 10-30 level 30-40 players. The Campfire feature is a great way to find other players for these very difficult raids"
+      "title": "Nível Gigamax 6.5",
+      "subtitle": "Batalha Max Gigamax difícil para grupos",
+      "intro": "As Batalhas Max Gigamax de Nível 6.5 são ainda mais difíceis! São reides apenas presenciais, muitas vezes feitas com grupos de 10-30 jogadores nível 30-40. O recurso Campfire é uma ótima forma de encontrar outros jogadores para estas reides muito difíceis"
     },
     "RAID_LEVEL_ULTRA_BEAST_LEGACY": {
-      "title": "Legacy Ultra Beast Tier",
-      "subtitle": "Ultra Beast Raid",
-      "intro": "Ultra Beast raids have been datamined but information is not currently available. Current assumption is they are equivalent to the mega legendary tier in difficulty"
+      "title": "Nível Ultracriatura - Legacy",
+      "subtitle": "Reide de Ultracriatura",
+      "intro": "As reides de Ultracriaturas foram encontradas nos dados do jogo, mas ainda não há informações disponíveis. A suposição atual é que têm dificuldade equivalente ao nível mega lendário"
     },
     "RAID_LEVEL_ELITE_LEGACY": {
-      "title": "Legacy Elite Tier",
-      "subtitle": "Elite Raid - Bonus Hp",
-      "intro": "These elite raids have been available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Elite - Legacy",
+      "subtitle": "Reide de Elite - Bônus de PS",
+      "intro": "Estas reides de Elite estiveram disponíveis no passado, mas não estão na rotação de reides atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_1_SHADOW_LEGACY": {
-      "title": "Legacy Shadow Tier 1",
-      "subtitle": "Easy Shadow Raid",
-      "intro": "These Shadow Tier 1 raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Sombroso 1 - Legacy",
+      "subtitle": "Reide Sombrosa fácil",
+      "intro": "Estas reides Sombrosas de Nível 1 estiveram disponíveis no passado, mas não estão na rotação de reides atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_3_SHADOW_LEGACY": {
-      "title": "Legacy Shadow Tier 3",
-      "subtitle": "Easy Group Shadow Raid",
-      "intro": "These Shadow Tier 3 raids were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Sombroso 3 - Legacy",
+      "subtitle": "Reide Sombrosa fácil para grupos",
+      "intro": "Estas reides Sombrosas de Nível 3 estiveram disponíveis no passado, mas não estão na rotação de reides atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_5_SHADOW_LEGACY": {
-      "title": "Legacy Shadow Tier 5",
-      "subtitle": "Shadow Legendary Raid",
-      "intro": "These Shadow Legendary raids  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Sombroso 5 - Legacy",
+      "subtitle": "Reide Lendária Sombrosa",
+      "intro": "Estas reides Lendárias Sombrosas estiveram disponíveis no passado, mas não estão na rotação de reides atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_1_MAX_LEGACY": {
-      "title": "Legacy Max Tier 1",
-      "subtitle": "Easy Max Dynamax Battle",
-      "intro": "These Max Tier 1 Dynamax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Max 1 - Legacy",
+      "subtitle": "Batalha Max Dinamax fácil",
+      "intro": "Estas Batalhas Max Dinamax de Nível 1 estiveram disponíveis no passado, mas não estão na rotação atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_2_MAX_LEGACY": {
-      "title": "Legacy Max Tier 2",
-      "subtitle": "Difficult Dynamax Max Battle",
-      "intro": "These Max Tier 2 Dynamax battles  were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Max 2 - Legacy",
+      "subtitle": "Batalha Max Dinamax difícil",
+      "intro": "Estas Batalhas Max Dinamax de Nível 2 estiveram disponíveis no passado, mas não estão na rotação atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_3_MAX_LEGACY": {
-      "title": "Legacy Max Tier 3",
-      "subtitle": "Easy Group Dynamax Max Battle",
-      "intro": "These Max Tier 3 Dynamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Max 3 - Legacy",
+      "subtitle": "Batalha Max Dinamax fácil para grupos",
+      "intro": "Estas Batalhas Max Dinamax de Nível 3 estiveram disponíveis no passado, mas não estão na rotação atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_4_MAX_LEGACY": {
-      "title": "Legacy Max Event Tier 4",
-      "subtitle": "Event Dynamax Group Max Battle",
-      "intro": "Max Tier 4 Event Dynamax battles are found in special events! They are in person only raids that are often done with groups of 4-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+      "title": "Nível Max de Evento 4 - Legacy",
+      "subtitle": "Batalha Max Dinamax de evento para grupos",
+      "intro": "As Batalhas Max Dinamax de evento de Nível 4 aparecem em eventos especiais! São reides apenas presenciais, muitas vezes feitas com grupos de 4-8 jogadores nível 30-50. O recurso Campfire é uma ótima forma de encontrar outros jogadores para estas reides muito difíceis"
     },
     "RAID_LEVEL_5_MAX_LEGACY": {
-      "title": "Legacy Max Tier 5",
-      "subtitle": "Legendary Group Dynamax Max Battle",
-      "intro": "These Legendaary Max Tier 5 Dynamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Max 5 - Legacy",
+      "subtitle": "Batalha Max Dinamax Lendária para grupos",
+      "intro": "Estas Batalhas Max Dinamax Lendárias de Nível 5 estiveram disponíveis no passado, mas não estão na rotação atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_6_MAX_LEGACY": {
-      "title": "Legacy G-Max Tier 6",
-      "subtitle": "Group Gigantamax Max Battle",
-      "intro": "These Tier 6 Gigantamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Gigamax 6 - Legacy",
+      "subtitle": "Batalha Max Gigamax para grupos",
+      "intro": "Estas Batalhas Max Gigamax de Nível 6 estiveram disponíveis no passado, mas não estão na rotação atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_6_5_MAX_LEGACY": {
-      "title": "Legacy Difficult G-Max Tier 6.5",
-      "subtitle": "Difficult Group Gigantamax Max Battle",
-      "intro": "These Tier 6.5 Gigantamax battles were available in the past but are not currently in the raid rotations. They may return in the future for special events."
+      "title": "Nível Gigamax difícil 6.5 - Legacy",
+      "subtitle": "Batalha Max Gigamax difícil para grupos",
+      "intro": "Estas Batalhas Max Gigamax de Nível 6.5 estiveram disponíveis no passado, mas não estão na rotação atual. Elas podem voltar no futuro em eventos especiais."
     },
     "RAID_LEVEL_6_FUTURE": {
-      "title": "Future Tier 6",
-      "subtitle": "Legendary Raid - Bonus Hp",
-      "intro": "These legendary raids with bonus hp are not in the game yet! Their stats and moves are still subject to change."
+      "title": "Futuro Nível 6",
+      "subtitle": "Reide Lendária - Bônus de PS",
+      "intro": "Estas reides lendárias com bônus de PS ainda não estão no jogo! Os atributos e ataques ainda podem mudar."
     },
     "RAID_LEVEL_ELITE_FUTURE": {
-      "title": "Future Elite Tier",
-      "subtitle": "Elite Raid - Bonus Hp",
-      "intro": "These elite raids are not in the game yet! Their stats and moves are still subject to change."
+      "title": "Futuro Nível Elite",
+      "subtitle": "Reide de Elite - Bônus de PS",
+      "intro": "Estas reides de Elite ainda não estão no jogo! Os atributos e ataques ainda podem mudar."
     },
     "RAID_LEVEL_ULTRA_BEAST_FUTURE": {
-      "title": "Future Ultra Beast Tier",
-      "subtitle": "Ultra Beast Raid",
-      "intro": "Ultra Beast raids have been datamined but information is not currently available. They are equivalent to the mega legendary tier in difficulty"
+      "title": "Futuro Nível Ultracriatura",
+      "subtitle": "Reide de Ultracriatura",
+      "intro": "As reides de Ultracriaturas foram encontradas nos dados do jogo, mas ainda não há informações disponíveis. Elas têm dificuldade equivalente ao nível mega lendário"
     },
     "RAID_LEVEL_1_SHADOW_FUTURE": {
-      "title": "Future Shadow Tier 1",
-      "subtitle": "Easy Shadow Raid",
-      "intro": "These Shadow Tier 1 raids are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Sombroso 1",
+      "subtitle": "Reide Sombrosa fácil",
+      "intro": "Estas reides Sombrosas de Nível 1 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     },
     "RAID_LEVEL_3_SHADOW_FUTURE": {
-      "title": "Future Shadow Tier 3",
-      "subtitle": "Easy Group Shadow Raid",
-      "intro": "These Shadow Tier 3 raids are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Sombroso 3",
+      "subtitle": "Reide Sombrosa fácil para grupos",
+      "intro": "Estas reides Sombrosas de Nível 3 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     },
     "RAID_LEVEL_5_SHADOW_FUTURE": {
-      "title": "Future Shadow Tier 5",
-      "subtitle": "Shadow Legendary Raid",
-      "intro": "These Shadow Tier 5 raids are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Sombroso 5",
+      "subtitle": "Reide Lendária Sombrosa",
+      "intro": "Estas reides Sombrosas de Nível 5 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     },
     "RAID_LEVEL_1_MAX_FUTURE": {
-      "title": "Future Max Tier 1",
-      "subtitle": "Easy Dynamax Max Battle",
-      "intro": "These Max Tier 1 Dynamax battles are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Max 1",
+      "subtitle": "Batalha Max Dinamax fácil",
+      "intro": "Estas Batalhas Max Dinamax de Nível 1 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     },
     "RAID_LEVEL_2_MAX_FUTURE": {
-      "title": "Future Max Tier 2",
-      "subtitle": "Difficult Dynamax Max Battle",
-      "intro": "These Max Tier 2 Dynamax battles are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Max 2",
+      "subtitle": "Batalha Max Dinamax difícil",
+      "intro": "Estas Batalhas Max Dinamax de Nível 2 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     },
     "RAID_LEVEL_3_MAX_FUTURE": {
-      "title": "Future Max Tier 3",
-      "subtitle": "Easy Dynamax Group Max Battle",
-      "intro": "These Max Tier 3 Dynamax battles are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Max 3",
+      "subtitle": "Batalha Max Dinamax fácil para grupos",
+      "intro": "Estas Batalhas Max Dinamax de Nível 3 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     },
     "RAID_LEVEL_4_MAX_FUTURE": {
-      "title": "Future Max Event Tier 4",
-      "subtitle": "Event Dynamax Group Max Battle",
-      "intro": "These Max Tier 4 Dynamax battles that are found in special events! They are in person only raids that are often done with groups of 2-8 level 30-50 players. The Campfire feature is a great way to find other players for these very difficult raids"
+      "title": "Futuro Nível Max de Evento 4",
+      "subtitle": "Batalha Max Dinamax de evento para grupos",
+      "intro": "Estas Batalhas Max Dinamax de Nível 4 aparecem em eventos especiais! São reides apenas presenciais, muitas vezes feitas com grupos de 2-8 jogadores nível 30-50. O recurso Campfire é uma ótima forma de encontrar outros jogadores para estas reides muito difíceis"
     },
     "RAID_LEVEL_5_MAX_FUTURE": {
-      "title": "Future Legendary Max Tier 5",
-      "subtitle": "Difficult Group Legendary Max Battle",
-      "intro": "These Max Tier 5 Legendary battles are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Max Lendário 5",
+      "subtitle": "Batalha Max Lendária difícil para grupos",
+      "intro": "Estas Batalhas Max Lendárias de Nível 5 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     },
     "RAID_LEVEL_6_MAX_FUTURE": {
-      "title": "Future G-Max Tier 6",
-      "subtitle": "Difficult Group Gigantamax Max Battle",
-      "intro": "These Max Tier 6 Gigantamax battles are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Gigamax 6",
+      "subtitle": "Batalha Max Gigamax difícil para grupos",
+      "intro": "Estas Batalhas Max Gigamax de Nível 6 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     },
     "RAID_LEVEL_6_5_MAX_FUTURE": {
-      "title": "Future G-Max Tier 6.5",
-      "subtitle": "Difficult Group Gigantamax Max Battle",
-      "intro": "These Max Tier 6 Gigantamax battles are not in the game yet. They may appear in the future for special events."
+      "title": "Futuro Nível Gigamax 6.5",
+      "subtitle": "Batalha Max Gigamax difícil para grupos",
+      "intro": "Estas Batalhas Max Gigamax de Nível 6.5 ainda não estão no jogo. Elas podem aparecer no futuro em eventos especiais."
     }
   },
   "custom": {
@@ -395,7 +425,7 @@
         "byLevel": "Atacantes nível {{attackerLevel}}",
         "pokebox": "os Pokémons personalizados da Pokebox do usuário #{{userId}}"
       },
-      "numParty": "Party power is complicated to simulate, the results below are estimates."
+      "numParty": "O Poder de Grupo é complicado de simular; os resultados abaixo são estimativas."
     },
     "description": "Bem-vindo ao Guia de Reide do Pokebattler para {{pokemon}}. Você pode encontrar o melhor oponente de acordo com os ataques de cada Chefe. Este guia é customizável de muitas formas diferentes. Você pode escolher o nível do ataque e estratégia de ataque que deseja usar assim como várias opções de ordenação. ",
     "patreon": {
@@ -411,8 +441,12 @@
       "title": "Counters Relacionados"
     },
     "superMegaWarning": {
+      "title": "Aviso de Reide Super Mega",
+      "invulnerable": "Durante a fase de fúria o chefe fica INVULNERÁVEL enquanto tiver qualquer escudo restante — nenhum Pokémon consegue causar dano a ele até todos os escudos serem quebrados.",
       "shieldBreaking": "Somente o ataque carregado de uma Megaevolução verdadeira pode quebrar um escudo, e cada jogador pode quebrar no máximo um escudo por enfurecimento. Você NÃO pode usar Pokémon Primais: Groudon Primal e Kyogre Primal não podem quebrar escudos, portanto são excluídos dos atacantes sugeridos.",
-      "playersNeeded": "A partir de 11 de julho, as reides de Mega Mewtwo exigem 10 jogadores usando uma Megaevolução para quebrar o escudo."
+      "playersNeeded": "A partir de 11 de julho, as reides de Mega Mewtwo exigem 10 jogadores usando uma Megaevolução para quebrar o escudo.",
+      "megaMewtwoX": "Exceção: Mega Mewtwo X usando Soco Dinâmico quebra DOIS escudos em vez de um.",
+      "research": "Compartilhe registros de reide e descobertas no canal de pesquisa do Discord do Pokebattler Raid Party:"
     }
   },
   "pokebox": {
@@ -442,7 +476,9 @@
   },
   "helpLink": "Assista o Tutorial de Reides em vídeo",
   "battle": {
-    "resultLink": "Veja este resultado como um time de batalha"
+    "resultLink": "Veja este resultado como um time de batalha",
+    "soloAttemptsLink": "Simular tentativas solo com o melhor counter",
+    "soloTechniquesLink": "Técnicas avançadas de reide solo"
   },
   "meta": {
     "description": "Encontre os adversários da raid Pokemon Go usando clima, nível de amizade e até mesmo sua própria Pokebox. Encontre os 30 melhores atacantes com o guia de reide personalizado #1 do mundo.",
@@ -452,7 +488,8 @@
   "breakingNews": {
     "title": "último minuto",
     "subtitle": "Raids populares em Pokemon Go",
-    "header": "Interativo $t(constants:pokemon.{{pokemonId}}) Counters"
+    "header": "Interativo $t(constants:pokemon.{{pokemonId}}) Counters",
+    "maxLink": "Batalhas Max atuais"
   },
   "articles": {
     "title": "Últimas Notícias sobre Raid!",
@@ -463,11 +500,122 @@
     "subtitle": "Como derrotar $t(constants:pokemon.{{pokemonId}}) no Pokemon Go",
     "infographicDownload": "Baixar $t(constants:pokemon.{{pokemonId}}) Infográfico",
     "article": "Leia o Guida de Counters de Reide $t(constants:pokemon.{{pokemonId}}) abaixo",
-    "infographicDownloadButton": "Download High Resolution Infographic"
+    "infographicDownloadButton": "Baixar infográfico em alta resolução"
   },
   "silph": {
     "text": "Lista atual de chefes de raid fornecida por",
     "link": "The Silph Road"
+  },
+  "max": {
+    "title": "Counters de Batalha Max",
+    "linkLabel": "Counters de Batalha Max",
+    "raidsLink": "Reides atuais",
+    "breakingNews": {
+      "title": "Novidades das Batalhas Max",
+      "subtitle": "Batalhas Max acontecendo agora ou começando dentro de uma semana"
+    },
+    "meta": {
+      "description": "Encontre counters para Batalhas Max Dinamax e Gigamax no Pokémon GO. Veja os melhores atacantes, curandeiros e protetores com o guia personalizado de Batalhas Max nº 1 do mundo.",
+      "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+    },
+    "intro": "As Batalhas Max chegaram! Descubra quais Pokémon são os melhores counters contra chefes Dinamax e Gigamax com o guia personalizado de Batalhas Max do Pokémon GO mais preciso do mundo. É só escolher um chefe de Batalha Max abaixo para ver os melhores counters para cada conjunto de ataques!",
+    "current": {
+      "title": "Batalhas Max Atuais",
+      "description": "Chefes Dinamax e Gigamax que aparecem agora nos Pontos de Energia."
+    },
+    "upcoming": {
+      "title": "Próximas Batalhas Max",
+      "description": "Chefes Dinamax e Gigamax que vão aparecer em breve nos Pontos de Energia."
+    },
+    "legacy": {
+      "title": "Batalhas Max Legacy",
+      "description": "Chefes Dinamax e Gigamax que apareceram nos Pontos de Energia no passado."
+    },
+    "boss": {
+      "title": "Counters da Batalha Max de {{pokemon}} ({{tier}})",
+      "intro": "Estes são os melhores counters para a Batalha Max de {{pokemon}}. Escolha abaixo uma função de atacante, defensor, carregador, curandeiro ou protetor para ver os melhores Pokémon para sua equipe e toque para ver a lista completa de counters personalizados.",
+      "meta": {
+        "description": "Encontre os melhores counters, curandeiros e protetores para a Batalha Max de {{pokemon}} no Pokémon GO com o guia personalizado de Batalhas Max nº 1 do mundo.",
+        "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
+      },
+      "rankings": {
+        "attack": {
+          "label": "Atacantes",
+          "description": "Muito dano na fase Max"
+        },
+        "charge": {
+          "label": "Defensores",
+          "description": "Carrega o medidor, aguenta golpes"
+        },
+        "meterCharge": {
+          "label": "Carregadores",
+          "description": "Medidor rápido, sobrevive a ataques em área"
+        },
+        "heal": {
+          "label": "Curandeiros",
+          "description": "Cura a equipe"
+        },
+        "shield": {
+          "label": "Protetores",
+          "description": "Escudos e provocações"
+        },
+        "party": {
+          "label": "Grupo",
+          "description": "Monte um grupo de 4 treinadores e simule-o em batalha."
+        }
+      },
+      "counters": {
+        "attack": "Melhores Atacantes contra {{pokemon}}",
+        "charge": "Melhores Defensores contra {{pokemon}}",
+        "meterCharge": "Melhores Carregadores contra {{pokemon}}",
+        "heal": "Melhores Curandeiros contra {{pokemon}}",
+        "shield": "Melhores Protetores contra {{pokemon}}"
+      },
+      "party": {
+        "title": "Grupo da Batalha Max de {{pokemon}}",
+        "description": "Um grupo de Batalha Max tem até 4 treinadores com 3 Pokémon cada: um Atacante leva 2 Carregadores e 1 Atacante, um treinador Defensivo leva 2 Defensores e 1 Atacante, um Curandeiro leva 1 Curandeiro e 2 Defensores, e um Protetor leva 3 Protetores. Escolha sua função e as funções dos outros treinadores - ou defina uma vaga como Nenhum para um grupo menor - e veja como o grupo inteiro se sai contra {{pokemon}}.",
+        "roles": {
+          "attack": "Atacante",
+          "defensive": "Defensivo",
+          "heal": "Curandeiro",
+          "shield": "Protetor",
+          "none": "Nenhum"
+        },
+        "slotRoles": {
+          "attack": "Atacante",
+          "charge": "Defensor",
+          "meter_charge": "Carregador",
+          "shield": "Protetor",
+          "heal": "Curandeiro"
+        },
+        "slotHints": {
+          "attack": "Só na fase Max",
+          "charge": "Carrega o Medidor Max",
+          "meter_charge": "Enche o Medidor Max rápido",
+          "shield": "Protege a equipe",
+          "heal": "Cura a equipe"
+        },
+        "you": "Você",
+        "trainer": "Treinador {{number}}",
+        "yourRole": "Sua função",
+        "theirRole": "Função dele",
+        "lobbyNote": "Os outros treinadores são simulados com equipes genéricas para a função que você deu a eles.",
+        "swapNote": "Os Carregadores enchem o Medidor Max rápido e sobrevivem a dois ataques em área; os Defensores carregam mais devagar, mas seguram o campo por mais tempo. O Atacante entra só na fase Max e depois sai de novo.",
+        "teamUnavailable": "Não conseguimos escolher uma equipe de {{role}} para este chefe agora.",
+        "teamFailed": "Não foi possível carregar a equipe de {{role}}. Tente de novo.",
+        "error": "Não foi possível simular este grupo. Tente de novo mais tarde.",
+        "openSimulator": "Personalizar no Simulador de Batalha Max",
+        "viewLog": "Ver registro da batalha",
+        "emptySeat": "Ninguém nesta vaga.",
+        "genericFallback": "Escolha genérica",
+        "alternatives": "Trocar",
+        "unavailable": "Não conseguimos montar sua equipe para este chefe agora. Tente de novo em instantes.",
+        "retry": "Tentar de novo",
+        "tankUptime": "Tempo ativo do protetor"
+      },
+      "pokeboxToggle": "Usar minha Pokebox",
+      "fullCounters": "Ver a lista completa de counters contra {{pokemon}}"
+    }
   },
   "raidParty": {
     "title": "Pokebattler Raid Party",
@@ -514,7 +662,44 @@
     "meta": {
       "description": "Os melhores atacantes de reide {{type}} {{move}} no Pokémon Go são {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} e {{top6}}. Encontre os melhores atacantes para todas as reides com Pokebattler!"
     },
-    "details": "Os atacantes são agregados usando um algorítmo de classificação que dá pontos com base no desempenho, no nível 40 sem amigo ou bônus de clima ordenado pelo estimador. 5 pontos são dados para um primeiro lugar exibido, 4 pontos para um segundo lugar, 3 pontos para um quarto lugar, 2 pontos para um oitavo lugar, 1 ponto para um 16º lugar. Os pontos são então ponderados pelo nível (10x para o nível 5 / mega, 4x para o nível 3 e 1x para o nível 1)"
+    "pokemonTypeFilterLabel": "Tipo do Pokémon",
+    "moveTypeFilterLabel": "Tipo do ataque",
+    "filterHints": {
+      "pokemonType": "Qualquer um dos dois tipos deve corresponder",
+      "moveType": "O ataque ágil ou o carregado deve ser deste tipo"
+    },
+    "pageTitles": {
+      "all": "Melhores atacantes de reide no Pokémon GO",
+      "pokemon": "Melhores atacantes de reide do tipo {{typeNamePokemon}} no Pokémon GO",
+      "move": "Melhores atacantes de reide com ataques do tipo {{typeNameMove}}",
+      "both": "Melhores atacantes de reide do tipo {{typeNamePokemon}} com ataques do tipo {{typeNameMove}}"
+    },
+    "intros": {
+      "all": "Os melhores atacantes de reide do Pokémon GO, somando todos os chefes de reide, são {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} e {{top6}}.",
+      "pokemon": "Os melhores atacantes de reide do tipo {{typeNamePokemon}} no Pokémon GO são {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} e {{top6}}.",
+      "move": "Os melhores atacantes de reide do Pokémon GO com um ataque do tipo {{typeNameMove}} são {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} e {{top6}}.",
+      "both": "Os melhores atacantes de reide do tipo {{typeNamePokemon}} no Pokémon GO com um ataque do tipo {{typeNameMove}} são {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} e {{top6}}."
+    },
+    "seo": {
+      "titles": {
+        "all": "Melhores Atacantes de Reide no Pokémon GO (todos os tipos) | Pokebattler",
+        "pokemon": "Melhores Atacantes de Reide do Tipo {{typeNamePokemon}} no Pokémon GO | Pokebattler",
+        "move": "Melhores Atacantes de Reide com Ataques do Tipo {{typeNameMove}} | Pokémon GO | Pokebattler",
+        "both": "Melhores Atacantes de Reide do Tipo {{typeNamePokemon}} com Ataques do Tipo {{typeNameMove}} | Pokebattler"
+      },
+      "descriptions": {
+        "all": "Ranking de atacantes de reide do Pokémon GO sem filtro de tipo. Os destaques incluem {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}} e {{top6}}. Compare por pontos, confrontos ou estimador no Pokebattler.",
+        "pokemon": "Atacantes de reide do Pokémon GO filtrados por espécies do tipo {{typeNamePokemon}} (em qualquer um dos tipos). Destaques: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Página própria — diferente do ranking por tipo de ataque.",
+        "move": "Atacantes de reide do Pokémon GO com pelo menos um ataque ágil ou carregado do tipo {{typeNameMove}}. Destaques: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Página própria — diferente do ranking por tipo de Pokémon.",
+        "both": "Atacantes de reide do tipo {{typeNamePokemon}} no Pokémon GO com ataques do tipo {{typeNameMove}}. Destaques: {{top1}}, {{top2}}, {{top3}}, {{top4}}, {{top5}}, {{top6}}. Filtrado pelo tipo da espécie e pelo tipo do ataque."
+      }
+    },
+    "details": "Os atacantes são agregados usando um algorítmo de classificação que dá pontos com base no desempenho, no nível 40 sem amigo ou bônus de clima ordenado pelo estimador. 5 pontos são dados para um primeiro lugar exibido, 4 pontos para um segundo lugar, 3 pontos para um quarto lugar, 2 pontos para um oitavo lugar, 1 ponto para um 16º lugar. Os pontos são então ponderados pelo nível (10x para o nível 5 / mega, 4x para o nível 3 e 1x para o nível 1)",
+    "superMega": {
+      "helpTitle": "Como vencer reides Super Mega",
+      "helpBody": "Os chefes Super Mega entram em fúria no meio da batalha e erguem escudos. Enquanto os escudos estão de pé, o chefe fica invulnerável e SÓ pode levar dano do ataque carregado de uma Megaevolução de verdade (por exemplo, Mega Rayquaza — Primitivos como Groudon Primitivo e Kyogre Primitivo NÃO contam). Coloque uma Mega no último espaço da sua equipe para que ela entre automaticamente quando o chefe entrar em fúria e quebre um escudo com o ataque carregado. Primitivos e não Megas ainda causam muito dano, mas não quebram escudos, então um chefe Super Mega mítico com cerca de 12 escudos precisa de um grupo cheio de uns 12 ou mais jogadores, todos levando Megas.",
+      "primalNote": "Observação: a lista de counters sugeridos exclui os Primitivos. Eles causam muito dano, mas não conseguem quebrar os escudos de um chefe Super Mega — só Megaevoluções de verdade conseguem."
+    }
   },
   "raidAttackerDetails": {
     "title": "{{attackerName}} Raid Attacker Analysis",
@@ -523,21 +708,21 @@
       "title": "Raid Attacker - {{attackerName}} {{move1Name}} {{move2Name}}",
       "description": "The best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}} are {{counter1}}, {{counter2}}, {{counter3}}, {{counter4}}, {{counter5}} & {{counter6}}. Find the best raid bosses for {{attackerName}} to defeat in Pokemon Go using {{move1Name}} and {{move2Name}}. Find out exactly how useful {{attackerName}} is in Pokemon Go raids!"
     },
-    "availableMoves": "Available Moves",
+    "availableMoves": "Ataques disponíveis",
     "counters": "Counters"
   },
   "raidNetworkDiscords": {
-    "title": "Raid Network",
-    "info": "Discord servers in the Pokebattler Raid Network are available to join in the Pokebattler Raid Party app if they do not fill up. You can join their servers directly to fill raids sooner!",
-    "join": "Have a raiding discord and interested in joining the Pokebattler Raid Network? Join the Pokebattler Raid App discord and ping an admin",
-    "discordLink": "Go to {{guildName}} Discord server",
+    "title": "Rede de reides",
+    "info": "Os servidores do Discord da Pokebattler Raid Network ficam disponíveis no app Pokebattler Raid Party quando não lotam. Você pode entrar diretamente nesses servidores para completar reides mais rápido!",
+    "join": "Tem um Discord de reides e quer entrar na Pokebattler Raid Network? Entre no Discord do Pokebattler Raid App e chame um administrador",
+    "discordLink": "Ir para o servidor do Discord {{guildName}}",
     "properties": {
-      "activeRaidersCount": "Avg Raiders",
+      "activeRaidersCount": "Média de jogadores",
       "raidsCreated": "# Raids",
       "yesterday": "Yesterday",
-      "lastWeek": "Last Week",
-      "lastMonth": "Last Month",
-      "lastYear": "Last Year",
+      "lastWeek": "Última semana",
+      "lastMonth": "Último mês",
+      "lastYear": "Último ano",
       "country": "Country",
       "language": "Language",
       "name": "$t(common:name)"
@@ -545,41 +730,61 @@
   },
   "infographics": {
     "title": "Infographics",
-    "subTitle": "Pokemon Go Raid Counter Infographics",
+    "subTitle": "Infográficos de counters de reides de Pokémon GO",
     "meta": {
-      "description": "Get your Pokemon Go Raid Infographics from CaptGoldfish and JaceMakings. These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+      "description": "Baixe os infográficos de reides de Pokémon GO de CaptGoldfish e JaceMakings. Estes infográficos são voltados para jogadores iniciantes e não incluem megas nem Sombrosos. Estes counters de reide vão ajudar você a vencer o chefe com o menor número possível de treinadores!",
       "image": "https://static.pokebattler.com/images/og_raid_counters.jpg"
     },
     "articles": {
-      "title": "Pokemon Go Raid Infographics",
-      "subtitle": "High quality counters with hand drawn graphics"
+      "title": "Infográficos de reides de Pokémon GO",
+      "subtitle": "Counters de alta qualidade com ilustrações feitas à mão"
     },
     "authors": {
       "captgoldfish": {
         "name": "CaptGoldfish",
         "link": "https://twitter.com/CaptGoldfish",
-        "title": "CaptGoldfish's Raid Counter Infographics",
+        "title": "Infográficos de counters de reide de CaptGoldfish",
         "button": {
           "title": "CaptGoldfish",
-          "subtitle": "Hand drawn Pokemon Go raid boss infographics designed for portrait mode"
+          "subtitle": "Infográficos de chefes de reide de Pokémon GO desenhados à mão, feitos para o modo retrato"
         },
         "meta": {
-          "description": "Pokemon Go Raid Infographics from CaptGoldfish! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+          "description": "Infográficos de reides de Pokémon GO de CaptGoldfish! Estes infográficos são voltados para jogadores iniciantes e não incluem megas nem Sombrosos. Estes counters de reide vão ajudar você a vencer o chefe com o menor número possível de treinadores!",
           "image": "https://static.pokebattler.com/CaptGoldfish/icon.png"
         }
       },
       "jace": {
         "name": "Jace",
         "link": "https://twitter.com/JaceMakings",
-        "title": "Jace's Raid Counter Infographics",
+        "title": "Infográficos de counters de reide de Jace",
         "button": {
           "title": "Jace",
-          "subtitle": "High quality Pokemon Go raid boss infographics designed for landscape mode"
+          "subtitle": "Infográficos de chefes de reide de Pokémon GO em alta qualidade, feitos para o modo paisagem"
         },
         "meta": {
-          "description": "Pokemon Go Raid Infographics from Jace! These infographics are intended for new players and do not include megas or shadow. These raid counters will help you beat the raid boss with the fewest number of trainers!",
+          "description": "Infográficos de reides de Pokémon GO de Jace! Estes infográficos são voltados para jogadores iniciantes e não incluem megas nem Sombrosos. Estes counters de reide vão ajudar você a vencer o chefe com o menor número possível de treinadores!",
           "image": "https://static.pokebattler.com/graphics/Jace.jpg"
         }
+      }
+    }
+  },
+  "guides": {
+    "title": "Guias",
+    "subTitle": "Guias de Reide do Pokémon GO pelo Professor Geekbeak",
+    "meta": {
+      "description": "Confira os Guias de Reide do Pokémon GO do Professor Geekbeak. Estes guias visuais ajudam você a se preparar para os chefes de reide com os melhores counters e estratégias!",
+      "image": "https://static.pokebattler.com/images/professor_geekbeek_generic.jpg"
+    },
+    "articles": {
+      "title": "Guias de Reide do Pokémon GO",
+      "subtitle": "Guias visuais de reide pelo Professor Geekbeak"
+    },
+    "author": {
+      "name": "Professor Geekbeak",
+      "title": "Guias de Reide do Professor Geekbeak",
+      "meta": {
+        "description": "Guias de Reide do Pokémon GO do Professor Geekbeak! Estes guias visuais ajudam você a se preparar para os chefes de reide com os melhores counters e estratégias!",
+        "image": "https://static.pokebattler.com/images/professor_geekbeek_generic.jpg"
       }
     }
   }

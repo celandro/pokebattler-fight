@@ -1,17 +1,28 @@
 {
   "tutorials": {
     "title": "Tutorials",
-    "heading": "Mrs. Pokebattler is here to guide you through using the Pokebattler Raid Party App",
-    "description": "My husband sometimes forgets to write instructions on how to use his tools. I always have to remind him that people need a bit of guidance some times! Here are some guides for the more complicated parts of the Pokebattler Raid Party app!",
-    "caution": "These tutorials are heavy on the visuals and are a few megabytes in size, consider loading on wifi.",
-    "load": "Load the tutorial"
+    "heading": "Mrs. Pokebattler zeigt dir, wie du die Pokebattler Raid Party App benutzt",
+    "description": "Mein Mann vergisst manchmal, Anleitungen für seine Tools zu schreiben. Ich muss ihn immer daran erinnern, dass die Leute ab und zu ein bisschen Hilfe brauchen! Hier sind Anleitungen für die kniffligeren Teile der Pokebattler Raid Party App!",
+    "caution": "Diese Anleitungen sind sehr bildlastig und einige Megabyte groß – lade sie am besten im WLAN.",
+    "load": "Anleitung laden"
   },
   "tutorial": {
+    "superMega": {
+      "iconName": "shield-alt",
+      "title": "Super-Mega-Raids",
+      "subtitle": "Schilde, Raserei und warum du UNBEDINGT ein Mega mitbringen musst",
+      "heading": "Kurz gesagt: Mrs. Pokebattler erklärt die Schildwand – nur echte Megas können sie durchbrechen",
+      "body1": "Meine Güte, diesmal hat sich mein Mann wirklich selbst übertroffen! Super-Mega-Raids sind seine neueste und fieseste Schöpfung – die stärksten legendären Megas, versteckt hinter einer ganzen Wand aus Schilden. Lass mich dir alles erklären, bevor deine Raid-Gruppe überrascht wird.",
+      "body2": "Mitten im Kampf wird der Boss WÜTEND. Er verfällt in Raserei, seine Verteidigung schießt in die Höhe und um ihn herum erscheinen mehrere Schilde. Solange auch nur EIN Schild steht, ist der Boss völlig unverwundbar – du kannst den ganzen Tag auf ihn einschlagen, ohne ihm einen Kratzer zuzufügen.",
+      "body3": "Das Geheimnis: Nur die Lade-Attacke einer ECHTEN Mega-Entwicklung kann einen Schild brechen. Proto-Groudon und Proto-Kyogre sehen zwar so aus, aber Proto-Pokémon können KEINE Schilde brechen – genauso wenig wie normale Pokémon. Deshalb sollte jeder Trainer ein Mega auf den LETZTEN Platz seines Teams setzen: Sobald der Boss in Raserei verfällt, springt dein Mega automatisch mit genug Energie für eine Lade-Attacke ein und zerschmettert einen Schild.",
+      "body4": "Die größten Bosse – die mysteriösen – errichten etwa ein Dutzend Schilde. Man braucht also eine volle Lobby mit rund 12 oder mehr Trainern, von denen JEDER ein eigenes Mega mitbringt, um die Wand einzureißen. Jeder bricht einen, und dann fallen sie alle!",
+      "body5": "Der Rest deines Teams kann aus deinen üblichen besten Angreifern bestehen – sie müssen keine Megas sein, sie können nur keine Schilde brechen. Sobald die Schilde fallen, beruhigt sich der Boss wieder und es ist ein normaler (na gut, ein sehr GROSSER) Raid. Wenn du das automatische Kampfteam der App verwendest, setzt sie dir ein Mega auf den letzten Platz. Viel Glück da draußen, ihr Lieben!"
+    },
     "joinRaid": {
       "iconName": "link",
-      "title": "Join Raids",
-      "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
-      "heading": "TLDR: Mrs. Pokebattler will show you how to join a raid ",
+      "title": "Raids beitreten",
+      "subtitle": "Lerne, wie du in der Pokebattler Raid Party App Raids beitrittst",
+      "heading": "Kurz gesagt: Mrs. Pokebattler zeigt dir, wie du einem Raid beitrittst ",
       "slices": "9",
       "fileName": "https://static.pokebattler.com/help/en-US/join_raid/join_raid_{{slice}}.png",
       "dimensions": {
@@ -22,8 +33,8 @@
     },
     "joinRaidAndroid": {
       "iconName": "link",
-      "title": "Join Raids",
-      "subtitle": "Learn how to join raids in the Pokebattler Raid Party app",
+      "title": "Raids beitreten",
+      "subtitle": "Lerne, wie du in der Pokebattler Raid Party App Raids beitrittst",
       "slices": "9",
       "fileName": "https://static.pokebattler.com/help/300/en-US/join_raid/join_raid_{{slice}}.png",
       "dimensions": {
@@ -34,9 +45,9 @@
     },
     "hostRaid": {
       "iconName": "plus-circle",
-      "title": "Host Raids",
-      "subtitle": "Learn how to host raids in the Pokebattler Raid Party app",
-      "heading": "Not sure how to host a raid? Mrs. Pokebattler is here to help",
+      "title": "Raids hosten",
+      "subtitle": "Lerne, wie du in der Pokebattler Raid Party App Raids hostest",
+      "heading": "Du weißt nicht, wie man einen Raid hostet? Mrs. Pokebattler hilft dir",
       "slices": "16",
       "fileName": "https://static.pokebattler.com/help/en-US/host_raid/host_raid_{{slice}}.png",
       "dimensions": {
@@ -47,8 +58,8 @@
     },
     "hostRaidAndroid": {
       "iconName": "plus-circle",
-      "title": "Host Raids",
-      "subtitle": "Learn how to host raids in the Pokebattler Raid Party app",
+      "title": "Raids hosten",
+      "subtitle": "Lerne, wie du in der Pokebattler Raid Party App Raids hostest",
       "slices": "16",
       "fileName": "https://static.pokebattler.com/help/300/en-US/host_raid/host_raid_{{slice}}.png",
       "dimensions": {
@@ -59,9 +70,9 @@
     },
     "copyPaste": {
       "iconName": "clipboard",
-      "title": "How to Paste",
-      "heading": "Not sure how to copy & paste on your phone? Mrs. Pokebattler has a quick guide for you!",
-      "subtitle": "Learn how to paste a friend code in the Pokebattler Raid Party app",
+      "title": "So fügst du ein",
+      "heading": "Du weißt nicht, wie man auf dem Handy kopiert und einfügt? Mrs. Pokebattler hat eine kurze Anleitung für dich!",
+      "subtitle": "Lerne, wie du in der Pokebattler Raid Party App einen Freundescode einfügst",
       "slices": "1",
       "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_{{slice}}.png",
       "dimensions": {
@@ -72,8 +83,8 @@
     },
     "copyPasteAndroid": {
       "iconName": "clipboard",
-      "title": "How to Paste",
-      "subtitle": "Learn how to paste a friend code in the Pokebattler Raid Party app",
+      "title": "So fügst du ein",
+      "subtitle": "Lerne, wie du in der Pokebattler Raid Party App einen Freundescode einfügst",
       "slices": "1",
       "fileName": "https://static.pokebattler.com/help/en-US/copy_paste/copy_paste_android_{{slice}}.png",
       "dimensions": {

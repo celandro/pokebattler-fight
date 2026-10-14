@@ -61,7 +61,7 @@
       "link": "/help/raid-advice"
     },
     "pvpMatrix": {
-      "title": "PVP Matrix",
+      "title": "Matriz PvP",
       "link": "/help/pvp-matrix-help-guide",
       "description": "Descubre cómo crear clasificaciones personalizadas para pvp"
     }
@@ -165,8 +165,8 @@
       "contact-link": "contáctanos"
     }
   },
-  "outro": "And make sure you check back for upcoming features like logins to save your best gym battlers and more.",
-  "backlink": "Back to help",
+  "outro": "Y no olvides volver para ver las próximas funciones, como iniciar sesión para guardar tus mejores atacantes de gimnasio y mucho más.",
+  "backlink": "Volver a la ayuda",
   "definitions": {
     "title": "Definiciones",
     "attack": {

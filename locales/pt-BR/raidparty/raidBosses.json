@@ -45,11 +45,21 @@
     "tab": "Counters",
     "description": "Esses são seus 6 melhores counters para derrotar um chefe de reide {{defender}} {{tier}}. Adicione um Pokémon alternativo ao seu grupo abaixo!"
   },
+  "roleBadge": {
+    "ATTACK": "Atacante",
+    "DPS": "Atacante",
+    "TANK": "Protetor",
+    "SHIELD": "Protetor",
+    "HEAL": "Curandeiro",
+    "HEALER": "Curandeiro"
+  },
   "combatants": {
     "title": "Combatentes do {{defender}}",
     "tab": "Combatentes",
     "description": "O Pokebattler realizou 200 simulações de reides para cada counter possível para escolher qual Pokémon usar. Os 6 primeiros colocados foram rodados em 200 simulações como um grupo. A seguir estão os detalhes de combate de um resultado típico."
   },
+  "megaBadge": "Mega",
+  "selectTierAndBossError": "Escolha primeiro um nível de reide e um chefe.",
   "joinPartyDialog": {
     "title": "Entrar no Grupo",
     "description": "Digite a identificação do grupo do seu amigo para ver os resultados do grupo de reide",
@@ -58,8 +68,53 @@
     "cancel": "Cancelar",
     "fetch": "Buscar",
     "errors": {
-      "pokemonMismatch": "O Grupo de Reide {{id}} é para {{raidPartyPokemon}}, não {{pokemon}}."
+      "pokemonMismatchTitle": "Chefe de reide diferente",
+      "pokemonMismatch": "O Grupo de Reide {{id}} é para {{raidPartyPokemon}}, não {{pokemon}}.",
+      "notFound": "O grupo de reide #{{id}} não foi encontrado. Confira o código do grupo e tente de novo."
     }
+  },
+  "advice": {
+    "analyzeCta": "Analisar reides atuais",
+    "analyzeHint": "Compare sua Pokebox com todas as {{count}} reides atuais.",
+    "analyzing": "Analisando sua Pokebox…",
+    "apply": "Aplicar",
+    "biggestTop6": "Maior melhoria entre os 6 melhores Pokémon: {{pct}}% de Estimador",
+    "budgetHint": "O conselho é recalculado com este orçamento.",
+    "budgetTitle": "Recursos disponíveis para fortalecer",
+    "candy": "Doces",
+    "colCandy": "Doces",
+    "colDust": "Poeira",
+    "colEstimator": "Est",
+    "colImprove": "Δ",
+    "colLevel": "Nv",
+    "colNow": "agora",
+    "colXl": "GG",
+    "current": "Atual",
+    "detailError": "Não foi possível carregar o conselho de fortalecimento para este Pokémon.",
+    "detailFootnote2": "Toque em uma linha para escolher um nível-alvo e depois em Aplicar. Δ = mudança do estimador em relação ao atual; os custos são cumulativos.",
+    "detailNone": "Nenhuma etapa de fortalecimento disponível.",
+    "detailTitle": "Conselho de fortalecimento",
+    "excludeFuture": "Excluir reides futuras",
+    "filterHint": "Vale para as abas Reides Atuais e Meus Pokémon.",
+    "filterTitle": "Filtrar reides",
+    "ifMaxed": "se fortalecido",
+    "ifPoweredUp": "Se fortalecido",
+    "noBox": "Adicione Pokémon à sua Pokebox para receber conselhos personalizados.",
+    "noRaids": "Nenhuma reide atual para aconselhar agora.",
+    "none": "Nenhum counter utilizável na sua Pokebox para este chefe.",
+    "perMonHint": "Seus Pokémon classificados por quantas reides atuais eles lideram como counter. Toque para ver posições + fortalecimentos.",
+    "processing": "Processando melhorias de fortalecimento {{done}}/{{total}}…",
+    "progress": "Analisando {{done}} de {{total}} reides…",
+    "progressImprove": "Calculando melhorias de fortalecimento {{done}}/{{total}}…",
+    "rankN": "posição #{{n}}",
+    "stardust": "Poeira Estelar",
+    "tabPerBoss": "Reides Atuais",
+    "tabPerMon": "Meus Pokémon",
+    "tabPickBoss": "Analisar",
+    "title": "Conselho de reide",
+    "topFor": "Melhor counter em {{n}} de {{total}} reides",
+    "vs": "vs.",
+    "xlCandy": "Doces GG"
   },
   "multiParty": {
     "title": "#{{id}} {{defender}}"
@@ -69,7 +124,12 @@
     "id": "$t(raidBosses:joinParty) #{{id}}",
     "summary": "{{numReadyPlayers}} de {{players}} jogadores estão prontos. O grupo de {{ownerName}} foi criado em {{createdAt}}",
     "emptyPokebox": "Pokebox vazia, usando padrões",
-    "egg": "Ovo"
+    "egg": "Ovo",
+    "maxComposition": {
+      "DPS": "{{num}} ATQ",
+      "TANK": "{{num}} ESC",
+      "HEALER": "{{num}} CURA"
+    }
   },
   "raidPartyPlayer": {
     "title": "{{name}}",

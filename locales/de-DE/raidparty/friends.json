@@ -10,15 +10,16 @@
     "FRIENDSHIP_LEVEL_5": "Allerbeste Freunde"
   },
   "add": {
-    "friendId": "Pokebattler ID",
+    "friendId": "Pokebattler-ID",
     "addFriend": "Pokebattler-Freund hinzufügen",
     "friendLevel": "Freundeschaftslevel",
     "cancelAddFriend": "Abbrechen",
-    "searchPlaceholder": "Name, Code or Id",
+    "searchPlaceholder": "Name, Code oder ID",
     "supportedSearches": "Gib den Freundescode, den Trainernamen, den Discord-Namen oder die Pokebattler-ID in die Suchleiste ein und lege deine Freundesstufe fest.",
     "noSearchResults": "Keine Freunde gefunden, versuche es erneut!",
     "noSearchText": "Finde deine Freunde",
-    "clearSearch": "Löschen"
+    "clearSearch": "Löschen",
+    "setFriendLevel": "Füge einen Freund hinzu, indem du seinen Freundschaftslevel auswählst."
   },
   "noFriend": {
     "title": "Füge deine Freunde zu Pokebattler hinzu!",

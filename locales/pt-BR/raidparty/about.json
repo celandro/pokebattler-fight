@@ -28,8 +28,8 @@
     "paragraph3": "A Battler Empire, LLC construiu o site Pokebattler e o aplicativo Pokebattler Raid Party como um aplicativo Freemium com suporte para anúncios. Este SERVIÇO é fornecido pela Battler Empire, LLC sem nenhum custo e deve ser usado como está.",
     "paragraph10": "Cookies são arquivos com uma pequena quantidade de dados que são comumente usados como identificadores exclusivos anônimos. Eles são enviados para o seu navegador a partir dos sites que você visita e são armazenados na memória interna do seu dispositivo.",
     "paragraph11": "Este Serviço não usa esses \"cookies\" explicitamente. No entanto, o aplicativo pode usar código de terceiros e bibliotecas que usam \"cookies\" para coletar informações e melhorar seus serviços. Você tem a opção de aceitar ou recusar esses cookies e saber quando um cookie está sendo enviado para o seu dispositivo. Se você optar por recusar nossos cookies, pode não ser capaz de usar algumas partes deste Serviço.",
-    "heading11": "Data Retention",
-    "paragraph18": "Account data is retained as long as necessary to enable users to return in the future. Accounts may be deleted in the app account section, website account section or via email to admin@pokebattler.com from the registered email account."
+    "heading11": "Retenção de dados",
+    "paragraph18": "Os dados da conta são mantidos pelo tempo necessário para que os usuários possam voltar no futuro. As contas podem ser excluídas na seção de conta do app, na seção de conta do site ou por e-mail para admin@pokebattler.com a partir do e-mail cadastrado."
   },
   "contact": {
     "button": {
@@ -57,6 +57,12 @@
     "heading": "Informações de Contato",
     "title": "Fale Conosco"
   },
+  "tabs": {
+    "pokemon": "Pokémon",
+    "notifications": "Notificações",
+    "analytics": "Análises",
+    "ads": "Anúncios"
+  },
   "about": {
     "thirdParty": {
       "pokeNav": {
@@ -69,21 +75,24 @@
       },
       "title": "Integrações de Terceiros",
       "nexus": {
-        "title": "Nexus - Discord Bot",
-        "meta": "A Pokemon Go Discord Bot for cross server raiding, trades and more.",
-        "description": "Nexus is a 3rd Party Discord bot that integrates into the Pokebattler Raid Party apis. This allows you to create and communicate about a raid in Discord with deep links directly into the app OR to join the raid purely using the app. ",
-        "description2": "Players can join the raid in the app or in discord. Discord is not required",
-        "cta": "Add Nexus to your Discord Server",
+        "title": "Nexus - Bot do Discord",
+        "meta": "Um bot de Pokémon GO para Discord para reides entre servidores, trocas e muito mais.",
+        "description": "O Nexus é um bot do Discord de terceiros que se integra às APIs do Pokebattler Raid Party. Assim você pode criar uma reide e conversar sobre ela no Discord, com links diretos para o app, OU entrar na reide usando apenas o app. ",
+        "description2": "Os jogadores podem entrar na reide pelo app ou pelo Discord. O Discord não é obrigatório",
+        "cta": "Adicione o Nexus ao seu servidor do Discord",
         "url": "https://nexusraidbot.com/"
       },
       "minpoke": {
-        "title": "Minpoke - Pokemon Go Website",
-        "meta": "A Pokemon Go Website for raids, simulations and more.",
-        "description": "Minpoke is a Pokemon Go website very similar to Pokebattler but catering to the Japanese market. Minpoke raids can be joined within the Pokebattler Raid Party app and Pokebattler Raid Party raids can be joined on the Minpoke website",
-        "description2": "Players can join both Minpoke and Pokebattler Raid Party raids on either the website or in this app",
-        "cta": "Join raid queues on the Minpoke website",
+        "title": "Minpoke - Site de Pokémon GO",
+        "meta": "Um site de Pokémon GO para reides, simulações e muito mais.",
+        "description": "O Minpoke é um site de Pokémon GO muito parecido com a Pokebattler, mas voltado para o público japonês. As reides do Minpoke podem ser acessadas pelo app Pokebattler Raid Party, e as reides do Pokebattler Raid Party podem ser acessadas pelo site do Minpoke",
+        "description2": "Os jogadores podem entrar nas reides do Minpoke e do Pokebattler Raid Party tanto pelo site quanto por este app",
+        "cta": "Entre nas filas de reide no site do Minpoke",
         "url": "https://9db.jp/pokego/data/62"
       }
+    },
+    "releaseNotes": {
+      "tabTitle": "Novidades"
     },
     "pokebattler": {
       "description2": "O Pokebattler.com é apoiado por um poderoso conjunto de servidores na nuvem que permite simulações mais sofisticadas que podem ser realizadas em um telefone. Ele fornece armazenamento do lado do servidor para ajudar a plataforma cruzada e funcionalidade de aplicativo cruzado, incluindo o Discord",
@@ -93,6 +102,7 @@
       "version": "Versão {{version}}",
       "url": "https://www.pokebattler.com/raidParty",
       "shareMessage": "Participe de reides comigo!",
+      "tabTitle": "Pokebattler",
       "title": "Pokebattler Raid Party"
     },
     "title": "Sobre o Pokebattler"
@@ -114,48 +124,50 @@
   "dev": {
     "title": "Dev",
     "push": {
-      "title": "Push Token",
-      "description": "Your expo push token: {{token}}",
-      "noToken": "No push token found"
+      "title": "Token de push",
+      "description": "Seu token de push do Expo: {{token}}",
+      "noToken": "Nenhum token de push encontrado"
     },
     "lastReceivedNotification": {
-      "title": "Last Received Notification",
+      "subText": "Subtexto",
+      "title": "Última notificação recebida",
       "subtitle": "Subtitle: {{subtitle}}",
       "body": "Body: {{body}}",
       "data": "Data: {{data}}",
       "date": "Date: {{date}}",
-      "noNotification": "No notification received while app open"
+      "noNotification": "Nenhuma notificação recebida com o app aberto"
     },
     "lastClickedNotification": {
-      "title": "Last Clicked Notification",
+      "subText": "Subtexto",
+      "title": "Última notificação tocada",
       "subtitle": "Subtitle: {{subtitle}}",
       "body": "Body: {{body}}",
       "data": "Data: {{data}}",
       "date": "Date: {{date}}",
-      "noNotification": "No notification clicked while app open"
+      "noNotification": "Nenhuma notificação tocada com o app aberto"
     },
     "expoSideNotification": {
-      "title": "Expo Side Notification",
-      "sendExpoMessage": "Send create message via Expo"
+      "title": "Notificação pelo Expo",
+      "sendExpoMessage": "Enviar mensagem de criação pelo Expo"
     },
     "clientSideNotification": {
-      "title": "Client Side Notification",
-      "showRaidStartingNow": "Show raid starting now message in 1s"
+      "title": "Notificação local",
+      "showRaidStartingNow": "Mostrar a mensagem de reide começando em 1 s"
     },
     "gluestackToasts": {
-      "title": "Gluestack Toasts",
-      "showDefaultToast": "Show default toast",
-      "showErrorToast": "Show error toast",
-      "showSuccessToast": "Show success toast",
-      "showWarningToast": "Show warning toast"
+      "title": "Avisos do Gluestack",
+      "showDefaultToast": "Mostrar aviso padrão",
+      "showErrorToast": "Mostrar aviso de erro",
+      "showSuccessToast": "Mostrar aviso de sucesso",
+      "showWarningToast": "Mostrar aviso de alerta"
     },
     "sentryTest": {
-      "title": "Sentry Test",
-      "sendSentryException": "Send Sentry Exception"
+      "title": "Teste do Sentry",
+      "sendSentryException": "Enviar exceção ao Sentry"
     },
     "pokemonList": {
-      "title": "Pokemon List",
-      "subtitle": "Supported Pokemon"
+      "title": "Lista de Pokémon",
+      "subtitle": "Pokémon compatíveis"
     }
   }
 }

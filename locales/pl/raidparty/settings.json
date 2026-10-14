@@ -1,14 +1,14 @@
 {
   "title": "Settings",
   "form": {
-    "playerName": "Trainer Name",
+    "playerName": "Nazwa trenera",
     "playerLevel": "Level",
     "playerFaction": "Faction",
     "autoRaidParty": "Auto Raid Party",
-    "discordUsername": "Discord Username",
+    "discordUsername": "Nazwa użytkownika Discord",
     "language": "Language",
-    "title": "Global Raid Setup",
-    "subtitle": "Required player information",
+    "title": "Ustawienia globalnych raidów",
+    "subtitle": "Wymagane informacje o graczu",
     "basics": "Basics",
     "includeShadow": "Shadow",
     "includeLegendary": "Legendary",
@@ -17,27 +17,51 @@
     "sort": "Sort",
     "karma": "Karma",
     "coins": "Coins",
-    "numRemoteInvites": "Remote Invites",
-    "randomAssistants": "Additional Players",
+    "numRemoteInvites": "Zaproszenia zdalne",
+    "randomAssistants": "Dodatkowi gracze",
+    "maxBattleRole": "Rola w Walkach Max",
+    "megaPokemon": "Twoja Mega",
+    "megaAuto": "Auto (najwyżej oceniona)",
+    "megaLevel": "Poziom Mega",
     "friendLevel": "Friendship",
     "theme": "Theme",
     "themeOptions": {
-      "system": "System Default",
+      "system": "Domyślny systemowy",
       "light": "Light",
       "dark": "Dark"
     },
     "themeWarnings": {
       "light": "",
       "dark": "",
-      "system": "Requires app restart"
+      "system": "Wymaga ponownego uruchomienia aplikacji"
     },
-    "disclaimerText": "Having issues linking? Email admin@pokebattler.com both of your Pokebattler user ids",
-    "raidCounterSettings": "Raid Counter Settings",
-    "pushNotificationSettings": "Push Notification Settings",
-    "friendCode": "Friend Code",
-    "discordConnect": "Pokebattler Raid Party Network includes raids that are coordinated using Discord. To join a Discord raid connect your Pokebattler account with a new or existing Discord account.",
-    "correctness": "Correct Trainer Name and Friend Code are required for smooth Raid Party coordination",
-    "friendCodeHint": "Paste your friend code here. It should be 12 digits, no spaces"
+    "artStyle": "Grafiki Pokemonów",
+    "artStyleOptions": {
+      "default": "Klasyczne",
+      "goldfish": "CaptGoldfish"
+    },
+    "artStyleWarnings": {
+      "goldfish": "Stylizowane grafiki dostępne dla wybranych Pokemonów"
+    },
+    "disclaimerText": "Masz problem z połączeniem? Wyślij na admin@pokebattler.com oba swoje identyfikatory użytkownika Pokebattler",
+    "raidCounterSettings": "Ustawienia kontr raidowych",
+    "pushNotificationSettings": "Ustawienia powiadomień push",
+    "friendCode": "Kod przyjaciela",
+    "discordConnect": "Sieć Pokebattler Raid Party obejmuje raidy koordynowane przez Discord. Aby dołączyć do raidu na Discordzie, połącz konto Pokebattler z nowym lub istniejącym kontem Discord.",
+    "correctness": "Poprawna nazwa trenera i kod przyjaciela są wymagane do sprawnej koordynacji Raid Party",
+    "friendCodeHint": "Wklej tutaj swój kod przyjaciela. Powinien mieć 12 cyfr, bez spacji"
+  },
+  "megaLevelOptions": {
+    "1": "Poziom 1",
+    "2": "Poziom 2",
+    "3": "Poziom 3",
+    "4": "Poziom 4"
+  },
+  "maxBattleRoleOptions": {
+    "ANY": "Dowolna",
+    "DPS": "Atakujący (DPS)",
+    "TANK": "Osłaniający",
+    "HEALER": "Leczący"
   },
   "autoRaidPartyOptions": {
     "BATTLE_PARTY_POKEBOX": "Pokebox",
@@ -49,59 +73,91 @@
     "BATTLE_PARTY_LEVEL_45": "Level 45",
     "BATTLE_PARTY_LEVEL_50": "Level 50"
   },
-  "updateSetting": {
-    "success": "User settings updated correctly",
-    "errors": {
-      "updateSettingGeneral": "There was an error updating your settings",
-      "friendCodeLength": "Friend code must be exactly 12 numbers long",
-      "themeSaveFailed": "Failed to save theme preference"
+  "adventureEffects": {
+    "title": "Efekty Przygody",
+    "BEHEMOTH_BLADE": {
+      "label": "Behemoth Blade (Crowned Zacian)",
+      "description": "+10% zadawanych obrażeń w Raidach, +5% w Walkach Max"
     },
-    "autoBattleParty": "Switching counters to your Pokebox"
+    "BEHEMOTH_BASH": {
+      "label": "Behemoth Bash (Crowned Zamazenta)",
+      "description": "+10% obrony w Raidach, +5% w Walkach Max"
+    }
+  },
+  "updateSetting": {
+    "success": "Ustawienia użytkownika zaktualizowane",
+    "errors": {
+      "updateSettingGeneral": "Wystąpił błąd podczas aktualizacji ustawień",
+      "friendCodeLength": "Kod przyjaciela musi mieć dokładnie 12 cyfr",
+      "themeSaveFailed": "Nie udało się zapisać motywu"
+    },
+    "autoBattleParty": "Przełączanie kontr na Twój Pokébox"
   },
   "notifications": {
     "groups": {
       "raidParty": {
-        "name": "Raid party",
-        "description": "Informs you of raids you are interested in"
+        "name": "Drużyna raidowa",
+        "description": "Informuje o raidach, które Cię interesują"
       }
     },
     "channels": {
       "createParty": {
-        "name": "Create raid party",
-        "description": "Raid party creation by your friends."
+        "name": "Utworzenie drużyny raidowej",
+        "description": "Twoi przyjaciele tworzą drużyny raidowe."
       },
       "updateParty": {
-        "name": "Update raid party",
-        "description": "Setting changes for your Raid Parties."
+        "name": "Zmiana drużyny raidowej",
+        "description": "Zmiany ustawień Twoich drużyn raidowych."
       },
       "deleteParty": {
-        "name": "Cancel raid party",
-        "description": "Raid party cancelled."
+        "name": "Anulowanie drużyny raidowej",
+        "description": "Drużyna raidowa anulowana."
       },
       "addUser": {
-        "name": "User joined party",
-        "description": "User joined  your raid party."
+        "name": "Gracz dołączył do drużyny",
+        "description": "Gracz dołączył do Twojej drużyny raidowej."
       },
       "removeUser": {
-        "name": "User left party",
-        "description": "User left your raid party."
+        "name": "Gracz opuścił drużynę",
+        "description": "Gracz opuścił Twoją drużynę raidową."
       },
       "updateUser": {
-        "name": "User updated party",
-        "description": "User in your party updated their settings."
+        "name": "Gracz zmienił ustawienia",
+        "description": "Gracz z Twojej drużyny zmienił swoje ustawienia."
       },
       "kickedUser": {
-        "name": "Kicked User",
-        "description": "User was kicked from party."
+        "name": "Wyrzucony gracz",
+        "description": "Gracz został wyrzucony z drużyny."
       },
       "raidInvitingNow": {
-        "name": "Raid Inviting",
-        "description": "Raid invites going out now"
+        "name": "Zaproszenia do raidu",
+        "description": "Zaproszenia do raidu są właśnie wysyłane"
       },
       "raidStartingNow": {
-        "name": "Raid Starting",
-        "description": "Raid starting now"
+        "name": "Start raidu",
+        "description": "Raid właśnie się zaczyna"
+      },
+      "raidMarket": {
+        "name": "Podaż i popyt raidów",
+        "description": "Bossowie, którzy potrzebują hostów, raidy, o których chciałeś być powiadamiany, i inne wiadomości z rynku raidów."
       }
+    },
+    "pausedOffline": "Wstrzymane, gdy jesteś Offline na stronie Raidów — przełącz tam przełącznik, aby wznowić powiadomienia o raidach."
+  },
+  "betaProgram": {
+    "title": "Program beta",
+    "useBetaServers": "Używaj serwerów beta",
+    "hosts": "Teraz używane: {{api}} i {{auth}}",
+    "warning": "Serwery beta dostają nowe funkcje jako pierwsze i mogą być wolniejsze, błędne lub niedostępne. Jeśli coś wygląda na zepsute, wróć na serwery produkcyjne.",
+    "restartRequired": "Uruchom ponownie aplikację, aby zastosować tę zmianę.",
+    "join": {
+      "title": "Dołącz do bety aplikacji",
+      "description": "Wersje beta aplikacji pojawiają się dni lub tygodnie przed wydaniem w sklepie. To coś innego niż powyższy przełącznik serwerów.",
+      "ios": "iPhone / iPad — TestFlight",
+      "iosInstructions": "Zainstaluj darmową aplikację TestFlight od Apple z App Store, a następnie otwórz zaproszenie poniżej i naciśnij Akceptuj, a potem Instaluj. TestFlight powiadomi Cię, gdy nowa wersja beta będzie gotowa.",
+      "android": "Android — Google Play",
+      "androidInstructions": "Otwórz zaproszenie poniżej, będąc zalogowanym w Google Play na koncie, którego używasz w Pokebattler, naciśnij Zostań testerem, a następnie zaktualizuj Pokebattler w Sklepie Play. Play będzie wtedy automatycznie dostarczać Ci wersje beta.",
+      "link": "Otwórz zaproszenie"
     }
   }
 }

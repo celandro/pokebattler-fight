@@ -7,7 +7,9 @@
     "title": "Grupo de {{ownerName}}",
     "id": "#{{id}}",
     "createdAt": "Criado em {{createdAt}}.",
-    "globalTime": "{{globalTime}}"
+    "globalTime": "{{globalTime}}",
+    "verifiedRaidNote": "✓ Reide Verificada — todos os treinadores aqui têm equipes de batalha verificadas pelo servidor.",
+    "verifiedRaidMegaNote": "✓ Reide Verificada — equipes verificadas obrigatórias, e toda equipe deve incluir uma Mega ou um Primitivo."
   },
   "raidPartyPlayer": {
     "title": "{{name}}",
@@ -26,7 +28,15 @@
       "addUserToRaidPartyFull": "O grupo de reide #{{raidPartyId}} está cheio",
       "addUserToRaidPartyGlobal": "O grupo de reide #{{raidPartyId}} ainda não está disponível. Aguarde a contagem regressiva.",
       "addUserToRaidPartyNotEnoughCoins": "Você não tem moedas suficientes para entrar nesta incursão Karma Boost. Consiga mais moedas para entrar.",
-      "createRaidPartyNotEnoughCoins": "Você não tem moedas suficientes para hospedar esta incursão Karma Boost. Consiga mais moedas para hospedar."
+      "addUserToRaidPartyAccountNotVerified": "Esta é uma Reide Verificada — verifique primeiro sua conta com uma captura de tela da Pokebox (Pokebox → Verificar).",
+      "addUserToRaidPartyPartyNotVerified": "Esta é uma Reide Verificada — todos os Pokémon da sua equipe de batalha precisam ser verificados. Verifique-os em Pokebox → Verificar.",
+      "addUserToRaidPartyMegaRequired": "O anfitrião exige uma Mega ou um Primitivo na sua equipe de batalha para esta Reide Verificada.",
+      "addUserToRaidPartyEstimatorTooHigh": "Sua equipe de batalha não atende ao requisito de força desta Reide Verificada. Leve atacantes (verificados) mais fortes.",
+      "createRaidPartyNotEnoughCoins": "Você não tem moedas suficientes para hospedar esta incursão Karma Boost. Consiga mais moedas para hospedar.",
+      "createRaidPartyPrecondition": "Esta reide não pode ser hospedada com essas configurações. Atualize o app para a versão mais recente e tente de novo.",
+      "addUserToRaidPartyRoleSlotFull": "Essa função está cheia nesta reide — escolha outra função ou Qualquer.",
+      "createRaidPartyCompositionConflict": "Essas vagas de função não funcionam para esta reide. Ajuste as quantidades de Atacante/Protetor/Curandeiro e tente de novo.",
+      "updateRaidPartyCompositionConflict": "Você não pode remover vagas de função que já foram ocupadas por treinadores. Adicione vagas ou espere eles saírem."
     }
   },
   "share": {
@@ -171,7 +181,7 @@
       "hostDescription": "Você saiu do grupo"
     },
     "NONE": {
-      "hostDescription": "Select whether you are local or remote"
+      "hostDescription": "Escolha se você está no local ou a distância"
     }
   },
   "noGlobalRaidParty": {
@@ -213,6 +223,15 @@
     "title": "Reingressar no ataque atual",
     "subtitle": "Você só pode participar de um ataque de cada vez. Clique para voltar e terminar a invasão"
   },
+  "demandChip": {
+    "shortage": "🔥 Alta procura",
+    "glut": "🧊 Bem abastecido"
+  },
+  "hostingToggle": {
+    "online": "Online",
+    "offline": "Offline",
+    "offlineHint": "As notificações de criação de reides ficam pausadas enquanto você está offline."
+  },
   "raidComplete": "Este ataque está completo. Obrigado por invadir com Pokebattler Raid Party!",
   "raidPartyStatus": {
     "FULL": "Completo",
@@ -224,28 +243,81 @@
   "raidPartyList": {
     "unavailable": "Grupos de incursão indisponíveis",
     "available": "Raid Parties disponíveis",
-    "recent": "Recent Raid Parties"
+    "recent": "Grupos de reide recentes"
   },
+  "unknownOwner": "Treinador desconhecido",
   "createRaidForm": {
+    "customRaid": "Hospedar uma reide personalizada",
+    "scheduleRaids": "Voltar às reides programadas",
     "title": "Criar Grupo de Reide",
     "priority": {
-      "header": "Warning, Low Priority",
-      "headerExtreme": "Extremely Low Priority",
-      "line1": "There are {{numHigherKarmaParties}} hosts with higher priority than you.",
-      "line2": "Warning! Boosting priority is a beta feature. No refunds will be granted unless accompanied by a detailed bug report to admin@pokebattler.com. Use at your own risk! Priority is based on your karma and can only be boosted by coins.",
-      "insufficientCoins": "You need {{moreCoins}} more coins to boost your priority. Joining other raids to gain more Karma or hosting on non-raid hours is highly recommended!",
-      "sortBoostTitle": "Spend coins to boost priority",
-      "sortBoostSubTitle": "Higher priority will place you higher in the list of available raids, filling your raid faster.",
+      "header": "Aviso: prioridade baixa",
+      "headerExtreme": "Prioridade extremamente baixa",
+      "line1": "Há {{numHigherKarmaParties}} anfitriões com prioridade maior que a sua.",
+      "line2": "Atenção! Aumentar a prioridade é um recurso beta. Não haverá reembolso sem um relatório de bug detalhado enviado para admin@pokebattler.com. Use por sua conta e risco! A prioridade é baseada no seu Karma e só pode ser aumentada com moedas.",
+      "insufficientCoins": "Você precisa de mais {{moreCoins}} moedas para aumentar sua prioridade. Recomendamos muito entrar em outras reides para ganhar mais Karma ou hospedar fora do horário das reides!",
+      "sortBoostTitle": "Gaste moedas para aumentar a prioridade",
+      "sortBoostSubTitle": "Uma prioridade maior coloca você mais acima na lista de reides disponíveis, enchendo sua reide mais rápido.",
       "placeholder": "No Boost",
-      "option1": "Top Priority",
-      "option2": "Second Priority",
-      "option3": "Third Priority"
+      "option1": "Prioridade máxima",
+      "option2": "Segunda prioridade",
+      "option3": "Terceira prioridade"
     },
     "suggestedParty": {
-      "header": "Available Global Raid",
-      "line1": "Consider joining instead of hosting"
+      "header": "Reide global disponível",
+      "line1": "Considere entrar em vez de hospedar"
     },
-    "hostParty": "Host Party",
+    "hostParty": "Hospedar grupo",
+    "maxRoles": {
+      "title": "Funções do Grupo",
+      "helpBody": "Os grupos de Batalha Max cabem 4 treinadores. Deixe Qualquer função ativado para deixar todos entrarem, ou reserve vagas para Atacantes, Protetores e Curandeiros.",
+      "anyRoles": "Qualquer função",
+      "DPS": {
+        "label": "Atacantes",
+        "description": "Leve seus 3 atacantes mais fortes. Cause dano e acumule energia Max rápido."
+      },
+      "TANK": {
+        "label": "Protetores",
+        "description": "Leve Pokémon resistentes. Dinamaxize primeiro e use Guarda Max para proteger sua equipe."
+      },
+      "HEALER": {
+        "label": "Curandeiros",
+        "description": "Leve Pokémon de suporte com muito PS, como Blissey. Use Espírito Max para manter a equipe viva."
+      },
+      "slotTotal": "{{total}} de {{max}} treinadores"
+    },
+    "yourRole": {
+      "title": "Sua Função",
+      "subtitle": "Escolha a função que você vai jogar neste grupo. Ela fica salva como padrão para as próximas Batalhas Max."
+    },
+    "verified": {
+      "selectLabel": "Reide Verificada",
+      "helpBody": "As Reides Verificadas só aceitam treinadores cuja conta e equipe de batalha foram verificadas por uma captura de tela real do Pokémon GO, então todos levam os Pokémon que realmente têm. Hospedar custa algumas moedas; entrar é grátis para treinadores verificados.",
+      "enableLabel": "Exigir treinadores verificados",
+      "requireMegaLabel": "Exigir uma Mega ou um Primitivo em toda equipe",
+      "hostCost": "Hospedar esta Reide Verificada custa {{coins}} moedas.",
+      "insufficientCoins": "Você precisa de mais {{moreCoins}} moedas para hospedar uma Reide Verificada.",
+      "hostNotVerified": "Os anfitriões também precisam ser verificados. Verifique sua própria Pokebox com uma captura de tela para liberar as Reides Verificadas.",
+      "verifyNowCta": "Verificar minha Pokebox",
+      "estimatorLabel": "Força de equipe exigida para entrar",
+      "estimatorHelp": "Exigências mais rígidas só aceitam equipes de batalha mais fortes — você precisa atender à sua própria exigência.",
+      "estimator": {
+        "any": "Qualquer",
+        "relaxed": "Tranquila",
+        "strong": "Forte",
+        "elite": "Elite",
+        "solo": "Solo",
+        "duo": "Dupla",
+        "trio": "Trio",
+        "upTo": "≤{{count}}"
+      }
+    },
+    "demand": {
+      "shortageTitle": "⚡ Precisamos de anfitriões agora!",
+      "shortageBody": "{{count}} treinadores estão esperando por este chefe — sua reide vai encher rápido e você ganha karma em dobro por hospedar durante o pico.",
+      "shortageBodyGeneric": "Há treinadores esperando por este chefe — sua reide vai encher rápido e hospedar durante o pico rende karma bônus.",
+      "glutBody": "🌊 Há muitos grupos abertos para este chefe agora. Entrar em uma reide quase cheia pode ser mais rápido do que hospedar uma nova."
+    },
     "noRaidsForTier": "Nenhuma incursão disponível para este nível",
     "notInScheduleWarning": "Este Pokémon não está no calendário de incursões atual. O servidor pode limitar esta incursão apenas a amigos.",
     "karmaWarning": {
@@ -261,7 +333,7 @@
       }
     },
     "karmaBoost": {
-      "selectLabel": "Karma Boost",
+      "selectLabel": "Impulso de Karma",
       "helpTitle": "Incursões Karma Boost",
       "helpBody": "As incursões Karma Boost recompensam todos com karma extra pela incursão — 2x com Karma Super e 5x com Karma Mega. Hospedar custa moedas ao anfitrião e cada jogador que entra também paga moedas, então você só participa com treinadores dedicados e experientes. Essas incursões aparecem no app, mas nunca são compartilhadas no Discord nem na rede de bots.",
       "none": "Sem Karma Boost",
@@ -277,13 +349,13 @@
     }
   },
   "raidPartyKicked": {
-    "title": "Removed From Raid",
-    "description": "The host has removed you from the raid.",
-    "reasonHeading": "Common Reasons For Removal",
-    "reason1": "You did not send a friend invite to the host.",
-    "reason2": "Your username and friend code do not exactly match what is in Pokemon Go.",
-    "reason3": "The host does not believe the raid will be successful. Some bosses are extremely difficult and can not be completed with lower level players who often do not use high damage counters.",
-    "pokebox": "Add your pokemon to your Pokebox to show the host you are using the proper counters"
+    "title": "Removido da reide",
+    "description": "O anfitrião removeu você da reide.",
+    "reasonHeading": "Motivos comuns de remoção",
+    "reason1": "Você não enviou um convite de amizade para o anfitrião.",
+    "reason2": "Seu nome de usuário e código de treinador não correspondem exatamente aos do Pokémon GO.",
+    "reason3": "O anfitrião não acredita que a reide terá sucesso. Alguns chefes são extremamente difíceis e não podem ser vencidos com jogadores de nível mais baixo, que muitas vezes não usam counters de alto dano.",
+    "pokebox": "Adicione seus Pokémon à sua Pokebox para mostrar ao anfitrião que você está usando os counters certos"
   },
   "highMaxPlayers": {
     "title": "WARNING",
@@ -293,66 +365,129 @@
   },
   "raidVotingPopup": {
     "player": {
-      "title": "Confirmation - Leave Raid",
-      "thankYou": "Thank you for raiding with Pokebattler Raid Party!",
-      "rate": "Please rate {{ownerName}}'s party?",
+      "title": "Confirmação - Sair da reide",
+      "thankYou": "Obrigado por fazer reides com o Pokebattler Raid Party!",
+      "rate": "Que tal avaliar o grupo de {{ownerName}}?",
       "close": "$t(raidBosses:leaveParty)"
     },
     "host": {
-      "title": "Confirmation - Finish Raid",
-      "thankYou": "Thank you for hosting a raid with Pokebattler Raid Party!",
-      "rate": "Please swipe left or right to rate party members",
+      "title": "Confirmação - Encerrar reide",
+      "thankYou": "Obrigado por hospedar uma reide com o Pokebattler Raid Party!",
+      "rate": "Deslize para a esquerda ou para a direita para avaliar os membros do grupo",
       "close": "$t(raidBosses:finishParty)"
     },
     "abandon": {
-      "title": "Confirmation - Abandon Raid",
-      "thankYou": "Unfortunately no one joined your raid 😔",
+      "title": "Confirmação - Abandonar reide",
+      "thankYou": "Infelizmente ninguém entrou na sua reide 😔",
       "rate": "",
-      "close": "Abandon Raid"
+      "close": "Abandonar reide"
     }
   },
   "kickUserPreviewPopup": {
-    "title": "Kick Player",
-    "questionMessage": "Do you want to kick",
-    "rateMessage": "(Optional) rating"
+    "title": "Remover jogador",
+    "questionMessage": "Deseja remover",
+    "rateMessage": "Avaliação (opcional)"
   },
   "coins": {
     "spendCard": {
-      "title": "Earn coins or subscribe to join raids early.",
-      "button": "Join early ⏩"
+      "title": "Ganhe moedas ou assine para entrar nas reides mais cedo.",
+      "button": "Entrar mais cedo ⏩"
     },
     "upgradePopup": {
-      "title": "Upgrade for Coins!",
-      "cardSubtitle": "Spend coins to upgrade to a higher subscription level",
+      "title": "Faça upgrade com moedas!",
+      "cardSubtitle": "Gaste moedas para fazer upgrade para um nível de assinatura mais alto",
       "nonUpgradeRole": {
-        "title": "Thank you for subscribing!",
-        "topText": "Thank you for subscribing to the maximum fast forward setting!",
-        "bottomText": "We deeply appreciate your support"
+        "title": "Obrigado por assinar!",
+        "topText": "Obrigado por assinar o nível máximo de entrada antecipada!",
+        "bottomText": "Agradecemos muito o seu apoio"
       },
       "disabled": {
-        "message": "You do not have enough coins to upgrade to this level"
+        "message": "Você não tem moedas suficientes para fazer upgrade para este nível"
       },
       "allowed": {
-        "message": "After you upgrade you will be able to join raids early, click to join when the ⏩ appears!",
+        "message": "Depois do upgrade, você poderá entrar nas reides mais cedo. Toque para entrar quando o ⏩ aparecer!",
         "upgrade": "Upgrade",
-        "noteText": "Each raid you join early will cost you. Failed raids will auto refund coins after 24 hours."
+        "noteText": "Cada reide em que você entrar mais cedo tem um custo. Reides que falharem devolvem as moedas automaticamente após 24 horas."
       },
-      "subtitle": "Current ways to gain coins:",
-      "rewards1": "• +1 coin rating a 👍 or 👎",
-      "rewards2": "• +5 coins receiving a 👍",
-      "maximumGain": "Maximum gain per raid: 30 for hosts and 6 for guests",
-      "noteText": "You do not lose coins by receiving a 👎 but you do lose Karma. Karma is shown to other users and makes the world a better place"
+      "subtitle": "Formas atuais de ganhar moedas:",
+      "rewards1": "• +1 moeda ao avaliar com 👍 ou 👎",
+      "rewards2": "• +5 moedas ao receber um 👍",
+      "maximumGain": "Ganho máximo por reide: 30 para anfitriões e 6 para convidados",
+      "noteText": "Você não perde moedas ao receber um 👎, mas perde Karma. O Karma é exibido para outros usuários e torna o mundo um lugar melhor",
+      "surgeNote": "⚡ Preço dinâmico: este chefe está com alta procura, então entrar cedo custa mais que as {{base}} moedas de sempre agora. Reides canceladas são reembolsadas automaticamente."
     }
   },
   "hostForm": {
-    "noRaidsForTier": "There are no {{tier}} raids currently available in Pokemon Go."
+    "noRaidsForTier": "No momento não há reides de {{tier}} disponíveis no Pokémon GO."
   },
   "filterRaidForm": {
-    "title": "Filter Raid Parties",
-    "apply": "Apply"
+    "title": "Filtrar grupos de reide",
+    "apply": "Apply",
+    "tier": "Nível da reide",
+    "allTiers": "Todos os níveis",
+    "openRole": "Vaga de função aberta",
+    "anyRole": "Qualquer função"
   },
   "notifications": {
     "banner": "Ative as notificações push para coordenar incursões com seu grupo em tempo real.",
     "enable": "Ativar"
+  },
+  "chat": {
+    "costHint": "As mensagens prontas custam 1 moeda — traduzidas para o idioma de cada treinador.",
+    "notEnoughCoins": "Você precisa de moedas para enviar mensagens no chat. Ganhe moedas fazendo reides ou visite a Loja.",
+    "presets": {
+      "READY": "Estou pronto! ✅",
+      "LETS_GO": "Vamos lá! 🚀",
+      "WAITING_FOR_INVITE": "Ainda esperando o convite de amigo ⏳",
+      "INVITE_SENT": "Convite enviado ✉️",
+      "FRIEND_REQUEST_SENT": "Pedido de amizade enviado 🤝",
+      "ONE_MORE_INVITE_WAVE": "Vem mais uma rodada de convites 🌊",
+      "JOINING_NOW": "Entrando agora 🏃",
+      "SORRY_HAVE_TO_LEAVE": "Desculpe, preciso sair 😢",
+      "THANKS": "Obrigado! 🙏",
+      "GG": "GG! 🎉"
+    }
+  },
+  "joinMaxRole": {
+    "title": "Escolha Sua Função",
+    "subtitle": "O anfitrião pode reservar vagas do grupo para cada função. Escolha a função que você vai jogar — ou Qualquer para preencher o que faltar.",
+    "join": "Entrar na Reide",
+    "DPS": {
+      "description": "Leve seus 3 atacantes mais fortes. Cause dano e acumule energia Max rápido."
+    },
+    "TANK": {
+      "description": "Leve Pokémon resistentes. Dinamaxize primeiro e use Guarda Max para proteger sua equipe."
+    },
+    "HEALER": {
+      "description": "Leve Pokémon de suporte com muito PS, como Blissey. Use Espírito Max para manter a equipe viva."
+    }
+  },
+  "wants": {
+    "notifyMe": "🔔 Avise-me quando alguém hospedar este chefe",
+    "notifyMeSet": "✅ Você será avisado quando este chefe for hospedado",
+    "limitReached": "Você já tem o número máximo de notificações de reide configuradas."
+  },
+  "provisional": {
+    "estimateUpdating": "Estimativa, atualizando",
+    "estimateUpdatingDescription": "Os counters de alguns jogadores ainda estão sendo simulados. Esta é uma estimativa com as configurações padrão e se atualiza automaticamente.",
+    "servedTitle": "Estimado com as configurações padrão enquanto as suas são simuladas",
+    "setting": "{{label}}: {{served}} (pedido: {{requested}})",
+    "on": "Ativado",
+    "off": "Desativado",
+    "default": "Padrão",
+    "fields": {
+      "autoBattleParty": "Equipe",
+      "weatherCondition": "Clima",
+      "friendLevel": "Amizade",
+      "strategy": "Estratégia",
+      "dodgeStrategy": "Esquiva",
+      "sort": "Ordenação",
+      "includeLegendary": "Lendários",
+      "includeShadow": "Sombrosos",
+      "includeMegas": "Megas",
+      "numParty": "Equipes",
+      "primalAssistants": "Assistentes Primitivos",
+      "adventureEffects": "Efeitos de Aventura"
+    }
   }
 }

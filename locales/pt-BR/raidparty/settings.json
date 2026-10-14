@@ -24,20 +24,44 @@
     "correctness": "O nome correto do Treinador e o código do amigo são necessários para uma boa coordenação do grupo de reide",
     "numRemoteInvites": "Convites Remotos",
     "randomAssistants": "Jogadores Adicionais",
+    "maxBattleRole": "Função na Batalha Max",
+    "megaPokemon": "Sua Mega",
+    "megaAuto": "Automático (melhor classificada)",
+    "megaLevel": "Nível Mega",
     "karma": "Karma",
     "coins": "Coins",
     "theme": "Theme",
     "themeOptions": {
-      "system": "System Default",
+      "system": "Padrão do sistema",
       "light": "Light",
       "dark": "Dark"
     },
     "themeWarnings": {
       "light": "",
       "dark": "",
-      "system": "Requires app restart"
+      "system": "É preciso reiniciar o app"
     },
-    "friendCodeHint": "Paste your friend code here. It should be 12 digits, no spaces"
+    "artStyle": "Arte dos Pokémon",
+    "artStyleOptions": {
+      "default": "Clássica",
+      "goldfish": "CaptGoldfish"
+    },
+    "artStyleWarnings": {
+      "goldfish": "Arte estilizada disponível para alguns Pokémon"
+    },
+    "friendCodeHint": "Cole seu código de treinador aqui. Ele deve ter 12 dígitos, sem espaços"
+  },
+  "megaLevelOptions": {
+    "1": "Nível 1",
+    "2": "Nível 2",
+    "3": "Nível 3",
+    "4": "Nível 4"
+  },
+  "maxBattleRoleOptions": {
+    "ANY": "Qualquer",
+    "DPS": "Atacante (DPS)",
+    "TANK": "Protetor",
+    "HEALER": "Curandeiro"
   },
   "autoRaidPartyOptions": {
     "BATTLE_PARTY_POKEBOX": "Pokebox",
@@ -49,12 +73,23 @@
     "BATTLE_PARTY_LEVEL_45": "Nível 45",
     "BATTLE_PARTY_LEVEL_50": "Nível 50"
   },
+  "adventureEffects": {
+    "title": "Efeitos de Aventura",
+    "BEHEMOTH_BLADE": {
+      "label": "Espada Colossal (Zacian Coroado)",
+      "description": "+10% de dano causado em Reides, +5% em Batalhas Max"
+    },
+    "BEHEMOTH_BASH": {
+      "label": "Pancada Colossal (Zamazenta Coroado)",
+      "description": "+10% de defesa em Reides, +5% em Batalhas Max"
+    }
+  },
   "updateSetting": {
     "success": "Configurações do usuário atualizadas corretamente",
     "errors": {
       "updateSettingGeneral": "Houve um erro ao alterar suas configurações",
       "friendCodeLength": "O código de amigo deve ter exatamente 12 caracteres",
-      "themeSaveFailed": "Failed to save theme preference"
+      "themeSaveFailed": "Não foi possível salvar a preferência de tema"
     },
     "autoBattleParty": "Alternando counters para sua Pokebox"
   },
@@ -91,17 +126,38 @@
         "description": "Um jogador no seu grupo atualizou suas configurações."
       },
       "kickedUser": {
-        "name": "Kicked User",
-        "description": "User was kicked from party."
+        "name": "Usuário removido",
+        "description": "O usuário foi removido do grupo."
       },
       "raidInvitingNow": {
-        "name": "Raid Inviting",
-        "description": "Raid invites going out now"
+        "name": "Convites da reide",
+        "description": "Os convites da reide estão sendo enviados agora"
       },
       "raidStartingNow": {
-        "name": "Raid Starting",
-        "description": "Raid starting now"
+        "name": "Reide começando",
+        "description": "A reide está começando agora"
+      },
+      "raidMarket": {
+        "name": "Oferta e procura de reides",
+        "description": "Chefes que precisam de anfitriões, reides sobre as quais você pediu para ser avisado e outras novidades do mercado de reides."
       }
+    },
+    "pausedOffline": "Pausado enquanto você está Offline na página de Reides — ative o botão lá para retomar as notificações de reide."
+  },
+  "betaProgram": {
+    "title": "Programa beta",
+    "useBetaServers": "Usar servidores beta",
+    "hosts": "Usando agora {{api}} e {{auth}}",
+    "warning": "Os servidores beta recebem novos recursos primeiro e podem ficar mais lentos, errados ou fora do ar. Volte para produção se algo parecer quebrado.",
+    "restartRequired": "Reinicie o app para aplicar esta mudança.",
+    "join": {
+      "title": "Participe do beta do app",
+      "description": "As versões beta do app chegam dias ou semanas antes da versão na loja. Isso é separado da troca de servidor acima.",
+      "ios": "iPhone / iPad — TestFlight",
+      "iosInstructions": "Instale o app gratuito TestFlight da Apple pela App Store, depois abra o convite abaixo e toque em Aceitar e em Instalar. O TestFlight avisa sempre que uma nova versão beta estiver pronta.",
+      "android": "Android — Google Play",
+      "androidInstructions": "Abra o convite abaixo conectado ao Google Play com a conta que você usa no Pokebattler, toque em Tornar-se testador e depois atualize o Pokebattler pela Play Store. A Play Store passa a manter você nas versões beta automaticamente.",
+      "link": "Abrir o convite"
     }
   }
 }

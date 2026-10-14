@@ -1,4 +1,43 @@
 {
+  "ads": {
+    "watchToEarn": "Mira un anuncio para ganar {{coins}} monedas",
+    "rewardPending": "Abonando tus monedas…",
+    "rewardGranted": "¡Has ganado {{coins}} monedas!",
+    "notReady": "Todavía no hay ningún anuncio disponible. Inténtalo de nuevo en un momento.",
+    "failed": "No se pudo mostrar el anuncio. Inténtalo de nuevo más tarde.",
+    "primer": {
+      "title": "Pokebattler ahora tiene anuncios",
+      "body1": "Los costes de servidor de Pokebattler han aumentado mucho a medida que ha crecido la comunidad. Hemos añadido anuncios para ayudar a cubrirlos y mantener Pokebattler en marcha.",
+      "body2": "En la siguiente pantalla, iOS te preguntará si permites el seguimiento. Si aceptas, podremos mostrarte anuncios más relevantes, que generan más ingresos y ayudan a que Pokebattler siga funcionando y sea gratis para todos. Puedes cambiarlo cuando quieras en Ajustes > Privacidad y seguridad > Rastreo.",
+      "continue": "Continuar"
+    }
+  },
+  "coinHistory": {
+    "title": "Historial de monedas",
+    "recent": "Transacciones recientes",
+    "empty": "Todavía no hay transacciones.",
+    "loading": "Cargando…",
+    "types": {
+      "earnedAds": "Viste un anuncio",
+      "payment": "Compraste monedas",
+      "refund": "Reembolso",
+      "incomingVote": "Recibiste un voto",
+      "outgoingVote": "Diste un voto",
+      "joinEarly": "Te uniste pronto a una incursión",
+      "hostBoost": "Impulsaste una incursión"
+    }
+  },
+  "store": {
+    "coins": {
+      "title": "Comprar monedas",
+      "description": "Las monedas desbloquean impulsos para anfitriones de incursiones y más. Consíguelas gratis recibiendo un pulgar arriba o viendo un anuncio. Apoya la app comprando un paquete. ¡Los paquetes más grandes tienen grandes descuentos!",
+      "bonus": "+{{percent}}% extra",
+      "save": "Ahorra un {{percent}}%",
+      "unavailable": "Los paquetes de monedas no están disponibles ahora mismo. Inténtalo de nuevo más tarde.",
+      "purchaseComplete": "¡{{coins}} monedas añadidas!",
+      "disclosure": "Las monedas son una moneda virtual consumible para usar únicamente dentro de Pokebattler Raid Party. No tienen valor monetario, no son reembolsables y no se pueden canjear por dinero."
+    }
+  },
   "title": "Ingresar a Pokebattler",
   "meta": {
     "description": "Pokebattler almacena tus Pokemon de Pokemon Go como rápidos atacantes de raids y más!"
@@ -18,6 +57,8 @@
     "device": "Saltar",
     "loginReason": "Autentícate para habilitar funcionalidad de la plataforma entre dispositivos para tu cuenta en el sitio web Pokebattler.com y con aplicaciones de terceros como bots Discord",
     "emailReason": "Pokebattler usa tu dirección de e-mail únicamente para enlazar tu cuenta y dar soporte de usuario.",
+    "appleUnknownError": "No se pudo completar el inicio de sesión con Apple. Asegúrate de haber iniciado sesión en iCloud con tu ID de Apple en Ajustes y vuelve a intentarlo.",
+    "incomplete": "El inicio de sesión no terminó. Toca el botón de inicio de sesión y vuelve a intentarlo.",
     "patreonDescription": "Pokebattler ahora soporta suscripciones directas de Stripe! Recomendamos encarecidamente a los suscriptores actuales por Patreon a migrarse a los nuevos planes de suscripción. Usuarios de paises donde Stripe no ofrece soporte como Brasil o México así como usuarios que deseen pagar a través de Paypal deberían continuar utilizando Patreon.",
     "success": {
       "title": "Sesión iniciada exitosamente",
@@ -107,7 +148,7 @@
         "complete": "Reproceso completado",
         "noneFound": "No hay compras anteriores en este Apple ID"
       },
-      "freeTrial": "Your account will be charged after the free trial period ends. You may cancel your subscription before the free trial ends to avoid any charges."
+      "freeTrial": "Se te cobrará cuando termine el periodo de prueba gratuito. Puedes cancelar tu suscripción antes de que termine la prueba gratuita para evitar cualquier cargo."
     },
     "paymentRequest": "Suscripción en un click",
     "paymentRequestDescription": "One Click Subscribe está soportado en la mayoría de los dispositivos móviles. Puedes también elegir para ingresar tu información más abajo en su lugar",
@@ -221,7 +262,7 @@
     },
     "upsell": {
       "rankingByType": "Los suscriptores tienen acceso a características clasificatorias que son muy caras para dárselas a todos, ¡incluyendo clasificación por tipo!",
-      "premium": "Premium ranking features"
+      "premium": "Funciones de clasificación premium"
     },
     "transaction": {
       "start": "Procesando suscripción",
@@ -237,7 +278,8 @@
       "verification": "¡No se pudo verificado la transacción! Por favor contacta a admin@pokebattler.com",
       "store": "Error al conectarse a la tienda",
       "restore": "¡No se pudieron recuperar las transacciones! Por favor contacta a admin@pokebattler.com",
-      "transactionRestore": "No se pudo aplicar la transacción. Por favor autentícate en tu cuenta original o contacta admin@pokebattler.com"
+      "transactionRestore": "No se pudo aplicar la transacción. Por favor autentícate en tu cuenta original o contacta admin@pokebattler.com",
+      "differentAccount": "Esta compra pertenece a otra cuenta de Pokébattler, así que no se ha restaurado."
     }
   },
   "roles": {
@@ -271,8 +313,8 @@
       "ROLE_BATTLER": "Battler",
       "ROLE_CHAMPION": "Champion"
     },
-    "maxNumParty": "Max Party Power Size",
-    "globalRaidHeadStartMs": "Global Raid Head Start"
+    "maxNumParty": "Tamaño máximo de Party Power",
+    "globalRaidHeadStartMs": "Ventaja en incursiones globales"
   },
   "userSubscription": {
     "createdAt": {
@@ -375,6 +417,20 @@
       "value": "{{subscriptionPlatform}} - {{role}}"
     }
   },
+  "mcp": {
+    "title": "Acceso MCP para Claude",
+    "subtitle": "Usa las simulaciones de Pokebattler dentro de tu propio Claude",
+    "description": "Los suscriptores pueden conectar Claude (Claude Code o Claude Desktop) directamente al simulador de combates de Pokebattler. Pídele a Claude contadores de incursión, simulaciones de combate, movimientos y efectividades de tipo, con el mismo motor que este sitio.",
+    "generateButton": "Generar token MCP",
+    "tokenLabel": "Tu token MCP",
+    "commandLabel": "Comando de configuración de Claude Code",
+    "geminiCommandLabel": "Comando de configuración de Gemini CLI",
+    "codexConfigLabel": "Configuración de OpenAI Codex: añádelo a ~/.codex/config.toml",
+    "expires": "Este token es válido hasta",
+    "keepSecret": "Trátalo como una contraseña: cualquiera con este token puede usar tu suscripción. Genera un token nuevo para reemplazarlo.",
+    "subscribePrompt": "El acceso MCP está incluido en las suscripciones Standard y superiores.",
+    "error": "No se pudo generar un token. Inténtalo de nuevo o contacta con soporte."
+  },
   "countryCodes": {
     "AU": "Australia",
     "AT": "Austria",
@@ -402,6 +458,13 @@
     "BG": "Bulgaria",
     "HU": "Hungary"
   },
+  "lostAccess": {
+    "title": "¿Perdiste el acceso a tu cuenta o pagas pero no ves tu suscripción?",
+    "description": "Si te suscribiste en el pasado pero aquí no aparece nada, o ya no puedes acceder al correo o la cuenta con la que te suscribiste, podemos encontrarla: escríbenos antes de presentar una reclamación al banco. Incluye cualquier dato de tu recibo (número de recibo, número de factura o los últimos 4 dígitos de tu tarjeta) y localizaremos tu suscripción para pasarla a tu cuenta actual, cancelarla o reembolsarla. Normalmente respondemos en menos de 24 horas.",
+    "emailSubject": "Ayúdame a encontrar mi cuenta o suscripción de Pokebattler"
+  },
+  "loadingPokemon": "Cargando datos de Pokémon…",
+  "loadingData": "Preparándolo todo…",
   "defaultName": "$t(user:user) #{{userId}}",
   "sponsor": {
     "title": "Soporte {{app}}",
@@ -464,6 +527,14 @@
         "name": "Minpoke",
         "app": "Minpoke",
         "iconUrl": "https://static.pokebattler.com/images/minpokelogo.png"
+      },
+      "leekduck": {
+        "description": "LeekDuck.com es la fuente de referencia para calendarios de eventos de Pokémon GO, listas de jefes de incursión, tareas de investigación y huevos",
+        "quote": "¡Encantados de colaborar con Pokebattler! Tu suscripción ayuda a que las guías y herramientas de eventos de LeekDuck sigan siendo gratis para todos los Entrenadores.",
+        "thanks": "¡Gracias por patrocinar a LeekDuck! Tu apoyo hace posible que sigan llegando las guías de eventos.",
+        "name": "LeekDuck",
+        "app": "LeekDuck.com",
+        "iconUrl": "https://leekduck.com/assets/img/favicon/apple-touch-icon.png"
       }
     }
   },
@@ -480,13 +551,30 @@
       "title": "Cuenta enlazada con éxito"
     }
   },
+  "account": {
+    "title": "Tu cuenta",
+    "email": "Correo electrónico",
+    "noEmail": "No hay correo registrado",
+    "linkedAccounts": "Cuentas vinculadas",
+    "linked": "Vinculada",
+    "notLinked": "No vinculada",
+    "noneLinked": "Aún no hay ningún inicio de sesión vinculado a esta cuenta. Vincula uno abajo para no perder tu Pokebox si cambias de dispositivo.",
+    "providers": {
+      "google": "Google",
+      "apple": "Apple",
+      "facebook": "Facebook",
+      "discord": "Discord",
+      "patreon": "Patreon",
+      "device": "Solo este dispositivo"
+    }
+  },
   "delete": {
-    "title": "Remove your Pokebattler account",
-    "privacy": "Pokebattler protects your privacy. The only personal data collected for your account is your email address. We only use the email address for account support and linking accounts, never for spam emails. ",
-    "description": "Not using your account and never coming back? You can delete your account from the Pokebattler servers. This will NOT affect your actual Pokemon Go account because we aren't Niantic",
-    "confirmation": "Account removal is permanent and can not be undone! Are you sure?",
-    "success": "Your account has been successfully deleted. You can recreate an empty account by logging back in again.",
-    "back": "Back to Pokebattler",
-    "button": "Delete Account"
+    "title": "Eliminar tu cuenta de Pokebattler",
+    "privacy": "Pokebattler protege tu privacidad. El único dato personal que recopilamos para tu cuenta es tu dirección de correo electrónico. Solo la usamos para el soporte de la cuenta y para vincular cuentas, nunca para enviar spam. ",
+    "description": "¿Ya no usas tu cuenta y no piensas volver? Puedes eliminar tu cuenta de los servidores de Pokebattler. Esto NO afectará a tu cuenta real de Pokémon GO, porque no somos Niantic",
+    "confirmation": "¡La eliminación de la cuenta es permanente y no se puede deshacer! ¿Estás seguro?",
+    "success": "Tu cuenta se ha eliminado correctamente. Puedes crear una cuenta vacía nueva volviendo a iniciar sesión.",
+    "back": "Volver a Pokebattler",
+    "button": "Eliminar cuenta"
   }
 }

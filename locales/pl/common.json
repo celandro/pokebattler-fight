@@ -29,7 +29,15 @@
   "find": "Znajdź",
   "rejoin": {
     "label": "Czas Ponownego Dołączenia",
-    "default": "Nigdy"
+    "default": "Nigdy",
+    "never": "Nigdy",
+    "defaultSuffix": "(domyślnie)",
+    "techniques": "Techniki raidów solo",
+    "techniqueOptions": {
+      "REJOIN": "Ponowne dołączenie (7 sekund)",
+      "ADVANCED_REJOIN": "Zaawansowane ponowne dołączenie (5,5 sekundy)",
+      "DOUBLE_BATTLE_PARTY": "Podwójna drużyna (co drugie ponowne dołączenie o 40% szybciej)"
+    }
   },
   "stats": {
     "attack": "Atak",
@@ -86,14 +94,32 @@
     "rank": "Rank",
     "points": "Points",
     "matchups": "Matchups",
-    "avg_estimator": "Avg. Estimator",
-    "dynamaxEnergy": "Max Energy"
+    "avg_estimator": "Śr. Estymator",
+    "dynamaxEnergy": "Energia Max",
+    "total_heal": "Łączne leczenie",
+    "total_shield": "Łączna tarcza",
+    "heal_rating": "Ocena leczenia",
+    "shield_rating": "Ocena osłaniającego",
+    "tank_rating": "Ocena osłaniającego",
+    "survival": "Przetrwanie",
+    "attack_rating": "Ocena ataku",
+    "tank": "Ocena osłaniającego",
+    "charger": "Ocena obrońcy",
+    "meter_charge": "Ocena ładującego",
+    "spread_survival": "Przetrwa 2 ataki obszarowe",
+    "survives_to_enrage": "Przetrwa do wściekłości",
+    "survival_time": "Czas przetrwania"
   },
   "sectionLinks": {
     "help": "Sekcja pomocy",
     "about": "O tej sekcji"
   },
-  "simulation": "Symulacja była",
+  "simulation": {
+    "starting": "Uruchamianie symulacji…",
+    "running": "Symulowanie…",
+    "eta": "Symulowanie… ~{{eta}} s",
+    "busy": "Serwer zajęty, ponawiam…"
+  },
   "simulation_plural": "{{count, commas}} symulacje były",
   "chooseMovesetLabel": "Wybierz Zestaw Ataków",
   "hd": {
@@ -142,7 +168,9 @@
     "subscription": "Subskrypcja",
     "newVersion": "Nowe Wydanie",
     "calculating": "Obliczanie",
-    "share": "Udostępnij"
+    "share": "Udostępnij",
+    "loadingPartyDetails": "Wczytywanie szczegółów drużyny…",
+    "noPartySelected": "Nie wybrano drużyny raidowej"
   },
   "message": {
     "bulk": "Zbiorowe importowanie {{num}} pokemonów, to może chwilę potrwać",
@@ -163,13 +191,15 @@
     "subscriptionCardUpdateSuccess": "Udana aktualizacja informacji na temat płatności",
     "subscriptionCardUpdateFailure": "Nie udało się aktualizować informacji na temat płatności",
     "calculating": "Trwa obliczanie. Minęło {{elapsed}} sekund.",
+    "simulationTimeout": "Symulacja trwa dłużej niż zwykle. Spróbuj ponownie za minutę, może będzie już gotowa.",
+    "simulationFailed": "Symulacja nie powiodła się. Spróbuj ponownie za minutę.",
     "clipboard": "Skopiowano! Gotowe Do Wklejenia",
     "share": "Udostępnij Swoim Przyjaciołom",
-    "network": "Network error. Network connection is required for this app.",
-    "serverDown": "Pokebattler servers are down. They will be back shortly",
-    "appUpdate": "Minor app update failed. Will try again next time you open the app",
-    "newAppVersion": "New update is downloaded, updating in 15s...",
-    "updateNow": "Update Now"
+    "network": "Błąd sieci. Ta aplikacja wymaga połączenia z internetem.",
+    "serverDown": "Serwery Pokebattlera nie działają. Wkrótce wrócą",
+    "appUpdate": "Nie udało się pobrać drobnej aktualizacji. Spróbujemy ponownie przy następnym uruchomieniu aplikacji",
+    "newAppVersion": "Pobrano nową aktualizację, aktualizacja za 15 s...",
+    "updateNow": "Aktualizuj teraz"
   },
   "share": {
     "title": "Sprawdź tą stronę Pokebattler sam!",
@@ -257,8 +287,10 @@
       "terms": "Terms",
       "tutorials": "Tutorials",
       "attackers": "Attackers",
-      "raidNetworkDiscords": "Raid Network",
-      "infographics": "Infographics"
+      "raidNetworkDiscords": "Sieć raidów",
+      "infographics": "Infographics",
+      "guides": "Poradniki",
+      "max": "Walki Max"
     },
     "description": {
       "gym": "Symulacje Walk Na Arenie, Pokedex i Rankingi",
@@ -272,7 +304,8 @@
       "help": "Tutoriale, Terminy i Definicje",
       "account": "Dostosuj Pokebattler Do Swoich Potrzeb Poprzez Dodawanie Pokemonów Do Swojego Pokeboxa i Drużyn",
       "profiles": "Znajdź jakie Pokemony twoi przyjaciele mają w swoich Pokeboxach",
-      "more": "Aktualności, Artykuły, Tłumaczenia, Jak Się z Nami Skontaktować i Więcej"
+      "more": "Aktualności, Artykuły, Tłumaczenia, Jak Się z Nami Skontaktować i Więcej",
+      "max": "Najlepsze Kontry i Symulacje Walk Dynamax i Gigantamax"
     },
     "tooltip": {
       "gym": "Symulacje walk na arenie, Pokedex, rankingi atakujących i obrońców oraz więcej informacji o Pokemon GO",
@@ -340,7 +373,7 @@
   },
   "placeholders": {
     "dropdown": {
-      "required": "Please Choose",
+      "required": "Wybierz",
       "optional": "Optional"
     }
   },
@@ -349,7 +382,7 @@
   "search": "Search",
   "filter": "Filter",
   "update": "Update",
-  "friendCode": "Friend Code",
+  "friendCode": "Kod przyjaciela",
   "weakness": "Weakness",
   "difficulty": "Difficulty",
   "version": "Version {{version}}",
@@ -357,29 +390,76 @@
   "gigantamax": "Gigantamax",
   "unavailable": "Unavailable",
   "auto": "Auto",
-  "includeShadow": "Show Shadow Pokemon",
-  "includeLegendary": "Show Legendary Pokemon",
-  "includeMegas": "Show Mega Pokemon",
-  "includeTypes": "Choose Type",
-  "primalAssistants": "Active Primal Boosts",
-  "choosePokemonLabel": "Choose Pokemon",
+  "includeShadow": "Pokaż Pokémony Shadow",
+  "includeLegendary": "Pokaż legendarne Pokémony",
+  "includeMegas": "Pokaż Mega Pokémony",
+  "includeTypes": "Wybierz typ",
+  "primalAssistants": "Aktywne wzmocnienia Primal",
+  "adventureEffects": {
+    "title": "Efekty Przygody",
+    "description": "Aktywne Efekty Przygody. Behemoth Blade (Zacian): +10% zadawanych obrażeń w Raidach, +5% w Walkach Max. Behemoth Bash (Zamazenta): +10% obrony w Raidach, +5% w Walkach Max."
+  },
+  "choosePokemonLabel": "Wybierz Pokémona",
   "harmony": "Harmony",
-  "discordName": "Discord Username",
-  "mega": "Mega",
+  "discordName": "Nazwa użytkownika Discord",
+  "mega": {
+    "title": "Twoja Mega",
+    "description": "Która z Twoich Meg prowadzi drużynę zbudowaną z Twojego Pokeboxa. Auto wybiera najwyżej ocenioną Megę. Włącz bonusowe cukierki, aby najpierw pokazać Megi, które mają wspólny typ z bossem - Mega Ewolucja jednej z nich daje dodatkowe cukierki przy łapaniu.",
+    "auto": "Auto (najwyżej oceniona)",
+    "candyFirst": "🍬 Najpierw bonusowe cukierki"
+  },
   "megas": "Megas",
   "xlcandy": {
-    "title": "XL Candy Available"
+    "title": "Dostępne cukierki XL"
   },
   "numParty": {
-    "title": "Party Power",
-    "description": "The number of players in your party who are in the raid with you."
+    "title": "Siła drużyny",
+    "description": "Liczba graczy z Twojej drużyny, którzy są z Tobą w raidzie."
   },
   "numMegas": {
-    "title": "Additional Megas",
-    "description": "The number of additional megas brought by other players. Megas will be staggered to increase the uptime of the mega buff."
+    "title": "Dodatkowe Megi",
+    "description": "Liczba dodatkowych Meg przyprowadzonych przez innych graczy. Megi są rozkładane w czasie, aby wydłużyć działanie wzmocnienia Mega."
+  },
+  "megaLevel": {
+    "title": "Poziom Mega",
+    "description": "Poziom Mega Megi w walce. Poziomy Mega 2-4 wzmacniają ekskluzywny atak specjalny \"+\" Megi. Domyślnie używany jest najwyższy poziom 4.",
+    "options": {
+      "1": "Poziom Mega 1",
+      "2": "Poziom Mega 2",
+      "3": "Poziom Mega 3",
+      "4": "Poziom Mega 4 (domyślnie)"
+    }
   },
   "legacyDate": "{{legacyDate,shortDate}}",
   "from": "From",
   "until": "Until",
-  "localTime": "Local Time"
+  "localTime": "Czas lokalny",
+  "partyGrid": {
+    "title": "Wybierz Pokemony",
+    "addPokemon": "Dodaj Pokemona",
+    "pokebox": "Mój Pokebox",
+    "generic": "Własny Pokemon",
+    "choosePokemon": "Wybierz Pokemona",
+    "use": "Użyj Pokemona",
+    "edit": "Edytuj",
+    "remove": "Usuń",
+    "moveLeft": "Przesuń w lewo",
+    "moveRight": "Przesuń w prawo",
+    "saveToPokebox": "Zapisz w Pokeboxie",
+    "savedToPokebox": "Zapisano w Pokeboxie!",
+    "loginPrompt": "Zaloguj się, aby wybierać Pokemony z Pokeboxa. Nadal możesz zbudować drużynę z własnych Pokemonów.",
+    "pokeboxEmpty": "Nie znaleziono Pokemonów Dynamax w Twoim Pokeboxie.",
+    "savePartyName": "Nazwa drużyny",
+    "saveParty": "Zapisz jako drużynę",
+    "savePartyLogin": "Zaloguj się, aby zapisać tę drużynę",
+    "savePartyPokeboxOnly": "Przed zapisaniem drużyny zapisz każdego własnego Pokemona w Pokeboxie.",
+    "customParty": "Albo zbuduj własną drużynę - bez logowania:"
+  },
+  "edit": "Edytuj",
+  "close": "Zamknij",
+  "form": {
+    "validation": {
+      "required": "Wymagane"
+    }
+  }
 }
