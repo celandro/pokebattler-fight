@@ -276,7 +276,8 @@
       "restore": "Nie udało się przywrócić transakcji! Skontaktuj się z admin@pokebattler.com",
       "transactionRestore": "Nie można zastosować transakcji. Zaloguj się na pierwotne konto lub skontaktuj się z admin@pokebattler.com",
       "differentAccount": "Ten zakup należy do innego konta Pokébattler, więc nie został przywrócony."
-    }
+    },
+    "pending": "Twoja płatność oczekuje na realizację. Zakup zostanie zastosowany automatycznie po jej zakończeniu."
   },
   "roles": {
     "title": "Informacje o Koncie",

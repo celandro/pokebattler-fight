@@ -58,6 +58,9 @@
     },
     "form": {
       "label": "Form"
+    },
+    "megaFormLevel": {
+      "label": "{{form}}-Level"
     }
   },
   "poketile": {

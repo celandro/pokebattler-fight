@@ -118,6 +118,9 @@
     "quickMove": {
       "label": "Movimento Rápido",
       "placeholder": "$t(common:placeholders.dropdown.required)"
+    },
+    "megaFormLevel": {
+      "label": "Nível de {{form}}"
     }
   },
   "errors": {

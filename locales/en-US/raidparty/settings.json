@@ -154,11 +154,12 @@
         "join": {
             "title": "Join the app beta",
             "description": "Beta app builds arrive days or weeks before the store release. This is separate from the server switch above.",
-            "ios": "iPhone / iPad \u2014 TestFlight",
+            "ios": "iPhone / iPad — TestFlight",
             "iosInstructions": "Install Apple's free TestFlight app from the App Store, then open the invite below and tap Accept, then Install. TestFlight tells you whenever a new beta build is ready.",
-            "android": "Android \u2014 Google Play",
+            "android": "Android — Google Play",
             "androidInstructions": "Open the invite below while signed in to Google Play with the account you use for Pokebattler, tap Become a tester, then update Pokebattler from the Play Store. Play then keeps you on beta builds automatically.",
             "link": "Open the invite"
-        }
+        },
+        "unreachable": "Beta servers could not be reached, so this session is using production. Turn the switch off to stay on production."
     }
 }

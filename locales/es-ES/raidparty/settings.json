@@ -158,6 +158,7 @@
       "android": "Android — Google Play",
       "androidInstructions": "Abre la invitación de abajo con la sesión iniciada en Google Play con la cuenta que usas para Pokebattler, toca Convertirse en tester y luego actualiza Pokebattler desde Play Store. Play te mantendrá en las versiones beta automáticamente.",
       "link": "Abrir la invitación"
-    }
+    },
+    "unreachable": "No se pudo conectar con los servidores beta, así que esta sesión usa producción. Desactiva el interruptor para seguir en producción."
   }
 }

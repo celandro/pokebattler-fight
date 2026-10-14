@@ -139,7 +139,6 @@
         "back": "Back to Pokebattler",
         "button": "Delete Account"
     },
-
     "subscribed": {
         "title": "Thank You For Your Support",
         "meta": {
@@ -321,7 +320,8 @@
             "restore": "Could not restore transactions! Please contact admin@pokebattler.com",
             "transactionRestore": "Can not apply transaction. Please log in on original account or contact admin@pokebattler.com",
             "differentAccount": "This purchase belongs to a different Pokébattler account, so it wasn't restored."
-        }
+        },
+        "pending": "Your payment is pending. Your purchase will be applied automatically once it completes."
     },
     "roles": {
         "title": "Account Information",

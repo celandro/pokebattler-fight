@@ -67,6 +67,9 @@
     },
     "form": {
       "label": "Forma"
+    },
+    "megaFormLevel": {
+      "label": "Nivel de {{form}}"
     }
   },
   "poketile": {

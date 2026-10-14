@@ -312,7 +312,8 @@
       "restore": "Impossível restaurar transações! Entre em contato com admin@pokebattler.com",
       "transactionRestore": "Não é possível aplicar a transação. Faça login na conta original ou entre em contato com admin@pokebattler.com",
       "differentAccount": "Esta compra pertence a outra conta do Pokébattler, então não foi restaurada."
-    }
+    },
+    "pending": "Seu pagamento está pendente. Sua compra será aplicada automaticamente assim que for concluída."
   },
   "raidParty": {
     "title": "Configurações do Grupo de Reide",

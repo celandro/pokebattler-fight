@@ -354,7 +354,8 @@
       "restore": "Transaktionen konnten nicht wiederhergestellt werden! Bitte wende dich an admin@pokebattler.com",
       "transactionRestore": "Transaktion kann nicht angewendet werden. Melde dich mit dem ursprünglichen Konto an oder wende dich an admin@pokebattler.com",
       "differentAccount": "Dieser Kauf gehört zu einem anderen Pokébattler-Konto und wurde daher nicht wiederhergestellt."
-    }
+    },
+    "pending": "Deine Zahlung ist noch ausstehend. Dein Kauf wird automatisch angewendet, sobald sie abgeschlossen ist."
   },
   "userSubscription": {
     "createdAt": {

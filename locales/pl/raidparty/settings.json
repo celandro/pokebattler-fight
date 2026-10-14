@@ -158,6 +158,7 @@
       "android": "Android — Google Play",
       "androidInstructions": "Otwórz zaproszenie poniżej, będąc zalogowanym w Google Play na koncie, którego używasz w Pokebattler, naciśnij Zostań testerem, a następnie zaktualizuj Pokebattler w Sklepie Play. Play będzie wtedy automatycznie dostarczać Ci wersje beta.",
       "link": "Otwórz zaproszenie"
-    }
+    },
+    "unreachable": "Nie udało się połączyć z serwerami beta, więc ta sesja korzysta z produkcji. Wyłącz przełącznik, aby pozostać na produkcji."
   }
 }

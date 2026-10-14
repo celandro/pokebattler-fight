@@ -280,7 +280,8 @@
       "restore": "¡No se pudieron recuperar las transacciones! Por favor contacta a admin@pokebattler.com",
       "transactionRestore": "No se pudo aplicar la transacción. Por favor autentícate en tu cuenta original o contacta admin@pokebattler.com",
       "differentAccount": "Esta compra pertenece a otra cuenta de Pokébattler, así que no se ha restaurado."
-    }
+    },
+    "pending": "Tu pago está pendiente. Tu compra se aplicará automáticamente en cuanto se complete."
   },
   "roles": {
     "title": "Información de Cuenta",
