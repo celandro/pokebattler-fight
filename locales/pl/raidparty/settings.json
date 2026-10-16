@@ -49,7 +49,9 @@
     "friendCode": "Kod przyjaciela",
     "discordConnect": "Sieć Pokebattler Raid Party obejmuje raidy koordynowane przez Discord. Aby dołączyć do raidu na Discordzie, połącz konto Pokebattler z nowym lub istniejącym kontem Discord.",
     "correctness": "Poprawna nazwa trenera i kod przyjaciela są wymagane do sprawnej koordynacji Raid Party",
-    "friendCodeHint": "Wklej tutaj swój kod przyjaciela. Powinien mieć 12 cyfr, bez spacji"
+    "friendCodeHint": "Wklej tutaj swój kod przyjaciela. Powinien mieć 12 cyfr, bez spacji",
+    "hostNeedsFriendCode": "Aby hostować, podaj nazwę trenera i kod znajomego: każdy, kto dołączy, wyśle Ci zaproszenie do znajomych.",
+    "backToHosting": "Wróć do hostowania"
   },
   "megaLevelOptions": {
     "1": "Poziom 1",

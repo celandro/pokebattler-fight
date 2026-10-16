@@ -49,7 +49,9 @@
     "artStyleWarnings": {
       "goldfish": "Arte estilizada disponível para alguns Pokémon"
     },
-    "friendCodeHint": "Cole seu código de treinador aqui. Ele deve ter 12 dígitos, sem espaços"
+    "friendCodeHint": "Cole seu código de treinador aqui. Ele deve ter 12 dígitos, sem espaços",
+    "hostNeedsFriendCode": "Para hospedar, informe seu nome de treinador e código de amigo: todos que entrarem vão te enviar um convite de amizade.",
+    "backToHosting": "Voltar para hospedar"
   },
   "megaLevelOptions": {
     "1": "Nível 1",

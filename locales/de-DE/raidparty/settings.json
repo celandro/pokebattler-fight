@@ -49,7 +49,9 @@
     "friendCode": "Freundescode",
     "discordConnect": "Das Pokebattler Raid Party Network umfasst Raids, die über Discord koordiniert werden. Um einem Discord-Raid beizutreten, verknüpfe dein Pokebattler-Konto mit einem neuen oder bestehenden Discord-Konto.",
     "correctness": "Für eine reibungslose Koordination der Raid Party brauchst du den richtigen Trainernamen und Freundescode",
-    "friendCodeHint": "Füge hier deinen Freundescode ein. Er sollte 12 Ziffern ohne Leerzeichen haben"
+    "friendCodeHint": "Füge hier deinen Freundescode ein. Er sollte 12 Ziffern ohne Leerzeichen haben",
+    "hostNeedsFriendCode": "Zum Hosten brauchst du deinen Trainernamen und Freundescode: Alle, die beitreten, schicken dir eine Freundschaftsanfrage.",
+    "backToHosting": "Zurück zum Hosten"
   },
   "megaLevelOptions": {
     "1": "Level 1",

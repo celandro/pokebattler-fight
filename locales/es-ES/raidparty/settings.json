@@ -49,7 +49,9 @@
     "artStyleWarnings": {
       "goldfish": "Arte estilizado disponible para algunos Pokémon"
     },
-    "friendCodeHint": "Pega tu código de amigo aquí. Debe tener 12 dígitos, sin espacios"
+    "friendCodeHint": "Pega tu código de amigo aquí. Debe tener 12 dígitos, sin espacios",
+    "hostNeedsFriendCode": "Para ser anfitrión necesitas tu nombre de entrenador y código de amigo: todos los que se unan te enviarán una invitación de amistad.",
+    "backToHosting": "Volver a ser anfitrión"
   },
   "megaLevelOptions": {
     "1": "Nivel 1",
