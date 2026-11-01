@@ -3072,7 +3072,19 @@
     "BRAVE_BIRD_PLUS": "ेव बड+",
     "BRAVE_BIRD_PLUS_2": "$t(constants:moves.BRAVE_BIRD_PLUS) 2",
     "BRAVE_BIRD_PLUS_3": "$t(constants:moves.BRAVE_BIRD_PLUS) 3",
-    "BRAVE_BIRD_PLUS_4": "$t(constants:moves.BRAVE_BIRD_PLUS) 4"
+    "BRAVE_BIRD_PLUS_4": "$t(constants:moves.BRAVE_BIRD_PLUS) 4",
+    "NIGHT_SHADE_PLUS": "नाइट शेड+",
+    "NIGHT_SHADE_PLUS_2": "$t(constants:moves.NIGHT_SHADE_PLUS) 2",
+    "NIGHT_SHADE_PLUS_3": "$t(constants:moves.NIGHT_SHADE_PLUS) 3",
+    "NIGHT_SHADE_PLUS_4": "$t(constants:moves.NIGHT_SHADE_PLUS) 4",
+    "DISCHARGE_PLUS": "डचाज+",
+    "DISCHARGE_PLUS_2": "$t(constants:moves.DISCHARGE_PLUS) 2",
+    "DISCHARGE_PLUS_3": "$t(constants:moves.DISCHARGE_PLUS) 3",
+    "DISCHARGE_PLUS_4": "$t(constants:moves.DISCHARGE_PLUS) 4",
+    "OMINOUS_WIND_PLUS": "ऑमनस+",
+    "OMINOUS_WIND_PLUS_2": "$t(constants:moves.OMINOUS_WIND_PLUS) 2",
+    "OMINOUS_WIND_PLUS_3": "$t(constants:moves.OMINOUS_WIND_PLUS) 3",
+    "OMINOUS_WIND_PLUS_4": "$t(constants:moves.OMINOUS_WIND_PLUS) 4"
   },
   "types": {
     "POKEMON_TYPE_ALL": "All",
